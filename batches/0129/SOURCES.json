@@ -1,0 +1,320 @@
+{
+  "batch": "0129",
+  "scope": "Thirteen licensed complete article textual XML extractions. Graphics/media references removed; access-grant parameters removed where present. Not byte-identical originals.",
+  "new_canonical_source_objects": 13,
+  "new_original_payload_paths": 13,
+  "files": [
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-84581348d8bc/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-84581348d8bc/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8591942/fullTextXML",
+      "title": "Using patient feedback to adapt intervention materials based on acceptance and commitment therapy for people receiving renal dialysis",
+      "size_bytes": 94049,
+      "sha256": "ffc268ef118f254c5a83e82e27a9295586bdb737ba86c061f8665a674fd3147a",
+      "git_blob_sha1": "9edbe8d41b3864e2f9a947c67f3c5600b003ba5c",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-84581348d8bc"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s12894-021-00921-5",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8591942/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8591942/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8591942/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-a2cf3afb26da/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-a2cf3afb26da/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13038703/fullTextXML",
+      "title": "Design guidelines for animated data visualization based on perceptual capacity limits",
+      "size_bytes": 132150,
+      "sha256": "851f62abe99e0706cf1129e4a92319ca67f0a4d64109bb6c743abccb9cee7837",
+      "git_blob_sha1": "e68e101572eeaf2116851589ceb27e457e9d5030",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-a2cf3afb26da"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s41235-026-00724-y",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13038703/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13038703/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13038703/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-b961366a1021/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-b961366a1021/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10631193/fullTextXML",
+      "title": "Incorporation of patient and public involvement in statistical methodology research: development of an animation",
+      "size_bytes": 46708,
+      "sha256": "faa6c27d954cc73f869c0d42985b778d638dae83a016ad80520f59f42c8228a7",
+      "git_blob_sha1": "3fa192c409ce511cd1da1c3ab522fc875d27290f",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-b961366a1021"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s40900-023-00513-7",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10631193/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10631193/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10631193/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-7c079cb4ecff/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-7c079cb4ecff/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11143628/fullTextXML",
+      "title": "The power of animation: encouraging doctors to access support for psychological wellbeing",
+      "size_bytes": 101124,
+      "sha256": "eef69529936a20d3337e3f15f870b03507fc9e06dfd7fe146c6f0a6e5ffb3e4a",
+      "git_blob_sha1": "f867bcd18847d68d06eb8140ac815baff3c65cca",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-7c079cb4ecff"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s40359-024-01821-7",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11143628/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11143628/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11143628/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-1c72ee369984/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-1c72ee369984/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12013044/fullTextXML",
+      "title": "Co-design and prototype development of MedManageSCI: a medication self-management toolkit for adults with spinal cord injury/dysfunction",
+      "size_bytes": 158667,
+      "sha256": "62b402be235d55df564aedfca62a9b08db51e5a1b08654f07bdcfe35ffde0dd9",
+      "git_blob_sha1": "b8b9acb6f5ca622a7a01a9d252717a69352be318",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-1c72ee369984"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s12913-025-12705-w",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12013044/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12013044/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12013044/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-8adf4c58ccf1/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-8adf4c58ccf1/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9074234/fullTextXML",
+      "title": "Translating qualitative data into intervention content using the Theoretical Domains Framework and stakeholder co-design: a worked example from a study of cervical screening attendance in older women",
+      "size_bytes": 135170,
+      "sha256": "62d442bd8be09eb38ebe3643ed8060f922d428fe508cba7a4349a5ce71eac128",
+      "git_blob_sha1": "a5952251cd5b80197d9fb5a7413ba4189344c064",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-8adf4c58ccf1"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s12913-022-07926-2",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9074234/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9074234/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9074234/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-2f69bacab50e/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-2f69bacab50e/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9578343/fullTextXML",
+      "title": "Improving communication of the concept of 'treat-to target' in childhood lupus: a public and patient (PPI) engagement project involving children and young people",
+      "size_bytes": 79124,
+      "sha256": "3ee13bca5bcdb75f3925a5d87ed75374114fd7be2f8adb68c1b47e24c19f62de",
+      "git_blob_sha1": "7b4dd4f86ea1696f8d415b83afe8eac825dbe1f3",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-2f69bacab50e"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s41927-022-00300-z",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9578343/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9578343/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9578343/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-d238452cce06/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-d238452cce06/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11753093/fullTextXML",
+      "title": "Developing generic clinical trial animated explainer videos in the UK: results of a survey and case study",
+      "size_bytes": 92760,
+      "sha256": "0a160079d7824110d016741e1fdfd5ea9dcc2abd1a666e82312833c721f2f92e",
+      "git_blob_sha1": "0a014e387dc9ee872c2c12aff2b7fb19f765a912",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-d238452cce06"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s13063-024-08687-5",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11753093/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11753093/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11753093/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-945bf412ad06/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-945bf412ad06/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7316978/fullTextXML",
+      "title": "Development and mixed-methods evaluation of an online animation for young people about genome sequencing",
+      "size_bytes": 99530,
+      "sha256": "736eca1df6083ab3f1144846db1174835ebab810c79cc6957e1aadd2cb5877e5",
+      "git_blob_sha1": "87a66b0a691c44bd52d131a44669ca5047e312ce",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-945bf412ad06"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1038/s41431-019-0564-5",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7316978/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7316978/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7316978/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-4ca76fb7320d/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-4ca76fb7320d/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7276065/fullTextXML",
+      "title": "The impact of active research involvement of young children in the design of a new stereotest",
+      "size_bytes": 79714,
+      "sha256": "b76acf727b432e9a0269a785572010e299134831e0d9d81b04ca4b070fad4084",
+      "git_blob_sha1": "93ff5750e7e74995d552897ab508b9f098048149",
+      "role": "full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-4ca76fb7320d"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.1186/s40900-020-00194-6",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7276065/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7276065/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7276065/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-db480a88158a/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-db480a88158a/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8569224/fullTextXML",
+      "title": "Buffering – Please Be Patient! Does the Attribution of Pauses to Technical Issues Hamper Learning?",
+      "size_bytes": 72942,
+      "sha256": "96d20eaa6b9b0ce88075085bbee7308afb5fe73c88a1f3ed488d442c7a174362",
+      "git_blob_sha1": "d903d7409032fa1015b824ca1c6fec8d186ee288",
+      "role": "full_article_text",
+      "license": "CC-BY (version not stated in article)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-db480a88158a"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.3389/fpsyg.2021.771394",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8569224/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8569224/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file. Access-grant link parameters were removed for safe redistribution; scientific prose is otherwise retained.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8569224/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file. Access-grant link parameters were removed for safe redistribution; scientific prose is otherwise retained."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-8f837ef33dfd/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-8f837ef33dfd/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12263670/fullTextXML",
+      "title": "A new dimension of simplified science communication: the easiness effect of science popularization in animated video abstracts",
+      "size_bytes": 201314,
+      "sha256": "daa27f1a9cb996e3359c8830836fa9050d9d28cded67fcf5fe1bc17f669009c4",
+      "git_blob_sha1": "2cd356700b236f8a41681539cf007100177bc7f2",
+      "role": "full_article_text",
+      "license": "CC-BY (version not stated in article)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-8f837ef33dfd"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.3389/fpsyg.2025.1584695",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12263670/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12263670/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file. Access-grant link parameters were removed for safe redistribution; scientific prose is otherwise retained.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12263670/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file. Access-grant link parameters were removed for safe redistribution; scientific prose is otherwise retained."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-5325a3472ddb/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-5325a3472ddb/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12267235/fullTextXML",
+      "title": "An exploration of the editing cut as an articulator in film through frequency domain analysis of spectator EEGs",
+      "size_bytes": 154078,
+      "sha256": "5e894095f9961d5551d72cb1e89e3233e9f17afb416dabb12077a04e69f0873b",
+      "git_blob_sha1": "0733f7bdfc0a39e5e9873383bb526868fffb1ace",
+      "role": "full_article_text",
+      "license": "CC-BY (version not stated in article)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-5325a3472ddb"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://doi.org/10.3389/fnins.2025.1489800",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12267235/fullTextXML"
+      ],
+      "conditions": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12267235/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file. Access-grant link parameters were removed for safe redistribution; scientific prose is otherwise retained.",
+      "transformation": "Normalized full article text from https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12267235/fullTextXML. Original author attribution and license retained. No image/audio/video assets included; graphics/media references removed. This is not a byte-identical original file. Access-grant link parameters were removed for safe redistribution; scientific prose is otherwise retained."
+    }
+  ]
+}

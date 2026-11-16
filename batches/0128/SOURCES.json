@@ -14,7 +14,7 @@
       "size_bytes": 28213,
       "sha256": "dc3a440fb9bc6d346f263c7273afcca2b3a1462531df4532861a631623299300",
       "git_blob_sha1": "658162b20f1269e267d1d09522eda66210c6427f",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY-SA-4.0",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
@@ -37,7 +37,7 @@
       "size_bytes": 85945,
       "sha256": "8f216443ac73edcca761d1c954cb052440b784753d89b8b5c87fda71858ec3b7",
       "git_blob_sha1": "988f30a0696e2c81c915580150ac90b1ebc72c49",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY-4.0",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
@@ -60,7 +60,7 @@
       "size_bytes": 52859,
       "sha256": "32f0392efb9b37e5323cee9641c5f27718fccd88e2a307d2a490937c4007f3a8",
       "git_blob_sha1": "4423d52c40719f834f77ee532055180622972133",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY (version not specified)",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
@@ -83,7 +83,7 @@
       "size_bytes": 18229,
       "sha256": "3aed2aa8b430702be28eba922a41bdfb9f201812d0acb4ecfd377920d1636daa",
       "git_blob_sha1": "c17c2269bb3a7c4fb82b37eb1a616356ee333381",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY-SA-4.0",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
@@ -106,7 +106,7 @@
       "size_bytes": 68952,
       "sha256": "7bdefa44ca57579b3a5b33834dcef2a055c14240714bbf451ae3662188e515f3",
       "git_blob_sha1": "ff658381dee53238a92bfe80857d0b71c09644c4",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY-4.0",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
@@ -129,7 +129,7 @@
       "size_bytes": 46438,
       "sha256": "eb0d5f7b94317575cc6f507baea32fe20da3140443b1cee7360705b00b409e54",
       "git_blob_sha1": "26b4c2af953562ee96bbacf45c0ae8d7e51704ed",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY-SA-4.0",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
@@ -152,7 +152,7 @@
       "size_bytes": 29735,
       "sha256": "2246ee7341d38f07cf6f2d92a260e4ac25f478313872a3fb262f0ea1f395cd8a",
       "git_blob_sha1": "5ab2939206282fc6ad72e6e24a2355cc16039520",
-      "role": "licensed_full_article_text",
+      "role": "full_article_text",
       "license": "CC-BY-SA-4.0",
       "original_bytes_unchanged": false,
       "related_public_source_ids": [
