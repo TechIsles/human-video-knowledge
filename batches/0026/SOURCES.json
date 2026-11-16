@@ -1,0 +1,207 @@
+{
+  "batch": "0026",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/aicodedecode__awesome-muse-skills/LICENSE",
+      "repository": "aicodedecode/awesome-muse-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "faf37c0859ebf627bfcb5225e8057d088691e0ae",
+      "source_url": "https://github.com/aicodedecode/awesome-muse-skills/blob/faf37c0859ebf627bfcb5225e8057d088691e0ae/LICENSE",
+      "size_bytes": 1089,
+      "sha256": "08f577ebd48c69c7bcca78ae3d1a42df83c0b4821b758dc67c8aa2dc37057610",
+      "git_blob_sha1": "95e1739f890b9879026d1c5556b1337221710e70",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c79d56f50718"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/aicodedecode/awesome-muse-skills/blob/faf37c0859ebf627bfcb5225e8057d088691e0ae/LICENSE",
+        "https://github.com/aicodedecode/awesome-muse-skills/blob/faf37c0859ebf627bfcb5225e8057d088691e0ae/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/aicodedecode__awesome-muse-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/aicodedecode__awesome-muse-skills/skills/video-editor/SKILL.md",
+      "repository": "aicodedecode/awesome-muse-skills",
+      "upstream_path": "skills/video-editor/SKILL.md",
+      "upstream_commit": "faf37c0859ebf627bfcb5225e8057d088691e0ae",
+      "source_url": "https://github.com/aicodedecode/awesome-muse-skills/blob/faf37c0859ebf627bfcb5225e8057d088691e0ae/skills/video-editor/SKILL.md",
+      "size_bytes": 4687,
+      "sha256": "fb52f03e9fba628efef99beb2eb2bb0719c06b8139a177935f6024192c089e03",
+      "git_blob_sha1": "0abd01d965aec682e731df9ac3682e2d699a1ce6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c79d56f50718"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/aicodedecode/awesome-muse-skills/blob/faf37c0859ebf627bfcb5225e8057d088691e0ae/LICENSE",
+        "https://github.com/aicodedecode/awesome-muse-skills/blob/faf37c0859ebf627bfcb5225e8057d088691e0ae/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/aicodedecode__awesome-muse-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ajinnaaa__extract-visual-style-2/LICENSE",
+      "repository": "ajinnaaa/extract-visual-style-2",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7b7d2c285e84805dd2f324dc815911573b5df6e6",
+      "source_url": "https://github.com/ajinnaaa/extract-visual-style-2/blob/7b7d2c285e84805dd2f324dc815911573b5df6e6/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "af20cb793efb5de566d16e17041ea717535234bd50c07b51816034ba4b055c8a",
+      "git_blob_sha1": "7b1b88e60c898e5d7494e13aa1c5c15f25c35445",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-25baf68edfcf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ajinnaaa/extract-visual-style-2/blob/7b7d2c285e84805dd2f324dc815911573b5df6e6/LICENSE",
+        "https://github.com/ajinnaaa/extract-visual-style-2/blob/7b7d2c285e84805dd2f324dc815911573b5df6e6/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ajinnaaa__extract-visual-style-2/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ajinnaaa__extract-visual-style-2/extract-visual-style-2/SKILL.md",
+      "repository": "ajinnaaa/extract-visual-style-2",
+      "upstream_path": "extract-visual-style-2/SKILL.md",
+      "upstream_commit": "7b7d2c285e84805dd2f324dc815911573b5df6e6",
+      "source_url": "https://github.com/ajinnaaa/extract-visual-style-2/blob/7b7d2c285e84805dd2f324dc815911573b5df6e6/extract-visual-style-2/SKILL.md",
+      "size_bytes": 9224,
+      "sha256": "1d7f3fcaaf895e39cac8498f26ba551ea858fb7fd692ff519c7b380ea7f03fa3",
+      "git_blob_sha1": "0418ded16043edd3f908cc334656d11d3cf5eaed",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-25baf68edfcf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ajinnaaa/extract-visual-style-2/blob/7b7d2c285e84805dd2f324dc815911573b5df6e6/LICENSE",
+        "https://github.com/ajinnaaa/extract-visual-style-2/blob/7b7d2c285e84805dd2f324dc815911573b5df6e6/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ajinnaaa__extract-visual-style-2/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/alchaincyf__huashu-skills/LICENSE",
+      "repository": "alchaincyf/huashu-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "da64db345f36f5171e99f422777ffefbb691a804",
+      "source_url": "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/LICENSE",
+      "size_bytes": 1076,
+      "sha256": "0d42df9f8e8f49debfe0b33187a2f9d6fe78b6c376a299c1dad681c796e9b202",
+      "git_blob_sha1": "60797866e4ebc7b608a87e590eba4f3a817511a3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afd2359b49c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/LICENSE",
+        "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/alchaincyf__huashu-skills/LICENSE",
+        "upstream/alchaincyf__huashu-skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/alchaincyf__huashu-skills/NOTICE",
+      "repository": "alchaincyf/huashu-skills",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "da64db345f36f5171e99f422777ffefbb691a804",
+      "source_url": "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/NOTICE",
+      "size_bytes": 262,
+      "sha256": "c97587aa9cc79214743f333824cd57724ea9aaabc38f57e008f18c9d43eb8f63",
+      "git_blob_sha1": "68654ff40fda0457fc6f582f67757982a89636c2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afd2359b49c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/LICENSE",
+        "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/alchaincyf__huashu-skills/LICENSE",
+        "upstream/alchaincyf__huashu-skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/alchaincyf__huashu-skills/huashu-video-outline/SKILL.md",
+      "repository": "alchaincyf/huashu-skills",
+      "upstream_path": "huashu-video-outline/SKILL.md",
+      "upstream_commit": "da64db345f36f5171e99f422777ffefbb691a804",
+      "source_url": "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/huashu-video-outline/SKILL.md",
+      "size_bytes": 2142,
+      "sha256": "434439278a449e9b5923f51d31399fd171d867ddc6dce467281c4bf8040dab69",
+      "git_blob_sha1": "1f863dfd7da16e3c762efe53cf7e23c4808da6f5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afd2359b49c2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/LICENSE",
+        "https://github.com/alchaincyf/huashu-skills/blob/da64db345f36f5171e99f422777ffefbb691a804/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full MIT copyright/permission notice; preserve included NOTICE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/alchaincyf__huashu-skills/LICENSE",
+        "upstream/alchaincyf__huashu-skills/NOTICE"
+      ]
+    }
+  ]
+}

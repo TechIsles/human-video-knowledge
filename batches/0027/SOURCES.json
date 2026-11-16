@@ -1,0 +1,207 @@
+{
+  "batch": "0027",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "adobe/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8f35e907c7f0d2f29bf4f8537a88852f0082c067",
+      "source_url": "https://github.com/adobe/skills/blob/8f35e907c7f0d2f29bf4f8537a88852f0082c067/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-225ebe27ea51"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/adobe/skills/blob/8f35e907c7f0d2f29bf4f8537a88852f0082c067/LICENSE",
+        "https://github.com/adobe/skills/blob/8f35e907c7f0d2f29bf4f8537a88852f0082c067/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/adobe__skills/plugins/creative-cloud/adobe-for-creativity/skills/adobe-edit-quick-cut/SKILL.md",
+      "repository": "adobe/skills",
+      "upstream_path": "plugins/creative-cloud/adobe-for-creativity/skills/adobe-edit-quick-cut/SKILL.md",
+      "upstream_commit": "8f35e907c7f0d2f29bf4f8537a88852f0082c067",
+      "source_url": "https://github.com/adobe/skills/blob/8f35e907c7f0d2f29bf4f8537a88852f0082c067/plugins/creative-cloud/adobe-for-creativity/skills/adobe-edit-quick-cut/SKILL.md",
+      "size_bytes": 14823,
+      "sha256": "c85a81a2fcd40d15ea9831ec455995ba240e27189cae2709f2e881d0c755a018",
+      "git_blob_sha1": "3c4247f10f7626a30ebffaad25b6b5f7b6d911b8",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-225ebe27ea51"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/adobe/skills/blob/8f35e907c7f0d2f29bf4f8537a88852f0082c067/LICENSE",
+        "https://github.com/adobe/skills/blob/8f35e907c7f0d2f29bf4f8537a88852f0082c067/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/agents-inc__skills/LICENSE",
+      "repository": "agents-inc/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "707467a78f96fb7d684e55e1f6281e541a736fd6",
+      "source_url": "https://github.com/agents-inc/skills/blob/707467a78f96fb7d684e55e1f6281e541a736fd6/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "50bc6e75845f4acdfb7c1df6e67f0fb9a0d80486b34e583c78d89637fa94865e",
+      "git_blob_sha1": "0c081a44385b3a47605d6786555af3cb0b4478fc",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d90abc68e88d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/agents-inc/skills/blob/707467a78f96fb7d684e55e1f6281e541a736fd6/LICENSE",
+        "https://github.com/agents-inc/skills/blob/707467a78f96fb7d684e55e1f6281e541a736fd6/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agents-inc__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agents-inc__skills/src/skills/web-testing-visual-regression/SKILL.md",
+      "repository": "agents-inc/skills",
+      "upstream_path": "src/skills/web-testing-visual-regression/SKILL.md",
+      "upstream_commit": "707467a78f96fb7d684e55e1f6281e541a736fd6",
+      "source_url": "https://github.com/agents-inc/skills/blob/707467a78f96fb7d684e55e1f6281e541a736fd6/src/skills/web-testing-visual-regression/SKILL.md",
+      "size_bytes": 17476,
+      "sha256": "4a5d18e673651f45b39f3f28c642588d0ba69b3318ccb746733e18ca243e9c59",
+      "git_blob_sha1": "07341afbad90a811decf5f1d7f7d263b531c44a0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d90abc68e88d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/agents-inc/skills/blob/707467a78f96fb7d684e55e1f6281e541a736fd6/LICENSE",
+        "https://github.com/agents-inc/skills/blob/707467a78f96fb7d684e55e1f6281e541a736fd6/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agents-inc__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+      "size_bytes": 11607,
+      "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "git_blob_sha1": "f53c679acba79cbb292961fd9fb9e87ca20eab22",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ed6992a3fa43"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "sales/LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ed6992a3fa43"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/sales/skills/customer-voice/SKILL.md",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "sales/skills/customer-voice/SKILL.md",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/skills/customer-voice/SKILL.md",
+      "size_bytes": 8984,
+      "sha256": "00c1d855da79a696a18f315a7500364f70d37ac1fcc70496433ba95f2e02d48b",
+      "git_blob_sha1": "3f031770add09cb26bfb4e7d8fc6c448bb658c41",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ed6992a3fa43"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes, full applicable license and copyright/attribution; no trademark endorsement or service access granted."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    }
+  ]
+}
