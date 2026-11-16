@@ -1,0 +1,66 @@
+{
+  "batch": "0044",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/guigulaoshi__music-video-director-skill/skill.md",
+      "repository": "guigulaoshi/music-video-director-skill",
+      "upstream_path": "skill.md",
+      "upstream_commit": "66de7f0dcc8d714c4f6cd9988a4d214387caee36",
+      "source_url": "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/skill.md",
+      "size_bytes": 100425,
+      "sha256": "18d10ee9c9731e94e7435b4b0dd32d90687b554b60be7944e1effbffe261c300",
+      "git_blob_sha1": "ca2ece314d0c3ef808f3f37a7cb644c25dad73bc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e921a4d1db8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/LICENSE",
+        "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/guigulaoshi__music-video-director-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/guigulaoshi__music-video-director-skill/LICENSE",
+      "repository": "guigulaoshi/music-video-director-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "66de7f0dcc8d714c4f6cd9988a4d214387caee36",
+      "source_url": "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "0db416ebad3c42a546753b8724fe5080c85791e79e31371dc6d7ac6da8ed64b7",
+      "git_blob_sha1": "d14ecfef78f32be8bdaf7b5fe7b1ba1b9de7bf0c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e921a4d1db8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/LICENSE",
+        "https://github.com/guigulaoshi/music-video-director-skill/blob/66de7f0dcc8d714c4f6cd9988a4d214387caee36/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/guigulaoshi__music-video-director-skill/LICENSE"
+      ]
+    }
+  ]
+}
