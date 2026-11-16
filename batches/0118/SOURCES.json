@@ -1,0 +1,2008 @@
+{
+  "batch": "0118",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 50,
+  "new_original_payload_paths": 100,
+  "files": [
+    {
+      "file": "upstream/web__arxiv.org/SRC-6c7be1b63d6f/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6c7be1b63d6f/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2108.04294",
+      "title": "Learning to Cut by Watching Movies",
+      "size_bytes": 254011,
+      "sha256": "721363593e325281bb9c54c945f5acde30b23dfad82a4aafb7108522107aa2f1",
+      "git_blob_sha1": "5f774022080a9ed83a52a2e13f664fa55155cc7c",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6c7be1b63d6f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2108.04294",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-9ab133653a6a/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-9ab133653a6a/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2210.05766",
+      "title": "Match Cutting: Finding Cuts with Smooth Visual Transitions",
+      "size_bytes": 287276,
+      "sha256": "df5947bd96d56ee89426d4343960a373660bb5086252b4349cb2e99e7c33baeb",
+      "git_blob_sha1": "621b1704ac62c0d9578f94a2710ec3b843a73a3b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9ab133653a6a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2210.05766",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f38f901b7b9e/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f38f901b7b9e/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2402.18208",
+      "title": "Shorts on the Rise: Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+      "size_bytes": 96073,
+      "sha256": "93c6746c18ca74d413a8a4a369d5b83fce959f9d8fc2e22c12d2a2f58c440557",
+      "git_blob_sha1": "707d5cf79d1ddf7ed4d792f066e8d25d8df83aa5",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f38f901b7b9e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2402.18208",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e445bc7ab1ee/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e445bc7ab1ee/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.00454",
+      "title": "Shorts vs. Regular Videos on YouTube: A Comparative Analysis of User Engagement and Content Creation Trends",
+      "size_bytes": 166333,
+      "sha256": "159fd31112cb13c14aa1b9fb10c50658a9066856bbe2eaff4d7d2b14b05baa85",
+      "git_blob_sha1": "4e0b7f13d6db409833dce049d38c53db8184867c",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e445bc7ab1ee"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.00454",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-44f21ba7d633/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-44f21ba7d633/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2607.25032",
+      "title": "Authoring Agent Skills: A Software-Engineering Approach",
+      "size_bytes": 147300,
+      "sha256": "05fbfb393870f681524cd98fa3ea21bf1c54444ff2eb0db08c38c5da61886c03",
+      "git_blob_sha1": "db28373b86846f0defc548893d25ec98c00adbc3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-44f21ba7d633"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2607.25032",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-3b1527ecc353/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-3b1527ecc353/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2502.10190",
+      "title": "VideoDiff: Human-AI Video Co-Creation with Alternatives",
+      "size_bytes": 288164,
+      "sha256": "bc415a1e529c4d5bfcaf4722a18dd3696d5ba740e5376554be9035f2a86ed926",
+      "git_blob_sha1": "cc1db42529c871f6045da16a2bb601924a9fcb1e",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3b1527ecc353"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2502.10190",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-efea0754c53a/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-efea0754c53a/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2605.03276",
+      "title": "VEBench: Benchmarking Large Multimodal Models for Real-World Video Editing",
+      "size_bytes": 523706,
+      "sha256": "e6ce3783656f6f9e4ddfa85662918a327418b3104a732cb2a9c42978b11844be",
+      "git_blob_sha1": "26457aaa7bc5364dcc358fa3262aa457a28f7484",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-efea0754c53a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2605.03276",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-480b32fb6065/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-480b32fb6065/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2605.15585",
+      "title": "See Before You Code: Learning Visual Priors for Spatially Aware Educational Animation Generation",
+      "size_bytes": 331710,
+      "sha256": "c5f1646d77c219c61505c07cf93a7adcf897564b95a0085f976f10df876d08c9",
+      "git_blob_sha1": "a28b43febca8beaad3f297b9ece87390d4c6f002",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-480b32fb6065"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2605.15585",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d05f0b856e8a/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d05f0b856e8a/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.30241",
+      "title": "PaperBanana-Interact: Scientific Diagram Refinement with Multi-Turn Human Feedback",
+      "size_bytes": 945568,
+      "sha256": "c7e0872e909ec1e4205cdf41000562c55652c1efde031d5fd24cf245cb19ff9d",
+      "git_blob_sha1": "b9fdbbd6005e9cee6231e655f614f1628c4fd4e7",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d05f0b856e8a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.30241",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5a9e28e0b2e6/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5a9e28e0b2e6/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2408.16119",
+      "title": "Data Formulator 2: Iterative Creation of Data Visualizations, with AI Transforming Data Along the Way",
+      "size_bytes": 250772,
+      "sha256": "1b0ececd97216c87202b1ff45e712928216ba66d6d726e0eec41aea244755d88",
+      "git_blob_sha1": "05cd47836d4d1a69898b9de5285770671ee0c8c5",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5a9e28e0b2e6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2408.16119",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a85c8bf702db/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a85c8bf702db/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.17693",
+      "title": "ExpressEdit: Video Editing with Natural Language and Sketching",
+      "size_bytes": 719113,
+      "sha256": "8d440e046e74885ceba1a91ef2bc07ee66b267972ec9f44c70191978d6c746d1",
+      "git_blob_sha1": "fd974e7f458fa6db9be1c57077842b7dfbbcee50",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a85c8bf702db"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.17693",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-606f4524ba05/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-606f4524ba05/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.11481",
+      "title": "VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding",
+      "size_bytes": 333137,
+      "sha256": "759acf5f6bdaddcbcaa484dedbe46968911bd2975078f26781f5e616ad73b7d0",
+      "git_blob_sha1": "5c5343a10407456a0329e8d4a236f455df5e2680",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-606f4524ba05"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.11481",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f5fccbd4afed/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f5fccbd4afed/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2412.18004",
+      "title": "Correctness is not Faithfulness in RAG Attributions",
+      "size_bytes": 290155,
+      "sha256": "b60b4d38809dde3cb9823687b80c3270552b11d9553b4ce851270b7fae3145e3",
+      "git_blob_sha1": "26d425b3a3179d72e1e3106ab9c826f8466cdcf0",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f5fccbd4afed"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2412.18004",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-ea56358cdb51/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-ea56358cdb51/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.10131",
+      "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "size_bytes": 159887,
+      "sha256": "d1e7c9ef59291154fcde2a92ba6874c4f47ea2273420e36427f2d786653e678a",
+      "git_blob_sha1": "9d934a1ad5a53b7c396c2fb2af3255f4ab23f957",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea56358cdb51"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.10131",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-1dcf4809b48a/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-1dcf4809b48a/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2206.04769",
+      "title": "CLAP: Learning Audio Concepts From Natural Language Supervision",
+      "size_bytes": 195196,
+      "sha256": "b471494ffd65065c9b6290af3113f98d8a05b9576368fdfa6dc9e147a36bc958",
+      "git_blob_sha1": "a074fa0e18be5523444af5c904cc06b52a70ab00",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1dcf4809b48a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2206.04769",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b749b732d3f7/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b749b732d3f7/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2306.07187",
+      "title": "Video-to-Music Recommendation using Temporal Alignment of Segments",
+      "size_bytes": 353602,
+      "sha256": "64dc807bf8463d7074bc64951a8057456759a2e763ab202ba1f4e7423b3abf3f",
+      "git_blob_sha1": "1e4ec7671f6b324ab05b04209fdb430bb3e4fc38",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b749b732d3f7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2306.07187",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e0ebb431ea40/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e0ebb431ea40/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2309.14642",
+      "title": "Editing Motion Graphics Video via Motion Vectorization and Transformation",
+      "size_bytes": 290208,
+      "sha256": "3bb539ecc909707480a094c4df25371e3290399c32c53f7b64cd2d2b99150e11",
+      "git_blob_sha1": "6701553c67d9a376f5ce3e83977b085568c4f147",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e0ebb431ea40"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2309.14642",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-cde866e8744f/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-cde866e8744f/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2303.17651",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "size_bytes": 1471409,
+      "sha256": "df1ceeccda8791ece6b43ec2e10b3fb5e53b4403249815990266216ecfc20b8f",
+      "git_blob_sha1": "917c982964189ee4b9309711abd2f10fd9b209ad",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cde866e8744f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2303.17651",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d90faa68ab24/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d90faa68ab24/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2312.11556",
+      "title": "StarVector: Generating Scalable Vector Graphics Code from Images and Text",
+      "size_bytes": 624834,
+      "sha256": "e535c53201afd19b3c15060d2ca7add895fefb1aa3f1f0b4d5490a9e2744c6dc",
+      "git_blob_sha1": "431e4130d0c8d693f974f9c4783e2ea3a6ce148b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d90faa68ab24"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2312.11556",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-0ad4d0024652/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-0ad4d0024652/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2411.11916",
+      "title": "From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing",
+      "size_bytes": 377798,
+      "sha256": "0fe5598b28e816ea2cce824af8e6f839b38bfa2bd98dff8138136607d6f2bc7f",
+      "git_blob_sha1": "26764bb2e843f5420bb8706f0c52ac6ff99dff48",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ad4d0024652"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2411.11916",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-722f581f1806/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-722f581f1806/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.10059",
+      "title": "Repoformer: Selective Retrieval for Repository-Level Code Completion",
+      "size_bytes": 418187,
+      "sha256": "f563cb1619c83a97b735edaa4f27c4796fca04db567d6bb718d374ccb3ebe628",
+      "git_blob_sha1": "f718fc0f0f2906c7803032a5a47ebc094bdca7e0",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-722f581f1806"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.10059",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f4e57f12bec9/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f4e57f12bec9/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2310.06770",
+      "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+      "size_bytes": 1276078,
+      "sha256": "1805d61ac3c0161a187fbbbf1063717f2d5098cc78b36a2ac08aa29f20723cea",
+      "git_blob_sha1": "3001ebbc6883e3ec8810707b5d12b1377e443d29",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f4e57f12bec9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2310.06770",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b1af7abab483/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b1af7abab483/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2406.07496",
+      "title": "TextGrad: Automatic “Differentiation” via Text",
+      "size_bytes": 567008,
+      "sha256": "108dd1ac1eab7f1d765d88e7c71f45980bb56b231ef6efc7ddc1df5ff6571d6a",
+      "git_blob_sha1": "c4998c506e71273fe221eeb354c5cf1fa9ce4883",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b1af7abab483"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2406.07496",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a98c6c729b9b/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a98c6c729b9b/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2407.01449",
+      "title": "ColPali：原页视觉多向量检索与匹配热区的证据边界",
+      "size_bytes": 353277,
+      "sha256": "b0ebb42caec2dcc57e52f0e03138815de33f22526092cf76c90b5814795eaae5",
+      "git_blob_sha1": "5bdf024e9914c9d944ef6c59694200baedea1cc6",
+      "role": "original_article",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a98c6c729b9b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2407.01449",
+        "http://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-855eabc4cc52/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-855eabc4cc52/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2212.10505",
+      "title": "DePlot: One-shot visual language reasoning by plot-to-table translation",
+      "size_bytes": 369478,
+      "sha256": "da43a9a1c66191b1219b060f00c9a9a6c5d704ad60c9978b1d0ed1ad6cf83ec3",
+      "git_blob_sha1": "072ab931373d8a97c6a4d6cb6c4f8fbeae8ae6e3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-855eabc4cc52"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2212.10505",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-07c945853c85/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-07c945853c85/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2201.06796",
+      "title": "CoAuthor: Designing a Human-AI Collaborative Writing Dataset for Exploring Language Model Capabilities",
+      "size_bytes": 288123,
+      "sha256": "fab70fa4154ec6737d9dbce32b35fcbe4108541e1ed6f65a83b4a7fa01e73a57",
+      "git_blob_sha1": "b53ceea6237199404ba227a98e3b5020241adef5",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-07c945853c85"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2201.06796",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8f4c2411d937/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8f4c2411d937/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.13787",
+      "title": "RewardBench: Evaluating Reward Models for Language Modeling",
+      "size_bytes": 850073,
+      "sha256": "64b60e7f70639d27e90c90123b2bf49da98e022a51062699d2351ca104c6eee5",
+      "git_blob_sha1": "81c8a50f0e721884f6f8dfed27234ac6d6e9e01b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8f4c2411d937"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.13787",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-035a9b592275/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-035a9b592275/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2104.08663",
+      "title": "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "size_bytes": 422659,
+      "sha256": "78126099815085fdbe36b0a02aa4366cff560bd9242e2a178be68fd39078fca4",
+      "git_blob_sha1": "77512ccde3e33ef2223dfb616c838192ed153e6b",
+      "role": "original_article",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-035a9b592275"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2104.08663",
+        "http://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5259558a84da/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5259558a84da/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2305.11206",
+      "title": "LIMA: Less Is More for Alignment",
+      "size_bytes": 199943,
+      "sha256": "008c29a2711edfd66fe7b1edfd96fd9b44b8a997be415c79e3ecf85bce6c8f59",
+      "git_blob_sha1": "57b64291a4b03b4e856422a76e68c2831998cff8",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5259558a84da"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2305.11206",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c30a456e54c9/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c30a456e54c9/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2305.18290",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "size_bytes": 411182,
+      "sha256": "54e14d8230f1b10d2530ecc7294871593d77aa5d7a49af63769ca2ef333e96e8",
+      "git_blob_sha1": "7db968422930f51af2e082842cfabc1746b92540",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c30a456e54c9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2305.18290",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-93dc60594f0b/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-93dc60594f0b/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2607.00009",
+      "title": "Controllable Narrative Rendering for Enhanced Assisted Writing (Loom)",
+      "size_bytes": 150324,
+      "sha256": "a8baceda07ce0d6ffeed2cf750c2901e17dc40be7dbb7d0a9a400e6a752f187a",
+      "git_blob_sha1": "56b4bc6dcd099d198e0dfc0c94a496b1ef57a471",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-93dc60594f0b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2607.00009",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c88dd654721e/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c88dd654721e/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.25622",
+      "title": "Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing",
+      "size_bytes": 677102,
+      "sha256": "17c6ccf99565de9e65e384045b816bba75b1674090adcab7ab1ed840b8c8b527",
+      "git_blob_sha1": "247abedcce0fa5c16d8d69eff2210b91ee9509ac",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c88dd654721e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.25622",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-947a83ee2b43/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-947a83ee2b43/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2310.11511",
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "size_bytes": 857418,
+      "sha256": "fd558a8ddccecd96289fa85f396e5e3ad973baa1d273e016e4ae5542fb3ad80e",
+      "git_blob_sha1": "71f16f502f4d9b13886b73151d898ba04a9eccaf",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-947a83ee2b43"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2310.11511",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-cc28e9ab61c3/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-cc28e9ab61c3/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2305.14314",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "size_bytes": 305765,
+      "sha256": "e43c8b6a6a771378c71e52d600f40f038f97e54f048bdbf5c08f463bbdfe2206",
+      "git_blob_sha1": "be4d9902f8424bac0247b475594c5a17253d5a69",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cc28e9ab61c3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2305.14314",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c63452043d80/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c63452043d80/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2605.27705",
+      "title": "AgenticVBench: Can AI Agents Complete Real-World Post-Production Tasks?",
+      "size_bytes": 264868,
+      "sha256": "a98f2613f6a52f95af081f6372761b6a5ecd79a6c67891dd771fc6f137b581ae",
+      "git_blob_sha1": "a9ab86a681bb00f101bbd0a779d9dde94405a4cc",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c63452043d80"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2605.27705",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-41745144aa0d/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-41745144aa0d/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.11238",
+      "title": "Towards Query-Agnostic RAG Evaluation via Query Coverage and Claim Verifiability",
+      "size_bytes": 543881,
+      "sha256": "e1a81de02acf8baff287a0ae1a3b3bacb15a4b66926526c0420f3b16dc968535",
+      "git_blob_sha1": "c349a3ab9b9e770b3bd2498a53a8b85e35800c6a",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-41745144aa0d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.11238",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8b0fc41318cc/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8b0fc41318cc/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.12455",
+      "title": "Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting",
+      "size_bytes": 237234,
+      "sha256": "e9f2ae6deef67bfea282989ce8872e9a7602f23a4bd8e6408050a6511b96e229",
+      "git_blob_sha1": "c4618564a2c3624936017aeb2ab9bae6fa39f5e6",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8b0fc41318cc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.12455",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-9f6d98f96873/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-9f6d98f96873/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.02694",
+      "title": "Crayotter: Learning Long-Horizon Video Editing Agents via Group-Relative Preference Backpropagation",
+      "size_bytes": 177334,
+      "sha256": "cd75821bc051398dc0c529bb98dad1cbeb0eef6c9222bfe627017f75ba9118d6",
+      "git_blob_sha1": "6c7fdccc6546dd6258ab563b76c5ab72b3ce10d7",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9f6d98f96873"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.02694",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a530f0bfa2dd/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a530f0bfa2dd/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.30068",
+      "title": "TAKE 85: Testing Audiovisual filmmaKer's intEnt across 85 Hours of Film",
+      "size_bytes": 513440,
+      "sha256": "d46cda6179d58ea86cc3c76cdb7b04ab79091c4b1951f955624dc68f0bed038b",
+      "git_blob_sha1": "5d9813e278795c3fd9e6d91a885e7c3eb92b3f1e",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a530f0bfa2dd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.30068",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bf098669bc16/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bf098669bc16/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.21430",
+      "title": "Evaluating Multimodal Narrative Understanding of Popular Hollywood Films",
+      "size_bytes": 397187,
+      "sha256": "7d89f15c8c21ecc29aa0d93b7f634c7d033f659e7cf6ddc4bb6a7f2d4128cb9b",
+      "git_blob_sha1": "5e744d123554467df77f52ff71a633e63ebf79a1",
+      "role": "original_article",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bf098669bc16"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.21430",
+        "http://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-54982512f471/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-54982512f471/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.14495",
+      "title": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
+      "size_bytes": 282012,
+      "sha256": "c1008390936607c1f5fa65a63ba9e6acfdc6d803a134809e4d3846666700b800",
+      "git_blob_sha1": "01d3905b856dce344eca9ae3bbc9883469e51539",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54982512f471"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.14495",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8d76dcbea854/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8d76dcbea854/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2407.13416",
+      "title": "The Language of Infographics: Toward Understanding Conceptual Metaphor Use in Scientific Storytelling",
+      "size_bytes": 209313,
+      "sha256": "979edd657f02a0def48cdc474eabbc4ddf0c8bf2d45e391260687aeb8112f9c4",
+      "git_blob_sha1": "8d315e5b9d055d8dbda7a12d590c011ca9d5bfa0",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8d76dcbea854"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2407.13416",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-1a2d19341df6/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-1a2d19341df6/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2410.11619",
+      "title": "MultiVENT 2.0: A Massive Multilingual Benchmark for Event-Centric Video Retrieval",
+      "size_bytes": 276804,
+      "sha256": "9e869be5d271c26972e636502fca185d8a1eaf6b93ad5958a878866bcbcd3c72",
+      "git_blob_sha1": "28779bbe7b93986691728bd780b720f4f2943276",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a2d19341df6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2410.11619",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c868d0f40db6/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c868d0f40db6/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2503.20698",
+      "title": "MMMORRF: Multimodal Multilingual Modularized Reciprocal Rank Fusion",
+      "size_bytes": 128176,
+      "sha256": "fab2539991e913c8c799e972c9e89421cc92ddb77b042628f50779cfd692493f",
+      "git_blob_sha1": "8a736a369ba3bb575d671b9b1f48ba2267ec183a",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c868d0f40db6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2503.20698",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-0829d1aff1a6/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-0829d1aff1a6/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2505.18880",
+      "title": "REGen: Multimodal Retrieval-Embedded Generation for Long-to-Short Video Editing",
+      "size_bytes": 326356,
+      "sha256": "569c9927d5283d461fc346c4888e8932f31c49c08e303977a25d950daf31b0eb",
+      "git_blob_sha1": "929e425806c92fc68b1c666a21df1590725fa8dc",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0829d1aff1a6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2505.18880",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8b0897bf591a/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8b0897bf591a/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2502.02172",
+      "title": "EditIQ: Automated Cinematic Editing of Static Wide-Angle Videos via Dialogue Interpretation and Saliency Cues",
+      "size_bytes": 266655,
+      "sha256": "7fe91961b976f8c03d7dafad24d427d9b02950a2984c1129f897727b187f2665",
+      "git_blob_sha1": "c78d8d4a15d0ad280295d69eff287d7ba024a499",
+      "role": "original_article",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8b0897bf591a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2502.02172",
+        "http://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b368fc13c6a6/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b368fc13c6a6/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2502.08544",
+      "title": "Moment of Untruth: Dealing with Negative Queries in Video Moment Retrieval",
+      "size_bytes": 272145,
+      "sha256": "b905644d9e578a0a95c209d644d8424114acd1fc455d1041772afd5cf656569a",
+      "git_blob_sha1": "952102275ab4a95fbea603283fbb8f6c287cdb9a",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b368fc13c6a6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2502.08544",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-39a9bdb33889/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-39a9bdb33889/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2603.16966",
+      "title": "CineSRD: Leveraging Visual, Acoustic, and Linguistic Cues for Open-World Visual Media Speaker Diarization",
+      "size_bytes": 208106,
+      "sha256": "bb8a5db269595c2bcf1ca974d98cfa4d6f79e997d665371a52a63c85a420e873",
+      "git_blob_sha1": "b96c2480a8a244f5cc47bbb957fbf5f0b4cfb70e",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-39a9bdb33889"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2603.16966",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bd21941cd6ca/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bd21941cd6ca/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2605.16740",
+      "title": "TRACE: Evidence Grounding-Guided Multi-Video Event Understanding and Claim Generation",
+      "size_bytes": 184897,
+      "sha256": "fc3b009d46ff01c6cac85b013906b318ad4df62d4938edd18f6d0d9155bbe58e",
+      "git_blob_sha1": "46381c0c5327bc0ce18184ff5aa955403fbac2bb",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bd21941cd6ca"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2605.16740",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b07dcf520736/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b07dcf520736/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.22516",
+      "title": "TRACE: Temporal Retrieval with Anchored and Convergent Evidence for Long-Horizon Video Understanding",
+      "size_bytes": 371550,
+      "sha256": "f8f2afef31ad97a3139abead83737c9b33f7d09fc346e79226331f17ca05d05d",
+      "git_blob_sha1": "da13b0263ae7e6d6329bed8bf1ac1a891e6b6002",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b07dcf520736"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.22516",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6c7be1b63d6f/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6c7be1b63d6f/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2108.04294",
+      "size_bytes": 41945,
+      "sha256": "0fd33d6651a6107e6ef61b6d24e480cbef2a82fcad57f7a0088464254ad3e888",
+      "git_blob_sha1": "a3940c402fc12fbfb062611157f62410c3fec3bc",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6c7be1b63d6f"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-9ab133653a6a/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-9ab133653a6a/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2210.05766",
+      "size_bytes": 39761,
+      "sha256": "084a5c6c848e26c7199c81b63331a3d29aeb5ef07aab9a6d3adf09cb32a12057",
+      "git_blob_sha1": "f76cfea01da2c70f866425e22d72417d0affe639",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9ab133653a6a"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f38f901b7b9e/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f38f901b7b9e/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2402.18208",
+      "size_bytes": 40940,
+      "sha256": "072fc4a8a47f400c0ec0f8899aab59439a88c0712850238140129f16f874a903",
+      "git_blob_sha1": "477d217dde1d45dfe2da5328d8205be5e2892b0d",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f38f901b7b9e"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e445bc7ab1ee/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e445bc7ab1ee/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.00454",
+      "size_bytes": 44715,
+      "sha256": "6549d1deedb0a9295fc5641b2940fd6502f1e487197314fc94442e74cad4ba8d",
+      "git_blob_sha1": "fe47941e5eac1e7edfa266f2559aa6878c1c5c5b",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e445bc7ab1ee"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-44f21ba7d633/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-44f21ba7d633/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2607.25032",
+      "size_bytes": 42123,
+      "sha256": "f3294fc80f1b5d7f02558ab4f4a81ee09d1e0d8ee51456021db2b452954c6a62",
+      "git_blob_sha1": "0aa0b054bebe1994fc52f85f7dcf673b5550f4dd",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-44f21ba7d633"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-3b1527ecc353/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-3b1527ecc353/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2502.10190",
+      "size_bytes": 42008,
+      "sha256": "f0e3d4e89bf1427c79ca77e845f997c509dddcea99b64b6c0e1fb9099937ab1a",
+      "git_blob_sha1": "db77e15f977356f22592c71c1e82a089781a3e5a",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3b1527ecc353"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-efea0754c53a/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-efea0754c53a/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2605.03276",
+      "size_bytes": 43086,
+      "sha256": "9ba4eb74c68c4d4d67360d1204040adb00f158c42820f1c835f49d1c0c4db74a",
+      "git_blob_sha1": "a99b2562040381025151fc27efbff9c9816ec065",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-efea0754c53a"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-480b32fb6065/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-480b32fb6065/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2605.15585",
+      "size_bytes": 44244,
+      "sha256": "f14deb669504a9e5165d0f4cb5039d219f1b83e2fd80f4da78c76d90422020a5",
+      "git_blob_sha1": "e6e09204d327bb6e09b61f8bb198483046478a02",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-480b32fb6065"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d05f0b856e8a/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d05f0b856e8a/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.30241",
+      "size_bytes": 43097,
+      "sha256": "6b89260001a18c9b5c52048088454f851a052d9ab3a6d6fd9801b6cf2dda6b9a",
+      "git_blob_sha1": "79641a223848d8bf612d3f13e1183fc36b4d221c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d05f0b856e8a"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5a9e28e0b2e6/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5a9e28e0b2e6/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2408.16119",
+      "size_bytes": 41100,
+      "sha256": "73d31452270d3d4d49b134231ee16a631c38dcf54ad055428caa3ba03b15d697",
+      "git_blob_sha1": "0f51c88c93d5796c03f002630f5c80b4eedf3322",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5a9e28e0b2e6"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a85c8bf702db/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a85c8bf702db/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.17693",
+      "size_bytes": 44692,
+      "sha256": "271b434bb54c15d9b63e785f378bff0368f3dd81ff0f5b0708b265828eb4474c",
+      "git_blob_sha1": "1e3777221316f4d4de88e4c4413c3d09116f6488",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a85c8bf702db"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-606f4524ba05/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-606f4524ba05/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.11481",
+      "size_bytes": 42124,
+      "sha256": "94db13dc5acdb0007505607466e8efff964beb5316ce0dbae666757f5f3c9541",
+      "git_blob_sha1": "051ab6f3eb9e18d0b1e295daf7cd814f89fadaea",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-606f4524ba05"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f5fccbd4afed/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f5fccbd4afed/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2412.18004",
+      "size_bytes": 42217,
+      "sha256": "87e255baaeeef152a2d2015e7a5e9554365bf2a8e62f85daa14d9c552c2469ac",
+      "git_blob_sha1": "fec52001822e9ebd274d0304e09ddfdecb504314",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f5fccbd4afed"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-ea56358cdb51/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-ea56358cdb51/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.10131",
+      "size_bytes": 41842,
+      "sha256": "5fbd55a2b2a33743bc24d56f9f37468201376de9c8047291924af3b501998139",
+      "git_blob_sha1": "a9959a545dc6b1ad3d07b57f0692b5acb8a5e833",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea56358cdb51"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-1dcf4809b48a/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-1dcf4809b48a/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2206.04769",
+      "size_bytes": 41741,
+      "sha256": "408a767fd7c97fa0f0f9025253dcc6d02dda653f0120bc6db52a7d28f1855554",
+      "git_blob_sha1": "4c5dc19496bc2a3a3a3802e4c6f9313e6c7f8d8e",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1dcf4809b48a"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b749b732d3f7/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b749b732d3f7/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2306.07187",
+      "size_bytes": 43052,
+      "sha256": "81ce5de32de4f4a5ef392d3f728c539876691b0a19e16cc20f97b22de3b9894b",
+      "git_blob_sha1": "f578bcb8a29f2910f003a8ecb6b1c2868bdb5df8",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b749b732d3f7"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e0ebb431ea40/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e0ebb431ea40/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2309.14642",
+      "size_bytes": 42291,
+      "sha256": "7f7334082a0ee12dba800ae7f81b78a92f6bd06e9f3b0ca33a24c09a539c3b76",
+      "git_blob_sha1": "7a371473b30e929dbdc520d20a6a8c165389b110",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e0ebb431ea40"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-cde866e8744f/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-cde866e8744f/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2303.17651",
+      "size_bytes": 43537,
+      "sha256": "c34cbd3ef22ea0b9c95a8f3ddb430648b2513c21db3e71fd0ad79e54129025a4",
+      "git_blob_sha1": "46a5518b2ecdd0269e8821071d9630102b8b2294",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cde866e8744f"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d90faa68ab24/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d90faa68ab24/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2312.11556",
+      "size_bytes": 42546,
+      "sha256": "c3fa2726943fab7eb41d6de8dbc8e2ccde0a2d8188f7244f0c2569c680f56dee",
+      "git_blob_sha1": "7e278404f0edcad91f8941a6fff470aef224eff0",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d90faa68ab24"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-0ad4d0024652/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-0ad4d0024652/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2411.11916",
+      "size_bytes": 42561,
+      "sha256": "0a8bfe10aaaf370ce674e408f03e2e2ec407905a85dc70032ea3a21e70bd3a11",
+      "git_blob_sha1": "cba5c565c9e967d48fd39b7c8ca384965171f1cb",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ad4d0024652"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-722f581f1806/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-722f581f1806/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.10059",
+      "size_bytes": 42383,
+      "sha256": "db277b9fb7987922eced8ca627f3e810c19202ddd52fa4bac9d0e0f95a82b0c9",
+      "git_blob_sha1": "9fd74e437861035d6b31fb8f57e64dd94c18fcc5",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-722f581f1806"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f4e57f12bec9/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f4e57f12bec9/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2310.06770",
+      "size_bytes": 42606,
+      "sha256": "b73e4ef010c660ce011f6eaad07d0c94c97e3b6a38a5c21df2ac15ac7f13a86a",
+      "git_blob_sha1": "f62a62e4ebe4bd22f9e7b722efbd2c7cbac87341",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f4e57f12bec9"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b1af7abab483/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b1af7abab483/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2406.07496",
+      "size_bytes": 43211,
+      "sha256": "ae8e4caeafc3ddd9cd32cea546c7ef3a01e4b3e709d893872c3b624d1366f6da",
+      "git_blob_sha1": "3d13606cf37ea25448eabbe0fae1c1607e875d09",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b1af7abab483"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a98c6c729b9b/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a98c6c729b9b/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2407.01449",
+      "size_bytes": 42738,
+      "sha256": "e7454c1d3548b904bba9be19721a99913f5e67e3eefbe1f7523dd9afa4a607f6",
+      "git_blob_sha1": "14e222b610ce5b479679d47acddbb598f428f931",
+      "role": "license_notice",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a98c6c729b9b"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-855eabc4cc52/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-855eabc4cc52/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2212.10505",
+      "size_bytes": 43559,
+      "sha256": "7a0a60eb5ecd10ff9bef1e59bc3771a942435a066f464d797b249426bec54d96",
+      "git_blob_sha1": "c49a303497e9981004bf4a200c6beb7782e3a3f0",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-855eabc4cc52"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-07c945853c85/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-07c945853c85/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2201.06796",
+      "size_bytes": 43695,
+      "sha256": "a0cae3dc7075996c1dc38bb92fd26c5b6ef4f32153a1694bef55f411af1b39a6",
+      "git_blob_sha1": "df212518d21c9760903a7649b7c5cec819cbe8e9",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-07c945853c85"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8f4c2411d937/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8f4c2411d937/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.13787",
+      "size_bytes": 44727,
+      "sha256": "61d19ae394155a3c4d59052fff25057dab1665842ca68402b65bf8d1de6957a0",
+      "git_blob_sha1": "59562885d8c11cb2566a59964aca437fcec7a997",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8f4c2411d937"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-035a9b592275/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-035a9b592275/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2104.08663",
+      "size_bytes": 43778,
+      "sha256": "da672217e839d27d110b446a5baf2a4d9cabcdf9a9f0bd1a4edfef0a3f708da6",
+      "git_blob_sha1": "a1210f06c8929e4472118ac43d8aecb7aabd051c",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-035a9b592275"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5259558a84da/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5259558a84da/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2305.11206",
+      "size_bytes": 43595,
+      "sha256": "7b5cd7c366972d90f1774610751fde9eee9dc155c27f1b72d72830dc79c29811",
+      "git_blob_sha1": "40652204086a32be1b985e0c0ccd4349977308ec",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5259558a84da"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c30a456e54c9/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c30a456e54c9/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2305.18290",
+      "size_bytes": 44040,
+      "sha256": "a4191d70e363cfbf66a090a42c0b19475263f051d48dd39a8d415a0671920880",
+      "git_blob_sha1": "d7ed5276c3ae8c52ea17f59a397ab1398e018d95",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c30a456e54c9"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-93dc60594f0b/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-93dc60594f0b/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2607.00009",
+      "size_bytes": 41362,
+      "sha256": "e2e280a0bedc04ede5b2a2a406132700a31e71ab61f2583dfbe0d3581c1b06b5",
+      "git_blob_sha1": "4f5873fa99ccda3722b0ca5b3bbf8dec6868b031",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-93dc60594f0b"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c88dd654721e/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c88dd654721e/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.25622",
+      "size_bytes": 43546,
+      "sha256": "fb0239b9adb0c7f8e19583b91735463eb31e23fced2664b04a8bdbd3272fba59",
+      "git_blob_sha1": "89d11c063d86a59a104d4dae9ea3ca3a894aa87f",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c88dd654721e"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-947a83ee2b43/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-947a83ee2b43/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2310.11511",
+      "size_bytes": 42906,
+      "sha256": "6d3054cb5738cb8373d8b757eca3a5fba3f142304c8727e68476a5487272ca1c",
+      "git_blob_sha1": "fcdaea09d1e39feef322f5dea4113ac8053bfa75",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-947a83ee2b43"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-cc28e9ab61c3/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-cc28e9ab61c3/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2305.14314",
+      "size_bytes": 43600,
+      "sha256": "a8471d458d43767325628cf5b1e7b8d88f057a0d51f537f59bea77dd4d7a9b4b",
+      "git_blob_sha1": "f37a7b528533f4c4e256f4256e6501bd3984e5fa",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cc28e9ab61c3"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c63452043d80/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c63452043d80/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2605.27705",
+      "size_bytes": 41471,
+      "sha256": "8a5df1d371d4ddfe4362f2f81b3d03edcc9dfe65088ef2f4688b66f011c68ec8",
+      "git_blob_sha1": "762268c1e860138e0ffd6fb014e5ea4735f4c47c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c63452043d80"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-41745144aa0d/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-41745144aa0d/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.11238",
+      "size_bytes": 41393,
+      "sha256": "ffbf5d765298bcf22219178c798750f1957f81a8fd0454b77bfdc662a5eee6f6",
+      "git_blob_sha1": "977732e7afb58c3ce7ce9f940e4151977b6304ad",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-41745144aa0d"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8b0fc41318cc/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8b0fc41318cc/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.12455",
+      "size_bytes": 41154,
+      "sha256": "e0bbb7a64460eceae388beb4ba2df295e03458dda56b536abcb024fc8c02765a",
+      "git_blob_sha1": "e76d1d1405ee48150740b8449a8dff000432b0f6",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8b0fc41318cc"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-9f6d98f96873/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-9f6d98f96873/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.02694",
+      "size_bytes": 42620,
+      "sha256": "8538c95ca6fe41fc7c863ba2b4e9c8fb7c0dc7163ea5e15937d795ab35e309f2",
+      "git_blob_sha1": "06176f568a4e787c82f7a59e0d540101ae730405",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9f6d98f96873"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a530f0bfa2dd/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a530f0bfa2dd/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.30068",
+      "size_bytes": 43251,
+      "sha256": "94ae9068d83a5cfb40a0701e28517c999ab7822943214e60f0fc7b26134cfdfb",
+      "git_blob_sha1": "6da9d64cc56c92c0943383d526cfa130e8899aa3",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a530f0bfa2dd"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bf098669bc16/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bf098669bc16/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.21430",
+      "size_bytes": 42121,
+      "sha256": "837ae85fb6a4f19a8f5b7e6b4f0ad6503ce12afa9f001c7f199d1c12f24eb950",
+      "git_blob_sha1": "3dc25b76ffaa44b9ed3af3c282353703c506164e",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bf098669bc16"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-54982512f471/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-54982512f471/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.14495",
+      "size_bytes": 43071,
+      "sha256": "217bde47622d2a23f63fc449f17f9035b9cb00a4d7822603780abc6c090b175f",
+      "git_blob_sha1": "76e5df999b16518cda97fc86a4a73995ed270508",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54982512f471"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8d76dcbea854/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8d76dcbea854/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2407.13416",
+      "size_bytes": 44916,
+      "sha256": "b8921f2684901f0cf907245cd5b29cc3881dcda918ae5961a6f3ca3576675585",
+      "git_blob_sha1": "6d5de1a010f2cc9433c7cbd72fe474344dd8b8dd",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8d76dcbea854"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-1a2d19341df6/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-1a2d19341df6/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2410.11619",
+      "size_bytes": 42609,
+      "sha256": "1abbd959df23be06d719a3f21076d5d5803aec1f80e826f61d019f2176bdeefc",
+      "git_blob_sha1": "7879bcb5bab1e4e6aa31b1cd2ce9aadd2458bcb2",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a2d19341df6"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c868d0f40db6/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c868d0f40db6/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2503.20698",
+      "size_bytes": 42910,
+      "sha256": "2e9a78b161202681138121a1e89ba0c8c1db4244805b6f29758ced8f270c0386",
+      "git_blob_sha1": "776b2171ee8161d0d740a5a25c0f3328ec5c8179",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c868d0f40db6"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-0829d1aff1a6/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-0829d1aff1a6/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2505.18880",
+      "size_bytes": 42470,
+      "sha256": "8b18714e9e091d1a0b9d0e8eee84089977162b61bdf5f0ead7d696c7d3354fa6",
+      "git_blob_sha1": "ed545cbfbe024dd2c07ff9cdcee6cd05ed053499",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0829d1aff1a6"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8b0897bf591a/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8b0897bf591a/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2502.02172",
+      "size_bytes": 43940,
+      "sha256": "6cee06e97ddd376fcd17f6ce39c8d84fd5036e8c2e7263ac5abadf410259faa7",
+      "git_blob_sha1": "ea57f41cb27a35d824e22a0bb49e4fe662736677",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8b0897bf591a"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b368fc13c6a6/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b368fc13c6a6/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2502.08544",
+      "size_bytes": 42240,
+      "sha256": "bb2665f8a401cf4470bbd0ac6457210593004e4e2b09639547949a0938e54988",
+      "git_blob_sha1": "06e68fc1258f2dfe0cd7f23be8476824f332265b",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b368fc13c6a6"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-39a9bdb33889/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-39a9bdb33889/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2603.16966",
+      "size_bytes": 42989,
+      "sha256": "bee8a54bb48fbf462850919ffcfb9364bfb4d6314783328ab2b6d4ff53d31f63",
+      "git_blob_sha1": "5815ebf5cb6c884918a223d8d8f149ef61d1c3d7",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-39a9bdb33889"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bd21941cd6ca/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bd21941cd6ca/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2605.16740",
+      "size_bytes": 42495,
+      "sha256": "c3e72abda971c5961798536bfb9e890ff9df31cf19ac5f64273234f1e877b870",
+      "git_blob_sha1": "7dc102538fe88e5a99ce3f6e3376d3354e8725b0",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bd21941cd6ca"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b07dcf520736/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b07dcf520736/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.22516",
+      "size_bytes": 42395,
+      "sha256": "7662d7abc43c1e03048cb85568f7bcbd21b77c100563a765d23712c47ee852cc",
+      "git_blob_sha1": "145309c2f306211302ec40cc819e500a8508d6db",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b07dcf520736"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}

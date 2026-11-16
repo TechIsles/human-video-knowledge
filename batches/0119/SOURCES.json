@@ -1,0 +1,2000 @@
+{
+  "batch": "0119",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 55,
+  "new_original_payload_paths": 97,
+  "files": [
+    {
+      "file": "upstream/web__arxiv.org/SRC-8b11795e5f08/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8b11795e5f08/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2609.03254",
+      "title": "What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation",
+      "size_bytes": 318680,
+      "sha256": "b32e82b76120988f784811f5b490b5704ebbbe8b2fc8bc72d23092d064059d3f",
+      "git_blob_sha1": "36b72a0c686800519d55e064ace9d0895e054f31",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8b11795e5f08"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2609.03254",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6f4a5ac9b195/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6f4a5ac9b195/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2606.07636",
+      "title": "Crayotter: Traceable Multi-Agent Workflows for Long-Form Video Editing",
+      "size_bytes": 291496,
+      "sha256": "5484aa9da127cbc403e43e35ae4c06f0fb6f0acdbc06cea6620e48d4ff33f588",
+      "git_blob_sha1": "0438303c7f570d64b317e5c93e309ba4e446622d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6f4a5ac9b195"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2606.07636",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d2844e9f185e/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d2844e9f185e/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2606.23327",
+      "title": "VideoAgent: All-in-One Framework for Video Understanding and Editing",
+      "size_bytes": 2279241,
+      "sha256": "1b47656b394fa0f71288b5d4ec4866412d34afdd2f01ea91a90428a26cf62fcd",
+      "git_blob_sha1": "572ce804a11300939c0690b30cb841b4a0e814e5",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2844e9f185e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2606.23327",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6efbbdb67d1d/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6efbbdb67d1d/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2606.18591",
+      "title": "CHIEF: Bridging Creative Intent and Visual Quality: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops",
+      "size_bytes": 163318,
+      "sha256": "18c95d13dd5ce13250cafafb0042b4434eac984fb591650d118319df0f8ac381",
+      "git_blob_sha1": "63d14ba11a4615648406583eb377672f6861a64d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6efbbdb67d1d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2606.18591",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-006de4e59c87/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-006de4e59c87/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2609.07720",
+      "title": "Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation",
+      "size_bytes": 273169,
+      "sha256": "169bffc884edbab081b6554934e0f88e8cee6ed6b7362284770608029d870954",
+      "git_blob_sha1": "67d76d737c75bf1997697bc88209cef4729a5dbf",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-006de4e59c87"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2609.07720",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5525c7f4cd11/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5525c7f4cd11/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2602.14045",
+      "title": "Audience in the Loop: Viewer Feedback-Driven Content Creation in Micro-drama Production on Social Media",
+      "size_bytes": 320458,
+      "sha256": "c53fd7147d151c8102ac7b45cd74ea01774664bca18d096c9e00b348af4395d5",
+      "git_blob_sha1": "0aa5088f7594be3593a49b3a1a2990ceb716f7cd",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5525c7f4cd11"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2602.14045",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-3c69b5c26ad9/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-3c69b5c26ad9/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2504.17828",
+      "title": "VEU-Bench: Towards Comprehensive Understanding of Video Editing",
+      "size_bytes": 201270,
+      "sha256": "47dfaae49be3541aba5ed31eead025345d9d8db6c2926c1aaf2028b1aacd1e6f",
+      "git_blob_sha1": "5c1da223c96f8ef9db6afb5808c68e08b20c8935",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c69b5c26ad9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2504.17828",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6eded3df18ec/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6eded3df18ec/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2605.18748",
+      "title": "Aurora: Unified Video Editing with a Tool-Using Agent",
+      "size_bytes": 1991095,
+      "sha256": "7abfb151e0a42c2bd66232740d928c41a01206f5236e7edaf8f201126636365e",
+      "git_blob_sha1": "8c74a29e935b3146557348b5fe5461366a141690",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6eded3df18ec"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2605.18748",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f0c1b3e0f5c2/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f0c1b3e0f5c2/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2507.06329",
+      "title": "MixAssist: An Audio-Language Dataset for Co-Creative AI Assistance in Music Mixing",
+      "size_bytes": 645668,
+      "sha256": "2f066f04de26a17b6ae3a2cad75a22754757fa63d0b01dc7cf46dd6ee4510ed8",
+      "git_blob_sha1": "98818eb588eed7e6b403dac1d6d05371a6b2bb6d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f0c1b3e0f5c2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2507.06329",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-70d752b61ae1/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-70d752b61ae1/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2302.14117",
+      "title": "AVscript: Accessible Video Editing with Audio-Visual Scripts",
+      "size_bytes": 318431,
+      "sha256": "219efbca60bd6bf84dead6e7c7cc967241c8b9909c8b0dad9014cc15e7af8276",
+      "git_blob_sha1": "3f2df02c7e8dc45793bd0139fc90a923856bcdda",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-70d752b61ae1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2302.14117",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-68b2f83d1dc9/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-68b2f83d1dc9/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2602.07266",
+      "title": "ADCanvas: Accessible and Conversational Audio Description Authoring for Blind and Low Vision Creators",
+      "size_bytes": 672735,
+      "sha256": "233cc1b0df9003fa8938f88e49f3ed60420b87d0d50634a892088022403d4888",
+      "git_blob_sha1": "bec34f4cde5dcb597f46c7cedbbe27928130232f",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-68b2f83d1dc9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2602.07266",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-ea73b7cf4bb1/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-ea73b7cf4bb1/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.05030",
+      "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+      "size_bytes": 977439,
+      "sha256": "63a96c10597e6d69fc1081985421c0cf51bcb687b75141062a0c3b7003b085b0",
+      "git_blob_sha1": "2344189094a6f1ad40d05a10fbdb121e65df358c",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea73b7cf4bb1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.05030",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b28d86fc0a5f/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b28d86fc0a5f/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.16717",
+      "title": "PersonaShot：按证据激活连续性评测，不把缺证据当默认通过",
+      "size_bytes": 421396,
+      "sha256": "a1eaaa17267659bf5c0bd6d2697c396802b7198244182090c9965c67a7818c97",
+      "git_blob_sha1": "6a0a22ed7f870078dbadcd24d273e8a6878487ba",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b28d86fc0a5f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.16717",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-83f466d615be/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-83f466d615be/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2410.03093",
+      "title": "Data Playwright: Authoring Data Videos with Annotated Narration",
+      "size_bytes": 210092,
+      "sha256": "f3325b97c2bd366c910f592a41b7eebf6e0f387beeb98e7dec3809a397a5d553",
+      "git_blob_sha1": "d6f65e492b74c3ba9b3c9c77431a330fc58924bc",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-83f466d615be"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2410.03093",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bb0b0baf7961/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bb0b0baf7961/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2303.06460",
+      "title": "GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements",
+      "size_bytes": 225517,
+      "sha256": "84593804f2445c237b9447b80c928282998b0c672e4b2f3a3219ba894fd1bdcc",
+      "git_blob_sha1": "ef343dc8d5250d841c7ef568739a8e22cfd1320b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bb0b0baf7961"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2303.06460",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-282efbc5dc87/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-282efbc5dc87/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2210.08175",
+      "title": "DataTV: Streaming Data Videos for Storytelling",
+      "size_bytes": 129252,
+      "sha256": "44c4c275e7b2c6a8d70c24923b6828684ad7677336964062ee2c9e200f2a3565",
+      "git_blob_sha1": "5e787974b12b8c0a59f0b88c818a0b1f55c26e7e",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-282efbc5dc87"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2210.08175",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f8316b4c0af2/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f8316b4c0af2/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2508.09983",
+      "title": "Story2Board: A Training-Free Approach for Expressive Storyboard Generation",
+      "size_bytes": 214059,
+      "sha256": "aeecd7d2db3c493476eb83f708dd3c34f074f539b8a6a1cbedde8f2773c59fdd",
+      "git_blob_sha1": "7806d424112fb2004091e0069d8c15882538cc18",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8316b4c0af2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2508.09983",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-abfd52819fca/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-abfd52819fca/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2407.04697",
+      "title": "VCoME: Verbal Video Composition with Multimodal Editing Effects",
+      "size_bytes": 187109,
+      "sha256": "35ad08e3608c7cfa50e9682b15366ca0877f0f12ef78ef70a714b4e52e5b2a24",
+      "git_blob_sha1": "1784af4a5879be7f5c59fb34841506d7e94c57b1",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-abfd52819fca"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2407.04697",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5d9181eba724/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5d9181eba724/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.35816",
+      "title": "音乐会导播 — 检测、评分、镜头取舍与成片质量分层验证",
+      "size_bytes": 338723,
+      "sha256": "ce976914d01c82a40aaa51965c864b8421bc40c24aa59a70f9c50d1c6d00f338",
+      "git_blob_sha1": "ff34925ad327c4d204229c5bef1608f4ef39737b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5d9181eba724"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.35816",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d89d69d7ff2e/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d89d69d7ff2e/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.25601",
+      "title": "双Transformer机位推荐 — 历史查询与少量数据个性化的迁移边界",
+      "size_bytes": 170807,
+      "sha256": "5e7e6b21c972976cc14c54efecafe8a996f356c23a2d6c20f47ba72b7415cedc",
+      "git_blob_sha1": "e19ac91806d817a8caca174816f3a6096f828d38",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d89d69d7ff2e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.25601",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e395b992aaf4/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e395b992aaf4/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2509.16811",
+      "title": "长叙事Agent剪辑 — 可见中间产物不等于可局部修订",
+      "size_bytes": 187610,
+      "sha256": "e80e3c864d75640bbea8faed5071a7a04fa61e1060c4a77e89ff70c7472ce6da",
+      "git_blob_sha1": "3e17b2294460d79282fa84f31b86b57752fd9946",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e395b992aaf4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2509.16811",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-725eec8efa23/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-725eec8efa23/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2511.03227",
+      "title": "节点化叙事修订 — 局部备选与图结构保留的边界",
+      "size_bytes": 262243,
+      "sha256": "f99890d14b4204d3b0253cb8b71e39de26df771104b4e22457635cc2a4f82422",
+      "git_blob_sha1": "4521f7908921ba3cd67a502f11c591684131d065",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-725eec8efa23"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2511.03227",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-2984176e8e93/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-2984176e8e93/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.35497",
+      "title": "剪辑智能体过程奖励 — 更多检查与反思不保证更好交付",
+      "size_bytes": 514872,
+      "sha256": "41f8c75c44914314d59748ccc09cf7d13818ca03834003c09460e027e5e389b6",
+      "git_blob_sha1": "02395d7f2a99dad019dd21c9451bc0df8ce9d3dc",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2984176e8e93"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.35497",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-299bba337b4b/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-299bba337b4b/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2604.04875",
+      "title": "DIRECT — 分层意图与有条件回退，不把拒绝率当校验准确率",
+      "size_bytes": 656102,
+      "sha256": "74d8a48f17da40463d5e24e815dedd0769a44f5eac61e0510f92682b48697834",
+      "git_blob_sha1": "3c0906607bc676b6ef21b94c00da178d898ddb6d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-299bba337b4b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2604.04875",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5dab99357472/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5dab99357472/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2607.24821",
+      "title": "AVE-Compass — 区分没改、改错与损坏非目标内容",
+      "size_bytes": 1897409,
+      "sha256": "a1dec5634d93bff4515c6165553b19edf74a1187d29fe21b8549281b6bec37f8",
+      "git_blob_sha1": "594a305d7aac094a120a4350a3b05f784903b8a6",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5dab99357472"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2607.24821",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a73820581707/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a73820581707/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2609.12769",
+      "title": "统一剪辑代理 — 同一素材骨架服务预览、摘要与预告，但目标不可混用",
+      "size_bytes": 154313,
+      "sha256": "087a7108de41e48059872bd77ba719bcb225920531f6d894f2fb5d9987e86a08",
+      "git_blob_sha1": "76abbce383355aae9e5b4dffe93e6072348bba35",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a73820581707"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2609.12769",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-afe78de051aa/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-afe78de051aa/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2510.14032",
+      "title": "Vgent — 检索命中与证据足够必须分开",
+      "size_bytes": 387759,
+      "sha256": "36a0b937d288d3054464375fa3fa603ac158ee9a399e3db9d25acb95d45ce26a",
+      "git_blob_sha1": "da5221650396e13850dae39eaf732e67f3c0b7f0",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afe78de051aa"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2510.14032",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bb2cd1b64a6c/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bb2cd1b64a6c/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2510.27280",
+      "title": "FOCUS — 有限预算下为不确定片段留探索空间",
+      "size_bytes": 438497,
+      "sha256": "adead30ab602643a4fa0af59e55d0d15f6a96b45eb7b2df40f930d6be71e121f",
+      "git_blob_sha1": "a9447b4ac908aae6c59d3ffc506b19d46365f968",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bb2cd1b64a6c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2510.27280",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e7b7191fcdea/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e7b7191fcdea/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.25985",
+      "title": "NIOCIS — 小模型接管率、候选覆盖与升级成本不可混算",
+      "size_bytes": 435944,
+      "sha256": "54ed49a7ea1c355772937923ff3b2ef886f037af55320bad3d8648de37038dcf",
+      "git_blob_sha1": "31e2a2c2c7eb9cd641469566b915ae37e1ab6048",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e7b7191fcdea"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.25985",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-1578c2be1633/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-1578c2be1633/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2509.13646",
+      "title": "Vistoria — 多模态控制感与认知负担的条件取舍",
+      "size_bytes": 412387,
+      "sha256": "20ef5c4e1e4b6f663efdcf1bc866d6e24c9af3ea4e45930919ebdc8892e201be",
+      "git_blob_sha1": "66123db27dd5699c2f6181c583f012893e1583ff",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1578c2be1633"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2509.13646",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-7e1cac33d246/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-7e1cac33d246/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2608.10337",
+      "title": "Narrative Keyframing — 选取人物视角证据并约束局部改写",
+      "size_bytes": 368279,
+      "sha256": "488151385fa1f5b46ebb1ee90d5052432281a2013811011013e8fe79900d4074",
+      "git_blob_sha1": "1f9f25dcf25fc198ade1bb70d273d647bafa5f22",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e1cac33d246"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2608.10337",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-583b97bbbc32/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-583b97bbbc32/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2507.15202",
+      "title": "TalkLess — 分离措辞压缩与内容取舍，语义保真仍须复核",
+      "size_bytes": 579695,
+      "sha256": "88b5c6f8d094760b8cbd19d7e9627a8889a3b44047237da76f2eded70849c711",
+      "git_blob_sha1": "f5d9336ec78adade0f52c639442f6800fd0dcd6d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-583b97bbbc32"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2507.15202",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d94d7ea00533/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d94d7ea00533/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2610.22661",
+      "title": "Edit Discovery in Human–AI Interactions",
+      "size_bytes": 552253,
+      "sha256": "a6b519e7540c4172dcd029faf25fde1d8b47f3ad84a71ef8dc86b0d5e672db30",
+      "git_blob_sha1": "e0e7430d5153cdb981a13404d075dd9670701cc3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d94d7ea00533"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2610.22661",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-46e9977e91e7/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-46e9977e91e7/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2604.25220",
+      "title": "DataReel — 图表叙事规划、代码与视频评测分层",
+      "size_bytes": 306808,
+      "sha256": "9133cdb185c538f6ba5128bb9d7638f8614c215877b9b5597a7b3ccc7c435e33",
+      "git_blob_sha1": "7876648476c57d9e1610abd4ece72ca4e28231c9",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-46e9977e91e7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2604.25220",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8bbe1464285d/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8bbe1464285d/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2504.15575",
+      "title": "Exploring the User Experience of AI-Assisted Sound Searching Systems for Creative Workflows",
+      "size_bytes": 135281,
+      "sha256": "dbf044b96598543ddcf230dd60b549b2dc25483066b10ea3c52eaa23aa08390f",
+      "git_blob_sha1": "80213b6305a2a8eb2a0ed3a392dc316c5e8c81d2",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8bbe1464285d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2504.15575",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-ef30ecf14f45/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-ef30ecf14f45/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2604.08178",
+      "title": "Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling",
+      "size_bytes": 923708,
+      "sha256": "79bf660b129b324a15687fb489c3a367d7fdff456414402bc6d69b92c5a00ca3",
+      "git_blob_sha1": "69da330df74dd9d1a940595fdfd26ecdc32d8cba",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ef30ecf14f45"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2604.08178",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-68778beeddfc/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-68778beeddfc/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2403.18802",
+      "title": "Long-form factuality in large language models",
+      "size_bytes": 1241284,
+      "sha256": "7c398bb3de2fd71d55e82c1f9ec1b0fb3ccb62551b1042f671dada90558cb163",
+      "git_blob_sha1": "8bcf0e57df934678aab783185b55d5388eb0e986",
+      "role": "original_article",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-68778beeddfc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2403.18802",
+        "http://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-0df92a301b80/original.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-0df92a301b80/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/html/2404.04475",
+      "title": "Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators",
+      "size_bytes": 137018,
+      "sha256": "86aaa444d2fbcb6af283336a269084e626a60a151558dc75034b32ac15e63d48",
+      "git_blob_sha1": "e124c920e5c0819b5df4effca3b3d9dca703675e",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0df92a301b80"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2404.04475",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-c906e19880dd/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-c906e19880dd/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13111438/fullTextXML",
+      "title": "Co-designing animated videos to explain large language models and their use in healthcare and research",
+      "size_bytes": 78820,
+      "sha256": "3bc856215ba94033d8adf7c8ba0a7d07979957c99c0e2ef275684825efa83aac",
+      "git_blob_sha1": "27ee8c22560108da2eb42f98c1dcccbc1fdd24f7",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c906e19880dd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-aee7a26a6db2/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-aee7a26a6db2/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10833524/fullTextXML",
+      "title": "Ten simple rules for designing graphical abstracts",
+      "size_bytes": 75717,
+      "sha256": "85eba56f3e9bef500fb436db88bac762ce877c9ff30e6ca406ef9153aee9afe3",
+      "git_blob_sha1": "226853b6cb8a86fdb07ca9ecb6f69ed37c5e71b4",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aee7a26a6db2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-6893d2acf139/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-6893d2acf139/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10627439/fullTextXML",
+      "title": "Seeing the unseen: Comparison study of representation approaches for biochemical processes in education",
+      "size_bytes": 160831,
+      "sha256": "734d48ae0a9fa9905b7262fdd134e1c0ccb00e27b79ff2cae2a588051afb4a8e",
+      "git_blob_sha1": "84bff7e3eec9edf73247aedafc3b95735a13e430",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6893d2acf139"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__www.ebi.ac.uk/SRC-8308c00d5862/original.xml",
+      "repository": "web/www.ebi.ac.uk",
+      "upstream_path": "SRC-8308c00d5862/original.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11486383/fullTextXML",
+      "title": "Picture perfect science communication: How public audiences respond to informational labels in cinematic-style 3D data visualization",
+      "size_bytes": 157601,
+      "sha256": "5c246f2a00dbe80518fa35650d0b5f5ee63c86b29d3f9b1ea0ca97c278b5aa40",
+      "git_blob_sha1": "6e2ea56ecfcaf1341c4dc1a11addd3747cf9a95a",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8308c00d5862"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-0e54a697b191/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-0e54a697b191/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/WAI/media/av/captions/",
+      "title": "Captions/Subtitles — Making Audio and Video Media Accessible",
+      "size_bytes": 53562,
+      "sha256": "bcea7f91db7f880f5afc338c347bc0b1784bc74e8d091be69aba63a3c5870767",
+      "git_blob_sha1": "6112d544dddc8a85181df945bf8b4f2d945fc079",
+      "role": "original_article",
+      "license": "W3C-Software-and-Document-2023",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0e54a697b191"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/WAI/media/av/captions/",
+        "https://www.w3.org/copyright/software-license/"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-fe77644b48bc/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-fe77644b48bc/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/copyright/software-license/",
+      "title": "Original license notice",
+      "size_bytes": 26722,
+      "sha256": "9234807e23edbf8f1058fd85e4d9bd19f2beebebcd8f74433cc59e8a54059771",
+      "git_blob_sha1": "17340ca2e253cd1dceb6a8675a08984978724c18",
+      "role": "license_notice",
+      "license": "W3C-Software-and-Document-2023",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fe77644b48bc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://www.w3.org/copyright/software-license/"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-7967a11fcc2e/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-7967a11fcc2e/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/TR/annotation-model/",
+      "title": "Web Annotation Data Model",
+      "size_bytes": 284185,
+      "sha256": "a7513e022f56c0a6f4e99ac11aec03f3451d1ff1ce14054780b3ccfb38fa7980",
+      "git_blob_sha1": "dc3f39796e1382bc7051439dd437ebea71e8f679",
+      "role": "original_article",
+      "license": "W3C-Document",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7967a11fcc2e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/TR/annotation-model/",
+        "https://www.w3.org/Consortium/Legal/copyright-documents"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-96030c307566/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-96030c307566/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/Consortium/Legal/copyright-documents",
+      "title": "Original license notice",
+      "size_bytes": 28063,
+      "sha256": "8f0bf5069b42a555680ae69bd89f7aaa3c998adcaf336d7a01c0d9fe2994f3c1",
+      "git_blob_sha1": "02ef1416709e038482adeffe1bc8e3c2818f6ccf",
+      "role": "license_notice",
+      "license": "W3C-Document",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96030c307566"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://www.w3.org/Consortium/Legal/copyright-documents"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-fc127d142427/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-fc127d142427/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "title": "PROV-O: The PROV Ontology",
+      "size_bytes": 464179,
+      "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "git_blob_sha1": "e3a641e842128354a7a97145baf4091b2583b7dc",
+      "role": "original_article",
+      "license": "W3C-Document",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fc127d142427"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+        "https://www.w3.org/Consortium/Legal/copyright-documents"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.rfc-editor.org/SRC-8c6624e24b4a/original.txt",
+      "repository": "web/www.rfc-editor.org",
+      "upstream_path": "SRC-8c6624e24b4a/original.txt",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc6902.txt",
+      "title": "RFC 6902: JavaScript Object Notation (JSON) Patch",
+      "size_bytes": 26405,
+      "sha256": "ded8fa1754ab1566fd72611c9d5bcde931cd2bdf8351889e2ef5b50efdf1eed4",
+      "git_blob_sha1": "b517085ccbf78f9365c9e260201a5ba906d5c330",
+      "role": "original_article",
+      "license": "IETF-Trust-Legal-Provisions",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8c6624e24b4a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.rfc-editor.org/rfc/rfc6902",
+        "https://trustee.ietf.org/documents/trust-legal-provisions/tlp-5/"
+      ],
+      "conditions": "Unmodified complete RFC, retain IETF notices and author attribution; not the definitive publisher version."
+    },
+    {
+      "file": "upstream/web__trustee.ietf.org/SRC-6be0f55bc348/original.html",
+      "repository": "web/trustee.ietf.org",
+      "upstream_path": "SRC-6be0f55bc348/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://trustee.ietf.org/documents/trust-legal-provisions/tlp-5/",
+      "title": "Original license notice",
+      "size_bytes": 69675,
+      "sha256": "a73d24aa0bc8cfd893c1c0751379c1cc8e7f86077684203489e2ad6e018501fa",
+      "git_blob_sha1": "21c13d0c6b573380786ccbd713ac2a31b291c274",
+      "role": "license_notice",
+      "license": "IETF-Trust-Legal-Provisions",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6be0f55bc348"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://trustee.ietf.org/documents/trust-legal-provisions/tlp-5/"
+      ],
+      "conditions": "Unmodified complete RFC, retain IETF notices and author attribution; not the definitive publisher version."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-41aa28a5fcf5/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-41aa28a5fcf5/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/TR/webvtt1/",
+      "title": "WebVTT: The Web Video Text Tracks Format",
+      "size_bytes": 834970,
+      "sha256": "1fd10e09adc72c7545671eadec72282124699b5192d3dff9028020dfa785d154",
+      "git_blob_sha1": "52cd27b22e907a39c07c0c53579d321ad4ba2284",
+      "role": "original_article",
+      "license": "W3C-Software-and-Document-2023",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-41aa28a5fcf5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/TR/webvtt1/",
+        "https://www.w3.org/copyright/software-license/"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-62080a8903f1/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-62080a8903f1/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/WAI/media/av/description/",
+      "title": "Description of Visual Information",
+      "size_bytes": 66075,
+      "sha256": "a351ff62d8abde317f10781e2129640cb17bcc194773f496eb7f4aa3f105c691",
+      "git_blob_sha1": "4c2b0c4dcda2e9fa4fb6df404c68f118036fb546",
+      "role": "original_article",
+      "license": "W3C-Software-and-Document-2023",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-62080a8903f1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/WAI/media/av/description/",
+        "https://www.w3.org/copyright/software-license/"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-a1003afbed52/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-a1003afbed52/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/TR/dapt/",
+      "title": "Dubbing and Audio description Profiles of TTML2",
+      "size_bytes": 1024219,
+      "sha256": "fdf878dcd0f84a13ce72dd267d6114c9bb6de8b53ff7ca5620381d0e0f36c360",
+      "git_blob_sha1": "9cd37b8bd5d494f9eb068046a4192985e5b5fd59",
+      "role": "original_article",
+      "license": "W3C-Document-2023",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a1003afbed52"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/TR/dapt/",
+        "https://www.w3.org/copyright/document-license/"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__www.w3.org/SRC-1214b3609a25/original.html",
+      "repository": "web/www.w3.org",
+      "upstream_path": "SRC-1214b3609a25/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.w3.org/TR/media-frags/",
+      "title": "媒体片段定位：原片区间/区域与实际导出是不同操作",
+      "size_bytes": 89887,
+      "sha256": "ecbaffe292d75c6d70f31b406475dd6e678440f92be34aa468fda67fb4217d9e",
+      "git_blob_sha1": "83f21e771fb893c5f471a4572815e43b1e922647",
+      "role": "original_article",
+      "license": "W3C-Document",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1214b3609a25"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.w3.org/TR/media-frags/",
+        "https://www.w3.org/Consortium/Legal/copyright-documents"
+      ],
+      "conditions": "Retain unchanged original document, copyright, authorship, status and original URL, and linked complete license. External assets not included."
+    },
+    {
+      "file": "upstream/web__developer.mozilla.org/SRC-79cd6d595d5e/original.html",
+      "repository": "web/developer.mozilla.org",
+      "upstream_path": "SRC-79cd6d595d5e/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/preserveAspectRatio",
+      "title": "SVG坐标映射：完整容纳与覆盖视口的选择",
+      "size_bytes": 208409,
+      "sha256": "f9d210ae830aed4a8e6289f5022118bdad6e5dd860991f3e59bf5a6ae6f45b75",
+      "git_blob_sha1": "39e3944ef7955c039ceda5460750af4f17fddb91",
+      "role": "original_article",
+      "license": "CC-BY-SA-2.5-or-later; code samples CC0 or MIT as stated",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-79cd6d595d5e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/preserveAspectRatio",
+        "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+        "https://creativecommons.org/licenses/by-sa/2.5/"
+      ],
+      "conditions": "By Mozilla Contributors. Unmodified complete MDN page, retained under CC BY-SA 2.5 or later; retain title, original URL, authorship and licensing. Code-sample licensing remains as in MDN policy. No external assets included."
+    },
+    {
+      "file": "upstream/web__developer.mozilla.org/SRC-2f7ec3bc5b2b/original.html",
+      "repository": "web/developer.mozilla.org",
+      "upstream_path": "SRC-2f7ec3bc5b2b/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+      "title": "Original license notice",
+      "size_bytes": 156717,
+      "sha256": "5fe006bf6361b5acd21bb5ae71562eb23e3432432701ea37f9ac2ee03ee52c13",
+      "git_blob_sha1": "3f650a917715cddf2150819158cf0eb9c5d1761f",
+      "role": "license_notice",
+      "license": "CC-BY-SA-2.5-or-later; code samples CC0 or MIT as stated",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2f7ec3bc5b2b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license"
+      ],
+      "conditions": "By Mozilla Contributors. Unmodified complete MDN page, retained under CC BY-SA 2.5 or later; retain title, original URL, authorship and licensing. Code-sample licensing remains as in MDN policy. No external assets included."
+    },
+    {
+      "file": "upstream/web__developer.mozilla.org/SRC-5878854bb5a6/original.html",
+      "repository": "web/developer.mozilla.org",
+      "upstream_path": "SRC-5878854bb5a6/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
+      "title": "Keyframe Formats",
+      "size_bytes": 150776,
+      "sha256": "2da7db4e5e6eb243fbf3bec944391ec5fe9017fc7a2f3bf69ca708228c1945f2",
+      "git_blob_sha1": "bd1496bf329141b70b8cedb3a1021d46c9d8ba34",
+      "role": "original_article",
+      "license": "CC-BY-SA-2.5-or-later; code samples CC0 or MIT as stated",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5878854bb5a6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
+        "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+        "https://creativecommons.org/licenses/by-sa/2.5/"
+      ],
+      "conditions": "By Mozilla Contributors. Unmodified complete MDN page, retained under CC BY-SA 2.5 or later; retain title, original URL, authorship and licensing. Code-sample licensing remains as in MDN policy. No external assets included."
+    },
+    {
+      "file": "upstream/web__developer.mozilla.org/SRC-ea532c016dcc/original.html",
+      "repository": "web/developer.mozilla.org",
+      "upstream_path": "SRC-ea532c016dcc/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/VideoDecoder/decode",
+      "title": "VideoDecoder: decode() method",
+      "size_bytes": 149488,
+      "sha256": "c9148acee6c9cb55e9a8c9d94042033d3b8517f807288e254088c5252eb89d7a",
+      "git_blob_sha1": "dffbc8de9dd30037824416252c5e7e147e540f85",
+      "role": "original_article",
+      "license": "CC-BY-SA-2.5-or-later; code samples CC0 or MIT as stated",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea532c016dcc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/VideoDecoder/decode",
+        "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+        "https://creativecommons.org/licenses/by-sa/2.5/"
+      ],
+      "conditions": "By Mozilla Contributors. Unmodified complete MDN page, retained under CC BY-SA 2.5 or later; retain title, original URL, authorship and licensing. Code-sample licensing remains as in MDN policy. No external assets included."
+    },
+    {
+      "file": "upstream/web__developer.mozilla.org/SRC-c0658b457a54/original.html",
+      "repository": "web/developer.mozilla.org",
+      "upstream_path": "SRC-c0658b457a54/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/start",
+      "title": "AudioBufferSourceNode: start() method",
+      "size_bytes": 157641,
+      "sha256": "9f010d57e1788e3f378942e6a619c29b550f231205f8e4821d0bf0bc52bdadc5",
+      "git_blob_sha1": "f55059f1de7b000dbebe9320c717dd8f385ef381",
+      "role": "original_article",
+      "license": "CC-BY-SA-2.5-or-later; code samples CC0 or MIT as stated",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c0658b457a54"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/start",
+        "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+        "https://creativecommons.org/licenses/by-sa/2.5/"
+      ],
+      "conditions": "By Mozilla Contributors. Unmodified complete MDN page, retained under CC BY-SA 2.5 or later; retain title, original URL, authorship and licensing. Code-sample licensing remains as in MDN policy. No external assets included."
+    },
+    {
+      "file": "upstream/web__developer.mozilla.org/SRC-e5760178fd2a/original.html",
+      "repository": "web/developer.mozilla.org",
+      "upstream_path": "SRC-e5760178fd2a/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-break",
+      "title": "line-break CSS property",
+      "size_bytes": 328591,
+      "sha256": "9d1896c04b8fba04fa1f76ed255cc95c45969b2ba2fea91fc3713a7196f0ba55",
+      "git_blob_sha1": "19347477011348a9eb200e1950b78156347837cd",
+      "role": "original_article",
+      "license": "CC-BY-SA-2.5-or-later; code samples CC0 or MIT as stated",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e5760178fd2a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-break",
+        "https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+        "https://creativecommons.org/licenses/by-sa/2.5/"
+      ],
+      "conditions": "By Mozilla Contributors. Unmodified complete MDN page, retained under CC BY-SA 2.5 or later; retain title, original URL, authorship and licensing. Code-sample licensing remains as in MDN policy. No external assets included."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8b11795e5f08/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8b11795e5f08/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2609.03254",
+      "size_bytes": 41795,
+      "sha256": "0770b77eff9365c51992207a86039bd7f81bd29ea8fb696a8472612e7319c497",
+      "git_blob_sha1": "0fa4860de345856e469812e92a56012a4fbc0927",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8b11795e5f08"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6f4a5ac9b195/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6f4a5ac9b195/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2606.07636",
+      "size_bytes": 43816,
+      "sha256": "4c97741ec82bbccf554a37e137fb7ca2a79e577f3ab05643d0b6a7e4770d2072",
+      "git_blob_sha1": "ceea9593997a39cbf4c319f0e33d7e8c9264fdf2",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6f4a5ac9b195"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d2844e9f185e/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d2844e9f185e/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2606.23327",
+      "size_bytes": 42869,
+      "sha256": "a15dba34e8e127e578b70b5b94c76e041d882919094d2730c0f99b81c145f854",
+      "git_blob_sha1": "7550e56aae50a6708b76dcbaf59bc594e1064cce",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2844e9f185e"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6efbbdb67d1d/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6efbbdb67d1d/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2606.18591",
+      "size_bytes": 42303,
+      "sha256": "b494c708609ee8c776dff982e03d243f75964c79d559ed9423125cb04550f066",
+      "git_blob_sha1": "efa9de443b2ce2cb62874ee604694bf6fe954760",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6efbbdb67d1d"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-006de4e59c87/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-006de4e59c87/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2609.07720",
+      "size_bytes": 42031,
+      "sha256": "e3291ebd79986796928838cd1cb184fe96ac31611dc01deccd2c5a26e5a4ce4c",
+      "git_blob_sha1": "828077131223fc4fc8cc14e772622fdc3bf267ff",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-006de4e59c87"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5525c7f4cd11/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5525c7f4cd11/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2602.14045",
+      "size_bytes": 43028,
+      "sha256": "2db8424aac0ff284b43474694fd24c547ea8e1562f1c558b87eef5b80bfaeea4",
+      "git_blob_sha1": "b6f99aa0a3487969d6d305894be5b8589cee5e67",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5525c7f4cd11"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-3c69b5c26ad9/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-3c69b5c26ad9/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2504.17828",
+      "size_bytes": 42866,
+      "sha256": "1febeb736e021767b9d5cefbf4d799146db5f8b76b76b967c8da28ee5a782b5d",
+      "git_blob_sha1": "5abb800280719e01bc2aa2a17e8f988cd580643d",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c69b5c26ad9"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-6eded3df18ec/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-6eded3df18ec/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2605.18748",
+      "size_bytes": 42338,
+      "sha256": "1778a5fc09877f813ba80262618c5f87cc9b16b63d54fab2de8cb67b22ac48f4",
+      "git_blob_sha1": "e61fe21e49599254e7d28040312ca9ef0fb303c8",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6eded3df18ec"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f0c1b3e0f5c2/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f0c1b3e0f5c2/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2507.06329",
+      "size_bytes": 42772,
+      "sha256": "84e1f98a00cfcaeabc9f2f176e213b01732249fe8ba92334db05cfcdf78bd0d9",
+      "git_blob_sha1": "d823c5de464eeddbf146bb3fc8926e39a50069f7",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f0c1b3e0f5c2"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-70d752b61ae1/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-70d752b61ae1/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2302.14117",
+      "size_bytes": 42527,
+      "sha256": "f7b5756214bebe866c778ec36468a7b3d8ccfba2e5f75c13d8b18340d381d62a",
+      "git_blob_sha1": "459c5d54cc8f6eb82af46189702c8529a69fae14",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-70d752b61ae1"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-68b2f83d1dc9/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-68b2f83d1dc9/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2602.07266",
+      "size_bytes": 44595,
+      "sha256": "61902105701d2242bd911beb645db995b754e4df73fbd4273d9972399be2c392",
+      "git_blob_sha1": "fc9e9e6a964730937c560954bc1c5d2ebc6bb846",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-68b2f83d1dc9"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-ea73b7cf4bb1/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-ea73b7cf4bb1/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.05030",
+      "size_bytes": 41419,
+      "sha256": "36f98ea94409b3d0e2c91da90fde3882ee20f75020d310fe8fa293327397dba9",
+      "git_blob_sha1": "c8561217f69a6c2512f7b145845d06679f2e1ecc",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea73b7cf4bb1"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-b28d86fc0a5f/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-b28d86fc0a5f/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.16717",
+      "size_bytes": 43471,
+      "sha256": "4985d9daf50e890945d2c96a921b6c501294f81e80dceaa52aaa0c47fa973753",
+      "git_blob_sha1": "df47d978e1a578581797de46c40c15d2dc1c70f4",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b28d86fc0a5f"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-83f466d615be/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-83f466d615be/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2410.03093",
+      "size_bytes": 42204,
+      "sha256": "ee561a9efbdc793963fb530e0094cf68f9492fbf89fa32930a91ed18b88b9e8d",
+      "git_blob_sha1": "c9639026ddfb3eb60e5dc19dcc1ad811cb2b4a34",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-83f466d615be"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bb0b0baf7961/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bb0b0baf7961/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2303.06460",
+      "size_bytes": 42607,
+      "sha256": "88406cd1fddaebd78df640fcb8873fb2727f9e978688059d9d229308587db1a0",
+      "git_blob_sha1": "d94caeac222d12cc910bba56b088e68415b2708e",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bb0b0baf7961"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-282efbc5dc87/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-282efbc5dc87/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2210.08175",
+      "size_bytes": 38472,
+      "sha256": "1769c93ea284c9621360980bf3904080ad428c482ab4f164dfefa27c1bd71752",
+      "git_blob_sha1": "0509486221b1858fdc4ed3106aa74f704a0ba571",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-282efbc5dc87"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-f8316b4c0af2/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-f8316b4c0af2/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2508.09983",
+      "size_bytes": 42069,
+      "sha256": "cfb83c4409fca26e16f1f8d204faf9cc1e77bc1a3565d6f2ec24407022414d0c",
+      "git_blob_sha1": "f2c9d39ed4c213c0955b94fdf5f2e676b9c13a3c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8316b4c0af2"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-abfd52819fca/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-abfd52819fca/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2407.04697",
+      "size_bytes": 41876,
+      "sha256": "0ed3c36084749a9a167285ce136e0558a2f869db61cb2e5d9e740ddfbfcbf443",
+      "git_blob_sha1": "abb8a7ba4ad2aacc0cf1118047e9d1bbe035ccd3",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-abfd52819fca"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5d9181eba724/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5d9181eba724/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.35816",
+      "size_bytes": 40432,
+      "sha256": "717e5f6da1b8f2c0fe466d19da07f11273711e8007fe99020f3d82a366bcc95f",
+      "git_blob_sha1": "a51f0dc04da2cc973bcaf5e3d42687715ff86b88",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5d9181eba724"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d89d69d7ff2e/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d89d69d7ff2e/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.25601",
+      "size_bytes": 42438,
+      "sha256": "ac0a15e6a5e2bd878eb6e1d0e8972beb7e0475fc6bc9fb2f95ec1a151547c82f",
+      "git_blob_sha1": "32dc9ce69abf6abab379c5297336ef26fab6239c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d89d69d7ff2e"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e395b992aaf4/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e395b992aaf4/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2509.16811",
+      "size_bytes": 41514,
+      "sha256": "c62a40e790b782e8b01a63ccafac76c1e19726bc30bc9cf636ac5597aa60f430",
+      "git_blob_sha1": "c85787804888d0a0ba71cf25e65a40aa6e3a0684",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e395b992aaf4"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-725eec8efa23/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-725eec8efa23/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2511.03227",
+      "size_bytes": 41064,
+      "sha256": "f6f083ea52c147a5d07bcddad8153bb11ef77d4d5a8e8fcf2c5853aa68ec5d8c",
+      "git_blob_sha1": "fc1dd7e87d050d2c45e210341f399e6c100d912c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-725eec8efa23"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-2984176e8e93/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-2984176e8e93/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.35497",
+      "size_bytes": 43774,
+      "sha256": "e7287a6377719574bd68d5087b5a55b7928ad8b7de6e4d81355ad2c4a729adf0",
+      "git_blob_sha1": "5b305b20918fa3c50cf220082b4dca19ebef52b2",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2984176e8e93"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-299bba337b4b/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-299bba337b4b/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2604.04875",
+      "size_bytes": 42643,
+      "sha256": "5e902a7c7332bb81d1611260dbbb931388fe808bad95ba665a4c20d98d80e1aa",
+      "git_blob_sha1": "cfeaf6854c4ef2200f5f9c8f9d630f64ad87eeae",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-299bba337b4b"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-5dab99357472/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-5dab99357472/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2607.24821",
+      "size_bytes": 41980,
+      "sha256": "548b80cb220595f9a6148627c526b22fbdc64daef037a53febd46b9e5c8c4dcf",
+      "git_blob_sha1": "09c138bb9012559e9d111bb7087f444445bc1a99",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5dab99357472"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a73820581707/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a73820581707/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2609.12769",
+      "size_bytes": 38945,
+      "sha256": "c523655a598b97c9c896bcdcea6977dd7b75476974f1809d853e915bf2e01ccc",
+      "git_blob_sha1": "db7a4542f439e7f146e230cd14fd85487e5449e6",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a73820581707"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-afe78de051aa/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-afe78de051aa/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2510.14032",
+      "size_bytes": 42285,
+      "sha256": "9eee27e26507ba57eb822ea0bc0b1c350725c88f45182a76cc69ab7e9bd5e1d8",
+      "git_blob_sha1": "fccebed57526341f1480c5e78170f9e013a8c61c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afe78de051aa"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-bb2cd1b64a6c/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-bb2cd1b64a6c/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2510.27280",
+      "size_bytes": 44231,
+      "sha256": "41d6e5f54f3c3d22abe7b514951d96bb690ce4784c21910b80e0570f5cd96709",
+      "git_blob_sha1": "f4f09ba86be08f6484b7d49460935339f68a14f0",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bb2cd1b64a6c"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-e7b7191fcdea/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-e7b7191fcdea/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.25985",
+      "size_bytes": 43636,
+      "sha256": "002fe225bc10dea54fe37ea3d0308a0522f1410c7ca5dca0ae1088fd35f964c9",
+      "git_blob_sha1": "58214b22d1a152c6ee61438e8c89a2869f9b787a",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e7b7191fcdea"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-1578c2be1633/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-1578c2be1633/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2509.13646",
+      "size_bytes": 42130,
+      "sha256": "9428b409c45fb8c8fd04962f8da2623414d06fee0377e80dbc8640ef9e4b3cc1",
+      "git_blob_sha1": "35994545ca26b48ecec923ce376a21e115757f73",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1578c2be1633"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-7e1cac33d246/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-7e1cac33d246/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2608.10337",
+      "size_bytes": 42003,
+      "sha256": "ffdbcea937bf3561798504805c5ddbb90d7d5d9638010235ee3e23f2ed0718f0",
+      "git_blob_sha1": "438796fea4b9520549d18b7bf8ab219e2228c90a",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e1cac33d246"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-583b97bbbc32/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-583b97bbbc32/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2507.15202",
+      "size_bytes": 44715,
+      "sha256": "0d91e29cb524b118facf62871b3d7a0e15c8134a657f0f4e79e5ecbccb6ebe88",
+      "git_blob_sha1": "865558e39155c96202e872a167a5dfad52fca672",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-583b97bbbc32"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-d94d7ea00533/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-d94d7ea00533/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2610.22661",
+      "size_bytes": 43096,
+      "sha256": "f69f950112d05556d640278c2788f60288fb61b50ed2418fb71880a2d2205c5a",
+      "git_blob_sha1": "310342b54cd2f9c524d957e8e2e2f3e15af44c56",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d94d7ea00533"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-46e9977e91e7/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-46e9977e91e7/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2604.25220",
+      "size_bytes": 43311,
+      "sha256": "638fd3e1e87ac10078dd8852f399ef65d419787f3b497ace09f04d721671a2c8",
+      "git_blob_sha1": "598e597dfa2a7dbdca3cea7895e91584044c5f67",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-46e9977e91e7"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-8bbe1464285d/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-8bbe1464285d/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2504.15575",
+      "size_bytes": 40882,
+      "sha256": "21e65be13532ae43bc5b3a408b65592063569c0f89c57fb7f94e80a721c1cd6e",
+      "git_blob_sha1": "b4b79748cae6a1ecc86554670faf11a7932297a4",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8bbe1464285d"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-ef30ecf14f45/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-ef30ecf14f45/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2604.08178",
+      "size_bytes": 42869,
+      "sha256": "2c990b1a968bf648cb82a23b8b6cee860576fdfce6c26e45c01745c3738af562",
+      "git_blob_sha1": "06f650553132516f684267f89df46a94b70da7ff",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ef30ecf14f45"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-68778beeddfc/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-68778beeddfc/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2403.18802",
+      "size_bytes": 45601,
+      "sha256": "60a8d7824df072150be5103be82219d3790c3f487cb3a04ee3d8855644f4e1a2",
+      "git_blob_sha1": "4409d36ffecacaeebf8a395878cf3da4826b6987",
+      "role": "license_notice",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-68778beeddfc"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-0df92a301b80/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-0df92a301b80/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2404.04475",
+      "size_bytes": 43385,
+      "sha256": "b5b6fe466723dbf5669633b7a51c175f1144ce47d4e0541eaf5bc7eb3c254c3e",
+      "git_blob_sha1": "b671362ffedd1b6f4bbc56c2a254803b00950ef9",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0df92a301b80"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}
