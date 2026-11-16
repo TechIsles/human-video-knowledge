@@ -1,0 +1,208 @@
+{
+  "batch": "0091",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/zhangzhangco__film-production-skills/skills/shape-story-blueprint/SKILL.md",
+      "repository": "zhangzhangco/film-production-skills",
+      "upstream_path": "skills/shape-story-blueprint/SKILL.md",
+      "upstream_commit": "47b2a6a432235e716fa2aa0d08eefae76fdb34fd",
+      "source_url": "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/skills/shape-story-blueprint/SKILL.md",
+      "size_bytes": 2053,
+      "sha256": "48df45b81c052770362e83534bdead77d537b585f56f2317049f5e5720f2a673",
+      "git_blob_sha1": "93ba7587afebba8a4827f014bf06d1e3f6596bee",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-159da4069335"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zhangzhangco__film-production-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhangzhangco__film-production-skills/LICENSE",
+      "repository": "zhangzhangco/film-production-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "47b2a6a432235e716fa2aa0d08eefae76fdb34fd",
+      "source_url": "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "62ba29d49f68b4f2ebb215bfaaf372018673c9fd32f3d8e2fa94b85493148d6c",
+      "git_blob_sha1": "9d1023ccccde719baec066c84a708429cf519921",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-159da4069335"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/zhangzhangco__film-production-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhangzhangco__film-production-skills/skills/structure-screenplay/SKILL.md",
+      "repository": "zhangzhangco/film-production-skills",
+      "upstream_path": "skills/structure-screenplay/SKILL.md",
+      "upstream_commit": "47b2a6a432235e716fa2aa0d08eefae76fdb34fd",
+      "source_url": "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/skills/structure-screenplay/SKILL.md",
+      "size_bytes": 2344,
+      "sha256": "9bdaaa5a9c081b04bb321f65f616ba2cad3c180b96f8b4f93dd7b514b552bb1e",
+      "git_blob_sha1": "266f68b799e8a1f1d15386ed9bb852e73325da40",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aa1fe4ea386a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zhangzhangco__film-production-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhangzhangco__film-production-skills/LICENSE",
+      "repository": "zhangzhangco/film-production-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "47b2a6a432235e716fa2aa0d08eefae76fdb34fd",
+      "source_url": "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "62ba29d49f68b4f2ebb215bfaaf372018673c9fd32f3d8e2fa94b85493148d6c",
+      "git_blob_sha1": "9d1023ccccde719baec066c84a708429cf519921",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aa1fe4ea386a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/zhangzhangco__film-production-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/znyupup__ai-video-editing-skill/SKILL.md",
+      "repository": "znyupup/ai-video-editing-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "b6429ab550a64c595dc68d42c47cf2b489a50619",
+      "source_url": "https://github.com/znyupup/ai-video-editing-skill/blob/b6429ab550a64c595dc68d42c47cf2b489a50619/SKILL.md",
+      "size_bytes": 36995,
+      "sha256": "913d45d6b15f76b2a7cfd32d1442aa5e19d29a6b8b057c0fb108953a509eb539",
+      "git_blob_sha1": "2a7122d0a4c6d3102dd05592fcb6f7d57878ba8b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f49b798da53c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/znyupup/ai-video-editing-skill/blob/b6429ab550a64c595dc68d42c47cf2b489a50619/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/znyupup__ai-video-editing-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/znyupup__ai-video-editing-skill/LICENSE",
+      "repository": "znyupup/ai-video-editing-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b6429ab550a64c595dc68d42c47cf2b489a50619",
+      "source_url": "https://github.com/znyupup/ai-video-editing-skill/blob/b6429ab550a64c595dc68d42c47cf2b489a50619/LICENSE",
+      "size_bytes": 1098,
+      "sha256": "2d9ba3709c7dc9991fc1a226291ac394b4225bdb63b3b741ef570754a6d1ef18",
+      "git_blob_sha1": "49ccf826a85d83a3eaedbf7dfb5e322f2f5a35be",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f49b798da53c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/znyupup/ai-video-editing-skill/blob/b6429ab550a64c595dc68d42c47cf2b489a50619/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/znyupup__ai-video-editing-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/znyupup__pro-video-composer/SKILL.md",
+      "repository": "znyupup/pro-video-composer",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "8046e9d92f517cb928372b67d9dcf870f5625de8",
+      "source_url": "https://github.com/znyupup/pro-video-composer/blob/8046e9d92f517cb928372b67d9dcf870f5625de8/SKILL.md",
+      "size_bytes": 12303,
+      "sha256": "55b037f3a1cb1467e4196d811b2390d1c6353f8bf3175464868974b63dfec328",
+      "git_blob_sha1": "ee6e89edec1a1cc02cf9530b84d7a5b57c07a2ab",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afcf80472b07"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/znyupup/pro-video-composer/blob/8046e9d92f517cb928372b67d9dcf870f5625de8/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/znyupup__pro-video-composer/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/znyupup__pro-video-composer/LICENSE",
+      "repository": "znyupup/pro-video-composer",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8046e9d92f517cb928372b67d9dcf870f5625de8",
+      "source_url": "https://github.com/znyupup/pro-video-composer/blob/8046e9d92f517cb928372b67d9dcf870f5625de8/LICENSE",
+      "size_bytes": 1098,
+      "sha256": "4c8e95c5323dc47e08f04968dfafe16c60f6ae24ed3cfa93bf491efcfa02bdd7",
+      "git_blob_sha1": "584b07531e3f7338db9371a3546a8d4ab5def974",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afcf80472b07"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/znyupup/pro-video-composer/blob/8046e9d92f517cb928372b67d9dcf870f5625de8/LICENSE"
+      ],
+      "conditions": "Retain unchanged original and full MIT attribution and disclaimer. Linked media, voice identities, dependencies and external services not included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/znyupup__pro-video-composer/LICENSE"
+      ]
+    }
+  ]
+}
