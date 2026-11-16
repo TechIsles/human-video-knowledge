@@ -1,0 +1,219 @@
+{
+  "batch": "0011",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/Orkas-AI__Orkas-VideoStudio/packages/skills/stage-decide/SKILL.md",
+      "repository": "Orkas-AI/Orkas-VideoStudio",
+      "upstream_path": "packages/skills/stage-decide/SKILL.md",
+      "upstream_commit": "1f32c755faa2e2167abfacc1c3086c644bcad2a4",
+      "source_url": "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/packages/skills/stage-decide/SKILL.md",
+      "size_bytes": 5713,
+      "sha256": "ccedb0c35008d08e0b4f7b74fdbedadd3bcc710566a7aeb69cec9559e39356ee",
+      "git_blob_sha1": "bace91a86d557ca79d3c512783f4beeeb7516d84",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-89bc726cc18e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/LICENSE",
+        "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Orkas-AI__Orkas-VideoStudio/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Orkas-AI__Orkas-VideoStudio/LICENSE",
+      "repository": "Orkas-AI/Orkas-VideoStudio",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1f32c755faa2e2167abfacc1c3086c644bcad2a4",
+      "source_url": "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "3b6c416998f75e44282bacaf10c0d95975171a1db8e4c4a274d71fb97fd2a1c3",
+      "git_blob_sha1": "e0f8ff85cf09b7c3277ad89b3181502c837f24bb",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-89bc726cc18e",
+        "SRC-fe6d765d64e8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/LICENSE",
+        "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Orkas-AI__Orkas-VideoStudio/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Orkas-AI__Orkas-VideoStudio/packages/skills/stage-edit/SKILL.md",
+      "repository": "Orkas-AI/Orkas-VideoStudio",
+      "upstream_path": "packages/skills/stage-edit/SKILL.md",
+      "upstream_commit": "1f32c755faa2e2167abfacc1c3086c644bcad2a4",
+      "source_url": "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/packages/skills/stage-edit/SKILL.md",
+      "size_bytes": 9865,
+      "sha256": "f181fc12dd1cff9d66b93f712defdca5d6a70b4dbd3225fcf96859708d9fd171",
+      "git_blob_sha1": "b82f5bb39e8e0a624bced0a9065de3f540833c3e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fe6d765d64e8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/LICENSE",
+        "https://github.com/Orkas-AI/Orkas-VideoStudio/blob/1f32c755faa2e2167abfacc1c3086c644bcad2a4/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Orkas-AI__Orkas-VideoStudio/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "Picrew/OpenRAG-Skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a06e57f2d42f06414704ce7030cc1f851a351a49",
+      "source_url": "https://github.com/Picrew/OpenRAG-Skill/blob/a06e57f2d42f06414704ce7030cc1f851a351a49/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-387ad03972d8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Picrew/OpenRAG-Skill/blob/a06e57f2d42f06414704ce7030cc1f851a351a49/LICENSE",
+        "https://github.com/Picrew/OpenRAG-Skill/blob/a06e57f2d42f06414704ce7030cc1f851a351a49/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/SKILL.md",
+      "repository": "Picrew/OpenRAG-Skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "a06e57f2d42f06414704ce7030cc1f851a351a49",
+      "source_url": "https://github.com/Picrew/OpenRAG-Skill/blob/a06e57f2d42f06414704ce7030cc1f851a351a49/SKILL.md",
+      "size_bytes": 9299,
+      "sha256": "a287b76a8fd5b3aacc1ec1c4364d3a860e8f02efbb8688ca1c2762e6defe451e",
+      "git_blob_sha1": "6f9554278199862ab56267122cff79b9302b242d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-387ad03972d8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Picrew/OpenRAG-Skill/blob/a06e57f2d42f06414704ce7030cc1f851a351a49/LICENSE",
+        "https://github.com/Picrew/OpenRAG-Skill/blob/a06e57f2d42f06414704ce7030cc1f851a351a49/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Simbastack-hq__resolve-edit-kit/LICENSE",
+      "repository": "Simbastack-hq/resolve-edit-kit",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "502c0754641ce0e53f0f527cfe19c91c2bc9fe11",
+      "source_url": "https://github.com/Simbastack-hq/resolve-edit-kit/blob/502c0754641ce0e53f0f527cfe19c91c2bc9fe11/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "53c26541cec5991a2cac8359d08d0d8393db298ce4f7fa63ffe4a986d37d2583",
+      "git_blob_sha1": "4cafccf6095a5ea6d329b880efc85a464c18df3a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-efda2c6d9fb1"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Simbastack-hq/resolve-edit-kit/blob/502c0754641ce0e53f0f527cfe19c91c2bc9fe11/LICENSE",
+        "https://github.com/Simbastack-hq/resolve-edit-kit/blob/502c0754641ce0e53f0f527cfe19c91c2bc9fe11/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Simbastack-hq__resolve-edit-kit/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Simbastack-hq__resolve-edit-kit/SKILL.md",
+      "repository": "Simbastack-hq/resolve-edit-kit",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "502c0754641ce0e53f0f527cfe19c91c2bc9fe11",
+      "source_url": "https://github.com/Simbastack-hq/resolve-edit-kit/blob/502c0754641ce0e53f0f527cfe19c91c2bc9fe11/SKILL.md",
+      "size_bytes": 15548,
+      "sha256": "69622ba4eb7eec6fc27b6450f5b195e51e2f4d156d0df0767d72c95cf95ac989",
+      "git_blob_sha1": "62f27588f356c0e31dcb97361b1bc75578cbe4f5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-efda2c6d9fb1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Simbastack-hq/resolve-edit-kit/blob/502c0754641ce0e53f0f527cfe19c91c2bc9fe11/LICENSE",
+        "https://github.com/Simbastack-hq/resolve-edit-kit/blob/502c0754641ce0e53f0f527cfe19c91c2bc9fe11/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Simbastack-hq__resolve-edit-kit/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "batch": "0010",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/HiAPIAI__realistic-video-prompting/LICENSE",
+      "repository": "HiAPIAI/realistic-video-prompting",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2a571543f839a8a7b292785415b347e9756976c0",
+      "source_url": "https://github.com/HiAPIAI/realistic-video-prompting/blob/2a571543f839a8a7b292785415b347e9756976c0/LICENSE",
+      "size_bytes": 1077,
+      "sha256": "eabde681c6ae83f83a80f5cd69b12f4ad9dc7c3c9ff839534fd9ec460351e07c",
+      "git_blob_sha1": "4e2a3e989218ea7509899191888807f04e1e72b6",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e001f8f9aa3a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/HiAPIAI/realistic-video-prompting/blob/2a571543f839a8a7b292785415b347e9756976c0/LICENSE",
+        "https://github.com/HiAPIAI/realistic-video-prompting/blob/2a571543f839a8a7b292785415b347e9756976c0/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HiAPIAI__realistic-video-prompting/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HiAPIAI__realistic-video-prompting/SKILL.md",
+      "repository": "HiAPIAI/realistic-video-prompting",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "2a571543f839a8a7b292785415b347e9756976c0",
+      "source_url": "https://github.com/HiAPIAI/realistic-video-prompting/blob/2a571543f839a8a7b292785415b347e9756976c0/SKILL.md",
+      "size_bytes": 7542,
+      "sha256": "7c9dce670aaaa998e758e3bf90ad67a38dc43db78c20a8c146a0682eb2f30107",
+      "git_blob_sha1": "0131e982df4d1899b852a9cc2f97adf61a3e8ba7",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e001f8f9aa3a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/HiAPIAI/realistic-video-prompting/blob/2a571543f839a8a7b292785415b347e9756976c0/LICENSE",
+        "https://github.com/HiAPIAI/realistic-video-prompting/blob/2a571543f839a8a7b292785415b347e9756976c0/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HiAPIAI__realistic-video-prompting/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Jakeschincariol__master-skills/LICENSE",
+      "repository": "Jakeschincariol/master-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b5b43e44f0a976ad25bda5095a94c161aab2f086",
+      "source_url": "https://github.com/Jakeschincariol/master-skills/blob/b5b43e44f0a976ad25bda5095a94c161aab2f086/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "857c8d5276809c8196b3cd7cb3300324768bfc562b2b6281b06d6865058e186c",
+      "git_blob_sha1": "ac31f09aba721de8d139c7bef3d5024421426472",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-21c96c09273c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Jakeschincariol/master-skills/blob/b5b43e44f0a976ad25bda5095a94c161aab2f086/LICENSE",
+        "https://github.com/Jakeschincariol/master-skills/blob/b5b43e44f0a976ad25bda5095a94c161aab2f086/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Jakeschincariol__master-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Jakeschincariol__master-skills/skills/virality/SKILL.md",
+      "repository": "Jakeschincariol/master-skills",
+      "upstream_path": "skills/virality/SKILL.md",
+      "upstream_commit": "b5b43e44f0a976ad25bda5095a94c161aab2f086",
+      "source_url": "https://github.com/Jakeschincariol/master-skills/blob/b5b43e44f0a976ad25bda5095a94c161aab2f086/skills/virality/SKILL.md",
+      "size_bytes": 13155,
+      "sha256": "5c641eb3508242d3596db6be0066380aa7d6e40e76037bc4cc7847d9a8013f49",
+      "git_blob_sha1": "40989abbe916785782ff9f14942cf5b96daaf8cd",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-21c96c09273c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Jakeschincariol/master-skills/blob/b5b43e44f0a976ad25bda5095a94c161aab2f086/LICENSE",
+        "https://github.com/Jakeschincariol/master-skills/blob/b5b43e44f0a976ad25bda5095a94c161aab2f086/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Jakeschincariol__master-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Lubonch__MangaCount/LICENSE",
+      "repository": "Lubonch/MangaCount",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e093e5088b1f4a9f5b3786f9c210ef799f8192df",
+      "source_url": "https://github.com/Lubonch/MangaCount/blob/e093e5088b1f4a9f5b3786f9c210ef799f8192df/LICENSE",
+      "size_bytes": 1105,
+      "sha256": "461087b7a3f8c82acab87c1ae96dfa48b1415cacc069355245530266789c8b9b",
+      "git_blob_sha1": "58877514ffd045ff063be72edf62f24dc0349a72",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4b84f4ce177c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Lubonch/MangaCount/blob/e093e5088b1f4a9f5b3786f9c210ef799f8192df/LICENSE",
+        "https://github.com/Lubonch/MangaCount/blob/e093e5088b1f4a9f5b3786f9c210ef799f8192df/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Lubonch__MangaCount/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Lubonch__MangaCount/.agent/skills/subtitle-translation/SKILL.md",
+      "repository": "Lubonch/MangaCount",
+      "upstream_path": ".agent/skills/subtitle-translation/SKILL.md",
+      "upstream_commit": "e093e5088b1f4a9f5b3786f9c210ef799f8192df",
+      "source_url": "https://github.com/Lubonch/MangaCount/blob/e093e5088b1f4a9f5b3786f9c210ef799f8192df/.agent/skills/subtitle-translation/SKILL.md",
+      "size_bytes": 2586,
+      "sha256": "af9c2536ed15c06d07deebb33d1a4181aba76471253b91d956baa4292753a441",
+      "git_blob_sha1": "d9d9bbc365562f646a71f76f30fb797839d8c738",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4b84f4ce177c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Lubonch/MangaCount/blob/e093e5088b1f4a9f5b3786f9c210ef799f8192df/LICENSE",
+        "https://github.com/Lubonch/MangaCount/blob/e093e5088b1f4a9f5b3786f9c210ef799f8192df/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Lubonch__MangaCount/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/MaKTaiL__gemini-srt-translator/LICENSE",
+      "repository": "MaKTaiL/gemini-srt-translator",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1b9135705b9ffbd5491942392b2fd5e579f0b5bb",
+      "source_url": "https://github.com/MaKTaiL/gemini-srt-translator/blob/1b9135705b9ffbd5491942392b2fd5e579f0b5bb/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "b1b8cb657801ea7ec611df39d1f2950fc0fcb19ccaafa78f901099fa514de619",
+      "git_blob_sha1": "b3cf50ab8831ff1de99c2e082d99e07f363e9e23",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cf36f9c8f28a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/MaKTaiL/gemini-srt-translator/blob/1b9135705b9ffbd5491942392b2fd5e579f0b5bb/LICENSE",
+        "https://github.com/MaKTaiL/gemini-srt-translator/blob/1b9135705b9ffbd5491942392b2fd5e579f0b5bb/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/MaKTaiL__gemini-srt-translator/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/MaKTaiL__gemini-srt-translator/skills/subtitle-translator/SKILL.md",
+      "repository": "MaKTaiL/gemini-srt-translator",
+      "upstream_path": "skills/subtitle-translator/SKILL.md",
+      "upstream_commit": "1b9135705b9ffbd5491942392b2fd5e579f0b5bb",
+      "source_url": "https://github.com/MaKTaiL/gemini-srt-translator/blob/1b9135705b9ffbd5491942392b2fd5e579f0b5bb/skills/subtitle-translator/SKILL.md",
+      "size_bytes": 5498,
+      "sha256": "63c57dc533920c35e4b440ad7d52b86913c58856d5cf46d14944fd9903c9eb2e",
+      "git_blob_sha1": "949f80df68567f448bef4abfdb60ecaed6a820ea",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cf36f9c8f28a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/MaKTaiL/gemini-srt-translator/blob/1b9135705b9ffbd5491942392b2fd5e579f0b5bb/LICENSE",
+        "https://github.com/MaKTaiL/gemini-srt-translator/blob/1b9135705b9ffbd5491942392b2fd5e579f0b5bb/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/MaKTaiL__gemini-srt-translator/LICENSE"
+      ]
+    }
+  ]
+}
