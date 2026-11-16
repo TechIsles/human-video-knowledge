@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="discussion" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS Biol</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosbiol</journal-id>
+<journal-title-group>
+<journal-title>PLOS Biology</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1544-9173</issn>
+<issn pub-type="epub">1545-7885</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pbio.3001731</article-id>
+<article-id pub-id-type="publisher-id">PBIOLOGY-D-22-00533</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Community Page</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>RNA viruses</subject><subj-group><subject>Coronaviruses</subject><subj-group><subject>SARS coronavirus</subject><subj-group><subject>SARS CoV 2</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Medical microbiology</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Coronaviruses</subject><subj-group><subject>SARS coronavirus</subject><subj-group><subject>SARS CoV 2</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Pathology and laboratory medicine</subject><subj-group><subject>Pathogens</subject><subj-group><subject>Microbial pathogens</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Coronaviruses</subject><subj-group><subject>SARS coronavirus</subject><subj-group><subject>SARS CoV 2</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Organisms</subject><subj-group><subject>Viruses</subject><subj-group><subject>Viral pathogens</subject><subj-group><subject>Coronaviruses</subject><subj-group><subject>SARS coronavirus</subject><subj-group><subject>SARS CoV 2</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Developmental biology</subject><subj-group><subject>Life cycles</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Computational biology</subject><subj-group><subject>Genome analysis</subject><subj-group><subject>Genome annotation</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genomics</subject><subj-group><subject>Genome analysis</subject><subj-group><subject>Genome annotation</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Computer and information sciences</subject><subj-group><subject>Computer architecture</subject><subj-group><subject>User interfaces</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Epidemiology</subject><subj-group><subject>Pandemics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cellular structures and organelles</subject><subj-group><subject>Endoplasmic reticulum</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Cell biology</subject><subj-group><subject>Cell processes</subject><subj-group><subject>Secretory pathway</subject><subj-group><subject>Endoplasmic reticulum</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Chemistry</subject><subj-group><subject>Chemical physics</subject><subj-group><subject>Molecular structure</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Physical sciences</subject><subj-group><subject>Physics</subject><subj-group><subject>Chemical physics</subject><subj-group><subject>Molecular structure</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Medicine and health sciences</subject><subj-group><subject>Medical conditions</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Viral diseases</subject><subj-group><subject>SARS</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>A new tool for annotating scientific animations and supporting scientific dialogue</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Liu</surname>
+<given-names>Hui</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Riggi</surname>
+<given-names>Margot</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Rogers</surname>
+<given-names>Jen</given-names>
+</name>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Meyer</surname>
+<given-names>Miriah</given-names>
+</name>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4949-7607</contrib-id>
+<name name-style="western">
+<surname>Iwasa</surname>
+<given-names>Janet H.</given-names>
+</name>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>Art &amp; Science Research Center, University of Science and Technology of China, Hefei, Anhui, China</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>Department of Biochemistry, University of Utah, Salt Lake City, Utah, United States of America</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>SCI Institute, School of Computing, University of Utah, Salt Lake City, Utah, United States of America</addr-line></aff>
+<aff id="aff004"><label>4</label> <addr-line>Department of Science and Technology, Linköping University, Norrköping, Sweden</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">jiwasa@biochem.utah.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>4</day>
+<month>8</month>
+<year>2022</year>
+</pub-date>
+<pub-date pub-type="collection">
+<month>8</month>
+<year>2022</year>
+</pub-date>
+<volume>20</volume>
+<issue>8</issue>
+<elocation-id>e3001731</elocation-id>
+<permissions>
+<copyright-year>2022</copyright-year>
+<copyright-holder>Liu et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pbio.3001731"/>
+<abstract abstract-type="teaser">
+<p>A new interactive annotation interface supports a detailed molecular animation of the SARS-CoV-2 life cycle. With this tool, users can interactively explore the data used to create the animation and engage in scientific discourse through comments and questions.</p>
+</abstract>
+<abstract abstract-type="toc">
+<p>A new tool for annotating scientific animations enables users to interactively explore the data used to create the animation and engage in scientific discourse through comments and questions. Iwasa and colleagues demonstrate its power with an animation of the life cycle of SARS-CoV-2.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution-wrap>
+<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000152</institution-id>
+<institution>Division of Molecular and Cellular Biosciences</institution>
+</institution-wrap>
+</funding-source>
+<award-id>2033695</award-id>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4949-7607</contrib-id>
+<name name-style="western">
+<surname>Iwasa</surname>
+<given-names>Janet H.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award002">
+<funding-source>
+<institution>Coronavirus Structural Task Force</institution>
+</funding-source>
+<principal-award-recipient>
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4949-7607</contrib-id>
+<name name-style="western">
+<surname>Iwasa</surname>
+<given-names>Janet H.</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<award-group id="award003">
+<funding-source>
+<institution>University of Utah, 1U4U Initiative</institution>
+</funding-source>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Meyer</surname>
+<given-names>Miriah</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>Primary funding for this project was provided by the National Science Foundation, <ext-link ext-link-type="uri" xlink:href="http://www.nsf.gov" xlink:type="simple">http://www.nsf.gov</ext-link>, Award number 2033695, to JHI. Additional funding was provided by the Coronavirus Structural Task Force, <ext-link ext-link-type="uri" xlink:href="http://www.insidecorona.net" xlink:type="simple">http://www.insidecorona.net</ext-link>, to JHI, and the University of Utah (<ext-link ext-link-type="uri" xlink:href="http://utah.edu" xlink:type="simple">http://utah.edu</ext-link>) 1U4U Initiative to MM and JHI. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="2"/>
+<table-count count="0"/>
+<page-count count="5"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="outbreaks">
+<meta-name>Outbreaks</meta-name>
+<meta-value>COVID-19</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001">
+<title>A growing role for 3D molecular animations within the scientific community</title>
+<p>The constant and rapid influx of new data during the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) pandemic highlighted the need for accessible, curated, and synthesized information about ongoing biological research. 3D animation is an ideal technique to integrate complex and often disparate scientific data into seamless and engaging stories. Beyond the well-accepted roles of polished animations in education and communication, the iterative creative process also has a part to play in the way scientists conceive of, discuss, and understand complex and dynamic processes. Developing and revising scientific animations can thus help build consensus models. Animations can capture diverse biological activities with far more detail and precision than words, an important consideration when attempting to describe and distinguish hypotheses of events that occur on a nanoscale level [<xref ref-type="bibr" rid="pbio.3001731.ref001">1</xref>–<xref ref-type="bibr" rid="pbio.3001731.ref003">3</xref>]. However, scientific animations have a significant and inherent weakness: They lack transparency. From watching an animation, it is difficult to differentiate between segments that are well grounded in experimental evidence and those that are based largely on speculation. In addition, while peer-reviewed scientific articles typically end with an extensive reference list that is instrumental in providing background knowledge, acknowledging the contributions from others, and supporting the authors’ hypotheses, there is currently no established system to describe and share the references similarly used during the creation of an animation [<xref ref-type="bibr" rid="pbio.3001731.ref003">3</xref>–<xref ref-type="bibr" rid="pbio.3001731.ref004">4</xref>]. Adding to the complexity of the issue is the wide variety of sources that animators may use, including personal communications with experts, database queries, images, simulations, videos, structural files, and research articles. This lack of annotation can damage the credibility of scientific animations and justifiably cause skepticism within the research community [<xref ref-type="bibr" rid="pbio.3001731.ref005">5</xref>]. As animation becomes more prevalent as a means of scientific and public communication, it has become increasingly important to consider methods that increase the transparency of animations, both to describe creative choices made by the animator, as well as the variety of data sources (or the lack of data) that have informed them.</p>
+<p>This project takes a novel approach for enabling transparent communication of scientific knowledge within the scientific research community and beyond. We have chosen to develop a visualization of the SARS-CoV-2 life cycle to demonstrate how a detailed 3D molecular animation can be integrated into a novel user interface that enables annotation and support for scientific discourse.</p>
+</sec>
+<sec id="sec002">
+<title>Developing an animated model of the SARS-CoV-2 life cycle</title>
+<p>We created an <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/510310488" xlink:type="simple">animation</ext-link> that describes the full life cycle of SARS-CoV-2 (<xref ref-type="fig" rid="pbio.3001731.g001">Fig 1</xref>), following a standard procedure that involves consulting with scientific experts [<xref ref-type="bibr" rid="pbio.3001731.ref006">6</xref>], and that was planned to be iteratively revised based on community feedback. This animation does not discuss potential differences between variants, nor does it cover virus/host interactions or the inflammatory response to the infection.</p>
+<fig id="pbio.3001731.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pbio.3001731.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Representative still images from each of the chapters of the SARS-CoV-2 life cycle animation.</title>
+<p>Visit <ext-link ext-link-type="uri" xlink:href="https://coronavirus-annotation-3.sci.utah.edu/" xlink:type="simple">https://coronavirus-annotation-3.sci.utah.edu/</ext-link> to watch the animation that is embedded in the annotation and commenting tool. If you’d like to download the animation or view it outside of the tool, you can do so on Vimeo: <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/510310488" xlink:type="simple">https://vimeo.com/510310488</ext-link>.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pbio.3001731.g001" xlink:type="simple"/>
+</fig>
+<p>When we initiated this project at the onset of the pandemic, there was still limited information available in the published literature on the molecular basis of SARS-CoV-2 infection. Although many research groups were making their findings quickly accessible online, this created a significant challenge for us: How do we show which aspects of SARS-CoV-2 biology were already well grounded in experimental evidence, and which areas still represented “black boxes” lacking adequate research coverage? How might we visualize competing hypotheses? Is it possible to reconcile the current knowledge into a single, linear, animated consensus model?</p>
+<p>While the mechanism of SARS-CoV-2 entry into the host cell was relatively well understood, much was still unknown about the latter stages of the life cycle. One major point of uncertainty was the formation of double-membrane vesicles, structures derived from the host endoplasmic reticulum membranes [<xref ref-type="bibr" rid="pbio.3001731.ref007">7</xref>] where the duplication and transcription of viral genomes are thought to take place [<xref ref-type="bibr" rid="pbio.3001731.ref008">8</xref>]. We decided to show several possible mechanisms in parallel at a subcellular rather than the molecular level to better reflect the current state of knowledge. The viral transcription mechanism was another topic where the research community had yet to reach a consensus at the time of creating the animation. We identified 2 conflicting hypotheses through literature reviews [<xref ref-type="bibr" rid="pbio.3001731.ref009">9</xref>] and discussions with experts and decided to visualize these independently through 2 separate animations. In addition to these areas of significant uncertainty, we also had to fill other knowledge gaps to create a complete animation. For example, the depicted mechanisms of polyprotein processing and insertion of nonstructural proteins into endoplasmic reticulum membranes had not been clearly described in the literature and should be considered speculative. Also, while some molecular structures used in the animation were experimentally solved, others represent computational predictions.</p>
+</sec>
+<sec id="sec003">
+<title>An accompanying interface that supports annotation and scientific discourse</title>
+<p>Deciding how to visually handle uncertainty is inherent to the work of a molecular animator, and in this project, we sought to make those choices and the data we used more explicit to viewers. Concurrent with the development of the life cycle animations, we designed a web-based annotation interface that allows users to interactively click on a molecular structure in the animation and view associated annotations, questions, and comments. Annotations describe the types and sources of data that were used to generate the animations, and the commenting tools enable the research community to discuss different aspects of the animated model. Its main features and capabilities are described in <xref ref-type="fig" rid="pbio.3001731.g002">Fig 2</xref>, but please visit the <ext-link ext-link-type="uri" xlink:href="https://coronavirus-annotation-3.sci.utah.edu/" xlink:type="simple">website</ext-link> and try it out yourself!</p>
+<fig id="pbio.3001731.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pbio.3001731.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Key capabilities and features of the web-based annotation and commenting tool.</title>
+<p>These include in particular a time outline with branched chapters representing alternative hypotheses that can be viewed independently (A); annotations provided by animators (B); comments and questions the community (C); both annotations and comments are also highlighted in a clear overview (D). Visit <ext-link ext-link-type="uri" xlink:href="https://coronavirus-annotation-3.sci.utah.edu/" xlink:type="simple">https://coronavirus-annotation-3.sci.utah.edu/</ext-link> to try it yourself!</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pbio.3001731.g002" xlink:type="simple"/>
+</fig>
+<p>We envisioned that this annotated animation of the SARS-CoV-2 life cycle could be used to promote and share discourse between domain experts and to visualize which aspects of the animated model are less certain. For example, if multiple users make comments at a specific segment of the animation (to make a criticism, ask a question, or make a clarification), this would suggest that this section of the animation likely does not represent a consensus view of the process. These comments also serve as a means for us to understand if additional animations should be made to represent alternative hypotheses, or to update the current animation based on the latest data.</p>
+<p>Through this project, which combined molecular animation of the SARS-CoV-2 life cycle and a powerful new prototype annotation tool, we hope to increase the credibility of animation as a means of discourse and communication within the research community.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pbio.3001731.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iwasa</surname> <given-names>JH</given-names></name>. <article-title>Animating the model figure</article-title>. <source>Trends Cell Biol</source>. <year>2010</year>;<volume>20</volume>(<issue>12</issue>):<fpage>699</fpage>–<lpage>704</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tcb.2010.08.005" xlink:type="simple">10.1016/j.tcb.2010.08.005</ext-link></comment> <object-id pub-id-type="pmid">20832316</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iwasa</surname> <given-names>JH</given-names></name>. <article-title>Bringing macromolecular machinery to life using 3D animation</article-title>. <source>Curr Opin Struct Biol</source>. <year>2015</year>;<volume>31</volume>:<fpage>84</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.sbi.2015.03.015" xlink:type="simple">10.1016/j.sbi.2015.03.015</ext-link></comment> <object-id pub-id-type="pmid">25889615</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iwasa</surname> <given-names>JH</given-names></name>. <article-title>Using animation to mediate scientific discourse</article-title>. <source>Nat Microbiol</source>. <year>2022</year>;<volume>7</volume>(<issue>1</issue>):<fpage>3</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41564-021-01024-5" xlink:type="simple">10.1038/s41564-021-01024-5</ext-link></comment> <object-id pub-id-type="pmid">34931050</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jantzen</surname> <given-names>SG</given-names></name>, <name name-style="western"><surname>Jenkinson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>McGill</surname> <given-names>G</given-names></name>. <article-title>Transparency in film: increasing credibility of scientific animation using citation</article-title>. <source>Nat Methods</source>. <year>2015</year>;<volume>12</volume>(<issue>4</issue>):<fpage>293</fpage>–<lpage>7</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nmeth.3334" xlink:type="simple">10.1038/nmeth.3334</ext-link></comment> <object-id pub-id-type="pmid">25825832</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><article-title>Bio-cinema verite?</article-title> <source>Nat Methods</source>. <year>2012</year>;<volume>9</volume>:<fpage>1127</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nmeth.2284" xlink:type="simple">10.1038/nmeth.2284</ext-link></comment></mixed-citation></ref>
+<ref id="pbio.3001731.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nayak</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Hsu</surname> <given-names>GI</given-names></name>, <name name-style="western"><surname>Iwasa</surname> <given-names>JH</given-names></name>. <article-title>Using 3D Animation to Visualize Hypotheses</article-title>. <source>Trends Biochem Sci</source>. <year>2020</year>;<volume>45</volume>(<issue>7</issue>):<fpage>633</fpage>–<lpage>4</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tibs.2020.04.009" xlink:type="simple">10.1016/j.tibs.2020.04.009</ext-link></comment> <object-id pub-id-type="pmid">32423744</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Klein</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Cortese</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Winter</surname> <given-names>SL</given-names></name>, <name name-style="western"><surname>Wachsmuth-Melm</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Neufeldt</surname> <given-names>CJ</given-names></name>, <name name-style="western"><surname>Cerikan</surname> <given-names>B</given-names></name>, <etal>et al</etal>. <article-title>SARS-CoV-2 structure and replication characterized by in situ cryo-electron tomography</article-title>. <source>Nat Commun</source>. <year>2020</year>;<volume>11</volume>(<issue>1</issue>):<fpage>5885</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41467-020-19619-7" xlink:type="simple">10.1038/s41467-020-19619-7</ext-link></comment> <object-id pub-id-type="pmid">33208793</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wolff</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Melia</surname> <given-names>CE</given-names></name>, <name name-style="western"><surname>Snijder</surname> <given-names>EJ</given-names></name>, <name name-style="western"><surname>Bárcena</surname> <given-names>M</given-names></name>. <article-title>Double-Membrane Vesicles as Platforms for Viral Replication</article-title>. <source>Trends Microbiol</source>. <year>2020</year>;<volume>28</volume> (<issue>12</issue>):<fpage>1022</fpage>–<lpage>33</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tim.2020.05.009" xlink:type="simple">10.1016/j.tim.2020.05.009</ext-link></comment> <object-id pub-id-type="pmid">32536523</object-id></mixed-citation></ref>
+<ref id="pbio.3001731.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Malone</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Llewellyn</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Grasso</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Shelton</surname> <given-names>PMM</given-names></name>, <name name-style="western"><surname>Olinares</surname> <given-names>PDB</given-names></name>, <etal>et al</etal>. <article-title>Structural Basis for Helicase-Polymerase Coupling in the SARS-CoV-2 Replication-Transcription Complex.</article-title> <source>Cell</source>. <year>2020</year>;<volume>182</volume>(<issue>6</issue>):<fpage>1560</fpage>–<lpage>73</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cell.2020.07.033" xlink:type="simple">10.1016/j.cell.2020.07.033</ext-link></comment> <object-id pub-id-type="pmid">32783916</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

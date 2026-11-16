@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="EN" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Psychol.</journal-id>
+<journal-title>Frontiers in Psychology</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Psychol.</abbrev-journal-title>
+<issn pub-type="epub">1664-1078</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3389/fpsyg.2022.1066164</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Psychology</subject>
+<subj-group>
+<subject>Original Research</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Interactivity in learning instructional videos: Sending danmaku improved parasocial interaction but reduced learning performance</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name><surname>Mou</surname> <given-names>Ya</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/1469875/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Jing</surname> <given-names>Bin</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/1356492/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Li</surname> <given-names>Yichun</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Fang</surname> <given-names>Nanyang</given-names></name>
+<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name><surname>Wu</surname> <given-names>Changcheng</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+<xref ref-type="corresp" rid="c001"><sup>&#x002A;</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/1353713/overview"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>1</sup><institution>Faculty of Artificial Intelligence in Education, Central China Normal University</institution>, <addr-line>Wuhan, Hubei</addr-line>, <country>China</country></aff>
+<aff id="aff2"><sup>2</sup><institution>Shuang Liu Middle School</institution>, <addr-line>Chengdu, Sichuan</addr-line>, <country>China</country></aff>
+<aff id="aff3"><sup>3</sup><institution>School of Computer Science, Sichuan Normal University</institution>, <addr-line>Chengdu, Sichuan</addr-line>, <country>China</country></aff>
+<aff id="aff4"><sup>4</sup><institution>Qingtai Mountain Middle School Attached to Sichuan Normal University</institution>, <addr-line>Chengdu, Sichuan</addr-line>, <country>China</country></aff>
+<author-notes>
+<fn fn-type="edited-by"><p>Edited by: Zhongling Pi, Shaanxi Normal University, China</p></fn>
+<fn fn-type="edited-by"><p>Reviewed by: Tao Yang, University of Birmingham, United Kingdom; Liao Mengyi, Central China Normal University, China; Xunzhou Ma, Southwest Minzu University, China</p></fn>
+<corresp id="c001">&#x002A;Correspondence: Changcheng Wu, <email>wucc@sicnu.edu.cn</email></corresp>
+<fn fn-type="other" id="fn004"><p>This article was submitted to Educational Psychology, a section of the journal Frontiers in Psychology</p></fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>12</day>
+<month>12</month>
+<year>2022</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2022</year>
+</pub-date>
+<volume>13</volume>
+<elocation-id>1066164</elocation-id>
+<history>
+<date date-type="received">
+<day>10</day>
+<month>10</month>
+<year>2022</year>
+</date>
+<date date-type="accepted">
+<day>24</day>
+<month>11</month>
+<year>2022</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2022 Mou, Jing, Li, Fang and Wu.</copyright-statement>
+<copyright-year>2022</copyright-year>
+<copyright-holder>Mou, Jing, Li, Fang and Wu</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/"><p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p></license>
+</permissions>
+<abstract>
+<sec>
+<title>Introduction</title>
+<p>The instructional video is considered to be one of the most distinct and effective virtual learning tools. However, one of its biggest drawbacks is the lack of social interaction that occurs. This study tested the impact of participants sending zero danmaku (sending messages on the screen), three danmaku sending, and unlimited danmaku as an instructional video plays on learning performance.</p>
+</sec>
+<sec>
+<title>Methods</title>
+<p>We assessed learners&#x2019; retention and transfer scores, as well as self-report scores for cognitive load and parasocial interaction. This study sample comprised 104 participants who were randomly assigned to learn from one of three instructional videos on the topic of the heart.</p>
+</sec>
+<sec>
+<title>Results</title>
+<p>The results showed that sending danmaku improved learners&#x2019; parasocial interaction, while significantly increasing their cognitive load and also hindering learning performance. The observed increase in cognitive load reported by learners was also caused by increased levels of parasocial interaction.</p>
+</sec>
+<sec>
+<title>Discussion</title>
+<p>Our findings suggest that by sending danmaku, learners can promote interactive learning, but that this has a negative impact on learning performance and the process of video learning.</p>
+</sec>
+</abstract>
+<kwd-group>
+<kwd>instructional video</kwd>
+<kwd>danmaku</kwd>
+<kwd>learning performance</kwd>
+<kwd>cognitive load</kwd>
+<kwd>parasocial interaction</kwd>
+</kwd-group>
+<counts>
+<fig-count count="7"/>
+<table-count count="3"/>
+<equation-count count="0"/>
+<ref-count count="43"/>
+<page-count count="13"/>
+<word-count count="8483"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec id="S1" sec-type="intro">
+<title>Introduction</title>
+<p>The instructional video is considered to be one of the most distinct and effective virtual learning tools as it provides a sensory learning environment that has been shown to support learners to understand more and help them better recall knowledge (<xref ref-type="bibr" rid="B22">Palaigeorgiou and Papadopoulou, 2019</xref>). Furthermore, instructional videos also appear to have a significant effect on improving learners&#x2019; learning performance, engagement, interest, motivation to learn new subjects, and autonomy (<xref ref-type="bibr" rid="B10">Giannakos et al., 2015</xref>). However, instructional videos are not a panacea. Linear instructional videos run the risk of becoming a passive, television-like experience for learners. This type of experience can lead to superficial learning or inadequacy of the overall learning performance, also known as the &#x201C;couch-potato&#x201D; phenomenon (<xref ref-type="bibr" rid="B32">Van den Bulck, 2000</xref>; <xref ref-type="bibr" rid="B22">Palaigeorgiou and Papadopoulou, 2019</xref>). One of the most notable weaknesses of instructional videos is that learners cannot interact with it, so instructional videos often lack cognitive appeal and challenges (<xref ref-type="bibr" rid="B22">Palaigeorgiou and Papadopoulou, 2019</xref>). This interaction has been considered to be an important factor in improving social presence and learners&#x2019; attention (<xref ref-type="bibr" rid="B28">Rice and Redcay, 2016</xref>; <xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). In recent years, the production technology of instructional videos has grown rapidly, enabling more interactive functions, such as online forums or real-time in-video text messages, known as danmaku. Danmaku, as an emerging video interaction technology, allows users&#x2019; comments to be posted and displayed instantly (anonymously) on the video screen, thus becoming an integral part of the video; every time the video is played, it also plays all past comments (<xref ref-type="bibr" rid="B43">Zhou and Zhou, 2022</xref>). Danmaku were initially popular in China, Japan, and other Asian countries, and became sought after and loved by the majority of video-based learners (<xref ref-type="bibr" rid="B31">Teng and Chan, 2022</xref>). Especially in China, when learners are viewing a video, the playback platform typically has the &#x201C;danmaku display&#x201D; function turned on by default, allowing people to interact with other users while watching in text form (<xref ref-type="bibr" rid="B3">Bai et al., 2021</xref>). While such interactions are commonplace, little is known about the effects of seeing others&#x2019; danmaku in such videos on users&#x2019; attention and experience.</p>
+<p>Most existing research on danmaku has been from the perspective of &#x201C;learners seeing danmaku sent by others on the screen&#x201D; (e.g., <xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>), focusing on the potential value of the danmaku itself and their impact on learners&#x2019; attention as they watch the video lectures (<xref ref-type="bibr" rid="B2">Bai et al., 2019</xref>; <xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>). For instance, learners&#x2019; interaction with danmaku-enabled videos can not only provide immediate feedback to video creators on how they might improve the quality of the video, but they also greatly enhance the viewing experience of online learners (<xref ref-type="bibr" rid="B3">Bai et al., 2021</xref>). <xref ref-type="bibr" rid="B41">Zhang et al. (2019)</xref> discussed the potential of danmaku and proposed to include them in their instructional videos, whether the content is synchronous or asynchronous. With danmaku, even an asynchronous experience can seem like a synchronous experience. It is a potentially useful tool for use in online learning as learners feel they are learning alongside peers and teachers (<xref ref-type="bibr" rid="B41">Zhang et al., 2019</xref>). However, <xref ref-type="bibr" rid="B26">Pi et al. (2020)</xref> showed through empirical research that seeing others&#x2019; danmaku during instructional videos had a negative impact on learners&#x2019; attention and learning.</p>
+<p>Compared to seeing others&#x2019; danmaku onscreen, the biggest difference for learners in sending their own danmaku is interactivity (<xref ref-type="bibr" rid="B19">Ma and Cao, 2017</xref>; <xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>). Learners communicate synchronously or asynchronously with others by sending danmaku. Thus, learners can have a &#x201C;pseudo-synchronic&#x201D; communication and viewing experience by replying to others&#x2019; danmaku comments, creating a sense of a &#x201C;live&#x201D; experience through the sense of shared virtual time between learners and learners, as well as between learners and instructors (<xref ref-type="bibr" rid="B14">Johnson, 2013</xref>). This &#x201C;pseudo-synchronicity&#x201D; not only changes the way learners experience instructional videos from a passive and isolated experience to a more active and social experience, but it also provides them with a sense of a shared and synchronous experience. Research has shown that this type of interaction appears to give learners an instant experience of immersion, similar to if they were having a conversation directly with other learners, experiencing a &#x201C;mental sensation of engagement,&#x201D; also known as parasocial interaction (<xref ref-type="bibr" rid="B30">Shin, 2019</xref>; <xref ref-type="bibr" rid="B18">Lim et al., 2020</xref>; <xref ref-type="bibr" rid="B38">Yang et al., 2022</xref>). To our knowledge, few studies have explored how learners actively sending danmaku affects their learning process and performance. Theoretically, the benefits of sending danmaku during the learning experience are consistent with the theory of social constructivism (<xref ref-type="bibr" rid="B34">Vygotsky and Cole, 1978</xref>). This theory proposes that learners are not only passive receivers of knowledge and information, but also active generators and constructors of knowledge. The creation of knowledge requires active interaction in a social environment. Social interaction must then exist prior to the process of learners internalizing knowledge, and as such, social interaction is essential for the creation of new knowledge, and interaction with others is conducive to learners&#x2019; learning in the zone of proximal development (<xref ref-type="bibr" rid="B34">Vygotsky and Cole, 1978</xref>). Specifically, as a tool to reflect social interaction in the learning process, danmaku-sending provides scaffolding for learners and helps them to reach their potential level of development. The basis of social interaction is the exchange of messages (<xref ref-type="bibr" rid="B34">Vygotsky and Cole, 1978</xref>; <xref ref-type="bibr" rid="B25">Pi et al., 2019</xref>). Numerous studies on instructional video-based learning have shown that learners benefit from exchanging messages regarding the information shared through the videos (<xref ref-type="bibr" rid="B17">Li et al., 2014</xref>; <xref ref-type="bibr" rid="B13">Hung and Chen, 2018</xref>). Real-time exchange of messages in the classroom when learners are able to pause videos has been shown to have a positive impact on attention and learning performance (<xref ref-type="bibr" rid="B35">Weisz et al., 2007</xref>; <xref ref-type="bibr" rid="B17">Li et al., 2014</xref>). When learners send danmaku, they also exchange messages within the videos, which we infer would promote deeper processing and internalization of knowledge.</p>
+<p>Although the benefit of exchanging messages has been demonstrated under particular conditions, not all instructional video formats have yet been tested (<xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>). In previous studies, learners sent messages after learning from instructional videos, rather than exchanging messages simultaneously during learning (i.e., seeing and sending danmaku; <xref ref-type="bibr" rid="B35">Weisz et al., 2007</xref>; <xref ref-type="bibr" rid="B17">Li et al., 2014</xref>). Unfortunately, in a danmaku-enabled video, the real-time exchange of messages does appear to negatively impact learning (e.g., <xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>). Several reasons have been suggested for this. First, learners must pay attention to danmaku content while also following and understanding the learning content. This phenomenon tends to make learners lose themselves in receiving and responding to danmaku comments, thus neglecting to absorb and process the learning content itself, resulting in excessive cognitive load (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). This situation is likely to trigger a split-attention effect, in which the learner must mentally integrate information from multiple sources simultaneously (<xref ref-type="bibr" rid="B1">Ayres and Sweller, 2005</xref>). Second, the danmaku sent by fellow learners may also have nothing to do with video learning knowledge, and may also be negative. This also increases learners&#x2019; cognitive load and is not conducive to learning (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). Furthermore, an earlier study showed that creativity is inhibited if learners must pay attention to constant interactions with others (<xref ref-type="bibr" rid="B8">Diehl and Stroebe, 1987</xref>). In the case of instructional videos, this would apply to learners sending danmaku (<xref ref-type="bibr" rid="B12">Herrmann et al., 2013</xref>; <xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>).</p>
+<p>To sum up, in previous studies, learners have generally only played the role of a &#x201C;bystander&#x201D; in the exploration of the effects of danmaku during learning. Existing research has suggested that danmaku can be helpful in instructional videos (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>), but it is important to understand how to further improve the quality of instructional video learning. Therefore, the current study investigated whether the sending and not sending of danmaku brings about differences in learning from instructional videos, and whether differences in the number of danmaku sent might optimize the effectiveness of video learning in terms of learning performance (i.e., retention and transfer), self-reported cognitive load (i.e., intrinsic, extraneous, and germane cognitive loads), and parasocial interaction after the instructional video is over.</p>
+<p>Participants were asked to watch instructional videos on the subject of the heart. In the control condition, learners only watched the instructional videos and were not able to send danmaku (No Danmaku-Sending group; NDS). Under the experimental conditions, learners viewed the instructional video, with the difference between the experimental conditions being only the number of danmaku sent by the learners themselves, specifically: (1) the number of danmaku sent during the video was set at three (Three Danmaku Sent group; TDS), and (2) the number of danmaku sent was unlimited, whereby the learner was required to send more than three danmaku during the video (Unlimited Danmaku Sent group; UDS). For the TDS group, we found through the pre-experiment test, when the number of danmaku learners could send was allowed to be unlimited, that participants would send an average of three danmaku during the process of learning from a video. In the actual experiment, each participant in the TDS group sent the same number of danmaku (i.e., three), which facilitated scientific observation and analysis by fixing the experimental conditions.</p>
+<p>We wanted to verify whether learning was affected by the number of danmaku sent. Therefore, based on the above literature review, this study proposed the following hypotheses:</p>
+<disp-quote>
+<p><bold>Hypothesis 1:</bold> Among the three instructional video conditions, learners in the NDS group will have the best retention and transfer scores, followed by the TDS group, and finally by the UDS group.</p>
+</disp-quote>
+<disp-quote>
+<p><bold>Hypothesis 2:</bold> In the UDS condition, learners will report having the highest cognitive load (including intrinsic, extraneous, and germane cognitive load), followed by those in the TDS condition, and finally by those in the NDS condition.</p>
+</disp-quote>
+<disp-quote>
+<p><bold>Hypothesis 3:</bold> Learning from instructional video under the UDS condition, learners will report the highest level of parasocial interaction, followed by learners in the TDS condition, and finally by learners in the NDS condition.</p>
+</disp-quote>
+<disp-quote>
+<p><bold>Hypothesis 4:</bold> The number of danmaku sent by learners will be negatively associated with learning performance, and this relationship is mediated by parasocial interaction and cognitive load.</p>
+</disp-quote>
+</sec>
+<sec id="S2" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="S2.SS1">
+<title>Participants and design</title>
+<p>The participants in the current study were 104 grade 10 high school students (64 females; age: <italic>M</italic> = 15.45, SD = 0.54) recruited from one high school in Chengdu, Sichuan, China, and were selected randomly from four classes. None of the participants had been taught in the school setting about the heart. The students were informed about the purpose and safeguards of the experiment and written informed consent was obtained prior to participation. All participants were native Chinese and naive to this study. The study was approved by the ethics committee of the school where the study was conducted, and the study followed ethical standards of care for human subjects.</p>
+<p>A one-factor between-subjects design was adopted in the present study with students assigned randomly to one of the three groups: 35 students (22 females; age: <italic>M</italic> = 15.43, SD = 0.56) to the NDS group, 35 students (24 females; age: <italic>M</italic> = 15.46, SD = 0.56) to the TDS group, and 34 students (18 females; age: <italic>M</italic> = 15.47, SD = 0.51) to the UDS group. There were no significant differences between these three groups in mean age [<italic>F</italic>(2,101) = 0.05, <italic>p</italic> = 0.947], their mean pre-test scores [<italic>F</italic>(2,101) = 0.15, <italic>p</italic> = 0.858], or on the proportion of males and females, &#x03C7;<sup>2</sup>(2) = 1.82, <italic>p</italic> = 0.403.</p>
+</sec>
+<sec id="S2.SS2">
+<title>Materials</title>
+<p>The instructional video ran for 6 min and 18 s, and the content was on &#x201C;Heart and blood circulation.&#x201D; We used PowerPoint and Adobe Premiere to create the video. The instructional video consisted of three parts: danmaku, learning content, and voice. Regarding the danmaku, when we were making the video, we use the &#x201C;four classes of communicative approach&#x201D; to design four kinds of questions (<xref ref-type="bibr" rid="B29">Scott et al., 2006</xref>). These questions were used to create the pseudo-danmaku that would be used to answer the questions. In this experiment, we designed a total of 30 pseudo-danmaku. These danmaku ran from the right of the screen to the left at a consistent speed, positioned in the top fifth of the screen above the video and scrolling past until they disappeared. The questions were also intended to guide learners to send their own danmaku in response to the questions raised in the videos. Some of the questions used are shown in <xref ref-type="table" rid="T1">Table 1</xref>. Regarding the learning content, the instructional video was made up of 12 pages of slides, with the key instructing content presented in the form of text, accompanied by an illustration to help learners understand the content. Finally, regarding the voice, the audio content was recorded by a male instructor with a neutral Chinese accent. All materials went through multiple rounds of screening and revision by two master students before they were combined to create the final instructional video.</p>
+<table-wrap position="float" id="T1">
+<label>TABLE 1</label>
+<caption><p>Specific questions used to encourage social interaction: four classes of communicative approach.</p></caption>
+<table cellspacing="5" cellpadding="5" frame="hsides" rules="groups">
+<thead>
+<tr>
+<td valign="top" align="left">Number</td>
+<td valign="top" align="left">Type</td>
+<td valign="top" align="left">Sample question</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">1</td>
+<td valign="top" align="left">Dialogic-interactive</td>
+<td valign="top" align="left"><italic>Q:</italic> Do you know which two types of cells the cardiac muscle contain?<break/> <italic>A:</italic> Yes, the cardiac muscle cells contain cardiomyocytes and special cardiomyocytes.</td>
+</tr>
+<tr>
+<td valign="top" align="left">2</td>
+<td valign="top" align="left">Non-dialogic-interactive</td>
+<td valign="top" align="left"><italic>Q:</italic> Coronary veins can also provide blood for the heart. Do you know the difference between coronary veins and arteries?<break/> <italic>A:</italic> Yes, the coronary veins can also provide blood for the heart.</td>
+</tr>
+<tr>
+<td valign="top" align="left">3</td>
+<td valign="top" align="left">Dialogic-non-interactive</td>
+<td valign="top" align="left">The heart is a complex organ, we should not only learn the different locations of its parts but also the function of each part. For example, this is the part that keeps the heart beating, and this is the part that supplies the blood.</td>
+</tr>
+<tr>
+<td valign="top" align="left">4</td>
+<td valign="top" align="left">Non-dialogic-non-interactive</td>
+<td valign="top" align="left">The cardiac muscle is the part of the heart that we normally see, and it makes up the outline of our heart.</td>
+</tr>
+</tbody>
+</table></table-wrap>
+<p>The video was shown using software called &#x201C;Dandan Play.&#x201D;<sup><xref ref-type="fn" rid="footnote1">1</xref></sup> This software allows learners to send danmaku in the instructional videos over a local area network without having to register and account. The software also supports changing the color, size, and screen location of the danmaku. Using intelligent identification of video content, past danmaku saved on the server can be synchronized to appear in the video on the local computer to enhance the viewing experience. The danmaku are shown in the top fifth of the screen, while the rest of the screen is taken up by the video content (see <xref ref-type="fig" rid="F1">Figure 1</xref>).</p>
+<fig id="F1" position="float">
+<label>FIGURE 1</label>
+<caption><p>Danmaku and video content positioning on instructional video screen in Dandan Play player.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g001.tif"/>
+</fig>
+</sec>
+<sec id="S2.SS3">
+<title>Measurements</title>
+<sec id="S2.SS3.SSS1">
+<title>Pre-questionnaire</title>
+<p>The pre-questionnaire consisted of three parts: first, demographic information (e.g., gender and age) was collected. Second, contextualizing danmaku in learners&#x2019; experience, both viewing (e.g., &#x201C;If there are danmaku in the instructional video, do you think the danmaku will improve or interfere with your learning ability? Why?&#x201D;) and sending (e.g., &#x201C;If you send danmaku while learning from the instructional video, do you think this behavior will improve or interfere with your learning? Why?&#x201D;). Finally, learners&#x2019; general knowledge about the heart was also tested, using seven multiple-choice items. An example item was: &#x201C;Which of the following is not part of the blood circulatory system? A. Blood; B. Blood vessel; C. Heart; D. Lung; E. I don&#x2019;t know.&#x201D; Each item had five choices, and only one was the correct answer. The fifth option was &#x201C;I don&#x2019;t know&#x201D; to avoid participants simply guessing the answer (<xref ref-type="bibr" rid="B24">Pi et al., 2022</xref>). Two points were awarded for each correct answer. The total score could range from 0 to 14. As there were relatively fewer items used in this study than in previous studies, the reliability analysis was measured using Spearman&#x2013;Brown reliability (<xref ref-type="bibr" rid="B15">Kelley, 1925</xref>). The prior knowledge test showed moderate internal consistency: <italic>r</italic><sub><italic>kk</italic></sub> = 0.63 (<xref ref-type="bibr" rid="B16">LeBreton and Senter, 2008</xref>). The learners&#x2019; age, gender, and prior knowledge scores were used to determine whether the groups differed in their basic characteristics. These variables did not have any significant differences among the three groups.</p>
+</sec>
+<sec id="S2.SS3.SSS2">
+<title>Learning performance</title>
+<p>Tests were created to assess learning performance, in terms of both knowledge retention and transfer. The knowledge retention test evaluated learners&#x2019; direct memory of knowledge after they had finished watching the learning instructional video. The retention test showed moderate internal consistency: <italic>r</italic><sub><italic>kk</italic></sub> = 0.60 (<xref ref-type="bibr" rid="B16">LeBreton and Senter, 2008</xref>). It contained 12 items with a possible total of 30 points. There were eight multiple-choice items with only one correct response (e.g., &#x201C;Which of the following statements about the function of the human heart is false? A. The heart provides adequate blood flow to the body&#x2019;s organs and tissues; B. The heart supplies oxygen to the body; C. The heart provides various nutrients to the body; D. The heart can bring carbon dioxide, urea, and so on to the cells; E. I don&#x2019;t know.&#x201D;), two multiple-choice items with several correct responses (e.g., &#x201C;Which of the following statements about the heart are correct? A. The heart is positioned with the lungs on both sides; B. Above the heart is the diaphragm and below the heart are the large blood vessels that enter and exit the heart; C. The heart is located inside the middle mediastinum; D. The heart is located inside the posterior mediastinum; E. I don&#x2019;t know.&#x201D;), and two short-answer items regarding the coronary artery. Respondents received two points for each correct answer for the single-correct-choice items, three for the several-correct-choice items, and four points for short-answer items. The short-answer responses were scored separately by two raters and showed appropriate rater agreement (<italic>r</italic>s &#x003E; 0.60, <italic>p</italic>s &#x003C; 0.001, based on Pearson&#x2019;s correlation).</p>
+<p>The knowledge transfer test evaluated learners&#x2019; ability to use the presented material in novel situations after learning from the instructional videos. The transfer test had moderate internal consistency: <italic>r</italic><sub><italic>kk</italic></sub> = 0.59 (<xref ref-type="bibr" rid="B16">LeBreton and Senter, 2008</xref>). It contained eight multiple-choice items with one single correct response (e.g., &#x201C;What happens when the coronary arteries in the human body harden? A. People get coronary heart disease; B. There is an embolism in the coronary arteries; C. There is a spasm in the coronary arteries; D. The cardiac muscle cannot get nutrients and oxygen; E. I don&#x2019;t know.&#x201D;), two multiple-choice items with several correct responses (e.g., &#x201C;Which of the following symptoms of myocardial infarction are correct? A. Insufficient blood supply to the venous blood vessels; B. Decreased elasticity of the walls of the large arteries; C. A blockage in the terminal arteries of the heart; D. Necrosis in the area of coronary arteries; E. I don&#x2019;t know.&#x201D;), and a short-answer item about heart disease. The points for each item were set the same as those of the knowledge retention test (with eight points for the short-answer item) for a possible maximum of 30 points. Short-answer responses were scored separately by two raters and showed appropriate rater agreement (<italic>r</italic> = 0.67, <italic>p</italic> &#x003C; 0.001, based on Pearson&#x2019;s correlation).</p>
+</sec>
+<sec id="S2.SS3.SSS3">
+<title>Cognitive load</title>
+<p>The cognitive load questionnaire asked learners to rate three subjective items intended to measure their perceptions concerning their intrinsic cognitive load (i.e., &#x201C;How much effort was required to learn the material?&#x201D;), extraneous cognitive load (i.e., &#x201C;How difficult was the material?&#x201D;), and germane cognitive load (i.e., &#x201C;Did you think the material was easy to learn?&#x201D;) during learning. The cognitive load items have been shown to be reliable and valid indications of cognitive load in previous studies (<xref ref-type="bibr" rid="B21">Moreno et al., 2001</xref>; <xref ref-type="bibr" rid="B40">Yung and Paas, 2015</xref>). The first two items were adapted from <xref ref-type="bibr" rid="B6">Craig and Schroeder (2017)</xref> and translated into Chinese by <xref ref-type="bibr" rid="B37">Yang (2014)</xref>. The last item was adapted from <xref ref-type="bibr" rid="B9">Gerjets et al. (2009)</xref> and translated into Chinese by <xref ref-type="bibr" rid="B42">Zhao (2014)</xref>. Learners rated each item on a nine-point scale ranging from 1 (very little) to 9 (very much).</p>
+</sec>
+<sec id="S2.SS3.SSS4">
+<title>Parasocial interaction</title>
+<p>The parasocial interaction questionnaire was developed by <xref ref-type="bibr" rid="B4">Beege et al. (2017)</xref> and is used to test learners&#x2019; perception of the conversational &#x201C;give and take&#x201D; with the instructor. It consists of seven items (e.g., &#x201C;I feel like the instructor is giving me a lesson&#x201D;) and each item is rated using a seven-point Likert scale ranging from 1 (I do not agree at all) to 7 (I totally agree). The final score is the average of all item scores. To adapt the questionnaire for use in a Chinese context, all items were translated into Chinese and revised by a professional college English instructor (<xref ref-type="bibr" rid="B27">Pi et al., 2021</xref>). Cronbach&#x2019;s alpha for the questionnaire in the current study was 0.94.</p>
+</sec>
+</sec>
+<sec id="S2.SS4">
+<title>Procedure</title>
+<p>This study was conducted in a computer room and took approximately 45 min to complete. Before starting the experiment, each computer was checked to ensure that the headphones were plugged and the volume was adjusted to avoid interference from external conditions. The make and model of all computers and monitor screen sizes were identical. All computers were uniformly controlled by the researcher&#x2019;s aide, and the learners wore headphones to avoid interfering with one another. When the experiment began, learners were first assigned randomly to the NDS, TDS, or UDS group, and each individual was told they would perform the tasks individually. The learners were then asked to sit in front of the computer and to complete the pre-questionnaire at their own pace. Next, the learners watched the instructional video for their specific group, and afterward completed the retention and transfer tests without having to adhere to a time limit. Finally, they were asked to complete a post-questionnaire to measure their perception of the learning process. After the experiment, all learners were compensated in the form of small gifts (i.e., facial tissue and pen) for their participation to thank them for their time and effort.</p>
+</sec>
+</sec>
+<sec id="S3" sec-type="results">
+<title>Results</title>
+<p><xref ref-type="fig" rid="F2">Figure 2</xref> depicts the learners&#x2019; screen setup when seeing danmaku in the instructional videos. As shown in <xref ref-type="fig" rid="F2">Figure 2A</xref>, 82.69% of the learners indicated that they had paid attention to the danmaku sent by other learners while viewing the instructional video. This percentage was significantly higher than those who reported &#x201C;not paying attention&#x201D; (17.31%). <xref ref-type="fig" rid="F2">Figure 2B</xref> shows that more than half of the learners (54.81%) reported that they would open the danmaku while the instructional video played, which was slightly higher than those who reported &#x201C;closed the danmaku&#x201D; (38.46%), and only 6.73% of the learners reported not paying any attention to the danmaku. <xref ref-type="fig" rid="F2">Figure 2C</xref> shows that nearly half of the learners (45.19%) believed that the danmaku had no influence on their learning, while the proportion of learners who believed that the danmaku would improve their learning (31.73%) or that they would interfere with their learning (23.08%) were similar. The reasons suggested as to why the danmaku might improve their learning ability were that danmaku can supplement knowledge points, they present an opportunity for communication and discussion with others, and danmaku would expand the learner&#x2019;s own thinking abilities. However, the reasons why danmaku might interfere with learning were that the danmaku would block the screen and distract them.</p>
+<fig id="F2" position="float">
+<label>FIGURE 2</label>
+<caption><p>Learner expectations regarding the impact of viewing danmaku during instructional videos. <bold>(A)</bold> Differences in intrinsic cognitive load across experimental conditions; <bold>(B)</bold> differences in extraneous cognitive load across experimental conditions; and <bold>(C)</bold> differences in cognitive load across experimental condition.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g002.tif"/>
+</fig>
+<p><xref ref-type="fig" rid="F3">Figure 3</xref> presents the preference of learners sending danmaku in the instructional videos. <xref ref-type="fig" rid="F3">Figure 3A</xref> showed that most learners (57.69%) did not like sending danmaku during the learning process; a small number of learners (29.81%) did not have any preference about sending danmaku; while only 12.50% of learners enjoyed sending danmaku. Only a very small percentage of learners (8.65%) believed that sending danmaku would improve their learning, reporting that sending danmaku would be a way to communicate with others, which would help them participate more actively in class interactions, enabling them to understand the problems and solve them quicker. In contrast, a significant number of the learners (38.46%) believed that sending danmaku would hinder their learning (see <xref ref-type="fig" rid="F3">Figure 3B</xref>), thinking that it would be a waste of time or that it would distract them. Finally, 52.88% of the learners thought that sending danmaku would have no impact on their learning.</p>
+<fig id="F3" position="float">
+<label>FIGURE 3</label>
+<caption><p>Learner expectations regarding the impact of sending danmaku during instructional videos. <bold>(A)</bold> Differences in retention across experimental conditions and <bold>(B)</bold> differences in transfer across experimental conditions.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g003.tif"/>
+</fig>
+<p>Descriptive statistics for all variables in the three groups are reported in <xref ref-type="table" rid="T2">Table 2</xref>. To test the differences across the different groups, one-way ANOVA was conducted for all variables using SPSS 24.0. Mplus 8.3 was used to analyze the mediating effect [bootstrap analysis, repeat sampling, 2,000 times following recommendations by <xref ref-type="bibr" rid="B7">DiCiccio and Efron (1996)</xref>]. In the current research, statistical significance was set at <italic>p</italic> &#x003C; 0.05. In ANOVA, the effect size was represented by <inline-formula><mml:math id="INEQ1"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula>; an <inline-formula><mml:math id="INEQ2"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> of 0.01 indicated a small effect size, an <inline-formula><mml:math id="INEQ3"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> of 0.06 indicated a moderate effect size, and an <inline-formula><mml:math id="INEQ4"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> of 0.14 indicated a large effect size (<xref ref-type="bibr" rid="B5">Cohen, 2013</xref>).</p>
+<table-wrap position="float" id="T2">
+<label>TABLE 2</label>
+<caption><p>Means and standard deviations of all variables by group.</p></caption>
+<table cellspacing="5" cellpadding="5" frame="hsides" rules="groups">
+<thead>
+<tr>
+<td valign="top" align="left">Dependent variables</td>
+<td valign="top" align="center" colspan="2">NDS</td>
+<td valign="top" align="center" colspan="2">TDS</td>
+<td valign="top" align="center" colspan="2">UDS</td>
+<td valign="top" colspan="3"/>
+</tr>
+<tr>
+<td valign="top" align="center"></td>
+<td valign="top" align="center" colspan="2"><hr/></td>
+<td valign="top" align="center" colspan="2"><hr/></td>
+<td valign="top" align="center" colspan="2"><hr/></td>
+</tr>
+<tr>
+<td/>
+<td valign="top" align="center"><italic>M</italic></td>
+<td valign="top" align="center">SD</td>
+<td valign="top" align="center"><italic>M</italic></td>
+<td valign="top" align="center">SD</td>
+<td valign="top" align="center"><italic>M</italic></td>
+<td valign="top" align="center">SD</td>
+<td valign="top" align="center"><italic>F</italic></td>
+<td valign="top" align="center"><italic>p</italic></td>
+<td valign="top" align="center"><inline-formula><mml:math id="INEQ5"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left"><bold>Learning performance</bold></td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">Retention</td>
+<td valign="top" align="center">18.84</td>
+<td valign="top" align="center">4.07</td>
+<td valign="top" align="center">15.79</td>
+<td valign="top" align="center">3.21</td>
+<td valign="top" align="center">13.50</td>
+<td valign="top" align="center">3.40</td>
+<td valign="top" align="center">19.37<xref ref-type="table-fn" rid="t2fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">&lt;0.001</td>
+<td valign="top" align="center">0.28</td>
+</tr>
+<tr>
+<td valign="top" align="left">Transfer</td>
+<td valign="top" align="center">17.10</td>
+<td valign="top" align="center">4.60</td>
+<td valign="top" align="center">14.96</td>
+<td valign="top" align="center">3.33</td>
+<td valign="top" align="center">13.37</td>
+<td valign="top" align="center">4.66</td>
+<td valign="top" align="center">6.75<xref ref-type="table-fn" rid="t2fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.002</td>
+<td valign="top" align="center">0.12</td>
+</tr>
+<tr>
+<td valign="top" align="left">Cognitive load</td>
+<td valign="top" align="center">5.76</td>
+<td valign="top" align="center">0.92</td>
+<td valign="top" align="center">6.08</td>
+<td valign="top" align="center">1.38</td>
+<td valign="top" align="center">6.97</td>
+<td valign="top" align="center">1.40</td>
+<td valign="top" align="center">8.60<xref ref-type="table-fn" rid="t2fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">&lt;0.001</td>
+<td valign="top" align="center">0.15</td>
+</tr>
+<tr>
+<td valign="top" align="left">Intrinsic cognitive load</td>
+<td valign="top" align="center">6.51</td>
+<td valign="top" align="center">1.69</td>
+<td valign="top" align="center">7.06</td>
+<td valign="top" align="center">1.63</td>
+<td valign="top" align="center">8.15</td>
+<td valign="top" align="center">1.33</td>
+<td valign="top" align="center">9.81<xref ref-type="table-fn" rid="t2fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">&lt;0.001</td>
+<td valign="top" align="center">0.16</td>
+</tr>
+<tr>
+<td valign="top" align="left">Extraneous cognitive load</td>
+<td valign="top" align="center">4.43</td>
+<td valign="top" align="center">1.80</td>
+<td valign="top" align="center">4.57</td>
+<td valign="top" align="center">1.98</td>
+<td valign="top" align="center">6.09</td>
+<td valign="top" align="center">2.04</td>
+<td valign="top" align="center">7.72<xref ref-type="table-fn" rid="t2fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.001</td>
+<td valign="top" align="center">0.13</td>
+</tr>
+<tr>
+<td valign="top" align="left">Germane cognitive load</td>
+<td valign="top" align="center">6.34</td>
+<td valign="top" align="center">1.83</td>
+<td valign="top" align="center">6.60</td>
+<td valign="top" align="center">2.35</td>
+<td valign="top" align="center">6.68</td>
+<td valign="top" align="center">2.24</td>
+<td valign="top" align="center">0.23</td>
+<td valign="top" align="center">0.796</td>
+<td valign="top" align="center">0.01</td>
+</tr>
+<tr>
+<td valign="top" align="left">Parasocial interaction</td>
+<td valign="top" align="center">3.89</td>
+<td valign="top" align="center">0.99</td>
+<td valign="top" align="center">4.20</td>
+<td valign="top" align="center">1.38</td>
+<td valign="top" align="center">4.84</td>
+<td valign="top" align="center">1.37</td>
+<td valign="top" align="center">5.14<xref ref-type="table-fn" rid="t2fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.007</td>
+<td valign="top" align="center">0.09</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn id="t2fn1"><p>NDS, no danmaku sent; TDS, three danmaku sent; UDS, unlimited danmaku sent; <italic>M</italic>, mean; SD, standard deviation; <italic>F</italic>, <italic>F</italic>-statistic; <inline-formula><mml:math id="INEQ6"><mml:mpadded width="+3.3pt"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mpadded></mml:math></inline-formula>, effect size. &#x002A;&#x002A;<italic>p</italic> &#x003C; 0.01, &#x002A;&#x002A;&#x002A;<italic>p</italic> &#x003C; 0.001.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<sec id="S3.SS1">
+<title>Learning performance</title>
+<p>ANOVA showed that there was a significant difference across the three experimental conditions in retention [<italic>F</italic>(2,101) = 19.37, <italic>p</italic> &#x003C; 0.001, <inline-formula><mml:math id="INEQ7"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> = 0.28; see <xref ref-type="fig" rid="F4">Figure 4A</xref>]. <italic>Post hoc</italic> tests (least significant difference; LSD) showed that the retention level of learners in the NDS group was significantly different from those in the TDS and UDS groups (MD = 3.06, <italic>p</italic> = 0.001, 95% CI [1.36, 4.75]; MD = 5.34, <italic>p</italic> &#x003C; 0.001, 95% CI [3.63, 7.05]; respectively). The learners in the TDS group also showed better retention than the learners in the UDS group (MD = 2.29, <italic>p</italic> = 0.009, 95% CI [0.58, 4.00]). The results showed that the number of danmaku sent by learners while viewing the instructional video affected their learning retention.</p>
+<fig id="F4" position="float">
+<label>FIGURE 4</label>
+<caption><p>Differences in retention and transfer across experimental conditions. <bold>(A)</bold> Differences in retention across experimental conditions and <bold>(B)</bold> differences in transfer across experimental conditions. &#x002A;<italic>p</italic> &#x003C; 0.05, &#x002A;&#x002A;<italic>p</italic> &#x003C; 0.001, &#x002A;&#x002A;&#x002A;<italic>p</italic> &#x003C; 0.001.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g004.tif"/>
+</fig>
+<p>ANOVA also revealed a significant difference across the three experimental conditions in transfer [<italic>F</italic>(2,101) = 6.75, <italic>p</italic> &#x003C; 0.001, <inline-formula><mml:math id="INEQ8"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> = 0.12; see <xref ref-type="fig" rid="F4">Figure 4B</xref>]. <italic>Post hoc</italic> tests (LSD) showed that students in the NDS group had a better transfer level than those in the TDS and UDS groups (MD = 2.14, <italic>p</italic> = 0.037, 95% CI [0.13, 4.15]; MD = 3.73, <italic>p</italic> &#x003C; 0.001, 95% CI [1.71, 5.76]; respectively). There was no significant difference between the TDS and UDS groups (<italic>p</italic> &#x003E; 0.05). The results indicated that learners who did not send danmaku on the screen during video learning had the best transfer. Therefore, Hypothesis 1 was supported.</p>
+</sec>
+<sec id="S3.SS2">
+<title>Cognitive load</title>
+<p>First, ANOVA found a significant difference in intrinsic cognitive load across the three experimental conditions [<italic>F</italic>(2,101) = 9.81, <italic>p</italic> &#x003C; 0.001, <inline-formula><mml:math id="INEQ9"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> = 0.16; see <xref ref-type="fig" rid="F5">Figure 5A</xref>]. <italic>Post hoc</italic> tests (LSD) revealed that the intrinsic cognitive load of the UDS group was significantly different from that of both the TDS and NDS groups (MD = 1.09, <italic>p</italic> = 0.004, 95% CI [0.35, 1.83]; MD = 1.63 <italic>p</italic> &#x003C; 0.001, 95% CI [0.89, 2.38]; respectively). Second, ANOVA showed that there was a significant difference in extraneous cognitive load across the experimental conditions [<italic>F</italic>(2,101) = 8.60, <italic>p</italic> &#x003C; 0.001, <inline-formula><mml:math id="INEQ10"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> = 0.15; see <xref ref-type="fig" rid="F5">Figure 5B</xref>]. <italic>Post hoc</italic> tests (LSD) showed that the self-reported extraneous cognitive load of learners in the UDS group was significantly different from that in the TDS and NDS groups (MD = 1.52, <italic>p</italic> = 0.002, 95% CI [0.59, 2.44]; MD = 1.66, <italic>p</italic> = 0.001, 95% CI [0.73, 2.59]; respectively). However, no statistically significant difference was found compared to the ANOVA test on learners&#x2019; self-reported germane cognitive load. Finally, ANOVA also revealed a significant difference in cognitive load across the three experimental conditions [<italic>F</italic>(2,101) = 8.60, <italic>p</italic> &#x003C; 0.001, <inline-formula><mml:math id="INEQ11"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> = 0.15; see <xref ref-type="fig" rid="F5">Figure 5C</xref>]. <italic>Post hoc</italic> tests (LSD) demonstrated that learners in the UDS group reported higher cognitive load than both the TDS and NDS groups (MD = 0.89, <italic>p</italic> = 0.004, 95% CI [0.30, 1.49]; MD = 1.21, <italic>p</italic> &#x003C; 0.001, 95% CI [0.61, 1.81]; respectively). These self-report results suggest that sending danmaku onto the screen can influence learners&#x2019; cognitive load, as evidenced by the fact that learners in the UDS group had a higher cognitive load (including intrinsic and extraneous cognitive load) than reported by the learners in the other two groups. Thus, Hypothesis 2 was partially supported.</p>
+<fig id="F5" position="float">
+<label>FIGURE 5</label>
+<caption><p>Differences in cognitive load across the experimental conditions. <bold>(A)</bold> Differences in intrinsic cognitive load across experimental conditions; <bold>(B)</bold> differences in extraneous cognitive load across experimental conditions; and <bold>(C)</bold> differences in cognitive load across experimental conditions. &#x002A;&#x002A;<italic>p</italic> &#x003C; 0.01, &#x002A;&#x002A;&#x002A;<italic>p</italic> &#x003C; 0.001.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g005.tif"/>
+</fig>
+</sec>
+<sec id="S3.SS3">
+<title>Parasocial interaction</title>
+<p>ANOVA showed that there was a significant difference in learners&#x2019; parasocial interaction across the three experimental conditions [<italic>F</italic>(2,101) = 5.14, <italic>p</italic> = 0.007, <inline-formula><mml:math id="INEQ12"><mml:msubsup><mml:mi mathvariant="normal">&#x03B7;</mml:mi><mml:mi>p</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula> = 0.09; see <xref ref-type="fig" rid="F6">Figure 6</xref>]. <italic>Post hoc</italic> tests (LSD) revealed a statistically significant difference in the UDS group relative to the TDS (MD = 0.64, <italic>p</italic> = 0.036, 95% CI [0.04, 1.25]) and NDS (MD = 0.95, <italic>p</italic> = 0.002, 95% CI [0.35, 1.56]) groups. It was concluded that learners who sent danmaku on the screen with no limit to how many they could send had higher parasocial interaction scores compared to those of the learners in the other two groups. Thus, Hypothesis 3 was supported.</p>
+<fig id="F6" position="float">
+<label>FIGURE 6</label>
+<caption><p>Differences in parasocial interaction across the experimental conditions. &#x002A;<italic>p</italic> &#x003C; 0.05, &#x002A;&#x002A;<italic>p</italic> &#x003C; 0.01.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g006.tif"/>
+</fig>
+</sec>
+<sec id="S3.SS4">
+<title>Regression analysis and mediating effect</title>
+<sec id="S3.SS4.SSS1">
+<title>Intercorrelations among research variables</title>
+<p>The Pearson correlation coefficients between the research variables and their significance levels are shown in <xref ref-type="table" rid="T3">Table 3</xref>. In terms of learning performance, learners&#x2019; knowledge retention scores were significantly negatively linked with conditions and parasocial interaction (<italic>r</italic>s = &#x2212;0.53, &#x2212;0.21, <italic>p</italic>s &#x003C; 0.05). Knowledge transfer scores were significantly positively linked with retention scores (<italic>r</italic> = 0.54, <italic>p</italic> &#x003C; 0.001), but significantly negatively linked with conditions (<italic>r</italic> = &#x2212;0.34, <italic>p</italic> &#x003C; 0.001). In terms of learning process experience, cognitive load was significantly positively linked with conditions, parasocial interaction, intrinsic, extraneous, and germane cognitive loads (0.37 &#x003C; <italic>r</italic>s &#x003C; 0.72, <italic>p</italic>s &#x003C; 0.01). Extraneous cognitive load was significantly positively linked with conditions and intrinsic cognitive load (<italic>r</italic>s = 0.29, 0.33, <italic>p</italic>s &#x003C; 0.01). Intrinsic cognitive load was significantly positively linked with conditions (<italic>r</italic> = 0.40, <italic>p</italic> &#x003C; 0.001). Parasocial interaction was also significantly positively linked with conditions (<italic>r</italic> = 0.30, <italic>p</italic> = 0.002). There were no significant links among the remaining variables.</p>
+<table-wrap position="float" id="T3">
+<label>TABLE 3</label>
+<caption><p>Pearson correlations for research variables.</p></caption>
+<table cellspacing="5" cellpadding="5" frame="hsides" rules="groups">
+<thead>
+<tr>
+<td valign="top" align="left">Variables</td>
+<td valign="top" align="center">1</td>
+<td valign="top" align="center">2</td>
+<td valign="top" align="center">3</td>
+<td valign="top" align="center">4</td>
+<td valign="top" align="center">5</td>
+<td valign="top" align="center">6</td>
+<td valign="top" align="center">7</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">1. Conditions</td>
+<td valign="top" align="center">&#x2013;</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td/>
+<td valign="top" align="center"/>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">2. Parasocial interaction</td>
+<td valign="top" align="center">0.30<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">&#x2013;</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td/>
+<td valign="top" align="center"/>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">3. Intrinsic cognitive load</td>
+<td valign="top" align="center">0.40<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.16</td>
+<td valign="top" align="center">&#x2013;</td>
+<td valign="top" align="center"/>
+<td/>
+<td valign="top" align="center"/>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">4. Extraneous cognitive load</td>
+<td valign="top" align="center">0.33<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.17</td>
+<td valign="top" align="center">0.29<xref ref-type="table-fn" rid="t3fn1">&#x002A;</xref></td>
+<td valign="top" align="center">&#x2013;</td>
+<td/>
+<td valign="top" align="center"/>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">5. Germane cognitive load</td>
+<td valign="top" align="center">0.06</td>
+<td valign="top" align="center">0.33<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.17</td>
+<td valign="top" align="center">0.26<xref ref-type="table-fn" rid="t3fn1">&#x002A;</xref></td>
+<td valign="top" align="center">&#x2013;</td>
+<td valign="top" align="center"/>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">6. Cognitive load</td>
+<td valign="top" align="center">0.37<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.33<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.61<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.72<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.72<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">&#x2013;</td>
+<td/>
+</tr>
+<tr>
+<td valign="top" align="left">7. Retention</td>
+<td valign="top" align="center">&#x2212;0.53<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">&#x2013;0.04</td>
+<td valign="top" align="center">&#x2212;0.21<xref ref-type="table-fn" rid="t3fn1">&#x002A;</xref></td>
+<td valign="top" align="center">&#x2013;0.18</td>
+<td valign="top" align="center">0.01</td>
+<td valign="top" align="center">&#x2013;0.18</td>
+<td valign="top" align="center">&#x2013;</td>
+</tr>
+<tr>
+<td valign="top" align="left">8. Transfer</td>
+<td valign="top" align="center">&#x2212;0.34<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+<td valign="top" align="center">0.004</td>
+<td valign="top" align="center">&#x2013;0.11</td>
+<td valign="top" align="center">0.01</td>
+<td valign="top" align="center">0.17</td>
+<td valign="top" align="center">0.05</td>
+<td valign="top" align="center">0.54<xref ref-type="table-fn" rid="t3fn1">&#x002A;&#x002A;&#x002A;</xref></td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn id="t3fn1"><p>Pearson correlation coefficients and significance levels reported. &#x002A;&#x002A;&#x002A;<italic>p</italic> &#x003C; 0.001, &#x002A;&#x002A;<italic>p</italic> &#x003C; 0.01, &#x002A;<italic>p</italic> &#x003C; 0.05.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="S3.SS4.SSS2">
+<title>Mediating effect analysis</title>
+<p>The results of ANOVA showed that the retention and transfer scores of learners under different conditions were opposite to their self-reported cognitive load and parasocial interaction, and Pearson correlation analysis also found similar results. Therefore, this study constructed a mediation model (see <xref ref-type="fig" rid="F7">Figure 7</xref>) to test whether the effects of the conditions on retention and transfer could be explained by parasocial interaction and cognitive load. The mediating effects were analyzed by standardizing all scores (<italic>Z</italic>-score) and performing structural equation modeling. To ensure conciseness in the model, all insignificant path coefficients and confidence intervals were deleted from the initial model. This model demonstrated a good data fit (&#x03C7;<sup>2</sup>/<italic>df</italic> = 1.44, comparative fit index = 0.96; Tucker-Lewis index = 0.95, root mean square error of approximation = 0.07, standardized residual mean root = 0.08). <xref ref-type="fig" rid="F7">Figure 7</xref> shows the hypothesis testing results of the direct and indirect path coefficients of the mediation model. The results showed that all conditions had a significant direct effect on retention and transfer (&#x03B2; = &#x2212;0.56, <italic>p</italic> &#x003C; 0.001; &#x03B2; = &#x2212;0.39, <italic>p</italic> &#x003C; 0.001; respectively). Conditions not only significantly positively influenced parasocial interaction (&#x03B2; = 0.31, <italic>p</italic> &#x003C; 0.001), but parasocial interaction also significantly positively influenced cognitive load (&#x03B2; = 0.31, <italic>p</italic> = 0.021). However, parasocial interaction and cognitive load did not influence retention and transfer (<italic>p</italic>s &#x003E; 0.05). Therefore, Hypothesis 4 was not supported.</p>
+<fig id="F7" position="float">
+<label>FIGURE 7</label>
+<caption><p>Mediation analysis with path coefficients. CI, confidence interval. &#x002A;<italic>p</italic> &#x003C; 0.05, &#x002A;&#x002A;&#x002A;<italic>p</italic> &#x003C; 0.001.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-13-1066164-g007.tif"/>
+</fig>
+</sec>
+</sec>
+</sec>
+<sec id="S4" sec-type="discussion">
+<title>Discussion</title>
+<p>The primary result of this study was that learners in the NDS group scored higher on both retention and transfer than those in the TDS and UDS groups. However, learners&#x2019; self-reported cognitive load and parasocial interaction scores contradicted the finding on learning performance. There was also evidence that the more danmaku sent, the higher the learners&#x2019; level of parasocial interaction, which leads to a higher cognitive load. However, excessive parasocial interaction and cognitive load were not factors in the poor learning performance of learners. In the remainder of this discussion, we consider some of the differences between our findings and previous work on social interaction in learning, and then discuss some of the limitations of this evidence.</p>
+<p>Our findings contrast with some reports in the existing literature that learners who participated in real-time exchange of messages in the classroom performed better in their learning (<xref ref-type="bibr" rid="B35">Weisz et al., 2007</xref>; <xref ref-type="bibr" rid="B17">Li et al., 2014</xref>). This study found that the more danmaku were sent, the less attentional impact they had on the learners. The survey data also indicated that only a small minority of learners preferred to send danmaku while learning. Indeed, a considerable number of learners believed that sending danmaku would hinder their learning ability. In their opinion, there were two main reasons for this expected negative impact: distraction and wasting time, both of which would greatly reduce their efficiency in learning. Learners did waste a lot of time on sending danmaku, ignoring the learning content itself, particularly the learners in the UDS group. The content of danmaku sent by the learners in the UDS group may have been random, too frequent, or dense, and may have also interfered with learners&#x2019; attention (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). Therefore, the more danmaku were sent, the easier it was to induce the split-attention effect (<xref ref-type="bibr" rid="B1">Ayres and Sweller, 2005</xref>). However, when learners interacted with others in the process of video learning, they had to be paying constant attention to and replying to the danmaku information scrolling along the top of the screen while also processing the learning content information. The learners had to integrate both the learning content and the danmaku information with their existing relevant knowledge, which led to the UDS group reporting a higher cognitive load in the process of video learning. In theory, higher cognitive load could lead to a lower learning performance (<xref ref-type="bibr" rid="B1">Ayres and Sweller, 2005</xref>; <xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). However, the mediation model constructed in this study did not support this assumption. Instead, it suggested that cognitive load was not an indirect cause of poor learning performance. Future research should further clarify the impact mechanism at play from the aspect of attentional impact. Furthermore, regarding the type of danmaku sent, some of the danmaku sent were social or novelty danmaku, which may have had little impact on the cognitive process of the learners. Regarding the learning content, the learning material was information about the heart. Learners needed to learn a great deal of knowledge in a short period of time, which may have been too challenging or difficult for the learners, making it easy to create a &#x201C;floor effect&#x201D; (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). Moreover, most of the learners in the UDS group continued to interact with each other in the form of danmaku. This phenomenon may have inhibited their creativity, as it has already been established that it is not conducive to the retention and transfer of new knowledge (<xref ref-type="bibr" rid="B8">Diehl and Stroebe, 1987</xref>).</p>
+<p>Why did the UDS condition improve parasocial interaction? The purpose of learners sending danmaku was to cause them to interact more effectively with the others in their group, changing them from passive recipients to active participants in learning. One of the biggest drawbacks of video learning is its lack of social interaction, especially between fellow learners (<xref ref-type="bibr" rid="B22">Palaigeorgiou and Papadopoulou, 2019</xref>). By sending danmaku, the learners were given the illusion of being connected in a digital world, as if they were communicating in real-time with others. In addition, the interactivity of sending danmaku is related to the cognitive process of learners (<xref ref-type="bibr" rid="B41">Zhang et al., 2019</xref>). Looking at the level or degree of learner interaction from the group with the lowest (NDS) to the highest (UDS) amount of communication reflected the learners&#x2019; degree of mental engagement and the fact that the learners are guided into being more active participants (<xref ref-type="bibr" rid="B23">Patwardhan and Murthy, 2015</xref>). <xref ref-type="bibr" rid="B33">Vorderer et al. (2004)</xref> viewed parasocial interaction as a core precondition for media enjoyment and stated that this phenomenon facilitates learners&#x2019; subsequent engagement with their respective content. Thus, stronger parasocial interaction seem to promote better learning performance in an instructional video settings (<xref ref-type="bibr" rid="B4">Beege et al., 2017</xref>). Parasocial interactions did not appear to be directly linked to learning performance in the present findings. Future work should therefore also investigate other variables such as arousal, affective, or motivational variables to gain insight into the underlying variables influencing learning performance (<xref ref-type="bibr" rid="B4">Beege et al., 2017</xref>). Interestingly, the mediation model constructed in this study showed that parasocial interaction increased cognitive load, making it clear that parasocial interaction has an impact on cognitive processes. Therefore, future studies should also provide more empirical evidence of this. Cognitive load theory and cognitive theory of multimedia learning have both been introduced as ways to expand the understanding of parasocial interaction (<xref ref-type="bibr" rid="B1">Ayres and Sweller, 2005</xref>; <xref ref-type="bibr" rid="B20">Mayer, 2005</xref>).</p>
+<p>More generally, what stood out in the current study was that sending danmaku while learning from instructional videos not only hindered learners&#x2019; learning performance, but also, the more danmaku sent, the greater the negative impact on learning. Although this type of social interaction can effectively improve learners&#x2019; level of parasocial interaction, it can also increase their cognitive load.</p>
+<p>The findings of the current study lead to some practical advice for instructional video designers, specifically, that danmaku have the characteristics of timely feedback and strong interaction, and it can meet the personalized learning needs of learners and improve their learning experience (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). However, if instructors want their learners to achieve better learning performance, they should not ask learners to send danmaku while the instructional videos are in progress. Therefore, if instructors want learners to have an interactive learning experience, we suggest that these interactions should take place after students are finished learning from the instructional videos (<xref ref-type="bibr" rid="B26">Pi et al., 2020</xref>).</p>
+<p>Three features of this work limit the conclusions we can draw about the effects of learners sending danmaku in the process of their learning. First, this study only measured behavioral data which reflected the learning process of learners, and it is unclear whether other more objective and reasonable measurement techniques would produce comparable results. Future research may consider introducing eye-tracking and fMRI techniques to further reveal the cognitive and neural mechanisms of the impact of sending danmaku on learners&#x2019; learning from an interdisciplinary perspective. Specifically, portable eye-tracking technology has been used to explore whether variables such as learners&#x2019; preference for danmaku sending or danmaku style would have a moderating effect. fMRI and physiological polygraph have been used to measure blood flow changes caused by learners&#x2019; neuron activity and the changes they experience in academic emotions at the physiological level, to seek out reasons that can be explained from a neurological and physiological perspective (<xref ref-type="bibr" rid="B11">Guo et al., 2019</xref>). Second, the findings of this study should not be generalized beyond the high school student population or other populations with similar demographic characteristics. In future studies, a wider range of data from across different disciplines should be collected from more participants from different schools and at different age levels (<xref ref-type="bibr" rid="B36">Wu et al., 2021</xref>). Finally, knowledge type may be an important moderator variable in the learning experience. In terms of declarative knowledge, danmaku did not play a role in improving this. However, for procedural knowledge, danmaku can in fact improve knowledge transfer (<xref ref-type="bibr" rid="B39">Yang et al., 2019</xref>). Therefore, future work can start from an understanding of different knowledge types in order to conduct further experiments.</p>
+</sec>
+<sec id="S5" sec-type="data-availability">
+<title>Data availability statement</title>
+<p>The original contributions presented in this study are included in the article/supplementary material, further inquiries can be directed to the corresponding author.</p>
+</sec>
+<sec id="S6" sec-type="author-contributions">
+<title>Author contributions</title>
+<p>CW contributed to the study conception and design. BJ, YL, and NF performed the material preparation and data collection. BJ and YM performed the data analysis and wrote the first draft of the manuscript. All authors commented on previous versions of the manuscript, read, and approved the final manuscript.</p>
+</sec>
+</body>
+<back>
+<sec id="S7" sec-type="funding-information">
+<title>Funding</title>
+<p>This work was funded by the International Joint Research Project of Huiyan International College, Faculty of Education, Beijing Normal University (ICER201902).</p>
+</sec>
+<sec id="S8" sec-type="COI-statement">
+<title>Conflict of interest</title>
+<p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. The reviewer LM declared a shared parent affiliation with the author, YM to the handling editor at time the of review.</p>
+</sec>
+<sec id="S9" sec-type="disclaimer">
+<title>Publisher&#x2019;s note</title>
+<p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+</sec>
+<fn-group>
+<fn id="footnote1">
+<label>1</label>
+<p><ext-link ext-link-type="uri" xlink:href="http://www.dandanplay.com">www.dandanplay.com</ext-link></p></fn>
+</fn-group>
+<ref-list>
+<title>References</title>
+<ref id="B1"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Ayres</surname> <given-names>P.</given-names></name> <name><surname>Sweller</surname> <given-names>J.</given-names></name></person-group> (<year>2005</year>). <article-title>The split-attention principle in multimedia learning.</article-title> <source><italic>Cambridge Handbook Multimedia Learn.</italic></source> <volume>2</volume> <fpage>135</fpage>&#x2013;<lpage>146</lpage>. <pub-id pub-id-type="doi">10.1017/CBO9780511816819.009</pub-id></citation></ref>
+<ref id="B2"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Bai</surname> <given-names>Q.</given-names></name> <name><surname>Hu</surname> <given-names>Q. V.</given-names></name> <name><surname>Ge</surname> <given-names>L.</given-names></name> <name><surname>He</surname> <given-names>L.</given-names></name></person-group> (<year>2019</year>). <article-title>Stories that big danmaku data can tell as a new media.</article-title> <source><italic>IEEE Access</italic></source> <volume>7</volume> <fpage>53509</fpage>&#x2013;<lpage>53519</lpage>. <pub-id pub-id-type="doi">10.1109/ACCESS.2019.2909054</pub-id></citation></ref>
+<ref id="B3"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Bai</surname> <given-names>Q.</given-names></name> <name><surname>Wei</surname> <given-names>K.</given-names></name> <name><surname>Zhou</surname> <given-names>J.</given-names></name> <name><surname>Xiong</surname> <given-names>C.</given-names></name> <name><surname>Wu</surname> <given-names>Y.</given-names></name> <name><surname>Lin</surname> <given-names>X.</given-names></name><etal/></person-group> (<year>2021</year>). <article-title>Entity-level sentiment prediction in Danmaku video interaction.</article-title> <source><italic>J. Supercomput.</italic></source> <volume>77</volume> <fpage>9474</fpage>&#x2013;<lpage>9493</lpage>. <pub-id pub-id-type="doi">10.1007/s11227-021-03652-4</pub-id></citation></ref>
+<ref id="B4"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Beege</surname> <given-names>M.</given-names></name> <name><surname>Schneider</surname> <given-names>S.</given-names></name> <name><surname>Nebel</surname> <given-names>S.</given-names></name> <name><surname>Rey</surname> <given-names>G. D.</given-names></name></person-group> (<year>2017</year>). <article-title>Look into my eyes! Exploring the effect of addressing in educational videos.</article-title> <source><italic>Learn. Instr.</italic></source> <volume>49</volume> <fpage>113</fpage>&#x2013;<lpage>120</lpage>. <pub-id pub-id-type="doi">10.1016/j.learninstruc.2017.01.004</pub-id></citation></ref>
+<ref id="B5"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Cohen</surname> <given-names>J.</given-names></name></person-group> (<year>2013</year>). <source><italic>Statistical Power Analysis for the Behavioral Sciences.</italic></source> <publisher-loc>Milton Park</publisher-loc>: <publisher-name>Routledge</publisher-name>. <pub-id pub-id-type="doi">10.4324/9780203771587</pub-id> <pub-id pub-id-type="pmid">36153787</pub-id></citation></ref>
+<ref id="B6"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Craig</surname> <given-names>S. D.</given-names></name> <name><surname>Schroeder</surname> <given-names>N. L.</given-names></name></person-group> (<year>2017</year>). <article-title>Reconsidering the voice effect when learning from a virtual human.</article-title> <source><italic>Comput. Educ.</italic></source> <volume>114</volume> <fpage>193</fpage>&#x2013;<lpage>205</lpage>. <pub-id pub-id-type="doi">10.1016/j.compedu.2017.07.003</pub-id></citation></ref>
+<ref id="B7"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>DiCiccio</surname> <given-names>T. J.</given-names></name> <name><surname>Efron</surname> <given-names>B.</given-names></name></person-group> (<year>1996</year>). <article-title>Bootstrap confidence intervals.</article-title> <source><italic>Stat. Sci.</italic></source> <volume>11</volume> <fpage>189</fpage>&#x2013;<lpage>228</lpage>. <pub-id pub-id-type="doi">10.1214/ss/1032280214</pub-id></citation></ref>
+<ref id="B8"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Diehl</surname> <given-names>M.</given-names></name> <name><surname>Stroebe</surname> <given-names>W.</given-names></name></person-group> (<year>1987</year>). <article-title>Productivity loss in brainstorming groups: Toward the solution of a riddle.</article-title> <source><italic>J. Pers. Soc. Psychol.</italic></source> <volume>53</volume>:<issue>497</issue>. <pub-id pub-id-type="doi">10.1037/0022-3514.53.3.497</pub-id></citation></ref>
+<ref id="B9"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Gerjets</surname> <given-names>P.</given-names></name> <name><surname>Scheiter</surname> <given-names>K.</given-names></name> <name><surname>Opfermann</surname> <given-names>M.</given-names></name> <name><surname>Hesse</surname> <given-names>F. W.</given-names></name> <name><surname>Eysink</surname> <given-names>T. H.</given-names></name></person-group> (<year>2009</year>). <article-title>Learning with hypermedia: The influence of representational formats and different levels of learner control on performance and learning behavior.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>25</volume> <fpage>360</fpage>&#x2013;<lpage>370</lpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2008.12.015</pub-id></citation></ref>
+<ref id="B10"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Giannakos</surname> <given-names>M. N.</given-names></name> <name><surname>Chorianopoulos</surname> <given-names>K.</given-names></name> <name><surname>Chrisochoides</surname> <given-names>N.</given-names></name></person-group> (<year>2015</year>). <article-title>Making sense of video analytics: Lessons learned from clickstream interactions, attitudes, and learning outcome in a video-assisted course.</article-title> <source><italic>Int. Rev. Res. Open Distrib. Learn.</italic></source> <volume>16</volume> <fpage>260</fpage>&#x2013;<lpage>283</lpage>. <pub-id pub-id-type="doi">10.19173/irrodl.v16i1.1976</pub-id></citation></ref>
+<ref id="B11"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Guo</surname> <given-names>J. J.</given-names></name> <name><surname>Zhou</surname> <given-names>R.</given-names></name> <name><surname>Zhao</surname> <given-names>L. M.</given-names></name> <name><surname>Lu</surname> <given-names>B. L.</given-names></name></person-group> (<year>2019</year>). &#x201C;<article-title>Multimodal emotion recognition from eye image, eye movement and EEG using deep neural networks</article-title>,&#x201D; in <source><italic>2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</italic></source> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>IEEE</publisher-name>), <fpage>3071</fpage>&#x2013;<lpage>3074</lpage>. <pub-id pub-id-type="doi">10.1109/EMBC.2019.8856563</pub-id> <pub-id pub-id-type="pmid">31946536</pub-id></citation></ref>
+<ref id="B12"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Herrmann</surname> <given-names>T.</given-names></name> <name><surname>Nolte</surname> <given-names>A.</given-names></name> <name><surname>Prilla</surname> <given-names>M.</given-names></name></person-group> (<year>2013</year>). <article-title>Awareness support for combining individual and collaborative process design in co-located meetings.</article-title> <source><italic>Comput. Support. Cooperative Work</italic></source> <volume>22</volume> <fpage>241</fpage>&#x2013;<lpage>270</lpage>. <pub-id pub-id-type="doi">10.1007/s10606-012-9179-x</pub-id></citation></ref>
+<ref id="B13"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hung</surname> <given-names>I.-C.</given-names></name> <name><surname>Chen</surname> <given-names>N.-S.</given-names></name></person-group> (<year>2018</year>). <article-title>Embodied interactive video lectures for improving learning comprehension and retention.</article-title> <source><italic>Comput. Educ.</italic></source> <volume>117</volume> <fpage>116</fpage>&#x2013;<lpage>131</lpage>. <pub-id pub-id-type="doi">10.1016/j.compedu.2017.10.005</pub-id></citation></ref>
+<ref id="B14"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname> <given-names>D.</given-names></name></person-group> (<year>2013</year>). <article-title>Polyphonic/pseudo-synchronic: Animated writing in the comment feed of Nicovideo.</article-title> <source><italic>Jpn. Stud.</italic></source> <volume>33</volume> <fpage>297</fpage>&#x2013;<lpage>313</lpage>. <pub-id pub-id-type="doi">10.1080/10371397.2013.859982</pub-id></citation></ref>
+<ref id="B15"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Kelley</surname> <given-names>T. L.</given-names></name></person-group> (<year>1925</year>). <article-title>The applicability of the Spearman-Brown formula for the measurement of reliability.</article-title> <source><italic>J. Educ. Psychol.</italic></source> <volume>16</volume> <fpage>300</fpage>&#x2013;<lpage>303</lpage>. <pub-id pub-id-type="doi">10.1037/h0073506</pub-id></citation></ref>
+<ref id="B16"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>LeBreton</surname> <given-names>J. M.</given-names></name> <name><surname>Senter</surname> <given-names>J. L.</given-names></name></person-group> (<year>2008</year>). <article-title>Answers to 20 questions about interrater reliability and interrater agreement.</article-title> <source><italic>Organ. Res. Methods</italic></source> <volume>11</volume> <fpage>815</fpage>&#x2013;<lpage>852</lpage>. <pub-id pub-id-type="doi">10.1177/1094428106296642</pub-id></citation></ref>
+<ref id="B17"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Li</surname> <given-names>N.</given-names></name> <name><surname>Verma</surname> <given-names>H.</given-names></name> <name><surname>Skevi</surname> <given-names>A.</given-names></name> <name><surname>Zufferey</surname> <given-names>G.</given-names></name> <name><surname>Blom</surname> <given-names>J.</given-names></name> <name><surname>Dillenbourg</surname> <given-names>P.</given-names></name></person-group> (<year>2014</year>). <article-title>Watching MOOCs together: Investigating co-located MOOC study groups.</article-title> <source><italic>Distance Educ.</italic></source> <volume>35</volume> <fpage>217</fpage>&#x2013;<lpage>233</lpage>. <pub-id pub-id-type="doi">10.1080/01587919.2014.917708</pub-id></citation></ref>
+<ref id="B18"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Lim</surname> <given-names>J. S.</given-names></name> <name><surname>Choe</surname> <given-names>M.-J.</given-names></name> <name><surname>Zhang</surname> <given-names>J.</given-names></name> <name><surname>Noh</surname> <given-names>G.-Y.</given-names></name></person-group> (<year>2020</year>). <article-title>The role of wishful identification, emotional engagement, and parasocial relationships in repeated viewing of live-streaming games: A social cognitive theory perspective.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>108</volume>:<issue>106327</issue>. <pub-id pub-id-type="doi">10.1016/j.chb.2020.106327</pub-id></citation></ref>
+<ref id="B19"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Ma</surname> <given-names>X.</given-names></name> <name><surname>Cao</surname> <given-names>N.</given-names></name></person-group> (<year>2017</year>). &#x201C;<article-title>Video-based evanescent, anonymous, asynchronous social interaction: Motivation and adaption to medium</article-title>,&#x201D; in <source><italic>Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing</italic></source> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>ACM</publisher-name>), <fpage>770</fpage>&#x2013;<lpage>782</lpage>. <pub-id pub-id-type="doi">10.1145/2998181.2998256</pub-id></citation></ref>
+<ref id="B20"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Mayer</surname> <given-names>R. E.</given-names></name></person-group> (<year>2005</year>). <source><italic>The Cambridge Handbook of Multimedia Learning.</italic></source> <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>Cambridge university press</publisher-name>. <pub-id pub-id-type="doi">10.1017/CBO9780511816819</pub-id></citation></ref>
+<ref id="B21"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Moreno</surname> <given-names>R.</given-names></name> <name><surname>Mayer</surname> <given-names>R. E.</given-names></name> <name><surname>Spires</surname> <given-names>H. A.</given-names></name> <name><surname>Lester</surname> <given-names>J. C.</given-names></name></person-group> (<year>2001</year>). <article-title>The case for social agency in computer-based teaching: Do students learn more deeply when they interact with animated pedagogical agents?</article-title> <source><italic>Cogn. Instr.</italic></source> <volume>19</volume> <fpage>177</fpage>&#x2013;<lpage>213</lpage>. <pub-id pub-id-type="doi">10.1207/S1532690XCI1902_02</pub-id></citation></ref>
+<ref id="B22"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Palaigeorgiou</surname> <given-names>G.</given-names></name> <name><surname>Papadopoulou</surname> <given-names>A.</given-names></name></person-group> (<year>2019</year>). <article-title>Promoting self-paced learning in the elementary classroom with interactive video, an online course platform and tablets.</article-title> <source><italic>Educ. Inf. Technol.</italic></source> <volume>24</volume> <fpage>805</fpage>&#x2013;<lpage>823</lpage>. <pub-id pub-id-type="doi">10.1007/s10639-018-9804-5</pub-id></citation></ref>
+<ref id="B23"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Patwardhan</surname> <given-names>M.</given-names></name> <name><surname>Murthy</surname> <given-names>S.</given-names></name></person-group> (<year>2015</year>). <article-title>When does higher degree of interaction lead to higher learning in visualizations? Exploring the role of &#x2018;Interactivity Enriching Features&#x2019;.</article-title> <source><italic>Comput. Educ.</italic></source> <volume>82</volume> <fpage>292</fpage>&#x2013;<lpage>305</lpage>. <pub-id pub-id-type="doi">10.1016/j.compedu.2014.11.018</pub-id></citation></ref>
+<ref id="B24"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Deng</surname> <given-names>L.</given-names></name> <name><surname>Wang</surname> <given-names>X.</given-names></name> <name><surname>Guo</surname> <given-names>P.</given-names></name> <name><surname>Xu</surname> <given-names>T.</given-names></name> <name><surname>Zhou</surname> <given-names>Y.</given-names></name></person-group> (<year>2022</year>). <article-title>The influences of a virtual instructor&#x2019;s voice and appearance on learning from video lectures.</article-title> <source><italic>J. Comput. Assist Learn.</italic></source> <fpage>1</fpage>&#x2013;<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1111/jcal.12704</pub-id> <comment>[Epub ahead of print]</comment>.</citation></ref>
+<ref id="B25"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Hong</surname> <given-names>J.</given-names></name> <name><surname>Hu</surname> <given-names>W.</given-names></name></person-group> (<year>2019</year>). <article-title>Interaction of the originality of peers&#x2019; ideas and students&#x2019; openness to experience in predicting creativity in online collaborative groups.</article-title> <source><italic>Br. J. Educ. Technol.</italic></source> <volume>50</volume> <fpage>1801</fpage>&#x2013;<lpage>1814</lpage>. <pub-id pub-id-type="doi">10.1111/bjet.12671</pub-id></citation></ref>
+<ref id="B26"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Tang</surname> <given-names>M.</given-names></name> <name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2020</year>). <article-title>Seeing others&#x2019; messages on the screen during video lectures hinders transfer of learning.</article-title> <source><italic>Interact. Learn. Environ.</italic></source> <fpage>1</fpage>&#x2013;<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1080/10494820.2020.1749671</pub-id> <comment>[Epub ahead of print]</comment>.</citation></ref>
+<ref id="B27"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Zhang</surname> <given-names>Y.</given-names></name> <name><surname>Zhu</surname> <given-names>F.</given-names></name> <name><surname>Chen</surname> <given-names>L.</given-names></name> <name><surname>Guo</surname> <given-names>X.</given-names></name> <name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2021</year>). <article-title>The mutual influence of an instructor&#x2019;s eye gaze and facial expression in video lectures.</article-title> <source><italic>Interact. Learn. Environ.</italic></source> <fpage>1</fpage>&#x2013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1080/10494820.2021.1940213</pub-id> <comment>[Epub ahead of print]</comment>.</citation></ref>
+<ref id="B28"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Rice</surname> <given-names>K.</given-names></name> <name><surname>Redcay</surname> <given-names>E.</given-names></name></person-group> (<year>2016</year>). <article-title>Interaction matters: A perceived social partner alters the neural processing of human speech.</article-title> <source><italic>NeuroImage</italic></source> <volume>129</volume> <fpage>480</fpage>&#x2013;<lpage>488</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.11.041</pub-id> <pub-id pub-id-type="pmid">26608245</pub-id></citation></ref>
+<ref id="B29"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Scott</surname> <given-names>P. H.</given-names></name> <name><surname>Mortimer</surname> <given-names>E. F.</given-names></name> <name><surname>Aguiar</surname> <given-names>O. G.</given-names></name></person-group> (<year>2006</year>). <article-title>The tension between authoritative and dialogic discourse: A fundamental characteristic of meaning making interactions in high school science lessons</article-title>. <source><italic>Sci. Educ.</italic></source> <volume>90</volume>, <fpage>605</fpage>&#x2013;<lpage>631</lpage>. <pub-id pub-id-type="doi">10.1002/sce.20131</pub-id></citation></ref>
+<ref id="B30"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Shin</surname> <given-names>D.</given-names></name></person-group> (<year>2019</year>). <article-title>How does immersion work in augmented reality games? A user-centric view of immersion and engagement.</article-title> <source><italic>Inf. Commun. Soc.</italic></source> <volume>22</volume> <fpage>1212</fpage>&#x2013;<lpage>1229</lpage>. <pub-id pub-id-type="doi">10.1080/1369118X.2017.1411519</pub-id></citation></ref>
+<ref id="B31"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Teng</surname> <given-names>M.</given-names></name> <name><surname>Chan</surname> <given-names>B. H.-S.</given-names></name></person-group> (<year>2022</year>). <article-title>Collective colouring in danmu comments on Bilibili.</article-title> <source><italic>Discourse Context Media</italic></source> <volume>45</volume>:<issue>100577</issue>. <pub-id pub-id-type="doi">10.1016/j.dcm.2021.100577</pub-id></citation></ref>
+<ref id="B32"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Van den Bulck</surname> <given-names>J.</given-names></name></person-group> (<year>2000</year>). <article-title>Is television bad for your health? Behavior and body image of the adolescent &#x201C;couch potato&#x201D;.</article-title> <source><italic>J. Youth Adolesc.</italic></source> <volume>29</volume> <fpage>273</fpage>&#x2013;<lpage>288</lpage>. <pub-id pub-id-type="doi">10.1023/A:1005102523848</pub-id></citation></ref>
+<ref id="B33"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Vorderer</surname> <given-names>P.</given-names></name> <name><surname>Klimmt</surname> <given-names>C.</given-names></name> <name><surname>Ritterfeld</surname> <given-names>U.</given-names></name></person-group> (<year>2004</year>). <article-title>Enjoyment: At the heart of media entertainment.</article-title> <source><italic>Commun. Theory</italic></source> <volume>14</volume> <fpage>388</fpage>&#x2013;<lpage>408</lpage>. <pub-id pub-id-type="doi">10.1111/j.1468-2885.2004.tb00321.x</pub-id></citation></ref>
+<ref id="B34"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Vygotsky</surname> <given-names>L. S.</given-names></name> <name><surname>Cole</surname> <given-names>M.</given-names></name></person-group> (<year>1978</year>). <source><italic>Mind in Society: Development of Higher Psychological Processes.</italic></source> <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>Harvard university press</publisher-name>.</citation></ref>
+<ref id="B35"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Weisz</surname> <given-names>J. D.</given-names></name> <name><surname>Kiesler</surname> <given-names>S.</given-names></name> <name><surname>Zhang</surname> <given-names>H.</given-names></name> <name><surname>Ren</surname> <given-names>Y.</given-names></name> <name><surname>Kraut</surname> <given-names>R. E.</given-names></name> <name><surname>Konstan</surname> <given-names>J. A.</given-names></name></person-group> (<year>2007</year>). &#x201C;<article-title>Watching together: Integrating text chat with video</article-title>,&#x201D; in <source><italic>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</italic></source> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>ACM</publisher-name>), <fpage>877</fpage>&#x2013;<lpage>886</lpage>. <pub-id pub-id-type="doi">10.1145/1240624.1240756</pub-id></citation></ref>
+<ref id="B36"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Wu</surname> <given-names>C.</given-names></name> <name><surname>Jing</surname> <given-names>B.</given-names></name> <name><surname>Gong</surname> <given-names>X.</given-names></name> <name><surname>Mou</surname> <given-names>Y.</given-names></name> <name><surname>Li</surname> <given-names>J.</given-names></name></person-group> (<year>2021</year>). <article-title>Student&#x2019;s learning strategies and academic emotions: Their influence on learning satisfaction during the COVID-19 pandemic.</article-title> <source><italic>Front. Psychol.</italic></source> <volume>12</volume>:<issue>717683</issue>. <pub-id pub-id-type="doi">10.3389/fpsyg.2021.717683</pub-id> <pub-id pub-id-type="pmid">34630228</pub-id></citation></ref>
+<ref id="B37"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2014</year>). <source><italic>The Effect of the Instructor on Learning Process and Effectiveness in Online Video Courses</italic></source>, <comment>Ph.D thesis</comment>, <publisher-loc>Wuhan</publisher-loc>: <publisher-name>Central China Normal University</publisher-name>.</citation></ref>
+<ref id="B38"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yang</surname> <given-names>J.</given-names></name> <name><surname>Wu</surname> <given-names>C.</given-names></name> <name><surname>Liu</surname> <given-names>C.</given-names></name> <name><surname>Zhang</surname> <given-names>Y.</given-names></name> <name><surname>Pi</surname> <given-names>Z.</given-names></name></person-group> (<year>2022</year>). <article-title>Personalization and pauses in speech: Children&#x2019;s learning performance via instructional videos.</article-title> <source><italic>Curr. Psychol.</italic></source> <fpage>1</fpage>&#x2013;<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1007/s12144-022-03497-x</pub-id> <comment>[Epub ahead of print]</comment>.</citation></ref>
+<ref id="B39"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yang</surname> <given-names>J.</given-names></name> <name><surname>Wu</surname> <given-names>C.</given-names></name> <name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Xie</surname> <given-names>H.</given-names></name></person-group> (<year>2019</year>). <article-title>Facilitating Learning or Interfering Learning: A Meta-analysis of Impact of Danmaku on Learning.</article-title> <source><italic>e-Educ. Res.</italic></source> <volume>40</volume> <fpage>84</fpage>&#x2013;<lpage>90</lpage>.</citation></ref>
+<ref id="B40"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yung</surname> <given-names>H. I.</given-names></name> <name><surname>Paas</surname> <given-names>F.</given-names></name></person-group> (<year>2015</year>). <article-title>Effects of cueing by a pedagogical agent in an instructional animation: A cognitive load approach.</article-title> <source><italic>J. Educ. Technol. Soc.</italic></source> <volume>18</volume> <fpage>153</fpage>&#x2013;<lpage>160</lpage>.</citation></ref>
+<ref id="B41"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Zhang</surname> <given-names>Y.</given-names></name> <name><surname>Qian</surname> <given-names>A.</given-names></name> <name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2019</year>). <article-title>Danmaku related to video content facilitates learning.</article-title> <source><italic>J. Educ. Technol. Syst.</italic></source> <volume>47</volume> <fpage>359</fpage>&#x2013;<lpage>372</lpage>. <pub-id pub-id-type="doi">10.1177/0047239518811933</pub-id></citation></ref>
+<ref id="B42"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Zhao</surname> <given-names>L.</given-names></name></person-group> (<year>2014</year>). <source><italic>Expertise Reversal Effect in Multimedia</italic></source>, <comment>Ph.D thesis</comment>, <publisher-loc>Wuhan</publisher-loc>: <publisher-name>Central China Normal University</publisher-name>.</citation></ref>
+<ref id="B43"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Zhou</surname> <given-names>F.</given-names></name> <name><surname>Zhou</surname> <given-names>X.</given-names></name></person-group> (<year>2022</year>). <article-title>Across Time and Space, I Am Together with Many, Many Others&#x201D;: Digital Writing and Temporality on Chinese Social Media.</article-title> <source><italic>Soc. Media Soc.</italic></source> <volume>8</volume>:<issue>205630512211175</issue>. <pub-id pub-id-type="doi">10.1177/20563051221117564</pub-id></citation></ref>
+</ref-list>
+</back>
+</article>

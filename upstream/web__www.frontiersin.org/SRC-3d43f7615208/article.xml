@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article article-type="review-article" dtd-version="2.3" xml:lang="EN" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Comput. Sci.</journal-id>
+<journal-title>Frontiers in Computer Science</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Comput. Sci.</abbrev-journal-title>
+<issn pub-type="epub">2624-9898</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">590232</article-id>
+<article-id pub-id-type="doi">10.3389/fcomp.2020.590232</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Computer Science</subject>
+<subj-group>
+<subject>Conceptual Analysis</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Visualizing Uncertainty for Non-Expert End Users: The Challenge of the Deterministic Construal Error</article-title>
+<alt-title alt-title-type="left-running-head">Joslyn and Savelli</alt-title>
+<alt-title alt-title-type="right-running-head">Deterministic Construal Error</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>Joslyn</surname>
+<given-names>Susan</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="corresp" rid="c001">&#x2a;</xref>
+<uri xlink:href="http://loop.frontiersin.org/people/924839/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Savelli</surname>
+<given-names>Sonia</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="http://loop.frontiersin.org/people/922423/overview"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<sup>1</sup>
+<institution>Department of Psychology, University of Washington</institution>, <addr-line>Seattle</addr-line>, <addr-line>WA</addr-line>, <country>United States</country>
+</aff>
+<aff id="aff2">
+<sup>2</sup>
+<institution>Human Centered Design and Engineering, University of Washington</institution>, <addr-line>Seattle</addr-line>, <addr-line>WA</addr-line>, <country>United States</country>
+</aff>
+<author-notes>
+<fn fn-type="edited-by">
+<p>
+<bold>Edited by:</bold> <ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/769729">Lace M. K. Padilla</ext-link>, University of California, United States</p>
+</fn>
+<fn fn-type="edited-by">
+<p>
+<bold>Reviewed by:</bold> <ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/1051924">Michael Correll</ext-link>, Tableau Research, United States</p>
+<p>
+<ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/853203">Ian Ruginski</ext-link>, University of Zurich, Switzerland</p>
+</fn>
+<corresp id="c001">&#x2a;Correspondence: Susan Joslyn, <email>susanj@uw.edu</email>
+</corresp>
+<fn fn-type="other">
+<p>This article was submitted to Human-Media Interaction, a section of the journal Frontiers in Computer Science</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>18</day>
+<month>01</month>
+<year>2021</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2020</year>
+</pub-date>
+<volume>2</volume>
+<elocation-id>590232</elocation-id>
+<history>
+<date date-type="received">
+<day>31</day>
+<month>07</month>
+<year>2020</year>
+</date>
+<date date-type="accepted">
+<day>14</day>
+<month>12</month>
+<year>2020</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#xa9; 2021 Joslyn and Savelli.</copyright-statement>
+<copyright-year>2021</copyright-year>
+<copyright-holder>Joslyn and Savelli</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+</license>
+</permissions>
+<abstract>
+<p>There is a growing body of evidence that numerical uncertainty expressions can be used by non-experts to improve decision quality. Moreover, there is some evidence that similar advantages extend to graphic expressions of uncertainty. However, visualizing uncertainty introduces challenges as well. Here, we discuss key misunderstandings that may arise from uncertainty visualizations, in particular the evidence that users sometimes fail to realize that the graphic depicts uncertainty. Instead they have a tendency to interpret the image as representing some deterministic quantity. We refer to this as the <italic>deterministic construal error</italic>. Although there is now growing evidence for the <italic>deterministic construal error</italic>, few studies are designed to detect it directly because they inform participants upfront that the visualization expresses uncertainty. In a natural setting such cues would be absent, perhaps making the deterministic assumption more likely. Here we discuss the psychological roots of this key but underappreciated misunderstanding as well as possible solutions. This is a critical question because it is now clear that members of the public understand that predictions involve uncertainty and have greater trust when uncertainty is included. Moreover, they can understand and use uncertainty predictions to tailor decisions to their own risk tolerance, as long as they are carefully expressed, taking into account the cognitive processes involved.</p>
+</abstract>
+<kwd-group>
+<kwd>visualizations</kwd>
+<kwd>uncertainty</kwd>
+<kwd>decision making</kwd>
+<kwd>risk perception</kwd>
+<kwd>judgment</kwd>
+<kwd>experimental psychology</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="s1">
+<title>Introduction</title>
+<p>Many of the important decisions that we face involve outcomes that are uncertain, such as how to protect oneself from the possibility of severe weather or infectious disease. In many cases the uncertainty is quantifiable and could potentially inform decisions. Here, by &#x201c;uncertainty&#x201d; we mean likelihood estimates of future events, such as those produced by modeling techniques employed in weather forecasting (e.g., <xref ref-type="bibr" rid="B23">Gneiting and Raftery, 2005</xref>), although the true likelihood is not known, as it is with the flip of a coin. Whether and how to provide uncertainty information (e.g., 40% chance of freezing temperatures) to members of the public continues to be debated among experts. Although uncertainty estimates more truthfully represent experts&#x2019; understanding of most situations, the fear is that uncertainty expressions will be misunderstood by non-experts, making things worse rather than better. Visualizations are sometimes considered a solution (e.g., <xref ref-type="bibr" rid="B45">Kinkeldey et al., 2014</xref>; <xref ref-type="bibr" rid="B76">Tak et al., 2014</xref>; <xref ref-type="bibr" rid="B78">Taylor et al., 2015</xref>; <xref ref-type="bibr" rid="B10">Cheong et al., 2016</xref>; <xref ref-type="bibr" rid="B57">Mulder et al., 2019</xref>; <xref ref-type="bibr" rid="B63">Padilla et al., 2019</xref>; <xref ref-type="bibr" rid="B64">Padilla et al., 2020</xref>). As we all know &#x201c;A picture is worth a thousand words&#x201d;&#x2014;or is it? The question we address here is whether uncertainty visualizations are more or less comprehensible to non-expert end-users than are other forms of uncertainty communication, in particular when it comes to misunderstandings. Perhaps the most serious misunderstanding and the focus here, is failing to realize that the graphic depicts uncertainty, i.e., mistaking it as representing some deterministic quantity.</p>
+<p>Although at present little uncertainty information reaches members of the public, communication of uncertainty has been studied by social and behavioral scientists as well as by cartographers and visualization researchers for decades (<xref ref-type="bibr" rid="B82">van der Bles et al., 2019</xref>). Initially it was thought that verbal phrases such as &#x201c;likely&#x201d; or &#x201c;unlikely&#x201d; would better communicate uncertainty to non-experts than numerical expressions (e.g., 40% chance), which might be difficult to understand especially for those with less education. However, numerous studies demonstrated early on that verbal phrases are not precise (see <xref ref-type="bibr" rid="B70">Reagan et al., 1989</xref> for a review). People can have very different interpretations when translating them back into numbers. For instance, the word &#x201c;likely&#x201d; has been assigned a probability of anywhere between 0.5 and 0.99 (<xref ref-type="bibr" rid="B83">Wallsten et al., 1986</xref>). The word &#x201c;possible&#x201d; has a bi-model distribution. One meaning at about 0.05 and another at 0.55 (<xref ref-type="bibr" rid="B56">Mosteller and Youltz, 1990</xref>). Thus, although verbal expressions probably communicate the fact of uncertainty and are currently in use in many domains, they do not adequately communicate the degree of uncertainty. This led some to wonder if perhaps numerical expressions might be better (<xref ref-type="bibr" rid="B87">Windschitl and Wells, 1996</xref>; <xref ref-type="bibr" rid="B59">Nadav-Greenberg and Joslyn, 2009</xref>).</p>
+<p>Indeed, it is clear that most people understand probabilities on a practical, if not on a theoretical level. In one early experiment (<xref ref-type="bibr" rid="B67">Patt, 2001</xref>), Zimbabwean farmers made crop choices and spun a wheel with proportions representing varying probabilities of a wet and a dry year. These rural farmers, with little to no formal math education, were able to make increasingly better decisions from an economic standpoint. There is evidence of similar intuitions among Americans who do not expect weather forecasts to verify exactly, even when single value deterministic forecasts are provided (<xref ref-type="bibr" rid="B55">Morss et al., 2008</xref>; <xref ref-type="bibr" rid="B36">Joslyn and Savelli, 2010</xref>). This suggests that people are aware of the inherent uncertainty in such predictions.</p>
+<p>Moreover, there is a growing body of evidence that numerical expressions of uncertainty can be used by non-experts to improve decision quality. Evidence from our own lab has shown in numerous experimental studies that numeric expressions of uncertainty better convey likelihood than do verbal expressions (<xref ref-type="bibr" rid="B59">Nadav-Greenberg and Joslyn, 2009</xref>), as well as inspire greater trust and lead to better decisions from an economic standpoint than do single value forecasts (<xref ref-type="bibr" rid="B33">Joslyn and LeClerc, 2012</xref>). In addition, numeric uncertainty expressions appear to counteract the negative effects for forecast error (<xref ref-type="bibr" rid="B33">Joslyn and LeClerc, 2012</xref>) and false alarms (<xref ref-type="bibr" rid="B49">LeClerc and Joslyn, 2015</xref>). Somewhat surprisingly, and contradicting what people might think, the advantages conferred by numeric uncertainty estimates, including better decisions and greater trust, hold regardless of education level (<xref ref-type="bibr" rid="B26">Grounds et al., 2017</xref>; <xref ref-type="bibr" rid="B27">Grounds and Joslyn, 2018</xref>). In other words, the same advantages for numeric uncertainty expressions are observed among those with a high school education or less as among those who are college educated.</p>
+<p>What about visualizations? Do the same advantages extend to graphic expressions of uncertainty? It is obvious that many experts think so, as there are hundreds of them currently in use (<xref ref-type="bibr" rid="B24">Greis, 2017</xref>). In addition, there is an abundance of advice about how uncertainty should be represented visually (<xref ref-type="bibr" rid="B21">Gershon, 1998</xref>; <xref ref-type="bibr" rid="B79">Tufte 2006</xref>; <xref ref-type="bibr" rid="B45">Kinkeldey et al., 2014</xref>; <xref ref-type="bibr" rid="B29">Hullman et al., 2015</xref>). <xref ref-type="bibr" rid="B77">Tak et al. (2015)</xref> have suggested that these strategies can be classified under three broad categories. One is using graphical techniques such as blur, fading, sketchiness, dotted or broken lines, transparency, size, texture, and color saturation. The second is to overlay uncertainty information (sometimes in the formats listed in the first category) and the third is to use animations (see also <xref ref-type="bibr" rid="B13">Evans, 1997</xref>). However, for many of these suggestions, while they make intuitive sense, the evidence that they actually convey the meaning intended or how they compare with non-visualized forms of uncertainty expression is limited.</p>
+<p>That is not to say that there is no research on uncertainty visualization. Indeed, there is a growing body of research addressing a variety of questions about uncertainty visualization (see <xref ref-type="bibr" rid="B31">Hullman et al., 2019</xref> for a recent review). It is important, however, to understand what questions are addressed and how they are tested when evaluating this research (<xref ref-type="bibr" rid="B30">Hullman, 2016</xref>; <xref ref-type="bibr" rid="B82">van der Bles et al., 2019</xref>). Much of the early work was based on preference judgments (<xref ref-type="bibr" rid="B44">Kinkeldey et al., 2015</xref>; <xref ref-type="bibr" rid="B31">Hullman et al., 2019</xref>) in which participants were shown a group of visualizations and asked to indicate the formats they preferred. For instance, there is evidence that people prefer color-coded probability (limited spectral) to black and white trajectory forecasts for hurricanes (<xref ref-type="bibr" rid="B68">Radford et al., 2013</xref>). Although preference judgments are informative, they do not reveal whether users understand the format they prefer or how that format affects their decisions. Moreover, it has long been known that preference judgments are often governed by familiarity (<xref ref-type="bibr" rid="B89">Zajonc, 1968</xref>; <xref ref-type="bibr" rid="B6">Bornstein, 1989</xref>; <xref ref-type="bibr" rid="B66">Parrott et al., 2005</xref>; <xref ref-type="bibr" rid="B78">Taylor et al., 2015</xref>) known as the &#x201c;mere exposure&#x201d; effect. Thus, newer formats may be rejected simply because they are less familiar, when in fact they would be more useful in the long run. Even when participants are asked specifically whether they think they would understand a graphic, the judgment does not always line up with objectively measured understanding. For example, in a study comparing perceived comprehension of graphics illustrating forecast uncertainty (&#x201c;Which figure did you find the easiest to understand?&#x201d;) to objective measures (e.g., &#x201c;How many models project a decrease in summer temperature?&#x201d;), the two measures were largely uncorrelated (<xref ref-type="bibr" rid="B51">Lorenz et al., 2015</xref>). In other words, true understanding was unrelated to participants&#x2019; assessment of their understanding, although perceived comprehension <italic>was</italic> closely related to preference.</p>
+<p>Many recent studies (reviewed below) have begun to ask participants questions that more directly test their understanding, comparing visualizations to one another. When evaluating these studies, however, it is important to consider the control groups that are included (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>; <xref ref-type="bibr" rid="B30">Hullman, 2016</xref>; <xref ref-type="bibr" rid="B31">Hullman et al., 2019</xref>). For instance, unless a non-visualized control is included, it is not possible to determine whether visualizations do a better or worse job in communicating uncertainty than do non-visualized expressions (e.g., numerical information presented in text format). It is also informative to include a control group that receives forecasts that do not include uncertainty information. That is because people already have many valid intuitions about uncertainty in some domains, such as weather (<xref ref-type="bibr" rid="B55">Morss et al., 2008</xref>; <xref ref-type="bibr" rid="B36">Joslyn and Savelli, 2010</xref>). We found, for instance, that given single value deterministic forecasts, not only do participants expect uncertainty, they correctly expect it to increase with lead time (<xref ref-type="bibr" rid="B36">Joslyn and Savelli, 2010</xref>). Therefore, unless a &#x201c;no uncertainty&#x201d; control is included, it is not possible to determine whether people learn anything <italic>new</italic> from the uncertainty expression (or whether they would have anticipated the same level of uncertainty with a deterministic expression). Finally, it is important to consider what questions participants are asked in order to determine whether the questions are capable of revealing <italic>misunderstandings</italic>. Some questions can be &#x201c;leading&#x201d; in the sense that they reveal information about what <italic>kind</italic> of answer is required, precluding misunderstandings that would occur in natural, extra-experimental settings.</p>
+<p>In Sections two through five below, we provide a brief overview of how visualizations have been evaluated (for a more thorough review see <xref ref-type="bibr" rid="B31">Hullman et al., 2019</xref>). <italic>Interpretation Biases Arising From Uncertainty Visualizations <italic>and</italic> Deterministic Construal Error</italic> summarize some of the main interpretation biases that have been detected, focusing on misinterpreting uncertainty as some other quantity, known as the deterministic construal error (DCE). <italic>Psychological Explanation</italic> provides a psychological explanation for this effect while <italic>Ask the Right Question</italic> outlines methodologies for revealing DCEs. <italic>Solutions</italic> provides some suggestions for reducing the error and <italic>Discussion</italic> summarizes our contribution.</p>
+</sec>
+<sec id="s2">
+<title>Comparison Between Visualizations</title>
+<p>Much of the research on user understanding compares different uncertainty visualizations to one another. For instance, there is evidence that uncertainty animations, showing a set of possible outcomes over rapidly alternating frames, better help users to extract trend information than do static visualizations such as error bars (<xref ref-type="bibr" rid="B40">Kale et al., 2019</xref>). Animations may also facilitate comparison between variables when uncertainty is involved (<xref ref-type="bibr" rid="B29">Hullman et al., 2015</xref>).</p>
+<p>There is also research comparing features of color-coding in which participants ranked and rated map overlays differing in saturation, brightness, transparency, and hue, intended to indicate the chance that a thunderstorm would occur (<xref ref-type="bibr" rid="B3">Bisantz et al., 2009</xref>). Participants responses were highly correlated with the values intended by researchers for all of these features except hue, suggesting that hue variations may indicate different likelihoods than what was intended.</p>
+<p>In addition, there is evidence for substantial variability in how people rank order hue intended to convey <italic>risk</italic>. Although the notion of risk is slightly different than that of &#x201c;uncertainty,&#x201d; it is related. Within the communication literature at least, risk generally means some combination of the likelihood and the severity of the event (<xref ref-type="bibr" rid="B41">Kaplan and Garrick, 1991</xref>; <xref ref-type="bibr" rid="B12">Eiser et al., 2012</xref>). Indeed, many risk scales employ color-coding based on variation in hue. However, with the exception of red, often found to convey the greatest risk (<xref ref-type="bibr" rid="B5">Borade et al., 2008</xref>; <xref ref-type="bibr" rid="B28">Hellier et al., 2010</xref>), there is little consensus on the rank order of other colors (<xref ref-type="bibr" rid="B9">Chapanis, 1994</xref>; <xref ref-type="bibr" rid="B88">Wogalter et al., 1995</xref>; <xref ref-type="bibr" rid="B69">Rashid and Wogalter, 1997</xref>). For instance, in a study of the long retired American Homeland Security Advisory System that used hue to indicate terrorist threat, more than half of the participants (57.8%) ranked the colors from most to least threatening in an order that conflicted with what was intended (<xref ref-type="bibr" rid="B53">Mayhorn et al., 2004</xref>). This suggests that hue may convey different levels of risk to different individuals as well as different levels of risk than what was intended. Again, these are <italic>risk</italic> displays (rather than uncertainty per se) which intentionally confound the constructs of severity and likelihood. However, the prevalence of such visualizations may influence people&#x2019;s interpretation of color-coded uncertainty, an issue that we address in <italic>Deterministic Construal Error</italic> below.</p>
+<p>The approach of comparing visualizations to one another has also uncovered inferences about information not explicitly depicted in the visualization. In a study that compared several visualizations of an uncertainty interval, a range of values within which the observation is expected, participants judgements of &#x201c;probability of exceedance&#x201d; revealed that most inferred a roughly normal distribution within the interval with all visualizations tested (<xref ref-type="bibr" rid="B77">Tak et al., 2015</xref>). However, the estimates of participants with low numeracy suggested a flatter distribution.</p>
+<p>Our own early work, investigating uncertainty visualizations among professional forecasters, had a similar design (<xref ref-type="bibr" rid="B60">Nadav-Greenberg et al., 2008</xref>). We found that some visualizations such as boxplots, were better for reading precise values, while others, such as color-coded (spectral) charts, were better for judging relative uncertainty or appreciating the big picture. Thus, the value of a particular visualization format may depend on the task for which it is used.</p>
+<p>This kind of research is useful, particularly in situations in which visualizations are the only option such a cartography (See <xref ref-type="bibr" rid="B45">Kinkeldey et al., 2014</xref> for a more complete review), in that it reveals the relative characteristics of various forms of uncertainty visualization. However, it does not reveal whether visualizations communicate uncertainty more or less well than do non-visualized formats such as numerical expressions. This is important when non-visualization is an option, because sometimes visualizations come with costs in terms of potential misunderstandings (see <italic>Interpretation Biases Arising From Uncertainty Visualizations <italic>and</italic> Deterministic Construal Error</italic>, below). Therefore, a control condition with the same information in numeric text format (omitting the visualization) is useful to determine whether there are benefits to visualizations over other formats.</p>
+</sec>
+<sec id="s3">
+<title>Comparison Between Visualizations and Numerical Formats</title>
+<p>There is some research that makes this important comparison as well. For instance, one study using a shipping decision task (<xref ref-type="bibr" rid="B57">Mulder et al., 2019</xref>), tested three different visualizations representing the uncertainty in ice thickness, spaghetti plots (multiple lines each representing one possible outcome), fan plots (quartiles and extremes plotted around a median), and box plots. These were compared to a numerical representation of the same information (&#x201c;30% chance of ice &#x3e;1&#xa0;m thick&#x201d;). In this case, there were no consistent differences in decisions or best guess estimates (single value ice thickness estimate) between any of the expressions tested. In other words, all three visualizations and the non-visualized numeric control yielded similar decisions and estimates. However, spaghetti plots gave rise to the impression of greater uncertainty, suggesting a bias with that format.</p>
+<p>Another example is an experiment comparing visualizations of the likelihood of wildfire in a particular geographic area to a text format (e.g., 80&#x2013;100% burn likelihood zone). Although there were few differences in participants&#x2019; decisions about whether or not to evacuate when allowed the time to consider, spectral-color hue visualizations (warmer colors indicating higher likelihood) allowed participants to make better decisions under time pressure (<xref ref-type="bibr" rid="B10">Cheong et al., 2016</xref>).</p>
+<p>It is important to realize however that even when comparisons between visualizations and numerical expressions are included, it is often unclear whether participants understood the situation any better or made better decisions than they would have if uncertainty were omitted altogether. This is also an important comparison to make because people often have numerous, fairly accurate, pre-experimental intuitions about uncertainty in some domains (<xref ref-type="bibr" rid="B36">Joslyn and Savelli, 2010</xref>; <xref ref-type="bibr" rid="B73">Savelli and Joslyn, 2012</xref>). The only way to know whether uncertainty visualizations provide additional information is to compare them to a control condition with a deterministic prediction.</p>
+</sec>
+<sec id="s4">
+<title>Comparison Between Visualizations and Deterministic Formats</title>
+<p>Indeed, there are also many experiments comparing uncertainty visualizations to a deterministic control. For instance, there is evidence that some uncertainty visualizations (dot plots, probability density functions, confidence intervals) allow people to better aggregate across varying estimates of the same value (<xref ref-type="bibr" rid="B25">Greis et al., 2018</xref>). Participants using uncertainty visualizations weighted discrepant sensors by their reliability whereas those using point estimates tended to take a simple average. Somewhat surprisingly, more complex visualizations, dot plots and probability density functions, resulted in better weighting than did confidence intervals.</p>
+<p>Other studies comparing uncertainty visualizations to deterministic formats have revealed that color-coded uncertainty visualizations improve likelihood understanding compared to the conventional tornado warning polygon. In one study, participants using either spectral or monochromatic color-coded visualizations better understood the distribution of tornado likelihood across the area, than did participants using the conventional warning polygon (<xref ref-type="bibr" rid="B1">Ash et al., 2014</xref>). Another study comparing spectral and monochromatic formats to the conventional polygon, demonstrated that perceived likelihood was more accurate with both color-coded formats than with the conventional polygon (<xref ref-type="bibr" rid="B54">Miran et al., 2019</xref>). Thus, it is clear that there are several advantages for uncertainty visualizations when compared to a deterministic control.</p>
+<p>However, the benefit of similar visualizations to decisions may have some limitations. In one example (<xref ref-type="bibr" rid="B54">Miran et al., 2019</xref>) protective decisions based on color-coded probabilistic tornado warnings were compared to those based on a deterministic warning polygon. The main advantages for the color-coded probabilistic warnings were in areas with greater than a 60% chance of a tornado. In that range, probabilistic visualizations increased concern, fear, and protective action as compared to the deterministic polygon. However, at lower probabilities (0&#x2013;40%), mean ratings for concern, fear, and protective action were similar in the two formats.</p>
+<p>Similarly, another study also using tornado warning graphics (<xref ref-type="bibr" rid="B46">Klockow-McClain et al., 2020</xref>), showed increased protective decisions for uncertainty visualizations above 50% chance of a tornado, but little difference from the deterministic control below 50%. This is clearly important information that was only discovered because the deterministic control condition was included in the experimental design. Based on these results, the advantage to user decisions for uncertainty visualizations may be confined to higher probabilities when compared to other warning information (such as the conventional polygon).</p>
+<p>In addition, sometimes such comparisons reveal important misunderstandings. A study comparing a visualization of a single hurricane path (deterministic control) to variations of the cone of uncertainty and an ensemble of paths (<xref ref-type="bibr" rid="B72">Ruginski et al., 2016</xref>), demonstrated that people mistakenly infer that the hurricane damage is predicted to increase over time when viewing the uncertainty visualizations but not when the single deterministic path was shown. It is important to note that these visualizations were not intended to convey information about relative damage, an issue that we will return to in <italic>Deterministic Construal Error</italic> below. Thus, it is clear that critical information about both advantages and disadvantages can be revealed by comparing uncertainty visualizations to representations of the same information without uncertainty.</p>
+</sec>
+<sec id="s5">
+<title>Comparison Between Visualizations, Numerical, and Deterministic Formats</title>
+<p>Finally, there are also studies that include both controls, a non-visualized uncertainty expression and a single value or &#x201c;deterministic&#x201d; control. One example incorporated a decision task based on bus arrival times (<xref ref-type="bibr" rid="B15">Fernandes et al., 2018</xref>). Five graphs, using different visualization techniques to show the likelihood of arrival plotted over time (e.g., probability density function) were compared to a graph showing a single arrival time and a text format indicating the probability of exceeding a particular time (&#x201c;Arriving in 9&#xa0;min. Very good chance [&#x223c;85%] of arriving 7&#xa0;min from now or later&#x201d;). Participants with uncertainty information made better decisions about when to be at the bus stop than did those with the single value control. Cumulative distribution function plots and frequency based &#x201c;dotplots,&#x201d; in which more dots plotted over a particular time indicates greater likelihood, allowed for better performance overall. However, the probabilistic text format, which, as the authors noted, included somewhat less information, was comparable at some probability levels.</p>
+<p>We have tested visualizations of a similar uncertainty expression, a predictive interval for daytime high and nighttime low temperature (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>). The visualization was a simplified box plot, essentially a bracket (see <xref ref-type="fig" rid="F1">Figure 1A</xref>), to inform users of the temperatures between which the observed temperature was expected with 80% probability. There were a number of important advantages for predictive intervals compared to a control condition in which only the deterministic temperature was provided. By asking participants to indicate the highest and lowest values that would not surprise them, we discovered that predictive intervals, based on realistic values, led to a <italic>narrower</italic> range of expectations than the deterministic forecast alone. In other words, participants expected greater uncertainty when uncertainty information was <italic>not</italic> provided. Predictive intervals also helped participants to make better decisions (issue a freeze warning) by indicating whether the decision-relevant value was within or outside of the 80% predictive interval. This was rather surprising given the complex ideas upon which the predictive interval was based. Indeed, other research suggested that most participants were not able to provide an accurate explanation of the interval in response to open-ended questions (<xref ref-type="bibr" rid="B34">Joslyn et al., 2009</xref>). This is in line with research showing a number of interpretation problems with error bar visualizations in general (<xref ref-type="bibr" rid="B11">Correll and Gleicher 2014</xref>). Nonetheless, in this (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>) and other experiments in our lab (<xref ref-type="bibr" rid="B35">Joslyn et al., 2013</xref>; <xref ref-type="bibr" rid="B26">Grounds et al., 2017</xref>), participants demonstrated substantial practical understanding in that the predictive interval successfully informed their decisions. Interestingly, there were no differences in terms of decision quality between a bracket visualization and the text/numeric version (see <xref ref-type="fig" rid="F1">Figure 1B</xref>) of this information, although there were significant misunderstandings with the bracket (See <italic>Deterministic Construal Error</italic> below).</p>
+<fig id="F1" position="float">
+<label>FIGURE 1</label>
+<caption>
+<p>Predictive intervals, each accompanied by a key (shown in a) describing &#x201c;41&#xb0;F&#x201d; as the &#x201c;best forecast&#x201d;. Note: Font and figure sizes are slightly smaller than they were in the original experiments to conform to journal requirements.</p>
+</caption>
+<graphic xlink:href="fcomp-02-590232-g001.tif"/>
+</fig>
+<p>While we do not provide a comprehensive review here, the evidence suggests that there are definite advantages for uncertainty information, including uncertainty visualizations, over deterministic forecasts. However, there may be situations, especially when protective action is required at lower probabilities, where the advantage is less clear (e.g., <xref ref-type="bibr" rid="B54">Miran et al., 2019</xref>). Also less clear, are the advantages of visualizations over numeric/text representations. Sometimes visualizations are better (e.g., <xref ref-type="bibr" rid="B10">Cheong et al., 2016</xref>), and sometimes there are no differences (e.g., <xref ref-type="bibr" rid="B54">Miran et al., 2019</xref>). Indeed, advantages for visualizations are more often seen in specific situations. For instance, there is some evidence that icon arrays are more effective in communicating risk information based on disease prevalence especially among those with low numeracy (<xref ref-type="bibr" rid="B19">Garcia-Retamero and Galesic, 2010</xref>; <xref ref-type="bibr" rid="B20">Garcia-Retamero and Hoffrage, 2013</xref>). Indeed, these tend to be more complex problems than what we have discussed so far, involving understanding the combination of test accuracy and disease prevalence, risk reduction with specific treatments and Bayesian reasoning. Such visualizations are likely effective because they promote a mental representation that is compatible with the normative response (<xref ref-type="bibr" rid="B14">Evans et al., 2000</xref>). Indeed, there is evidence that adding information to a text-only representation of conditional reasoning problems can elicit performance comparable to that of icon arrays (<xref ref-type="bibr" rid="B61">Ottley et al., 2016</xref>).</p>
+</sec>
+<sec id="s6">
+<title>Interpretation Biases Arising From Uncertainty Visualizations</title>
+<p>It is also important to note that there are systematic biases in interpretation that arise from some visualizations. For example, in the experiment reviewed above (<xref ref-type="bibr" rid="B57">Mulder et al., 2019</xref>), spaghetti plots gave rise to the impression of greater uncertainty than other visualizations despite the fact that all were intended to display the same amount of uncertainty. Similar biases were reported by <xref ref-type="bibr" rid="B76">Tak et al. (2014)</xref> for a gradient visualization.</p>
+<p>In addition, people tend to make assumptions about the values not depicted in visualizations, such as those within predictive ranges. As noted above, sometimes users assume a normal distribution (<xref ref-type="bibr" rid="B76">Tak et al., 2014</xref>; <xref ref-type="bibr" rid="B77">Tak et al., 2015</xref>), although this information is not explicit in the visualization. Whether or not a normal distribution is accurate depends on the statistic being reported. However, other evidence suggests that people tend to assume a relatively flat distribution within the range (<xref ref-type="bibr" rid="B71">Rinne and Mazzocco, 2013</xref>; <xref ref-type="bibr" rid="B26">Grounds et al., 2017</xref>) which is usually not the case. A similar assumption is made about the area within tornado polygons. Unless otherwise specified, people tend to think that the likelihood of a tornado is relatively uniform within the polygon boundary (<xref ref-type="bibr" rid="B1">Ash et al., 2014</xref>). This is definitely not the case, due to the typical movement of tornados. The likelihood tends to be less near the southwestern boundaries of the polygon and increase in the northeastern corner (<xref ref-type="bibr" rid="B1">Ash et al., 2014</xref>).</p>
+</sec>
+<sec id="s7">
+<title>Deterministic Construal Error</title>
+<p>Thus, it is clear that users of visualizations sometimes interpret them in ways that were not intended. Sometimes misinterpretations are outright errors, contradicting the intended message (e.g., <xref ref-type="bibr" rid="B54">Miran et al., 2019</xref>). However, sometimes users infer additional information that was not intentionally specified in the visualization (e.g., <xref ref-type="bibr" rid="B76">Tak et al., 2014</xref>; <xref ref-type="bibr" rid="B77">Tak et al., 2015</xref>). Perhaps the most serious error in interpretation however is one that most studies are not designed to detect. Sometimes people do not realize that uncertainty is what is being expressed by the visualization. Instead they interpret the image as representing some deterministic quantity, such as the amount of precipitation or the windspeed. This is known as deterministic construal error (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>; <xref ref-type="bibr" rid="B64">Padilla et al., 2020</xref>) and is most likely to occur in extra-experimental settings in which users have not already been alerted to the fact that the visualization depicts uncertainty.</p>
+<p>A classic example is the cone of uncertainty showing the possible path of a hurricane. Evidence suggests that it is widely misunderstood as the extent of the storm with the central line indicating the main path of the hurricane (<xref ref-type="bibr" rid="B5">Broade et al., 2008</xref>; <xref ref-type="bibr" rid="B4">Boone et al., 2018</xref>; <xref ref-type="bibr" rid="B7">Bostrom et al., 2018</xref>). Indeed, participants tend to indicate that the hurricane will be larger and produce more damage when using the classic cone compared to the same information represented as ensemble or spaghetti plots, showing multiple possible paths (<xref ref-type="bibr" rid="B72">Ruginski et al., 2016</xref>; <xref ref-type="bibr" rid="B50">Liu et al., 2017</xref>; <xref ref-type="bibr" rid="B62">Padilla et al., 2017</xref>). It may be that the border, showing the diameter of the cone which increases with time as the uncertainty increases, suggests to users that the storm is growing over time. In other words, instead of uncertainty in the hurricane path, users interpreted the graphic as indicating a deterministic prediction for a single hurricane path with additional information about storm size that was increasing over time. This error has even been detected among emergency managers (<xref ref-type="bibr" rid="B32">Jennings, 2010</xref>). In addition, although spaghetti plots, without the border, attenuate this misinterpretation, it persists to some extent in spaghetti plots as well: Participants tend to think that the damage will be greater if their location is intersected by one of the randomly placed lines of the spaghetti plot (<xref ref-type="bibr" rid="B63">Padilla et al., 2019</xref>).</p>
+<p>We first noticed the DCE when testing the bracket visualization of the upper and lower bound of the 80% predictive interval mentioned above (see <xref ref-type="fig" rid="F1">Figure 1A</xref>; <xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>). Although the visualization was accompanied by a prominent key containing a simple, straightforward definition of each number, 36% of participants misinterpreted the upper bound as the daytime high temperature and the lower bound as the nighttime low. In other words, they thought that the bracket was depicting a deterministic forecast for diurnal fluctuation. We discovered this when we asked participants to indicate the &#x201c;most likely&#x201d; value, actually shown at the middle of the bracket (see <xref ref-type="fig" rid="F1">Figure 1A</xref>). Instead of providing an approximation of that number, some participants answered with the value at the upper bound when we requested daytime high and the lower bound when we requested nighttime low temperature. In retrospect, this was not surprising, diurnal fluctuation is often included on weather websites. In other words, participants were <italic>expecting</italic> to see it. However, it was a gross misinterpretation of the single-value forecast, much higher (or lower) than what was intended, and it negatively affected the decisions participants made (e.g., to issue a heat or freeze warning) based on the forecast.</p>
+<p>Initially we thought that we had simply done an inadequate job of visualizing uncertainty. So we ran a subsequent study in which we incorporated features recommended by visualization experts to convey uncertainty, such as broken instead of solid lines (<xref ref-type="fig" rid="F1">Figure 1C</xref>) for the bracket (<xref ref-type="bibr" rid="B79">Tufte, 2006</xref>) and a bar with blurry, transparent ends (<xref ref-type="fig" rid="F1">Figure 1D</xref>) where the upper and lower bounds were located (<xref ref-type="bibr" rid="B52">MacEachren, 1992</xref>). These were also accompanied by the same explicit key. However, again the errors were made at approximately the same rate. In other words, these classic uncertainty features did not help at all.</p>
+<p>We tried a number of other adjustments including turning the bracket around so that the single-value forecast was on the left (presumably read first) and the less likely upper and lower bounds on the right (<xref ref-type="fig" rid="F1">Figure 1E</xref>). In another version we put the key inside of the forecast, thinking it could not be ignored in that format (<xref ref-type="fig" rid="F1">Figure 1F</xref>). But still the errors were made at approximately the same rate.</p>
+<p>Then we decided we needed to point out the actual location of diurnal fluctuation in the forecast by including a line connecting the daytime high and nighttime low temperatures (see <xref ref-type="fig" rid="F1">Figure 1G</xref>). Perhaps when viewers realized that diurnal fluctuation was represented by the line, they would not attribute the same meaning to the bracket. In other words, this graphic may serve to block DCEs. Participants still made the error.</p>
+<p>We even tested a version in which the single-value forecast was accompanied by a plus/minus sign and a number indicating the amount of error to expect. Although not really a &#x201c;visualization,&#x201d; we were sure it would lead to fewer misinterpretations, because the only temperature value shown was the &#x201c;correct&#x201d; answer, the single-value temperature. Obtaining the upper- and lower-bound values required adding or subtracting the error amount. However, participants made DCEs with this format as well. This was particularly discouraging because it was clear that participants were willing to go to considerable effort to interpret the forecast as deterministic.</p>
+<p>At that point, it was clear that we were dealing with a much deeper problem than expectations derived from other websites. In one final effort, we removed the visualization altogether and presented the information in a text format (See <xref ref-type="fig" rid="F1">Figure 1B</xref>). With this format, the misinterpretation all but disappeared. Nearly everyone (94%) was able to correctly identify the numbers intended as the daytime high and nighttime low temperatures. This suggested that the previous errors were at least partially due to the fact that a visualization was used, rather than the particular type of visualization. Perhaps visualizing the information made the forecast seem more concrete and as a result, more certain. Perhaps after initially seeing the visualization, participants assumed they knew what the image meant and ignored the key altogether, regardless of where it was placed.</p>
+<p>Indeed, there is growing evidence for DCEs with other forms of likelihood statistics and other uncertainty visualizations. For instance, color-coded uncertainty, whether spectral or monochromatic, may encourage DCEs, in part because color is often used to indicate variation in deterministic quantities, again setting up expectations based on past experience. This may be partly due to the intentional confounding of likelihood and severity in a long history of color-coded risk scales (see <italic>Comparison Between Visualizations</italic> above). What is particularly striking about color-coded uncertainty visualizations is that there is considerable evidence that experts are susceptible to DCEs with this format. For example, one study investigated professional weather forecasters understanding of a chart color-coded in shades of red and blue, indicating probability of accumulated rainfall greater than 0.01 inch. A full third of forecasters interpreted the increased color intensity (red in this case) as greater accumulation rather than greater likelihood (<xref ref-type="bibr" rid="B86">Wilson et al., 2019</xref>). Another example is a study of color-coded climate outlook graphics for temperature (<xref ref-type="bibr" rid="B22">Gerst et al., 2020</xref>), intended for use by the U.S. National Oceanic and Atmospheric Administration (NOAA). In these visualizations, hue indicated whether the value would be above normal (e.g., orange), near normal (gray) or below normal (e.g., blue). Uncertainty was indicated by variation in saturation. Expert users from emergency management, agriculture, water resource management, and energy sectors were first asked to explain the meaning of graphics, the relationship to normal temperatures (increase, decrease, near normal) and the probability. Almost half of them thought that a gray sector, intended to indicate the <italic>probability</italic> of near normal temperatures, meant simply &#x201c;normal temperatures&#x201d; (completely overlooking the notion of probability). Similar results were reported for color-coded probability of precipitation outlooks in an earlier study (<xref ref-type="bibr" rid="B65">Pagano et al., 2001</xref>). Greater saturation was intended to represent greater probability of wetter (or dryer) than normal conditions. Instead most emergency managers and water management experts interpreted greater saturation as indicating extremely high precipitation. It is interesting to note that these last two visualizations overlaid uncertainty onto other quantities (Category 2 as described by <xref ref-type="bibr" rid="B76">Tak et al., 2014</xref>, mentioned above). Thus, this strategy may be particularly conducive to DCEs. Indeed, this is an area where more research is necessary.</p>
+<p>In sum, there is growing evidence for DCEs with visualized uncertainty, even among experts. Here we have shown examples of predictive intervals, possible hurricane paths as well as color-coded precipitation likelihood and climate temperature outlooks. However, people are capable of making the same error when no visualization is involved. People often think that probability of precipitation is a deterministic forecast for precipitation with additional information about the percentage area or time precipitation will be observed (<xref ref-type="bibr" rid="B58">Murphy et al., 1980</xref>; <xref ref-type="bibr" rid="B34">Joslyn et al., 2009</xref>). Similar results were reported in a recent study. When shown a probability of precipitation forecast, the majority of German respondents selected either &#x201c;It will rain tomorrow in 30 percent of the area for which this forecast is issued&#x201d; or &#x201c;It will rain tomorrow for 30 percent of the time&#x201d; (<xref ref-type="bibr" rid="B17">Fleischhut et al., 2020</xref>).</p>
+</sec>
+<sec id="s8">
+<title>Psychological Explanation</title>
+<p>Thus, it is clear that the DCE is fairly attractive to users. Although the examples provided here reside in the domains of weather and climate, we do not think that it is specific to these domains. Instead, we suspect that the DCE is the result of a more general propensity toward reasoning efficiency or heuristic reasoning (<xref ref-type="bibr" rid="B80">Tversky and Kahneman, 1975</xref>) that could be observed in any domain. Human reasoners have a tendency to take mental shortcuts that reduce the amount of information they must process at any given time, referred to as &#x201c;cognitive load.&#x201d; It has long been known that people tend to opt for a simpler interpretation if one is available, to reduce cognitive load (<xref ref-type="bibr" rid="B37">Kahneman, 2003</xref>). In this case, the deterministic interpretation, implying a single outcome, replaces the more complex but accurate interpretation in which one must consider multiple possible outcomes and their associated likelihoods. As such, the DCE may be a form of attribute substitution (<xref ref-type="bibr" rid="B38">Kahneman and Frederick, 2002</xref>), the tendency to substitute an easy for a hard interpretation. The deterministic interpretation is easier because it requires considering only one outcome at the choice point instead of many.</p>
+<p>This is not to say that it is necessarily a conscious decision in which one considers both interpretations and deliberately selects one. Rather, the DCE likely occurs on an unconscious level, before one is even aware that there is an alternative interpretation. Indeed, cognitive and behavioral scientists who ascribe to the dual processes or dual systems accounts of human reasoning (<xref ref-type="bibr" rid="B8">Carruthers, 2009</xref>; see; <xref ref-type="bibr" rid="B42">Keren and Schul, 2009</xref>; <xref ref-type="bibr" rid="B43">Keren, 2013</xref>) attribute preconscious assumptions such as this to &#x201c;<italic>System 1</italic>&#x201d; (<xref ref-type="bibr" rid="B38">Kahneman and Frederick, 2002</xref>; <xref ref-type="bibr" rid="B39">Kahneman, 2011</xref>). <italic>System 1</italic> includes reasoning that is fast, automatic, largely unconscious, and based on heuristics. The other, <italic>System 2,</italic> includes reasoning that is conscious, slow, deliberate and effortful. Although <italic>System 2</italic> supports logical step-by-step reasoning, there are definite limitations to the <italic>amount</italic> of information that can be managed (<xref ref-type="bibr" rid="B2">Baddeley, 2012</xref>). Therefore, when people encounter complex information, <italic>System 1</italic> simplifications, reducing cognitive load, are almost inevitable and take place rapidly prior to awareness (See <xref ref-type="bibr" rid="B63">Padilla et al., 2019</xref>, for a broader application of dual process theories to decisions and visualizations). In the case of DCEs people may be inclined to assume (<italic>System 1</italic>) that the message is deterministic. In a sense this is practical because most decision making is eventually binary in that one must choose between taking action or not. Thus, at some point one must act upon the outcome one judges to be more likely. In other words, because of the increase in cognitive load that accompanies uncertainty and the practical necessity of making a binary choice, perhaps the deterministic interpretation is &#x201c;preferred&#x201d; by the human information processing system. As such, the deterministic construal error may be related to a general psychological &#x201c;desire for certainty&#x201d; (<xref ref-type="bibr" rid="B75">Slovic et al., 1979</xref>).</p>
+<p>Nonetheless there are clearly situations in which DCEs are <italic>more</italic> likely to occur. In particular those in which the same information is often presented as deterministic (i.e., diurnal fluctuations) or the same conventions have been used to express variation in deterministic quantities, such as color-coding in context of weather. In other words, DCEs are more likely to occur when prior experience leads to the expectation that expressions quantify deterministic information. This may be particularly likely with visualizations, which also tend to be highly salient. Usually a small text key is the only thing that specifies the quantity. Users may or may not be willing to read it, especially if they are convinced that they already know what the visualization means.</p>
+</sec>
+<sec id="s9">
+<title>Ask the Right Question</title>
+<p>It is important to understand however, that in order to detect DCEs participants must be asked the right question. Although experts have been warning against this possible error for some time (<xref ref-type="bibr" rid="B47">Kootval, 2008</xref>), few studies have reported it directly, mainly because in most studies participants are told that the visualization contains uncertainty before any questions are asked of them. We discovered the DCE by accident when asking about the deterministic quantity depicted in the visualization that also contained uncertainty. A more direct approach would be to begin by asking participants an open-ended question about what the visualization means, as was done by <xref ref-type="bibr" rid="B22">Gerst et al. (2020)</xref> above. This is important to do prior to providing participants additional information that may reveal the fact that uncertainty is the subject. This also means that most such comparisons will have to be done between groups. In other words, the same participant should not be asked to respond to more than one format. That is because, once the participant has been alerted to the fact that uncertainty is an issue by more specific questions or well-designed graphics, this knowledge may well influence responses to subsequent visualizations, known as &#x201c;carryover effects.&#x201d; The point is that many of the studies reviewed above did not detect this fundamental interpretation error, largely because they were not designed to do so. Participants were simply asked questions about uncertainty directly, revealing in the question itself that the visualization contained uncertainty. In a natural setting, the cues included in such leading questions would not be available to users and they may be more likely to make the deterministic assumption.</p>
+</sec>
+<sec id="s10">
+<title>Solutions</title>
+<p>The bottom line is that people may have a strong propensity to commit DCEs that is built into their cognitive architecture. In the vast majority of cases this is probably a fair assumption and a useful strategy. However, when applied to uncertainty visualizations, the consequences can be serious. The DCE prevents people from benefitting from likelihood information, which as we saw from the work reviewed above can increase trust and improve decision quality. Moreover, DCEs can give users a gross misunderstanding of the single value forecast as was the case with the predictive interval when participants mistook the upper bound for the daytime high and the lower bound for the nighttime low (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>). This is clearly a serious problem for uncertainty communication.</p>
+<p>What do we do about it? The first step of course, is to understand it. More research is required that is capable of detecting this error to ascertain the conditions under which people are most prone to make it. Evidence to date suggests that some formats, such as color-coded visualizations, the cone of uncertainty, and brackets, may encourage DCEs. This may be due in part to the facts that visualizations are salient and it is not clear that they indicate uncertainty until the key or caption is read, that visualizations may serve to concretize the quantity, and that prior experience may lead users to assume the deterministic meaning initially. At that point, some users may be convinced that they understand what is being depicted and fail to make an effort to fully grasp any additional explanations that are provided. This might be particularly problematic in situations in which both kinds of information are included in the same graphic. That is, when uncertainty information is overlaid on visualizations of some other quantity such as above normal temperatures. In those cases, it may be particularly challenging even for experts to decode the true meaning of specific aspects of the visualization, even when they take the time to read the key. At the very least, it may help to separate uncertainty and other quantities in graphics, although again, more of the right kind of research is needed to fully understand this issue.</p>
+<p>When these issues are better understood, we can begin to think about solutions. Indeed, there have already been some interesting suggestions for overcoming the DCE in the context of visualizations, such as avoiding the use of colors already associated with warnings (yellow, orange, red and violet) and not emphasizing particular points on a graph, such as medians, as they &#x201c;may inappropriately withdraw attention from the uncertainty&#x201d; (<xref ref-type="bibr" rid="B18">Fundel et al., 2019</xref>). Another potential solution, in some cases, is hypothetical outcome plots in which animation shows different possible outcomes in rapid sequence (see <italic>Comparison Between Visualizations</italic> above). In this format, the uncertainty becomes &#x201c;implicit,&#x201d; rather than a property of something else like color, size, or saturation that usually maps onto deterministic data (<xref ref-type="bibr" rid="B29">Hullman et al., 2015</xref>; <xref ref-type="bibr" rid="B40">Kale et al., 2019</xref>). Ensembles, such as those discussed in <italic>Comparison Between Visualizations and Deterministic Formats</italic> in context of hurricane paths, provide a similar but static solution. In fact, the evidence reviewed above (<xref ref-type="bibr" rid="B72">Ruginski et al., 2016</xref>) suggests that ensembles, showing a subset of possible hurricane paths reduce DCEs as compared to the conventional cone of uncertainty. Another suggestion for depicting uncertainty with error bars, is to employ gradation with lighter colors indicating lower likelihood, at the ends (<xref ref-type="bibr" rid="B85">Wilke, 2019</xref>). However, as of this writing, few of these suggestions have been tested using a procedure capable of detecting DCEs in a situation known to produce them, showing a reduction when they are employed. We do know based on our own work that in situations where DCEs are likely, such as when users have expectations based on prior experience (e.g., diurnal fluctuation), many of the known conventions for visualizing uncertainty failed to eliminate the DCE (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>).</p>
+<p>Indeed, because of the need to reduce cognitive load and the fact that most predictions available to members of the public have historically been deterministic, people may automatically assume that they are receiving a deterministic message, unless that interpretation is somehow blocked. As a matter of fact, there is some evidence that blocking DCEs is possible when the specific psychological mechanism that leads to them is understood. DCEs were reduced when probability of precipitation included the probability of &#x201c;no rain&#x201d; (70% chance of rain and 30% chance of no rain) specifying both possible outcomes and blocking the percent area/time interpretation (<xref ref-type="bibr" rid="B34">Joslyn et al., 2009</xref>). However, the attempt at blocking DCEs in response to the predictive interval bracket (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>), by adding connecting lines to point out the actual diurnal fluctuation (<xref ref-type="fig" rid="F1">Figure 1G</xref>), was not effective. The only thing that eliminated the DCE in that case, was removing the visualization altogether and providing the same information in a text format. On the other hand, information instructing participants that the width of the cone of uncertainty &#x201c;tells you nothing about the size or intensity of the storm&#x201d; reduced this impression among participants compared to a control condition in which it was not presented (<xref ref-type="bibr" rid="B4">Boone et al., 2018</xref>). Thus, instructions that focus on bocking psychological mechanisms known to produce DCEs, may be an important strategy to test in future research.</p>
+<p>There is also some evidence that the DCE can be overcome with experience. We found in our own work with the predictive interval bracket visualization that participants were less likely to commit a DCE on subsequent trials after the first trial (Experiment 1; <xref ref-type="bibr" rid="B35">Joslyn et al., 2013</xref>). This suggests that participants came to understand the probabilistic meaning of the forecast after using it. It is important to note however, that explicit instructions did <italic>not</italic> help in this case. In the second study, the experimenter read the key information aloud, explaining the probabilistic meaning of the upper and lower bound on the bracket, to ensure that all participants were exposed to this information at the beginning of the experiment. This did not reduce DCEs. In other words, we did <italic>not</italic> see an equal reduction in errors with read-aloud instructions on trial 1, in Experiment 2 as was seen in Experiment 1 on the second trial. Perhaps participants must deliberately interact with the forecast, using it to answer specific questions, to reach this level of understanding. Again, more research is needed to fully understand these processes.</p>
+<p>However, in many cases it may be that uncertainty visualizations should be avoided altogether as some have suggested (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>; <xref ref-type="bibr" rid="B15">Fernandes et al., 2018</xref>) because they may encourage DCEs and because people are likely to encounter them in novel situations, such as on an internet website, where little or no support is available. As we saw in our own study (<xref ref-type="bibr" rid="B74">Savelli and Joslyn, 2013</xref>), omitting the visualization and providing a simple text based numerical representation of the 80% predictive interval instead (<xref ref-type="fig" rid="F1">Figure 1B</xref>) eliminated the error. Moreover, the text format was equally advantageous in terms of forecast understanding, trust in the forecast and decision quality as were the visualizations. In other words, omitting the visualization reduced DCEs with no costs. Moreover, participants were able to understand and use the text predictive interval forecast with absolutely no special training.</p>
+</sec>
+<sec sec-type="discussion" id="s11">
+<title>Discussion</title>
+<p>To reiterate, it is clear that this is an important issue that needs more research specifically designed to address it. The scientific community has long assumed that visualizations facilitate understanding, especially for statistically complex information. However, this assumption has only recently been put to the test with regard to visualized uncertainty and may well be ill advised in some cases. Therefore, we need to better understand whether there are situations in which uncertainty visualizations have advantages over other communication strategies (when they are an option), such as text and or numeric formats. In order to do that, experimental designs must be employed that make the right comparisons, between visualizations and non-visualized representations of the same information as well as comparisons to deterministic controls. Indeed, there may be some contexts in which visualizations are particularly helpful, such as with icon arrays used to communicate risk information based on disease prevalence and test accuracy among those with low numeracy (<xref ref-type="bibr" rid="B19">Garcia-Retamero and Galesic, 2010</xref>; <xref ref-type="bibr" rid="B20">Garcia-Retamero and Hoffrage, 2013</xref>). In addition, there are some situations in which visualizations may be the only option, such as when the judgment requires appreciating variation across geographic locations (<xref ref-type="bibr" rid="B60">Nadav-Greenberg et al., 2008</xref>). When those situations are identified, efforts can be focused on detecting and, if necessary, reducing interpretation errors. To do that however, researchers must ask questions that are capable of detecting fundamental interpretation errors such as the deterministic construal error. Participant should be asked what they think the graphic means prior to being told that it represents uncertainty.</p>
+<p>We wish to stress that we firmly believe that more uncertainty information should be made available to members of the public. People have individual concerns and risk tolerances that are not well served by one-size fits-all warnings, single-value estimates, or verbally described risk categories. Furthermore, people have well-founded intuitions about the uncertainties in such situations that may prevent them from trusting deterministic predictions or advice that does not make the uncertainty explicit. At the same time, these intuitions may prepare users to understand uncertainty expressions that are carefully presented in a manner that takes into account how people process and understand uncertainty information in specific contexts. We do not claim that most users understand uncertainty on a theoretical level, but rather that they understand uncertainty expressions on a practical level. It is becoming increasingly clear that members of the public can use carefully presented uncertainty information to make better decisions and decisions that are tailored to their own risk tolerance. Our view is that, not only do people need explicit uncertainty information to make better, more individualized decisions, but also, they can understand it, at least in a practical sense. Many important choices made by non-expert end users, such as those involving financial planning, health issues, and weather-related decisions, could benefit from the consideration of reliable uncertainty estimates. Thus, learning how people interpret uncertainty information and how visualizations impact user decisions is crucial. To quote a prominent risk scientist, &#x201c;One should no more release untested communications than untested pharmaceuticals&#x201d; (<xref ref-type="bibr" rid="B16">Fischhoff, 2008</xref>).</p>
+</sec>
+</body>
+<back>
+<sec id="s12">
+<title>Author Contributions</title>
+<p>SS Conducted literature review. Summarized all research included in the manuscript. SJ Reviewed summaries of all research in the manuscript. Wrote the manuscript.</p>
+</sec>
+<sec id="s13">
+<title>Funding</title>
+<p>The research of Susan Joslyn and Sonia Savelli is based on work supported by: National Science Foundation 1559126, National Science Foundation &#x23;1559126, National Science Foundation &#x23;724721, Office Of Naval Research &#x23;N00014-C-0062.</p>
+</sec>
+<sec id="s14" sec-type="COI-statement">
+<title>Conflict of Interest</title>
+<p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="B1">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ash</surname>
+<given-names>K. D.</given-names>
+</name>
+<name>
+<surname>Schumann</surname>
+<given-names>R. L.</given-names>
+<suffix>III</suffix>
+</name>
+<name>
+<surname>Bowser</surname>
+<given-names>G. C.</given-names>
+</name>
+</person-group> (<year>2014</year>). <article-title>Tornado warning trade-offs: evaluating choices for visually communicating risk</article-title>. <source>Weather Clim. Soc.</source> <volume>6</volume> (<issue>1</issue>), <fpage>104</fpage>&#x2013;<lpage>118</lpage>. <pub-id pub-id-type="doi">10.1175/WCAS-D-13-00021.1</pub-id>
+</citation>
+</ref>
+<ref id="B2">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Baddeley</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2012</year>). <article-title>Working memory: theories, models, and controversies</article-title>. <source>Annu. Rev. Psychol.</source> <volume>63</volume>, <fpage>1</fpage>&#x2013;<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-psych-120710-100422</pub-id>
+</citation>
+</ref>
+<ref id="B3">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bisantz</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>Stone</surname>
+<given-names>R. T.</given-names>
+</name>
+<name>
+<surname>Pfautz</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Fouse</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Farry</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Roth</surname>
+<given-names>E.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2009</year>). <article-title>Visual representations of meta-information</article-title>. <source>J. Cogn. Eng. Decis. Mak.</source> <volume>3</volume> (<issue>1</issue>), <fpage>67</fpage>&#x2013;<lpage>91</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1518/155534309X433726">10.1518/155534309X433726</ext-link>
+</citation>
+</ref>
+<ref id="B4">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Boone</surname>
+<given-names>A. P.</given-names>
+</name>
+<name>
+<surname>Gunalp</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Hegarty</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>Explicit versus actionable knowledge: the influence of explaining graphical conventions on interpretation of hurricane forecast visualizations</article-title>. <source>J. Exp. Psychol. Appl.</source> <volume>24</volume> (<issue>3</issue>), <fpage>275</fpage>&#x2013;<lpage>295</lpage>. <pub-id pub-id-type="doi">10.1037/xap0000166</pub-id>
+</citation>
+</ref>
+<ref id="B5">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Borade</surname>
+<given-names>A. B.</given-names>
+</name>
+<name>
+<surname>Bansod</surname>
+<given-names>S. V.</given-names>
+</name>
+<name>
+<surname>Gandhewar</surname>
+<given-names>V. R.</given-names>
+</name>
+</person-group> (<year>2008</year>). <article-title>Hazard perception based on safety words and colors: an Indian perspective</article-title>. <source>Int. J. Occup. Saf. Ergon.</source> <volume>14</volume> (<issue>4</issue>), <fpage>407</fpage>&#x2013;<lpage>416</lpage>. <pub-id pub-id-type="doi">10.1080/10803548.2008.11076777</pub-id>
+</citation>
+</ref>
+<ref id="B6">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bornstein</surname>
+<given-names>R. F.</given-names>
+</name>
+</person-group> (<year>1989</year>). <article-title>Exposure and affect: overview and meta-analysis of research, 1968&#x2013;1987</article-title>. <source>Psychol. Bull.</source> <volume>106</volume>, <fpage>265</fpage>&#x2013;<lpage>289</lpage>. <pub-id pub-id-type="doi">10.1037/0033-2909.106.2.265</pub-id>
+</citation>
+</ref>
+<ref id="B7">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bostrom</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Morss</surname>
+<given-names>R. E.</given-names>
+</name>
+<name>
+<surname>Lazo</surname>
+<given-names>J. K.</given-names>
+</name>
+<name>
+<surname>Demuth</surname>
+<given-names>J. L.</given-names>
+</name>
+<name>
+<surname>Lazrus</surname>
+<given-names>H.</given-names>
+</name>
+</person-group> (<comment>Forthcoming</comment> <year>2018</year>). <article-title>Eyeing the storm: how residents of coastal Florida see hurricane forecasts and warnings</article-title>. <source>Int. J. Dis. Risk Reduct.</source> <volume>30</volume>, <fpage>105</fpage>&#x2013;<lpage>119</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijdrr.2018.02.027</pub-id>
+</citation>
+</ref>
+<ref id="B8">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Carruthers</surname>
+<given-names>P.</given-names>
+</name>
+</person-group> (<year>2009</year>). &#x201c;<article-title>An architecture for dual reasoning</article-title>,&#x201d; in <source>Two minds: dual processes and beyond</source>. Editors <person-group person-group-type="editor">
+<name>
+<surname>Evans</surname>
+<given-names>J. S. B. T.</given-names>
+</name>
+<name>
+<surname>Frankish</surname>
+<given-names>K.</given-names>
+</name>
+</person-group> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>), <fpage>109</fpage>&#x2013;<lpage>127</lpage>.</citation>
+</ref>
+<ref id="B9">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chapanis</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>1994</year>). <article-title>Hazards associated with three signal words and four colours on warning signs</article-title>. <source>Ergonomics</source> <volume>37</volume> (<issue>2</issue>), <fpage>265</fpage>&#x2013;<lpage>275</lpage>. <pub-id pub-id-type="doi">10.1080/00140139408963644</pub-id>
+</citation>
+</ref>
+<ref id="B10">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cheong</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Bleisch</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Kealy</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Tolhurst</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Wilkening</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Duckham</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2016</year>). <article-title>Evaluating the impact of visualization of wildfire hazard upon decision-making under uncertainty</article-title>. <source>Int. J. Geogr. Inf. Sci.</source> <volume>30</volume> (<issue>7</issue>), <fpage>1377</fpage>&#x2013;<lpage>1404</lpage>. <pub-id pub-id-type="doi">10.1080/13658816.2015.1131829</pub-id>
+</citation>
+</ref>
+<ref id="B11">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Correll</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Gleicher</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2014</year>). <article-title>Error bars considered harmful: exploring alternate encodings for mean and error</article-title>. <source>IEEE Trans. Visual. Comput. Graph.</source> <volume>20</volume> (<issue>12</issue>), <fpage>2142</fpage>&#x2013;<lpage>2151</lpage>. <pub-id pub-id-type="doi">10.1109/TVCG.2014.2346298</pub-id>
+</citation>
+</ref>
+<ref id="B12">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Eiser</surname>
+<given-names>J. R.</given-names>
+</name>
+<name>
+<surname>Bostrom</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Burton</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Johnston</surname>
+<given-names>D. M.</given-names>
+</name>
+<name>
+<surname>McClure</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Paton</surname>
+<given-names>D.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2012</year>). <article-title>Risk interpretation and action: a conceptual framework for responses to natural hazards</article-title>. <source>Int. J. Dis. Risk Reduct.</source> <volume>1</volume>, <fpage>5</fpage>&#x2013;<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1016/j.ijdrr.2012.05.002</pub-id>
+</citation>
+</ref>
+<ref id="B13">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Evans</surname>
+<given-names>B. J.</given-names>
+</name>
+</person-group> (<year>1997</year>). <article-title>Dynamic display of spatial data-reliability: does it benefit the map user?</article-title> <source>Comput. Geosci.</source> <volume>23</volume> (<issue>4</issue>), <fpage>409</fpage>&#x2013;<lpage>422</lpage>. <pub-id pub-id-type="doi">10.1016/S0098-3004(97)00011-3</pub-id>
+</citation>
+</ref>
+<ref id="B14">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Evans</surname>
+<given-names>J. S.</given-names>
+</name>
+<name>
+<surname>Handley</surname>
+<given-names>S. J.</given-names>
+</name>
+<name>
+<surname>Perham</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Over</surname>
+<given-names>D. E.</given-names>
+</name>
+<name>
+<surname>Thompson</surname>
+<given-names>V. A.</given-names>
+</name>
+</person-group> (<year>2000</year>). <article-title>Frequency versus probability formats in statistical word problems</article-title>. <source>Cognition</source> <volume>77</volume>, <fpage>197</fpage>&#x2013;<lpage>213</lpage>. <pub-id pub-id-type="doi">10.1016/s0010-0277(00)00098-6</pub-id>
+</citation>
+</ref>
+<ref id="B15">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fernandes</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Walls</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Munson</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Hullman</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Kay</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2018</year>). &#x201c;<article-title>Uncertainty displays using quantile dotplots or CDFs Improve transit decision making</article-title>,&#x201d; in <conf-name>Proceeding of the 2018 CHI</conf-name>, <conf-loc>Montreal, Canada</conf-loc>, <conf-date>April 21&#x2013;26, 2018</conf-date>.</citation>
+</ref>
+<ref id="B16">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fischhoff</surname>
+<given-names>B.</given-names>
+</name>
+</person-group> (<year>2008</year>). <article-title>Assessing adolescent decision-making competence</article-title>. <source>Dev. Rev.</source> <volume>28</volume>, <fpage>12</fpage>&#x2013;<lpage>28</lpage>. <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.1016%2Fj.dr.2007.08.001">10.1016/j.dr.2007.08.001</ext-link>
+</citation>
+</ref>
+<ref id="B17">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fleischhut</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Herzog</surname>
+<given-names>S. M.</given-names>
+</name>
+<name>
+<surname>Hertwig</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>Weather literacy in times of climate change</article-title>. <source>Weather Clim. Soc.</source> <volume>12</volume>, (<issue>3</issue>), <fpage>435</fpage>&#x2013;<lpage>452</lpage>. <pub-id pub-id-type="doi">10.1175/WCAS-D-19-0043.1</pub-id>
+</citation>
+</ref>
+<ref id="B18">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fundel</surname>
+<given-names>V. J.</given-names>
+</name>
+<name>
+<surname>Fleischhut</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Herzog</surname>
+<given-names>S. M.</given-names>
+</name>
+<name>
+<surname>Gober</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Hagedorn</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Promoting the use of probabilistic weather forecasts through a dialogue between scientists, developers, and end-users</article-title>. <source>Q. J. R. Meteorol. Soc.</source> <volume>145</volume> (<issue>Suppl. 1</issue>), <fpage>210</fpage>&#x2013;<lpage>231</lpage>. <pub-id pub-id-type="doi">10.1002/qj.3482</pub-id>
+</citation>
+</ref>
+<ref id="B19">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Garcia-Retamero</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Galesic</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2010</year>). <article-title>Who profits from visual aids: overcoming challenges in people&#x27;s understanding of risks [corrected]</article-title>. <source>Soc. Sci. Med.</source> <volume>70</volume> (<issue>7</issue>), <fpage>1019</fpage>&#x2013;<lpage>1025</lpage>. <pub-id pub-id-type="doi">10.1016/j.socscimed.2009.11.031</pub-id>
+</citation>
+</ref>
+<ref id="B20">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Garcia-Retamero</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Hoffrage</surname>
+<given-names>U.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>Visual representation of statistical information improves diagnostic inferences in doctors and their patients</article-title>. <source>Soc. Sci. Med.</source> <volume>83</volume> (<issue>0</issue>), <fpage>27</fpage>&#x2013;<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1016/j.socscimed.2013.01.034</pub-id>
+</citation>
+</ref>
+<ref id="B21">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gershon</surname>
+<given-names>N.</given-names>
+</name>
+</person-group> (<year>1998</year>). <article-title>Visualization of an imperfect world</article-title>. <source>IEEE Trans. Comput. Graph. Appl.</source> <volume>18</volume> (<issue>4</issue>), <fpage>43</fpage>&#x2013;<lpage>45</lpage>.</citation>
+</ref>
+<ref id="B22">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gerst</surname>
+<given-names>M. D.</given-names>
+</name>
+<name>
+<surname>Kenney</surname>
+<given-names>M. A.</given-names>
+</name>
+<name>
+<surname>Baer</surname>
+<given-names>A. E.</given-names>
+</name>
+<name>
+<surname>Speciale</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Wolfinger</surname>
+<given-names>J. F.</given-names>
+</name>
+<name>
+<surname>Gottschalck</surname>
+<given-names>J.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>Using visualization science to improve expert and public understanding of probabilistic temperature and precipitation outlooks</article-title>. <source>Am. Meteorol. Soc.</source> <volume>12</volume>, <fpage>117</fpage>&#x2013;<lpage>133</lpage>. <pub-id pub-id-type="doi">10.1175/WCAS-D-18-0094.1</pub-id>
+</citation>
+</ref>
+<ref id="B23">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gneiting</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Raftery</surname>
+<given-names>A. E.</given-names>
+</name>
+</person-group> (<year>2005</year>). <article-title>Atmospheric science. Weather forecasting with ensemble methods</article-title>. <source>Science</source> <volume>310</volume> (<issue>5746</issue>), <fpage>248</fpage>&#x2013;<lpage>249</lpage>. <pub-id pub-id-type="doi">10.1126/science.1115255</pub-id>
+</citation>
+</ref>
+<ref id="B24">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Greis</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>A systematic exploration of uncertainty in interactive systems</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://elib.uni-stuttgart.de/handle/11682/9770">https://elib.uni-stuttgart.de/handle/11682/9770</ext-link>
+</comment> (<comment>Accessed January 2020</comment>).</citation>
+</ref>
+<ref id="B25">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Greis</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Joshi</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Singer</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Schmidt</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Machulla</surname>
+<given-names>T.</given-names>
+</name>
+</person-group> (<year>2018</year>). &#x201c;<article-title>Uncertainty visualization influences how humans aggregate discrepant information</article-title>,&#x201d; in <conf-name>Proceedings of the 2018 CHI conference on human factors in computing systems</conf-name>, <conf-loc>Montreal, Canada</conf-loc>, <conf-date>April 21&#x2013;26, 2018</conf-date>, <fpage>1</fpage>&#x2013;<lpage>12</lpage>.</citation>
+</ref>
+<ref id="B26">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Grounds</surname>
+<given-names>M. A.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Otsuka</surname>
+<given-names>K.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>Probabilistic interval forecasts: an individual differences approach to understanding forecast communication</article-title>. <source>Adv. Meteorol.</source> <volume>2017</volume>, <fpage>1</fpage>&#x2013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1155/2017/3932565</pub-id>
+</citation>
+</ref>
+<ref id="B27">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Grounds</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>Communicating weather forecast uncertainty: do individual differences matter?</article-title> <source>J. Exp. Psychol. Appl.</source> <volume>24</volume> (<issue>1</issue>), <fpage>18</fpage>&#x2013;<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1037/xap0000165</pub-id>
+</citation>
+</ref>
+<ref id="B28">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hellier</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Tucker</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Kenny</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Rowntree</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Edworthy</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2010</year>). <article-title>Merits of using color and shape differentiation to improve the speed and accuracy of drug strength identification on over-the-counter medicines by laypeople</article-title>. <source>J. Patient Saf.</source> <volume>6</volume> (<issue>3</issue>), <fpage>158</fpage>. <pub-id pub-id-type="doi">10.1097/PTS.0b013e3181eee157</pub-id>
+</citation>
+</ref>
+<ref id="B29">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hullman</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Resnick</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Adar</surname>
+<given-names>E.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Hypothetical outcome plots outperform error bars and violin plots for inferences about reliability of variable ordering</article-title>. <source>PloS One</source> <volume>10</volume>, <fpage>e0142444</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0142444</pub-id>
+</citation>
+</ref>
+<ref id="B30">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hullman</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2016</year>). &#x201c;<article-title>Why evaluating uncertainty visualization is error prone</article-title>,&#x201d; in <conf-name>Proceedings of the sixth workshop on beyond time and errors on novel evaluation methods for visualization</conf-name>, <conf-loc>Baltimore, Maryland</conf-loc>, <conf-date>October 24, 2016</conf-date>, <fpage>143</fpage>&#x2013;<lpage>151</lpage>.</citation>
+</ref>
+<ref id="B31">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hullman</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Qiao</surname>
+<given-names>X.</given-names>
+</name>
+<name>
+<surname>Correll</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Kale</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Kay</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>In pursuit of error: a survey of uncertainty visualization evaluation</article-title>. <source>IEEE Trans. Visual. Comput. Graph.</source> <volume>25</volume> (<issue>1</issue>), <fpage>903</fpage>&#x2013;<lpage>913</lpage>. <pub-id pub-id-type="doi">10.1109/TVCG.2018.2864889</pub-id>
+</citation>
+</ref>
+<ref id="B32">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Jennings</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<year>2010</year>). <article-title>Emergency managers and probabilistic forecast products: end users, their needs &#x26; requirements. Presented at the NOAA Hurricane Forecast Improvement</article-title>. <publisher-name>Project-THORPEX Ensemble Product Development Workshop</publisher-name>, <publisher-loc>Boulder, CO</publisher-loc>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="http://www.ral.ucar.edu/jnt/tcmt/events/2010/hfip_ensemble_workshop/presentations/jennings_hfip.pdf">http://www.ral.ucar.edu/jnt/tcmt/events/2010/hfip_ensemble_workshop/presentations/jennings_hfip.pdf</ext-link>
+</comment> (<comment>Accessed June 2020</comment>).</citation>
+</ref>
+<ref id="B33">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>LeClerc</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2012</year>). <article-title>Uncertainty forecasts improve weather-related decisions and attenuate the effects of forecast error</article-title>. <source>J. Exp. Psychol. Appl.</source> <volume>18</volume> (<issue>1</issue>), <fpage>126</fpage>&#x2013;<lpage>140</lpage>. <pub-id pub-id-type="doi">10.1037/a0025185</pub-id>
+</citation>
+</ref>
+<ref id="B34">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Nadav-Greenberg</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Nichols</surname>
+<given-names>R. M.</given-names>
+</name>
+</person-group> (<year>2009</year>). <article-title>Probability of precipitation</article-title>. <source>Am. Meteorol. Soc.</source> <fpage>185</fpage>&#x2013;<lpage>193</lpage>. <pub-id pub-id-type="doi">10.1175/2008BAMS2509.1</pub-id>
+</citation>
+</ref>
+<ref id="B35">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Nemec</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Savelli</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>The benefits and challenges of predictive interval forecasts and verification graphics for end-users</article-title>. <source>Weather Forecast.</source> <volume>5</volume>, <fpage>133</fpage>&#x2013;<lpage>147</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1175/WCAS-D-12-00007.1">10.1175/WCAS-D-12-00007.1</ext-link>
+</citation>
+</ref>
+<ref id="B36">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Savelli</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2010</year>). <article-title>Communicating forecast uncertainty: public perception of weather forecast uncertainty</article-title>. <source>Meteorol. Appl.</source> <volume>17</volume>, <fpage>180</fpage>&#x2013;<lpage>195</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/met.190">10.1002/met.190</ext-link>
+</citation>
+</ref>
+<ref id="B37">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kahneman</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<year>2003</year>). <article-title>A perspective on judgment and choice: mapping bounded rationality</article-title>. <source>Am. Psychol.</source> <volume>58</volume> (<issue>9</issue>), <fpage>697</fpage>&#x2013;<lpage>720</lpage>. <pub-id pub-id-type="doi">10.1037/0003-066X.58.9.697</pub-id>
+</citation>
+</ref>
+<ref id="B38">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kahneman</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Frederick</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2002</year>). &#x201c;<article-title>Representativeness revisited: attribute substitution in intuitive judgment</article-title>,&#x201d; in <source>Heuristics and biases</source>. Editors <person-group person-group-type="editor">
+<name>
+<surname>Gilovich</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Griffin</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Kahneman</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<publisher-loc>New York</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>), <fpage>49</fpage>&#x2013;<lpage>81</lpage>.</citation>
+</ref>
+<ref id="B39">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kahneman</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<year>2011</year>). <source>Thinking, fast and slow</source>. <publisher-name>Farrar, Straus and Giroux</publisher-name>.</citation>
+</ref>
+<ref id="B40">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kale</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Nguyen</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Kay</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Hullman</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Hypothetical outcome plots help untrained observers judge trends in ambiguous data</article-title>. <source>IEEE Trans. Visual. Comput. Graph.</source> <volume>25</volume> (<issue>1</issue>), <fpage>892</fpage>&#x2013;<lpage>902</lpage>. <pub-id pub-id-type="doi">10.1109/TVCG.2018.2864909</pub-id>
+</citation>
+</ref>
+<ref id="B41">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kaplan</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Garrick</surname>
+<given-names>B. J.</given-names>
+</name>
+</person-group> (<year>1991</year>). <article-title>On the quantitative definition of risk</article-title>. <source>Risk Anal.</source> <volume>1</volume>(<issue>1</issue>), <fpage>11</fpage>&#x2013;<lpage>27</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1539-6924.1981.tb01350.x">10.1111/j.1539-6924.1981.tb01350.x</ext-link>
+</citation>
+</ref>
+<ref id="B42">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Keren</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Schul</surname>
+<given-names>Y.</given-names>
+</name>
+</person-group> (<year>2009</year>). <article-title>Two is not always better than one: a critical evaluation of two-system theories</article-title>. <source>Perspect. Psychol. Sci.</source> <volume>4</volume> (<issue>6</issue>), <fpage>533</fpage>&#x2013;<lpage>550</lpage>. <pub-id pub-id-type="doi">10.1111/j.1745-6924.2009.01164.x</pub-id>
+</citation>
+</ref>
+<ref id="B43">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Keren</surname>
+<given-names>G.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>A tale of two systems: a scientific advance or a theoretical stone soup? Commentary on Evans &#x26; stanovich (2013)</article-title>. <source>Perspect. Psychol. Sci.</source> <volume>8</volume> (<issue>3</issue>), <fpage>257</fpage>&#x2013;<lpage>262</lpage>. <pub-id pub-id-type="doi">10.1177/1745691613483474</pub-id>
+</citation>
+</ref>
+<ref id="B44">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kinkeldey</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>MacEachren</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>Riveiro</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Schiewe</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Evaluating the effect of visually represented geodata uncertainty on decision-making: systematic review, lessons learned, and recommendations</article-title>. <source>Cartogr. Geogr. Inf. Sci.</source> <volume>44</volume>, <fpage>1</fpage>&#x2013;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1080/15230406.2015.1089792</pub-id>
+</citation>
+</ref>
+<ref id="B45">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kinkeldey</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>MacEachren</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>Schiewe</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2014</year>). <article-title>How to assess visual communication of uncertainty? A systematic review of geospatial uncertainty visualisation user studies</article-title>. <source>Cartogr. J.</source> <volume>51</volume> (<issue>4</issue>), <fpage>372</fpage>&#x2013;<lpage>386</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1179/1743277414Y.0000000099">10.1179/1743277414Y.0000000099</ext-link>
+</citation>
+</ref>
+<ref id="B46">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Klockow-McClain</surname>
+<given-names>K. E.</given-names>
+</name>
+<name>
+<surname>McPherson</surname>
+<given-names>R. A.</given-names>
+</name>
+<name>
+<surname>Thomas</surname>
+<given-names>R. P.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>Cartographic design for improved decision making: trade-offs in uncertainty visualization for tornado threats</article-title>. <source>Ann. Assoc. Am. Geogr.</source> <volume>110</volume> (<issue>1</issue>), <fpage>314</fpage>&#x2013;<lpage>333</lpage>. <pub-id pub-id-type="doi">10.1080/24694452.2019.1602467</pub-id>
+</citation>
+</ref>
+<ref id="B47">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kootval</surname>
+<given-names>H.</given-names>
+</name>
+</person-group> (<year>2008</year>). <source>Guidelines on communicating forecast uncertainty</source>. <publisher-name>World Meteorological OrganizationWMO/TD No</publisher-name>, <fpage>1422</fpage>.</citation>
+</ref>
+<ref id="B49">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>LeClerc</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>The cry wolf effect and weather-related decision making</article-title>. <source>Risk Anal.</source> <volume>35</volume>, <fpage>385</fpage>. <pub-id pub-id-type="doi">10.1111/risa.12336</pub-id>
+</citation>
+</ref>
+<ref id="B50">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Liu</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Boone</surname>
+<given-names>A. P.</given-names>
+</name>
+<name>
+<surname>Ruginski</surname>
+<given-names>I. T.</given-names>
+</name>
+<name>
+<surname>Padilla</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Hegarty</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Creem-Regehr</surname>
+<given-names>S. H.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2017</year>). <article-title>Uncertainty visualization by representative sampling from prediction ensembles</article-title>. <source>IEEE Trans. Visual. Comput. Graph.</source> <volume>23</volume> (<issue>9</issue>), <fpage>2165</fpage>&#x2013;<lpage>2178</lpage>. <pub-id pub-id-type="doi">10.1109/TVCG.2016.2607204</pub-id>
+</citation>
+</ref>
+<ref id="B51">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lorenz</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Dessai</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Forster</surname>
+<given-names>P. M.</given-names>
+</name>
+<name>
+<surname>Paavola</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Tailoring the visual communication of climate projections for local adaptation practitioners in Germany and the UK</article-title>. <source>Philos. Trans. A Math Phys. Eng. Sci.</source> <volume>373</volume>, <fpage>20140457</fpage>. <pub-id pub-id-type="doi">10.1098/rsta.2014.0457</pub-id>
+</citation>
+</ref>
+<ref id="B52">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>MacEachren</surname>
+<given-names>A. M.</given-names>
+</name>
+</person-group> (<year>1992</year>). <article-title>Visualizing uncertain information</article-title>. <source>Cartogr. Perspect.</source> <volume>13</volume>, <fpage>10</fpage>&#x2013;<lpage>19</lpage>.</citation>
+</ref>
+<ref id="B53">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mayhorn</surname>
+<given-names>C. B.</given-names>
+</name>
+<name>
+<surname>Wogalter</surname>
+<given-names>M. S.</given-names>
+</name>
+<name>
+<surname>Bell</surname>
+<given-names>J. L.</given-names>
+</name>
+<name>
+<surname>Shaver</surname>
+<given-names>E. F.</given-names>
+</name>
+</person-group> (<year>2004</year>). <article-title>What does code red mean?</article-title> <source>Ergon. Des. Quart. Human Factors Appl.</source> <volume>12</volume> (<issue>4</issue>), <fpage>12</fpage>&#x2013;<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1177/106480460401200404</pub-id>
+</citation>
+</ref>
+<ref id="B54">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Miran</surname>
+<given-names>S. M.</given-names>
+</name>
+<name>
+<surname>Ling</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Gerard</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Rothfusz</surname>
+<given-names>L.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Effect of providing the uncertainty information about a tornado occurrence on the weather recipients&#x27; cognition and protective action: probabilistic hazard information versus deterministic warnings</article-title>. <source>Risk Anal.</source> <volume>39</volume> (<issue>7</issue>), <fpage>1533</fpage>&#x2013;<lpage>1545</lpage>. <pub-id pub-id-type="doi">10.1111/risa.13289</pub-id>
+</citation>
+</ref>
+<ref id="B55">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Morss</surname>
+<given-names>R. E.</given-names>
+</name>
+<name>
+<surname>Demuth</surname>
+<given-names>J. L.</given-names>
+</name>
+<name>
+<surname>Lazo</surname>
+<given-names>J. K.</given-names>
+</name>
+</person-group> (<year>2008</year>). <article-title>Communicating uncertainty in weather forecasts: a survey of the US public</article-title>. <source>Weather Forecast.</source> <volume>23</volume> (<issue>5</issue>), <fpage>974</fpage>&#x2013;<lpage>991</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1175/2008WAF2007088.1">10.1175/2008WAF2007088.1</ext-link>
+</citation>
+</ref>
+<ref id="B56">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mosteller</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Youtz</surname>
+<given-names>C.</given-names>
+</name>
+</person-group> (<year>1990</year>). <article-title>Quantifying probabilistic expressions</article-title>. <source>Stat. Sci.</source> <volume>5</volume>, <fpage>2</fpage>&#x2013;<lpage>16</lpage>.</citation>
+</ref>
+<ref id="B57">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mulder</surname>
+<given-names>K. J.</given-names>
+</name>
+<name>
+<surname>Lickiss</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Black</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Charlton-Perez</surname>
+<given-names>A. J.</given-names>
+</name>
+<name>
+<surname>McCloy</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Young</surname>
+<given-names>J. S.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Designing environmental uncertainty information for experts and non-experts: does data presentation affect users&#x2019; decisions and interpretations?</article-title> <source>Meteorol. Appl.</source> <volume>27</volume>, <fpage>1</fpage>&#x2013;<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1002/met.1821</pub-id>
+</citation>
+</ref>
+<ref id="B58">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Murphy</surname>
+<given-names>A. H.</given-names>
+</name>
+<name>
+<surname>Lichtenstein</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Fischoff</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Winkler</surname>
+<given-names>R. L.</given-names>
+</name>
+</person-group> (<year>1980</year>). <article-title>Misinterpretations of precipitation probability forecasts</article-title>. <source>Bull. Am. Meteorol. Soc.</source> <volume>61</volume>, <fpage>695</fpage>&#x2013;<lpage>701</lpage>.</citation>
+</ref>
+<ref id="B59">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nadav-Greenberg</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2009</year>). <article-title>Uncertainty forecasts improve decision-making among non-experts</article-title>. <source>J. Cogn. Eng. Decis. Mak.</source> <volume>2</volume>, <fpage>24</fpage>&#x2013;<lpage>47</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1518%2F155534309X474460">10.1518/155534309X474460</ext-link>
+</citation>
+</ref>
+<ref id="B60">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nadav-Greenberg</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Taing</surname>
+<given-names>M. U.</given-names>
+</name>
+</person-group> (<year>2008</year>). <article-title>The effect of weather forecast uncertainty visualization on decision-making</article-title>. <source>J. Cogn. Eng. Decis. Mak.</source> <volume>2</volume> (<issue>1</issue>), <fpage>24</fpage>&#x2013;<lpage>47</lpage>.</citation>
+</ref>
+<ref id="B61">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ottley</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Peck</surname>
+<given-names>E. M.</given-names>
+</name>
+<name>
+<surname>Harrison</surname>
+<given-names>L. T.</given-names>
+</name>
+<name>
+<surname>Afergan</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Ziemkiewicz</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Taylor</surname>
+<given-names>H. A.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2016</year>). <article-title>Improving Bayesian reasoning: the effects of phrasing, visualization, and spatial ability</article-title>. <source>IEEE Trans. Visual. Comput. Graph.</source> <volume>22</volume> (<issue>1</issue>), <fpage>529</fpage>&#x2013;<lpage>538</lpage>. <pub-id pub-id-type="doi">10.1109/TVCG.2015.2467758</pub-id>
+</citation>
+</ref>
+<ref id="B62">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Padilla</surname>
+<given-names>L. M.</given-names>
+</name>
+<name>
+<surname>Ruginski</surname>
+<given-names>I. T.</given-names>
+</name>
+<name>
+<surname>Creem-Regehr</surname>
+<given-names>S. H.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>Effects of ensemble and summary displays on interpretations of geospatial uncertainty data</article-title>. <source>Cogn. Res. Princ. Implic.</source> <volume>2</volume>, <fpage>40</fpage>. <pub-id pub-id-type="doi">10.1186/s41235-017-0076-1</pub-id>
+</citation>
+</ref>
+<ref id="B63">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Padilla</surname>
+<given-names>L. M. K.</given-names>
+</name>
+<name>
+<surname>Creem-Regehr</surname>
+<given-names>S. H.</given-names>
+</name>
+<name>
+<surname>Thompson</surname>
+<given-names>W.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>The powerful influence of marks: visual and knowledge-driven processing in hurricane track displays</article-title>. <source>J. Exp. Psychol. Appl.</source> <pub-id pub-id-type="doi">10.1037/xap0000245</pub-id>
+</citation>
+</ref>
+<ref id="B64">
+<citation citation-type="web">
+<person-group person-group-type="author">
+<name>
+<surname>Padilla</surname>
+<given-names>L. M.</given-names>
+</name>
+<name>
+<surname>Kay</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Hullman</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>Uncertainty visualization. To appear in, handbook of computational statistics and data science</article-title>. <comment>Available at: <ext-link ext-link-type="uri" xlink:href="https://psyarxiv.com/ebd6r">https://psyarxiv.com/ebd6r</ext-link>
+</comment> (<comment>Accessed October 2020</comment>).</citation>
+</ref>
+<ref id="B65">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pagano</surname>
+<given-names>T. C.</given-names>
+</name>
+<name>
+<surname>Hartmann</surname>
+<given-names>H. C.</given-names>
+</name>
+<name>
+<surname>Sorooshian</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2001</year>). <article-title>Using climate forecasts for water management: Arizona and the 1997-1998 El Nino</article-title>. <source>J. Am. Water Resour. Assoc.</source> <volume>37</volume> (<issue>5</issue>), <fpage>1139</fpage>&#x2013;<lpage>1153</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1752-1688.2001.tb03628.x">10.1111/j.1752-1688.2001.tb03628.x</ext-link>
+</citation>
+</ref>
+<ref id="B66">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Parrott</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Silk</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Dorgan</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Condit</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Harris</surname>
+<given-names>T.</given-names>
+</name>
+</person-group> (<year>2005</year>). <article-title>Risk comprehension and judgments of statistical evidentiary appeals</article-title>. <source>Hum. Commun. Res.</source> <volume>31</volume>, <fpage>423</fpage>&#x2013;<lpage>452</lpage>. <pub-id pub-id-type="doi">10.1093/hcr/31.3.423</pub-id>
+</citation>
+</ref>
+<ref id="B67">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Patt</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2001</year>). <article-title>Understanding uncertainty: forecasting seasonal climate for farmers in Zimbabwe</article-title>. <source>Risk Decis. Pol.</source> <volume>6</volume>, <fpage>105</fpage>&#x2013;<lpage>119</lpage>.</citation>
+</ref>
+<ref id="B68">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Radford</surname>
+<given-names>L. M.</given-names>
+</name>
+<name>
+<surname>Senkbeil</surname>
+<given-names>J. C.</given-names>
+</name>
+<name>
+<surname>Rockmanm</surname>
+<given-names>M. S.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>Suggestions for alternative tropical cyclone warning graphics in the USA</article-title>. <source>Disaster Prev. Manag.</source> <volume>22</volume>, <fpage>3</fpage>&#x2013;<lpage>209</lpage>. <pub-id pub-id-type="doi">10.1108/DPM-06-2012-0064.192</pub-id>
+</citation>
+</ref>
+<ref id="B69">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rashid</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Wogalter</surname>
+<given-names>M. S.</given-names>
+</name>
+</person-group> (<year>1997</year>). <article-title>Effects of warning border color, width, and design on perceived effectiveness</article-title>. <source>Adv. Occup. Ergon. Saf.</source> <fpage>455</fpage>&#x2013;<lpage>458</lpage>.</citation>
+</ref>
+<ref id="B70">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Reagan</surname>
+<given-names>R. T.</given-names>
+</name>
+<name>
+<surname>Mosteller</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Youtz</surname>
+<given-names>C.</given-names>
+</name>
+</person-group> (<year>1989</year>). <article-title>Quantitative meanings of verbal probability expressions</article-title>. <source>J. Appl. Psychol.</source> <volume>74</volume> (<issue>3</issue>), <fpage>433</fpage>&#x2013;<lpage>442</lpage>. <pub-id pub-id-type="doi">10.1037/0021-9010.74.3.433</pub-id>
+</citation>
+</ref>
+<ref id="B71">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rinne</surname>
+<given-names>L. F.</given-names>
+</name>
+<name>
+<surname>Mazzocco</surname>
+<given-names>M. M. M.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>Inferring uncertainty from interval estimates: effects of alpha level and numeracy</article-title>. <source>Judgm. Decis. Mak.</source> <volume>8</volume> (<issue>3</issue>), <fpage>330</fpage>&#x2013;<lpage>344</lpage>.</citation>
+</ref>
+<ref id="B72">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Ruginski</surname>
+<given-names>I. T.</given-names>
+</name>
+<name>
+<surname>Boone</surname>
+<given-names>A. P.</given-names>
+</name>
+<name>
+<surname>Padilla</surname>
+<given-names>L. P.</given-names>
+</name>
+<name>
+<surname>Kramer</surname>
+<given-names>H. S.</given-names>
+</name>
+<name>
+<surname>Hegarty</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Thompson</surname>
+<given-names>W. B.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2016</year>). &#x201c;<article-title>Non-expert interpretations of hurricane forecast uncertainty visualizations</article-title>,&#x201d; in <source>Special issue on visually-supported spatial reasoning with uncertainty</source>. <volume>16</volume> (<issue>2</issue>), <fpage>154</fpage>&#x2013;<lpage>172</lpage>.</citation>
+</ref>
+<ref id="B73">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Savelli</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2012</year>). <article-title>Boater safety: communicating weather forecast information to high stakes end users</article-title>. <source>Weather Clim. Soc.</source> <volume>4</volume>, <fpage>7</fpage>&#x2013;<lpage>19</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1175/WCAS-D-11-00025.1">10.1175/WCAS-D-11-00025.1</ext-link>
+</citation>
+</ref>
+<ref id="B74">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Savelli</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Joslyn</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>The advantages of predictive interval forecasts for non-expert users and the impact of visualizations</article-title>. <source>Appl. Cognit. Psychol.</source> <volume>27</volume>, <fpage>527</fpage>&#x2013;<lpage>541</lpage>. <pub-id pub-id-type="doi">10.1002/acp.2932</pub-id>
+</citation>
+</ref>
+<ref id="B75">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Slovic</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Fischhoff</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Lichtenstein</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>1979</year>). <article-title>Rating the risks</article-title>. <source>Environment.</source> <volume>21</volume> (<issue>14&#x2013;20</issue>), <fpage>36</fpage>&#x2013;<lpage>39</lpage>. <pub-id pub-id-type="doi">10.1080/00139157.1979.9933091</pub-id>
+</citation>
+</ref>
+<ref id="B76">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Tak</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Toet</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>van Erp</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2014</year>). <article-title>The perception of visual UncertaintyRepresentation by non-experts</article-title>. <source>IEEE Trans. Visual. Comput. Graph.</source> <volume>20</volume> (<issue>6</issue>), <fpage>935</fpage>&#x2013;<lpage>943</lpage>. <pub-id pub-id-type="doi">10.1109/TVCG.2013.247</pub-id>
+</citation>
+</ref>
+<ref id="B77">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Tak</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Toet</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>van Erp</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Public understanding of visual representation of uncertainty in temperature forecasts</article-title>. <source>J. Cogn. Eng. Decis. Mak.</source> <volume>9</volume> (<issue>3</issue>), <fpage>241</fpage>&#x2013;<lpage>262</lpage>. <pub-id pub-id-type="doi">10.1177/1555343415591275</pub-id>
+</citation>
+</ref>
+<ref id="B78">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Taylor</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Dessai</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>de Bruin</surname>
+<given-names>W. B.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Communicating uncertainty in seasonal and interannual climate forecasts in Europe</article-title>. <source>Philos. Trans. A Math Phys. Eng. Sci.</source> <volume>373</volume>, <fpage>20140454</fpage>. <pub-id pub-id-type="doi">10.1098/rsta.2014.0454</pub-id>
+</citation>
+</ref>
+<ref id="B79">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Tufte</surname>
+<given-names>E. R.</given-names>
+</name>
+</person-group> (<year>2006</year>). <source>Beautiful evidence</source>. <publisher-loc>Cheshire, CN</publisher-loc>: <publisher-name>Graphics Press</publisher-name>.</citation>
+</ref>
+<ref id="B80">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Tversky</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Kahneman</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<year>1975</year>). &#x201c;<article-title>Judgment under uncertainty: heuristics and biases</article-title>,&#x201d; in <source>Utility, probability, and human decision making</source>, <fpage>141</fpage>&#x2013;<lpage>162</lpage>.</citation>
+</ref>
+<ref id="B82">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>van der Bles</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>van der Linden</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Freeman</surname>
+<given-names>A. L. J.</given-names>
+</name>
+<name>
+<surname>Mitchell</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Galvao</surname>
+<given-names>A. B.</given-names>
+</name>
+<name>
+<surname>Zaval</surname>
+<given-names>L.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>Communicating uncertainty about facts, numbers and science</article-title>. <source>R Soc. Open. Sci.</source> <volume>6</volume>. <fpage>181870</fpage>. <pub-id pub-id-type="doi">10.1098/rsos.181870</pub-id>
+</citation>
+</ref>
+<ref id="B83">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wallsten</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Budescu</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Rapoport</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Zwick</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Forsyth</surname>
+<given-names>B.</given-names>
+</name>
+</person-group> (<year>1986</year>). <article-title>Measuring the vague meaning of probability terms</article-title>. <source>J. Exp. Psychol. Gen.</source> <volume>115</volume>, <fpage>348</fpage>&#x2013;<lpage>365</lpage>. <ext-link ext-link-type="uri" xlink:href="https://psycnet.apa.org/doi/10.1037/0096-3445.115.4.348">10.1037/0096-3445.115.4.348</ext-link>
+</citation>
+</ref>
+<ref id="B85">
+<citation citation-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Wilke</surname>
+<given-names>C. O.</given-names>
+</name>
+</person-group> (<year>2019</year>). &#x201c;<article-title>Fundamentals of data visualizations. National academies of sciences, engineering, and medicine 2017</article-title>,&#x201d; in <source>Communicating science effectively: a research agenda.</source> (<publisher-loc>Washington, DC</publisher-loc>: <publisher-name>The National Academies Press</publisher-name>).</citation>
+</ref>
+<ref id="B86">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wilson</surname>
+<given-names>K. A.</given-names>
+</name>
+<name>
+<surname>Heinselman</surname>
+<given-names>P. L.</given-names>
+</name>
+<name>
+<surname>Skinner</surname>
+<given-names>P. S.</given-names>
+</name>
+<name>
+<surname>Choate</surname>
+<given-names>J. J.</given-names>
+</name>
+<name>
+<surname>Klockow-McClain</surname>
+<given-names>K. E.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Meteorologists&#x2019; interpretations of storm-scale ensemble-based forecast guidance</article-title>. <source>Am. Meteorol. Soc.</source> <volume>11</volume>, <fpage>337</fpage>&#x2013;<lpage>354</lpage>. <pub-id pub-id-type="doi">10.1175/WCAS-D-18-0084.1</pub-id>
+</citation>
+</ref>
+<ref id="B87">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Windschitl</surname>
+<given-names>P. D.</given-names>
+</name>
+<name>
+<surname>Wells</surname>
+<given-names>G. L.</given-names>
+</name>
+</person-group> (<year>1996</year>). <article-title>Measuring psychological uncertainty: verbal versus 578 numerical methods</article-title>. <source>J. Exp. Psychol. Appl.</source> <volume>2</volume> (<issue>4</issue>), <fpage>343</fpage>&#x2013;<lpage>364</lpage>. <pub-id pub-id-type="doi">10.1037//1076-898x.2.4.343</pub-id>
+</citation>
+</ref>
+<ref id="B88">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wogalter</surname>
+<given-names>M. S.</given-names>
+</name>
+<name>
+<surname>Magurno</surname>
+<given-names>A. B.</given-names>
+</name>
+<name>
+<surname>Carter</surname>
+<given-names>A. W.</given-names>
+</name>
+<name>
+<surname>Swindell</surname>
+<given-names>J. A.</given-names>
+</name>
+<name>
+<surname>Vigilante</surname>
+<given-names>W. J.</given-names>
+</name>
+<name>
+<surname>Daurity</surname>
+<given-names>J. G.</given-names>
+</name>
+</person-group> (<year>1995</year>). <article-title>Hazard associations of warning header components</article-title>. <source>Proc. Hum. Factors Ergon. Soc. Annu. Meet.</source> <volume>39</volume> (<issue>15</issue>), <fpage>979</fpage>&#x2013;<lpage>983</lpage>. <pub-id pub-id-type="doi">10.1177/154193129503901503</pub-id>
+</citation>
+</ref>
+<ref id="B89">
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zajonc</surname>
+<given-names>R. B.</given-names>
+</name>
+</person-group> (<year>1968</year>). <article-title>Attitudinal effects of mere exposure</article-title>. <source>J. Pers. Soc. Psychol. Monogr. Suppl.</source> <volume>9</volume>, <fpage>1</fpage>&#x2013;<lpage>27</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/H0025848">10.1037/H0025848</ext-link>
+</citation>
+</ref>
+</ref-list>
+</back>
+</article>

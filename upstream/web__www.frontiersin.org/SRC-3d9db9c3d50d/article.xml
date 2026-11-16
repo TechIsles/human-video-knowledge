@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3-mathml3.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="EN" article-type="research-article">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Psychol.</journal-id>
+<journal-title-group>
+<journal-title>Frontiers in Psychology</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Psychol.</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub">1664-1078</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3389/fpsyg.2026.1848365</article-id>
+<article-version article-version-type="Version of Record" vocab="NISO-RP-8-2008"/>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Original Research</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Matching cues to attention: how visual and social cues differentially benefit students with low sustained or selective attention</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name><surname>Li</surname> <given-names>Yao</given-names></name>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name><surname>Du</surname> <given-names>Xuejiao</given-names></name>
+<xref ref-type="corresp" rid="c001"><sup>&#x002A;</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/541255/overview"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+</contrib>
+</contrib-group>
+<aff>
+<institution>School of Education, Ludong University</institution>, <city>Yantai</city>, <country country="cn">China</country></aff>
+<author-notes>
+<corresp id="c001"><label>&#x002A;</label>Correspondence: Xuejiao Du, <email xlink:href="mailto:duxuejiao19900330@163.com">duxuejiao19900330@163.com</email></corresp>
+</author-notes>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-07-23">
+<day>23</day>
+<month>07</month>
+<year>2026</year>
+</pub-date>
+<pub-date publication-format="electronic" date-type="collection">
+<year>2026</year>
+</pub-date>
+<volume>17</volume>
+<elocation-id>1848365</elocation-id>
+<history>
+<date date-type="received">
+<day>06</day>
+<month>04</month>
+<year>2026</year>
+</date>
+<date date-type="rev-recd">
+<day>30</day>
+<month>06</month>
+<year>2026</year>
+</date>
+<date date-type="accepted">
+<day>07</day>
+<month>07</month>
+<year>2026</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2026 Li and Du.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder>Li and Du</copyright-holder>
+<license>
+<ali:license_ref start_date="2026-07-23">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+<license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License (CC BY)</ext-link>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+</license>
+</permissions>
+<abstract>
+<sec>
+<title>Background</title>
+<p>In the digital era, fragmented information impairs the sustained and selective attention of some students, making it difficult for them to remain engaged in instructional videos. Adding cues to instructional videos is a direct method for attracting and sustaining attention. Cues can be classified as visual or social. However, the differential effects of visual and social cues on the learning outcomes of students with varying levels of sustained or selective attention remain unclear. To address this, two experiments were conducted with university students as participants.</p>
+</sec>
+<sec>
+<title>Methods</title>
+<p>In both experiments, students watched instructional videos with different cues and completed test materials. Experiment 1 adopted a 2 (sustained attention level: high, low) &#x00D7; 2 (cue type: visual, social) between-participants design, with a final sample of 105 participants. Experiment 2 adopted a 2 (selective attention level: high, low) &#x00D7; 2 (cue type: visual, social) between-participants design, with a final sample of 104 participants.</p>
+</sec>
+<sec>
+<title>Results</title>
+<p>The results of Experiment 1 showed that in the transfer test only, students with low sustained attention performed better with social than with visual cues. The results of Experiment 2 showed that in the retention test alone, students with low selective attention performed better with visual than with social cues.</p>
+</sec>
+<sec>
+<title>Conclusion</title>
+<p>For students with low sustained attention, incorporating social cues into instructional videos may be a better choice than visual cues for promoting knowledge transfer. For students with low selective attention, incorporating visual cues may be prioritized over social cues for enhancing knowledge retention.</p>
+</sec>
+</abstract>
+<kwd-group>
+<kwd>instructional videos</kwd>
+<kwd>selective attention</kwd>
+<kwd>social cues</kwd>
+<kwd>sustained attention</kwd>
+<kwd>visual cues</kwd>
+</kwd-group>
+<funding-group>
+<funding-statement>The author(s) declared that financial support was received for this work and/or its publication. This study was funded by Youth Project of Shandong Provincial Social Science Planning Research Project (No. 23DJYJ05).</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="2"/>
+<equation-count count="6"/>
+<ref-count count="57"/>
+<page-count count="12"/>
+<word-count count="9244"/>
+</counts>
+<custom-meta-group>
+<custom-meta>
+<meta-name>section-at-acceptance</meta-name>
+<meta-value>Educational Psychology</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="S1" sec-type="intro">
+<label>1</label>
+<title>Introduction</title>
+<p>As digital transformation in education advances, the use of digital educational resources, particularly instructional videos, has increased. However, their practical application outcomes remain less than ideal (<xref ref-type="bibr" rid="B48">Shek et al., 2023</xref>). In recent years, a vast amount of online information and short-form video social media has permeated students&#x2019; lives. This fragmented, highly stimulating information environment gradually impairs students&#x2019; sustained attention and selective attention, which are essential for engaging with instructional videos that require focused mental processing (<xref ref-type="bibr" rid="B7">Chen et al., 2023</xref>). Drawing students&#x2019; attention has been a key instructional design concern in learning research.</p>
+<p>To counter this, cues play an essential role in guiding students&#x2019; attention in learning. Researchers have suggested two main cue types: visual and social cues (<xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). Incorporating visual and social cues into instructional videos can effectively focus students&#x2019; attention and enhance their learning performance (<xref ref-type="bibr" rid="B22">King et al., 2023</xref>; <xref ref-type="bibr" rid="B55">Wang et al., 2020</xref>). Nevertheless, the conditions under which these two types of cues foster learning remain unclear (<xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). Moreover, individual differences may influence the effectiveness of visual and social cues (<xref ref-type="bibr" rid="B3">Arslan-Ari et al., 2020</xref>). While previous studies have focused more on students&#x2019; prior knowledge (<xref ref-type="bibr" rid="B2">Arslan-Ari, 2018</xref>), systematic research on individual differences in selective and sustained attention remains limited. The present study therefore investigates how visual versus social cues interact with learners&#x2019; sustained or selective attention levels to shape learning performance.</p>
+<p>Instructional videos rank among the most widely used digital learning resources, as they present teaching materials in both visual and auditory formats (<xref ref-type="bibr" rid="B40">Pi et al., 2017</xref>). However, when students engage in learning through instructional videos, they often encounter difficulties in sustaining attention and exerting selective attention. To understand the nature of these difficulties, it is necessary to examine the construct of attention itself.</p>
+<p>Attention is the mental process through which individuals selectively register some stimuli and ignore others (<xref ref-type="bibr" rid="B4">Boersma and Das, 2008</xref>). Previous research has explored how various forms of attention influence learning outcomes (<xref ref-type="bibr" rid="B23">Koko&#x00E7; et al., 2020</xref>). Evidently, attention is of vital importance for students&#x2019; learning. Students&#x2019; attention levels may represent a significant internal factor that limits their outcomes in video-learning environments. Many students struggle to sustain their attention effectively during learning processes. Sustained and selective attention are, in particular, related to learning (<xref ref-type="bibr" rid="B42">Posner and Rothbart, 2007</xref>), and this study focused on these two attention types. Existing research has extensively examined the differences in learning outcomes between students differing in their levels of sustained or selective attention (<xref ref-type="bibr" rid="B10">Desjarlais, 2013</xref>; <xref ref-type="bibr" rid="B22">King et al., 2023</xref>; <xref ref-type="bibr" rid="B23">Koko&#x00E7; et al., 2020</xref>).</p>
+<p>Specifically, sustained attention is defined as the ability to continuously direct focus on a single task over a certain period (<xref ref-type="bibr" rid="B45">Roda, 2011</xref>). Sustained attention develops rapidly between the ages of 10 and 16 years and gradually becomes stable during early adulthood (<xref ref-type="bibr" rid="B11">Fortenbaugh et al., 2015</xref>). This type of attention is a key part of the broader attention system and is essential for effective learning processes (<xref ref-type="bibr" rid="B1">Adler and Orprecio, 2006</xref>). Studies in learning contexts reveal that sustained attention directly contributes to academic achievement (<xref ref-type="bibr" rid="B51">Steinmayr et al., 2010</xref>). In instructional video learning, high sustained attention demonstrates clear advantages over low sustained attention in information selection, sustained focus on the main content, efficiency of video processing strategies, and resulted in fewer unsuccessful actions (<xref ref-type="bibr" rid="B10">Desjarlais, 2013</xref>). Thus, enhancing instructional video learning for students with low sustained attention requires further consideration.</p>
+<p>In contrast to sustained attention, selective attention is defined as the ability to focus on relevant stimuli while disregarding distractors or irrelevant information (<xref ref-type="bibr" rid="B39">P&#x00E1;ez-Maldonado et al., 2020</xref>). Selective attention matures and stabilizes in early adulthood (<xref ref-type="bibr" rid="B54">Veer et al., 2017</xref>). Focusing attention on key information within a limited timeframe is critical when students learn from instructional video (<xref ref-type="bibr" rid="B16">Ilgaz et al., 2014</xref>). As a result, individuals possessing higher levels of selective attention can better focus on lesson-relevant information, whereas those with lower levels are more vulnerable to poor academic performance (<xref ref-type="bibr" rid="B13">Hanley et al., 2017</xref>; <xref ref-type="bibr" rid="B44">Rey, 2014</xref>). Thus, enhancing instructional video learning for students with low selective attention also requires additional research.</p>
+<p>In summary, the optimization of instructional video learning for students with low sustained or selective attention requires further investigation. Previous studies have examined instructional aids, such as cues, that support student learning by guiding visual attention in multimedia instructional videos (<xref ref-type="bibr" rid="B19">Kestin and Miller, 2022</xref>).</p>
+<p>Cueing refers to the use of signals that guide learners&#x2019; attention to essential information during instruction, ensuring that critical content is prioritized while distractions are minimized (<xref ref-type="bibr" rid="B29">Mayer, 2009</xref>). The attention-guiding principle (<xref ref-type="bibr" rid="B17">Jamet, 2014</xref>; <xref ref-type="bibr" rid="B36">Ozcelik et al., 2010</xref>) offers a straightforward explanation for cueing effects: cues added to learning materials direct attention to specific elements, thereby enhancing their processing (<xref ref-type="bibr" rid="B47">Scheiter and Eitel, 2015</xref>). Thus, the addition of cues can be regarded as an effective instructional strategy as it minimizes learners&#x2019; time spent on information search, thereby freeing working memory resources for learning (<xref ref-type="bibr" rid="B29">Mayer, 2009</xref>; <xref ref-type="bibr" rid="B47">Scheiter and Eitel, 2015</xref>). These cues can be broadly classified into two main types: visual and social cues (<xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). Visual cues are intended to present visual information and highlight task information, for example by using color-coding. Visual cues direct the learners&#x2019; gaze to deliberately move to locations where key visual stimuli are presented in multimedia instruction (<xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). Social cues, on the other hand, seek to enhance learners&#x2019; attention by fostering social interaction with the instructor, including gestures, eye contact and body orientation (<xref ref-type="bibr" rid="B34">Moreno et al., 2010</xref>).</p>
+<p>Theoretically, the effectiveness of visual and social cues can be explained from two perspectives: the cognitive theory of multimedia learning (CTML; <xref ref-type="bibr" rid="B29">Mayer, 2009</xref>) and the social agency theory (SAT; <xref ref-type="bibr" rid="B30">Mayer and DaPra, 2012</xref>). The CTML holds that visual cues assist learners in quickly picking out key information, cutting down the search for irrelevant content, reducing cognitive load, and facilitating in-depth processing of learning materials (<xref ref-type="bibr" rid="B5">Brouwers et al., 2016</xref>). Instructional videos deliver abundant dynamic graphics, text, audio, and visual content, requiring learners to sift through massive information within a limited time and fix their attention on core knowledge (<xref ref-type="bibr" rid="B16">Ilgaz et al., 2014</xref>). Hence, visual cues highlighting key content can effectively steer learners&#x2019; attention toward vital information, streamline information screening and lessen redundant cognitive burden. Existing studies have proven that students with low selective attention are highly susceptible to distracting stimuli (<xref ref-type="bibr" rid="B13">Hanley et al., 2017</xref>) and students with high selective attention perform better on a skill achievement test (<xref ref-type="bibr" rid="B22">King et al., 2023</xref>). We speculate that visual cues marking key information can guide learners with low selective attention to relevant details, reduce their cognitive load and boost learning performance. In contrast, students with high selective attention possess stronger inherent filtering capacity and rely far less on such cue in instructional videos.</p>
+<p>The second perspective, SAT, suggests that social cues boost learning performance by activating students&#x2019; social responses. In the context of instructional video design, enhancing social presence is a crucial aspect of optimizing learning outcomes (<xref ref-type="bibr" rid="B25">Kreijns et al., 2022</xref>). According to this theory, social cues promote students&#x2019; social attention via social conversation schemas. In environments enhanced with social cues, students respond more actively to instructors and engage in social processing, which enhances their social presence (<xref ref-type="bibr" rid="B20">Khan et al., 2021</xref>). <xref ref-type="bibr" rid="B23">Koko&#x00E7; et al. (2020)</xref> revealed that students with high sustained attention achieved better learning outcomes than those with low sustained attention when learning from the same instructional videos. Their eye movement data also showed that students with low sustained attention made more fixations and had longer fixation durations on the instructor&#x2019;s area of interest. Accordingly, we speculate that learners with low sustained attention pay more attention to the instructor during the process of acquiring new knowledge. Social cues such as eye contact and gestures allow them to develop parasocial interaction with the instructor. This interaction enhances social presence and promotes learning. In contrast, students with high sustained attention are less likely to be affected by the cues presented in instructional videos.</p>
+<p>Prior research has consistently validated the effectiveness of embedding visual or social cues in learning materials such as instructional videos relative to cue-free conditions (<xref ref-type="bibr" rid="B9">De Koning et al., 2007</xref>; <xref ref-type="bibr" rid="B28">Mautone and Mayer, 2001</xref>). <xref ref-type="bibr" rid="B2">Arslan-Ari (2018)</xref> demonstrated that low-prior-knowledge students benefited from visual cues, outperforming their peers who learned without such cues. <xref ref-type="bibr" rid="B37">Ozcelik et al. (2009)</xref> reported that learners exposed to visually cued materials (i.e., color-coded formats) outperformed those who studied the same content in an uncued (conventional) format on both retention and transfer measures. Additionally, incorporating social cues into instructional videos enhances learning outcomes. <xref ref-type="bibr" rid="B32">Meier et al. (2023)</xref> observed that participants processed relevant information faster and achieved better learning outcomes when relying on social cues in low visual complexity conditions compared with high visual complexity conditions. <xref ref-type="bibr" rid="B40">Pi et al. (2017)</xref> reported that a teacher&#x2019;s pointing gestures&#x2014;as a form of social cue&#x2014;enhanced learning performance to a greater extent than nonhuman cues or the absence of cues.</p>
+<p>However, only one study explored the effectiveness of visual and social cues (<xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). Notably, the social cues in this study were limited to the beat gestures of the cartoon pedagogical agent. Further exploration is needed to determine whether one type of cue is superior to the other. Moreover, individual differences may influence the effectiveness of visual and social cues (<xref ref-type="bibr" rid="B3">Arslan-Ari et al., 2020</xref>). Previous studies have focused more on students&#x2019; prior knowledge (<xref ref-type="bibr" rid="B2">Arslan-Ari, 2018</xref>), with insufficient consideration of the potential individual differences arising from variations in students&#x2019; sustained and selective attention levels. This gap in current research warrants further investigation. Only by identifying the types of cues suited to different attention characteristics can students be provided with precise video optimization solutions.</p>
+<p>Drawing on the foregoing analyses, the following research questions were posed (RQs):</p>
+<disp-quote>
+<p><italic>RQ1</italic>: How do visual and social cues added to instructional videos differentially impact the learning outcomes of students with differing levels of sustained attention?</p>
+</disp-quote>
+<disp-quote>
+<p><italic>RQ2</italic>: How do visual cues and social cues added to instructional videos differentially impact the learning outcomes of students with varying levels of selective attention?</p>
+</disp-quote>
+<p>To address RQ1 and RQ2, two experiments were conducted. Specifically, selective and sustained attention represent relatively independent dimensions of attention, which gradually reach relative maturity in early adulthood, namely the university years (<xref ref-type="bibr" rid="B27">Luna et al., 2004</xref>). Prior research confirms that notable, consistent individual differences in attention remain prominent and stable even once these capacities are fully mature (<xref ref-type="bibr" rid="B22">King et al., 2023</xref>; <xref ref-type="bibr" rid="B53">Unsworth and Miller, 2021</xref>). Hence, further research into this area is justified after both forms of attention mature. Consequently, as university students are in early adulthood, we recruited undergraduates as participants in this experiment. Moreover, the &#x201C;global versus local processing&#x201D; paradigm, proposed in <xref ref-type="bibr" rid="B35">Navon&#x2019;s (1977)</xref> seminal study on perceptual processing, was chosen as representative instructional content. This topic was chosen because it is typically an unfamiliar, appropriately difficult cognitive psychology topic that can be delivered as a structured instructional video, analogous to a real-world online video lesson. Based on CTML and SAT, this study examined not only students&#x2019; test scores but also their perceived cognitive load and social presence levels.</p>
+<p>Experiment 1 targeted students with varying levels of sustained attention. It aimed to determine which cue is most beneficial for students with low sustained attention. This experiment compared visual and social cue effects on learning outcomes, cognitive load, and social presence in instructional videos, examining differences between students with high and low sustained attention. Guided by SAT, we hypothesized that social cues increase social presence among students with low sustained attention. This enhancement, in turn, optimizes their learning performance. Therefore, the following hypotheses were proposed:</p>
+<disp-quote>
+<p><italic>H1:</italic> For students with low sustained attention, social cues versus visual cues significantly enhance social presence, retention, and transfer test scores, while no significant difference is expected in cognitive load.</p>
+</disp-quote>
+<disp-quote>
+<p><italic>H2:</italic> For students with high sustained attention, social and visual cues show no significant differences in their effects on retention and transfer test scores, social presence, or cognitive load.</p>
+</disp-quote>
+<p>Experiment 2 targeted students with varying levels of selective attention. It aimed to determine which cue is most beneficial for students with low selective attention. This experiment compared visual and social cue effects on learning outcomes, social presence, and cognitive load in instructional videos, examining differences between students with high and low selective attention. Guided by CTML, we hypothesized that visual cues effectively reduce the cognitive load of students with low selective attention, thereby optimizing their learning performance. Therefore, the following hypotheses were proposed:</p>
+<disp-quote>
+<p><italic>H3</italic>: For students with low selective attention, visual cues versus social cues significantly reduce cognitive load, enhance retention and transfer test scores, while no significant difference is expected in social presence.</p>
+</disp-quote>
+<disp-quote>
+<p><italic>H4</italic>: For students with high selective attention, visual and social cues show no significant differences in their effects on retention and transfer test scores, social presence, or cognitive load.</p>
+</disp-quote>
+</sec>
+<sec id="S2">
+<label>2</label>
+<title>Experiment 1</title>
+<sec id="S2.SS1">
+<label>2.1</label>
+<title>Methods</title>
+<sec id="S2.SS1.SSS1">
+<label>2.1.1</label>
+<title>Participants</title>
+<p>A sample of 210 participants was recruited from a university in China. Thirteen participants who did not pass the pretest were excluded. Subsequently, 197 participants were assigned to complete the sustained attention test. The top and bottom 27% of participants (based on sustained attention test scores) were selected for the formal experiment (<xref ref-type="bibr" rid="B43">Preacher, 2015</xref>), resulting in a final sample of 105 participants. The participants ranged from 17 to 21 years old (52 men, 53 women; mean age = 18.46 years, <italic>SD</italic> = 0.62). All participants voluntarily participated in the experiment, and each participant received a small gift as an incentive after the experiment concluded. This study was approved by the Research Ethics Committee of Ludong University (no. LDU-IRB202406014), with written informed consent obtained from all participants.</p>
+</sec>
+<sec id="S2.SS1.SSS2">
+<label>2.1.2</label>
+<title>Design</title>
+<p>A 2 (sustained attention level: high, low) &#x00D7; 2 (cue type: visual, social) between-participants design was adopted. The dependent variables included the following: (1) learning performance: retention test score and transfer test score; (2) subjective scales: cognitive load and social presence.</p>
+</sec>
+<sec id="S2.SS1.SSS3">
+<label>2.1.3</label>
+<title>Materials</title>
+<sec id="S2.SS1.SSS3.Px1">
+<label>2.1.3.1</label>
+<title>Pretest materials</title>
+<p>First, participants were asked whether they had been previously exposed to the to-be-learned content. Then, they were required to complete a pretest regarding the to-be-learned material, which consisted of two parts: retention and transfer. The retention section included 12 fill-in-the-blank items worth 1 point each, for a total of 12 points. The transfer section comprised eight fill-in-the-blank questions (1 point each) and one short-answer question (2 points), yielding 10 points. An earlier pilot pretest was conducted to establish the cutoff scores in the formal pretest. Results showed that the scores of participants who had never learned the experimental content ranged from 0 to 5 (out of 22), with a mode of 0. Accordingly, 5 points were set as the cutoff score in the formal pretest to select eligible participants who were novices in the to-be-learned material.</p>
+</sec>
+<sec id="S2.SS1.SSS3.Px2">
+<label>2.1.3.2</label>
+<title>Sustained attention test materials</title>
+<p>To measure participants&#x2019; sustained attention levels, we employed a computerized assessment that was developed in accordance with the Yale University multiple object tracking paradigm (<xref ref-type="bibr" rid="B23">Koko&#x00E7; et al., 2020</xref>). It has been extensively applied to measure sustained attention in e-learning research, as it requires attention to be maintained over a period of time (<xref ref-type="bibr" rid="B16">Ilgaz et al., 2014</xref>). In our experiment, the test was conducted using E-Prime 3.0 software. The task consisted of the following steps: participants completed one practice session, after which they undertook three ball-tracking sessions graded by difficulty (easy, medium, and difficult). A practice session was first conducted to familiarize participants with the task. Eight balls appeared on the main screen after practice session. At each difficulty level, a specific number of balls flashed to indicate the targets participants needed to track. All balls then moved randomly across the screen for 1 s. The sustained attention test required participants to track moving balls and identify designated targets once the balls came to a stop. Three difficulty levels were administered: easy (one target among eight balls), medium (two targets), and difficult (four targets). Each level was repeated 10 times, with scores ranging from 0 to 10 per level. 4&#x2013;5 min per stage resulted in a total test duration of roughly 20 min. Sample screenshots are provided in <xref ref-type="fig" rid="F1">Figure 1</xref>.</p>
+<fig id="F1" position="float">
+<label>FIGURE 1</label>
+<caption><p>Sample images of the sustained attention test (from left to right as follows: easy, medium, and difficult).</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-17-1848365-g001.tif">
+<alt-text content-type="machine-generated">Three side-by-side panels display clusters of white and red dots on a black background. In each panel, several dots are white while a few are distinctly red, with the red dots occupying different positions in each cluster.</alt-text>
+</graphic>
+</fig>
+</sec>
+<sec id="S2.SS1.SSS3.Px3">
+<label>2.1.3.3</label>
+<title>Learning materials</title>
+<p>The instructional video focused on the &#x201C;global versus local processing&#x201D; paradigm as its central instructional content. A real person recorded the instructional video in a classroom to explain the relevant learning content. This study operationalized the experimental manipulations for visual and social cues in a learning context. This operationalization follows established procedures in the literature (<xref ref-type="bibr" rid="B32">Meier et al., 2023</xref>; <xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). Specifically, in instructional videos employing visual cues, these visual cues were implemented as red borders highlighting the area near either the text or pictorial content of the learning material (<xref ref-type="bibr" rid="B33">Moon and Ryu, 2021</xref>). The instructor faced sideways throughout the session; in this manner, any hand gestures were prohibited and interaction with students was avoided, thereby ensuring that social cues such as pointing gestures and eye contact were excluded. In instructional videos employing social cues, social cues were designed as gestures and eye contact that emphasized the moments associated with key information in the narration (<xref ref-type="bibr" rid="B32">Meier et al., 2023</xref>). The instructor faced the students directly throughout the session (see <xref ref-type="fig" rid="F2">Figure 2</xref>). To ensure experimental rigor, the instructor&#x2019;s verbal expressions and content maintained a high degree of consistency across the two experimental conditions. Moreover, the 29 visual and social cues were strictly matched in both frequency and presentation duration between the two conditions. The camera was positioned approximately 135 cm from the instructor, consistent with the interpersonal distance suggested by <xref ref-type="bibr" rid="B50">Sorokowska et al. (2017)</xref>. Both instructional videos lasted 7 min and 25 s, and were displayed on a 22-inch monitor. Written consent for teacher portrait use in experiments obtained.</p>
+<fig id="F2" position="float">
+<label>FIGURE 2</label>
+<caption><p>Screenshot of instructional video adding visual cues (left) and social cues (right).</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-17-1848365-g002.tif">
+<alt-text content-type="machine-generated">Split-screen photograph of a woman in a black turtleneck standing in front of a digital display with diagrams, text, and timing intervals in Chinese. In the left panel, she looks at the screen; in the right panel, she gestures towards the diagrams, which illustrate a process involving visual and auditory stimuli and response timing in milliseconds.</alt-text>
+</graphic>
+</fig>
+</sec>
+<sec id="S2.SS1.SSS3.Px4">
+<label>2.1.3.4</label>
+<title>Posttest materials</title>
+<p>Upon viewing the instructional video, participants underwent a series of tests to assess their learning outcomes and completed subjective scales. Details are as follows:</p>
+<sec id="S2.SS1.SSS3.Px4.SPx1">
+<label>2.1.3.4.1</label>
+<title>Retention and transfer tests</title>
+<p>Referring to previous studies (<xref ref-type="bibr" rid="B41">Ploetzner and Schlag, 2013</xref>), the retention and transfer posttests were the same as the pretest. The retention test comprised 12 fill-in-the-blank questions (1 point each, scores ranging from 0 to 12 points, with higher scores indicating better retention), while the transfer test consisted of eight fill-in-the-blank questions (1 point each) and one short-answer question (2 points, yielding a total score ranging from 0 to 10 points), for a total of 10 points. Points were assigned for correct answers; incorrect or unanswered questions did not result in point deductions. Two independent raters with high inter-rater reliabilities (<italic>r</italic> = 0.99 and 0.98, respectively; <italic>p</italic>s &#x003C; 0.001) evaluated the answers. Given the extremely high consistency of the two sets of scores, the complete scoring data was adopted from one trained rater for final statistical analysis and data processing while ensuring scoring validity and reliability.</p>
+</sec>
+<sec id="S2.SS1.SSS3.Px4.SPx2">
+<label>2.1.3.4.2</label>
+<title>Cognitive load scale</title>
+<p>The Cognitive Load Scale developed by <xref ref-type="bibr" rid="B38">Paas (1992)</xref> was used (Cronbach&#x2019;s &#x03B1; = 0.74). This questionnaire has been widely used in the field of cognitive load measurement. It contains two 7-point scale questions, which measure the difficulty of learning materials as perceived by the learners (1 = very easy, 7 = very difficult) and the degree of mental effort expended in learning as perceived by the learners (1 = least effort, 7 = maximum effort). This scale, which has been widely used to measure students&#x2019; cognitive load in instructional video lectures, was employed to calculate cognitive load scores based on the summed ratings of its two items (<xref ref-type="bibr" rid="B14">Hong et al., 2018</xref>; <xref ref-type="bibr" rid="B52">Sweller et al., 2019</xref>).</p>
+</sec>
+<sec id="S2.SS1.SSS3.Px4.SPx3">
+<label>2.1.3.4.3</label>
+<title>Social presence scale</title>
+<p>The Social Presence Scale revised by <xref ref-type="bibr" rid="B49">Short et al. (1976)</xref> was used (Cronbach&#x2019;s &#x03B1; = 0.65, 7-point scale). It consists of eight questions, with Questions 4, 6, and 8 being reverse scored. Higher scores indicate that university students have a higher sense of social presence during their learning.</p>
+</sec>
+</sec>
+</sec>
+</sec>
+<sec id="S2.SS2">
+<label>2.2</label>
+<title>Procedure</title>
+<p>Participants worked independently on their own materials throughout the procedure under the instruction and supervision of experimental assistants. No feedback was provided. The general procedure is illustrated in <xref ref-type="fig" rid="F3">Figure 3</xref>.</p>
+<fig id="F3" position="float">
+<label>FIGURE 3</label>
+<caption><p>Experimental procedure flowchart.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-17-1848365-g003.tif">
+<alt-text content-type="machine-generated">Flowchart outlining an experimental procedure with four phases: Pretest Phase on A4 paper for 10 minutes, Attention Test Phase on a computer monitor for 40 minutes, Learning Phase on a computer monitor for 7 minutes and 25 seconds featuring four conditions&#x2014;Visual Cues High Sustained Attention, Social Cues High Sustained Attention, Visual Cues Low Sustained Attention, Social Cues Low Sustained Attention&#x2014;and Posttest Phase on A4 paper for 20 minutes.</alt-text>
+</graphic>
+</fig>
+<p>The pretest phase lasted 10 min. In the attention test phase, the participants completed a multi-target tracking task lasting approximately 20 min. The participants were grouped into high and low sustained attention groups (top 27% and bottom 27%) based on the accuracy rates across the three conditions (easy, moderate, and difficult) and the calculated average accuracy rate. To minimize extraneous variables effectively, the participants were asked to complete a selective attention test to ensure that they all demonstrated moderate levels of selective attention (lasting approximately 20 min, see Experiment 2 for details of the test). The learning phase, in which experimental variations occurred, followed. Participants with high sustained attention and low sustained attention were randomly assigned to either the social cue or visual cue conditions, respectively. Consequently, four groups were constructed: visual cues-high sustained attention; social cues-high sustained attention; visual cues-low sustained attention; and social cues-low sustained attention, with each group watching its respective instructional video. Subsequently, participants were allowed up to 20 min to complete the posttests.</p>
+</sec>
+<sec id="S2.SS3">
+<label>2.3</label>
+<title>Results</title>
+<p>To assess the validity of the grouping, we conducted an independent samples <italic>t</italic>-test to compare sustained attention scores between the high and low groups. The results indicated that students with high and low sustained attention exhibited significant differences in sustained attention scores, [<italic>t</italic>(103) = 15.60, <italic>p</italic> &#x003C; 0.001, <italic>d</italic> = 3.04, 95% CI (2.48, 3.61)].</p>
+<p>There was no significant difference in selective attention scores between the high sustained attention group and the low sustained attention group, [<italic>t</italic>(103) = 0.31, <italic>p</italic> = 0.761, <italic>d</italic> = 0.06, 95% CI (&#x2212;0.32, 0.44)]. No significant age differences were found among the four groups of participants, [<italic>F</italic>(3, 101) = 1.54, <italic>p</italic> = 0.209, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.04, 95% CI (0.00, 0.12)]. Additionally, no significant differences in gender distribution, [&#x03C7;<sup>2</sup>(3) = 2.42, <italic>p</italic> = 0.490, Cram&#x00E9;r&#x2019;s V = 0.15, 95% CI (0.07, 0.38)], or in pretest scores, [<italic>F</italic>(3, 101) = 0.05, <italic>p</italic> = 0.987, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.001, 95% CI (0.00, 0.006)], were found. Thus, the four groups were comparable in terms of age, gender, and pretest scores.</p>
+<p>A two-factor analysis of variance was conducted with cue type and sustained attention level as independent variables, and participants&#x2019; retention and transfer test scores, cognitive load, and social presence as dependent variables. <xref ref-type="table" rid="T1">Table 1</xref> shows descriptive statistics.</p>
+<table-wrap position="float" id="T1">
+<label>TABLE 1</label>
+<caption><p>Mean performance of the test, the ratings of cognitive load and social presence in Experiment 1.</p></caption>
+<table cellspacing="5" cellpadding="5" frame="box" rules="all">
+<thead>
+<tr>
+<th valign="top" align="left">Sustained attention level</th>
+<th valign="top" align="center">Cue type</th>
+<th valign="top" align="center"><italic>n</italic></th>
+<th valign="top" align="center" colspan="2">Retention test scores</th>
+<th valign="top" align="center" colspan="2">Transfer test scores</th>
+<th valign="top" align="center" colspan="2">Cognitive load</th>
+<th valign="top" align="center" colspan="2">Social presence</th>
+</tr>
+<tr>
+<th valign="top" align="left"/>
+<th valign="top" align="center"/>
+<th valign="top" align="center"/>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left" rowspan="2">High sustained attention</td>
+<td valign="top" align="center">Visual</td>
+<td valign="top" align="center">28</td>
+<td valign="top" align="center">5.39</td>
+<td valign="top" align="center">3.35</td>
+<td valign="top" align="center">3.21</td>
+<td valign="top" align="center">2.23</td>
+<td valign="top" align="center">8.75</td>
+<td valign="top" align="center">1.97</td>
+<td valign="top" align="center">31.43</td>
+<td valign="top" align="center">4.91</td>
+</tr>
+<tr>
+<td valign="top" align="center">Social</td>
+<td valign="top" align="center">24</td>
+<td valign="top" align="center">5.46</td>
+<td valign="top" align="center">2.77</td>
+<td valign="top" align="center">3.00</td>
+<td valign="top" align="center">2.47</td>
+<td valign="top" align="center">8.67</td>
+<td valign="top" align="center">1.71</td>
+<td valign="top" align="center">29.29</td>
+<td valign="top" align="center">6.43</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="2">Low sustained attention</td>
+<td valign="top" align="center">Visual</td>
+<td valign="top" align="center">24</td>
+<td valign="top" align="center">6.04</td>
+<td valign="top" align="center">2.39</td>
+<td valign="top" align="center">2.42</td>
+<td valign="top" align="center">2.04</td>
+<td valign="top" align="center">8.42</td>
+<td valign="top" align="center">2.17</td>
+<td valign="top" align="center">31.71</td>
+<td valign="top" align="center">5.81</td>
+</tr>
+<tr>
+<td valign="top" align="center">Social</td>
+<td valign="top" align="center">29</td>
+<td valign="top" align="center">6.59</td>
+<td valign="top" align="center">2.57</td>
+<td valign="top" align="center">4.21</td>
+<td valign="top" align="center">2.14</td>
+<td valign="top" align="center">9.03</td>
+<td valign="top" align="center">2.40</td>
+<td valign="top" align="center">31.03</td>
+<td valign="top" align="center">5.90</td>
+</tr>
+</tbody>
+</table></table-wrap>
+<p>For the retention test scores, the main effect of sustained attention level was not significant, [<italic>F</italic>(1, 101) = 2.61, <italic>p</italic> = 0.109, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.03, 95% CI (0.00, 0.08)], and the main effect of cue type was also not significant, [<italic>F</italic>(1, 101) = 0.31, <italic>p</italic> = 0.580, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.003, 95% CI ([0.00, 0.04)]. The interaction between sustained attention level and cue type was not significant, [<italic>F</italic>(1, 101) = 0.19, <italic>p</italic> = 0.664, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.002, 95% CI (0.00, 0.04)].</p>
+<p>For transfer test scores, the main effect of sustained attention level was not significant, [<italic>F</italic>(1, 101) = 0.22, <italic>p</italic> = 0.640, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.002, 95% CI (0.00, 0.04)], and the main effect of cue type was also not significant, [<italic>F</italic>(1, 101) = 3.27, <italic>p</italic> = 0.073, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.03, 95% CI (0.00, 0.10)]. However, the interaction between sustained attention level and cue type was significant, [<italic>F</italic>(1, 101) = 5.29, <italic>p</italic> = 0.023, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.05, 95% CI (0.01, 0.14)]. Simple effects analysis determined that for students with low sustained attention, transfer test scores in the social cue group were significantly higher than those in the visual cue group, [<italic>F</italic>(1, 101) = 8.51, <italic>p</italic> = 0.004, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.08, 95% CI (0.02, 0.18)]. By contrast, for students with high sustained attention, no significant difference was found in the transfer scores between the two cue groups, [<italic>F</italic>(1, 101) = 0.12, <italic>p</italic> = 0.730, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.001, 95% CI (0.00, 0.02)].</p>
+<p>For the cognitive load, the main effect of sustained attention level was not significant, [<italic>F</italic>(1, 101) = 0.002, <italic>p</italic> = 0.967, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> &#x003C; 0.001, 95% CI (0.00, 0.001)]. The main effect of cue type was also not significant, [<italic>F</italic>(1, 101) = 0.43, <italic>p</italic> = 0.516, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.004, 95% CI (0.00, 0.05)]. The interaction between sustained attention level and cue type was not significant, [<italic>F</italic>(1, 101) = 0.73, <italic>p</italic> = 0.394, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.01, 95% CI (0.00, 0.06)].</p>
+<p>For social presence, the main effect of sustained attention level was not significant, [<italic>F</italic>(1, 101) = 0.80, <italic>p</italic> = 0.372, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.01, 95% CI (0.00, 0.07)]. The main effect of cue type was also not significant, [<italic>F</italic>(1, 101) = 1.55, <italic>p</italic> = 0.216, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.02, 95% CI (0.00, 0.09)]. The interaction between sustained attention level and cue type was not significant, [<italic>F</italic>(1, 101) = 0.42, <italic>p</italic> = 0.518, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.004, 95% CI (0.00, 0.05)].</p>
+</sec>
+<sec id="S2.SS4">
+<label>2.4</label>
+<title>Summary of experiment 1</title>
+<p>As shown by the results of Experiment 1, transfer test scores can be improved when social cues rather than the visual cues are presented in instructional videos. The experimental findings partially supported H1, with validation observed only in the transfer test scores. The retention test score analysis failed to support the hypothesis, and neither cognitive load nor social presence showed significant differences. However, for students with high sustained attention, no difference was found between social and visual cue effects, which was consistent with H2. Based on this, Experiment 2 further examined the effectiveness of visual and social cues for students with varying levels of selective attention.</p>
+</sec>
+</sec>
+<sec id="S3">
+<label>3</label>
+<title>Experiment 2</title>
+<sec id="S3.SS1">
+<label>3.1</label>
+<title>Methods</title>
+<sec id="S3.SS1.SSS1">
+<label>3.1.1</label>
+<title>Participants</title>
+<p>A sample of 198 participants was recruited from a university in China. Six participants who did not pass the pretest were excluded. Subsequently, 192 participants were assigned to complete the selective attention test. The top and bottom 27% of participants (based on selective attention test scores) were selected for the formal experiment, resulting in a final sample of 104 participants. The participants ranged from 17 to 20 years old (46 men, 58 women; mean age = 18.44 years, <italic>SD</italic> = 0.64). All participants voluntarily participated in the experiment, and each participant received a small gift as an incentive after the experiment concluded. This study was approved by the Research Ethics Committee of Ludong University (no. LDU-IRB202406014), with written informed consent obtained from all participants.</p>
+</sec>
+<sec id="S3.SS1.SSS2">
+<label>3.1.2</label>
+<title>Design</title>
+<p>A 2 (selective attention level: high, low) &#x00D7; 2 (cue type: visual, social) between-participants design was adopted. The dependent variables included the following: (1) learning performance: retention test score and transfer test score; (2) subjective scales: cognitive load and social presence.</p>
+</sec>
+<sec id="S3.SS1.SSS3">
+<label>3.1.3</label>
+<title>Materials</title>
+<p>The pretest materials, learning materials, and posttest materials were identical to those adopted in Experiment 1. Two independent raters with high inter-rater reliabilities (<italic>r</italic> = 0.99 and 0.99, respectively; <italic>p</italic>s &#x003C; 0.001) evaluated the answers.</p>
+<p>To measure participants&#x2019; selective attention levels, a computer-based test developed according to the Flanker task paradigm was used. Though the Flanker task primarily measures inhibitory and executive control, this inhibitory filtering function is also a core subcomponent of selective attention. <xref ref-type="bibr" rid="B22">King et al. (2023)</xref> and <xref ref-type="bibr" rid="B31">McDermott et al. (2007)</xref> employed the Flanker paradigm as a standard behavioral assessment of individual selective attention differences in cognitive and educational research. Selective attention fundamentally requires suppressing task-irrelevant distractors; the conflict inhibition quantified by the Flanker task directly reflects this core mechanism. The experiment was conducted using E-Prime 3.0 software. The stimuli consisted of a central target arrow flanked by two distractor arrows on each side. The distractors either pointed in the same direction as the central arrow (congruent condition), the opposite direction (incongruent condition), or appeared as horizontal lines without directionality (neutral condition), as illustrated in <xref ref-type="fig" rid="F4">Figure 4</xref>. This formed a single row of five arrows, occupying 0.05% of the display. Target and distractor arrows were presented 1 cm above or below a central fixation cross. All stimuli were black against a gray background. Each trial began with a central fixation displayed for a variable duration (1,000, 1,500, 2,000, or 2,500 ms), followed by the arrows appearing above or below the fixation for 350 ms. Participants had 1,700 ms from stimulus onset to respond. They were instructed to maintain focus on the central fixation and indicate the direction of the central arrow using key presses (&#x201C;J&#x201D; for left, &#x201C;K&#x201D; for right). Across conditions, equal numbers of trials featured arrows above versus below the fixation, and the central arrow pointed left versus right with equal frequency. The test lasted approximately 20 min.</p>
+<fig id="F4" position="float">
+<label>FIGURE 4</label>
+<caption><p>Illustration of the three trial types presented during the selective attention test (from left to right as follows: congruent conditions, neutral conditions, and incongruent conditions).</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fpsyg-17-1848365-g004.tif">
+<alt-text content-type="machine-generated">Three side-by-side panels each display a horizontal row of five black arrows above a centered plus sign; left panel arrows point left, middle panel arrows alternate directions, and right panel arrows point right except the middle arrow which points left.</alt-text>
+</graphic>
+</fig>
+</sec>
+</sec>
+<sec id="S3.SS2">
+<label>3.2</label>
+<title>Procedure</title>
+<p>The participants worked independently on their own materials throughout the procedure under the instruction and supervision of experimental assistants. No feedback was provided. The procedures were essentially identical to those in Experiment 1.</p>
+<p>The pretest phase lasted 10 min. In the attention test phase, the participants completed a Flanker task lasting approximately 20 min. Based on their accuracy rates across the three conditions (congruent, neutral, and incongruent) and the calculated average accuracy rate, the participants were grouped into high and low selective attention groups according to the top 27% and bottom 27% of the scores. To validate the effectiveness of selective attention grouping, the participants completed a sustained attention test to ensure that all selected participants demonstrated moderate levels of sustained attention (see Experiment 1 for details of the test). The learning phase, in which experimental variations occurred, followed. Participants with high selective attention and low selective attention were randomly assigned to either the social cue or visual cue conditions, respectively. Consequently, four groups were constructed: visual cues-high selective attention; social cues-high selective attention; visual cues-low selective attention; and social cues-low selective attention, with each group watching its respective instructional video. Subsequently, participants were allowed up to 20 min to complete the posttests.</p>
+</sec>
+<sec id="S3.SS3">
+<label>3.3</label>
+<title>Results</title>
+<p>To assess the validity of the grouping, we conducted an independent samples <italic>t</italic>-test to compare selective attention scores between the high and low groups. The results indicated that students in the high and low selective attention groups exhibited significant differences in their selective attention scores, [<italic>t</italic>(102) = 14.23, <italic>p</italic> &#x003C; 0.001, <italic>d</italic> = 2.79, 95% CI (2.24, 3.33)]. No significant difference was found in the sustained attention scores between the two groups, [<italic>t</italic>(102) = 0.04, <italic>p</italic> = 0.971, <italic>d</italic> = 0.007, 95% CI (&#x2212;0.38, 0.39)].</p>
+<p>No significant differences in age were found between the four groups of participants, [<italic>F</italic>(3, 100) = 0.92, <italic>p</italic> = 0.436, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.03, 95% CI (0.00, 0.08)]. Additionally, no significant differences in gender distribution, [&#x03C7;<sup>2</sup>(3) = 1.72, <italic>p</italic> = 0.634, Cram&#x00E9;r&#x2019;s <italic>V</italic> = 0.13, 95% CI (0.06, 0.35)], or in pretest scores, [<italic>F</italic>(3, 100) = 0.03, <italic>p</italic> = 0.993, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.001, 95% CI (0.00, 0.004)], were found.</p>
+<p>A two-factor analysis of variance was conducted with cue type and selective attention level as independent variables, and participants&#x2019; retention and transfer test scores, cognitive load, and social presence as dependent variables. <xref ref-type="table" rid="T2">Table 2</xref> shows descriptive statistics.</p>
+<table-wrap position="float" id="T2">
+<label>TABLE 2</label>
+<caption><p>Mean performance of the test, the ratings of cognitive load and social presence in Experiment 2.</p></caption>
+<table cellspacing="5" cellpadding="5" frame="box" rules="all">
+<thead>
+<tr>
+<th valign="top" align="left">Selective attention level</th>
+<th valign="top" align="center">Cue type</th>
+<th valign="top" align="center"><italic>n</italic></th>
+<th valign="top" align="center" colspan="2">Retention test scores</th>
+<th valign="top" align="center" colspan="2">Transfer test scores</th>
+<th valign="top" align="center" colspan="2">Cognitive load</th>
+<th valign="top" align="center" colspan="2">Social presence</th>
+</tr>
+<tr>
+<th valign="top" align="left"/>
+<th valign="top" align="center"/>
+<th valign="top" align="center"/>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+<th valign="top" align="center"><italic>M</italic></th>
+<th valign="top" align="center"><italic>SD</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left" rowspan="2">High selective attention</td>
+<td valign="top" align="center">Visual</td>
+<td valign="top" align="center">26</td>
+<td valign="top" align="center">7.56</td>
+<td valign="top" align="center">1.50</td>
+<td valign="top" align="center">3.50</td>
+<td valign="top" align="center">1.84</td>
+<td valign="top" align="center">8.08</td>
+<td valign="top" align="center">1.52</td>
+<td valign="top" align="center">31.19</td>
+<td valign="top" align="center">5.30</td>
+</tr>
+<tr>
+<td valign="top" align="center">Social</td>
+<td valign="top" align="center">26</td>
+<td valign="top" align="center">7.31</td>
+<td valign="top" align="center">1.78</td>
+<td valign="top" align="center">3.54</td>
+<td valign="top" align="center">1.77</td>
+<td valign="top" align="center">9.04</td>
+<td valign="top" align="center">1.87</td>
+<td valign="top" align="center">30.27</td>
+<td valign="top" align="center">4.75</td>
+</tr>
+<tr>
+<td valign="top" align="left" rowspan="2">Low selective attention</td>
+<td valign="top" align="center">Visual</td>
+<td valign="top" align="center">26</td>
+<td valign="top" align="center">7.38</td>
+<td valign="top" align="center">2.08</td>
+<td valign="top" align="center">2.92</td>
+<td valign="top" align="center">2.23</td>
+<td valign="top" align="center">8.62</td>
+<td valign="top" align="center">1.98</td>
+<td valign="top" align="center">32.19</td>
+<td valign="top" align="center">3.60</td>
+</tr>
+<tr>
+<td valign="top" align="center">Social</td>
+<td valign="top" align="center">26</td>
+<td valign="top" align="center">5.51</td>
+<td valign="top" align="center">2.57</td>
+<td valign="top" align="center">3.46</td>
+<td valign="top" align="center">2.14</td>
+<td valign="top" align="center">8.65</td>
+<td valign="top" align="center">2.04</td>
+<td valign="top" align="center">29.65</td>
+<td valign="top" align="center">7.53</td>
+</tr>
+</tbody>
+</table></table-wrap>
+<p>For the retention test scores, the main effect of selective attention level was significant, [<italic>F</italic>(1, 100) = 9.33, <italic>p</italic> = 0.003, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup>= 0.09, 95% CI (0.03, 0.20)]. The main effect of cue type was also significant, [<italic>F</italic>(1, 100) = 10.55, <italic>p</italic> = 0.002, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.10, 95% CI (0.03, 0.22)]. The interaction between selective attention level and cue type was significant, [<italic>F</italic>(1, 100) = 5.65, <italic>p</italic> = 0.019, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup>= 0.05, 95% CI (0.01, 0.14)]. Simple effects analysis revealed that for students with low selective attention, retention test scores in the visual cue group were significantly higher than those in the social cue group, [<italic>F</italic>(1, 100) = 15.82, <italic>p</italic> &#x003C; 0.001, &#x03B7;<sub>p</sub><sup>2</sup> = 0.14, 95% CI (0.05, 0.29)]. By contrast, for students with high selective attention, no significant difference in retention scores was found between the two cue groups, [<italic>F</italic>(1, 100) = 0.38, <italic>p</italic> = 0.539, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.004, 95% CI (0.00, 0.04)].</p>
+<p>For transfer test scores, the main effect of selective attention level was not significant, [<italic>F</italic>(1, 100) = 0.69, <italic>p</italic> = 0.407, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.007, 95% CI (0.00, 0.06)]. The main effect of cue type was not significant, [<italic>F</italic>(1, 100) = 0.54, <italic>p</italic> = 0.465, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.005, 95% CI (0.00, 0.06)]. The interaction between selective attention level and cue type was not significant, [<italic>F</italic>(1, 100) = 0.41, <italic>p</italic> = 0.526, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.004, 95% CI (0.00, 0.05)].</p>
+<p>For cognitive load, the main effect of selective attention level was not significant, [<italic>F</italic>(1, 100) = 0.04, <italic>p</italic> = 0.834, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> &#x003C; 0.001, 95% CI (0.00, 0.001)]. The main effect of cue type was also not significant, [<italic>F</italic>(1, 100) = 1.87, <italic>p</italic> = 0.174, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.02, 95% CI (0.00, 0.10)]. The interaction between selective attention level and cue type was not significant, [<italic>F</italic>(1, 100) = 1.60, <italic>p</italic> = 0.209, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.02, 95% CI (0.00, 0.09)].</p>
+<p>For social presence, the main effect of selective attention level was not significant, [<italic>F</italic>(1, 100) = 0.03, <italic>p</italic> = 0.858, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> &#x003C; 0.001, 95% CI (0.00, 0.001)]. The main effect of cue type was also not significant, [<italic>F</italic>(1, 100) = 2.59, <italic>p</italic> = 0.111, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.03, 95% CI (0.00, 0.10)]. The interaction between selective attention level and cue type was not significant, [<italic>F</italic>(1, 100) = 0.56, <italic>p</italic> = 0.455, <italic>&#x03B7;<sub><italic>p</italic></sub></italic><sup>2</sup> = 0.006, 95% CI (0.00, 0.06)].</p>
+</sec>
+<sec id="S3.SS4">
+<label>3.4</label>
+<title>Summary of experiment 2</title>
+<p>In conclusion, these findings demonstrated that, in the retention test alone, students with low selective attention performed better with visual than with social cues. These findings partially supported H3. Specifically, this hypothesis was supported only for the retention test scores. The transfer test, cognitive load, and social presence scores failed to support this hypothesis. However, for students with high selective attention, social cues and visual cues shared roughly similar effects, which was consistent with H4.</p>
+</sec>
+</sec>
+<sec id="S4" sec-type="discussion">
+<label>4</label>
+<title>Discussion</title>
+<p>This study explored the effects of visual and social cues on learning using instructional videos among students with different attention levels. Several findings of this study are discussed.</p>
+<p>Regarding RQ1, the findings provide direct evidence regarding the influence of visual and social cues on students with different levels of sustained attention. Experiment 1 found that compared with visual cues, social cues significantly improved the transfer test scores of university students with low sustained attention, which partly aligns with the SAT. The result of our experiment partially supports <xref ref-type="bibr" rid="B8">Davis&#x2019;s (2018)</xref> conclusion that conversational gestures (social cues) facilitate students&#x2019; transfer and retention performance. However, in our experiment, the difference in retention test scores was not statistically significant. Learning performance may be enhanced by social cues through the activation of students&#x2019; social responses. Direct gaze and gestures may activate current social responses and deep cognitive processing strategies of students with low sustained attention, thereby further enhance transfer performance. Students&#x2019; motivation to learn increases when they feel that the instructor is approachable and supportive, thereby facilitating deeper understanding and knowledge transfer (<xref ref-type="bibr" rid="B26">Kuang et al., 2024</xref>). Moreover, social cues such as gestures might rely on the mirror neuron system to guide the trajectory of visual attention through the embodied simulation of instructors&#x2019; nonverbal behavior, thereby transforming abstract knowledge into operable cognitive units (<xref ref-type="bibr" rid="B6">Butera and Aziz-Zadeh, 2022</xref>) and facilitating deep knowledge integration and transfer. Therefore, we may speculate that for students with low sustained attention, although social cues facilitate comprehension during the encoding phase, they only improve students&#x2019; transfer performance, while failing to effectively enhance the retention of information into long-term memory. Experiment 1 found that visual and social cues showed no significant differences in primary learning outcome measures (transfer or retention scores) for university students with high sustained attention. One possible explanation is that high sustained attention may facilitate superior learning outcomes by enabling the effective allocation of attentional resources to the active selection of task-relevant information (<xref ref-type="bibr" rid="B21">King and Markant, 2020</xref>). Students with high sustained attention are more focused and perform better academically than those with low sustained attention (<xref ref-type="bibr" rid="B23">Koko&#x00E7; et al., 2020</xref>); therefore, they are less influenced by external cues, which may account for the lack of significant statistical findings.</p>
+<p>Regarding RQ2, the findings provide direct evidence regarding the influence of visual and social cues on students with different levels of selective attention. Experiment 2 found that compared with social cues, visual cues significantly improved the retention test scores of university students with low selective attention. This aligns in part with the CTML (<xref ref-type="bibr" rid="B29">Mayer, 2009</xref>). The potential reason might be as follows: Visual cues guide attention allocation directly through explicit visual prompts (<xref ref-type="bibr" rid="B17">Jamet, 2014</xref>; <xref ref-type="bibr" rid="B37">Ozcelik et al., 2009</xref>) and are therefore more beneficial for students with low selective attention. By helping students rapidly filter key information, visual cues reduce the attentional distraction caused by irrelevant stimuli. For students with low selective attention who may be limited in information processing capacity (<xref ref-type="bibr" rid="B18">Johnson et al., 2010</xref>), visual cues can simplify information processing, thereby enhancing memory retention. However, the advantages of visual cues did not extend to the transfer test. This is because their design primarily aids in the acquisition of foundational knowledge rather than guiding higher-order thinking (<xref ref-type="bibr" rid="B56">Xie et al., 2017</xref>). Although red-colored borders can assist in memorizing key terms, they may not prompt knowledge interconnectedness, making it difficult for students to transfer learned content to novel contexts (<xref ref-type="bibr" rid="B15">Hy&#x00F6;n&#x00E4; and Lorch, 2004</xref>). Experiment 2 also found that visual and social cues showed no significant differences in primary learning outcome measures (transfer or retention scores) for university students with high selective attention. Therefore, we may speculate that visual cues are more conducive to memory retention among students with low selective attention. Students with high selective attention possess strong abilities in autonomous information filtering and concentration (<xref ref-type="bibr" rid="B22">King et al., 2023</xref>), which can offset the effects of cues. Therefore, they are less influenced by external cues, which explains why the statistical results were nonsignificant.</p>
+<p>Cognitive load and social presence, which are important indicators of subjective learning processes, did not show significant main effects in either experiment. These finding contradicted our hypotheses. The finding of nonsignificant effects on cognitive load also contradicts the results reported by <xref ref-type="bibr" rid="B46">Rodemer et al. (2022)</xref>, who demonstrated that incorporating cues into instructional videos effectively preserved participants&#x2019; cognitive resources, reduced extraneous cognitive load, and facilitated deeper information processing among students. The absence of a significant difference in cognitive load may be attributable to the inherent limitations of subjective measures. Factors such as the timing of assessments and recall bias can distort participants&#x2019; ratings, thereby diminishing the sensitivity of these measures to the actual cognitive load changes induced by the experimental procedures (<xref ref-type="bibr" rid="B24">Korbach et al., 2018</xref>). When self-reporting their cognitive load, participants may exhibit social desirability bias due to heightened concern about others&#x2019; perceptions of their performance; they may report higher levels of effort, even when they have not engaged diligently in the learning task (<xref ref-type="bibr" rid="B57">Zhang and Yang, 2022</xref>). In terms of social presence, the effect was nonsignificant. Several factors may explain this undesirable result. First, the depth and complexity of discussions influence the role of social presence (<xref ref-type="bibr" rid="B12">Gao et al., 2024</xref>). This study employed only the instructor&#x2019;s gestures and gaze as social cues, without integrating multidimensional interactive elements such as vocal intonation and facial expressions, resulting in an insufficient perceived intensity of social presence. Second, the social presence rating employed in this study relies solely on participants&#x2019; subjective self-reports, which may show a lower sensitivity.</p>
+<p>Notably, although certain observed performance differences are directionally consistent with CTML and SAT predictions, the lack of significant effects on the cognitive load and social presence means that these theoretical mechanisms were not empirically verified in the present study. Any causal inferences about how the cues work remain speculative. Future research should include more sensitive measures or larger samples to detect the theoretical mechanisms.</p>
+<sec id="S4.SS1">
+<label>4.1</label>
+<title>Limitations and future research directions</title>
+<p>This study explored how visual and social cues influence learning outcomes among university students with different levels of attentional focus, revealing matching patterns between cue types and attentional characteristics. Furthermore, this research has several limitations that warrant further refinement and expansion in future studies.</p>
+<p>Firstly, this study did not include a no-cue baseline condition, which limits our ability to determine absolute cue effectiveness. Additionally, our manipulation of social cues simultaneously varied multiple components (eye gaze, gestures, and body orientation), making it impossible to isolate the unique contribution of any single cue. Future research should include a no-cue control condition and employ factorial designs to disentangle the independent effects of gaze, gestures, and orientation.</p>
+<p>Secondly, the measurements relied mainly on behavioral tests and subjective scales, which may lack sensitivity for variables such as cognitive load and social presence. Moreover, a relatively low level of reliability was reported for the social presence scales. Multimodal physiological data, such as EEG, eye-tracking, and electrodermal responses, should be incorporated and integrated into future research to provide more objective insights and verify that participants perceived or paid attention to the visual and social cues as intended.</p>
+<p>Thirdly, the conclusions were drawn from a single university sample, short laboratory-based instructional videos, and specific topics, which limits their generalizability to real-world online learning. Longitudinal studies in naturalistic learning environments and across different participants (e.g., other populations or ages), learning tasks and instructional content are required to enhance ecological validity and generalization.</p>
+<p>Finally, some results had small effect sizes. The application of findings to practice should be treated with due caution. Nonetheless, this remains a noteworthy effect to document because effects can cumulate over time, situations, or individuals, and thus, this small effect size might be potentially consequential in the long run.</p>
+</sec>
+</sec>
+<sec id="S5" sec-type="conclusion">
+<label>5</label>
+<title>Conclusion</title>
+<p>For university students with low sustained attention, incorporating social cues into instructional videos was relatively more effective in promoting knowledge transfer than incorporating visual cues. For those with low selective attention, adding visual cues to instructional videos was relatively more effective in enhancing knowledge retention than adding social cues.</p>
+</sec>
+</body>
+<back>
+<sec id="S6" sec-type="data-availability">
+<title>Data availability statement</title>
+<p>The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.</p>
+</sec>
+<sec id="S7" sec-type="ethics-statement">
+<title>Ethics statement</title>
+<p>The studies involving humans were approved by the Ludong University Committee for Science and Technology Ethics Review. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study. Written informed consent was obtained from the individual(s) for the publication of any identifiable images or data included in this article.</p>
+</sec>
+<sec id="S8" sec-type="author-contributions">
+<title>Author contributions</title>
+<p>YL: Writing &#x2013; original draft. XD: Writing &#x2013; review &#x0026; editing.</p>
+</sec>
+<sec id="S10" sec-type="COI-statement">
+<title>Conflict of interest</title>
+<p>The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+<sec id="S11" sec-type="ai-statement">
+<title>Generative AI statement</title>
+<p>The author(s) declared that Generative AI was not used in the creation of this manuscript.</p>
+<p>Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.</p>
+</sec>
+<sec id="S12" sec-type="disclaimer">
+<title>Publisher&#x2019;s note</title>
+<p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="B1"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Adler</surname> <given-names>S. A.</given-names></name> <name><surname>Orprecio</surname> <given-names>J.</given-names></name></person-group> (<year>2006</year>). <article-title>The eyes have it: Visual pop-out in infants and adults.</article-title> <source><italic>Dev. Sci.</italic></source> <volume>9</volume> <fpage>189</fpage>&#x2013;<lpage>206</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-7687.2006.00479.x</pub-id> <pub-id pub-id-type="pmid">16472320</pub-id></mixed-citation></ref>
+<ref id="B2"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Arslan-Ari</surname> <given-names>I.</given-names></name></person-group> (<year>2018</year>). <article-title>Learning from instructional animations: How does prior knowledge mediate the effect of visual cues?</article-title> <source><italic>J. Comput. Assist. Learn.</italic></source> <volume>34</volume> <fpage>140</fpage>&#x2013;<lpage>149</lpage>. <pub-id pub-id-type="doi">10.1111/jcal.12222</pub-id></mixed-citation></ref>
+<ref id="B3"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Arslan-Ari</surname> <given-names>I.</given-names></name> <name><surname>Crooks</surname> <given-names>S. M.</given-names></name> <name><surname>Ari</surname> <given-names>F.</given-names></name></person-group> (<year>2020</year>). <article-title>How much cueing is needed in instructional animations? The role of prior knowledge.</article-title> <source><italic>J. Sci. Educ. Technol.</italic></source> <volume>29</volume> <fpage>666</fpage>&#x2013;<lpage>676</lpage>. <pub-id pub-id-type="doi">10.1007/s10956-020-09845-5</pub-id></mixed-citation></ref>
+<ref id="B4"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Boersma</surname> <given-names>H.</given-names></name> <name><surname>Das</surname> <given-names>J. P.</given-names></name></person-group> (<year>2008</year>). <article-title>Attention, attention rating and cognitive assessment: A review and a study.</article-title> <source><italic>Dev. Disabil. Bull.</italic></source> <volume>36</volume> <fpage>1</fpage>&#x2013;<lpage>17</lpage>.</mixed-citation></ref>
+<ref id="B5"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Brouwers</surname> <given-names>S.</given-names></name> <name><surname>Wiggins</surname> <given-names>M. W.</given-names></name> <name><surname>Helton</surname> <given-names>W.</given-names></name> <name><surname>O&#x2019;Hare</surname> <given-names>D.</given-names></name> <name><surname>Griffin</surname> <given-names>B.</given-names></name></person-group> (<year>2016</year>). <article-title>Cue utilization and cognitive load in novel task performance.</article-title> <source><italic>Front. Psychol.</italic></source> <volume>7</volume>:<fpage>435</fpage>. <pub-id pub-id-type="doi">10.3389/fpsyg.2016.00435</pub-id> <pub-id pub-id-type="pmid">27064669</pub-id></mixed-citation></ref>
+<ref id="B6"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Butera</surname> <given-names>F.</given-names></name> <name><surname>Aziz-Zadeh</surname> <given-names>L.</given-names></name></person-group> (<year>2022</year>). &#x201C;<article-title>Mirror Neurons and Social Implications for the Classroom</article-title>,&#x201D; in <source><italic>Movement Matters: How Embodied Cognition Informs Teaching and Learning</italic></source>, <role>eds</role> <person-group person-group-type="editor"><name><surname>Macrine</surname> <given-names>S. L.</given-names></name> <name><surname>Fugate</surname> <given-names>J. M. B.</given-names></name></person-group> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>Routledge</publisher-name>), <fpage>261</fpage>&#x2013;<lpage>274</lpage>.</mixed-citation></ref>
+<ref id="B7"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname> <given-names>Y.</given-names></name> <name><surname>Li</surname> <given-names>M.</given-names></name> <name><surname>Guo</surname> <given-names>F.</given-names></name> <name><surname>Wang</surname> <given-names>X.</given-names></name></person-group> (<year>2023</year>). <article-title>The effect of short-form video addiction on users&#x2019; attention.</article-title> <source><italic>Behav. Inf. Technol.</italic></source> <volume>42</volume> <fpage>2893</fpage>&#x2013;<lpage>2910</lpage>. <pub-id pub-id-type="doi">10.1080/0144929X.2022.2151512</pub-id></mixed-citation></ref>
+<ref id="B8"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Davis</surname> <given-names>R. O.</given-names></name></person-group> (<year>2018</year>). <article-title>The impact of pedagogical agent gesturing in multimedia learning environments: A meta-analysis.</article-title> <source><italic>Edu. Res. Rev.</italic></source> <volume>24</volume> <fpage>193</fpage>&#x2013;<lpage>209</lpage>. <pub-id pub-id-type="doi">10.1016/j.edurev.2018.05.002</pub-id></mixed-citation></ref>
+<ref id="B9"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>De Koning</surname> <given-names>B. B.</given-names></name> <name><surname>Tabbers</surname> <given-names>H. K.</given-names></name> <name><surname>Rikers</surname> <given-names>R. M. J. P.</given-names></name> <name><surname>Paas</surname> <given-names>F.</given-names></name></person-group> (<year>2007</year>). <article-title>Attention cueing as a means to enhance learning from an animation.</article-title> <source><italic>Appl. Cognit. Psychol.</italic></source> <volume>21</volume> <fpage>731</fpage>&#x2013;<lpage>746</lpage>. <pub-id pub-id-type="doi">10.1002/acp.1346</pub-id></mixed-citation></ref>
+<ref id="B10"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Desjarlais</surname> <given-names>M.</given-names></name></person-group> (<year>2013</year>). <article-title>Internet exploration behaviours and recovery from unsuccessful actions differ between learners with high and low levels of attention.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>29</volume> <fpage>694</fpage>&#x2013;<lpage>705</lpage>. <pub-id pub-id-type="doi">10.1016/J.CHB.2012.12.006</pub-id></mixed-citation></ref>
+<ref id="B11"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Fortenbaugh</surname> <given-names>F. C.</given-names></name> <name><surname>DeGutis</surname> <given-names>J.</given-names></name> <name><surname>Germine</surname> <given-names>L.</given-names></name> <name><surname>Wilmer</surname> <given-names>J. B.</given-names></name> <name><surname>Grosso</surname> <given-names>M.</given-names></name> <name><surname>Russo</surname> <given-names>K.</given-names></name><etal>et al</etal></person-group>. (<year>2015</year>). <article-title>Sustained attention across the life span in a sample of 10,000: Dissociating ability and strategy.</article-title> <source><italic>Psychol. Sci.</italic></source> <volume>26</volume> <fpage>1497</fpage>&#x2013;<lpage>1510</lpage>. <pub-id pub-id-type="doi">10.1177/0956797615594896</pub-id> <pub-id pub-id-type="pmid">26253551</pub-id></mixed-citation></ref>
+<ref id="B12"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gao</surname> <given-names>F.</given-names></name> <name><surname>Wang</surname> <given-names>C.</given-names></name> <name><surname>Xie</surname> <given-names>H.</given-names></name> <name><surname>Hong</surname> <given-names>J.</given-names></name></person-group> (<year>2024</year>). <article-title>Social interaction and online learning efficiency for middle school students: The mediating role of social presence and learning engagement.</article-title> <source><italic>Behav. Sci.</italic></source> <volume>14</volume>:<fpage>896</fpage>. <pub-id pub-id-type="doi">10.3390/bs14100896</pub-id> <pub-id pub-id-type="pmid">39457768</pub-id></mixed-citation></ref>
+<ref id="B13"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hanley</surname> <given-names>M.</given-names></name> <name><surname>Khairat</surname> <given-names>M.</given-names></name> <name><surname>Taylor</surname> <given-names>K.</given-names></name> <name><surname>Wilson</surname> <given-names>R.</given-names></name> <name><surname>Cole-Fletcher</surname> <given-names>R.</given-names></name> <name><surname>Riby</surname> <given-names>D. M.</given-names></name></person-group> (<year>2017</year>). <article-title>Classroom displays&#x2014;attraction or distraction? Evidence of impact on attention and learning from children with and without autism.</article-title> <source><italic>Dev. Psychol.</italic></source> <volume>53</volume>:<fpage>1265</fpage>. <pub-id pub-id-type="doi">10.1037/dev0000271</pub-id> <pub-id pub-id-type="pmid">28471220</pub-id></mixed-citation></ref>
+<ref id="B14"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hong</surname> <given-names>J.</given-names></name> <name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2018</year>). <article-title>Learning declarative and procedural knowledge via video lectures: Cognitive load and learning effectiveness.</article-title> <source><italic>Innov. Educ. Teach. Int.</italic></source> <volume>55</volume> <fpage>74</fpage>&#x2013;<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1080/14703297.2016.1237371</pub-id></mixed-citation></ref>
+<ref id="B15"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hy&#x00F6;n&#x00E4;</surname> <given-names>J.</given-names></name> <name><surname>Lorch</surname> <given-names>R. F.</given-names></name></person-group> (<year>2004</year>). <article-title>Effects of topic headings on text processing: Evidence from adult readers&#x2019; eye fixation patterns.</article-title> <source><italic>Learn. Instr.</italic></source> <volume>14</volume> <fpage>131</fpage>&#x2013;<lpage>152</lpage>. <pub-id pub-id-type="doi">10.1016/j.learninstruc.2004.01.001</pub-id></mixed-citation></ref>
+<ref id="B16"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ilgaz</surname> <given-names>H.</given-names></name> <name><surname>Altun</surname> <given-names>A.</given-names></name> <name><surname>A&#x015F;kar</surname> <given-names>P.</given-names></name></person-group> (<year>2014</year>). <article-title>The effect of sustained attention level and contextual cueing on implicit memory performance for e-learning environments.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>39</volume> <fpage>1</fpage>&#x2013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2014.06.008</pub-id></mixed-citation></ref>
+<ref id="B17"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jamet</surname> <given-names>E.</given-names></name></person-group> (<year>2014</year>). <article-title>An eye-tracking study of cueing effects in multimedia learning.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>32</volume> <fpage>47</fpage>&#x2013;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2013.11.013</pub-id></mixed-citation></ref>
+<ref id="B18"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname> <given-names>E. S.</given-names></name> <name><surname>Humphrey</surname> <given-names>M.</given-names></name> <name><surname>Mellard</surname> <given-names>D. F.</given-names></name> <name><surname>Woods</surname> <given-names>K.</given-names></name> <name><surname>Swanson</surname> <given-names>H. L.</given-names></name></person-group> (<year>2010</year>). <article-title>Cognitive processing deficits and students with specific learning disabilities: A selective meta-analysis of the literature.</article-title> <source><italic>Learn. Disabil. Q.</italic></source> <volume>33</volume> <fpage>3</fpage>&#x2013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1177/073194871003300101</pub-id></mixed-citation></ref>
+<ref id="B19"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kestin</surname> <given-names>G.</given-names></name> <name><surname>Miller</surname> <given-names>K.</given-names></name></person-group> (<year>2022</year>). <article-title>Harnessing active engagement in educational videos: Enhanced visuals and embedded questions.</article-title> <source><italic>Phys. Rev. Phys. Educ. Res.</italic></source> <volume>18</volume>:<fpage>010148</fpage>. <pub-id pub-id-type="doi">10.1103/PhysRevPhysEducRes.18.010148</pub-id></mixed-citation></ref>
+<ref id="B20"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Khan</surname> <given-names>R. A.</given-names></name> <name><surname>Atta</surname> <given-names>K.</given-names></name> <name><surname>Sajjad</surname> <given-names>M.</given-names></name> <name><surname>Jawaid</surname> <given-names>M.</given-names></name></person-group> (<year>2021</year>). <article-title>Twelve tips to enhance student engagement in synchronous online teaching and learning.</article-title> <source><italic>Med. Teach.</italic></source> <volume>44</volume> <fpage>601</fpage>&#x2013;<lpage>606</lpage>. <pub-id pub-id-type="doi">10.1080/0142159X.2021.1912310</pub-id> <pub-id pub-id-type="pmid">33877950</pub-id></mixed-citation></ref>
+<ref id="B21"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>King</surname> <given-names>J.</given-names></name> <name><surname>Markant</surname> <given-names>J.</given-names></name></person-group> (<year>2020</year>). <article-title>Individual differences in selective attention and scanning dynamics influence children&#x2019;s learning from relevant non-targets in a visual search task.</article-title> <source><italic>J. Exp. Child Psychol.</italic></source> <volume>193</volume>:<fpage>104797</fpage>. <pub-id pub-id-type="doi">10.1016/j.jecp.2019.104797</pub-id> <pub-id pub-id-type="pmid">31991262</pub-id></mixed-citation></ref>
+<ref id="B22"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>King</surname> <given-names>J.</given-names></name> <name><surname>Marcus</surname> <given-names>T.</given-names></name> <name><surname>Markant</surname> <given-names>J.</given-names></name></person-group> (<year>2023</year>). <article-title>Individual differences in selective attention and engagement shape students&#x2019; learning from visual cues and instructor presence during online lessons.</article-title> <source><italic>Sci. Rep.</italic></source> <volume>13</volume>:<fpage>5075</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-023-32069-7</pub-id> <pub-id pub-id-type="pmid">36977822</pub-id></mixed-citation></ref>
+<ref id="B23"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Koko&#x00E7;</surname> <given-names>M.</given-names></name> <name><surname>IIgaz</surname> <given-names>H.</given-names></name> <name><surname>Altun</surname> <given-names>A.</given-names></name></person-group> (<year>2020</year>). <article-title>Effects of sustained attention and video lecture types on learning performances.</article-title> <source><italic>Educ. Technol. Res. Dev.</italic></source> <volume>68</volume> <fpage>3015</fpage>&#x2013;<lpage>3039</lpage>. <pub-id pub-id-type="doi">10.1007/s11423-020-09829-7</pub-id></mixed-citation></ref>
+<ref id="B24"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Korbach</surname> <given-names>A.</given-names></name> <name><surname>Br&#x00FC;nken</surname> <given-names>R.</given-names></name> <name><surname>Park</surname> <given-names>B.</given-names></name></person-group> (<year>2018</year>). <article-title>Differentiating different types of cognitive load: A comparison of different measures.</article-title> <source><italic>Educ Psychol Rev.</italic></source> <volume>30</volume> <fpage>503</fpage>&#x2013;<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1007/s10648-017-9404-8</pub-id></mixed-citation></ref>
+<ref id="B25"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kreijns</surname> <given-names>K.</given-names></name> <name><surname>Xu</surname> <given-names>K.</given-names></name> <name><surname>Weidlich</surname> <given-names>J.</given-names></name></person-group> (<year>2022</year>). <article-title>Social presence: Conceptualization and measurement.</article-title> <source><italic>Educ. Psychol. Rev.</italic></source> <volume>34</volume> <fpage>139</fpage>&#x2013;<lpage>170</lpage>. <pub-id pub-id-type="doi">10.1007/s10648-021-09623-8</pub-id> <pub-id pub-id-type="pmid">34177204</pub-id></mixed-citation></ref>
+<ref id="B26"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kuang</surname> <given-names>Z.</given-names></name> <name><surname>Wang</surname> <given-names>F.</given-names></name> <name><surname>Andrasik</surname> <given-names>F.</given-names></name> <name><surname>Hu</surname> <given-names>X.</given-names></name></person-group> (<year>2024</year>). <article-title>Instructor&#x2019;s direct gaze not body orientation affects learning.</article-title> <source><italic>J. Comput. Assist. Learn.</italic></source> <volume>40</volume> <fpage>731</fpage>&#x2013;<lpage>741</lpage>. <pub-id pub-id-type="doi">10.1111/jcal.12917</pub-id></mixed-citation></ref>
+<ref id="B27"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Luna</surname> <given-names>B.</given-names></name> <name><surname>Garver</surname> <given-names>K. E.</given-names></name> <name><surname>Urban</surname> <given-names>T. A.</given-names></name> <name><surname>Lazar</surname> <given-names>N. A.</given-names></name> <name><surname>Sweeney</surname> <given-names>J. A.</given-names></name></person-group> (<year>2004</year>). <article-title>Maturation of cognitive processes from late childhood to adulthood.</article-title> <source><italic>Child. Dev.</italic></source> <volume>75</volume> <fpage>1357</fpage>&#x2013;<lpage>1372</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-8624.2004.00745.x</pub-id> <pub-id pub-id-type="pmid">15369519</pub-id></mixed-citation></ref>
+<ref id="B28"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mautone</surname> <given-names>P. D.</given-names></name> <name><surname>Mayer</surname> <given-names>R. E.</given-names></name></person-group> (<year>2001</year>). <article-title>Signaling as a cognitive guide in multimedia learning.</article-title> <source><italic>J. Edu. Psy.</italic></source> <volume>93</volume> <fpage>377</fpage>&#x2013;<lpage>389</lpage>. <pub-id pub-id-type="doi">10.1037/0022-0663.93.2.377</pub-id></mixed-citation></ref>
+<ref id="B29"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Mayer</surname> <given-names>R. E.</given-names></name></person-group> (<year>2009</year>). <source><italic>Multimedia Learning.</italic></source> <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B30"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mayer</surname> <given-names>R. E.</given-names></name> <name><surname>DaPra</surname> <given-names>C. S.</given-names></name></person-group> (<year>2012</year>). <article-title>An embodiment effect in computerbased learning with animated pedagogical agents.</article-title> <source><italic>J. Exp. Psychol. Appl.</italic></source> <volume>18</volume> <fpage>239</fpage>&#x2013;<lpage>252</lpage>. <pub-id pub-id-type="doi">10.1037/a0028616</pub-id> <pub-id pub-id-type="pmid">22642688</pub-id></mixed-citation></ref>
+<ref id="B31"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McDermott</surname> <given-names>J. M.</given-names></name> <name><surname>P&#x00E9;rez-Edgar</surname> <given-names>K.</given-names></name> <name><surname>Fox</surname> <given-names>N. A.</given-names></name></person-group> (<year>2007</year>). <article-title>Variations of the flanker paradigm: Assessing selective attention in young children.</article-title> <source><italic>Behav. Res.</italic></source> <volume>39</volume> <fpage>62</fpage>&#x2013;<lpage>70</lpage>. <pub-id pub-id-type="doi">10.3758/BF03192844</pub-id> <pub-id pub-id-type="pmid">17552472</pub-id></mixed-citation></ref>
+<ref id="B32"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Meier</surname> <given-names>J.</given-names></name> <name><surname>De Jong</surname> <given-names>B.</given-names></name> <name><surname>Van Montfort</surname> <given-names>D. P.</given-names></name> <name><surname>Verdonschot</surname> <given-names>A.</given-names></name> <name><surname>Van Wermeskerken</surname> <given-names>M.</given-names></name> <name><surname>Van Gog</surname> <given-names>T.</given-names></name></person-group> (<year>2023</year>). <article-title>Do social cues in instructional videos affect attention allocation, perceived cognitive load, and learning outcomes under different visual complexity conditions?</article-title> <source><italic>J. Comput. Assisted. Learn.</italic></source> <volume>39</volume> <fpage>1339</fpage>&#x2013;<lpage>1353</lpage>. <pub-id pub-id-type="doi">10.1111/jcal.12803</pub-id></mixed-citation></ref>
+<ref id="B33"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moon</surname> <given-names>J.</given-names></name> <name><surname>Ryu</surname> <given-names>J.</given-names></name></person-group> (<year>2021</year>). <article-title>The effects of social and cognitive cues on learning comprehension, eye-gaze pattern, and cognitive load in video instruction.</article-title> <source><italic>J. Comput. High. Educ.</italic></source> <volume>33</volume> <fpage>39</fpage>&#x2013;<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1007/s12528-020-09255-x</pub-id></mixed-citation></ref>
+<ref id="B34"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moreno</surname> <given-names>R.</given-names></name> <name><surname>Reislein</surname> <given-names>M.</given-names></name> <name><surname>Ozogul</surname> <given-names>G.</given-names></name></person-group> (<year>2010</year>). <article-title>Using virtual peers to guide visual attention during learning: A test of the persona hypothesis.</article-title> <source><italic>J. Media. Psychol.</italic></source> <volume>22</volume> <fpage>52</fpage>&#x2013;<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1027/1864-1105/a000008</pub-id></mixed-citation></ref>
+<ref id="B35"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Navon</surname> <given-names>D.</given-names></name></person-group> (<year>1977</year>). <article-title>Forest before trees: The precedence of global features in visual perception.</article-title> <source><italic>Cogn. Psychol.</italic></source> <volume>9</volume> <fpage>353</fpage>&#x2013;<lpage>383</lpage>. <pub-id pub-id-type="doi">10.1016/0010-0285(77)90012-3</pub-id></mixed-citation></ref>
+<ref id="B36"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ozcelik</surname> <given-names>E.</given-names></name> <name><surname>Arslan-Ari</surname> <given-names>I.</given-names></name> <name><surname>Cagiltay</surname> <given-names>K.</given-names></name></person-group> (<year>2010</year>). <article-title>Why does signaling enhance multimedia learning? Evidence from eye movements.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>26</volume> <fpage>110</fpage>&#x2013;<lpage>117</lpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2009.09.001</pub-id></mixed-citation></ref>
+<ref id="B37"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ozcelik</surname> <given-names>E.</given-names></name> <name><surname>Karakus</surname> <given-names>T.</given-names></name> <name><surname>Kursun</surname> <given-names>E.</given-names></name> <name><surname>Cagiltay</surname> <given-names>K.</given-names></name></person-group> (<year>2009</year>). <article-title>An eye-tracking study of how color coding affects multimedia learning.</article-title> <source><italic>Comput. Educ.</italic></source> <volume>53</volume> <fpage>445</fpage>&#x2013;<lpage>453</lpage>. <pub-id pub-id-type="doi">10.1016/j.compedu.2009.03.002</pub-id></mixed-citation></ref>
+<ref id="B38"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Paas</surname> <given-names>F. G. W. C.</given-names></name></person-group> (<year>1992</year>). <article-title>Training strategies for attaining transfer of problem-solving skill in statistics: A cognitive-load approach.</article-title> <source><italic>J. Educ. Psychol.</italic></source> <volume>84</volume> <fpage>429</fpage>&#x2013;<lpage>434</lpage>. <pub-id pub-id-type="doi">10.1037/0022-0663.84.4.429</pub-id></mixed-citation></ref>
+<ref id="B39"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>P&#x00E1;ez-Maldonado</surname> <given-names>J. A.</given-names></name> <name><surname>Reigal</surname> <given-names>R. E.</given-names></name> <name><surname>Morillo-Baro</surname> <given-names>J. P.</given-names></name> <name><surname>Carrasco-Beltr&#x00E1;n</surname> <given-names>H.</given-names></name> <name><surname>Hern&#x00E1;ndez-Mendo</surname> <given-names>A.</given-names></name> <name><surname>Morales-S&#x00E1;nchez</surname> <given-names>V.</given-names></name></person-group> (<year>2020</year>). <article-title>Physical fitness, selective attention and academic performance in a pre-adolescent sample.</article-title> <source><italic>Int. J. Environ. Res. Public Health</italic></source> <volume>17</volume>:<fpage>6216</fpage>. <pub-id pub-id-type="doi">10.3390/ijerph17176216</pub-id> <pub-id pub-id-type="pmid">32867113</pub-id></mixed-citation></ref>
+<ref id="B40"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pi</surname> <given-names>Z.</given-names></name> <name><surname>Hong</surname> <given-names>J.</given-names></name> <name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2017</year>). <article-title>Effects of the instructor&#x2019;s pointing gestures on learning performance in video lectures.</article-title> <source><italic>Br. J. Educ. Technol.</italic></source> <volume>48</volume> <fpage>1020</fpage>&#x2013;<lpage>1029</lpage>. <pub-id pub-id-type="doi">10.1111/bjet.12471</pub-id></mixed-citation></ref>
+<ref id="B41"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ploetzner</surname> <given-names>R.</given-names></name> <name><surname>Schlag</surname> <given-names>S.</given-names></name></person-group> (<year>2013</year>). <article-title>Strategic learning from expository animations: Short-and mid-term effects.</article-title> <source><italic>Compu. Educ.</italic></source> <volume>69</volume> <fpage>159</fpage>&#x2013;<lpage>168</lpage>. <pub-id pub-id-type="doi">10.1016/j.compedu.2013.07.013</pub-id></mixed-citation></ref>
+<ref id="B42"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Posner</surname> <given-names>M. I.</given-names></name> <name><surname>Rothbart</surname> <given-names>M. K.</given-names></name></person-group> (<year>2007</year>). <article-title>Research on attention networks as a model for the integration of psychological science.</article-title> <source><italic>Annu. Rev. Psychol.</italic></source> <volume>58</volume> <fpage>1</fpage>&#x2013;<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.psych.58.110405.085516</pub-id> <pub-id pub-id-type="pmid">17029565</pub-id></mixed-citation></ref>
+<ref id="B43"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Preacher</surname> <given-names>K. J.</given-names></name></person-group> (<year>2015</year>). &#x201C;<article-title>Extreme Groups Designs</article-title>,&#x201D; in <source><italic>The Encyclopedia of Clinical Psychology</italic></source>, <role>eds</role> <person-group person-group-type="editor"><name><surname>Robin, Cautin</surname> <given-names>L.</given-names></name> <name><surname>Scott</surname> <given-names>O.</given-names></name> <name><surname>Lilienfeld</surname></name></person-group> (<publisher-loc>Hoboken, NJ</publisher-loc>: <publisher-name>Wiley</publisher-name>), <fpage>1189</fpage>&#x2013;<lpage>1192</lpage>.</mixed-citation></ref>
+<ref id="B44"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rey</surname> <given-names>G. D.</given-names></name></person-group> (<year>2014</year>). <article-title>Seductive details and attention distraction - an eye tracker experiment.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>32</volume> <fpage>133</fpage>&#x2013;<lpage>144</lpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2013.11.017</pub-id></mixed-citation></ref>
+<ref id="B45"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Roda</surname> <given-names>C.</given-names></name></person-group> (<year>2011</year>). <source><italic>Human Attention in Digital Environments.</italic></source> <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B46"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rodemer</surname> <given-names>M.</given-names></name> <name><surname>Lindner</surname> <given-names>M. A.</given-names></name> <name><surname>Eckhard</surname> <given-names>J.</given-names></name> <name><surname>Graulich</surname> <given-names>N.</given-names></name> <name><surname>Bernholt</surname> <given-names>S.</given-names></name></person-group> (<year>2022</year>). <article-title>Dynamic signals in instructional videos support students to navigate through complex representations: An eye-tracking study.</article-title> <source><italic>Appl. Cognitive. Psych.</italic></source> <volume>36</volume> <fpage>852</fpage>&#x2013;<lpage>863</lpage>. <pub-id pub-id-type="doi">10.1002/acp.3973</pub-id></mixed-citation></ref>
+<ref id="B47"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Scheiter</surname> <given-names>K.</given-names></name> <name><surname>Eitel</surname> <given-names>A.</given-names></name></person-group> (<year>2015</year>). <article-title>Signals foster multimedia learning by supporting integration of highlighted text and diagram elements.</article-title> <source><italic>Learn. Instr.</italic></source> <volume>36</volume> <fpage>11</fpage>&#x2013;<lpage>26</lpage>. <pub-id pub-id-type="doi">10.1016/j.learninstruc.2014.11.002</pub-id></mixed-citation></ref>
+<ref id="B48"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shek</surname> <given-names>D. T.</given-names></name> <name><surname>Wong</surname> <given-names>T.</given-names></name> <name><surname>Li</surname> <given-names>X.</given-names></name> <name><surname>Yu</surname> <given-names>L.</given-names></name></person-group> (<year>2023</year>). <article-title>Use of instructional videos in leadership education in higher education under COVID-19: A qualitative study.</article-title> <source><italic>PLoS One</italic></source> <volume>18</volume>:<fpage>e0291861</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0291861</pub-id> <pub-id pub-id-type="pmid">37733655</pub-id></mixed-citation></ref>
+<ref id="B49"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Short</surname> <given-names>J.</given-names></name> <name><surname>Williams</surname> <given-names>E.</given-names></name> <name><surname>Christie</surname> <given-names>B.</given-names></name></person-group> (<year>1976</year>). <source><italic>The Social Psychology of Telecommunications.</italic></source> <publisher-loc>Chichester</publisher-loc>: <publisher-name>Wiley</publisher-name>.</mixed-citation></ref>
+<ref id="B50"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sorokowska</surname> <given-names>A.</given-names></name> <name><surname>Sorokowski</surname> <given-names>P.</given-names></name> <name><surname>Hilpert</surname> <given-names>P.</given-names></name> <name><surname>Cantarero</surname> <given-names>K.</given-names></name> <name><surname>Frackowiak</surname> <given-names>T.</given-names></name> <name><surname>Ahmadi</surname> <given-names>K.</given-names></name><etal>et al</etal></person-group>. (<year>2017</year>). <article-title>Preferred interpersonal distances: A global comparison.</article-title> <source><italic>J. Cross. Cult. Psychol.</italic></source> <volume>48</volume> <fpage>577</fpage>&#x2013;<lpage>592</lpage>. <pub-id pub-id-type="doi">10.1177/0022022117698039</pub-id></mixed-citation></ref>
+<ref id="B51"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Steinmayr</surname> <given-names>R.</given-names></name> <name><surname>Ziegler</surname> <given-names>M.</given-names></name> <name><surname>Tr&#x00E4;uble</surname> <given-names>B.</given-names></name></person-group> (<year>2010</year>). <article-title>Do intelligence and sustained attention interact in predicting academic achievement?</article-title> <source><italic>Learn. Individ. Differ.</italic></source> <volume>20</volume> <fpage>14</fpage>&#x2013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1016/j.lindif.2009.10.009</pub-id></mixed-citation></ref>
+<ref id="B52"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sweller</surname> <given-names>J.</given-names></name> <name><surname>van Merri&#x00EB;nboer</surname> <given-names>J. J. G.</given-names></name> <name><surname>Paas</surname> <given-names>F.</given-names></name></person-group> (<year>2019</year>). <article-title>Cognitive architecture and instructional design: 20 Years later.</article-title> <source><italic>Edu. Psy. Rev.</italic></source> <volume>31</volume> <fpage>261</fpage>&#x2013;<lpage>292</lpage>. <pub-id pub-id-type="doi">10.1007/s10648-019-09465-5</pub-id></mixed-citation></ref>
+<ref id="B53"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Unsworth</surname> <given-names>N.</given-names></name> <name><surname>Miller</surname> <given-names>A. L.</given-names></name></person-group> (<year>2021</year>). <article-title>Individual differences in the intensity and consistency of attention.</article-title> <source><italic>Curr. Dir. Psychol. Sci.</italic></source> <volume>30</volume> <fpage>449</fpage>&#x2013;<lpage>454</lpage>. <pub-id pub-id-type="doi">10.1177/09637214211030266</pub-id></mixed-citation></ref>
+<ref id="B54"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Veer</surname> <given-names>I. M.</given-names></name> <name><surname>Luyten</surname> <given-names>H.</given-names></name> <name><surname>Mulder</surname> <given-names>H.</given-names></name> <name><surname>van Tuijl</surname> <given-names>C.</given-names></name> <name><surname>Sleegers</surname> <given-names>P. J.</given-names></name></person-group> (<year>2017</year>). <article-title>Selective attention relates to the development of executive functions in 2, 5-to 3-year-olds: A longitudinal study.</article-title> <source><italic>Early Child. Res. Q.</italic></source> <volume>41</volume> <fpage>84</fpage>&#x2013;<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1016/j.ecresq.2017.06.005</pub-id></mixed-citation></ref>
+<ref id="B55"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname> <given-names>X.</given-names></name> <name><surname>Lin</surname> <given-names>L.</given-names></name> <name><surname>Han</surname> <given-names>M.</given-names></name> <name><surname>Spector</surname> <given-names>J. M.</given-names></name></person-group> (<year>2020</year>). <article-title>Impacts of cues on learning: Using eye-tracking technologies to examine the functions and designs of added cues in short instructional videos.</article-title> <source><italic>Comput. Hum. Behav.</italic></source> <volume>107</volume>:<fpage>106279</fpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2020.106279</pub-id></mixed-citation></ref>
+<ref id="B56"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Xie</surname> <given-names>H.</given-names></name> <name><surname>Wang</surname> <given-names>F.</given-names></name> <name><surname>Hao</surname> <given-names>Y.</given-names></name> <name><surname>Chen</surname> <given-names>J.</given-names></name> <name><surname>An</surname> <given-names>J.</given-names></name> <name><surname>Wang</surname> <given-names>Y.</given-names></name><etal>et al</etal></person-group>. (<year>2017</year>). <article-title>The more total cognitive load is reduced by cues, the better retention and transfer of multimedia learning: A meta-analysis and two meta-regression analyses.</article-title> <source><italic>PLoS One</italic></source> <volume>12</volume>:<fpage>e0183884</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0183884</pub-id> <pub-id pub-id-type="pmid">28854205</pub-id></mixed-citation></ref>
+<ref id="B57"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhang</surname> <given-names>Y.</given-names></name> <name><surname>Yang</surname> <given-names>J.</given-names></name></person-group> (<year>2022</year>). <article-title>Exploring gender differences in the instructor presence effect in video lectures: An eye-tracking study.</article-title> <source><italic>Brain Sci.</italic></source> <volume>12</volume>:<fpage>946</fpage>. <pub-id pub-id-type="doi">10.3390/brainsci12070946</pub-id> <pub-id pub-id-type="pmid">35884752</pub-id></mixed-citation></ref>
+</ref-list>
+<fn-group>
+<fn id="n1" fn-type="custom" custom-type="edited-by"><p>Edited by: <ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/3192728/overview">David Donley</ext-link>, New Mexico Highlands University College of Arts and Sciences, United States</p></fn>
+<fn id="n2" fn-type="custom" custom-type="reviewed-by"><p>Reviewed by: <ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/3272599/overview">Yuzhi Sun</ext-link>, Oregon State University, United States</p>
+<p><ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/3547745/overview">Buci Morisson</ext-link>, STAI Daarussalam Sukabumi, Indonesia</p></fn>
+</fn-group>
+</back>
+</article>

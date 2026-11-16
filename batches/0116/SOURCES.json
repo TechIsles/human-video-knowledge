@@ -1,0 +1,114 @@
+{
+  "batch": "0116",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-38c4207659bb/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-38c4207659bb/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1452385/xml",
+      "size_bytes": 151947,
+      "sha256": "4954d10acf08ac1db758d5749598f376bf434400edfd1d6c570edd553c920f16",
+      "git_blob_sha1": "675a6347758649ab3966d447ebf4fecca7133b99",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-38c4207659bb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1452385/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Retain unchanged original XML, authors, publication attribution and embedded copyright/license statement; cite original publication. External figures/images, scripts, supplements and linked articles not downloaded or granted; not a complete offline page or attachment archive.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-27fe6363c5c7/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-27fe6363c5c7/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1066164/xml",
+      "size_bytes": 100940,
+      "sha256": "1656025fb66e9341724968432b3f12ec3dcbec9e24d549663d3122d5efe25b8e",
+      "git_blob_sha1": "7aa9415a90eb50d79f8008cfa0ff153da8478fb3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-27fe6363c5c7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1066164/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Retain unchanged original XML, authors, publication attribution and embedded copyright/license statement; cite original publication. External figures/images, scripts, supplements and linked articles not downloaded or granted; not a complete offline page or attachment archive.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-3d43f7615208/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-3d43f7615208/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2020.590232/xml",
+      "size_bytes": 125739,
+      "sha256": "941b575a11e1045ba287f4f3d51ec12d4eac6832b1443322732c93c79f2fbe31",
+      "git_blob_sha1": "470f902a50e15c1d7dfa26ff9cf69ae1c0944e6a",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3d43f7615208"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2020.590232/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Retain unchanged original XML, authors, publication attribution and embedded copyright/license statement; cite original publication. External figures/images, scripts, supplements and linked articles not downloaded or granted; not a complete offline page or attachment archive.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html",
+      "repository": "web/creativecommons.org",
+      "upstream_path": "licenses/by/4.0/legalcode.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "size_bytes": 48742,
+      "sha256": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+      "git_blob_sha1": "ff01e642021cac7a66bcc26383b834cf484d3a48",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-30830008065e",
+        "SRC-38c4207659bb",
+        "SRC-27fe6363c5c7",
+        "SRC-3d43f7615208"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Retain unchanged original XML, authors, publication attribution and embedded copyright/license statement; cite original publication. External figures/images, scripts, supplements and linked articles not downloaded or granted; not a complete offline page or attachment archive.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    }
+  ]
+}

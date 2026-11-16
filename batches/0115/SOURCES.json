@@ -1,0 +1,143 @@
+{
+  "batch": "0115",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-55eec4d1c626/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-55eec4d1c626/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.1049648/xml",
+      "size_bytes": 165581,
+      "sha256": "1980d78325a206461ea2a9347a21bb3b4822656a3a0e3e9d09414c4552bf79a7",
+      "git_blob_sha1": "6d252cba4842895d9559aaf55c3bb6133e367ca8",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-55eec4d1c626"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.1049648/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-3d9db9c3d50d/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-3d9db9c3d50d/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1848365/xml",
+      "size_bytes": 115005,
+      "sha256": "f6cf5863d9da3bfb3fb2f01a48f1638ed47f240e35544c5525acc0f4f89d8b9a",
+      "git_blob_sha1": "7012b99ce27a224e6734306ad470f0caac6a90e3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3d9db9c3d50d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1848365/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-481f9a068be3/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-481f9a068be3/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.792069/xml",
+      "size_bytes": 94590,
+      "sha256": "4479dabd24990ea19fbd1f9e0d080164ce62b19a94d3f032bccd52e1a46afe10",
+      "git_blob_sha1": "a5c5906ca96216f6307821aad775847efe12c73f",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-481f9a068be3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.792069/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-6591b9f36d1d/article.xml",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-6591b9f36d1d/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1795142/xml",
+      "size_bytes": 132183,
+      "sha256": "56979140c36482ee6f79ee7af06ca04985e781a97cb42f2a7b4cce597ab2dd9e",
+      "git_blob_sha1": "64eba03838749ed0461c1d06347661eedc89ba28",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6591b9f36d1d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1795142/xml",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html",
+      "repository": "web/creativecommons.org",
+      "upstream_path": "licenses/by/4.0/legalcode.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "size_bytes": 48742,
+      "sha256": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+      "git_blob_sha1": "ff01e642021cac7a66bcc26383b834cf484d3a48",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-55eec4d1c626",
+        "SRC-f7a85b03147b",
+        "SRC-3d9db9c3d50d",
+        "SRC-e9f706e503bd",
+        "SRC-481f9a068be3",
+        "SRC-6591b9f36d1d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    }
+  ]
+}

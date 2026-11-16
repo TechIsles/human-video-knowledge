@@ -1,0 +1,60 @@
+{
+  "batch": "0117",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/web__journals.plos.org/SRC-f7a85b03147b/article.xml",
+      "repository": "web/journals.plos.org",
+      "upstream_path": "SRC-f7a85b03147b/article.xml",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3001731&type=manuscript",
+      "size_bytes": 29273,
+      "sha256": "e3c6cf00fdbbc4d49c08f965f33617e3fa6e13fce8a66541f24663ec9b3baacc",
+      "git_blob_sha1": "9ccd6649e3af4a70d3b7b7e228b6a74ac6ae0ae6",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f7a85b03147b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3001731&type=manuscript",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    },
+    {
+      "file": "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html",
+      "repository": "web/creativecommons.org",
+      "upstream_path": "licenses/by/4.0/legalcode.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "size_bytes": 48742,
+      "sha256": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+      "git_blob_sha1": "ff01e642021cac7a66bcc26383b834cf484d3a48",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f7a85b03147b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ],
+      "conditions": "Unmodified original publisher response; retain original author, copyright, article citation and CC BY 4.0 attribution.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/web__creativecommons.org/licenses/by/4.0/legalcode.html"
+      ]
+    }
+  ]
+}

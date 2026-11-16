@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="EN" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Commun.</journal-id>
+<journal-title>Frontiers in Communication</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Commun.</abbrev-journal-title>
+<issn pub-type="epub">2297-900X</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3389/fcomm.2022.1049648</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Communication</subject>
+<subj-group>
+<subject>Original Research</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Building a collaborative, university-based science-in-action video storytelling model that translates science for public engagement and increases scientists&#x00027; relatability</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name><surname>Seidel</surname> <given-names>Dena K.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="c001"><sup>&#x0002A;</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/1751151/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Morin</surname> <given-names>Xenia K.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/1999013/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Staffen</surname> <given-names>Marissa</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/2012286/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Ludescher</surname> <given-names>Richard D.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Simon</surname> <given-names>James E.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/1266199/overview"/>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Schofield</surname> <given-names>Oscar</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+<uri xlink:href="http://loop.frontiersin.org/people/283963/overview"/>
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>1</sup><institution>Rutgers Center for Agricultural Food Ecosystems, Institute for Food Nutrition and Health, Rutgers University</institution>, <addr-line>New Brunswick, NJ</addr-line>, <country>United States</country></aff>
+<aff id="aff2"><sup>2</sup><institution>Department of Marine and Coastal Sciences, Rutgers University</institution>, <addr-line>New Brunswick, NJ</addr-line>, <country>United States</country></aff>
+<aff id="aff3"><sup>3</sup><institution>Department of Plant Biology, Rutgers University</institution>, <addr-line>New Brunswick, NJ</addr-line>, <country>United States</country></aff>
+<aff id="aff4"><sup>4</sup><institution>Department of 4-H Youth Development, Essex County Cooperative Extension, Rutgers University</institution>, <addr-line>New Brunswick, NJ</addr-line>, <country>United States</country></aff>
+<aff id="aff5"><sup>5</sup><institution>Department of Food Science, Rutgers University</institution>, <addr-line>New Brunswick, NJ</addr-line>, <country>United States</country></aff>
+<author-notes>
+<fn fn-type="edited-by"><p>Edited by: Tracylee Clarke, California State University Channel Islands, United States</p></fn>
+<fn fn-type="edited-by"><p>Reviewed by: Jos&#x000E9; Castro-Sotomayor, California State University Channel Islands, United States; Kerry Vachta, Carleton College, United States</p></fn>
+<corresp id="c001">&#x0002A;Correspondence: Dena K. Seidel &#x02709; <email>dena.seidel&#x00040;rutgers.edu</email></corresp>
+<fn fn-type="other" id="fn001"><p>This article was submitted to Science and Environmental Communication, a section of the journal Frontiers in Communication</p></fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>11</day>
+<month>01</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2022</year>
+</pub-date>
+<volume>7</volume>
+<elocation-id>1049648</elocation-id>
+<history>
+<date date-type="received">
+<day>20</day>
+<month>09</month>
+<year>2022</year>
+</date>
+<date date-type="accepted">
+<day>20</day>
+<month>12</month>
+<year>2022</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#x000A9; 2023 Seidel, Morin, Staffen, Ludescher, Simon and Schofield.</copyright-statement>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Seidel, Morin, Staffen, Ludescher, Simon and Schofield</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/"><p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p></license>
+</permissions>
+<abstract>
+<p>Collaborating scientists and storytellers successfully built a university-based science-in-action video storytelling model to test the research question: Can university scientists increase their relatability and public engagement through science-in-action video storytelling? Developed over 14 years, this science storytelling model produced more than a dozen high-visibility narratives that translated science to the public and featured scientists, primarily environmental and climate scientists, who are described in audience surveys as relatable people. This collaborative model, based on long-term trusting partnerships between scientists and video storytellers, documented scientists as they conducted their research and together created narratives intended to humanize scientists as authentic people on journeys of discovery. Unlike traditional documentary filmmaking or journalism, the participatory nature of this translational science model involved scientists in the shared making of narratives to ensure the accuracy of the story&#x00027;s science content. Twelve science and research video story products have reached broad audiences through a variety of venues including television and online streaming platforms such as Public Broadcasting Service (PBS), Netflix, PIVOT TV, iTunes, and Kanopy. With a reach of over 180 million potential public audience viewers, we have demonstrated the effectiveness of this model to produce science and environmental narratives that appeal to the public. Results from post-screening surveys with public, high school, and undergraduate audiences showed perceptions of scientists as relatable. Our data includes feedback from undergraduate and high school students who participated in the video storytelling processes and reported increased relatability to both scientists and science. In 2022, we surveyed undergraduate students using a method that differentiated scientists&#x00027; potential relatable qualities with scientists&#x00027; passion for their work, and the scientists&#x00027; motivation to help others, consistently associated with relatability. The value of this model to scientists is offered throughout this paper as two of our authors are biological scientists who were featured in our original science-in-action videos. Additionally, this model provides a time-saving method for scientists to communicate their research. We propose that translational science stories created using this model may provide audiences with opportunities to vicariously experience scientists&#x00027; day-to-day choices and challenges and thus may evoke audiences&#x00027; ability to relate to, and trust in, science.</p>
+</abstract>
+<kwd-group>
+<kwd>video storytelling</kwd>
+<kwd>science communication</kwd>
+<kwd>relatability</kwd>
+<kwd>trust</kwd>
+<kwd>higher education</kwd>
+<kwd>STEM learning model</kwd>
+<kwd>public engagement</kwd>
+</kwd-group>
+<contract-sponsor id="cn001">National Science Foundation<named-content content-type="fundref-id">10.13039/100000001</named-content></contract-sponsor>
+<contract-sponsor id="cn002">National Institute of Food and Agriculture<named-content content-type="fundref-id">10.13039/100005825</named-content></contract-sponsor>
+<contract-sponsor id="cn003">United States Agency for International Development<named-content content-type="fundref-id">10.13039/100000200</named-content></contract-sponsor>
+<counts>
+<fig-count count="11"/>
+<table-count count="4"/>
+<equation-count count="0"/>
+<ref-count count="102"/>
+<page-count count="23"/>
+<word-count count="13871"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec id="s1">
+<title>1. Introduction</title>
+<p>The relative invisibility of most scientists and the work they do can lead to perceptions of scientists as unrelatable, a critical challenge to gaining public trust in science (Funk et al., <xref ref-type="bibr" rid="B30">2019</xref>). Most Americans do not know a scientist personally as scientists make up less than one percent of the US population (UNESCO, <xref ref-type="bibr" rid="B98">2015</xref>). Pew Research Center&#x00027;s (<xref ref-type="bibr" rid="B67">2020</xref>) 26 country survey found that recent trends in divisive politics has increased public distrust in environmental and climate scientists and their results. This has significant societal implications as the public&#x00027;s perception of scientists&#x00027; credibility plays an important role in support for policy that integrates climate science (Brewer and Ley, <xref ref-type="bibr" rid="B13">2012</xref>; Boele-Woelki et al., <xref ref-type="bibr" rid="B11">2018</xref>). Overall, the public&#x00027;s trust in scientists as messengers of fact is centrally important for the effective transfer of scientific knowledge to broader, non-science communities (Brewer and Ley, <xref ref-type="bibr" rid="B13">2012</xref>; Fiske and Dupree, <xref ref-type="bibr" rid="B27">2014</xref>; Hendriks et al., <xref ref-type="bibr" rid="B37">2016</xref>; Martinez-Conde and Macknik, <xref ref-type="bibr" rid="B55">2017</xref>).</p>
+<p>Scientists clearly recognize this gap in relatability and trust. The 2021 Scientist Opinion Panel Survey (SciOPS, <xref ref-type="bibr" rid="B87">2021</xref>) of UUS-based scientists showed that 95% of the scientists listed &#x0201C;enhancing public trust in science&#x0201D; as a top priority. Yet, many scientists feel they do not have the time or knowledge to make themselves and their science more relatable to the public (Burdett et al., <xref ref-type="bibr" rid="B14">2021</xref>) though would be willing to do so if a means was embedded within their organizations.</p>
+<p>Incentives have been created to motivate scientists to communicate their research and engage with the public (Laursen and Brickley, <xref ref-type="bibr" rid="B51">2011</xref>). The National Science Foundation&#x00027;s (NSF) &#x0201C;broader impact&#x00027; goals have been built into the merit peer review criteria for science proposals (National Science Foundation, <xref ref-type="bibr" rid="B62">2015</xref>) and NSF has long invested in accurately communicating science research in hopes of making science relatable to the public and ensuring science&#x00027;s legitimacy within public decision-making (Webler and Tuler, <xref ref-type="bibr" rid="B99">2018</xref>). However, establishing reliable and effective methodologies for scientists to engage with the public remains a fundamental challenge (Moser, <xref ref-type="bibr" rid="B59">2010</xref>) and very few science storytelling models, as opposed to marketing models, are embedded in universities for use by scientists.</p>
+<p>Stories are widely understood to be one of the most impactful ways to make scientists and their science relatable to the larger public (Dahlstrom, <xref ref-type="bibr" rid="B18">2014</xref>; Jones and Anderson Crow, <xref ref-type="bibr" rid="B45">2017</xref>; Joubert et al., <xref ref-type="bibr" rid="B47">2019</xref>). The time-based video medium is one of the most powerful science storytelling tools (Angelone, <xref ref-type="bibr" rid="B1">2019</xref>) because it engages viewers visually, aurally, viscerally, and emotionally (Hasson et al., <xref ref-type="bibr" rid="B36">2008</xref>; Berlin, <xref ref-type="bibr" rid="B6">2016</xref>; Martinez-Conde and Macknik, <xref ref-type="bibr" rid="B55">2017</xref>). Unlike many science communication approaches, video storytelling allows for &#x02018;character engagement&#x00027; which is described by cognitive scholars (Smith, <xref ref-type="bibr" rid="B94">1994</xref>; Bondebjerg, <xref ref-type="bibr" rid="B12">2014</xref>; Plantinga, <xref ref-type="bibr" rid="B68">2018</xref>) as the process by which an audience has a vicarious emotional experience with the people on the screen. Video stories that use scientists&#x00027; personal reflections (Ranalli, <xref ref-type="bibr" rid="B73">2013</xref>), understood to be the opposite of objective scientific data, appear to increase the accessibility and transfer of scientific information to the public (Suzuki et al., <xref ref-type="bibr" rid="B97">2018</xref>) as first-person narratives increase audiences&#x00027; positive perceptions of a scientist&#x00027;s relatability and authenticity (Lin, <xref ref-type="bibr" rid="B52">2013</xref>; Saffran et al., <xref ref-type="bibr" rid="B83">2020</xref>).</p>
+<p>In 2008, based on the potential power of video stories, we hypothesized that we could make progress in communicating university-based scientific research through video storytelling that would engage a public audience. Over the past 14 years, we have continued to develop our model driven by the research question: can university scientists increase their relatability and public engagement through science-in-action video storytelling? Our model provides evidence that storytelling, as a translation process, can be used by environmental and climate scientists to allow audiences to immersively witness both scientists-in-action and environmental change by way of a time-based visual narratives and is informed by Peters (<xref ref-type="bibr" rid="B66">2001</xref>) and Jenkins (<xref ref-type="bibr" rid="B43">2009</xref>) and recently by Lam and Tegelberg (<xref ref-type="bibr" rid="B50">2019</xref>) and Bieniek-Tobasco et al. (<xref ref-type="bibr" rid="B10">2020</xref>).</p>
+<p>In this paper, we outline our successes, share our methodology, and argue that university scientists, by demonstrating their willingness to make their research methods, data, and their journey public (Dahlstrom, <xref ref-type="bibr" rid="B18">2014</xref>; Jamieson et al., <xref ref-type="bibr" rid="B41">2019</xref>) through video storytelling, can improve public perceptions of scientists as relatable. For the purposes of this article, we use the Merriam-Webster definition of <italic>relatable</italic> to mean &#x0201C;able to be related to: possible to understand, like, or have sympathy for because of similarities to oneself or one&#x00027;s own experiences&#x0201D; (Merriam-Webster Dictionary, <xref ref-type="bibr" rid="B57">2022</xref>). Moreover, we argue that scientists who use science video narratives (Cin et al., <xref ref-type="bibr" rid="B16">2004</xref>; Avraamidou and Osborne, <xref ref-type="bibr" rid="B3">2009</xref>) to communicate their science may in turn increase public trust in their science.</p>
+<p>Documentary ethics (Nichols, <xref ref-type="bibr" rid="B63">2016</xref>) also shaped this collaborative model&#x00027;s ability to present scientists as complex, relatable humans with origins in ethnographic filmmaking that allowed for greater communication between anthropologists and those observed (Young, <xref ref-type="bibr" rid="B101">1995</xref>; MacDougall, <xref ref-type="bibr" rid="B53">2020</xref>). Derived from cinema verit&#x000E9;, or cinema truth, and coined by anthropologist Rouch (<xref ref-type="bibr" rid="B79">1974</xref>) this process recognizes the camera as an ethnographic tool used to build new understanding between those controlling the camera and whose activities they are documenting.</p>
+</sec>
+<sec id="s2">
+<title>2. Materials and methods</title>
+<p>This paper, written by the video storytellers and scientists involved in developing this model, describes the outcomes of science and environmental video storytelling projects developed at Rutgers University from 2008 until the present. Key elements behind our methods are described in the sections below: (2.1) The storytelling framework, (2.2) Establishing, building, and maintaining trusting relationships between scientists and video storytellers, (2.3) University-based video storytellers embed themselves in the scientific world, (2.4) Involving students in the creation of science-in-action stories, (2.5) Shaping science-in-action video footage into narratives for public audiences, (2.6) Verification of science content, (2.7) Pre-distribution test screenings, (2.8) Disseminating science video products to the public, and (2.9) Methods for assessing the impact of science-in-action video story process and products. The video stories produced from our model also feature the work of social scientists who investigate a wide range of research questions.</p>
+<sec>
+<title>2.1. The storytelling framework</title>
+<p>Our storytelling framework and our collaborative model described in this paper, herein referred to as &#x0201C;science-in-action video storytelling,&#x0201D; combines observational and participatory documentary methods and involves both videographers and scientists in the creation of narratives (Maggio, <xref ref-type="bibr" rid="B54">2014</xref>) that feature scientists as relatable people conducting science as journeys of discovery. Observational video storytelling is intended to <italic>show</italic> the actions (Young, <xref ref-type="bibr" rid="B101">1995</xref>) and experiences (Carta, <xref ref-type="bibr" rid="B15">2015</xref>) of real people and thus has the potential to allow audiences to witness the steps scientists take to conduct their research.</p>
+<p>The framework for our science-in-action video storytelling is outlined in <xref ref-type="fig" rid="F1">Figure 1</xref>. Here we illustrate our video storytelling guidelines for shaping verit&#x000E9; science footage into a traditional storytelling arc that embeds the scientist&#x00027;s process of inquiry as a journey of discovery. This framework was used for short- and long-form science video stories told entirely in the voices of the scientists without the use of narration.</p>
+<fig id="F1" position="float">
+<label>Figure 1</label>
+<caption><p>Framework for science-in-action video storytelling.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0001.tif"/>
+</fig>
+<p>This framework requires the video storytellers to first establish trusting relationships with the scientists and the science community conducting the research and then capture the scientists&#x00027; journey and process of discovery on video. Through editing and selection of key &#x0201C;science-in-action&#x0201D; video moments, the storytellers then translate and shape the scientist&#x00027;s journey into a narrative to engage the public. Our framework has remained consistent throughout the work but our approach to working with the scientists has evolved. Our current approach also takes into account recent research on the process of non-fiction video storytelling as an ethnographic qualitative research method that can be used to better understand human behavior (Fitzgerald and Lowe, <xref ref-type="bibr" rid="B28">2020</xref>) and in the case of our model, the choices, motivations, activities, and goals of scientists and their scientific communities.</p>
+</sec>
+<sec>
+<title>2.2. Establishing, building, and maintaining trusting relationships between scientists and video storytellers</title>
+<p>Over several years, scientists partnered with one of us, a professional storyteller and professor/instructor trained in both verit&#x000E9; documentary filmmaking and cultural anthropology and partnered with undergraduate students from a variety of majors, to co-create science film stories (<xref ref-type="fig" rid="F2">Figure 2</xref>). The participating scientists were enthusiastic about their research and process of discovery and the videographers, in turn, were inspired to document a meaningful, unfolding story within a scientific community. What was most important was the shared understanding of the importance of the science story and a mutual interest in working together. Typically, it took between 1 month and one or more years from initial conversations to the start of a project. Resources, funding, and scientists&#x00027; and video storytellers&#x00027; availability were critical to deciding the scale of the projects.</p>
+<fig id="F2" position="float">
+<label>Figure 2</label>
+<caption><p>Undergraduate students from a variety of majors document marine scientists in Spain <bold>(left)</bold> and document farming families working with agriculture scientists and plant biologists in Zambia <bold>(right)</bold>.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0002.tif"/>
+</fig>
+<p>Building trust between the parties was facilitated by conversations that aligned expectations and established clear rules for collaboration throughout the process. In 2012 NSF awarded a Communicating Research to Public Audiences (CRPA) proposal in which we described our science storytelling model as &#x0201C;proven to take the time to develop relationships of trust with world-renowned scientists searching for answers to large problems relevant to all peoples.&#x0201D; A critical trust-building measure was the videographers&#x00027; guarantee that scientists would be involved in deciding how best to document their scientific process and that the scientists would be able to review the final story for scientific accuracy. In turn, the scientists assured the videographers&#x00027; access to document their work and agreed to explain their scientific and personal processes along the way. Thus video storytellers, including undergraduates, were recognized as creative partners and not merely as promotional agents for the scientists&#x00027; messaging.</p>
+<p>The ability for scientists to be involved in shaping and verifying the story&#x00027;s science content for accuracy, as well as being able to protect their science footage, is unique to this model. Unlike traditional science journalism or scripted science documentaries where the writers/filmmakers have the final say, the collaborative nature of our model provided opportunities for scientists&#x00027; input prior to the film&#x00027;s release. This approach is intended to increase scientists&#x00027; comfort in sharing their personal science journeys. Additionally, videographers and scientists agreed that the science footage collected because of their partnership would be protected by both parties with video storytellers using the footage to create science narratives and the scientists using the footage as research data.</p>
+<p>More recently, based on the success of this approach, our model was extended to include high school students in out-of-school programs as science story co-creators. These students were explicitly instructed on the importance of building trust with the scientists and instructed that film products are not copied nor shared outside the group during the project (for more details, see section Involving students in the creation of science-in-action stories).</p>
+</sec>
+<sec>
+<title>2.3. University-based video storytellers embed themselves in the scientific world</title>
+<p>Our university-based, science storytellers embed themselves within the scientists&#x00027; labs or field sites with the goal of capturing the researchers&#x00027; day-to-day work testing hypotheses, including the tedious process of data collection and the rare but exciting moments of discovery and adventure. This requires a rather intense time commitment by all as an active collaboration involves regular, often daily, communication between video storytellers and scientists who willingly answering on-camera questions about their scientific steps, choices, and challenges. Embedded video storytellers documented over days to months, depending on the anticipated length of the final story, and were prepared to edit potentially several 100 h of science-in-action video footage into character-driven narratives told in the voices of the scientists and accessible to broad, public audiences (ElShafie, <xref ref-type="bibr" rid="B22">2018</xref>).</p>
+</sec>
+<sec>
+<title>2.4. Involving students in the creation of science-in-action stories</title>
+<p>Undergraduate students from across a diversity of university majors and schools, enrolled in elective video storytelling classes, were invited to participate in the production of short and long form documentaries featuring scientists-in-action. Importantly, we found that an instructor with professional experience in science filmmaking and skill in videography and long-form verit&#x000E9; documentary editing was necessary to mentor and supervise these collaborative projects. Undergraduates in these classes were provided with video cameras, audio field recorders, and editing computers with external hard drives and media servers to store footage of scientists doing their work.</p>
+<p>With digital recording and editing technologies in hand, undergraduates were partnered with participating scientists under the supervision of their instructor. These student video storytellers immersed themselves in new bodies of knowledge with the pride of authorship and the responsibility to tell a meaningful story to a broad audience. Students were assigned creative roles based on their experience and proven skill. Some students served as directors of short scenes, as camera operators, sound recordists, or editors while others, newer to the process, began by transcribing scientists&#x00027; interviews. Long-form science documentaries required an instructor who had oversight of the project that generally took years to complete. Students participated in the making of long-form science stories for a few semesters but were rarely able to stay involved for the entirety of the project. Only one long-form documentary, <italic>The Princess of Piombino</italic> (Elise et al., <xref ref-type="bibr" rid="B21">2015</xref>), featuring art historians and humanities researchers, was directed by undergraduates. Other shorter film stories were directed by undergraduates. There were times when remote field science locations were inaccessible to students for safety reasons, in which case the instructor (DS) oversaw the production and brought the video footage back to the classroom.</p>
+<p>Students began their science video projects with the understanding that these were real-life science stories containing truths that must be accurately communicated within a narrative structure intended for a public audience. The ethics of film making was also discussed. The science storytelling instructor faculty provided in-class assignments to shape science footage that might include new student-led interviews. In-class screening days motivated students to create scenes that impressed and excited their peers. The students&#x00027; editing choices also provided a translational process that shaped the science video data into a form that was attractive and relatable to a young audience. If film footage was not available, prior to filming, students met with the instructor to discuss and finalize the stylistic approach, and to assemble the team with the right technical skills and equipment (e.g., lenses, filters) for the documentary shoot. For example, the student directors of <italic>Skycatcher</italic> (see <xref ref-type="supplementary-material" rid="SM1">Supplementary Table 1</xref>) specifically wanted to frame the opening shots in &#x0201C;Wes Anderson&#x0201D; style to appeal to their peer audience (college students).</p>
+<p>The objective of this methodology was to uniquely bridge science learning (Freeman et al., <xref ref-type="bibr" rid="B29">2014</xref>) and science communication (Baram-Tsabari and Osborne, <xref ref-type="bibr" rid="B4">2015</xref>) by way of repeated engagement with science content through video storytelling (Dando and Chadwick, <xref ref-type="bibr" rid="B19">2013</xref>; Meager, <xref ref-type="bibr" rid="B56">2019</xref>). At the same time, student authorship through collaborative storytelling was understood to facilitate long-term learning by way of interdisciplinary meaning-making (Jones, <xref ref-type="bibr" rid="B46">2005</xref>; Dettori, <xref ref-type="bibr" rid="B20">2015</xref>).</p>
+<p>As part of this interdisciplinary education process, scientists would visit the science storytelling classes to give presentations about their science (<xref ref-type="fig" rid="F3">Figure 3</xref>), review student-edited scenes featuring their science, and provide feedback and individual mentoring. In 2021, this mentorship was extended to include high school students who had authored original science video stories made in partnership with university researchers. In expanding the model to high school students in an out-of-school program, students interviewed scientists on camera and worked with transcripts from these interviews to create and direct short science narratives by working with a professional editor. The students were supported in the development of their stories through weekly meetings with their story advisor. On-camera interviews of the high school students were also included to allow student voices to be incorporated into the storytelling. The students&#x00027; stories were shared with the scientists for feedback before final editing.</p>
+<fig id="F3" position="float">
+<label>Figure 3</label>
+<caption><p>Undergraduate students from a variety of majors edit video footage of scientists working in Antarctica <bold>(left)</bold>. Dr. Oscar Schofield provides climate science lectures to students who are helping to edit Antarctic Edge: 70&#x000B0; South <bold>(right)</bold>.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0003.tif"/>
+</fig>
+</sec>
+<sec>
+<title>2.5. Shaping science-in-action video footage into narratives for public audiences</title>
+<p>Shaping the video footage into dramatic narratives that appeal to, and engage, broad audiences (ElShafie, <xref ref-type="bibr" rid="B22">2018</xref>) was the objective of the science-in-action video projects and the motivation for scientists&#x00027; participation and student co-authorship (Wiebe, <xref ref-type="bibr" rid="B100">2016</xref>). Additionally, character-driven narratives sought to challenge common stereotypes of scientists, for example, &#x0201C;smart&#x02026;awkward, unsociable, typically white-haired male nerds&#x0201D; (Jarreau, <xref ref-type="bibr" rid="B42">2019</xref>) by capturing on film a diversity of people doing science and by sharing the human stories of these scientists which includes their struggles and challenges as well as their sense of fun and humor.</p>
+<p>Undergraduate students were trained in the basics of narrative structure that includes plot development, exposition, rising action, climax, and denouement all as part of the protagonist&#x00027;s journey and transformation built from scientists&#x00027; real-life backstories and present work. Student creativity was encouraged within the boundaries of accurate representation of the scientists, their motives (Rabinovich et al., <xref ref-type="bibr" rid="B72">2012</xref>), and their research, thus limiting the students&#x00027; manipulation of the material.</p>
+<p>The science stories were edited, screened, and re-edited for effective narrative structure including an appropriate introduction of a dramatic question. It was generally easy to present scientists as protagonists within the video narrative, illustrated in <xref ref-type="fig" rid="F1">Figure 1</xref>, as the scientists generally pursued goals that are larger than themselves, and these goals, if reached, are perceived to benefit society.</p>
+<p>Animation was often used to communicate scientific concepts that could not be captured by a conventional video camera. Editing techniques were used to enhance the story such as compressing or slowing time to analyze a moment or communicate the scale of the research.</p>
+<p>When editing feature-length science videos, students&#x00027; initial organization of the raw footage helped translate and inspire the style of the larger story. As part of the classroom experience, these student-edited scenes were then modified and reshaped by the instructor, and by former students who were hired and had been trained in this model, to be integrated into the larger science documentaries. The undergraduates remained engaged at all stages of the feature-length story construction through storyboarding and screening processes and each student received creative credit on the final product depending on their level of participation.</p>
+</sec>
+<sec>
+<title>2.6. Verification of science content</title>
+<p>All video narratives were fact-checked for their accuracy either by the scientist/researcher featured in the video or by other members of their research teams. Those editing the science films, be they instructors, hired former students, or current students, would make corrections based on this feedback and these changes were checked for accuracy.</p>
+</sec>
+<sec>
+<title>2.7. Pre-distribution test screenings</title>
+<p>Rough and fine cuts of the video stories were regularly screened to undergraduate and high school students to assess the effectiveness of the narratives to both engage and communicate science.</p>
+</sec>
+<sec>
+<title>2.8. Disseminating science video products to the public</title>
+<p>One of us (DS) was the professor responsible for securing public distribution partnerships for the finished science stories. This was often done in collaboration with public platforms of funding agencies such as the Environmental Protection Agency (EPA), National Science Foundation (NSF), United States Department of Agriculture (USDA), United States Agency for International Development (USAID), as well as university-based social media, local PBS stations, and film festivals. Through partnerships with television broadcasters and professional film distribution companies, Rutgers&#x00027; produced feature-length science-in-action video stories were able to reach broad audiences including local and national PBS and cable television stations as well as online platforms such as PBS Learning Media (<xref ref-type="bibr" rid="B65">2014</xref>), Netflix, Amazon, iTunes, and Kanopy.</p>
+</sec>
+<sec>
+<title>2.9. Methods for assessing the impact of science-in-action video story process and products</title>
+<p>For <italic>Antarctic Edge: 70 Degrees South</italic>, third-party external evaluators Rockman et al. Research and Evaluation, a research and evaluation firm (herein referred to as Rockman), conducted a summative evaluation using IRB-approved pre- and post-surveys for public audiences and conducted semi-structured questions with small focus groups (Rockman et al. Research and Evaluation, <xref ref-type="bibr" rid="B77">2015</xref>). Undergraduate students who participated in the making of <italic>Antarctic Edge</italic> were interviewed in person and asked to answer IRB-approved survey questions about their experiences. In 2022, high school students who participated in the Rutgers FAME science storytelling project answered IRB-approved online survey questions about their experiences.</p>
+<p>Undergraduate students who watched an early draft of a new science film product made from this model titled <italic>Fields of Devotion</italic> were given the option to participate in an anonymous online survey about the reliability of the scientists in the video story. Data was collected and analyzed from 102 undergraduates in five classes from March 31 to April 10, 2022.</p>
+</sec>
+</sec>
+<sec id="s3">
+<title>3. Results</title>
+<sec>
+<title>3.1. Outreach and impact on public audiences</title>
+<p>Our first Rutgers university produced science-in-action video story that formed the basis of our model featured the day-to-day choices and challenges of oceanographers navigating an unmanned underwater robot across the Atlantic as part of their NOAA funded ocean observation research. In 2008, one of us (DS), serving as a creative writing professor in the university&#x00027;s English department, was asked to document marine scientists&#x00027; historic and challenging endeavors and involve undergraduate students in the video storytelling process. After 2 years of digital filming, the feature length verit&#x000E9; science documentary <italic>Atlantic Crossing: A Robot&#x00027;s Daring Mission</italic> (Seidel, <xref ref-type="bibr" rid="B88">2010</xref>; Glenn et al., <xref ref-type="bibr" rid="B31">2011</xref>) premiered at the Smithsonian&#x00027;s Baird Theater and was central to a Smithsonian Sant Ocean Hall exhibit featuring the historic science mission (<xref ref-type="fig" rid="F4">Figure 4</xref>). Between 2010&#x02013;2012<italic>, Atlantic Crossing</italic> aired more than 400 times on PBS stations reaching a potential audience of 180 million people (<xref ref-type="fig" rid="F5">Figure 5</xref>). <italic>Atlantic Crossing&#x00027;s</italic> success attracted other researchers who wished to have their stories told.</p>
+<fig id="F4" position="float">
+<label>Figure 4</label>
+<caption><p><italic>Atlantic Crossing: A Robot&#x00027;s Daring Mission</italic> was part of a Smithsonian Sant Ocean Hall exhibit from 2010 to 2013.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0004.tif"/>
+</fig>
+<fig id="F5" position="float">
+<label>Figure 5</label>
+<caption><p>TRAC Media Services, a leading television audience research firm, prepared a Carriage Summary of the audience reach of <italic>Atlantic Crossing: A Robot&#x00027;s Daring Mission</italic>. Results showed that between 2010 to 2012, <italic>Atlantic Crossing</italic> aired 447 times on PBS stations across the nation reaching a potential audience of 180 million people.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0005.tif"/>
+</fig>
+<p>The next science-in-action video story project sent two undergraduates to Thailand to document Engineers Without Borders students building a water purification system in a remote village. The resulting <italic>Thailand Untapped: The Global Reach of Engineers without Borders</italic> (Eyong et al., <xref ref-type="bibr" rid="B23">2012</xref>) was nominated for a Mid Atlantic Emmy award.</p>
+<p>The success and public reach of <italic>Atlantic Crossing</italic> and <italic>Thailand Untapped</italic> led to university funding support for this model and the establishment of a digital filmmaking certificate program (Hoffman, <xref ref-type="bibr" rid="B38">2011</xref>) where, over the course of the next 4 years, more than a dozen additional science/research-based non-fiction video stories would be produced, each with undergraduates&#x00027; involvement (<xref ref-type="fig" rid="F6">Figure 6</xref>).</p>
+<fig id="F6" position="float">
+<label>Figure 6</label>
+<caption><p>Posters from original science-in-action video stories that reached public audiences through a variety of platforms including Netflix, Kanopy, iTunes, Public Broadcasting Service (PBS), PIVOT Channel and national funding agency websites.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0006.tif"/>
+</fig>
+<p>Several of the student co-authored science video stories were funded by federal grants including <italic>Skycatcher</italic> (Feuer et al., <xref ref-type="bibr" rid="B25">2013</xref>), documented in Alabama by three undergraduates as part of a National Science Foundation (NSF) atmospheric chemistry field study. Another undergraduate student traveled to Zambia to document USAID funded agriculture research led by indigenous farmers in <italic>the Women of Nsongwe</italic> (Isaacs, <xref ref-type="bibr" rid="B40">2014</xref>; Rutgers Magazine, <xref ref-type="bibr" rid="B80">2014</xref>). In addition, the National Oceanic and Atmospheric Association funded a three-part short science video story series titled Ocean Stories (Seidel, <xref ref-type="bibr" rid="B89">2013</xref>).</p>
+<p>Our model&#x00027;s most prominent science-in-action video story, <italic>Antarctic Edge: 70</italic>&#x000B0; <italic>South</italic> (Seidel, <xref ref-type="bibr" rid="B91">2015a</xref>), was funded by the Nation Science Foundation. In 2012, NSF awarded a Communicating Research to Public Audiences (CRPA) grant to Oscar Schofield (PI) and Dena Seidel (Co-PI) for the production of a feature documentary capturing climate scientists working in the West Antarctic Peninsula. By developing trust between video storytellers and scientists, the process outlined in the CRPA grant proposal allowed the videographers to &#x0201C;gain intimate access to the scientific process, not simply in the form of facts and data but as a mode of experimentation, discovery and understanding.&#x0201D; This collaborative storytelling approach provided an opportunity for NSF to leverage its considerable investment in the foundation&#x00027;s Long Term Ecological Research (LTER) program at Palmer Station in the West Antarctic Peninsula (Pal-LTER) with the goal of advancing the public&#x00027;s environmental and climate change literacy.</p>
+<p>After 6 weeks traveling with the Antarctic scientists, the professor (DS) who was also the science story&#x00027;s director, returned to the university with more than 400 h of science-in-action video footage. Participating undergraduate students were told of the ethical obligation to accurately communicate a science story and provide scientists with the opportunity to approve the video&#x00027;s science content before it was shown outside the classroom. <italic>Antarctic Edge&#x00027;s</italic> science communication goals, intended to increase public science literacy, were outlined and established at the beginning of the project as:</p>
+<list list-type="bullet">
+<list-item><p>Climate change scientists are relatable people who collect large amounts of data</p></list-item>
+<list-item><p>Climate change science is detailed work requiring many disciplines to work together</p></list-item>
+<list-item><p>The global ocean system plays a critical role in the earth&#x00027;s climate</p></list-item>
+<list-item><p>Environmental changes in Antarctica affect the rest of the planet</p></list-item>
+<list-item><p>Collecting data in an extreme environment is a challenging process.</p></list-item>
+</list>
+<p>Undergraduate students with all levels of video storytelling skills and experience were invited to engage with the <italic>Antarctic Edge</italic> footage (National Science Foundation, <xref ref-type="bibr" rid="B61">2013</xref>). Over the course of four semesters, these students had the opportunity to interview polar scientists and then edit scenes from the Antarctic footage into short video stories that communicated the scientific process. Students newer to the video storytelling process began by transcribing the scientists&#x00027; interviews but each interested undergraduate was able to engage with, and learn from, the Antarctic science footage. Students were also included in discussions about the feature video&#x00027;s final structure, notably how and when to interweave the scientists&#x00027; authentic moments with scientific content.</p>
+</sec>
+<sec>
+<title>3.2. Scientists&#x00027; relatability helps communicate science</title>
+<p>When shaping the vast amounts of verit&#x000E9; science video footage for <italic>Antarctic Edge</italic>, authentic personal and relatable moments were often placed before scientific explanations to increase audience retention of the information being learned (Morris et al., <xref ref-type="bibr" rid="B58">2019</xref>; Armstrong, <xref ref-type="bibr" rid="B2">2020</xref>). For example, in <italic>Antarctic Edge</italic>, oceanographer Oscar Schofield shared vulnerable feelings of missing his family, an opportunity for the audience to relate to him as a person.</p>
+<p>Schofield stated:</p>
+<disp-quote><p>&#x0201C;I was coming down here as a graduate student to study the ozone hole, and it was very exciting. I had just gotten married, went home, and had a baby. Got my daughter. In&#x00027;93, it was time to go back, and I went down for a six-month expedition. And when I got home I missed her second birthday, and I remember sort of coming up to her in daycare and, you know, her just touching me. Not even talking and&#x02026;[pause]...that was pretty emotional. So I took about a ten-year break. I&#x00027;d made a conscious decision to go coastal after that. It was a good decision, because actually the coastal oceanographers have been thinking a lot about technology. Me and my buddies in the coastal system actually spent a decade trying to figure out better ways to study the ocean.&#x0201D;</p></disp-quote>
+<p>The emotional dimension of this scene humanized Schofield and opened the opportunity for the audience to be more receptive to Schofield&#x00027;s explanation of the science of ocean-observing robots.</p>
+<p>The audience&#x00027;s personal connection to the scientists was highlighted in published <italic>Antarctic Edge</italic> reviews which consistently noted the story&#x00027;s relatable scientists (<xref ref-type="table" rid="T1">Table 1</xref>). These published reviews are supported by researcher Suzuki et al. (<xref ref-type="bibr" rid="B97">2018</xref>) who argues that personal narratives featuring the motivations and choices of scientists are increasingly understood to be one of the most powerful forms of science communication. Suzuki et al. (<xref ref-type="bibr" rid="B97">2018</xref>) and Riedlinger et al. (<xref ref-type="bibr" rid="B75">2019</xref>) show that personal narratives are being embraced by scientists who wish to connect more authentically with audiences.</p>
+<table-wrap position="float" id="T1">
+<label>Table 1</label>
+<caption><p>Published <italic>Antarctic Edge: 70</italic>&#x000B0; <italic>South</italic> film reviews.</p></caption>
+<table frame="box" rules="all">
+<thead>
+<tr style="border-right: thin solid #000000;background-color:#919498;color:#ffffff">
+<th valign="top" align="left" colspan="2"><bold>Published</bold> <italic><bold>Antarctic Edge: 70&#x000B0; South</bold></italic> <bold>film reviews</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left"><underline>The Los Angeles Times:</underline> Rechtshaffen (<xref ref-type="bibr" rid="B74">2015</xref>)</td>
+<td valign="top" align="left">&#x0201C;<italic>The documentary is not so much a call to action as a moving portrait of individuals who devote their lives to understanding the environmental shifts that all too soon might manifest themselves on our own altered shorelines.&#x0201D;</italic></td>
+</tr> <tr>
+<td valign="top" align="left"><underline>The New York Times</underline><italic>:</italic> Kenigsberg (<xref ref-type="bibr" rid="B48">2015</xref>)</td>
+<td valign="top" align="left">&#x0201C;<italic>...the movie also looks at the sheer labor involved in the trip and the difficulty of procuring even a small amount of data.&#x0201D;</italic></td>
+</tr> <tr>
+<td valign="top" align="left"><underline>The New York Post:</underline> Stewart (<xref ref-type="bibr" rid="B96">2015</xref>)</td>
+<td valign="top" align="left">&#x0201D;<italic>These scientists, and the ship&#x00027;s crew, are doing admirable and dangerous work&#x02026; inspire[s] a new generation to continue this hardy mission.&#x0201C;</italic></td>
+</tr>
+<tr>
+<td valign="top" align="left"><underline>Slant Magazine</underline>: Greene (<xref ref-type="bibr" rid="B35">2015</xref>)</td>
+<td valign="top" align="left">&#x0201C;<italic>...the film also includes personal histories from other scientists and their crew, including glimpses into their family life back home, how their unquenchable thirst for science began, and the assorted, sometimes humorous activities and traditions they embrace in order to make their Antarctic stay lively and bearable.&#x0201D;</italic></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>Rockman&#x00027;s summative evaluation of <italic>Antarctic Edge</italic> sought to identify changes in viewer knowledge and viewer understanding of themes and concepts presented. Based on 92 audience responses to screenings at Rutgers University, Rockman concluded that <italic>Antarctic Edge</italic> helped viewers gain confidence in their understanding of climate change.</p>
+<p>Prior to viewing <italic>Antarctic</italic> Edge, viewers were asked to indicate whether they had a clear understanding of climate change. The same question was asked at the end of the screening. Prior to viewing <italic>Antarctic Edge</italic>, 71% reported they had a clear understanding of climate change, 18% did not, and 11% were unsure. After watching <italic>Antarctic Edge</italic>, viewers reported their understanding of climate change had increased, with 91% reporting a clear understanding of climate change and 9% still indicating they did not have a clear understanding of climate change.</p>
+<p>Overall, the audience participants of the university screenings performed highly on the Rockman pre-survey, answering on average 13 of the 15 knowledge items correctly (<italic>SD</italic> = 2.37). However, after viewing <italic>Antarctic Edge</italic>, the participants still made statistically significant gains in their overall performance on the post-survey knowledge items (<italic>M</italic> = 14.0, <italic>SD</italic> = 2.03; <italic>t</italic>(90) = &#x02212;5.11, <italic>p</italic> &#x0003C; 0.001). On average, the audience members answered an additional knowledge item correctly on the post-survey as compared to the pre-survey. Notably, participants made statistically significant (<italic>p</italic> &#x0003C; 0.05) gains for individual knowledge items, improving their performance on the post-survey for over half of the items (<italic>n</italic> = 8) (<xref ref-type="table" rid="T2">Table 2</xref>).</p>
+<table-wrap position="float" id="T2">
+<label>Table 2</label>
+<caption><p>Rockman et al. report from &#x0201C;<italic>Antarctic Edge: 70</italic>&#x000B0; <italic>South</italic>&#x0201D; audience surveys knowledge items with significant pre-post gains (<italic>N</italic> = 92).</p></caption>
+<table frame="box" rules="all">
+<thead>
+<tr style="border-right: thin solid #000000;background-color:#919498;color:#ffffff">
+<th valign="top" align="left"><bold>Statement</bold></th>
+<th valign="top" align="left"><bold>Correct response option</bold></th>
+<th valign="top" align="center" colspan="2"><bold>% of respondent answering correctly</bold></th>
+<th valign="top" align="center"><bold>% change pre to post</bold></th>
+<th valign="top" align="center"><italic><bold>t</bold></italic></th>
+<th valign="top" align="center"><italic><bold>p</bold></italic></th>
+</tr>
+<tr style="border-right: thin solid #000000;background-color:#919498;color:#ffffff">
+<th/>
+<th/>
+<th valign="top" align="center" colspan="2"><bold>Pre-survey<xref ref-type="table-fn" rid="TN1"><sup>&#x0002A;</sup></xref> Post-survey<xref ref-type="table-fn" rid="TN1"><sup>&#x0002A;</sup></xref></bold></th>
+<th/>
+<th/>
+<th/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">Phytoplankton and krill are needed as food in Antarctic waters.</td>
+<td valign="top" align="left">True</td>
+<td valign="top" align="center" colspan="2">90% (<italic>n =</italic> 83) 98% (<italic>n =</italic> 90)</td>
+<td valign="top" align="center">&#x0002B;8%</td>
+<td valign="top" align="center">&#x02212;2.74</td>
+<td valign="top" align="center">0.007</td>
+</tr> <tr>
+<td valign="top" align="left">Oceans are large and it is difficult to collect data over large areas.</td>
+<td valign="top" align="left">True</td>
+<td valign="top" align="center" colspan="2">69% (<italic>n =</italic> 63) 91% (<italic>n =</italic> 84)</td>
+<td valign="top" align="center">&#x0002B;22%</td>
+<td valign="top" align="center">&#x02212;4.90</td>
+<td valign="top" align="center">0.000</td>
+</tr> <tr>
+<td valign="top" align="left">Antarctica&#x00027;s summer climate has not changed over the past 20 years</td>
+<td valign="top" align="left">False</td>
+<td valign="top" align="center" colspan="2">84% (<italic>n =</italic> 77) 94% (<italic>n =</italic> 86)</td>
+<td valign="top" align="center">&#x0002B;10%</td>
+<td valign="top" align="center">&#x02212;2.38</td>
+<td valign="top" align="center">0.019</td>
+</tr> <tr>
+<td valign="top" align="left">Climate change has little or no impact on the size of penguin populations in Antarctica.</td>
+<td valign="top" align="left">False</td>
+<td valign="top" align="center" colspan="2">92% (<italic>n =</italic> 85) 98% (<italic>n =</italic> 90)</td>
+<td valign="top" align="center">&#x0002B;6%</td>
+<td valign="top" align="center">&#x02212;2.29</td>
+<td valign="top" align="center">0.025</td>
+</tr> <tr>
+<td valign="top" align="left">Researchers do not collect a lot of data in the summer in Antarctica.</td>
+<td valign="top" align="left">False</td>
+<td valign="top" align="center" colspan="2">76% (<italic>n =</italic> 70) 87% (<italic>n =</italic> 80)</td>
+<td valign="top" align="center">&#x0002B;11%</td>
+<td valign="top" align="center">&#x02212;4.90</td>
+<td valign="top" align="center">0.000</td>
+</tr> <tr>
+<td valign="top" align="left">The ocean waters around Antarctica have no impact on the climate in New Jersey.</td>
+<td valign="top" align="left">False</td>
+<td valign="top" align="center" colspan="2">88% (<italic>n =</italic> 81) 96% (<italic>n =</italic> 88)</td>
+<td valign="top" align="center">&#x0002B;8%</td>
+<td valign="top" align="center">&#x02212;2.39</td>
+<td valign="top" align="center">0.019</td>
+</tr> <tr>
+<td valign="top" align="left">Compared to 20 years ago, summer season in Antarctica has increased in length.</td>
+<td valign="top" align="left">True</td>
+<td valign="top" align="center" colspan="2">60% (<italic>n =</italic> 55) 84% (<italic>n =</italic> 77)</td>
+<td valign="top" align="center">&#x0002B;24%</td>
+<td valign="top" align="center">&#x02212;4.40</td>
+<td valign="top" align="center">0.000</td>
+</tr>
+<tr>
+<td valign="top" align="left">Scientists work in teams.</td>
+<td valign="top" align="left">True</td>
+<td valign="top" align="center" colspan="2">94% (<italic>n =</italic> 86) 98% (<italic>n =</italic> 90)</td>
+<td valign="top" align="center">&#x0002B;4%</td>
+<td valign="top" align="center">&#x02212;2.03</td>
+<td valign="top" align="center">0.045</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn id="TN1"><label>&#x0002A;</label><p>Responses of undecided or skipped items (i.e., no answer choice selected) are included and considered as incorrect.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec>
+<title>3.3. Audience response to open-ended questions</title>
+<p>At the end of the screening, the Rockman group asked viewers open-ended questions. Rockman noted that audiences often commented on the humanity and relatability of the scientists and the way the scientists work together. Viewers left with more clear understanding of science concepts and increased understanding of the interconnectivity of the global climate system (<xref ref-type="table" rid="T3">Table 3</xref>). Rockman&#x00027;s final report described the audiences&#x00027; overall perceptions of the reliability of the video story&#x00027;s featured scientists, concluding with:&#x0201C;<italic>this science film helped viewers to better understand the process behind the work and the story behind why researchers are so committed to the work they do.&#x0201D;</italic></p>
+<table-wrap position="float" id="T3">
+<label>Table 3</label>
+<caption><p>Rockman et al. report <italic>Antarctic Edge:</italic> <italic>70&#x000B0;</italic> <italic>South</italic> viewer responses to Open Ended Questions.</p></caption>
+<table frame="box" rules="all">
+<thead>
+<tr style="border-right: thin solid #000000;background-color:#919498;color:#ffffff">
+<th valign="top" align="left" colspan="2"><italic><bold>Antarctic Edge: 70&#x000B0; South</bold></italic> <bold>viewer responses to Open Ended Questions</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">Comments on humanity and relatability of scientist:</td>
+<td valign="top" align="left">&#x0201C;<italic>People working in such tough environments - inspiring!&#x0201D;</italic></td>
+</tr> <tr>
+<td/>
+<td valign="top" align="left">&#x0201C;<italic>The sacrifice of the scientists and the dangers they face to carry out their work.&#x0201D;</italic></td>
+</tr> <tr>
+<td valign="top" align="left">Clearer understanding of science concepts:</td>
+<td valign="top" align="left">&#x0201C;<italic>The important role of phytoplankton and krill in carbon movement and weather regulation.&#x0201D;</italic></td>
+</tr> <tr>
+<td/>
+<td valign="top" align="left">&#x0201C;<italic>The questions being addressed by this type of research, the tools this field uses, the changes occurring in Antarctica and the effects on animals and weather.&#x0201D;</italic></td>
+</tr> <tr>
+<td/>
+<td valign="top" align="left">&#x0201C;<italic>That the temperature on the Antarctic peninsula has increased by 11 degrees Fahrenheit and how drastic climate change has been in Antarctica.&#x0201D;</italic></td>
+</tr> <tr>
+<td valign="top" align="left">Increased understanding of the interconnectivity of the global climate system:</td>
+<td valign="top" align="left">&#x0201C;<italic>How one location affects the whole world.&#x0201D;</italic></td>
+</tr> <tr>
+<td/>
+<td valign="top" align="left">&#x0201C;<italic>For me, it was when they explained how Hurricane Sandy was as bad as it was because of climate change. It personally affected me.&#x0201D;</italic></td>
+</tr>
+<tr>
+<td/>
+<td valign="top" align="left">&#x0201C;<italic>That the temperature on the Antarctic peninsula has increased by 11 degrees and how drastic climate change has been in Antarctica.&#x0201D;</italic></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p><italic>Antarctic Edge</italic> received significant recognition within scientific, academic, and documentary storytelling communities. The professor and participating students were invited to give presentations entitled &#x0201C;<italic>The Art of Science Filmmaking&#x0201D;</italic> at many research institutions including Woods Hole, MIT, Princeton, UCLA and College of William and Mary, and TEDxRutgers (<xref ref-type="fig" rid="F7">Figure 7</xref>). In 2015, Rutgers University signed a professional distribution contract for the dissemination of <italic>Antarctic Edge: 70 Degrees South</italic> that included theatrical openings in New York City (<xref ref-type="fig" rid="F7">Figure 7</xref>), Los Angeles, and Minnesota. <italic>Antarctic Edge</italic> was broadcast on cable television channels and streamed on Netflix, was accepted into film festivals around the world and won awards for Best Documentary, Best Ocean Science Film, and Best Cinematography.</p>
+<fig id="F7" position="float">
+<label>Figure 7</label>
+<caption><p>Undergraduate students from a variety of majors present <italic>Antarctic Edge: 70</italic>&#x000B0; <italic>South</italic> to the public at the documentary&#x00027;s theatrical release in New York and at Woods Hole Oceanographic Institute.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0007.tif"/>
+</fig>
+</sec>
+<sec>
+<title>3.4. Impact on participating undergraduate students</title>
+<p>Rutgers Marine Science department&#x00027;s concerted efforts to engage a wide range of students in ocean science learning included involving undergraduates from the English, and Film, and Music programs in the making of ocean science video stories (Schofield et al., <xref ref-type="bibr" rid="B85">2018</xref>). The positive interaction between undergraduate science and art students increased the non-science students&#x00027; overall understanding of ocean science during the videotaping and editing of <italic>Atlantic Crossing</italic> and <italic>Antarctic Edge</italic>.</p>
+<p>As part of the NSF CRPA, internal evaluator Dr. Mary Nucci, Rutgers University, met in person with each of the students working on <italic>Antarctic Edge</italic> as well as other undergraduates who had worked on other Rutgers science documentaries produced with this model (19 students total) asking them IRB approved questions. Nucci summarized her findings in an NSF annual report in which she described the students&#x00027; newly formed perceptions of scientists as relatable. Many students interviewed by Nucci commented that prior to working on science documentaries they were scared of science and did not think they were &#x0201C;smart&#x0201D; enough to be scientists. The experience of hands-on video storytelling and meeting scientists showed these students that science was accessible and interesting and that one did not have to be a scientist to be engaged and interested in science. Nucci summarized that these students described the documentary&#x00027;s scientists as &#x0201C;normal&#x0201D; people like themselves whom they perceived as funny, passionate, and creative. She wrote that all students but one said that working on science documentaries had sparked their interest in science by showing them that everything relates to science. Nucci&#x00027;s summary described how the participating students could see themselves as possible scientists and, through the creation of documentaries featuring scientists, they were now able to understand how scientists see the world. The experience of working on <italic>Antarctic Edge</italic>, according to Nucci&#x00027;s summary, encouraged these undergraduate students to see science in a new way&#x02014;as a cooperative, passionate, people-driven experience (Schofield and Seidel, <xref ref-type="bibr" rid="B86">2014</xref>; NSF Annual Report).</p>
+<p>Antarctic Edge&#x00027;s hands-on science learning opportunity provided professional credits to 14 participating undergraduate students and was described in articles published in Rutgers Magazine (Hoffman, <xref ref-type="bibr" rid="B39">2013</xref>) and an NSF news release (National Science Foundation, <xref ref-type="bibr" rid="B61">2013</xref>) in which program officer Valentine Kass stated, &#x0201C;<italic>This project will bring the excitement of current research to the public and, at the same time, teach valuable skills to, and broaden the educational horizons of undergraduates.&#x0201D;</italic></p>
+<p>In an informal follow-up process by their former professor (DS) 8 of 10 former undergraduates contacted indicated they had found work post-graduation as non-fiction storytellers and science communicators. The follow-up consisted of two zoom group meetings and survey questions sent to all participants by email. One former student who worked for a year on <italic>Atlantic Crossing</italic> identified herself as a professional documentary film editor and says of her experience &#x0201C;<italic>the filmmaking team and the scientists developed a mutual sense of trust and it really taught me that effective storytelling can bring science to everyday people.&#x0201D;</italic></p>
+</sec>
+<sec>
+<title>3.5. Science-in-action video storytelling model adaptable to wide range of research topics</title>
+<p>The research featured in these university-based science-in-action video stories extended beyond traditional lab science to include humanities such as Classics, History, Sociology, and Anthropology. The making of the <italic>Princess of Piombino</italic> (Elise et al., <xref ref-type="bibr" rid="B21">2015</xref>) offered through the university&#x00027;s Classics department documented the culture, art, and architecture of the 16th century Villa Ludovisi in Rome, Italy. The project spawned several shorter video stories directed by undergraduates including <italic>My Father Electromagnetic</italic> (Riggio, <xref ref-type="bibr" rid="B76">2014</xref>) featuring an interview with the daughter of Guglielmo Marconi, the inventor of radio (<xref ref-type="fig" rid="F8">Figure 8</xref>).</p>
+<fig id="F8" position="float">
+<label>Figure 8</label>
+<caption><p>Undergraduates interview Princess Rita Boncompagni-Ludovisi in her Rome villa for the film <italic>Princess of Piombino</italic>. The student film My Father Electromagnetic features the daughter of Guglielmo Marconi, the inventor of radio.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0008.tif"/>
+</fig>
+<p>The Rutgers feature documentary <italic>The War After: From Combat to Campus</italic> (Seidel, <xref ref-type="bibr" rid="B90">2014</xref>) tells the stories of nine student veterans and their community at a major university after returning from combat, including brief histories of US military service in WWII and Vietnam (Plump, <xref ref-type="bibr" rid="B69">2015</xref>). The Rutgers feature documentary <italic>Generation at Risk: Joining Forces to Fight Childhood Obesity</italic> (Seidel, <xref ref-type="bibr" rid="B92">2015b</xref>) weaves stories of at-risk New Jersey youth from marginalized communities with nutritional, health and sociological research (La Gorce, <xref ref-type="bibr" rid="B49">2012</xref>).</p>
+</sec>
+<sec>
+<title>3.6. Expanding the model to include high school students and underserved youth</title>
+<p>In 2021, we adapted our science storytelling model for high school-aged students. We launched a pilot project inviting high school students from underserved diaspora communities enrolled in local urban 4-H programs (an out-of-school program) to author food system video stories in partnership with plant biologists (<xref ref-type="fig" rid="F9">Figure 9</xref>). The project, titled FAME [FAME (Food, Agriculture and Marine Ecosystems) Science Storytelling, <xref ref-type="bibr" rid="B24">2021</xref>], is based on our science-in-action video storytelling model connecting Rutgers&#x00027; researchers to diaspora youth through collaborative science storytelling with the goal of providing STEM learning opportunities through direct access to scientists (Rutgers Office of Communication, <xref ref-type="bibr" rid="B82">2022</xref>). Youth who directed short science videos combined their interviews of scientists with the youth&#x00027;s first-person narration from their unique biocultural perspectives (Rutgers Office of Communication, <xref ref-type="bibr" rid="B82">2022</xref>).</p>
+<fig id="F9" position="float">
+<label>Figure 9</label>
+<caption><p>High school students interview plant biologists for FAME pilot project.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0009.tif"/>
+</fig>
+<p>This project involved videotaped one-on-one conversations between high school students and scientists that the students then use as their primary scientific data. The youth then spent more than 60 h researching, engaging with, and organizing, their science video data over 3 months to create short science stories. Preliminary observations suggest that repeated engagement with the science data, especially the transcripts, was important to the process to be able to direct and work with a professional editor to create their stories. The youth then presented their stories to the featured scientists and, depending on scientists&#x00027; feedback, reworked their narratives to strengthen the accuracy of the video&#x00027;s science content. Specific adaptations we made to our model for high school participants including hiring a videographer to film the youth&#x00027;s interviews with scientists and hiring an editor to shape the youth&#x00027;s science footage based on the students&#x00027; paper edits.</p>
+<p>A Rutgers University Institutional Review Board (IRB) survey was approved for research related to the youth&#x00027;s STEM learning outcomes for the FAME project. Preliminary results suggest that this model was effective in engaging youth in STEM learning and increasing their comfort with science and scientists.</p>
+<p>At the end of the youth&#x00027;s first science story showing, students were asked to complete retrospective surveys to assess the program model&#x00027;s impact on their STEM learning. Project coordinators asked students to complete survey questions using a Likert scale to capture pre- and post- self-assessments of skills and values. The questions were posed as, &#x0201C;<italic>Because of my participation in this program I know,&#x0201D;</italic> and scored using a rating of <italic>1&#x02013;4, 1(none), 2(a little), 3(some) 4(lots)</italic>. For each of the five questions posed, scores of all the surveys were totaled resulting in the mean score. The perceived change of skills and values before and after the program were compared. <xref ref-type="fig" rid="F10">Figure 10</xref> shows the mean of all the participants&#x00027; self-assessments. With each question, all survey participants (<italic>n</italic> = 7) noted an increase in their ability to communicate science and in their feeling of value in adult collaboration and personal work. In a review of results, the greatest increase was in youth&#x00027;s perceived ability to communicate science. Surveys also included five multiple-choice questions related to program&#x00027;s overall quality and interest and two open-ended questions for providing greater feedback on program content. When asked if they want to &#x0201C;learn more about this subject,&#x0201D; 100% of youth said <italic>yes</italic>.</p>
+<fig id="F10" position="float">
+<label>Figure 10</label>
+<caption><p>FAME pilot project High School Youth Reflection data.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0010.tif"/>
+</fig>
+<p>The participating youth were interviewed before and after their initial 4-h videotaped meetings with scientists. The project team noted an instant connection between the high school students and the scientists and, in several cases, the scientists and the high school students shared similar backgrounds. <xref ref-type="table" rid="T4">Table 4</xref> highlights quotes from youth interviews describing their perceptions of the scientists they partnered with on the FAME story project [FAME (Food, Agriculture and Marine Ecosystems) Science Storytelling, <xref ref-type="bibr" rid="B24">2021</xref>].</p>
+<table-wrap position="float" id="T4">
+<label>Table 4</label>
+<caption><p>FAME pilot project high school participants&#x00027; perceptions of scientists as relatable people.</p></caption>
+<table frame="box" rules="all">
+<thead>
+<tr style="border-right: thin solid #000000;background-color:#919498;color:#ffffff">
+<th valign="top" align="left"><bold>FAME pilot project high school participants&#x00027; perceptions of scientists as relatable people</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">&#x0201C;<italic>They were more like regular people than I expected, because you usually think of a scientist as a very serious person. But actually talking to them, they&#x00027;re more like us than you would expect.&#x0201D;</italic>&#x02013;student &#x00023;1</td>
+</tr> <tr>
+<td valign="top" align="left">&#x0201C;<italic>It was really interesting to meet the scientists and see their human side. I do think their stories could expand the interest in science because there are many students out there who give up on their dream of becoming a scientist because they don&#x00027;t think they&#x00027;re able to.&#x0201D;</italic>&#x02013;student &#x00023;2</td>
+</tr> <tr>
+<td valign="top" align="left">&#x0201C;<italic>The scientists were very friendly and approachable and it&#x00027;s just like telling an actual human being&#x00027;s story.&#x0201D;&#x02013;</italic>student &#x00023;3</td>
+</tr> <tr>
+<td valign="top" align="left">&#x0201C;<italic>It was really a personal experience I would say. I had the opportunity to visit labs and talk with scientists. I was able to feel more of a connection to what they are doing as something that I am passionate about as well.&#x0201D;</italic>&#x02013;student &#x00023;4</td>
+</tr> <tr>
+<td valign="top" align="left">&#x0201C;<italic>I think it was very interesting to see how these scientists are also just the same as you know, the regular everyday individual, because they are the regular, everyday individual. Because I know when we see scientists on TV, or like the media, sometimes it comes across as if they&#x00027;re separated from the regular world.&#x0201D;&#x02013;</italic>student &#x00023;5</td>
+</tr> <tr>
+<td valign="top" align="left">&#x0201C;<italic>Their dedication, it&#x00027;s just so admirable. You know, scientists can be pictured as cold people but to me, it&#x00027;s a different thing. They&#x00027;re just so passionate about helping others.&#x0201D;</italic>&#x02013;student &#x00023;6</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x0201C;<italic>This is my first time in a science lab. They (the scientists) are very inspiring because they went through a lot of hard work to get here.&#x0201D;</italic>&#x02013;student &#x00023;7</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+<sec>
+<title>3.7. Youth and undergraduate audience feedback inform science video content</title>
+<p>Another avenue for public engagement in science storytelling is through rough cut video story screenings seeking audience feedback by way of continuous improvement surveys. Our model&#x00027;s most recent science story, the 30 min <italic>Fields of Devotion</italic> (Seidel, <xref ref-type="bibr" rid="B93">2022</xref>), documented faculty and graduate student plant geneticists over a year and a half as they developed disease resistant food crops for farmers (Rutgers Office of Communication, <xref ref-type="bibr" rid="B81">2021</xref>). Funded in part by the US Department of Agriculture, <italic>Fields of Devotion</italic> involves high school students in the videography and editing stages. In 2021, <italic>Fields of Devotion&#x00027;s</italic> featured scientists offered rough-cut screenings to high school biology and chemistry classes during which students were invited to provide feedback through continuous improvement surveys offered by their high school teachers. Responses from more than 200 high school students inspired the video storytellers to clarify the plant breeding method featured as traditional and not genetically modified. A big takeaway from the continuous improvement survey data provided by high school teachers was that 80% of the students said they were interested in visiting the plant biology lab featured in the <italic>Fields of Devotion</italic>.</p>
+<p>In 2022, a fine cut of <italic>Fields of Devotion</italic> was shown to 102 undergraduate students from a variety of majors in several separate viewings. Students were invited to answer questions anonymously in response to the question &#x0201C;<italic>If you could relate to one or more of the scientists, what made them relatable? (check all that apply</italic>).&#x0201D; A summary of their answers offers important insight into the scientists&#x00027; qualities that are perceived as relatable (<xref ref-type="fig" rid="F11">Figure 11</xref>).</p>
+<fig id="F11" position="float">
+<label>Figure 11</label>
+<caption><p>Undergraduate students (<italic>N</italic> = 102) viewed <italic>Fields of Devotion</italic> and were asked &#x0201C;<italic>If you could relate to one or more scientists, what made them relatable? Check all that apply&#x0201D;</italic>.</p></caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fcomm-07-1049648-g0011.tif"/>
+</fig>
+<p>Responses from the <italic>Fields of Devotion</italic> post-screening surveys indicate that the undergraduates questioned appreciated the scientists&#x00027; commitment and passion for their work. Interestingly, few (&#x0003C;13%) respondents chose &#x0201D;<italic>they look like me&#x0201D;</italic> suggesting the audience&#x00027;s ability to relate to the scientists may be based on perceptions of the scientists&#x00027; behavior rather than their physical appearance. In addition, perceptions of the scientists&#x00027; desire to help others appeared to contribute to the audience&#x00027;s ability to relate to the scientists (&#x0003E;70%). The cumulative results from this relatability questionnaire suggest that it would be beneficial to conduct further formal assessments of <italic>Fields of Devotion&#x00027;</italic>s relative to public audiences&#x00027; perceptions of the featured scientists&#x00027; relatability. These survey results also support findings by Schinske et al. (<xref ref-type="bibr" rid="B84">2015</xref>) regarding positive stereotyping and science identity in diverse college settings but more questions need to be asked to gain a deeper understanding of how science-in-action films, science stereotyping, and science identity influence college students&#x00027; STEM learning in diverse college settings.</p>
+</sec>
+<sec>
+<title>3.8. Considerations for replicating and sustaining the model</title>
+<p>University science schools that support collaboration between researchers and other disciplines can be a fertile environment for this model. Institutional partnerships must begin with a shared commitment to accurately communicate science to a broad public audience. This model can be implemented in several ways and in a variety of departments, and further study at other institutions will determine the adaptability of this model. Our experience suggests that this model best resides within science departments where: (1) video storytellers are embedded in the department(s) and they gain trust of the scientists/researchers; (2) featured researchers can protect their science video data with project oversight, and (3) participating students have foundational science training. In our experience, undergraduates with science education are more comfortable working with their science stories and are more confident translating the science process into a narrative form. However, non-science students should be considered for inclusion in the program if they are interested in learning science. Interdisciplinary partnerships should be encouraged. An implementation procedure that provides all students with access to sufficient resources and people to learn science is likely to be the most successful.</p>
+<p>Selection of the right personnel matters. Our model required a full-time science communication instructor with professional verit&#x000E9; science filmmaking and editing experience. Depending on the number of science story projects in development, the instructor should be supported by one or more experienced science communicators trained in this model who can mentor new students with the filming and editing of large amounts of science-in-action footage. Managing the many hours of science film footage requires transcriptions of all interviews and verit&#x000E9; scenes that our storytellers then mine to organize the videotaped real-life moments into narrative arcs. Our model also relies on the scientists who wish to participate and valuing their time and research will help to foster successful working relationship. Participating undergraduate students ideally should have a foundational science education and basic video and editing skills or should gain these skills through coursework. Science story rough cut and fine cut screenings to targeted audiences followed by IRB-approved surveys provide important feedback regarding the effectiveness of the films for science communication and learning. Scientists may need some support and direction to help them feel at ease in front of the camera in order to lower the barrier to participation. Outreach beyond the university requires finding the appropriate university and community partners.</p>
+<p>A data management plan and the appropriate equipment are also critical for success. Our model was most successful when participants had access to dependable video and audio recording devices and had a functional archive for future use of raw and edited science video footage. Additionally, success depended upon a secure, physical space that included significant amounts of media storage and computers to access science media. A data management plan should be developed to ensure protection of the science media (raw video footage, audio, photos). Film footage handling should be clearly outlined in a data management plan and should be protected by the same guidelines as any other data. Managing original science data with a comparable source-controlled repository can be accomplished with a dedicated science media server that scientists and storytellers can access simultaneously and cloud-based video editing software.</p>
+<p>This model can be financially sustained in several ways. Research grants that designate a portion of their funds for outreach and broader impact, as well as grants for STEM education, can contribute to the production costs of these verit&#x000E9; science films. Universities can generate revenue from tuition for science communication and science-in-action video storytelling courses. The media generated from these original science stories can form the basis of a university science media library that offers services for a fee. The science film products can generate revenue for the university from broadcast and education sales as was the case with <italic>Antarctic Edge</italic> made possible through a distribution contract with First Run Features (New York City).</p>
+</sec>
+</sec>
+<sec id="s4">
+<title>4. Discussion</title>
+<p>Collaborating scientists and storytellers successfully built a university-based science storytelling model that translates university science into public-facing products that engage the wider community. This work was driven by our research question: can university scientists increase their relatability and public engagement through science-in-action video storytelling? Developed over 14 years, this university-based science storytelling model produced more than a dozen high-visibility narratives that translated science to the public and featured scientists, primarily environmental and climate scientists, who are described in audience surveys as relatable people. This collaborative model, based on long-term trusting partnerships between scientists and video storytellers, documented scientists as they conducted their research and together created narratives intended to humanize scientists as authentic people on journeys of discovery. Unlike traditional documentary filmmaking or journalism, the participatory nature of this translational science model involved scientists in the shared making of narratives to ensure accuracy of the story&#x00027;s science content.</p>
+<sec>
+<title>4.1. Relatability and trust</title>
+<p>Our work further supports the National Academies of Sciences (2017) study that concluded audiences judge scientists based on very human qualities of integrity, dependability, and competence and that scientists who are willing to make themselves vulnerable to the general public will more likely be perceived as relatable (Goodwin and Dahlstrom, <xref ref-type="bibr" rid="B32">2013</xref>). Our approach is also supported by science communication research that shows increasing the public&#x00027;s engagement with scientists (Nadkarni et al., <xref ref-type="bibr" rid="B60">2019</xref>) is a more effective path to science literacy than the traditional &#x0201C;deficit model&#x0201D; of simply providing the public with more facts (Priest et al., <xref ref-type="bibr" rid="B71">2016</xref>).</p>
+<p>However, scientists are trained to remove themselves from their research (Barbalet, <xref ref-type="bibr" rid="B5">2002</xref>; Padian, <xref ref-type="bibr" rid="B64">2018</xref>) and this culturally mandated invisibility allows critics to dehumanize scientists as emotionless, arrogant, robotic, detached and unrelatable (Jamieson et al., <xref ref-type="bibr" rid="B41">2019</xref>; Sosa and Rios, <xref ref-type="bibr" rid="B95">2019</xref>). This is unfortunate as the public&#x00027;s ability to relate to scientists is established through a collection of factors that includes judgments about the scientists&#x00027; character and intentions including the perception of competence, integrity, benevolence, warmth, openness, and vulnerability (Hendriks et al., <xref ref-type="bibr" rid="B37">2016</xref>; Besley et al., <xref ref-type="bibr" rid="B9">2020</xref>). Our model suggests that verit&#x000E9; science storytelling offers new communication approaches to make scientists accessible and relatable.</p>
+<p>Furthermore, science-in-action video stories that feature relatable, authentic researchers suggest that this approach may lead to an increased public trust in scientists and their science (Dahlstrom, <xref ref-type="bibr" rid="B18">2014</xref>; Saffran et al., <xref ref-type="bibr" rid="B83">2020</xref>). We come to this conclusion as research shows that verit&#x000E9; science video stories are an effective means to present and humanize scientists (Clough, <xref ref-type="bibr" rid="B17">2009</xref>) as relatable people and the public is more likely to trust science information that comes from people they view as relatable (Goodwin and Dahlstrom, <xref ref-type="bibr" rid="B32">2013</xref>). In our research, we found that when scientists allow public access to their research through science video storytelling, an increase in perceptions of the scientists&#x00027; relatability can occur. Science-in-action video narratives could therefore be an effective means for increasing public understanding of, and access to, the scientific processes. In this regard, opportunities for creative collaboration with science video storytellers can be an effective way to incentivize scientists to increase their outreach and public engagement relative to the time they invest (Besley et al., <xref ref-type="bibr" rid="B8">2018</xref>).</p>
+</sec>
+<sec>
+<title>4.2. Benefits of the model to scientists and university</title>
+<p>While not part of our original research question, we also discovered that our model provides a benefit to the scientists who participated. Many scientists, including the authors, find the time and effort required to communicate their science successfully and continuously to the public is a major obstacle to effective science communication and impact. Results from a 2015 &#x0201C;Scientists&#x0201D; Views About Communication Training&#x00027; survey of AAAS researchers concluded that, while scientists recognized the value of communication training, they did not show high levels of willingness to engage with the public (Besley et al., <xref ref-type="bibr" rid="B7">2015</xref>; Rose et al., <xref ref-type="bibr" rid="B78">2020</xref>). Even the most personable researchers who welcome public engagement are not able to document their scientific process and package it for public view while they conduct intensely time-consuming research and publish in their research journals. Dr Jim Simon, Distinguished Professor of Plant Biology at Rutgers University, and one of this paper&#x00027;s authors stated: &#x0201C;<italic>Conducting science is incredibly time consuming and we scientists become mired in our own worlds. We need creative partnerships with science storytellers to help us communicate the importance and positive potential of our real-world research in a way that resonates with broader audiences.&#x0201D;</italic> Simon&#x00027;s sentiment is also echoed by another author and <italic>Antarctic Edge</italic> scientist, Dr. Oscar Schofield, Distinguished Professor of Marine Science<italic>: &#x0201C;I feel a responsibility to inspire the next generation of ocean science learners and I have found that one of the most effective and time efficient ways to do this is with video-based science storytelling. In addition, the science video footage is important data that I reference for my research.&#x0201D;</italic> By investing time, and by participating in creative partnerships, film projects with broad impact can be developed that saves time for the scientists in the long run (Seidel, <xref ref-type="bibr" rid="B91">2015a</xref>, <xref ref-type="bibr" rid="B93">2022</xref>).</p>
+<p>University scientists increased their science communication impact relative to time they invested. As the scientists were required to explain their scientific process in first person, these scientists, including some of the authors, learned new ways to become relatable which allowed them to more effectively share their work with the public (Pouliot and Godbout, <xref ref-type="bibr" rid="B70">2014</xref>). Participating scientists, including two authors of this paper, also found that they used more colloquial language, free from scientific jargon, to explain their work to a non-science public.</p>
+<p>The featured scientists came to rely on the science video footage as a data source (Jewitt, <xref ref-type="bibr" rid="B44">2012</xref>). Oceanographers mined footage from <italic>Atlantic Crossing</italic> and <italic>Antarctic Edge</italic> for evidence of how underwater robots performed in varying ocean conditions. The US Navy was interested in <italic>Antarctic Edge</italic> sea ice footage to aid in their polar training (personal communication). Nutritionists reviewed <italic>Generation at Risk</italic> interviews to learn about child malnutrition and diabetes. <italic>The War After</italic> was made available to experts in post-traumatic stress disorder. Video footage captured during the making of <italic>Princess of Piombino</italic> was central to a Rutgers Classics online course and the footage continues to be used for historical reference. In short, there are multiple benefits for researchers to participate in this model.</p>
+</sec>
+<sec>
+<title>4.3. Considerations for science learning</title>
+<p>Our model communicates the process of science often invisible to the public. By presenting science as a journey of inquiry, audiences can experience scientists as real people seeking answers to large questions. In this way, our model provides an alternative to the &#x0201C;deficit model&#x0201D; by showing, rather than telling, the steps to knowledge gathering. Our storytelling model also includes concurrent science communication research measuring the STEM learning impact of our stories. Our teams&#x00027; efforts to survey audience and participating student continues to inform our model&#x00027;s effectiveness. Specifically, we seek further data on the role of our story products to increase audience retention of science learning. Recent research in cognitive neuroscience of storytelling may inform the potential of our model for science understand and retention. For instance, cognitive film theory considers the process of narrative transport (Green and Brock, <xref ref-type="bibr" rid="B33">2000</xref>, <xref ref-type="bibr" rid="B34">2002</xref>; Zak, <xref ref-type="bibr" rid="B102">2015</xref>) that creates connectivity between scientists who share their journeys and the audiences who have access to the scientists&#x00027; worlds through visual stories. According to Morris et al. (<xref ref-type="bibr" rid="B58">2019</xref>) the connectivity created between audiences and on-screen characters improves the odds that viewers will remember the information presented in story form. This is critically important for science communicators who seek to make scientists relatable to public audiences while translating science in meaningful and lasting ways.</p>
+</sec>
+<sec>
+<title>4.4. Challenges and lessons learned</title>
+<p>Science-in-action video storytelling requires long-term trusting and committed relationships between the scientists and videographers that are supported and protected by the university. Original science video footage that contains grant funded research and data must also be protected by the institution and available to both the scientists and the video storytellers. Regularly monitoring participants&#x00027; expectations is critical. Keeping college-age and younger youth science storytellers engaged in projects that are edited over long periods of time can be challenging. Students may only be able join the projects for only a portion of the creative process.</p>
+<p>Terms for authorship and credit should be defined at the outset of this creative process so expectations are respectfully met. In general, it was understood that the raw video of the science process is recognized as the scientists&#x00027; research data and the edited final science story is the intellectual property of the video storytellers. Copyright terms should be defined at the onset and often the organization supporting the science storytelling, such as the university, would be the owner or co-owner of the final film with appropriate third party sublicenses to ensure broad distribution. Acknowledging creative and scientific contributions and intellectual property of scientists and storytellers must be agreed upon and respected in perpetuity.</p>
+<p>As a result of our science film products and our preliminary impact data, we contend that this model has great potential to further public perceptions of scientists and their science as relatable. Additional research is needed regarding how this model directly impacts trust building for, and between, the participating scientists, video storytellers (including youth and college-age students) and public viewers.</p>
+<p>We have reason to believe that this model can overcome one of the greatest challenges to communicating science effectively described as &#x0201C;an unnatural act: collaboration among experts from professional communities with different norms and practices&#x0201D; (Fischhoff, <xref ref-type="bibr" rid="B26">2018</xref>). We explore this model&#x00027;s potential for creating trusting partnerships between research scientists and video storytellers embedded at a university, who together create science-in-action narratives that facilitate the translation of science to increase the public&#x00027;s ability to relate to the story&#x00027;s featured scientists and science. We suggest that university-based science communication programs can offer a method for scientists to increase the public&#x00027;s engagement with, connection to, their research by use of this model.</p>
+</sec>
+<sec>
+<title>4.5. Conclusions</title>
+<p>Based on the process and successful completion of several professional science-in-action video stories (<xref ref-type="fig" rid="F6">Figure 6</xref>) including international broadcast of feature length science documentaries, we conclude that this model is workable and can assist academic science departments to present their faculty as authentic and relatable people to the wider society enabling scientific discoveries to reach a larger public audience. Our model is based on trusting, long-term relationships between professional video storytellers and researchers with a shared goal of communicating the culture of scientists and their science communities to the public. This model explicitly focuses on presenting the process and journey of science rather than merely disseminating facts. Films produced using our model reached broad audiences and included undergraduate, high school, and graduate students in the video storytelling process. Scientists benefitted by successfully communicating their research and learning to authentically present themselves to the public. Participating students benefited from STEM learning, science communication training and the professional production credit they earned. Including baseline and follow-up studies of the model&#x00027;s impact on the scientists, participating students and audiences would further strengthen and expand the collective knowledge of this science communication model. Additional research on methods to establish trusting relationships between storytellers and scientists for the creation of character-driven observational science films would also increase the utilization of this model. Additionally, further research is needed to determine whether the video storytelling model outline can be replicated in other settings beyond a large research and land-grant university.</p>
+</sec>
+</sec>
+<sec sec-type="data-availability" id="s5">
+<title>Data availability statement</title>
+<p>Data was collected under IRB protocol. Requests to access the datasets should be directed to XM, <email>xenia.morin&#x00040;rutgers.edu</email>.</p>
+</sec>
+<sec sec-type="ethics-statement" id="s6">
+<title>Ethics statement</title>
+<p>The studies involving human participants were reviewed and approved by Rutgers Research/Rutgers University Human Subjects Protection Program and IRB. Written informed consent to participate in this study was provided by the participants&#x00027; legal guardian/next of kin. Written informed consent was obtained from the individual(s), and minor(s)&#x00027; legal guardian/next of kin, for the publication of any potentially identifiable images or data included in this article.</p>
+</sec>
+<sec sec-type="author-contributions" id="s7">
+<title>Author contributions</title>
+<p>DS: conceptualization, methodology, supervision, visualization, data curation, formal analysis, original writing, and writing&#x02014;review and editing. XM: conceptualization, supervision, funding acquisition, methodology, investigation, data curation, formal analysis, original writing, and writing&#x02014;review and editing. MS: supervision, methodology, investigation, formal analysis, data curation, original writing, and writing&#x02014;review and editing. RL: project administration, funding acquisition, and review writing. JS: project administration, funding acquisition, resources, and review writing. OS: conceptualization, funding acquisition, resources, and original writing. All authors contributed to the article and approved the submitted version.</p>
+</sec>
+</body>
+<back>
+<sec sec-type="funding-information" id="s8">
+<title>Funding</title>
+<p>This research was supported by National Science Foundation award &#x00023;1241413, Rutgers University&#x00027;s School of Environmental and Biological Sciences, the Rutgers Center for Agricultural Food Ecosystems (RUCAFE) of the New Jersey Institute of Food, Nutrition and Health, the United States Department of Agriculture Specialty Crops Research Initiative project award no. 2018-03382 to Rutgers University, the New Jersey Agricultural Experiment Station Hatch Project NJ12170, and the Horticulture Innovation Lab with funding from USAID (EPA-A-00-09-00004), as part of the US Government&#x00027;s global hunger and food security initiative, Feed the Future, for project titled Improving nutrition with AIVs in eastern Africa and the NSF Palmer LTER program.</p>
+</sec>
+<ack>
+<p>We thank for the following people who supported this interdisciplinary initiative: Richard Edwards, Robert Goodman, Laura Lawson, Phil Furmanski, Carolyn Williams, Gregory Blimling, Matt Matsuda, Thomas Farris, Dennis Benson, Thomas Papathomas, Scott Glenn, Annmarie Carlton, Peter Gillies, Barry Qualls, Kim Manning, Elizabeth Minott, Abena Busia, Erin Vogel, Sandy Welsh, Valentine Kass, Wyn Jennings, Stephen Abel, Seamour Wishman, Marc Mauceri, Scott Hakim, Carol Baille, Wally Batista, Corey Brennan, Chris Scherer, Janice McDonnell, Donald Kobayashi, Debbie Steinberg, Hugh Ducklow, Bill and Donna Frasier, Constantine Vetriani, Ousseina Alidou, Mark Robson, Rob Scott, David Hughes, Yair Rosenthal, Pilar Timpane, Chantal Eyong, Sean Feuer, Jeanpaul Isaacs, Lizette Gesuden, Steve Holloway, Amanda Bullis, Natalie James, James Monahan, Gabriela Figueredo, Darrel Gordon, Stef Wong, Mary Nucci, Jamie Deradorian-Delia, Adam Nawrot, and Amber Nelson. Additionally, we would like to acknowledge and thank all students who participated as videographers, storytellers, editors, and researchers.</p>
+</ack>
+<sec sec-type="COI-statement" id="conf1">
+<title>Conflict of interest</title>
+<p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+<sec sec-type="disclaimer" id="s9">
+<title>Publisher&#x00027;s note</title>
+<p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+</sec>
+<sec sec-type="supplementary-material" id="s10">
+<title>Supplementary material</title>
+<p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fcomm.2022.1049648/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fcomm.2022.1049648/full#supplementary-material</ext-link></p>
+<supplementary-material xlink:href="Table_1.docx" id="SM1" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="B1">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Angelone</surname> <given-names>S.</given-names></name></person-group> (<year>2019</year>). <article-title>A new generation of scientists-as-filmmakers: experiences gained in Switzerland</article-title>. <source>Sci. Commun.</source> <volume>41</volume>, <fpage>369</fpage>&#x02013;<lpage>377</lpage>. <pub-id pub-id-type="doi">10.1177/1075547019837620</pub-id><pub-id pub-id-type="pmid">36562318</pub-id></citation></ref>
+<ref id="B2">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Armstrong</surname> <given-names>P. B.</given-names></name></person-group> (<year>2020</year>). <source>Stories and the Brain: The Neuroscience of Narrative</source>. <publisher-loc>Baltimore</publisher-loc>: <publisher-name>Johns Hopkins University Press</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.press.jhu.edu/books/title/12296/stories-and-brain">https://www.press.jhu.edu/books/title/12296/stories-and-brain</ext-link></citation>
+</ref>
+<ref id="B3">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Avraamidou</surname> <given-names>L.</given-names></name> <name><surname>Osborne</surname> <given-names>J.</given-names></name></person-group> (<year>2009</year>). <article-title>The role of narrative in communicating science</article-title>. <source>Int. J. Sci. Educ.</source> <volume>31</volume>, <fpage>1683</fpage>&#x02013;<lpage>1707</lpage>. <pub-id pub-id-type="doi">10.1080/09500690802380695</pub-id></citation>
+</ref>
+<ref id="B4">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Baram-Tsabari</surname> <given-names>A.</given-names></name> <name><surname>Osborne</surname> <given-names>J.</given-names></name></person-group> (<year>2015</year>). <article-title>Bridging science education and science communication research</article-title>. <source>J. Res. Sci. Teach.</source> <volume>52</volume>, <fpage>135</fpage>&#x02013;<lpage>144</lpage>. <pub-id pub-id-type="doi">10.1002/tea.21202</pub-id></citation>
+</ref>
+<ref id="B5">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Barbalet</surname> <given-names>J.</given-names></name></person-group> (<year>2002</year>). <article-title>Science and emotions. the sociological review</article-title>. <volume>50</volume>, <fpage>132</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1111/j.1467-954X.2002.tb03595.x</pub-id></citation>
+</ref>
+<ref id="B6">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Berlin</surname> <given-names>H. A.</given-names></name></person-group> (<year>2016</year>). <article-title>Communicating science: lessons from film</article-title>. <source>Trends Immunol.</source> <volume>37</volume>, <fpage>256</fpage>&#x02013;<lpage>260</lpage>. <pub-id pub-id-type="doi">10.1016/j.it.2016.02.006</pub-id><pub-id pub-id-type="pmid">26988314</pub-id></citation></ref>
+<ref id="B7">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Besley</surname> <given-names>J. C.</given-names></name> <name><surname>Dudo</surname> <given-names>A.</given-names></name> <name><surname>Storksdieck</surname> <given-names>M.</given-names></name></person-group> (<year>2015</year>). <article-title>Scientists&#x00027; views about communication training</article-title>. <source>J. Res. Sci. Teach.</source> <volume>52</volume>, <fpage>199</fpage>&#x02013;<lpage>220</lpage>. <pub-id pub-id-type="doi">10.1002/tea.21186</pub-id></citation>
+</ref>
+<ref id="B8">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Besley</surname> <given-names>J. C.</given-names></name> <name><surname>Dudo</surname> <given-names>A.</given-names></name> <name><surname>Yuan</surname> <given-names>S.</given-names></name> <name><surname>Lawrence</surname> <given-names>F.</given-names></name></person-group> (<year>2018</year>). <article-title>Understanding scientists&#x00027; willingness to engage</article-title>. <source>Sci. Commun.</source> <volume>40</volume>, <fpage>559</fpage>&#x02013;<lpage>590</lpage>. <pub-id pub-id-type="doi">10.1177/1075547018786561</pub-id><pub-id pub-id-type="pmid">22070272</pub-id></citation></ref>
+<ref id="B9">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Besley</surname> <given-names>J. C.</given-names></name> <name><surname>Lee</surname> <given-names>N. M.</given-names></name> <name><surname>Pressgrove</surname> <given-names>G.</given-names></name></person-group> (<year>2020</year>). <article-title>Reassessing the variables used to measure public perceptions of scientists</article-title>. <source>Sci. Commun.</source> <volume>43</volume>, <fpage>3</fpage>&#x02013;<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1177/1075547020949547</pub-id></citation>
+</ref>
+<ref id="B10">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Bieniek-Tobasco</surname> <given-names>A.</given-names></name> <name><surname>Rimal</surname> <given-names>R. N.</given-names></name> <name><surname>McCormick</surname> <given-names>S.</given-names></name> <name><surname>Harrington</surname> <given-names>C. B.</given-names></name></person-group> (<year>2020</year>). <article-title>The power of being transported: efficacy beliefs, risk perceptions, and political affiliation in the context of climate change</article-title>. <source>Sci. Commun.</source> <volume>42</volume>, <fpage>776</fpage>&#x02013;<lpage>802</lpage>. <pub-id pub-id-type="doi">10.1177/1075547020951794</pub-id></citation>
+</ref>
+<ref id="B11">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Boele-Woelki</surname> <given-names>K.</given-names></name> <name><surname>Francisco</surname> <given-names>J. S.</given-names></name> <name><surname>Hahn</surname> <given-names>U.</given-names></name> <name><surname>Herz</surname> <given-names>J.</given-names></name></person-group> (<year>2018</year>). <article-title>How we can rebuild trust in science&#x02014;and why we must</article-title>. <source>Angewandte Chemie Int. Ed.</source> <volume>57</volume>, <fpage>13696</fpage>&#x02013;<lpage>13697</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201805342</pub-id><pub-id pub-id-type="pmid">30039913</pub-id></citation></ref>
+<ref id="B12">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Bondebjerg</surname> <given-names>I.</given-names></name></person-group> (<year>2014</year>). <article-title>Documentary and cognitive theory: narrative, emotion and memory</article-title>. <source>Media Commun.</source> <volume>2</volume>, <fpage>13</fpage>. <pub-id pub-id-type="doi">10.17645/mac.v2i1.17</pub-id></citation>
+</ref>
+<ref id="B13">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Brewer</surname> <given-names>P. R.</given-names></name> <name><surname>Ley</surname> <given-names>B. L.</given-names></name></person-group> (<year>2012</year>). <article-title>Whose Science Do You Believe? Explaining trust in sources of scientific information about the environment</article-title>. <source>Sci. Commun.</source> <volume>35</volume>, <fpage>115</fpage>&#x02013;<lpage>137</lpage>. <pub-id pub-id-type="doi">10.1177/1075547012441691</pub-id></citation>
+</ref>
+<ref id="B14">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Burdett</surname> <given-names>A. S.</given-names></name> <name><surname>O&#x00027;Reilly</surname> <given-names>K. E.</given-names></name> <name><surname>Bixby</surname> <given-names>R. J.</given-names></name> <name><surname>Connealy</surname> <given-names>S. S.</given-names></name></person-group> (<year>2021</year>). <article-title>How to get your feet wet in public engagement: perspectives from freshwater scientists</article-title>. <source>Freshwater Sci.</source> <volume>40</volume>, <fpage>228</fpage>&#x02013;<lpage>237</lpage>. <pub-id pub-id-type="doi">10.1086/713069</pub-id></citation>
+</ref>
+<ref id="B15">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Carta</surname> <given-names>S.</given-names></name></person-group> (<year>2015</year>). <article-title>Visual and Experiential Knowledge in Observational Cinema,</article-title> in <source>Anthrovision, 3.1(3.1).</source> <pub-id pub-id-type="doi">10.4000/anthrovision.1480</pub-id></citation>
+</ref>
+<ref id="B16">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Cin</surname> <given-names>D. S.</given-names></name> <name><surname>Zanna</surname> <given-names>M. P.</given-names></name> <name><surname>Fong</surname> <given-names>G. T.</given-names></name></person-group> (<year>2004</year>). <article-title>Narratives persuasion and overcoming resistance,</article-title> in <source>Resistance and Persuasion</source>, eds <person-group person-group-type="editor"><name><surname>Knowles</surname> <given-names>E. S.</given-names></name> <name><surname>Linn</surname> <given-names>J. A.</given-names></name></person-group> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>Routledge; Taylor &#x00026; Francis Group</publisher-name>).</citation>
+</ref>
+<ref id="B17">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Clough</surname> <given-names>M.</given-names></name></person-group> (<year>2009</year>). <source>Humanizing Science to Improve Post-Secondary Science Education. Conference: International History, Philosophy and Science Teaching (IHPST)</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.storybehindthescience.org/pdf/2009IHPST.pdf">https://www.storybehindthescience.org/pdf/2009IHPST.pdf</ext-link></citation>
+</ref>
+<ref id="B18">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Dahlstrom</surname> <given-names>M. F.</given-names></name></person-group> (<year>2014</year>). <article-title>Using narratives and storytelling to communicate science with nonexpert audiences,</article-title> in <source>Proceedings of the National Academy of Sciences</source>. <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>National Academy of Sciences</publisher-name>. p. <fpage>13614</fpage>&#x02013;<lpage>13620</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1320645111</pub-id><pub-id pub-id-type="pmid">25225368</pub-id></citation></ref>
+<ref id="B19">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Dando</surname> <given-names>C. E.</given-names></name> <name><surname>Chadwick</surname> <given-names>J. J.</given-names></name></person-group> (<year>2013</year>). <article-title>Enhancing geographic learning and literacy through filmmaking</article-title>. <source>J. Geography.</source> <volume>113</volume>, <fpage>78</fpage>&#x02013;<lpage>84</lpage>. <pub-id pub-id-type="doi">10.1080/00221341.2013.846394</pub-id></citation>
+</ref>
+<ref id="B20">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Dettori</surname> <given-names>G.</given-names></name></person-group> (<year>2015</year>). <article-title>Narrative learning for meaning-making, collaboration and creativity,</article-title> <source>Constructivist Foundations.</source> <volume>10</volume>, <fpage>399</fpage>&#x02013;<lpage>400</lpage>. Available online at: <ext-link ext-link-type="uri" xlink:href="http://constructivist.info/10/3/399">http://constructivist.info/10/3/399</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B21">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Elise</surname> <given-names>G.</given-names></name> <name><surname>Feuer</surname> <given-names>S.</given-names></name> <name><surname>Nawrot</surname> <given-names>A.</given-names></name> <name><surname>Brennan</surname> <given-names>C.</given-names></name> <name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2015</year>). <source>The Princess of Piombino. Rutgers University</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://classics.rutgers.edu/the-princess-of-piombino">https://classics.rutgers.edu/the-princess-of-piombino</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B22">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>ElShafie</surname> <given-names>S. J.</given-names></name></person-group> (<year>2018</year>). <article-title>Making science meaningful for broad audiences through stories</article-title>. <source>Integr. Comp. Biol.</source> <volume>58</volume>, <fpage>1213</fpage>&#x02013;<lpage>1223</lpage>. <pub-id pub-id-type="doi">10.1093/icb/icy103</pub-id><pub-id pub-id-type="pmid">30059998</pub-id></citation></ref>
+<ref id="B23">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Eyong</surname> <given-names>C.</given-names></name> <name><surname>Holloway</surname> <given-names>S.</given-names></name> <name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2012</year>). <source>Thailand Untapped: The Global Reach of Engineers Without Borders [video]. Rutgers University</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/watch?v=HIESVRZtf-E">https://www.youtube.com/watch?v=HIESVRZtf-E</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B24">
+<citation citation-type="web"><person-group person-group-type="author"><collab>FAME (Food Agriculture Marine Ecosystems) Science Storytelling.</collab></person-group> (<year>2021</year>). <source>Rutgers School of Environmental and Biological Sciences</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://ifnh.rutgers.edu/centers/agricultural-food-ecosystems/fame-science-storytelling-pilot.html">https://ifnh.rutgers.edu/centers/agricultural-food-ecosystems/fame-science-storytelling-pilot.html</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B25">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Feuer</surname> <given-names>S.</given-names></name> <name><surname>Deradorian-Delia</surname> <given-names>J.</given-names></name> <name><surname>Wong</surname> <given-names>S.</given-names></name></person-group> (<year>2013</year>). <source>The Skycatcher. Rutgers University</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/73308781">https://vimeo.com/73308781</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B26">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Fischhoff</surname> <given-names>B.</given-names></name></person-group> (<year>2018</year>). <article-title>Evaluating science communication</article-title>. <source>Proc. Nat. Acad. Sci.</source> <volume>116</volume>, <fpage>7670</fpage>&#x02013;<lpage>7675</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1805863115</pub-id><pub-id pub-id-type="pmid">30478063</pub-id></citation></ref>
+<ref id="B27">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Fiske</surname> <given-names>S. T.</given-names></name> <name><surname>Dupree</surname> <given-names>C.</given-names></name></person-group> (<year>2014</year>). <article-title>Gaining trust as well as respect in communicating to motivated audiences about science topics,</article-title> in <source>Proceedings of the National Academy of Sciences.</source> <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>National Academy of Sciences</publisher-name>. p. <fpage>13593</fpage>&#x02013;<lpage>13597</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1317505111</pub-id><pub-id pub-id-type="pmid">25225372</pub-id></citation></ref>
+<ref id="B28">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Fitzgerald</surname> <given-names>A.</given-names></name> <name><surname>Lowe</surname> <given-names>M.</given-names></name></person-group> (<year>2020</year>). <article-title>Acknowledging documentary filmmaking as not only an output but a research process: a case for quality research practice</article-title>. <source>Int. J. Qual. Methods.</source> <volume>19</volume>, <fpage>160940692095746</fpage>. <pub-id pub-id-type="doi">10.1177/1609406920957462</pub-id></citation>
+</ref>
+<ref id="B29">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Freeman</surname> <given-names>S.</given-names></name> <name><surname>Eddy</surname> <given-names>S. L.</given-names></name> <name><surname>McDonough</surname> <given-names>M.</given-names></name> <name><surname>Smith</surname> <given-names>M. K.</given-names></name> <name><surname>Okoroafor</surname> <given-names>N.</given-names></name> <name><surname>Jordt</surname> <given-names>H.</given-names></name> <etal/></person-group>. (<year>2014</year>). <article-title>Active learning increases student performance in science, engineering, and mathematics,</article-title> in <source>Proceedings of the National Academy of Sciences.</source> p. <fpage>8410</fpage>&#x02013;<lpage>8415</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1319030111</pub-id><pub-id pub-id-type="pmid">24821756</pub-id></citation></ref>
+<ref id="B30">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Funk</surname> <given-names>C.</given-names></name> <name><surname>Hefferon</surname> <given-names>M.</given-names></name> <name><surname>Kennedy</surname> <given-names>B.</given-names></name> <name><surname>Johnson</surname> <given-names>C.</given-names></name></person-group> (<year>2019</year>). <article-title>Trust and Mistrust in Americans&#x00027; Views of Scientific Experts,</article-title> in <source>Pew Research Center Science and Society</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.pewresearch.org/science/2019/08/02/trust-and-mistrust-in-americans-views-of-scientific-experts/">https://www.pewresearch.org/science/2019/08/02/trust-and-mistrust-in-americans-views-of-scientific-experts/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B31">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Glenn</surname> <given-names>S.</given-names></name> <name><surname>Schofield</surname> <given-names>O.</given-names></name> <name><surname>Kohut</surname> <given-names>J.</given-names></name> <name><surname>McDonnell</surname> <given-names>J.</given-names></name> <name><surname>Ludescher</surname> <given-names>R.</given-names></name> <name><surname>Seidel</surname> <given-names>D.</given-names></name> <etal/></person-group>. (<year>2011</year>). <article-title>The trans-atlantic slocum glider expeditions: a catalyst for undergraduate participation in ocean science and technology</article-title>. <source>Mar. Technol. Soc. J.</source> <volume>45</volume>, <fpage>52</fpage>&#x02013;<lpage>67</lpage>. <pub-id pub-id-type="doi">10.4031/MTSJ.45.1.12</pub-id></citation>
+</ref>
+<ref id="B32">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Goodwin</surname> <given-names>J.</given-names></name> <name><surname>Dahlstrom</surname> <given-names>M. F.</given-names></name></person-group> (<year>2013</year>). <article-title>Communication strategies for earning trust in climate change debates</article-title>. <source>Clim. Change</source> <volume>5</volume>, <fpage>151</fpage>&#x02013;<lpage>160</lpage>. <pub-id pub-id-type="doi">10.1002/wcc.262</pub-id></citation>
+</ref>
+<ref id="B33">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Green</surname> <given-names>M. C.</given-names></name> <name><surname>Brock</surname> <given-names>T. C.</given-names></name></person-group> (<year>2000</year>). <article-title>The role of transportation in the persuasiveness of public narratives</article-title>. <source>J. Pers. Soc. Psychol</source>. (2000) <volume>79</volume>, <fpage>701</fpage>&#x02013;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1037/0022-3514.79.5.701</pub-id><pub-id pub-id-type="pmid">11079236</pub-id></citation></ref>
+<ref id="B34">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Green</surname> <given-names>M. C.</given-names></name> <name><surname>Brock</surname> <given-names>T. C.</given-names></name></person-group> (<year>2002</year>). <article-title>In the mind&#x00027;s eye: Transportation-imagery model of narrative persuasion,</article-title> in <source>Narrative Impact: Social and cognitive foundations</source>, <person-group person-group-type="editor"><name><surname>Green</surname> <given-names>M. C.</given-names></name> <name><surname>Strange</surname> <given-names>J. J.</given-names></name> <name><surname>Brock</surname> <given-names>T. C.</given-names></name></person-group> (eds.). <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>Laurence Erlbaum Associate Publishers</publisher-name>. p. <fpage>315</fpage>&#x02013;<lpage>341</lpage>. <pub-id pub-id-type="doi">10.4324/9781410606648</pub-id></citation>
+</ref>
+<ref id="B35">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Greene</surname> <given-names>W.</given-names></name></person-group> (<year>2015</year>). <source>Review: Antarctic Edge: 70&#x000B0; South</source>. <publisher-loc>Brooklyn, New York</publisher-loc>: <publisher-name>Slant Magazine</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.slantmagazine.com/film/antarctic-edge-70-south/">https://www.slantmagazine.com/film/antarctic-edge-70-south/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B36">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hasson</surname> <given-names>U.</given-names></name> <name><surname>Landesman</surname> <given-names>O.</given-names></name> <name><surname>Knappmeyer</surname> <given-names>B.</given-names></name> <name><surname>Vallines</surname> <given-names>I.</given-names></name> <name><surname>Rubin</surname> <given-names>N.</given-names></name> <name><surname>Heeger</surname> <given-names>D. J.</given-names></name></person-group> (<year>2008</year>). <article-title>Neurocinematics: the neuroscience of film</article-title>. <source>Projections.</source> <volume>2</volume>, <fpage>1</fpage>&#x02013;<lpage>26</lpage>. <pub-id pub-id-type="doi">10.3167/proj.2008.020102</pub-id></citation>
+</ref>
+<ref id="B37">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hendriks</surname> <given-names>F.</given-names></name> <name><surname>Kienhues</surname> <given-names>D.</given-names></name> <name><surname>Bromme</surname> <given-names>R.</given-names></name></person-group> (<year>2016</year>). <source>Trust and Communication in a Digitized World. Progress in IS</source>. <publisher-loc>Cham</publisher-loc>: <publisher-name>Springer International Publishing</publisher-name>. Bl&#x000F6;baum, B. (ed.). p <fpage>143</fpage>&#x02013;<lpage>159</lpage> <pub-id pub-id-type="doi">10.1007/978-3-319-28059-2_8</pub-id></citation>
+</ref>
+<ref id="B38">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Hoffman</surname> <given-names>A.</given-names></name></person-group> (<year>2011</year>). <source>Auteurs in the Rough Fall</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers Magazine</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://ucmweb.rutgers.edu/magazine/archive1013/departments/fall-2011/the-arts/auteurs-inthe-Rough">https://ucmweb.rutgers.edu/magazine/archive1013/departments/fall-2011/the-arts/auteurs-inthe-Rough</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B39">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Hoffman</surname> <given-names>A.</given-names></name></person-group> (<year>2013</year>). <source>A View Down Under</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers Magazine</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://ucmweb.rutgers.edu/magazine/1013archive/features/spring-2013/the-view-downunder.html">https://ucmweb.rutgers.edu/magazine/1013archive/features/spring-2013/the-view-downunder.html</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B40">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Isaacs</surname> <given-names>J. P.</given-names></name></person-group> (<year>2014</year>). <source>The Women of Nsongwe</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/191302507">https://vimeo.com/191302507</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B41">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Jamieson</surname> <given-names>K. H.</given-names></name> <name><surname>McNutt</surname> <given-names>M.</given-names></name> <name><surname>Kiermer</surname> <given-names>V.</given-names></name> <name><surname>Sever</surname> <given-names>R.</given-names></name></person-group> (<year>2019</year>). <article-title>Signaling the trustworthiness of science</article-title>. <source>Proc. Nat. Acad. Sci.</source> <volume>116</volume>, <fpage>19231</fpage>&#x02013;<lpage>19236</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1913039116</pub-id><pub-id pub-id-type="pmid">31548409</pub-id></citation></ref>
+<ref id="B42">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Jarreau</surname> <given-names>P. B.</given-names></name></person-group> (<year>2019</year>). <source>Scientists Who Selfie Break Down Stereotypes: Researchers who post personal photos of their lives can build trust with public audiences. American Scientist Macroscope Blog</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.americanscientist.org/blog/macroscope/scientists-who-selfie-break-down-stereotypes">https://www.americanscientist.org/blog/macroscope/scientists-who-selfie-break-down-stereotypes</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B43">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Jenkins</surname> <given-names>H.</given-names></name></person-group> (<year>2009</year>). <article-title>The revenge of the origami unicorn: seven principles of transmedia storytelling,</article-title> in <source>Confessions of an Aca-Fan.</source> Available online at: <ext-link ext-link-type="uri" xlink:href="http://henryjenkins.org/blog/2009/12/the_revenge_of_the_origami_uni.html">http://henryjenkins.org/blog/2009/12/the_revenge_of_the_origami_uni.html</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B44">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Jewitt</surname> <given-names>C.</given-names></name></person-group> (<year>2012</year>). <article-title>An introduction to using video for research An Introduction to Using Video for Research</article-title>. [online] Available at: <ext-link ext-link-type="uri" xlink:href="https://eprints.ncrm.ac.uk/id/eprint/2259/4/NCRM_workingpaper_0312.pdf">https://eprints.ncrm.ac.uk/id/eprint/2259/4/NCRM_workingpaper_0312.pdf</ext-link></citation>
+</ref>
+<ref id="B45">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Jones</surname> <given-names>D.</given-names></name> <name><surname>Anderson Crow</surname> <given-names>D.</given-names></name></person-group> (<year>2017</year>). <article-title>How can we use the &#x02018;science of stories&#x00027; to produce persuasive scientific stories?</article-title>. <source>Palgrave Commun.</source> <volume>3</volume>(<issue>1</issue>). <pub-id pub-id-type="doi">10.1057/s41599-017-0047-7</pub-id></citation>
+</ref>
+<ref id="B46">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Jones</surname> <given-names>K.</given-names></name></person-group> (<year>2005</year>). <article-title>The Art of collaborative storytelling: arts-based representations of narrative contexts,</article-title> in <source>International Sociological Association Research Committee on Biography and Society</source>. (RC38 N). Available online at: <ext-link ext-link-type="uri" xlink:href="http://eprints.bournemouth.ac.uk/4237/">http://eprints.bournemouth.ac.uk/4237/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B47">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Joubert</surname> <given-names>M.</given-names></name> <name><surname>Davis</surname> <given-names>L.</given-names></name> <name><surname>Metcalfe</surname> <given-names>J.</given-names></name></person-group> (<year>2019</year>). <article-title>Storytelling: the soul of science communication</article-title>. <source>J. Sci. Commun.</source> <volume>18</volume>(<issue>05</issue>). <pub-id pub-id-type="doi">10.22323/2.18050501</pub-id></citation>
+</ref>
+<ref id="B48">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Kenigsberg</surname> <given-names>B.</given-names></name></person-group> (<year>2015</year>). <article-title>Review: In &#x02018;Antarctic Edge,&#x00027; a Region of Retreating Ice,</article-title> in <source>The New York Times.</source> Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.nytimes.com/2015/04/17/movies/review-in-antarctic-edge-a-region-of-retreating-ice.html">https://www.nytimes.com/2015/04/17/movies/review-in-antarctic-edge-a-region-of-retreating-ice.html</ext-link></citation>
+</ref>
+<ref id="B49">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>La Gorce</surname> <given-names>T.</given-names></name></person-group> (<year>2012</year>). <source>Focusing on Kids&#x00027; Obesity. New Jersey</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://njmonthly.com/articles/jersey-living/focusing-on-kids-obesity/">https://njmonthly.com/articles/jersey-living/focusing-on-kids-obesity/</ext-link></citation>
+</ref>
+<ref id="B50">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Lam</surname> <given-names>A.</given-names></name> <name><surname>Tegelberg</surname> <given-names>M.</given-names></name></person-group> (<year>2019</year>). <article-title>Witnessing glaciers melt: Climate change and transmedia storytelling</article-title>. <source>J. Sci. Commun.</source> <volume>18</volume>, <fpage>A05</fpage>. <pub-id pub-id-type="doi">10.22323/2.18020205</pub-id></citation>
+</ref>
+<ref id="B51">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Laursen</surname> <given-names>S. L.</given-names></name> <name><surname>Brickley</surname> <given-names>A.</given-names></name></person-group> (<year>2011</year>). <article-title>Focusing the camera lens on the nature of science: evidence for the effectiveness of documentary film as a broader impacts strategy</article-title>. <source>J. Geosci. Educ.</source> <volume>59</volume>, <fpage>126</fpage>&#x02013;<lpage>138</lpage>. <pub-id pub-id-type="doi">10.5408/1.3604825</pub-id></citation>
+</ref>
+<ref id="B52">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Lin</surname> <given-names>S.-J.</given-names></name></person-group> (<year>2013</year>). <article-title>Perceived impact of a documentary film</article-title>. <source>Sci. Commun.</source> <volume>35</volume>, <fpage>708</fpage>&#x02013;<lpage>733</lpage>. <pub-id pub-id-type="doi">10.1177/1075547013478204</pub-id></citation>
+</ref>
+<ref id="B53">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>MacDougall</surname> <given-names>D.</given-names></name></person-group> (<year>2020</year>). <article-title>Observational filmmaking: a unique practice</article-title>. <source>Visual Anthrop.</source> <volume>33</volume>, <fpage>452</fpage>&#x02013;<lpage>458</lpage>. <pub-id pub-id-type="doi">10.1080/08949468.2020.1824976</pub-id></citation>
+</ref>
+<ref id="B54">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Maggio</surname> <given-names>R.</given-names></name></person-group> (<year>2014</year>). <article-title>The anthropology of storytelling and the storytelling of anthropology</article-title>. <source>J. Compar. Res. Anthropol. Sociol.</source> <volume>5</volume>, <fpage>89</fpage>&#x02013;<lpage>106</lpage>. Available online at: <ext-link ext-link-type="uri" xlink:href="http://compaso.eu/wpd/wp-content/uploads/2015/02/Compaso2014-52-Maggio.pdf">http://compaso.eu/wpd/wp-content/uploads/2015/02/Compaso2014-52-Maggio.pdf</ext-link></citation>
+</ref>
+<ref id="B55">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Martinez-Conde</surname> <given-names>S.</given-names></name> <name><surname>Macknik</surname> <given-names>S. L.</given-names></name></person-group> (<year>2017</year>). <article-title>Opinion: finding the plot in science storytelling in hopes of enhancing science communication</article-title>. <source>Proc. Nat. Acad. Sci.</source> <volume>114</volume>, <fpage>8127</fpage>&#x02013;<lpage>8129</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1711790114</pub-id><pub-id pub-id-type="pmid">28765506</pub-id></citation></ref>
+<ref id="B56">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Meager</surname> <given-names>N.</given-names></name></person-group> (<year>2019</year>). <source>Observational Filmmaking for Education</source>. <publisher-loc>Cham</publisher-loc>: <publisher-name>Springer International Publishing</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-3-319-90626-3</pub-id></citation>
+</ref>
+<ref id="B57">
+<citation citation-type="web"><person-group person-group-type="author"><collab>Merriam-Webster Dictionary.</collab></person-group> (<year>2022</year>). <source>Definition of RELATABLE</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.merriam-webster.com/dictionary/relatable">https://www.merriam-webster.com/dictionary/relatable</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B58">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Morris</surname> <given-names>B. S.</given-names></name> <name><surname>Chrysochou</surname> <given-names>P.</given-names></name> <name><surname>Christensen</surname> <given-names>J. D.</given-names></name> <name><surname>Orquin</surname> <given-names>J. L.</given-names></name> <name><surname>Barraza</surname> <given-names>J.</given-names></name> <name><surname>Zak</surname> <given-names>P. J.</given-names></name> <etal/></person-group>. (<year>2019</year>). <article-title><italic>Stories vs</italic>. facts: triggering emotion and action-taking on climate change</article-title>. <source>Clim. Change.</source> <volume>154</volume>, <fpage>19</fpage>&#x02013;<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1007/s10584-019-02425-6</pub-id></citation>
+</ref>
+<ref id="B59">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Moser</surname> <given-names>S. C.</given-names></name></person-group> (<year>2010</year>). <article-title>Communicating climate change: history, challenges, process and future directions</article-title>. <source>WIREs Clim. Change.</source> <volume>1</volume>, <fpage>31</fpage>&#x02013;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1002/wcc.11</pub-id></citation>
+</ref>
+<ref id="B60">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Nadkarni</surname> <given-names>N. M.</given-names></name> <name><surname>Weber</surname> <given-names>C. Q.</given-names></name> <name><surname>Goldman</surname> <given-names>S. V.</given-names></name> <name><surname>Schatz</surname> <given-names>D. L.</given-names></name> <name><surname>Allen</surname> <given-names>S.</given-names></name> <name><surname>Menlove</surname> <given-names>R.</given-names></name></person-group> (<year>2019</year>). <article-title>Beyond the deficit model: the ambassador approach to public engagement</article-title>. <source>Bioscience.</source> <volume>69</volume>, <fpage>305</fpage>&#x02013;<lpage>313</lpage>. <pub-id pub-id-type="doi">10.1093/biosci/biz018</pub-id></citation>
+</ref>
+<ref id="B61">
+<citation citation-type="web"><person-group person-group-type="author"><collab>National Science Foundation.</collab></person-group> (<year>2013</year>). <source>NSF Supported Antarctic Science Documentary is Also a Teaching Tool for Aspiring Film. Students</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=128123">https://www.nsf.gov/news/news_summ.jsp?cntn_id=128123</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B62">
+<citation citation-type="web"><person-group person-group-type="author"><collab>National Science Foundation.</collab></person-group> (<year>2015</year>). <source>Perspectives on Broader Impacts</source>. <publisher-loc>Washington, DC</publisher-loc>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.nsf.gov/od/oia/publications/Broader_Impacts.pdf">https://www.nsf.gov/od/oia/publications/Broader_Impacts.pdf</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B63">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Nichols</surname> <given-names>B.</given-names></name></person-group> (<year>2016</year>). <source>Speaking Truths with Film: Evidence, Ethics, Politics in Documentary</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="http://www.ucpress.edu/">www.ucpress.edu</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://www.ucpress.edu/book/9780520290402/speaking-truths-with-film">https://www.ucpress.edu/book/9780520290402/speaking-truths-with-film</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B64">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Padian</surname> <given-names>K.</given-names></name></person-group> (<year>2018</year>). <article-title>Narrative and &#x02018;anti-narrative&#x00027; in science: how scientists tell stories, and don&#x00027;t</article-title>. <source>Integr Comp Biol</source>. <volume>58</volume>, <fpage>1224</fpage>&#x02013;<lpage>1234</lpage>. <pub-id pub-id-type="doi">10.1093/icb/icy038</pub-id><pub-id pub-id-type="pmid">29873718</pub-id></citation></ref>
+<ref id="B65">
+<citation citation-type="web"><person-group person-group-type="author"><collab>PBS Learning Media.</collab></person-group> (<year>2014</year>). <source>Ocean Glider Robots in Antarctica</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://ny.pbslearningmedia.org/resource/639c56a4-c4d4-46bf-ae5e-db5f262a4f43/oceanglider-">https://ny.pbslearningmedia.org/resource/639c56a4-c4d4-46bf-ae5e-db5f262a4f43/oceanglider-</ext-link> (accessed September 8, 2022).</citation>
+</ref>
+<ref id="B66">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Peters</surname> <given-names>J. D.</given-names></name></person-group> (<year>2001</year>). <article-title>Witnessing</article-title>. <source>Media, Culture Soc.</source> <volume>23</volume>, <fpage>707</fpage>&#x02013;<lpage>723</lpage>. <pub-id pub-id-type="doi">10.1177/016344301023006002</pub-id></citation>
+</ref>
+<ref id="B67">
+<citation citation-type="web"><person-group person-group-type="author"><collab>Pew Research Center.</collab></person-group> (<year>2020</year>). <source>How to Build Community, Connection, and Trust in Science</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/10/02/how-to-build-community-connection-and-trust-in-science">https://www.pewtrusts.org/en/research-and-analysis/articles/2020/10/02/how-to-build-community-connection-and-trust-in-science</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B68">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Plantinga</surname> <given-names>C.</given-names></name></person-group> (<year>2018</year>). <article-title>Characterization and character engagement in the documentary</article-title>. <source>Cogn. Theory Doc. Film.</source> <fpage>115</fpage>&#x02013;<lpage>134</lpage>. <pub-id pub-id-type="doi">10.1007/978-3-319-90332-3_7</pub-id></citation>
+</ref>
+<ref id="B69">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Plump</surname> <given-names>W.</given-names></name></person-group> (<year>2015</year>). <source>Passages: The War After, Rutgers Magazine</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://ucmweb.rutgers.edu/magazine/1419archive/the-arts/passages.html">https://ucmweb.rutgers.edu/magazine/1419archive/the-arts/passages.html</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B70">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pouliot</surname> <given-names>C.</given-names></name> <name><surname>Godbout</surname> <given-names>J.</given-names></name></person-group> (<year>2014</year>). <article-title>Thinking outside the &#x02018;knowledge deficit&#x00027; box</article-title>. <source>EMBO Rep.</source> <volume>15</volume>, <fpage>833</fpage>&#x02013;<lpage>835</lpage>. <pub-id pub-id-type="doi">10.15252/embr.201438590</pub-id><pub-id pub-id-type="pmid">24993560</pub-id></citation></ref>
+<ref id="B71">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Priest</surname> <given-names>S. H.</given-names></name> <name><surname>Stenhouse</surname> <given-names>N.</given-names></name> <name><surname>Thompson</surname> <given-names>J.</given-names></name></person-group> (<year>2016</year>). <source>Communicating Climate Change: The Path Forward.</source> <publisher-loc>London</publisher-loc>: <publisher-name>Palgrave Macmillan</publisher-name>. (2016).</citation>
+</ref>
+<ref id="B72">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Rabinovich</surname> <given-names>A.</given-names></name> <name><surname>Morton</surname> <given-names>T. A.</given-names></name> <name><surname>Birney</surname> <given-names>M. E.</given-names></name></person-group> (<year>2012</year>). <article-title>Communicating climate science: The role of perceived communicator&#x00027;s motives</article-title>. <source>J. Environ. Psychol.</source> <volume>32</volume>, <fpage>11</fpage>&#x02013;<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1016/j.jenvp.2011.09.002</pub-id></citation>
+</ref>
+<ref id="B73">
+<citation citation-type="book"><person-group person-group-type="author"><name><surname>Ranalli</surname> <given-names>B.</given-names></name></person-group> (<year>2013</year>). <source>Science Communication as Communication about Persons</source>. <publisher-loc>Ames, IA</publisher-loc>: <publisher-name>Iowa State University Summer Symposium on Science Communication</publisher-name>. <pub-id pub-id-type="doi">10.31274/sciencecommunication-180809-46</pub-id></citation>
+</ref>
+<ref id="B74">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Rechtshaffen</surname> <given-names>M.</given-names></name></person-group> (<year>2015</year>). <source>Review: &#x02018;Antarctic Edge&#x00027; follows scientists grappling with climate change</source>. <publisher-loc>Los Angeles</publisher-loc>: <publisher-name>Los Angeles Times</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.latimes.com/entertainment/movies/la-et-mn-antarctic-edge-70-degrees-review-20150515-story.html">https://www.latimes.com/entertainment/movies/la-et-mn-antarctic-edge-70-degrees-review-20150515-story.html</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B75">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Riedlinger</surname> <given-names>M.</given-names></name> <name><surname>Massarani</surname> <given-names>L.</given-names></name> <name><surname>Joubert</surname> <given-names>M.</given-names></name> <name><surname>Baram-Tsabari</surname> <given-names>A.</given-names></name> <name><surname>Entradas</surname> <given-names>M.</given-names></name> <name><surname>Metcalfe</surname> <given-names>J.</given-names></name></person-group> (<year>2019</year>). <article-title>Telling stories in science communication: case studies of scholar-practitioner collaboration</article-title>. <source>J. Sci. Commun.</source> 18(05). <pub-id pub-id-type="doi">10.22323/2.18050801</pub-id></citation>
+</ref>
+<ref id="B76">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Riggio</surname> <given-names>J.</given-names></name></person-group> (<year>2014</year>). <source>My Father, Electromagnetic</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. (<year>2014</year>). Available online at: <ext-link ext-link-type="uri" xlink:href="https://classics.rutgers.edu/my-father-electromagnetic">https://classics.rutgers.edu/my-father-electromagnetic</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B77">
+<citation citation-type="web"><person-group person-group-type="author"><collab>Rockman Research Evaluation.</collab></person-group> (<year>2015</year>). <source>Rutgers Antarctica Report, Evaluation Findings</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://beyondtheice.rutgers.edu/wp-content/uploads/2021/08/Rockman-Rutgers_Antarctic-Edge-Findings.pdf">https://beyondtheice.rutgers.edu/wp-content/uploads/2021/08/Rockman-Rutgers_Antarctic-Edge-Findings.pdf</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://rockman.com/">https://rockman.com/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B78">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Rose</surname> <given-names>K. M.</given-names></name> <name><surname>Markowitz</surname> <given-names>E. M.</given-names></name> <name><surname>Brossard</surname> <given-names>D.</given-names></name></person-group> (<year>2020</year>). <article-title>Scientists&#x00027; incentives and attitudes toward public communication</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source> <volume>117</volume>, <fpage>1274</fpage>&#x02013;<lpage>1276</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1916740117</pub-id><pub-id pub-id-type="pmid">31911470</pub-id></citation></ref>
+<ref id="B79">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Rouch</surname> <given-names>J.</given-names></name></person-group> (<year>1974</year>). <article-title>The camera and man</article-title>. <source>Stud. Visual Commun</source>. <volume>1</volume>, <fpage>37</fpage>&#x02013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1525/var.1974.1.1.37</pub-id></citation>
+</ref>
+<ref id="B80">
+<citation citation-type="web"><person-group person-group-type="author"><collab>Rutgers Magazine</collab></person-group> (<year>2014</year>). <source>A Documentarian on the Move</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University; Spring</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://ucmweb.rutgers.edu/magazine/1419archive/the-arts/a-documentarian-on-the-move.html">https://ucmweb.rutgers.edu/magazine/1419archive/the-arts/a-documentarian-on-the-move.html</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B81">
+<citation citation-type="web"><person-group person-group-type="author"><collab>Rutgers Office of Communication.</collab></person-group> (<year>2021</year>). <source>Science Storytelling as Community Engagement: Rutgers Releases &#x0201C;Fields of Devotion&#x0201D; Short Film Trailer</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://sebsnjaesnews.rutgers.edu/2021/12/science-storytelling-as-community-engagement-rutgers-releases-fields-of-devotion-short-film-trailer/">https://sebsnjaesnews.rutgers.edu/2021/12/science-storytelling-as-community-engagement-rutgers-releases-fields-of-devotion-short-film-trailer/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B82">
+<citation citation-type="journal"><person-group person-group-type="author"><collab>Rutgers Office of Communication</collab></person-group>. (<year>2022</year>). <source>Rutgers Interdisciplinary Pilot Project Connects High School Youth to University Science</source>. Available online at: sebsnjaesnews.rutgers.edu/2022/03/rutgers-interdisciplinary-pilot-project-connects-high-school-youth-to-university-science/ (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B83">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Saffran</surname> <given-names>L.</given-names></name> <name><surname>Hu</surname> <given-names>S.</given-names></name> <name><surname>Hinnant</surname> <given-names>A.</given-names></name> <name><surname>Scherer</surname> <given-names>L. D.</given-names></name> <name><surname>Nagel</surname> <given-names>S. C.</given-names></name></person-group> (<year>2020</year>). <article-title>Constructing and influencing perceived authenticity in science communication: Experimenting with narrative</article-title>. <source>PLoS ONE</source>. <volume>15</volume>, <fpage>e0226711</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0226711</pub-id><pub-id pub-id-type="pmid">31940373</pub-id></citation></ref>
+<ref id="B84">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Schinske</surname> <given-names>J.</given-names></name> <name><surname>Cardenas</surname> <given-names>M.</given-names></name> <name><surname>Kaliangara</surname> <given-names>J.</given-names></name></person-group> (<year>2015</year>). <article-title>Uncovering scientist stereotypes and their relationships with student race and student success in a diverse, community college setting</article-title>. <source>CBE Life Sci Educ. Fall</source>. <volume>14</volume>, <fpage>14</fpage>:<lpage>ar35</lpage>. <pub-id pub-id-type="doi">10.1187/cbe.14-12-0231</pub-id><pub-id pub-id-type="pmid">26338318</pub-id></citation></ref>
+<ref id="B85">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Schofield</surname> <given-names>O.</given-names></name> <name><surname>Glenn</surname> <given-names>S.</given-names></name> <name><surname>Kohut</surname> <given-names>J.</given-names></name> <name><surname>Miles</surname> <given-names>T.</given-names></name> <name><surname>Roarty</surname> <given-names>H.</given-names></name> <name><surname>Saba</surname> <given-names>G.</given-names></name> <etal/></person-group>. (<year>2018</year>). <article-title>Developing practical data skills in undergraduate students using ocean observatories</article-title>. <source>Marine Tech. Society J.</source> <volume>52</volume>, <fpage>47</fpage>&#x02013;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.4031/MTSJ.52.1.7</pub-id></citation>
+</ref>
+<ref id="B86">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Schofield</surname> <given-names>O.</given-names></name> <name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2014</year>). <source>NSF CRPA &#x00023;1241413 Final Report</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://beyondtheice.rutgers.edu/wp-content/uploads/2021/08/Annual-Project-Report-1241414_FFY14.pdf">https://beyondtheice.rutgers.edu/wp-content/uploads/2021/08/Annual-Project-Report-1241414_FFY14.pdf</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B87">
+<citation citation-type="web"><person-group person-group-type="author"><collab>SciOPS.</collab></person-group> (<year>2021</year>). <source>Priorities: Perspectives of US based scientists SciOPS Project Team</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://csteps.asu.edu/sites/default/files/%5Bterm%3Aname%5D/%5Bnode%3Acreate%3Acustom%3AYm%5D/science_priorities_memo_final.pdf">https://csteps.asu.edu/sites/default/files/%5Bterm%3Aname%5D/%5Bnode%3Acreate%3Acustom%3AYm%5D/science_priorities_memo_final.pdf</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B88">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2010</year>). <source>Atlantic Crossing: A Robot&#x00027;s Daring Mission</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. <ext-link ext-link-type="uri" xlink:href="https://emro.libraries.psu.edu/record/index.php?id=4556">https://emro.libraries.psu.edu/record/index.php?id=4556</ext-link></citation>
+</ref>
+<ref id="B89">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2013</year>). <source>Ocean Stories 3 Part Series. Rutgers University; Ocean Acidification</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/55478883">https://vimeo.com/55478883</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/66160920">https://vimeo.com/66160920</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://vimeo.com/65094862">https://vimeo.com/65094862</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B90">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2014</year>). <source>The War After: From Combat to Campus</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.kanopy.com/en/product/162857">https://www.kanopy.com/en/product/162857</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B91">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2015a</year>). <source>Antarctic Edge: 70 Degrees South</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://beyondtheice.rutgers.edu/">https://beyondtheice.rutgers.edu/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B92">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2015b</year>). <source>Generation at Risk: Joining Forces to Fight Childhood Obesity</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://generationatrisk.rutgers.edu/">https://generationatrisk.rutgers.edu/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B93">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Seidel</surname> <given-names>D. K.</given-names></name></person-group> (<year>2022</year>). <source>Fields of Devotion [film]</source>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://newuseag.rutgers.edu/sciencestories/fields-of-devotion/&#x00023;:&#x0007E;:text=Fields%20of%20Devotion%20(2022)%20is,strengthen%20New%20Jerseys%20food%20systems">https://newuseag.rutgers.edu/sciencestories/fields-of-devotion/&#x00023;:&#x0007E;:text=Fields%20of%20Devotion%20(2022)%20is,strengthen%20New%20Jerseys%20food%20systems</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B94">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname> <given-names>M.</given-names></name></person-group> (<year>1994</year>). <article-title>Altered States: character and Emotional Response in the Cinema</article-title>. <source>Cinema J.</source> <volume>33</volume>, <fpage>34</fpage>&#x02013;<lpage>56</lpage>. <pub-id pub-id-type="doi">10.2307/1225898</pub-id></citation>
+</ref>
+<ref id="B95">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Sosa</surname> <given-names>N.</given-names></name> <name><surname>Rios</surname> <given-names>K.</given-names></name></person-group> (<year>2019</year>). <article-title>The utilitarian scientist: the humanization of scientists in moral dilemmas</article-title>. <source>J. Exp. Soc. Psychol.</source> <volume>84</volume>, p.<fpage>103818</fpage>. <pub-id pub-id-type="doi">10.1016/j.jesp.2019.103818</pub-id></citation>
+</ref>
+<ref id="B96">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Stewart</surname> <given-names>S.</given-names></name></person-group> (<year>2015</year>). <source>Ship of Nerds Goes South in Science doc Antarctic Edge. The New York Post</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://nypost.com/2015/04/15/ship-of-nerds-go-south-in-science-doc-antarctic-edge/">https://nypost.com/2015/04/15/ship-of-nerds-go-south-in-science-doc-antarctic-edge/</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B97">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Suzuki</surname> <given-names>W. A.</given-names></name> <name><surname>Feli&#x000FA;-M&#x000F3;jer</surname> <given-names>M. I.</given-names></name> <name><surname>Hasson</surname> <given-names>U.</given-names></name> <name><surname>Yehuda</surname> <given-names>R.</given-names></name> <name><surname>Zarate</surname> <given-names>J. M.</given-names></name></person-group> (<year>2018</year>). <article-title>Dialogues: the Science and Power of Storytelling</article-title>. <source>J. Neurosci.</source> <volume>38</volume>, <fpage>9468</fpage>&#x02013;<lpage>9470</lpage>. <pub-id pub-id-type="doi">10.1523/JNEUROSCI.1942-18.2018</pub-id><pub-id pub-id-type="pmid">30381438</pub-id></citation></ref>
+<ref id="B98">
+<citation citation-type="book"><person-group person-group-type="author"><collab>UNESCO</collab></person-group>. (<year>2015</year>). <source>Toward 2030 by United Nations Educational Scientific and Cultural Organization</source>. <publisher-loc>Paris</publisher-loc>: <publisher-name>UNESCO Publishing</publisher-name>.</citation>
+</ref>
+<ref id="B99">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Webler</surname> <given-names>T.</given-names></name> <name><surname>Tuler</surname> <given-names>S.</given-names></name></person-group> (<year>2018</year>). <article-title>Four decades of public participation in risk decision making</article-title>. <source>Risk Anal</source>. <volume>41</volume>, <fpage>503</fpage>&#x02013;<lpage>518</lpage>. <pub-id pub-id-type="doi">10.1111/risa.13250</pub-id><pub-id pub-id-type="pmid">30549458</pub-id></citation></ref>
+<ref id="B100">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Wiebe</surname> <given-names>S. M.</given-names></name></person-group> (<year>2016</year>). <article-title>Decolonizing engagement? creating a sense of community through collaborative filmmaking</article-title>. <source>Stud. Social Justice.</source> <volume>9</volume>, <fpage>244</fpage>&#x02013;<lpage>257</lpage>. <pub-id pub-id-type="doi">10.26522/ssj.v9i2.1141</pub-id></citation>
+</ref>
+<ref id="B101">
+<citation citation-type="web"><person-group person-group-type="author"><name><surname>Young</surname> <given-names>C.</given-names></name></person-group> (<year>1995</year>). <source>Observational Cinema. PhilPapers</source>. Available online at: <ext-link ext-link-type="uri" xlink:href="https://philpapers.org/rec/YOUOC">https://philpapers.org/rec/YOUOC</ext-link> (accessed September 18, 2022).</citation>
+</ref>
+<ref id="B102">
+<citation citation-type="journal"><person-group person-group-type="author"><name><surname>Zak</surname> <given-names>P. J.</given-names></name></person-group> (<year>2015</year>). <article-title>Why inspiring stories make us react: the neuroscience of narrative</article-title>. <source>Cerebrum. Dana Forum on Brain Sci</source>. <volume>2015</volume>, <fpage>1</fpage>&#x02013;<lpage>2</lpage>.<pub-id pub-id-type="pmid">26034526</pub-id></citation></ref>
+</ref-list> 
+</back>
+</article>
