@@ -1,0 +1,817 @@
+{
+  "batch": "0002",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 24,
+  "new_original_payload_paths": 27,
+  "files": [
+    {
+      "file": "upstream/coreyhaines31__marketingskills/README.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "README.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/README.md",
+      "size_bytes": 25479,
+      "sha256": "e82d4e02e8fb101790cfc9972889b74568553bbd77108da4b5791da638133e69",
+      "git_blob_sha1": "c972e423856c836f269d0b330ee5984ed99397eb",
+      "role": "repository_readme",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8bf41c2345f4"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/ab-testing/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/ab-testing/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/ab-testing/SKILL.md",
+      "size_bytes": 12540,
+      "sha256": "fba679be14a9b21a06cde009caf17a652b92040c6f78a520a5d4baec0a5bd5da",
+      "git_blob_sha1": "2549315f9c0afb5acce59adadf526737858c55ef",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5b85c7809f1c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/ad-creative/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/ad-creative/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/ad-creative/SKILL.md",
+      "size_bytes": 26996,
+      "sha256": "973244b10730f514ea1ec2c0a4f132d570e55cd3298392b4fc15f8227e5228ba",
+      "git_blob_sha1": "322c3361edc03662a787709888287f0e943dc947",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0751426e4865"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/community-marketing/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/community-marketing/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/community-marketing/SKILL.md",
+      "size_bytes": 9826,
+      "sha256": "e4c4a21e82a04e8ef6e2845fa34ebaf5512ba59ae1c9c74d8caa9f045628f4da",
+      "git_blob_sha1": "441463df2bd0cd0bc5349f3151e95bc7afad0f04",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7812604e8740"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/content-strategy/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/content-strategy/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/content-strategy/SKILL.md",
+      "size_bytes": 19387,
+      "sha256": "5097ae8c11c27e2846be307b30f09ac17333fd1ffab1bae19728c81444767001",
+      "git_blob_sha1": "772846f604505ccd8ad571cded9aa4391cdada65",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-79b7efe141af"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/influencer-marketing/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/influencer-marketing/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/influencer-marketing/SKILL.md",
+      "size_bytes": 20350,
+      "sha256": "219b2c3f68ac0416ad254a6113d2ab8023d9f2e1e3b5f9d1da94c9f2598060d1",
+      "git_blob_sha1": "0766bba3bd2bde03dc8dc92b87502f95028fd4d8",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b2bab7fbd623"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/marketing-psychology/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/marketing-psychology/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/marketing-psychology/SKILL.md",
+      "size_bytes": 21884,
+      "sha256": "573bbe4f6e300e7fb75299e314f56e26382d284782caa2ae0e0f33eb2e646548",
+      "git_blob_sha1": "806c09fba8228e53b9d2443cea7e2bbb104e6ee9",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fc5bd8919152"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/product-marketing/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/product-marketing/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/product-marketing/SKILL.md",
+      "size_bytes": 13847,
+      "sha256": "19ece0fa75c72a5a8b6e90db80f506586f54cc93bae6bffbb1bd2ef4ae7d603c",
+      "git_blob_sha1": "3af463a602aa0233c4d5fc98c23ba13224aa8f6b",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5c69c29579ed"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/social/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/social/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/social/SKILL.md",
+      "size_bytes": 18313,
+      "sha256": "dd4c01d0925f571562d4e8dea4af6b60bd9d491149187d94927e65280fad1bee",
+      "git_blob_sha1": "602451c83630228a8de3c643b0a271f7ce6e130e",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1b77467f7db6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/video/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/video/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/video/SKILL.md",
+      "size_bytes": 15128,
+      "sha256": "0a35e32dda553707996bf383c00ecf971d05127d35d5d814577457c23a3ab591",
+      "git_blob_sha1": "7838d983f1ea0a83705c7459cb6e92bc8dd5b1f8",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ad633e9a87d8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/skills/customer-research/SKILL.md",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "skills/customer-research/SKILL.md",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/customer-research/SKILL.md",
+      "size_bytes": 15166,
+      "sha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+      "git_blob_sha1": "a00538447e9e75489dbf07378325dfa428ec46da",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-08abcb3e553b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__marketingskills/LICENSE",
+      "repository": "coreyhaines31/marketingskills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "git_blob_sha1": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0751426e4865",
+        "SRC-08abcb3e553b",
+        "SRC-1b77467f7db6",
+        "SRC-5b85c7809f1c",
+        "SRC-5c69c29579ed",
+        "SRC-7812604e8740",
+        "SRC-79b7efe141af",
+        "SRC-8bf41c2345f4",
+        "SRC-9ac0d02cb07b",
+        "SRC-a91b76ddb5dc",
+        "SRC-ad633e9a87d8",
+        "SRC-b2bab7fbd623",
+        "SRC-fc5bd8919152"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/marketingskills/blob/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__marketingskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/README.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "README.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/README.md",
+      "size_bytes": 12481,
+      "sha256": "80a0f5a62c59dcca9491cd72d6d1824f9465928a02e7d19eae2694b7b23430bb",
+      "git_blob_sha1": "216abfc1554a316f8031b30801439f87a451a5c5",
+      "role": "repository_readme",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-76420ac1995e"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/content/content-engine/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/content/content-engine/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/content/content-engine/SKILL.md",
+      "size_bytes": 8334,
+      "sha256": "49626f4aca1299f991b8aa70cc639b8c69b0b8230f7b26bb3e7d5683de820549",
+      "git_blob_sha1": "1709ffd5ab33d6e845ece379de21b32f54829678",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3630d3406fd2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/content/headlines/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/content/headlines/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/content/headlines/SKILL.md",
+      "size_bytes": 5805,
+      "sha256": "358c6593dfd391c738dbc69351da6f3802da184c7b70122ae1c664f8fd72f2ae",
+      "git_blob_sha1": "95c454bfb30879b42ed4a72cf1e4f63382b4fd16",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9ac76f869286"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/content/image-to-video/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/content/image-to-video/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/content/image-to-video/SKILL.md",
+      "size_bytes": 3267,
+      "sha256": "2857df3fd9cb7bcccd4566d747a220f7f019e5949d4d0ef0de6eae317a911118",
+      "git_blob_sha1": "7247a05d2843fac2dcb19f49809cdad02823640a",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bdc08b61f1f9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/content/series-planner/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/content/series-planner/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/content/series-planner/SKILL.md",
+      "size_bytes": 4086,
+      "sha256": "181479fe65fd0b3ae676d98b2963b0ef2a051caef3e2d537457083d2c5d5560a",
+      "git_blob_sha1": "7d5f24400e6a50baa694af5b0c3f68d0da2d0044",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e32095a1763"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/content/topic-brainstormer/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/content/topic-brainstormer/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/content/topic-brainstormer/SKILL.md",
+      "size_bytes": 5143,
+      "sha256": "8452e36b7a1516b4f1b80f8bd0535bb9472d6b8d559a5d1ed4238d05b3cea183",
+      "git_blob_sha1": "16c09d9132902bb5fd7f0fc4eb027a6ea418a844",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96312caab608"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/content/video-editing/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/content/video-editing/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/content/video-editing/SKILL.md",
+      "size_bytes": 9346,
+      "sha256": "29777852475ea8ff7a26751b51297ca4b1e109ca1e8c960fd14f3ef0c938ea8b",
+      "git_blob_sha1": "48764e6ae13146ee7ee81cf6e943d342f2a10fc1",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-36351b267624"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/game/game-trailer/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/game/game-trailer/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/game/game-trailer/SKILL.md",
+      "size_bytes": 13303,
+      "sha256": "24b2b437380b07b7d37e812f2aedf297a1fbd7e9833a6cec5d4e9b56ab385c35",
+      "git_blob_sha1": "4fab7a3fd8ecdbf5c48a3506b2f48be4e8698da1",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3b2ce4857f71"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/notque__vexjoy-agent/skills/research/video-transcript/SKILL.md",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "skills/research/video-transcript/SKILL.md",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/skills/research/video-transcript/SKILL.md",
+      "size_bytes": 2307,
+      "sha256": "d6b01b008cc29ee1ce1f3bda06b322f3433db1b955e63fb73d94bd13dff4510f",
+      "git_blob_sha1": "b68c35e2733cdf8fce6afacb8f61804cadb1817d",
+      "role": "original_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-847c80ed6ddf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "license-only/notque__vexjoy-agent/LICENSE",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5fa592249043a53a2223ef20a8db9ae171191428",
+      "source_url": "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE",
+      "size_bytes": 1088,
+      "sha256": "8c84c4df93703ff7e5e0a223486d74d91b154a4c3c208b4c8f0592a6de1b84f4",
+      "git_blob_sha1": "b8e8f299e1acee25d9c87a58b78e865821116c19",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3630d3406fd2",
+        "SRC-36351b267624",
+        "SRC-3b2ce4857f71",
+        "SRC-76420ac1995e",
+        "SRC-7e32095a1763",
+        "SRC-847c80ed6ddf",
+        "SRC-96312caab608",
+        "SRC-992e8e1cdd39",
+        "SRC-9ac76f869286",
+        "SRC-bdc08b61f1f9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/notque/vexjoy-agent/blob/5fa592249043a53a2223ef20a8db9ae171191428/LICENSE"
+      ],
+      "conditions": [
+        "Preserve full MIT copyright and permission notice; distribute unchanged document with included LICENSE."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "license-only/notque__vexjoy-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ai-evals-course__evals-skills/skills/error-discovery/SKILL.md",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "skills/error-discovery/SKILL.md",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/skills/error-discovery/SKILL.md",
+      "size_bytes": 14931,
+      "sha256": "e125c9b764b7aa658ea8c9104fb2856b67b40c0604e73d5bfe142e0dd5d10149",
+      "git_blob_sha1": "fb7cb2b41b8c1b4a6cecefc69c105e8b0998b84b",
+      "role": "original_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eb3360e31bdc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/ai-evals-course__evals-skills/skills/validate-evaluator/SKILL.md",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "skills/validate-evaluator/SKILL.md",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/skills/validate-evaluator/SKILL.md",
+      "size_bytes": 8901,
+      "sha256": "dd601ca58d2165f51798e12934170a435af9a7938832b67bb00986b881752355",
+      "git_blob_sha1": "8b677b3f02ce26bb784de8404914545dd4faaf20",
+      "role": "original_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0020b9efbfe0"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/ai-evals-course__evals-skills/skills/eval-audit/SKILL.md",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "skills/eval-audit/SKILL.md",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/skills/eval-audit/SKILL.md",
+      "size_bytes": 9977,
+      "sha256": "9f4b23dfe06f4c42a28d4bb054d75b5da1bff39ea57e0450689a4f699604bc63",
+      "git_blob_sha1": "4c932d9d6b8630797c38d50591933329b7f8bb27",
+      "role": "original_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1d94d6f2428e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/ai-evals-course__evals-skills/skills/write-judge-prompt/SKILL.md",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "skills/write-judge-prompt/SKILL.md",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/skills/write-judge-prompt/SKILL.md",
+      "size_bytes": 7693,
+      "sha256": "b50dc2d668a9984df1b5e64c94ffecf0baaf186566759fdf5c0c60747961f860",
+      "git_blob_sha1": "606fcb86c629b05202c5e4570910a865e47ee78f",
+      "role": "original_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-899b02340d62"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/ai-evals-course__evals-skills/skills/write-code-eval/SKILL.md",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "skills/write-code-eval/SKILL.md",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/skills/write-code-eval/SKILL.md",
+      "size_bytes": 1538,
+      "sha256": "6acf7d26f1b64d2dd7792675e3afefa0fc7accd6e0efd73184c6dd356c64338b",
+      "git_blob_sha1": "361282672c1564f468dabacdcf2f4501f5b32798",
+      "role": "original_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c5decf2158e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/ai-evals-course__evals-skills/skills/generate-synthetic-data/SKILL.md",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "skills/generate-synthetic-data/SKILL.md",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/skills/generate-synthetic-data/SKILL.md",
+      "size_bytes": 5427,
+      "sha256": "37b8e12ceb020f0fdf7c9c8bf7f3d3fce3dd506f1dfecdc64c25f80c10130da2",
+      "git_blob_sha1": "0954334c590cbd3329f31d8555f1ffa8d7fdaf45",
+      "role": "original_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9b9983c76775"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0020b9efbfe0",
+        "SRC-1d94d6f2428e",
+        "SRC-2c5decf2158e",
+        "SRC-899b02340d62",
+        "SRC-9b9983c76775",
+        "SRC-eb3360e31bdc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE"
+      ],
+      "conditions": [
+        "Include complete Apache-2.0 LICENSE; retain applicable attribution/copyright/patent/trademark notices; no NOTICE file found at fixed commit; files unmodified; no trademark grant."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1253 @@
+{
+  "batch": "0003",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 28,
+  "new_original_payload_paths": 37,
+  "files": [
+    {
+      "file": "upstream/samgutentag__storyboard-skill/SKILL.md",
+      "repository": "samgutentag/storyboard-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "42477b79bb85782632af435c191b324ade9f5c3b",
+      "source_url": "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/SKILL.md",
+      "size_bytes": 8138,
+      "sha256": "e6d271f77c81cad42660eefaa3a98757c8a978cb8c005a1d8d3917d5b6295a28",
+      "git_blob_sha1": "85dac567463535c4df8461ec144c48013ffa137a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-674214ca8a2d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/LICENSE",
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samgutentag__storyboard-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "license-only/eruto-skills__analyze-video/LICENSE",
+      "repository": "eruto-skills/analyze-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e2fb609f0b198b0a5747de8be2ca10c53291088a",
+      "source_url": "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "ff38f14298cbbce33cea1cb32b911f4658cf6f2ee444cc69cb8ec8364b696416",
+      "git_blob_sha1": "70fadcac14af211c2767ba45fef18fd0abfc3a00",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57ce715ccd19"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "license-only/eruto-skills__analyze-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/eruto-skills__analyze-video/SKILL.md",
+      "repository": "eruto-skills/analyze-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "e2fb609f0b198b0a5747de8be2ca10c53291088a",
+      "source_url": "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/SKILL.md",
+      "size_bytes": 8105,
+      "sha256": "1c01c688ae63abb99e3ae19181f38299c83607be408601206bc4bddda5297978",
+      "git_blob_sha1": "3db27b5e0921ded1ab7f3968231f1cdac1aff5b0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57ce715ccd19"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/eruto-skills__analyze-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samgutentag__storyboard-skill/LICENSE",
+      "repository": "samgutentag/storyboard-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "42477b79bb85782632af435c191b324ade9f5c3b",
+      "source_url": "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "469599fd7c91183703aba7b0d92d11850ddd64d172197a890a277abb286bddf6",
+      "git_blob_sha1": "5928b92a224e4fad13a8c2cb2f1e2eced7a9fa26",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-674214ca8a2d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/LICENSE",
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/samgutentag__storyboard-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/danjdewhurst__story-skills/skills/chapter-writing/SKILL.md",
+      "repository": "danjdewhurst/story-skills",
+      "upstream_path": "skills/chapter-writing/SKILL.md",
+      "upstream_commit": "57121ee512c6d4218a285c6991193347944f31b0",
+      "source_url": "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/skills/chapter-writing/SKILL.md",
+      "size_bytes": 19159,
+      "sha256": "cc040a558be8c45b68102633781dc8bfad4989e293c00edde71e191d027967b2",
+      "git_blob_sha1": "4311bb2a7ec2ed283741397fab1d6b92f6e7a7c6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-59f4f9893b99"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/LICENSE",
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/danjdewhurst__story-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/danjdewhurst__story-skills/skills/plot-structure/SKILL.md",
+      "repository": "danjdewhurst/story-skills",
+      "upstream_path": "skills/plot-structure/SKILL.md",
+      "upstream_commit": "57121ee512c6d4218a285c6991193347944f31b0",
+      "source_url": "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/skills/plot-structure/SKILL.md",
+      "size_bytes": 16150,
+      "sha256": "0b206c9f1c27063884bd57d43beb8626880249c3280f5f4a84b4b21f8da18df9",
+      "git_blob_sha1": "7f5ede7e814df3a2a6e99a9985b5ca707a058873",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1ef38a80f764"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/LICENSE",
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/danjdewhurst__story-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/danjdewhurst__story-skills/skills/scene-craft/SKILL.md",
+      "repository": "danjdewhurst/story-skills",
+      "upstream_path": "skills/scene-craft/SKILL.md",
+      "upstream_commit": "57121ee512c6d4218a285c6991193347944f31b0",
+      "source_url": "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/skills/scene-craft/SKILL.md",
+      "size_bytes": 9416,
+      "sha256": "0c606024141542b6f10d85a976f9cfc2d25c5b42ad939b20fe3fa2a7e1332b6e",
+      "git_blob_sha1": "c47d61cec1546cca6855d68fe24c2b0ce3c92067",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-33f010a6f149"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/LICENSE",
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/danjdewhurst__story-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zzh-editor__Srt-Enhancer/LICENSE",
+      "repository": "zzh-editor/Srt-Enhancer",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "24e4bc67d57947de541b6487b7d4b82c0c360a52",
+      "source_url": "https://github.com/zzh-editor/Srt-Enhancer/blob/24e4bc67d57947de541b6487b7d4b82c0c360a52/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "2ef6b954cbbbba3e27e296b7bfedc78a7130927362fd698f87e223d923aa9d24",
+      "git_blob_sha1": "0822fba546ab167e4f8be813dc1842e21af73051",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5f965b2e0dc8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zzh-editor/Srt-Enhancer/blob/24e4bc67d57947de541b6487b7d4b82c0c360a52/LICENSE",
+        "https://github.com/zzh-editor/Srt-Enhancer/blob/24e4bc67d57947de541b6487b7d4b82c0c360a52/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zzh-editor__Srt-Enhancer/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zzh-editor__Srt-Enhancer/SKILL.md",
+      "repository": "zzh-editor/Srt-Enhancer",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "24e4bc67d57947de541b6487b7d4b82c0c360a52",
+      "source_url": "https://github.com/zzh-editor/Srt-Enhancer/blob/24e4bc67d57947de541b6487b7d4b82c0c360a52/SKILL.md",
+      "size_bytes": 36924,
+      "sha256": "4a11278afabcf57bc248ccaca1f04928aac50b40ce447da172f4744e3ac6d56b",
+      "git_blob_sha1": "5ca1b77bebddfc62f80093be8b00cfa99ec8ace8",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5f965b2e0dc8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zzh-editor/Srt-Enhancer/blob/24e4bc67d57947de541b6487b7d4b82c0c360a52/LICENSE",
+        "https://github.com/zzh-editor/Srt-Enhancer/blob/24e4bc67d57947de541b6487b7d4b82c0c360a52/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zzh-editor__Srt-Enhancer/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/danjdewhurst__story-skills/skills/revision-continuity/SKILL.md",
+      "repository": "danjdewhurst/story-skills",
+      "upstream_path": "skills/revision-continuity/SKILL.md",
+      "upstream_commit": "57121ee512c6d4218a285c6991193347944f31b0",
+      "source_url": "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/skills/revision-continuity/SKILL.md",
+      "size_bytes": 22351,
+      "sha256": "e8974a6286118af1032605b61a3ba0bce3d53ca94a217991314a510c12436e65",
+      "git_blob_sha1": "5ebed6ce5d275ac99e0be683c0f24da26ca43f76",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-39dcb5952da9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/LICENSE",
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/danjdewhurst__story-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/danjdewhurst__story-skills/LICENSE",
+      "repository": "danjdewhurst/story-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "57121ee512c6d4218a285c6991193347944f31b0",
+      "source_url": "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "1c8c7a7b5bef62874f510f603f02ada40f5880668e8983d2fc7d1150b4318226",
+      "git_blob_sha1": "6dc3c47c331652ddbf12759e8a6af340dd222bad",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1ef38a80f764",
+        "SRC-33f010a6f149",
+        "SRC-39dcb5952da9",
+        "SRC-59f4f9893b99"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/LICENSE",
+        "https://github.com/danjdewhurst/story-skills/blob/57121ee512c6d4218a285c6991193347944f31b0/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/danjdewhurst__story-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/skills/magazine-journalism/writing/reportage-structure/SKILL.md",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "skills/magazine-journalism/writing/reportage-structure/SKILL.md",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/skills/magazine-journalism/writing/reportage-structure/SKILL.md",
+      "size_bytes": 10365,
+      "sha256": "8337841a3ce6ceda08fdce081d00c2f962c3c3ac7cd47976068dbcc2b3994d6a",
+      "git_blob_sha1": "abde3409b7097f38c540e2f9815b025766823e84",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c0414d5c731e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/skills/tv-documentary/post-production/rough-cut-notes/SKILL.md",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "skills/tv-documentary/post-production/rough-cut-notes/SKILL.md",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/skills/tv-documentary/post-production/rough-cut-notes/SKILL.md",
+      "size_bytes": 11151,
+      "sha256": "1de08b43c601e33b5abe7189405e59b40f9e977a854c890e6014cf580c07c938",
+      "git_blob_sha1": "a7a4bd1c44815ac4dae9ff4950997c5eed5f2fed",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f6c7811e5acc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/skills/radio-audio/news-packages/clip-selection-brief/SKILL.md",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "skills/radio-audio/news-packages/clip-selection-brief/SKILL.md",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/skills/radio-audio/news-packages/clip-selection-brief/SKILL.md",
+      "size_bytes": 8042,
+      "sha256": "786fb375e4f80721a54c28db94c3bee376f9176d016e27c01acf38fdaea15739",
+      "git_blob_sha1": "e346c0478f33d9424be8de562ab53672d8fa3460",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1ec70a01f089"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/skills/magazine-journalism/writing/interview-transcript-editor/SKILL.md",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "skills/magazine-journalism/writing/interview-transcript-editor/SKILL.md",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/skills/magazine-journalism/writing/interview-transcript-editor/SKILL.md",
+      "size_bytes": 44937,
+      "sha256": "91c5344cfa0bba6ef9eb8892054fe46807c70cebdded2cddda1372145d956f21",
+      "git_blob_sha1": "991370198348f7c504cc78c19ec1287bd4a82bbe",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ffa1e768388b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/LICENSE",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "262a837bb724e50e13ce9026767131996a98e660d0ce6fac3bac64512c73f150",
+      "git_blob_sha1": "3c1124d6c242e9b3e98207b324de30487cd29b6d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1118385efb2a",
+        "SRC-1ec70a01f089",
+        "SRC-8aeb0c0e2e5f",
+        "SRC-c0414d5c731e",
+        "SRC-f6c7811e5acc",
+        "SRC-ffa1e768388b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/AlterLab-IEU__AlterLab-FC-Skills/skills/cdm/alterlab-cdm-documentary-research/SKILL.md",
+      "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+      "upstream_path": "skills/cdm/alterlab-cdm-documentary-research/SKILL.md",
+      "upstream_commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+      "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/cdm/alterlab-cdm-documentary-research/SKILL.md",
+      "size_bytes": 12017,
+      "sha256": "4fd22c63b2d279924853722281120375125f5f653d1e51d303e126437a64cb4b",
+      "git_blob_sha1": "898b35f0553cf955f279b570713a56d40d1c6f1d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f993844a24fe"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AlterLab-IEU__AlterLab-FC-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/skills/radio-audio/scripting/documentary-narration-writer/SKILL.md",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "skills/radio-audio/scripting/documentary-narration-writer/SKILL.md",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/skills/radio-audio/scripting/documentary-narration-writer/SKILL.md",
+      "size_bytes": 9345,
+      "sha256": "b1cbe36847fe0eae2b83f97a403d929e9e93a8ef60bc5870ddbde6f920b761ed",
+      "git_blob_sha1": "8a0ddea6c676a2f6b78a4ad821732e44859d3310",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1118385efb2a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ur-grue__autopunk-media-skills/skills/tv-documentary/scripting/scene-breakdown-writer/SKILL.md",
+      "repository": "ur-grue/autopunk-media-skills",
+      "upstream_path": "skills/tv-documentary/scripting/scene-breakdown-writer/SKILL.md",
+      "upstream_commit": "39e119bfef25957223d6c44fccab0329e936d2f6",
+      "source_url": "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/skills/tv-documentary/scripting/scene-breakdown-writer/SKILL.md",
+      "size_bytes": 9758,
+      "sha256": "8eac7789f1c5f13744b572b6517f3f183fc5e61c493b633e0aa584ed21187d82",
+      "git_blob_sha1": "1414002b6993df6c04cb627312d8e1b6c00f2fdc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8aeb0c0e2e5f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/LICENSE",
+        "https://github.com/ur-grue/autopunk-media-skills/blob/39e119bfef25957223d6c44fccab0329e936d2f6/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ur-grue__autopunk-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/AlterLab-IEU__AlterLab-FC-Skills/LICENSE",
+      "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+      "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+      "size_bytes": 1110,
+      "sha256": "46a02cad0300e2bda2fb9e255517a837ed23a40ca3f3bfa5be19e74743e3416c",
+      "git_blob_sha1": "1234b702d61b83ff1baea254cfca28b6ebda70e1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a400cf816178",
+        "SRC-f8aab66e9dae",
+        "SRC-f993844a24fe"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AlterLab-IEU__AlterLab-FC-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/social-media-skills__skills/skills/voice-builder/SKILL.md",
+      "repository": "social-media-skills/skills",
+      "upstream_path": "skills/voice-builder/SKILL.md",
+      "upstream_commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "source_url": "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/skills/voice-builder/SKILL.md",
+      "size_bytes": 7703,
+      "sha256": "92a2712212c37c62ee96126597be0b77f437ac32461bcd3185b38492b5d92347",
+      "git_blob_sha1": "bfb30dda93a4d1af67dd47ca5217a393e6fb43e3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eb32dcaf110c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/LICENSE",
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/social-media-skills__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/social-media-skills__skills/skills/podcast-and-audiograms/SKILL.md",
+      "repository": "social-media-skills/skills",
+      "upstream_path": "skills/podcast-and-audiograms/SKILL.md",
+      "upstream_commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "source_url": "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/skills/podcast-and-audiograms/SKILL.md",
+      "size_bytes": 7595,
+      "sha256": "e04b3eb6d8134755df2bb884e3ae24e54b151e3b9c89d5fa8e3a1ee5ccc825d9",
+      "git_blob_sha1": "f34ec8d691f4cbc5242ffd6fcbddacbc5ecdedd6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d95e76d6542f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/LICENSE",
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/social-media-skills__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/AlterLab-IEU__AlterLab-FC-Skills/skills/nmc/alterlab-nmc-video-essay/SKILL.md",
+      "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+      "upstream_path": "skills/nmc/alterlab-nmc-video-essay/SKILL.md",
+      "upstream_commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+      "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/nmc/alterlab-nmc-video-essay/SKILL.md",
+      "size_bytes": 18666,
+      "sha256": "35ad2396bacd5c719092b2149c24811d2a5ccab6d0402ad44df4fdb83cec4707",
+      "git_blob_sha1": "0c014c535e3953e230a389548dbccb82d3286be4",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a400cf816178"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AlterLab-IEU__AlterLab-FC-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/AlterLab-IEU__AlterLab-FC-Skills/skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+      "repository": "AlterLab-IEU/AlterLab-FC-Skills",
+      "upstream_path": "skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+      "upstream_commit": "9559c97a6b6fc90c0fbe5a20b7718716f7aee677",
+      "source_url": "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/skills/cdm/alterlab-cdm-screenwriter/SKILL.md",
+      "size_bytes": 10915,
+      "sha256": "7dba3e6a1c31ed4777eadc9435d19350991d287c5eccf294fecbc16021597660",
+      "git_blob_sha1": "9cad09764c8592a022e61aef8525e585d967e66b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8aab66e9dae"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/LICENSE",
+        "https://github.com/AlterLab-IEU/AlterLab-FC-Skills/blob/9559c97a6b6fc90c0fbe5a20b7718716f7aee677/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AlterLab-IEU__AlterLab-FC-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ericosiu__ai-marketing-skills/video-clip-pipeline/SKILL.md",
+      "repository": "ericosiu/ai-marketing-skills",
+      "upstream_path": "video-clip-pipeline/SKILL.md",
+      "upstream_commit": "8088e1a167804d5615f6e982f62e5b4b6ff8f2f1",
+      "source_url": "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/video-clip-pipeline/SKILL.md",
+      "size_bytes": 6016,
+      "sha256": "c98762a223e4ebbac23ace55fbdde2d92f94873c6242e45e339a97a82318c670",
+      "git_blob_sha1": "ca79adac77430254a63f9eea32bbfd41fc78387d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a83ea49ab0d3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/LICENSE",
+        "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ericosiu__ai-marketing-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ericosiu__ai-marketing-skills/LICENSE",
+      "repository": "ericosiu/ai-marketing-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8088e1a167804d5615f6e982f62e5b4b6ff8f2f1",
+      "source_url": "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "01be386d352f53d829696a15740dc6e625aea20ac2a625cee20379d6e0540b2b",
+      "git_blob_sha1": "e240731d3af23453c7db14127ee7545860f4a03b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-412673017782",
+        "SRC-a83ea49ab0d3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/LICENSE",
+        "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ericosiu__ai-marketing-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/social-media-skills__skills/LICENSE",
+      "repository": "social-media-skills/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "source_url": "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "0da5befdfbe93f4dd08098d43fcd115c8455ae4fef7672f800e761e843727c13",
+      "git_blob_sha1": "875c6a380ad9a9f77c9dc5c87c20825590ab5816",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92b0bc3fa87a",
+        "SRC-d95e76d6542f",
+        "SRC-eb32dcaf110c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/LICENSE",
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/social-media-skills__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ericosiu__ai-marketing-skills/video-analysis/SKILL.md",
+      "repository": "ericosiu/ai-marketing-skills",
+      "upstream_path": "video-analysis/SKILL.md",
+      "upstream_commit": "8088e1a167804d5615f6e982f62e5b4b6ff8f2f1",
+      "source_url": "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/video-analysis/SKILL.md",
+      "size_bytes": 5298,
+      "sha256": "1913f31511df50dd5cf280d9031371209b8f1872dbdbf11d0fe46a746103b91f",
+      "git_blob_sha1": "9f98bc5094cd833245d630f7647525ecb97782e8",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-412673017782"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/LICENSE",
+        "https://github.com/ericosiu/ai-marketing-skills/blob/8088e1a167804d5615f6e982f62e5b4b6ff8f2f1/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ericosiu__ai-marketing-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/social-media-skills__skills/skills/opus-clip/SKILL.md",
+      "repository": "social-media-skills/skills",
+      "upstream_path": "skills/opus-clip/SKILL.md",
+      "upstream_commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "source_url": "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/skills/opus-clip/SKILL.md",
+      "size_bytes": 8680,
+      "sha256": "c7a730b73d0a02b1be1518636fa73a42356decf9bebb7265ec2fd93d4ac314d6",
+      "git_blob_sha1": "fda33271eae8f302e6e83ee31c82c499fce98017",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92b0bc3fa87a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/LICENSE",
+        "https://github.com/social-media-skills/skills/blob/f28cef2b7067ec64e79c9d85421c022c06659e03/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/social-media-skills__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/45ck__content-machine/LICENSE",
+      "repository": "45ck/content-machine",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "46cfe459d9ffbf40f847399e3f88c7c380074e7b",
+      "source_url": "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/LICENSE",
+      "size_bytes": 1061,
+      "sha256": "7518e11f000ea74924a533d1e0a877bbd202a6b16d84b21db37e16bee6bcad13",
+      "git_blob_sha1": "496e9372f1d2b6a62c59ca63c290ae4f04b5e938",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7d3780d00936",
+        "SRC-8d9c1d678f62",
+        "SRC-df6dcad2b438"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/LICENSE",
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/45ck__content-machine/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/45ck__content-machine/skills/micro-doc-breakdown-short/SKILL.md",
+      "repository": "45ck/content-machine",
+      "upstream_path": "skills/micro-doc-breakdown-short/SKILL.md",
+      "upstream_commit": "46cfe459d9ffbf40f847399e3f88c7c380074e7b",
+      "source_url": "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/skills/micro-doc-breakdown-short/SKILL.md",
+      "size_bytes": 4298,
+      "sha256": "15b94051c8e3d481f01235ca981626d87c8df1ec69423a2bbeb74ee0462d61ee",
+      "git_blob_sha1": "77a9e2628af7e58d15267941b02cc4c3d6856d94",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8d9c1d678f62"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/LICENSE",
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/45ck__content-machine/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/45ck__content-machine/skills/highlight-approval-loop/SKILL.md",
+      "repository": "45ck/content-machine",
+      "upstream_path": "skills/highlight-approval-loop/SKILL.md",
+      "upstream_commit": "46cfe459d9ffbf40f847399e3f88c7c380074e7b",
+      "source_url": "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/skills/highlight-approval-loop/SKILL.md",
+      "size_bytes": 2073,
+      "sha256": "ca05f72cf979feb694f19cbfbd65c8d641b5982f8c7ce736b7d6390b3cdbd86b",
+      "git_blob_sha1": "015bd14ad37af7388e5707db7e25d965213d4182",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7d3780d00936"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/LICENSE",
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/45ck__content-machine/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/45ck__content-machine/skills/longform-highlight-select/SKILL.md",
+      "repository": "45ck/content-machine",
+      "upstream_path": "skills/longform-highlight-select/SKILL.md",
+      "upstream_commit": "46cfe459d9ffbf40f847399e3f88c7c380074e7b",
+      "source_url": "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/skills/longform-highlight-select/SKILL.md",
+      "size_bytes": 4500,
+      "sha256": "7c77cd8247b682e87e1dae7ca3a2ac0131561e01c2d5e6341fdc65511f3f9d7b",
+      "git_blob_sha1": "86a802af80dc1e36b4bef542c83535b859c48a2d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-df6dcad2b438"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/LICENSE",
+        "https://github.com/45ck/content-machine/blob/46cfe459d9ffbf40f847399e3f88c7c380074e7b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/45ck__content-machine/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/obra__superpowers/skills/systematic-debugging/SKILL.md",
+      "repository": "obra/superpowers",
+      "upstream_path": "skills/systematic-debugging/SKILL.md",
+      "upstream_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "source_url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/systematic-debugging/SKILL.md",
+      "size_bytes": 9530,
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "git_blob_sha1": "62fc752aaef59a8bbed5d305f4cadc60f8ae07ed",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-78fab3851ca7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/obra__superpowers/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/obra__superpowers/skills/test-driven-development/SKILL.md",
+      "repository": "obra/superpowers",
+      "upstream_path": "skills/test-driven-development/SKILL.md",
+      "upstream_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "source_url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/test-driven-development/SKILL.md",
+      "size_bytes": 9578,
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "git_blob_sha1": "46838cc9e893c06259e3bdad0fc2425b36242f15",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-13f12a3eab94"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/obra__superpowers/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/obra__superpowers/LICENSE",
+      "repository": "obra/superpowers",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "source_url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "git_blob_sha1": "abf0390320aa14406af7a520b9b0739fdda9bf08",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-13f12a3eab94",
+        "SRC-78fab3851ca7",
+        "SRC-ca5ef01b9492",
+        "SRC-d8f22522d6c4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/obra__superpowers/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/obra__superpowers/skills/receiving-code-review/SKILL.md",
+      "repository": "obra/superpowers",
+      "upstream_path": "skills/receiving-code-review/SKILL.md",
+      "upstream_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "source_url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/receiving-code-review/SKILL.md",
+      "size_bytes": 6203,
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "git_blob_sha1": "950da7b74bf6dbed6b8726d12ddadd65a9f5fda7",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ca5ef01b9492"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/obra__superpowers/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/obra__superpowers/skills/verification-before-completion/SKILL.md",
+      "repository": "obra/superpowers",
+      "upstream_path": "skills/verification-before-completion/SKILL.md",
+      "upstream_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "source_url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/verification-before-completion/SKILL.md",
+      "size_bytes": 3646,
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "git_blob_sha1": "7d45333cc4a49c57a80df6c1fe2fa777a207afbc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d8f22522d6c4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/LICENSE",
+        "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/obra__superpowers/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SkillMedev__motion-video-direction/skills/video-storyboard/SKILL.md",
+      "repository": "SkillMedev/motion-video-direction",
+      "upstream_path": "skills/video-storyboard/SKILL.md",
+      "upstream_commit": "7b6bc15d11e92177dc5b93f100feae9d1e0f9a89",
+      "source_url": "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/skills/video-storyboard/SKILL.md",
+      "size_bytes": 16601,
+      "sha256": "4ee11ef202a7efe6af4c186a37fcbe51861a88588401273bdb79922db553a608",
+      "git_blob_sha1": "e07dc114ec68d05c6543730db207bff212fe8d80",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9e9ec5fb89de"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/LICENSE",
+        "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SkillMedev__motion-video-direction/LICENSE",
+      "repository": "SkillMedev/motion-video-direction",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7b6bc15d11e92177dc5b93f100feae9d1e0f9a89",
+      "source_url": "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "e55c0849226f9059d1b291000940bda5f88121f12a90c0d8c899fcccdb292292",
+      "git_blob_sha1": "879f1ca4bc59fb184adc63ef77c8a301ebd1c013",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9e9ec5fb89de",
+        "SRC-de5a51ce06d3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/LICENSE",
+        "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SkillMedev__motion-video-direction/skills/social-video-formatter/SKILL.md",
+      "repository": "SkillMedev/motion-video-direction",
+      "upstream_path": "skills/social-video-formatter/SKILL.md",
+      "upstream_commit": "7b6bc15d11e92177dc5b93f100feae9d1e0f9a89",
+      "source_url": "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/skills/social-video-formatter/SKILL.md",
+      "size_bytes": 18802,
+      "sha256": "537726907f4da84c9cdf4c26d9e5b95c218bb3c3e80e9b7859ef76e6620a12f6",
+      "git_blob_sha1": "1f0b93458fcbd901cf977d36a017af75dae979c6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-de5a51ce06d3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/LICENSE",
+        "https://github.com/SkillMedev/motion-video-direction/blob/7b6bc15d11e92177dc5b93f100feae9d1e0f9a89/README.md"
+      ],
+      "conditions": [
+        "Keep each canonical document unmodified with the complete MIT copyright and permission notice.",
+        "Only listed fixed-commit SKILL.md documents are included; do not infer permission for linked media, proprietary services, model assets, dependencies or other repository files.",
+        "The documents contain upstream instructions/examples and claims, preserved as source text, not executed or independently endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    }
+  ]
+}
