@@ -1,0 +1,636 @@
+{
+  "batch": "0100",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 10,
+  "new_original_payload_paths": 15,
+  "files": [
+    {
+      "file": "upstream/anthropics__skills/skills/canvas-design/SKILL.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/canvas-design/SKILL.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/canvas-design/SKILL.md",
+      "size_bytes": 11939,
+      "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b",
+      "git_blob_sha1": "9f63fee82de84cd4230e1d0e322247b61eb4c94c",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-724c701e1d00"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/canvas-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/canvas-design/LICENSE.txt",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/canvas-design/LICENSE.txt",
+      "size_bytes": 11345,
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "git_blob_sha1": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-724c701e1d00"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/canvas-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 46162,
+      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
+      "git_blob_sha1": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
+      "role": "license_notice",
+      "license": "Third-party notice (multiple licenses)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-724c701e1d00"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/canvas-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/ShivamGupta42__course-creator/SKILL.md",
+      "repository": "ShivamGupta42/course-creator",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "1d6ddf3b6a2970a20b6dafa0895b2f1ed4ae903e",
+      "source_url": "https://github.com/ShivamGupta42/course-creator/blob/1d6ddf3b6a2970a20b6dafa0895b2f1ed4ae903e/SKILL.md",
+      "size_bytes": 60117,
+      "sha256": "ed0919090806c288cf95cbc07df3df93d97d2c43a7731a92d12870fdece52b5f",
+      "git_blob_sha1": "c6d263af1e8f27e61ad6853f1977941e2a2b6dab",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e7a19b0dade9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ShivamGupta42/course-creator/blob/1d6ddf3b6a2970a20b6dafa0895b2f1ed4ae903e/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ShivamGupta42__course-creator/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ShivamGupta42__course-creator/LICENSE",
+      "repository": "ShivamGupta42/course-creator",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1d6ddf3b6a2970a20b6dafa0895b2f1ed4ae903e",
+      "source_url": "https://github.com/ShivamGupta42/course-creator/blob/1d6ddf3b6a2970a20b6dafa0895b2f1ed4ae903e/LICENSE",
+      "size_bytes": 1101,
+      "sha256": "3038674e01c332c34230adb0e59198ccb9576b7c3b89a2326e3656b9cd944ffa",
+      "git_blob_sha1": "7f2ee6cbf4d8592ae423be1f29c4d1fb3b6ae1c7",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e7a19b0dade9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ShivamGupta42/course-creator/blob/1d6ddf3b6a2970a20b6dafa0895b2f1ed4ae903e/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ShivamGupta42__course-creator/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/CyberJ0605__cinematic-video-prompt-engineer-skill/cinematic-video-prompt-engineer/SKILL.md",
+      "repository": "CyberJ0605/cinematic-video-prompt-engineer-skill",
+      "upstream_path": "cinematic-video-prompt-engineer/SKILL.md",
+      "upstream_commit": "2c05089f5704339de544554c4d1bd810177cdd9a",
+      "source_url": "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill/blob/2c05089f5704339de544554c4d1bd810177cdd9a/cinematic-video-prompt-engineer/SKILL.md",
+      "size_bytes": 48727,
+      "sha256": "153bd72b205ec8736c9bebacb30b7671a97eb274eaefa0d0e9faaf7c40eb3706",
+      "git_blob_sha1": "59be7bf6e9d337b1787ab19d6ba1bb5415ea7ae9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fc423d802597"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill/blob/2c05089f5704339de544554c4d1bd810177cdd9a/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/CyberJ0605__cinematic-video-prompt-engineer-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/CyberJ0605__cinematic-video-prompt-engineer-skill/LICENSE",
+      "repository": "CyberJ0605/cinematic-video-prompt-engineer-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2c05089f5704339de544554c4d1bd810177cdd9a",
+      "source_url": "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill/blob/2c05089f5704339de544554c4d1bd810177cdd9a/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "b6f7741b8824c1b7f41942760d17d7e7dd781da2c0eef382c32c12c48464bc6c",
+      "git_blob_sha1": "0ed078ebac4a7e13584914c237ad1114de0f813c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fc423d802597"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/CyberJ0605/cinematic-video-prompt-engineer-skill/blob/2c05089f5704339de544554c4d1bd810177cdd9a/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/CyberJ0605__cinematic-video-prompt-engineer-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/FavioVazquez__showtime/skills/showtime/SKILL.md",
+      "repository": "FavioVazquez/showtime",
+      "upstream_path": "skills/showtime/SKILL.md",
+      "upstream_commit": "2efdb115bec3c8024b766dd93044619cd7ee00f7",
+      "source_url": "https://github.com/FavioVazquez/showtime/blob/2efdb115bec3c8024b766dd93044619cd7ee00f7/skills/showtime/SKILL.md",
+      "size_bytes": 9853,
+      "sha256": "709dfc36d05bc8694bbd1bd99e7c41cd42eb2a1f18dd89b5b6b09feaf1b5af86",
+      "git_blob_sha1": "5842cea6f1c9afc36ae4872e32a095b7ef86f87f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-49414933ac07"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/FavioVazquez/showtime/blob/2efdb115bec3c8024b766dd93044619cd7ee00f7/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FavioVazquez__showtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/FavioVazquez__showtime/LICENSE",
+      "repository": "FavioVazquez/showtime",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2efdb115bec3c8024b766dd93044619cd7ee00f7",
+      "source_url": "https://github.com/FavioVazquez/showtime/blob/2efdb115bec3c8024b766dd93044619cd7ee00f7/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "520df7abbfb7438c79c48a42e001a8ed7be10ea655fd11dcdf56d1a9ef7db620",
+      "git_blob_sha1": "5f6cb2fb2d603087d3779191f0d485eab404cc29",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-49414933ac07"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/FavioVazquez/showtime/blob/2efdb115bec3c8024b766dd93044619cd7ee00f7/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FavioVazquez__showtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/figma/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/figma/SKILL.md",
+      "upstream_commit": "b2124b2a5631a9fbec9383a1697b7c63c8966a03",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/skills/figma/SKILL.md",
+      "size_bytes": 6167,
+      "sha256": "d9537758a88bf3cbfc5699167742e437a6791c57c0180556c930ec6c3aae0ab6",
+      "git_blob_sha1": "2a33e19bee8715a5225f6743d91a828aa8b66ea2",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4acd13ae66ec"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b2124b2a5631a9fbec9383a1697b7c63c8966a03",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4acd13ae66ec"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/openai__skills/skills/.system/imagegen/SKILL.md",
+      "repository": "openai/skills",
+      "upstream_path": "skills/.system/imagegen/SKILL.md",
+      "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "source_url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.system/imagegen/SKILL.md",
+      "size_bytes": 16204,
+      "sha256": "826d05b806d51fa81cd650f1c0854b0a1f7fbccd1b152c588ded1797a2e7218f",
+      "git_blob_sha1": "88195882efdedbfab56e0eb2570dd4fd6d9e8610",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b49e7af61b54"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.system/imagegen/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt",
+      "repository": "openai/skills",
+      "upstream_path": "skills/.system/imagegen/LICENSE.txt",
+      "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "source_url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.system/imagegen/LICENSE.txt",
+      "size_bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b49e7af61b54"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.system/imagegen/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/mariagorskikh__talking-head-reel/SKILL.md",
+      "repository": "mariagorskikh/talking-head-reel",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "c8472f33ef41d7039873701489b4e3ef5b46281f",
+      "source_url": "https://github.com/mariagorskikh/talking-head-reel/blob/c8472f33ef41d7039873701489b4e3ef5b46281f/SKILL.md",
+      "size_bytes": 16318,
+      "sha256": "8ee11c739f2a9771f3be4cf2304c1c54b2ee06c45d9f50538a3574f73c800289",
+      "git_blob_sha1": "9a059d3fddd05c342fadb4bd3261c56eef2db109",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fb06ea98979c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mariagorskikh/talking-head-reel/blob/c8472f33ef41d7039873701489b4e3ef5b46281f/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mariagorskikh__talking-head-reel/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mariagorskikh__talking-head-reel/LICENSE",
+      "repository": "mariagorskikh/talking-head-reel",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c8472f33ef41d7039873701489b4e3ef5b46281f",
+      "source_url": "https://github.com/mariagorskikh/talking-head-reel/blob/c8472f33ef41d7039873701489b4e3ef5b46281f/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "694e6c1c7abc4cd9ad500984fe6f1ccf9b250216e01bf102201a5d10fcfcba88",
+      "git_blob_sha1": "ab1336eb93c77ece95c5b8f6a4d552b3ccd42336",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fb06ea98979c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mariagorskikh/talking-head-reel/blob/c8472f33ef41d7039873701489b4e3ef5b46281f/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mariagorskikh__talking-head-reel/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/microsoft__hve-core/.github/skills/experimental/tts-voiceover/SKILL.md",
+      "repository": "microsoft/hve-core",
+      "upstream_path": ".github/skills/experimental/tts-voiceover/SKILL.md",
+      "upstream_commit": "42a1697d2284e304f7944ba792299c114677b5cc",
+      "source_url": "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/.github/skills/experimental/tts-voiceover/SKILL.md",
+      "size_bytes": 11968,
+      "sha256": "2c1a64c68a15deb187a3658eac3d627b3ffeaa3781bb102f97abbdbd58b83e2b",
+      "git_blob_sha1": "2284a6be474fe0f2cd41642ea8e2c5c69ab3a7cc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cda623d59548"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/LICENSE",
+        "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/THIRD-PARTY-NOTICES"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/microsoft__hve-core/LICENSE",
+        "upstream/microsoft__hve-core/THIRD-PARTY-NOTICES"
+      ]
+    },
+    {
+      "file": "upstream/microsoft__hve-core/LICENSE",
+      "repository": "microsoft/hve-core",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "42a1697d2284e304f7944ba792299c114677b5cc",
+      "source_url": "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/LICENSE",
+      "size_bytes": 1097,
+      "sha256": "c7eb8fb4cf893534af823d4aa0fe6fa83a961320375772915fd9b6a21d890d87",
+      "git_blob_sha1": "7bd95a91b6c6fb9db499b17d1380351180b94aa8",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cda623d59548"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/LICENSE",
+        "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/THIRD-PARTY-NOTICES"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/microsoft__hve-core/LICENSE",
+        "upstream/microsoft__hve-core/THIRD-PARTY-NOTICES"
+      ]
+    },
+    {
+      "file": "upstream/microsoft__hve-core/THIRD-PARTY-NOTICES",
+      "repository": "microsoft/hve-core",
+      "upstream_path": "THIRD-PARTY-NOTICES",
+      "upstream_commit": "42a1697d2284e304f7944ba792299c114677b5cc",
+      "source_url": "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/THIRD-PARTY-NOTICES",
+      "size_bytes": 9757,
+      "sha256": "3add1164479e2e9670276ea669f65836381033b7fe0b91331dc0f57df6dd10a7",
+      "git_blob_sha1": "67414f3fc81a9660dcb1a1041b7e0606c7b6c166",
+      "role": "license_notice",
+      "license": "Third-party notice (multiple licenses)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cda623d59548"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/LICENSE",
+        "https://github.com/microsoft/hve-core/blob/42a1697d2284e304f7944ba792299c114677b5cc/THIRD-PARTY-NOTICES"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/microsoft__hve-core/LICENSE",
+        "upstream/microsoft__hve-core/THIRD-PARTY-NOTICES"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/.agents/skills/hyperframes-video-beats/SKILL.md",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": ".agents/skills/hyperframes-video-beats/SKILL.md",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/.agents/skills/hyperframes-video-beats/SKILL.md",
+      "size_bytes": 8409,
+      "sha256": "c0f13d7b38581cdacf27a453f8f2b9e9021b9fa069931b57c1055ba5ba8ac2c3",
+      "git_blob_sha1": "7f4a649eee91625fb86e050be7cf1548559cbd02",
+      "role": "canonical_skill_document",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2dfcf85e3cfa"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/LICENSE",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+      "size_bytes": 1520,
+      "sha256": "263623d3ac61f5b09eeceec5af2395bb15e566d0507558f5b6c405f2ba132bd1",
+      "git_blob_sha1": "ac910de62354ed873c7e5c873a7ef58b73365bab",
+      "role": "license_notice",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2dfcf85e3cfa"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1957,
+      "sha256": "d805358c6a2bdf7d58e1addfaf9e63c35376f387744c5a77923cbf2db4c629d6",
+      "git_blob_sha1": "7d590c416f1abc94fdf404f108f15ec8109210fa",
+      "role": "license_notice",
+      "license": "Third-party notice (multiple licenses)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2dfcf85e3cfa"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "licenses/PIPELINE-USE-PERMISSION.txt",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt",
+      "size_bytes": 721,
+      "sha256": "4adb8af27d57e1aab9cfc372283cfbd583d5fe58911e8eab0caec8f7288e0680",
+      "git_blob_sha1": "4cf6f5d9614c9fa12892c812da55ec1eee6e8d64",
+      "role": "license_notice",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2dfcf85e3cfa"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/YIYANG-hakimide__paper-and-book-to-visual-learning/SKILL.md",
+      "repository": "YIYANG-hakimide/paper-and-book-to-visual-learning",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "5578a5089398e0a30a8e84de6aa665e0aea1fcf0",
+      "source_url": "https://github.com/YIYANG-hakimide/paper-and-book-to-visual-learning/blob/5578a5089398e0a30a8e84de6aa665e0aea1fcf0/SKILL.md",
+      "size_bytes": 22272,
+      "sha256": "0a115be19a5fdba12c052f4464b4dbf3cbb2d7f995796cb37e1821713ed23b29",
+      "git_blob_sha1": "f35f5b93e2b8d0ffca12167c81873f0092dc94ac",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02a20abf00a6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/YIYANG-hakimide/paper-and-book-to-visual-learning/blob/5578a5089398e0a30a8e84de6aa665e0aea1fcf0/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/YIYANG-hakimide__paper-and-book-to-visual-learning/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YIYANG-hakimide__paper-and-book-to-visual-learning/LICENSE",
+      "repository": "YIYANG-hakimide/paper-and-book-to-visual-learning",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5578a5089398e0a30a8e84de6aa665e0aea1fcf0",
+      "source_url": "https://github.com/YIYANG-hakimide/paper-and-book-to-visual-learning/blob/5578a5089398e0a30a8e84de6aa665e0aea1fcf0/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "024c720fde78451f6dae59d15c8902f40f8491efdd5cb44e79e9b5be9f49c0b8",
+      "git_blob_sha1": "22690cc4ce55494047e3fe6d848df6298edbc9a2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02a20abf00a6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/YIYANG-hakimide/paper-and-book-to-visual-learning/blob/5578a5089398e0a30a8e84de6aa665e0aea1fcf0/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Selected document only, not complete repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/YIYANG-hakimide__paper-and-book-to-visual-learning/LICENSE"
+      ]
+    }
+  ]
+}

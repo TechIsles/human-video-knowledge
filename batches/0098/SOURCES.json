@@ -1,0 +1,539 @@
+{
+  "batch": "0098",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 10,
+  "new_original_payload_paths": 16,
+  "files": [
+    {
+      "file": "upstream/chengkj99__kj-skills/skills/content-creator/SKILL.md",
+      "repository": "chengkj99/kj-skills",
+      "upstream_path": "skills/content-creator/SKILL.md",
+      "upstream_commit": "c23fe79cda0aa601343f4251539b9012d0617398",
+      "source_url": "https://github.com/chengkj99/kj-skills/blob/c23fe79cda0aa601343f4251539b9012d0617398/skills/content-creator/SKILL.md",
+      "size_bytes": 15099,
+      "sha256": "bc7d44c2cf0531cd5c15981e684a87a1159295bd2513efbd7aa9124881964e68",
+      "git_blob_sha1": "987c73de4ea32e023f81bfe30f724e9984d1c131",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-653f2fbc7d45"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/chengkj99/kj-skills/blob/c23fe79cda0aa601343f4251539b9012d0617398/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chengkj99__kj-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/chengkj99__kj-skills/LICENSE",
+      "repository": "chengkj99/kj-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c23fe79cda0aa601343f4251539b9012d0617398",
+      "source_url": "https://github.com/chengkj99/kj-skills/blob/c23fe79cda0aa601343f4251539b9012d0617398/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "3e321ff370121dd8a50522fc2a3afc4f4d504cae98b1c719b6d8f47e08e49d54",
+      "git_blob_sha1": "b53a7582ad68401050a766e23feaa7bd46bbfeab",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-653f2fbc7d45"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/chengkj99/kj-skills/blob/c23fe79cda0aa601343f4251539b9012d0617398/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chengkj99__kj-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/benjaroy__riff/riff/skills/compose/SKILL.md",
+      "repository": "benjaroy/riff",
+      "upstream_path": "riff/skills/compose/SKILL.md",
+      "upstream_commit": "4193fe155fe4d9b2ba2092e3e2bec4b3e893e51c",
+      "source_url": "https://github.com/benjaroy/riff/blob/4193fe155fe4d9b2ba2092e3e2bec4b3e893e51c/riff/skills/compose/SKILL.md",
+      "size_bytes": 9750,
+      "sha256": "ed3719a6c29925f13540f20a305c3f20a71ffa21495b7148a426f54e3bcbe548",
+      "git_blob_sha1": "4836e247cd3248d6a032abb367f246d748cfe27b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6934e5a8973d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/benjaroy/riff/blob/4193fe155fe4d9b2ba2092e3e2bec4b3e893e51c/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/benjaroy__riff/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/benjaroy__riff/LICENSE",
+      "repository": "benjaroy/riff",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4193fe155fe4d9b2ba2092e3e2bec4b3e893e51c",
+      "source_url": "https://github.com/benjaroy/riff/blob/4193fe155fe4d9b2ba2092e3e2bec4b3e893e51c/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "2c7156081760954454358e4b02ccd12ff094a2bb10fca26d11d4d3247e8b03e1",
+      "git_blob_sha1": "e60e6b48a087f4293f6923911cbb753e732b7d47",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6934e5a8973d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/benjaroy/riff/blob/4193fe155fe4d9b2ba2092e3e2bec4b3e893e51c/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/benjaroy__riff/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/creatorberry__flick/skills/flick/SKILL.md",
+      "repository": "creatorberry/flick",
+      "upstream_path": "skills/flick/SKILL.md",
+      "upstream_commit": "4442fe355644317aafbe15c55ea3fbcd0217cd8d",
+      "source_url": "https://github.com/Creatorberry/flick/blob/4442fe355644317aafbe15c55ea3fbcd0217cd8d/skills/flick/SKILL.md",
+      "size_bytes": 7945,
+      "sha256": "50093a1b78124ae6d4c76333c714d4a6d51647b87f81a9c67b0be395088f1334",
+      "git_blob_sha1": "c452d7c08082147f45e04bb4a518d1279837bd20",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cb9617e8b9b6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/creatorberry/flick/blob/4442fe355644317aafbe15c55ea3fbcd0217cd8d/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/creatorberry__flick/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/creatorberry__flick/LICENSE",
+      "repository": "creatorberry/flick",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4442fe355644317aafbe15c55ea3fbcd0217cd8d",
+      "source_url": "https://github.com/Creatorberry/flick/blob/4442fe355644317aafbe15c55ea3fbcd0217cd8d/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "48e546162a9d0b076d5ec0760a7f26d1d61946b0c426179a82dafd95aaad33f3",
+      "git_blob_sha1": "e722e695d720bbde991217c11adc181166a209d0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cb9617e8b9b6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/creatorberry/flick/blob/4442fe355644317aafbe15c55ea3fbcd0217cd8d/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/creatorberry__flick/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/dbosk__claude-skills/variation-theory/SKILL.md",
+      "repository": "dbosk/claude-skills",
+      "upstream_path": "variation-theory/SKILL.md",
+      "upstream_commit": "9e99f90436ed576bd196c1044964d1f17dc2219c",
+      "source_url": "https://github.com/dbosk/claude-skills/blob/9e99f90436ed576bd196c1044964d1f17dc2219c/variation-theory/SKILL.md",
+      "size_bytes": 19881,
+      "sha256": "1dcc2f0dffa2167838192d6af2ad3b9fd96ca046fdfc34ebe9f733f4241c43cb",
+      "git_blob_sha1": "33dd1ac54e9e0c64760aa39fdcbad530f650edae",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cbc1953bc22b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/dbosk/claude-skills/blob/9e99f90436ed576bd196c1044964d1f17dc2219c/variation-theory/LICENSE.md"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/dbosk__claude-skills/variation-theory/LICENSE.md"
+      ]
+    },
+    {
+      "file": "upstream/dbosk__claude-skills/variation-theory/LICENSE.md",
+      "repository": "dbosk/claude-skills",
+      "upstream_path": "variation-theory/LICENSE.md",
+      "upstream_commit": "9e99f90436ed576bd196c1044964d1f17dc2219c",
+      "source_url": "https://github.com/dbosk/claude-skills/blob/9e99f90436ed576bd196c1044964d1f17dc2219c/variation-theory/LICENSE.md",
+      "size_bytes": 1065,
+      "sha256": "b48fb9f3b6824d15590433639ffbaf0488bfa4075c453e83ae977cfdd8536aa3",
+      "git_blob_sha1": "e6abbafe8b8b60be3d29c10c842b027caec40574",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cbc1953bc22b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/dbosk/claude-skills/blob/9e99f90436ed576bd196c1044964d1f17dc2219c/variation-theory/LICENSE.md"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/dbosk__claude-skills/variation-theory/LICENSE.md"
+      ]
+    },
+    {
+      "file": "upstream/openai__skills/skills/.curated/develop-web-game/SKILL.md",
+      "repository": "openai/skills",
+      "upstream_path": "skills/.curated/develop-web-game/SKILL.md",
+      "upstream_commit": "30444aed500c00c85294d12074f6e3ee794f808a",
+      "source_url": "https://github.com/openai/skills/blob/30444aed500c00c85294d12074f6e3ee794f808a/skills/.curated/develop-web-game/SKILL.md",
+      "size_bytes": 9233,
+      "sha256": "4586330e97c99581f37798c179a71c62030fc20befa6de3e3ccb96d1adead9c7",
+      "git_blob_sha1": "9d99aba2190c4330d150d79da9b18d345c3bfbc7",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-74cfb61072b8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/openai/skills/blob/30444aed500c00c85294d12074f6e3ee794f808a/skills/.curated/develop-web-game/LICENSE.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt",
+      "repository": "openai/skills",
+      "upstream_path": "skills/.curated/develop-web-game/LICENSE.txt",
+      "upstream_commit": "30444aed500c00c85294d12074f6e3ee794f808a",
+      "source_url": "https://github.com/openai/skills/blob/30444aed500c00c85294d12074f6e3ee794f808a/skills/.curated/develop-web-game/LICENSE.txt",
+      "size_bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-74cfb61072b8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/openai/skills/blob/30444aed500c00c85294d12074f6e3ee794f808a/skills/.curated/develop-web-game/LICENSE.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/TadTheFisherman__feynman-it/SKILL.md",
+      "repository": "TadTheFisherman/feynman-it",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "5789b38e5250d2f373c25864b0120177304bb1f7",
+      "source_url": "https://github.com/TadTheFisherman/feynman-it/blob/5789b38e5250d2f373c25864b0120177304bb1f7/SKILL.md",
+      "size_bytes": 16044,
+      "sha256": "fd3e3201525ca75273a95a330776e81fa46ec50f0343439af347b19a01457f09",
+      "git_blob_sha1": "cc9125fc8e94256c2ad5ca80493b881781b20eac",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c7928a373f1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/TadTheFisherman/feynman-it/blob/5789b38e5250d2f373c25864b0120177304bb1f7/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TadTheFisherman__feynman-it/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TadTheFisherman__feynman-it/LICENSE",
+      "repository": "TadTheFisherman/feynman-it",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5789b38e5250d2f373c25864b0120177304bb1f7",
+      "source_url": "https://github.com/TadTheFisherman/feynman-it/blob/5789b38e5250d2f373c25864b0120177304bb1f7/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "cc2e641a30fae4b77c2f5b4d4d0c21544f50ba66947208df3a08c065446f1fe1",
+      "git_blob_sha1": "da078957dd079c8e52a14aac4c4083374d6ad93c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c7928a373f1"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/TadTheFisherman/feynman-it/blob/5789b38e5250d2f373c25864b0120177304bb1f7/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TadTheFisherman__feynman-it/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/frontend-design/SKILL.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/frontend-design/SKILL.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/SKILL.md",
+      "size_bytes": 9390,
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "git_blob_sha1": "a5333457c414d20d625f307df945842c0952ecc3",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f2845f045387"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/frontend-design/LICENSE.txt",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/LICENSE.txt",
+      "size_bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "git_blob_sha1": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f2845f045387"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 46162,
+      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
+      "git_blob_sha1": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f2845f045387"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/TheCraigHewitt__skills/youtube/idea-generation/SKILL.md",
+      "repository": "TheCraigHewitt/skills",
+      "upstream_path": "youtube/idea-generation/SKILL.md",
+      "upstream_commit": "fdbf39b61fbc8cb7cea67949bfb5e8fc567bbc51",
+      "source_url": "https://github.com/TheCraigHewitt/skills/blob/fdbf39b61fbc8cb7cea67949bfb5e8fc567bbc51/youtube/idea-generation/SKILL.md",
+      "size_bytes": 8941,
+      "sha256": "e739efe6705c53a14b1fbe02382f00346836f4855ff0fce9e97b205229eaba66",
+      "git_blob_sha1": "c972d519b288b125c5fe83ea1a166cda02f414d3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b399f903c0d2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/TheCraigHewitt/skills/blob/fdbf39b61fbc8cb7cea67949bfb5e8fc567bbc51/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TheCraigHewitt__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TheCraigHewitt__skills/LICENSE",
+      "repository": "TheCraigHewitt/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fdbf39b61fbc8cb7cea67949bfb5e8fc567bbc51",
+      "source_url": "https://github.com/TheCraigHewitt/skills/blob/fdbf39b61fbc8cb7cea67949bfb5e8fc567bbc51/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "7a38bb6077558853f9f51c1b560faf76f15718c39cc95296db4c6b421d7eb23d",
+      "git_blob_sha1": "a81c800fe1f7ae5f506d0d903a108117cfbf72f2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b399f903c0d2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/TheCraigHewitt/skills/blob/fdbf39b61fbc8cb7cea67949bfb5e8fc567bbc51/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/TheCraigHewitt__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/louisedesadeleer__b-roll-finder/SKILL.md",
+      "repository": "louisedesadeleer/b-roll-finder",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "36b8a56d2a96e9e603535272df16726e878d9606",
+      "source_url": "https://github.com/louisedesadeleer/b-roll-finder/blob/36b8a56d2a96e9e603535272df16726e878d9606/SKILL.md",
+      "size_bytes": 28849,
+      "sha256": "ec71e423d8a4e218abf5bc6fb65141212d271725e7a4ffa1375578dd8bcbffae",
+      "git_blob_sha1": "3292c6c14de6ebfd2bb5ec44f60bf79cd6a1344a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-98a84ca70d00"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/louisedesadeleer/b-roll-finder/blob/36b8a56d2a96e9e603535272df16726e878d9606/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/louisedesadeleer__cut-video/LICENSE",
+      "repository": "louisedesadeleer/b-roll-finder",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "36b8a56d2a96e9e603535272df16726e878d9606",
+      "source_url": "https://github.com/louisedesadeleer/b-roll-finder/blob/36b8a56d2a96e9e603535272df16726e878d9606/LICENSE",
+      "size_bytes": 1075,
+      "sha256": "88dfd04b58f02e03b257749e96f87bd799598c23de4fa83e3d164a6c2fedfe9f",
+      "git_blob_sha1": "29511d7b3fb0acd45276802ea1a82fd95d567143",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-98a84ca70d00"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/louisedesadeleer/b-roll-finder/blob/36b8a56d2a96e9e603535272df16726e878d9606/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/media-use/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/media-use/SKILL.md",
+      "upstream_commit": "b2124b2a5631a9fbec9383a1697b7c63c8966a03",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/skills/media-use/SKILL.md",
+      "size_bytes": 5120,
+      "sha256": "ef3976a02ff516d8e5ed0b7fff19d4bbf9358264233bace33fdacaa3aa7f37de",
+      "git_blob_sha1": "53fe2edcf5ebf9d47dd1e4de2c2f43694f471232",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fbe1b477bb63"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b2124b2a5631a9fbec9383a1697b7c63c8966a03",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fbe1b477bb63"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/b2124b2a5631a9fbec9383a1697b7c63c8966a03/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    }
+  ]
+}

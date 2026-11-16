@@ -1,0 +1,252 @@
+{
+  "batch": "0102",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/spdx__license-list-data/text/MIT.txt",
+      "repository": "spdx/license-list-data",
+      "upstream_path": "text/MIT.txt",
+      "upstream_commit": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "source_url": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "size_bytes": 1078,
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "git_blob_sha1": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ce8743539734",
+        "SRC-4821b9a5ca2f",
+        "SRC-54dedd18e424",
+        "SRC-b6eb3b80e27c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/appautomaton__presentation/consultant/SKILL.md",
+      "repository": "appautomaton/presentation",
+      "upstream_path": "consultant/SKILL.md",
+      "upstream_commit": "1512dc8c51a6e09403a705b83a6bd363486a245b",
+      "source_url": "https://github.com/appautomaton/presentation/blob/1512dc8c51a6e09403a705b83a6bd363486a245b/consultant/SKILL.md",
+      "size_bytes": 29041,
+      "sha256": "2b168d09ca725142fc1a994449f5f05619d3c2f9c563826edb34a15e67bda7a8",
+      "git_blob_sha1": "66a92a1838b76f5050b49824d017cadc0b6089e7",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ce8743539734"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/appautomaton/presentation/blob/1512dc8c51a6e09403a705b83a6bd363486a245b/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/appautomaton__presentation/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/appautomaton__presentation/README.md",
+      "repository": "appautomaton/presentation",
+      "upstream_path": "README.md",
+      "upstream_commit": "1512dc8c51a6e09403a705b83a6bd363486a245b",
+      "source_url": "https://github.com/appautomaton/presentation/blob/1512dc8c51a6e09403a705b83a6bd363486a245b/README.md",
+      "size_bytes": 5847,
+      "sha256": "20a0c1a17cdb53ce88be3a969a1342425aa179048c674b8dbbb903be353e0f2c",
+      "git_blob_sha1": "ce2c3ce70ae99a275f1ccfeb65687aa7fde795f1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ce8743539734"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/appautomaton/presentation/blob/1512dc8c51a6e09403a705b83a6bd363486a245b/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/appautomaton__presentation/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/devenkhatri__all-agent-skills-repo/codebase-to-course/SKILL.md",
+      "repository": "devenkhatri/all-agent-skills-repo",
+      "upstream_path": "codebase-to-course/SKILL.md",
+      "upstream_commit": "59765bb1a3212894141b757b4ab939932ee5e121",
+      "source_url": "https://github.com/devenkhatri/all-agent-skills-repo/blob/59765bb1a3212894141b757b4ab939932ee5e121/codebase-to-course/SKILL.md",
+      "size_bytes": 22078,
+      "sha256": "9c2332cecba52e41b7ca3927ec54a655c7511c5a9525c6db2fe7c231d490ec76",
+      "git_blob_sha1": "226cb739bf9ca6028eac500d3e376859379a09be",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4821b9a5ca2f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/devenkhatri/all-agent-skills-repo/blob/59765bb1a3212894141b757b4ab939932ee5e121/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/devenkhatri__all-agent-skills-repo/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/devenkhatri__all-agent-skills-repo/README.md",
+      "repository": "devenkhatri/all-agent-skills-repo",
+      "upstream_path": "README.md",
+      "upstream_commit": "59765bb1a3212894141b757b4ab939932ee5e121",
+      "source_url": "https://github.com/devenkhatri/all-agent-skills-repo/blob/59765bb1a3212894141b757b4ab939932ee5e121/README.md",
+      "size_bytes": 35932,
+      "sha256": "a4c0ca8d22faad0db6d26092471087e917965ffca0d0af00008284457568fe7a",
+      "git_blob_sha1": "d216de13b2a3092c7b00cb2b707fa9e2b330f932",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4821b9a5ca2f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/devenkhatri/all-agent-skills-repo/blob/59765bb1a3212894141b757b4ab939932ee5e121/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/devenkhatri__all-agent-skills-repo/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/RSHVR__elite-web-design/skills/elite-product-demos/SKILL.md",
+      "repository": "RSHVR/elite-web-design",
+      "upstream_path": "skills/elite-product-demos/SKILL.md",
+      "upstream_commit": "89f8efe4163560b09bdd4d1db97c9f188f3fd4b8",
+      "source_url": "https://github.com/RSHVR/elite-web-design/blob/89f8efe4163560b09bdd4d1db97c9f188f3fd4b8/skills/elite-product-demos/SKILL.md",
+      "size_bytes": 10788,
+      "sha256": "c62c1b1496fb0d8c7e96027cbad3bcece837c061ced85774f36a7e350b1ab726",
+      "git_blob_sha1": "9dcbb987e6ff3b2e5a6a1917c11ac4e5291d4ef0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54dedd18e424"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/RSHVR/elite-web-design/blob/89f8efe4163560b09bdd4d1db97c9f188f3fd4b8/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/RSHVR__elite-web-design/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/RSHVR__elite-web-design/README.md",
+      "repository": "RSHVR/elite-web-design",
+      "upstream_path": "README.md",
+      "upstream_commit": "89f8efe4163560b09bdd4d1db97c9f188f3fd4b8",
+      "source_url": "https://github.com/RSHVR/elite-web-design/blob/89f8efe4163560b09bdd4d1db97c9f188f3fd4b8/README.md",
+      "size_bytes": 5125,
+      "sha256": "035218cf1a7716d1212ebdf7391a1dd5c2b6c497d00f861dd4e8b9f632e3cedc",
+      "git_blob_sha1": "769d8db0104104de61bbdff9ad420f4b0332c453",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54dedd18e424"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/RSHVR/elite-web-design/blob/89f8efe4163560b09bdd4d1db97c9f188f3fd4b8/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/RSHVR__elite-web-design/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/KyleAMathews__field-lab/SKILL.md",
+      "repository": "KyleAMathews/field-lab",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "fc2f3e2e761eef01ad169b3bd1142471ce917747",
+      "source_url": "https://github.com/KyleAMathews/field-lab/blob/fc2f3e2e761eef01ad169b3bd1142471ce917747/SKILL.md",
+      "size_bytes": 58220,
+      "sha256": "1b1992ff73a9a372a4b5b467a29d09642d89daff2b86d86d2c9c63dfb03b4088",
+      "git_blob_sha1": "a0df806d9552e273bf12fd0fa32b8846c1e0825d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b6eb3b80e27c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/KyleAMathews/field-lab/blob/fc2f3e2e761eef01ad169b3bd1142471ce917747/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/KyleAMathews__field-lab/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/KyleAMathews__field-lab/README.md",
+      "repository": "KyleAMathews/field-lab",
+      "upstream_path": "README.md",
+      "upstream_commit": "fc2f3e2e761eef01ad169b3bd1142471ce917747",
+      "source_url": "https://github.com/KyleAMathews/field-lab/blob/fc2f3e2e761eef01ad169b3bd1142471ce917747/README.md",
+      "size_bytes": 11117,
+      "sha256": "e8039db18141c2c341a1f74a60ce202a124ec923805b8d6924922b2458c86993",
+      "git_blob_sha1": "99d58b5edb9717af96a43e8275fde29754522b89",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b6eb3b80e27c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/KyleAMathews/field-lab/blob/fc2f3e2e761eef01ad169b3bd1142471ce917747/README.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/KyleAMathews__field-lab/README.md",
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    }
+  ]
+}
