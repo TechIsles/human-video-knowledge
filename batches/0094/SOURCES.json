@@ -1,0 +1,320 @@
+{
+  "batch": "0094",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 5,
+  "new_original_payload_paths": 10,
+  "files": [
+    {
+      "file": "upstream/NocodeMrLi__mr-li-writer-skill/SKILL.md",
+      "repository": "NocodeMrLi/mr-li-writer-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "efad229dd38fc45100b1da7a3a896c603cee6c40",
+      "source_url": "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/SKILL.md",
+      "size_bytes": 63518,
+      "sha256": "7d0e7c32b73dbd35731bfa6a61e2e9cd4eed52ee3e451366408f4a36ecb37bcc",
+      "git_blob_sha1": "98f7b33cc0cea764ef76b4868a74b6367103da55",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-582f6adbe010"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/LICENSE",
+        "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/NocodeMrLi__mr-li-writer-skill/LICENSE",
+        "upstream/NocodeMrLi__mr-li-writer-skill/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/NocodeMrLi__mr-li-writer-skill/LICENSE",
+      "repository": "NocodeMrLi/mr-li-writer-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "efad229dd38fc45100b1da7a3a896c603cee6c40",
+      "source_url": "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "52a417c08acb31284052dbf27acb834918c594f7a5e7c81d8f0391dfa780cbab",
+      "git_blob_sha1": "7d2ccb658d415d32ab72192e94afaff4b24adf5c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-582f6adbe010"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/LICENSE",
+        "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/NocodeMrLi__mr-li-writer-skill/LICENSE",
+        "upstream/NocodeMrLi__mr-li-writer-skill/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/NocodeMrLi__mr-li-writer-skill/NOTICE.md",
+      "repository": "NocodeMrLi/mr-li-writer-skill",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "efad229dd38fc45100b1da7a3a896c603cee6c40",
+      "source_url": "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/NOTICE.md",
+      "size_bytes": 1116,
+      "sha256": "acddaff541ab82a43057e5ee84329e315235fe4fae53163b50f318450819f060",
+      "git_blob_sha1": "cf6e2338c1501a2ed8d9c46c88b2f65067c34b70",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-582f6adbe010"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/LICENSE",
+        "https://github.com/NocodeMrLi/mr-li-writer-skill/blob/efad229dd38fc45100b1da7a3a896c603cee6c40/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/NocodeMrLi__mr-li-writer-skill/LICENSE",
+        "upstream/NocodeMrLi__mr-li-writer-skill/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/PracticalSwan__agent-skills/web-dev-explainer/SKILL.md",
+      "repository": "PracticalSwan/agent-skills",
+      "upstream_path": "web-dev-explainer/SKILL.md",
+      "upstream_commit": "6cf63517700aa9ba0b80e711a93837e3bea13d0a",
+      "source_url": "https://github.com/PracticalSwan/agent-skills/blob/6cf63517700aa9ba0b80e711a93837e3bea13d0a/web-dev-explainer/SKILL.md",
+      "size_bytes": 4769,
+      "sha256": "628f78661cf5801d1363919a56864b9877e51fff26843736654d5eb8264a45eb",
+      "git_blob_sha1": "31dac76a6212afcbdf2389720beac590ecbaf8e3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b53701f1f3b4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/PracticalSwan/agent-skills/blob/6cf63517700aa9ba0b80e711a93837e3bea13d0a/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/PracticalSwan__agent-skills/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/PracticalSwan__agent-skills/LICENSE.txt",
+      "repository": "PracticalSwan/agent-skills",
+      "upstream_path": "LICENSE.txt",
+      "upstream_commit": "6cf63517700aa9ba0b80e711a93837e3bea13d0a",
+      "source_url": "https://github.com/PracticalSwan/agent-skills/blob/6cf63517700aa9ba0b80e711a93837e3bea13d0a/LICENSE.txt",
+      "size_bytes": 1069,
+      "sha256": "5b30a24f635a0e31fff6d399e127b67b7a38e1bcaa439bdae8e4f619b25b06af",
+      "git_blob_sha1": "ccb922cc5ae87a6829b0e0049bc26c803164f561",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b53701f1f3b4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/PracticalSwan/agent-skills/blob/6cf63517700aa9ba0b80e711a93837e3bea13d0a/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/PracticalSwan__agent-skills/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/algorithmic-art/SKILL.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/algorithmic-art/SKILL.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/algorithmic-art/SKILL.md",
+      "size_bytes": 19769,
+      "sha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef",
+      "git_blob_sha1": "634f6fa42e4e697fa6afd293acd7fb8246574876",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-abd6f33eca79"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/algorithmic-art/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/algorithmic-art/LICENSE.txt",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/algorithmic-art/LICENSE.txt",
+      "size_bytes": 11345,
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "git_blob_sha1": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-abd6f33eca79"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/algorithmic-art/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 46162,
+      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
+      "git_blob_sha1": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
+      "role": "license_notice",
+      "license": "Third-party notice (multiple licenses)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-abd6f33eca79"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/algorithmic-art/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/design/skills/research-synthesis/SKILL.md",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "design/skills/research-synthesis/SKILL.md",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/design/skills/research-synthesis/SKILL.md",
+      "size_bytes": 3014,
+      "sha256": "40048615dc81fc8b9b06104769498214d61a35ae4518a0995a12bbbd0ab945a1",
+      "git_blob_sha1": "4807340a6ece564451718200b041a379b1c573a0",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7ee8d99a5c12"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+      "size_bytes": 11607,
+      "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "git_blob_sha1": "f53c679acba79cbb292961fd9fb9e87ca20eab22",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7ee8d99a5c12"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/JimLiu__baoyu-skills/skills/baoyu-comic/SKILL.md",
+      "repository": "JimLiu/baoyu-skills",
+      "upstream_path": "skills/baoyu-comic/SKILL.md",
+      "upstream_commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-comic/SKILL.md",
+      "size_bytes": 22517,
+      "sha256": "98d5de8650a3401c1ee97b3f78ebacef72f3f570ef7fe7290b192ac7d24330bc",
+      "git_blob_sha1": "e25f4d514f12a7e1de848a6c0605d156f85daf5e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bad77a28d089"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/JimLiu__baoyu-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/JimLiu__baoyu-skills/LICENSE",
+      "repository": "JimLiu/baoyu-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "git_blob_sha1": "9f2cc0d74570c5841f02b639593d12a70dc7dc65",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bad77a28d089"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged full original, copyright, attribution, disclaimers and applicable license. Only selected document, not entire repository or linked media/dependencies.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/JimLiu__baoyu-skills/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1073 @@
+{
+  "batch": "0096",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 18,
+  "new_original_payload_paths": 19,
+  "files": [
+    {
+      "file": "upstream/heygen-com__hyperframes/.agents/skills/cut-the-curve/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": ".agents/skills/cut-the-curve/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/.agents/skills/cut-the-curve/SKILL.md",
+      "size_bytes": 18859,
+      "sha256": "c97df202caea16949a54afdcbc7007c60063028f73bb56ffeaec630ccb0d5145",
+      "git_blob_sha1": "c69e03b3f45a4d009c1fdbf543a3f17b1c08edd8",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-95a269db6829"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-95a269db6829"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/engineering/grill-with-docs/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/engineering/grill-with-docs/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/grill-with-docs/SKILL.md",
+      "size_bytes": 247,
+      "sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+      "git_blob_sha1": "62b9efb6f991d1b229adee7506962f13ced0c499",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f95aa3e829bf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/LICENSE",
+      "repository": "mattpocock/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "git_blob_sha1": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f95aa3e829bf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/human-avatar__skills-for-humanity/skills/s4h-analogy-boundary-testing/SKILL.md",
+      "repository": "human-avatar/skills-for-humanity",
+      "upstream_path": "skills/s4h-analogy-boundary-testing/SKILL.md",
+      "upstream_commit": "a30df8b67698ccb03ef5e35d68c2eddc5321ad3f",
+      "source_url": "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/skills/s4h-analogy-boundary-testing/SKILL.md",
+      "size_bytes": 5461,
+      "sha256": "f0f032f11e656dea876c7fb6ebdf51f537324df046ad28263849a3d01ffa529c",
+      "git_blob_sha1": "d294ae026dcbbf4636638e3242ad5f8f8dfb2b52",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-71b088268b9c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/human-avatar__skills-for-humanity/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/human-avatar__skills-for-humanity/LICENSE",
+      "repository": "human-avatar/skills-for-humanity",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a30df8b67698ccb03ef5e35d68c2eddc5321ad3f",
+      "source_url": "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "76c0b6aae31f07dcd851c07c046040583d4fd73f5677e655fa1ea58aa809a431",
+      "git_blob_sha1": "08a0a98d6469cf30e0e83b2bdebb15714ff5d1af",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-71b088268b9c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/human-avatar__skills-for-humanity/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/hyperframes-keyframes/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/hyperframes-keyframes/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/hyperframes-keyframes/SKILL.md",
+      "size_bytes": 16263,
+      "sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791",
+      "git_blob_sha1": "559dd0bc16ab0b6595cc470df6a5d3e113894adf",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f13d0fb53711"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f13d0fb53711"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/engineering/research/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/engineering/research/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/research/SKILL.md",
+      "size_bytes": 794,
+      "sha256": "985569f15739c713d6784887c3d186d4ef9ac85bec5ad9c068d25bf0739928e4",
+      "git_blob_sha1": "fecee97e9457ba039678d2fcf1b1bc9fca78307d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8db9dd698e52"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/LICENSE",
+      "repository": "mattpocock/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "git_blob_sha1": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8db9dd698e52"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SkillMedev__skills/skills/social-video-formatter/SKILL.md",
+      "repository": "SkillMedev/skills",
+      "upstream_path": "skills/social-video-formatter/SKILL.md",
+      "upstream_commit": "97a13607d669157a4a16d5ba79b77f208319f7b9",
+      "source_url": "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/skills/social-video-formatter/SKILL.md",
+      "size_bytes": 18580,
+      "sha256": "0ce6ac160fb3e585f69b4cca645bbb9a37bb650e53151fdc19706d75d05a3d0e",
+      "git_blob_sha1": "1617ad6f2b050c728cdb31664dd0dd4d82913eab",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8191a63e3e86"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SkillMedev__motion-video-direction/LICENSE",
+      "repository": "SkillMedev/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "97a13607d669157a4a16d5ba79b77f208319f7b9",
+      "source_url": "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "e55c0849226f9059d1b291000940bda5f88121f12a90c0d8c899fcccdb292292",
+      "git_blob_sha1": "879f1ca4bc59fb184adc63ef77c8a301ebd1c013",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8191a63e3e86"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cdeistopened__skill-stack/.claude/skills/youtube-scriptwriting/SKILL.md",
+      "repository": "cdeistopened/skill-stack",
+      "upstream_path": ".claude/skills/youtube-scriptwriting/SKILL.md",
+      "upstream_commit": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+      "source_url": "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/.claude/skills/youtube-scriptwriting/SKILL.md",
+      "size_bytes": 5432,
+      "sha256": "823786c7411ae069462dfd270e9b69d0252bd42cd665322c969b0631ba6585ff",
+      "git_blob_sha1": "3ee417670fe58e526b1da2dfcbb72a4dbc566873",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-de40dca3d955"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cdeistopened__skill-stack/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cdeistopened__skill-stack/LICENSE",
+      "repository": "cdeistopened/skill-stack",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+      "source_url": "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "5e917f4fdd31eeea36e92038ccc91fe345504cffd8dfd4aed587a37a3aa9ef78",
+      "git_blob_sha1": "befe2f1a5b471d5c122410f0933b93bbcf84cd3f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-de40dca3d955"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/cdeistopened__skill-stack/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/chenyuxiaojin__video-agent-skills/video-agent-storyboarder/SKILL.md",
+      "repository": "chenyuxiaojin/video-agent-skills",
+      "upstream_path": "video-agent-storyboarder/SKILL.md",
+      "upstream_commit": "fc80890c7578279279bee301370a9f58d8123ec0",
+      "source_url": "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/video-agent-storyboarder/SKILL.md",
+      "size_bytes": 6153,
+      "sha256": "5ba99bd0104d20f37842cf0154b87010035104107cdf37b2c0f109afd9e21dc1",
+      "git_blob_sha1": "7794a438edc9cb064f2c4d68ccca7eefe76d2a69",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-61267047ff44"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenyuxiaojin__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/chenyuxiaojin__video-agent-skills/LICENSE",
+      "repository": "chenyuxiaojin/video-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fc80890c7578279279bee301370a9f58d8123ec0",
+      "source_url": "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "a927745ec95b8b0fc03c247dae453c85c5c274356124881ad0469367764323f0",
+      "git_blob_sha1": "65504e7da7b82a15931c9cf4c4055643a04b16e5",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-61267047ff44"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/chenyuxiaojin__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/hyperframes-animation/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/hyperframes-animation/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/hyperframes-animation/SKILL.md",
+      "size_bytes": 20658,
+      "sha256": "dfbbc2dc7907fa11fa3ae5bdb4f4c1fe7970c09f7c6e75248faf449bc67eb735",
+      "git_blob_sha1": "f8aed518d901207d94242feb52edf2aaf034b521",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ac2ba54bc928"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ac2ba54bc928"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/engineering/prototype/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/engineering/prototype/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/prototype/SKILL.md",
+      "size_bytes": 2931,
+      "sha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+      "git_blob_sha1": "a0044501fe0d385b4d8575b610188ede9b236ccf",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0b3a60d4901c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/LICENSE",
+      "repository": "mattpocock/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "git_blob_sha1": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0b3a60d4901c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/talking-head-recut/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/talking-head-recut/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/talking-head-recut/SKILL.md",
+      "size_bytes": 65513,
+      "sha256": "84bb6ba0ac3cb0505f09dd1ded0a07e2298daed6c33c05d7bb9a56d0ade53d2c",
+      "git_blob_sha1": "e34ff0de6c0afffe507a0be110b414909f8675c2",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0 AND MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-730a20548809"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/talking-head-recut/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-730a20548809"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/talking-head-recut/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/talking-head-recut/NOTICE.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/talking-head-recut/NOTICE.md",
+      "size_bytes": 1826,
+      "sha256": "0e0a88d4eb584a1a0805930d30918ceebf0824fbb594731ebaa069eea9849995",
+      "git_blob_sha1": "38712c90e33710ffbb70dae7f91f130115430155",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-730a20548809"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/talking-head-recut/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/prime-skills__runcomfy-agent-skills/ai-music/SKILL.md",
+      "repository": "prime-skills/runcomfy-agent-skills",
+      "upstream_path": "ai-music/SKILL.md",
+      "upstream_commit": "fca19ae084c2ae4667f5c8affbb99da5103d5832",
+      "source_url": "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/ai-music/SKILL.md",
+      "size_bytes": 14660,
+      "sha256": "afec31ead5a4a0b5011be38be6d755bd111b605f7cbdfbe99859b112ac61ff88",
+      "git_blob_sha1": "4009596b2e187145f4437823a00e8fce6de890b0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a7d23479ef29"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/prime-skills__runcomfy-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/prime-skills__runcomfy-agent-skills/LICENSE",
+      "repository": "prime-skills/runcomfy-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fca19ae084c2ae4667f5c8affbb99da5103d5832",
+      "source_url": "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/LICENSE",
+      "size_bytes": 1081,
+      "sha256": "da9c8da48d4cd81ad349524956e5a5bd2f8c639c1cf581d639023255d62f74f4",
+      "git_blob_sha1": "78a1cc26c80f7539364f7aa98b55ff7f1980fd16",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a7d23479ef29"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/prime-skills__runcomfy-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getedgehq__skills/kallaway-layered-hook/SKILL.md",
+      "repository": "getedgehq/skills",
+      "upstream_path": "kallaway-layered-hook/SKILL.md",
+      "upstream_commit": "51897ad16e8183c34cc4a153a2b7fddd2a512f60",
+      "source_url": "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/kallaway-layered-hook/SKILL.md",
+      "size_bytes": 6108,
+      "sha256": "79f44a9fbc8f8da645207fff4f184a079e3d565bbe9591d8f9956246f40833ec",
+      "git_blob_sha1": "3af99610613168d792abb58b963554607a81da5e",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6460df50ef0a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/kallaway-layered-hook/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE",
+      "repository": "getedgehq/skills",
+      "upstream_path": "kallaway-layered-hook/LICENSE",
+      "upstream_commit": "51897ad16e8183c34cc4a153a2b7fddd2a512f60",
+      "source_url": "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/kallaway-layered-hook/LICENSE",
+      "size_bytes": 10756,
+      "sha256": "d0d0b1377c7be4c0094f0a1e0a84c4bb2c4d3c2a4d1c0355eb7cfe118d3bf1f1",
+      "git_blob_sha1": "052d7d992447fedc7b807f6ac3f4e1c62c2c7acb",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6460df50ef0a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/kallaway-layered-hook/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/konradre__video-production-skills/skills/spot-audio-assembly/SKILL.md",
+      "repository": "konradre/video-production-skills",
+      "upstream_path": "skills/spot-audio-assembly/SKILL.md",
+      "upstream_commit": "fe379a39ac7343d47f1835edd92a046ca07361db",
+      "source_url": "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/skills/spot-audio-assembly/SKILL.md",
+      "size_bytes": 22381,
+      "sha256": "5c5725bec8d38e11d56f2b70b10c6578c3cacce8fd34c1bd2522d182d9d1dcbc",
+      "git_blob_sha1": "7ba3e790cec93965511065ca11320e0c62075eb9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b70c5cb5a4c2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/konradre__video-production-skills/LICENSE",
+        "upstream/konradre__video-production-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/konradre__video-production-skills/LICENSE",
+      "repository": "konradre/video-production-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fe379a39ac7343d47f1835edd92a046ca07361db",
+      "source_url": "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "ae17a82d222403aa648a64e519fb2cd61fa9b85df39d1eedcb65298d1eef1a28",
+      "git_blob_sha1": "281865a3cc8bbcfb7095553e7ba162062eb25100",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b70c5cb5a4c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/konradre__video-production-skills/LICENSE",
+        "upstream/konradre__video-production-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/konradre__video-production-skills/NOTICE.md",
+      "repository": "konradre/video-production-skills",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "fe379a39ac7343d47f1835edd92a046ca07361db",
+      "source_url": "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md",
+      "size_bytes": 3152,
+      "sha256": "9848d2a4900ef7b808f95c847f0397ddf43032b44e5c82d50d54ad83d5a68dfe",
+      "git_blob_sha1": "80cfe79c47768482734d62aca2025c61aaf97387",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b70c5cb5a4c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/konradre__video-production-skills/LICENSE",
+        "upstream/konradre__video-production-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/music-to-video/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/music-to-video/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/music-to-video/SKILL.md",
+      "size_bytes": 19036,
+      "sha256": "a13f792408a391e32cbd8625857fd5cb915704b73a24fd1e471a4239921f1545",
+      "git_blob_sha1": "2737a73cd55b40770cdb5cfc5cc42c9b8fed9c7a",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4ff6ebc00416"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4ff6ebc00416"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/enterprise-search/skills/knowledge-synthesis/SKILL.md",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "enterprise-search/skills/knowledge-synthesis/SKILL.md",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/enterprise-search/skills/knowledge-synthesis/SKILL.md",
+      "size_bytes": 8526,
+      "sha256": "8dc66c66ef0004010bbf2d569251163e90a6675b982e0cb99ef26b4dd1c5a0f6",
+      "git_blob_sha1": "a5e816fb52c4d2055513eeaea446e79b81aa54f2",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d57034fa4c9e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/enterprise-search/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+      "size_bytes": 11607,
+      "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "git_blob_sha1": "f53c679acba79cbb292961fd9fb9e87ca20eab22",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d57034fa4c9e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/enterprise-search/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "sales/LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d57034fa4c9e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/enterprise-search/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "enterprise-search/LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/enterprise-search/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d57034fa4c9e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/sales/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/enterprise-search/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/.agents/skills/motion-doctrine/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": ".agents/skills/motion-doctrine/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/.agents/skills/motion-doctrine/SKILL.md",
+      "size_bytes": 11936,
+      "sha256": "d4d20aa33a57784154ffe55b83424037842269e59cc1e821c1b18bd541877142",
+      "git_blob_sha1": "660f0f68fd6bb713b12ce7da2cd8894cc502c98c",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c10430535f3c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c10430535f3c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE",
+        "upstream/heygen-com__hyperframes/skills/talking-head-recut/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/rebuildup__design-skills/skills/data-visualization/SKILL.md",
+      "repository": "rebuildup/design-skills",
+      "upstream_path": "skills/data-visualization/SKILL.md",
+      "upstream_commit": "342d70929dc5f33af5bb88f48362e11ed2dcf1cb",
+      "source_url": "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/skills/data-visualization/SKILL.md",
+      "size_bytes": 9729,
+      "sha256": "4635af58c7228bb18b7d38dd59db7270548ef3b02fbb32ba5febdec41682c034",
+      "git_blob_sha1": "06111ee7a0152b74dcdbd9af1525fbff43673653",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-82a8b68b25a3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rebuildup__design-skills/LICENSE",
+        "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/rebuildup__design-skills/LICENSE",
+      "repository": "rebuildup/design-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "342d70929dc5f33af5bb88f48362e11ed2dcf1cb",
+      "source_url": "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "5b250fafdf2626580f8669360151dd1ab0f7712398452393751e684da3978e6d",
+      "git_blob_sha1": "62ce7366299ca66cc532304ea0e5be546e841dce",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-82a8b68b25a3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/rebuildup__design-skills/LICENSE",
+        "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md",
+      "repository": "rebuildup/design-skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "342d70929dc5f33af5bb88f48362e11ed2dcf1cb",
+      "source_url": "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 2087,
+      "sha256": "dfa715b84c8daecce47ca40b11d017f6b55e958080033f623fdef539f299091d",
+      "git_blob_sha1": "e54677b36a78e4ec282e5777106272684f226fa2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-82a8b68b25a3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve unchanged source, full applicable license, attribution and warranty notices. Only selected skill text included; referenced third-party media, lyrics, books, services and dependencies excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/rebuildup__design-skills/LICENSE",
+        "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md"
+      ]
+    }
+  ]
+}
