@@ -1,0 +1,872 @@
+{
+  "batch": "0112",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 32,
+  "files": [
+    {
+      "file": "upstream/agentskills__agentskills/README.md",
+      "repository": "agentskills/agentskills",
+      "upstream_path": "README.md",
+      "upstream_commit": "83021e2be457a9b6679148719c1f6074f0ad975e",
+      "source_url": "https://github.com/agentskills/agentskills/blob/83021e2be457a9b6679148719c1f6074f0ad975e/README.md",
+      "size_bytes": 3361,
+      "sha256": "7ff4a9a612ab21189aa793fd43223bd854280a122ac12ce29f5bea84d5930a1d",
+      "git_blob_sha1": "247e4a18e908d3bf27092f886f25c2515d84ecbc",
+      "role": "original_documentation",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-48dbbdd8fd0d"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/agentskills/agentskills/blob/83021e2be457a9b6679148719c1f6074f0ad975e/docs/LICENSE",
+        "https://github.com/agentskills/agentskills/blob/83021e2be457a9b6679148719c1f6074f0ad975e/README.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agentskills__agentskills/docs/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agentskills__agentskills/docs/LICENSE",
+      "repository": "agentskills/agentskills",
+      "upstream_path": "docs/LICENSE",
+      "upstream_commit": "83021e2be457a9b6679148719c1f6074f0ad975e",
+      "source_url": "https://github.com/agentskills/agentskills/blob/83021e2be457a9b6679148719c1f6074f0ad975e/docs/LICENSE",
+      "size_bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "git_blob_sha1": "4ea99c213c5c0c005ae4e80df8e52169d06896ec",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-48dbbdd8fd0d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/agentskills/agentskills/blob/83021e2be457a9b6679148719c1f6074f0ad975e/docs/LICENSE",
+        "https://github.com/agentskills/agentskills/blob/83021e2be457a9b6679148719c1f6074f0ad975e/README.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agentskills__agentskills/docs/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/LICENSE",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "02f2c2e6c992ffccce9e9129781fdd04f015c6fa",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/02f2c2e6c992ffccce9e9129781fdd04f015c6fa/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "d9bb52f2e3540d60ff50d8f0f5b6ba649b7fd346948c4c3d086c8afb120763c7",
+      "git_blob_sha1": "fc0602feecdd6748623c852ab534e1ca612673c7",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-642743ad9061"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/langchain-ai/langgraph/blob/02f2c2e6c992ffccce9e9129781fdd04f015c6fa/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/README.md",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "README.md",
+      "upstream_commit": "02f2c2e6c992ffccce9e9129781fdd04f015c6fa",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/02f2c2e6c992ffccce9e9129781fdd04f015c6fa/README.md",
+      "size_bytes": 6395,
+      "sha256": "3a13e257af1216962d53d72414a7f44ac1fc5cea34d994bdff60ea2a3b045933",
+      "git_blob_sha1": "97c31e9cb4d8fe56be8d768ce3eb5e22400e897e",
+      "role": "original_documentation",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-642743ad9061"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/langchain-ai/langgraph/blob/02f2c2e6c992ffccce9e9129781fdd04f015c6fa/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wdkns__wdkns-skills/LICENSE",
+      "repository": "wdkns/wdkns-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "496fb3fa0e9845167db8a5eff2d86f5ffcc2eeb4",
+      "source_url": "https://github.com/wdkns/wdkns-skills/blob/496fb3fa0e9845167db8a5eff2d86f5ffcc2eeb4/LICENSE",
+      "size_bytes": 35148,
+      "sha256": "bbe31cf3309e730ca8e18a0ff14ba59b30a2659fcc9822d139dfcd06d39c463d",
+      "git_blob_sha1": "f93cc4849b4351e897464e09754b53e8eefaae41",
+      "role": "license_notice",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3efd51f3d386"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wdkns/wdkns-skills/blob/496fb3fa0e9845167db8a5eff2d86f5ffcc2eeb4/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wdkns__wdkns-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wdkns__wdkns-skills/skills/youtube-render-pdf/SKILL.md",
+      "repository": "wdkns/wdkns-skills",
+      "upstream_path": "skills/youtube-render-pdf/SKILL.md",
+      "upstream_commit": "496fb3fa0e9845167db8a5eff2d86f5ffcc2eeb4",
+      "source_url": "https://github.com/wdkns/wdkns-skills/blob/496fb3fa0e9845167db8a5eff2d86f5ffcc2eeb4/skills/youtube-render-pdf/SKILL.md",
+      "size_bytes": 19247,
+      "sha256": "bfcdc1b699c385c263ee5cbc5886c1a5cf1e6952eb7c90f76a425ce953552e85",
+      "git_blob_sha1": "25cede7b00f5d5d1b5c99057cb81b052b915c882",
+      "role": "canonical_skill_document",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3efd51f3d386"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wdkns/wdkns-skills/blob/496fb3fa0e9845167db8a5eff2d86f5ffcc2eeb4/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wdkns__wdkns-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "huggingface/datasets",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "efc82474bc990f5872226dca56457536c9a880e9",
+      "source_url": "https://github.com/huggingface/datasets/blob/efc82474bc990f5872226dca56457536c9a880e9/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-014216b2538f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/datasets/blob/efc82474bc990f5872226dca56457536c9a880e9/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/huggingface__datasets/README.md",
+      "repository": "huggingface/datasets",
+      "upstream_path": "README.md",
+      "upstream_commit": "efc82474bc990f5872226dca56457536c9a880e9",
+      "source_url": "https://github.com/huggingface/datasets/blob/efc82474bc990f5872226dca56457536c9a880e9/README.md",
+      "size_bytes": 14466,
+      "sha256": "b44ee0cc106481037c92a7a3e045ee12c288c6f9963329081ff6e6744e39f344",
+      "git_blob_sha1": "e34b32d3c95f8b07195a601d0c06e82509216872",
+      "role": "original_documentation",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-014216b2538f"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/datasets/blob/efc82474bc990f5872226dca56457536c9a880e9/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/noahshinn__reflexion/LICENSE",
+      "repository": "noahshinn/reflexion",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+      "source_url": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "6e9db9e62fe5597c3f04a620136eadb7eb8e8f77ebb0e820f7098546fb8a08e6",
+      "git_blob_sha1": "54d8671f77d5cf375a08c3c1e8bc06de4b8581c1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-147eb673155c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/noahshinn__reflexion/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/noahshinn__reflexion/README.md",
+      "repository": "noahshinn/reflexion",
+      "upstream_path": "README.md",
+      "upstream_commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+      "source_url": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/README.md",
+      "size_bytes": 4342,
+      "sha256": "5209db116381e7c067dd0ee4085da26b7d00fd19cbe66b6367051a2f95ef9024",
+      "git_blob_sha1": "ddef2fa6ae67d7c1aec49a43c1b286010ec27cc9",
+      "role": "original_documentation",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-147eb673155c"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/noahshinn__reflexion/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/BerriAI__litellm/README.md",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "README.md",
+      "upstream_commit": "f517a821b320ede3882b44353cb40510d8357473",
+      "source_url": "https://github.com/BerriAI/litellm/blob/f517a821b320ede3882b44353cb40510d8357473/README.md",
+      "size_bytes": 41432,
+      "sha256": "e798e6eff3a4d28a70943a477975b6d27bdb3cff1a82aae9ddf2ba79f6e9262a",
+      "git_blob_sha1": "1bb84d193748733467af91ddba210ae617a1a0c4",
+      "role": "original_documentation",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dab892839df4"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/BerriAI/litellm/blob/f517a821b320ede3882b44353cb40510d8357473/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/BerriAI__litellm/LICENSE",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f517a821b320ede3882b44353cb40510d8357473",
+      "source_url": "https://github.com/BerriAI/litellm/blob/f517a821b320ede3882b44353cb40510d8357473/LICENSE",
+      "size_bytes": 1435,
+      "sha256": "4a5f5d029fb0fa6410cc3d416093d1f41571f0911f04b518088a54ea335bab30",
+      "git_blob_sha1": "2ffbfec19ad5a1fd2a489d1f4f7ce81a899eb77b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dab892839df4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/BerriAI/litellm/blob/f517a821b320ede3882b44353cb40510d8357473/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/huggingface__trl/LICENSE",
+      "repository": "huggingface/trl",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b700de831f799e4c2c8d91fec101e09a00a415e5",
+      "source_url": "https://github.com/huggingface/trl/blob/b700de831f799e4c2c8d91fec101e09a00a415e5/LICENSE",
+      "size_bytes": 11355,
+      "sha256": "1bf614b1fdc40fbd344aa58d00d17d5fd0d252ea333a05be018a38959c8b2998",
+      "git_blob_sha1": "f577b7741dfb5c6af119f250971549dd7750acb9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-29825e1ad161"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/b700de831f799e4c2c8d91fec101e09a00a415e5/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/huggingface__trl/README.md",
+      "repository": "huggingface/trl",
+      "upstream_path": "README.md",
+      "upstream_commit": "b700de831f799e4c2c8d91fec101e09a00a415e5",
+      "source_url": "https://github.com/huggingface/trl/blob/b700de831f799e4c2c8d91fec101e09a00a415e5/README.md",
+      "size_bytes": 10018,
+      "sha256": "9a788536f5ed9a21646040cc999a00aa79674f716744d1c799d0b20ac65d2301",
+      "git_blob_sha1": "2f039ab48a5d5b5d9e80a759cd8a794adc98bed0",
+      "role": "original_documentation",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-29825e1ad161"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/b700de831f799e4c2c8d91fec101e09a00a415e5/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/librosa__librosa/LICENSE.md",
+      "repository": "librosa/librosa",
+      "upstream_path": "LICENSE.md",
+      "upstream_commit": "76f10b8d2d00870fed47b4698927a4e7e78d1fb4",
+      "source_url": "https://github.com/librosa/librosa/blob/76f10b8d2d00870fed47b4698927a4e7e78d1fb4/LICENSE.md",
+      "size_bytes": 766,
+      "sha256": "79aa4a8086d51ac89f9a7322f546670cdef73e758c67f04587b7af8afafd6df8",
+      "git_blob_sha1": "22233a208b8776abdab2efcfb5ee34af616cb1ef",
+      "role": "license_notice",
+      "license": "ISC",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c23c0d04e3a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/librosa/librosa/blob/76f10b8d2d00870fed47b4698927a4e7e78d1fb4/LICENSE.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/librosa__librosa/LICENSE.md"
+      ]
+    },
+    {
+      "file": "upstream/librosa__librosa/README.md",
+      "repository": "librosa/librosa",
+      "upstream_path": "README.md",
+      "upstream_commit": "76f10b8d2d00870fed47b4698927a4e7e78d1fb4",
+      "source_url": "https://github.com/librosa/librosa/blob/76f10b8d2d00870fed47b4698927a4e7e78d1fb4/README.md",
+      "size_bytes": 3905,
+      "sha256": "5887811bcf8720e315cebfcc7ebe62637cc284bf005077dc1a0340a8b97e3b36",
+      "git_blob_sha1": "8bb350a2f89beb4ab3294c36e0aff6bb88d89182",
+      "role": "original_documentation",
+      "license": "ISC",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c23c0d04e3a5"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/librosa/librosa/blob/76f10b8d2d00870fed47b4698927a4e7e78d1fb4/LICENSE.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/librosa__librosa/LICENSE.md"
+      ]
+    },
+    {
+      "file": "upstream/mltframework__mlt/COPYING",
+      "repository": "mltframework/mlt",
+      "upstream_path": "COPYING",
+      "upstream_commit": "2a51ed9cca0b7edca5f1c34749bad67b76b0051a",
+      "source_url": "https://github.com/mltframework/mlt/blob/2a51ed9cca0b7edca5f1c34749bad67b76b0051a/COPYING",
+      "size_bytes": 26521,
+      "sha256": "592987e8510228d546540b84a22444bde98e48d03078d3b2eefcd889bec5ce8c",
+      "git_blob_sha1": "e5ab03e1238af66de157fae2e6270d7e8f967f93",
+      "role": "license_notice",
+      "license": "LGPL-2.1-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4f96586f47e3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mltframework/mlt/blob/2a51ed9cca0b7edca5f1c34749bad67b76b0051a/COPYING"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mltframework__mlt/COPYING"
+      ]
+    },
+    {
+      "file": "upstream/mltframework__mlt/README.md",
+      "repository": "mltframework/mlt",
+      "upstream_path": "README.md",
+      "upstream_commit": "2a51ed9cca0b7edca5f1c34749bad67b76b0051a",
+      "source_url": "https://github.com/mltframework/mlt/blob/2a51ed9cca0b7edca5f1c34749bad67b76b0051a/README.md",
+      "size_bytes": 4332,
+      "sha256": "a3ba39a8237b057be12dd8e439204982fc76ab628a1d4ec08633db51f60f8035",
+      "git_blob_sha1": "99719acd994bfa99dee5e3db75d6131a09c6fc1f",
+      "role": "original_documentation",
+      "license": "LGPL-2.1-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4f96586f47e3"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/mltframework/mlt/blob/2a51ed9cca0b7edca5f1c34749bad67b76b0051a/COPYING"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mltframework__mlt/COPYING"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "QwenLM/Qwen3-VL",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-88d1db358c01"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen3-VL/README.md",
+      "repository": "QwenLM/Qwen3-VL",
+      "upstream_path": "README.md",
+      "upstream_commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+      "source_url": "https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/README.md",
+      "size_bytes": 52828,
+      "sha256": "fc21106258c51e0b91a652eef12f5925becb146ea8b8c79a4251ac2e89a2f1ac",
+      "git_blob_sha1": "ec5ca7603d9c88ce2d2480190fe57a1f463904ef",
+      "role": "original_documentation",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-88d1db358c01"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/QwenLM/Qwen3-VL/blob/96588727e44c78b25ba03ea03b8e12f7e64fd0da/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/shmsw25__FActScore/LICENSE",
+      "repository": "shmsw25/FActScore",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f28272deffcf33efc1f1117d5479c10bb75221a9",
+      "source_url": "https://github.com/shmsw25/FActScore/blob/f28272deffcf33efc1f1117d5479c10bb75221a9/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "fd147c8f9043573a6bc6be2261a7ee2fac513b8f2996c9088b01ba52f81d35a9",
+      "git_blob_sha1": "70a1702b663f0afa9fdd2019499df7e2874eb257",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-29c027e92167"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/shmsw25/FActScore/blob/f28272deffcf33efc1f1117d5479c10bb75221a9/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/shmsw25__FActScore/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/shmsw25__FActScore/README.md",
+      "repository": "shmsw25/FActScore",
+      "upstream_path": "README.md",
+      "upstream_commit": "f28272deffcf33efc1f1117d5479c10bb75221a9",
+      "source_url": "https://github.com/shmsw25/FActScore/blob/f28272deffcf33efc1f1117d5479c10bb75221a9/README.md",
+      "size_bytes": 13410,
+      "sha256": "0def3ea1e5779551cb48301e8dc834dd7cb6e10886ae2795630554175d4ff68f",
+      "git_blob_sha1": "24d58232dffd684777e2d25ca12dcb3fb6728e72",
+      "role": "original_documentation",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-29c027e92167"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/shmsw25/FActScore/blob/f28272deffcf33efc1f1117d5479c10bb75221a9/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/shmsw25__FActScore/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vega__vega-lite/LICENSE",
+      "repository": "vega/vega-lite",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9d3a9a2e87ebbae0a525f1169b85b82fed986a21",
+      "source_url": "https://github.com/vega/vega-lite/blob/9d3a9a2e87ebbae0a525f1169b85b82fed986a21/LICENSE",
+      "size_bytes": 1529,
+      "sha256": "f618900fd0d64046963b29f40590cdd1e341a2f41449f99110d82fd81fea808c",
+      "git_blob_sha1": "850162439caa666a0761260bc6b7ecbc25a6dbf3",
+      "role": "license_notice",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8dd2f3ec4307"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/9d3a9a2e87ebbae0a525f1169b85b82fed986a21/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vega__vega-lite/README.md",
+      "repository": "vega/vega-lite",
+      "upstream_path": "README.md",
+      "upstream_commit": "9d3a9a2e87ebbae0a525f1169b85b82fed986a21",
+      "source_url": "https://github.com/vega/vega-lite/blob/9d3a9a2e87ebbae0a525f1169b85b82fed986a21/README.md",
+      "size_bytes": 2829,
+      "sha256": "fc43a69cb2874d9ecf8e94e0e560cd86620d916170ecdba5d308f3efc12845eb",
+      "git_blob_sha1": "71db9bab05b2a8ebbccf84da2d7085453d5f62bf",
+      "role": "original_documentation",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8dd2f3ec4307"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/9d3a9a2e87ebbae0a525f1169b85b82fed986a21/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HKUDS__VideoRAG/LICENSE",
+      "repository": "HKUDS/VideoRAG",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c412a093a820ef7a0e0dda31076ed871136198b3",
+      "source_url": "https://github.com/HKUDS/VideoRAG/blob/c412a093a820ef7a0e0dda31076ed871136198b3/LICENSE",
+      "size_bytes": 5319,
+      "sha256": "a72eb64b8ff4c3579d7b19eaa5ef20b4d3d2f45ffaf60d4ad434355cfb459049",
+      "git_blob_sha1": "5c209effc1fefa31ca6d1128416a84f60be130da",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e35a5e0dbe39"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/HKUDS/VideoRAG/blob/c412a093a820ef7a0e0dda31076ed871136198b3/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HKUDS__VideoRAG/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HKUDS__VideoRAG/README.md",
+      "repository": "HKUDS/VideoRAG",
+      "upstream_path": "README.md",
+      "upstream_commit": "c412a093a820ef7a0e0dda31076ed871136198b3",
+      "source_url": "https://github.com/HKUDS/VideoRAG/blob/c412a093a820ef7a0e0dda31076ed871136198b3/README.md",
+      "size_bytes": 13001,
+      "sha256": "4f6355f15b098288c08493d3d5790abe2148918592667b08237e5ca4450248ff",
+      "git_blob_sha1": "5fe5c4558aa66db1d5a34a3935ebf7728caf6819",
+      "role": "original_documentation",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e35a5e0dbe39"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/HKUDS/VideoRAG/blob/c412a093a820ef7a0e0dda31076ed871136198b3/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HKUDS__VideoRAG/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/amazon-science__RAGChecker/LICENSE",
+      "repository": "amazon-science/RAGChecker",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "6091f08c00e676e87a970f2aeb4a23a484746348",
+      "source_url": "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/LICENSE",
+      "size_bytes": 10142,
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "git_blob_sha1": "67db8588217f266eb561f75fae738656325deac9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e5b56036ad5e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/LICENSE",
+        "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/NOTICE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/amazon-science__RAGChecker/LICENSE",
+        "upstream/amazon-science__RAGChecker/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/amazon-science__RAGChecker/NOTICE",
+      "repository": "amazon-science/RAGChecker",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "6091f08c00e676e87a970f2aeb4a23a484746348",
+      "source_url": "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/NOTICE",
+      "size_bytes": 67,
+      "sha256": "d4290ed64c2edd0fce1d84e3f9dfb2881240fe534def76b8cd29ed6af683e287",
+      "git_blob_sha1": "616fc5889451895dbf9768e6787c8308c33bef22",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e5b56036ad5e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/LICENSE",
+        "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/NOTICE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/amazon-science__RAGChecker/LICENSE",
+        "upstream/amazon-science__RAGChecker/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/amazon-science__RAGChecker/README.md",
+      "repository": "amazon-science/RAGChecker",
+      "upstream_path": "README.md",
+      "upstream_commit": "6091f08c00e676e87a970f2aeb4a23a484746348",
+      "source_url": "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/README.md",
+      "size_bytes": 6954,
+      "sha256": "405ed94cb649be390ccab4d2a3c923d8f0930e536ea239d7ca19eafe5faad11e",
+      "git_blob_sha1": "5acf67b25022a51f218342a53fc1c993f4701f3e",
+      "role": "original_documentation",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e5b56036ad5e"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/LICENSE",
+        "https://github.com/amazon-science/RAGChecker/blob/6091f08c00e676e87a970f2aeb4a23a484746348/NOTICE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/amazon-science__RAGChecker/LICENSE",
+        "upstream/amazon-science__RAGChecker/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/xiaowu0162__LongMemEval/LICENSE",
+      "repository": "xiaowu0162/LongMemEval",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+      "source_url": "https://github.com/xiaowu0162/LongMemEval/blob/9e0b455f4ef0e2ab8f2e582289761153549043fc/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "d3c4b9aa54759df6ded337978a6f3b55b75615e5e4525c3b82d7e2627d4b9732",
+      "git_blob_sha1": "2e2c8491038bf0383c324a478b66a4663833efea",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-12f51ecafa48"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/xiaowu0162/LongMemEval/blob/9e0b455f4ef0e2ab8f2e582289761153549043fc/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xiaowu0162__LongMemEval/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/xiaowu0162__LongMemEval/README.md",
+      "repository": "xiaowu0162/LongMemEval",
+      "upstream_path": "README.md",
+      "upstream_commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+      "source_url": "https://github.com/xiaowu0162/LongMemEval/blob/9e0b455f4ef0e2ab8f2e582289761153549043fc/README.md",
+      "size_bytes": 15970,
+      "sha256": "c4ff45676683d9e2f7cf7d9099d26426f14635ec110dbb1da818d1019a142573",
+      "git_blob_sha1": "3490db4f796c14903788ecb3e33f056cab438bb0",
+      "role": "original_documentation",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-12f51ecafa48"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/xiaowu0162/LongMemEval/blob/9e0b455f4ef0e2ab8f2e582289761153549043fc/LICENSE"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xiaowu0162__LongMemEval/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/FFmpeg__FFmpeg/COPYING.LGPLv2.1",
+      "repository": "FFmpeg/FFmpeg",
+      "upstream_path": "COPYING.LGPLv2.1",
+      "upstream_commit": "6ea799a67599514eae2ac5e8c58db498546520b1",
+      "source_url": "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/COPYING.LGPLv2.1",
+      "size_bytes": 26517,
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30",
+      "git_blob_sha1": "40924c2a6da76a2b0c639f6fe7ef0b2d095a6adb",
+      "role": "license_notice",
+      "license": "LGPL-2.1-or-later",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-94ad5f4592f7"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/COPYING.LGPLv2.1",
+        "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/LICENSE.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FFmpeg__FFmpeg/COPYING.LGPLv2.1",
+        "upstream/FFmpeg__FFmpeg/LICENSE.md"
+      ]
+    },
+    {
+      "file": "upstream/FFmpeg__FFmpeg/LICENSE.md",
+      "repository": "FFmpeg/FFmpeg",
+      "upstream_path": "LICENSE.md",
+      "upstream_commit": "6ea799a67599514eae2ac5e8c58db498546520b1",
+      "source_url": "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/LICENSE.md",
+      "size_bytes": 4352,
+      "sha256": "e6dc72d5665a1ebd6dcc841de59278dad4ca77ecc47b03f1064a55c3e9ea8bb8",
+      "git_blob_sha1": "0e75dd3030844784ae339fb51300bd1a3b1e6207",
+      "role": "license_notice",
+      "license": "LGPL-2.1-or-later",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-94ad5f4592f7"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/COPYING.LGPLv2.1",
+        "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/LICENSE.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FFmpeg__FFmpeg/COPYING.LGPLv2.1",
+        "upstream/FFmpeg__FFmpeg/LICENSE.md"
+      ]
+    },
+    {
+      "file": "upstream/FFmpeg__FFmpeg/README.md",
+      "repository": "FFmpeg/FFmpeg",
+      "upstream_path": "README.md",
+      "upstream_commit": "6ea799a67599514eae2ac5e8c58db498546520b1",
+      "source_url": "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/README.md",
+      "size_bytes": 2026,
+      "sha256": "86474c8f0806772f831a9c7a4982fd2398507372c577d229b76f60bbb3e7dead",
+      "git_blob_sha1": "969e9ae2ae0a7bb31dfe22914989c8ec7c1de052",
+      "role": "original_documentation",
+      "license": "LGPL-2.1-or-later",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-94ad5f4592f7"
+      ],
+      "coverage_kind": "supporting_file",
+      "license_evidence_urls": [
+        "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/COPYING.LGPLv2.1",
+        "https://github.com/FFmpeg/FFmpeg/blob/6ea799a67599514eae2ac5e8c58db498546520b1/LICENSE.md"
+      ],
+      "conditions": "Unmodified source; retain copyright, source attribution, license and applicable notices. No relicensing.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FFmpeg__FFmpeg/COPYING.LGPLv2.1",
+        "upstream/FFmpeg__FFmpeg/LICENSE.md"
+      ]
+    }
+  ]
+}
