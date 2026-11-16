@@ -1,0 +1,86 @@
+{
+  "batch": "0097",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/addsumtech__slides_maker/skills/slide-maker/SKILL.md",
+      "repository": "addsumtech/slides_maker",
+      "upstream_path": "skills/slide-maker/SKILL.md",
+      "upstream_commit": "27b4d6c89d016875e8b0b161fa866795b8bed9d4",
+      "source_url": "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/skills/slide-maker/SKILL.md",
+      "size_bytes": 317721,
+      "sha256": "e1cafcd44b41947d24c46d4813d92d739ba74f5e241a1b30f6e17ad9973cabd0",
+      "git_blob_sha1": "a81716346ac940f189abe366635729198a29d223",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-88dbad104e79"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/LICENSE",
+        "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/skills/slide-maker/LICENSE"
+      ],
+      "conditions": "Retain original unchanged bytes and all applicable copyright, license and attribution notices. No grant to linked assets or third-party services. ",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/addsumtech__slides_maker/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/addsumtech__slides_maker/LICENSE",
+      "repository": "addsumtech/slides_maker",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "27b4d6c89d016875e8b0b161fa866795b8bed9d4",
+      "source_url": "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "2698344d6fe4981a44ef44d26294990ddd049eaec1ec6838864bd9e6c78b0cd7",
+      "git_blob_sha1": "c5ac16186ff95cebec2b5d6b080934d4eaacddff",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-88dbad104e79"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/LICENSE",
+        "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/skills/slide-maker/LICENSE"
+      ],
+      "conditions": "Retain original unchanged bytes and all applicable copyright, license and attribution notices. No grant to linked assets or third-party services. ",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/addsumtech__slides_maker/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/addsumtech__slides_maker/LICENSE",
+      "repository": "addsumtech/slides_maker",
+      "upstream_path": "skills/slide-maker/LICENSE",
+      "upstream_commit": "27b4d6c89d016875e8b0b161fa866795b8bed9d4",
+      "source_url": "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/skills/slide-maker/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "2698344d6fe4981a44ef44d26294990ddd049eaec1ec6838864bd9e6c78b0cd7",
+      "git_blob_sha1": "c5ac16186ff95cebec2b5d6b080934d4eaacddff",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-88dbad104e79"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/LICENSE",
+        "https://github.com/addsumtech/slides_maker/blob/27b4d6c89d016875e8b0b161fa866795b8bed9d4/skills/slide-maker/LICENSE"
+      ],
+      "conditions": "Retain original unchanged bytes and all applicable copyright, license and attribution notices. No grant to linked assets or third-party services. ",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/addsumtech__slides_maker/LICENSE"
+      ]
+    }
+  ]
+}
