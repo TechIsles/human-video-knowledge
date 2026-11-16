@@ -1,0 +1,224 @@
+{
+  "batch": "0075",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/uxcel-lab__product-skills/ux/foundations/typography/SKILL.md",
+      "repository": "uxcel-lab/product-skills",
+      "upstream_path": "ux/foundations/typography/SKILL.md",
+      "upstream_commit": "5007cd0241ccaa51ae2e4681f9618912dc10e239",
+      "source_url": "https://github.com/uxcel-lab/product-skills/blob/5007cd0241ccaa51ae2e4681f9618912dc10e239/ux/foundations/typography/SKILL.md",
+      "size_bytes": 7512,
+      "sha256": "717f55ac4d77ec93af8fc1e3aa9005645d696dcf434560b5f270f7ca9fc2eb9c",
+      "git_blob_sha1": "e80162a918d81e15203a7edac8b22be4d0ad1a09",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-73cb16129281"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/uxcel-lab/product-skills/blob/5007cd0241ccaa51ae2e4681f9618912dc10e239/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/uxcel-lab__product-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/uxcel-lab__product-skills/LICENSE",
+      "repository": "uxcel-lab/product-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5007cd0241ccaa51ae2e4681f9618912dc10e239",
+      "source_url": "https://github.com/uxcel-lab/product-skills/blob/5007cd0241ccaa51ae2e4681f9618912dc10e239/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "c04fd8eb7a99e8027e7f832c759387d2175b345cae47cd277e2759d7e325b488",
+      "git_blob_sha1": "ee541ace5ff4c863f802eee17459858a89e63258",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-73cb16129281"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/uxcel-lab/product-skills/blob/5007cd0241ccaa51ae2e4681f9618912dc10e239/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/uxcel-lab__product-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wan-huiyan__show-and-tell/SKILL.md",
+      "repository": "wan-huiyan/show-and-tell",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "60256be15f944a25f09948e01e0e940460dcbf39",
+      "source_url": "https://github.com/wan-huiyan/show-and-tell/blob/60256be15f944a25f09948e01e0e940460dcbf39/SKILL.md",
+      "size_bytes": 21859,
+      "sha256": "e1bb7954b43624481525a9e2169896b81e672d9740c4a143824414e9ef88f8d6",
+      "git_blob_sha1": "d6f4b89c8fc59b7b77aafe88b803647e9ef53103",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3c14f4da5e4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wan-huiyan/show-and-tell/blob/60256be15f944a25f09948e01e0e940460dcbf39/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wan-huiyan__show-and-tell/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wan-huiyan__show-and-tell/LICENSE",
+      "repository": "wan-huiyan/show-and-tell",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "60256be15f944a25f09948e01e0e940460dcbf39",
+      "source_url": "https://github.com/wan-huiyan/show-and-tell/blob/60256be15f944a25f09948e01e0e940460dcbf39/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "2edb51099d6e1c391f4e34ce19a579a894555a42748b9d26097114821e408f08",
+      "git_blob_sha1": "2a73c2b6cc57204431abc2bf028d65fed6d75fd2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3c14f4da5e4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wan-huiyan/show-and-tell/blob/60256be15f944a25f09948e01e0e940460dcbf39/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wan-huiyan__show-and-tell/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wonsukchoi__domain-experts/roles/film-video-editor/SKILL.md",
+      "repository": "wonsukchoi/domain-experts",
+      "upstream_path": "roles/film-video-editor/SKILL.md",
+      "upstream_commit": "9691a7d1e199a274b82498cc39ca9122cb312d3d",
+      "source_url": "https://github.com/wonsukchoi/domain-experts/blob/9691a7d1e199a274b82498cc39ca9122cb312d3d/roles/film-video-editor/SKILL.md",
+      "size_bytes": 10415,
+      "sha256": "c7a0776655cb3f0e0f5f9e256b1dc10d3c4294a861933a328884d7807fed4e9e",
+      "git_blob_sha1": "3bd2bd9801797092bcb47559ec41c111ff620858",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3a94d4450bfd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wonsukchoi/domain-experts/blob/9691a7d1e199a274b82498cc39ca9122cb312d3d/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wonsukchoi__domain-experts/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wonsukchoi__domain-experts/LICENSE",
+      "repository": "wonsukchoi/domain-experts",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9691a7d1e199a274b82498cc39ca9122cb312d3d",
+      "source_url": "https://github.com/wonsukchoi/domain-experts/blob/9691a7d1e199a274b82498cc39ca9122cb312d3d/LICENSE",
+      "size_bytes": 1100,
+      "sha256": "f7cb14446ec035b188d38be0c2c0ef7b2c990a17e2e4e9426f7e43b2469acae3",
+      "git_blob_sha1": "31d90fc37a7dbf7eaa2c606ebc41c94161c58a39",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3a94d4450bfd"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wonsukchoi/domain-experts/blob/9691a7d1e199a274b82498cc39ca9122cb312d3d/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wonsukchoi__domain-experts/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wshobson__agents/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+      "repository": "wshobson/agents",
+      "upstream_path": "plugins/business-analytics/skills/data-storytelling/SKILL.md",
+      "upstream_commit": "be57c0b2e3c05c528ca6132b87410b385718775f",
+      "source_url": "https://github.com/wshobson/agents/blob/be57c0b2e3c05c528ca6132b87410b385718775f/plugins/business-analytics/skills/data-storytelling/SKILL.md",
+      "size_bytes": 2119,
+      "sha256": "0244a9ef6bca2df0762425b78912d27061b9b93f9b09987ad7bc074752a0cb50",
+      "git_blob_sha1": "5980d01b4c75614e595622a053385de58f8b2647",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-63b1c67150c6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wshobson/agents/blob/be57c0b2e3c05c528ca6132b87410b385718775f/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wshobson__agents/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wshobson__agents/LICENSE",
+      "repository": "wshobson/agents",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "be57c0b2e3c05c528ca6132b87410b385718775f",
+      "source_url": "https://github.com/wshobson/agents/blob/be57c0b2e3c05c528ca6132b87410b385718775f/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "f89abb55d9f073f38f1703e4518f0613c788c6174be7f13b8dfe48a1c076c746",
+      "git_blob_sha1": "326f0a55c96e672fedf9d807ca043c00df05ba0e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-63b1c67150c6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wshobson/agents/blob/be57c0b2e3c05c528ca6132b87410b385718775f/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wshobson__agents/LICENSE"
+      ]
+    }
+  ]
+}

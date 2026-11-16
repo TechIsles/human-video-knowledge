@@ -1,0 +1,191 @@
+{
+  "batch": "0074",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/samuelgursky__davinci-resolve-mcp/.claude/skills/resolve-rough-cut/SKILL.md",
+      "repository": "samuelgursky/davinci-resolve-mcp",
+      "upstream_path": ".claude/skills/resolve-rough-cut/SKILL.md",
+      "upstream_commit": "4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6",
+      "source_url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6/.claude/skills/resolve-rough-cut/SKILL.md",
+      "size_bytes": 11737,
+      "sha256": "8c1cda947c190dfc938e433e4bee175a850d73dfcab66ba817bcfc24baa37fc7",
+      "git_blob_sha1": "b137e740b739986110ee52b0c6beee47a36cbd5b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2a502e61d5e9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samuelgursky/davinci-resolve-mcp/blob/4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6/LICENSE",
+        "https://github.com/samuelgursky/davinci-resolve-mcp/blob/4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samuelgursky__davinci-resolve-mcp/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samuelgursky__davinci-resolve-mcp/LICENSE",
+      "repository": "samuelgursky/davinci-resolve-mcp",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6",
+      "source_url": "https://github.com/samuelgursky/davinci-resolve-mcp/blob/4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6/LICENSE",
+      "size_bytes": 1122,
+      "sha256": "ab45769f0fc180bec9877e050c5467283f4c023e8571a44780195dc16d764d97",
+      "git_blob_sha1": "e2dea37a8bedb7f028065713fff77c3116414491",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2a502e61d5e9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samuelgursky/davinci-resolve-mcp/blob/4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6/LICENSE",
+        "https://github.com/samuelgursky/davinci-resolve-mcp/blob/4bd7b5e18439a5b4831182b1c0f62272bf1e4ef6/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samuelgursky__davinci-resolve-mcp/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scenario-labs__skills/skills/scenario-ad-variants/SKILL.md",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "skills/scenario-ad-variants/SKILL.md",
+      "upstream_commit": "88ccf8281c78dc49037cf8e0a5e531b1d687d591",
+      "source_url": "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/skills/scenario-ad-variants/SKILL.md",
+      "size_bytes": 8583,
+      "sha256": "fc925184242e259c6f80a5a01ff1a0bb4d2d395f9305c63295ed2cee4f872b82",
+      "git_blob_sha1": "f649b2017bc4bd0cc6b00da681d5a1f05eb8b70d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8a010c2d95ba"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scenario-labs__skills/LICENSE",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "88ccf8281c78dc49037cf8e0a5e531b1d687d591",
+      "source_url": "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "26f54ae8c2f3d1fb0e3f810a599e6fb51852d1f176b97578961826be3bb98cef",
+      "git_blob_sha1": "05676553d9d10a0effff673b507b4fcfed652c17",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8a010c2d95ba",
+        "SRC-92410e614085"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scenario-labs__skills/skills/scenario-video-editing/SKILL.md",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "skills/scenario-video-editing/SKILL.md",
+      "upstream_commit": "88ccf8281c78dc49037cf8e0a5e531b1d687d591",
+      "source_url": "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/skills/scenario-video-editing/SKILL.md",
+      "size_bytes": 9317,
+      "sha256": "fd88a33bf2e74bdc79d54de9f4eb478b43f7b74835cfef29acc3dcc1dc520b94",
+      "git_blob_sha1": "b8a3b9256359fe8d693a6e3f9ad88d22e5065c82",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92410e614085"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/88ccf8281c78dc49037cf8e0a5e531b1d687d591/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scibly-dev__skills/skills/storyboard/SKILL.md",
+      "repository": "scibly-dev/skills",
+      "upstream_path": "skills/storyboard/SKILL.md",
+      "upstream_commit": "bbed194ef880cbf308f6b6c8b025d2f3a928d9d3",
+      "source_url": "https://github.com/scibly-dev/skills/blob/bbed194ef880cbf308f6b6c8b025d2f3a928d9d3/skills/storyboard/SKILL.md",
+      "size_bytes": 8459,
+      "sha256": "de7184a98f0aeb836708846b79fe8f4ba32c9074e409e6d0f51527e75381ac3e",
+      "git_blob_sha1": "5040595483cb5a3d1212d178c26d52ca04eb725f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c78bc2c6c55f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/scibly-dev/skills/blob/bbed194ef880cbf308f6b6c8b025d2f3a928d9d3/LICENSE",
+        "https://github.com/scibly-dev/skills/blob/bbed194ef880cbf308f6b6c8b025d2f3a928d9d3/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scibly-dev__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scibly-dev__skills/LICENSE",
+      "repository": "scibly-dev/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "bbed194ef880cbf308f6b6c8b025d2f3a928d9d3",
+      "source_url": "https://github.com/scibly-dev/skills/blob/bbed194ef880cbf308f6b6c8b025d2f3a928d9d3/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "785cc3795d200258364045b327eb51dd900d7eedcf8882833482ff6b2157b4e1",
+      "git_blob_sha1": "74a65c1581eb4fedb4e9e943d04e5f58c9b043a7",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c78bc2c6c55f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/scibly-dev/skills/blob/bbed194ef880cbf308f6b6c8b025d2f3a928d9d3/LICENSE",
+        "https://github.com/scibly-dev/skills/blob/bbed194ef880cbf308f6b6c8b025d2f3a928d9d3/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scibly-dev__skills/LICENSE"
+      ]
+    }
+  ]
+}
