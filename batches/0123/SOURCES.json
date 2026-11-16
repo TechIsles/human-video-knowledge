@@ -1,0 +1,260 @@
+{
+  "batch": "0123",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 8,
+  "new_original_payload_paths": 12,
+  "files": [
+    {
+      "file": "upstream/web__github.com/SRC-06e6aa3a965b/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-06e6aa3a965b/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/bethel-mark/travel-xhs-content/blob/b2ac259cbd1aa69466cd3a4361f14c91df46e6a4/SKILL.md",
+      "title": "travel-xhs-content",
+      "size_bytes": 20935,
+      "sha256": "21798e7cdc5d7e35b717a07667ef8c3c534879cc2d13766a86b10c196bca55b7",
+      "git_blob_sha1": "33b6bdbda1a8e140690aba6e852f4c0a83739da1",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-06e6aa3a965b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/bethel-mark/travel-xhs-content/b2ac259cbd1aa69466cd3a4361f14c91df46e6a4/LICENSE",
+        "https://github.com/bethel-mark/travel-xhs-content/blob/b2ac259cbd1aa69466cd3a4361f14c91df46e6a4/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-c45ce4d98c88/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-c45ce4d98c88/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/xstongxue/best-skills/blob/9aa4e555950da6e43e7d98c5f0c7b70264204850/skills/wechat-article-writer/SKILL.md",
+      "title": "wechat-article-writer",
+      "size_bytes": 13014,
+      "sha256": "061cb39f1ae941cac30fd8ad25d901274919330fd276f8b5dcf3129f14c3a28a",
+      "git_blob_sha1": "5149ca991635a6e84afbf587f8d65bbea1e0e7e7",
+      "role": "original_article",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c45ce4d98c88"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/xstongxue/best-skills/9aa4e555950da6e43e7d98c5f0c7b70264204850/LICENSE",
+        "https://github.com/xstongxue/best-skills/blob/9aa4e555950da6e43e7d98c5f0c7b70264204850/skills/wechat-article-writer/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-697e271cbcce/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-697e271cbcce/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/danium/practicaltypography/blob/dc7c25f5a4485c5b06586480d552ce134888b6fb/skills/typography/SKILL.md",
+      "title": "typography",
+      "size_bytes": 6649,
+      "sha256": "51decacab8d70ecbd19f61bc9d2c8992526fce446dfd4551beda13e8ef9a218e",
+      "git_blob_sha1": "ada3f925306fb80dd1118bdf7e0244b1e86bf5fa",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-697e271cbcce"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/danium/practicaltypography/dc7c25f5a4485c5b06586480d552ce134888b6fb/LICENSE",
+        "https://github.com/danium/practicaltypography/blob/dc7c25f5a4485c5b06586480d552ce134888b6fb/skills/typography/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-c7e38f70bed3/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-c7e38f70bed3/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/mblode/video-studio/blob/d86a499b12bddf00fc5d7a3b8db9f25c18400e01/skills/storycraft/SKILL.md",
+      "title": "mblode/video-studio storycraft",
+      "size_bytes": 6855,
+      "sha256": "f93fe7e1e2f6a3d2c44e1f34e1ffa92752e0b0e3213af29e1de2763ec97258c0",
+      "git_blob_sha1": "b869f8a4f73bc7d11dbfe876ad1ebae714447079",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c7e38f70bed3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/mblode/video-studio/d86a499b12bddf00fc5d7a3b8db9f25c18400e01/LICENSE.md",
+        "https://github.com/mblode/video-studio/blob/d86a499b12bddf00fc5d7a3b8db9f25c18400e01/skills/storycraft/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-22a2e9aab66b/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-22a2e9aab66b/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/bs779517/story-skills/blob/d38872c87aca68eed978015165ef78edf3f75544/skills/plot-structure/SKILL.md",
+      "title": "bs779517/story-skills plot-structure",
+      "size_bytes": 3399,
+      "sha256": "158a1e955ee9a100c91c51396986e4a7bfe136dc06267376f30bc7457c0229f8",
+      "git_blob_sha1": "a7bf3c92c98d6ed0bc59b805d077fc6489515d19",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-22a2e9aab66b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/bs779517/story-skills/d38872c87aca68eed978015165ef78edf3f75544/LICENSE",
+        "https://github.com/bs779517/story-skills/blob/d38872c87aca68eed978015165ef78edf3f75544/skills/plot-structure/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-cce76a457ec2/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-cce76a457ec2/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/62656456/ai-film-skills/blob/f1fee0587e985fa81eedc3be7d7258a9a39a2ed3/skills/director-agent/SKILL.md",
+      "title": "director-agent — audience decisions before storyboard and prompt compilation",
+      "size_bytes": 11433,
+      "sha256": "afebed4a56baf1e41f08c1a020cab876eea48985723336193ca725c00e8b49f3",
+      "git_blob_sha1": "1c17278089500960509f20dc1af3cbc5e30d35c3",
+      "role": "original_article",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cce76a457ec2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/62656456/ai-film-skills/f1fee0587e985fa81eedc3be7d7258a9a39a2ed3/LICENSE",
+        "https://github.com/62656456/ai-film-skills/blob/f1fee0587e985fa81eedc3be7d7258a9a39a2ed3/skills/director-agent/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-bd35164dbc6d/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-bd35164dbc6d/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/0xDarkMatter/claude-mods/blob/fa93328d128d0b4d5f38e6bac7613e7bcc824454/skills/ffmpeg-ops/SKILL.md",
+      "title": "0xDarkMatter/claude-mods — ffmpeg-ops",
+      "size_bytes": 16707,
+      "sha256": "6a8c44a89df20f15d502b45e3380817773041e76f1024bb21c550c32a5666dbc",
+      "git_blob_sha1": "53cfdc8358c8abbb5b15a0db920ef7551ef4ddde",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bd35164dbc6d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/0xDarkMatter/claude-mods/fa93328d128d0b4d5f38e6bac7613e7bcc824454/LICENSE",
+        "https://github.com/0xDarkMatter/claude-mods/blob/fa93328d128d0b4d5f38e6bac7613e7bcc824454/skills/ffmpeg-ops/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-440d9e86d739/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-440d9e86d739/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/CY-CHENYUE/martial-arts-director-cy/blob/65c7c1dd35fcf4a01bfc1372ab506b60e2d0d26d/SKILL.md",
+      "title": "martial-arts-director-cy — 动作因果、格序覆盖与时长冲突",
+      "size_bytes": 83379,
+      "sha256": "924a6de64e8bcfb246f2a535f5c87e53f84e9b6d50ee4d4e66c7607bfba2ddc4",
+      "git_blob_sha1": "9f88b5f4ed80bcbc7951d97037c95231aa94dc42",
+      "role": "original_article",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-440d9e86d739"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/CY-CHENYUE/martial-arts-director-cy/65c7c1dd35fcf4a01bfc1372ab506b60e2d0d26d/LICENSE",
+        "https://github.com/CY-CHENYUE/martial-arts-director-cy/blob/65c7c1dd35fcf4a01bfc1372ab506b60e2d0d26d/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-06e6aa3a965b/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-06e6aa3a965b/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/bethel-mark/travel-xhs-content/b2ac259cbd1aa69466cd3a4361f14c91df46e6a4/LICENSE",
+      "size_bytes": 1088,
+      "sha256": "a20a1ba6ac53337f84749bee37cd42fedee3fe27908854d9dbb3b2b3fc4e4baa",
+      "git_blob_sha1": "83f5bedcbc7eba358ac7aa047d1ed9e2e8aa9e66",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-06e6aa3a965b"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-697e271cbcce/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-697e271cbcce/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/danium/practicaltypography/dc7c25f5a4485c5b06586480d552ce134888b6fb/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "6fd644afce55049029d16351dd02c3789f19255d81acb01872d6bec65d9ad9fb",
+      "git_blob_sha1": "58e684e0f9f417e43f6bf14846faa2cee9deb65e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-697e271cbcce"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-c7e38f70bed3/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-c7e38f70bed3/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/mblode/video-studio/d86a499b12bddf00fc5d7a3b8db9f25c18400e01/LICENSE.md",
+      "size_bytes": 1080,
+      "sha256": "2a22a944f253dcd50c722ce9c294762b0c7a6aa6d6a675b64bc1859e9e406f68",
+      "git_blob_sha1": "41860bd6e604e71ebe132840bfd370668b8d69c6",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c7e38f70bed3"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-bd35164dbc6d/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-bd35164dbc6d/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/0xDarkMatter/claude-mods/fa93328d128d0b4d5f38e6bac7613e7bcc824454/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "203a43b7a95449dff6221e22a6ba4b8498771b418691bd699b183636b7185eea",
+      "git_blob_sha1": "0e3affdbea54c8fbfe80ff8e3a4aad3117b424b3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bd35164dbc6d"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}

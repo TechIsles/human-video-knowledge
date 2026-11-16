@@ -1,0 +1,88 @@
+{
+  "batch": "0122",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/web__arxiv.org/SRC-a89ee8847606/original.pdf",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a89ee8847606/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/pdf/2010.03667",
+      "title": "Rescribe: Authoring and Automatically Editing Audio Descriptions",
+      "size_bytes": 10029266,
+      "sha256": "06237ab47ef4ec726dcc1cb0f89b62270015c7e77082076362ec1e7ea253788f",
+      "git_blob_sha1": "203729c8f3a01d7635a65ced95500d611461ff8b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a89ee8847606"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2010.03667",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c19920bcc989/original.pdf",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c19920bcc989/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/pdf/2502.07096",
+      "title": "Lotus: Creating Short Videos From Long Videos With Abstractive and Extractive Summarization",
+      "size_bytes": 3258096,
+      "sha256": "52d55dd75e4bf6f3202d1e5839354e4bc6dd06502b433c180616ba05343ae224",
+      "git_blob_sha1": "308a200b8a3f8222900c25882a2e7b547120c0a7",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c19920bcc989"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://arxiv.org/abs/2502.07096",
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-a89ee8847606/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-a89ee8847606/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2010.03667",
+      "size_bytes": 41327,
+      "sha256": "49fb4a867dd02ceb95c77710056060b63393f2dae63664937f38aff68edd244f",
+      "git_blob_sha1": "51eac4b8b9ef73358c62d3fd55398f646fc38ae9",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a89ee8847606"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__arxiv.org/SRC-c19920bcc989/license-evidence.html",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-c19920bcc989/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://arxiv.org/abs/2502.07096",
+      "size_bytes": 43787,
+      "sha256": "c74e0185f55ba226536f7a320c964488081e401ac9c2ae83a0d9e3986ec3e873",
+      "git_blob_sha1": "c4b813b43840a6be3c1c318810d2db95e874f64b",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c19920bcc989"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}
