@@ -1,0 +1,210 @@
+{
+  "batch": "0021",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/Takamasa045__tsugite/.agents/skills/tsugite/SKILL.md",
+      "repository": "Takamasa045/tsugite",
+      "upstream_path": ".agents/skills/tsugite/SKILL.md",
+      "upstream_commit": "38ecf797559cfcda6b859b8474f20f8f5b4c6ea0",
+      "source_url": "https://github.com/Takamasa045/tsugite/blob/38ecf797559cfcda6b859b8474f20f8f5b4c6ea0/.agents/skills/tsugite/SKILL.md",
+      "size_bytes": 24740,
+      "sha256": "78cf9fd85dd2f75453bfe2a3e22d00dcd052a74a75f468310f9378d20bb2ba5f",
+      "git_blob_sha1": "316af4ab78127f6089396b6ead28bdffb8a23f79",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cddb782bd696"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Takamasa045/tsugite/blob/38ecf797559cfcda6b859b8474f20f8f5b4c6ea0/LICENSE",
+        "https://github.com/Takamasa045/tsugite/blob/38ecf797559cfcda6b859b8474f20f8f5b4c6ea0/README.md"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Takamasa045__tsugite/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Takamasa045__tsugite/LICENSE",
+      "repository": "Takamasa045/tsugite",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "38ecf797559cfcda6b859b8474f20f8f5b4c6ea0",
+      "source_url": "https://github.com/Takamasa045/tsugite/blob/38ecf797559cfcda6b859b8474f20f8f5b4c6ea0/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "bae712a7fa120fcc74007ec7903d275fbb19f0f6df3d12641afa03d871127d52",
+      "git_blob_sha1": "8d682e9809131eab24806aa9dae6007388c6228d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cddb782bd696"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Takamasa045/tsugite/blob/38ecf797559cfcda6b859b8474f20f8f5b4c6ea0/LICENSE",
+        "https://github.com/Takamasa045/tsugite/blob/38ecf797559cfcda6b859b8474f20f8f5b4c6ea0/README.md"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Takamasa045__tsugite/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Tejashmakwana__motionmaxxing/SKILL.md",
+      "repository": "Tejashmakwana/motionmaxxing",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c",
+      "source_url": "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/SKILL.md",
+      "size_bytes": 20597,
+      "sha256": "50710290ed55d2b8e1ea454a2a274345da5fa47c224a38582d2f853e824c3cd2",
+      "git_blob_sha1": "9ad89cf2d48d040137a203f3c3aec654289ab2f6",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ccdec71665f3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/LICENSE",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/README.md",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/NOTICE"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/Tejashmakwana__motionmaxxing/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "Tejashmakwana/motionmaxxing",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c",
+      "source_url": "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ccdec71665f3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/LICENSE",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/README.md",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/NOTICE"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/Tejashmakwana__motionmaxxing/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/Tejashmakwana__motionmaxxing/NOTICE",
+      "repository": "Tejashmakwana/motionmaxxing",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c",
+      "source_url": "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/NOTICE",
+      "size_bytes": 3936,
+      "sha256": "82f5bde893626d09be6e024cfd8b6a07cbc59c859c2bba9a47ba45d66c5b3ac5",
+      "git_blob_sha1": "39004167704d7ba31e552274d43c28b5d9446331",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ccdec71665f3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/LICENSE",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/README.md",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/8c8ec0f2a6f6c9a0da15cd24f7b1298ab298368c/NOTICE"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/Tejashmakwana__motionmaxxing/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/Vincentwei1021__video-shotcraft/SKILL.md",
+      "repository": "Vincentwei1021/video-shotcraft",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "43bd349a136651865ecfa6ea1cf012f6e957d304",
+      "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/43bd349a136651865ecfa6ea1cf012f6e957d304/SKILL.md",
+      "size_bytes": 20853,
+      "sha256": "a94f87f093d07c96ddf3245d442acece7ceb6c544035855c63e26a216a068820",
+      "git_blob_sha1": "695faad1d7441597a89dea4bd1b44b835005af7c",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d5916814e6a6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Vincentwei1021/video-shotcraft/blob/43bd349a136651865ecfa6ea1cf012f6e957d304/LICENSE",
+        "https://github.com/Vincentwei1021/video-shotcraft/blob/43bd349a136651865ecfa6ea1cf012f6e957d304/README.md"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Vincentwei1021__video-shotcraft/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Vincentwei1021__video-shotcraft/LICENSE",
+      "repository": "Vincentwei1021/video-shotcraft",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "43bd349a136651865ecfa6ea1cf012f6e957d304",
+      "source_url": "https://github.com/Vincentwei1021/video-shotcraft/blob/43bd349a136651865ecfa6ea1cf012f6e957d304/LICENSE",
+      "size_bytes": 11340,
+      "sha256": "b2ce9877a55547ada9b870150664d1468ff777e67cc9888806a73927d31c5771",
+      "git_blob_sha1": "71ffb8bd20fc152507c1b3dd48f2890bef493ca6",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d5916814e6a6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Vincentwei1021/video-shotcraft/blob/43bd349a136651865ecfa6ea1cf012f6e957d304/LICENSE",
+        "https://github.com/Vincentwei1021/video-shotcraft/blob/43bd349a136651865ecfa6ea1cf012f6e957d304/README.md"
+      ],
+      "conditions": [
+        "Preserve original complete license, copyrights and provided NOTICE; no modification of source bytes, no trademark endorsement. Canonical document plus license/NOTICE only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Vincentwei1021__video-shotcraft/LICENSE"
+      ]
+    }
+  ]
+}

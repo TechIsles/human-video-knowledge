@@ -1,0 +1,134 @@
+{
+  "batch": "0022",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/SkillMedev__skills/skills/story-structure-architect/SKILL.md",
+      "repository": "SkillMedev/skills",
+      "upstream_path": "skills/story-structure-architect/SKILL.md",
+      "upstream_commit": "97a13607d669157a4a16d5ba79b77f208319f7b9",
+      "source_url": "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/skills/story-structure-architect/SKILL.md",
+      "size_bytes": 8919,
+      "sha256": "689a403eb020e2ba6a572c15d61a7819a52953cba4cb0407b446b62b3334e339",
+      "git_blob_sha1": "14940a49021ce0cc75fbf865dcec2a11af64b460",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b74873a028c5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/LICENSE",
+        "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/README.md"
+      ],
+      "conditions": [
+        "Preserve original canonical bytes and full root LICENSE including copyright",
+        "Do not imply cited narrative frameworks or any outside books/assets are included or relicensed",
+        "Unmodified original source bytes. Original repository and fixed canonical URL must remain attributed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SkillMedev__motion-video-direction/LICENSE",
+      "repository": "SkillMedev/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "97a13607d669157a4a16d5ba79b77f208319f7b9",
+      "source_url": "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "e55c0849226f9059d1b291000940bda5f88121f12a90c0d8c899fcccdb292292",
+      "git_blob_sha1": "879f1ca4bc59fb184adc63ef77c8a301ebd1c013",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b74873a028c5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/LICENSE",
+        "https://github.com/SkillMedev/skills/blob/97a13607d669157a4a16d5ba79b77f208319f7b9/README.md"
+      ],
+      "conditions": [
+        "Preserve original canonical bytes and full root LICENSE including copyright",
+        "Do not imply cited narrative frameworks or any outside books/assets are included or relicensed",
+        "Unmodified original source bytes. Original repository and fixed canonical URL must remain attributed."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/SkillMedev__motion-video-direction/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/SwimmingLiu__easy-skills/skills/knowledge/subtitle-proofreader/SKILL.md",
+      "repository": "SwimmingLiu/easy-skills",
+      "upstream_path": "skills/knowledge/subtitle-proofreader/SKILL.md",
+      "upstream_commit": "61da093940e6c6181dfd7126c167a58c0fd68c9e",
+      "source_url": "https://github.com/SwimmingLiu/easy-skills/blob/61da093940e6c6181dfd7126c167a58c0fd68c9e/skills/knowledge/subtitle-proofreader/SKILL.md",
+      "size_bytes": 5039,
+      "sha256": "746f7be9a263296337c9f491f5cc6b3e1147174b56e39f9d00d7d14725dadf6f",
+      "git_blob_sha1": "60221b0a6914b576761ff63557fd1de6bafb22bb",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-NC-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-68733f884b5b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/SwimmingLiu/easy-skills/blob/61da093940e6c6181dfd7126c167a58c0fd68c9e/skills/knowledge/subtitle-proofreader/LICENSE.txt",
+        "https://github.com/SwimmingLiu/easy-skills/blob/61da093940e6c6181dfd7126c167a58c0fd68c9e/README.md"
+      ],
+      "conditions": [
+        "Redistribute unchanged source document only in noncommercial learning collection",
+        "Retain full nearby CC license; identify repository/author handle and fixed canonical URL; state unchanged",
+        "No blanket MIT/GPL/open-source label on this CC-NC document; no claim of commercial reuse permission",
+        "Keep root GPL license if included as repository context, with distinction from nearest document license",
+        "Do not bundle unreviewed referenced dictionary, scripts or proofreader rules under this verdict",
+        "Unmodified original source bytes. Original repository and fixed canonical URL must remain attributed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SwimmingLiu__easy-skills/skills/knowledge/subtitle-proofreader/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/SwimmingLiu__easy-skills/skills/knowledge/subtitle-proofreader/LICENSE.txt",
+      "repository": "SwimmingLiu/easy-skills",
+      "upstream_path": "skills/knowledge/subtitle-proofreader/LICENSE.txt",
+      "upstream_commit": "61da093940e6c6181dfd7126c167a58c0fd68c9e",
+      "source_url": "https://github.com/SwimmingLiu/easy-skills/blob/61da093940e6c6181dfd7126c167a58c0fd68c9e/skills/knowledge/subtitle-proofreader/LICENSE.txt",
+      "size_bytes": 20848,
+      "sha256": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0",
+      "git_blob_sha1": "bfef380bf7d9cb74ec9ba533b37c3fbeef3bdc09",
+      "role": "license_notice",
+      "license": "CC-BY-NC-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-68733f884b5b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/SwimmingLiu/easy-skills/blob/61da093940e6c6181dfd7126c167a58c0fd68c9e/skills/knowledge/subtitle-proofreader/LICENSE.txt",
+        "https://github.com/SwimmingLiu/easy-skills/blob/61da093940e6c6181dfd7126c167a58c0fd68c9e/README.md"
+      ],
+      "conditions": [
+        "Redistribute unchanged source document only in noncommercial learning collection",
+        "Retain full nearby CC license; identify repository/author handle and fixed canonical URL; state unchanged",
+        "No blanket MIT/GPL/open-source label on this CC-NC document; no claim of commercial reuse permission",
+        "Keep root GPL license if included as repository context, with distinction from nearest document license",
+        "Do not bundle unreviewed referenced dictionary, scripts or proofreader rules under this verdict",
+        "Unmodified original source bytes. Original repository and fixed canonical URL must remain attributed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/SwimmingLiu__easy-skills/skills/knowledge/subtitle-proofreader/LICENSE.txt"
+      ]
+    }
+  ]
+}

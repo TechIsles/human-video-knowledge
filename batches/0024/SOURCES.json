@@ -1,0 +1,126 @@
+{
+  "batch": "0024",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/WhiteTowerAI__cut-as-code/skills/video-add-b-roll/SKILL.md",
+      "repository": "WhiteTowerAI/cut-as-code",
+      "upstream_path": "skills/video-add-b-roll/SKILL.md",
+      "upstream_commit": "a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4",
+      "source_url": "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/skills/video-add-b-roll/SKILL.md",
+      "size_bytes": 41397,
+      "sha256": "8c7374d9296560e9bd39a27cbf0dff286467b8eff37584e6ddc66239b85e8cdb",
+      "git_blob_sha1": "84252fa2c21f18263635355f224a60a542f7992c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e38d4afab37"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/LICENSE",
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT copyright, permission notice and disclaimer; original selected files unchanged.",
+        "Only selected SKILL documents and license, not a complete installable skill or repository; scripts, stock assets, source video examples, dependencies and services excluded. No execution or functional verification."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WhiteTowerAI__cut-as-code/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/WhiteTowerAI__cut-as-code/skills/video-cut/SKILL.md",
+      "repository": "WhiteTowerAI/cut-as-code",
+      "upstream_path": "skills/video-cut/SKILL.md",
+      "upstream_commit": "a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4",
+      "source_url": "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/skills/video-cut/SKILL.md",
+      "size_bytes": 14627,
+      "sha256": "f7aadfb21d7e3e06d96511810a44eeb2536bad691d75140598cba5d739c3b922",
+      "git_blob_sha1": "6d5e71cf62a5503fc2d65bdfa0e34fb2985160e1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0f6e61af77d4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/LICENSE",
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT copyright, permission notice and disclaimer; original selected files unchanged.",
+        "Only selected SKILL documents and license, not a complete installable skill or repository; scripts, stock assets, source video examples, dependencies and services excluded. No execution or functional verification."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WhiteTowerAI__cut-as-code/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/WhiteTowerAI__cut-as-code/skills/video-to-shorts/SKILL.md",
+      "repository": "WhiteTowerAI/cut-as-code",
+      "upstream_path": "skills/video-to-shorts/SKILL.md",
+      "upstream_commit": "a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4",
+      "source_url": "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/skills/video-to-shorts/SKILL.md",
+      "size_bytes": 21847,
+      "sha256": "66bc52c847615be20f34f8a41b81ca7fe5ef518832e1ff03bbb1b65b6940ee7d",
+      "git_blob_sha1": "10a1334432551ce1097d6a66903fe7e6e7d3675b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6d1787c06bd3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/LICENSE",
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT copyright, permission notice and disclaimer; original selected files unchanged.",
+        "Only selected SKILL documents and license, not a complete installable skill or repository; scripts, stock assets, source video examples, dependencies and services excluded. No execution or functional verification."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WhiteTowerAI__cut-as-code/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/WhiteTowerAI__cut-as-code/LICENSE",
+      "repository": "WhiteTowerAI/cut-as-code",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4",
+      "source_url": "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "6b832244720d50699476b845df150792e6226e24aa03ee901d7ff5a225d649fd",
+      "git_blob_sha1": "e48ff7cefa088b0efa4f1dba3ee695fd5f759876",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e38d4afab37",
+        "SRC-0f6e61af77d4",
+        "SRC-6d1787c06bd3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/LICENSE",
+        "https://github.com/WhiteTowerAI/cut-as-code/blob/a96c13e6eaa72e6882e78df08ee4c04fa7be3bc4/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT copyright, permission notice and disclaimer; original selected files unchanged.",
+        "Only selected SKILL documents and license, not a complete installable skill or repository; scripts, stock assets, source video examples, dependencies and services excluded. No execution or functional verification."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WhiteTowerAI__cut-as-code/LICENSE"
+      ]
+    }
+  ]
+}

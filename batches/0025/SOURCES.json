@@ -1,0 +1,120 @@
+{
+  "batch": "0025",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/agamm__video-agent/.claude/skills/editor/SKILL.md",
+      "repository": "agamm/video-agent",
+      "upstream_path": ".claude/skills/editor/SKILL.md",
+      "upstream_commit": "cc00d2815869cbf2d708426a5082612f0c3b4dbf",
+      "source_url": "https://github.com/agamm/video-agent/blob/cc00d2815869cbf2d708426a5082612f0c3b4dbf/.claude/skills/editor/SKILL.md",
+      "size_bytes": 14715,
+      "sha256": "eda5651bee011b08b414bc34966f4a28f6ff7784b1d756824a94fb5bbb7c91e4",
+      "git_blob_sha1": "741dde2fd45caaf6db74677b69755ad3ca55586a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6ca74b8439c9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/agamm/video-agent/blob/cc00d2815869cbf2d708426a5082612f0c3b4dbf/LICENSE",
+        "https://github.com/agamm/video-agent/blob/cc00d2815869cbf2d708426a5082612f0c3b4dbf/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and complete MIT copyright/permission notice. References, media, model/provider rights are not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agamm__video-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agamm__video-agent/LICENSE",
+      "repository": "agamm/video-agent",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "cc00d2815869cbf2d708426a5082612f0c3b4dbf",
+      "source_url": "https://github.com/agamm/video-agent/blob/cc00d2815869cbf2d708426a5082612f0c3b4dbf/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "72c8d65f5000529aabde594384f79279287b43f63c982efe4316619b05e931c7",
+      "git_blob_sha1": "b57e055236ab0ec1cb6068de0686209dab0fba2d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6ca74b8439c9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/agamm/video-agent/blob/cc00d2815869cbf2d708426a5082612f0c3b4dbf/LICENSE",
+        "https://github.com/agamm/video-agent/blob/cc00d2815869cbf2d708426a5082612f0c3b4dbf/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and complete MIT copyright/permission notice. References, media, model/provider rights are not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agamm__video-agent/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agentara__skills/skills/aigc/video-storyboard/SKILL.md",
+      "repository": "agentara/skills",
+      "upstream_path": "skills/aigc/video-storyboard/SKILL.md",
+      "upstream_commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
+      "source_url": "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md",
+      "size_bytes": 15410,
+      "sha256": "8677b67defe936545217c5a7004566b9da26b873ae8084d82897463f7f9e2dd8",
+      "git_blob_sha1": "5204c4b058a8d9826aed1530dd2daa558b30845c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8d0c76068e03"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE",
+        "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and complete MIT copyright/permission notice. References, media, model/provider rights are not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agentara__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agentara__skills/LICENSE",
+      "repository": "agentara/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
+      "source_url": "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "d823edd9d34324f0cecd19ab4beda0033c0cb53eadb3954947dcfa428beb66e8",
+      "git_blob_sha1": "711862244be009e9d71d0e8e4f2dce1ddf020395",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8d0c76068e03"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE",
+        "https://github.com/agentara/skills/blob/950e1bfb11e1df67b46df19804ed85ada9012c33/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and complete MIT copyright/permission notice. References, media, model/provider rights are not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agentara__skills/LICENSE"
+      ]
+    }
+  ]
+}

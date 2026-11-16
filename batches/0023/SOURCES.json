@@ -1,0 +1,124 @@
+{
+  "batch": "0023",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/Yuan1z0825__nature-skills/skills/nature-figure/SKILL.md",
+      "repository": "Yuan1z0825/nature-skills",
+      "upstream_path": "skills/nature-figure/SKILL.md",
+      "upstream_commit": "07009f91f99c7108519e7657885f1a89d91099d5",
+      "source_url": "https://github.com/Yuan1z0825/nature-skills/blob/07009f91f99c7108519e7657885f1a89d91099d5/skills/nature-figure/SKILL.md",
+      "size_bytes": 12367,
+      "sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4",
+      "git_blob_sha1": "72a1c90240e74ec4b0690d61bba1d0b73ccbff22",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-77fb672e9351"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Yuan1z0825/nature-skills/blob/07009f91f99c7108519e7657885f1a89d91099d5/LICENSE",
+        "https://github.com/Yuan1z0825/nature-skills/blob/07009f91f99c7108519e7657885f1a89d91099d5/README.md"
+      ],
+      "conditions": [
+        "Retain full license and all applicable original copyright/attribution/disclaimers; files unchanged. Apache changes require prominent modification notices.",
+        "Selected canonical only, not an installable complete skill. Dependencies, services, assets, scripts and linked references excluded. No execution, installation or API calls."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "Yuan1z0825/nature-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "07009f91f99c7108519e7657885f1a89d91099d5",
+      "source_url": "https://github.com/Yuan1z0825/nature-skills/blob/07009f91f99c7108519e7657885f1a89d91099d5/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-77fb672e9351"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Yuan1z0825/nature-skills/blob/07009f91f99c7108519e7657885f1a89d91099d5/LICENSE",
+        "https://github.com/Yuan1z0825/nature-skills/blob/07009f91f99c7108519e7657885f1a89d91099d5/README.md"
+      ],
+      "conditions": [
+        "Retain full license and all applicable original copyright/attribution/disclaimers; files unchanged. Apache changes require prominent modification notices.",
+        "Selected canonical only, not an installable complete skill. Dependencies, services, assets, scripts and linked references excluded. No execution, installation or API calls."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/a86582751__doubao-seedance-video-skill/SKILL.md",
+      "repository": "a86582751/doubao-seedance-video-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "2b56c31b3e99f193933616c8afdd26a1a2e064fd",
+      "source_url": "https://github.com/a86582751/doubao-seedance-video-skill/blob/2b56c31b3e99f193933616c8afdd26a1a2e064fd/SKILL.md",
+      "size_bytes": 42975,
+      "sha256": "1269dfc6a48f1ad8fb87c30fceed446e7ea85f7bf245bac23ecb5bf64adbefe0",
+      "git_blob_sha1": "08634698842fae4c78d188dcaa5b012095c847fb",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-892cec186d90"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/a86582751/doubao-seedance-video-skill/blob/2b56c31b3e99f193933616c8afdd26a1a2e064fd/LICENSE",
+        "https://github.com/a86582751/doubao-seedance-video-skill/blob/2b56c31b3e99f193933616c8afdd26a1a2e064fd/README.md"
+      ],
+      "conditions": [
+        "Retain full license and all applicable original copyright/attribution/disclaimers; files unchanged. Apache changes require prominent modification notices.",
+        "Selected canonical only, not an installable complete skill. Dependencies, services, assets, scripts and linked references excluded. No execution, installation or API calls."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "a86582751/doubao-seedance-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2b56c31b3e99f193933616c8afdd26a1a2e064fd",
+      "source_url": "https://github.com/a86582751/doubao-seedance-video-skill/blob/2b56c31b3e99f193933616c8afdd26a1a2e064fd/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-892cec186d90"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/a86582751/doubao-seedance-video-skill/blob/2b56c31b3e99f193933616c8afdd26a1a2e064fd/LICENSE",
+        "https://github.com/a86582751/doubao-seedance-video-skill/blob/2b56c31b3e99f193933616c8afdd26a1a2e064fd/README.md"
+      ],
+      "conditions": [
+        "Retain full license and all applicable original copyright/attribution/disclaimers; files unchanged. Apache changes require prominent modification notices.",
+        "Selected canonical only, not an installable complete skill. Dependencies, services, assets, scripts and linked references excluded. No execution, installation or API calls."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    }
+  ]
+}
