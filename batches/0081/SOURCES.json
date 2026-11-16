@@ -1,0 +1,294 @@
+{
+  "batch": "0081",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/threerocks__sweety-handdraw-video/LICENSE",
+      "repository": "threerocks/sweety-handdraw-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3ae9b78d22af907afe70c1af4b8dc677f883bae1",
+      "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "c56704c3fd6b99de34c7e9d2e5dea8e19a18e1978f3614a3f830f1bdbb93f46c",
+      "git_blob_sha1": "c1b26c9316fbd234ba3bb029186aa9652bdd7181",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5619c0cc8326"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/THIRD_PARTY_NOTICES.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/threerocks__sweety-handdraw-video/LICENSE",
+        "upstream/threerocks__sweety-handdraw-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/threerocks__sweety-handdraw-video/THIRD_PARTY_NOTICES.md",
+      "repository": "threerocks/sweety-handdraw-video",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "3ae9b78d22af907afe70c1af4b8dc677f883bae1",
+      "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 2551,
+      "sha256": "91d1088a09bfd29953fdc8a83e169da3efdd4f4bba9a806d461d88af107d664c",
+      "git_blob_sha1": "80311738acb8c543686a58b8914c11a5d04cf1ce",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5619c0cc8326"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/THIRD_PARTY_NOTICES.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/threerocks__sweety-handdraw-video/LICENSE",
+        "upstream/threerocks__sweety-handdraw-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/threerocks__sweety-handdraw-video/LICENSE",
+      "repository": "threerocks/sweety-handdraw-video",
+      "upstream_path": "skills/sweety-handdraw-video/LICENSE",
+      "upstream_commit": "3ae9b78d22af907afe70c1af4b8dc677f883bae1",
+      "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "c56704c3fd6b99de34c7e9d2e5dea8e19a18e1978f3614a3f830f1bdbb93f46c",
+      "git_blob_sha1": "c1b26c9316fbd234ba3bb029186aa9652bdd7181",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5619c0cc8326"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/THIRD_PARTY_NOTICES.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/threerocks__sweety-handdraw-video/LICENSE",
+        "upstream/threerocks__sweety-handdraw-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/threerocks__sweety-handdraw-video/skills/sweety-handdraw-video/SKILL.md",
+      "repository": "threerocks/sweety-handdraw-video",
+      "upstream_path": "skills/sweety-handdraw-video/SKILL.md",
+      "upstream_commit": "3ae9b78d22af907afe70c1af4b8dc677f883bae1",
+      "source_url": "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/SKILL.md",
+      "size_bytes": 11939,
+      "sha256": "f04ae296fc68e9d79d7f491b55cffb7ad820728b677e12391fcebd0b2b61e74d",
+      "git_blob_sha1": "fa82a029c1109b1be273441cc76705b8805717b1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5619c0cc8326"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/LICENSE",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/THIRD_PARTY_NOTICES.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/README.md",
+        "https://github.com/threerocks/sweety-handdraw-video/blob/3ae9b78d22af907afe70c1af4b8dc677f883bae1/skills/sweety-handdraw-video/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/threerocks__sweety-handdraw-video/LICENSE",
+        "upstream/threerocks__sweety-handdraw-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/thinkingsage__context-bazaar/LICENSE",
+      "repository": "thinkingsage/context-bazaar",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "90935eedd0bbff58d2d5a12bf2c93b06b96a328a",
+      "source_url": "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "f86bf5152802e934ef5a72300f69ee6a31ba4f7c58841743b02038670a8db061",
+      "git_blob_sha1": "9932e67eb1ad600f68ff10f9ad31fc671fa76388",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-639eb5f006d9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/LICENSE",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/README.md",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/LICENSE",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/README.md",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/skills/novelist/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/thinkingsage__context-bazaar/LICENSE",
+        "upstream/thinkingsage__context-bazaar/kanon/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/thinkingsage__context-bazaar/kanon/LICENSE",
+      "repository": "thinkingsage/context-bazaar",
+      "upstream_path": "kanon/LICENSE",
+      "upstream_commit": "90935eedd0bbff58d2d5a12bf2c93b06b96a328a",
+      "source_url": "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/LICENSE",
+      "size_bytes": 1075,
+      "sha256": "ef31fdc5f431e70346129cf0e98c89ef68b891490827c4d7d7e2fcf5d862f2ee",
+      "git_blob_sha1": "04c1842b8f6130adf2445b24241f5746427fcd29",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-639eb5f006d9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/LICENSE",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/README.md",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/LICENSE",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/README.md",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/skills/novelist/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/thinkingsage__context-bazaar/LICENSE",
+        "upstream/thinkingsage__context-bazaar/kanon/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/thinkingsage__context-bazaar/kanon/skills/novelist/SKILL.md",
+      "repository": "thinkingsage/context-bazaar",
+      "upstream_path": "kanon/skills/novelist/SKILL.md",
+      "upstream_commit": "90935eedd0bbff58d2d5a12bf2c93b06b96a328a",
+      "source_url": "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/skills/novelist/SKILL.md",
+      "size_bytes": 9214,
+      "sha256": "2d94494e003f5424d3ee0c1facd0e452cc95dec87ef3494b7db710e8da706b77",
+      "git_blob_sha1": "8bbf0d487251aeb6757f9efe2eb78abf3618b082",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-639eb5f006d9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/LICENSE",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/README.md",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/LICENSE",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/README.md",
+        "https://github.com/thinkingsage/context-bazaar/blob/90935eedd0bbff58d2d5a12bf2c93b06b96a328a/kanon/skills/novelist/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/thinkingsage__context-bazaar/LICENSE",
+        "upstream/thinkingsage__context-bazaar/kanon/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/srmdn__open-writing/LICENSE",
+      "repository": "srmdn/open-writing",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b410865d808bc2335ef40b613ca869917a963e17",
+      "source_url": "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/LICENSE",
+      "size_bytes": 10259,
+      "sha256": "b9a1442cab7fc8e9e1b75ba1f939503090bf5133c4f2c93901c42d87a4638f0d",
+      "git_blob_sha1": "af027b8561eb334e1234b1958fb344ee3309f98a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6e51b1022116"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/LICENSE",
+        "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/README.md",
+        "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/skills/subtitle-translation/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/srmdn__open-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/srmdn__open-writing/skills/subtitle-translation/SKILL.md",
+      "repository": "srmdn/open-writing",
+      "upstream_path": "skills/subtitle-translation/SKILL.md",
+      "upstream_commit": "b410865d808bc2335ef40b613ca869917a963e17",
+      "source_url": "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/skills/subtitle-translation/SKILL.md",
+      "size_bytes": 2037,
+      "sha256": "7783f7a9ae1205afb97d5bb3690046934b5a064619c08caad08f62aa56ef1858",
+      "git_blob_sha1": "28a6ec2541f35df26741dffb54a43f66f90860f8",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6e51b1022116"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/LICENSE",
+        "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/README.md",
+        "https://github.com/srmdn/open-writing/blob/b410865d808bc2335ef40b613ca869917a963e17/skills/subtitle-translation/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/srmdn__open-writing/LICENSE"
+      ]
+    }
+  ]
+}
