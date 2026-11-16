@@ -1,0 +1,198 @@
+{
+  "batch": "0063",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/nextwork-projects__ai-video-editor-cooked/plugins/ai-editor/skills/clips/SKILL.md",
+      "repository": "nextwork-projects/ai-video-editor-cooked",
+      "upstream_path": "plugins/ai-editor/skills/clips/SKILL.md",
+      "upstream_commit": "8657f98177db2ed392b9beb4b1053070e613ede0",
+      "source_url": "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/plugins/ai-editor/skills/clips/SKILL.md",
+      "size_bytes": 12046,
+      "sha256": "ba84be1aaa1e2228b340b9e985e26532ca371ca83835ddfdf768b89a875b75ee",
+      "git_blob_sha1": "fc45650f4977ab38e288f1e0ecada67d5ffd90e9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c40e5e8e379"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/LICENSE",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/README.md",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/NOTICE"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nextwork-projects__ai-video-editor-cooked/LICENSE",
+        "upstream/nextwork-projects__ai-video-editor-cooked/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/nextwork-projects__ai-video-editor-cooked/LICENSE",
+      "repository": "nextwork-projects/ai-video-editor-cooked",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8657f98177db2ed392b9beb4b1053070e613ede0",
+      "source_url": "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "4ed2f3b961ff8298c3f7d0c0eb8951a84806b5bcc090e3660ad07f694aa7f1ad",
+      "git_blob_sha1": "f3ce4a76ce54c4539a12d84f70e77589d67ff3fc",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c40e5e8e379"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/LICENSE",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/README.md",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/NOTICE",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/NOTICE"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nextwork-projects__ai-video-editor-cooked/LICENSE",
+        "upstream/nextwork-projects__ai-video-editor-cooked/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/ningzimu__codex-ppt-skill/skills/codex-ppt/SKILL.md",
+      "repository": "ningzimu/codex-ppt-skill",
+      "upstream_path": "skills/codex-ppt/SKILL.md",
+      "upstream_commit": "941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c",
+      "source_url": "https://github.com/ningzimu/codex-ppt-skill/blob/941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c/skills/codex-ppt/SKILL.md",
+      "size_bytes": 10391,
+      "sha256": "dce8b7ef2c3610fba7bf74115904f460ae1f64b54b50c0f4504f66fd65e5d2bb",
+      "git_blob_sha1": "1cbcd9a82532e4214d591f217a12e5525d3d7b92",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6dbc600444cd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ningzimu/codex-ppt-skill/blob/941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c/LICENSE",
+        "https://github.com/ningzimu/codex-ppt-skill/blob/941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ningzimu__codex-ppt-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ningzimu__codex-ppt-skill/LICENSE",
+      "repository": "ningzimu/codex-ppt-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c",
+      "source_url": "https://github.com/ningzimu/codex-ppt-skill/blob/941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "68e435621ab299c7cbe3ad8f088e877f9bca76508c621f27a697606df8ff2154",
+      "git_blob_sha1": "f769fc5582d3f8ee0f9eb4da5fbf95ac85834c17",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6dbc600444cd"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ningzimu/codex-ppt-skill/blob/941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c/LICENSE",
+        "https://github.com/ningzimu/codex-ppt-skill/blob/941dcafe2f23ea4ae61de99e9b22fb0ef3d9e06c/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ningzimu__codex-ppt-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/op7418__Youtube-clipper-skill/SKILL.md",
+      "repository": "op7418/Youtube-clipper-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "f31f077ee0905c95a510a6f34bbd0c3c85b15129",
+      "source_url": "https://github.com/op7418/Youtube-clipper-skill/blob/f31f077ee0905c95a510a6f34bbd0c3c85b15129/SKILL.md",
+      "size_bytes": 10859,
+      "sha256": "1039e3c3ac3028ec6e0e4d47c25553886a9b7f2bccdd62a76c160e14813f9ce8",
+      "git_blob_sha1": "79938ae5671077a080facbb8dd56427bf6d60269",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-76c1469483ff"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/op7418/Youtube-clipper-skill/blob/f31f077ee0905c95a510a6f34bbd0c3c85b15129/LICENSE",
+        "https://github.com/op7418/Youtube-clipper-skill/blob/f31f077ee0905c95a510a6f34bbd0c3c85b15129/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/op7418__Youtube-clipper-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/op7418__Youtube-clipper-skill/LICENSE",
+      "repository": "op7418/Youtube-clipper-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f31f077ee0905c95a510a6f34bbd0c3c85b15129",
+      "source_url": "https://github.com/op7418/Youtube-clipper-skill/blob/f31f077ee0905c95a510a6f34bbd0c3c85b15129/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "954179ac6635cd6fb0d7cfc49cdbec4f12019cc53f25db927dd34cd039015ea8",
+      "git_blob_sha1": "54fcb7cadb836e056a12b0ef764099415067ff92",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-76c1469483ff"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/op7418/Youtube-clipper-skill/blob/f31f077ee0905c95a510a6f34bbd0c3c85b15129/LICENSE",
+        "https://github.com/op7418/Youtube-clipper-skill/blob/f31f077ee0905c95a510a6f34bbd0c3c85b15129/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/op7418__Youtube-clipper-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/nextwork-projects__ai-video-editor-cooked/NOTICE",
+      "repository": "nextwork-projects/ai-video-editor-cooked",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "8657f98177db2ed392b9beb4b1053070e613ede0",
+      "source_url": "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/NOTICE",
+      "size_bytes": 393,
+      "sha256": "5c5e11b8ac5f3e1b49e51f56bfe9ed3f5cc688809034feef2f19c1f88e094c54",
+      "git_blob_sha1": "bbeb041d1cc786a794283d3933e7518fab0f9c86",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c40e5e8e379"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/LICENSE",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/README.md",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/NOTICE",
+        "https://github.com/nextwork-projects/ai-video-editor-cooked/blob/8657f98177db2ed392b9beb4b1053070e613ede0/NOTICE"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nextwork-projects__ai-video-editor-cooked/LICENSE",
+        "upstream/nextwork-projects__ai-video-editor-cooked/NOTICE"
+      ]
+    }
+  ]
+}

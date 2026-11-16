@@ -1,0 +1,182 @@
+{
+  "batch": "0064",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/riffkit__skill/LICENSE",
+      "repository": "riffkit/skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "890af5e3ee81886695fb1e5a24ec063af1d90c75",
+      "source_url": "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "2a233ea3a76346e41a268d6b972efb05fbdf8ae4c4ed2c081902cfb1495e7887",
+      "git_blob_sha1": "297da8ac833cef7d6ece09017a2e4bfff3138da4",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d676d5b5aa77"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/LICENSE",
+        "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/README.md",
+        "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/riffkit__skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/riffkit__skill/SKILL.md",
+      "repository": "riffkit/skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "890af5e3ee81886695fb1e5a24ec063af1d90c75",
+      "source_url": "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/SKILL.md",
+      "size_bytes": 27755,
+      "sha256": "d0dda3a1b3684c5bec640a765d72c5a72d3c7acda4002c58bc2ce048d9ca16c1",
+      "git_blob_sha1": "51a64e0b0a4c2f9e46a4a548503a122a3608e4f5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d676d5b5aa77"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/LICENSE",
+        "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/README.md",
+        "https://github.com/riffkit/skill/blob/890af5e3ee81886695fb1e5a24ec063af1d90c75/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/riffkit__skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/qiyan233__novelops-skill/LICENSE",
+      "repository": "qiyan233/novelops-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d6563790dc2a3be7c4c896ecc29d7c209d81eadb",
+      "source_url": "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "72380798af61d6131287b0dd3c8dc5345535df641002fece3a02d7ef109c5f8e",
+      "git_blob_sha1": "7d3ab8fb06f41434d2a341c36e68dcdf0a5adfbd",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-566bb27c4e46"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/LICENSE",
+        "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/README.md",
+        "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/qiyan233__novelops-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/qiyan233__novelops-skill/SKILL.md",
+      "repository": "qiyan233/novelops-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "d6563790dc2a3be7c4c896ecc29d7c209d81eadb",
+      "source_url": "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/SKILL.md",
+      "size_bytes": 16763,
+      "sha256": "72ff9fa5adfa6596e7b89a0610615a19e3996065f33b5265810d50a93460e74b",
+      "git_blob_sha1": "ceabed3ca60b34c8d0f5c58ec4fb1a0a0f191250",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-566bb27c4e46"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/LICENSE",
+        "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/README.md",
+        "https://github.com/qiyan233/novelops-skill/blob/d6563790dc2a3be7c4c896ecc29d7c209d81eadb/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/qiyan233__novelops-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/prime-skills__runcomfy-agent-skills/LICENSE",
+      "repository": "prime-skills/runcomfy-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fca19ae084c2ae4667f5c8affbb99da5103d5832",
+      "source_url": "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/LICENSE",
+      "size_bytes": 1081,
+      "sha256": "da9c8da48d4cd81ad349524956e5a5bd2f8c639c1cf581d639023255d62f74f4",
+      "git_blob_sha1": "78a1cc26c80f7539364f7aa98b55ff7f1980fd16",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-765e01d8f4dd"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/LICENSE",
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/README.md",
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/prime-skills__runcomfy-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/prime-skills__runcomfy-agent-skills/relight/SKILL.md",
+      "repository": "prime-skills/runcomfy-agent-skills",
+      "upstream_path": "relight/SKILL.md",
+      "upstream_commit": "fca19ae084c2ae4667f5c8affbb99da5103d5832",
+      "source_url": "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md",
+      "size_bytes": 10160,
+      "sha256": "03c4541c08c25dfda581f4f37bce60abfff7083088f87bcd7e487acbcf866630",
+      "git_blob_sha1": "86ef31dd00cc3b806cf98d4e8c5b6c71350644f2",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-765e01d8f4dd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/LICENSE",
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/README.md",
+        "https://github.com/prime-skills/runcomfy-agent-skills/blob/fca19ae084c2ae4667f5c8affbb99da5103d5832/relight/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/prime-skills__runcomfy-agent-skills/LICENSE"
+      ]
+    }
+  ]
+}

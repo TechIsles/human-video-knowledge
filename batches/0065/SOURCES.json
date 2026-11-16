@@ -1,0 +1,307 @@
+{
+  "batch": "0065",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/rogerchappel__launchclip/skills/launchclip-create-video/SKILL.md",
+      "repository": "rogerchappel/launchclip",
+      "upstream_path": "skills/launchclip-create-video/SKILL.md",
+      "upstream_commit": "e14c28fbf3bf05fb7f3b379990b38be553e5361c",
+      "source_url": "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/skills/launchclip-create-video/SKILL.md",
+      "size_bytes": 11485,
+      "sha256": "d041ac0252a123463b18e0dd619cf1612db6272f2f622a0c4b6cd0f99d614d28",
+      "git_blob_sha1": "5f8b165c343cd4f41a6aa6721c61f5ffcc7d5e4d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fdfc9ffba6c8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/LICENSE",
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/THIRD_PARTY_NOTICES.md",
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rogerchappel__launchclip/LICENSE",
+        "upstream/rogerchappel__launchclip/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/rogerchappel__launchclip/LICENSE",
+      "repository": "rogerchappel/launchclip",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e14c28fbf3bf05fb7f3b379990b38be553e5361c",
+      "source_url": "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "ad1e659d395d8427fa561166b9aa653ad50c858629946ff851ca07aec4e6e368",
+      "git_blob_sha1": "8f0df979cc9228c1481b48e025717c2ec1f7efc8",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fdfc9ffba6c8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/LICENSE",
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/THIRD_PARTY_NOTICES.md",
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rogerchappel__launchclip/LICENSE",
+        "upstream/rogerchappel__launchclip/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/rogerchappel__launchclip/THIRD_PARTY_NOTICES.md",
+      "repository": "rogerchappel/launchclip",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "e14c28fbf3bf05fb7f3b379990b38be553e5361c",
+      "source_url": "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 10272,
+      "sha256": "59453a3494d6a25333175af5d6c2cb542697dea742aa97fc09063233168c605b",
+      "git_blob_sha1": "32c5f46d2c21300bc9d2416d52759be817a3ddbc",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fdfc9ffba6c8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/LICENSE",
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/THIRD_PARTY_NOTICES.md",
+        "https://github.com/rogerchappel/launchclip/blob/e14c28fbf3bf05fb7f3b379990b38be553e5361c/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rogerchappel__launchclip/LICENSE",
+        "upstream/rogerchappel__launchclip/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/ronak-create__FableCut/skills/edit-video/SKILL.md",
+      "repository": "ronak-create/FableCut",
+      "upstream_path": "skills/edit-video/SKILL.md",
+      "upstream_commit": "579b08ec1a789baec5cbf06d7430373460508d09",
+      "source_url": "https://github.com/ronak-create/FableCut/blob/579b08ec1a789baec5cbf06d7430373460508d09/skills/edit-video/SKILL.md",
+      "size_bytes": 8127,
+      "sha256": "ddb0cb6738385f9d8a1a35dda005d871960a4a6fb7f53e9cb50516a0ae8a3562",
+      "git_blob_sha1": "a0ff0f4b448fef359f4cab62596e2c4c23eb3bb1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-05dd8fdb0de7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ronak-create/FableCut/blob/579b08ec1a789baec5cbf06d7430373460508d09/LICENSE",
+        "https://github.com/ronak-create/FableCut/blob/579b08ec1a789baec5cbf06d7430373460508d09/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ronak-create__FableCut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ronak-create__FableCut/LICENSE",
+      "repository": "ronak-create/FableCut",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "579b08ec1a789baec5cbf06d7430373460508d09",
+      "source_url": "https://github.com/ronak-create/FableCut/blob/579b08ec1a789baec5cbf06d7430373460508d09/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "30b10ca919422b1f5370e8dfb906606e1c51e6eb43a6b6db02bfda17a4242817",
+      "git_blob_sha1": "30ab606025575807ba6bcf96bd09fc678560769b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-05dd8fdb0de7"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ronak-create/FableCut/blob/579b08ec1a789baec5cbf06d7430373460508d09/LICENSE",
+        "https://github.com/ronak-create/FableCut/blob/579b08ec1a789baec5cbf06d7430373460508d09/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ronak-create__FableCut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__cc-skills/skills/linkedin-ghostwriting/SKILL.md",
+      "repository": "samber/cc-skills",
+      "upstream_path": "skills/linkedin-ghostwriting/SKILL.md",
+      "upstream_commit": "123cb155f5ab5751fc13c8027fbfa5eb0d3773c6",
+      "source_url": "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/skills/linkedin-ghostwriting/SKILL.md",
+      "size_bytes": 5323,
+      "sha256": "78bce8b3e3e5d429f143508bf4bfdec767dfe1df7426459646be8f59999723ae",
+      "git_blob_sha1": "0debe2ad0eb480b5d51e66b094174d373f892abf",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57ee1b706102"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__cc-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__cc-skills/LICENSE",
+      "repository": "samber/cc-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "123cb155f5ab5751fc13c8027fbfa5eb0d3773c6",
+      "source_url": "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "a6735e3815503be2fc1ae4813758cb3d0c24a5309df508309ce180cf5a4ead58",
+      "git_blob_sha1": "e01f008a1febe41946345c425832c6aa093731d3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57ee1b706102"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__cc-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samchon__automovie/packages/template/scaffold/.agents/skills/treatments/SKILL.md",
+      "repository": "samchon/automovie",
+      "upstream_path": "packages/template/scaffold/.agents/skills/treatments/SKILL.md",
+      "upstream_commit": "f4ff592a581960fdc81990a57a0f2e9b8c114545",
+      "source_url": "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/scaffold/.agents/skills/treatments/SKILL.md",
+      "size_bytes": 2548,
+      "sha256": "5c39cbc53983b37f0d2b14df46c5e00bcf30e748ae6e63b5477f5ddf05070cf6",
+      "git_blob_sha1": "b5b339ee344bc47a4e154e811d409527d9b3269a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-81f67bceb812"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/LICENSE",
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/scaffold/.agents/skills/LICENSE.novels",
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samchon__automovie/packages/template/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samchon__automovie/packages/template/LICENSE",
+      "repository": "samchon/automovie",
+      "upstream_path": "packages/template/LICENSE",
+      "upstream_commit": "f4ff592a581960fdc81990a57a0f2e9b8c114545",
+      "source_url": "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "cf549a241a0e316f9dfe8aff5622b2c4198ffb907ab9736cd3eff9b150f4d92a",
+      "git_blob_sha1": "8e202eafd879e3f1f84cfa9579c934991abdd17a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-81f67bceb812"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/LICENSE",
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/scaffold/.agents/skills/LICENSE.novels",
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samchon__automovie/packages/template/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samchon__automovie/packages/template/LICENSE",
+      "repository": "samchon/automovie",
+      "upstream_path": "packages/template/scaffold/.agents/skills/LICENSE.novels",
+      "upstream_commit": "f4ff592a581960fdc81990a57a0f2e9b8c114545",
+      "source_url": "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/scaffold/.agents/skills/LICENSE.novels",
+      "size_bytes": 1068,
+      "sha256": "cf549a241a0e316f9dfe8aff5622b2c4198ffb907ab9736cd3eff9b150f4d92a",
+      "git_blob_sha1": "8e202eafd879e3f1f84cfa9579c934991abdd17a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-81f67bceb812"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/LICENSE",
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/packages/template/scaffold/.agents/skills/LICENSE.novels",
+        "https://github.com/samchon/automovie/blob/f4ff592a581960fdc81990a57a0f2e9b8c114545/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/samchon__automovie/packages/template/LICENSE"
+      ]
+    }
+  ]
+}
