@@ -1,0 +1,278 @@
+{
+  "batch": "0120",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 11,
+  "new_original_payload_paths": 12,
+  "files": [
+    {
+      "file": "upstream/web__aclanthology.org/SRC-751825f349ab/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-751825f349ab/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2023.findings-emnlp.930.pdf",
+      "title": "Coverage-based Example Selection for In-Context Learning",
+      "size_bytes": 641694,
+      "sha256": "1b6f0cf46341516a1fd47dfe6b3577e45c703de213602c866f39389693bad9ae",
+      "git_blob_sha1": "2d0e10402abe4d4def47b4793c043808962dd68f",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-751825f349ab"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2023.findings-emnlp.930/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-b7d8c557c26e/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-b7d8c557c26e/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2022.acl-long.577.pdf",
+      "title": "Deduplicating Training Data Makes Language Models Better",
+      "size_bytes": 634490,
+      "sha256": "f282bf06ab3564b363a4df5ab184cebb729c23a3be3ecb9aa7c5edc0a9f5e045",
+      "git_blob_sha1": "7899842d4528c898bbcda172ba93238e78204328",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b7d8c557c26e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2022.acl-long.577/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-c91caa4126d9/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-c91caa4126d9/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2024.naacl-long.20.pdf",
+      "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+      "size_bytes": 717417,
+      "sha256": "5a585d88f7b63c06439a4ecb8fd3165615d637e2061f242bff3f6ec3a209bd34",
+      "git_blob_sha1": "9521716c9791a3d7f16d48db922ce3de0cb053a0",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c91caa4126d9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2024.naacl-long.20/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-e364c0357591/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-e364c0357591/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2023.acl-long.910.pdf",
+      "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+      "size_bytes": 1298539,
+      "sha256": "012e1231dc847c4cee6c7cb0e6ffee43f5799f70754930c815db1674ceffeab9",
+      "git_blob_sha1": "b7005dc7ccb55716b43bcca82681e7651b421b4d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e364c0357591"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2023.acl-long.910/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-b26ca8f4f33f/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-b26ca8f4f33f/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2024.emnlp-main.395.pdf",
+      "title": "Knowledge-Centric Hallucination Detection",
+      "size_bytes": 1831476,
+      "sha256": "0aa0637a8a1aabbeaf2bf8172285cd0854661fdebcf6135bfc6271d75a59651b",
+      "git_blob_sha1": "f0265d47ed4a648964469a45c4e19bd189b0ad70",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b26ca8f4f33f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2024.emnlp-main.395/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-b7c9ffc3296d/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-b7c9ffc3296d/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2023.acl-long.650.pdf",
+      "title": "Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors",
+      "size_bytes": 522235,
+      "sha256": "7b637e667f563dfe0c1818767904aaee322b4cc34c354b1a49ddcbc4c30f5457",
+      "git_blob_sha1": "f555c95cf5762a1a074f080e65e5c96308a9ad4b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b7c9ffc3296d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2023.acl-long.650/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-b515e8102c3b/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-b515e8102c3b/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2022.naacl-main.187.pdf",
+      "title": "QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization",
+      "size_bytes": 217879,
+      "sha256": "1dfb506e3475d111a658b2e45db3803d7d185fb2665378db4119ece3903541e9",
+      "git_blob_sha1": "d4db26fe0aab219be3886504957f9458338d3245",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b515e8102c3b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2022.naacl-main.187/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-f4e2dbb7797d/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-f4e2dbb7797d/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2023.acl-long.634.pdf",
+      "title": "AlignScore: Evaluating Factual Consistency with A Unified Alignment Function",
+      "size_bytes": 479576,
+      "sha256": "5d4d6acf25af817ca94e1a5502db96eaedc62e87f377599c93731c3b8b8cc920",
+      "git_blob_sha1": "6a27d43afb6d8f1fa39b5af9a31427a46867be12",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f4e2dbb7797d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2023.acl-long.634/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-1a425bae1b80/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-1a425bae1b80/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2024.findings-emnlp.716.pdf",
+      "title": "Learning to Refine with Fine-Grained Natural Language Feedback",
+      "size_bytes": 781938,
+      "sha256": "1fd04f6f365eebf5cc36e90fd05a6b6abedcb2aad9e909196b5057ee3125d92d",
+      "git_blob_sha1": "d64e251c13706cdf6bbf35723bebd82bee573d60",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a425bae1b80"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2024.findings-emnlp.716/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-4741dabb131c/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-4741dabb131c/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2023.acl-long.311.pdf",
+      "title": "Zero-shot Faithful Factual Error Correction",
+      "size_bytes": 694128,
+      "sha256": "011f420da522c777876d1059718366b175824d52b20114fad79226a4221fe30a",
+      "git_blob_sha1": "8adc933ae3df8fab2166397c7103c151c694b0c6",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4741dabb131c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2023.acl-long.311/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-d38810b73b44/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-d38810b73b44/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2025.findings-naacl.306.pdf",
+      "title": "Clarify When Necessary: Resolving Ambiguity Through Interaction with LMs",
+      "size_bytes": 404119,
+      "sha256": "d208a164d3abc6f025cec9ad368ee55bb4dd54bccf8b305aaaefb8f1ca992865",
+      "git_blob_sha1": "9655e4f8f43cefe70417c6fad3efb2b48ba4cfb3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d38810b73b44"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2025.findings-naacl.306/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-751825f349ab/license-evidence.html",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-751825f349ab/license-evidence.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/faq/copyright/",
+      "size_bytes": 9770,
+      "sha256": "5406b599d2f32f5ac671bb1ec7a92704671d1a7fb8927982f3e277a13939bdba",
+      "git_blob_sha1": "b35f3a1ef1b2c0f5e4cd299dfd77c764239da437",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-751825f349ab"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}
