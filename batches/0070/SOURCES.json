@@ -1,0 +1,119 @@
+{
+  "batch": "0070",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/nopefallacy__vertical-video-editing-skills/skills/video-editing/SKILL.md",
+      "repository": "nopefallacy/vertical-video-editing-skills",
+      "upstream_path": "skills/video-editing/SKILL.md",
+      "upstream_commit": "8de3a875a7856dba658027a8f64a6bdfe9800b9e",
+      "source_url": "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/skills/video-editing/SKILL.md",
+      "size_bytes": 38500,
+      "sha256": "a2e6b58b6be1a9bf49180cb523e3970efa7ea93c44cdb1ab0b1ce42afbf98928",
+      "git_blob_sha1": "667dc663a427e546e8d6e6752e84997bb2822efb",
+      "role": "canonical_skill_document",
+      "license": "MIT AND CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-06acb5166806"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/LICENSE",
+        "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/README.md",
+        "https://github.com/robonuggets/hyperframes-helper/blob/4d75272b4ccba94f056fd6acdb6a234cbc6f883b/LICENSE",
+        "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+      ],
+      "conditions": "Retain MIT adriiita notice for original contributions AND CC-BY-4.0 for adopted/adapted helper portions. Original: RoboNuggets, created by Jay, Copyright 2026 RoboNuggets, https://robonuggets.com ; source https://github.com/robonuggets/hyperframes-helper/tree/4d75272b4ccba94f056fd6acdb6a234cbc6f883b . Prior adaptations/additions by vertical-video-editing-skills are described in unchanged canonical Credits and standard-provenance; archive has not modified canonical. CC-BY-4.0 link https://creativecommons.org/licenses/by/4.0/ ; no endorsement or extra restrictions. Keep attribution with redistributed file. No media, font, GSAP or engine license inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/nopefallacy__vertical-video-editing-skills/LICENSE",
+        "upstream/robonuggets__hyperframes-helper/LICENSE"
+      ],
+      "standard_license_support": {
+        "file": "upstream/asmartbear__asb-skills/LICENSE",
+        "standard_source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "purpose": "Exact identical complete standard legal terms reused; this does not attribute the selected source to the hosting repository author."
+      }
+    },
+    {
+      "file": "upstream/nopefallacy__vertical-video-editing-skills/LICENSE",
+      "repository": "nopefallacy/vertical-video-editing-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8de3a875a7856dba658027a8f64a6bdfe9800b9e",
+      "source_url": "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "d47b5d293e4350a99219027430dc1d09f308ff7cd4a4c976ab2a6090d1661ce6",
+      "git_blob_sha1": "33b62c58921d42d9cf40827b75951095b78ebdb4",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-06acb5166806"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/LICENSE",
+        "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/README.md",
+        "https://github.com/robonuggets/hyperframes-helper/blob/4d75272b4ccba94f056fd6acdb6a234cbc6f883b/LICENSE",
+        "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+      ],
+      "conditions": "Retain MIT adriiita notice for original contributions AND CC-BY-4.0 for adopted/adapted helper portions. Original: RoboNuggets, created by Jay, Copyright 2026 RoboNuggets, https://robonuggets.com ; source https://github.com/robonuggets/hyperframes-helper/tree/4d75272b4ccba94f056fd6acdb6a234cbc6f883b . Prior adaptations/additions by vertical-video-editing-skills are described in unchanged canonical Credits and standard-provenance; archive has not modified canonical. CC-BY-4.0 link https://creativecommons.org/licenses/by/4.0/ ; no endorsement or extra restrictions. Keep attribution with redistributed file. No media, font, GSAP or engine license inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/nopefallacy__vertical-video-editing-skills/LICENSE",
+        "upstream/robonuggets__hyperframes-helper/LICENSE"
+      ],
+      "standard_license_support": {
+        "file": "upstream/asmartbear__asb-skills/LICENSE",
+        "standard_source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "purpose": "Exact identical complete standard legal terms reused; this does not attribute the selected source to the hosting repository author."
+      }
+    },
+    {
+      "file": "upstream/robonuggets__hyperframes-helper/LICENSE",
+      "repository": "robonuggets/hyperframes-helper",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4d75272b4ccba94f056fd6acdb6a234cbc6f883b",
+      "source_url": "https://github.com/robonuggets/hyperframes-helper/blob/4d75272b4ccba94f056fd6acdb6a234cbc6f883b/LICENSE",
+      "size_bytes": 916,
+      "sha256": "2d913264e720dbab64597ce8c20e75a973d41c52a390af035248f68c43d7d167",
+      "git_blob_sha1": "593132e34491d874923bc80192fd187d7bab2a5d",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-06acb5166806"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/LICENSE",
+        "https://github.com/nopefallacy/vertical-video-editing-skills/blob/8de3a875a7856dba658027a8f64a6bdfe9800b9e/README.md",
+        "https://github.com/robonuggets/hyperframes-helper/blob/4d75272b4ccba94f056fd6acdb6a234cbc6f883b/LICENSE",
+        "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+      ],
+      "conditions": "Retain MIT adriiita notice for original contributions AND CC-BY-4.0 for adopted/adapted helper portions. Original: RoboNuggets, created by Jay, Copyright 2026 RoboNuggets, https://robonuggets.com ; source https://github.com/robonuggets/hyperframes-helper/tree/4d75272b4ccba94f056fd6acdb6a234cbc6f883b . Prior adaptations/additions by vertical-video-editing-skills are described in unchanged canonical Credits and standard-provenance; archive has not modified canonical. CC-BY-4.0 link https://creativecommons.org/licenses/by/4.0/ ; no endorsement or extra restrictions. Keep attribution with redistributed file. No media, font, GSAP or engine license inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/nopefallacy__vertical-video-editing-skills/LICENSE",
+        "upstream/robonuggets__hyperframes-helper/LICENSE"
+      ],
+      "standard_license_support": {
+        "file": "upstream/asmartbear__asb-skills/LICENSE",
+        "standard_source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "purpose": "Exact identical complete standard legal terms reused; this does not attribute the selected source to the hosting repository author."
+      }
+    }
+  ]
+}

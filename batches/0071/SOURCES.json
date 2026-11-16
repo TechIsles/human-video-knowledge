@@ -1,0 +1,148 @@
+{
+  "batch": "0071",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/pbakaus__impeccable/.agents/skills/impeccable/SKILL.md",
+      "repository": "pbakaus/impeccable",
+      "upstream_path": ".agents/skills/impeccable/SKILL.md",
+      "upstream_commit": "4fc2f83e1c8710dba772bfd4523d0efab57737b6",
+      "source_url": "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/.agents/skills/impeccable/SKILL.md",
+      "size_bytes": 11762,
+      "sha256": "c26d6963fe2278f570930ea083ec89609ba094ee93b1ae825719ff5d29b9ac3c",
+      "git_blob_sha1": "8da085ce49cf210f0fc97edc81479747b91dc831",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ee8b7abc10a5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/LICENSE",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/README.md",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/NOTICE.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/SKILL.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Apache-2.0. Retain both complete licenses and Paul Bakaus copyright, original NOTICE.md, and supplied provenance notice attributing Anthropic frontend-design. Impeccable is upstream adaptation/expansion, archive bytes unchanged. No endorsement, services/models/dependencies/training authorization inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt",
+        "upstream/pbakaus__impeccable/LICENSE",
+        "upstream/pbakaus__impeccable/NOTICE.md"
+      ],
+      "retained_provenance_notices": [
+        "batches/0071/PROVENANCE.txt"
+      ]
+    },
+    {
+      "file": "upstream/pbakaus__impeccable/LICENSE",
+      "repository": "pbakaus/impeccable",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4fc2f83e1c8710dba772bfd4523d0efab57737b6",
+      "source_url": "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/LICENSE",
+      "size_bytes": 10766,
+      "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
+      "git_blob_sha1": "bb3f6d23b1f8025514a62a12b51b47d73e3c9aa9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ee8b7abc10a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/LICENSE",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/README.md",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/NOTICE.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/SKILL.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Apache-2.0. Retain both complete licenses and Paul Bakaus copyright, original NOTICE.md, and supplied provenance notice attributing Anthropic frontend-design. Impeccable is upstream adaptation/expansion, archive bytes unchanged. No endorsement, services/models/dependencies/training authorization inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt",
+        "upstream/pbakaus__impeccable/LICENSE",
+        "upstream/pbakaus__impeccable/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/pbakaus__impeccable/NOTICE.md",
+      "repository": "pbakaus/impeccable",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "4fc2f83e1c8710dba772bfd4523d0efab57737b6",
+      "source_url": "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/NOTICE.md",
+      "size_bytes": 503,
+      "sha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb",
+      "git_blob_sha1": "0468271c904ae334cfaf27da6f8df3d5f419a1f0",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ee8b7abc10a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/LICENSE",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/README.md",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/NOTICE.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/SKILL.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Apache-2.0. Retain both complete licenses and Paul Bakaus copyright, original NOTICE.md, and supplied provenance notice attributing Anthropic frontend-design. Impeccable is upstream adaptation/expansion, archive bytes unchanged. No endorsement, services/models/dependencies/training authorization inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt",
+        "upstream/pbakaus__impeccable/LICENSE",
+        "upstream/pbakaus__impeccable/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/frontend-design/LICENSE.txt",
+      "upstream_commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+      "source_url": "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/LICENSE.txt",
+      "size_bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "git_blob_sha1": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ee8b7abc10a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/LICENSE",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/README.md",
+        "https://github.com/pbakaus/impeccable/blob/4fc2f83e1c8710dba772bfd4523d0efab57737b6/NOTICE.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/frontend-design/SKILL.md",
+        "https://github.com/anthropics/skills/blob/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Apache-2.0. Retain both complete licenses and Paul Bakaus copyright, original NOTICE.md, and supplied provenance notice attributing Anthropic frontend-design. Impeccable is upstream adaptation/expansion, archive bytes unchanged. No endorsement, services/models/dependencies/training authorization inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/skills/frontend-design/LICENSE.txt",
+        "upstream/pbakaus__impeccable/LICENSE",
+        "upstream/pbakaus__impeccable/NOTICE.md"
+      ]
+    }
+  ],
+  "editorial_support_files": [
+    {
+      "file": "batches/0071/PROVENANCE.txt",
+      "role": "editorial_support",
+      "size_bytes": 1069,
+      "sha256": "18f640240ad2c10d20bfb180bd00e21c4971d90a4e2463f9b4a316a58b3dfecb",
+      "count_as_upstream_original": false
+    }
+  ]
+}

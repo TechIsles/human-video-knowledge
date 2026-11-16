@@ -1,0 +1,217 @@
+{
+  "batch": "0068",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/pvollenweider__novel-writing-methodology/LICENSE",
+      "repository": "pvollenweider/novel-writing-methodology",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3237d6f47d135b87da1ff31b1b9ca743efb4d408",
+      "source_url": "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/LICENSE",
+      "size_bytes": 1078,
+      "sha256": "6b3a590769ca9337513aa591a52fc3a2f36ad3669527bc63d7a5178c84085799",
+      "git_blob_sha1": "693ee8c60aa1d1c839273f09c63ddbade74f4e2e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5b4b4ed55a71"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/LICENSE",
+        "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/README.md",
+        "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/pvollenweider__novel-writing-methodology/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/pvollenweider__novel-writing-methodology/SKILL.md",
+      "repository": "pvollenweider/novel-writing-methodology",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "3237d6f47d135b87da1ff31b1b9ca743efb4d408",
+      "source_url": "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/SKILL.md",
+      "size_bytes": 32862,
+      "sha256": "28ee272835b61cffefff44a0b050789fb8f010b6c347bc041021998e7b3d9824",
+      "git_blob_sha1": "fa27c2953037bc9eab8ed32145a3284f79afdecc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5b4b4ed55a71"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/LICENSE",
+        "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/README.md",
+        "https://github.com/pvollenweider/novel-writing-methodology/blob/3237d6f47d135b87da1ff31b1b9ca743efb4d408/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/pvollenweider__novel-writing-methodology/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "pireel/pireel-agent",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2",
+      "source_url": "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-651846ece292"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/LICENSE",
+        "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/README.md",
+        "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/plugins/pireel/skills/pireel/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/pireel__pireel-agent/plugins/pireel/skills/pireel/SKILL.md",
+      "repository": "pireel/pireel-agent",
+      "upstream_path": "plugins/pireel/skills/pireel/SKILL.md",
+      "upstream_commit": "b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2",
+      "source_url": "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/plugins/pireel/skills/pireel/SKILL.md",
+      "size_bytes": 8350,
+      "sha256": "fb1b049578ceaa70f9603ea77fa2bd76eef1b2e478d88c332d36d687e657a8cb",
+      "git_blob_sha1": "4fedfc9ad38538f33255d5fab95f13eb7b995abb",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-651846ece292"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/LICENSE",
+        "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/README.md",
+        "https://github.com/pireel/pireel-agent/blob/b72d2e53bf90693d11d2de98bfef05e0b9d6b5b2/plugins/pireel/skills/pireel/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/rebuildup__design-skills/LICENSE",
+      "repository": "rebuildup/design-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "342d70929dc5f33af5bb88f48362e11ed2dcf1cb",
+      "source_url": "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "5b250fafdf2626580f8669360151dd1ab0f7712398452393751e684da3978e6d",
+      "git_blob_sha1": "62ce7366299ca66cc532304ea0e5be546e841dce",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2918ce9733a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/README.md",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/skills/limited-animation/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rebuildup__design-skills/LICENSE",
+        "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md",
+      "repository": "rebuildup/design-skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "342d70929dc5f33af5bb88f48362e11ed2dcf1cb",
+      "source_url": "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 2087,
+      "sha256": "dfa715b84c8daecce47ca40b11d017f6b55e958080033f623fdef539f299091d",
+      "git_blob_sha1": "e54677b36a78e4ec282e5777106272684f226fa2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2918ce9733a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/README.md",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/skills/limited-animation/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rebuildup__design-skills/LICENSE",
+        "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/rebuildup__design-skills/skills/limited-animation/SKILL.md",
+      "repository": "rebuildup/design-skills",
+      "upstream_path": "skills/limited-animation/SKILL.md",
+      "upstream_commit": "342d70929dc5f33af5bb88f48362e11ed2dcf1cb",
+      "source_url": "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/skills/limited-animation/SKILL.md",
+      "size_bytes": 11156,
+      "sha256": "797f5b8f5c62b5fbd3e3c00b0b18532792f9bd30a70fc14e1bd08053dbccc748",
+      "git_blob_sha1": "ac7b01e09570949547bbc686d2aea398aeadf8de",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2918ce9733a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/LICENSE",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/README.md",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/THIRD_PARTY_NOTICES.md",
+        "https://github.com/rebuildup/design-skills/blob/342d70929dc5f33af5bb88f48362e11ed2dcf1cb/skills/limited-animation/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rebuildup__design-skills/LICENSE",
+        "upstream/rebuildup__design-skills/THIRD_PARTY_NOTICES.md"
+      ]
+    }
+  ]
+}

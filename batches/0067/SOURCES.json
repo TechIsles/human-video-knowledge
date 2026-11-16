@@ -1,0 +1,214 @@
+{
+  "batch": "0067",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 5,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/samber__cc-skills/skills/copywriting-prose-creator/SKILL.md",
+      "repository": "samber/cc-skills",
+      "upstream_path": "skills/copywriting-prose-creator/SKILL.md",
+      "upstream_commit": "123cb155f5ab5751fc13c8027fbfa5eb0d3773c6",
+      "source_url": "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/skills/copywriting-prose-creator/SKILL.md",
+      "size_bytes": 21425,
+      "sha256": "19f9911271d20c500db582d61cf93810b953c0707198fadfa45fcba8ad2702c1",
+      "git_blob_sha1": "72c594ba9e24196deb4143bb62100299668b43d5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f0d8839259ed"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__cc-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__cc-skills/LICENSE",
+      "repository": "samber/cc-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "123cb155f5ab5751fc13c8027fbfa5eb0d3773c6",
+      "source_url": "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "a6735e3815503be2fc1ae4813758cb3d0c24a5309df508309ce180cf5a4ead58",
+      "git_blob_sha1": "e01f008a1febe41946345c425832c6aa093731d3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f0d8839259ed",
+        "SRC-5e6b6769a2f6",
+        "SRC-3ed24138a63a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/samber__cc-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__cc-skills/skills/copywriting-tone-of-voice-creator/SKILL.md",
+      "repository": "samber/cc-skills",
+      "upstream_path": "skills/copywriting-tone-of-voice-creator/SKILL.md",
+      "upstream_commit": "123cb155f5ab5751fc13c8027fbfa5eb0d3773c6",
+      "source_url": "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/skills/copywriting-tone-of-voice-creator/SKILL.md",
+      "size_bytes": 17989,
+      "sha256": "bdf94e44f3704d716c880cf4036f69eec732b1de93804d5635133a5bdc4e5121",
+      "git_blob_sha1": "673b628b3d185e90ed102b599aba2f5ae5f1dd9c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5e6b6769a2f6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__cc-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__cc-skills/skills/substack-ghostwriting/SKILL.md",
+      "repository": "samber/cc-skills",
+      "upstream_path": "skills/substack-ghostwriting/SKILL.md",
+      "upstream_commit": "123cb155f5ab5751fc13c8027fbfa5eb0d3773c6",
+      "source_url": "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/skills/substack-ghostwriting/SKILL.md",
+      "size_bytes": 15482,
+      "sha256": "c39fa05b6e05edfa35144cf4cf9eb7dabd4a06d28c58da124c8641d857245434",
+      "git_blob_sha1": "6cbfb1b135cd066a69c3d3980d1ce6b2e94dd210",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3ed24138a63a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/LICENSE",
+        "https://github.com/samber/cc-skills/blob/123cb155f5ab5751fc13c8027fbfa5eb0d3773c6/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__cc-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__developer-relations-skills/skills/developer-case-study/SKILL.md",
+      "repository": "samber/developer-relations-skills",
+      "upstream_path": "skills/developer-case-study/SKILL.md",
+      "upstream_commit": "a7561408451e882be3327dfa434b03c4047b8710",
+      "source_url": "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/skills/developer-case-study/SKILL.md",
+      "size_bytes": 26986,
+      "sha256": "1c41aec313a073232ecb36f6fd5e90e278d7c6d8d617d57ac23664c028ef9fe8",
+      "git_blob_sha1": "df66ede06cbdfacd60f5b1e1e4e554b31ba664e0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-529c6af9efce"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/LICENSE",
+        "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__developer-relations-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__developer-relations-skills/LICENSE",
+      "repository": "samber/developer-relations-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a7561408451e882be3327dfa434b03c4047b8710",
+      "source_url": "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "f6d2328cf7db0454d5c5e6bbed934177dad194b37bf1744dbdf48454e4efe4f8",
+      "git_blob_sha1": "d06886910e9622be790a5364d025c23c9d4cae15",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-529c6af9efce",
+        "SRC-212fc8e6e772"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/LICENSE",
+        "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__developer-relations-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samber__developer-relations-skills/skills/technical-video-script/SKILL.md",
+      "repository": "samber/developer-relations-skills",
+      "upstream_path": "skills/technical-video-script/SKILL.md",
+      "upstream_commit": "a7561408451e882be3327dfa434b03c4047b8710",
+      "source_url": "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/skills/technical-video-script/SKILL.md",
+      "size_bytes": 39884,
+      "sha256": "c5f845237cb0a266229c29937eaf36947b06fe02fe90816f756201734f81e912",
+      "git_blob_sha1": "678bed347d843e3ff37ae05ff3904fee2a24810a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-212fc8e6e772"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/LICENSE",
+        "https://github.com/samber/developer-relations-skills/blob/a7561408451e882be3327dfa434b03c4047b8710/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samber__developer-relations-skills/LICENSE"
+      ]
+    }
+  ]
+}

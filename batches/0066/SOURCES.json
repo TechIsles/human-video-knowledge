@@ -1,0 +1,164 @@
+{
+  "batch": "0066",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/novoads__agent-skills/shared/skills/broll-overlay/SKILL.md",
+      "repository": "novoads/agent-skills",
+      "upstream_path": "shared/skills/broll-overlay/SKILL.md",
+      "upstream_commit": "da488ac6b02a18fd48e60e1f539ef34420276ef0",
+      "source_url": "https://github.com/novoads/agent-skills/blob/da488ac6b02a18fd48e60e1f539ef34420276ef0/shared/skills/broll-overlay/SKILL.md",
+      "size_bytes": 9630,
+      "sha256": "3917eb1e4bc652cd4ecfbf3b4b56084d4a5159c3908289e7fb75d683584d22af",
+      "git_blob_sha1": "958b2386972648280ef2c86649b412de037fc22f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6e9530edddad"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/novoads/agent-skills/blob/da488ac6b02a18fd48e60e1f539ef34420276ef0/LICENSE",
+        "https://github.com/novoads/agent-skills/blob/da488ac6b02a18fd48e60e1f539ef34420276ef0/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/novoads__agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/novoads__agent-skills/LICENSE",
+      "repository": "novoads/agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "da488ac6b02a18fd48e60e1f539ef34420276ef0",
+      "source_url": "https://github.com/novoads/agent-skills/blob/da488ac6b02a18fd48e60e1f539ef34420276ef0/LICENSE",
+      "size_bytes": 1114,
+      "sha256": "818a2388fee02f598ce92b1c7765f7176e63d9ef0817d0ab112cf6f790224e42",
+      "git_blob_sha1": "e53e3e0a2a2b40aee2a3750f6f0873b4eec5fafc",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6e9530edddad"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/novoads/agent-skills/blob/da488ac6b02a18fd48e60e1f539ef34420276ef0/LICENSE",
+        "https://github.com/novoads/agent-skills/blob/da488ac6b02a18fd48e60e1f539ef34420276ef0/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/novoads__agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/okooo5km__Skills4U/skills/video-storyboard/SKILL.md",
+      "repository": "okooo5km/Skills4U",
+      "upstream_path": "skills/video-storyboard/SKILL.md",
+      "upstream_commit": "c7187fbd2a16ba4c75556f59eb6f5c557c2380fe",
+      "source_url": "https://github.com/okooo5km/Skills4U/blob/c7187fbd2a16ba4c75556f59eb6f5c557c2380fe/skills/video-storyboard/SKILL.md",
+      "size_bytes": 23288,
+      "sha256": "cc271d6536bcfc2d5f9c89800960b4293e46c0280c81eb4a4f44e33dea4ccd9b",
+      "git_blob_sha1": "c702d7db832e86b7cf24c9b981df1245aca19fcf",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cd0cb9ddef0f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/okooo5km/Skills4U/blob/c7187fbd2a16ba4c75556f59eb6f5c557c2380fe/LICENSE",
+        "https://github.com/okooo5km/Skills4U/blob/c7187fbd2a16ba4c75556f59eb6f5c557c2380fe/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/okooo5km__Skills4U/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/okooo5km__Skills4U/LICENSE",
+      "repository": "okooo5km/Skills4U",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c7187fbd2a16ba4c75556f59eb6f5c557c2380fe",
+      "source_url": "https://github.com/okooo5km/Skills4U/blob/c7187fbd2a16ba4c75556f59eb6f5c557c2380fe/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "6cffd9b26899d5752ed8d3ab86ce49f9b47a4f9edd203d410eebf4d00e178877",
+      "git_blob_sha1": "f0cce35f82e51d9ae68599e0ff7219555c058f8a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cd0cb9ddef0f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/okooo5km/Skills4U/blob/c7187fbd2a16ba4c75556f59eb6f5c557c2380fe/LICENSE",
+        "https://github.com/okooo5km/Skills4U/blob/c7187fbd2a16ba4c75556f59eb6f5c557c2380fe/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/okooo5km__Skills4U/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/oomol-lab__video-subtitle-translator/SKILL.md",
+      "repository": "oomol-lab/video-subtitle-translator",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "3d6c4a280ace7389e49ed7fe08192bb70dabfbe7",
+      "source_url": "https://github.com/oomol-lab/video-subtitle-translator/blob/3d6c4a280ace7389e49ed7fe08192bb70dabfbe7/SKILL.md",
+      "size_bytes": 32172,
+      "sha256": "025d130e973aaa371e4a2590ab9399684a3d0101daeddfcf3d46e7b824f7d4b8",
+      "git_blob_sha1": "52ca0e436a79dfb2fe508c35a700af2aa15a378e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f67cb62a88a5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/oomol-lab/video-subtitle-translator/blob/3d6c4a280ace7389e49ed7fe08192bb70dabfbe7/LICENSE",
+        "https://github.com/oomol-lab/video-subtitle-translator/blob/3d6c4a280ace7389e49ed7fe08192bb70dabfbe7/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/oomol-lab__video-subtitle-translator/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/oomol-lab__video-subtitle-translator/LICENSE",
+      "repository": "oomol-lab/video-subtitle-translator",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3d6c4a280ace7389e49ed7fe08192bb70dabfbe7",
+      "source_url": "https://github.com/oomol-lab/video-subtitle-translator/blob/3d6c4a280ace7389e49ed7fe08192bb70dabfbe7/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "60ddc591f0fe1c7b0ab4029fea74447562b795d024f7387e66ed3d6b238ec6f0",
+      "git_blob_sha1": "83e2493a677cbd412f3524d839c69e7c19a0a2dc",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f67cb62a88a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/oomol-lab/video-subtitle-translator/blob/3d6c4a280ace7389e49ed7fe08192bb70dabfbe7/LICENSE",
+        "https://github.com/oomol-lab/video-subtitle-translator/blob/3d6c4a280ace7389e49ed7fe08192bb70dabfbe7/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/oomol-lab__video-subtitle-translator/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "batch": "0069",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/sammcj__agentic-coding/Skills/llm-wiki/SKILL.md",
+      "repository": "sammcj/agentic-coding",
+      "upstream_path": "Skills/llm-wiki/SKILL.md",
+      "upstream_commit": "5618f3f31bd3136d6afca750b1a776c01a2c5ccb",
+      "source_url": "https://github.com/sammcj/agentic-coding/blob/5618f3f31bd3136d6afca750b1a776c01a2c5ccb/Skills/llm-wiki/SKILL.md",
+      "size_bytes": 24839,
+      "sha256": "21a9c144aab2c4a93ca6f59a168525309a927415e897cbd8fba295d8b88b6900",
+      "git_blob_sha1": "b923fddddcc26b7ca7b1b85a602b573c3780f880",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-208565470e16"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/sammcj/agentic-coding/blob/5618f3f31bd3136d6afca750b1a776c01a2c5ccb/Skills/llm-wiki/LICENSE",
+        "https://github.com/sammcj/agentic-coding/blob/5618f3f31bd3136d6afca750b1a776c01a2c5ccb/Skills/llm-wiki/README.md"
+      ],
+      "conditions": [
+        "Preserve Sam McLeod MIT notice and unchanged canonical attribution.",
+        "Credited Karpathy and rohitg00 gists are intellectual provenance only; their texts, comments and licenses are not included or granted.",
+        "No external services, user wiki data, linked references or executable helpers included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sammcj__agentic-coding/Skills/llm-wiki/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/sammcj__agentic-coding/Skills/llm-wiki/LICENSE",
+      "repository": "sammcj/agentic-coding",
+      "upstream_path": "Skills/llm-wiki/LICENSE",
+      "upstream_commit": "5618f3f31bd3136d6afca750b1a776c01a2c5ccb",
+      "source_url": "https://github.com/sammcj/agentic-coding/blob/5618f3f31bd3136d6afca750b1a776c01a2c5ccb/Skills/llm-wiki/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "42ebb7f9e7baffca676189c966638e214d23fc6f0284d9744bab85dffd4ccd7a",
+      "git_blob_sha1": "421773e79ddf7549d673386dc6aff2baef0d078f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-208565470e16"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/sammcj/agentic-coding/blob/5618f3f31bd3136d6afca750b1a776c01a2c5ccb/Skills/llm-wiki/LICENSE",
+        "https://github.com/sammcj/agentic-coding/blob/5618f3f31bd3136d6afca750b1a776c01a2c5ccb/Skills/llm-wiki/README.md"
+      ],
+      "conditions": [
+        "Preserve Sam McLeod MIT notice and unchanged canonical attribution.",
+        "Credited Karpathy and rohitg00 gists are intellectual provenance only; their texts, comments and licenses are not included or granted.",
+        "No external services, user wiki data, linked references or executable helpers included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sammcj__agentic-coding/Skills/llm-wiki/LICENSE"
+      ]
+    }
+  ]
+}

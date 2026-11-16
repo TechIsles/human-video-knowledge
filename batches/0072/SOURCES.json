@@ -1,0 +1,148 @@
+{
+  "batch": "0072",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/phuryn__work-humanizer/LICENSE",
+      "repository": "phuryn/work-humanizer",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "0a9065791d021f3dda695f3887cb2ae4c0eacbcf",
+      "source_url": "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
+      "git_blob_sha1": "f6eca502b7f3fd6a3f0b024e4c98a3dcf5611cee",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-70a144e95134"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/LICENSE",
+        "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/README.md",
+        "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/skills/work-humanizer/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/phuryn__work-humanizer/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/phuryn__work-humanizer/skills/work-humanizer/SKILL.md",
+      "repository": "phuryn/work-humanizer",
+      "upstream_path": "skills/work-humanizer/SKILL.md",
+      "upstream_commit": "0a9065791d021f3dda695f3887cb2ae4c0eacbcf",
+      "source_url": "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/skills/work-humanizer/SKILL.md",
+      "size_bytes": 21927,
+      "sha256": "9ad38da86922e17d523e8a02aed352bcea617bbf5333e3d800df22f178a9559d",
+      "git_blob_sha1": "47f3f7711f10fb4c5ff71751aedac9e3eed1da01",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-70a144e95134"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/LICENSE",
+        "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/README.md",
+        "https://github.com/phuryn/work-humanizer/blob/0a9065791d021f3dda695f3887cb2ae4c0eacbcf/skills/work-humanizer/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/phuryn__work-humanizer/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ringofai__storyteller/LICENSE",
+      "repository": "ringofai/storyteller",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "135ca3441fdefad6607a0744413a88d06b73e625",
+      "source_url": "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/LICENSE",
+      "size_bytes": 599,
+      "sha256": "d3ed80f1bf400977fe67b68cf096712f156b93fdf814e2a1e400468e63e50e8c",
+      "git_blob_sha1": "c96062ba1d1187c036416fb3ce36497674fb8d60",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e1a7020addbb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/LICENSE",
+        "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/README.md",
+        "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/SKILL.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+      ],
+      "conditions": [
+        "Attribution: Ringo Fai, Storyteller; preserve source URL, author credits and this license notice.",
+        "License: https://creativecommons.org/licenses/by/4.0/ ; full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode",
+        "Unmodified original bytes; no changes made. No endorsement implied and no additional legal or technological restrictions.",
+        "No rights to third-party books/talks/media or service access inferred."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/ringofai__storyteller/LICENSE"
+      ],
+      "standard_license_support": {
+        "file": "upstream/asmartbear__asb-skills/LICENSE",
+        "standard_source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "purpose": "Exact identical complete standard legal terms reused; this does not attribute the selected source to the hosting repository author."
+      }
+    },
+    {
+      "file": "upstream/ringofai__storyteller/SKILL.md",
+      "repository": "ringofai/storyteller",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "135ca3441fdefad6607a0744413a88d06b73e625",
+      "source_url": "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/SKILL.md",
+      "size_bytes": 11612,
+      "sha256": "5c0c8693decabf30917adc9130b257ded2a1a489279ceca92ff791afc4556a0d",
+      "git_blob_sha1": "d333c6808cd2e29999627067ea3fbe934f4a6278",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e1a7020addbb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/LICENSE",
+        "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/README.md",
+        "https://github.com/ringofai/storyteller/blob/135ca3441fdefad6607a0744413a88d06b73e625/SKILL.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+      ],
+      "conditions": [
+        "Attribution: Ringo Fai, Storyteller; preserve source URL, author credits and this license notice.",
+        "License: https://creativecommons.org/licenses/by/4.0/ ; full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode",
+        "Unmodified original bytes; no changes made. No endorsement implied and no additional legal or technological restrictions.",
+        "No rights to third-party books/talks/media or service access inferred."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/ringofai__storyteller/LICENSE"
+      ],
+      "standard_license_support": {
+        "file": "upstream/asmartbear__asb-skills/LICENSE",
+        "standard_source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+        "purpose": "Exact identical complete standard legal terms reused; this does not attribute the selected source to the hosting repository author."
+      }
+    }
+  ]
+}
