@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+<title id="title">Human Video Knowledge Base</title><desc id="desc">An open collection of original video knowledge sources. Abstract film frames connected to a knowledge network.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1423"/><stop offset="1" stop-color="#172b40"/></linearGradient><linearGradient id="line"><stop stop-color="#66e3c0"/><stop offset="1" stop-color="#91b9ff"/></linearGradient></defs>
+<rect width="1600" height="640" rx="0" fill="url(#bg)"/>
+<path d="M0 560H1600M0 80H1600" stroke="#ffffff" stroke-opacity=".07"/>
+<g fill="#a6b6c8" font-family="Arial, Helvetica, sans-serif"><text x="90" y="125" font-size="17" letter-spacing="5">ORIGINAL SOURCES · SHARED KNOWLEDGE</text></g>
+<g fill="#f5f8fc" font-family="Arial, Helvetica, sans-serif" font-weight="700"><text x="86" y="258" font-size="80" letter-spacing="-3">Human Video</text><text x="86" y="350" font-size="80" letter-spacing="-3">Knowledge Base</text></g>
+<rect x="90" y="393" width="70" height="4" rx="2" fill="#66e3c0"/>
+<text x="90" y="454" fill="#b9c7d7" font-family="Arial, Helvetica, sans-serif" font-size="24">Read the originals. Understand the craft.</text>
+<text x="90" y="595" fill="#a0b2c5" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1">SOURCE FILES / ATTRIBUTION / PROVENANCE</text>
+<g fill="none" stroke="url(#line)" stroke-width="2">
+<path d="M1080 192L1390 155L1450 380L1170 470L1050 330Z" opacity=".4"/>
+<path d="M1080 192L1170 470M1390 155L1050 330M1450 380L1080 192" opacity=".2"/>
+<rect x="1110" y="226" width="260" height="170" rx="14" fill="#172b40"/>
+<rect x="1130" y="246" width="220" height="130" rx="5" stroke-opacity=".35"/>
+<path d="M1214 280L1270 311L1214 342Z" fill="#66e3c0" stroke="none"/>
+</g>
+<g fill="#66e3c0"><circle cx="1080" cy="192" r="7"/><circle cx="1390" cy="155" r="5"/><circle cx="1450" cy="380" r="7"/><circle cx="1170" cy="470" r="5"/><circle cx="1050" cy="330" r="4"/></g>
+<g stroke="#91b9ff" stroke-opacity=".3"><path d="M1100 122h55M1127 95v55M1430 465h40M1450 445v40"/></g>
+</svg>
