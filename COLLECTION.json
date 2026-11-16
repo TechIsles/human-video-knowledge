@@ -1,12 +1,12 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 1350,
-  "learning_or_source_body_files": 827,
+  "original_payload_files": 1358,
+  "learning_or_source_body_files": 835,
   "license_or_notice_files": 523,
-  "original_payload_bytes": 102989567,
-  "unique_original_sha256": 1349,
-  "new_full_canonical_source_objects_in_expansion": 630,
+  "original_payload_bytes": 103327014,
+  "unique_original_sha256": 1357,
+  "new_full_canonical_source_objects_in_expansion": 638,
   "manifests": [
     "SOURCES.json",
     "batches/0001/SOURCES.json",
@@ -134,8 +134,10 @@
     "batches/0124/SOURCES.json",
     "batches/0125/SOURCES.json",
     "batches/0126/SOURCES.json",
-    "batches/0127/SOURCES.json"
+    "batches/0127/SOURCES.json",
+    "batches/0128/SOURCES.json"
   ],
-  "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed.",
-  "unique_complete_canonical_source_objects": 630
+  "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed. Seven full article text files are explicitly marked normalized extractions, not byte-identical original pages; embedded and third-party media are excluded.",
+  "unique_complete_canonical_source_objects": 638,
+  "normalized_full_article_text_files": 7
 }

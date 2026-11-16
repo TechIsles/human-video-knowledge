@@ -1,0 +1,191 @@
+{
+  "batch": "0128",
+  "scope": "Seven complete licensed article-text extractions with formatting normalized and external media excluded; one unchanged AGPL skill document and its license.",
+  "new_canonical_source_objects": 8,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/web__er.educause.edu/SRC-e6d1c5d7ccb2/original.html",
+      "repository": "web/er.educause.edu",
+      "upstream_path": "SRC-e6d1c5d7ccb2/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://er.educause.edu/articles/2022/2/short-and-sweet-the-educational-benefits-of-microlectures-and-active-learning",
+      "title": "Short and Sweet: The Educational Benefits of Microlectures and Active Learning",
+      "size_bytes": 28213,
+      "sha256": "dc3a440fb9bc6d346f263c7273afcca2b3a1462531df4532861a631623299300",
+      "git_blob_sha1": "658162b20f1269e267d1d09522eda66210c6427f",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-e6d1c5d7ccb2"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://er.educause.edu/articles/2022/2/short-and-sweet-the-educational-benefits-of-microlectures-and-active-learning"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__ploto.me/SRC-708c28735224/original.html",
+      "repository": "web/ploto.me",
+      "upstream_path": "SRC-708c28735224/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://ploto.me/posts/how-i-made-a-long-video-with-ai/",
+      "title": "我是如何借助AI制作一支长视频的",
+      "size_bytes": 85945,
+      "sha256": "8f216443ac73edcca761d1c954cb052440b784753d89b8b5c87fda71858ec3b7",
+      "git_blob_sha1": "988f30a0696e2c81c915580150ac90b1ebc72c49",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-708c28735224"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://ploto.me/posts/how-i-made-a-long-video-with-ai/"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__oatext.com/SRC-96f17090abd0/original.html",
+      "repository": "web/oatext.com",
+      "upstream_path": "SRC-96f17090abd0/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://oatext.com/the-kidney-time-educational-health-animation-development-process-lessons-learned.php",
+      "title": "The KidneyTIME educational health animation development process: lessons learned",
+      "size_bytes": 52859,
+      "sha256": "32f0392efb9b37e5323cee9641c5f27718fccd88e2a307d2a490937c4007f3a8",
+      "git_blob_sha1": "4423d52c40719f834f77ee532055180622972133",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY (version not specified)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-96f17090abd0"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://oatext.com/the-kidney-time-educational-health-animation-development-process-lessons-learned.php"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__www.hesge.ch/SRC-0a3f42e24d85/original.html",
+      "repository": "web/www.hesge.ch",
+      "upstream_path": "SRC-0a3f42e24d85/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.hesge.ch/head/issue/en/publications/manipulative-magic-editing-ael-dallier-vega-delphine-jeanneret",
+      "title": "The Manipulative Magic of Editing: interview with Ael Dallier Vega",
+      "size_bytes": 18229,
+      "sha256": "3aed2aa8b430702be28eba922a41bdfb9f201812d0acb4ecfd377920d1636daa",
+      "git_blob_sha1": "c17c2269bb3a7c4fb82b37eb1a616356ee333381",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-0a3f42e24d85"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://www.hesge.ch/head/issue/en/publications/manipulative-magic-editing-ael-dallier-vega-delphine-jeanneret"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__formative.jmir.org/SRC-235b8486056b/original.html",
+      "repository": "web/formative.jmir.org",
+      "upstream_path": "SRC-235b8486056b/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://formative.jmir.org/2026/1/e90037",
+      "title": "Learning Gain and User Experience of AI Avatar–Based and Human-Presented Explainer Videos: Prospective Randomized Crossover Feasibility Study",
+      "size_bytes": 68952,
+      "sha256": "7bdefa44ca57579b3a5b33834dcef2a055c14240714bbf451ae3662188e515f3",
+      "git_blob_sha1": "ff658381dee53238a92bfe80857d0b71c09644c4",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-235b8486056b"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://formative.jmir.org/2026/1/e90037"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__dispatch.souzian.com/SRC-063143f264f2/original.html",
+      "repository": "web/dispatch.souzian.com",
+      "upstream_path": "SRC-063143f264f2/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://dispatch.souzian.com/p/firouzeh-khosrovani-morteza-ahmadvand",
+      "title": "What Migration Leaves Behind: Firouzeh Khosrovani and Morteza Ahmadvand on Past Future Continuous",
+      "size_bytes": 46438,
+      "sha256": "eb0d5f7b94317575cc6f507baea32fe20da3140443b1cee7360705b00b409e54",
+      "git_blob_sha1": "26b4c2af953562ee96bbacf45c0ae8d7e51704ed",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-063143f264f2"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://dispatch.souzian.com/p/firouzeh-khosrovani-morteza-ahmadvand"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__dispatch.souzian.com/SRC-cd822dce354d/original.html",
+      "repository": "web/dispatch.souzian.com",
+      "upstream_path": "SRC-cd822dce354d/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://dispatch.souzian.com/p/inna-sahakyan-ruben-ghazaryan",
+      "title": "Inna Sahakyan And Ruben Ghazaryan On Outliving Shakespeare, Ageing And The Rooms Left Outside The Frame",
+      "size_bytes": 29735,
+      "sha256": "2246ee7341d38f07cf6f2d92a260e4ac25f478313872a3fb262f0ea1f395cd8a",
+      "git_blob_sha1": "5ab2939206282fc6ad72e6e24a2355cc16039520",
+      "role": "licensed_full_article_text",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-cd822dce354d"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://dispatch.souzian.com/p/inna-sahakyan-ruben-ghazaryan"
+      ],
+      "conditions": "Complete article textual content extracted from publicly licensed page. Formatting normalized; navigation, scripts and embedded media removed. Original bytes are not unchanged. Original author attribution and licensing retained; CC BY-SA text remains under CC BY-SA 4.0 where applicable. No third-party image/audio/video assets included.",
+      "transformation": "Article container extracted; navigation, scripts, embedded image/audio/video removed; HTML normalized. Full textual content retained."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-df594892ae7d/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-df594892ae7d/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/skills/news-rough-cut/SKILL.md",
+      "title": "OpenChatCut: news-rough-cut skill",
+      "size_bytes": 7076,
+      "sha256": "5e2310e111ffdb3559a80dfe423dd280ba96633ee0c7c523c55b590cd9637a3a",
+      "git_blob_sha1": "9bb018116ba12daba20aa366e502233de63bf76b",
+      "role": "original_article",
+      "license": "AGPL-3.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-df594892ae7d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/LICENSE"
+      ],
+      "conditions": "Unmodified complete skill source document. AGPL-3.0 retained for this file; no relicensing or software execution. Linked reference files are not included."
+    }
+  ]
+}
