@@ -1,0 +1,89 @@
+{
+  "batch": "0092",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/0xS4N4TG__papercut-explainer/skills/papercut-storyboard/SKILL.md",
+      "repository": "0xS4N4TG/papercut-explainer",
+      "upstream_path": "skills/papercut-storyboard/SKILL.md",
+      "upstream_commit": "ff8223abc8136cc09e8d7e9b62ecb5d080c389e1",
+      "source_url": "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/skills/papercut-storyboard/SKILL.md",
+      "size_bytes": 6933,
+      "sha256": "6b69d53f7ae5cbee47008c6e9f2fafe946de5912bf3ac2d72daab709cb8329e5",
+      "git_blob_sha1": "fd0c719c8b97e7eb8824497093f93a5bb54b3c78",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c764a5838917"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/LICENSE",
+        "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/THIRD_PARTY.md"
+      ],
+      "conditions": "Preserve original bytes and MIT copyright plus third-party exclusions. Selected instructional document only; no media, fonts, dependencies or example films.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/0xS4N4TG__papercut-explainer/LICENSE",
+        "upstream/0xS4N4TG__papercut-explainer/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/0xS4N4TG__papercut-explainer/LICENSE",
+      "repository": "0xS4N4TG/papercut-explainer",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ff8223abc8136cc09e8d7e9b62ecb5d080c389e1",
+      "source_url": "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "3205361ad390975d3e982e08a61559186e1aca079a93adcabb82c981bbc34eb1",
+      "git_blob_sha1": "c05ea285ed28f096801a8fa081ee27d91b435a1e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c764a5838917"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/LICENSE",
+        "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/THIRD_PARTY.md"
+      ],
+      "conditions": "Preserve original bytes and MIT copyright plus third-party exclusions. Selected instructional document only; no media, fonts, dependencies or example films.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/0xS4N4TG__papercut-explainer/LICENSE",
+        "upstream/0xS4N4TG__papercut-explainer/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/0xS4N4TG__papercut-explainer/THIRD_PARTY.md",
+      "repository": "0xS4N4TG/papercut-explainer",
+      "upstream_path": "THIRD_PARTY.md",
+      "upstream_commit": "ff8223abc8136cc09e8d7e9b62ecb5d080c389e1",
+      "source_url": "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/THIRD_PARTY.md",
+      "size_bytes": 2261,
+      "sha256": "ceadde54b4dab1c117f035ee4a930b88a220bb7209a8b2e4dee6279a9ea5d9db",
+      "git_blob_sha1": "3c0f1c9318a91af15e7f6fc216ae9d5c7da5fd7e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c764a5838917"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/LICENSE",
+        "https://github.com/0xS4N4TG/papercut-explainer/blob/ff8223abc8136cc09e8d7e9b62ecb5d080c389e1/THIRD_PARTY.md"
+      ],
+      "conditions": "Preserve original bytes and MIT copyright plus third-party exclusions. Selected instructional document only; no media, fonts, dependencies or example films.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/0xS4N4TG__papercut-explainer/LICENSE",
+        "upstream/0xS4N4TG__papercut-explainer/THIRD_PARTY.md"
+      ]
+    }
+  ]
+}
