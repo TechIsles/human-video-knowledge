@@ -1,0 +1,212 @@
+{
+  "batch": "0082",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/asmartbear__asb-skills/LICENSE",
+      "repository": "smixs/creative-director-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ac06eb255371da35d1db0a146dbfcca8c8857543",
+      "source_url": "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/LICENSE",
+      "size_bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "git_blob_sha1": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c2e0a819374"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/LICENSE",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/NOTICE",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/README.md",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/creative-director/SKILL.md"
+      ],
+      "conditions": [
+        "Credit Serge Shima with preserved source URL and all original attribution/NOTICE links.",
+        "Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ ; complete legal text retained in LICENSE.",
+        "Unchanged original bytes; no modifications. No endorsement and no additional legal/technological restrictions.",
+        "No third-party campaign libraries, books, reference guides, vendor marks, models or media included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/smixs__creative-director-skill/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/smixs__creative-director-skill/NOTICE",
+      "repository": "smixs/creative-director-skill",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "ac06eb255371da35d1db0a146dbfcca8c8857543",
+      "source_url": "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/NOTICE",
+      "size_bytes": 554,
+      "sha256": "b82cfae27f5c2e390ce50f99534763d3896819ca85380836c39fbaa3612dbb43",
+      "git_blob_sha1": "3f8e617125cbbfe4709a145583b4ba621996b670",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c2e0a819374"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/LICENSE",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/NOTICE",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/README.md",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/creative-director/SKILL.md"
+      ],
+      "conditions": [
+        "Credit Serge Shima with preserved source URL and all original attribution/NOTICE links.",
+        "Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ ; complete legal text retained in LICENSE.",
+        "Unchanged original bytes; no modifications. No endorsement and no additional legal/technological restrictions.",
+        "No third-party campaign libraries, books, reference guides, vendor marks, models or media included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/smixs__creative-director-skill/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/smixs__creative-director-skill/creative-director/SKILL.md",
+      "repository": "smixs/creative-director-skill",
+      "upstream_path": "creative-director/SKILL.md",
+      "upstream_commit": "ac06eb255371da35d1db0a146dbfcca8c8857543",
+      "source_url": "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/creative-director/SKILL.md",
+      "size_bytes": 20426,
+      "sha256": "9c312234bf6ad35c61860a63f08724736ba66a7f96b653a1ac5210ae672eeac6",
+      "git_blob_sha1": "ca9d3189277d5cd51524672b01d71a0b36f1065c",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c2e0a819374"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/LICENSE",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/NOTICE",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/README.md",
+        "https://github.com/smixs/creative-director-skill/blob/ac06eb255371da35d1db0a146dbfcca8c8857543/creative-director/SKILL.md"
+      ],
+      "conditions": [
+        "Credit Serge Shima with preserved source URL and all original attribution/NOTICE links.",
+        "Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ ; complete legal text retained in LICENSE.",
+        "Unchanged original bytes; no modifications. No endorsement and no additional legal/technological restrictions.",
+        "No third-party campaign libraries, books, reference guides, vendor marks, models or media included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/smixs__creative-director-skill/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/asmartbear__asb-skills/LICENSE",
+      "repository": "smixs/visual-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "92be33a5a73325fb3d8e0c73b22744b114e2a90e",
+      "source_url": "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/LICENSE",
+      "size_bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "git_blob_sha1": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-010ab4737176"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/LICENSE",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/NOTICE",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/README.md",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/video/SKILL.md"
+      ],
+      "conditions": [
+        "Credit Serge Shima with preserved source URL and all original attribution/NOTICE links.",
+        "Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ ; complete legal text retained in LICENSE.",
+        "Unchanged original bytes; no modifications. No endorsement and no additional legal/technological restrictions.",
+        "No third-party campaign libraries, books, reference guides, vendor marks, models or media included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/smixs__visual-skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/smixs__visual-skills/NOTICE",
+      "repository": "smixs/visual-skills",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "92be33a5a73325fb3d8e0c73b22744b114e2a90e",
+      "source_url": "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/NOTICE",
+      "size_bytes": 1009,
+      "sha256": "de856e49bba89750eb1d3d155f201c5bbbef05e55afaa6942ed4e0937ad44fbf",
+      "git_blob_sha1": "ec40c203365e6b3747c2e711e77e8ab327f98e44",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-010ab4737176"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/LICENSE",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/NOTICE",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/README.md",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/video/SKILL.md"
+      ],
+      "conditions": [
+        "Credit Serge Shima with preserved source URL and all original attribution/NOTICE links.",
+        "Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ ; complete legal text retained in LICENSE.",
+        "Unchanged original bytes; no modifications. No endorsement and no additional legal/technological restrictions.",
+        "No third-party campaign libraries, books, reference guides, vendor marks, models or media included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/smixs__visual-skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/smixs__visual-skills/video/SKILL.md",
+      "repository": "smixs/visual-skills",
+      "upstream_path": "video/SKILL.md",
+      "upstream_commit": "92be33a5a73325fb3d8e0c73b22744b114e2a90e",
+      "source_url": "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/video/SKILL.md",
+      "size_bytes": 10095,
+      "sha256": "a9c0b2b00eadd1c6b46669a939639eba4b7ef6aa250f25dccb09f9166e81ec0d",
+      "git_blob_sha1": "f764ae5e7c749aca504cbcf8618a88689611e325",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-010ab4737176"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/LICENSE",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/NOTICE",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/README.md",
+        "https://github.com/smixs/visual-skills/blob/92be33a5a73325fb3d8e0c73b22744b114e2a90e/video/SKILL.md"
+      ],
+      "conditions": [
+        "Credit Serge Shima with preserved source URL and all original attribution/NOTICE links.",
+        "Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ ; complete legal text retained in LICENSE.",
+        "Unchanged original bytes; no modifications. No endorsement and no additional legal/technological restrictions.",
+        "No third-party campaign libraries, books, reference guides, vendor marks, models or media included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE",
+        "upstream/smixs__visual-skills/NOTICE"
+      ]
+    }
+  ]
+}
