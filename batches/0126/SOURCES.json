@@ -1,0 +1,54 @@
+{
+  "batch": "0126",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/web__www.liubruce.me/SRC-5c490bd877b1/original.pdf",
+      "repository": "web/www.liubruce.me",
+      "upstream_path": "SRC-5c490bd877b1/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.liubruce.me/pdf/projects/liu2022crossa11y.pdf",
+      "title": "CrossA11y: Identifying Video Accessibility Issues via Cross-modal Grounding",
+      "size_bytes": 1825283,
+      "sha256": "687f9181848e5c8bb440fb23c5c8a091e0baa41bffe57b8e9a7ab630303c802a",
+      "git_blob_sha1": "d24de7097f5c2dedaac5e72c21629e8eb3794253",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5c490bd877b1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.liubruce.me/pdf/projects/liu2022crossa11y.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified author-hosted PDF. Retain author attribution and embedded CC BY 4.0 notice. Doki is an author manuscript with placeholder publication metadata, not a verified final publisher version."
+    },
+    {
+      "file": "upstream/web__www.liubruce.me/SRC-88cc56bad8a2/original.pdf",
+      "repository": "web/www.liubruce.me",
+      "upstream_path": "SRC-88cc56bad8a2/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://www.liubruce.me/pdf/projects/liu2026doki.pdf",
+      "title": "A Text-Native Interface for Generative Video Authoring — Doki",
+      "size_bytes": 5114228,
+      "sha256": "c8c06a660d6e609db5b1dc46197045eb4befd57195d86fc359e6d4c4fab14966",
+      "git_blob_sha1": "eab62074f759756c7c2adab9ea0e09a506cf14de",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-88cc56bad8a2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.liubruce.me/pdf/projects/liu2026doki.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified author-hosted PDF. Retain author attribution and embedded CC BY 4.0 notice. Doki is an author manuscript with placeholder publication metadata, not a verified final publisher version."
+    }
+  ]
+}
