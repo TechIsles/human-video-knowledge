@@ -1,0 +1,655 @@
+{
+  "batch": "0108",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 11,
+  "new_original_payload_paths": 17,
+  "files": [
+    {
+      "file": "upstream/Mzs-code__ai-wiki/SKILLS/自研SKILLS/learn-by-story/SKILL.md",
+      "repository": "Mzs-code/ai-wiki",
+      "upstream_path": "SKILLS/自研SKILLS/learn-by-story/SKILL.md",
+      "upstream_commit": "c02ab5a462c844bebcaf588352d5b4d094e7c082",
+      "source_url": "https://github.com/Mzs-code/ai-wiki/blob/c02ab5a462c844bebcaf588352d5b4d094e7c082/SKILLS/%E8%87%AA%E7%A0%94SKILLS/learn-by-story/SKILL.md",
+      "size_bytes": 13175,
+      "sha256": "b0a773ebdbd5793aa61295adc7b4dd7d2409a92b549cd24be44f36d3b41a361e",
+      "git_blob_sha1": "f776225586b46871701df9bbe59e5faa1eaf2e5d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5f73a6d15b25"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Mzs-code/ai-wiki/blob/c02ab5a462c844bebcaf588352d5b4d094e7c082/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Mzs-code__ai-wiki/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Mzs-code__ai-wiki/LICENSE",
+      "repository": "Mzs-code/ai-wiki",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c02ab5a462c844bebcaf588352d5b4d094e7c082",
+      "source_url": "https://github.com/Mzs-code/ai-wiki/blob/c02ab5a462c844bebcaf588352d5b4d094e7c082/LICENSE",
+      "size_bytes": 1077,
+      "sha256": "6eb5b685e5e4685ed4fcb6c541ce7aeec1f7a16d2e13793296923bd1502b98d0",
+      "git_blob_sha1": "93eb8591a704c837c6da58108c71af4c3d01c87d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5f73a6d15b25"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Mzs-code/ai-wiki/blob/c02ab5a462c844bebcaf588352d5b4d094e7c082/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Mzs-code__ai-wiki/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/melvynx__video-agent-skills/skills/studio-script/SKILL.md",
+      "repository": "melvynx/video-agent-skills",
+      "upstream_path": "skills/studio-script/SKILL.md",
+      "upstream_commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "source_url": "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/skills/studio-script/SKILL.md",
+      "size_bytes": 11549,
+      "sha256": "c44586f146348a8ea7d1323f65ed2bf28d5bf93872dcdfdf4ec1cba5ee8b0d56",
+      "git_blob_sha1": "9da1538da4fbbed82cba11f261e748d7f1ef10fc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-796aba33d924"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Melvynx__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Melvynx__video-agent-skills/LICENSE",
+      "repository": "melvynx/video-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "source_url": "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "8954db8e00ded3d5a4716d66e9409c4007e458a7bb1c028cd6a254033011cc2b",
+      "git_blob_sha1": "d4cae1a9bd4d1ce24c4b6505df00e60bfd340d5f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-796aba33d924"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Melvynx__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/rampstackco__claude-skills/skills/content-strategy/SKILL.md",
+      "repository": "rampstackco/claude-skills",
+      "upstream_path": "skills/content-strategy/SKILL.md",
+      "upstream_commit": "9b90db257f7395fab76ff9bfcb808456709f6af3",
+      "source_url": "https://github.com/rampstackco/claude-skills/blob/9b90db257f7395fab76ff9bfcb808456709f6af3/skills/content-strategy/SKILL.md",
+      "size_bytes": 10530,
+      "sha256": "a4babe955d187232db9526e14a1f12f2b8e6f1c1b7f5a06e67bba5fbb14dc9ab",
+      "git_blob_sha1": "9604394b1ea24a3d26906726e93bb372e11b5a28",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bf84ada681d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/rampstackco/claude-skills/blob/9b90db257f7395fab76ff9bfcb808456709f6af3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rampstackco__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/rampstackco__claude-skills/LICENSE",
+      "repository": "rampstackco/claude-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9b90db257f7395fab76ff9bfcb808456709f6af3",
+      "source_url": "https://github.com/rampstackco/claude-skills/blob/9b90db257f7395fab76ff9bfcb808456709f6af3/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "7957f4b291988f21be7cb75637d2efb6edd0369a95d3814cac7ef931f7f10b7c",
+      "git_blob_sha1": "9d5acfd7a3ad1c3c164a15834a06ff101197cae4",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bf84ada681d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rampstackco/claude-skills/blob/9b90db257f7395fab76ff9bfcb808456709f6af3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/rampstackco__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/rhavekost__author-toolkit/skills/narrative-nonfiction/SKILL.md",
+      "repository": "rhavekost/author-toolkit",
+      "upstream_path": "skills/narrative-nonfiction/SKILL.md",
+      "upstream_commit": "b78287003edf52e5f0784ee2b4a004111173358f",
+      "source_url": "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/skills/narrative-nonfiction/SKILL.md",
+      "size_bytes": 15773,
+      "sha256": "ba161a56832fe27300dfc88333d04f10996c9475a65be7116f40d22506010ae4",
+      "git_blob_sha1": "e3afd69d939e2b91e3eac8aef00dec1eb6667178",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-77b17cd7418e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/ATTRIBUTION.md",
+        "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/rhavekost__author-toolkit/ATTRIBUTION.md",
+        "upstream/rhavekost__author-toolkit/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/rhavekost__author-toolkit/ATTRIBUTION.md",
+      "repository": "rhavekost/author-toolkit",
+      "upstream_path": "ATTRIBUTION.md",
+      "upstream_commit": "b78287003edf52e5f0784ee2b4a004111173358f",
+      "source_url": "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/ATTRIBUTION.md",
+      "size_bytes": 945,
+      "sha256": "99dbd5d9da94d91b20c8cfe9dfc5b80da36b2c986afc55b6b1ec890f8ea1084a",
+      "git_blob_sha1": "edd1895e2c1e86c963cdcfc5d108a7e53286cdce",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-77b17cd7418e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/ATTRIBUTION.md",
+        "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/rhavekost__author-toolkit/ATTRIBUTION.md",
+        "upstream/rhavekost__author-toolkit/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/rhavekost__author-toolkit/LICENSE",
+      "repository": "rhavekost/author-toolkit",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b78287003edf52e5f0784ee2b4a004111173358f",
+      "source_url": "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/LICENSE",
+      "size_bytes": 1399,
+      "sha256": "e7e5f4e16aea5bab9d22da5febfd97d1a843610b2f63424cffb8a9e09ad6ab89",
+      "git_blob_sha1": "a4648fd8e472871ded47e91110a2cf7e23135b5b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-77b17cd7418e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/ATTRIBUTION.md",
+        "https://github.com/rhavekost/author-toolkit/blob/b78287003edf52e5f0784ee2b4a004111173358f/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/rhavekost__author-toolkit/ATTRIBUTION.md",
+        "upstream/rhavekost__author-toolkit/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/social-media-skills__video-editing-skill/skills/video-editing-skill/SKILL.md",
+      "repository": "social-media-skills/video-editing-skill",
+      "upstream_path": "skills/video-editing-skill/SKILL.md",
+      "upstream_commit": "8b6fcf6a73103a794bd4693af20f7a0c789b3aa4",
+      "source_url": "https://github.com/social-media-skills/video-editing-skill/blob/8b6fcf6a73103a794bd4693af20f7a0c789b3aa4/skills/video-editing-skill/SKILL.md",
+      "size_bytes": 10137,
+      "sha256": "4d440e040f8b43c6c9889fbfbfb8b9acb4acbd4079ada748adf84a70cdf1b3b2",
+      "git_blob_sha1": "03b4ea8b680fbacd6603b64fe6bfe2d154ba2544",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eba28a3b710b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/social-media-skills/video-editing-skill/blob/8b6fcf6a73103a794bd4693af20f7a0c789b3aa4/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/social-media-skills__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/social-media-skills__skills/LICENSE",
+      "repository": "social-media-skills/video-editing-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8b6fcf6a73103a794bd4693af20f7a0c789b3aa4",
+      "source_url": "https://github.com/social-media-skills/video-editing-skill/blob/8b6fcf6a73103a794bd4693af20f7a0c789b3aa4/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "0da5befdfbe93f4dd08098d43fcd115c8455ae4fef7672f800e761e843727c13",
+      "git_blob_sha1": "875c6a380ad9a9f77c9dc5c87c20825590ab5816",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eba28a3b710b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/social-media-skills/video-editing-skill/blob/8b6fcf6a73103a794bd4693af20f7a0c789b3aa4/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/social-media-skills__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/narrastory__story-architect-skill/SKILL.md",
+      "repository": "narrastory/story-architect-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "55ac32b4c3250ec603ada967c1a49f03603ee249",
+      "source_url": "https://github.com/narrastory/story-architect-skill/blob/55ac32b4c3250ec603ada967c1a49f03603ee249/SKILL.md",
+      "size_bytes": 8504,
+      "sha256": "6a06f8396c91f2a5aa60223d569ffdf33a4aeb68401cca41cc93ac7effdcacba",
+      "git_blob_sha1": "cc7d4da0463e71126a2213b192c54c3ad1a3cdd3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2a340b63a501"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/narrastory/story-architect-skill/blob/55ac32b4c3250ec603ada967c1a49f03603ee249/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/narrastory__story-architect-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/narrastory__story-architect-skill/LICENSE",
+      "repository": "narrastory/story-architect-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "55ac32b4c3250ec603ada967c1a49f03603ee249",
+      "source_url": "https://github.com/narrastory/story-architect-skill/blob/55ac32b4c3250ec603ada967c1a49f03603ee249/LICENSE",
+      "size_bytes": 1091,
+      "sha256": "8cf0d776f4f7cbdf911013609ab4de8bf0a46febd58b5b055cb3c2fd5a56fe0b",
+      "git_blob_sha1": "0fcba7e88e89911b969994e556126fb9febe20f6",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2a340b63a501"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/narrastory/story-architect-skill/blob/55ac32b4c3250ec603ada967c1a49f03603ee249/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/narrastory__story-architect-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/artemnovitckii__content-skills/storytelling/SKILL.md",
+      "repository": "artemnovitckii/content-skills",
+      "upstream_path": "storytelling/SKILL.md",
+      "upstream_commit": "1c6e909c975b15d80f6ffcb0e2b60904b7da6656",
+      "source_url": "https://github.com/artemnovitckii/content-skills/blob/1c6e909c975b15d80f6ffcb0e2b60904b7da6656/storytelling/SKILL.md",
+      "size_bytes": 10609,
+      "sha256": "11fd7a441fa002d8afb97f0b62244819e66b83fed9c39453bf0392d9861d0f09",
+      "git_blob_sha1": "b45a1d72a6388930b774dbe252592d3771a013ea",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d12c81f3602a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/artemnovitckii/content-skills/blob/1c6e909c975b15d80f6ffcb0e2b60904b7da6656/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/artemnovitckii__content-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/artemnovitckii__content-skills/LICENSE",
+      "repository": "artemnovitckii/content-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1c6e909c975b15d80f6ffcb0e2b60904b7da6656",
+      "source_url": "https://github.com/artemnovitckii/content-skills/blob/1c6e909c975b15d80f6ffcb0e2b60904b7da6656/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "657b29541a91fe86079cfab018559d1c0bf6595ec30a5383f877f034928b21f7",
+      "git_blob_sha1": "4941cadb8ad2ccccccc6016c7d157a1fb6a2c88c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d12c81f3602a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/artemnovitckii/content-skills/blob/1c6e909c975b15d80f6ffcb0e2b60904b7da6656/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/artemnovitckii__content-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/tseng71__skills/skills/pudding-data-story/SKILL.md",
+      "repository": "tseng71/skills",
+      "upstream_path": "skills/pudding-data-story/SKILL.md",
+      "upstream_commit": "f2f7d126f7f64f6951fab7805c4619c83b22efbe",
+      "source_url": "https://github.com/tseng71/skills/blob/f2f7d126f7f64f6951fab7805c4619c83b22efbe/skills/pudding-data-story/SKILL.md",
+      "size_bytes": 22201,
+      "sha256": "3c98c35a2fc6025f2260126ad661bac91289b9b0a713f897b5d4c7a61bb115fa",
+      "git_blob_sha1": "c8dde36531bc1577977d4c1ad617079cbc753ff3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-970b5b7d0a8c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/tseng71/skills/blob/f2f7d126f7f64f6951fab7805c4619c83b22efbe/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/tseng71__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/tseng71__skills/LICENSE",
+      "repository": "tseng71/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f2f7d126f7f64f6951fab7805c4619c83b22efbe",
+      "source_url": "https://github.com/tseng71/skills/blob/f2f7d126f7f64f6951fab7805c4619c83b22efbe/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "6118e9956c469408da36bae33eed40e230f29fa808a7e7cbbbfe17fdb13439df",
+      "git_blob_sha1": "269a23e945e4b26eb120944d9214e10ab085ae88",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-970b5b7d0a8c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/tseng71/skills/blob/f2f7d126f7f64f6951fab7805c4619c83b22efbe/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/tseng71__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/.agents/skills/video-storytelling/SKILL.md",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": ".agents/skills/video-storytelling/SKILL.md",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/.agents/skills/video-storytelling/SKILL.md",
+      "size_bytes": 19450,
+      "sha256": "83c3f54825fcad42f946bb8af28d7ea540c065e67e22f2b63962cc8056441129",
+      "git_blob_sha1": "bdac2722d1f190b1184f8dff7fe457cb88c229bc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-18d673604fcc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. Excludes AIS brand materials and example media. Original pipeline teaching document only, permission and third-party boundaries retained.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/LICENSE",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+      "size_bytes": 1520,
+      "sha256": "263623d3ac61f5b09eeceec5af2395bb15e566d0507558f5b6c405f2ba132bd1",
+      "git_blob_sha1": "ac910de62354ed873c7e5c873a7ef58b73365bab",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-18d673604fcc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. Excludes AIS brand materials and example media. Original pipeline teaching document only, permission and third-party boundaries retained.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1957,
+      "sha256": "d805358c6a2bdf7d58e1addfaf9e63c35376f387744c5a77923cbf2db4c629d6",
+      "git_blob_sha1": "7d590c416f1abc94fdf404f108f15ec8109210fa",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-18d673604fcc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. Excludes AIS brand materials and example media. Original pipeline teaching document only, permission and third-party boundaries retained.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "licenses/PIPELINE-USE-PERMISSION.txt",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt",
+      "size_bytes": 721,
+      "sha256": "4adb8af27d57e1aab9cfc372283cfbd583d5fe58911e8eab0caec8f7288e0680",
+      "git_blob_sha1": "4cf6f5d9614c9fa12892c812da55ec1eee6e8d64",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-18d673604fcc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. Excludes AIS brand materials and example media. Original pipeline teaching document only, permission and third-party boundaries retained.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/assafkip__claude-video-editor/skills/video-studio/SKILL.md",
+      "repository": "assafkip/claude-video-editor",
+      "upstream_path": "skills/video-studio/SKILL.md",
+      "upstream_commit": "3f07b6910585d26571844ee1e094c3740da9d947",
+      "source_url": "https://github.com/assafkip/claude-video-editor/blob/3f07b6910585d26571844ee1e094c3740da9d947/skills/video-studio/SKILL.md",
+      "size_bytes": 3364,
+      "sha256": "9d197c9ee382eddf837a75fb3c8d94ceaa20aa0931c4bc569efc627b67cf6e6a",
+      "git_blob_sha1": "0bd6ab56c1c6800dec45ac39b841feb6f17bfa61",
+      "role": "canonical_skill_document",
+      "license": "MIT + Commons Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6d0c0b5977fa"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/assafkip/claude-video-editor/blob/3f07b6910585d26571844ee1e094c3740da9d947/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. MIT+Commons Clause retained in full. Free public archive only: no resale, paid repackaging or paid hosted offering. Original orchestrator entry only, no separately licensed vendored components included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/assafkip__claude-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/assafkip__claude-video-editor/LICENSE",
+      "repository": "assafkip/claude-video-editor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3f07b6910585d26571844ee1e094c3740da9d947",
+      "source_url": "https://github.com/assafkip/claude-video-editor/blob/3f07b6910585d26571844ee1e094c3740da9d947/LICENSE",
+      "size_bytes": 3252,
+      "sha256": "fcfd72f6a71a384fe2c20eaf0f1c3d9be12c0def3caa06cdfd308d780fba7959",
+      "git_blob_sha1": "a44f3e5ec694272d6785199b309d3ebff4cdb54e",
+      "role": "license_notice",
+      "license": "MIT + Commons Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6d0c0b5977fa"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/assafkip/claude-video-editor/blob/3f07b6910585d26571844ee1e094c3740da9d947/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. MIT+Commons Clause retained in full. Free public archive only: no resale, paid repackaging or paid hosted offering. Original orchestrator entry only, no separately licensed vendored components included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/assafkip__claude-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhou9527-lj__universal-video-editing-skill/SKILL.md",
+      "repository": "zhou9527-lj/universal-video-editing-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "f1a71779ab193a652dc950d889171f82875d5baf",
+      "source_url": "https://github.com/zhou9527-lj/universal-video-editing-skill/blob/f1a71779ab193a652dc950d889171f82875d5baf/SKILL.md",
+      "size_bytes": 5186,
+      "sha256": "850af9ff32d220e5b1fd08d5e5b82b72d889878f7320bed84986669ba58a4a3c",
+      "git_blob_sha1": "5528ad51c8cd62c99826e43c835af700e2c82bee",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-081f8c8228ab"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zhou9527-lj/universal-video-editing-skill/blob/f1a71779ab193a652dc950d889171f82875d5baf/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zhou9527-lj__universal-video-editing-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhou9527-lj__universal-video-editing-skill/LICENSE",
+      "repository": "zhou9527-lj/universal-video-editing-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f1a71779ab193a652dc950d889171f82875d5baf",
+      "source_url": "https://github.com/zhou9527-lj/universal-video-editing-skill/blob/f1a71779ab193a652dc950d889171f82875d5baf/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "02b496ea91eeef12e42e1f5b5558975883661ba93327fb1c24abb1d19c2b3aa9",
+      "git_blob_sha1": "5ebe4e58f484d148fef6063059dff45fcf4708ee",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-081f8c8228ab"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zhou9527-lj/universal-video-editing-skill/blob/f1a71779ab193a652dc950d889171f82875d5baf/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zhou9527-lj__universal-video-editing-skill/LICENSE"
+      ]
+    }
+  ]
+}

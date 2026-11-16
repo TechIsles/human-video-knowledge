@@ -1,0 +1,258 @@
+{
+  "batch": "0111",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 5,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/scenario-labs__skills/skills/scenario-formats/SKILL.md",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "skills/scenario-formats/SKILL.md",
+      "upstream_commit": "5429dea302ccc7edbce8ace9d5c1fb6852499540",
+      "source_url": "https://github.com/scenario-labs/skills/blob/5429dea302ccc7edbce8ace9d5c1fb6852499540/skills/scenario-formats/SKILL.md",
+      "size_bytes": 6752,
+      "sha256": "20d2467bd8de9e8358fdea78d75dbccd63ccf0cdda9746a1d915a2dd5239abee",
+      "git_blob_sha1": "770fc6c656e16a3e7dfcb2ae693acc5ed77185f3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96181f8b078d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/5429dea302ccc7edbce8ace9d5c1fb6852499540/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scenario-labs__skills/LICENSE",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5429dea302ccc7edbce8ace9d5c1fb6852499540",
+      "source_url": "https://github.com/scenario-labs/skills/blob/5429dea302ccc7edbce8ace9d5c1fb6852499540/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "26f54ae8c2f3d1fb0e3f810a599e6fb51852d1f176b97578961826be3bb98cef",
+      "git_blob_sha1": "05676553d9d10a0effff673b507b4fcfed652c17",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96181f8b078d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/5429dea302ccc7edbce8ace9d5c1fb6852499540/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ConardLi__garden-skills/skills/web-video-presentation/SKILL.md",
+      "repository": "ConardLi/garden-skills",
+      "upstream_path": "skills/web-video-presentation/SKILL.md",
+      "upstream_commit": "2b9a89340b70f632d31c0f1c69fce94a7912423e",
+      "source_url": "https://github.com/ConardLi/garden-skills/blob/2b9a89340b70f632d31c0f1c69fce94a7912423e/skills/web-video-presentation/SKILL.md",
+      "size_bytes": 23239,
+      "sha256": "0197b0dcbaad0a018ed645cb6ea241dda54c509d920a1b49ba3d516cc0f57f34",
+      "git_blob_sha1": "d4e0beca1b145fc2fc52efb49657296af0b22eca",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eaa471902d12"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ConardLi/garden-skills/blob/2b9a89340b70f632d31c0f1c69fce94a7912423e/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "ConardLi/garden-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2b9a89340b70f632d31c0f1c69fce94a7912423e",
+      "source_url": "https://github.com/ConardLi/garden-skills/blob/2b9a89340b70f632d31c0f1c69fce94a7912423e/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eaa471902d12"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ConardLi/garden-skills/blob/2b9a89340b70f632d31c0f1c69fce94a7912423e/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/emilkowalski__skills/skills/find-animation-opportunities/SKILL.md",
+      "repository": "emilkowalski/skills",
+      "upstream_path": "skills/find-animation-opportunities/SKILL.md",
+      "upstream_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_url": "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/find-animation-opportunities/SKILL.md",
+      "size_bytes": 9808,
+      "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+      "git_blob_sha1": "d3b030fbca9abad9220a032f72d425c6b7fa2de8",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-66951b24b9a6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/emilkowalski__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/emilkowalski__skills/LICENSE",
+      "repository": "emilkowalski/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_url": "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "git_blob_sha1": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-66951b24b9a6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/emilkowalski__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__data-animation-skills/skills/presentation-video/SKILL.md",
+      "repository": "iart-ai/data-animation-skills",
+      "upstream_path": "skills/presentation-video/SKILL.md",
+      "upstream_commit": "8ce2709c3992490251e8a991535b1945f01c6865",
+      "source_url": "https://github.com/iart-ai/data-animation-skills/blob/8ce2709c3992490251e8a991535b1945f01c6865/skills/presentation-video/SKILL.md",
+      "size_bytes": 13668,
+      "sha256": "468b29b3de5021c1d26497f0671f0fa5ffc3fa5494bcdb738f1907ecd6accf3b",
+      "git_blob_sha1": "116f839e0a39f876e6afdf9b84984a7815d3da5e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-db4778b9fa98"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/data-animation-skills/blob/8ce2709c3992490251e8a991535b1945f01c6865/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__b-roll-skills/LICENSE",
+      "repository": "iart-ai/data-animation-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8ce2709c3992490251e8a991535b1945f01c6865",
+      "source_url": "https://github.com/iart-ai/data-animation-skills/blob/8ce2709c3992490251e8a991535b1945f01c6865/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "33d6cd35a20903b5e968a76a1e584a7aeae2c83e3e58ea58ecc50b889b83e668",
+      "git_blob_sha1": "a61b911146037f2ef312f67e9b45de6c99b7f870",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-db4778b9fa98"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/data-animation-skills/blob/8ce2709c3992490251e8a991535b1945f01c6865/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/emilkowalski__skills/skills/improve-animations/SKILL.md",
+      "repository": "emilkowalski/skills",
+      "upstream_path": "skills/improve-animations/SKILL.md",
+      "upstream_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_url": "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/improve-animations/SKILL.md",
+      "size_bytes": 8208,
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+      "git_blob_sha1": "d6e77f37272329af0cc36f9eeedbe5226e86ce63",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fbb8b7cef5b3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/emilkowalski__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/emilkowalski__skills/LICENSE",
+      "repository": "emilkowalski/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_url": "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "git_blob_sha1": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fbb8b7cef5b3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/emilkowalski__skills/LICENSE"
+      ]
+    }
+  ]
+}

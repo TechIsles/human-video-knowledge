@@ -1,0 +1,505 @@
+{
+  "batch": "0109",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 8,
+  "new_original_payload_paths": 12,
+  "files": [
+    {
+      "file": "upstream/melvynx__video-agent-skills/skills/insta-audit/SKILL.md",
+      "repository": "melvynx/video-agent-skills",
+      "upstream_path": "skills/insta-audit/SKILL.md",
+      "upstream_commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "source_url": "https://github.com/melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/skills/insta-audit/SKILL.md",
+      "size_bytes": 8932,
+      "sha256": "e3971b76f6c6b239c8753366d6fab7de3bf05f82f502b8dbce66460a7ab57bbc",
+      "git_blob_sha1": "3dcf62385b34c5155ae6f0942485f4542db419a1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9bc3c63ae60c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Melvynx__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Melvynx__video-agent-skills/LICENSE",
+      "repository": "melvynx/video-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "source_url": "https://github.com/melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "8954db8e00ded3d5a4716d66e9409c4007e458a7bb1c028cd6a254033011cc2b",
+      "git_blob_sha1": "d4cae1a9bd4d1ce24c4b6505df00e60bfd340d5f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9bc3c63ae60c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Melvynx__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/.agents/skills/short-form-edit/SKILL.md",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": ".agents/skills/short-form-edit/SKILL.md",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/.agents/skills/short-form-edit/SKILL.md",
+      "size_bytes": 21737,
+      "sha256": "61fce1ff999fc96b69c4cf620d15b184fe4f93e9ea0bf0ef5e8fe66017b34cde",
+      "git_blob_sha1": "412e58e3fd8939fe261b568024b0b6572f718463",
+      "role": "canonical_skill_document",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8ef29aae921c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/LICENSE",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+      "size_bytes": 1520,
+      "sha256": "263623d3ac61f5b09eeceec5af2395bb15e566d0507558f5b6c405f2ba132bd1",
+      "git_blob_sha1": "ac910de62354ed873c7e5c873a7ef58b73365bab",
+      "role": "license_notice",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8ef29aae921c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1957,
+      "sha256": "d805358c6a2bdf7d58e1addfaf9e63c35376f387744c5a77923cbf2db4c629d6",
+      "git_blob_sha1": "7d590c416f1abc94fdf404f108f15ec8109210fa",
+      "role": "license_notice",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8ef29aae921c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt",
+      "repository": "nateherkai/herk-edit-kit",
+      "upstream_path": "licenses/PIPELINE-USE-PERMISSION.txt",
+      "upstream_commit": "10511e5af86fc47756ea89803b397422e2d89284",
+      "source_url": "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt",
+      "size_bytes": 721,
+      "sha256": "4adb8af27d57e1aab9cfc372283cfbd583d5fe58911e8eab0caec8f7288e0680",
+      "git_blob_sha1": "4cf6f5d9614c9fa12892c812da55ec1eee6e8d64",
+      "role": "license_notice",
+      "license": "Herk Edit Kit Use Permission",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8ef29aae921c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/LICENSE",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/THIRD_PARTY_NOTICES.md",
+        "https://github.com/nateherkai/herk-edit-kit/blob/10511e5af86fc47756ea89803b397422e2d89284/licenses/PIPELINE-USE-PERMISSION.txt"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/nateherkai__herk-edit-kit/LICENSE",
+        "upstream/nateherkai__herk-edit-kit/THIRD_PARTY_NOTICES.md",
+        "upstream/nateherkai__herk-edit-kit/licenses/PIPELINE-USE-PERMISSION.txt"
+      ]
+    },
+    {
+      "file": "upstream/kambleakash0__agent-skills/skills/script-writer/SKILL.md",
+      "repository": "kambleakash0/agent-skills",
+      "upstream_path": "skills/script-writer/SKILL.md",
+      "upstream_commit": "b47a49a72458411f4e18f54848761b995f68b45d",
+      "source_url": "https://github.com/kambleakash0/agent-skills/blob/b47a49a72458411f4e18f54848761b995f68b45d/skills/script-writer/SKILL.md",
+      "size_bytes": 13834,
+      "sha256": "a082b07f2248d10ca97a82c973501fcd522d1ec47c8130b076a3b28d8b5d6ca2",
+      "git_blob_sha1": "8d5e33a68960f4423d5e5a2513038c1e67b975e8",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f70bd1956d2f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/kambleakash0/agent-skills/blob/b47a49a72458411f4e18f54848761b995f68b45d/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kambleakash0__agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kambleakash0__agent-skills/LICENSE",
+      "repository": "kambleakash0/agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b47a49a72458411f4e18f54848761b995f68b45d",
+      "source_url": "https://github.com/kambleakash0/agent-skills/blob/b47a49a72458411f4e18f54848761b995f68b45d/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "a203892c3308a261ca682ad4a88e7799a31056f0e6c593e83a2fa97f3bad762f",
+      "git_blob_sha1": "5ebf79b777a99f364722f845608445bd0b92f6f0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f70bd1956d2f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/kambleakash0/agent-skills/blob/b47a49a72458411f4e18f54848761b995f68b45d/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kambleakash0__agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/skill-creator/SKILL.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/skill-creator/SKILL.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/SKILL.md",
+      "size_bytes": 33168,
+      "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+      "git_blob_sha1": "65b3a402dbd09b8e83f9d637c6b553875189085c",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2e0e3ea16edf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/skill-creator/LICENSE.txt",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/LICENSE.txt",
+      "size_bytes": 11345,
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "git_blob_sha1": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2e0e3ea16edf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 46162,
+      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
+      "git_blob_sha1": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2e0e3ea16edf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/littlespray__VE-Bench/README.md",
+      "repository": "littlespray/VE-Bench",
+      "upstream_path": "README.md",
+      "upstream_commit": "692faa944e6215c1a032cdd350c2d15d48a15156",
+      "source_url": "https://github.com/littlespray/VE-Bench/blob/692faa944e6215c1a032cdd350c2d15d48a15156/README.md",
+      "size_bytes": 4294,
+      "sha256": "1b7df7439f61c25020c4a6c03a3111daba63a3dce83cb782fc5d46ce319cc76e",
+      "git_blob_sha1": "e4e6d91624db2bb09aa4c0a4fc7f5f116f663ea0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7bca29380ca6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/littlespray/VE-Bench/blob/692faa944e6215c1a032cdd350c2d15d48a15156/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/littlespray__VE-Bench/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/littlespray__VE-Bench/LICENSE",
+      "repository": "littlespray/VE-Bench",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "692faa944e6215c1a032cdd350c2d15d48a15156",
+      "source_url": "https://github.com/littlespray/VE-Bench/blob/692faa944e6215c1a032cdd350c2d15d48a15156/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "21e828dce16bf999a150cf5bde2808430bb91872c3f6c915322ca40ca3890083",
+      "git_blob_sha1": "4e7e37894e74e7209176a15c76bfbff50d2622ed",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7bca29380ca6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/littlespray/VE-Bench/blob/692faa944e6215c1a032cdd350c2d15d48a15156/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/littlespray__VE-Bench/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mlflow__skills/agent-evaluation/SKILL.md",
+      "repository": "mlflow/skills",
+      "upstream_path": "agent-evaluation/SKILL.md",
+      "upstream_commit": "218d1d4c8fc60322a398024f06fb246b48c5c790",
+      "source_url": "https://github.com/mlflow/skills/blob/218d1d4c8fc60322a398024f06fb246b48c5c790/agent-evaluation/SKILL.md",
+      "size_bytes": 23032,
+      "sha256": "3a0d868663fb53b7e36ca7145054d7e7c084452fef9cbb5417f295675335a9ed",
+      "git_blob_sha1": "00b03d8872118f07e5afcc582fcfc4e0c3e21fcf",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea01b13abde5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mlflow/skills/blob/218d1d4c8fc60322a398024f06fb246b48c5c790/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "mlflow/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "218d1d4c8fc60322a398024f06fb246b48c5c790",
+      "source_url": "https://github.com/mlflow/skills/blob/218d1d4c8fc60322a398024f06fb246b48c5c790/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea01b13abde5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mlflow/skills/blob/218d1d4c8fc60322a398024f06fb246b48c5c790/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/CommitStrip__video-understanding-skill/SKILL.md",
+      "repository": "CommitStrip/video-understanding-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "af36fa45655cc7f33f8fdb4b73ec8133e5aac418",
+      "source_url": "https://github.com/CommitStrip/video-understanding-skill/blob/af36fa45655cc7f33f8fdb4b73ec8133e5aac418/SKILL.md",
+      "size_bytes": 10416,
+      "sha256": "488eacd7549027f6c39823a3bc37fb1b6d9cf4532d7fa69e08eff62659eccc15",
+      "git_blob_sha1": "3369b2ff149f0f3d7aa3cfed9531541b16076f6e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ae8d2e993611"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/CommitStrip/video-understanding-skill/blob/af36fa45655cc7f33f8fdb4b73ec8133e5aac418/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/CommitStrip__video-understanding-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/CommitStrip__video-understanding-skill/LICENSE",
+      "repository": "CommitStrip/video-understanding-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "af36fa45655cc7f33f8fdb4b73ec8133e5aac418",
+      "source_url": "https://github.com/CommitStrip/video-understanding-skill/blob/af36fa45655cc7f33f8fdb4b73ec8133e5aac418/LICENSE",
+      "size_bytes": 1094,
+      "sha256": "3ea0ed91812443d80fe6f57e810dfd1192be29b7be4abb9ec2c3e260e350ff83",
+      "git_blob_sha1": "3b99150f63a9f4fc23fcc17013160eb454e811ab",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ae8d2e993611"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/CommitStrip/video-understanding-skill/blob/af36fa45655cc7f33f8fdb4b73ec8133e5aac418/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/CommitStrip__video-understanding-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/marvellam__interview-skill/SKILL.md",
+      "repository": "marvellam/interview-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "bfcb3a74dcfb823928a8daefd8037c14be662a01",
+      "source_url": "https://github.com/marvellam/interview-skill/blob/bfcb3a74dcfb823928a8daefd8037c14be662a01/SKILL.md",
+      "size_bytes": 6516,
+      "sha256": "ebedfcc3883129e8bc0286a752d977125c946910d38ceae4a6d46dc3c5a960e5",
+      "git_blob_sha1": "418bf28cd6f75f5cfabee4a38aa8490ed13bc13c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e0db2224c5d1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/marvellam/interview-skill/blob/bfcb3a74dcfb823928a8daefd8037c14be662a01/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/marvellam__interview-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/marvellam__interview-skill/LICENSE",
+      "repository": "marvellam/interview-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "bfcb3a74dcfb823928a8daefd8037c14be662a01",
+      "source_url": "https://github.com/marvellam/interview-skill/blob/bfcb3a74dcfb823928a8daefd8037c14be662a01/LICENSE",
+      "size_bytes": 1060,
+      "sha256": "b85bfb8141dfbbd76e9d04b48bdc58af72bc51b5c2d6a0da8f7b220f1c83c508",
+      "git_blob_sha1": "d60c5fd332c582f3f3b30130d0fe3c6f97f6242e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e0db2224c5d1"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/marvellam/interview-skill/blob/bfcb3a74dcfb823928a8daefd8037c14be662a01/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/marvellam__interview-skill/LICENSE"
+      ]
+    }
+  ]
+}

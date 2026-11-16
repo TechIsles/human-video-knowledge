@@ -1,0 +1,615 @@
+{
+  "batch": "0110",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 9,
+  "new_original_payload_paths": 20,
+  "files": [
+    {
+      "file": "upstream/spdx__license-list-data/text/GPL-3.0-only.txt",
+      "repository": "spdx/license-list-data",
+      "upstream_path": "text/GPL-3.0-only.txt",
+      "upstream_commit": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "source_url": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/GPL-3.0-only.txt",
+      "size_bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "git_blob_sha1": "f6cdd22a6c1fbc887e08a215cb4beb3c47048041",
+      "role": "license_notice",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7b19b8f62a3f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/GPL-3.0-only.txt"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/spdx__license-list-data/text/GPL-3.0-only.txt"
+      ]
+    },
+    {
+      "file": "upstream/ysyecust__lecture-to-notes/skills/lecture-to-notes/SKILL.md",
+      "repository": "ysyecust/lecture-to-notes",
+      "upstream_path": "skills/lecture-to-notes/SKILL.md",
+      "upstream_commit": "347a8369d67ab78458f6ac31a9f3741559850922",
+      "source_url": "https://github.com/ysyecust/lecture-to-notes/blob/347a8369d67ab78458f6ac31a9f3741559850922/skills/lecture-to-notes/SKILL.md",
+      "size_bytes": 58638,
+      "sha256": "9b215aa60eff98748c2b0e1cbea0bfc3ae8e81277a205a5b2ac292ebe7867025",
+      "git_blob_sha1": "a668f3d35e3c8476731991a76f8df562c8f9858a",
+      "role": "canonical_skill_document",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7b19b8f62a3f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ysyecust/lecture-to-notes/blob/347a8369d67ab78458f6ac31a9f3741559850922/LICENSE",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/GPL-3.0-only.txt"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/spdx__license-list-data/text/GPL-3.0-only.txt",
+        "upstream/ysyecust__lecture-to-notes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ysyecust__lecture-to-notes/LICENSE",
+      "repository": "ysyecust/lecture-to-notes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "347a8369d67ab78458f6ac31a9f3741559850922",
+      "source_url": "https://github.com/ysyecust/lecture-to-notes/blob/347a8369d67ab78458f6ac31a9f3741559850922/LICENSE",
+      "size_bytes": 1029,
+      "sha256": "205f8556c3a6caa999fc189b5eb72e10c341b25e47d4d7883dbff80a6b489922",
+      "git_blob_sha1": "be583f6a487a707dc8cec82589a9143b3f475eaf",
+      "role": "license_notice",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7b19b8f62a3f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ysyecust/lecture-to-notes/blob/347a8369d67ab78458f6ac31a9f3741559850922/LICENSE",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/GPL-3.0-only.txt"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/spdx__license-list-data/text/GPL-3.0-only.txt",
+        "upstream/ysyecust__lecture-to-notes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhengxn1__auto-cut-skill/SKILL.md",
+      "repository": "zhengxn1/auto-cut-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "0391760c97708c4a70ca52e281f89a07bfbec374",
+      "source_url": "https://github.com/zhengxn1/auto-cut-skill/blob/0391760c97708c4a70ca52e281f89a07bfbec374/SKILL.md",
+      "size_bytes": 16314,
+      "sha256": "bd7f9eaa9325f326e5e6aa51f6ff0769c92cf122b6c492bb665ffd1f7fe20872",
+      "git_blob_sha1": "28c5f01b5560bfdd3a34412677e396406877cb87",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3e9f429f7531"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zhengxn1/auto-cut-skill/blob/0391760c97708c4a70ca52e281f89a07bfbec374/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "zhengxn1/auto-cut-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "0391760c97708c4a70ca52e281f89a07bfbec374",
+      "source_url": "https://github.com/zhengxn1/auto-cut-skill/blob/0391760c97708c4a70ca52e281f89a07bfbec374/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3e9f429f7531"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zhengxn1/auto-cut-skill/blob/0391760c97708c4a70ca52e281f89a07bfbec374/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Gang-of-Beads__video-understanding-skill/SKILL.md",
+      "repository": "Gang-of-Beads/video-understanding-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "5430cfbb6d072361de21b335e9dc19c6bf010b04",
+      "source_url": "https://github.com/Gang-of-Beads/video-understanding-skill/blob/5430cfbb6d072361de21b335e9dc19c6bf010b04/SKILL.md",
+      "size_bytes": 8209,
+      "sha256": "75419e430fe2ec677ba604cbd7d160c16bb9acd8fef2d57e2dada55bfcf8ff25",
+      "git_blob_sha1": "c532613005bd5ff660e42077e3b4dc96a377430b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8093997b2439"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Gang-of-Beads/video-understanding-skill/blob/5430cfbb6d072361de21b335e9dc19c6bf010b04/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Gang-of-Beads__video-understanding-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Gang-of-Beads__video-understanding-skill/LICENSE",
+      "repository": "Gang-of-Beads/video-understanding-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5430cfbb6d072361de21b335e9dc19c6bf010b04",
+      "source_url": "https://github.com/Gang-of-Beads/video-understanding-skill/blob/5430cfbb6d072361de21b335e9dc19c6bf010b04/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "7e1141646e1a7179aa1817d24f096e2184ff14e7faa1a0170363838680a8614f",
+      "git_blob_sha1": "339307bd7f1eec52b2927de2c83594ea1b60c950",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8093997b2439"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Gang-of-Beads/video-understanding-skill/blob/5430cfbb6d072361de21b335e9dc19c6bf010b04/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Gang-of-Beads__video-understanding-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TuolaGe__demo-led-talking-head-video/SKILL.md",
+      "repository": "TuolaGe/demo-led-talking-head-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "4fbdd394ede2a24a13eeeff73062eb708be1acea",
+      "source_url": "https://github.com/TuolaGe/demo-led-talking-head-video/blob/4fbdd394ede2a24a13eeeff73062eb708be1acea/SKILL.md",
+      "size_bytes": 18573,
+      "sha256": "a87635036300e012788d85d77f970ddd926e59d4afb9a00d6ab801df6a684f5f",
+      "git_blob_sha1": "46591b0f4e20e07fb326afa46a6bd58d48e77f4d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-966b0a328b96"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/TuolaGe/demo-led-talking-head-video/blob/4fbdd394ede2a24a13eeeff73062eb708be1acea/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TuolaGe__reference-led-ugc-product-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TuolaGe__reference-led-ugc-product-video/LICENSE",
+      "repository": "TuolaGe/demo-led-talking-head-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4fbdd394ede2a24a13eeeff73062eb708be1acea",
+      "source_url": "https://github.com/TuolaGe/demo-led-talking-head-video/blob/4fbdd394ede2a24a13eeeff73062eb708be1acea/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "afe844836f8e867481e20030dbe5d16d2a9c274e9d5b451ff67772e3c04e0d93",
+      "git_blob_sha1": "fb835af9370172102637c4a71cfe1d22d482e523",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-966b0a328b96"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/TuolaGe/demo-led-talking-head-video/blob/4fbdd394ede2a24a13eeeff73062eb708be1acea/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/TuolaGe__reference-led-ugc-product-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/EverythingAI-Pro__ai-video-editor/SKILL.md",
+      "repository": "EverythingAI-Pro/ai-video-editor",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "47ebc826b0152eb27dcfd658995eb399ee14e69f",
+      "source_url": "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/SKILL.md",
+      "size_bytes": 10780,
+      "sha256": "f7a1a2b28ee5e692e546e213b3b7b3118d8b00eb49742a1a988ea3d11202c0c8",
+      "git_blob_sha1": "c298ecbd1211d7af613b6ad2f22ea2350e264097",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5eca829fa2d9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/NOTICE.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EverythingAI-Pro__ai-video-editor/LICENSE",
+        "upstream/EverythingAI-Pro__ai-video-editor/vendor/b-roll-finder/NOTICE.md",
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/EverythingAI-Pro__ai-video-editor/LICENSE",
+      "repository": "EverythingAI-Pro/ai-video-editor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "47ebc826b0152eb27dcfd658995eb399ee14e69f",
+      "source_url": "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/LICENSE",
+      "size_bytes": 1281,
+      "sha256": "083c4cd11126563ec25696395bc15977609b95e0cde69eae0f1b040e04b05f04",
+      "git_blob_sha1": "1330de676335dce4d015038eb81d00e425a4f5af",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5eca829fa2d9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/NOTICE.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EverythingAI-Pro__ai-video-editor/LICENSE",
+        "upstream/EverythingAI-Pro__ai-video-editor/vendor/b-roll-finder/NOTICE.md",
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/louisedesadeleer__cut-video/LICENSE",
+      "repository": "EverythingAI-Pro/ai-video-editor",
+      "upstream_path": "vendor/b-roll-finder/LICENSE",
+      "upstream_commit": "47ebc826b0152eb27dcfd658995eb399ee14e69f",
+      "source_url": "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/LICENSE",
+      "size_bytes": 1075,
+      "sha256": "88dfd04b58f02e03b257749e96f87bd799598c23de4fa83e3d164a6c2fedfe9f",
+      "git_blob_sha1": "29511d7b3fb0acd45276802ea1a82fd95d567143",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5eca829fa2d9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/NOTICE.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/EverythingAI-Pro__ai-video-editor/LICENSE",
+        "upstream/EverythingAI-Pro__ai-video-editor/vendor/b-roll-finder/NOTICE.md",
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/EverythingAI-Pro__ai-video-editor/vendor/b-roll-finder/NOTICE.md",
+      "repository": "EverythingAI-Pro/ai-video-editor",
+      "upstream_path": "vendor/b-roll-finder/NOTICE.md",
+      "upstream_commit": "47ebc826b0152eb27dcfd658995eb399ee14e69f",
+      "source_url": "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/NOTICE.md",
+      "size_bytes": 959,
+      "sha256": "e0304a54911db67f7337df1ac29995cd1cb3333f027e88eefb714637ccca4c0a",
+      "git_blob_sha1": "a54fa83dbe21b33f59330ae016eaf2778f21487b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5eca829fa2d9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/LICENSE",
+        "https://github.com/EverythingAI-Pro/ai-video-editor/blob/47ebc826b0152eb27dcfd658995eb399ee14e69f/vendor/b-roll-finder/NOTICE.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EverythingAI-Pro__ai-video-editor/LICENSE",
+        "upstream/EverythingAI-Pro__ai-video-editor/vendor/b-roll-finder/NOTICE.md",
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mocchalera__video-os-v2/.agents/skills/finish-interview/SKILL.md",
+      "repository": "mocchalera/video-os-v2",
+      "upstream_path": ".agents/skills/finish-interview/SKILL.md",
+      "upstream_commit": "04c39350f915f9ee96edc25b4dd9a8c1dee305e0",
+      "source_url": "https://github.com/mocchalera/video-os-v2/blob/04c39350f915f9ee96edc25b4dd9a8c1dee305e0/.agents/skills/finish-interview/SKILL.md",
+      "size_bytes": 5640,
+      "sha256": "58a14fd2050d7a814d87452b8ab7d64a79c53265d779b203b4a89d2a75056dc6",
+      "git_blob_sha1": "6a463501111a99ce1394d364f818376d57a193e3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d6daee1ccef8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mocchalera/video-os-v2/blob/04c39350f915f9ee96edc25b4dd9a8c1dee305e0/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mocchalera__video-os-v2/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mocchalera__video-os-v2/LICENSE",
+      "repository": "mocchalera/video-os-v2",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "04c39350f915f9ee96edc25b4dd9a8c1dee305e0",
+      "source_url": "https://github.com/mocchalera/video-os-v2/blob/04c39350f915f9ee96edc25b4dd9a8c1dee305e0/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "1923b2b765c482e1f56b24cea604ced74090ee7dc3e93caafb3dfdb05727bff6",
+      "git_blob_sha1": "a6f481538c1a101f0ce1b1fdac4e9b709f01846b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d6daee1ccef8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mocchalera/video-os-v2/blob/04c39350f915f9ee96edc25b4dd9a8c1dee305e0/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mocchalera__video-os-v2/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/apresmoi__jianglens/.codex/skills/jiang-transcript-boundary-review/SKILL.md",
+      "repository": "apresmoi/jianglens",
+      "upstream_path": ".codex/skills/jiang-transcript-boundary-review/SKILL.md",
+      "upstream_commit": "465659880bf7f15fdee0c893d17037529d8fe017",
+      "source_url": "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/.codex/skills/jiang-transcript-boundary-review/SKILL.md",
+      "size_bytes": 2644,
+      "sha256": "9c11e727514cf7b9af9c09fb224e8d33948e3cf29b1e731f10aa4086b4e5e946",
+      "git_blob_sha1": "164ca62cbeed333c30870e839959a1ff4456c086",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dae236406bef"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/LICENSE",
+        "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/THIRD_PARTY_RIGHTS.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/apresmoi__jianglens/LICENSE",
+        "upstream/apresmoi__jianglens/THIRD_PARTY_RIGHTS.md"
+      ]
+    },
+    {
+      "file": "upstream/apresmoi__jianglens/LICENSE",
+      "repository": "apresmoi/jianglens",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "465659880bf7f15fdee0c893d17037529d8fe017",
+      "source_url": "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/LICENSE",
+      "size_bytes": 1705,
+      "sha256": "36bbdf88063a4dcd18e1ba44be4ee8e8636bec6d13091128cafad3adafa8691b",
+      "git_blob_sha1": "a98ecbbde05f0e2a79c02074542b876b1bb96efd",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dae236406bef"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/LICENSE",
+        "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/THIRD_PARTY_RIGHTS.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/apresmoi__jianglens/LICENSE",
+        "upstream/apresmoi__jianglens/THIRD_PARTY_RIGHTS.md"
+      ]
+    },
+    {
+      "file": "upstream/apresmoi__jianglens/THIRD_PARTY_RIGHTS.md",
+      "repository": "apresmoi/jianglens",
+      "upstream_path": "THIRD_PARTY_RIGHTS.md",
+      "upstream_commit": "465659880bf7f15fdee0c893d17037529d8fe017",
+      "source_url": "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/THIRD_PARTY_RIGHTS.md",
+      "size_bytes": 2509,
+      "sha256": "dc4cb997e238f0ad84b8123c0c8c35cb308b772b659fd1f6f3cb2389780aefa0",
+      "git_blob_sha1": "e53022a0274c1c8283fc1d69d6e7271d01dec872",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dae236406bef"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/LICENSE",
+        "https://github.com/apresmoi/jianglens/blob/465659880bf7f15fdee0c893d17037529d8fe017/THIRD_PARTY_RIGHTS.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/apresmoi__jianglens/LICENSE",
+        "upstream/apresmoi__jianglens/THIRD_PARTY_RIGHTS.md"
+      ]
+    },
+    {
+      "file": "upstream/pycodebr__heditor/skills/heditor/SKILL.md",
+      "repository": "pycodebr/heditor",
+      "upstream_path": "skills/heditor/SKILL.md",
+      "upstream_commit": "7c748e56d70fd4a51af6afa9b44ced2c2703c4fa",
+      "source_url": "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/skills/heditor/SKILL.md",
+      "size_bytes": 27956,
+      "sha256": "0714ce9682c1dd001e8d22bd2f8be0811cfe23af62b421e4d639b7494c9d4558",
+      "git_blob_sha1": "0e353587a390335f695a64a4e0b0052c49acb897",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c656dc07636a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/LICENSE",
+        "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/skills/heditor/references/licenses.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/pycodebr__heditor/LICENSE",
+        "upstream/pycodebr__heditor/skills/heditor/references/licenses.md"
+      ]
+    },
+    {
+      "file": "upstream/pycodebr__heditor/LICENSE",
+      "repository": "pycodebr/heditor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7c748e56d70fd4a51af6afa9b44ced2c2703c4fa",
+      "source_url": "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/LICENSE",
+      "size_bytes": 1275,
+      "sha256": "149c9ab8a1fa259c41626cca8cde96d1afa9b1ce8b033a4a5e409be3c63994b6",
+      "git_blob_sha1": "065f454594ce9d85ca5394129d6e2f8f0865f85e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c656dc07636a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/LICENSE",
+        "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/skills/heditor/references/licenses.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/pycodebr__heditor/LICENSE",
+        "upstream/pycodebr__heditor/skills/heditor/references/licenses.md"
+      ]
+    },
+    {
+      "file": "upstream/pycodebr__heditor/skills/heditor/references/licenses.md",
+      "repository": "pycodebr/heditor",
+      "upstream_path": "skills/heditor/references/licenses.md",
+      "upstream_commit": "7c748e56d70fd4a51af6afa9b44ced2c2703c4fa",
+      "source_url": "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/skills/heditor/references/licenses.md",
+      "size_bytes": 3960,
+      "sha256": "26f5dc11ee1a912711691523c2902cd3b8808c35eb946aacb6a2735f6a327235",
+      "git_blob_sha1": "d3694fe5bc10814cfa6b100e310002eee5845d5c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c656dc07636a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/LICENSE",
+        "https://github.com/pycodebr/heditor/blob/7c748e56d70fd4a51af6afa9b44ced2c2703c4fa/skills/heditor/references/licenses.md"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/pycodebr__heditor/LICENSE",
+        "upstream/pycodebr__heditor/skills/heditor/references/licenses.md"
+      ]
+    },
+    {
+      "file": "upstream/scrapecreators__social-media-research-skills/skills/transcript-intelligence/SKILL.md",
+      "repository": "scrapecreators/social-media-research-skills",
+      "upstream_path": "skills/transcript-intelligence/SKILL.md",
+      "upstream_commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+      "source_url": "https://github.com/ScrapeCreators/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/skills/transcript-intelligence/SKILL.md",
+      "size_bytes": 3771,
+      "sha256": "599e19d53de3496785329626f76486ce751b491ac8cd762ee98afa8c25f0594c",
+      "git_blob_sha1": "4597d2e391a842ef185ebb9becace4ecd6cd7ea2",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7201fffad53d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ScrapeCreators/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scrapecreators__social-media-research-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scrapecreators__social-media-research-skills/LICENSE",
+      "repository": "scrapecreators/social-media-research-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+      "source_url": "https://github.com/ScrapeCreators/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "37a2301a00eef329530cc65ddb9f1c1085a2fbfb1bb748adb9eb6fa05bde4f9b",
+      "git_blob_sha1": "684ffc4ae84ee9602f649aa1912c3a3c5ffaba71",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7201fffad53d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ScrapeCreators/social-media-research-skills/blob/64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2/LICENSE"
+      ],
+      "conditions": "Retain unchanged original source bytes, authorship and complete applicable legal terms. Selected source only, no models, media, third-party transcripts or reference assets.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scrapecreators__social-media-research-skills/LICENSE"
+      ]
+    }
+  ]
+}
