@@ -1,0 +1,398 @@
+{
+  "batch": "0006",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 6,
+  "new_original_payload_paths": 12,
+  "files": [
+    {
+      "file": "upstream/Barty-Bart__motion-graphics/LICENSE",
+      "repository": "Barty-Bart/motion-graphics",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "source_url": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/LICENSE",
+      "size_bytes": 1260,
+      "sha256": "40a5f89f85b8345b3af943b0e2d28dc7199ff83ddf9d905cded0abcc38431672",
+      "git_blob_sha1": "5088d7b73eda8bdf7acdefe02a5d31e82bbfe495",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92e0471c4ac3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/LICENSE",
+        "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Barty-Bart__motion-graphics/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Barty-Bart__motion-graphics/skills/motion-broll/SKILL.md",
+      "repository": "Barty-Bart/motion-graphics",
+      "upstream_path": "skills/motion-broll/SKILL.md",
+      "upstream_commit": "3d83d987d658601d8a1269eb691622bdcd427335",
+      "source_url": "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/motion-broll/SKILL.md",
+      "size_bytes": 8941,
+      "sha256": "78e7d064aba37b8b10ea39973c61200e3c16e325fa20074f97ab29e1df1866d2",
+      "git_blob_sha1": "f3b78dda340ba4753e7714517920ab1e83aab7f5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92e0471c4ac3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/LICENSE",
+        "https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Barty-Bart__motion-graphics/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Calliope-Editor__writing-skills/LICENSE",
+      "repository": "Calliope-Editor/writing-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2fad031982cbbcb00c4da14c2fc9712d2daa78da",
+      "source_url": "https://github.com/Calliope-Editor/writing-skills/blob/2fad031982cbbcb00c4da14c2fc9712d2daa78da/LICENSE",
+      "size_bytes": 1089,
+      "sha256": "403dae786976bd9e5b123340e1476b4c057cf1a698552122f939cb9cc285ff5f",
+      "git_blob_sha1": "3266b1ef1d16fd64213fc534ea2e8c2ede731325",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-808d20095fbf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Calliope-Editor/writing-skills/blob/2fad031982cbbcb00c4da14c2fc9712d2daa78da/LICENSE",
+        "https://github.com/Calliope-Editor/writing-skills/blob/2fad031982cbbcb00c4da14c2fc9712d2daa78da/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Calliope-Editor__writing-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Calliope-Editor__writing-skills/skills/editorial/continuity-editor/SKILL.md",
+      "repository": "Calliope-Editor/writing-skills",
+      "upstream_path": "skills/editorial/continuity-editor/SKILL.md",
+      "upstream_commit": "2fad031982cbbcb00c4da14c2fc9712d2daa78da",
+      "source_url": "https://github.com/Calliope-Editor/writing-skills/blob/2fad031982cbbcb00c4da14c2fc9712d2daa78da/skills/editorial/continuity-editor/SKILL.md",
+      "size_bytes": 9528,
+      "sha256": "b3070222e2ba13b17828834c116f0c1a9ec4d385459dcdcb87de5e20bdff56a0",
+      "git_blob_sha1": "8f85c264bfe6d344146b22a39c47a67bb33b68aa",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-808d20095fbf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Calliope-Editor/writing-skills/blob/2fad031982cbbcb00c4da14c2fc9712d2daa78da/LICENSE",
+        "https://github.com/Calliope-Editor/writing-skills/blob/2fad031982cbbcb00c4da14c2fc9712d2daa78da/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Calliope-Editor__writing-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ChenShuo2004__cs-skills/LICENSE",
+      "repository": "ChenShuo2004/cs-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "6f5009d710ed73eeda6bd13e5be4f902ce56d7c5",
+      "source_url": "https://github.com/ChenShuo2004/cs-skills/blob/6f5009d710ed73eeda6bd13e5be4f902ce56d7c5/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "db5ef1a4bd082ce687aa3f35ae84a292494ab7fd26c974a29ade361e500e0fe2",
+      "git_blob_sha1": "104bc12bbd1e013cb5dba1703e46c384e284477c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dfc5b1aa7f44"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ChenShuo2004/cs-skills/blob/6f5009d710ed73eeda6bd13e5be4f902ce56d7c5/LICENSE",
+        "https://github.com/ChenShuo2004/cs-skills/blob/6f5009d710ed73eeda6bd13e5be4f902ce56d7c5/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ChenShuo2004__cs-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ChenShuo2004__cs-skills/cs-code-video/SKILL.md",
+      "repository": "ChenShuo2004/cs-skills",
+      "upstream_path": "cs-code-video/SKILL.md",
+      "upstream_commit": "6f5009d710ed73eeda6bd13e5be4f902ce56d7c5",
+      "source_url": "https://github.com/ChenShuo2004/cs-skills/blob/6f5009d710ed73eeda6bd13e5be4f902ce56d7c5/cs-code-video/SKILL.md",
+      "size_bytes": 15091,
+      "sha256": "99cd5c31aba57c5a0880fe8321aa1018499173472de0218d744031bde3c30ba9",
+      "git_blob_sha1": "91dd985a03e4c683b5713c9a9d3ae0f3bd680901",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dfc5b1aa7f44"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ChenShuo2004/cs-skills/blob/6f5009d710ed73eeda6bd13e5be4f902ce56d7c5/LICENSE",
+        "https://github.com/ChenShuo2004/cs-skills/blob/6f5009d710ed73eeda6bd13e5be4f902ce56d7c5/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ChenShuo2004__cs-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ChrisLAS__documentary-timeline-template/LICENSE",
+      "repository": "ChrisLAS/documentary-timeline-template",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f76ad033030bddda9c5d3864bf81b04f0ca86082",
+      "source_url": "https://github.com/ChrisLAS/documentary-timeline-template/blob/f76ad033030bddda9c5d3864bf81b04f0ca86082/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "8d4c925145e84865aefe85d99cf41006138e3eaa0a27483592e848264dace696",
+      "git_blob_sha1": "f108b5703dc60764980e99c96e6c0e0ccfe8b29f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ff84f22abd62"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ChrisLAS/documentary-timeline-template/blob/f76ad033030bddda9c5d3864bf81b04f0ca86082/LICENSE",
+        "https://github.com/ChrisLAS/documentary-timeline-template/blob/f76ad033030bddda9c5d3864bf81b04f0ca86082/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ChrisLAS__documentary-timeline-template/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ChrisLAS__documentary-timeline-template/skills/documentary-visual-development/SKILL.md",
+      "repository": "ChrisLAS/documentary-timeline-template",
+      "upstream_path": "skills/documentary-visual-development/SKILL.md",
+      "upstream_commit": "f76ad033030bddda9c5d3864bf81b04f0ca86082",
+      "source_url": "https://github.com/ChrisLAS/documentary-timeline-template/blob/f76ad033030bddda9c5d3864bf81b04f0ca86082/skills/documentary-visual-development/SKILL.md",
+      "size_bytes": 4050,
+      "sha256": "5fb48a5f0ddfbd96c8c8d6c36f3e612998aa55b7b58c61dd2ddbe3c2049f4ca1",
+      "git_blob_sha1": "e8459e109a67e301248d13f69ee88c1071f8b4a6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ff84f22abd62"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ChrisLAS/documentary-timeline-template/blob/f76ad033030bddda9c5d3864bf81b04f0ca86082/LICENSE",
+        "https://github.com/ChrisLAS/documentary-timeline-template/blob/f76ad033030bddda9c5d3864bf81b04f0ca86082/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ChrisLAS__documentary-timeline-template/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Daily-AC__motion-reel/skills/motion-reel/LICENSE",
+      "repository": "Daily-AC/motion-reel",
+      "upstream_path": "skills/motion-reel/LICENSE",
+      "upstream_commit": "29cbbbef3daebcfe9f9e97d4fb4431f13343d113",
+      "source_url": "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/skills/motion-reel/LICENSE",
+      "size_bytes": 1082,
+      "sha256": "80d76fa2026db508dc72d048bbcd67d9a0eead5654c8c93bf45add45ae7a1dfc",
+      "git_blob_sha1": "8c5a80699f05bf95eb46550433186d07848870bd",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aebfe3ebe24f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/LICENSE",
+        "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Daily-AC__motion-reel/skills/motion-reel/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Daily-AC__motion-reel/skills/motion-reel/SKILL.md",
+      "repository": "Daily-AC/motion-reel",
+      "upstream_path": "skills/motion-reel/SKILL.md",
+      "upstream_commit": "29cbbbef3daebcfe9f9e97d4fb4431f13343d113",
+      "source_url": "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/skills/motion-reel/SKILL.md",
+      "size_bytes": 6548,
+      "sha256": "3fbde0ff63b9859bc6f2b702c8f3282803cae2f00cc88e70c0f26f30f9e66815",
+      "git_blob_sha1": "e3e7234c24fb45a022b2f49d628f6c48ebfd41eb",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aebfe3ebe24f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/LICENSE",
+        "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Daily-AC__motion-reel/skills/motion-reel/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Daily-AC__motion-reel/skills/motion-reel/LICENSE",
+      "repository": "Daily-AC/motion-reel",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "29cbbbef3daebcfe9f9e97d4fb4431f13343d113",
+      "source_url": "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/LICENSE",
+      "size_bytes": 1082,
+      "sha256": "80d76fa2026db508dc72d048bbcd67d9a0eead5654c8c93bf45add45ae7a1dfc",
+      "git_blob_sha1": "8c5a80699f05bf95eb46550433186d07848870bd",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aebfe3ebe24f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/LICENSE",
+        "https://github.com/Daily-AC/motion-reel/blob/29cbbbef3daebcfe9f9e97d4fb4431f13343d113/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Daily-AC__motion-reel/skills/motion-reel/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Dunteng__watch-video-skill/LICENSE",
+      "repository": "Dunteng/watch-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8ca0268a628f0acc22a5a56333123801c9e7c9ff",
+      "source_url": "https://github.com/Dunteng/watch-video-skill/blob/8ca0268a628f0acc22a5a56333123801c9e7c9ff/LICENSE",
+      "size_bytes": 1080,
+      "sha256": "daa503fe1b784c69d77e62526f6c06c35646decf655be68837754d9de8941954",
+      "git_blob_sha1": "7e1d56de8bad1081f69597d8bd90bda7b6b6ffc9",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fdbc0659db01"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Dunteng/watch-video-skill/blob/8ca0268a628f0acc22a5a56333123801c9e7c9ff/LICENSE",
+        "https://github.com/Dunteng/watch-video-skill/blob/8ca0268a628f0acc22a5a56333123801c9e7c9ff/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Dunteng__watch-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Dunteng__watch-video-skill/SKILL.md",
+      "repository": "Dunteng/watch-video-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "8ca0268a628f0acc22a5a56333123801c9e7c9ff",
+      "source_url": "https://github.com/Dunteng/watch-video-skill/blob/8ca0268a628f0acc22a5a56333123801c9e7c9ff/SKILL.md",
+      "size_bytes": 4308,
+      "sha256": "7c144bea4d4c2b5cc52fc5615343707df8f82e3fe754e154af225b82caf4d42d",
+      "git_blob_sha1": "5d00fdde1d55f3a8b1b53102d52e9d64c3e27e28",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fdbc0659db01"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Dunteng/watch-video-skill/blob/8ca0268a628f0acc22a5a56333123801c9e7c9ff/LICENSE",
+        "https://github.com/Dunteng/watch-video-skill/blob/8ca0268a628f0acc22a5a56333123801c9e7c9ff/README.md"
+      ],
+      "conditions": [
+        "Retain full copyright and MIT permission notice with unchanged file.",
+        "Only selected original document; referenced code, dependencies, assets and services are not included or cleared.",
+        "Upstream instructions are archival content, not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Dunteng__watch-video-skill/LICENSE"
+      ]
+    }
+  ]
+}

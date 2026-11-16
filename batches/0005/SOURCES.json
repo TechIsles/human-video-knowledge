@@ -1,0 +1,269 @@
+{
+  "batch": "0005",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/1anj__academic-integrity-skill/SKILL.md",
+      "repository": "1anj/academic-integrity-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "135073a3afa614c95f6b329d3dc75b26c6046e74",
+      "source_url": "https://github.com/1anj/academic-integrity-skill/blob/135073a3afa614c95f6b329d3dc75b26c6046e74/SKILL.md",
+      "size_bytes": 19207,
+      "sha256": "a13eb6d3ed7a7857ce5df06bbd38174c6834d042ede27868e5093bec2d48e52f",
+      "git_blob_sha1": "05b87b7fb43a0f29a094b6cd10625e35fd73a40d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-24311eb8a5c4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/1anj/academic-integrity-skill/blob/135073a3afa614c95f6b329d3dc75b26c6046e74/LICENSE",
+        "https://github.com/1anj/academic-integrity-skill/blob/135073a3afa614c95f6b329d3dc75b26c6046e74/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/1anj__academic-integrity-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/1anj__academic-integrity-skill/LICENSE",
+      "repository": "1anj/academic-integrity-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "135073a3afa614c95f6b329d3dc75b26c6046e74",
+      "source_url": "https://github.com/1anj/academic-integrity-skill/blob/135073a3afa614c95f6b329d3dc75b26c6046e74/LICENSE",
+      "size_bytes": 1061,
+      "sha256": "5cfc61cd2e859a6009d7b7f544c256bad67f8625995d9512b49d94e33a654464",
+      "git_blob_sha1": "f88f50122be5b9767240e5dba42126a4d5ba518f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-24311eb8a5c4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/1anj/academic-integrity-skill/blob/135073a3afa614c95f6b329d3dc75b26c6046e74/LICENSE",
+        "https://github.com/1anj/academic-integrity-skill/blob/135073a3afa614c95f6b329d3dc75b26c6046e74/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/1anj__academic-integrity-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Agents365-ai__drawio-skill/skills/drawio-skill/SKILL.md",
+      "repository": "Agents365-ai/drawio-skill",
+      "upstream_path": "skills/drawio-skill/SKILL.md",
+      "upstream_commit": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "source_url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/SKILL.md",
+      "size_bytes": 9706,
+      "sha256": "922d7863a09e6521236bffb6989ebe4e9bce045ebd0f82866c94375fccfd1c6b",
+      "git_blob_sha1": "9ee104302ec37e9a41d5f858a5109646b86bfe10",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-98af10c6c824"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/LICENSE",
+        "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Agents365-ai__drawio-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Agents365-ai__drawio-skill/LICENSE",
+      "repository": "Agents365-ai/drawio-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "source_url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+      "git_blob_sha1": "ec170ad92004bdbdab67fd639a3104a97722373d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-98af10c6c824"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/LICENSE",
+        "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Agents365-ai__drawio-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Agents365-ai__drawio-skill/LICENSE",
+      "repository": "Agents365-ai/drawio-skill",
+      "upstream_path": "skills/drawio-skill/LICENSE",
+      "upstream_commit": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "source_url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+      "git_blob_sha1": "ec170ad92004bdbdab67fd639a3104a97722373d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-98af10c6c824"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/LICENSE",
+        "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Agents365-ai__drawio-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Alex2135__codex-video-editor/SKILL.md",
+      "repository": "Alex2135/codex-video-editor",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "2b51a661cf8ee896faed6045721d411db0d6a9c7",
+      "source_url": "https://github.com/Alex2135/codex-video-editor/blob/2b51a661cf8ee896faed6045721d411db0d6a9c7/SKILL.md",
+      "size_bytes": 15613,
+      "sha256": "804e8a81ff40e6eb372ee4ff7d91dbba487dc9217f4bb562ac6e789ed72956ad",
+      "git_blob_sha1": "348bb109ec6a4b4d5b497ebc1daa1f003c57b344",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f6c534844cff"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Alex2135/codex-video-editor/blob/2b51a661cf8ee896faed6045721d411db0d6a9c7/LICENSE",
+        "https://github.com/Alex2135/codex-video-editor/blob/2b51a661cf8ee896faed6045721d411db0d6a9c7/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Alex2135__codex-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Alex2135__codex-video-editor/LICENSE",
+      "repository": "Alex2135/codex-video-editor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2b51a661cf8ee896faed6045721d411db0d6a9c7",
+      "source_url": "https://github.com/Alex2135/codex-video-editor/blob/2b51a661cf8ee896faed6045721d411db0d6a9c7/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "b7223b91e1b17e1c466880bb18d99c12baf88a98554e23d57f98b3d2752e4882",
+      "git_blob_sha1": "b897c50cdd603d59ed0b5813cd57782df5ff090b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f6c534844cff"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Alex2135/codex-video-editor/blob/2b51a661cf8ee896faed6045721d411db0d6a9c7/LICENSE",
+        "https://github.com/Alex2135/codex-video-editor/blob/2b51a661cf8ee896faed6045721d411db0d6a9c7/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Alex2135__codex-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Arch-Dog__video-prompt-engineer/SKILL.md",
+      "repository": "Arch-Dog/video-prompt-engineer",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "644b5f0347eb39e6587aa52cef221c555bb0d72a",
+      "source_url": "https://github.com/Arch-Dog/video-prompt-engineer/blob/644b5f0347eb39e6587aa52cef221c555bb0d72a/SKILL.md",
+      "size_bytes": 10625,
+      "sha256": "6d3e3d6b5bb33e68cffa79044db59381888b9f9e7c254d6bff4e549586144d81",
+      "git_blob_sha1": "77e84020ce92231e14d0bd7f0d30b9650db619da",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f55344654b06"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Arch-Dog/video-prompt-engineer/blob/644b5f0347eb39e6587aa52cef221c555bb0d72a/LICENSE",
+        "https://github.com/Arch-Dog/video-prompt-engineer/blob/644b5f0347eb39e6587aa52cef221c555bb0d72a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Arch-Dog__video-prompt-engineer/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Arch-Dog__video-prompt-engineer/LICENSE",
+      "repository": "Arch-Dog/video-prompt-engineer",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "644b5f0347eb39e6587aa52cef221c555bb0d72a",
+      "source_url": "https://github.com/Arch-Dog/video-prompt-engineer/blob/644b5f0347eb39e6587aa52cef221c555bb0d72a/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "225d1b11d3a84262f256d2433f39c5cc425366eee9fb319b68af7f832d6d8302",
+      "git_blob_sha1": "fc69eb174f95507aa3bc65d4ee96e907641cb289",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f55344654b06"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Arch-Dog/video-prompt-engineer/blob/644b5f0347eb39e6587aa52cef221c555bb0d72a/LICENSE",
+        "https://github.com/Arch-Dog/video-prompt-engineer/blob/644b5f0347eb39e6587aa52cef221c555bb0d72a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original document and complete MIT copyright/permission notice.",
+        "Only canonical SKILL text and license support included; no scripts, referenced texts, media or dependencies included or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Arch-Dog__video-prompt-engineer/LICENSE"
+      ]
+    }
+  ]
+}
