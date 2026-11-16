@@ -1,0 +1,232 @@
+{
+  "batch": "0019",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/Snoop2023__video-background-music-identification-skill/skills/video-background-music-identification/SKILL.md",
+      "repository": "Snoop2023/video-background-music-identification-skill",
+      "upstream_path": "skills/video-background-music-identification/SKILL.md",
+      "upstream_commit": "ad61b9753be54f86048faee9383e8963705f2cb7",
+      "source_url": "https://github.com/Snoop2023/video-background-music-identification-skill/blob/ad61b9753be54f86048faee9383e8963705f2cb7/skills/video-background-music-identification/SKILL.md",
+      "size_bytes": 6257,
+      "sha256": "d16ff17d5d47cc699d3124ef5aa05ea236eec2465a0bf1ddea584658576bec9a",
+      "git_blob_sha1": "61c77d143257d5f535a749efa28f32b738f4b1fc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a732e21dd5c7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Snoop2023/video-background-music-identification-skill/blob/ad61b9753be54f86048faee9383e8963705f2cb7/LICENSE",
+        "https://github.com/Snoop2023/video-background-music-identification-skill/blob/ad61b9753be54f86048faee9383e8963705f2cb7/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Snoop2023__video-background-music-identification-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Snoop2023__video-background-music-identification-skill/LICENSE",
+      "repository": "Snoop2023/video-background-music-identification-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ad61b9753be54f86048faee9383e8963705f2cb7",
+      "source_url": "https://github.com/Snoop2023/video-background-music-identification-skill/blob/ad61b9753be54f86048faee9383e8963705f2cb7/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "9dd83754ad376d4b0a04883a6bb34c04a29e214c503e0f987c17d74b7a47d7af",
+      "git_blob_sha1": "2709bb62dd16e791105f28f16f44c62569a2f96c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a732e21dd5c7"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Snoop2023/video-background-music-identification-skill/blob/ad61b9753be54f86048faee9383e8963705f2cb7/LICENSE",
+        "https://github.com/Snoop2023/video-background-music-identification-skill/blob/ad61b9753be54f86048faee9383e8963705f2cb7/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Snoop2023__video-background-music-identification-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TimoteoAltobrando__ai-video-skill/SKILL.md",
+      "repository": "TimoteoAltobrando/ai-video-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "c6ecf8a66829dd39f600172506bef8206513236a",
+      "source_url": "https://github.com/TimoteoAltobrando/ai-video-skill/blob/c6ecf8a66829dd39f600172506bef8206513236a/SKILL.md",
+      "size_bytes": 13214,
+      "sha256": "3d08f64c414501b18157c477552af4e6b1068e953892d0026d64a914124c184b",
+      "git_blob_sha1": "13b978418f3b1fdab05877f1633fc063b5780310",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f4a8e63d9fc7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/TimoteoAltobrando/ai-video-skill/blob/c6ecf8a66829dd39f600172506bef8206513236a/LICENSE",
+        "https://github.com/TimoteoAltobrando/ai-video-skill/blob/c6ecf8a66829dd39f600172506bef8206513236a/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TimoteoAltobrando__ai-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TimoteoAltobrando__ai-video-skill/LICENSE",
+      "repository": "TimoteoAltobrando/ai-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c6ecf8a66829dd39f600172506bef8206513236a",
+      "source_url": "https://github.com/TimoteoAltobrando/ai-video-skill/blob/c6ecf8a66829dd39f600172506bef8206513236a/LICENSE",
+      "size_bytes": 1075,
+      "sha256": "18b561dd2e71bb9e7f585fa2aef30d1af936365640d30627f710bc2c235e63bd",
+      "git_blob_sha1": "edb1c43147e74a42da6d53a3fbcaa07fa97dec9f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f4a8e63d9fc7"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/TimoteoAltobrando/ai-video-skill/blob/c6ecf8a66829dd39f600172506bef8206513236a/LICENSE",
+        "https://github.com/TimoteoAltobrando/ai-video-skill/blob/c6ecf8a66829dd39f600172506bef8206513236a/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TimoteoAltobrando__ai-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TuolaGe__reference-led-ugc-product-video/SKILL.md",
+      "repository": "TuolaGe/reference-led-ugc-product-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "6b8607142382fbe363622b59fdb0bed7ddfe2500",
+      "source_url": "https://github.com/TuolaGe/reference-led-ugc-product-video/blob/6b8607142382fbe363622b59fdb0bed7ddfe2500/SKILL.md",
+      "size_bytes": 20615,
+      "sha256": "c042a2181a198b7fc93975bb52f14e792501eea3f6c251b7cad964bfaec55a98",
+      "git_blob_sha1": "6ed94577037befde2710f22f81f71c43db289d15",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d816fa253314"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/TuolaGe/reference-led-ugc-product-video/blob/6b8607142382fbe363622b59fdb0bed7ddfe2500/LICENSE",
+        "https://github.com/TuolaGe/reference-led-ugc-product-video/blob/6b8607142382fbe363622b59fdb0bed7ddfe2500/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TuolaGe__reference-led-ugc-product-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TuolaGe__reference-led-ugc-product-video/LICENSE",
+      "repository": "TuolaGe/reference-led-ugc-product-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "6b8607142382fbe363622b59fdb0bed7ddfe2500",
+      "source_url": "https://github.com/TuolaGe/reference-led-ugc-product-video/blob/6b8607142382fbe363622b59fdb0bed7ddfe2500/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "afe844836f8e867481e20030dbe5d16d2a9c274e9d5b451ff67772e3c04e0d93",
+      "git_blob_sha1": "fb835af9370172102637c4a71cfe1d22d482e523",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d816fa253314"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/TuolaGe/reference-led-ugc-product-video/blob/6b8607142382fbe363622b59fdb0bed7ddfe2500/LICENSE",
+        "https://github.com/TuolaGe/reference-led-ugc-product-video/blob/6b8607142382fbe363622b59fdb0bed7ddfe2500/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TuolaGe__reference-led-ugc-product-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/WeMakeGood__scripting-article-videos/SKILL.md",
+      "repository": "WeMakeGood/scripting-article-videos",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "2cfce79ee5446cfea4e0feb0e0493db08e063615",
+      "source_url": "https://github.com/WeMakeGood/scripting-article-videos/blob/2cfce79ee5446cfea4e0feb0e0493db08e063615/SKILL.md",
+      "size_bytes": 12766,
+      "sha256": "123d9fb7b3fae49c5c138bc18f2734a31d9fdd78e8b190401594cbc27474371a",
+      "git_blob_sha1": "417312cec061be19a15df22dee262d0b68e46697",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54467dce5a2c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/WeMakeGood/scripting-article-videos/blob/2cfce79ee5446cfea4e0feb0e0493db08e063615/LICENSE",
+        "https://github.com/WeMakeGood/scripting-article-videos/blob/2cfce79ee5446cfea4e0feb0e0493db08e063615/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WeMakeGood__scripting-article-videos/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/WeMakeGood__scripting-article-videos/LICENSE",
+      "repository": "WeMakeGood/scripting-article-videos",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2cfce79ee5446cfea4e0feb0e0493db08e063615",
+      "source_url": "https://github.com/WeMakeGood/scripting-article-videos/blob/2cfce79ee5446cfea4e0feb0e0493db08e063615/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "7d9338884209d04598584d9f634bccf1bcdf4a0535c4737827e90810e2e74d84",
+      "git_blob_sha1": "c597d6a132b558c18b6f016921bda872657523bb",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54467dce5a2c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/WeMakeGood/scripting-article-videos/blob/2cfce79ee5446cfea4e0feb0e0493db08e063615/LICENSE",
+        "https://github.com/WeMakeGood/scripting-article-videos/blob/2cfce79ee5446cfea4e0feb0e0493db08e063615/README.md"
+      ],
+      "conditions": [
+        "Preserve full copyright and permission notice; original bytes unchanged. Canonical document plus license only, not runnable package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WeMakeGood__scripting-article-videos/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "batch": "0020",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/WelchLabs__videos/_2025/backprop_2/llama_learning_animation_1.py",
+      "repository": "WelchLabs/videos",
+      "upstream_path": "_2025/backprop_2/llama_learning_animation_1.py",
+      "upstream_commit": "d9224ec211d2c72d001b050c92c84f579d20147e",
+      "source_url": "https://github.com/WelchLabs/videos/blob/d9224ec211d2c72d001b050c92c84f579d20147e/_2025/backprop_2/llama_learning_animation_1.py",
+      "size_bytes": 34403,
+      "sha256": "37e5f4eb25beb583a6d2eee6dbe2f58e170af7b03978de231ed7025b665d79a8",
+      "git_blob_sha1": "deec5feb7b92a658eb537ee9bc27614b92e8c853",
+      "role": "canonical_code_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-903f5c48eaa5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/WelchLabs/videos/blob/d9224ec211d2c72d001b050c92c84f579d20147e/LICENSE",
+        "https://github.com/WelchLabs/videos/blob/d9224ec211d2c72d001b050c92c84f579d20147e/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WelchLabs__videos/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/WelchLabs__videos/LICENSE",
+      "repository": "WelchLabs/videos",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d9224ec211d2c72d001b050c92c84f579d20147e",
+      "source_url": "https://github.com/WelchLabs/videos/blob/d9224ec211d2c72d001b050c92c84f579d20147e/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "86d298509eb10edea98f974cb2915079c029b72304d503ba8110e54e388d927d",
+      "git_blob_sha1": "336be82579f55850500288f2cfb7ea07b5e60d03",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-903f5c48eaa5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/WelchLabs/videos/blob/d9224ec211d2c72d001b050c92c84f579d20147e/LICENSE",
+        "https://github.com/WelchLabs/videos/blob/d9224ec211d2c72d001b050c92c84f579d20147e/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/WelchLabs__videos/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/XucroYuri__take/skills/take/SKILL.md",
+      "repository": "XucroYuri/take",
+      "upstream_path": "skills/take/SKILL.md",
+      "upstream_commit": "47c17216b5ad74ee7dd376e8508266e29aefae2c",
+      "source_url": "https://github.com/XucroYuri/take/blob/47c17216b5ad74ee7dd376e8508266e29aefae2c/skills/take/SKILL.md",
+      "size_bytes": 4587,
+      "sha256": "bc5b3675b6d34374c0726dadfbca9f3650189b084da7a331ef8a0ce93b8d6e0e",
+      "git_blob_sha1": "07da1a29b9c7221bd76bc235a278ec74a736ec49",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f23dd4b40691"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/XucroYuri/take/blob/47c17216b5ad74ee7dd376e8508266e29aefae2c/LICENSE",
+        "https://github.com/XucroYuri/take/blob/47c17216b5ad74ee7dd376e8508266e29aefae2c/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/XucroYuri__take/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/XucroYuri__take/LICENSE",
+      "repository": "XucroYuri/take",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "47c17216b5ad74ee7dd376e8508266e29aefae2c",
+      "source_url": "https://github.com/XucroYuri/take/blob/47c17216b5ad74ee7dd376e8508266e29aefae2c/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "e4bc48f7e13b56d72cc96878c5e99acfb458051f5ebc750f9a349aa749496613",
+      "git_blob_sha1": "704ea0a2393cb7ba2618bf9526a4afa6ff1a6013",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f23dd4b40691"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/XucroYuri/take/blob/47c17216b5ad74ee7dd376e8508266e29aefae2c/LICENSE",
+        "https://github.com/XucroYuri/take/blob/47c17216b5ad74ee7dd376e8508266e29aefae2c/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/XucroYuri__take/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Yuriloll__qifeng-writing/SKILL.md",
+      "repository": "Yuriloll/qifeng-writing",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "f73b4e9558a758d2e99480eb67c654d7b96a122f",
+      "source_url": "https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/SKILL.md",
+      "size_bytes": 7618,
+      "sha256": "34ee9af25b45e1a9c0836f1624fd73b7eab98deb87cf4da7bba11b9d66223d42",
+      "git_blob_sha1": "05ff043156bcf78e3f0d7b754b1398a2ab0637ee",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7160c99c2667"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/LICENSE",
+        "https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Yuriloll__qifeng-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Yuriloll__qifeng-writing/LICENSE",
+      "repository": "Yuriloll/qifeng-writing",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f73b4e9558a758d2e99480eb67c654d7b96a122f",
+      "source_url": "https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "5a3fe1637f244f4f2357aa4cf4d70631a039591dcf8be3f1599dc1cca73ae23d",
+      "git_blob_sha1": "b93b1a36afb90e999dbf2adef6b1ea6d3402f213",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7160c99c2667"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/LICENSE",
+        "https://github.com/Yuriloll/qifeng-writing/blob/f73b4e9558a758d2e99480eb67c654d7b96a122f/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Yuriloll__qifeng-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/abagames__agentic-gamedev-skills/.agents/skills/gating-intent-legibility/SKILL.md",
+      "repository": "abagames/agentic-gamedev-skills",
+      "upstream_path": ".agents/skills/gating-intent-legibility/SKILL.md",
+      "upstream_commit": "4ed8d751d08b5c1be14ccca02ce0b9a9bea60593",
+      "source_url": "https://github.com/abagames/agentic-gamedev-skills/blob/4ed8d751d08b5c1be14ccca02ce0b9a9bea60593/.agents/skills/gating-intent-legibility/SKILL.md",
+      "size_bytes": 17716,
+      "sha256": "7587cc0e0001abf487b049ef253931a79ac384b5d2ef3e279f4070d4a6949103",
+      "git_blob_sha1": "5448d1f6903a620ecc1d26fe33fa67e3c7f35065",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afc44d7e2563"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/abagames/agentic-gamedev-skills/blob/4ed8d751d08b5c1be14ccca02ce0b9a9bea60593/LICENSE",
+        "https://github.com/abagames/agentic-gamedev-skills/blob/4ed8d751d08b5c1be14ccca02ce0b9a9bea60593/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/abagames__agentic-gamedev-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/abagames__agentic-gamedev-skills/LICENSE",
+      "repository": "abagames/agentic-gamedev-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4ed8d751d08b5c1be14ccca02ce0b9a9bea60593",
+      "source_url": "https://github.com/abagames/agentic-gamedev-skills/blob/4ed8d751d08b5c1be14ccca02ce0b9a9bea60593/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "141037de19d4de87073c3b70f31ab37572b39a94862cba5d0149bbc3d45b9323",
+      "git_blob_sha1": "0cb34e3f6a4fbc564d578beb485d104c2f3aa8ef",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afc44d7e2563"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/abagames/agentic-gamedev-skills/blob/4ed8d751d08b5c1be14ccca02ce0b9a9bea60593/LICENSE",
+        "https://github.com/abagames/agentic-gamedev-skills/blob/4ed8d751d08b5c1be14ccca02ce0b9a9bea60593/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright, permission and warranty disclaimer. Selected file unchanged; no execution or functional verification.",
+        "Only exact selected canonical and license; dependencies, models, services, assets and linked documents excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/abagames__agentic-gamedev-skills/LICENSE"
+      ]
+    }
+  ]
+}
