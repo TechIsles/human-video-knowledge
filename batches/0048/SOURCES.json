@@ -1,0 +1,138 @@
+{
+  "batch": "0048",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 5,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/faceless-explainer/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/faceless-explainer/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/faceless-explainer/SKILL.md",
+      "size_bytes": 31213,
+      "sha256": "3d246a7a01fd12207d919db23c0f2e5cc635c26428adba94a3f3033478a12b57",
+      "git_blob_sha1": "b2617532e948bbaf57b26dee81ff9e2526324732",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-037cefe324ad"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred. Required full same-commit LICENSE already preserved in group_s_manifest.json: fulltext_expansion_20261116/acquired/group_s/heygen-com__hyperframes/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/general-video/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/general-video/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/general-video/SKILL.md",
+      "size_bytes": 21964,
+      "sha256": "db87c1909eff755d810f83de6064bfb7c52a76e76ba388d4b00c98893dddcb1f",
+      "git_blob_sha1": "4ee2d13d01ab153ea4aa9dcfab930552cab62121",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-af56ab7e5c87"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred. Required full same-commit LICENSE already preserved in group_s_manifest.json: fulltext_expansion_20261116/acquired/group_s/heygen-com__hyperframes/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/hyperframes-audio/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/hyperframes-audio/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/hyperframes-audio/SKILL.md",
+      "size_bytes": 26560,
+      "sha256": "daf3250390426ef096a7d2f71082919418099decbd1f31288640a43b43c7e293",
+      "git_blob_sha1": "1f01987a136907f9177b7b516eff192fa748e748",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8619597065b9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred. Required full same-commit LICENSE already preserved in group_s_manifest.json: fulltext_expansion_20261116/acquired/group_s/heygen-com__hyperframes/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/motion-graphics/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/motion-graphics/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/motion-graphics/SKILL.md",
+      "size_bytes": 16031,
+      "sha256": "f6e25500b3c953f94f76f97c29e0d8167951966a2dc75214c8d5910dec58aa9c",
+      "git_blob_sha1": "f7d5afa17107de70a6c6b51f1bd624d6fb71564b",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a0641e8258f0"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred. Required full same-commit LICENSE already preserved in group_s_manifest.json: fulltext_expansion_20261116/acquired/group_s/heygen-com__hyperframes/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/product-launch-video/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/product-launch-video/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/product-launch-video/SKILL.md",
+      "size_bytes": 35942,
+      "sha256": "b7e8071a7d5328195abd4b907e7ba3fca8c016652391b2b5d149aa1dcef7aa77",
+      "git_blob_sha1": "010be54dfcd7943df2b9f04e1d59b5ca203136a8",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4aeef0e71e1f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred. Required full same-commit LICENSE already preserved in group_s_manifest.json: fulltext_expansion_20261116/acquired/group_s/heygen-com__hyperframes/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    }
+  ]
+}

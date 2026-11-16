@@ -1,0 +1,168 @@
+{
+  "batch": "0049",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/hi-nikola__hand-drawn-explainer-video-nikola/SKILL.md",
+      "repository": "hi-nikola/hand-drawn-explainer-video-nikola",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "3ee5d1c01fe8d34f5162c4aace418753f85bd0d9",
+      "source_url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/SKILL.md",
+      "size_bytes": 7752,
+      "sha256": "6c3a0fd4005fba7537c916b0e0189e735b29dff2abfa1cabebea3de97474d57c",
+      "git_blob_sha1": "ce9e99ad50adccafaf4e6dccebaaa93ab91d9ff0",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b11e9d60336"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/README.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/THIRD_PARTY_NOTICES.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/references/hand-drawn-video-prompts-LICENSE.txt",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE-MEDIA.md"
+      ],
+      "conditions": "Retain Apache-2.0, kaomei MIT and third-party attribution intact. Original selected router only; no media, visual-IP assets, vendor runtime or style-reference documents included. LICENSE-MEDIA retained solely as exclusion/scope notice, not evidence of included CC-BY media. No endorsement or third-party personality/trademark/service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/LICENSE-MEDIA.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/THIRD_PARTY_NOTICES.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/references/hand-drawn-video-prompts-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "hi-nikola/hand-drawn-explainer-video-nikola",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3ee5d1c01fe8d34f5162c4aace418753f85bd0d9",
+      "source_url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b11e9d60336"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/README.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/THIRD_PARTY_NOTICES.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/references/hand-drawn-video-prompts-LICENSE.txt",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE-MEDIA.md"
+      ],
+      "conditions": "Retain Apache-2.0, kaomei MIT and third-party attribution intact. Original selected router only; no media, visual-IP assets, vendor runtime or style-reference documents included. LICENSE-MEDIA retained solely as exclusion/scope notice, not evidence of included CC-BY media. No endorsement or third-party personality/trademark/service rights granted.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/LICENSE-MEDIA.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/THIRD_PARTY_NOTICES.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/references/hand-drawn-video-prompts-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/hi-nikola__hand-drawn-explainer-video-nikola/THIRD_PARTY_NOTICES.md",
+      "repository": "hi-nikola/hand-drawn-explainer-video-nikola",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "3ee5d1c01fe8d34f5162c4aace418753f85bd0d9",
+      "source_url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 2986,
+      "sha256": "e5d9ffe87ec69bb3493e68203f2b5a43b56ac94b62ff7c6034e29ba8abe41774",
+      "git_blob_sha1": "08e151304959c7d51091f8f9a3b88989b77a180c",
+      "role": "license_notice",
+      "license": "upstream-attribution-and-scope-notice",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b11e9d60336"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/README.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/THIRD_PARTY_NOTICES.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/references/hand-drawn-video-prompts-LICENSE.txt",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE-MEDIA.md"
+      ],
+      "conditions": "Retain Apache-2.0, kaomei MIT and third-party attribution intact. Original selected router only; no media, visual-IP assets, vendor runtime or style-reference documents included. LICENSE-MEDIA retained solely as exclusion/scope notice, not evidence of included CC-BY media. No endorsement or third-party personality/trademark/service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/LICENSE-MEDIA.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/THIRD_PARTY_NOTICES.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/references/hand-drawn-video-prompts-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/hi-nikola__hand-drawn-explainer-video-nikola/references/hand-drawn-video-prompts-LICENSE.txt",
+      "repository": "hi-nikola/hand-drawn-explainer-video-nikola",
+      "upstream_path": "references/hand-drawn-video-prompts-LICENSE.txt",
+      "upstream_commit": "3ee5d1c01fe8d34f5162c4aace418753f85bd0d9",
+      "source_url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/references/hand-drawn-video-prompts-LICENSE.txt",
+      "size_bytes": 1063,
+      "sha256": "6e12b889e19d63c1c39fcb19ca2d1e45c7dd0df1ceff5171f4948e60efbf857a",
+      "git_blob_sha1": "a8fc602a6029f86f99e486a19c35a7602ca5da25",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b11e9d60336"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/README.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/THIRD_PARTY_NOTICES.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/references/hand-drawn-video-prompts-LICENSE.txt",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE-MEDIA.md"
+      ],
+      "conditions": "Retain Apache-2.0, kaomei MIT and third-party attribution intact. Original selected router only; no media, visual-IP assets, vendor runtime or style-reference documents included. LICENSE-MEDIA retained solely as exclusion/scope notice, not evidence of included CC-BY media. No endorsement or third-party personality/trademark/service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/LICENSE-MEDIA.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/THIRD_PARTY_NOTICES.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/references/hand-drawn-video-prompts-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/hi-nikola__hand-drawn-explainer-video-nikola/LICENSE-MEDIA.md",
+      "repository": "hi-nikola/hand-drawn-explainer-video-nikola",
+      "upstream_path": "LICENSE-MEDIA.md",
+      "upstream_commit": "3ee5d1c01fe8d34f5162c4aace418753f85bd0d9",
+      "source_url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE-MEDIA.md",
+      "size_bytes": 728,
+      "sha256": "8df0f3fc3c3bae4a90dc86e09499d4aa4cd7de2934db5e078bb70195d4c43ab0",
+      "git_blob_sha1": "d5a68926bb752b66d8ebf3a32426c32e0505ea18",
+      "role": "license_notice",
+      "license": "upstream-attribution-and-scope-notice",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b11e9d60336"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/README.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/THIRD_PARTY_NOTICES.md",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/references/hand-drawn-video-prompts-LICENSE.txt",
+        "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola/blob/3ee5d1c01fe8d34f5162c4aace418753f85bd0d9/LICENSE-MEDIA.md"
+      ],
+      "conditions": "Retain Apache-2.0, kaomei MIT and third-party attribution intact. Original selected router only; no media, visual-IP assets, vendor runtime or style-reference documents included. LICENSE-MEDIA retained solely as exclusion/scope notice, not evidence of included CC-BY media. No endorsement or third-party personality/trademark/service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/LICENSE-MEDIA.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/THIRD_PARTY_NOTICES.md",
+        "upstream/hi-nikola__hand-drawn-explainer-video-nikola/references/hand-drawn-video-prompts-LICENSE.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "batch": "0051",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/isabellagreco1997__script-to-video/LICENSE",
+      "repository": "isabellagreco1997/script-to-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8274b485571e1dfa337082a072b53d9c3a6f4896",
+      "source_url": "https://github.com/isabellagreco1997/script-to-video/blob/8274b485571e1dfa337082a072b53d9c3a6f4896/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "4153406d0eefdbcc32a6058e80ee10c97abf5571f2b9d48bec4d061f646888ff",
+      "git_blob_sha1": "6ae6b34b8aef171c86cfd14921aa885249889827",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-756774f876ae"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/isabellagreco1997/script-to-video/blob/8274b485571e1dfa337082a072b53d9c3a6f4896/LICENSE",
+        "https://github.com/isabellagreco1997/script-to-video/blob/8274b485571e1dfa337082a072b53d9c3a6f4896/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/isabellagreco1997__script-to-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/isabellagreco1997__script-to-video/SKILL.md",
+      "repository": "isabellagreco1997/script-to-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "8274b485571e1dfa337082a072b53d9c3a6f4896",
+      "source_url": "https://github.com/isabellagreco1997/script-to-video/blob/8274b485571e1dfa337082a072b53d9c3a6f4896/SKILL.md",
+      "size_bytes": 17693,
+      "sha256": "77f04de52d42593d3b9ec65c77b3844c81b2be8ffc2a16bdfcdd9ec790ce381d",
+      "git_blob_sha1": "43ac75507548570d6732c6561c8eb185db6d478f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-756774f876ae"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/isabellagreco1997/script-to-video/blob/8274b485571e1dfa337082a072b53d9c3a6f4896/LICENSE",
+        "https://github.com/isabellagreco1997/script-to-video/blob/8274b485571e1dfa337082a072b53d9c3a6f4896/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/isabellagreco1997__script-to-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/itwanger__one-minute-remotion/LICENSE",
+      "repository": "itwanger/one-minute-remotion",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "335ae230ee823d85efdfbfc7d6897c1dd22ddaf0",
+      "source_url": "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
+      "size_bytes": 1080,
+      "sha256": "9436b9c0461e19615b3667c28a1a6b18c69b8e68ff78f3bf62424a2f7d5218c1",
+      "git_blob_sha1": "edf784b344e5b6795d1ffe6f051de5d5605eeb4d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0914ffd9aa4c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/itwanger__one-minute-remotion/LICENSE",
+        "upstream/itwanger__one-minute-remotion/THIRD_PARTY_NOTICES.md",
+        "upstream/itwanger__one-minute-remotion/references/upstream-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/itwanger__one-minute-remotion/SKILL.md",
+      "repository": "itwanger/one-minute-remotion",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "335ae230ee823d85efdfbfc7d6897c1dd22ddaf0",
+      "source_url": "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/SKILL.md",
+      "size_bytes": 7671,
+      "sha256": "4e9386b0655b6f15628695dd1a73479271d6d210dc09462d41add8ca41a591d1",
+      "git_blob_sha1": "54791005493f3964f8edbde00ebbf1fe106c1743",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0914ffd9aa4c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/itwanger__one-minute-remotion/LICENSE",
+        "upstream/itwanger__one-minute-remotion/THIRD_PARTY_NOTICES.md",
+        "upstream/itwanger__one-minute-remotion/references/upstream-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/itwanger__one-minute-remotion/THIRD_PARTY_NOTICES.md",
+      "repository": "itwanger/one-minute-remotion",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "335ae230ee823d85efdfbfc7d6897c1dd22ddaf0",
+      "source_url": "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1232,
+      "sha256": "a44197a49007be668446f2b1dfdd88af384a0a227ca06208826df1c0fc4ea974",
+      "git_blob_sha1": "c33c8ef7de707dbd5e56432bb82b82f9667e121c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0914ffd9aa4c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/itwanger__one-minute-remotion/LICENSE",
+        "upstream/itwanger__one-minute-remotion/THIRD_PARTY_NOTICES.md",
+        "upstream/itwanger__one-minute-remotion/references/upstream-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/itwanger__one-minute-remotion/references/upstream-LICENSE.txt",
+      "repository": "itwanger/one-minute-remotion",
+      "upstream_path": "references/upstream-LICENSE.txt",
+      "upstream_commit": "335ae230ee823d85efdfbfc7d6897c1dd22ddaf0",
+      "source_url": "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/references/upstream-LICENSE.txt",
+      "size_bytes": 1086,
+      "sha256": "6d6a2a9caf2e6d2b76974050427053b2892d8aa4c33fd168ce63a537fcee9d96",
+      "git_blob_sha1": "ed67368a2a79ed7be97b2a4852330cdac5b8b12a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0914ffd9aa4c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/itwanger__one-minute-remotion/LICENSE",
+        "upstream/itwanger__one-minute-remotion/THIRD_PARTY_NOTICES.md",
+        "upstream/itwanger__one-minute-remotion/references/upstream-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/LICENSE",
+      "repository": "jaredcassoutt/vox-editorial",
+      "upstream_path": "skills/vox-editorial/LICENSE",
+      "upstream_commit": "f394e925f7ccbd6df3e6b3403fcb260194bbece3",
+      "source_url": "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/LICENSE",
+      "size_bytes": 1130,
+      "sha256": "97a8e086b6250fd6cd83fce1cab60a01debda6f2ff28d65a45b7e1d96db1d70d",
+      "git_blob_sha1": "e1b40aaa5ad2c65c9f45f19c73497068435c2a0d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-85bc1e3d0e59"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/LICENSE",
+        "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/NOTICE",
+      "repository": "jaredcassoutt/vox-editorial",
+      "upstream_path": "skills/vox-editorial/NOTICE",
+      "upstream_commit": "f394e925f7ccbd6df3e6b3403fcb260194bbece3",
+      "source_url": "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/NOTICE",
+      "size_bytes": 1127,
+      "sha256": "8b10e51b187eb376adebbeaa97599e2c6f5cedc4e406db2946fac29b44ddb2cf",
+      "git_blob_sha1": "b05580278c56baabdb51c3f79fa0c72e39090d8e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-85bc1e3d0e59"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/LICENSE",
+        "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/SKILL.md",
+      "repository": "jaredcassoutt/vox-editorial",
+      "upstream_path": "skills/vox-editorial/SKILL.md",
+      "upstream_commit": "f394e925f7ccbd6df3e6b3403fcb260194bbece3",
+      "source_url": "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/SKILL.md",
+      "size_bytes": 14337,
+      "sha256": "be8166a67bee56b672bf9c0c78644e24d703139af8f342c1dac6cfc5eb1cdd82",
+      "git_blob_sha1": "736a841c5396218fbc8aa82501087b958d6aa0f3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-85bc1e3d0e59"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/LICENSE",
+        "upstream/jaredcassoutt__vox-editorial/skills/vox-editorial/NOTICE"
+      ]
+    }
+  ]
+}
