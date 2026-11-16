@@ -1,0 +1,2667 @@
+{
+  "files": [
+    {
+      "file": "license-only/Breakthrough__PySceneDetect/LICENSE",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "LICENSE",
+      "upstream_commit": null,
+      "source_url": "https://api.github.com/repos/Breakthrough/PySceneDetect/git/blobs/c03985e60181f431b181735b4d06ada21272322a",
+      "size_bytes": 1505,
+      "sha256": "e855ca89e457a7d0b6b7c92ad475d1120a9a5b5bf4e5048c706b1b3889fbc349",
+      "git_blob_sha1": "c03985e60181f431b181735b4d06ada21272322a",
+      "role": "license_only_no_project_body",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "recovery_method": "base64 lossless",
+      "scope_notice": "License document only. No associated project source or documentation body is retained in this folder, and no whole-project rights clearance is claimed."
+    },
+    {
+      "file": "license-only/ericrisco__rsc-harness/LICENSE",
+      "repository": "ericrisco/rsc-harness",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "886ef8c004d7be5f71405db3b6f9ad938319000a",
+      "source_url": "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "39a5064c7cf5b55a0a61667267b3c20cbd326af1d2a591b21349c5734eb5e4af",
+      "git_blob_sha1": "dcfe2ddec329f9901617b6ab0ebc517eb66e3de9",
+      "role": "license_only_no_project_body",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "recovery_method": "Removed exactly one terminal LF; resultant bytes match previously recorded upstream Git blob. Original ZIP bytes unchanged.",
+      "scope_notice": "License document only. No associated project source or documentation body is retained in this folder, and no whole-project rights clearance is claimed."
+    },
+    {
+      "file": "license-only/eruto-skills__analyze-video/LICENSE",
+      "repository": "eruto-skills/analyze-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e2fb609f0b198b0a5747de8be2ca10c53291088a",
+      "source_url": "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "ff38f14298cbbce33cea1cb32b911f4658cf6f2ee444cc69cb8ec8364b696416",
+      "git_blob_sha1": "70fadcac14af211c2767ba45fef18fd0abfc3a00",
+      "role": "license_only_no_project_body",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "recovery_method": "Removed exactly one terminal LF; resultant bytes match previously recorded upstream Git blob. Original ZIP bytes unchanged.",
+      "scope_notice": "License document only. No associated project source or documentation body is retained in this folder, and no whole-project rights clearance is claimed."
+    },
+    {
+      "file": "license-only/midrender__revideo/LICENSE",
+      "repository": "midrender/revideo",
+      "upstream_path": "LICENSE",
+      "upstream_commit": null,
+      "source_url": "https://api.github.com/repos/midrender/revideo/git/blobs/b30f04e173f68773714b7d9e2652caecbeec53f9",
+      "size_bytes": 1070,
+      "sha256": "b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e",
+      "git_blob_sha1": "b30f04e173f68773714b7d9e2652caecbeec53f9",
+      "role": "license_only_no_project_body",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "recovery_method": "base64 lossless",
+      "scope_notice": "License document only. No associated project source or documentation body is retained in this folder, and no whole-project rights clearance is claimed."
+    },
+    {
+      "file": "license-only/notque__vexjoy-agent/LICENSE",
+      "repository": "notque/vexjoy-agent",
+      "upstream_path": "LICENSE",
+      "upstream_commit": null,
+      "source_url": "https://api.github.com/repos/notque/vexjoy-agent/git/blobs/b8e8f299e1acee25d9c87a58b78e865821116c19",
+      "size_bytes": 1088,
+      "sha256": "8c84c4df93703ff7e5e0a223486d74d91b154a4c3c208b4c8f0592a6de1b84f4",
+      "git_blob_sha1": "b8e8f299e1acee25d9c87a58b78e865821116c19",
+      "role": "license_only_no_project_body",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "recovery_method": "base64 lossless",
+      "scope_notice": "License document only. No associated project source or documentation body is retained in this folder, and no whole-project rights clearance is claimed."
+    },
+    {
+      "file": "license-only/ranahaani__i-hate-editing/LICENSE",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://github.com/ranahaani/i-hate-editing/blob/a5add74b595f652e0da9577bbf8f6fc4b1d57457/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "d9653651935253966e0f94c34ed8f95308104fd72d534fa11bdc677e75ac9b41",
+      "git_blob_sha1": "d2752a38e940556072224b27acf7ef0426dae1f0",
+      "role": "license_only_no_project_body",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "recovery_method": "Removed exactly one terminal LF; resultant bytes match previously recorded upstream Git blob. Original ZIP bytes unchanged.",
+      "scope_notice": "License document only. No associated project source or documentation body is retained in this folder, and no whole-project rights clearance is claimed."
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "LICENSE.txt",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/LICENSE.txt",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "NOTICE.txt",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/NOTICE.txt",
+      "size_bytes": 178,
+      "sha256": "e5ca061ef053cb9fd1b7146da3b10d4e4f2ec218445c3ba7f7edb32ae9452543",
+      "git_blob_sha1": "a2607e064df619e3bce445c68e59e47c44a57422",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/README.md",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "README.md",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/README.md",
+      "size_bytes": 9407,
+      "sha256": "8c84a4fc15d5d88319462d696392ec10957bb60f528b452456883d88dfc732ab",
+      "git_blob_sha1": "28a9a6e723f472c0c845aec698da2f9d9038b9ea",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/docs/tutorials/time-ranges.md",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "docs/tutorials/time-ranges.md",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/docs/tutorials/time-ranges.md",
+      "size_bytes": 7313,
+      "sha256": "6f92e3ffb83e4eeeeb27354887b204f10393da6f27b1ffb4a18cd7f8f4082cb3",
+      "git_blob_sha1": "74bc63c753548fea06fcf9d419461495002d6652",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentime/rationalTime.h",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentime/rationalTime.h",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentime/rationalTime.h",
+      "size_bytes": 14854,
+      "sha256": "1ee199836bd25acc56ec8c3fabe0a8dc76920d86e3bd76f3258bfec591e2249d",
+      "git_blob_sha1": "5551ed3fb02d01a11d330d2cfe960478381ddc41",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentimelineio/clip.cpp",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentimelineio/clip.cpp",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentimelineio/clip.cpp",
+      "size_bytes": 6085,
+      "sha256": "46bc7e2cc91c4a4197c269706c815922c4711b9add93e40f93b8a8cf27b908f9",
+      "git_blob_sha1": "a2e8acced4b0c2b20851018e8ca7a6ed338737bc",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentimelineio/externalReference.h",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentimelineio/externalReference.h",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentimelineio/externalReference.h",
+      "size_bytes": 1740,
+      "sha256": "0908dafa0b0c02c5d249a0b6fb8ea8906149c1d6a670733de3836dba1ed0d5d6",
+      "git_blob_sha1": "ddb028f4fa38157bfde423383070a703fdd8ed61",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentimelineio/item.cpp",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentimelineio/item.cpp",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentimelineio/item.cpp",
+      "size_bytes": 4862,
+      "sha256": "fb623316c0d4eb94ac2d02c3f073556ce17cc0889a9db779c10e0706fc2aa428",
+      "git_blob_sha1": "9c1a5ebe38d94cf9ece43772290b53359152bf6c",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentimelineio/item.h",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentimelineio/item.h",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentimelineio/item.h",
+      "size_bytes": 4823,
+      "sha256": "fcaf035889c19ca246ed955b8adaced6f4b700cacf905de14202e3129b0bb04a",
+      "git_blob_sha1": "5a7a06a33c20eaa2ec2cc19cd03a8f2c81882320",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentimelineio/mediaReference.h",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentimelineio/mediaReference.h",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentimelineio/mediaReference.h",
+      "size_bytes": 2650,
+      "sha256": "27a62a87f8cd3cdf4b61b9f1679a1d587ea262e9ba4e875bdbcfe10ca0d0e865",
+      "git_blob_sha1": "1d2c95dcf9932f06db79e4b91c2011da6a157242",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/src/opentimelineio/missingReference.h",
+      "repository": "AcademySoftwareFoundation/OpenTimelineIO",
+      "upstream_path": "src/opentimelineio/missingReference.h",
+      "upstream_commit": "eee67fdcdce388696e39f4176d89a61ee9fdc790",
+      "source_url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/blob/eee67fdcdce388696e39f4176d89a61ee9fdc790/src/opentimelineio/missingReference.h",
+      "size_bytes": 1683,
+      "sha256": "1c6ea3ce27e52aaf42840703429f0003e65fd6c47c3d9736363aa7e5d89743c3",
+      "git_blob_sha1": "093e6d9eef1130b96de723ee1a27827fdad9815c",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/NOTICE.txt"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/LICENSE",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "22b4aea739e33689429ebd2f326d95d18ebe185173eb9d9c47b32614fda94963",
+      "git_blob_sha1": "9c31cf1527ef2df27db90ea93a9df7accccee4f3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "MODEL_LICENSES.md",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/MODEL_LICENSES.md",
+      "size_bytes": 9059,
+      "sha256": "a475804d8ecbca6cdf2fd2ea15ac7a9dc2d14e5d96a57a0d79a157c6d8898ca3",
+      "git_blob_sha1": "520c641d516ef2795285159e41286034a8d2164c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/skills/edit-timeline-studio/SKILL.md",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "skills/edit-timeline-studio/SKILL.md",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/skills/edit-timeline-studio/SKILL.md",
+      "size_bytes": 28701,
+      "sha256": "f333152b99c0569438131f04cf93d6856302240a68ccbb99bba34b67dd33316e",
+      "git_blob_sha1": "ec8845517a7bfd32f3be8ddbf3d72174d32a10dc",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/skills/edit-timeline-studio/references/command-contract.md",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "skills/edit-timeline-studio/references/command-contract.md",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/skills/edit-timeline-studio/references/command-contract.md",
+      "size_bytes": 5586,
+      "sha256": "a000aa4fc6a343d4aef143de5f2151f48aac01654eadc615bc80391d8318d9d6",
+      "git_blob_sha1": "6146f7e5fcad7d37c2f262f62293687c408ebf97",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/skills/edit-timeline-studio/references/timeline-markers.md",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "skills/edit-timeline-studio/references/timeline-markers.md",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/skills/edit-timeline-studio/references/timeline-markers.md",
+      "size_bytes": 10660,
+      "sha256": "98c0cb109c2f5896bcd2c2b3034ccf6e14c77ac2fefa7b22511de53b399cff2b",
+      "git_blob_sha1": "c2e28eb2466fb63535e419c490727f938f04212a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/skills/edit-timeline-studio/references/webmcp-integration.md",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "skills/edit-timeline-studio/references/webmcp-integration.md",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/skills/edit-timeline-studio/references/webmcp-integration.md",
+      "size_bytes": 8698,
+      "sha256": "df7c72513d0e49f7332824b595817a21c5ebbfa0fcdadcdaf06b8abecc017784",
+      "git_blob_sha1": "d05de71225005436310b77d36ce25d6ba420b517",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/src/hooks/useWebMcpEditor.js",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "src/hooks/useWebMcpEditor.js",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/src/hooks/useWebMcpEditor.js",
+      "size_bytes": 4334,
+      "sha256": "c39d5d867b63c5f1da8f749f5f77e26634c290559bed3b59090e0ca429f6c030",
+      "git_blob_sha1": "5684d4cf12e7b3b3ec29a9a9bb8f8374a1dbfa3f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/src/lib/timelineMarkers.js",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "src/lib/timelineMarkers.js",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/src/lib/timelineMarkers.js",
+      "size_bytes": 2035,
+      "sha256": "a8d8f714f5818567fed78b77cfd1c4355b3f1a99353abc92910899272dfecc47",
+      "git_blob_sha1": "69a20d2e29497051c9a44a2c18d875e71b77f192",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE",
+        "upstream/MartinDelophy__ai-video-editor/MODEL_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/LICENSE",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/LICENSE",
+      "size_bytes": 1089,
+      "sha256": "e60488b53ea2107d2ba2f627c9f315cfb915860f456142fc11038ad2a1eeb1b1",
+      "git_blob_sha1": "24acea5771aa7a76d578199cbf81e302cd4a7e44",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/README.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/README.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/README.md",
+      "size_bytes": 7548,
+      "sha256": "a7c5cd198fe5a3ab1c75f0d82b36473a641994179137b89256af5b54f835de86",
+      "git_blob_sha1": "c3cd645be62805a3062ce702fdba4c1be37e2845",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/architecture.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/architecture.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/architecture.md",
+      "size_bytes": 5498,
+      "sha256": "2049f6c2aa669899736256d369ae41769116a2fffde8f4a6e23d191d0303ee65",
+      "git_blob_sha1": "18912f4d15908059397b8938bc40eccba1172c9e",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/benchmarks.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/benchmarks.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/benchmarks.md",
+      "size_bytes": 5937,
+      "sha256": "cd2644bed1912f96778f3f32bae983038e0652883910bc97bb44a547f0c579bb",
+      "git_blob_sha1": "30f44acafad8e69d4e4042396563cdf68f749f84",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/control-api.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/control-api.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/control-api.md",
+      "size_bytes": 1158,
+      "sha256": "f92822d984117dc8eb39606b8fc221df5c034e48e32fbdd6258a93919b1faf52",
+      "git_blob_sha1": "6ec3eb8a70d18d6aca5770e4b2d83bbe50300d4b",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/development.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/development.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/development.md",
+      "size_bytes": 8438,
+      "sha256": "72bc4bea5984395dba8f73835a2fc3b1eccdbf547706bab27f797b355c3d321f",
+      "git_blob_sha1": "daffeadb37565af813a767f331d4a9a9f0397dac",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile-dependency-security.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile-dependency-security.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile-dependency-security.md",
+      "size_bytes": 3391,
+      "sha256": "7992e8256e85a2126ca9b135124fee600af5cba34a3fa7a9950309ee7f127d68",
+      "git_blob_sha1": "08e30a52cfe3d52711cab4cf022110ad5a8e28d5",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/README.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/README.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/README.md",
+      "size_bytes": 2345,
+      "sha256": "fd52e72def026a8f2d69a859a37fa21dc0ea233103a8b874df9345321d512b82",
+      "git_blob_sha1": "e4917f615235f0d4044b11195a786b50e46f3a88",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/architecture.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/architecture.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/architecture.md",
+      "size_bytes": 14943,
+      "sha256": "8651d06f37ce29b6cfabb92f266c4cd5b25f87b6b75145afebd56fc9065175f5",
+      "git_blob_sha1": "9ca51d1576ed979be1c6ddf61e43af9488e533c7",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/framework-evaluation.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/framework-evaluation.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/framework-evaluation.md",
+      "size_bytes": 4895,
+      "sha256": "bb752edd22db61dc60d12f3d8948a61b3023e32957be2fac48b8d37d6141e862",
+      "git_blob_sha1": "dc7332bb1855d6a72b1381772491fe19872a0d69",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/known-issues.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/known-issues.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/known-issues.md",
+      "size_bytes": 11273,
+      "sha256": "6eb5deccf3ddbdfe2a1c9f36f26ad7d66e69bcdc01fef88f33aab67c1285bcad",
+      "git_blob_sha1": "af1cebba47d0536444d7422b05c243ec8c792645",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/local-models.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/local-models.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/local-models.md",
+      "size_bytes": 2325,
+      "sha256": "20c7a20420651cd4003114536981ae4cd84d7bc67036fea96c9e3e0ee4beeeba",
+      "git_blob_sha1": "681d894bced860b2861deeb900a775e642ae156d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/migration.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/migration.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/migration.md",
+      "size_bytes": 1648,
+      "sha256": "50e653add202ec4cd86d528b733a4033bf40b1cc07c30187338b6f015982ae0c",
+      "git_blob_sha1": "9e6bc8a5405f8897ae7190166cc227ff0b6bd869",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/native-host-status.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/native-host-status.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/native-host-status.md",
+      "size_bytes": 8072,
+      "sha256": "51c241dc2d8e2931e53b7bf88a4c1a968cd874c47d531aab6e6a54c0050dc340",
+      "git_blob_sha1": "dbf8bb2f3d3a46b61ef50e5a6e68d8ae27106873",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/mobile/provider-auth.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/mobile/provider-auth.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/mobile/provider-auth.md",
+      "size_bytes": 6974,
+      "sha256": "f51b43288695b121bf1ef43762d076cf0d1d52f1f457166a5e357f30722c6d63",
+      "git_blob_sha1": "7a743d1b7583c7cb0d4604ca63b0b967c2d775be",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/product-positioning.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/product-positioning.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/product-positioning.md",
+      "size_bytes": 2807,
+      "sha256": "fa9fb5b9f5d92ed7200dcc5e4ea0852e6038fa73a4c833fbbb8c35a2c46642d0",
+      "git_blob_sha1": "39264a0008924b3defc6793e39e5a461a53fcf50",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/real-speech-acceptance.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/real-speech-acceptance.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/real-speech-acceptance.md",
+      "size_bytes": 4634,
+      "sha256": "3f618e3c63fb95055c9da9c528be2af70a66fb9f17b1fe3f95a6f02240e0b2f6",
+      "git_blob_sha1": "279bd2ee4acf20b42d0970659ef911262da4f72c",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/releases/v0.1.5-audit.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/releases/v0.1.5-audit.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/releases/v0.1.5-audit.md",
+      "size_bytes": 8606,
+      "sha256": "723b940da767e890e09bc6776fd1b6cbc5f4697771e4bba1a22f14ecda81c3ba",
+      "git_blob_sha1": "acf9582a7d2ea8ff7688873bfda81f87a6ea4cce",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/releases/v0.1.5.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/releases/v0.1.5.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/releases/v0.1.5.md",
+      "size_bytes": 8244,
+      "sha256": "7c5208f9b7ffe7f5df5e570c3eede43f6cd259efdfcc01d13a60fa42a4e52aca",
+      "git_blob_sha1": "34f1ef2323461a3a3584ab1b4c68ce6f532e1d6c",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/releases/v0.2.0.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/releases/v0.2.0.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/releases/v0.2.0.md",
+      "size_bytes": 6034,
+      "sha256": "2cd2736163be6fe406be429f1764c0c0cf35c61192e1af60940a09d0750fd9b8",
+      "git_blob_sha1": "b0d60fdccbff02c8a172bea0ca3c228c103899fb",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/releases/v0.3.0.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/releases/v0.3.0.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/releases/v0.3.0.md",
+      "size_bytes": 3431,
+      "sha256": "1c340e83668b0509986fb8c60299049ad00d697ded1a45ddc47db4e8b376a757",
+      "git_blob_sha1": "b74e9d7b60b81bcf5eb1e6e37d47259bf18b3d8d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/security.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/security.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/security.md",
+      "size_bytes": 2397,
+      "sha256": "841677b1bd5efabc51a503954885b5c2d2820bac2d0266712aa5bf4aee2dc75b",
+      "git_blob_sha1": "3cb64c480afbe6c105a70c30d7da8be1c61aab6c",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/speech-mcp.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/speech-mcp.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/speech-mcp.md",
+      "size_bytes": 7083,
+      "sha256": "850f93b8c256bd58cfdc0eca474b94de217a358a4de8d9f4ac2f47664147f04a",
+      "git_blob_sha1": "626d63dd3152165e6f5983a1683ec08354014597",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/speech-models-2026.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/speech-models-2026.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/speech-models-2026.md",
+      "size_bytes": 10685,
+      "sha256": "da43341de720a3e91c9d469f9eb0aabe58df9dc806d4bd4fbf18c08f89ca06ee",
+      "git_blob_sha1": "74eb927c7e6c058042bac24cc4377197d49c0c3f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/upstream-study.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/upstream-study.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/upstream-study.md",
+      "size_bytes": 14775,
+      "sha256": "8f0b6b4705c71797706053cbece28f398458f86db9c5a307c279289e43b9f028",
+      "git_blob_sha1": "de9344152c4473716287821bfb5651de23617f6e",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/docs/voice-identity.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "docs/voice-identity.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/docs/voice-identity.md",
+      "size_bytes": 8692,
+      "sha256": "cd9b624c3a6a5b4c02ce3f1117b1c41d75257ffff19ed916410e22132be5de12",
+      "git_blob_sha1": "b42dba107a548d65e046be9b940ab686314c8773",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/api/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/api/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/api/src/index.ts",
+      "size_bytes": 29,
+      "sha256": "5a7f215f4a8f2ccb0b0b3295dbc4802e8285bb606a7cf52711061a05559c5a3d",
+      "git_blob_sha1": "93c7ba6928f964296c431b84489a5727f4a7f03a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/api/src/server.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/api/src/server.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/api/src/server.ts",
+      "size_bytes": 4867,
+      "sha256": "c53a1f08d869049d176e7454a4fa29120ba17740ebc52a5094a859d934429ac4",
+      "git_blob_sha1": "ebafe3594b594f8e7c19d0825fd242c02b0d8d0f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/edit-engine.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/edit-engine.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/edit-engine.ts",
+      "size_bytes": 6715,
+      "sha256": "ea12a99e665e06017b4d35b19c34305a44825dba7bf8fa0f734d17ad2d01d2a9",
+      "git_blob_sha1": "8d6c544d83bf903ff4c89c9d6ae6b217ddb3c38d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/feedback.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/feedback.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/feedback.ts",
+      "size_bytes": 3896,
+      "sha256": "a0df874e25f71a1c47509dbda67ea6a878f5e2ff63357c2b5051767c783f0433",
+      "git_blob_sha1": "2cae7f28cac419b028fcfae75cfd239731365150",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/identity.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/identity.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/identity.ts",
+      "size_bytes": 726,
+      "sha256": "54cddd8285fa1b5ccb226c1ea37d8d8f746a0dbdb7bd643da910d1deae7296ea",
+      "git_blob_sha1": "abc897e5bb2d84f74d14cdd3fca12867b495360d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/index.ts",
+      "size_bytes": 327,
+      "sha256": "3241c1956d1b3d0a7257502385cd73f1184927f841926dd3079c6bc707f7b4b9",
+      "git_blob_sha1": "d55a5607130cf7d9ceceb6a56d54eea36b0eddad",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/patch-engine.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/patch-engine.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/patch-engine.ts",
+      "size_bytes": 8832,
+      "sha256": "3a04c69b8d1e4e7b2b787bbbfe38dd1a3161161f7d510771de468087a8971976",
+      "git_blob_sha1": "ab748f92b8893d4baca016da2dc84ea18468f993",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/project-store.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/project-store.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/project-store.ts",
+      "size_bytes": 21985,
+      "sha256": "e8a8e89b18028e6a832db5b1502564f251df154386a76d5fe433a62d00707116",
+      "git_blob_sha1": "ace71f9df0698cece897bee236d97dc1a1a4b727",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/repository.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/repository.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/repository.ts",
+      "size_bytes": 4221,
+      "sha256": "e5251d58866f8e26a329cd7f72e16e3bffe7734cade18da47ca66c367d46fd4d",
+      "git_blob_sha1": "3140d0d180c5bb4f26cb2c470ec7e43bf0c76c49",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/schemas.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/schemas.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/schemas.ts",
+      "size_bytes": 27527,
+      "sha256": "3d4e72319c5e776c48430a3a7dd44b9fda2a8945289de067173c0bb6308837e7",
+      "git_blob_sha1": "9d8dc5d98e145135308d45c963167d8bee7fac09",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/time.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/time.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/time.ts",
+      "size_bytes": 1017,
+      "sha256": "f4d73be16e0c7546062bdf2a1d8966d1e9b16aa271390594718d0fc2b372fd1b",
+      "git_blob_sha1": "e6ff537fe16c9ce6eb3b831682290d452904204f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/timeline-context.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/timeline-context.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/timeline-context.ts",
+      "size_bytes": 1596,
+      "sha256": "008a653b7af71fca748e90f91c2219797bcd158417510cf81280b9b9f58fe61c",
+      "git_blob_sha1": "369781514307186bbeb51dec2fa8c37fe0e9cd52",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/core/src/workflow.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/core/src/workflow.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/core/src/workflow.ts",
+      "size_bytes": 4344,
+      "sha256": "ee5cdfc93134523d942de8342a55bb0c5ec0918f90eb0e131c30d4e6016e374d",
+      "git_blob_sha1": "5f65b905337c2b89577335fbc373dea5a8f7ca1a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/jobs/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/jobs/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/jobs/src/index.ts",
+      "size_bytes": 32,
+      "sha256": "1c5f125b8803d344d623eab6a5516d369a50c1fe44352dd164b17a2eba325dfa",
+      "git_blob_sha1": "6cd7cfc9131042ee185836528fae9e942b0b8d79",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/jobs/src/job-queue.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/jobs/src/job-queue.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/jobs/src/job-queue.ts",
+      "size_bytes": 15157,
+      "sha256": "4626a2ee34450311ba9ebb4e955c1498c8fd09455369de85af2437af4fd7e044",
+      "git_blob_sha1": "2fc7752a1c2d35337244d10841c454e2b39ec267",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mcp/src/server.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mcp/src/server.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mcp/src/server.ts",
+      "size_bytes": 20956,
+      "sha256": "b5ec4f36d58243e17e80d80dd09bc8ff7e2e163fd2caf5df380936bb2e70ea87",
+      "git_blob_sha1": "6b862e3f9a209e3c3052d6686ea7bcb88d2d32e0",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mcp/src/tool-profile.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mcp/src/tool-profile.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mcp/src/tool-profile.ts",
+      "size_bytes": 1289,
+      "sha256": "d159af0f5b7ad2cdfc4c4253cb779b3c0ca2843b9473a1130119eca14cde28a5",
+      "git_blob_sha1": "4d1a521cc671f13ece199bec9271fd2c398481ca",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/media/src/ffprobe.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/media/src/ffprobe.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/media/src/ffprobe.ts",
+      "size_bytes": 2222,
+      "sha256": "75e55f14f7aa3b31782571d8041272cf0472eea54274bc77d4834096cbad3639",
+      "git_blob_sha1": "afe1d7d8a5c5e4f9951b488ead6fc45dfcad6bb8",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/media/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/media/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/media/src/index.ts",
+      "size_bytes": 126,
+      "sha256": "e45d68fa32c7f92daf1201eb6f3cddedcc19cf29f24395dfb8ce13dfab11b241",
+      "git_blob_sha1": "37ec852fe3fe82a67f32738b40deddc0d0bb9162",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/media/src/process.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/media/src/process.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/media/src/process.ts",
+      "size_bytes": 2273,
+      "sha256": "39c85a7036e334ed8f35cd5d43263227031076c3af28bc5185d31fd85bf17e9f",
+      "git_blob_sha1": "99c534ddc0892d6eecf8da12ed8c5b325ca869cf",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/media/src/types.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/media/src/types.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/media/src/types.ts",
+      "size_bytes": 159,
+      "sha256": "67a0431898bfc2805172d59f58355c079307b30fd2cda5b262f80460b4cb2757",
+      "git_blob_sha1": "35a49741ef053418b8a3096dd54f1b56482edf20",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/media/src/visual-evidence.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/media/src/visual-evidence.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/media/src/visual-evidence.ts",
+      "size_bytes": 3638,
+      "sha256": "7cc7a308b0a1c0f360a8e04496838f6dc4b8e2f2e91e121f748266d28a400451",
+      "git_blob_sha1": "bb8e89a43c5c7d0c7de606dc900c92cb012fdf0e",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/adapters.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/adapters.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/adapters.ts",
+      "size_bytes": 7121,
+      "sha256": "c67117fd4e80ac5e63b2d5b74d90bbefc8390c1b8b2b1a68aa2aa20f27ff41f5",
+      "git_blob_sha1": "239e927ac699d6b0c119fad0609c66b04bb18474",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/base64.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/base64.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/base64.ts",
+      "size_bytes": 1671,
+      "sha256": "36d7c1bf0d39a42a999b3cf2990eabe03aa1c895b51746764b62aea6653c7143",
+      "git_blob_sha1": "c25b0d5878d44714d413518dc1b3ec2b93cc7e7c",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/composition.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/composition.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/composition.ts",
+      "size_bytes": 14176,
+      "sha256": "5425b36450a77e9357786aadbcdfcce6e0487ca1f37083c0f508ee7eed1580da",
+      "git_blob_sha1": "801297da1fff399142272c8acdf62e0ae4648850",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/index.ts",
+      "size_bytes": 361,
+      "sha256": "3d3a4cccb88af23ed07b445499b71c9ace3d325f7c953fb3e6e48818a1bb62b9",
+      "git_blob_sha1": "f42d852ef35f45d83a6228507c756642473e54a3",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/native-bridge.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/native-bridge.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/native-bridge.ts",
+      "size_bytes": 3107,
+      "sha256": "884144d0c645b06fcca538d13e4a5b59540a9b4114acce4c06c3d597c729e240",
+      "git_blob_sha1": "2d72f622307cb108395469089567de02d74d28cf",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/native-speech-bridge.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/native-speech-bridge.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/native-speech-bridge.ts",
+      "size_bytes": 1132,
+      "sha256": "fcc7a44c41c0ee013cc76640ee2369b9c6b1f2d19108948a5627de1a69d86194",
+      "git_blob_sha1": "0214f0b8dcfebcb235d0c842febbf3ec4e586e49",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/network-audit.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/network-audit.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/network-audit.ts",
+      "size_bytes": 781,
+      "sha256": "78ca09477585008a102ce208f22a069cf2dcb8e6d07678d6829e14fa9b61061e",
+      "git_blob_sha1": "114707ca7542052294465c4d3d1042c5c5b07f9f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/privacy.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/privacy.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/privacy.ts",
+      "size_bytes": 4382,
+      "sha256": "1a4dfd93f7d54eb3715a735bc725e2809f23fe3e9c2cd1c469dddf5ee8e934d5",
+      "git_blob_sha1": "a9f8fe5bccf2762c8196363199b95a19c8fc1ef5",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/project-repository.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/project-repository.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/project-repository.ts",
+      "size_bytes": 13936,
+      "sha256": "efc8b181a4669c0b5b66311ab511a77ea7aa20c9d81eb58c34a46f2ec6f7002e",
+      "git_blob_sha1": "ab7baa06d352fc7332efa4ba8bde1749177dd26b",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/provider-settings.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/provider-settings.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/provider-settings.ts",
+      "size_bytes": 3447,
+      "sha256": "6a5f9e1c1fc06738b3cff2b8b626d592052c019669fdaf8ad38245d88e7b30ff",
+      "git_blob_sha1": "cb11288c40f163b660a24884c70e47a891484a31",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/render-plan.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/render-plan.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/render-plan.ts",
+      "size_bytes": 2052,
+      "sha256": "6edb80ca729ad034c15410e8e15d0283873b0cfb7a623a6bd9d657bca0658af6",
+      "git_blob_sha1": "5e09f326f56bb8bfa04a611d1180ebbbda20cc7a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/renderer.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/renderer.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/renderer.ts",
+      "size_bytes": 4740,
+      "sha256": "74800cd472f1f228c83aa3feee9412eb6005e74ed60635776aa7d754ee847b76",
+      "git_blob_sha1": "a65b2e9e895abc7ade1b903f17729931a4cba54b",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/self-check.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/self-check.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/self-check.ts",
+      "size_bytes": 1866,
+      "sha256": "8cd594097cc82bdf1e5750d42269f27a5e0610996d6748caddfb030ccb3f42c0",
+      "git_blob_sha1": "bbba41940171234170a73e723936f31249615972",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/mobile/src/speech-providers.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/mobile/src/speech-providers.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/mobile/src/speech-providers.ts",
+      "size_bytes": 16550,
+      "sha256": "f25f25f3ca79807253b4e6f254930f5f50e03e7b8b94da6724c4601d822fc372",
+      "git_blob_sha1": "1650095281dde1338e071801e0f43889fc4e4d55",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/platform/src/contracts.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/platform/src/contracts.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/platform/src/contracts.ts",
+      "size_bytes": 4410,
+      "sha256": "5db2089f4cf35652f54c37f094401b79c8f974e677449915adfa8e1d8ed60c73",
+      "git_blob_sha1": "c55db4ac078abbb13f7a729029ee452c72a73a76",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/platform/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/platform/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/platform/src/index.ts",
+      "size_bytes": 95,
+      "sha256": "5ef2c6e5e4827ab07b7afa7cc83c54c51f5f9fc0372db8d5ec8804fd79cc9f63",
+      "git_blob_sha1": "799f9bd95327b64e65cebf3af2c1eb382131238e",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/platform/src/node-host.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/platform/src/node-host.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/platform/src/node-host.ts",
+      "size_bytes": 4395,
+      "sha256": "95856f5dcc16066be2563684dee60baa1314ec91fdf855e78f186d0a6048e493",
+      "git_blob_sha1": "0e58f81680cf0f6f3e0add5be046ee2ffa613bfb",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/platform/src/portable.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/platform/src/portable.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/platform/src/portable.ts",
+      "size_bytes": 3379,
+      "sha256": "bcbfcbc03ce61874b376b9a916ec2b64f2cf2c082a1e9d521e4b460466cfaaa6",
+      "git_blob_sha1": "09209375ce8633addb5599838e153520a6600baa",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/contracts.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/contracts.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/contracts.ts",
+      "size_bytes": 8675,
+      "sha256": "b62b671840afde1909688bdd0b6a843470973425abca30f1bd904dbfd68595ab",
+      "git_blob_sha1": "c7ba6b303ef6f65e25ddf384b916d605bd972dc1",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/fakes.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/fakes.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/fakes.ts",
+      "size_bytes": 12133,
+      "sha256": "f095c3d2b3d76b4cc92f9e390430cde6a1efc2adf337f98a4cd9cd056fc60459",
+      "git_blob_sha1": "4dc45740664c6ae7e160e1c7604cc422151bd6e6",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/index.ts",
+      "size_bytes": 228,
+      "sha256": "6da08f53477f96d2b78cf013b3929678836b0053b0d90659eddca9e582645f00",
+      "git_blob_sha1": "643a5cfcc7f3fff9d228e6dcd60ae3c13b18bc37",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/openai-asr.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/openai-asr.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/openai-asr.ts",
+      "size_bytes": 7881,
+      "sha256": "3ee2b5a1db14fea21c205b18411b62f4d743b55d6aeccc58698b744148f530ac",
+      "git_blob_sha1": "e58eb031c3d8ecc320ef020290a27e10972180f1",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/openai-voice.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/openai-voice.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/openai-voice.ts",
+      "size_bytes": 7050,
+      "sha256": "dc48aaae476b1799e759a25386ec6b6d8f3cabe72ff8047e9a899dcbe5b653cc",
+      "git_blob_sha1": "2eae41a32301d8593a383d6e5b584250ee6e68f3",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/openai.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/openai.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/openai.ts",
+      "size_bytes": 12623,
+      "sha256": "f2b60e2683bc4d7228cdfc866ea0e5bd657ccb1219bd5b63c02fb1d05fb9d51f",
+      "git_blob_sha1": "e66e5224e8ffb27ee31f32f57fb30348d552733a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/registry.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/registry.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/registry.ts",
+      "size_bytes": 3674,
+      "sha256": "ea08a37c85d287ef93cfdc85db9c257b675cc8f1604998f369a3001f589c96fc",
+      "git_blob_sha1": "62d342af11fb129ea6eac4da0285f444ab09d61d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/providers/src/structured-output.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/providers/src/structured-output.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/providers/src/structured-output.ts",
+      "size_bytes": 984,
+      "sha256": "d061b5ebdad04f7815dbe177c486a4c55a645d2f2d8af64801dc4945cf94140c",
+      "git_blob_sha1": "a9687e865943efcbd7b3ac4435f01eb3a4972ea0",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/render/src/ffmpeg-renderer.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/render/src/ffmpeg-renderer.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/render/src/ffmpeg-renderer.ts",
+      "size_bytes": 8164,
+      "sha256": "ad8d5ff30434a87d0cdf78411bc69d20269bdec2e28601255dab14c2163407f8",
+      "git_blob_sha1": "91edf266efd34fb8cda2357caf757cd853a0dcb2",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/render/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/render/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/render/src/index.ts",
+      "size_bytes": 71,
+      "sha256": "2f810ef18cc21226a679dc30ed739d897042c1304408d4d71c36af68443935b6",
+      "git_blob_sha1": "2382ef7f76df345f3ef5210a8eb92a64d1d45399",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/render/src/self-check.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/render/src/self-check.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/render/src/self-check.ts",
+      "size_bytes": 909,
+      "sha256": "c8f54ab347495fdb0fd6003bccff9638a520e15df7c1999c1b1e17c4f1c58a9e",
+      "git_blob_sha1": "841764c23a4d727d8647925e6189c3c01ba8ed60",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/config.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/config.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/config.ts",
+      "size_bytes": 5982,
+      "sha256": "4df09c0c65e9dda7cdac7750474b661c394b8fe407748e9085d335cd6a6ab63f",
+      "git_blob_sha1": "88a987c62f75ad7604153f46fff896158825b2b6",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/factory.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/factory.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/factory.ts",
+      "size_bytes": 4795,
+      "sha256": "c86439a41db9e525ac9d390165272fabd36f31598a91e07a45b3cb5181dcabed",
+      "git_blob_sha1": "4fa047df03f83253bc78bf070b2ade123d59418d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/index.ts",
+      "size_bytes": 161,
+      "sha256": "52f953e4180518b9665cdee12a2d48ef77cf3cce840c4a8b8a8fa889b8e1e124",
+      "git_blob_sha1": "87f5b71b2b64a96be10e96cbaf550faf32847823",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/logger.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/logger.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/logger.ts",
+      "size_bytes": 1170,
+      "sha256": "94e3e629813377fcae7f157531d85d05d66782e9d7544ea9829d88d43492dbee",
+      "git_blob_sha1": "801eb0f678ec039377ba0f24b1206b36c04f8535",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/mobile-host.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/mobile-host.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/mobile-host.ts",
+      "size_bytes": 12218,
+      "sha256": "1acdeb02f61ced2ddda38751e0bb4f36d64c660672c64fc4f189864896641f34",
+      "git_blob_sha1": "80786366754f7fa80ba826b972c02531b829781d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/portable-services.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/portable-services.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/portable-services.ts",
+      "size_bytes": 20071,
+      "sha256": "d289dc4be7ef37e23aa317b98dcb2b822333d5cbc5768a5f7456c1f4cb7c2185",
+      "git_blob_sha1": "11fdbb89b86fcf592f844105875d31202f6acce1",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/video-agent-core.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/video-agent-core.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/video-agent-core.ts",
+      "size_bytes": 65354,
+      "sha256": "a42ee09615a685353a5293ff864711991f5af46354a4c4c6d1fff5a8f41d6ae9",
+      "git_blob_sha1": "38cf9c7474d4942c696651b7f0b357f1c1cbc6a8",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/runtime/src/voice-reference-selection.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/runtime/src/voice-reference-selection.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/runtime/src/voice-reference-selection.ts",
+      "size_bytes": 5749,
+      "sha256": "db7a440e700bc42928c48c8f61c9be5ce47c3becfe8c33f5f4655a22daf7d873",
+      "git_blob_sha1": "a1157588e60aaf2892d2b7cd09152b8cbc92be13",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech-mcp/src/server.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech-mcp/src/server.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech-mcp/src/server.ts",
+      "size_bytes": 14060,
+      "sha256": "48a49010efd6b70d0b43f071bb2159630ae00d3b7df43417efe0d121e20e7b27",
+      "git_blob_sha1": "4d4f9fe713392faf0f924c253777230203b1107d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/python/faster_whisper_sidecar.py",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/python/faster_whisper_sidecar.py",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/python/faster_whisper_sidecar.py",
+      "size_bytes": 1899,
+      "sha256": "22c1d80460889356693fe896030ced2a881f18826fcbd455528a9977a67cfd71",
+      "git_blob_sha1": "59286c657072837fed62f32bea293158900f7053",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/python/kokoro_sidecar.py",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/python/kokoro_sidecar.py",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/python/kokoro_sidecar.py",
+      "size_bytes": 2335,
+      "sha256": "8c28972b625fcbb883dbc52ea3dcad5d7e9990d421e7eaf13f91126f3a26e34e",
+      "git_blob_sha1": "ec7e000a3db4e5470040b61e4f2e02043b461fa9",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/python/qwen3_asr_sidecar.py",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/python/qwen3_asr_sidecar.py",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/python/qwen3_asr_sidecar.py",
+      "size_bytes": 4834,
+      "sha256": "b36db683e08e493a77ade7bcb62665d66879d3342b43878ced54fe674c3b9fe6",
+      "git_blob_sha1": "bfdc311e2835dc6bbc0a9193d3a554b4aa1633e7",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/python/qwen3_tts_sidecar.py",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/python/qwen3_tts_sidecar.py",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/python/qwen3_tts_sidecar.py",
+      "size_bytes": 2918,
+      "sha256": "5513b58b0c9a3cdac4d26cf597797b9e4cd103e426a18d5c6c4c3b31cd0b2ad8",
+      "git_blob_sha1": "2ebf6bd0c5d72c843999c6bca240d10010f85400",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/python/whisperx_sidecar.py",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/python/whisperx_sidecar.py",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/python/whisperx_sidecar.py",
+      "size_bytes": 2000,
+      "sha256": "75bcdc9d27ed2c9260b7d710ea576168503695c3c6c7630700264bf0d3c0749e",
+      "git_blob_sha1": "8b012cab9b8d1da6f66b48bfe38e5c6bc9b68cc7",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/asr.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/asr.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/asr.ts",
+      "size_bytes": 6541,
+      "sha256": "2e8b3c7ea26dec4f07fd263713affd8fe540f152f31f82281492da90cef7f197",
+      "git_blob_sha1": "ed42e039a1400aaf87c4b59a4796a2c8c122a85e",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/catalog.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/catalog.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/catalog.ts",
+      "size_bytes": 10363,
+      "sha256": "973bd580c762b6e77973513a95b4502c3c35bcb0286e9e4b17b88a2670cf2d85",
+      "git_blob_sha1": "cd8958ed49d74f3a6801542b1e876e2eafa3e2ee",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/chat-structured.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/chat-structured.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/chat-structured.ts",
+      "size_bytes": 6201,
+      "sha256": "3f77508e0fcc5652c89b10ae3ebd924ea0f4f4cd7613a86b1ddc2c395361bb54",
+      "git_blob_sha1": "13c031b1c5087ed5825084a863896e8abc92b963",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/ffmpeg-voice-reference.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/ffmpeg-voice-reference.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/ffmpeg-voice-reference.ts",
+      "size_bytes": 6253,
+      "sha256": "0f74e8726e8e7b73cf2bf821e15c466e06e97d1fcfcd4ecf4f82eee563b5197e",
+      "git_blob_sha1": "bcd95ecade12e9ccf75e46a2d7e906ccc955b826",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/fusion.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/fusion.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/fusion.ts",
+      "size_bytes": 3581,
+      "sha256": "7b8ce7a0259ea3442de2be54c75f8afb9b93af325f6f9fff3e3fe3f4f251908c",
+      "git_blob_sha1": "2faa8375b8ab2b2a9c882d34d25e44bf484db4bd",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/index.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/index.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/index.ts",
+      "size_bytes": 279,
+      "sha256": "36dcec1852389314ad1d86f872db41a0979f2e0c11b1e2bc7b09edfb68ef4c43",
+      "git_blob_sha1": "98848d51dbe3e0fb23b9b2d46e3d158b46b6cb21",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/qwen3-asr.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/qwen3-asr.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/qwen3-asr.ts",
+      "size_bytes": 3405,
+      "sha256": "c7ef4bb42686058e066a8b570a7080ff3d69fc6b54fd0dbd5855c4298f60f9ca",
+      "git_blob_sha1": "6e187a69be179f92060bee72ff993786239fa311",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/qwen3-tts.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/qwen3-tts.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/qwen3-tts.ts",
+      "size_bytes": 13561,
+      "sha256": "f0748546b419018226fda47e96664221a93757d9c173bb268699b99245c7fd38",
+      "git_blob_sha1": "6675886be294a46c332000e404cd4311d2bc93ae",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/qwen3.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/qwen3.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/qwen3.ts",
+      "size_bytes": 4076,
+      "sha256": "f4d9cffbe22c199bb72cfc387e3541065a385f0fc5bb9ffa54cfc83dc3288f1d",
+      "git_blob_sha1": "4efba61f794cfbc472d435bc724423dacbe7b8c8",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/speech-pipeline.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/speech-pipeline.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/speech-pipeline.ts",
+      "size_bytes": 14305,
+      "sha256": "ed8cd985864c65f95f7109f52288be5e9861ff801f405dd6a0ba6406c13b40d7",
+      "git_blob_sha1": "0b2d0ddb123ed7bda2ef7b21b28cd7e8de9958b4",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/tts.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/tts.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/tts.ts",
+      "size_bytes": 7235,
+      "sha256": "a2395244d713b07a6c839c19a7f2bdfe3e673d8e78d1ddfb9a79c74b84265155",
+      "git_blob_sha1": "1d3c2ec07335fe8cb21322290dc4cded0a5e0cce",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/voice.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/voice.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/voice.ts",
+      "size_bytes": 5346,
+      "sha256": "9aef9c83f114e871e79f83ac0c502726d5b9ebccd8b0961a04c65caed10e7338",
+      "git_blob_sha1": "2f57ef0881c07e60fd9baca2a1188bf8088d100c",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/packages/speech/src/whisperx.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "packages/speech/src/whisperx.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/packages/speech/src/whisperx.ts",
+      "size_bytes": 2902,
+      "sha256": "60361f826dc6321004f17ea5b44c6a49de8325d7252a208889812900f7bec942",
+      "git_blob_sha1": "277807a47bca27a71549b40c5f314305a4516b96",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/skills/video-editing/SKILL.md",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "skills/video-editing/SKILL.md",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/skills/video-editing/SKILL.md",
+      "size_bytes": 4471,
+      "sha256": "1c6e9af71b245f44c6a782fad5d58a327442394feee0c075f7aab544a7492022",
+      "git_blob_sha1": "1745c5d83ee48a552cdc7130e77dbbc14a0603a2",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/edit-engine.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/edit-engine.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/edit-engine.test.ts",
+      "size_bytes": 2294,
+      "sha256": "3f4073d2a40def3ee8733c0b66a42a959f13275a17ba8b71082c4d2975f02a4e",
+      "git_blob_sha1": "4832de08c10a298c0fe53151d19c37e3d3e7f09d",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/feedback-and-provider.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/feedback-and-provider.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/feedback-and-provider.test.ts",
+      "size_bytes": 2293,
+      "sha256": "68a7ec0a912bfc723942dc2abfb5356df1d85da209db28c60de081a9d3946c45",
+      "git_blob_sha1": "1c54b1bde84b7ed3b4aa589c8468016b2ca7bcde",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/fusion.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/fusion.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/fusion.test.ts",
+      "size_bytes": 1935,
+      "sha256": "f459627ad692963ed0b7d1f6847f8e069d2363b754e5d1e9ba63e07f97210c09",
+      "git_blob_sha1": "0d46a22e53542ccf2705d771654e094d4fa589ca",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/job-queue.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/job-queue.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/job-queue.test.ts",
+      "size_bytes": 3599,
+      "sha256": "6c1f2c5437da62b60092daecac48bd1b27ca78f6fc486ffde32b6fcbb8959f6a",
+      "git_blob_sha1": "0ce786d2efbce8fb1c553fa46d61d1067fd3b762",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/mcp-tool-profile.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/mcp-tool-profile.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/mcp-tool-profile.test.ts",
+      "size_bytes": 1271,
+      "sha256": "9d21638a1455183576444d6a76c3f3f7dad8062aee5fbf4a8385adc6e3fa2d15",
+      "git_blob_sha1": "65ab15ee2d0bc572ff710371538ff66ed357a8be",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/mobile-host.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/mobile-host.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/mobile-host.test.ts",
+      "size_bytes": 3608,
+      "sha256": "fb27bb8bcb8f5849d6b31391711869ac82a15bb9c2fc483eb7bebe50ee53bca7",
+      "git_blob_sha1": "527ea812392385c1029c113cdbf178cfe820b587",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/mobile-speech-providers.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/mobile-speech-providers.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/mobile-speech-providers.test.ts",
+      "size_bytes": 7169,
+      "sha256": "76b16bb90e76c769e5a7d0bac07a15c6da7dae3897351f857e16201632b623b5",
+      "git_blob_sha1": "de4cd7ad9c6d5cd702b17130808fc0eaed0aa574",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/native-mobile-host.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/native-mobile-host.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/native-mobile-host.test.ts",
+      "size_bytes": 16847,
+      "sha256": "1f0e27aaa676692f5f1c4ec6f38ed808fcbb8a21b7dd9f5660ba159103b072c9",
+      "git_blob_sha1": "9d03bee39ee556bf16643b6e7b1f9a0166763688",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/openai-asr-provider.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/openai-asr-provider.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/openai-asr-provider.test.ts",
+      "size_bytes": 3614,
+      "sha256": "4d29a2f489dfb3879b2062da36a8ff1526e635d002f40e81e173ae1239bed5de",
+      "git_blob_sha1": "ab534959ab1c10cfbfd9543485c69e1a72666e62",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/openai-provider.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/openai-provider.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/openai-provider.test.ts",
+      "size_bytes": 2356,
+      "sha256": "05466ff0f83938059be1534a13b94d8355076970a9e60629b49cd82d971ed3a3",
+      "git_blob_sha1": "817c2b9264382b2aa002284fabb30b0d4b3f71c2",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/openai-voice-provider.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/openai-voice-provider.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/openai-voice-provider.test.ts",
+      "size_bytes": 3103,
+      "sha256": "b500c1d3493fa60fd15ccbcdd839b544679a8c010b8833e378245e0dd6187eba",
+      "git_blob_sha1": "6da6cccacb2e9a78f883ccd2a1f8b0ff99da6805",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/patch-engine.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/patch-engine.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/patch-engine.test.ts",
+      "size_bytes": 2861,
+      "sha256": "12848cb570b435bbb5c830e1ef3784872d00cf763c702061fb0879046a77826d",
+      "git_blob_sha1": "5d3c664a6a892678bbf0e9bab2e8cf82ab2e96a7",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/production-boundaries.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/production-boundaries.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/production-boundaries.test.ts",
+      "size_bytes": 2259,
+      "sha256": "55b0ad6e259df11222d6302734776edcd7bfc9987f71c0b2e4d3af154830857d",
+      "git_blob_sha1": "6d14e9c1682bc5d9324de8066adf9b64e8658f8a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/runtime-e2e.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/runtime-e2e.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/runtime-e2e.test.ts",
+      "size_bytes": 4425,
+      "sha256": "46efa73c5896afdde6b2162da82b720c4529b66bb1ec3f2c89dc35d42c7f5160",
+      "git_blob_sha1": "53dcca462aec4952460fa4cbe564401f3ce4027b",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/runtime-hardening.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/runtime-hardening.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/runtime-hardening.test.ts",
+      "size_bytes": 4666,
+      "sha256": "4e9fb78764f074bae319b7805782d81f75db76433bb7af8ffaf695fc7c93bd61",
+      "git_blob_sha1": "e65183296e64ca5a67827accf6af9d8540b91f6f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/speech-catalog.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/speech-catalog.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/speech-catalog.test.ts",
+      "size_bytes": 1303,
+      "sha256": "57ce1b4fec4fc2d0eac286ba402bc40ee03a81b830005ade662c68b7b4aa6eb4",
+      "git_blob_sha1": "2966664b468f1205b24474a5e39cbe09da016d8f",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/speech-pipeline.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/speech-pipeline.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/speech-pipeline.test.ts",
+      "size_bytes": 3380,
+      "sha256": "5de90d976e1312bffb339f219a36cca422199589dd62e529b6a0a10be5092316",
+      "git_blob_sha1": "937bfec3b2ba7f66d0ef4bde5a7780026055aa8a",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/speech-provider-selection.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/speech-provider-selection.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/speech-provider-selection.test.ts",
+      "size_bytes": 2080,
+      "sha256": "de7be6d48ba366d21c14de81af64faaf6db6ed54f06f953024876bf9ed64d143",
+      "git_blob_sha1": "974334efae8b80a2520729f25650db04d65dc790",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/time-and-schema.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/time-and-schema.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/time-and-schema.test.ts",
+      "size_bytes": 1457,
+      "sha256": "e99e1b9d083f2245e2b1243eaea5381204b117716e6f27da34aa25a349a4c7c6",
+      "git_blob_sha1": "dcc34a7631230de436db2df8be9ed8501858eae7",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/voice-infrastructure.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/voice-infrastructure.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/voice-infrastructure.test.ts",
+      "size_bytes": 9119,
+      "sha256": "553fe99e0ba5f3690de2c72b1e2316cd3861bdfb17c9d6e735b89b6a10e3a9d1",
+      "git_blob_sha1": "9ad44267b69c83d0666e642a837ba798d8a76d00",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/voice-reference-acoustics.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/voice-reference-acoustics.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/voice-reference-acoustics.test.ts",
+      "size_bytes": 2398,
+      "sha256": "90346a4e78081eb53df59452fd04c1c46659ef8f01a26b973add9e7a0f064a26",
+      "git_blob_sha1": "6b25a893f761c4ad3551bc8822d9dc2320d64740",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/YansIlinta__video-agent-runtime/tests/voice-reference-selection.test.ts",
+      "repository": "YansIlinta/video-agent-runtime",
+      "upstream_path": "tests/voice-reference-selection.test.ts",
+      "upstream_commit": "085afd689c83767db9accba133b7b2dc68f3953a",
+      "source_url": "https://github.com/YansIlinta/video-agent-runtime/blob/085afd689c83767db9accba133b7b2dc68f3953a/tests/voice-reference-selection.test.ts",
+      "size_bytes": 6308,
+      "sha256": "f2e602d4d44e6f6bdf0d5c462be03b00e6691deaf3dc3ee404707497528eacc6",
+      "git_blob_sha1": "afb47bf9f90a4e4ade441f9583fd8e4b9d49175b",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/YansIlinta__video-agent-runtime/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/browser-use__video-use/LICENSE",
+      "repository": "browser-use/video-use",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "43cfc566833548093455c9d4a46bd69913b7e552",
+      "source_url": "https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "5afa3d97bf1e6f998d587fa101e3fe0d0c416840b7fe77bcd6ae97690a334631",
+      "git_blob_sha1": "271d8e2807d0d79aee85a231f5c9dbb007902783",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/browser-use__video-use/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/browser-use__video-use/helpers/pack_transcripts.py",
+      "repository": "browser-use/video-use",
+      "upstream_path": "helpers/pack_transcripts.py",
+      "upstream_commit": "43cfc566833548093455c9d4a46bd69913b7e552",
+      "source_url": "https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/helpers/pack_transcripts.py",
+      "size_bytes": 7207,
+      "sha256": "f9e419def5f0a014d5e1fd16fdad801013ae068854c1d474c3492297e2304f4b",
+      "git_blob_sha1": "036a1276eb02407eaffb8a65f874a86986979e4b",
+      "role": "learning_original",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/browser-use__video-use/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getzep__graphiti/LICENSE",
+      "repository": "getzep/graphiti",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5c27edfa8d3e0f49b2571bcebb4261bcc89ee037",
+      "source_url": "https://github.com/getzep/graphiti/blob/5c27edfa8d3e0f49b2571bcebb4261bcc89ee037/LICENSE",
+      "size_bytes": 11325,
+      "sha256": "2825300b20d7b951209835a4a331f29e24725a39d65168e4b831df53aa372650",
+      "git_blob_sha1": "5feb0d9d299a1107adfa8331306b13cc0eff2d78",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getzep__graphiti/README.md",
+      "repository": "getzep/graphiti",
+      "upstream_path": "README.md",
+      "upstream_commit": "5c27edfa8d3e0f49b2571bcebb4261bcc89ee037",
+      "source_url": "https://github.com/getzep/graphiti/blob/5c27edfa8d3e0f49b2571bcebb4261bcc89ee037/README.md",
+      "size_bytes": 35219,
+      "sha256": "ccdd0f4daf286e49345deae615cb8ba46b8d1a79dff78516d589e018e3a6f17c",
+      "git_blob_sha1": "dc1d339d13d77b6cccb9d00af54b5f15665760bd",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/prompts/dedupe_edges.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/prompts/dedupe_edges.py",
+      "upstream_commit": "5c27edfa8d3e0f49b2571bcebb4261bcc89ee037",
+      "source_url": "https://github.com/getzep/graphiti/blob/5c27edfa8d3e0f49b2571bcebb4261bcc89ee037/graphiti_core/prompts/dedupe_edges.py",
+      "size_bytes": 5225,
+      "sha256": "adcbe60da630fb81341b98a40f0e6d2c11f04e0a2280366e5dbd774cc34fd851",
+      "git_blob_sha1": "c67a94241dcdf49ef6c95355e2eab98675acd5a5",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/LICENSE",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE",
+      "size_bytes": 11346,
+      "sha256": "664b930830f291c2936ab30bcd6ef9ca6c9c7384cc475ae0c526156a27d5a6c6",
+      "git_blob_sha1": "8bcca742ae3458aa4e74d0133d51a248df16f23b",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/README.md",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "README.md",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/README.md",
+      "size_bytes": 6996,
+      "sha256": "af20b2258507b12bf930e897b63ee5bb87aac4a4696da078ea5a3c29addb6db7",
+      "git_blob_sha1": "07b1f00fde50ee8506f3087326285041c1a1a05c",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/metrics/collections/__init__.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/metrics/collections/__init__.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/metrics/collections/__init__.py",
+      "size_bytes": 3623,
+      "sha256": "5adf185d132cc40e6ae2c5ab8b1c4bbed02cfe1b194461c75601b7f19cbe45d8",
+      "git_blob_sha1": "82881682d0ae5dbdcc0f228e32bc463819dfffa2",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/metrics/collections/base.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/metrics/collections/base.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/metrics/collections/base.py",
+      "size_bytes": 5152,
+      "sha256": "92e1fac17953d10a931227045daa8277bcc66f11b90535da5b45d706079de679",
+      "git_blob_sha1": "2c48e562039c9839fcb97840240b22596ddebc88",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/metrics/collections/faithfulness/metric.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/metrics/collections/faithfulness/metric.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/metrics/collections/faithfulness/metric.py",
+      "size_bytes": 5964,
+      "sha256": "f3850ad76e173c932dff09464489934f7df7c499a8e43b178cd69f339511965d",
+      "git_blob_sha1": "6220f0616750aca43565e09a741916629c4d4f20",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/metrics/collections/faithfulness/util.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/metrics/collections/faithfulness/util.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/metrics/collections/faithfulness/util.py",
+      "size_bytes": 5660,
+      "sha256": "255ebb3305934a3c5769ecfd395d5825050a62b3f03f09b5e18647c3f651776d",
+      "git_blob_sha1": "51c9d7c5e258f4a6ab42e49c7b59d0f0a74dce2a",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/metrics/result.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/metrics/result.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/metrics/result.py",
+      "size_bytes": 9033,
+      "sha256": "73e40e9f1d18d8f73b3c24c4bef728da79cdec529c5dad2927e799f73dc0161a",
+      "git_blob_sha1": "007718a5c9e5d086949c91645410e97628aef59a",
+      "role": "learning_original",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ]
+    }
+  ],
+  "scope": "Selected upstream files actually retained, not complete repositories, not execution-tested and not all files fully reviewed. No new deep-review claim. Linked or imported dependencies, media, models and assets are not included or cleared.",
+  "all_files_unmodified": true,
+  "licenses_apply_per_file": "MIT / Apache-2.0 as recorded, with original notices. No new blanket license.",
+  "counts": {
+    "upstream_files": 164,
+    "learning_files": 150,
+    "legal_files_with_included_projects": 8,
+    "additional_license_only_documents": 6,
+    "projects_with_learning_files": 6,
+    "license_only_projects": 6,
+    "unique_upstream_content_hashes": 164,
+    "upstream_bytes": 1015038,
+    "license_only_source_identities_including_deduplicated": 7
+  },
+  "duplicate_license_provenance": [
+    {
+      "repository": "ai-evals-course/evals-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "80d5f7b0127c7572ed9e9339937adbfd7240ffeb",
+      "source_url": "https://github.com/ai-evals-course/evals-skills/blob/80d5f7b0127c7572ed9e9339937adbfd7240ffeb/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "retained_identical_file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "scope_notice": "License bytes only; associated project body not held. Deduplicated exact license payload."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+import { secondsToUs } from "../../core/src/time.js";
+import type { AlignmentResult, DiarizationResult, DurationFitDecision, SpeechAsset, Transcript, VoiceProfile, VoiceReferenceQualityReport } from "../../core/src/schemas.js";
+import type { ProjectRepository } from "../../core/src/repository.js";
+import type { ASRProvider, ASRResult, OperationContext, TTSProvider, VoiceReferenceAcousticAnalyzer, VoiceReferenceRangeAcousticMetrics } from "../../providers/src/contracts.js";
+import type { RuntimePrimitives } from "../../platform/src/contracts.js";
+
+export async function asrCacheKey(primitives: RuntimePrimitives, assetHash: string, provider: ASRProvider, settings: unknown) { return primitives.crypto.sha256(JSON.stringify({ assetHash, provider: provider.id, model: provider.model, settings })); }
+
+export function normalizeAsrResult(primitives: RuntimePrimitives, assetId: string, provider: ASRProvider, result: ASRResult, cacheKey: string, rawResultPath?: string): Transcript {
+  const words: Transcript["words"] = []; const segments: Transcript["segments"] = []; const speakers = new Set<string>(); const failedAlignmentSegmentIds: string[] = [];
+  for (const source of result.segments) {
+    const segmentId = primitives.ids.create(); const wordIds: string[] = [];
+    for (const item of source.words) { const id = primitives.ids.create(); wordIds.push(id); if (item.speaker) speakers.add(item.speaker); const normalizedText = item.text.normalize("NFKC").trim(); words.push({ id, rawText: item.text, normalizedText, displayText: normalizedText, startUs: secondsToUs(item.startSeconds), endUs: secondsToUs(item.endSeconds), timingSource: "asr", ...(item.confidence === undefined ? {} : { confidence: item.confidence }), ...(item.speaker ? { speakerId: item.speaker } : {}) }); }
+    if (source.speaker) speakers.add(source.speaker); if (source.alignmentFailed) failedAlignmentSegmentIds.push(segmentId); const normalizedText = source.text.normalize("NFKC").replace(/\s+/gu, " ").trim();
+    segments.push({ id: segmentId, startUs: secondsToUs(source.startSeconds), endUs: secondsToUs(source.endSeconds), rawText: source.text, normalizedText, displayText: normalizedText, wordIds, ...(source.speaker ? { speakerId: source.speaker } : {}), ...(source.language ? { language: source.language } : {}), ...(source.confidence === undefined ? {} : { confidence: source.confidence }) });
+  }
+  const rawTranscript = result.segments.map((segment) => segment.text).join(" "); const normalizedTranscript = rawTranscript.normalize("NFKC").replace(/\s+/gu, " ").trim(); const silences = inferSilences(words);
+  return { schemaVersion: 1, id: primitives.ids.create(), assetId, provider: provider.id, model: provider.model, ...(result.language ? { language: result.language } : {}), ...(result.languageConfidence === undefined ? {} : { languageConfidence: result.languageConfidence }), rawTranscript, normalizedTranscript, displayTranscript: normalizedTranscript, words, segments, speakers: [...speakers].map((id) => ({ id })), silenceRegions: silences, quality: { lowConfidenceWordIds: words.filter((word) => (word.confidence ?? 1) < 0.65).map((word) => word.id), unmappedWordIds: [], failedAlignmentSegmentIds, speakerOverlapRanges: [], unknownLanguageSegmentIds: result.language ? [] : segments.map((segment) => segment.id), musicHeavyRanges: [], longSilenceRanges: silences.filter((item) => item.endUs - item.startUs >= secondsToUs(2)), warnings: result.warnings }, cacheKey, ...(rawResultPath ? { provenance: { rawResultPath } } : {}), createdAt: primitives.clock.now().toISOString() };
+}
+
+function inferSilences(words: Transcript["words"]) { const sorted = [...words].sort((a, b) => a.startUs - b.startUs); const result: Array<{ startUs: number; endUs: number; confidence: number }> = []; for (let index = 1; index < sorted.length; index += 1) { const previous = sorted[index - 1]; const current = sorted[index]; if (previous && current && current.startUs - previous.endUs >= secondsToUs(0.35)) result.push({ startUs: previous.endUs, endUs: current.startUs, confidence: 0.9 }); } return result; }
+
+function overlap(a0: number, a1: number, b0: number, b1: number) { return a0 < b1 && b0 < a1; }
+export function fuseTranscript(primitives: RuntimePrimitives, base: Transcript, alignment?: AlignmentResult, diarization?: DiarizationResult): Transcript {
+  const aligned = alignment?.words ?? []; let cursor = 0; const unmappedWordIds: string[] = [];
+  const words = base.words.map((word) => { let matched = -1; for (let index = cursor; index < Math.min(aligned.length, cursor + 8); index += 1) if (aligned[index]!.rawText.normalize("NFKC").toLowerCase() === word.rawText.normalize("NFKC").toLowerCase()) { matched = index; break; } const timing = matched >= 0 ? aligned[matched] : undefined; if (timing) cursor = matched + 1; else if (alignment) unmappedWordIds.push(word.id); const startUs = timing?.startUs ?? word.startUs; const endUs = timing?.endUs ?? word.endUs; const speaker = (diarization?.segments ?? []).filter((item) => overlap(startUs, endUs, item.startUs, item.endUs)).sort((a, b) => Math.min(endUs, b.endUs) - Math.max(startUs, b.startUs) - (Math.min(endUs, a.endUs) - Math.max(startUs, a.startUs)))[0]; return { ...word, startUs, endUs, timingSource: timing ? "aligned" as const : word.timingSource, ...(timing?.confidence === undefined ? {} : { confidence: timing.confidence }), ...(speaker ? { speakerId: speaker.speakerId } : {}) }; });
+  const byId = new Map(words.map((word) => [word.id, word])); const segments = base.segments.map((segment) => { const segmentWords = segment.wordIds.map((id) => byId.get(id)).filter((word) => word !== undefined); const speakers = new Map<string, number>(); for (const word of segmentWords) if (word.speakerId) speakers.set(word.speakerId, (speakers.get(word.speakerId) ?? 0) + word.endUs - word.startUs); const speakerId = [...speakers.entries()].sort((a, b) => b[1] - a[1])[0]?.[0]; return { ...segment, ...(segmentWords[0] ? { startUs: segmentWords[0].startUs, endUs: segmentWords.at(-1)!.endUs } : {}), ...(speakerId ? { speakerId } : {}) }; });
+  const speakerIds = [...new Set(words.flatMap((word) => word.speakerId ? [word.speakerId] : []))]; return { ...base, id: primitives.ids.create(), words, segments, speakers: speakerIds.map((id) => ({ id })), quality: { ...base.quality, unmappedWordIds, failedAlignmentSegmentIds: alignment?.failedSegmentIds ?? base.quality.failedAlignmentSegmentIds, warnings: [...base.quality.warnings, ...(alignment?.warnings ?? []), ...(diarization?.warnings ?? [])] }, createdAt: primitives.clock.now().toISOString() };
+}
+
+export function assertVoiceAuthorized(profile: VoiceProfile) { if (profile.status !== "active") throw new Error(`VoiceProfile ${profile.id} is not active`); if (profile.type === "cloned" && profile.authorizationStatus !== "authorized") throw new Error("Unauthorized voice enrollment or use rejected"); if (profile.authorizationStatus === "revoked" || profile.authorizationStatus === "denied") throw new Error("Voice authorization is not valid"); }
+export function fitSpeechToRange(generatedDurationUs: number, targetDurationUs: number, options: { maxRate?: number; allowRewrite?: boolean; allowExtend?: boolean; allowReplan?: boolean } = {}): DurationFitDecision { const maxRate = options.maxRate ?? 1.2; const requiredRate = generatedDurationUs / Math.max(1, targetDurationUs); if (requiredRate <= 1.02) return { action: "ACCEPT", requiredRate, allowedRate: 1, targetDurationUs, generatedDurationUs, reason: "Generated speech fits the requested range" }; if (requiredRate <= maxRate) return { action: "ADJUST_RATE", requiredRate, allowedRate: Math.round(requiredRate * 100) / 100, targetDurationUs, generatedDurationUs, reason: "A bounded rate adjustment fits" }; if (options.allowRewrite) return { action: "REWRITE_SHORTER", requiredRate, allowedRate: maxRate, targetDurationUs, generatedDurationUs, reason: "Text must be shortened" }; if (options.allowExtend) return { action: "EXTEND_TIMELINE", requiredRate, allowedRate: maxRate, targetDurationUs, generatedDurationUs, reason: "Explicit extension is allowed" }; if (options.allowReplan) return { action: "REPLAN_SURROUNDING_EDIT", requiredRate, allowedRate: maxRate, targetDurationUs, generatedDurationUs, reason: "Surrounding edit may be replanned" }; return { action: "ASK_USER", requiredRate, allowedRate: maxRate, targetDurationUs, generatedDurationUs, reason: "No safe automatic fit action is authorized" }; }
+export function fitTtsToRange(durationSeconds: number, targetSeconds: number, maxSpeed = 1.2) { if (durationSeconds <= targetSeconds) return { fits: true, requiresRewrite: false, requiresTimelineExtension: false, failed: false, suggestedSpeed: 1 }; const requiredSpeed = durationSeconds / targetSeconds; if (requiredSpeed <= maxSpeed) return { fits: true, requiresRewrite: false, requiresTimelineExtension: false, failed: false, suggestedSpeed: Math.round(requiredSpeed * 100) / 100 }; return { fits: false, requiresRewrite: true, requiresTimelineExtension: true, failed: false, suggestedSpeed: maxSpeed }; }
+
+async function voiceCacheKey(primitives: RuntimePrimitives, input: { text: string; profile: VoiceProfile; provider: string; model: string; language: string; speed?: number; style?: Record<string, unknown> }) { return primitives.crypto.sha256(JSON.stringify({ text: input.text.normalize("NFKC").trim(), voiceProfileId: input.profile.id, authorizationStatus: input.profile.authorizationStatus, provider: input.provider, model: input.model, language: input.language, speed: input.speed ?? 1, style: input.style ?? {} })); }
+export async function synthesizeSpeech(primitives: RuntimePrimitives, store: ProjectRepository, projectId: string, provider: TTSProvider, input: { text: string; voiceId: string; language: string; speed?: number; voiceProfile?: VoiceProfile; speechType?: SpeechAsset["type"]; sourceTextVersion?: number; sourceSegmentIds?: string[]; style?: Record<string, unknown> }, context?: OperationContext): Promise<SpeechAsset> {
+  if (input.voiceProfile) assertVoiceAuthorized(input.voiceProfile);
+  const cacheKey = input.voiceProfile ? await voiceCacheKey(primitives, { text: input.text, profile: input.voiceProfile, provider: provider.id, model: provider.model, language: input.language, ...(input.speed ? { speed: input.speed } : {}), ...(input.style ? { style: input.style } : {}) }) : await primitives.crypto.sha256(JSON.stringify({ provider: provider.id, model: provider.model, text: input.text, voiceId: input.voiceId, language: input.language, speed: input.speed }));
+  const cached = await store.findSpeechAssetByCacheKey(projectId, cacheKey); if (cached) return cached;
+
+  const id = primitives.ids.create(); const relativePath = `derived/${id}.wav`; const outputUri = store.resolveProjectFile(projectId, relativePath);
+  let result: Awaited<ReturnType<TTSProvider["synthesize"]>> extends infer _R ? import("../../providers/src/contracts.js").TTSFileResult : never;
+  if (provider.synthesizeToFile) {
+    result = await provider.synthesizeToFile({ text: input.text, voiceId: input.voiceId, language: input.language, ...(input.speed === undefined ? {} : { speed: input.speed }), outputUri }, context);
+  } else {
+    const inMemory = await provider.synthesize(input, context);
+    await store.writeProjectFile(projectId, relativePath, inMemory.audio, true);
+    const { audio: _audio, ...metadata } = inMemory; result = metadata;
+  }
+
+  const fallback = input.text.match(/[\p{Script=Han}]|[^\s\p{Script=Han}]+/gu) ?? [input.text]; const timings = result.wordTimings.length ? result.wordTimings : fallback.map((text, index) => ({ text, startSeconds: result.durationSeconds * index / fallback.length, endSeconds: result.durationSeconds * (index + 1) / fallback.length }));
+  const speech: SpeechAsset = { id, assetId: `audio-${id}`, type: input.speechType ?? (input.voiceProfile?.type === "cloned" ? "cloned_voice" : input.voiceProfile?.type === "designed" ? "designed_voice" : "tts"), generated: true, text: input.text, provider: provider.id, model: result.model, voiceId: input.voiceId, ...(input.voiceProfile ? { voiceProfileId: input.voiceProfile.id } : {}), language: input.language, durationUs: secondsToUs(result.durationSeconds), sampleRate: result.sampleRate, generationParameters: { speed: input.speed ?? 1, style: input.style ?? {} }, ...(result.license ? { license: result.license } : {}), wordTimings: timings.map((word) => ({ id: primitives.ids.create(), rawText: word.text, normalizedText: word.text.normalize("NFKC"), displayText: word.text.normalize("NFKC"), startUs: secondsToUs(word.startSeconds), endUs: secondsToUs(word.endSeconds), timingSource: result.wordTimings.length ? "aligned" as const : "estimated" as const })), sourceText: input.text, sourceTextVersion: input.sourceTextVersion ?? 1, projectId, sourceSegmentIds: input.sourceSegmentIds ?? [], cacheKey, createdAt: primitives.clock.now().toISOString() };
+  try { await store.writeSpeechAsset(projectId, speech); return speech; }
+  catch (error) { await store.removeProjectFile(projectId, relativePath).catch(() => undefined); throw error; }
+}
+
+function clamp01(value: number) { return Math.max(0, Math.min(1, value)); }
+function acousticQuality(metric: VoiceReferenceRangeAcousticMetrics) {
+  const snr = clamp01(metric.snrDb / 30); const clipping = 1 - clamp01(metric.clippingRatio / 0.01); const silence = 1 - metric.silenceRatio; const reverb = 1 - metric.reverbScore;
+  return clamp01(snr * 0.4 + clipping * 0.25 + silence * 0.2 + reverb * 0.15);
+}
+function metricKey(range: { startUs: number; endUs: number }) { return `${range.startUs}:${range.endUs}`; }
+function buildVoiceCandidates(segments: Transcript["segments"]) {
+  const sorted = [...segments].sort((a, b) => a.startUs - b.startUs); const candidates: Array<{ startUs: number; endUs: number; score: number; reasons: string[] }> = [];
+  for (let index = 0; index < sorted.length; index += 1) {
+    const first = sorted[index]!; let endUs = first.endUs; let confidenceSum = first.confidence ?? 0.75; let count = 1;
+    for (let nextIndex = index + 1; nextIndex < sorted.length; nextIndex += 1) {
+      const next = sorted[nextIndex]!; if (next.startUs - endUs > 750_000) break; if (first.speakerId && next.speakerId && next.speakerId !== first.speakerId) break; if (next.endUs - first.startUs > 15_000_000) break;
+      endUs = next.endUs; confidenceSum += next.confidence ?? 0.75; count += 1;
+    }
+    const durationUs = Math.min(15_000_000, endUs - first.startUs); if (durationUs < 2_000_000) continue;
+    const confidence = confidenceSum / count; const durationScore = Math.min(1, durationUs / 8_000_000);
+    candidates.push({ startUs: first.startUs, endUs: first.startUs + durationUs, score: clamp01(confidence * 0.8 + durationScore * 0.2), reasons: [count > 1 ? "contiguous single-speaker transcript evidence" : "transcript evidence"] });
+  }
+  return candidates.sort((a, b) => b.score - a.score).filter((item, index, all) => all.findIndex((other) => Math.abs(other.startUs - item.startUs) < 250_000 && Math.abs(other.endUs - item.endUs) < 250_000) === index).slice(0, 8);
+}
+function speakerConsistency(transcript: Transcript | undefined, selected: Transcript["segments"]) {
+  if (!transcript || selected.length === 0) return 0;
+  const durations = new Map<string, number>(); let known = 0;
+  for (const segment of selected) if (segment.speakerId) { const duration = segment.endUs - segment.startUs; known += duration; durations.set(segment.speakerId, (durations.get(segment.speakerId) ?? 0) + duration); }
+  if (known === 0) return transcript.speakers.length <= 1 ? 1 : 0.5;
+  return Math.max(...durations.values()) / known;
+}
+
+export async function analyzeVoiceReference(primitives: RuntimePrimitives, store: ProjectRepository, projectId: string, assetId: string, speakerId?: string, analyzer?: VoiceReferenceAcousticAnalyzer, context?: OperationContext): Promise<VoiceReferenceQualityReport> {
+  const project = await store.readProject(projectId); const asset = project.assets.find((item) => item.id === assetId); if (!asset) throw new Error(`Unknown asset ${assetId}`);
+  const cacheKey = await primitives.crypto.sha256(JSON.stringify({ sha256: asset.sha256, speakerId, transcriptId: project.activeTranscriptId ?? null, analyzer: analyzer?.id ?? "none", version: "voice-reference-v2" })); const cached = await store.findVoiceReferenceQualityByCacheKey(projectId, cacheKey); if (cached) return cached;
+  const transcript = project.activeTranscriptId ? await store.readTranscript(projectId, project.activeTranscriptId) : undefined;
+  if (transcript && transcript.assetId !== assetId) throw new Error("Active transcript does not belong to the requested voice reference asset");
+  if (speakerId && transcript && !transcript.segments.some((item) => item.speakerId === speakerId)) throw new Error(`Speaker ${speakerId} is not present in the active transcript`);
+  const segments = transcript?.segments.filter((item) => !speakerId || item.speakerId === speakerId) ?? [];
+  const speechDurationUs = segments.reduce((sum, item) => sum + item.endUs - item.startUs, 0) || asset.metadata.durationUs;
+  const candidates = buildVoiceCandidates(segments); const warnings: string[] = [];
+  let acousticMetrics: VoiceReferenceRangeAcousticMetrics[] = [];
+  if (analyzer && candidates.length) {
+    try { acousticMetrics = await analyzer.analyzeRanges(store.resolveProjectFile(projectId, asset.relativePath), candidates.map(({ startUs, endUs }) => ({ startUs, endUs })), context); }
+    catch (error) { if (context?.signal?.aborted) throw error; warnings.push(`Acoustic analyzer unavailable: ${error instanceof Error ? error.message : String(error)}`); }
+  } else if (!analyzer) warnings.push("Acoustic analyzer is not configured on this host; SNR/clipping/reverb are unmeasured");
+  else warnings.push("No transcript-backed reference candidates were available for acoustic measurement");
+
+  const metricsByRange = new Map(acousticMetrics.map((metric) => [metricKey(metric), metric]));
+  const scoredCandidates = candidates.map((candidate) => {
+    const metric = metricsByRange.get(metricKey(candidate)); if (!metric) return candidate;
+    const quality = acousticQuality(metric); return { ...candidate, score: clamp01(candidate.score * 0.55 + quality * 0.45), reasons: [...candidate.reasons, `measured SNR proxy ${metric.snrDb.toFixed(1)} dB`, `clipping ${(metric.clippingRatio * 100).toFixed(2)}%`, `silence ${(metric.silenceRatio * 100).toFixed(1)}%`, ...metric.warnings] };
+  }).sort((a, b) => b.score - a.score).slice(0, 5);
+  const best = scoredCandidates[0] ? metricsByRange.get(metricKey(scoredCandidates[0])) : undefined;
+  if (best) warnings.push(...best.warnings);
+  const totalDurationUs = Math.max(1, asset.metadata.durationUs); const baseSpeechPercentage = Math.min(100, speechDurationUs / totalDurationUs * 100); const bestQuality = best ? acousticQuality(best) : 1;
+  const musicUs = transcript?.quality.musicHeavyRanges.reduce((sum, range) => sum + Math.max(0, range.endUs - range.startUs), 0) ?? 0;
+  const asrConfidence = segments.length ? segments.reduce((sum, item) => sum + (item.confidence ?? 0.75), 0) / segments.length : 0.5;
+  const report: VoiceReferenceQualityReport = {
+    id: primitives.ids.create(), projectId, assetId, assetSha256: asset.sha256, analysisVersion: "voice-reference-v2", speechDurationUs,
+    snrDb: best?.snrDb ?? 0, clippingRatio: best?.clippingRatio ?? 0, musicProbability: clamp01(musicUs / totalDurationUs), reverbScore: best?.reverbScore ?? 0,
+    speakerCount: transcript?.speakers.length ?? 0, silenceRatio: best?.silenceRatio ?? Math.max(0, 1 - speechDurationUs / totalDurationUs), speakerConsistency: speakerConsistency(transcript, segments), asrConfidence,
+    usableSpeechPercentage: Math.min(100, baseSpeechPercentage * (best ? 0.4 + bestQuality * 0.6 : 1)), candidates: scoredCandidates, warnings: [...new Set(warnings)], cacheKey, createdAt: primitives.clock.now().toISOString(),
+  };
+  await store.writeVoiceReferenceQuality(projectId, report); return report;
+}
