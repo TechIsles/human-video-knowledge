@@ -1,0 +1,101 @@
+{
+  "batch": "0083",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/software-mansion__argent/LICENSE.txt",
+      "repository": "software-mansion/argent",
+      "upstream_path": "LICENSE.txt",
+      "upstream_commit": "b70ecf4d20804a511ee266d41f2b1e8a040857a7",
+      "source_url": "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/LICENSE.txt",
+      "size_bytes": 11513,
+      "sha256": "3b0ad646de4bc37c4f8e3cf8d0229cfc7355c676d0739fada9ef4de80d78f38d",
+      "git_blob_sha1": "68d45f4858c51578576dcc09f2f782f17142ca9a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ba5516e2923c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/LICENSE.txt",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/LICENSE",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/README.md",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/skills/argent-screen-recording/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/software-mansion__argent/LICENSE.txt",
+        "upstream/software-mansion__argent/packages/skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/software-mansion__argent/packages/skills/LICENSE",
+      "repository": "software-mansion/argent",
+      "upstream_path": "packages/skills/LICENSE",
+      "upstream_commit": "b70ecf4d20804a511ee266d41f2b1e8a040857a7",
+      "source_url": "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/LICENSE",
+      "size_bytes": 10711,
+      "sha256": "c74d6e2e975e12c74ed719d920823a814ebaf7b26b0824200fcfb89707db8472",
+      "git_blob_sha1": "a63589041c6e8e38892acaeaa4b734eccfc5610b",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ba5516e2923c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/LICENSE.txt",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/LICENSE",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/README.md",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/skills/argent-screen-recording/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/software-mansion__argent/LICENSE.txt",
+        "upstream/software-mansion__argent/packages/skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/software-mansion__argent/packages/skills/skills/argent-screen-recording/SKILL.md",
+      "repository": "software-mansion/argent",
+      "upstream_path": "packages/skills/skills/argent-screen-recording/SKILL.md",
+      "upstream_commit": "b70ecf4d20804a511ee266d41f2b1e8a040857a7",
+      "source_url": "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/skills/argent-screen-recording/SKILL.md",
+      "size_bytes": 8436,
+      "sha256": "761cc08436db249ce8ea2326abb26f698214a88d873e0b3d6dfa74924acd381d",
+      "git_blob_sha1": "c7bfece1c2a9a2c7c5b20a1685b77e9807812743",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ba5516e2923c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/LICENSE.txt",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/LICENSE",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/README.md",
+        "https://github.com/software-mansion/argent/blob/b70ecf4d20804a511ee266d41f2b1e8a040857a7/packages/skills/skills/argent-screen-recording/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/software-mansion__argent/LICENSE.txt",
+        "upstream/software-mansion__argent/packages/skills/LICENSE"
+      ]
+    }
+  ]
+}
