@@ -1,0 +1,203 @@
+{
+  "batch": "0086",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/AXBIAO__video-use-tk/skills/manim-video/SKILL.md",
+      "repository": "AXBIAO/video-use-tk",
+      "upstream_path": "skills/manim-video/SKILL.md",
+      "upstream_commit": "3aa105455154ba621d6564219bb8388b65d7ebab",
+      "source_url": "https://github.com/AXBIAO/video-use-tk/blob/3aa105455154ba621d6564219bb8388b65d7ebab/skills/manim-video/SKILL.md",
+      "size_bytes": 11983,
+      "sha256": "478ff04a7e3ecf9157b14fc2c24b4ae3fef7460debf27c4ecbe361bf26b0ac29",
+      "git_blob_sha1": "6edab8e7428c356bc52b664d09d86dbc9ae4bcc2",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4970d3e09f38"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/AXBIAO/video-use-tk/blob/3aa105455154ba621d6564219bb8388b65d7ebab/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AXBIAO__video-use-tk/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/AXBIAO__video-use-tk/LICENSE",
+      "repository": "AXBIAO/video-use-tk",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3aa105455154ba621d6564219bb8388b65d7ebab",
+      "source_url": "https://github.com/AXBIAO/video-use-tk/blob/3aa105455154ba621d6564219bb8388b65d7ebab/LICENSE",
+      "size_bytes": 1113,
+      "sha256": "de59529055ac83a49fc396c52fb9187e7c5d024c21e2ee9c278459936bdbcc67",
+      "git_blob_sha1": "06c2db6630599145bbaf85b9d4f9deeb63f7e14d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4970d3e09f38"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/AXBIAO/video-use-tk/blob/3aa105455154ba621d6564219bb8388b65d7ebab/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AXBIAO__video-use-tk/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Anbeeld__WRITING.md/skills/writing/SKILL.md",
+      "repository": "Anbeeld/WRITING.md",
+      "upstream_path": "skills/writing/SKILL.md",
+      "upstream_commit": "0c127ca4a4e51debec5adf4816f2bf464d83438b",
+      "source_url": "https://github.com/Anbeeld/WRITING.md/blob/0c127ca4a4e51debec5adf4816f2bf464d83438b/skills/writing/SKILL.md",
+      "size_bytes": 17759,
+      "sha256": "8ba40af0032c9275d9e969322fbc395842aed761c45707fdcf599ec19e60f037",
+      "git_blob_sha1": "0b8805a6f9b18d78555dd86c9c8675c3892ed3f6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f6dd3286c896"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Anbeeld/WRITING.md/blob/0c127ca4a4e51debec5adf4816f2bf464d83438b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Anbeeld__WRITING.md/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Anbeeld__WRITING.md/LICENSE",
+      "repository": "Anbeeld/WRITING.md",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "0c127ca4a4e51debec5adf4816f2bf464d83438b",
+      "source_url": "https://github.com/Anbeeld/WRITING.md/blob/0c127ca4a4e51debec5adf4816f2bf464d83438b/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "670257db7ed6046711cb38be31868c3b2002e7e17b25a3cd8a054da1f2f24db2",
+      "git_blob_sha1": "ac2b4b63e7c1ff29af682e71f4b7ed10bedcd6b3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f6dd3286c896"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Anbeeld/WRITING.md/blob/0c127ca4a4e51debec5adf4816f2bf464d83438b/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Anbeeld__WRITING.md/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ArcReel__ArcReel/agent_runtime_profile/.claude/skills/edit-video/SKILL.md",
+      "repository": "ArcReel/ArcReel",
+      "upstream_path": "agent_runtime_profile/.claude/skills/edit-video/SKILL.md",
+      "upstream_commit": "9ab2d2185917fd5007b65a90c7f5b729614b1035",
+      "source_url": "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/agent_runtime_profile/.claude/skills/edit-video/SKILL.md",
+      "size_bytes": 14556,
+      "sha256": "bf6c2c0a8e710bc81f84272593d57ae9f2ca646e0b00e95716cb0bd098407661",
+      "git_blob_sha1": "7ecc0996330f0f2d5f0940b6ada601bd7c9058c0",
+      "role": "canonical_skill_document",
+      "license": "AGPL-3.0-only WITH retained Section-7 notices",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96f0148d746a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/LICENSE",
+        "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/NOTICE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ArcReel__ArcReel/LICENSE",
+        "upstream/ArcReel__ArcReel/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/ArcReel__ArcReel/LICENSE",
+      "repository": "ArcReel/ArcReel",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9ab2d2185917fd5007b65a90c7f5b729614b1035",
+      "source_url": "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/LICENSE",
+      "size_bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "role": "license_notice",
+      "license": "AGPL-3.0-only WITH retained Section-7 notices",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96f0148d746a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/LICENSE",
+        "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/NOTICE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ArcReel__ArcReel/LICENSE",
+        "upstream/ArcReel__ArcReel/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/ArcReel__ArcReel/NOTICE",
+      "repository": "ArcReel/ArcReel",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "9ab2d2185917fd5007b65a90c7f5b729614b1035",
+      "source_url": "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/NOTICE",
+      "size_bytes": 4676,
+      "sha256": "8b131d59033fb5ab158ed834c4a36c276c28d3c224fdbdb64198a0b2c82c5375",
+      "git_blob_sha1": "2f2a1841baf5d39834797cc4d4181213e48c47b7",
+      "role": "license_notice",
+      "license": "AGPL-3.0-only WITH retained Section-7 notices",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96f0148d746a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/LICENSE",
+        "https://github.com/ArcReel/ArcReel/blob/9ab2d2185917fd5007b65a90c7f5b729614b1035/NOTICE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ArcReel__ArcReel/LICENSE",
+        "upstream/ArcReel__ArcReel/NOTICE"
+      ]
+    }
+  ]
+}

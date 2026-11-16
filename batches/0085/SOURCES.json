@@ -1,0 +1,216 @@
+{
+  "batch": "0085",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/xcrrr__claude-skills/skills/writing/storyteller/SKILL.md",
+      "repository": "xcrrr/claude-skills",
+      "upstream_path": "skills/writing/storyteller/SKILL.md",
+      "upstream_commit": "145342ceff6318d2f5ffe8f95473fecc8b27d1e9",
+      "source_url": "https://github.com/xcrrr/claude-skills/blob/145342ceff6318d2f5ffe8f95473fecc8b27d1e9/skills/writing/storyteller/SKILL.md",
+      "size_bytes": 12302,
+      "sha256": "5343e3a9775bdc018c6809698075c386a67cffd8f578010bb1eab46ba27365d3",
+      "git_blob_sha1": "5f5ff537716a36188ef0627a3ded0da40ef1e5e3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b7e210a25a45"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/xcrrr/claude-skills/blob/145342ceff6318d2f5ffe8f95473fecc8b27d1e9/LICENSE",
+        "https://github.com/xcrrr/claude-skills/blob/145342ceff6318d2f5ffe8f95473fecc8b27d1e9/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xcrrr__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/xcrrr__claude-skills/LICENSE",
+      "repository": "xcrrr/claude-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "145342ceff6318d2f5ffe8f95473fecc8b27d1e9",
+      "source_url": "https://github.com/xcrrr/claude-skills/blob/145342ceff6318d2f5ffe8f95473fecc8b27d1e9/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "f7eb7507d2b8f9f90127ec4a5b45c210a63569a4772d448d085f286e2a02936c",
+      "git_blob_sha1": "7a28f2d0c34c4542a946e6ded67d8d431efbfa3a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b7e210a25a45"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/xcrrr/claude-skills/blob/145342ceff6318d2f5ffe8f95473fecc8b27d1e9/LICENSE",
+        "https://github.com/xcrrr/claude-skills/blob/145342ceff6318d2f5ffe8f95473fecc8b27d1e9/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xcrrr__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/xiaoshuai1024__skills/skills/talkshow/SKILL.md",
+      "repository": "xiaoshuai1024/skills",
+      "upstream_path": "skills/talkshow/SKILL.md",
+      "upstream_commit": "f5b3073bb3c6c05e667354870d33e1b4aaec110f",
+      "source_url": "https://github.com/xiaoshuai1024/skills/blob/f5b3073bb3c6c05e667354870d33e1b4aaec110f/skills/talkshow/SKILL.md",
+      "size_bytes": 10734,
+      "sha256": "11e0a66dba3b81cfa280a4eaa7e14102a787f39b5a9c8902c47eabcb573cedc5",
+      "git_blob_sha1": "65671d52b1a0ec72a1a3570d7e6335ac6b133146",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bec91af025d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/xiaoshuai1024/skills/blob/f5b3073bb3c6c05e667354870d33e1b4aaec110f/LICENSE",
+        "https://github.com/xiaoshuai1024/skills/blob/f5b3073bb3c6c05e667354870d33e1b4aaec110f/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xiaoshuai1024__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/xiaoshuai1024__skills/LICENSE",
+      "repository": "xiaoshuai1024/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f5b3073bb3c6c05e667354870d33e1b4aaec110f",
+      "source_url": "https://github.com/xiaoshuai1024/skills/blob/f5b3073bb3c6c05e667354870d33e1b4aaec110f/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "7171a7d47045b93223ef1912ec4fb942fdfb211c20513335ad1343f702ee4630",
+      "git_blob_sha1": "34f97be46a4db74086ea8e663c042c425928f7c3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bec91af025d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/xiaoshuai1024/skills/blob/f5b3073bb3c6c05e667354870d33e1b4aaec110f/LICENSE",
+        "https://github.com/xiaoshuai1024/skills/blob/f5b3073bb3c6c05e667354870d33e1b4aaec110f/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xiaoshuai1024__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/xixihhhh__ai-short-drama-skill/skills/dramake/SKILL.md",
+      "repository": "xixihhhh/ai-short-drama-skill",
+      "upstream_path": "skills/dramake/SKILL.md",
+      "upstream_commit": "38345d39b27eb877978422bff28b5057e783164f",
+      "source_url": "https://github.com/xixihhhh/ai-short-drama-skill/blob/38345d39b27eb877978422bff28b5057e783164f/skills/dramake/SKILL.md",
+      "size_bytes": 22035,
+      "sha256": "076b67eeb1012077135e4ba9891fff67647d0b55bb8bae128440021497f4980f",
+      "git_blob_sha1": "57ff0ba8c6c677b8d4f4e50429fcaf67e45b25ea",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b623299fec75"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/xixihhhh/ai-short-drama-skill/blob/38345d39b27eb877978422bff28b5057e783164f/LICENSE",
+        "https://github.com/xixihhhh/ai-short-drama-skill/blob/38345d39b27eb877978422bff28b5057e783164f/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xixihhhh__ai-short-drama-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/xixihhhh__ai-short-drama-skill/LICENSE",
+      "repository": "xixihhhh/ai-short-drama-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "38345d39b27eb877978422bff28b5057e783164f",
+      "source_url": "https://github.com/xixihhhh/ai-short-drama-skill/blob/38345d39b27eb877978422bff28b5057e783164f/LICENSE",
+      "size_bytes": 1077,
+      "sha256": "95f69f8bd54941c283e6f59d25c5e9ad5c03cbf4811f0516857c10dfb33783dd",
+      "git_blob_sha1": "7c0c8eac90213422505cef6f20bf0a0431d35341",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b623299fec75"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/xixihhhh/ai-short-drama-skill/blob/38345d39b27eb877978422bff28b5057e783164f/LICENSE",
+        "https://github.com/xixihhhh/ai-short-drama-skill/blob/38345d39b27eb877978422bff28b5057e783164f/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/xixihhhh__ai-short-drama-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/yaxeen__storytelling-skills/skills/long-form-youtube/SKILL.md",
+      "repository": "yaxeen/storytelling-skills",
+      "upstream_path": "skills/long-form-youtube/SKILL.md",
+      "upstream_commit": "24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f",
+      "source_url": "https://github.com/yaxeen/storytelling-skills/blob/24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f/skills/long-form-youtube/SKILL.md",
+      "size_bytes": 6946,
+      "sha256": "7263c517a545da3fea093b55b2bab3569ff214b5afe0ed0d4166a019f4fc6a8f",
+      "git_blob_sha1": "d649754b7ca00bfbee4649f21439043aa99ba8ff",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-97e58956d842"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/yaxeen/storytelling-skills/blob/24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f/LICENSE",
+        "https://github.com/yaxeen/storytelling-skills/blob/24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yaxeen__storytelling-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/yaxeen__storytelling-skills/LICENSE",
+      "repository": "yaxeen/storytelling-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f",
+      "source_url": "https://github.com/yaxeen/storytelling-skills/blob/24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "642d687551c97106ee19d18d2e6403ddf8e03a95d99e946c8ecd7ced73fd582f",
+      "git_blob_sha1": "a408232e40a20af7debb26036d8e4dd088e4d231",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-97e58956d842"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/yaxeen/storytelling-skills/blob/24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f/LICENSE",
+        "https://github.com/yaxeen/storytelling-skills/blob/24ef3c1e3d7fde66cc5f1c5953cd6c1d7afc0b4f/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yaxeen__storytelling-skills/LICENSE"
+      ]
+    }
+  ]
+}
