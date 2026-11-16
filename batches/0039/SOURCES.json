@@ -1,0 +1,176 @@
+{
+  "batch": "0039",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/diffusionstudio__lottie/LICENSE",
+      "repository": "diffusionstudio/lottie",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3c72912fad543897f90045ed4d355813837927fc",
+      "source_url": "https://github.com/diffusionstudio/lottie/blob/3c72912fad543897f90045ed4d355813837927fc/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "53e75f4653f37f979bef6ae2d13fee2cba97239689a2439678c79a100e2740af",
+      "git_blob_sha1": "45a12d8044c8ca0e09db6aa59dd31d7d9ec72f78",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a4c3cdf4a015"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/diffusionstudio/lottie/blob/3c72912fad543897f90045ed4d355813837927fc/LICENSE",
+        "https://github.com/diffusionstudio/lottie/blob/3c72912fad543897f90045ed4d355813837927fc/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/diffusionstudio__lottie/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/diffusionstudio__lottie/skills/text-to-lottie/SKILL.md",
+      "repository": "diffusionstudio/lottie",
+      "upstream_path": "skills/text-to-lottie/SKILL.md",
+      "upstream_commit": "3c72912fad543897f90045ed4d355813837927fc",
+      "source_url": "https://github.com/diffusionstudio/lottie/blob/3c72912fad543897f90045ed4d355813837927fc/skills/text-to-lottie/SKILL.md",
+      "size_bytes": 9857,
+      "sha256": "d2e5e6151f07e8660d8458c8bbcf7ba8b0f02caa04c1d535f523352a0d8442fd",
+      "git_blob_sha1": "95459e792ab7dfe728b10d36f3a37c217f7641ce",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a4c3cdf4a015"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/diffusionstudio/lottie/blob/3c72912fad543897f90045ed4d355813837927fc/LICENSE",
+        "https://github.com/diffusionstudio/lottie/blob/3c72912fad543897f90045ed4d355813837927fc/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/diffusionstudio__lottie/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/erek303__davinci-rough-cut-skill/LICENSE",
+      "repository": "erek303/davinci-rough-cut-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "183dd47c6b51376b86a14e928ecf8f1fb862dd9d",
+      "source_url": "https://github.com/erek303/davinci-rough-cut-skill/blob/183dd47c6b51376b86a14e928ecf8f1fb862dd9d/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "e0027fed57bc4be3054124d1110839c5ba8d3699ac470cbeca4e97cc2d426c6d",
+      "git_blob_sha1": "6dda47fd27d753540b1d5f68bba6e74d1b6c7eaf",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6fe6445713d2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/erek303/davinci-rough-cut-skill/blob/183dd47c6b51376b86a14e928ecf8f1fb862dd9d/LICENSE",
+        "https://github.com/erek303/davinci-rough-cut-skill/blob/183dd47c6b51376b86a14e928ecf8f1fb862dd9d/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/erek303__davinci-rough-cut-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/erek303__davinci-rough-cut-skill/skill/davinci-rough-cut/SKILL.md",
+      "repository": "erek303/davinci-rough-cut-skill",
+      "upstream_path": "skill/davinci-rough-cut/SKILL.md",
+      "upstream_commit": "183dd47c6b51376b86a14e928ecf8f1fb862dd9d",
+      "source_url": "https://github.com/erek303/davinci-rough-cut-skill/blob/183dd47c6b51376b86a14e928ecf8f1fb862dd9d/skill/davinci-rough-cut/SKILL.md",
+      "size_bytes": 9308,
+      "sha256": "25b104ed7b13570056d3587c2433a58f733150672d8be11513f40b0ff824752f",
+      "git_blob_sha1": "f154b7f46c6846065f0523e920e0e59662c9ef6d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6fe6445713d2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/erek303/davinci-rough-cut-skill/blob/183dd47c6b51376b86a14e928ecf8f1fb862dd9d/LICENSE",
+        "https://github.com/erek303/davinci-rough-cut-skill/blob/183dd47c6b51376b86a14e928ecf8f1fb862dd9d/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/erek303__davinci-rough-cut-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/firecrawl__anydoc/LICENSE",
+      "repository": "firecrawl/anydoc",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e7178e099b6bf9171e2c52b832cbdb4134b69112",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/e7178e099b6bf9171e2c52b832cbdb4134b69112/LICENSE",
+      "size_bytes": 1084,
+      "sha256": "03a9e7657aac6536fb6458bd220347c4e7f85bd0a51d8d9e8528530b7a682ade",
+      "git_blob_sha1": "7ad9f5abd403a43dfcb7b5559e5bc5fac003b2de",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-092d32574f8e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/firecrawl/anydoc/blob/e7178e099b6bf9171e2c52b832cbdb4134b69112/LICENSE",
+        "https://github.com/firecrawl/anydoc/blob/e7178e099b6bf9171e2c52b832cbdb4134b69112/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/firecrawl__anydoc/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/firecrawl__anydoc/skills/convert-documents-to-markdown/SKILL.md",
+      "repository": "firecrawl/anydoc",
+      "upstream_path": "skills/convert-documents-to-markdown/SKILL.md",
+      "upstream_commit": "e7178e099b6bf9171e2c52b832cbdb4134b69112",
+      "source_url": "https://github.com/firecrawl/anydoc/blob/e7178e099b6bf9171e2c52b832cbdb4134b69112/skills/convert-documents-to-markdown/SKILL.md",
+      "size_bytes": 1831,
+      "sha256": "04cc0f3587ec792c83e4af942f88594205f360cddd540a3d869e28c58292bc6a",
+      "git_blob_sha1": "5ee84694bbb11945b63301e751f5a801baeae61c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-092d32574f8e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/firecrawl/anydoc/blob/e7178e099b6bf9171e2c52b832cbdb4134b69112/LICENSE",
+        "https://github.com/firecrawl/anydoc/blob/e7178e099b6bf9171e2c52b832cbdb4134b69112/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/firecrawl__anydoc/LICENSE"
+      ]
+    }
+  ]
+}

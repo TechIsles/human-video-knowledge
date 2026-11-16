@@ -1,0 +1,160 @@
+{
+  "batch": "0038",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/cjdavis62__claude-creative-writing/skills/developmental-editor/SKILL.md",
+      "repository": "cjdavis62/claude-creative-writing",
+      "upstream_path": "skills/developmental-editor/SKILL.md",
+      "upstream_commit": "ea74eabd4421dbc4774b3b1c4b816e6b35c55c0a",
+      "source_url": "https://github.com/cjdavis62/claude-creative-writing/blob/ea74eabd4421dbc4774b3b1c4b816e6b35c55c0a/skills/developmental-editor/SKILL.md",
+      "size_bytes": 3523,
+      "sha256": "73c7251f4fd54e326034351961378a0b45ba37121ac7741d1b495395cc71465c",
+      "git_blob_sha1": "691e2bd10dd294a8c0551022619eeb5cae9a0bb9",
+      "role": "canonical_skill_document",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fcd33311196e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/cjdavis62/claude-creative-writing/blob/ea74eabd4421dbc4774b3b1c4b816e6b35c55c0a/LICENSE"
+      ],
+      "conditions": "Preserve full upstream license and notices, unchanged original; no endorsement or service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cjdavis62__claude-creative-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cjdavis62__claude-creative-writing/LICENSE",
+      "repository": "cjdavis62/claude-creative-writing",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ea74eabd4421dbc4774b3b1c4b816e6b35c55c0a",
+      "source_url": "https://github.com/cjdavis62/claude-creative-writing/blob/ea74eabd4421dbc4774b3b1c4b816e6b35c55c0a/LICENSE",
+      "size_bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "git_blob_sha1": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "role": "license_notice",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fcd33311196e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/cjdavis62/claude-creative-writing/blob/ea74eabd4421dbc4774b3b1c4b816e6b35c55c0a/LICENSE"
+      ],
+      "conditions": "Preserve full upstream license and notices, unchanged original; no endorsement or service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cjdavis62__claude-creative-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/clueso-ai__skills/skills/article-to-video/SKILL.md",
+      "repository": "clueso-ai/skills",
+      "upstream_path": "skills/article-to-video/SKILL.md",
+      "upstream_commit": "8523441230aa0e6ea85bb31ce7bc73b8af0074e5",
+      "source_url": "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/skills/article-to-video/SKILL.md",
+      "size_bytes": 12717,
+      "sha256": "99c2042a0aed62462b00ed8c2687aeb9dfdbc06643df93fdfc3c5c077c2692f7",
+      "git_blob_sha1": "835508393279af711ab48ae75a7821c026968221",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f82e984bca64"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/LICENSE"
+      ],
+      "conditions": "Preserve full upstream license and notices, unchanged original; no endorsement or service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/clueso-ai__skills/skills/localize-video/SKILL.md",
+      "repository": "clueso-ai/skills",
+      "upstream_path": "skills/localize-video/SKILL.md",
+      "upstream_commit": "8523441230aa0e6ea85bb31ce7bc73b8af0074e5",
+      "source_url": "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/skills/localize-video/SKILL.md",
+      "size_bytes": 8128,
+      "sha256": "9b0df934e40b6a6cf8894f01292d066bd001a0cb29e95b6fcc1bb3c7f828e104",
+      "git_blob_sha1": "d8e2be5ca49ebe35419487d7633029ec62c7315c",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9554498adb68"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/LICENSE"
+      ],
+      "conditions": "Preserve full upstream license and notices, unchanged original; no endorsement or service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/clueso-ai__skills/skills/science-style-animation/SKILL.md",
+      "repository": "clueso-ai/skills",
+      "upstream_path": "skills/science-style-animation/SKILL.md",
+      "upstream_commit": "8523441230aa0e6ea85bb31ce7bc73b8af0074e5",
+      "source_url": "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/skills/science-style-animation/SKILL.md",
+      "size_bytes": 7713,
+      "sha256": "11bcebaa0f4c9a10331d339b5d1d1fa06106538e3e36b73bf27c191f8f3e6608",
+      "git_blob_sha1": "323506d515692fec96678d41a8907884118c696c",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-09dfbd7d2959"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/LICENSE"
+      ],
+      "conditions": "Preserve full upstream license and notices, unchanged original; no endorsement or service rights granted.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "clueso-ai/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8523441230aa0e6ea85bb31ce7bc73b8af0074e5",
+      "source_url": "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f82e984bca64",
+        "SRC-9554498adb68",
+        "SRC-09dfbd7d2959"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/clueso-ai/skills/blob/8523441230aa0e6ea85bb31ce7bc73b8af0074e5/LICENSE"
+      ],
+      "conditions": "Preserve full upstream license and notices, unchanged original; no endorsement or service rights granted.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    }
+  ]
+}

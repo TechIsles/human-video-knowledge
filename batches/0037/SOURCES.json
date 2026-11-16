@@ -1,0 +1,124 @@
+{
+  "batch": "0037",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/glebis__claude-skills/palmier-reels/SKILL.md",
+      "repository": "glebis/claude-skills",
+      "upstream_path": "palmier-reels/SKILL.md",
+      "upstream_commit": "d824f5a4a919b71a54c09ce23a23d65664d42b6c",
+      "source_url": "https://github.com/glebis/claude-skills/blob/d824f5a4a919b71a54c09ce23a23d65664d42b6c/palmier-reels/SKILL.md",
+      "size_bytes": 4054,
+      "sha256": "5d999ee8fdb08a0edfcf998403bb3692d81d8daa8b2988d716b489a8ed3ad84b",
+      "git_blob_sha1": "6c247d1fc1b5554f907dbd5b5ce0756d7ec39bea",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bbab85ec11f3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/glebis/claude-skills/blob/d824f5a4a919b71a54c09ce23a23d65664d42b6c/LICENSE",
+        "https://github.com/glebis/claude-skills/blob/d824f5a4a919b71a54c09ce23a23d65664d42b6c/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/glebis__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/glebis__claude-skills/LICENSE",
+      "repository": "glebis/claude-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d824f5a4a919b71a54c09ce23a23d65664d42b6c",
+      "source_url": "https://github.com/glebis/claude-skills/blob/d824f5a4a919b71a54c09ce23a23d65664d42b6c/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "c865f0594f9e986f4d635fe7d7d1dd091d344cc06116207e216c6160bb3ed2bb",
+      "git_blob_sha1": "0d3b5232c9be2fb6eca545d64d9d8e3cabce1693",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bbab85ec11f3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/glebis/claude-skills/blob/d824f5a4a919b71a54c09ce23a23d65664d42b6c/LICENSE",
+        "https://github.com/glebis/claude-skills/blob/d824f5a4a919b71a54c09ce23a23d65664d42b6c/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/glebis__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/greensock__gsap-skills/skills/gsap-timeline/SKILL.md",
+      "repository": "greensock/gsap-skills",
+      "upstream_path": "skills/gsap-timeline/SKILL.md",
+      "upstream_commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_url": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/skills/gsap-timeline/SKILL.md",
+      "size_bytes": 4394,
+      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02",
+      "git_blob_sha1": "1fed372b0e5276b2a207d80bc23f81180a0dff55",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3ecdd0777d63"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+        "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/greensock__gsap-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/greensock__gsap-skills/LICENSE",
+      "repository": "greensock/gsap-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_url": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "git_blob_sha1": "fa2fe218371ee47b741db9d0fa7cf17cddc03eb8",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3ecdd0777d63"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+        "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/greensock__gsap-skills/LICENSE"
+      ]
+    }
+  ]
+}
