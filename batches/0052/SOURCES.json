@@ -1,0 +1,64 @@
+{
+  "batch": "0052",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/jnMetaCode__openshorts/LICENSE",
+      "repository": "jnMetaCode/openshorts",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "48df3591750ea9d0d08f58fb9ce154605e61dfa2",
+      "source_url": "https://github.com/jnMetaCode/openshorts/blob/48df3591750ea9d0d08f58fb9ce154605e61dfa2/LICENSE",
+      "size_bytes": 1080,
+      "sha256": "9fb44142dbe9314edeb8063e0b2f94a9fc02ebe8b457fb8e47042c5383c8cd9f",
+      "git_blob_sha1": "0b1d87ef6152c7f8ff8eb938fb0766b6b0d0ddaa",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57a3ba030b1e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/jnMetaCode/openshorts/blob/48df3591750ea9d0d08f58fb9ce154605e61dfa2/LICENSE",
+        "https://github.com/jnMetaCode/openshorts/blob/48df3591750ea9d0d08f58fb9ce154605e61dfa2/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jnMetaCode__openshorts/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/jnMetaCode__openshorts/docs/cases/koubo-compass/README.md",
+      "repository": "jnMetaCode/openshorts",
+      "upstream_path": "docs/cases/koubo-compass/README.md",
+      "upstream_commit": "48df3591750ea9d0d08f58fb9ce154605e61dfa2",
+      "source_url": "https://github.com/jnMetaCode/openshorts/blob/48df3591750ea9d0d08f58fb9ce154605e61dfa2/docs/cases/koubo-compass/README.md",
+      "size_bytes": 4561,
+      "sha256": "326dc2888cba75b35fd7d1e9492fdf0da6d336193138d585a75d779866e38d48",
+      "git_blob_sha1": "09af24e15cb29811b6920d8caf5ec3d12b0e2b3c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57a3ba030b1e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/jnMetaCode/openshorts/blob/48df3591750ea9d0d08f58fb9ce154605e61dfa2/LICENSE",
+        "https://github.com/jnMetaCode/openshorts/blob/48df3591750ea9d0d08f58fb9ce154605e61dfa2/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jnMetaCode__openshorts/LICENSE"
+      ]
+    }
+  ]
+}

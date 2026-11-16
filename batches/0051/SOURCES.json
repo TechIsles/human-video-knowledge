@@ -78,7 +78,10 @@
       "coverage_kind": "license_support",
       "license_evidence_urls": [
         "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
-        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/THIRD_PARTY_NOTICES.md",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/references/upstream-LICENSE.txt",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md",
+        "https://github.com/alchaincyf/huashu-art-motion/blob/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/LICENSE"
       ],
       "conditions": [
         "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
@@ -108,7 +111,10 @@
       "coverage_kind": "canonical_file_full",
       "license_evidence_urls": [
         "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
-        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/THIRD_PARTY_NOTICES.md",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/references/upstream-LICENSE.txt",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md",
+        "https://github.com/alchaincyf/huashu-art-motion/blob/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/LICENSE"
       ],
       "conditions": [
         "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
@@ -138,7 +144,10 @@
       "coverage_kind": "license_support",
       "license_evidence_urls": [
         "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
-        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/THIRD_PARTY_NOTICES.md",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/references/upstream-LICENSE.txt",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md",
+        "https://github.com/alchaincyf/huashu-art-motion/blob/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/LICENSE"
       ],
       "conditions": [
         "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
@@ -168,7 +177,10 @@
       "coverage_kind": "license_support",
       "license_evidence_urls": [
         "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/LICENSE",
-        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md"
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/THIRD_PARTY_NOTICES.md",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/references/upstream-LICENSE.txt",
+        "https://github.com/itwanger/one-minute-remotion/blob/335ae230ee823d85efdfbfc7d6897c1dd22ddaf0/README.md",
+        "https://github.com/alchaincyf/huashu-art-motion/blob/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/LICENSE"
       ],
       "conditions": [
         "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
@@ -197,7 +209,9 @@
       ],
       "coverage_kind": "license_support",
       "license_evidence_urls": [
-        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/NOTICE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/README.md",
         "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/README.md"
       ],
       "conditions": [
@@ -226,7 +240,9 @@
       ],
       "coverage_kind": "license_support",
       "license_evidence_urls": [
-        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/NOTICE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/README.md",
         "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/README.md"
       ],
       "conditions": [
@@ -255,7 +271,9 @@
       ],
       "coverage_kind": "canonical_file_full",
       "license_evidence_urls": [
-        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/LICENSE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/NOTICE",
+        "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/skills/vox-editorial/README.md",
         "https://github.com/jaredcassoutt/vox-editorial/blob/f394e925f7ccbd6df3e6b3403fcb260194bbece3/README.md"
       ],
       "conditions": [

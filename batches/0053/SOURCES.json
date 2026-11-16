@@ -1,0 +1,120 @@
+{
+  "batch": "0053",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/human-avatar__skills-for-humanity/LICENSE",
+      "repository": "human-avatar/skills-for-humanity",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a30df8b67698ccb03ef5e35d68c2eddc5321ad3f",
+      "source_url": "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "76c0b6aae31f07dcd851c07c046040583d4fd73f5677e655fa1ea58aa809a431",
+      "git_blob_sha1": "08a0a98d6469cf30e0e83b2bdebb15714ff5d1af",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-686c6e010e5f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/LICENSE",
+        "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/human-avatar__skills-for-humanity/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/human-avatar__skills-for-humanity/skills/s4h-writing-pov/SKILL.md",
+      "repository": "human-avatar/skills-for-humanity",
+      "upstream_path": "skills/s4h-writing-pov/SKILL.md",
+      "upstream_commit": "a30df8b67698ccb03ef5e35d68c2eddc5321ad3f",
+      "source_url": "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/skills/s4h-writing-pov/SKILL.md",
+      "size_bytes": 7603,
+      "sha256": "5274bdb0adce2c938821b057225958b216cd4329ed5b01ea49382be6c8cb1de7",
+      "git_blob_sha1": "ac170b8ea66019c87759a012d2bf7bf690fa9971",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-686c6e010e5f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/LICENSE",
+        "https://github.com/human-avatar/skills-for-humanity/blob/a30df8b67698ccb03ef5e35d68c2eddc5321ad3f/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/human-avatar__skills-for-humanity/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/jianshuo__claude-skills/LICENSE",
+      "repository": "jianshuo/claude-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "aacefe954cd19cace7af777bfd002befc5985635",
+      "source_url": "https://github.com/jianshuo/claude-skills/blob/aacefe954cd19cace7af777bfd002befc5985635/LICENSE",
+      "size_bytes": 1082,
+      "sha256": "2dcf8affb126b48dacdad1ecf8e25786a48f2e3e373670bb531237d64eab59a9",
+      "git_blob_sha1": "72f85a2cb72203f729d3e93ef52f8c9348496e5a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dc24c00edd57"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/jianshuo/claude-skills/blob/aacefe954cd19cace7af777bfd002befc5985635/LICENSE",
+        "https://github.com/jianshuo/claude-skills/blob/aacefe954cd19cace7af777bfd002befc5985635/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jianshuo__claude-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/jianshuo__claude-skills/wjs-editing-multicam/SKILL.md",
+      "repository": "jianshuo/claude-skills",
+      "upstream_path": "wjs-editing-multicam/SKILL.md",
+      "upstream_commit": "aacefe954cd19cace7af777bfd002befc5985635",
+      "source_url": "https://github.com/jianshuo/claude-skills/blob/aacefe954cd19cace7af777bfd002befc5985635/wjs-editing-multicam/SKILL.md",
+      "size_bytes": 12224,
+      "sha256": "18922ab8d4e39a6d1a0b63d56fd3eba4dee8a35b21fadede6c55ec998845d3cf",
+      "git_blob_sha1": "8c28bd8ef746e96af1435a735c165462b5a2f8c1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-dc24c00edd57"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/jianshuo/claude-skills/blob/aacefe954cd19cace7af777bfd002befc5985635/LICENSE",
+        "https://github.com/jianshuo/claude-skills/blob/aacefe954cd19cace7af777bfd002befc5985635/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jianshuo__claude-skills/LICENSE"
+      ]
+    }
+  ]
+}
