@@ -1,0 +1,123 @@
+{
+  "batch": "0127",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/web__opencolorio.readthedocs.io/SRC-f8dffdbec035/original.rst",
+      "repository": "web/opencolorio.readthedocs.io",
+      "upstream_path": "SRC-f8dffdbec035/original.rst",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://opencolorio.readthedocs.io/en/v2.4.2/concepts/overview/overview.html",
+      "title": "OpenColorIO v2.4.2 overview source: overview",
+      "size_bytes": 234,
+      "sha256": "780bcd94161a988a786458108af6e303161c7ff094942ba57b289d7cea610e6f",
+      "git_blob_sha1": "2aab73368c49060cb0650dbea07679ca20fc8a01",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8dffdbec035"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/overview.rst",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Copyright Contributors to the OpenColorIO Project. Unmodified documentation source. Three included RST files belong to the same overview source; not independent canonical sources. Upstream warns that introduction and architecture sections describe OCIO v1 and have not been updated."
+    },
+    {
+      "file": "upstream/web__opencolorio.readthedocs.io/SRC-f8dffdbec035/introduction.rst",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-53f7c9b335ae/original.rst",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenColorIO/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/introduction.rst",
+      "title": "OpenColorIO v2.4.2 overview source: introduction",
+      "size_bytes": 8243,
+      "sha256": "5818a285f0ab3f4915a1798bbaa2fc5bf22f787893b48269aa8a4f6a998dc7e7",
+      "git_blob_sha1": "67fc824fba85cb6f4b01c4654d6106b8273cbafc",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8dffdbec035"
+      ],
+      "coverage_kind": "canonical_source_component",
+      "license_evidence_urls": [
+        "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/introduction.rst",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Copyright Contributors to the OpenColorIO Project. Unmodified documentation source. Three included RST files belong to the same overview source; not independent canonical sources. Upstream warns that introduction and architecture sections describe OCIO v1 and have not been updated."
+    },
+    {
+      "file": "upstream/web__opencolorio.readthedocs.io/SRC-f8dffdbec035/internal_architecture.rst",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-ecb15a852418/original.rst",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenColorIO/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/internal_architecture.rst",
+      "title": "OpenColorIO v2.4.2 overview source: internal_architecture",
+      "size_bytes": 9870,
+      "sha256": "780baaaaa7ba9f602f63b8525fd55f7fc293157c81cf355f1fe4fbc67055101e",
+      "git_blob_sha1": "387aa724a19784052c13d88c7e2431ae9a9ca327",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8dffdbec035"
+      ],
+      "coverage_kind": "canonical_source_component",
+      "license_evidence_urls": [
+        "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/internal_architecture.rst",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Copyright Contributors to the OpenColorIO Project. Unmodified documentation source. Three included RST files belong to the same overview source; not independent canonical sources. Upstream warns that introduction and architecture sections describe OCIO v1 and have not been updated."
+    },
+    {
+      "file": "upstream/web__opencolorio.readthedocs.io/SRC-f8dffdbec035/glossary.rst",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-db41b3d9bf91/original.rst",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/AcademySoftwareFoundation/OpenColorIO/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/glossary.rst",
+      "title": "OpenColorIO v2.4.2 overview source: glossary",
+      "size_bytes": 876,
+      "sha256": "8534076580e551c9cf5051b432e70588fb69e5e11d27853ff82983fec4251dc7",
+      "git_blob_sha1": "90dd3f204e5521a0db2956389f6b0406ab68370f",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8dffdbec035"
+      ],
+      "coverage_kind": "canonical_source_component",
+      "license_evidence_urls": [
+        "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/6918fad3f5d22ac3ef2397c754bf4268c2b58dd0/docs/concepts/overview/glossary.rst",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Copyright Contributors to the OpenColorIO Project. Unmodified documentation source. Three included RST files belong to the same overview source; not independent canonical sources. Upstream warns that introduction and architecture sections describe OCIO v1 and have not been updated."
+    },
+    {
+      "file": "upstream/web__chrisbaume.github.io/SRC-a510517528a3/original.html",
+      "repository": "web/chrisbaume.github.io",
+      "upstream_path": "SRC-a510517528a3/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://chrisbaume.github.io/thesis/",
+      "title": "Chris Baume: thesis",
+      "size_bytes": 544874,
+      "sha256": "ffb365b3e26c2ddedf1f5333d2783f5351e06e2611ed6cad253796ec30d2adcb",
+      "git_blob_sha1": "fc4a3bc6ec26be9bf434aec67ccbaead33577e8f",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a510517528a3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://chrisbaume.github.io/thesis/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Copyright 2018 Chris Baume. Original HTML text retained. Externally linked figures, media and third-party assets are not downloaded or included; some figure captions indicate separate third-party permissions."
+    }
+  ]
+}
