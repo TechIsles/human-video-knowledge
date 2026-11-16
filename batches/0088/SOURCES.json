@@ -1,0 +1,248 @@
+{
+  "batch": "0088",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/yinbaozong__rough-cut-wiki-video/skills/rough-cut-wiki-video/SKILL.md",
+      "repository": "yinbaozong/rough-cut-wiki-video",
+      "upstream_path": "skills/rough-cut-wiki-video/SKILL.md",
+      "upstream_commit": "87c4083ccddbfc89fb4de393c2cbf515e03a7a90",
+      "source_url": "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/skills/rough-cut-wiki-video/SKILL.md",
+      "size_bytes": 11748,
+      "sha256": "291d0b46399dd47066fd8eb3e7141c4b3081fd66588e987c0bdc7cfba0517133",
+      "git_blob_sha1": "1c1b8c7327997dd00fc5f2c51998066982334a6d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9c417e355aad"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/LICENSE",
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/README.md",
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yinbaozong__rough-cut-wiki-video/LICENSE",
+        "upstream/yinbaozong__rough-cut-wiki-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/yinbaozong__rough-cut-wiki-video/LICENSE",
+      "repository": "yinbaozong/rough-cut-wiki-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "87c4083ccddbfc89fb4de393c2cbf515e03a7a90",
+      "source_url": "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/LICENSE",
+      "size_bytes": 1090,
+      "sha256": "91510c97457faffc939ab292ff51b371795e1847a19cf2c171656736bd0d8871",
+      "git_blob_sha1": "97d12f039346c593ae237989bd12fa86cc5eec76",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9c417e355aad"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/LICENSE",
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/README.md",
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yinbaozong__rough-cut-wiki-video/LICENSE",
+        "upstream/yinbaozong__rough-cut-wiki-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/yinbaozong__rough-cut-wiki-video/THIRD_PARTY_NOTICES.md",
+      "repository": "yinbaozong/rough-cut-wiki-video",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "87c4083ccddbfc89fb4de393c2cbf515e03a7a90",
+      "source_url": "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 1318,
+      "sha256": "c1c20501f7132787c20bc7ba6c31b3a3f2de511d94ac7aa46a8431b65fed8912",
+      "git_blob_sha1": "31126a1b44f89c7bf15dbdf649b34ebc680edf3f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9c417e355aad"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/LICENSE",
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/README.md",
+        "https://github.com/yinbaozong/rough-cut-wiki-video/blob/87c4083ccddbfc89fb4de393c2cbf515e03a7a90/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yinbaozong__rough-cut-wiki-video/LICENSE",
+        "upstream/yinbaozong__rough-cut-wiki-video/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/yopiesuryadi__video-doc-pipeline/SKILL.md",
+      "repository": "yopiesuryadi/video-doc-pipeline",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "a207e37163620570790488ecba8780f9c2ba633c",
+      "source_url": "https://github.com/yopiesuryadi/video-doc-pipeline/blob/a207e37163620570790488ecba8780f9c2ba633c/SKILL.md",
+      "size_bytes": 11612,
+      "sha256": "4d99bba9dc157694c8d53a84fb5e16b7781e42c0e3783f2fe26ee5c098d1ced6",
+      "git_blob_sha1": "7bead4699d20c20c7d5a1ed380251bb5864b98a4",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-937f6c8666ec"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/yopiesuryadi/video-doc-pipeline/blob/a207e37163620570790488ecba8780f9c2ba633c/LICENSE",
+        "https://github.com/yopiesuryadi/video-doc-pipeline/blob/a207e37163620570790488ecba8780f9c2ba633c/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yopiesuryadi__video-doc-pipeline/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/yopiesuryadi__video-doc-pipeline/LICENSE",
+      "repository": "yopiesuryadi/video-doc-pipeline",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a207e37163620570790488ecba8780f9c2ba633c",
+      "source_url": "https://github.com/yopiesuryadi/video-doc-pipeline/blob/a207e37163620570790488ecba8780f9c2ba633c/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "62d4aa7404c6298641472c6167b0364e11b7989b65aac3bd053ff931a2e9e038",
+      "git_blob_sha1": "b2c58573bc1e45d8cfca9b8232e50db09c8b7d58",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-937f6c8666ec"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/yopiesuryadi/video-doc-pipeline/blob/a207e37163620570790488ecba8780f9c2ba633c/LICENSE",
+        "https://github.com/yopiesuryadi/video-doc-pipeline/blob/a207e37163620570790488ecba8780f9c2ba633c/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/yopiesuryadi__video-doc-pipeline/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/yuduanliao-pixel__mp3-mp4-srt-skill/skills/mp3-to-srt/SKILL.md",
+      "repository": "yuduanliao-pixel/mp3-mp4-srt-skill",
+      "upstream_path": "skills/mp3-to-srt/SKILL.md",
+      "upstream_commit": "bcacf4e3f188388a2eeb862156284861e8452897",
+      "source_url": "https://github.com/yuduanliao-pixel/mp3-mp4-srt-skill/blob/bcacf4e3f188388a2eeb862156284861e8452897/skills/mp3-to-srt/SKILL.md",
+      "size_bytes": 2269,
+      "sha256": "cdae8c6ad0440ca89bc770cf71d36ceefdb98ceee1ab6869edf7c148f70dea6f",
+      "git_blob_sha1": "7d97980a45f60b7caa1c4912561972efdc82f6c9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96cf2516f184"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/yuduanliao-pixel/mp3-mp4-srt-skill/blob/bcacf4e3f188388a2eeb862156284861e8452897/LICENSE",
+        "https://github.com/yuduanliao-pixel/mp3-mp4-srt-skill/blob/bcacf4e3f188388a2eeb862156284861e8452897/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "yuduanliao-pixel/mp3-mp4-srt-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "bcacf4e3f188388a2eeb862156284861e8452897",
+      "source_url": "https://github.com/yuduanliao-pixel/mp3-mp4-srt-skill/blob/bcacf4e3f188388a2eeb862156284861e8452897/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96cf2516f184"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/yuduanliao-pixel/mp3-mp4-srt-skill/blob/bcacf4e3f188388a2eeb862156284861e8452897/LICENSE",
+        "https://github.com/yuduanliao-pixel/mp3-mp4-srt-skill/blob/bcacf4e3f188388a2eeb862156284861e8452897/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zdyya__writer-skill/SKILL.md",
+      "repository": "zdyya/writer-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "dd100aaf4bb4c028bbda6b11184d232c4c0a0737",
+      "source_url": "https://github.com/zdyya/writer-skill/blob/dd100aaf4bb4c028bbda6b11184d232c4c0a0737/SKILL.md",
+      "size_bytes": 62865,
+      "sha256": "038c2585e10988d4619de50053ca3d6c6bd47a2f4baff93010bc262322d6cf68",
+      "git_blob_sha1": "7143c766ea49a8e121e4368e861093c1cb6d7067",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cf83f362efcd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zdyya/writer-skill/blob/dd100aaf4bb4c028bbda6b11184d232c4c0a0737/LICENSE",
+        "https://github.com/zdyya/writer-skill/blob/dd100aaf4bb4c028bbda6b11184d232c4c0a0737/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zdyya__writer-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zdyya__writer-skill/LICENSE",
+      "repository": "zdyya/writer-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "dd100aaf4bb4c028bbda6b11184d232c4c0a0737",
+      "source_url": "https://github.com/zdyya/writer-skill/blob/dd100aaf4bb4c028bbda6b11184d232c4c0a0737/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "f1c2c503d144cf161ad3c0646b04567a511a8b04617c7738f1bec536ad1d205f",
+      "git_blob_sha1": "31500d35adfd47c0b777bc7dcfa8d50282de02ac",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cf83f362efcd"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zdyya/writer-skill/blob/dd100aaf4bb4c028bbda6b11184d232c4c0a0737/LICENSE",
+        "https://github.com/zdyya/writer-skill/blob/dd100aaf4bb4c028bbda6b11184d232c4c0a0737/README.md"
+      ],
+      "conditions": "Retain complete MIT license, copyright, attribution and disclaimer. Original unchanged; no endorsement, linked media/model/service/dependency or training authorization implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zdyya__writer-skill/LICENSE"
+      ]
+    }
+  ]
+}

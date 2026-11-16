@@ -1,0 +1,62 @@
+{
+  "batch": "0087",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/AMinerOrg__aminer-open-skill/skills/citation-faithfulness/SKILL.md",
+      "repository": "AMinerOrg/aminer-open-skill",
+      "upstream_path": "skills/citation-faithfulness/SKILL.md",
+      "upstream_commit": "03babea437c9ea3476e323f9c31934dbf2511f7c",
+      "source_url": "https://github.com/AMinerOrg/aminer-open-skill/blob/03babea437c9ea3476e323f9c31934dbf2511f7c/skills/citation-faithfulness/SKILL.md",
+      "size_bytes": 14515,
+      "sha256": "7712d3bf5f1205533626022b3453032b38e5fba740a34f1a1fe13782214ac32c",
+      "git_blob_sha1": "12eeead717640de8c65d3408ddd8824db16238c2",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9dba6b8e192d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/AMinerOrg/aminer-open-skill/blob/03babea437c9ea3476e323f9c31934dbf2511f7c/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "AMinerOrg/aminer-open-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "03babea437c9ea3476e323f9c31934dbf2511f7c",
+      "source_url": "https://github.com/AMinerOrg/aminer-open-skill/blob/03babea437c9ea3476e323f9c31934dbf2511f7c/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9dba6b8e192d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/AMinerOrg/aminer-open-skill/blob/03babea437c9ea3476e323f9c31934dbf2511f7c/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    }
+  ]
+}

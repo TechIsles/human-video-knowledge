@@ -1,0 +1,144 @@
+{
+  "batch": "0089",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/zenstory-ai__drama-skills/LICENSE",
+      "repository": "zenstory-ai/drama-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "source_url": "https://github.com/zenstory-ai/drama-skills/blob/fdb7b7c58017e3eae64eca382c2a85ede368dab0/LICENSE",
+      "size_bytes": 1082,
+      "sha256": "840bdb5ba503ca4397f5a6049e6e8da182330f83bb70006d5656d7dd00674e9b",
+      "git_blob_sha1": "44538bed2121005352d88d85bac3bcb094238ac0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1b0b50fceeeb",
+        "SRC-650a5fcfa743"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zenstory-ai/drama-skills/blob/fdb7b7c58017e3eae64eca382c2a85ede368dab0/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zenstory-ai__drama-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zenstory-ai__drama-skills/skills/short-drama-edit/SKILL.md",
+      "repository": "zenstory-ai/drama-skills",
+      "upstream_path": "skills/short-drama-edit/SKILL.md",
+      "upstream_commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "source_url": "https://github.com/zenstory-ai/drama-skills/blob/fdb7b7c58017e3eae64eca382c2a85ede368dab0/skills/short-drama-edit/SKILL.md",
+      "size_bytes": 15010,
+      "sha256": "38946a741e12b2be0ac9715fdd31c0886e80cb5f80b6531c1da3314e4481301f",
+      "git_blob_sha1": "a87f0dfebe813ae5af0beae67595eb6958bd62b1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-650a5fcfa743"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zenstory-ai/drama-skills/blob/fdb7b7c58017e3eae64eca382c2a85ede368dab0/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zenstory-ai__drama-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zenstory-ai__drama-skills/skills/short-drama-storyboard/SKILL.md",
+      "repository": "zenstory-ai/drama-skills",
+      "upstream_path": "skills/short-drama-storyboard/SKILL.md",
+      "upstream_commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "source_url": "https://github.com/zenstory-ai/drama-skills/blob/fdb7b7c58017e3eae64eca382c2a85ede368dab0/skills/short-drama-storyboard/SKILL.md",
+      "size_bytes": 20719,
+      "sha256": "fec0a090c48b8939cdd5302937446faf2ffbbca26bf596e69e2b32dd8153067e",
+      "git_blob_sha1": "62ab08d7b9bf0d9ffec57bd702a7ab973ff193dd",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1b0b50fceeeb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zenstory-ai/drama-skills/blob/fdb7b7c58017e3eae64eca382c2a85ede368dab0/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zenstory-ai__drama-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhangzhangco__film-production-skills/LICENSE",
+      "repository": "zhangzhangco/film-production-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "47b2a6a432235e716fa2aa0d08eefae76fdb34fd",
+      "source_url": "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "62ba29d49f68b4f2ebb215bfaaf372018673c9fd32f3d8e2fa94b85493148d6c",
+      "git_blob_sha1": "9d1023ccccde719baec066c84a708429cf519921",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8915f71e4175"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zhangzhangco__film-production-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zhangzhangco__film-production-skills/skills/plan-camera-shots/SKILL.md",
+      "repository": "zhangzhangco/film-production-skills",
+      "upstream_path": "skills/plan-camera-shots/SKILL.md",
+      "upstream_commit": "47b2a6a432235e716fa2aa0d08eefae76fdb34fd",
+      "source_url": "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/skills/plan-camera-shots/SKILL.md",
+      "size_bytes": 1983,
+      "sha256": "d498f8468fdd82ea0c41252d741534d15b66288cbca689bd9eeb34778176a7f3",
+      "git_blob_sha1": "c527ae79af43deec004f51fc52b0e94ba2eb7ffe",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8915f71e4175"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zhangzhangco/film-production-skills/blob/47b2a6a432235e716fa2aa0d08eefae76fdb34fd/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/zhangzhangco__film-production-skills/LICENSE"
+      ]
+    }
+  ]
+}
