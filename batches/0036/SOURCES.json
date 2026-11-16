@@ -1,0 +1,128 @@
+{
+  "batch": "0036",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/asgard-ai-platform__skills/med-political/SKILL.md",
+      "repository": "asgard-ai-platform/skills",
+      "upstream_path": "med-political/SKILL.md",
+      "upstream_commit": "4e7f4f8e389847757a5a4236c2f1ed9813359179",
+      "source_url": "https://github.com/asgard-ai-platform/skills/blob/4e7f4f8e389847757a5a4236c2f1ed9813359179/med-political/SKILL.md",
+      "size_bytes": 18933,
+      "sha256": "011c99c274a894bdb65ed22eea30ae4710a22aca4c0b96c288727c64e059b0aa",
+      "git_blob_sha1": "f47e64be205206604d1ad4f64a2bd9373a78ac27",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4fd27e75fa9c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/asgard-ai-platform/skills/blob/4e7f4f8e389847757a5a4236c2f1ed9813359179/LICENSE",
+        "https://github.com/asgard-ai-platform/skills/blob/4e7f4f8e389847757a5a4236c2f1ed9813359179/README.md"
+      ],
+      "conditions": [
+        "Retain complete original license, copyright/attribution notices and disclaimers. Selected files unchanged.",
+        "Exact document only; related materials/services/code not included. No execution or functionality verification."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asgard-ai-platform__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/asgard-ai-platform__skills/LICENSE",
+      "repository": "asgard-ai-platform/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4e7f4f8e389847757a5a4236c2f1ed9813359179",
+      "source_url": "https://github.com/asgard-ai-platform/skills/blob/4e7f4f8e389847757a5a4236c2f1ed9813359179/LICENSE",
+      "size_bytes": 1101,
+      "sha256": "8d61114e503bbdb100175cdb8b1085bad188a37b5eb15fb69c2e98d8a8007f65",
+      "git_blob_sha1": "74c4a6d48f2fed6b7fcbafb5ae0d24bf6e316c1f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4fd27e75fa9c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/asgard-ai-platform/skills/blob/4e7f4f8e389847757a5a4236c2f1ed9813359179/LICENSE",
+        "https://github.com/asgard-ai-platform/skills/blob/4e7f4f8e389847757a5a4236c2f1ed9813359179/README.md"
+      ],
+      "conditions": [
+        "Retain complete original license, copyright/attribution notices and disclaimers. Selected files unchanged.",
+        "Exact document only; related materials/services/code not included. No execution or functionality verification."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asgard-ai-platform__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/asmartbear__asb-skills/.claude/skills/asb-interview-report/SKILL.md",
+      "repository": "asmartbear/asb-skills",
+      "upstream_path": ".claude/skills/asb-interview-report/SKILL.md",
+      "upstream_commit": "fe5c300fb92a36e541ff059ff89e9fe2085c1a88",
+      "source_url": "https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/.claude/skills/asb-interview-report/SKILL.md",
+      "size_bytes": 24639,
+      "sha256": "cc79ec6f78f482bb867a41c1a0ab43500c273f33de0e9ef6dc578785f32ebcff",
+      "git_blob_sha1": "bef7480412b56a26cadacd952a3c1db1c2ffb8c3",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-382205117588"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/LICENSE",
+        "https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/README.md"
+      ],
+      "conditions": [
+        "Retain complete original license, copyright/attribution notices and disclaimers. Selected files unchanged.",
+        "Exact document only; related materials/services/code not included. No execution or functionality verification.",
+        "Attribution required: Jason Cohen / A Smart Bear; source https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/.claude/skills/asb-interview-report/SKILL.md; licensed CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ . Original selected file unchanged.",
+        "Retain supplied copyright, source and disclaimer references; identify any subsequent changes and do not impose downstream restrictions or imply endorsement. Website code and dev-only tools are excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/asmartbear__asb-skills/LICENSE",
+      "repository": "asmartbear/asb-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fe5c300fb92a36e541ff059ff89e9fe2085c1a88",
+      "source_url": "https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/LICENSE",
+      "size_bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "git_blob_sha1": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-382205117588"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/LICENSE",
+        "https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/README.md"
+      ],
+      "conditions": [
+        "Retain complete original license, copyright/attribution notices and disclaimers. Selected files unchanged.",
+        "Exact document only; related materials/services/code not included. No execution or functionality verification.",
+        "Attribution required: Jason Cohen / A Smart Bear; source https://github.com/asmartbear/asb-skills/blob/fe5c300fb92a36e541ff059ff89e9fe2085c1a88/.claude/skills/asb-interview-report/SKILL.md; licensed CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ . Original selected file unchanged.",
+        "Retain supplied copyright, source and disclaimer references; identify any subsequent changes and do not impose downstream restrictions or imply endorsement. Website code and dev-only tools are excluded."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/asmartbear__asb-skills/LICENSE"
+      ]
+    }
+  ]
+}

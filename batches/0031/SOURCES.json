@@ -1,0 +1,124 @@
+{
+  "batch": "0031",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/charlie947__motion-graphics-skills/skills/vox-explainer/SKILL.md",
+      "repository": "charlie947/motion-graphics-skills",
+      "upstream_path": "skills/vox-explainer/SKILL.md",
+      "upstream_commit": "229022ebca76972e119e36ada23a1648d51665ab",
+      "source_url": "https://github.com/charlie947/motion-graphics-skills/blob/229022ebca76972e119e36ada23a1648d51665ab/skills/vox-explainer/SKILL.md",
+      "size_bytes": 5957,
+      "sha256": "8e4066d59fc71f94f7ec82ebc21965cc44372809c4ce77b5b466dc9d7f9c9606",
+      "git_blob_sha1": "a6fdadb158bca06300e806fa7a36f6a71cbcc609",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-52bc3e36e523"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/charlie947/motion-graphics-skills/blob/229022ebca76972e119e36ada23a1648d51665ab/LICENSE",
+        "https://github.com/charlie947/motion-graphics-skills/blob/229022ebca76972e119e36ada23a1648d51665ab/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/charlie947__motion-graphics-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/charlie947__motion-graphics-skills/LICENSE",
+      "repository": "charlie947/motion-graphics-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "229022ebca76972e119e36ada23a1648d51665ab",
+      "source_url": "https://github.com/charlie947/motion-graphics-skills/blob/229022ebca76972e119e36ada23a1648d51665ab/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "ed17713237d18555a34c208bf0cb1ce347faa937731d509e265ce91be660e218",
+      "git_blob_sha1": "82feab771185584190c5050ffc244a22cdd6f4f9",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-52bc3e36e523"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/charlie947/motion-graphics-skills/blob/229022ebca76972e119e36ada23a1648d51665ab/LICENSE",
+        "https://github.com/charlie947/motion-graphics-skills/blob/229022ebca76972e119e36ada23a1648d51665ab/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/charlie947__motion-graphics-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/chenyuxiaojin__video-agent-skills/video-agent-writer/SKILL.md",
+      "repository": "chenyuxiaojin/video-agent-skills",
+      "upstream_path": "video-agent-writer/SKILL.md",
+      "upstream_commit": "fc80890c7578279279bee301370a9f58d8123ec0",
+      "source_url": "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/video-agent-writer/SKILL.md",
+      "size_bytes": 6793,
+      "sha256": "48a8d640e8fa68cca53d87640430757b31a2667c07542c4b00aa42b32df5f9e6",
+      "git_blob_sha1": "db5b2780608ae4b09697a67c0c5d94f40654aeb3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-184db97b670f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/LICENSE",
+        "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenyuxiaojin__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/chenyuxiaojin__video-agent-skills/LICENSE",
+      "repository": "chenyuxiaojin/video-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fc80890c7578279279bee301370a9f58d8123ec0",
+      "source_url": "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "a927745ec95b8b0fc03c247dae453c85c5c274356124881ad0469367764323f0",
+      "git_blob_sha1": "65504e7da7b82a15931c9cf4c4055643a04b16e5",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-184db97b670f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/LICENSE",
+        "https://github.com/chenyuxiaojin/video-agent-skills/blob/fc80890c7578279279bee301370a9f58d8123ec0/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenyuxiaojin__video-agent-skills/LICENSE"
+      ]
+    }
+  ]
+}

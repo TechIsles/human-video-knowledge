@@ -1,0 +1,240 @@
+{
+  "batch": "0032",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/anyhui__video-storyboard-gen-skill/SKILL.md",
+      "repository": "anyhui/video-storyboard-gen-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b",
+      "source_url": "https://github.com/anyhui/video-storyboard-gen-skill/blob/60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b/SKILL.md",
+      "size_bytes": 5560,
+      "sha256": "2bd6db4c12c92fe906720fc49ba9b38b2286522de326a47deac0906d0ca67820",
+      "git_blob_sha1": "efb84991d2c4d905b9b687606d7b6ecf9620c325",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e8ee89cad01"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anyhui/video-storyboard-gen-skill/blob/60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b/LICENSE",
+        "https://github.com/anyhui/video-storyboard-gen-skill/blob/60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anyhui__video-storyboard-gen-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anyhui__video-storyboard-gen-skill/LICENSE",
+      "repository": "anyhui/video-storyboard-gen-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b",
+      "source_url": "https://github.com/anyhui/video-storyboard-gen-skill/blob/60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b/LICENSE",
+      "size_bytes": 1442,
+      "sha256": "29fb6ca7f502d80acf19b33c65acfd1e301b896fdcc524f575fb700775e404b1",
+      "git_blob_sha1": "1ab38cd606a68affe7d151a31108036c1b7a470c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7e8ee89cad01"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anyhui/video-storyboard-gen-skill/blob/60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b/LICENSE",
+        "https://github.com/anyhui/video-storyboard-gen-skill/blob/60cfaf4f9b4db5d8dcc36cc59495977df2eb9c8b/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anyhui__video-storyboard-gen-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/arjunprabhulal__agent-skills/skills/docs/plain-language/SKILL.md",
+      "repository": "arjunprabhulal/agent-skills",
+      "upstream_path": "skills/docs/plain-language/SKILL.md",
+      "upstream_commit": "42dd24080fce6d731d00e2a1134f398c3da4171b",
+      "source_url": "https://github.com/arjunprabhulal/agent-skills/blob/42dd24080fce6d731d00e2a1134f398c3da4171b/skills/docs/plain-language/SKILL.md",
+      "size_bytes": 5833,
+      "sha256": "5e146a79331ef0bab7a5d41e3735327d77e41fad51ba1cd2cb9eb0db578ee9e8",
+      "git_blob_sha1": "a80064b322df5dd720788fd601ef30e45c1d91fb",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a1ce56bdbd7d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/arjunprabhulal/agent-skills/blob/42dd24080fce6d731d00e2a1134f398c3da4171b/LICENSE",
+        "https://github.com/arjunprabhulal/agent-skills/blob/42dd24080fce6d731d00e2a1134f398c3da4171b/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/arjunprabhulal__agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/arjunprabhulal__agent-skills/LICENSE",
+      "repository": "arjunprabhulal/agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "42dd24080fce6d731d00e2a1134f398c3da4171b",
+      "source_url": "https://github.com/arjunprabhulal/agent-skills/blob/42dd24080fce6d731d00e2a1134f398c3da4171b/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "3a9cf254e155282014880e9569b9039bc17ce6a43919df23741cf14d24481244",
+      "git_blob_sha1": "3d0da63768d652e1d69d5f42cc8129d89309d6b0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a1ce56bdbd7d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/arjunprabhulal/agent-skills/blob/42dd24080fce6d731d00e2a1134f398c3da4171b/LICENSE",
+        "https://github.com/arjunprabhulal/agent-skills/blob/42dd24080fce6d731d00e2a1134f398c3da4171b/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/arjunprabhulal__agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/arnans__video-pipeline-skills/skills/video-outline-narration/SKILL.md",
+      "repository": "arnans/video-pipeline-skills",
+      "upstream_path": "skills/video-outline-narration/SKILL.md",
+      "upstream_commit": "4394273a3152b68dbc584f8fa28dde039ac72cfc",
+      "source_url": "https://github.com/arnans/video-pipeline-skills/blob/4394273a3152b68dbc584f8fa28dde039ac72cfc/skills/video-outline-narration/SKILL.md",
+      "size_bytes": 6644,
+      "sha256": "14d83d592614b534c5117ab6b786f9acc9cdf49d5387b0d036e13b4795d3385d",
+      "git_blob_sha1": "8863fa739d787bdaefe5797e35e23a7166e6810d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-152bb8ff0d4f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/arnans/video-pipeline-skills/blob/4394273a3152b68dbc584f8fa28dde039ac72cfc/LICENSE",
+        "https://github.com/arnans/video-pipeline-skills/blob/4394273a3152b68dbc584f8fa28dde039ac72cfc/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/arnans__video-pipeline-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/arnans__video-pipeline-skills/LICENSE",
+      "repository": "arnans/video-pipeline-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4394273a3152b68dbc584f8fa28dde039ac72cfc",
+      "source_url": "https://github.com/arnans/video-pipeline-skills/blob/4394273a3152b68dbc584f8fa28dde039ac72cfc/LICENSE",
+      "size_bytes": 1197,
+      "sha256": "f1831b61b23cbb8ff8918691ac24032ccdf8220dbde5af1e1b0f23ba744fc534",
+      "git_blob_sha1": "365f3d72b58b1ca202c4daf60a7fe405e26fdbd8",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-152bb8ff0d4f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/arnans/video-pipeline-skills/blob/4394273a3152b68dbc584f8fa28dde039ac72cfc/LICENSE",
+        "https://github.com/arnans/video-pipeline-skills/blob/4394273a3152b68dbc584f8fa28dde039ac72cfc/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/arnans__video-pipeline-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/athola__claude-night-market/plugins/scribe/skills/session-to-post/SKILL.md",
+      "repository": "athola/claude-night-market",
+      "upstream_path": "plugins/scribe/skills/session-to-post/SKILL.md",
+      "upstream_commit": "9f3eb003bedbd1d84389c5dd68711ea56c8c69b4",
+      "source_url": "https://github.com/athola/claude-night-market/blob/9f3eb003bedbd1d84389c5dd68711ea56c8c69b4/plugins/scribe/skills/session-to-post/SKILL.md",
+      "size_bytes": 9910,
+      "sha256": "4a0f23ae36b5ae22bc0759b326ec7f93fe0ecdd70038784c6af47c2b0b944048",
+      "git_blob_sha1": "9eda58640a52a47c999255b0e0f345343c344532",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-49643867974a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/athola/claude-night-market/blob/9f3eb003bedbd1d84389c5dd68711ea56c8c69b4/LICENSE",
+        "https://github.com/athola/claude-night-market/blob/9f3eb003bedbd1d84389c5dd68711ea56c8c69b4/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/athola__claude-night-market/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/athola__claude-night-market/LICENSE",
+      "repository": "athola/claude-night-market",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9f3eb003bedbd1d84389c5dd68711ea56c8c69b4",
+      "source_url": "https://github.com/athola/claude-night-market/blob/9f3eb003bedbd1d84389c5dd68711ea56c8c69b4/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "6a731404a68a75198c5fd680ce550f56f216f18c136242ef4c319e9122cb4ebf",
+      "git_blob_sha1": "9c5f7c8327c616cd44003d0fe7254706a090c068",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-49643867974a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/athola/claude-night-market/blob/9f3eb003bedbd1d84389c5dd68711ea56c8c69b4/LICENSE",
+        "https://github.com/athola/claude-night-market/blob/9f3eb003bedbd1d84389c5dd68711ea56c8c69b4/README.md"
+      ],
+      "conditions": [
+        "Retain complete original copyright, permission notice, exclusions and warranty disclaimer. Files unchanged.",
+        "Only exact selected document and license; other scripts/assets/fonts/dependencies/services not included. Archive only, no upstream execution or functionality claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/athola__claude-night-market/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "batch": "0035",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 6,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/blacktwist__social-media-skills/LICENSE",
+      "repository": "blacktwist/social-media-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4f85b07069983b3b0b9bbe6519fed7017edcce81",
+      "source_url": "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/LICENSE",
+      "size_bytes": 1089,
+      "sha256": "3f23da352b4bb86d77ac2bf9c7e57c205d12d5c8dbb47c27075f379cdbc90f98",
+      "git_blob_sha1": "f2df62bc4df9e7dd5e738a53dafde39172cb93aa",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-24b14f4bd6df",
+        "SRC-5c8dd4be1aed",
+        "SRC-89f80fe025fd"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/LICENSE",
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/blacktwist__social-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/blacktwist__social-media-skills/skills/content-pattern-analyzer-sms/SKILL.md",
+      "repository": "blacktwist/social-media-skills",
+      "upstream_path": "skills/content-pattern-analyzer-sms/SKILL.md",
+      "upstream_commit": "4f85b07069983b3b0b9bbe6519fed7017edcce81",
+      "source_url": "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/skills/content-pattern-analyzer-sms/SKILL.md",
+      "size_bytes": 12014,
+      "sha256": "30778f6a104e55d36e559f0ac9fcf77f5d3c7779e7e9f8867649ea1cbb30d3e4",
+      "git_blob_sha1": "80fb8a73e107382092c70fdbe98cdf5ab40e5ef6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-89f80fe025fd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/LICENSE",
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/blacktwist__social-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/blacktwist__social-media-skills/skills/content-strategy-sms/SKILL.md",
+      "repository": "blacktwist/social-media-skills",
+      "upstream_path": "skills/content-strategy-sms/SKILL.md",
+      "upstream_commit": "4f85b07069983b3b0b9bbe6519fed7017edcce81",
+      "source_url": "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/skills/content-strategy-sms/SKILL.md",
+      "size_bytes": 10921,
+      "sha256": "13e1a27c5b02009ecceba2deaf00820d12a3f507a85a333766d788db5620bab2",
+      "git_blob_sha1": "b4eefa218107e9c8402bf8318abd1cce38f383f1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5c8dd4be1aed"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/LICENSE",
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/blacktwist__social-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/blacktwist__social-media-skills/skills/social-media-context-sms/SKILL.md",
+      "repository": "blacktwist/social-media-skills",
+      "upstream_path": "skills/social-media-context-sms/SKILL.md",
+      "upstream_commit": "4f85b07069983b3b0b9bbe6519fed7017edcce81",
+      "source_url": "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/skills/social-media-context-sms/SKILL.md",
+      "size_bytes": 12669,
+      "sha256": "9e9b203c6a9c70d0148f34b33813e17bd06c0501259b58330334d27f562fb881",
+      "git_blob_sha1": "41275122aeb981ce378b19217db8be1fc75edc7d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-24b14f4bd6df"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/LICENSE",
+        "https://github.com/blacktwist/social-media-skills/blob/4f85b07069983b3b0b9bbe6519fed7017edcce81/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/blacktwist__social-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/blazerior__videoediting-claude-skill/LICENSE",
+      "repository": "blazerior/videoediting-claude-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b9a2cbfe87537291252f7a6966aefe244dc49802",
+      "source_url": "https://github.com/blazerior/videoediting-claude-skill/blob/b9a2cbfe87537291252f7a6966aefe244dc49802/LICENSE",
+      "size_bytes": 1095,
+      "sha256": "cd8031bbf4fcf185e1c4f4d1c32fc543e9b8abda8a2c9272c24e1d6c0c4bb752",
+      "git_blob_sha1": "cbd34f104786bb49b82485c5cf9d9063d55a07af",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5ce71396a351"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/blazerior/videoediting-claude-skill/blob/b9a2cbfe87537291252f7a6966aefe244dc49802/LICENSE",
+        "https://github.com/blazerior/videoediting-claude-skill/blob/b9a2cbfe87537291252f7a6966aefe244dc49802/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/blazerior__videoediting-claude-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/blazerior__videoediting-claude-skill/skill/videoediting/SKILL.md",
+      "repository": "blazerior/videoediting-claude-skill",
+      "upstream_path": "skill/videoediting/SKILL.md",
+      "upstream_commit": "b9a2cbfe87537291252f7a6966aefe244dc49802",
+      "source_url": "https://github.com/blazerior/videoediting-claude-skill/blob/b9a2cbfe87537291252f7a6966aefe244dc49802/skill/videoediting/SKILL.md",
+      "size_bytes": 9226,
+      "sha256": "a3ab398a0bc9bc9e95bffe0b8911dc0fdb05000ee2374b0cec813899b9690c18",
+      "git_blob_sha1": "e5f9f7d63ed7c082c0cd5051c148dc0205b1d1aa",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5ce71396a351"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/blazerior/videoediting-claude-skill/blob/b9a2cbfe87537291252f7a6966aefe244dc49802/LICENSE",
+        "https://github.com/blazerior/videoediting-claude-skill/blob/b9a2cbfe87537291252f7a6966aefe244dc49802/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/blazerior__videoediting-claude-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/bounce12340__karpathy-explain-skill/LICENSE",
+      "repository": "bounce12340/karpathy-explain-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "183ff2db8b4616df061a90068ad07127b5a1986f",
+      "source_url": "https://github.com/bounce12340/karpathy-explain-skill/blob/183ff2db8b4616df061a90068ad07127b5a1986f/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "f866242d1bee5653b20cfbf20c6f8ed14fb1904825ef33b30ea7003cee071a11",
+      "git_blob_sha1": "f720d6f533c7999e9040f47189b3c1829db36703",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ec41c0fa5d98"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/bounce12340/karpathy-explain-skill/blob/183ff2db8b4616df061a90068ad07127b5a1986f/LICENSE",
+        "https://github.com/bounce12340/karpathy-explain-skill/blob/183ff2db8b4616df061a90068ad07127b5a1986f/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/bounce12340__karpathy-explain-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/bounce12340__karpathy-explain-skill/skills/karpathy-explain/SKILL.md",
+      "repository": "bounce12340/karpathy-explain-skill",
+      "upstream_path": "skills/karpathy-explain/SKILL.md",
+      "upstream_commit": "183ff2db8b4616df061a90068ad07127b5a1986f",
+      "source_url": "https://github.com/bounce12340/karpathy-explain-skill/blob/183ff2db8b4616df061a90068ad07127b5a1986f/skills/karpathy-explain/SKILL.md",
+      "size_bytes": 10087,
+      "sha256": "72f85ea4e4067305eb9fc164bcee0f929e5d7ffb4a6762660d78e00e41dd638c",
+      "git_blob_sha1": "b3e34643651414fbc1c84e001cf721c22b365403",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ec41c0fa5d98"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/bounce12340/karpathy-explain-skill/blob/183ff2db8b4616df061a90068ad07127b5a1986f/LICENSE",
+        "https://github.com/bounce12340/karpathy-explain-skill/blob/183ff2db8b4616df061a90068ad07127b5a1986f/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/bounce12340__karpathy-explain-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/brensterbaz__Skills-Bible/LICENSE",
+      "repository": "brensterbaz/Skills-Bible",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "506a925c234cb05113cd79d44670a6a2061dfb0a",
+      "source_url": "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "7a2f4094f26e1aa48a0732ab23c275c6c1b84d22d97999b2c8cc4daadc6e0d5a",
+      "git_blob_sha1": "03600503f0bc81b5d5e2c30cd0aa8e92b7559bb2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02ffcfc25514"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/LICENSE",
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/brensterbaz__Skills-Bible/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/brensterbaz__Skills-Bible/skills/script-to-storyboard/SKILL.md",
+      "repository": "brensterbaz/Skills-Bible",
+      "upstream_path": "skills/script-to-storyboard/SKILL.md",
+      "upstream_commit": "506a925c234cb05113cd79d44670a6a2061dfb0a",
+      "source_url": "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/skills/script-to-storyboard/SKILL.md",
+      "size_bytes": 3415,
+      "sha256": "a9524a5fd2094900c7b984c71793fbf37a1fc20cd9229f132e76aa778f6bddae",
+      "git_blob_sha1": "4776290894e947ef651b56699b3bf3c288bc76fe",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02ffcfc25514"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/LICENSE",
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/brensterbaz__Skills-Bible/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "batch": "0033",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/bytedance__deer-flow/skills/public/podcast-generation/SKILL.md",
+      "repository": "bytedance/deer-flow",
+      "upstream_path": "skills/public/podcast-generation/SKILL.md",
+      "upstream_commit": "c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0",
+      "source_url": "https://github.com/bytedance/deer-flow/blob/c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0/skills/public/podcast-generation/SKILL.md",
+      "size_bytes": 8871,
+      "sha256": "296f4e111832a3c98129925aae5b206759eea38dcfbe90a4cd4ee0b73d4487eb",
+      "git_blob_sha1": "5aa1e81dce0f45ab0ee22ccf934e7c03eaa789a5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-60288daefe74"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/bytedance/deer-flow/blob/c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0/LICENSE",
+        "https://github.com/bytedance/deer-flow/blob/c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/bytedance__deer-flow/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/bytedance__deer-flow/LICENSE",
+      "repository": "bytedance/deer-flow",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0",
+      "source_url": "https://github.com/bytedance/deer-flow/blob/c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0/LICENSE",
+      "size_bytes": 1134,
+      "sha256": "b23dff4d4bac8d17b6efaaa7e88c2b730149c4dda45699ce676b719cfdffe7e1",
+      "git_blob_sha1": "9dc98a4a6b9b549447a4fc314e4cf50529c184c7",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-60288daefe74"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/bytedance/deer-flow/blob/c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0/LICENSE",
+        "https://github.com/bytedance/deer-flow/blob/c36bb699de9283dfb61d62e2ca01b16f9fa5c0f0/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/bytedance__deer-flow/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cathrynlavery__diagram-design/skills/diagram-design/SKILL.md",
+      "repository": "cathrynlavery/diagram-design",
+      "upstream_path": "skills/diagram-design/SKILL.md",
+      "upstream_commit": "10cfad6a7be7f734a92d3d628e5fa344685d4f01",
+      "source_url": "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/skills/diagram-design/SKILL.md",
+      "size_bytes": 30821,
+      "sha256": "f11aeec988fc5c690f6cdd279ec1f790279622dc1e07356c467af2311542cb7e",
+      "git_blob_sha1": "a78a294f0f96e46c830c8b949664ee4bbc3edfd2",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b148ce9c11ca"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/LICENSE",
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/THIRD_PARTY_LICENSES.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cathrynlavery__diagram-design/LICENSE",
+        "upstream/cathrynlavery__diagram-design/THIRD_PARTY_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/cathrynlavery__diagram-design/LICENSE",
+      "repository": "cathrynlavery/diagram-design",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "10cfad6a7be7f734a92d3d628e5fa344685d4f01",
+      "source_url": "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "bb7e12e91fecef43024111123ff784cec6c485585561d8b552557c0173b3ed29",
+      "git_blob_sha1": "5270ecfc40942fc2da652a7a2f3e687fc6851ba3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b148ce9c11ca"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/LICENSE",
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/THIRD_PARTY_LICENSES.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cathrynlavery__diagram-design/LICENSE",
+        "upstream/cathrynlavery__diagram-design/THIRD_PARTY_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/cathrynlavery__diagram-design/THIRD_PARTY_LICENSES.md",
+      "repository": "cathrynlavery/diagram-design",
+      "upstream_path": "THIRD_PARTY_LICENSES.md",
+      "upstream_commit": "10cfad6a7be7f734a92d3d628e5fa344685d4f01",
+      "source_url": "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/THIRD_PARTY_LICENSES.md",
+      "size_bytes": 3143,
+      "sha256": "ad931154e2f91bf545fc9c442666a2159aa56c0af3cca0b7246e02c6efeab6ba",
+      "git_blob_sha1": "5311158e2621738d0f9f6efa09dc7c7ef05b160a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b148ce9c11ca"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/LICENSE",
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/THIRD_PARTY_LICENSES.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/10cfad6a7be7f734a92d3d628e5fa344685d4f01/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cathrynlavery__diagram-design/LICENSE",
+        "upstream/cathrynlavery__diagram-design/THIRD_PARTY_LICENSES.md"
+      ]
+    },
+    {
+      "file": "upstream/cdeistopened__skill-stack/.claude/skills/youtube-clip-extractor/SKILL.md",
+      "repository": "cdeistopened/skill-stack",
+      "upstream_path": ".claude/skills/youtube-clip-extractor/SKILL.md",
+      "upstream_commit": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+      "source_url": "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/.claude/skills/youtube-clip-extractor/SKILL.md",
+      "size_bytes": 18445,
+      "sha256": "f117e9ef676365aa83714a5ca3a6fe66fd0a5382baf0109783b19aef03b31e45",
+      "git_blob_sha1": "5ddd243733d3f899545164cbe2b70dec730e0631",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bae29ba5c327"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE",
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cdeistopened__skill-stack/LICENSE"
+      ]
+    }
+  ]
+}

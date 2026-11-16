@@ -1,0 +1,68 @@
+{
+  "batch": "0034",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/brensterbaz__Skills-Bible/skills/storyboard-to-visual-direction/SKILL.md",
+      "repository": "brensterbaz/Skills-Bible",
+      "upstream_path": "skills/storyboard-to-visual-direction/SKILL.md",
+      "upstream_commit": "506a925c234cb05113cd79d44670a6a2061dfb0a",
+      "source_url": "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/skills/storyboard-to-visual-direction/SKILL.md",
+      "size_bytes": 5124,
+      "sha256": "395f8e86dacbf12987089ae340ad3acd1777de64636950ebaa2002283c3d77ca",
+      "git_blob_sha1": "124e7068edf55babeaaf4222dfa4d01f822e9559",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-82a6f31853ed"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/LICENSE",
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/README.md",
+        "https://github.com/brensterbaz/ai-skills/blob/e7dd7572b51a5ce8f1de5703f9fda0008db19263/LICENSE"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/brensterbaz__Skills-Bible/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/brensterbaz__Skills-Bible/LICENSE",
+      "repository": "brensterbaz/Skills-Bible",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "506a925c234cb05113cd79d44670a6a2061dfb0a",
+      "source_url": "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "7a2f4094f26e1aa48a0732ab23c275c6c1b84d22d97999b2c8cc4daadc6e0d5a",
+      "git_blob_sha1": "03600503f0bc81b5d5e2c30cd0aa8e92b7559bb2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-82a6f31853ed"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/LICENSE",
+        "https://github.com/brensterbaz/Skills-Bible/blob/506a925c234cb05113cd79d44670a6a2061dfb0a/README.md",
+        "https://github.com/brensterbaz/ai-skills/blob/e7dd7572b51a5ce8f1de5703f9fda0008db19263/LICENSE"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/brensterbaz__Skills-Bible/LICENSE"
+      ]
+    }
+  ]
+}
