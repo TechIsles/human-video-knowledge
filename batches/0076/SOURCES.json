@@ -1,0 +1,280 @@
+{
+  "batch": "0076",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/scenario-labs__skills/skills/scenario-seedance-storyboard/SKILL.md",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "skills/scenario-seedance-storyboard/SKILL.md",
+      "upstream_commit": "d44410f058991f677ccf733a8e86ce95110857eb",
+      "source_url": "https://github.com/scenario-labs/skills/blob/d44410f058991f677ccf733a8e86ce95110857eb/skills/scenario-seedance-storyboard/SKILL.md",
+      "size_bytes": 10910,
+      "sha256": "cc65205cf158e1a4282994fd439805d4d92b877327b823ef917a582937e5a117",
+      "git_blob_sha1": "a9514b19ad8f36780ab873233c3d714f15a37080",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9b07afed3faf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/d44410f058991f677ccf733a8e86ce95110857eb/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/d44410f058991f677ccf733a8e86ce95110857eb/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scenario-labs__skills/LICENSE",
+      "repository": "scenario-labs/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d44410f058991f677ccf733a8e86ce95110857eb",
+      "source_url": "https://github.com/scenario-labs/skills/blob/d44410f058991f677ccf733a8e86ce95110857eb/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "26f54ae8c2f3d1fb0e3f810a599e6fb51852d1f176b97578961826be3bb98cef",
+      "git_blob_sha1": "05676553d9d10a0effff673b507b4fcfed652c17",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9b07afed3faf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/scenario-labs/skills/blob/d44410f058991f677ccf733a8e86ce95110857eb/LICENSE",
+        "https://github.com/scenario-labs/skills/blob/d44410f058991f677ccf733a8e86ce95110857eb/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/scenario-labs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/shenyangs__autoclip/skill/SKILL.md",
+      "repository": "shenyangs/autoclip",
+      "upstream_path": "skill/SKILL.md",
+      "upstream_commit": "a5c86bf13208b95e6f319834e0f41f72283ba042",
+      "source_url": "https://github.com/shenyangs/autoclip/blob/a5c86bf13208b95e6f319834e0f41f72283ba042/skill/SKILL.md",
+      "size_bytes": 6019,
+      "sha256": "c7415d50ab6f405fbb7253765c97d18f2516f0003e5924835a679d9326aca171",
+      "git_blob_sha1": "b05a6da9f84cd30638b4013b1f007224b87dbc69",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-19ec093dda98"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/shenyangs/autoclip/blob/a5c86bf13208b95e6f319834e0f41f72283ba042/LICENSE",
+        "https://github.com/shenyangs/autoclip/blob/a5c86bf13208b95e6f319834e0f41f72283ba042/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/shenyangs__autoclip/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/shenyangs__autoclip/LICENSE",
+      "repository": "shenyangs/autoclip",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a5c86bf13208b95e6f319834e0f41f72283ba042",
+      "source_url": "https://github.com/shenyangs/autoclip/blob/a5c86bf13208b95e6f319834e0f41f72283ba042/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "e9d33b7251f34986378c9777f38fa26409e6215fed92e8dfc1da42b208f414ff",
+      "git_blob_sha1": "d2bf353eca14867f1e48f1828bdce04fde264b2f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-19ec093dda98"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/shenyangs/autoclip/blob/a5c86bf13208b95e6f319834e0f41f72283ba042/LICENSE",
+        "https://github.com/shenyangs/autoclip/blob/a5c86bf13208b95e6f319834e0f41f72283ba042/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/shenyangs__autoclip/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/sidiangongyuan__codex-skills-library/skills/paper-share-html/SKILL.md",
+      "repository": "sidiangongyuan/codex-skills-library",
+      "upstream_path": "skills/paper-share-html/SKILL.md",
+      "upstream_commit": "41f5a211b1a8d210023f51f9d56088311a3dae79",
+      "source_url": "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/skills/paper-share-html/SKILL.md",
+      "size_bytes": 11849,
+      "sha256": "2f538d97235eff832ec36d6f9bf86a22ce74bf54fa0d73874c54b1a9c462d4fd",
+      "git_blob_sha1": "2d9d20fcacb5c2b9b551064aee8626574fb5a142",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-48e0e12f8c08"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/README.md",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/skills/paper-share-html/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/NOTICE.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sidiangongyuan__codex-skills-library/LICENSE",
+        "upstream/sidiangongyuan__codex-skills-library/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/sidiangongyuan__codex-skills-library/LICENSE",
+      "repository": "sidiangongyuan/codex-skills-library",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "41f5a211b1a8d210023f51f9d56088311a3dae79",
+      "source_url": "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "b081ee8fee444001f42f82f5276aab24577a6c9adab17719f862b1dd308bd719",
+      "git_blob_sha1": "9ff4afdb0a1b7acae7fa048e1e1d86e5028dde28",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-48e0e12f8c08"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/README.md",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/skills/paper-share-html/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/NOTICE.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sidiangongyuan__codex-skills-library/LICENSE",
+        "upstream/sidiangongyuan__codex-skills-library/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/sidiangongyuan__codex-skills-library/LICENSE",
+      "repository": "sidiangongyuan/codex-skills-library",
+      "upstream_path": "skills/paper-share-html/LICENSE",
+      "upstream_commit": "41f5a211b1a8d210023f51f9d56088311a3dae79",
+      "source_url": "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/skills/paper-share-html/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "b081ee8fee444001f42f82f5276aab24577a6c9adab17719f862b1dd308bd719",
+      "git_blob_sha1": "9ff4afdb0a1b7acae7fa048e1e1d86e5028dde28",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-48e0e12f8c08"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/README.md",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/skills/paper-share-html/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/NOTICE.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/sidiangongyuan__codex-skills-library/LICENSE",
+        "upstream/sidiangongyuan__codex-skills-library/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/sidiangongyuan__codex-skills-library/NOTICE.md",
+      "repository": "sidiangongyuan/codex-skills-library",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "41f5a211b1a8d210023f51f9d56088311a3dae79",
+      "source_url": "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/NOTICE.md",
+      "size_bytes": 4832,
+      "sha256": "7a1a7bc781d2e7987a15acf1f4ada16ccffc1e6d863a2f19fc232594f6d1b8cf",
+      "git_blob_sha1": "70a9908963bb4de5bdb6e165eb6b3a47ea2f7c02",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-48e0e12f8c08"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/README.md",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/skills/paper-share-html/LICENSE",
+        "https://github.com/sidiangongyuan/codex-skills-library/blob/41f5a211b1a8d210023f51f9d56088311a3dae79/NOTICE.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sidiangongyuan__codex-skills-library/LICENSE",
+        "upstream/sidiangongyuan__codex-skills-library/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/skindhu__skind-skills/skills/educational-video-creator/SKILL.md",
+      "repository": "skindhu/skind-skills",
+      "upstream_path": "skills/educational-video-creator/SKILL.md",
+      "upstream_commit": "cda40dcb11adcd3c280526fff3ccfbbd64222822",
+      "source_url": "https://github.com/skindhu/skind-skills/blob/cda40dcb11adcd3c280526fff3ccfbbd64222822/skills/educational-video-creator/SKILL.md",
+      "size_bytes": 21432,
+      "sha256": "e8e39dfd6066251682ca378ce7b47d97b09995b2c5b0e96c6f82c43b50a02646",
+      "git_blob_sha1": "a4152a596cb36ea4246d71132b898a172b6d7afa",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c1048705e938"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/skindhu/skind-skills/blob/cda40dcb11adcd3c280526fff3ccfbbd64222822/LICENSE",
+        "https://github.com/skindhu/skind-skills/blob/cda40dcb11adcd3c280526fff3ccfbbd64222822/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/skindhu__skind-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/skindhu__skind-skills/LICENSE",
+      "repository": "skindhu/skind-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "cda40dcb11adcd3c280526fff3ccfbbd64222822",
+      "source_url": "https://github.com/skindhu/skind-skills/blob/cda40dcb11adcd3c280526fff3ccfbbd64222822/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "20ce0b6c64b4730a6c7d5c1c7b4e0a23bd29982efd44e0e496031b9d28f68479",
+      "git_blob_sha1": "e8c877b8f729465257df2fd25ef4a2dc0e040d59",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c1048705e938"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/skindhu/skind-skills/blob/cda40dcb11adcd3c280526fff3ccfbbd64222822/LICENSE",
+        "https://github.com/skindhu/skind-skills/blob/cda40dcb11adcd3c280526fff3ccfbbd64222822/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/skindhu__skind-skills/LICENSE"
+      ]
+    }
+  ]
+}

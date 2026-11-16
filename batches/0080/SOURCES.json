@@ -1,0 +1,60 @@
+{
+  "batch": "0080",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/sjmoran__claude-blog-prose/skills/blog-prose/SKILL.md",
+      "repository": "sjmoran/claude-blog-prose",
+      "upstream_path": "skills/blog-prose/SKILL.md",
+      "upstream_commit": "8dd32f262e74e0f381c1ea403a49d5b9f291d2b9",
+      "source_url": "https://github.com/sjmoran/claude-blog-prose/blob/8dd32f262e74e0f381c1ea403a49d5b9f291d2b9/skills/blog-prose/SKILL.md",
+      "size_bytes": 94666,
+      "sha256": "e8cedea9ab35c9101c7af8eab08d4ff783b5481d25b86657c5d087d1014f972f",
+      "git_blob_sha1": "2b1741c21f2d2b52ee5f2169150700c905458419",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d925c0ef4415"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/sjmoran/claude-blog-prose/blob/8dd32f262e74e0f381c1ea403a49d5b9f291d2b9/LICENSE",
+        "https://github.com/sjmoran/claude-blog-prose/blob/8dd32f262e74e0f381c1ea403a49d5b9f291d2b9/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sjmoran__claude-blog-prose/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/sjmoran__claude-blog-prose/LICENSE",
+      "repository": "sjmoran/claude-blog-prose",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8dd32f262e74e0f381c1ea403a49d5b9f291d2b9",
+      "source_url": "https://github.com/sjmoran/claude-blog-prose/blob/8dd32f262e74e0f381c1ea403a49d5b9f291d2b9/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "ac01fb25b98609fd4de0b35675021bae8701fe2d9ef5e096047269bc38035292",
+      "git_blob_sha1": "470a4cc8875cf78ba50def0885ced7cc113f95e1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d925c0ef4415"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/sjmoran/claude-blog-prose/blob/8dd32f262e74e0f381c1ea403a49d5b9f291d2b9/LICENSE",
+        "https://github.com/sjmoran/claude-blog-prose/blob/8dd32f262e74e0f381c1ea403a49d5b9f291d2b9/README.md"
+      ],
+      "conditions": "Retain complete MIT copyright, permission notice and disclaimer. Original bytes unchanged; no endorsement, media/model/service/dependency or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sjmoran__claude-blog-prose/LICENSE"
+      ]
+    }
+  ]
+}

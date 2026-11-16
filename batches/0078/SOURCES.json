@@ -1,0 +1,116 @@
+{
+  "batch": "0078",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/voidash__claudepipe/.claude/skills/footage/SKILL.md",
+      "repository": "voidash/claudepipe",
+      "upstream_path": ".claude/skills/footage/SKILL.md",
+      "upstream_commit": "67996471eaad8627faa67cd95f173c772510f731",
+      "source_url": "https://github.com/voidash/claudepipe/blob/67996471eaad8627faa67cd95f173c772510f731/.claude/skills/footage/SKILL.md",
+      "size_bytes": 58698,
+      "sha256": "d3be4d35194665ec743e0d66900c2e54a26241c06703e53f23a68184d7b3f90f",
+      "git_blob_sha1": "4702d3c368acd381b45581f742d50cfc865d4559",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0366412ad7d9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/voidash/claudepipe/blob/67996471eaad8627faa67cd95f173c772510f731/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "voidash/claudepipe",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "67996471eaad8627faa67cd95f173c772510f731",
+      "source_url": "https://github.com/voidash/claudepipe/blob/67996471eaad8627faa67cd95f173c772510f731/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0366412ad7d9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/voidash/claudepipe/blob/67996471eaad8627faa67cd95f173c772510f731/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wuwangzhang1216__DirectorSKILL/SKILL.md",
+      "repository": "wuwangzhang1216/DirectorSKILL",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+      "source_url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/SKILL.md",
+      "size_bytes": 32369,
+      "sha256": "543be6ece626beaa7dbc36b8225dcdc0b763d8044563189e842b306bb5cfd792",
+      "git_blob_sha1": "84991f293d9a0fafb99da596202959c2342c39af",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8786f47946c0"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wuwangzhang1216__DirectorSKILL/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wuwangzhang1216__DirectorSKILL/LICENSE",
+      "repository": "wuwangzhang1216/DirectorSKILL",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+      "source_url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "df731ea2e1ffd3b8890ad246da3df96ceba3301c16fb4970c16811df4c728b56",
+      "git_blob_sha1": "7bc31676d9571c9dd6f1a7f9ef43a7123669a6dd",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8786f47946c0"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wuwangzhang1216__DirectorSKILL/LICENSE"
+      ]
+    }
+  ]
+}

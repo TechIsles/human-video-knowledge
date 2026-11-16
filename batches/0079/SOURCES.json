@@ -1,0 +1,184 @@
+{
+  "batch": "0079",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/starreel__starreel-mcp/LICENSE",
+      "repository": "starreel/starreel-mcp",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5318b0a73351eba1264a247042354c85afeb5710",
+      "source_url": "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "73d2147f8ff5554564d4f250fc1934300e9b039b89786b7f03a332eb7d0ab2cb",
+      "git_blob_sha1": "ba5fa47b51968c9ed383ee2600da08d092390104",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3197933f37b2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/LICENSE",
+        "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/README.md",
+        "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/starreel__starreel-mcp/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/starreel__starreel-mcp/SKILL.md",
+      "repository": "starreel/starreel-mcp",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "5318b0a73351eba1264a247042354c85afeb5710",
+      "source_url": "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/SKILL.md",
+      "size_bytes": 140533,
+      "sha256": "92dca6321ee191bc6626a8effb6699361b4908f16ae359937253a3bee9ae9a8f",
+      "git_blob_sha1": "d44a4e15551307de2064edeae6bc0c5c1e37a4da",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3197933f37b2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/LICENSE",
+        "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/README.md",
+        "https://github.com/starreel/starreel-mcp/blob/5318b0a73351eba1264a247042354c85afeb5710/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/starreel__starreel-mcp/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/techdou__dou-ai-course-video/LICENSE",
+      "repository": "techdou/dou-ai-course-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e5c46b56bb4f860f64d4182907a1114de29ae6eb",
+      "source_url": "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "7dbaef4b66f73fd4d3d3fe5532723a9f4327316f10ac3a6a20c46daf72cc76a8",
+      "git_blob_sha1": "bd1126ad53f1f9d7c8986d32e1acc31e2258dcf5",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fa91ffab19f5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/LICENSE",
+        "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/README.md",
+        "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/techdou__dou-ai-course-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/techdou__dou-ai-course-video/SKILL.md",
+      "repository": "techdou/dou-ai-course-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "e5c46b56bb4f860f64d4182907a1114de29ae6eb",
+      "source_url": "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/SKILL.md",
+      "size_bytes": 17189,
+      "sha256": "146e66b96d10c72a269f5ba389f3d86131075f0ac71de72447759a17c0f2ec9d",
+      "git_blob_sha1": "e748e4dade7ddc66192c11d4b5668a0aeb491a41",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fa91ffab19f5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/LICENSE",
+        "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/README.md",
+        "https://github.com/techdou/dou-ai-course-video/blob/e5c46b56bb4f860f64d4182907a1114de29ae6eb/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/techdou__dou-ai-course-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/tjcages__skills/video-editor/LICENSE",
+      "repository": "tjcages/skills",
+      "upstream_path": "video-editor/LICENSE",
+      "upstream_commit": "6a447f4dcbee01460c59957c24ad228ea080a2c8",
+      "source_url": "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "4b1de139c286cea080872cbc23f4de48377fae0812d9e9a87b45dda21646778f",
+      "git_blob_sha1": "46e670f6582ee29990757af5dda5a4673d94fcff",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1d0e788157a1"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/LICENSE",
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/README.md",
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/README.md",
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/skills/video-editor/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/tjcages__skills/video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/tjcages__skills/video-editor/skills/video-editor/SKILL.md",
+      "repository": "tjcages/skills",
+      "upstream_path": "video-editor/skills/video-editor/SKILL.md",
+      "upstream_commit": "6a447f4dcbee01460c59957c24ad228ea080a2c8",
+      "source_url": "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/skills/video-editor/SKILL.md",
+      "size_bytes": 5384,
+      "sha256": "2c485b4f2684793dc944b2f1e31fa607571f7a5c5f9fa029f4c8893080261063",
+      "git_blob_sha1": "7271500607e4a71b82009f6feb06a9cf0be1f275",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1d0e788157a1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/LICENSE",
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/README.md",
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/README.md",
+        "https://github.com/tjcages/skills/blob/6a447f4dcbee01460c59957c24ad228ea080a2c8/video-editor/skills/video-editor/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/tjcages__skills/video-editor/LICENSE"
+      ]
+    }
+  ]
+}

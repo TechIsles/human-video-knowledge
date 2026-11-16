@@ -1,0 +1,368 @@
+{
+  "batch": "0077",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 11,
+  "files": [
+    {
+      "file": "upstream/tt-a1i__archify/archify/SKILL.md",
+      "repository": "tt-a1i/archify",
+      "upstream_path": "archify/SKILL.md",
+      "upstream_commit": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
+      "source_url": "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/SKILL.md",
+      "size_bytes": 18877,
+      "sha256": "1382cfb7108b05e500b82af93c04fd7b694430d3908039bd92d634f01c1e7181",
+      "git_blob_sha1": "380de2c1016ee24910d425d74cc0efc91d426be9",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a377f347fda5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE-MIT",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/NOTICE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/tt-a1i__archify/archify/LICENSE-MIT",
+        "upstream/tt-a1i__archify/archify/NOTICE",
+        "upstream/tt-a1i__archify/archify/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "tt-a1i/archify",
+      "upstream_path": "archify/LICENSE",
+      "upstream_commit": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
+      "source_url": "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a377f347fda5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE-MIT",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/NOTICE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/tt-a1i__archify/archify/LICENSE-MIT",
+        "upstream/tt-a1i__archify/archify/NOTICE",
+        "upstream/tt-a1i__archify/archify/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/tt-a1i__archify/archify/LICENSE-MIT",
+      "repository": "tt-a1i/archify",
+      "upstream_path": "archify/LICENSE-MIT",
+      "upstream_commit": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
+      "source_url": "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE-MIT",
+      "size_bytes": 1102,
+      "sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706",
+      "git_blob_sha1": "0f9f9397a0496ef63c7d555d36b40c3f932aff84",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a377f347fda5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE-MIT",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/NOTICE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/tt-a1i__archify/archify/LICENSE-MIT",
+        "upstream/tt-a1i__archify/archify/NOTICE",
+        "upstream/tt-a1i__archify/archify/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/tt-a1i__archify/archify/NOTICE",
+      "repository": "tt-a1i/archify",
+      "upstream_path": "archify/NOTICE",
+      "upstream_commit": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
+      "source_url": "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/NOTICE",
+      "size_bytes": 1340,
+      "sha256": "665eb53e6fcf09cee183c9f23c8052645dc95570d9ccbbf53dc0f5213a1b5edd",
+      "git_blob_sha1": "b63fbccce2291058a9f4abec9d64b57b527e44d7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a377f347fda5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE-MIT",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/NOTICE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/tt-a1i__archify/archify/LICENSE-MIT",
+        "upstream/tt-a1i__archify/archify/NOTICE",
+        "upstream/tt-a1i__archify/archify/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/tt-a1i__archify/archify/THIRD_PARTY_NOTICES.md",
+      "repository": "tt-a1i/archify",
+      "upstream_path": "archify/THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
+      "source_url": "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 5669,
+      "sha256": "b5e129197f391568f7abf287c74b24f4835f10e5388f600407c8788feaeb9015",
+      "git_blob_sha1": "4060ce3d7ad11ab81a2f3915d970a8f951dcfc28",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a377f347fda5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/LICENSE-MIT",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/NOTICE",
+        "https://github.com/tt-a1i/archify/blob/81c6be8d87090670c45d08a8f97f9d29c5af0bec/archify/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/tt-a1i__archify/archify/LICENSE-MIT",
+        "upstream/tt-a1i__archify/archify/NOTICE",
+        "upstream/tt-a1i__archify/archify/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/wpgaurav__WordPress-skills/skills/tools/11labs/SKILL.md",
+      "repository": "wpgaurav/WordPress-skills",
+      "upstream_path": "skills/tools/11labs/SKILL.md",
+      "upstream_commit": "af5559c1653be3e965d45f433d208e3bd284b562",
+      "source_url": "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/skills/tools/11labs/SKILL.md",
+      "size_bytes": 7854,
+      "sha256": "43af89bb0b1b6fe94fe0529fbfee6dead7d3d3c026ec7ece4ad8fa477ce1199c",
+      "git_blob_sha1": "a2e937e40e9621ec6f920775cd790c1bf29bdca0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c1f5e266836b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/LICENSE",
+        "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/NOTICE.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wpgaurav__WordPress-skills/LICENSE",
+        "upstream/wpgaurav__WordPress-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/wpgaurav__WordPress-skills/LICENSE",
+      "repository": "wpgaurav/WordPress-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "af5559c1653be3e965d45f433d208e3bd284b562",
+      "source_url": "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "943810f9e6df4a4fc6d93f73cff0c57bb2ee0cae3e9e02b6581f64f95bd16708",
+      "git_blob_sha1": "8313e409cfe140da9476c6faa5b5b7505a607036",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c1f5e266836b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/LICENSE",
+        "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/NOTICE.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wpgaurav__WordPress-skills/LICENSE",
+        "upstream/wpgaurav__WordPress-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/wpgaurav__WordPress-skills/NOTICE.md",
+      "repository": "wpgaurav/WordPress-skills",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "af5559c1653be3e965d45f433d208e3bd284b562",
+      "source_url": "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/NOTICE.md",
+      "size_bytes": 14380,
+      "sha256": "5071742117c2d2296c93ddbb6c180bc5d98756bd80f8cd3b1c0c9db10a1078f7",
+      "git_blob_sha1": "1d572b327017706b12f1a1af85a0ca00b421e272",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c1f5e266836b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/LICENSE",
+        "https://github.com/wpgaurav/WordPress-skills/blob/af5559c1653be3e965d45f433d208e3bd284b562/NOTICE.md"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wpgaurav__WordPress-skills/LICENSE",
+        "upstream/wpgaurav__WordPress-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/wshuyi__research-to-diagram/skills/research-to-diagram/SKILL.md",
+      "repository": "wshuyi/research-to-diagram",
+      "upstream_path": "skills/research-to-diagram/SKILL.md",
+      "upstream_commit": "c13ec59f3c894da607d7d5b17a18fccdba0bc389",
+      "source_url": "https://github.com/wshuyi/research-to-diagram/blob/c13ec59f3c894da607d7d5b17a18fccdba0bc389/skills/research-to-diagram/SKILL.md",
+      "size_bytes": 8051,
+      "sha256": "0c4b33b4298c1cd4f949468013fdc40e4df7facb4c7b7211c34b30707c377b7e",
+      "git_blob_sha1": "f69fc7f58eeb24e8c8a4ac1f61b6e54767cbec0e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4d2a7b379fdb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wshuyi/research-to-diagram/blob/c13ec59f3c894da607d7d5b17a18fccdba0bc389/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wshuyi__research-to-diagram/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wshuyi__research-to-diagram/LICENSE",
+      "repository": "wshuyi/research-to-diagram",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c13ec59f3c894da607d7d5b17a18fccdba0bc389",
+      "source_url": "https://github.com/wshuyi/research-to-diagram/blob/c13ec59f3c894da607d7d5b17a18fccdba0bc389/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "d393b38fe9b61d4ac717babcb6cf84b44856cb91513194c05c8d4fe8de2f12cf",
+      "git_blob_sha1": "e95b475ccb23c400ec2cbe3c41006b532323551a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4d2a7b379fdb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wshuyi/research-to-diagram/blob/c13ec59f3c894da607d7d5b17a18fccdba0bc389/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wshuyi__research-to-diagram/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wundercorp__ogilvideo-skill/SKILL.md",
+      "repository": "wundercorp/ogilvideo-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "8d2480a339798a012cf3799044577d00195e2748",
+      "source_url": "https://github.com/wundercorp/ogilvideo-skill/blob/8d2480a339798a012cf3799044577d00195e2748/SKILL.md",
+      "size_bytes": 15042,
+      "sha256": "acf44ab000165b8dc9b68a2f1ec6f652d21789f17fce8d0125f7fb0f547a0980",
+      "git_blob_sha1": "63a3a2c7a221f1185f88e528faec7d18ee906013",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f21670dbeee8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wundercorp/ogilvideo-skill/blob/8d2480a339798a012cf3799044577d00195e2748/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wundercorp__ogilvideo-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wundercorp__ogilvideo-skill/LICENSE",
+      "repository": "wundercorp/ogilvideo-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8d2480a339798a012cf3799044577d00195e2748",
+      "source_url": "https://github.com/wundercorp/ogilvideo-skill/blob/8d2480a339798a012cf3799044577d00195e2748/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "3ae96c6b60adcb95d46da7ff40b4741e092924a7d5ab61d2fe108da2709f76b7",
+      "git_blob_sha1": "f91a7298adc26f6a2507fb5899462568ff3130a5",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f21670dbeee8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wundercorp/ogilvideo-skill/blob/8d2480a339798a012cf3799044577d00195e2748/LICENSE"
+      ],
+      "conditions": [
+        "Preserve unchanged bytes, full applicable copyright/license notices; third-party media, trademarks, service access and external referenced works not included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wundercorp__ogilvideo-skill/LICENSE"
+      ]
+    }
+  ]
+}
