@@ -1,0 +1,298 @@
+{
+  "batch": "0059",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 5,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/mhuot__explainer-video-skill/skills/explainer-video/SKILL.md",
+      "repository": "mhuot/explainer-video-skill",
+      "upstream_path": "skills/explainer-video/SKILL.md",
+      "upstream_commit": "4e0a8be55a7ad5370332c098c4233ae2b4d1c95f",
+      "source_url": "https://github.com/mhuot/explainer-video-skill/blob/4e0a8be55a7ad5370332c098c4233ae2b4d1c95f/skills/explainer-video/SKILL.md",
+      "size_bytes": 19954,
+      "sha256": "aefd6d5004e8f5ffc24f082a2b2461ce8c02e52dd6216ce9bdb12bef85875f9a",
+      "git_blob_sha1": "8a2c1d3159b38345ad7493f8eb26d6aabd948d26",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8c18173c3cab"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mhuot/explainer-video-skill/blob/4e0a8be55a7ad5370332c098c4233ae2b4d1c95f/LICENSE",
+        "https://github.com/mhuot/explainer-video-skill/blob/4e0a8be55a7ad5370332c098c4233ae2b4d1c95f/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mhuot__explainer-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mhuot__explainer-video-skill/LICENSE",
+      "repository": "mhuot/explainer-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4e0a8be55a7ad5370332c098c4233ae2b4d1c95f",
+      "source_url": "https://github.com/mhuot/explainer-video-skill/blob/4e0a8be55a7ad5370332c098c4233ae2b4d1c95f/LICENSE",
+      "size_bytes": 1209,
+      "sha256": "a37fa4dc204bef9c587a0582a8b6adedab34ee9f0fddad2b970c580e8ebc7600",
+      "git_blob_sha1": "414854159d42449051b775aac47735f0c36bb822",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8c18173c3cab"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mhuot/explainer-video-skill/blob/4e0a8be55a7ad5370332c098c4233ae2b4d1c95f/LICENSE",
+        "https://github.com/mhuot/explainer-video-skill/blob/4e0a8be55a7ad5370332c098c4233ae2b4d1c95f/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mhuot__explainer-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/michaelboeding__skills/skills/walkthrough-script-agent/SKILL.md",
+      "repository": "michaelboeding/skills",
+      "upstream_path": "skills/walkthrough-script-agent/SKILL.md",
+      "upstream_commit": "9e7cf764f36cc2bfe187280dd00517d4257f7432",
+      "source_url": "https://github.com/michaelboeding/skills/blob/9e7cf764f36cc2bfe187280dd00517d4257f7432/skills/walkthrough-script-agent/SKILL.md",
+      "size_bytes": 12069,
+      "sha256": "620363bb912ef590ce269028549292d3aac9d3883a56150bf4aa37fcfdfd5a80",
+      "git_blob_sha1": "845dc75bf527701c16847b5ce68ce5d6681e8f8e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-696cc005f2c2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/michaelboeding/skills/blob/9e7cf764f36cc2bfe187280dd00517d4257f7432/LICENSE",
+        "https://github.com/michaelboeding/skills/blob/9e7cf764f36cc2bfe187280dd00517d4257f7432/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/michaelboeding__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/michaelboeding__skills/LICENSE",
+      "repository": "michaelboeding/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9e7cf764f36cc2bfe187280dd00517d4257f7432",
+      "source_url": "https://github.com/michaelboeding/skills/blob/9e7cf764f36cc2bfe187280dd00517d4257f7432/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "git_blob_sha1": "b77bf2ab726c6e7cb5a81a9d3b7dc38266ebfd3d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-696cc005f2c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/michaelboeding/skills/blob/9e7cf764f36cc2bfe187280dd00517d4257f7432/LICENSE",
+        "https://github.com/michaelboeding/skills/blob/9e7cf764f36cc2bfe187280dd00517d4257f7432/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/michaelboeding__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/microsoft__cat-agent-skills/submissions/generating-podcast-script/SKILL.md",
+      "repository": "microsoft/cat-agent-skills",
+      "upstream_path": "submissions/generating-podcast-script/SKILL.md",
+      "upstream_commit": "5c8cad25a6f1f01fd9bc922080fb8aae5bb420be",
+      "source_url": "https://github.com/microsoft/cat-agent-skills/blob/5c8cad25a6f1f01fd9bc922080fb8aae5bb420be/submissions/generating-podcast-script/SKILL.md",
+      "size_bytes": 10187,
+      "sha256": "cb59026214ee835eeeea61288c49fe7bc24f4883f6a30c2b04e31c6ffad69551",
+      "git_blob_sha1": "25c1ba9a67c2c86bfac94df61c415f668f124136",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bf8f85ba55dc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/microsoft/cat-agent-skills/blob/5c8cad25a6f1f01fd9bc922080fb8aae5bb420be/LICENSE",
+        "https://github.com/microsoft/cat-agent-skills/blob/5c8cad25a6f1f01fd9bc922080fb8aae5bb420be/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/microsoft__cat-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/microsoft__cat-agent-skills/LICENSE",
+      "repository": "microsoft/cat-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5c8cad25a6f1f01fd9bc922080fb8aae5bb420be",
+      "source_url": "https://github.com/microsoft/cat-agent-skills/blob/5c8cad25a6f1f01fd9bc922080fb8aae5bb420be/LICENSE",
+      "size_bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "git_blob_sha1": "9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bf8f85ba55dc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/microsoft/cat-agent-skills/blob/5c8cad25a6f1f01fd9bc922080fb8aae5bb420be/LICENSE",
+        "https://github.com/microsoft/cat-agent-skills/blob/5c8cad25a6f1f01fd9bc922080fb8aae5bb420be/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/microsoft__cat-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mikubaka88__CCFA-Skills/ccf-visual-composer/SKILL.md",
+      "repository": "mikubaka88/CCFA-Skills",
+      "upstream_path": "ccf-visual-composer/SKILL.md",
+      "upstream_commit": "f157d7ed2777b655809471873b32b9632e784cfa",
+      "source_url": "https://github.com/mikubaka88/CCFA-Skills/blob/f157d7ed2777b655809471873b32b9632e784cfa/ccf-visual-composer/SKILL.md",
+      "size_bytes": 9880,
+      "sha256": "3b4c5c2f338aa22be322d5f16eee47d17481a296b34f43ac4bb48124ab987b0e",
+      "git_blob_sha1": "9235fb518025420ad6dcbc9b965e35c5c605d065",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-396d839a55ab"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mikubaka88/CCFA-Skills/blob/f157d7ed2777b655809471873b32b9632e784cfa/LICENSE",
+        "https://github.com/mikubaka88/CCFA-Skills/blob/f157d7ed2777b655809471873b32b9632e784cfa/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mikubaka88__CCFA-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mikubaka88__CCFA-Skills/LICENSE",
+      "repository": "mikubaka88/CCFA-Skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f157d7ed2777b655809471873b32b9632e784cfa",
+      "source_url": "https://github.com/mikubaka88/CCFA-Skills/blob/f157d7ed2777b655809471873b32b9632e784cfa/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "1ac138d752fc345d61c5790df57caed3487e4d66d59879d6bd60272765d087d2",
+      "git_blob_sha1": "53026953e24de40eaea86840bca4abe32501dbad",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-396d839a55ab"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mikubaka88/CCFA-Skills/blob/f157d7ed2777b655809471873b32b9632e784cfa/LICENSE",
+        "https://github.com/mikubaka88/CCFA-Skills/blob/f157d7ed2777b655809471873b32b9632e784cfa/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mikubaka88__CCFA-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/naive-kun__naive-video-skill/SKILL.md",
+      "repository": "naive-kun/naive-video-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "3e9c7c55aca2cd62f25ea8659de0b487bd616bd7",
+      "source_url": "https://github.com/naive-kun/naive-video-skill/blob/3e9c7c55aca2cd62f25ea8659de0b487bd616bd7/SKILL.md",
+      "size_bytes": 13691,
+      "sha256": "351dc31828ba90c2f5249166eed927a331a9d8979da28806074bd725551a4b95",
+      "git_blob_sha1": "4d362bd5e0d38e8579e48314d803eb7f886dbbf4",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e5b704c6a0de"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/naive-kun/naive-video-skill/blob/3e9c7c55aca2cd62f25ea8659de0b487bd616bd7/LICENSE",
+        "https://github.com/naive-kun/naive-video-skill/blob/3e9c7c55aca2cd62f25ea8659de0b487bd616bd7/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "naive-kun/naive-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3e9c7c55aca2cd62f25ea8659de0b487bd616bd7",
+      "source_url": "https://github.com/naive-kun/naive-video-skill/blob/3e9c7c55aca2cd62f25ea8659de0b487bd616bd7/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e5b704c6a0de"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/naive-kun/naive-video-skill/blob/3e9c7c55aca2cd62f25ea8659de0b487bd616bd7/LICENSE",
+        "https://github.com/naive-kun/naive-video-skill/blob/3e9c7c55aca2cd62f25ea8659de0b487bd616bd7/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    }
+  ]
+}

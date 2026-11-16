@@ -1,0 +1,112 @@
+{
+  "batch": "0058",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/killernay__HearYourVOICE/skills/hearyourvoice/SKILL.md",
+      "repository": "killernay/HearYourVOICE",
+      "upstream_path": "skills/hearyourvoice/SKILL.md",
+      "upstream_commit": "1f39b86d27381836bfa274cd463c2bbf14144a94",
+      "source_url": "https://github.com/killernay/HearYourVOICE/blob/1f39b86d27381836bfa274cd463c2bbf14144a94/skills/hearyourvoice/SKILL.md",
+      "size_bytes": 41788,
+      "sha256": "5bbc03a251221c9abacc411027a378ea5630da19c1f954c48582e21f541bfa6d",
+      "git_blob_sha1": "955739b739c57f3f815cc22e3266b2f5f759a37a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-30704128c63a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/killernay/HearYourVOICE/blob/1f39b86d27381836bfa274cd463c2bbf14144a94/LICENSE",
+        "https://github.com/killernay/HearYourVOICE/blob/1f39b86d27381836bfa274cd463c2bbf14144a94/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/killernay__HearYourVOICE/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/killernay__HearYourVOICE/LICENSE",
+      "repository": "killernay/HearYourVOICE",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1f39b86d27381836bfa274cd463c2bbf14144a94",
+      "source_url": "https://github.com/killernay/HearYourVOICE/blob/1f39b86d27381836bfa274cd463c2bbf14144a94/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "5ba756372eae62b32d07a75cd5f00df58f969342c856cc831fcd0566afb45ff5",
+      "git_blob_sha1": "b79e3d978c95f5bf7cec75b5e092ad07b44ce130",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-30704128c63a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/killernay/HearYourVOICE/blob/1f39b86d27381836bfa274cd463c2bbf14144a94/LICENSE",
+        "https://github.com/killernay/HearYourVOICE/blob/1f39b86d27381836bfa274cd463c2bbf14144a94/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/killernay__HearYourVOICE/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/krillinai__OpenCreator/skills/krillinai-subtitle/SKILL.md",
+      "repository": "krillinai/OpenCreator",
+      "upstream_path": "skills/krillinai-subtitle/SKILL.md",
+      "upstream_commit": "a9488a14e79d5b2c0485f976777fb45be0f77c3d",
+      "source_url": "https://github.com/krillinai/OpenCreator/blob/a9488a14e79d5b2c0485f976777fb45be0f77c3d/skills/krillinai-subtitle/SKILL.md",
+      "size_bytes": 2449,
+      "sha256": "30ad155d963c3b74b34584678c44a4bc7c2fa9653af97384a922e3a82fd8b991",
+      "git_blob_sha1": "a7012b232c1809354ede5bcf0458789858e37604",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-35050e13cbbc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/krillinai/OpenCreator/blob/a9488a14e79d5b2c0485f976777fb45be0f77c3d/LICENSE",
+        "https://github.com/krillinai/OpenCreator/blob/a9488a14e79d5b2c0485f976777fb45be0f77c3d/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "krillinai/OpenCreator",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a9488a14e79d5b2c0485f976777fb45be0f77c3d",
+      "source_url": "https://github.com/krillinai/OpenCreator/blob/a9488a14e79d5b2c0485f976777fb45be0f77c3d/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-35050e13cbbc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/krillinai/OpenCreator/blob/a9488a14e79d5b2c0485f976777fb45be0f77c3d/LICENSE",
+        "https://github.com/krillinai/OpenCreator/blob/a9488a14e79d5b2c0485f976777fb45be0f77c3d/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    }
+  ]
+}

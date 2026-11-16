@@ -1,0 +1,250 @@
+{
+  "batch": "0057",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/konradre__video-production-skills/skills/client-rounds/SKILL.md",
+      "repository": "konradre/video-production-skills",
+      "upstream_path": "skills/client-rounds/SKILL.md",
+      "upstream_commit": "fe379a39ac7343d47f1835edd92a046ca07361db",
+      "source_url": "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/skills/client-rounds/SKILL.md",
+      "size_bytes": 14707,
+      "sha256": "34a19e84445af89f75d661650da4173df5b40594f1e82703fb2c6e4d51a8ca1e",
+      "git_blob_sha1": "f55024cc6c92cb1666c229b874b7cbc20de073ce",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-344d16cf1c8c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/README.md",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/konradre__video-production-skills/LICENSE",
+        "upstream/konradre__video-production-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/konradre__video-production-skills/LICENSE",
+      "repository": "konradre/video-production-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fe379a39ac7343d47f1835edd92a046ca07361db",
+      "source_url": "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "ae17a82d222403aa648a64e519fb2cd61fa9b85df39d1eedcb65298d1eef1a28",
+      "git_blob_sha1": "281865a3cc8bbcfb7095553e7ba162062eb25100",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-344d16cf1c8c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/README.md",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/konradre__video-production-skills/LICENSE",
+        "upstream/konradre__video-production-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/ktaletsk__supercut/SKILL.md",
+      "repository": "ktaletsk/supercut",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "48787aa6c513d66caa23e57eca00c44e105e075e",
+      "source_url": "https://github.com/ktaletsk/supercut/blob/48787aa6c513d66caa23e57eca00c44e105e075e/SKILL.md",
+      "size_bytes": 12292,
+      "sha256": "baaae52becb1b9a6244d011a11b33b72f69a7cf1eb1989c404389539d15beea0",
+      "git_blob_sha1": "b033a8cb86c58ad7f359fb909ae14672b0049d3d",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-09610baac96b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ktaletsk/supercut/blob/48787aa6c513d66caa23e57eca00c44e105e075e/LICENSE",
+        "https://github.com/ktaletsk/supercut/blob/48787aa6c513d66caa23e57eca00c44e105e075e/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ktaletsk__supercut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ktaletsk__supercut/LICENSE",
+      "repository": "ktaletsk/supercut",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "48787aa6c513d66caa23e57eca00c44e105e075e",
+      "source_url": "https://github.com/ktaletsk/supercut/blob/48787aa6c513d66caa23e57eca00c44e105e075e/LICENSE",
+      "size_bytes": 1077,
+      "sha256": "8710cfd2f456174adfc097e6a327266d59c4f765ce6699f490d43b918f659d8a",
+      "git_blob_sha1": "17681ccab07b954bb3e54cfc2ce3d91dcf383918",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-09610baac96b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ktaletsk/supercut/blob/48787aa6c513d66caa23e57eca00c44e105e075e/LICENSE",
+        "https://github.com/ktaletsk/supercut/blob/48787aa6c513d66caa23e57eca00c44e105e075e/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ktaletsk__supercut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kumanday__media-tooling/.agents/skills/media-rough-cut-assembly/SKILL.md",
+      "repository": "kumanday/media-tooling",
+      "upstream_path": ".agents/skills/media-rough-cut-assembly/SKILL.md",
+      "upstream_commit": "048339823d8c07d894e0fde90b4fddb580c31136",
+      "source_url": "https://github.com/kumanday/media-tooling/blob/048339823d8c07d894e0fde90b4fddb580c31136/.agents/skills/media-rough-cut-assembly/SKILL.md",
+      "size_bytes": 20471,
+      "sha256": "89970543a05a3a05dc93d09ab0d21ecca40254d7e1eb156237cd8dd6cc349ad9",
+      "git_blob_sha1": "2e88f2744f3a5799c44981b9f67efe4d5f08e1e8",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6ddef805efea"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/kumanday/media-tooling/blob/048339823d8c07d894e0fde90b4fddb580c31136/LICENSE",
+        "https://github.com/kumanday/media-tooling/blob/048339823d8c07d894e0fde90b4fddb580c31136/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kumanday__media-tooling/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kumanday__media-tooling/LICENSE",
+      "repository": "kumanday/media-tooling",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "048339823d8c07d894e0fde90b4fddb580c31136",
+      "source_url": "https://github.com/kumanday/media-tooling/blob/048339823d8c07d894e0fde90b4fddb580c31136/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "d22aeaebdf4cf94f10801bddcfb204b296581a94023ab92350b18b24c631199f",
+      "git_blob_sha1": "609c036fce5dcf5214a8b6b2ffe079c34d1a2650",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6ddef805efea"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/kumanday/media-tooling/blob/048339823d8c07d894e0fde90b4fddb580c31136/LICENSE",
+        "https://github.com/kumanday/media-tooling/blob/048339823d8c07d894e0fde90b4fddb580c31136/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kumanday__media-tooling/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/layerai__skills/skills/layer-audio/SKILL.md",
+      "repository": "layerai/skills",
+      "upstream_path": "skills/layer-audio/SKILL.md",
+      "upstream_commit": "315d06db6f760160b26293fd867ac759942e2106",
+      "source_url": "https://github.com/layerai/skills/blob/315d06db6f760160b26293fd867ac759942e2106/skills/layer-audio/SKILL.md",
+      "size_bytes": 4762,
+      "sha256": "c3c1f0c6417ef1b34944b0189d5fbcac03f1bd26411e388a0ff91ba8d23f4b79",
+      "git_blob_sha1": "1d77a812bfcdcceea238221284d36699bb96423f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1aa1b4d01798"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/layerai/skills/blob/315d06db6f760160b26293fd867ac759942e2106/LICENSE",
+        "https://github.com/layerai/skills/blob/315d06db6f760160b26293fd867ac759942e2106/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/layerai__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/layerai__skills/LICENSE",
+      "repository": "layerai/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "315d06db6f760160b26293fd867ac759942e2106",
+      "source_url": "https://github.com/layerai/skills/blob/315d06db6f760160b26293fd867ac759942e2106/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "af4cd1be9f77b9c7d8f97592fa9250fa368fceae1673244c7d2e8ba8ce3c3b8a",
+      "git_blob_sha1": "59219150d650fe9ff6ac85b049ad55e94cbb0483",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1aa1b4d01798"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/layerai/skills/blob/315d06db6f760160b26293fd867ac759942e2106/LICENSE",
+        "https://github.com/layerai/skills/blob/315d06db6f760160b26293fd867ac759942e2106/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/layerai__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/konradre__video-production-skills/NOTICE.md",
+      "repository": "konradre/video-production-skills",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "fe379a39ac7343d47f1835edd92a046ca07361db",
+      "source_url": "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md",
+      "size_bytes": 3152,
+      "sha256": "9848d2a4900ef7b808f95c847f0397ddf43032b44e5c82d50d54ad83d5a68dfe",
+      "git_blob_sha1": "80cfe79c47768482734d62aca2025c61aaf97387",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-344d16cf1c8c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/LICENSE",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/README.md",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md",
+        "https://github.com/konradre/video-production-skills/blob/fe379a39ac7343d47f1835edd92a046ca07361db/NOTICE.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/konradre__video-production-skills/LICENSE",
+        "upstream/konradre__video-production-skills/NOTICE.md"
+      ]
+    }
+  ]
+}

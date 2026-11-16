@@ -1,0 +1,240 @@
+{
+  "batch": "0060",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/louisedesadeleer__cut-video/LICENSE",
+      "repository": "louisedesadeleer/cut-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a5a87a64f381c62b8972a92132fb48015b0e50ff",
+      "source_url": "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/LICENSE",
+      "size_bytes": 1075,
+      "sha256": "88dfd04b58f02e03b257749e96f87bd799598c23de4fa83e3d164a6c2fedfe9f",
+      "git_blob_sha1": "29511d7b3fb0acd45276802ea1a82fd95d567143",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-598d19ff60e3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/LICENSE",
+        "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/README.md",
+        "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/louisedesadeleer__cut-video/SKILL.md",
+      "repository": "louisedesadeleer/cut-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "a5a87a64f381c62b8972a92132fb48015b0e50ff",
+      "source_url": "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/SKILL.md",
+      "size_bytes": 32776,
+      "sha256": "860cd23318609b99ab507a9b0cfdfb3945919b5495dc96fe698b384ad2465bd1",
+      "git_blob_sha1": "81ce9a41951b9e503fc2aa1b4896f553ef8b2e17",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-598d19ff60e3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/LICENSE",
+        "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/README.md",
+        "https://github.com/louisedesadeleer/cut-video/blob/a5a87a64f381c62b8972a92132fb48015b0e50ff/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/louisedesadeleer__cut-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "ltppp/douyin-ingest",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4c8e6542f4670235e889c13f043c359d66626f59",
+      "source_url": "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-457e81b42199"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/LICENSE",
+        "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/README.md",
+        "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/skills/douyin-script-rewriter/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ltppp__douyin-ingest/skills/douyin-script-rewriter/SKILL.md",
+      "repository": "ltppp/douyin-ingest",
+      "upstream_path": "skills/douyin-script-rewriter/SKILL.md",
+      "upstream_commit": "4c8e6542f4670235e889c13f043c359d66626f59",
+      "source_url": "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/skills/douyin-script-rewriter/SKILL.md",
+      "size_bytes": 10613,
+      "sha256": "31beee14e68344cf877b3f97229f30215bf7d9d6642db19ad479bc877449c125",
+      "git_blob_sha1": "e89c2e179da0ab9db5197a50c49b5f1880f22e35",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-457e81b42199"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/LICENSE",
+        "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/README.md",
+        "https://github.com/ltppp/douyin-ingest/blob/4c8e6542f4670235e889c13f043c359d66626f59/skills/douyin-script-rewriter/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/majiayu000__spellbook/LICENSE",
+      "repository": "majiayu000/spellbook",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b2d96459f999e82463dc5f9bcd56ad436167d0be",
+      "source_url": "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "1b0a17bcac98f7053f85d31d34ace0529c1b7293405ba6b81b8a64255a010e43",
+      "git_blob_sha1": "a3bd27fbacd5ac8f9f619d6e04a9870a4ff9c271",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-372d4d82e7de"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/LICENSE",
+        "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/README.md",
+        "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/skills/build-product-demo/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/majiayu000__spellbook/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/majiayu000__spellbook/skills/build-product-demo/SKILL.md",
+      "repository": "majiayu000/spellbook",
+      "upstream_path": "skills/build-product-demo/SKILL.md",
+      "upstream_commit": "b2d96459f999e82463dc5f9bcd56ad436167d0be",
+      "source_url": "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/skills/build-product-demo/SKILL.md",
+      "size_bytes": 13265,
+      "sha256": "054e9f9e00397036fac2a33a9806f49c5c2af3c411f42fe43fba5dd55f732610",
+      "git_blob_sha1": "c35978fd8cdcecfe88ee1c87276aba15a01f0401",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-372d4d82e7de"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/LICENSE",
+        "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/README.md",
+        "https://github.com/majiayu000/spellbook/blob/b2d96459f999e82463dc5f9bcd56ad436167d0be/skills/build-product-demo/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/majiayu000__spellbook/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/maojiebc__majia-chatcut-koubo/LICENSE",
+      "repository": "maojiebc/majia-chatcut-koubo",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f549be2d593ac0597f95c7efe27ec1a81ebf6e1f",
+      "source_url": "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/LICENSE",
+      "size_bytes": 1065,
+      "sha256": "99b5319d3411fee1efd48b27625b061e6b62e8a85f12fa8b6682181d62629a46",
+      "git_blob_sha1": "190343396f2ff1464aef60270b6eacff121480fc",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5d736ec95e69"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/LICENSE",
+        "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/README.md",
+        "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/maojiebc__majia-chatcut-koubo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/maojiebc__majia-chatcut-koubo/SKILL.md",
+      "repository": "maojiebc/majia-chatcut-koubo",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "f549be2d593ac0597f95c7efe27ec1a81ebf6e1f",
+      "source_url": "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/SKILL.md",
+      "size_bytes": 15647,
+      "sha256": "8b2ec43661268b05e58500ab790f89ed3437f3c0297662be520d0caa9ec6a6fa",
+      "git_blob_sha1": "c7bdb8ff532d2297572f924165074496c922a2f3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5d736ec95e69"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/LICENSE",
+        "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/README.md",
+        "https://github.com/maojiebc/majia-chatcut-koubo/blob/f549be2d593ac0597f95c7efe27ec1a81ebf6e1f/SKILL.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/maojiebc__majia-chatcut-koubo/LICENSE"
+      ]
+    }
+  ]
+}

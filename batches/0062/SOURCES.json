@@ -1,0 +1,195 @@
+{
+  "batch": "0062",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/mgifford__accessibility-skills/skills/image-alt-text/SKILL.md",
+      "repository": "mgifford/accessibility-skills",
+      "upstream_path": "skills/image-alt-text/SKILL.md",
+      "upstream_commit": "ada839399f053c55e1a776a98c02f8904d70dd32",
+      "source_url": "https://github.com/mgifford/accessibility-skills/blob/ada839399f053c55e1a776a98c02f8904d70dd32/skills/image-alt-text/SKILL.md",
+      "size_bytes": 18134,
+      "sha256": "6458e3b39a12ee3975e0ade11f7a234000f14f79e6b8968a4d853b411d8cf27b",
+      "git_blob_sha1": "998cc6b3c1ad17b04e09f5cc52a43c290a239627",
+      "role": "canonical_skill_document",
+      "license": "AGPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a105ca195751"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mgifford/accessibility-skills/blob/ada839399f053c55e1a776a98c02f8904d70dd32/LICENSE",
+        "https://github.com/mgifford/ACCESSIBILITY.md/blob/bb235f3f07010dee4bd5ee7eecc263fd8a666ef3/LICENSE",
+        "https://github.com/mgifford/accessibility-skills/blob/ada839399f053c55e1a776a98c02f8904d70dd32/skills/image-alt-text/SYNC.md"
+      ],
+      "conditions": [
+        "Redistribute selected editable Markdown source unchanged under AGPL v3 with complete license and upstream attribution.",
+        "Also retain original ACCESSIBILITY.md contributors MIT copyright/permission notice accompanying this derivative.",
+        "Do not impose downstream restrictions; no execution, services, media or external references bundled."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kenchikuliu__video-evidence/LICENSE",
+        "upstream/mgifford__ACCESSIBILITY.md/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kenchikuliu__video-evidence/LICENSE",
+      "repository": "mgifford/accessibility-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ada839399f053c55e1a776a98c02f8904d70dd32",
+      "source_url": "https://github.com/mgifford/accessibility-skills/blob/ada839399f053c55e1a776a98c02f8904d70dd32/LICENSE",
+      "size_bytes": 34523,
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "git_blob_sha1": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "role": "license_notice",
+      "license": "AGPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a105ca195751"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mgifford/accessibility-skills/blob/ada839399f053c55e1a776a98c02f8904d70dd32/LICENSE",
+        "https://github.com/mgifford/ACCESSIBILITY.md/blob/bb235f3f07010dee4bd5ee7eecc263fd8a666ef3/LICENSE",
+        "https://github.com/mgifford/accessibility-skills/blob/ada839399f053c55e1a776a98c02f8904d70dd32/skills/image-alt-text/SYNC.md"
+      ],
+      "conditions": [
+        "Redistribute selected editable Markdown source unchanged under AGPL v3 with complete license and upstream attribution.",
+        "Also retain original ACCESSIBILITY.md contributors MIT copyright/permission notice accompanying this derivative.",
+        "Do not impose downstream restrictions; no execution, services, media or external references bundled."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/kenchikuliu__video-evidence/LICENSE",
+        "upstream/mgifford__ACCESSIBILITY.md/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/nanaism__yomiyasu/skills/yomiyasu/SKILL.md",
+      "repository": "nanaism/yomiyasu",
+      "upstream_path": "skills/yomiyasu/SKILL.md",
+      "upstream_commit": "41e5aec228f080fe24e5f795efee2ac3fda61839",
+      "source_url": "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/SKILL.md",
+      "size_bytes": 121722,
+      "sha256": "9b4b64f067894698be35287225b388b72368c40784fc091bd340202a2e35f471",
+      "git_blob_sha1": "5de07cc4a3616ac7431abace4eaf12388305445e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-03fbfd281bdc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/LICENSE",
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/UNICODE-LICENSE.txt",
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/README.md"
+      ],
+      "conditions": [
+        "Preserve nanaism MIT copyright/permission and accompanying Unicode V3 notice.",
+        "Selected document is MIT; Unicode V3 applies only to relevant Unicode-derived material, not a relicensing of this document.",
+        "No linked validation corpora, external quotations, data, runtime or reference files included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nanaism__yomiyasu/skills/yomiyasu/LICENSE",
+        "upstream/nanaism__yomiyasu/skills/yomiyasu/UNICODE-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/nanaism__yomiyasu/skills/yomiyasu/LICENSE",
+      "repository": "nanaism/yomiyasu",
+      "upstream_path": "skills/yomiyasu/LICENSE",
+      "upstream_commit": "41e5aec228f080fe24e5f795efee2ac3fda61839",
+      "source_url": "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "79d802f15bc8caf67f1a83c1bdbe214ccb41a0a0275f9046b329b89c65ee1fca",
+      "git_blob_sha1": "f0d06f87f9b209d47c7f7963321ff71bab68c1e8",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-03fbfd281bdc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/LICENSE",
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/UNICODE-LICENSE.txt",
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/README.md"
+      ],
+      "conditions": [
+        "Preserve nanaism MIT copyright/permission and accompanying Unicode V3 notice.",
+        "Selected document is MIT; Unicode V3 applies only to relevant Unicode-derived material, not a relicensing of this document.",
+        "No linked validation corpora, external quotations, data, runtime or reference files included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nanaism__yomiyasu/skills/yomiyasu/LICENSE",
+        "upstream/nanaism__yomiyasu/skills/yomiyasu/UNICODE-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/nanaism__yomiyasu/skills/yomiyasu/UNICODE-LICENSE.txt",
+      "repository": "nanaism/yomiyasu",
+      "upstream_path": "skills/yomiyasu/UNICODE-LICENSE.txt",
+      "upstream_commit": "41e5aec228f080fe24e5f795efee2ac3fda61839",
+      "source_url": "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/UNICODE-LICENSE.txt",
+      "size_bytes": 1995,
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "git_blob_sha1": "56da58912807030b451a4700687d5bd02c72d6ed",
+      "role": "license_notice",
+      "license": "Unicode-3.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-03fbfd281bdc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/LICENSE",
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/skills/yomiyasu/UNICODE-LICENSE.txt",
+        "https://github.com/nanaism/yomiyasu/blob/41e5aec228f080fe24e5f795efee2ac3fda61839/README.md"
+      ],
+      "conditions": [
+        "Preserve nanaism MIT copyright/permission and accompanying Unicode V3 notice.",
+        "Selected document is MIT; Unicode V3 applies only to relevant Unicode-derived material, not a relicensing of this document.",
+        "No linked validation corpora, external quotations, data, runtime or reference files included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nanaism__yomiyasu/skills/yomiyasu/LICENSE",
+        "upstream/nanaism__yomiyasu/skills/yomiyasu/UNICODE-LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/mgifford__ACCESSIBILITY.md/LICENSE",
+      "repository": "mgifford/ACCESSIBILITY.md",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "bb235f3f07010dee4bd5ee7eecc263fd8a666ef3",
+      "source_url": "https://github.com/mgifford/ACCESSIBILITY.md/blob/bb235f3f07010dee4bd5ee7eecc263fd8a666ef3/LICENSE",
+      "size_bytes": 1086,
+      "sha256": "bb10518e53bb650c0598eadb6a2594caff1c1a793efb3c19acd6db2f549b3ef0",
+      "git_blob_sha1": "a8745810b2cdbafac1810aa827c35d7886ad0980",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a105ca195751"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mgifford/ACCESSIBILITY.md/blob/bb235f3f07010dee4bd5ee7eecc263fd8a666ef3/LICENSE"
+      ],
+      "conditions": [
+        "Preserve original ACCESSIBILITY.md contributors MIT notice with derivative selected skill."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mgifford__ACCESSIBILITY.md/LICENSE"
+      ]
+    }
+  ]
+}
