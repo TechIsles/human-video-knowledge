@@ -1,0 +1,54 @@
+{
+  "batch": "0121",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/web__aclanthology.org/SRC-a41574e36360/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-a41574e36360/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2021.naacl-main.383.pdf",
+      "title": "Understanding Factuality in Abstractive Summarization with FRANK: A Benchmark for Factuality Metrics",
+      "size_bytes": 3067543,
+      "sha256": "79873a91d83ee6b2c48cbc05cbefbdbffba38c92c3b529c60bfb3a1c75cf24d4",
+      "git_blob_sha1": "b9aba8ab0d311a0d81186e3b27329d83d2b934d1",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a41574e36360"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2021.naacl-main.383/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    },
+    {
+      "file": "upstream/web__aclanthology.org/SRC-762d190026a2/original.pdf",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "SRC-762d190026a2/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://aclanthology.org/2025.acl-long.335.pdf",
+      "title": "Identifying Reliable Evaluation Metrics for Scientific Text Revision",
+      "size_bytes": 10786920,
+      "sha256": "115bd2574ce743e4beb8511d15ae55051a4aa11df282edf51d2980e442660fe7",
+      "git_blob_sha1": "828ed84ed53736b9f11b99225a6e6e6a976c5c1b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-762d190026a2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://aclanthology.org/faq/copyright/",
+        "https://aclanthology.org/2025.acl-long.335/"
+      ],
+      "conditions": "Unmodified official PDF. Preserve author attribution, article citation and CC BY 4.0 terms. No associated datasets, video footage or external resources are included."
+    }
+  ]
+}
