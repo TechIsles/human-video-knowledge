@@ -1,0 +1,156 @@
+{
+  "batch": "0054",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/mattpocock__skills/LICENSE",
+      "repository": "mattpocock/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "git_blob_sha1": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-116a56e22aac",
+        "SRC-199fb540230e",
+        "SRC-61d6a8b6e91b",
+        "SRC-c398898cb0f1"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/README.md",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/engineering/to-spec/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/engineering/to-spec/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/to-spec/SKILL.md",
+      "size_bytes": 3043,
+      "sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "git_blob_sha1": "3f52599ae2a4347aee5a07432c2707518e691a7f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-116a56e22aac"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/README.md",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/engineering/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/in-progress/writing-beats/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/in-progress/writing-beats/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/writing-beats/SKILL.md",
+      "size_bytes": 4855,
+      "sha256": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
+      "git_blob_sha1": "3d3b25b605491adc5c62ae5423127717a94b9632",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c398898cb0f1"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/README.md",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/in-progress/writing-fragments/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/in-progress/writing-fragments/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/writing-fragments/SKILL.md",
+      "size_bytes": 3558,
+      "sha256": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea",
+      "git_blob_sha1": "c7c889b880cf9c8d289119dea5ff240641b615ca",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-199fb540230e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/README.md",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mattpocock__skills/skills/in-progress/writing-shape/SKILL.md",
+      "repository": "mattpocock/skills",
+      "upstream_path": "skills/in-progress/writing-shape/SKILL.md",
+      "upstream_commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "source_url": "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/writing-shape/SKILL.md",
+      "size_bytes": 5922,
+      "sha256": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72",
+      "git_blob_sha1": "02f2866d13e72504e010f2ad3458eb9b36b876db",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-61d6a8b6e91b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/README.md",
+        "https://github.com/mattpocock/skills/blob/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mattpocock__skills/LICENSE"
+      ]
+    }
+  ]
+}

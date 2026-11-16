@@ -1,0 +1,216 @@
+{
+  "batch": "0056",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/kilo-org__kilocode/.kilocode/skills/vscode-visual-regression/SKILL.md",
+      "repository": "kilo-org/kilocode",
+      "upstream_path": ".kilocode/skills/vscode-visual-regression/SKILL.md",
+      "upstream_commit": "9723be621429771ea47a2614b0ac433448023cec",
+      "source_url": "https://github.com/kilo-org/kilocode/blob/9723be621429771ea47a2614b0ac433448023cec/.kilocode/skills/vscode-visual-regression/SKILL.md",
+      "size_bytes": 12647,
+      "sha256": "e9daf2235326722f03d53d218a09692bf1a988b1160e667434e0d89c63c7b6ca",
+      "git_blob_sha1": "f58550b258ead5f60ef5e6823c81261ea6017439",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54edfe8175b8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/kilo-org/kilocode/blob/9723be621429771ea47a2614b0ac433448023cec/LICENSE",
+        "https://github.com/kilo-org/kilocode/blob/9723be621429771ea47a2614b0ac433448023cec/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kilo-org__kilocode/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kilo-org__kilocode/LICENSE",
+      "repository": "kilo-org/kilocode",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9723be621429771ea47a2614b0ac433448023cec",
+      "source_url": "https://github.com/kilo-org/kilocode/blob/9723be621429771ea47a2614b0ac433448023cec/LICENSE",
+      "size_bytes": 1094,
+      "sha256": "8a088af74e19c37e62906321b1072f593113058ed9eae507d899d41e6e5e5bb4",
+      "git_blob_sha1": "c5762eb3ad5a0e1788ef155772fe3c240ab23e42",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54edfe8175b8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/kilo-org/kilocode/blob/9723be621429771ea47a2614b0ac433448023cec/LICENSE",
+        "https://github.com/kilo-org/kilocode/blob/9723be621429771ea47a2614b0ac433448023cec/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kilo-org__kilocode/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kissawang9-ai__science-video-director/skills/science-video-director/SKILL.md",
+      "repository": "kissawang9-ai/science-video-director",
+      "upstream_path": "skills/science-video-director/SKILL.md",
+      "upstream_commit": "2bb587dccdc563e7e6046e8477848078a1843f1e",
+      "source_url": "https://github.com/kissawang9-ai/science-video-director/blob/2bb587dccdc563e7e6046e8477848078a1843f1e/skills/science-video-director/SKILL.md",
+      "size_bytes": 12038,
+      "sha256": "d4e247c4f3747538d0416bf7cd371e7cef706fa6744733a7ae2d9df6d9d62688",
+      "git_blob_sha1": "5654b7b8ef05a39dad8a256f287da71fa6465223",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a5aadc4d324a"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/kissawang9-ai/science-video-director/blob/2bb587dccdc563e7e6046e8477848078a1843f1e/LICENSE",
+        "https://github.com/kissawang9-ai/science-video-director/blob/2bb587dccdc563e7e6046e8477848078a1843f1e/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kissawang9-ai__science-video-director/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kissawang9-ai__science-video-director/LICENSE",
+      "repository": "kissawang9-ai/science-video-director",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2bb587dccdc563e7e6046e8477848078a1843f1e",
+      "source_url": "https://github.com/kissawang9-ai/science-video-director/blob/2bb587dccdc563e7e6046e8477848078a1843f1e/LICENSE",
+      "size_bytes": 1092,
+      "sha256": "a129c4041868b633db24411bb6ecf23c488220ceaeab8b436ca8f8a0709bf0bc",
+      "git_blob_sha1": "e66973bdd1a1228c00f7b21a20b75e15f38e7453",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a5aadc4d324a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/kissawang9-ai/science-video-director/blob/2bb587dccdc563e7e6046e8477848078a1843f1e/LICENSE",
+        "https://github.com/kissawang9-ai/science-video-director/blob/2bb587dccdc563e7e6046e8477848078a1843f1e/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kissawang9-ai__science-video-director/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kobyal__code-explainer-film/README.md",
+      "repository": "kobyal/code-explainer-film",
+      "upstream_path": "README.md",
+      "upstream_commit": "384aa04127e4fc5c8775e615b65f205f27643c25",
+      "source_url": "https://github.com/kobyal/code-explainer-film/blob/384aa04127e4fc5c8775e615b65f205f27643c25/README.md",
+      "size_bytes": 10836,
+      "sha256": "50db2b78676591efa8b08e21fc1497702129d0d3f7d48484840aa77e52d4244b",
+      "git_blob_sha1": "c4eeb960bf45ab552a2a9a4071537d1c47911788",
+      "role": "canonical_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-157a7e073022"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/kobyal/code-explainer-film/blob/384aa04127e4fc5c8775e615b65f205f27643c25/LICENSE",
+        "https://github.com/kobyal/code-explainer-film/blob/384aa04127e4fc5c8775e615b65f205f27643c25/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kobyal__code-explainer-film/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/kobyal__code-explainer-film/LICENSE",
+      "repository": "kobyal/code-explainer-film",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "384aa04127e4fc5c8775e615b65f205f27643c25",
+      "source_url": "https://github.com/kobyal/code-explainer-film/blob/384aa04127e4fc5c8775e615b65f205f27643c25/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "561ab00c73b98b2bb60aef74ae97bf62db08540f63bd3057ab3c0e261dc96114",
+      "git_blob_sha1": "5646674597a3a615bb870a559ec61d01fb157309",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-157a7e073022"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/kobyal/code-explainer-film/blob/384aa04127e4fc5c8775e615b65f205f27643c25/LICENSE",
+        "https://github.com/kobyal/code-explainer-film/blob/384aa04127e4fc5c8775e615b65f205f27643c25/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/kobyal__code-explainer-film/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/krea-ai__skills/faceless-video/SKILL.md",
+      "repository": "krea-ai/skills",
+      "upstream_path": "faceless-video/SKILL.md",
+      "upstream_commit": "9239bb449a8acefd5effef73a548b7322b5d1f10",
+      "source_url": "https://github.com/krea-ai/skills/blob/9239bb449a8acefd5effef73a548b7322b5d1f10/faceless-video/SKILL.md",
+      "size_bytes": 9808,
+      "sha256": "ff0fab311223ef5cce7b9083dbc0862e8befba33749a0d06f73cfc67d82a4cb8",
+      "git_blob_sha1": "f7459c9c5231ea4b15c9bc44f5a524bfaac15b09",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cce6dc99c12c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/krea-ai/skills/blob/9239bb449a8acefd5effef73a548b7322b5d1f10/LICENSE",
+        "https://github.com/krea-ai/skills/blob/9239bb449a8acefd5effef73a548b7322b5d1f10/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/krea-ai__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/krea-ai__skills/LICENSE",
+      "repository": "krea-ai/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9239bb449a8acefd5effef73a548b7322b5d1f10",
+      "source_url": "https://github.com/krea-ai/skills/blob/9239bb449a8acefd5effef73a548b7322b5d1f10/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "aa859020f8821c329c089568d4ecb05ce5faabb2ffdb7f79acdf8e9d4873d881",
+      "git_blob_sha1": "d098bea22b1f2caf7f15ba9f8bc2dbc1051cdf98",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cce6dc99c12c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/krea-ai/skills/blob/9239bb449a8acefd5effef73a548b7322b5d1f10/LICENSE",
+        "https://github.com/krea-ai/skills/blob/9239bb449a8acefd5effef73a548b7322b5d1f10/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/krea-ai__skills/LICENSE"
+      ]
+    }
+  ]
+}
