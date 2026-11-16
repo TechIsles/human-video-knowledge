@@ -1,0 +1,124 @@
+{
+  "batch": "0001",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/samgutentag__storyboard-skill/SKILL.md",
+      "repository": "samgutentag/storyboard-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "42477b79bb85782632af435c191b324ade9f5c3b",
+      "source_url": "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/SKILL.md",
+      "size_bytes": 8138,
+      "sha256": "e6d271f77c81cad42660eefaa3a98757c8a978cb8c005a1d8d3917d5b6295a28",
+      "git_blob_sha1": "85dac567463535c4df8461ec144c48013ffa137a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-674214ca8a2d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/LICENSE",
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samgutentag__storyboard-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "license-only/eruto-skills__analyze-video/LICENSE",
+      "repository": "eruto-skills/analyze-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e2fb609f0b198b0a5747de8be2ca10c53291088a",
+      "source_url": "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "ff38f14298cbbce33cea1cb32b911f4658cf6f2ee444cc69cb8ec8364b696416",
+      "git_blob_sha1": "70fadcac14af211c2767ba45fef18fd0abfc3a00",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57ce715ccd19"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "license-only/eruto-skills__analyze-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/eruto-skills__analyze-video/SKILL.md",
+      "repository": "eruto-skills/analyze-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "e2fb609f0b198b0a5747de8be2ca10c53291088a",
+      "source_url": "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/SKILL.md",
+      "size_bytes": 8105,
+      "sha256": "1c01c688ae63abb99e3ae19181f38299c83607be408601206bc4bddda5297978",
+      "git_blob_sha1": "3db27b5e0921ded1ab7f3968231f1cdac1aff5b0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-57ce715ccd19"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/LICENSE",
+        "https://github.com/eruto-skills/analyze-video/blob/e2fb609f0b198b0a5747de8be2ca10c53291088a/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/eruto-skills__analyze-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/samgutentag__storyboard-skill/LICENSE",
+      "repository": "samgutentag/storyboard-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "42477b79bb85782632af435c191b324ade9f5c3b",
+      "source_url": "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "469599fd7c91183703aba7b0d92d11850ddd64d172197a890a277abb286bddf6",
+      "git_blob_sha1": "5928b92a224e4fad13a8c2cb2f1e2eced7a9fa26",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-674214ca8a2d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/LICENSE",
+        "https://github.com/samgutentag/storyboard-skill/blob/42477b79bb85782632af435c191b324ade9f5c3b/README.md"
+      ],
+      "conditions": [
+        "Preserve the complete MIT license and copyright notice with the unmodified canonical file.",
+        "Only selected SKILL.md document is included; external services, media and unprovided dependencies are not covered or executed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/samgutentag__storyboard-skill/LICENSE"
+      ]
+    }
+  ]
+}

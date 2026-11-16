@@ -1,0 +1,15 @@
+{
+  "status": "partial_acquisition_in_progress",
+  "source_inventory_total": 3567,
+  "original_payload_files": 167,
+  "learning_or_source_body_files": 152,
+  "license_or_notice_files": 15,
+  "original_payload_bytes": 1032350,
+  "unique_original_sha256": 167,
+  "new_full_canonical_source_objects_in_expansion": 2,
+  "manifests": [
+    "SOURCES.json",
+    "batches/0001/SOURCES.json"
+  ],
+  "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed."
+}
