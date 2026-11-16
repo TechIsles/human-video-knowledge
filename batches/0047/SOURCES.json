@@ -1,0 +1,176 @@
+{
+  "batch": "0047",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/iart-ai__b-roll-skills/LICENSE",
+      "repository": "iart-ai/b-roll-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a51e34b0a8def533759373733bde1869c21075fb",
+      "source_url": "https://github.com/iart-ai/b-roll-skills/blob/a51e34b0a8def533759373733bde1869c21075fb/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "33d6cd35a20903b5e968a76a1e584a7aeae2c83e3e58ea58ecc50b889b83e668",
+      "git_blob_sha1": "a61b911146037f2ef312f67e9b45de6c99b7f870",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-606a03780a44"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/b-roll-skills/blob/a51e34b0a8def533759373733bde1869c21075fb/LICENSE",
+        "https://github.com/iart-ai/b-roll-skills/blob/a51e34b0a8def533759373733bde1869c21075fb/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__b-roll-skills/skills/talking-head-b-roll/SKILL.md",
+      "repository": "iart-ai/b-roll-skills",
+      "upstream_path": "skills/talking-head-b-roll/SKILL.md",
+      "upstream_commit": "a51e34b0a8def533759373733bde1869c21075fb",
+      "source_url": "https://github.com/iart-ai/b-roll-skills/blob/a51e34b0a8def533759373733bde1869c21075fb/skills/talking-head-b-roll/SKILL.md",
+      "size_bytes": 10648,
+      "sha256": "6b300bc9c8b6d1bfebc23571b1fa3186187c07fbb085399323ecf0bdebbe7b88",
+      "git_blob_sha1": "ef963b56a29c3af7c819ac8c9cc25e2a9546a150",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-606a03780a44"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/b-roll-skills/blob/a51e34b0a8def533759373733bde1869c21075fb/LICENSE",
+        "https://github.com/iart-ai/b-roll-skills/blob/a51e34b0a8def533759373733bde1869c21075fb/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__b-roll-skills/LICENSE",
+      "repository": "iart-ai/javascript-animation-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f7d0882a313249cbd43f0e4e9e209b1622870253",
+      "source_url": "https://github.com/iart-ai/javascript-animation-skills/blob/f7d0882a313249cbd43f0e4e9e209b1622870253/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "33d6cd35a20903b5e968a76a1e584a7aeae2c83e3e58ea58ecc50b889b83e668",
+      "git_blob_sha1": "a61b911146037f2ef312f67e9b45de6c99b7f870",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0e0e2758a285"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/javascript-animation-skills/blob/f7d0882a313249cbd43f0e4e9e209b1622870253/LICENSE",
+        "https://github.com/iart-ai/javascript-animation-skills/blob/f7d0882a313249cbd43f0e4e9e209b1622870253/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__javascript-animation-skills/skills/javascript-animation/SKILL.md",
+      "repository": "iart-ai/javascript-animation-skills",
+      "upstream_path": "skills/javascript-animation/SKILL.md",
+      "upstream_commit": "f7d0882a313249cbd43f0e4e9e209b1622870253",
+      "source_url": "https://github.com/iart-ai/javascript-animation-skills/blob/f7d0882a313249cbd43f0e4e9e209b1622870253/skills/javascript-animation/SKILL.md",
+      "size_bytes": 9088,
+      "sha256": "e793b8c561de063356ca1e206113b7de1c1cd6b9bbbbcf2a80d7faeaaa6d4da9",
+      "git_blob_sha1": "9187ecaf0f295f2225a342d30b1903e42050dde8",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0e0e2758a285"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/javascript-animation-skills/blob/f7d0882a313249cbd43f0e4e9e209b1622870253/LICENSE",
+        "https://github.com/iart-ai/javascript-animation-skills/blob/f7d0882a313249cbd43f0e4e9e209b1622870253/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__b-roll-skills/LICENSE",
+      "repository": "iart-ai/tiktok-video-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2a775336b5a638cbf8a61dbd785f9a1b649be016",
+      "source_url": "https://github.com/iart-ai/tiktok-video-skills/blob/2a775336b5a638cbf8a61dbd785f9a1b649be016/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "33d6cd35a20903b5e968a76a1e584a7aeae2c83e3e58ea58ecc50b889b83e668",
+      "git_blob_sha1": "a61b911146037f2ef312f67e9b45de6c99b7f870",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-90bb9e5278ef"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/tiktok-video-skills/blob/2a775336b5a638cbf8a61dbd785f9a1b649be016/LICENSE",
+        "https://github.com/iart-ai/tiktok-video-skills/blob/2a775336b5a638cbf8a61dbd785f9a1b649be016/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/iart-ai__tiktok-video-skills/skills/short-form-video/SKILL.md",
+      "repository": "iart-ai/tiktok-video-skills",
+      "upstream_path": "skills/short-form-video/SKILL.md",
+      "upstream_commit": "2a775336b5a638cbf8a61dbd785f9a1b649be016",
+      "source_url": "https://github.com/iart-ai/tiktok-video-skills/blob/2a775336b5a638cbf8a61dbd785f9a1b649be016/skills/short-form-video/SKILL.md",
+      "size_bytes": 11079,
+      "sha256": "27a55d05cded4d39efad74220e8a17aed22cf4b5cac0804f50754f307283ce15",
+      "git_blob_sha1": "7bc689429479a7f3364670770429840ba945bc3e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-90bb9e5278ef"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/iart-ai/tiktok-video-skills/blob/2a775336b5a638cbf8a61dbd785f9a1b649be016/LICENSE",
+        "https://github.com/iart-ai/tiktok-video-skills/blob/2a775336b5a638cbf8a61dbd785f9a1b649be016/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/iart-ai__b-roll-skills/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "batch": "0045",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 5,
+  "files": [
+    {
+      "file": "upstream/jordanrendric__claude-video-vision/skills/video-perception/SKILL.md",
+      "repository": "jordanrendric/claude-video-vision",
+      "upstream_path": "skills/video-perception/SKILL.md",
+      "upstream_commit": "4a4f99016f249a24018cd19b66531ebbcd58024b",
+      "source_url": "https://github.com/jordanrendric/claude-video-vision/blob/4a4f99016f249a24018cd19b66531ebbcd58024b/skills/video-perception/SKILL.md",
+      "size_bytes": 5634,
+      "sha256": "ed07b610734a6b5eb8fe588759b6ac56c9dc4e510deb9aa388a59fe65e354bd6",
+      "git_blob_sha1": "063cca800561f8b1528660772e69bf33822d3bc6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-43ff3ed831fb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/jordanrendric/claude-video-vision/blob/4a4f99016f249a24018cd19b66531ebbcd58024b/LICENSE",
+        "https://github.com/jordanrendric/claude-video-vision/blob/4a4f99016f249a24018cd19b66531ebbcd58024b/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jordanrendric__claude-video-vision/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/jordanrendric__claude-video-vision/LICENSE",
+      "repository": "jordanrendric/claude-video-vision",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4a4f99016f249a24018cd19b66531ebbcd58024b",
+      "source_url": "https://github.com/jordanrendric/claude-video-vision/blob/4a4f99016f249a24018cd19b66531ebbcd58024b/LICENSE",
+      "size_bytes": 1075,
+      "sha256": "87190cd1335f47b8cf6d72f55e6a1316374049bd9549947d2e9b9d87870cf5cd",
+      "git_blob_sha1": "315eec5b3c4b7c7de6d93ea8a8b02ab1877ce8bf",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-43ff3ed831fb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/jordanrendric/claude-video-vision/blob/4a4f99016f249a24018cd19b66531ebbcd58024b/LICENSE",
+        "https://github.com/jordanrendric/claude-video-vision/blob/4a4f99016f249a24018cd19b66531ebbcd58024b/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jordanrendric__claude-video-vision/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/junjiezhou1122__justin-sun-narrative-skill/SKILL.md",
+      "repository": "junjiezhou1122/justin-sun-narrative-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "623d2870d3f756e551e73d09772019a671447106",
+      "source_url": "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/SKILL.md",
+      "size_bytes": 5732,
+      "sha256": "37d453df2d60e997e5acb16627ac3fab41f433d6f0ba4604332b0c257d3bf419",
+      "git_blob_sha1": "8ecca5ed801b4c1c2a5152929ca01bdc83a19e42",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b70eec63a7a8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/LICENSE",
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/NOTICE.md",
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/junjiezhou1122__justin-sun-narrative-skill/LICENSE",
+        "upstream/junjiezhou1122__justin-sun-narrative-skill/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/junjiezhou1122__justin-sun-narrative-skill/LICENSE",
+      "repository": "junjiezhou1122/justin-sun-narrative-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "623d2870d3f756e551e73d09772019a671447106",
+      "source_url": "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "cd93df84634ab0c0aabe70debd36c5568401ffff2877edc09f9a266c52340342",
+      "git_blob_sha1": "7be6c3425a50fb552fada6e07488a108bcae9653",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b70eec63a7a8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/LICENSE",
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/NOTICE.md",
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/junjiezhou1122__justin-sun-narrative-skill/LICENSE",
+        "upstream/junjiezhou1122__justin-sun-narrative-skill/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/junjiezhou1122__justin-sun-narrative-skill/NOTICE.md",
+      "repository": "junjiezhou1122/justin-sun-narrative-skill",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "623d2870d3f756e551e73d09772019a671447106",
+      "source_url": "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/NOTICE.md",
+      "size_bytes": 604,
+      "sha256": "6a6469bd6951ab2fc867c2045ae14f3775879ce407c79288418f0e1d8b0669ca",
+      "git_blob_sha1": "a531492182f6ae27d895d86df4e14e5cb3f9bea1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b70eec63a7a8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/LICENSE",
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/NOTICE.md",
+        "https://github.com/junjiezhou1122/justin-sun-narrative-skill/blob/623d2870d3f756e551e73d09772019a671447106/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/junjiezhou1122__justin-sun-narrative-skill/LICENSE",
+        "upstream/junjiezhou1122__justin-sun-narrative-skill/NOTICE.md"
+      ]
+    }
+  ]
+}

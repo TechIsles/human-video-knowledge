@@ -1,0 +1,216 @@
+{
+  "batch": "0046",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/heloraai__hollandcut/SKILL.md",
+      "repository": "heloraai/hollandcut",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "10848b345efc1741baec63d07cdef9363d1e5ba8",
+      "source_url": "https://github.com/heloraai/hollandcut/blob/10848b345efc1741baec63d07cdef9363d1e5ba8/SKILL.md",
+      "size_bytes": 8099,
+      "sha256": "813c5de1ffbdc1ba4680a5f98202ece0538e5fb3c0bf4b22256c9351d88f884b",
+      "git_blob_sha1": "4d24314172eebb9835312be264f6f87242a8b343",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f0ddef5f744c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heloraai/hollandcut/blob/10848b345efc1741baec63d07cdef9363d1e5ba8/LICENSE",
+        "https://github.com/heloraai/hollandcut/blob/10848b345efc1741baec63d07cdef9363d1e5ba8/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heloraai__hollandcut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heloraai__hollandcut/LICENSE",
+      "repository": "heloraai/hollandcut",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "10848b345efc1741baec63d07cdef9363d1e5ba8",
+      "source_url": "https://github.com/heloraai/hollandcut/blob/10848b345efc1741baec63d07cdef9363d1e5ba8/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "b66fec8e5e8b144fb4931d2ea1216dfcb8eb429f6c591c66f7d7d7fcb640add6",
+      "git_blob_sha1": "86794aea116ad7ced43d45a7e0fa4ddc3562792e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f0ddef5f744c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heloraai/hollandcut/blob/10848b345efc1741baec63d07cdef9363d1e5ba8/LICENSE",
+        "https://github.com/heloraai/hollandcut/blob/10848b345efc1741baec63d07cdef9363d1e5ba8/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heloraai__hollandcut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/hyperframes-creative/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/hyperframes-creative/SKILL.md",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/skills/hyperframes-creative/SKILL.md",
+      "size_bytes": 6563,
+      "sha256": "9da7b7ac84c8d884b54125887ecca1a645a38337013082b96af2fdc0259c945a",
+      "git_blob_sha1": "8ecb3cd7144b10676ff908e41f052c970cdb4930",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bfa1bf24b350"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "207c8a4daf6480d697f203784f1fd422727569e3",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-bfa1bf24b350"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/207c8a4daf6480d697f203784f1fd422727569e3/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/skills/slideshow/SKILL.md",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "skills/slideshow/SKILL.md",
+      "upstream_commit": "89af2908080cb7da8013d7133d8bf3cbe86d12e4",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/89af2908080cb7da8013d7133d8bf3cbe86d12e4/skills/slideshow/SKILL.md",
+      "size_bytes": 4924,
+      "sha256": "4525f1a0d468f91957b638f14599c37f4af5e00c9b3c4df519a1cbe16101c908",
+      "git_blob_sha1": "3a53c1e211e1a016949bcddc87b4bb09eef2d53f",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0c0bc7ea2287"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/89af2908080cb7da8013d7133d8bf3cbe86d12e4/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/89af2908080cb7da8013d7133d8bf3cbe86d12e4/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/heygen-com__hyperframes/LICENSE",
+      "repository": "heygen-com/hyperframes",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "89af2908080cb7da8013d7133d8bf3cbe86d12e4",
+      "source_url": "https://github.com/heygen-com/hyperframes/blob/89af2908080cb7da8013d7133d8bf3cbe86d12e4/LICENSE",
+      "size_bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "git_blob_sha1": "ae06b37e1c5116ccfaa615ac25ec1aabf5658d8c",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0c0bc7ea2287"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/heygen-com/hyperframes/blob/89af2908080cb7da8013d7133d8bf3cbe86d12e4/LICENSE",
+        "https://github.com/heygen-com/hyperframes/blob/89af2908080cb7da8013d7133d8bf3cbe86d12e4/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/heygen-com__hyperframes/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/higgsfield-ai__skills/higgsfield-video-explainer/SKILL.md",
+      "repository": "higgsfield-ai/skills",
+      "upstream_path": "higgsfield-video-explainer/SKILL.md",
+      "upstream_commit": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+      "source_url": "https://github.com/higgsfield-ai/skills/blob/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/higgsfield-video-explainer/SKILL.md",
+      "size_bytes": 12533,
+      "sha256": "86d90d67362512c65d44a840e02daf513eb7362e465f6e766b76ddba518f4ce0",
+      "git_blob_sha1": "8f50a15dda4a9c8a448d4ccbd1cdc1267ed65b2b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c083d548165"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/higgsfield-ai/skills/blob/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/LICENSE",
+        "https://github.com/higgsfield-ai/skills/blob/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/higgsfield-ai__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/higgsfield-ai__skills/LICENSE",
+      "repository": "higgsfield-ai/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f83af0bc1d937c8119099a11f8ebbf5e6fb99819",
+      "source_url": "https://github.com/higgsfield-ai/skills/blob/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "9da656d6226936542be59478dbf775057dfdeade2629d35e0832108c2b7aecc0",
+      "git_blob_sha1": "54beb798b4f27237d27c03ba8c85d41d1ff15890",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2c083d548165"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/higgsfield-ai/skills/blob/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/LICENSE",
+        "https://github.com/higgsfield-ai/skills/blob/f83af0bc1d937c8119099a11f8ebbf5e6fb99819/README.md"
+      ],
+      "conditions": "Retain full upstream license, copyright, attribution and disclaimer. Unchanged original; no endorsement, dependency/service/model/media or training rights inferred.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/higgsfield-ai__skills/LICENSE"
+      ]
+    }
+  ]
+}
