@@ -1,0 +1,358 @@
+{
+  "batch": "0105",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 7,
+  "new_original_payload_paths": 11,
+  "files": [
+    {
+      "file": "upstream/scrollmark__social-skills/skills/brand-kit/SKILL.md",
+      "repository": "scrollmark/social-skills",
+      "upstream_path": "skills/brand-kit/SKILL.md",
+      "upstream_commit": "22e74b8ffc31fcf3b5c64f232aac63721b3ee92e",
+      "source_url": "https://github.com/scrollmark/social-skills/blob/22e74b8ffc31fcf3b5c64f232aac63721b3ee92e/skills/brand-kit/SKILL.md",
+      "size_bytes": 6870,
+      "sha256": "decf217b1fe52051693f3a5a4c425254959e055dea641e020dd78d8c9ac8dee2",
+      "git_blob_sha1": "584925dcd13766f51c61ac68339a480faba46ece",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-24b3ad700612"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/scrollmark/social-skills/blob/22e74b8ffc31fcf3b5c64f232aac63721b3ee92e/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scrollmark__social-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/scrollmark__social-skills/LICENSE",
+      "repository": "scrollmark/social-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "22e74b8ffc31fcf3b5c64f232aac63721b3ee92e",
+      "source_url": "https://github.com/scrollmark/social-skills/blob/22e74b8ffc31fcf3b5c64f232aac63721b3ee92e/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "459f8dbf807d2a42a70e70a1be40a9c19212034d80af310954a1e1333c73f130",
+      "git_blob_sha1": "6e5693361f08f7b0a2f6f5615dd728d47c164233",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-24b3ad700612"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/scrollmark/social-skills/blob/22e74b8ffc31fcf3b5c64f232aac63721b3ee92e/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/scrollmark__social-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/nicepkg__ai-workflow/workflows/video-creator-workflow/.claude/skills/short-form-converter/SKILL.md",
+      "repository": "nicepkg/ai-workflow",
+      "upstream_path": "workflows/video-creator-workflow/.claude/skills/short-form-converter/SKILL.md",
+      "upstream_commit": "d167b41af7f013d3d3c35dca87a6cc72817721d2",
+      "source_url": "https://github.com/nicepkg/ai-workflow/blob/d167b41af7f013d3d3c35dca87a6cc72817721d2/workflows/video-creator-workflow/.claude/skills/short-form-converter/SKILL.md",
+      "size_bytes": 10230,
+      "sha256": "e71e21666db6142bd1d4b96c2c312d86ad57dd844b282377f39a6525cad85d34",
+      "git_blob_sha1": "7fd2e4d0a19b76c8319a9063a78bd71cdc6100f3",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b5f3f009a4f9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/nicepkg/ai-workflow/blob/d167b41af7f013d3d3c35dca87a6cc72817721d2/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nicepkg__ai-workflow/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/nicepkg__ai-workflow/LICENSE",
+      "repository": "nicepkg/ai-workflow",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d167b41af7f013d3d3c35dca87a6cc72817721d2",
+      "source_url": "https://github.com/nicepkg/ai-workflow/blob/d167b41af7f013d3d3c35dca87a6cc72817721d2/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "44680e3e4cacebe9797aac0fd9ddb8da709db9f14c4d45f8ff972e8319a4b69b",
+      "git_blob_sha1": "efb8d5da6494ed0451f891e339ba1de38dcf22c1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b5f3f009a4f9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/nicepkg/ai-workflow/blob/d167b41af7f013d3d3c35dca87a6cc72817721d2/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/nicepkg__ai-workflow/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/openai__skills/skills/.curated/transcribe/SKILL.md",
+      "repository": "openai/skills",
+      "upstream_path": "skills/.curated/transcribe/SKILL.md",
+      "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "source_url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe/SKILL.md",
+      "size_bytes": 2834,
+      "sha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09",
+      "git_blob_sha1": "757576f9bbd1782f14fcc28ca85159139a2b8fa5",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a4772b307a3f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe/LICENSE.txt"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt",
+      "repository": "openai/skills",
+      "upstream_path": "skills/.curated/transcribe/LICENSE.txt",
+      "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "source_url": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe/LICENSE.txt",
+      "size_bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a4772b307a3f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/transcribe/LICENSE.txt"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/openai__skills/skills/.curated/develop-web-game/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/praxstack__skills-and-personas/skills/transcribe-refiner/SKILL.md",
+      "repository": "praxstack/skills-and-personas",
+      "upstream_path": "skills/transcribe-refiner/SKILL.md",
+      "upstream_commit": "b47380c9b254ab26c655ef04dd69b9795b2bccfa",
+      "source_url": "https://github.com/praxstack/skills-and-personas/blob/b47380c9b254ab26c655ef04dd69b9795b2bccfa/skills/transcribe-refiner/SKILL.md",
+      "size_bytes": 7570,
+      "sha256": "85f892823c32af6080fdc9aa2ded99dc3a7bccbff3d1fd411fbe84d9de1112ef",
+      "git_blob_sha1": "c4afb7925089db4fbb1d5943524e12114dfe1594",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-781ced7f9bac"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/praxstack/skills-and-personas/blob/b47380c9b254ab26c655ef04dd69b9795b2bccfa/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/praxstack__skills-and-personas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/praxstack__skills-and-personas/LICENSE",
+      "repository": "praxstack/skills-and-personas",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b47380c9b254ab26c655ef04dd69b9795b2bccfa",
+      "source_url": "https://github.com/praxstack/skills-and-personas/blob/b47380c9b254ab26c655ef04dd69b9795b2bccfa/LICENSE",
+      "size_bytes": 1089,
+      "sha256": "ef13129bccac7a7f1cf9501acb5b07680105c08f155db184f569180623ca34d0",
+      "git_blob_sha1": "ab9cbfe952f353dd7c1d8b2dc1b9bb074578e00f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-781ced7f9bac"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/praxstack/skills-and-personas/blob/b47380c9b254ab26c655ef04dd69b9795b2bccfa/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/praxstack__skills-and-personas/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/dannywsh__video-use-ad/SKILL.md",
+      "repository": "dannywsh/video-use-ad",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "9b4a4edd999de4483af716b73f7edb74d7205e17",
+      "source_url": "https://github.com/dannywsh/video-use-ad/blob/9b4a4edd999de4483af716b73f7edb74d7205e17/SKILL.md",
+      "size_bytes": 105950,
+      "sha256": "6ccdfb2bdd2e8233d3dfc76e785497b1ead5e66ee076ace058ba2e36c603e0cc",
+      "git_blob_sha1": "caacf9fc254777a3a2ff2f16a7c9dd2ac5a2ee3b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-78b877108e30"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/dannywsh/video-use-ad/blob/9b4a4edd999de4483af716b73f7edb74d7205e17/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/browser-use__video-use/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/browser-use__video-use/LICENSE",
+      "repository": "dannywsh/video-use-ad",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9b4a4edd999de4483af716b73f7edb74d7205e17",
+      "source_url": "https://github.com/dannywsh/video-use-ad/blob/9b4a4edd999de4483af716b73f7edb74d7205e17/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "5afa3d97bf1e6f998d587fa101e3fe0d0c416840b7fe77bcd6ae97690a334631",
+      "git_blob_sha1": "271d8e2807d0d79aee85a231f5c9dbb007902783",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-78b877108e30"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/dannywsh/video-use-ad/blob/9b4a4edd999de4483af716b73f7edb74d7205e17/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/browser-use__video-use/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/florianbruniaux__claude-code-ultimate-guide/examples/skills/talk-pipeline/stage-3-concepts/SKILL.md",
+      "repository": "florianbruniaux/claude-code-ultimate-guide",
+      "upstream_path": "examples/skills/talk-pipeline/stage-3-concepts/SKILL.md",
+      "upstream_commit": "d0ecd1f0f4b318a2d5d73996aa4608d3a6df7170",
+      "source_url": "https://github.com/florianbruniaux/claude-code-ultimate-guide/blob/d0ecd1f0f4b318a2d5d73996aa4608d3a6df7170/examples/skills/talk-pipeline/stage-3-concepts/SKILL.md",
+      "size_bytes": 5642,
+      "sha256": "8dc071467cc27455600cf2d0eac1c9bfdf201222184b67fa063d1786d0efa1bd",
+      "git_blob_sha1": "73b8cb95816aa659fd3079146064d4ec3ce3ebfb",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3678d6e902bf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/florianbruniaux/claude-code-ultimate-guide/blob/d0ecd1f0f4b318a2d5d73996aa4608d3a6df7170/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/florianbruniaux__claude-code-ultimate-guide/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/florianbruniaux__claude-code-ultimate-guide/LICENSE",
+      "repository": "florianbruniaux/claude-code-ultimate-guide",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d0ecd1f0f4b318a2d5d73996aa4608d3a6df7170",
+      "source_url": "https://github.com/florianbruniaux/claude-code-ultimate-guide/blob/d0ecd1f0f4b318a2d5d73996aa4608d3a6df7170/LICENSE",
+      "size_bytes": 20131,
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "git_blob_sha1": "3b7b82d0da2db857eda1a798dbd908ea136f07b5",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3678d6e902bf"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/florianbruniaux/claude-code-ultimate-guide/blob/d0ecd1f0f4b318a2d5d73996aa4608d3a6df7170/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/florianbruniaux__claude-code-ultimate-guide/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/inhai-wiki__video-highlight-skill/SKILL.md",
+      "repository": "inhai-wiki/video-highlight-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "35a81e11c02c90289cbca3ca2e9f641e4c050b9d",
+      "source_url": "https://github.com/inhai-wiki/video-highlight-skill/blob/35a81e11c02c90289cbca3ca2e9f641e4c050b9d/SKILL.md",
+      "size_bytes": 7327,
+      "sha256": "663d508289ac9e986dec76c361e11f82bf1590854355a5017e5c8c50fcf284e1",
+      "git_blob_sha1": "de755bc075d2b7cfd6f815bfa74b1485ac407c86",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-89ff02f56be5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/inhai-wiki/video-highlight-skill/blob/35a81e11c02c90289cbca3ca2e9f641e4c050b9d/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Picrew__OpenRAG-Skill/LICENSE",
+      "repository": "inhai-wiki/video-highlight-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "35a81e11c02c90289cbca3ca2e9f641e4c050b9d",
+      "source_url": "https://github.com/inhai-wiki/video-highlight-skill/blob/35a81e11c02c90289cbca3ca2e9f641e4c050b9d/LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "git_blob_sha1": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-89ff02f56be5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/inhai-wiki/video-highlight-skill/blob/35a81e11c02c90289cbca3ca2e9f641e4c050b9d/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, copyright, attribution, notices and full applicable terms. No grant to external media, fonts, dependencies or services.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Picrew__OpenRAG-Skill/LICENSE"
+      ]
+    }
+  ]
+}

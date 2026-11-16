@@ -1,0 +1,621 @@
+{
+  "batch": "0106",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 11,
+  "new_original_payload_paths": 15,
+  "files": [
+    {
+      "file": "upstream/spdx__license-list-data/text/MIT.txt",
+      "repository": "spdx/license-list-data",
+      "upstream_path": "text/MIT.txt",
+      "upstream_commit": "279b7e997a87c09be00dd6bdda189519ade502cf",
+      "source_url": "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt",
+      "size_bytes": 1078,
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "git_blob_sha1": "d817195dad53ec992418c28ffca5fbd1cd86502a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fad748d25ddc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Preserve original unchanged source, original MIT declaration and attribution, and complete standard MIT terms. Standard template is legal support only; no third-party authorship or extra rights inferred.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/swyxio__skills/data-visualization-quality/SKILL.md",
+      "repository": "swyxio/skills",
+      "upstream_path": "data-visualization-quality/SKILL.md",
+      "upstream_commit": "6f63de58f41bb176f58774367c2931d20be0cb75",
+      "source_url": "https://github.com/swyxio/skills/blob/6f63de58f41bb176f58774367c2931d20be0cb75/data-visualization-quality/SKILL.md",
+      "size_bytes": 4820,
+      "sha256": "3ec58152f31e427c2b95a8eb40476b43fcf5468fe63a257155784f666e20248e",
+      "git_blob_sha1": "15daf6034a0697d12b2d3e880d54101dc0159266",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a929c733d2df"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/swyxio/skills/blob/6f63de58f41bb176f58774367c2931d20be0cb75/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/swyxio__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/swyxio__skills/LICENSE",
+      "repository": "swyxio/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "6f63de58f41bb176f58774367c2931d20be0cb75",
+      "source_url": "https://github.com/swyxio/skills/blob/6f63de58f41bb176f58774367c2931d20be0cb75/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "b15317e1f0bdec0dd6bb5bcf976efa185954d4859f87d0ddfb9164c8d3e73d07",
+      "git_blob_sha1": "6ed32883de566f824610b562b7c1349da29b279c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a929c733d2df"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/swyxio/skills/blob/6f63de58f41bb176f58774367c2931d20be0cb75/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/swyxio__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/theclaymethod__artifacture/plugins/visual-explainer/SKILL.md",
+      "repository": "theclaymethod/artifacture",
+      "upstream_path": "plugins/visual-explainer/SKILL.md",
+      "upstream_commit": "7d4918a697e7bd55509ce2281db166c01cff0fcd",
+      "source_url": "https://github.com/theclaymethod/artifacture/blob/7d4918a697e7bd55509ce2281db166c01cff0fcd/plugins/visual-explainer/SKILL.md",
+      "size_bytes": 5589,
+      "sha256": "6859d0325beb7c839c5269bd9899ca4422d7e60dee5714c9bbcf645de77b465c",
+      "git_blob_sha1": "9acaf21e6c898e0466201d4a129a35bf2da25c0c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-be4fec94fe98"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/theclaymethod/artifacture/blob/7d4918a697e7bd55509ce2281db166c01cff0fcd/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/theclaymethod__artifacture/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/theclaymethod__artifacture/LICENSE",
+      "repository": "theclaymethod/artifacture",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7d4918a697e7bd55509ce2281db166c01cff0fcd",
+      "source_url": "https://github.com/theclaymethod/artifacture/blob/7d4918a697e7bd55509ce2281db166c01cff0fcd/LICENSE",
+      "size_bytes": 1141,
+      "sha256": "3a9c652d28e4152485df0dce6fa405379a15010301d400fffb313536a73c92b8",
+      "git_blob_sha1": "a7cfe4621930a4a007910bab2c11b2f339827768",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-be4fec94fe98"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/theclaymethod/artifacture/blob/7d4918a697e7bd55509ce2281db166c01cff0fcd/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/theclaymethod__artifacture/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/theme-factory/SKILL.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/theme-factory/SKILL.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory/SKILL.md",
+      "size_bytes": 3124,
+      "sha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
+      "git_blob_sha1": "90dfceaf2ecdc191a4dcfb0069768a9560638998",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a6ea279a7a11"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/theme-factory/LICENSE.txt",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory/LICENSE.txt",
+      "size_bytes": 11345,
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "git_blob_sha1": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a6ea279a7a11"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 46162,
+      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
+      "git_blob_sha1": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a6ea279a7a11"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/alivirgo__Major-AI-Skills/skills/use-simple-analogies/SKILL.md",
+      "repository": "alivirgo/Major-AI-Skills",
+      "upstream_path": "skills/use-simple-analogies/SKILL.md",
+      "upstream_commit": "81b4d751980dfb22aa846f0b2eddc04430e4427f",
+      "source_url": "https://github.com/alivirgo/Major-AI-Skills/blob/81b4d751980dfb22aa846f0b2eddc04430e4427f/skills/use-simple-analogies/SKILL.md",
+      "size_bytes": 4331,
+      "sha256": "c4e6b9a64aabe300dffa0e0cedc2455a4c83f21ebb3256555e5c378d7e852f78",
+      "git_blob_sha1": "71cd8ce70003997b3653b21ac259be1397a4e0a1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-17149201ff24"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/alivirgo/Major-AI-Skills/blob/81b4d751980dfb22aa846f0b2eddc04430e4427f/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/alivirgo__Major-AI-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/alivirgo__Major-AI-Skills/LICENSE",
+      "repository": "alivirgo/Major-AI-Skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "81b4d751980dfb22aa846f0b2eddc04430e4427f",
+      "source_url": "https://github.com/alivirgo/Major-AI-Skills/blob/81b4d751980dfb22aa846f0b2eddc04430e4427f/LICENSE",
+      "size_bytes": 1085,
+      "sha256": "bb8bdcf025538d2ae6504e463f61da0a2c790263ff3962ad33b67dcedaa49dc4",
+      "git_blob_sha1": "5fa65c0d3af9b5a760fd098d806340463d16aa1a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-17149201ff24"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/alivirgo/Major-AI-Skills/blob/81b4d751980dfb22aa846f0b2eddc04430e4427f/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/alivirgo__Major-AI-Skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Paldom__video-to-skill/skills/video-keyframes/SKILL.md",
+      "repository": "Paldom/video-to-skill",
+      "upstream_path": "skills/video-keyframes/SKILL.md",
+      "upstream_commit": "576f5ea880f965091be26320065dd732ea483e50",
+      "source_url": "https://github.com/Paldom/video-to-skill/blob/576f5ea880f965091be26320065dd732ea483e50/skills/video-keyframes/SKILL.md",
+      "size_bytes": 4627,
+      "sha256": "97e80f826b2d784541bf01eec2d398ecd066a144d9310dbde856afa993ed5fd8",
+      "git_blob_sha1": "38a76559b2c1107d2bb24fa7ba72e529f1f67bc6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-01c94cc5aac6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Paldom/video-to-skill/blob/576f5ea880f965091be26320065dd732ea483e50/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Paldom__video-to-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Paldom__video-to-skill/LICENSE",
+      "repository": "Paldom/video-to-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "576f5ea880f965091be26320065dd732ea483e50",
+      "source_url": "https://github.com/Paldom/video-to-skill/blob/576f5ea880f965091be26320065dd732ea483e50/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "b7c3bef392d0aa0ee13c13c3ef9ffbafd07412fe2607d508bfa060015bec8a8e",
+      "git_blob_sha1": "278a025954e9a31a4a47c8bb006d3e067895bd45",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-01c94cc5aac6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Paldom/video-to-skill/blob/576f5ea880f965091be26320065dd732ea483e50/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Paldom__video-to-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ericmjl__skills/skills/video-script-writing/SKILL.md",
+      "repository": "ericmjl/skills",
+      "upstream_path": "skills/video-script-writing/SKILL.md",
+      "upstream_commit": "63d4b227b235fb727fffec39a893094591718081",
+      "source_url": "https://github.com/ericmjl/skills/blob/63d4b227b235fb727fffec39a893094591718081/skills/video-script-writing/SKILL.md",
+      "size_bytes": 13077,
+      "sha256": "02947931269a4362a260eb8b07fe24d2dea5424d57d72ac5526b53753a9e1866",
+      "git_blob_sha1": "acccc8d6aac22e95e2dfeaf6d54e33c76565b03b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fad748d25ddc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ericmjl/skills/blob/63d4b227b235fb727fffec39a893094591718081/skills/video-script-writing/SKILL.md",
+        "https://github.com/spdx/license-list-data/blob/279b7e997a87c09be00dd6bdda189519ade502cf/text/MIT.txt"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/spdx__license-list-data/text/MIT.txt"
+      ]
+    },
+    {
+      "file": "upstream/sliday__skills/visual-explanation/SKILL.md",
+      "repository": "sliday/skills",
+      "upstream_path": "visual-explanation/SKILL.md",
+      "upstream_commit": "e7263726be35ec334c7bfbb02de5f1fb4ba4326a",
+      "source_url": "https://github.com/sliday/skills/blob/e7263726be35ec334c7bfbb02de5f1fb4ba4326a/visual-explanation/SKILL.md",
+      "size_bytes": 8316,
+      "sha256": "bce280e6767e46a0c642d010f6221696fd9504b4095130e4f8c2f2431f9cafd4",
+      "git_blob_sha1": "a681a801ba23b24a81865dd810fb03995a5ae704",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1bbe8b1b6865"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/sliday/skills/blob/e7263726be35ec334c7bfbb02de5f1fb4ba4326a/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sliday__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/sliday__skills/LICENSE",
+      "repository": "sliday/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "e7263726be35ec334c7bfbb02de5f1fb4ba4326a",
+      "source_url": "https://github.com/sliday/skills/blob/e7263726be35ec334c7bfbb02de5f1fb4ba4326a/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "1f628241f53f55b79475bb02d64c34153d4a121a0d835fb5c322a544f4d6dedd",
+      "git_blob_sha1": "24339757613b8e30f082ebc40c2311ef44d9d5a8",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1bbe8b1b6865"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/sliday/skills/blob/e7263726be35ec334c7bfbb02de5f1fb4ba4326a/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/sliday__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/webapp-testing/SKILL.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/webapp-testing/SKILL.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/SKILL.md",
+      "size_bytes": 3913,
+      "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+      "git_blob_sha1": "4726215301db64a0cc4d41fc3219c61f37a30f4a",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02227e0289f9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt",
+      "repository": "anthropics/skills",
+      "upstream_path": "skills/webapp-testing/LICENSE.txt",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/LICENSE.txt",
+      "size_bytes": 11345,
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "git_blob_sha1": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02227e0289f9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+      "repository": "anthropics/skills",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_url": "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 46162,
+      "sha256": "a8ff7a84dee9dfb42ab448de281784387ceafdf63881b7c070ee2de7f6ed865c",
+      "git_blob_sha1": "ffef92c48b351a3ed036556ed32dda934e8cf41a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-02227e0289f9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/webapp-testing/LICENSE.txt",
+        "https://github.com/anthropics/skills/blob/dbd4588f9e1033efb41dad4bef2f7947c8993d44/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__skills/THIRD_PARTY_NOTICES.md",
+        "upstream/anthropics__skills/skills/algorithmic-art/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/zai-org__zcode-plugins/plugins/video-agent-kit/skills/video-edit-assembly/SKILL.md",
+      "repository": "zai-org/zcode-plugins",
+      "upstream_path": "plugins/video-agent-kit/skills/video-edit-assembly/SKILL.md",
+      "upstream_commit": "d5690038b1e36293ee684a49de12ae41084e25e8",
+      "source_url": "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/plugins/video-agent-kit/skills/video-edit-assembly/SKILL.md",
+      "size_bytes": 9041,
+      "sha256": "a6c93633c6178a793ea8065e911cbaded0191972d32b104fb8ef5c1294d64be4",
+      "git_blob_sha1": "9c694eed0ae1a6826d05d1cd9f0006da11130353",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-681bd683cc67"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "zai-org/zcode-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d5690038b1e36293ee684a49de12ae41084e25e8",
+      "source_url": "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-681bd683cc67"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zai-org__zcode-plugins/plugins/video-agent-kit/skills/video-recap-workflows/SKILL.md",
+      "repository": "zai-org/zcode-plugins",
+      "upstream_path": "plugins/video-agent-kit/skills/video-recap-workflows/SKILL.md",
+      "upstream_commit": "d5690038b1e36293ee684a49de12ae41084e25e8",
+      "source_url": "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/plugins/video-agent-kit/skills/video-recap-workflows/SKILL.md",
+      "size_bytes": 3510,
+      "sha256": "4ecfe9d6fdadf5762a0f48101bea3b42a1407e452b55561d16a1db6e9429c859",
+      "git_blob_sha1": "37c7941258705a8133b59687d43bde5cee2a2024",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c876cf764d61"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "zai-org/zcode-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d5690038b1e36293ee684a49de12ae41084e25e8",
+      "source_url": "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c876cf764d61"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/zai-org__zcode-plugins/plugins/video-agent-kit/skills/video-speech-workflows/SKILL.md",
+      "repository": "zai-org/zcode-plugins",
+      "upstream_path": "plugins/video-agent-kit/skills/video-speech-workflows/SKILL.md",
+      "upstream_commit": "d5690038b1e36293ee684a49de12ae41084e25e8",
+      "source_url": "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/plugins/video-agent-kit/skills/video-speech-workflows/SKILL.md",
+      "size_bytes": 1975,
+      "sha256": "b970e2805ab7181638798ebcb3caef71deaea6a8994998429393e800c5fe008c",
+      "git_blob_sha1": "f5384a01f0d320308d9462d4ee3af46cfb86e0eb",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-26bbcab9b2d3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "zai-org/zcode-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d5690038b1e36293ee684a49de12ae41084e25e8",
+      "source_url": "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-26bbcab9b2d3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/zai-org/zcode-plugins/blob/d5690038b1e36293ee684a49de12ae41084e25e8/LICENSE"
+      ],
+      "conditions": "Retain exact original bytes, attribution and full applicable notices; source entry only, no referenced media/assets/vendors. No endorsement or additional rights implied.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    }
+  ]
+}

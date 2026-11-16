@@ -1,0 +1,636 @@
+{
+  "batch": "0103",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 12,
+  "new_original_payload_paths": 21,
+  "files": [
+    {
+      "file": "upstream/harish-anumula__launch-video-skill/SKILL.md",
+      "repository": "harish-anumula/launch-video-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "7cd7478b8f5264956bb6b00e5d07f60911694541",
+      "source_url": "https://github.com/harish-anumula/launch-video-skill/blob/7cd7478b8f5264956bb6b00e5d07f60911694541/SKILL.md",
+      "size_bytes": 14103,
+      "sha256": "89e952ee469a6519e46fa4fcfb48716a36b629b18333a6e4a86d613a546619a0",
+      "git_blob_sha1": "2f03b972135fdf8fd2a5e319ff0c18a43984fcc5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6c3db972dc30"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/harish-anumula/launch-video-skill/blob/7cd7478b8f5264956bb6b00e5d07f60911694541/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/harish-anumula__launch-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/harish-anumula__launch-video-skill/LICENSE",
+      "repository": "harish-anumula/launch-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7cd7478b8f5264956bb6b00e5d07f60911694541",
+      "source_url": "https://github.com/harish-anumula/launch-video-skill/blob/7cd7478b8f5264956bb6b00e5d07f60911694541/LICENSE",
+      "size_bytes": 1077,
+      "sha256": "5f5c29e357266ba37c339de2b510784f220a40a0358848aaf75344707a340143",
+      "git_blob_sha1": "ccb6cd9675188c3fee9f0a51b3513a681a65b7a9",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6c3db972dc30"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/harish-anumula/launch-video-skill/blob/7cd7478b8f5264956bb6b00e5d07f60911694541/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/harish-anumula__launch-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/skills/reme_memory/SKILL.md",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "skills/reme_memory/SKILL.md",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/skills/reme_memory/SKILL.md",
+      "size_bytes": 9700,
+      "sha256": "6a059f72c116e81e57166aa510c642a4c6ce688a64d029198d08ea58b2a9529f",
+      "git_blob_sha1": "448532173f45ac1c794f0b1f9ff7deeb39ee7577",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-173e974db930"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/LICENSE",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE",
+      "size_bytes": 11343,
+      "sha256": "cc54d679aaced751c096f120b666355c106d9394d28f93f6df353973f6cd7dbe",
+      "git_blob_sha1": "65c2c5cf06d722c79d8105cfce97016491a7a7f4",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-173e974db930"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/clawic__skills/skills/learning/SKILL.md",
+      "repository": "clawic/skills",
+      "upstream_path": "skills/learning/SKILL.md",
+      "upstream_commit": "f825206afbf1c697202533a9187be68c7b697e0e",
+      "source_url": "https://github.com/clawic/skills/blob/f825206afbf1c697202533a9187be68c7b697e0e/skills/learning/SKILL.md",
+      "size_bytes": 13886,
+      "sha256": "2b152617ea74a0e7bbd3d3c19d69b5576625640e7ce939a1ce6ebc2985402294",
+      "git_blob_sha1": "0d7855e75527cb22d396a88ab4e3117cd093bd2e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-71573ab6c332"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/clawic/skills/blob/f825206afbf1c697202533a9187be68c7b697e0e/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/clawic__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/clawic__skills/LICENSE",
+      "repository": "clawic/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f825206afbf1c697202533a9187be68c7b697e0e",
+      "source_url": "https://github.com/clawic/skills/blob/f825206afbf1c697202533a9187be68c7b697e0e/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "5e2ec01df2d06488687a1593db3694d86fafa97e08cacce6024612a211c33afc",
+      "git_blob_sha1": "066f752f69339bfb5957da09258424da5bf6f98b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-71573ab6c332"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/clawic/skills/blob/f825206afbf1c697202533a9187be68c7b697e0e/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/clawic__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/GarethManning__education-agent-skills/skills/memory-learning-science/worked-example-fading-designer/SKILL.md",
+      "repository": "GarethManning/education-agent-skills",
+      "upstream_path": "skills/memory-learning-science/worked-example-fading-designer/SKILL.md",
+      "upstream_commit": "135d6275e7db0657d70b147f46d3191c5430677d",
+      "source_url": "https://github.com/GarethManning/education-agent-skills/blob/135d6275e7db0657d70b147f46d3191c5430677d/skills/memory-learning-science/worked-example-fading-designer/SKILL.md",
+      "size_bytes": 18691,
+      "sha256": "4a1a18c559f1dcdb7b7d73b1ddc6031478a0deb30966b13aaeacb3c9186616c3",
+      "git_blob_sha1": "14c88753417143b738a1a2d6761ac10105ff78f7",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d58c337d46b3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/GarethManning/education-agent-skills/blob/135d6275e7db0657d70b147f46d3191c5430677d/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/GarethManning__education-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/GarethManning__education-agent-skills/LICENSE",
+      "repository": "GarethManning/education-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "135d6275e7db0657d70b147f46d3191c5430677d",
+      "source_url": "https://github.com/GarethManning/education-agent-skills/blob/135d6275e7db0657d70b147f46d3191c5430677d/LICENSE",
+      "size_bytes": 1230,
+      "sha256": "f952182df4eb7dd43335fbb429388dbb0b101c944c734a8dc05643b189cb87b7",
+      "git_blob_sha1": "c1286baf485edf23727ab83bc756181212aff895",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d58c337d46b3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/GarethManning/education-agent-skills/blob/135d6275e7db0657d70b147f46d3191c5430677d/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/GarethManning__education-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mem0ai__mem0/integrations/codex-plugin/skills/remember/SKILL.md",
+      "repository": "mem0ai/mem0",
+      "upstream_path": "integrations/codex-plugin/skills/remember/SKILL.md",
+      "upstream_commit": "2c81af3bbe27d9bccb09c772d583df9e9be72ee5",
+      "source_url": "https://github.com/mem0ai/mem0/blob/2c81af3bbe27d9bccb09c772d583df9e9be72ee5/integrations/codex-plugin/skills/remember/SKILL.md",
+      "size_bytes": 978,
+      "sha256": "13ff665165b4cddde225759225cbefd1d9a825652cf352ce62506678d401e68d",
+      "git_blob_sha1": "7be5fc9be27cf5343b90841176bf406935c56e79",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d04480094e27"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/mem0ai/mem0/blob/2c81af3bbe27d9bccb09c772d583df9e9be72ee5/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mem0ai__mem0/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/mem0ai__mem0/LICENSE",
+      "repository": "mem0ai/mem0",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2c81af3bbe27d9bccb09c772d583df9e9be72ee5",
+      "source_url": "https://github.com/mem0ai/mem0/blob/2c81af3bbe27d9bccb09c772d583df9e9be72ee5/LICENSE",
+      "size_bytes": 11349,
+      "sha256": "0bbcbe931c353293a2fafce08326181dfeea0e568c566afd4ce8337a70f5e219",
+      "git_blob_sha1": "d20d5102c3cf97ecbee54afd65893de4a11d26fe",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d04480094e27"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/mem0ai/mem0/blob/2c81af3bbe27d9bccb09c772d583df9e9be72ee5/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/mem0ai__mem0/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wgwtest__novel-writing/novel-writing/SKILL.md",
+      "repository": "wgwtest/novel-writing",
+      "upstream_path": "novel-writing/SKILL.md",
+      "upstream_commit": "838729695148008d42c01bd7c3c0c1a5c15de830",
+      "source_url": "https://github.com/wgwtest/novel-writing/blob/838729695148008d42c01bd7c3c0c1a5c15de830/novel-writing/SKILL.md",
+      "size_bytes": 12551,
+      "sha256": "471709f925903017dca84c2e78b9390f3ebfe4b3e9b62c5a2dcd385c66c08b31",
+      "git_blob_sha1": "65347106c755c23afa086297a7554c47467d4fb5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54d98ac996b6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/wgwtest/novel-writing/blob/838729695148008d42c01bd7c3c0c1a5c15de830/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wgwtest__novel-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/wgwtest__novel-writing/LICENSE",
+      "repository": "wgwtest/novel-writing",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "838729695148008d42c01bd7c3c0c1a5c15de830",
+      "source_url": "https://github.com/wgwtest/novel-writing/blob/838729695148008d42c01bd7c3c0c1a5c15de830/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "71a054018d523abc58f726cf52ae58e888724b3ebc563133af957dc5d6a8d84a",
+      "git_blob_sha1": "5b51aeda90ec682d8204d45201b08ff9b26ffd6b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-54d98ac996b6"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/wgwtest/novel-writing/blob/838729695148008d42c01bd7c3c0c1a5c15de830/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/wgwtest__novel-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/appergb__ClipSkills/clip-skills/SKILL.md",
+      "repository": "appergb/ClipSkills",
+      "upstream_path": "clip-skills/SKILL.md",
+      "upstream_commit": "4d85c26f57111c9b0df894981cfef44d1d6bdb6b",
+      "source_url": "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/clip-skills/SKILL.md",
+      "size_bytes": 9641,
+      "sha256": "66dc75155dae18c20139fcc3f3744c58fff0f62c85a93972aa10ed24dd584400",
+      "git_blob_sha1": "329c50d23783bbb5b4aa39dc7d2ec855cc00738c",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eabb83b046c2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/LICENSE",
+        "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/clip-skills/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/appergb__ClipSkills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/appergb__ClipSkills/LICENSE",
+      "repository": "appergb/ClipSkills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4d85c26f57111c9b0df894981cfef44d1d6bdb6b",
+      "source_url": "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/LICENSE",
+      "size_bytes": 2238,
+      "sha256": "c2fb9660fe50c17b4f55a6d131e47205859ad49b0180b6283486dd9170257b49",
+      "git_blob_sha1": "4b44270cc8558b295419b5e82f743cb50a65c814",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eabb83b046c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/LICENSE",
+        "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/clip-skills/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/appergb__ClipSkills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/appergb__ClipSkills/LICENSE",
+      "repository": "appergb/ClipSkills",
+      "upstream_path": "clip-skills/LICENSE.txt",
+      "upstream_commit": "4d85c26f57111c9b0df894981cfef44d1d6bdb6b",
+      "source_url": "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/clip-skills/LICENSE.txt",
+      "size_bytes": 2238,
+      "sha256": "c2fb9660fe50c17b4f55a6d131e47205859ad49b0180b6283486dd9170257b49",
+      "git_blob_sha1": "4b44270cc8558b295419b5e82f743cb50a65c814",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-eabb83b046c2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/LICENSE",
+        "https://github.com/appergb/ClipSkills/blob/4d85c26f57111c9b0df894981cfef44d1d6bdb6b/clip-skills/LICENSE.txt"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/appergb__ClipSkills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calesthio__generative-media-skills/skills/production/content-formats/documentary-montage-production/SKILL.md",
+      "repository": "calesthio/generative-media-skills",
+      "upstream_path": "skills/production/content-formats/documentary-montage-production/SKILL.md",
+      "upstream_commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/content-formats/documentary-montage-production/SKILL.md",
+      "size_bytes": 27616,
+      "sha256": "afd36a061781589ee6e1e6e5284c44aa9d912eb4fa675ee7522fd0510e0d41e4",
+      "git_blob_sha1": "0df6faca8a1dbd766412e01cbfa582e8491d0fa9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0c9881a59795"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/calesthio__generative-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calesthio__generative-media-skills/LICENSE",
+      "repository": "calesthio/generative-media-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+      "size_bytes": 1093,
+      "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93",
+      "git_blob_sha1": "9b4e374d126c3c22fabdcfad32e9dbc2d38bbd84",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0c9881a59795"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/calesthio__generative-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calimike74__music-tech-teaching-skills/skills/error-based-learning/erroneous-example-designer/SKILL.md",
+      "repository": "calimike74/music-tech-teaching-skills",
+      "upstream_path": "skills/error-based-learning/erroneous-example-designer/SKILL.md",
+      "upstream_commit": "8e8e64353d7028ebca1d79797b542038713c5afa",
+      "source_url": "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/skills/error-based-learning/erroneous-example-designer/SKILL.md",
+      "size_bytes": 33201,
+      "sha256": "2fefceaac893365a945247ae4c78defbdfccd9259db80a08062128f85ce95579",
+      "git_blob_sha1": "69d3e84ad72d9d96a378904cede2b9814c03168d",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fc18c06d6ce9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/calimike74__music-tech-teaching-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calimike74__music-tech-teaching-skills/LICENSE",
+      "repository": "calimike74/music-tech-teaching-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8e8e64353d7028ebca1d79797b542038713c5afa",
+      "source_url": "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/LICENSE",
+      "size_bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "git_blob_sha1": "2d58298e6eda10e7204abb52722efbc840db2390",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fc18c06d6ce9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/calimike74__music-tech-teaching-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calimike74__music-tech-teaching-skills/skills/retrieval-practice/hinge-question-designer/SKILL.md",
+      "repository": "calimike74/music-tech-teaching-skills",
+      "upstream_path": "skills/retrieval-practice/hinge-question-designer/SKILL.md",
+      "upstream_commit": "8e8e64353d7028ebca1d79797b542038713c5afa",
+      "source_url": "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/skills/retrieval-practice/hinge-question-designer/SKILL.md",
+      "size_bytes": 30382,
+      "sha256": "30565f6e4b779f914f8a11c9eaa561b251d0ede221f9fb2d0357106a0695b156",
+      "git_blob_sha1": "fe26908b8cdb775376c2729c810b15adf6059b61",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5a508af2877c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/calimike74__music-tech-teaching-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calimike74__music-tech-teaching-skills/LICENSE",
+      "repository": "calimike74/music-tech-teaching-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8e8e64353d7028ebca1d79797b542038713c5afa",
+      "source_url": "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/LICENSE",
+      "size_bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "git_blob_sha1": "2d58298e6eda10e7204abb52722efbc840db2390",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5a508af2877c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/calimike74/music-tech-teaching-skills/blob/8e8e64353d7028ebca1d79797b542038713c5afa/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/calimike74__music-tech-teaching-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/elevenlabs__skills/music/SKILL.md",
+      "repository": "elevenlabs/skills",
+      "upstream_path": "music/SKILL.md",
+      "upstream_commit": "9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421",
+      "source_url": "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/music/SKILL.md",
+      "size_bytes": 14225,
+      "sha256": "7d868f6f5a09131c11bbeccf9142cbb3cbdc27b5c47cd788c57cb5f35392763d",
+      "git_blob_sha1": "4126f7fb1b99d3bd42d12a9a888f5766ba59be4b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-495be63d5dca"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/elevenlabs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/elevenlabs__skills/LICENSE",
+      "repository": "elevenlabs/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421",
+      "source_url": "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "4ab5e9af2296f748eefa6c0696667f83aa9c0edda7b6972785966b60644b3da6",
+      "git_blob_sha1": "61c1c47ce5964af14a44759b75bd61e5925a898c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-495be63d5dca"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/elevenlabs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/elevenlabs__skills/sound-effects/SKILL.md",
+      "repository": "elevenlabs/skills",
+      "upstream_path": "sound-effects/SKILL.md",
+      "upstream_commit": "9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421",
+      "source_url": "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/sound-effects/SKILL.md",
+      "size_bytes": 4229,
+      "sha256": "f032efd853426b15568a3e1f135f9c6ad8dd983e8c4f265aad58675d78e72ae3",
+      "git_blob_sha1": "5fb3e8772b42bee2401199d9b6b136aa80ef700e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4a61fdfeaf18"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/elevenlabs__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/elevenlabs__skills/LICENSE",
+      "repository": "elevenlabs/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421",
+      "source_url": "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "4ab5e9af2296f748eefa6c0696667f83aa9c0edda7b6972785966b60644b3da6",
+      "git_blob_sha1": "61c1c47ce5964af14a44759b75bd61e5925a898c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4a61fdfeaf18"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/elevenlabs/skills/blob/9a1a4b7fbb6ca02fbdc7f44f2271e6c829d0f421/LICENSE"
+      ],
+      "conditions": "Preserve unchanged source, attribution, full applicable copyright and license notices; selected original text only, no linked media/dependencies/service rights. CC material remains under its stated license; no changes made.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/elevenlabs__skills/LICENSE"
+      ]
+    }
+  ]
+}

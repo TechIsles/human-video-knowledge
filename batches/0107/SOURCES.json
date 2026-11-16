@@ -1,0 +1,658 @@
+{
+  "batch": "0107",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 13,
+  "new_original_payload_paths": 21,
+  "files": [
+    {
+      "file": "upstream/paldom__storytelling-animation/skills/vector-scene-layout/SKILL.md",
+      "repository": "paldom/storytelling-animation",
+      "upstream_path": "skills/vector-scene-layout/SKILL.md",
+      "upstream_commit": "2c6dd3408ac13d3695cf3246da16b1c671a1ed30",
+      "source_url": "https://github.com/Paldom/storytelling-animation/blob/2c6dd3408ac13d3695cf3246da16b1c671a1ed30/skills/vector-scene-layout/SKILL.md",
+      "size_bytes": 6525,
+      "sha256": "90067c8016e1f0c5b3470dd062d5f5e18984956a00d8b30254ef2fc73939dec8",
+      "git_blob_sha1": "ab917f8c401647fa01a15ee454bdc765c2a43518",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fb36cf647130"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/paldom/storytelling-animation/blob/2c6dd3408ac13d3695cf3246da16b1c671a1ed30/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Paldom__video-to-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Paldom__video-to-skill/LICENSE",
+      "repository": "paldom/storytelling-animation",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2c6dd3408ac13d3695cf3246da16b1c671a1ed30",
+      "source_url": "https://github.com/Paldom/storytelling-animation/blob/2c6dd3408ac13d3695cf3246da16b1c671a1ed30/LICENSE",
+      "size_bytes": 1063,
+      "sha256": "b7c3bef392d0aa0ee13c13c3ef9ffbafd07412fe2607d508bfa060015bec8a8e",
+      "git_blob_sha1": "278a025954e9a31a4a47c8bb006d3e067895bd45",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fb36cf647130"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/paldom/storytelling-animation/blob/2c6dd3408ac13d3695cf3246da16b1c671a1ed30/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Paldom__video-to-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/emilkowalski__skills/skills/review-animations/SKILL.md",
+      "repository": "emilkowalski/skills",
+      "upstream_path": "skills/review-animations/SKILL.md",
+      "upstream_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_url": "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/skills/review-animations/SKILL.md",
+      "size_bytes": 8407,
+      "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af",
+      "git_blob_sha1": "577a64397267ce20960de2202950594d5bd6f9b6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c62fa00776b5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/emilkowalski__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/emilkowalski__skills/LICENSE",
+      "repository": "emilkowalski/skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source_url": "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "git_blob_sha1": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c62fa00776b5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/emilkowalski/skills/blob/2d228630ba1446365f614a108cb8252f1feda202/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/emilkowalski__skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/seaartpublic__skills/storyboard-prompt-assistant/SKILL.md",
+      "repository": "seaartpublic/skills",
+      "upstream_path": "storyboard-prompt-assistant/SKILL.md",
+      "upstream_commit": "a3edc17605d525b54b2a5f61a4800f2dd8dd8b30",
+      "source_url": "https://github.com/seaartpublic/skills/blob/a3edc17605d525b54b2a5f61a4800f2dd8dd8b30/storyboard-prompt-assistant/SKILL.md",
+      "size_bytes": 9560,
+      "sha256": "4595df3024bb826b9a97bfd9b79cccc628b1ab5aca712d9dca81547efb0785f2",
+      "git_blob_sha1": "08150e218b741bda12dffb943df6af3e095efe7a",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1fa512e8c793"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/seaartpublic/skills/blob/a3edc17605d525b54b2a5f61a4800f2dd8dd8b30/LICENSE.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/seaartpublic__skills/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/seaartpublic__skills/LICENSE.txt",
+      "repository": "seaartpublic/skills",
+      "upstream_path": "LICENSE.txt",
+      "upstream_commit": "a3edc17605d525b54b2a5f61a4800f2dd8dd8b30",
+      "source_url": "https://github.com/seaartpublic/skills/blob/a3edc17605d525b54b2a5f61a4800f2dd8dd8b30/LICENSE.txt",
+      "size_bytes": 1066,
+      "sha256": "3495aca62fd124c5598f016d5e15a59a4129ee6781bf7ee39eb44fadd80647a1",
+      "git_blob_sha1": "e5003320cfe81aed3df350248ed505584555314a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1fa512e8c793"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/seaartpublic/skills/blob/a3edc17605d525b54b2a5f61a4800f2dd8dd8b30/LICENSE.txt"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/seaartpublic__skills/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/goodnight000__cstack/skills/animated-video/SKILL.md",
+      "repository": "goodnight000/cstack",
+      "upstream_path": "skills/animated-video/SKILL.md",
+      "upstream_commit": "72c4a9be18c1a7d455ecc3f5a4d4547725970a10",
+      "source_url": "https://github.com/goodnight000/cstack/blob/72c4a9be18c1a7d455ecc3f5a4d4547725970a10/skills/animated-video/SKILL.md",
+      "size_bytes": 8470,
+      "sha256": "11eab0fc344d3f4c652a7b133d240b5bd9d878d579aecebd7eb2528f77b4f463",
+      "git_blob_sha1": "9c2102ce9ed84eeac6182b16435dd5f4009dc11b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92ccc4ef2aac"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/goodnight000/cstack/blob/72c4a9be18c1a7d455ecc3f5a4d4547725970a10/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/goodnight000__cstack/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/goodnight000__cstack/LICENSE",
+      "repository": "goodnight000/cstack",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "72c4a9be18c1a7d455ecc3f5a4d4547725970a10",
+      "source_url": "https://github.com/goodnight000/cstack/blob/72c4a9be18c1a7d455ecc3f5a4d4547725970a10/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "26ecd7af471b845f54e365909e162d23e61c960c89637a36faf9f6f0a7c52869",
+      "git_blob_sha1": "f33d6f8654a770522d0c12502b8e61d63e2afd87",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-92ccc4ef2aac"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/goodnight000/cstack/blob/72c4a9be18c1a7d455ecc3f5a4d4547725970a10/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/goodnight000__cstack/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TateZhouSiu__create-storyboard-skill/skills/create-storyboard/SKILL.md",
+      "repository": "TateZhouSiu/create-storyboard-skill",
+      "upstream_path": "skills/create-storyboard/SKILL.md",
+      "upstream_commit": "4b8662e2fee51b37488c77952bbfa302bfeaf36c",
+      "source_url": "https://github.com/TateZhouSiu/create-storyboard-skill/blob/4b8662e2fee51b37488c77952bbfa302bfeaf36c/skills/create-storyboard/SKILL.md",
+      "size_bytes": 19214,
+      "sha256": "b0069350469d0fa050038091acf684b5989e5018cad61ffabc7c6edb8c52eef5",
+      "git_blob_sha1": "7d229648da2d48a26b7f811571c4d7c7e8afb336",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ec27939598c4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/TateZhouSiu/create-storyboard-skill/blob/4b8662e2fee51b37488c77952bbfa302bfeaf36c/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TateZhouSiu__create-storyboard-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/TateZhouSiu__create-storyboard-skill/LICENSE",
+      "repository": "TateZhouSiu/create-storyboard-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4b8662e2fee51b37488c77952bbfa302bfeaf36c",
+      "source_url": "https://github.com/TateZhouSiu/create-storyboard-skill/blob/4b8662e2fee51b37488c77952bbfa302bfeaf36c/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "bbdbaab4a5da253e18cf0d5532f5caf45b9d2be03bb942819e37c5f325d7da4b",
+      "git_blob_sha1": "9a3e3406bd7559f1c72880f0252b73a7ec22703b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ec27939598c4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/TateZhouSiu/create-storyboard-skill/blob/4b8662e2fee51b37488c77952bbfa302bfeaf36c/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/TateZhouSiu__create-storyboard-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Jun0zo__visual-explanation-engine/skills/visual-explanation-engine/SKILL.md",
+      "repository": "Jun0zo/visual-explanation-engine",
+      "upstream_path": "skills/visual-explanation-engine/SKILL.md",
+      "upstream_commit": "9357c8df8b74fd71d368567f492deeaad5ac8cf6",
+      "source_url": "https://github.com/Jun0zo/visual-explanation-engine/blob/9357c8df8b74fd71d368567f492deeaad5ac8cf6/skills/visual-explanation-engine/SKILL.md",
+      "size_bytes": 15592,
+      "sha256": "3fd7ffc28161c9e9735fbe707962853eab1f5e7e59c3405540279a03b69f585e",
+      "git_blob_sha1": "884ddc296337d0d88d7e6fec346ab5d23a4a74f6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b85f6284b048"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Jun0zo/visual-explanation-engine/blob/9357c8df8b74fd71d368567f492deeaad5ac8cf6/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Jun0zo__visual-explanation-engine/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Jun0zo__visual-explanation-engine/LICENSE",
+      "repository": "Jun0zo/visual-explanation-engine",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "9357c8df8b74fd71d368567f492deeaad5ac8cf6",
+      "source_url": "https://github.com/Jun0zo/visual-explanation-engine/blob/9357c8df8b74fd71d368567f492deeaad5ac8cf6/LICENSE",
+      "size_bytes": 1095,
+      "sha256": "87a167f17eacdb11883ec7b8b64c49e0a5f0b10f6ab7a12529f067190f8bc910",
+      "git_blob_sha1": "4623fbd9e1becba76966320ae49a876b6435fca0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b85f6284b048"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Jun0zo/visual-explanation-engine/blob/9357c8df8b74fd71d368567f492deeaad5ac8cf6/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Jun0zo__visual-explanation-engine/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/D1124423017__story-forge/SKILL.md",
+      "repository": "D1124423017/story-forge",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "b5655259c23deee3f31c762940b079e886d7bf11",
+      "source_url": "https://github.com/D1124423017/story-forge/blob/b5655259c23deee3f31c762940b079e886d7bf11/SKILL.md",
+      "size_bytes": 24931,
+      "sha256": "89314b47ebf82a2422e9691f087eaa18dc310f1598a9e13626b5ddc1c12b13fb",
+      "git_blob_sha1": "76188d90ec6bc0ef3937a80ddae7eae1545f9f2f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8891bbd9ccee"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/D1124423017/story-forge/blob/b5655259c23deee3f31c762940b079e886d7bf11/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/D1124423017__story-forge/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/D1124423017__story-forge/LICENSE",
+      "repository": "D1124423017/story-forge",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b5655259c23deee3f31c762940b079e886d7bf11",
+      "source_url": "https://github.com/D1124423017/story-forge/blob/b5655259c23deee3f31c762940b079e886d7bf11/LICENSE",
+      "size_bytes": 1081,
+      "sha256": "b9a0564e2c7ad7d56ee1f58964f257168983357c4d079548fcd01972d1c13e6d",
+      "git_blob_sha1": "f97853634ab56add2a07046e9dcd28963a5285ba",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8891bbd9ccee"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/D1124423017/story-forge/blob/b5655259c23deee3f31c762940b079e886d7bf11/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/D1124423017__story-forge/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calesthio__generative-media-skills/skills/production/audio-craft/dialogue-editing-adr/SKILL.md",
+      "repository": "calesthio/generative-media-skills",
+      "upstream_path": "skills/production/audio-craft/dialogue-editing-adr/SKILL.md",
+      "upstream_commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/audio-craft/dialogue-editing-adr/SKILL.md",
+      "size_bytes": 23638,
+      "sha256": "65cc4b4e182116bc5dbb7fd7d0184f49ff7085d01bcde02a877b56d5f3f8a905",
+      "git_blob_sha1": "8d1fa2c87a5cb924c4c56e2ca6595046ec344e23",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e2af7f3665d0"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/calesthio__generative-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calesthio__generative-media-skills/LICENSE",
+      "repository": "calesthio/generative-media-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+      "size_bytes": 1093,
+      "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93",
+      "git_blob_sha1": "9b4e374d126c3c22fabdcfad32e9dbc2d38bbd84",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e2af7f3665d0"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/calesthio__generative-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/affaan-m__ECC/skills/video-editing/SKILL.md",
+      "repository": "affaan-m/ECC",
+      "upstream_path": "skills/video-editing/SKILL.md",
+      "upstream_commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+      "source_url": "https://github.com/affaan-m/ECC/blob/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/skills/video-editing/SKILL.md",
+      "size_bytes": 11754,
+      "sha256": "4ab8c9ef5a511e8a0de9ed375b9edbbfa74f23a0881519d2aceea67e7252b197",
+      "git_blob_sha1": "524f075989aff50a74ca3b3159b6a9200eee82fa",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6e083d669b1e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/affaan-m/ECC/blob/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/affaan-m__ecc/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/affaan-m__ecc/LICENSE",
+      "repository": "affaan-m/ECC",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+      "source_url": "https://github.com/affaan-m/ECC/blob/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "git_blob_sha1": "b832b6f642312312367c07688dc7426db40a82ed",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6e083d669b1e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/affaan-m/ECC/blob/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/affaan-m__ecc/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calesthio__generative-media-skills/skills/production/post-production/editing-montage/SKILL.md",
+      "repository": "calesthio/generative-media-skills",
+      "upstream_path": "skills/production/post-production/editing-montage/SKILL.md",
+      "upstream_commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/skills/production/post-production/editing-montage/SKILL.md",
+      "size_bytes": 30783,
+      "sha256": "c1cc77a249f5607d11ab4b562a3982dfc61583a5f79dfbcc3755550fcc5cfe1a",
+      "git_blob_sha1": "eaaa3ffd5409d9ee2c2e37f4b57063f3d62fcf89",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-238109873ed8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/calesthio__generative-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/calesthio__generative-media-skills/LICENSE",
+      "repository": "calesthio/generative-media-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "8c85352d5d75d4dcbe58480bd138e37b9742bab1",
+      "source_url": "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE",
+      "size_bytes": 1093,
+      "sha256": "27570f011a5a53e84412bcb6abcce17654c4e2b0e68c3522dca8885de7deaf93",
+      "git_blob_sha1": "9b4e374d126c3c22fabdcfad32e9dbc2d38bbd84",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-238109873ed8"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/calesthio/generative-media-skills/blob/8c85352d5d75d4dcbe58480bd138e37b9742bab1/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/calesthio__generative-media-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/filipenevola__fable-video-edit/SKILL.md",
+      "repository": "filipenevola/fable-video-edit",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "fdc4f5e44f07ee907b06f98438872f5a66b14ba4",
+      "source_url": "https://github.com/filipenevola/fable-video-edit/blob/fdc4f5e44f07ee907b06f98438872f5a66b14ba4/SKILL.md",
+      "size_bytes": 9057,
+      "sha256": "75a3a315d61f1402eb134ec3faf4dbde81f0a92a00a9dd491173335862fe68ad",
+      "git_blob_sha1": "fa26dbcfdc726b8fc000970c731de46c5c1fda46",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e1e7e7545bfb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/filipenevola/fable-video-edit/blob/fdc4f5e44f07ee907b06f98438872f5a66b14ba4/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/filipenevola__fable-video-edit/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/filipenevola__fable-video-edit/LICENSE",
+      "repository": "filipenevola/fable-video-edit",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "fdc4f5e44f07ee907b06f98438872f5a66b14ba4",
+      "source_url": "https://github.com/filipenevola/fable-video-edit/blob/fdc4f5e44f07ee907b06f98438872f5a66b14ba4/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "5d398d644f41def1c0159aa0455adb55f35957e008a17bc5012f9377b0947627",
+      "git_blob_sha1": "57b0481fe6328bc8fbc3e62311116b1e5f62279e",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e1e7e7545bfb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/filipenevola/fable-video-edit/blob/fdc4f5e44f07ee907b06f98438872f5a66b14ba4/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/filipenevola__fable-video-edit/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HeyChengC__vibe-knowledge-film/SKILL.md",
+      "repository": "HeyChengC/vibe-knowledge-film",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "62d51508aad00003dc6209afa80c4b5dc540de59",
+      "source_url": "https://github.com/HeyChengC/vibe-knowledge-film/blob/62d51508aad00003dc6209afa80c4b5dc540de59/SKILL.md",
+      "size_bytes": 16098,
+      "sha256": "9e624409db72487bcf1421335f56d18daeb7275618961e605d6e215fab1fdfbc",
+      "git_blob_sha1": "4b47af292ee86936fa4791f687173cbcad7a9549",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5e7a1f63448c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/HeyChengC/vibe-knowledge-film/blob/62d51508aad00003dc6209afa80c4b5dc540de59/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. License explicitly excludes reference-film captions/designs in references/analysis.md, references/prompts.md section 2, references/visualization.md and examples/stim_B, examples/info_C. None of those excluded files included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HeyChengC__vibe-knowledge-film/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HeyChengC__vibe-knowledge-film/LICENSE",
+      "repository": "HeyChengC/vibe-knowledge-film",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "62d51508aad00003dc6209afa80c4b5dc540de59",
+      "source_url": "https://github.com/HeyChengC/vibe-knowledge-film/blob/62d51508aad00003dc6209afa80c4b5dc540de59/LICENSE",
+      "size_bytes": 1555,
+      "sha256": "88fdc6443b28865287754012191fb3925bd9b1255e68ed097c33b7714a5a759c",
+      "git_blob_sha1": "94046ad4856bb89023c9cd3a0ed2bb44782448fe",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5e7a1f63448c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/HeyChengC/vibe-knowledge-film/blob/62d51508aad00003dc6209afa80c4b5dc540de59/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included. License explicitly excludes reference-film captions/designs in references/analysis.md, references/prompts.md section 2, references/visualization.md and examples/stim_B, examples/info_C. None of those excluded files included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HeyChengC__vibe-knowledge-film/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/jasonmarkppp__realshot-director/SKILL.md",
+      "repository": "jasonmarkppp/realshot-director",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "b7501d6ca5645efe3148a038fde0760fdd31e812",
+      "source_url": "https://github.com/jasonmarkppp/realshot-director/blob/b7501d6ca5645efe3148a038fde0760fdd31e812/SKILL.md",
+      "size_bytes": 20734,
+      "sha256": "5863c8e9972bd293a392479e03f47c1a0d475e3a39b53fdfab707e22afc5e7a4",
+      "git_blob_sha1": "dae14620861e010f6a79eb1858d046b2a44d8ad5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f53b56daadec"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/jasonmarkppp/realshot-director/blob/b7501d6ca5645efe3148a038fde0760fdd31e812/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jasonmarkppp__realshot-director/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/jasonmarkppp__realshot-director/LICENSE",
+      "repository": "jasonmarkppp/realshot-director",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b7501d6ca5645efe3148a038fde0760fdd31e812",
+      "source_url": "https://github.com/jasonmarkppp/realshot-director/blob/b7501d6ca5645efe3148a038fde0760fdd31e812/LICENSE",
+      "size_bytes": 1087,
+      "sha256": "6bb01f823d83958ce3fb53fe6bf5b2a8d842225d12379886f58e62b40c89d8d7",
+      "git_blob_sha1": "6dc8a582e417668ef1e5d3542da7be8c7aaff5ef",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f53b56daadec"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/jasonmarkppp/realshot-director/blob/b7501d6ca5645efe3148a038fde0760fdd31e812/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes and complete license/attribution notices; no external media, dependencies or third-party linked material included.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/jasonmarkppp__realshot-director/LICENSE"
+      ]
+    }
+  ]
+}
