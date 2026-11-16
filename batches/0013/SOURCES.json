@@ -1,0 +1,188 @@
+{
+  "batch": "0013",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "QwenLM/Qwen-MM-Plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d7ca19a9c8b60f02a86350706ff5e19095c33850",
+      "source_url": "https://github.com/QwenLM/Qwen-MM-Plugins/blob/d7ca19a9c8b60f02a86350706ff5e19095c33850/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9a873c0cfd95"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/QwenLM/Qwen-MM-Plugins/blob/d7ca19a9c8b60f02a86350706ff5e19095c33850/LICENSE",
+        "https://github.com/QwenLM/Qwen-MM-Plugins/blob/d7ca19a9c8b60f02a86350706ff5e19095c33850/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/src/capabilities/video-edit/skill/SKILL.md",
+      "repository": "QwenLM/Qwen-MM-Plugins",
+      "upstream_path": "src/capabilities/video-edit/skill/SKILL.md",
+      "upstream_commit": "d7ca19a9c8b60f02a86350706ff5e19095c33850",
+      "source_url": "https://github.com/QwenLM/Qwen-MM-Plugins/blob/d7ca19a9c8b60f02a86350706ff5e19095c33850/src/capabilities/video-edit/skill/SKILL.md",
+      "size_bytes": 14645,
+      "sha256": "c4714a699c5916cc6e2774870de5d441393aa6731ca6fd4bd06369e919a4c634",
+      "git_blob_sha1": "48885b96e9b7907c6360cabb9300aa856a6caf84",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9a873c0cfd95"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/QwenLM/Qwen-MM-Plugins/blob/d7ca19a9c8b60f02a86350706ff5e19095c33850/LICENSE",
+        "https://github.com/QwenLM/Qwen-MM-Plugins/blob/d7ca19a9c8b60f02a86350706ff5e19095c33850/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ScrapeGraphAI__just-scrape/LICENSE",
+      "repository": "ScrapeGraphAI/just-scrape",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a3d179ffe2695c5bb7aacffec2c6018d3d9f056e",
+      "source_url": "https://github.com/ScrapeGraphAI/just-scrape/blob/a3d179ffe2695c5bb7aacffec2c6018d3d9f056e/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "7d794872f07421330bf8f822b869995fa112209c389cffe31e187d5edb9fcba4",
+      "git_blob_sha1": "a274c4fad3d3d70808b3eacbc53a3228a0d19682",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0a9649e1f617"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ScrapeGraphAI/just-scrape/blob/a3d179ffe2695c5bb7aacffec2c6018d3d9f056e/LICENSE",
+        "https://github.com/ScrapeGraphAI/just-scrape/blob/a3d179ffe2695c5bb7aacffec2c6018d3d9f056e/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ScrapeGraphAI__just-scrape/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ScrapeGraphAI__just-scrape/skills/just-scrape/SKILL.md",
+      "repository": "ScrapeGraphAI/just-scrape",
+      "upstream_path": "skills/just-scrape/SKILL.md",
+      "upstream_commit": "a3d179ffe2695c5bb7aacffec2c6018d3d9f056e",
+      "source_url": "https://github.com/ScrapeGraphAI/just-scrape/blob/a3d179ffe2695c5bb7aacffec2c6018d3d9f056e/skills/just-scrape/SKILL.md",
+      "size_bytes": 12117,
+      "sha256": "28b2d87fe0b5bc267ba9b8dae1592c4d74fe84b2a5f88b2b805c86b4010bb847",
+      "git_blob_sha1": "03b57e7f24156996f002166cd5f9fe832dd65b06",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0a9649e1f617"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ScrapeGraphAI/just-scrape/blob/a3d179ffe2695c5bb7aacffec2c6018d3d9f056e/LICENSE",
+        "https://github.com/ScrapeGraphAI/just-scrape/blob/a3d179ffe2695c5bb7aacffec2c6018d3d9f056e/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ScrapeGraphAI__just-scrape/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ResearAI__DeepScientist/src/skills/figure-polish/SKILL.md",
+      "repository": "ResearAI/DeepScientist",
+      "upstream_path": "src/skills/figure-polish/SKILL.md",
+      "upstream_commit": "b36624417f0c6b8238ec02db37b94d6db2faa5b0",
+      "source_url": "https://github.com/ResearAI/DeepScientist/blob/b36624417f0c6b8238ec02db37b94d6db2faa5b0/src/skills/figure-polish/SKILL.md",
+      "size_bytes": 6615,
+      "sha256": "1182e639908b71866eb506ea5b21d37bd0b4680afff0c9511947650205f28e1c",
+      "git_blob_sha1": "5af802cb1879717e70f0cfa3d7888c9b4f46aeb8",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b6417fbc1f17"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ResearAI/DeepScientist/blob/b36624417f0c6b8238ec02db37b94d6db2faa5b0/LICENSE",
+        "https://github.com/ResearAI/DeepScientist/blob/b36624417f0c6b8238ec02db37b94d6db2faa5b0/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ResearAI__DeepScientist/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ResearAI__DeepScientist/LICENSE",
+      "repository": "ResearAI/DeepScientist",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b36624417f0c6b8238ec02db37b94d6db2faa5b0",
+      "source_url": "https://github.com/ResearAI/DeepScientist/blob/b36624417f0c6b8238ec02db37b94d6db2faa5b0/LICENSE",
+      "size_bytes": 10239,
+      "sha256": "7da7c1fd9f2c66c4ee6f5cb72abf36b8520964ed364dc516655051c87ce316c5",
+      "git_blob_sha1": "84a7e24ba88ed9ca17a7af831ef0bafc6ed781d4",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b6417fbc1f17"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ResearAI/DeepScientist/blob/b36624417f0c6b8238ec02db37b94d6db2faa5b0/LICENSE",
+        "https://github.com/ResearAI/DeepScientist/blob/b36624417f0c6b8238ec02db37b94d6db2faa5b0/README.md"
+      ],
+      "conditions": [
+        "Preserve all included copyright, permission and attribution notices; files unmodified.",
+        "Only selected original document, not its linked assets, dependencies, services, models or referenced tools.",
+        "Upstream instructions and performance claims are archival content, not executed or verified."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/ResearAI__DeepScientist/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "batch": "0017",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/Fangx-AI__cut-director/SKILL.md",
+      "repository": "Fangx-AI/cut-director",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4",
+      "source_url": "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/SKILL.md",
+      "size_bytes": 2482,
+      "sha256": "aabb3b73fd1fd01af02068f0c28289a0b0dc81ac03af1b01348422288e752fa5",
+      "git_blob_sha1": "2a5f853b5beb47b53a4f285d34a4ab6638c9bd35",
+      "role": "canonical_skill_document",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-86ec31f490eb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/NOTICE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSES/CC-BY-SA-4.0.txt"
+      ],
+      "conditions": [
+        "Retain LICENSE, NOTICE and complete CC-BY-SA-4.0 legal text with the unchanged SKILL.md.",
+        "Required attribution: CutDirector by Fangx-AI; https://github.com/Fangx-AI/cut-director; Licensed under CC BY-SA 4.0. Original selected files unchanged.",
+        "Retain copyright, attribution, license reference, disclaimer and upstream URI; identify any later changes. Shared adaptations must comply with ShareAlike; do not impose additional restrictions or DRM.",
+        "No trademark, brand or endorsement rights claimed. Software, assets, linked references and dependencies are not included; no AGPL code coverage or runtime verification claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Fangx-AI__cut-director/LICENSE",
+        "upstream/Fangx-AI__cut-director/LICENSES/CC-BY-SA-4.0.txt",
+        "upstream/Fangx-AI__cut-director/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/Fangx-AI__cut-director/LICENSE",
+      "repository": "Fangx-AI/cut-director",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4",
+      "source_url": "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSE",
+      "size_bytes": 1748,
+      "sha256": "1bd7751d0a942ef443214b9dd9bb0c31cca8120d67038bcf42993ba07e45e377",
+      "git_blob_sha1": "88c472401511b34bca09c16dfc8f30f7f93b9ade",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-86ec31f490eb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/NOTICE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSES/CC-BY-SA-4.0.txt"
+      ],
+      "conditions": [
+        "Retain LICENSE, NOTICE and complete CC-BY-SA-4.0 legal text with the unchanged SKILL.md.",
+        "Required attribution: CutDirector by Fangx-AI; https://github.com/Fangx-AI/cut-director; Licensed under CC BY-SA 4.0. Original selected files unchanged.",
+        "Retain copyright, attribution, license reference, disclaimer and upstream URI; identify any later changes. Shared adaptations must comply with ShareAlike; do not impose additional restrictions or DRM.",
+        "No trademark, brand or endorsement rights claimed. Software, assets, linked references and dependencies are not included; no AGPL code coverage or runtime verification claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Fangx-AI__cut-director/LICENSE",
+        "upstream/Fangx-AI__cut-director/LICENSES/CC-BY-SA-4.0.txt",
+        "upstream/Fangx-AI__cut-director/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/Fangx-AI__cut-director/NOTICE",
+      "repository": "Fangx-AI/cut-director",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4",
+      "source_url": "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/NOTICE",
+      "size_bytes": 400,
+      "sha256": "0404576f3c6cb32a8069c56c3693b9075eaa6caf02b8a9bbf393e4a253b0e474",
+      "git_blob_sha1": "320c169a238a70a906b3888702cad10de75336e7",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-86ec31f490eb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/NOTICE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSES/CC-BY-SA-4.0.txt"
+      ],
+      "conditions": [
+        "Retain LICENSE, NOTICE and complete CC-BY-SA-4.0 legal text with the unchanged SKILL.md.",
+        "Required attribution: CutDirector by Fangx-AI; https://github.com/Fangx-AI/cut-director; Licensed under CC BY-SA 4.0. Original selected files unchanged.",
+        "Retain copyright, attribution, license reference, disclaimer and upstream URI; identify any later changes. Shared adaptations must comply with ShareAlike; do not impose additional restrictions or DRM.",
+        "No trademark, brand or endorsement rights claimed. Software, assets, linked references and dependencies are not included; no AGPL code coverage or runtime verification claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Fangx-AI__cut-director/LICENSE",
+        "upstream/Fangx-AI__cut-director/LICENSES/CC-BY-SA-4.0.txt",
+        "upstream/Fangx-AI__cut-director/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/Fangx-AI__cut-director/LICENSES/CC-BY-SA-4.0.txt",
+      "repository": "Fangx-AI/cut-director",
+      "upstream_path": "LICENSES/CC-BY-SA-4.0.txt",
+      "upstream_commit": "4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4",
+      "source_url": "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSES/CC-BY-SA-4.0.txt",
+      "size_bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "git_blob_sha1": "7d4f96c54aa155a17387e64501c50b6a0469932c",
+      "role": "license_notice",
+      "license": "CC-BY-SA-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-86ec31f490eb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/NOTICE",
+        "https://github.com/Fangx-AI/cut-director/blob/4981008cd7a9d2afb7c6f1d8d4cd61ddab73f0a4/LICENSES/CC-BY-SA-4.0.txt"
+      ],
+      "conditions": [
+        "Retain LICENSE, NOTICE and complete CC-BY-SA-4.0 legal text with the unchanged SKILL.md.",
+        "Required attribution: CutDirector by Fangx-AI; https://github.com/Fangx-AI/cut-director; Licensed under CC BY-SA 4.0. Original selected files unchanged.",
+        "Retain copyright, attribution, license reference, disclaimer and upstream URI; identify any later changes. Shared adaptations must comply with ShareAlike; do not impose additional restrictions or DRM.",
+        "No trademark, brand or endorsement rights claimed. Software, assets, linked references and dependencies are not included; no AGPL code coverage or runtime verification claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Fangx-AI__cut-director/LICENSE",
+        "upstream/Fangx-AI__cut-director/LICENSES/CC-BY-SA-4.0.txt",
+        "upstream/Fangx-AI__cut-director/NOTICE"
+      ]
+    }
+  ]
+}

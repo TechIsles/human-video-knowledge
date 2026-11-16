@@ -1,0 +1,51 @@
+CutDirector License Notice
+==========================
+
+Copyright (c) 2026 Fangx-AI and CutDirector contributors.
+https://github.com/Fangx-AI/cut-director
+
+1. Software
+-----------
+
+`scripts/**`, `tests/**`, `agents/**` and other source-code and configuration
+files are licensed under the GNU Affero General Public License, version 3 or
+any later version (`AGPL-3.0-or-later`). Full text: `LICENSES/AGPL-3.0-or-later.txt`.
+
+2. Documentation
+----------------
+
+`SKILL.md`, `README.md` and `references/**` are licensed under the Creative
+Commons Attribution-ShareAlike 4.0 International license (`CC BY-SA 4.0`).
+Full text: `LICENSES/CC-BY-SA-4.0.txt`.
+
+Required attribution for redistributed or adapted content:
+
+> CutDirector by Fangx-AI
+> https://github.com/Fangx-AI/cut-director
+> Licensed under CC BY-SA 4.0. Changes, if any, must be identified.
+
+3. Brand
+--------
+
+These licenses do not grant rights to use the CutDirector name, logo or visual
+identity in a way that suggests an official, endorsed or affiliated product.
+`assets/brand-banner.svg` is not licensed for independent redistribution or
+reuse; it may be shown when accurately linking to this repository.
+
+4. Your videos
+--------------
+
+Fangx-AI does not claim copyright in a user's video or other output merely
+because CutDirector was used to help create it. Users may monetize their own
+outputs.
+
+5. Contributions
+----------------
+
+A file-specific SPDX identifier or license notice overrides this mapping for
+that file. By contributing to a path covered here, a contributor licenses the
+contribution under that path's license and represents that they have the right
+to do so.
+
+This notice is a practical licensing map, not legal advice. Standard license
+texts control where applicable.

@@ -1,0 +1,188 @@
+{
+  "batch": "0014",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/EricZhangpku__ChemScript-Skill/.claude/skills/科普视频文案分镜/SKILL.md",
+      "repository": "EricZhangpku/ChemScript-Skill",
+      "upstream_path": ".claude/skills/科普视频文案分镜/SKILL.md",
+      "upstream_commit": "856c21f180f0d7ec8e00cd42be8fe360d4fffcd3",
+      "source_url": "https://github.com/EricZhangpku/ChemScript-Skill/blob/856c21f180f0d7ec8e00cd42be8fe360d4fffcd3/.claude/skills/%E7%A7%91%E6%99%AE%E8%A7%86%E9%A2%91%E6%96%87%E6%A1%88%E5%88%86%E9%95%9C/SKILL.md",
+      "size_bytes": 9531,
+      "sha256": "18bfca64a642173a89534b6879266a6929b7240c869917d03bf83f8dfe47bc1a",
+      "git_blob_sha1": "2e786d7a22c975b858809a49da0e0b88429de0ca",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-03a33a5b3f04"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/EricZhangpku/ChemScript-Skill/blob/856c21f180f0d7ec8e00cd42be8fe360d4fffcd3/LICENSE",
+        "https://github.com/EricZhangpku/ChemScript-Skill/blob/856c21f180f0d7ec8e00cd42be8fe360d4fffcd3/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright and permission notice with unchanged file.",
+        "Only selected document; linked examples, services, models, assets and dependencies excluded.",
+        "Archive only; upstream instructions not executed and claims not independently tested."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EricZhangpku__ChemScript-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/EricZhangpku__ChemScript-Skill/LICENSE",
+      "repository": "EricZhangpku/ChemScript-Skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "856c21f180f0d7ec8e00cd42be8fe360d4fffcd3",
+      "source_url": "https://github.com/EricZhangpku/ChemScript-Skill/blob/856c21f180f0d7ec8e00cd42be8fe360d4fffcd3/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "a2cd460eea8fe45198a657f3489e4211373c6f9207f51a869fda7c3cd292069d",
+      "git_blob_sha1": "eb2291ce918be88a7bdea8053ab432c1991cd8a6",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-03a33a5b3f04"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/EricZhangpku/ChemScript-Skill/blob/856c21f180f0d7ec8e00cd42be8fe360d4fffcd3/LICENSE",
+        "https://github.com/EricZhangpku/ChemScript-Skill/blob/856c21f180f0d7ec8e00cd42be8fe360d4fffcd3/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright and permission notice with unchanged file.",
+        "Only selected document; linked examples, services, models, assets and dependencies excluded.",
+        "Archive only; upstream instructions not executed and claims not independently tested."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EricZhangpku__ChemScript-Skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Fagan1024__smart-video-editor/SKILL.md",
+      "repository": "Fagan1024/smart-video-editor",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "3131d135bedd0b11913a1ff59b289bc10c226d2a",
+      "source_url": "https://github.com/Fagan1024/smart-video-editor/blob/3131d135bedd0b11913a1ff59b289bc10c226d2a/SKILL.md",
+      "size_bytes": 11187,
+      "sha256": "54b9af2d02caf1a55ac20af3c242afeac3315a2d6f0f77b540ab3fa2780bddb6",
+      "git_blob_sha1": "ae9fab75cfb31ec78757a99799ff052c0841e20f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8000f5d2f7f"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Fagan1024/smart-video-editor/blob/3131d135bedd0b11913a1ff59b289bc10c226d2a/LICENSE",
+        "https://github.com/Fagan1024/smart-video-editor/blob/3131d135bedd0b11913a1ff59b289bc10c226d2a/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright and permission notice with unchanged file.",
+        "Only selected document; linked examples, services, models, assets and dependencies excluded.",
+        "Archive only; upstream instructions not executed and claims not independently tested."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Fagan1024__smart-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Fagan1024__smart-video-editor/LICENSE",
+      "repository": "Fagan1024/smart-video-editor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "3131d135bedd0b11913a1ff59b289bc10c226d2a",
+      "source_url": "https://github.com/Fagan1024/smart-video-editor/blob/3131d135bedd0b11913a1ff59b289bc10c226d2a/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "b2e7bb174c22bec4fb9aa139835a281fdc052afb7f199cbd2a03660c78b35d1f",
+      "git_blob_sha1": "84217cd07adba51ea93e98dd17e7499210c43e96",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f8000f5d2f7f"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Fagan1024/smart-video-editor/blob/3131d135bedd0b11913a1ff59b289bc10c226d2a/LICENSE",
+        "https://github.com/Fagan1024/smart-video-editor/blob/3131d135bedd0b11913a1ff59b289bc10c226d2a/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright and permission notice with unchanged file.",
+        "Only selected document; linked examples, services, models, assets and dependencies excluded.",
+        "Archive only; upstream instructions not executed and claims not independently tested."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Fagan1024__smart-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HUANGCHIHHUNGLeo__claude-real-video/skills/claude-real-video/SKILL.md",
+      "repository": "HUANGCHIHHUNGLeo/claude-real-video",
+      "upstream_path": "skills/claude-real-video/SKILL.md",
+      "upstream_commit": "ab4b9b2b23790f5d63a6d15165d3d8ba284c6023",
+      "source_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/ab4b9b2b23790f5d63a6d15165d3d8ba284c6023/skills/claude-real-video/SKILL.md",
+      "size_bytes": 2573,
+      "sha256": "0ffedb6572d9625014f77bf7d722f8b9967f572291c89a2cb7716e55c0ba68cb",
+      "git_blob_sha1": "5bfd05f6693c3edd16b69ef5786ff14169fc356e",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f98209c8e28d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/ab4b9b2b23790f5d63a6d15165d3d8ba284c6023/LICENSE",
+        "https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/ab4b9b2b23790f5d63a6d15165d3d8ba284c6023/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright and permission notice with unchanged file.",
+        "Only selected document; linked examples, services, models, assets and dependencies excluded.",
+        "Archive only; upstream instructions not executed and claims not independently tested."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HUANGCHIHHUNGLeo__claude-real-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HUANGCHIHHUNGLeo__claude-real-video/LICENSE",
+      "repository": "HUANGCHIHHUNGLeo/claude-real-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ab4b9b2b23790f5d63a6d15165d3d8ba284c6023",
+      "source_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/ab4b9b2b23790f5d63a6d15165d3d8ba284c6023/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "849d4cf26f3deffcc19db16c922407481382a93388698da38ada3a5a4f10eb46",
+      "git_blob_sha1": "792717faec9c88fa4a144fb3b90e9a8bacf8290c",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f98209c8e28d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/ab4b9b2b23790f5d63a6d15165d3d8ba284c6023/LICENSE",
+        "https://github.com/HUANGCHIHHUNGLeo/claude-real-video/blob/ab4b9b2b23790f5d63a6d15165d3d8ba284c6023/README.md"
+      ],
+      "conditions": [
+        "Retain complete MIT copyright and permission notice with unchanged file.",
+        "Only selected document; linked examples, services, models, assets and dependencies excluded.",
+        "Archive only; upstream instructions not executed and claims not independently tested."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HUANGCHIHHUNGLeo__claude-real-video/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "batch": "0012",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/Kianzzz__book-sales-video/LICENSE",
+      "repository": "Kianzzz/book-sales-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4bbd3eb75f8788f873f8ece29a53ea793ec7ed62",
+      "source_url": "https://github.com/Kianzzz/book-sales-video/blob/4bbd3eb75f8788f873f8ece29a53ea793ec7ed62/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "59ce09c4867776f62f08bb91e5eb51d72a358a6d6d3184ad6c390dd826f44ec5",
+      "git_blob_sha1": "74fae9d752a9945576980109d78fe1e356eb48ea",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f2ce2d98059b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Kianzzz/book-sales-video/blob/4bbd3eb75f8788f873f8ece29a53ea793ec7ed62/LICENSE",
+        "https://github.com/Kianzzz/book-sales-video/blob/4bbd3eb75f8788f873f8ece29a53ea793ec7ed62/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Kianzzz__book-sales-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Kianzzz__book-sales-video/SKILL.md",
+      "repository": "Kianzzz/book-sales-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "4bbd3eb75f8788f873f8ece29a53ea793ec7ed62",
+      "source_url": "https://github.com/Kianzzz/book-sales-video/blob/4bbd3eb75f8788f873f8ece29a53ea793ec7ed62/SKILL.md",
+      "size_bytes": 24844,
+      "sha256": "23f7e7d18fc9220c8f3d04dec86d48d3721b77f0c1010cc47b637036f7612a67",
+      "git_blob_sha1": "cf1adbf5b39605a15da3784a46aeae5f8f2bbb63",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f2ce2d98059b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Kianzzz/book-sales-video/blob/4bbd3eb75f8788f873f8ece29a53ea793ec7ed62/LICENSE",
+        "https://github.com/Kianzzz/book-sales-video/blob/4bbd3eb75f8788f873f8ece29a53ea793ec7ed62/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Kianzzz__book-sales-video/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Melvynx__video-agent-skills/LICENSE",
+      "repository": "Melvynx/video-agent-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "source_url": "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "8954db8e00ded3d5a4716d66e9409c4007e458a7bb1c028cd6a254033011cc2b",
+      "git_blob_sha1": "d4cae1a9bd4d1ce24c4b6505df00e60bfd340d5f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-393cc0a79330"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE",
+        "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Melvynx__video-agent-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Melvynx__video-agent-skills/skills/short-editing/SKILL.md",
+      "repository": "Melvynx/video-agent-skills",
+      "upstream_path": "skills/short-editing/SKILL.md",
+      "upstream_commit": "4774fa4f2601baa822fd513387202c26e4587902",
+      "source_url": "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/skills/short-editing/SKILL.md",
+      "size_bytes": 15683,
+      "sha256": "28f01905fbe4bc249368bd7550b0e621d0e3726219306e65112ae6bff523d03f",
+      "git_blob_sha1": "7a4d93b9ef2b1bf43f331584fece646b38af0956",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-393cc0a79330"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/LICENSE",
+        "https://github.com/Melvynx/video-agent-skills/blob/4774fa4f2601baa822fd513387202c26e4587902/README.md"
+      ],
+      "conditions": [
+        "Keep original copyright and complete MIT permission notice. Unmodified source bytes; no endorsement or runtime verification claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Melvynx__video-agent-skills/LICENSE"
+      ]
+    }
+  ]
+}

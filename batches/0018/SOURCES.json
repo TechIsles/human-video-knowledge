@@ -1,0 +1,66 @@
+{
+  "batch": "0018",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/LuZhong-Li__vibe-knowledge-video-skill/SKILL.md",
+      "repository": "LuZhong-Li/vibe-knowledge-video-skill",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "1870a40457947dc11ae6b6aa0bb1ab398a10d320",
+      "source_url": "https://github.com/LuZhong-Li/vibe-knowledge-video-skill/blob/1870a40457947dc11ae6b6aa0bb1ab398a10d320/SKILL.md",
+      "size_bytes": 20421,
+      "sha256": "322d38a0ed63608a245beaa833938637989602dca073e7c5d04e7fb50742b743",
+      "git_blob_sha1": "7e92e65a3015122483c2f4d6780553c79a076ff5",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c45a1bfeecad"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/LuZhong-Li/vibe-knowledge-video-skill/blob/1870a40457947dc11ae6b6aa0bb1ab398a10d320/LICENSE",
+        "https://github.com/LuZhong-Li/vibe-knowledge-video-skill/blob/1870a40457947dc11ae6b6aa0bb1ab398a10d320/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT copyright and permission notice with original unchanged document.",
+        "Only SKILL.md and LICENSE are cleared here; README, templates, scripts, examples and media excluded. Not a complete runnable Skill."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/LuZhong-Li__vibe-knowledge-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/LuZhong-Li__vibe-knowledge-video-skill/LICENSE",
+      "repository": "LuZhong-Li/vibe-knowledge-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1870a40457947dc11ae6b6aa0bb1ab398a10d320",
+      "source_url": "https://github.com/LuZhong-Li/vibe-knowledge-video-skill/blob/1870a40457947dc11ae6b6aa0bb1ab398a10d320/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "ac0d3b1ec909c4e6a81b3e0b9a860c697ad71ce902b2dae282e1937456b3afcb",
+      "git_blob_sha1": "c97584b54b0aabace1136ff831e816962387dd68",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c45a1bfeecad"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/LuZhong-Li/vibe-knowledge-video-skill/blob/1870a40457947dc11ae6b6aa0bb1ab398a10d320/LICENSE",
+        "https://github.com/LuZhong-Li/vibe-knowledge-video-skill/blob/1870a40457947dc11ae6b6aa0bb1ab398a10d320/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT copyright and permission notice with original unchanged document.",
+        "Only SKILL.md and LICENSE are cleared here; README, templates, scripts, examples and media excluded. Not a complete runnable Skill."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/LuZhong-Li__vibe-knowledge-video-skill/LICENSE"
+      ]
+    }
+  ]
+}

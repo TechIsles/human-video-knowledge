@@ -1,0 +1,308 @@
+{
+  "batch": "0016",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 9,
+  "files": [
+    {
+      "file": "upstream/Emily2040__seedance-2.0/LICENSE",
+      "repository": "Emily2040/seedance-2.0",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4668457e560eee06e95d7fcfdf441c8c0bba802e",
+      "source_url": "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/LICENSE",
+      "size_bytes": 1085,
+      "sha256": "c84a6216f6e006b4e4a65e9d056837a61ee9c4ca79f43f386df2992bc690a7f6",
+      "git_blob_sha1": "1918d27feca20e1be579f4c2ffd312699514076d",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c582a700dfb3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/LICENSE",
+        "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/README.md"
+      ],
+      "conditions": [
+        "Preserve original bytes, complete MIT license and public author copyright. No endorsement, execution or provider rights claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Emily2040__seedance-2.0/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Emily2040__seedance-2.0/skills/seedance-prompt/SKILL.md",
+      "repository": "Emily2040/seedance-2.0",
+      "upstream_path": "skills/seedance-prompt/SKILL.md",
+      "upstream_commit": "4668457e560eee06e95d7fcfdf441c8c0bba802e",
+      "source_url": "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/skills/seedance-prompt/SKILL.md",
+      "size_bytes": 15096,
+      "sha256": "3ae6968f00c6c9a9b07dd90c2e9853af4dc568bb5fd5c4840b59c92153104cfb",
+      "git_blob_sha1": "c5f0d5e224f9d4aa6b0a8bed91c67b46093649c9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c582a700dfb3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/LICENSE",
+        "https://github.com/Emily2040/seedance-2.0/blob/4668457e560eee06e95d7fcfdf441c8c0bba802e/README.md"
+      ],
+      "conditions": [
+        "Preserve original bytes, complete MIT license and public author copyright. No endorsement, execution or provider rights claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Emily2040__seedance-2.0/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/FineComputer14451__Grok-Imagine-Cinematic-Studio/LICENSE",
+      "repository": "FineComputer14451/Grok-Imagine-Cinematic-Studio",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a9998b1eb87dd635edbfbc02ae1c831c1e7c081b",
+      "source_url": "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/blob/a9998b1eb87dd635edbfbc02ae1c831c1e7c081b/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "77ee507de6c377a1fc6f5a04202db5322b313bfae1982e979c37730931c3cf37",
+      "git_blob_sha1": "53ac9f858a9b6a2d872d56d557717c43dcab82df",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-87063e72055b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/blob/a9998b1eb87dd635edbfbc02ae1c831c1e7c081b/LICENSE",
+        "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/blob/a9998b1eb87dd635edbfbc02ae1c831c1e7c081b/README.md"
+      ],
+      "conditions": [
+        "Preserve original bytes, complete MIT license and public author copyright. No endorsement, execution or provider rights claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FineComputer14451__Grok-Imagine-Cinematic-Studio/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/FineComputer14451__Grok-Imagine-Cinematic-Studio/.grok/skills/assembly-editor/SKILL.md",
+      "repository": "FineComputer14451/Grok-Imagine-Cinematic-Studio",
+      "upstream_path": ".grok/skills/assembly-editor/SKILL.md",
+      "upstream_commit": "a9998b1eb87dd635edbfbc02ae1c831c1e7c081b",
+      "source_url": "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/blob/a9998b1eb87dd635edbfbc02ae1c831c1e7c081b/.grok/skills/assembly-editor/SKILL.md",
+      "size_bytes": 7001,
+      "sha256": "168faffc4dcee063674d240554bfb85439986d48913d6b69295219868bfc69ed",
+      "git_blob_sha1": "35167b005026228cfc11de2af3c41dc964de33ae",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-87063e72055b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/blob/a9998b1eb87dd635edbfbc02ae1c831c1e7c081b/LICENSE",
+        "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/blob/a9998b1eb87dd635edbfbc02ae1c831c1e7c081b/README.md"
+      ],
+      "conditions": [
+        "Preserve original bytes, complete MIT license and public author copyright. No endorsement, execution or provider rights claimed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/FineComputer14451__Grok-Imagine-Cinematic-Studio/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Graphify-Labs__graphify/NOTICE",
+      "repository": "Graphify-Labs/graphify",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "source_url": "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/NOTICE",
+      "size_bytes": 335,
+      "sha256": "3448ea175bba09f6fed8a743000139fb4c7112de83f164355b5540b158576621",
+      "git_blob_sha1": "791bf88bb1e50572902dbbe9228153ea29846adf",
+      "role": "license_notice",
+      "license": "Apache-2.0 with retained MIT portions",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c3646545c06c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE-MIT",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/NOTICE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/README.md"
+      ],
+      "conditions": [
+        "Keep original bytes and full Apache-2.0 license, attribution and applicable notices; no trademark endorsement or execution claims.",
+        "Retain NOTICE and LICENSE-MIT for pre-relicensing MIT contributions; do not describe all portions as exclusively Apache."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Graphify-Labs__graphify/LICENSE-MIT",
+        "upstream/Graphify-Labs__graphify/NOTICE",
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Graphify-Labs__graphify/LICENSE-MIT",
+      "repository": "Graphify-Labs/graphify",
+      "upstream_path": "LICENSE-MIT",
+      "upstream_commit": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "source_url": "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE-MIT",
+      "size_bytes": 1068,
+      "sha256": "36ecff6bbb97aca1be64e95f42538cf796adde5864edac583e620643c096931a",
+      "git_blob_sha1": "b1d9746fb5c6c39fd502e2ebe432a12ad9a097f3",
+      "role": "license_notice",
+      "license": "Apache-2.0 with retained MIT portions",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c3646545c06c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE-MIT",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/NOTICE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/README.md"
+      ],
+      "conditions": [
+        "Keep original bytes and full Apache-2.0 license, attribution and applicable notices; no trademark endorsement or execution claims.",
+        "Retain NOTICE and LICENSE-MIT for pre-relicensing MIT contributions; do not describe all portions as exclusively Apache."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Graphify-Labs__graphify/LICENSE-MIT",
+        "upstream/Graphify-Labs__graphify/NOTICE",
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "Graphify-Labs/graphify",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "source_url": "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0 with retained MIT portions",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c3646545c06c"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE-MIT",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/NOTICE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/README.md"
+      ],
+      "conditions": [
+        "Keep original bytes and full Apache-2.0 license, attribution and applicable notices; no trademark endorsement or execution claims.",
+        "Retain NOTICE and LICENSE-MIT for pre-relicensing MIT contributions; do not describe all portions as exclusively Apache."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/Graphify-Labs__graphify/LICENSE-MIT",
+        "upstream/Graphify-Labs__graphify/NOTICE",
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/Graphify-Labs__graphify/graphify/skill.md",
+      "repository": "Graphify-Labs/graphify",
+      "upstream_path": "graphify/skill.md",
+      "upstream_commit": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "source_url": "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/graphify/skill.md",
+      "size_bytes": 47544,
+      "sha256": "75ce4bddb9e118a9d72ded3e7f8281d670943dce853ac5886f2b99a2d8726e5b",
+      "git_blob_sha1": "d09ad219b2c1f78f356a07dfbfcc24a57fe53c5b",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0 with retained MIT portions",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c3646545c06c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/LICENSE-MIT",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/NOTICE",
+        "https://github.com/Graphify-Labs/graphify/blob/92741d162b2094ffc2fed58cfbd8ee823e9da62c/README.md"
+      ],
+      "conditions": [
+        "Keep original bytes and full Apache-2.0 license, attribution and applicable notices; no trademark endorsement or execution claims.",
+        "Retain NOTICE and LICENSE-MIT for pre-relicensing MIT contributions; do not describe all portions as exclusively Apache."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/Graphify-Labs__graphify/LICENSE-MIT",
+        "upstream/Graphify-Labs__graphify/NOTICE",
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HKUDS__CLI-Anything/LICENSE",
+      "repository": "HKUDS/CLI-Anything",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
+      "source_url": "https://github.com/HKUDS/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "0cff1a8ac2a381870a2c57cbe9b25f95bea0925b39b7fbf6a04ec23df7c77760",
+      "git_blob_sha1": "ee86799f79a1dd41bd82923f4dbf40cfb336684d",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ef16e2ce4817"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/HKUDS/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/LICENSE",
+        "https://github.com/HKUDS/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/README.md"
+      ],
+      "conditions": [
+        "Keep original bytes and full Apache-2.0 license, attribution and applicable notices; no trademark endorsement or execution claims."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HKUDS__CLI-Anything/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/HKUDS__CLI-Anything/cli-hub-matrix/video-creation/SKILL.md",
+      "repository": "HKUDS/CLI-Anything",
+      "upstream_path": "cli-hub-matrix/video-creation/SKILL.md",
+      "upstream_commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
+      "source_url": "https://github.com/HKUDS/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/cli-hub-matrix/video-creation/SKILL.md",
+      "size_bytes": 49425,
+      "sha256": "2bee5c8492b8cb36f6246aba321781c70af56ae69d854b9a3e5eea2dfd87e5cc",
+      "git_blob_sha1": "26f14b7a102cdf8fae4ed2724b5d05b2635855d2",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ef16e2ce4817"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/HKUDS/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/LICENSE",
+        "https://github.com/HKUDS/CLI-Anything/blob/34f519533bc175d2fe287ab8316b0dd99bb9cc43/README.md"
+      ],
+      "conditions": [
+        "Keep original bytes and full Apache-2.0 license, attribution and applicable notices; no trademark endorsement or execution claims."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/HKUDS__CLI-Anything/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "batch": "0015",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/KyaniteLabs__kinocut/skills/kinocut/SKILL.md",
+      "repository": "KyaniteLabs/kinocut",
+      "upstream_path": "skills/kinocut/SKILL.md",
+      "upstream_commit": "2cf76e98e82a6f026ef4679fba93933c809e4535",
+      "source_url": "https://github.com/KyaniteLabs/kinocut/blob/2cf76e98e82a6f026ef4679fba93933c809e4535/skills/kinocut/SKILL.md",
+      "size_bytes": 24993,
+      "sha256": "918a6d9ec5015e28876f7a85c0195b9e165b5852f06697cd3ca0f8218827d2f8",
+      "git_blob_sha1": "757df84613ac5d7c707bf1b119f6bb17bd5824b5",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-53f30d25822e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/KyaniteLabs/kinocut/blob/2cf76e98e82a6f026ef4679fba93933c809e4535/LICENSE",
+        "https://github.com/KyaniteLabs/kinocut/blob/2cf76e98e82a6f026ef4679fba93933c809e4535/README.md"
+      ],
+      "conditions": [
+        "Include complete original Apache-2.0 LICENSE with copyright; retain applicable notices. Unmodified source files; no trademark endorsement or execution claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/KyaniteLabs__kinocut/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/KyaniteLabs__kinocut/LICENSE",
+      "repository": "KyaniteLabs/kinocut",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2cf76e98e82a6f026ef4679fba93933c809e4535",
+      "source_url": "https://github.com/KyaniteLabs/kinocut/blob/2cf76e98e82a6f026ef4679fba93933c809e4535/LICENSE",
+      "size_bytes": 10733,
+      "sha256": "733474b93e5df2016fac0b6ddaf0471850da64f2abdb5b45c410c96ec170d837",
+      "git_blob_sha1": "dc624eefca402149fe16793edd8fec8ca9339755",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-53f30d25822e"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/KyaniteLabs/kinocut/blob/2cf76e98e82a6f026ef4679fba93933c809e4535/LICENSE",
+        "https://github.com/KyaniteLabs/kinocut/blob/2cf76e98e82a6f026ef4679fba93933c809e4535/README.md"
+      ],
+      "conditions": [
+        "Include complete original Apache-2.0 LICENSE with copyright; retain applicable notices. Unmodified source files; no trademark endorsement or execution claim."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/KyaniteLabs__kinocut/LICENSE"
+      ]
+    }
+  ]
+}
