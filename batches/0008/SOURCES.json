@@ -1,0 +1,70 @@
+{
+  "batch": "0008",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/DareDev256__fcp-mcp-server/skill/SKILL.md",
+      "repository": "DareDev256/fcp-mcp-server",
+      "upstream_path": "skill/SKILL.md",
+      "upstream_commit": "6733d2939540db868510d11d8dd510ef9859ced1",
+      "source_url": "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/skill/SKILL.md",
+      "size_bytes": 8966,
+      "sha256": "c3986543904399e15d4da3b4a6eec2d103e17871e81d7b360b3cf2728351324c",
+      "git_blob_sha1": "c67537b7e4f5c864669de85eecee65c6fc317e13",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7acff8df018b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/LICENSE",
+        "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/README.md",
+        "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/skill/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT license and copyright notice with unchanged document.",
+        "Only selected SKILL document; server code, dependencies, services, models and media are excluded.",
+        "Archived instructions are not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/DareDev256__fcp-mcp-server/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/DareDev256__fcp-mcp-server/LICENSE",
+      "repository": "DareDev256/fcp-mcp-server",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "6733d2939540db868510d11d8dd510ef9859ced1",
+      "source_url": "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "462aaf83e694cca3b9ab056d47b4764772c6050474872483a5ff75f8eba517ba",
+      "git_blob_sha1": "db07a1dc89c94243a5ca96cec636af407a80b710",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7acff8df018b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/LICENSE",
+        "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/README.md",
+        "https://github.com/DareDev256/fcp-mcp-server/blob/6733d2939540db868510d11d8dd510ef9859ced1/skill/README.md"
+      ],
+      "conditions": [
+        "Preserve complete MIT license and copyright notice with unchanged document.",
+        "Only selected SKILL document; server code, dependencies, services, models and media are excluded.",
+        "Archived instructions are not executed or endorsed."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/DareDev256__fcp-mcp-server/LICENSE"
+      ]
+    }
+  ]
+}

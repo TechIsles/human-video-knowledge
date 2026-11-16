@@ -1,0 +1,176 @@
+{
+  "batch": "0007",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/Agentchengfeng__chengfeng-videocut-skills/plugins/chengfeng-videocut/skills/chengfeng-cut/SKILL.md",
+      "repository": "Agentchengfeng/chengfeng-videocut-skills",
+      "upstream_path": "plugins/chengfeng-videocut/skills/chengfeng-cut/SKILL.md",
+      "upstream_commit": "a33b43e08c34fa8beeb5e78498e852f4e80975a5",
+      "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/plugins/chengfeng-videocut/skills/chengfeng-cut/SKILL.md",
+      "size_bytes": 16550,
+      "sha256": "56322f1f988785167a6aca73eecc73ec5a672c9861532d0ba4ef8e2d1e796a75",
+      "git_blob_sha1": "bb47a0132d618cd36f23793744041098a84a082e",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bcfa39eee12"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/LICENSE",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/NOTICE.md",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/CITATION.cff",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete Apache-2.0 LICENSE, readable NOTICE attribution and requested CITATION.cff. Files are unchanged.",
+        "Retain public upstream author attribution; do not claim endorsement. No scripts, dependencies, external logos/media or referenced files included; not a complete runnable Skill package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/CITATION.cff",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/Agentchengfeng__chengfeng-videocut-skills/plugins/chengfeng-videocut/skills/chengfeng-visual/SKILL.md",
+      "repository": "Agentchengfeng/chengfeng-videocut-skills",
+      "upstream_path": "plugins/chengfeng-videocut/skills/chengfeng-visual/SKILL.md",
+      "upstream_commit": "a33b43e08c34fa8beeb5e78498e852f4e80975a5",
+      "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/plugins/chengfeng-videocut/skills/chengfeng-visual/SKILL.md",
+      "size_bytes": 5448,
+      "sha256": "d4b88ccc9c70f3a67a3d5362cacdb0f7c914510879c167e7cab3d2a1514d18a0",
+      "git_blob_sha1": "281dab113b3fc67a2b6948db774e8a48286dc377",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9d3210bbdd40"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/LICENSE",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/NOTICE.md",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/CITATION.cff",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete Apache-2.0 LICENSE, readable NOTICE attribution and requested CITATION.cff. Files are unchanged.",
+        "Retain public upstream author attribution; do not claim endorsement. No scripts, dependencies, external logos/media or referenced files included; not a complete runnable Skill package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/CITATION.cff",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "Agentchengfeng/chengfeng-videocut-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a33b43e08c34fa8beeb5e78498e852f4e80975a5",
+      "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bcfa39eee12",
+        "SRC-9d3210bbdd40"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/LICENSE",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/NOTICE.md",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/CITATION.cff",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete Apache-2.0 LICENSE, readable NOTICE attribution and requested CITATION.cff. Files are unchanged.",
+        "Retain public upstream author attribution; do not claim endorsement. No scripts, dependencies, external logos/media or referenced files included; not a complete runnable Skill package."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/CITATION.cff",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/Agentchengfeng__chengfeng-videocut-skills/NOTICE.md",
+      "repository": "Agentchengfeng/chengfeng-videocut-skills",
+      "upstream_path": "NOTICE.md",
+      "upstream_commit": "a33b43e08c34fa8beeb5e78498e852f4e80975a5",
+      "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/NOTICE.md",
+      "size_bytes": 774,
+      "sha256": "ef21f4b9286fd6c3cabbf8464b94c18212253b89e7d27adda5554a9febca8bcd",
+      "git_blob_sha1": "11116b25e1a3ba80647aa1028ce7e03ef58b7122",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bcfa39eee12",
+        "SRC-9d3210bbdd40"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/LICENSE",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/NOTICE.md",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/CITATION.cff",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete Apache-2.0 LICENSE, readable NOTICE attribution and requested CITATION.cff. Files are unchanged.",
+        "Retain public upstream author attribution; do not claim endorsement. No scripts, dependencies, external logos/media or referenced files included; not a complete runnable Skill package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/CITATION.cff",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/NOTICE.md"
+      ]
+    },
+    {
+      "file": "upstream/Agentchengfeng__chengfeng-videocut-skills/CITATION.cff",
+      "repository": "Agentchengfeng/chengfeng-videocut-skills",
+      "upstream_path": "CITATION.cff",
+      "upstream_commit": "a33b43e08c34fa8beeb5e78498e852f4e80975a5",
+      "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/CITATION.cff",
+      "size_bytes": 317,
+      "sha256": "ac3f018272ee2eb0c1e98c4198eb6e5d4a2c708ac0250d03476dbd665c388fa8",
+      "git_blob_sha1": "c34aaca2f3a3ab15537908152f7b04bde12c96b5",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-5bcfa39eee12",
+        "SRC-9d3210bbdd40"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/LICENSE",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/NOTICE.md",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/CITATION.cff",
+        "https://github.com/Agentchengfeng/chengfeng-videocut-skills/blob/a33b43e08c34fa8beeb5e78498e852f4e80975a5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete Apache-2.0 LICENSE, readable NOTICE attribution and requested CITATION.cff. Files are unchanged.",
+        "Retain public upstream author attribution; do not claim endorsement. No scripts, dependencies, external logos/media or referenced files included; not a complete runnable Skill package."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/CITATION.cff",
+        "upstream/Agentchengfeng__chengfeng-videocut-skills/NOTICE.md"
+      ]
+    }
+  ]
+}
