@@ -1,0 +1,358 @@
+{
+  "batch": "0093",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 7,
+  "new_original_payload_paths": 10,
+  "files": [
+    {
+      "file": "upstream/OSideMedia__higgsfield-ai-prompt-skill/skills/higgsfield-pipeline/SKILL.md",
+      "repository": "OSideMedia/higgsfield-ai-prompt-skill",
+      "upstream_path": "skills/higgsfield-pipeline/SKILL.md",
+      "upstream_commit": "70754977d1884794963ac0a748eaaa85b6e9c82a",
+      "source_url": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill/blob/70754977d1884794963ac0a748eaaa85b6e9c82a/skills/higgsfield-pipeline/SKILL.md",
+      "size_bytes": 52656,
+      "sha256": "d12cd74764ef3d0ab634697e8f8799d6d0b8777c3ce71228aaf416f925f3ceef",
+      "git_blob_sha1": "49a80c3896fff44630e4a43657b40ad52e0945f9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c47fac6f5dcc"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/OSideMedia/higgsfield-ai-prompt-skill/blob/70754977d1884794963ac0a748eaaa85b6e9c82a/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/OSideMedia__higgsfield-ai-prompt-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/OSideMedia__higgsfield-ai-prompt-skill/LICENSE",
+      "repository": "OSideMedia/higgsfield-ai-prompt-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "70754977d1884794963ac0a748eaaa85b6e9c82a",
+      "source_url": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill/blob/70754977d1884794963ac0a748eaaa85b6e9c82a/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "e6e9bc83882789dc73f010553e36a138289b4ad6e8cf01ef8a063bc99e0dd4e7",
+      "git_blob_sha1": "bde5207152052e91eadf6162187f5d0c2e2f78e0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c47fac6f5dcc"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/OSideMedia/higgsfield-ai-prompt-skill/blob/70754977d1884794963ac0a748eaaa85b6e9c82a/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/OSideMedia__higgsfield-ai-prompt-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/EngDawood__arabic-video-subtitles-skill/skills/arabic-subtitling-guidelines/SKILL.md",
+      "repository": "EngDawood/arabic-video-subtitles-skill",
+      "upstream_path": "skills/arabic-subtitling-guidelines/SKILL.md",
+      "upstream_commit": "ae1db5e816606e516749ac6db9f83efcc4d70db1",
+      "source_url": "https://github.com/EngDawood/arabic-video-subtitles-skill/blob/ae1db5e816606e516749ac6db9f83efcc4d70db1/skills/arabic-subtitling-guidelines/SKILL.md",
+      "size_bytes": 9852,
+      "sha256": "f45f33dbcdad283491d4f979a4d87e6161502150a9e320296d5690680c9f0c61",
+      "git_blob_sha1": "95da8a5807a79a3bdfb9454c7ccdacfaff648c72",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-835eaf45e4a5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/EngDawood/arabic-video-subtitles-skill/blob/ae1db5e816606e516749ac6db9f83efcc4d70db1/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EngDawood__arabic-video-subtitles-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/EngDawood__arabic-video-subtitles-skill/LICENSE",
+      "repository": "EngDawood/arabic-video-subtitles-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "ae1db5e816606e516749ac6db9f83efcc4d70db1",
+      "source_url": "https://github.com/EngDawood/arabic-video-subtitles-skill/blob/ae1db5e816606e516749ac6db9f83efcc4d70db1/LICENSE",
+      "size_bytes": 1093,
+      "sha256": "f068cd76499f7868b180498c0dafea9204196ad4672e86970d7e1ec2641d17ef",
+      "git_blob_sha1": "f87b07e10db7272f88a3cdee0da6513f4e0d9fec",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-835eaf45e4a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/EngDawood/arabic-video-subtitles-skill/blob/ae1db5e816606e516749ac6db9f83efcc4d70db1/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/EngDawood__arabic-video-subtitles-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ZJU-REAL__Easel/skills/builtin/subtitle-translate/SKILL.md",
+      "repository": "ZJU-REAL/Easel",
+      "upstream_path": "skills/builtin/subtitle-translate/SKILL.md",
+      "upstream_commit": "5a597e5f3ef5b01098b53f36caf719dd9a32b7bf",
+      "source_url": "https://github.com/ZJU-REAL/Easel/blob/5a597e5f3ef5b01098b53f36caf719dd9a32b7bf/skills/builtin/subtitle-translate/SKILL.md",
+      "size_bytes": 5023,
+      "sha256": "9e19d8a44da30a858afde13e72109d7b1701f9ddf52b8727ed9711d148bac542",
+      "git_blob_sha1": "cc3050ca8bd5dd1c1a66c3519ffbd57920fa5566",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c61ed0a28b03"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ZJU-REAL/Easel/blob/5a597e5f3ef5b01098b53f36caf719dd9a32b7bf/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt",
+      "repository": "ZJU-REAL/Easel",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5a597e5f3ef5b01098b53f36caf719dd9a32b7bf",
+      "source_url": "https://github.com/ZJU-REAL/Easel/blob/5a597e5f3ef5b01098b53f36caf719dd9a32b7bf/LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c61ed0a28b03"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ZJU-REAL/Easel/blob/5a597e5f3ef5b01098b53f36caf719dd9a32b7bf/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/skills/edit-timeline-studio/SKILL.md",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "skills/edit-timeline-studio/SKILL.md",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/skills/edit-timeline-studio/SKILL.md",
+      "size_bytes": 28701,
+      "sha256": "f333152b99c0569438131f04cf93d6856302240a68ccbb99bba34b67dd33316e",
+      "git_blob_sha1": "ec8845517a7bfd32f3be8ddbf3d72174d32a10dc",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-11285e3bd1e9"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/MartinDelophy__ai-video-editor/LICENSE",
+      "repository": "MartinDelophy/ai-video-editor",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "73395b5257a756d6300a193721176b1143ca0efd",
+      "source_url": "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "22b4aea739e33689429ebd2f326d95d18ebe185173eb9d9c47b32614fda94963",
+      "git_blob_sha1": "9c31cf1527ef2df27db90ea93a9df7accccee4f3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-11285e3bd1e9"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/MartinDelophy/ai-video-editor/blob/73395b5257a756d6300a193721176b1143ca0efd/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/MartinDelophy__ai-video-editor/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/affaan-m__ecc/skills/scientific-thinking-literature-review/SKILL.md",
+      "repository": "affaan-m/ecc",
+      "upstream_path": "skills/scientific-thinking-literature-review/SKILL.md",
+      "upstream_commit": "f3904009440af24f00617343910ee89714df8be3",
+      "source_url": "https://github.com/affaan-m/ECC/blob/f3904009440af24f00617343910ee89714df8be3/skills/scientific-thinking-literature-review/SKILL.md",
+      "size_bytes": 5201,
+      "sha256": "380918f545c7e9b297b23bee4a0432deba977acbdb217232bf1ab9d5aa3c562e",
+      "git_blob_sha1": "dd240c89bcabf71bbe1d181fbb7ba3c0d7935729",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1514354f53eb"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/affaan-m/ecc/blob/f3904009440af24f00617343910ee89714df8be3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/affaan-m__ecc/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/affaan-m__ecc/LICENSE",
+      "repository": "affaan-m/ecc",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f3904009440af24f00617343910ee89714df8be3",
+      "source_url": "https://github.com/affaan-m/ECC/blob/f3904009440af24f00617343910ee89714df8be3/LICENSE",
+      "size_bytes": 1071,
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "git_blob_sha1": "b832b6f642312312367c07688dc7426db40a82ed",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1514354f53eb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/affaan-m/ecc/blob/f3904009440af24f00617343910ee89714df8be3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/affaan-m__ecc/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/JimLiu__baoyu-skills/skills/baoyu-article-illustrator/SKILL.md",
+      "repository": "JimLiu/baoyu-skills",
+      "upstream_path": "skills/baoyu-article-illustrator/SKILL.md",
+      "upstream_commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-article-illustrator/SKILL.md",
+      "size_bytes": 17179,
+      "sha256": "ce1c7bfe9b93e5afac1dbeac95a03f8abf8c102aeecc34a33d8f13dc10e64acd",
+      "git_blob_sha1": "87e27e6d83f420605de2f6992454d71874d8dc44",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b824d291fae"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/JimLiu__baoyu-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/JimLiu__baoyu-skills/LICENSE",
+      "repository": "JimLiu/baoyu-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "git_blob_sha1": "9f2cc0d74570c5841f02b639593d12a70dc7dc65",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-6b824d291fae"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/JimLiu__baoyu-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/JimLiu__baoyu-skills/skills/baoyu-infographic/SKILL.md",
+      "repository": "JimLiu/baoyu-skills",
+      "upstream_path": "skills/baoyu-infographic/SKILL.md",
+      "upstream_commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-infographic/SKILL.md",
+      "size_bytes": 19957,
+      "sha256": "1572aaa294c5f7547889f520b6efeed979aeaaf58b4e7c4bcaaa26ace2ee3564",
+      "git_blob_sha1": "8212eaa182e66bde7c7ceae7dd23e86d2dadda10",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2bda6ac616e5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/JimLiu__baoyu-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/JimLiu__baoyu-skills/LICENSE",
+      "repository": "JimLiu/baoyu-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "source_url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "git_blob_sha1": "9f2cc0d74570c5841f02b639593d12a70dc7dc65",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2bda6ac616e5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE"
+      ],
+      "conditions": "Retain unchanged original bytes, complete applicable license and copyright. Selected entry document only; referenced media, datasets, services, fonts, code and models excluded.",
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/JimLiu__baoyu-skills/LICENSE"
+      ]
+    }
+  ]
+}
