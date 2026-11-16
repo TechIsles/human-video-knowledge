@@ -1,0 +1,305 @@
+{
+  "batch": "0040",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 11,
+  "files": [
+    {
+      "file": "upstream/chenzixin1__watchless/SKILL.md",
+      "repository": "chenzixin1/watchless",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b",
+      "source_url": "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/SKILL.md",
+      "size_bytes": 14673,
+      "sha256": "6d8aa1f4da758af63c6f6e1c7ec0385faa1679ca57fa360bb3bb3e56fd1b3d2b",
+      "git_blob_sha1": "3f29f3ace255b0bcbbb489047f692a9f444a8db1",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-737bc38b7a69"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LICENSE",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/THIRD_PARTY_NOTICES.md",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LEGAL.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenzixin1__watchless/LEGAL.md",
+        "upstream/chenzixin1__watchless/LICENSE",
+        "upstream/chenzixin1__watchless/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/chenzixin1__watchless/LICENSE",
+      "repository": "chenzixin1/watchless",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b",
+      "source_url": "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "a4cf617731778175a4fa238f3b37497d4a74752fb5a7d9e94ed8f12dbbc66bf3",
+      "git_blob_sha1": "d733ac13bd7852edea7fd256b75e528878ed95d1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-737bc38b7a69"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LICENSE",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/THIRD_PARTY_NOTICES.md",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LEGAL.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenzixin1__watchless/LEGAL.md",
+        "upstream/chenzixin1__watchless/LICENSE",
+        "upstream/chenzixin1__watchless/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/chenzixin1__watchless/THIRD_PARTY_NOTICES.md",
+      "repository": "chenzixin1/watchless",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b",
+      "source_url": "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 442,
+      "sha256": "0e9e1dea1cfd0cf2f34227ff597af31d926807374f73a09185e3654b66a989b7",
+      "git_blob_sha1": "172b8a84b11a202e9aa7fa75fd15176f3cd3ee32",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-737bc38b7a69"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LICENSE",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/THIRD_PARTY_NOTICES.md",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LEGAL.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenzixin1__watchless/LEGAL.md",
+        "upstream/chenzixin1__watchless/LICENSE",
+        "upstream/chenzixin1__watchless/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/chenzixin1__watchless/LEGAL.md",
+      "repository": "chenzixin1/watchless",
+      "upstream_path": "LEGAL.md",
+      "upstream_commit": "34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b",
+      "source_url": "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LEGAL.md",
+      "size_bytes": 4623,
+      "sha256": "32c1e76b2b1f78d3b9104a727605717572d0510fc53446196dab61f79744bc5e",
+      "git_blob_sha1": "a14c85dcc3dfccce2725c80c70b33a8ef9c6f1c0",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-737bc38b7a69"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LICENSE",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/THIRD_PARTY_NOTICES.md",
+        "https://github.com/chenzixin1/watchless/blob/34e2fa861a2e31bb4197e9e0a7b8d90e76ebeb6b/LEGAL.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/chenzixin1__watchless/LEGAL.md",
+        "upstream/chenzixin1__watchless/LICENSE",
+        "upstream/chenzixin1__watchless/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__makerskills/skills/watch-video/SKILL.md",
+      "repository": "coreyhaines31/makerskills",
+      "upstream_path": "skills/watch-video/SKILL.md",
+      "upstream_commit": "f9837d95fca594d7b883cf5306d6d9ce389e30d0",
+      "source_url": "https://github.com/coreyhaines31/makerskills/blob/f9837d95fca594d7b883cf5306d6d9ce389e30d0/skills/watch-video/SKILL.md",
+      "size_bytes": 15112,
+      "sha256": "0d669fae07b9e35a2729ba5b1f8e2eed148d0e9682dee71dcbbb102c799bd919",
+      "git_blob_sha1": "2c25a5adce60fb68455a63f5e92d94046c7f49b6",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aa7ae9859f15"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/makerskills/blob/f9837d95fca594d7b883cf5306d6d9ce389e30d0/LICENSE"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__makerskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/coreyhaines31__makerskills/LICENSE",
+      "repository": "coreyhaines31/makerskills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "f9837d95fca594d7b883cf5306d6d9ce389e30d0",
+      "source_url": "https://github.com/coreyhaines31/makerskills/blob/f9837d95fca594d7b883cf5306d6d9ce389e30d0/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "b2d9111757b83e03f30f420bf298617b451724aaebdf1294fbe7193ae364ceee",
+      "git_blob_sha1": "29d8e7b039c2bb49681073a8a0b52976c53accd1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aa7ae9859f15"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/coreyhaines31/makerskills/blob/f9837d95fca594d7b883cf5306d6d9ce389e30d0/LICENSE"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/coreyhaines31__makerskills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/crawfordxx__paper-cut-video-skill/paper-cut-video/SKILL.md",
+      "repository": "crawfordxx/paper-cut-video-skill",
+      "upstream_path": "paper-cut-video/SKILL.md",
+      "upstream_commit": "0ff209fd72648d6eb1b2315308c19d50b74c74f9",
+      "source_url": "https://github.com/crawfordxx/paper-cut-video-skill/blob/0ff209fd72648d6eb1b2315308c19d50b74c74f9/paper-cut-video/SKILL.md",
+      "size_bytes": 10713,
+      "sha256": "8aeadb5a0714d2f8af5aeb5efec741c294865b3bf17470f06d0bd541024192c3",
+      "git_blob_sha1": "1a1d7313eb3eccc171c5c2b9066eac83f1ad6fb7",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2ad774d5063"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/crawfordxx/paper-cut-video-skill/blob/0ff209fd72648d6eb1b2315308c19d50b74c74f9/LICENSE"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/crawfordxx__paper-cut-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/crawfordxx__paper-cut-video-skill/LICENSE",
+      "repository": "crawfordxx/paper-cut-video-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "0ff209fd72648d6eb1b2315308c19d50b74c74f9",
+      "source_url": "https://github.com/crawfordxx/paper-cut-video-skill/blob/0ff209fd72648d6eb1b2315308c19d50b74c74f9/LICENSE",
+      "size_bytes": 1060,
+      "sha256": "ee53d8ec89aa3ce9e572697d788a2ab6787b449606fdb23c6b2aebf21f98bc81",
+      "git_blob_sha1": "1cb172f216813714839e0af4f108fa9119aa7834",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d2ad774d5063"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/crawfordxx/paper-cut-video-skill/blob/0ff209fd72648d6eb1b2315308c19d50b74c74f9/LICENSE"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/crawfordxx__paper-cut-video-skill/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/crimeacs__product-demo-director/SKILL.md",
+      "repository": "crimeacs/product-demo-director",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "a610beee453dc1dc93d3ac260c64987a1f07a765",
+      "source_url": "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/SKILL.md",
+      "size_bytes": 31780,
+      "sha256": "51dc73f987c8d3f002674cc8e21c359603774d058af1e33b08e28c57589852a8",
+      "git_blob_sha1": "a1762c12923229e0ccb7ae3874bfbfe4aede6c9b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7609a847100b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/LICENSE",
+        "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/crimeacs__product-demo-director/LICENSE",
+        "upstream/crimeacs__product-demo-director/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/crimeacs__product-demo-director/LICENSE",
+      "repository": "crimeacs/product-demo-director",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "a610beee453dc1dc93d3ac260c64987a1f07a765",
+      "source_url": "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/LICENSE",
+      "size_bytes": 1074,
+      "sha256": "9c53b1803c7ab1cfc8b2f057261260c15d2b9549c3ea0d6e221099229b642ced",
+      "git_blob_sha1": "dab1cab1a419b4862176c301837eec18a32b9956",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7609a847100b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/LICENSE",
+        "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/crimeacs__product-demo-director/LICENSE",
+        "upstream/crimeacs__product-demo-director/THIRD_PARTY_NOTICES.md"
+      ]
+    },
+    {
+      "file": "upstream/crimeacs__product-demo-director/THIRD_PARTY_NOTICES.md",
+      "repository": "crimeacs/product-demo-director",
+      "upstream_path": "THIRD_PARTY_NOTICES.md",
+      "upstream_commit": "a610beee453dc1dc93d3ac260c64987a1f07a765",
+      "source_url": "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 2041,
+      "sha256": "613e54e87d7b88073d79d8a1a85f40bbbf568dbd22179dfaf060d78e1a3b2a47",
+      "git_blob_sha1": "9f4515cb8aefc191e6f921c596e2a67fa30fae29",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7609a847100b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/LICENSE",
+        "https://github.com/crimeacs/product-demo-director/blob/a610beee453dc1dc93d3ac260c64987a1f07a765/THIRD_PARTY_NOTICES.md"
+      ],
+      "conditions": "Preserve complete copyright, permission, disclaimer and accompanying legal notices. Originals unchanged; dependencies, services, media and external original works excluded.",
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/crimeacs__product-demo-director/LICENSE",
+        "upstream/crimeacs__product-demo-director/THIRD_PARTY_NOTICES.md"
+      ]
+    }
+  ]
+}

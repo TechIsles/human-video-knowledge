@@ -1,0 +1,207 @@
+{
+  "batch": "0041",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 6,
+  "files": [
+    {
+      "file": "upstream/edu-ai-builders__visual-cognition-slides/LICENSE",
+      "repository": "edu-ai-builders/visual-cognition-slides",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "83fc4b55f409b6564c9c1b8aee93d3015af2da9c",
+      "source_url": "https://github.com/edu-ai-builders/visual-cognition-slides/blob/83fc4b55f409b6564c9c1b8aee93d3015af2da9c/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "2e8c7a2c20bad0626e616a4707e988869d2d5a69cbf2ec8b88c4d013156910f8",
+      "git_blob_sha1": "10d01d225cd7fc0f8b52f47d1c66e1428ebd802b",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2607bd0d9411"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/edu-ai-builders/visual-cognition-slides/blob/83fc4b55f409b6564c9c1b8aee93d3015af2da9c/LICENSE",
+        "https://github.com/edu-ai-builders/visual-cognition-slides/blob/83fc4b55f409b6564c9c1b8aee93d3015af2da9c/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/edu-ai-builders__visual-cognition-slides/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/edu-ai-builders__visual-cognition-slides/SKILL.md",
+      "repository": "edu-ai-builders/visual-cognition-slides",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "83fc4b55f409b6564c9c1b8aee93d3015af2da9c",
+      "source_url": "https://github.com/edu-ai-builders/visual-cognition-slides/blob/83fc4b55f409b6564c9c1b8aee93d3015af2da9c/SKILL.md",
+      "size_bytes": 6679,
+      "sha256": "1d065e8ddcfef1798ef390f4bb4ba7f310180eb7f8d21322479b2338570ee43b",
+      "git_blob_sha1": "d4217c42ae767a47371956fcd86ac0a2d77f0fd9",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2607bd0d9411"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/edu-ai-builders/visual-cognition-slides/blob/83fc4b55f409b6564c9c1b8aee93d3015af2da9c/LICENSE",
+        "https://github.com/edu-ai-builders/visual-cognition-slides/blob/83fc4b55f409b6564c9c1b8aee93d3015af2da9c/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/edu-ai-builders__visual-cognition-slides/LICENSE"
+      ]
+    },
+    {
+      "file": "license-only/ericrisco__rsc-harness/LICENSE",
+      "repository": "ericrisco/rsc-harness",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "886ef8c004d7be5f71405db3b6f9ad938319000a",
+      "source_url": "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "39a5064c7cf5b55a0a61667267b3c20cbd326af1d2a591b21349c5734eb5e4af",
+      "git_blob_sha1": "dcfe2ddec329f9901617b6ab0ebc517eb66e3de9",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1cd0a32ac7dd"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/LICENSE",
+        "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "license-only/ericrisco__rsc-harness/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ericrisco__rsc-harness/skills/youtube-ideation/SKILL.md",
+      "repository": "ericrisco/rsc-harness",
+      "upstream_path": "skills/youtube-ideation/SKILL.md",
+      "upstream_commit": "886ef8c004d7be5f71405db3b6f9ad938319000a",
+      "source_url": "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/skills/youtube-ideation/SKILL.md",
+      "size_bytes": 12104,
+      "sha256": "702a28c9abc950c116f50a9125bd1934a4f315bb571288d0c0d282ac904835b5",
+      "git_blob_sha1": "a8569679e7856ead5a176dd35eb70f53145f310b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1cd0a32ac7dd"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/LICENSE",
+        "https://github.com/ericrisco/rsc-harness/blob/886ef8c004d7be5f71405db3b6f9ad938319000a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "license-only/ericrisco__rsc-harness/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/eternityspring__shuohao-skills/LICENSE",
+      "repository": "eternityspring/shuohao-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5612d2a0bd5f19d978c3ee19d1e42840335e3b4b",
+      "source_url": "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/LICENSE",
+      "size_bytes": 11359,
+      "sha256": "b1d2870f1a00e4d7f56576e5f0870cba109e041f8af66866cf5b499478e654e7",
+      "git_blob_sha1": "ff9ad4530f5716304e042cbac72cecd7c40f0e0e",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0735aa546f71"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/LICENSE",
+        "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/eternityspring__shuohao-skills/LICENSE",
+        "upstream/eternityspring__shuohao-skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/eternityspring__shuohao-skills/NOTICE",
+      "repository": "eternityspring/shuohao-skills",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "5612d2a0bd5f19d978c3ee19d1e42840335e3b4b",
+      "source_url": "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/NOTICE",
+      "size_bytes": 714,
+      "sha256": "4a439a29366f485f5ef493a804a4c77a23b41d31eaf97eb66b921e5484bc597d",
+      "git_blob_sha1": "6ea06289faafcd2da68abb798d3cb2fc11b8059a",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0735aa546f71"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/LICENSE",
+        "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/eternityspring__shuohao-skills/LICENSE",
+        "upstream/eternityspring__shuohao-skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/eternityspring__shuohao-skills/skills/novel-storyboard/SKILL.md",
+      "repository": "eternityspring/shuohao-skills",
+      "upstream_path": "skills/novel-storyboard/SKILL.md",
+      "upstream_commit": "5612d2a0bd5f19d978c3ee19d1e42840335e3b4b",
+      "source_url": "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/skills/novel-storyboard/SKILL.md",
+      "size_bytes": 14449,
+      "sha256": "2af3bb17fa9719976fe9f2486ba09f26bdc4397aa45f13a18884408e2a7fe857",
+      "git_blob_sha1": "26ecd722fb05fed5bbf833be5df72146f2b5b823",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0735aa546f71"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/LICENSE",
+        "https://github.com/eternityspring/shuohao-skills/blob/5612d2a0bd5f19d978c3ee19d1e42840335e3b4b/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/eternityspring__shuohao-skills/LICENSE",
+        "upstream/eternityspring__shuohao-skills/NOTICE"
+      ]
+    }
+  ]
+}

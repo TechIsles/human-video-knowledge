@@ -1,0 +1,356 @@
+{
+  "batch": "0042",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 6,
+  "new_original_payload_paths": 10,
+  "files": [
+    {
+      "file": "upstream/getedgehq__skills/dicks-homework-five-second/SKILL.md",
+      "repository": "getedgehq/skills",
+      "upstream_path": "dicks-homework-five-second/SKILL.md",
+      "upstream_commit": "51897ad16e8183c34cc4a153a2b7fddd2a512f60",
+      "source_url": "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/dicks-homework-five-second/SKILL.md",
+      "size_bytes": 5945,
+      "sha256": "71615f36fd3f6adab45d1ddd9bd5c55d23f635a27d6d850b9346ddf28ce1cdc8",
+      "git_blob_sha1": "80f4469241763e3258aa52e34361e737f1ea2cf9",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ed0f9e067a74"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/dicks-homework-five-second/LICENSE",
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE",
+      "repository": "getedgehq/skills",
+      "upstream_path": "dicks-homework-five-second/LICENSE",
+      "upstream_commit": "51897ad16e8183c34cc4a153a2b7fddd2a512f60",
+      "source_url": "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/dicks-homework-five-second/LICENSE",
+      "size_bytes": 10756,
+      "sha256": "d0d0b1377c7be4c0094f0a1e0a84c4bb2c4d3c2a4d1c0355eb7cfe118d3bf1f1",
+      "git_blob_sha1": "052d7d992447fedc7b807f6ac3f4e1c62c2c7acb",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ed0f9e067a74"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/dicks-homework-five-second/LICENSE",
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE",
+      "repository": "getedgehq/skills",
+      "upstream_path": "record-mac-demo/LICENSE",
+      "upstream_commit": "51897ad16e8183c34cc4a153a2b7fddd2a512f60",
+      "source_url": "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/record-mac-demo/LICENSE",
+      "size_bytes": 10756,
+      "sha256": "d0d0b1377c7be4c0094f0a1e0a84c4bb2c4d3c2a4d1c0355eb7cfe118d3bf1f1",
+      "git_blob_sha1": "052d7d992447fedc7b807f6ac3f4e1c62c2c7acb",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea42c92649a5"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/record-mac-demo/LICENSE",
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/getedgehq__skills/record-mac-demo/SKILL.md",
+      "repository": "getedgehq/skills",
+      "upstream_path": "record-mac-demo/SKILL.md",
+      "upstream_commit": "51897ad16e8183c34cc4a153a2b7fddd2a512f60",
+      "source_url": "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/record-mac-demo/SKILL.md",
+      "size_bytes": 7269,
+      "sha256": "4cf10670f18d457ba73246f2e75f9841b3d1a2cb027cc83023d54ebe103ace0e",
+      "git_blob_sha1": "f0be4bc2c54adbea5401ce14c281207f3889207e",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ea42c92649a5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/record-mac-demo/LICENSE",
+        "https://github.com/getedgehq/skills/blob/51897ad16e8183c34cc4a153a2b7fddd2a512f60/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/getedgehq__skills/dicks-homework-five-second/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/ghaida__intent/skills/storytelling/SKILL.md",
+      "repository": "ghaida/intent",
+      "upstream_path": "skills/storytelling/SKILL.md",
+      "upstream_commit": "796a33594b0b25eb4fea0c21651f109f45075f28",
+      "source_url": "https://github.com/ghaida/intent/blob/796a33594b0b25eb4fea0c21651f109f45075f28/skills/storytelling/SKILL.md",
+      "size_bytes": 13796,
+      "sha256": "a54f2d172687910abb664c3266e1f12c87303c12f820779fcf48d674cc6e2396",
+      "git_blob_sha1": "9c1da329bd9f58067c05745c66715485c0699165",
+      "role": "canonical_skill_document",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9ddd76ae9eb7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/ghaida/intent/blob/796a33594b0b25eb4fea0c21651f109f45075f28/LICENSE",
+        "https://github.com/ghaida/intent/blob/796a33594b0b25eb4fea0c21651f109f45075f28/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cjdavis62__claude-creative-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cjdavis62__claude-creative-writing/LICENSE",
+      "repository": "ghaida/intent",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "796a33594b0b25eb4fea0c21651f109f45075f28",
+      "source_url": "https://github.com/ghaida/intent/blob/796a33594b0b25eb4fea0c21651f109f45075f28/LICENSE",
+      "size_bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "git_blob_sha1": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "role": "license_notice",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9ddd76ae9eb7"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/ghaida/intent/blob/796a33594b0b25eb4fea0c21651f109f45075f28/LICENSE",
+        "https://github.com/ghaida/intent/blob/796a33594b0b25eb4fea0c21651f109f45075f28/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/cjdavis62__claude-creative-writing/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/github__awesome-copilot/skills/excalidraw-diagram-generator/SKILL.md",
+      "repository": "github/awesome-copilot",
+      "upstream_path": "skills/excalidraw-diagram-generator/SKILL.md",
+      "upstream_commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+      "source_url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/skills/excalidraw-diagram-generator/SKILL.md",
+      "size_bytes": 24385,
+      "sha256": "3716375aca4ef46ac4b9e0c6cc349e472be9e1a75df47873d587b7eae56cebce",
+      "git_blob_sha1": "1a290eae1c7a164f59422e3d8811709ef3357d85",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-434ebf5a72ce"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/LICENSE",
+        "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/github__awesome-copilot/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/github__awesome-copilot/LICENSE",
+      "repository": "github/awesome-copilot",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+      "source_url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/LICENSE",
+      "size_bytes": 1059,
+      "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823",
+      "git_blob_sha1": "89bc5e962c9944cdb050887062afdaaf89be504a",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-434ebf5a72ce"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/LICENSE",
+        "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/github__awesome-copilot/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/gnipbao__jev-highlight-cutter/SKILL.md",
+      "repository": "gnipbao/jev-highlight-cutter",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "b7b84fc588ec75af8888035376ec48f9f4b79941",
+      "source_url": "https://github.com/gnipbao/jev-highlight-cutter/blob/b7b84fc588ec75af8888035376ec48f9f4b79941/SKILL.md",
+      "size_bytes": 7663,
+      "sha256": "385e43f4e62d7be3272ad82f8e89143e0d7b2002ba4b97e4aa205915dadbc626",
+      "git_blob_sha1": "f276adb9464c221137f7edefe74b5fb00346fda2",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cf6d8fe61976"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/gnipbao/jev-highlight-cutter/blob/b7b84fc588ec75af8888035376ec48f9f4b79941/LICENSE",
+        "https://github.com/gnipbao/jev-highlight-cutter/blob/b7b84fc588ec75af8888035376ec48f9f4b79941/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/gnipbao__jev-highlight-cutter/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/gnipbao__jev-highlight-cutter/LICENSE",
+      "repository": "gnipbao/jev-highlight-cutter",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b7b84fc588ec75af8888035376ec48f9f4b79941",
+      "source_url": "https://github.com/gnipbao/jev-highlight-cutter/blob/b7b84fc588ec75af8888035376ec48f9f4b79941/LICENSE",
+      "size_bytes": 1064,
+      "sha256": "481521d963c714f9d79b68e0cde61ab0b012e17dc3b90f4ed877717a0c401fa3",
+      "git_blob_sha1": "0fcd8427904af0eb945142b4fc60a63d22dfa726",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-cf6d8fe61976"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/gnipbao/jev-highlight-cutter/blob/b7b84fc588ec75af8888035376ec48f9f4b79941/LICENSE",
+        "https://github.com/gnipbao/jev-highlight-cutter/blob/b7b84fc588ec75af8888035376ec48f9f4b79941/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/gnipbao__jev-highlight-cutter/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/guia-matthieu__clawfu-skills/skills/automation/video-processing/SKILL.md",
+      "repository": "guia-matthieu/clawfu-skills",
+      "upstream_path": "skills/automation/video-processing/SKILL.md",
+      "upstream_commit": "4108f5c010ccaa8b5707fa05ca1d888ae167e548",
+      "source_url": "https://github.com/guia-matthieu/clawfu-skills/blob/4108f5c010ccaa8b5707fa05ca1d888ae167e548/skills/automation/video-processing/SKILL.md",
+      "size_bytes": 5242,
+      "sha256": "8758e984ea02e57ba840dc51072718b02c97cd404b7e893823a3603802e7b24c",
+      "git_blob_sha1": "ff415ce3719f1e1bfa2ef065cf43c995fcad3d54",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afbd6df33322"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/guia-matthieu/clawfu-skills/blob/4108f5c010ccaa8b5707fa05ca1d888ae167e548/LICENSE",
+        "https://github.com/guia-matthieu/clawfu-skills/blob/4108f5c010ccaa8b5707fa05ca1d888ae167e548/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/guia-matthieu__clawfu-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/guia-matthieu__clawfu-skills/LICENSE",
+      "repository": "guia-matthieu/clawfu-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4108f5c010ccaa8b5707fa05ca1d888ae167e548",
+      "source_url": "https://github.com/guia-matthieu/clawfu-skills/blob/4108f5c010ccaa8b5707fa05ca1d888ae167e548/LICENSE",
+      "size_bytes": 1061,
+      "sha256": "d40b84da00219ae021f76224ef12da9762d092f2fbbf02923d1e96fadc1e400c",
+      "git_blob_sha1": "de48aa9afb7b5ce1ba244e1844a85a2e72a450e7",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-afbd6df33322"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/guia-matthieu/clawfu-skills/blob/4108f5c010ccaa8b5707fa05ca1d888ae167e548/LICENSE",
+        "https://github.com/guia-matthieu/clawfu-skills/blob/4108f5c010ccaa8b5707fa05ca1d888ae167e548/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/guia-matthieu__clawfu-skills/LICENSE"
+      ]
+    }
+  ]
+}
