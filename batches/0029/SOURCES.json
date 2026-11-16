@@ -1,0 +1,275 @@
+{
+  "batch": "0029",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 3,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/authrain-cloud-abdullahformuli__explainer-video-skills/LICENSE",
+      "repository": "authrain-cloud-abdullahformuli/explainer-video-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "c6415d0970095c198310b9ea2c768e2128beccce",
+      "source_url": "https://github.com/authrain-cloud-abdullahformuli/explainer-video-skills/blob/c6415d0970095c198310b9ea2c768e2128beccce/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "a04e428b2c609def58eadd48fcf341782fdff554728d1d7a2240ed4ad6808c55",
+      "git_blob_sha1": "f747d8e736c0b4d8c39ed22e65bf37f946fb6485",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a24bb77d27f4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/authrain-cloud-abdullahformuli/explainer-video-skills/blob/c6415d0970095c198310b9ea2c768e2128beccce/LICENSE",
+        "https://github.com/authrain-cloud-abdullahformuli/explainer-video-skills/blob/c6415d0970095c198310b9ea2c768e2128beccce/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/authrain-cloud-abdullahformuli__explainer-video-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/authrain-cloud-abdullahformuli__explainer-video-skills/skills/explainer-video/SKILL.md",
+      "repository": "authrain-cloud-abdullahformuli/explainer-video-skills",
+      "upstream_path": "skills/explainer-video/SKILL.md",
+      "upstream_commit": "c6415d0970095c198310b9ea2c768e2128beccce",
+      "source_url": "https://github.com/authrain-cloud-abdullahformuli/explainer-video-skills/blob/c6415d0970095c198310b9ea2c768e2128beccce/skills/explainer-video/SKILL.md",
+      "size_bytes": 10013,
+      "sha256": "d1c0e3147550c492790250f2d2d11b44b10ed3e46bd269a3bab03b0d25659f6a",
+      "git_blob_sha1": "5855ace8f27c74e4d55201bc764552767e7fea6b",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a24bb77d27f4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/authrain-cloud-abdullahformuli/explainer-video-skills/blob/c6415d0970095c198310b9ea2c768e2128beccce/LICENSE",
+        "https://github.com/authrain-cloud-abdullahformuli/explainer-video-skills/blob/c6415d0970095c198310b9ea2c768e2128beccce/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/authrain-cloud-abdullahformuli__explainer-video-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/badgids__Story-Film-Skills/ATTRIBUTION.md",
+      "repository": "badgids/Story-Film-Skills",
+      "upstream_path": "ATTRIBUTION.md",
+      "upstream_commit": "5ec9daf3950a987424a879ab5fef583b013afa8a",
+      "source_url": "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/ATTRIBUTION.md",
+      "size_bytes": 954,
+      "sha256": "1a713470a3bd20944adc6bfe040aff0d0c1714a144fd4e0e3203cca0875a8c83",
+      "git_blob_sha1": "7ccf413f7d2dcad4cb532de5d941bfd9e0d76b45",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ff60bcd5b5b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/LICENSE",
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/badgids__Story-Film-Skills/ATTRIBUTION.md",
+        "upstream/badgids__Story-Film-Skills/AUTHORS.md",
+        "upstream/badgids__Story-Film-Skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/badgids__Story-Film-Skills/AUTHORS.md",
+      "repository": "badgids/Story-Film-Skills",
+      "upstream_path": "AUTHORS.md",
+      "upstream_commit": "5ec9daf3950a987424a879ab5fef583b013afa8a",
+      "source_url": "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/AUTHORS.md",
+      "size_bytes": 410,
+      "sha256": "6d6daf966f95383e70e2597262a25716b38d1e6cbd9ef25f63353f450f29d56a",
+      "git_blob_sha1": "65e85b990429c33d21badce831f5af034333c184",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ff60bcd5b5b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/LICENSE",
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/badgids__Story-Film-Skills/ATTRIBUTION.md",
+        "upstream/badgids__Story-Film-Skills/AUTHORS.md",
+        "upstream/badgids__Story-Film-Skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+      "repository": "badgids/Story-Film-Skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "5ec9daf3950a987424a879ab5fef583b013afa8a",
+      "source_url": "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ff60bcd5b5b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/LICENSE",
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/badgids__Story-Film-Skills/ATTRIBUTION.md",
+        "upstream/badgids__Story-Film-Skills/AUTHORS.md",
+        "upstream/badgids__Story-Film-Skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/badgids__Story-Film-Skills/NOTICE",
+      "repository": "badgids/Story-Film-Skills",
+      "upstream_path": "NOTICE",
+      "upstream_commit": "5ec9daf3950a987424a879ab5fef583b013afa8a",
+      "source_url": "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/NOTICE",
+      "size_bytes": 495,
+      "sha256": "fe90d2f70dc20379f535c8961bec205faf968429f9a4fd06539ce1994bf97de3",
+      "git_blob_sha1": "6d9e054e3afd33dba376dc9036c3320688cd52b7",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ff60bcd5b5b"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/LICENSE",
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/badgids__Story-Film-Skills/ATTRIBUTION.md",
+        "upstream/badgids__Story-Film-Skills/AUTHORS.md",
+        "upstream/badgids__Story-Film-Skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/badgids__Story-Film-Skills/skills/evidence-research/SKILL.md",
+      "repository": "badgids/Story-Film-Skills",
+      "upstream_path": "skills/evidence-research/SKILL.md",
+      "upstream_commit": "5ec9daf3950a987424a879ab5fef583b013afa8a",
+      "source_url": "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/skills/evidence-research/SKILL.md",
+      "size_bytes": 1045,
+      "sha256": "8500a6b52aee46287676b6ecb21d59ab320a1bfe15c6af3728e3bec4a7fcf822",
+      "git_blob_sha1": "2db4284798380b32187f6079104d8512b36270e8",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0ff60bcd5b5b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/LICENSE",
+        "https://github.com/badgids/Story-Film-Skills/blob/5ec9daf3950a987424a879ab5fef583b013afa8a/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/badgids__Story-Film-Skills/ATTRIBUTION.md",
+        "upstream/badgids__Story-Film-Skills/AUTHORS.md",
+        "upstream/badgids__Story-Film-Skills/NOTICE"
+      ]
+    },
+    {
+      "file": "upstream/bitwize-music-studio__claude-ai-music-skills/LICENSE",
+      "repository": "bitwize-music-studio/claude-ai-music-skills",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "597d928fb2c8316ee13159771405813174aa01de",
+      "source_url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/597d928fb2c8316ee13159771405813174aa01de/LICENSE",
+      "size_bytes": 6556,
+      "sha256": "bf474cdfd02e162603358e4e3615182018cad27593d2bf5e75ca13e4a5a6af0c",
+      "git_blob_sha1": "4594fb738451be2147f68c09954732d7a306727e",
+      "role": "license_notice",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1f340ff8e17d"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/597d928fb2c8316ee13159771405813174aa01de/LICENSE",
+        "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/597d928fb2c8316ee13159771405813174aa01de/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/bitwize-music-studio__claude-ai-music-skills/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/bitwize-music-studio__claude-ai-music-skills/skills/researchers-primary-source/SKILL.md",
+      "repository": "bitwize-music-studio/claude-ai-music-skills",
+      "upstream_path": "skills/researchers-primary-source/SKILL.md",
+      "upstream_commit": "597d928fb2c8316ee13159771405813174aa01de",
+      "source_url": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/597d928fb2c8316ee13159771405813174aa01de/skills/researchers-primary-source/SKILL.md",
+      "size_bytes": 9596,
+      "sha256": "29546ea9a17d8e53abef4a914b7525eec66c6a3aab47c5076a32df092171ff21",
+      "git_blob_sha1": "c047aa1ad11e717a42472a8a79f232529c96354b",
+      "role": "canonical_skill_document",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1f340ff8e17d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/597d928fb2c8316ee13159771405813174aa01de/LICENSE",
+        "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/597d928fb2c8316ee13159771405813174aa01de/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged original bytes and full applicable license/copyright/NOTICE; no rights to third-party media or service access included."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/bitwize-music-studio__claude-ai-music-skills/LICENSE"
+      ]
+    }
+  ]
+}

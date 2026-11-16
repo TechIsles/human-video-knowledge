@@ -1,0 +1,66 @@
+{
+  "batch": "0028",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/LICENSE",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+      "size_bytes": 11607,
+      "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26",
+      "git_blob_sha1": "f53c679acba79cbb292961fd9fb9e87ca20eab22",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-97d149b73014"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/README.md",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/small-business/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged originals, full Apache license, source attribution to Anthropic and all notices; no service access, endorsement or training clearance implied."
+      ],
+      "existing_identical_license_reused": true,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/anthropics__knowledge-work-plugins/small-business/skills/content-strategy/SKILL.md",
+      "repository": "anthropics/knowledge-work-plugins",
+      "upstream_path": "small-business/skills/content-strategy/SKILL.md",
+      "upstream_commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/small-business/skills/content-strategy/SKILL.md",
+      "size_bytes": 8269,
+      "sha256": "2f05c89ad1f1d355084bd56170ae1557eaf1bae7f4b40cadbec3409dc1bba36c",
+      "git_blob_sha1": "439751ba2078ac92fe742fdffba0231ee1b20950",
+      "role": "canonical_skill_document",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-97d149b73014"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/LICENSE",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/README.md",
+        "https://github.com/anthropics/knowledge-work-plugins/blob/33d3dea41a341b341d4f5da2e8801ae0c89be2b8/small-business/README.md"
+      ],
+      "conditions": [
+        "Preserve unchanged originals, full Apache license, source attribution to Anthropic and all notices; no service access, endorsement or training clearance implied."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/anthropics__knowledge-work-plugins/LICENSE"
+      ]
+    }
+  ]
+}

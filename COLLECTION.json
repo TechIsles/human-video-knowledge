@@ -1,12 +1,12 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 354,
-  "learning_or_source_body_files": 269,
-  "license_or_notice_files": 85,
-  "original_payload_bytes": 2760002,
-  "unique_original_sha256": 354,
-  "new_full_canonical_source_objects_in_expansion": 117,
+  "original_payload_files": 367,
+  "learning_or_source_body_files": 275,
+  "license_or_notice_files": 92,
+  "original_payload_bytes": 2814437,
+  "unique_original_sha256": 367,
+  "new_full_canonical_source_objects_in_expansion": 123,
   "manifests": [
     "SOURCES.json",
     "batches/0001/SOURCES.json",
@@ -34,7 +34,10 @@
     "batches/0024/SOURCES.json",
     "batches/0025/SOURCES.json",
     "batches/0026/SOURCES.json",
-    "batches/0027/SOURCES.json"
+    "batches/0027/SOURCES.json",
+    "batches/0028/SOURCES.json",
+    "batches/0029/SOURCES.json",
+    "batches/0030/SOURCES.json"
   ],
   "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed."
 }

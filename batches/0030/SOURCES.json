@@ -1,0 +1,124 @@
+{
+  "batch": "0030",
+  "scope": "Complete selected canonical files and explicitly bounded supporting files. Only verified per-file redistribution grants; original instructions were not executed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/carlheath__ogmios/.claude/skills/teleprompter/SKILL.md",
+      "repository": "carlheath/ogmios",
+      "upstream_path": ".claude/skills/teleprompter/SKILL.md",
+      "upstream_commit": "7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab",
+      "source_url": "https://github.com/carlheath/ogmios/blob/7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab/.claude/skills/teleprompter/SKILL.md",
+      "size_bytes": 5174,
+      "sha256": "d4f01c2a8d537ad6fb36d9447f7aed08b44e186c67cf454adf6396255c94dc01",
+      "git_blob_sha1": "42a744936652d5ebcf932aeea25baa7dcd70942f",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2bbb310424b2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/carlheath/ogmios/blob/7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab/LICENSE",
+        "https://github.com/carlheath/ogmios/blob/7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/carlheath__ogmios/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/carlheath__ogmios/LICENSE",
+      "repository": "carlheath/ogmios",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab",
+      "source_url": "https://github.com/carlheath/ogmios/blob/7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "245136d1ac932de5e9c4b10a0de12b1ece2d8de5000a069434c386a6424bc734",
+      "git_blob_sha1": "2a2adf1c240e9afaaab0828bbccf70dbf96467ea",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2bbb310424b2"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/carlheath/ogmios/blob/7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab/LICENSE",
+        "https://github.com/carlheath/ogmios/blob/7b8dc31bb3d6e0a02e92e12ffbdc141e8fb589ab/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/carlheath__ogmios/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cdeistopened__skill-stack/.claude/skills/transcript-polisher/SKILL.md",
+      "repository": "cdeistopened/skill-stack",
+      "upstream_path": ".claude/skills/transcript-polisher/SKILL.md",
+      "upstream_commit": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+      "source_url": "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/.claude/skills/transcript-polisher/SKILL.md",
+      "size_bytes": 8714,
+      "sha256": "2dda48747ef3cdc24fd715aed57e3257767b78da205057b6a8085225224b9943",
+      "git_blob_sha1": "0c671c87dfb64a3e39a8ab29a1710e54e15527b0",
+      "role": "canonical_skill_document",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2175b41f67b3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE",
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cdeistopened__skill-stack/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/cdeistopened__skill-stack/LICENSE",
+      "repository": "cdeistopened/skill-stack",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "d607d66198b250b12c8e05c6d265ddb73d871aa5",
+      "source_url": "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "5e917f4fdd31eeea36e92038ccc91fe345504cffd8dfd4aed587a37a3aa9ef78",
+      "git_blob_sha1": "befe2f1a5b471d5c122410f0933b93bbcf84cd3f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2175b41f67b3"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/LICENSE",
+        "https://github.com/cdeistopened/skill-stack/blob/d607d66198b250b12c8e05c6d265ddb73d871aa5/README.md"
+      ],
+      "conditions": [
+        "Preserve complete copyright and permission notices with unchanged selected document.",
+        "No external linked assets, data, tools, runtime, media or dependencies included or cleared."
+      ],
+      "existing_identical_license_reused": false,
+      "retained_license_and_notice_files": [
+        "upstream/cdeistopened__skill-stack/LICENSE"
+      ]
+    }
+  ]
+}
