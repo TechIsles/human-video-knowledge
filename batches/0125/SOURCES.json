@@ -1,0 +1,48 @@
+{
+  "batch": "0125",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/web__docling-project.github.io/SRC-2f7e47e45f31/original.html",
+      "repository": "web/docling-project.github.io",
+      "upstream_path": "SRC-2f7e47e45f31/original.html",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://docling-project.github.io/docling/concepts/docling_document/",
+      "title": "DoclingDocument structure, serialization and provenance",
+      "size_bytes": 86007,
+      "sha256": "bec0a8dd4a19b8c63f003a1705d680f0643322440b552c77c3e82be099925768",
+      "git_blob_sha1": "40513ee3e3bfc9c319de79ae3086b49c86ab81ef",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2f7e47e45f31"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/docling-project/docling/main/LICENSE",
+        "https://docling-project.github.io/docling/concepts/docling_document/"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__docling-project.github.io/SRC-2f7e47e45f31/license-evidence",
+      "repository": "web/docling-project.github.io",
+      "upstream_path": "SRC-2f7e47e45f31/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/docling-project/docling/main/LICENSE",
+      "size_bytes": 1072,
+      "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+      "git_blob_sha1": "6684a401bf0f700fd37104ab7c8da340036f7166",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-2f7e47e45f31"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "batch": "0124",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 10,
+  "new_original_payload_paths": 20,
+  "files": [
+    {
+      "file": "upstream/web__github.com/SRC-b475c7cf8fb6/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-b475c7cf8fb6/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/garrytan/gbrain/blob/57b736bc686f01fac08ed03c3db3eb3c201d0735/skills/fact-check/SKILL.md",
+      "title": "garrytan/gbrain / skills/fact-check/SKILL.md",
+      "size_bytes": 21084,
+      "sha256": "49f0d356eee44541eddbc9cd501dc36707d417d84ca10446c0d315321f259674",
+      "git_blob_sha1": "32b7942ea4c170e48bc7a9e6db1dba3b89ce75d5",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b475c7cf8fb6"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/garrytan/gbrain/57b736bc686f01fac08ed03c3db3eb3c201d0735/LICENSE",
+        "https://github.com/garrytan/gbrain/blob/57b736bc686f01fac08ed03c3db3eb3c201d0735/skills/fact-check/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-a72e016c3d86/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-a72e016c3d86/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/Citrus-bit/Anaxa/blob/d57c708c4e3609130a0e42c2dc339f2e5d843470/skills/public/chart-visualization/SKILL.md",
+      "title": "Citrus-bit/Anaxa / skills/public/chart-visualization/SKILL.md",
+      "size_bytes": 9721,
+      "sha256": "0695c14be0132c60ffefd6d239041f72980556b2ade67de4afbe135876eb9491",
+      "git_blob_sha1": "c8ad5ac4eab055515d3a9d35c619e9d59831de2f",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a72e016c3d86"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Citrus-bit/Anaxa/d57c708c4e3609130a0e42c2dc339f2e5d843470/LICENSE",
+        "https://github.com/Citrus-bit/Anaxa/blob/d57c708c4e3609130a0e42c2dc339f2e5d843470/skills/public/chart-visualization/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-939236e48242/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-939236e48242/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/serejaris/kimi-skills/blob/5d6e4fac7ef2a5db5510c0631e29a44f56b8bf78/skills/general-writing/murder-mystery/SKILL.md",
+      "title": "serejaris/kimi-skills / skills/general-writing/murder-mystery/SKILL.md",
+      "size_bytes": 18672,
+      "sha256": "a1b24653714c6ffe512ff2bccc01594e1dbce5c83d6c528a25d7e3f88c7cd029",
+      "git_blob_sha1": "ffdaf4c7c5dcf4115f8750e476803bd89a1aba21",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-939236e48242"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/serejaris/kimi-skills/5d6e4fac7ef2a5db5510c0631e29a44f56b8bf78/LICENSE",
+        "https://github.com/serejaris/kimi-skills/blob/5d6e4fac7ef2a5db5510c0631e29a44f56b8bf78/skills/general-writing/murder-mystery/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-a756e7f32ac2/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-a756e7f32ac2/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/curiositech/windags-skills/blob/45c452de99a830fb630965179bacb605b8e7eb71/skills/revisiting-interview-data-analysing-turn/SKILL.md",
+      "title": "curiositech/windags-skills / skills/revisiting-interview-data-analysing-turn/SKILL.md",
+      "size_bytes": 14577,
+      "sha256": "cc9e746ac5f6041789cbbada0f7b5cfe9c0f0253d8d2b5a258923f6ce40e5394",
+      "git_blob_sha1": "e38b1336b9aac7730ed981ea837d73d62075b1aa",
+      "role": "original_article",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a756e7f32ac2"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/curiositech/windags-skills/45c452de99a830fb630965179bacb605b8e7eb71/LICENSE",
+        "https://github.com/curiositech/windags-skills/blob/45c452de99a830fb630965179bacb605b8e7eb71/skills/revisiting-interview-data-analysing-turn/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-7fac5b49847b/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-7fac5b49847b/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/alesha-pro/tools/blob/90e966201add3ff41dc4ebd1348165c0cb2d5eab/skills/motion-reel/SKILL.md",
+      "title": "alesha-pro/tools / skills/motion-reel/SKILL.md",
+      "size_bytes": 7516,
+      "sha256": "a007cbcd41ee2f271c6e191d6c7ff38dfb486aa79f3a840249d22237510394ff",
+      "git_blob_sha1": "f0b93061c1709edc9176896d6749b961dd202376",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7fac5b49847b"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/alesha-pro/tools/90e966201add3ff41dc4ebd1348165c0cb2d5eab/LICENSE",
+        "https://github.com/alesha-pro/tools/blob/90e966201add3ff41dc4ebd1348165c0cb2d5eab/skills/motion-reel/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-f577db970bab/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-f577db970bab/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/VinsonLiangyc/content-digestion/blob/d2b21938a60aacf2a3b3fe780d39849ba55d5045/SKILL.md",
+      "title": "VinsonLiangyc/content-digestion/SKILL.md",
+      "size_bytes": 55789,
+      "sha256": "d9a6d5547fdf169d15d2379570ae2cc08c48ce441b3a25f8c5193b09fa7f49d0",
+      "git_blob_sha1": "d2dc5d9bdb4216e6cca5ac91c28df421bfd0eda9",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f577db970bab"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/VinsonLiangyc/content-digestion/d2b21938a60aacf2a3b3fe780d39849ba55d5045/LICENSE",
+        "https://github.com/VinsonLiangyc/content-digestion/blob/d2b21938a60aacf2a3b3fe780d39849ba55d5045/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-1ff8711617d7/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-1ff8711617d7/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/3060226349kk-cmd/ja-zh-max/blob/bee6bb0458136a47a5c5d04e9b79cb8fb7fdcb4e/SKILL.md",
+      "title": "3060226349kk-cmd/ja-zh-max/SKILL.md",
+      "size_bytes": 12565,
+      "sha256": "6b4fe93b85de2d85870eb4e8f95049e96deec50add23a2cc6deaf965fbb46438",
+      "git_blob_sha1": "6089c2f9aee93594adecfef43dbffebc9ecf5c9e",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1ff8711617d7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/3060226349kk-cmd/ja-zh-max/bee6bb0458136a47a5c5d04e9b79cb8fb7fdcb4e/LICENSE",
+        "https://github.com/3060226349kk-cmd/ja-zh-max/blob/bee6bb0458136a47a5c5d04e9b79cb8fb7fdcb4e/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-950e7a01bfb4/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-950e7a01bfb4/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/learnprompt/laoyeye/blob/5af2b57ceb169d81b2da90cc902556a2cad11c0a/skills/learning/fact-check/SKILL.md",
+      "title": "learnprompt/laoyeye / skills/learning/fact-check/SKILL.md",
+      "size_bytes": 3645,
+      "sha256": "8f8879399712f7a8b9cc13bd1617bf7a37acd1b8e79b8b7e41664b8d174e1da4",
+      "git_blob_sha1": "a0697829af679ac4a1ad39c3dadef19ed6bc6cb3",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-950e7a01bfb4"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/learnprompt/laoyeye/5af2b57ceb169d81b2da90cc902556a2cad11c0a/LICENSE",
+        "https://github.com/learnprompt/laoyeye/blob/5af2b57ceb169d81b2da90cc902556a2cad11c0a/skills/learning/fact-check/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-c2819e224c80/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-c2819e224c80/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/elayadesign/ai-design-skills/blob/a2735a3eaf092eaaffb6dc17df25de33ef3bd048/skills/design-to-motion/SKILL.md",
+      "title": "design-to-motion",
+      "size_bytes": 39109,
+      "sha256": "12240f8065147f3623424cf38bc198a94857441446736bb449429451d87a3d55",
+      "git_blob_sha1": "b7326add823b585689f065a83e7b6b3aadc252fa",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c2819e224c80"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/elayadesign/ai-design-skills/a2735a3eaf092eaaffb6dc17df25de33ef3bd048/LICENSE",
+        "https://github.com/elayadesign/ai-design-skills/blob/a2735a3eaf092eaaffb6dc17df25de33ef3bd048/skills/design-to-motion/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-e65032ae59e8/original.md",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-e65032ae59e8/original.md",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://github.com/nebrass/hve-video-director/blob/f9c33bdb019834e02d97cd5cdc47d99e23bbacce/SKILL.md",
+      "title": "hve-video-director：语音请求身份、局部重试与旧录音残留隔离",
+      "size_bytes": 56263,
+      "sha256": "1142c8ca67dd497a9e5fbfb228ad706b82824c4c34b75681241e832491721874",
+      "git_blob_sha1": "520e83a47058eef4ff6641798d587d79c81cb09d",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e65032ae59e8"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/nebrass/hve-video-director/f9c33bdb019834e02d97cd5cdc47d99e23bbacce/LICENSE",
+        "https://github.com/nebrass/hve-video-director/blob/f9c33bdb019834e02d97cd5cdc47d99e23bbacce/SKILL.md"
+      ],
+      "conditions": "Retain original attribution, copyright and applicable license; no rights over separately excluded third-party material are claimed."
+    },
+    {
+      "file": "upstream/web__github.com/SRC-b475c7cf8fb6/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-b475c7cf8fb6/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/garrytan/gbrain/57b736bc686f01fac08ed03c3db3eb3c201d0735/LICENSE",
+      "size_bytes": 1066,
+      "sha256": "e56fbb5b3d95756f3fa1cfefa24732ec79f18ece1ad08a4e79e00df57e8b198c",
+      "git_blob_sha1": "35029511144443297cad2d26e4bac17d0e352f93",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b475c7cf8fb6"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-a72e016c3d86/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-a72e016c3d86/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/Citrus-bit/Anaxa/d57c708c4e3609130a0e42c2dc339f2e5d843470/LICENSE",
+      "size_bytes": 1172,
+      "sha256": "a1dd7320059ff134cbbed3321c324dec7bed41b83d7de289ca3c032e5a4bc895",
+      "git_blob_sha1": "ae3a1185c096f9de2fec129cd6e0aa7ab738c904",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a72e016c3d86"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-939236e48242/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-939236e48242/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/serejaris/kimi-skills/5d6e4fac7ef2a5db5510c0631e29a44f56b8bf78/LICENSE",
+      "size_bytes": 1067,
+      "sha256": "424b9acc1d52cf71181e907e377363e959e08f0722990dc6a47ece0c2eaeb0cf",
+      "git_blob_sha1": "ace6b58cee9cee4f077396175e4d12a0a532a304",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-939236e48242"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-a756e7f32ac2/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-a756e7f32ac2/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/curiositech/windags-skills/45c452de99a830fb630965179bacb605b8e7eb71/LICENSE",
+      "size_bytes": 3815,
+      "sha256": "33b1d3a2d189c35619e193cbb7d3635dcf37ac27349aac66645ce8204927d393",
+      "git_blob_sha1": "61352af65fca241dd932a18b7c3274851ebc1225",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-a756e7f32ac2"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-7fac5b49847b/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-7fac5b49847b/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/alesha-pro/tools/90e966201add3ff41dc4ebd1348165c0cb2d5eab/LICENSE",
+      "size_bytes": 1070,
+      "sha256": "828a9526a04041530b420d5fcd84cbfff0faefd0b35aac4f3fed846c0954ebd5",
+      "git_blob_sha1": "32185dc84ad81e4606f8ad873a81dff3a3aeedd6",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-7fac5b49847b"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-f577db970bab/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-f577db970bab/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/VinsonLiangyc/content-digestion/d2b21938a60aacf2a3b3fe780d39849ba55d5045/LICENSE",
+      "size_bytes": 1069,
+      "sha256": "f798c55aaf01fbb785cabf875677fb064202bb898b067c70982f81dab08d30e8",
+      "git_blob_sha1": "7088ed6c1c982de5d4cb1803871ce85614c82db6",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-f577db970bab"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-1ff8711617d7/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-1ff8711617d7/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/3060226349kk-cmd/ja-zh-max/bee6bb0458136a47a5c5d04e9b79cb8fb7fdcb4e/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "52367d934290e5b785a98c573c138afe49f9dc7b3252358d4b8c362f3e371dd5",
+      "git_blob_sha1": "2fe9cdb2179a64c0434ef5170f386fa827758d26",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1ff8711617d7"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-950e7a01bfb4/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-950e7a01bfb4/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/learnprompt/laoyeye/5af2b57ceb169d81b2da90cc902556a2cad11c0a/LICENSE",
+      "size_bytes": 1790,
+      "sha256": "40cd853d7abb90a064718e5a7af845348adb96ac5527439cb5d48abf21ce9ee9",
+      "git_blob_sha1": "0106a6fc24051f7ead2d0ceab4966fc7cdaf54d7",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-950e7a01bfb4"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-c2819e224c80/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-c2819e224c80/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/elayadesign/ai-design-skills/a2735a3eaf092eaaffb6dc17df25de33ef3bd048/LICENSE",
+      "size_bytes": 1062,
+      "sha256": "5f9af6ce7083838497676a8dfa651ad8e2559fdabd4586afc73587beec476b0e",
+      "git_blob_sha1": "9ff21c8c5b2e713c357d3e15e641172a211eac21",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c2819e224c80"
+      ],
+      "coverage_kind": "license_support"
+    },
+    {
+      "file": "upstream/web__github.com/SRC-e65032ae59e8/license-evidence",
+      "repository": "web/github.com",
+      "upstream_path": "SRC-e65032ae59e8/license-evidence",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://raw.githubusercontent.com/nebrass/hve-video-director/f9c33bdb019834e02d97cd5cdc47d99e23bbacce/LICENSE",
+      "size_bytes": 1073,
+      "sha256": "fd82b1c4753cb26a5ea3fe8e327bbf32e4ab78b1603e9ab6a18361759c4e65ad",
+      "git_blob_sha1": "ad54e7119d49c916a2a9a17587132165079f699f",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e65032ae59e8"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}
