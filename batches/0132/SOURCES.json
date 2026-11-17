@@ -1,0 +1,168 @@
+{
+  "batch": "0132",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 7,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/web__link.springer.com/SRC-06b3479d4853/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-06b3479d4853/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/article/10.1007/s11423-024-10391-9",
+      "title": "Instructor presence in instructional videos in higher education: three field experiments in university courses",
+      "size_bytes": 1000803,
+      "sha256": "b9ff5156f87b32a2df3d22bde155ec95ce06492bb78acfc884a5e73c9e89a0d4",
+      "git_blob_sha1": "d7014cb35e27ad879d0a115c383ecf4f86f5432a",
+      "role": "original_article",
+      "license": "CC BY 4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-06b3479d4853"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11423-024-10391-9.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete publisher PDF, 28 pages. Embedded CC BY 4.0 permission and attribution retained. No separate supplementary video files acquired. Third-party exception language retained; no separate restrictive figure credit found in extracted text."
+    },
+    {
+      "file": "upstream/web__doi.org/SRC-b8df0bcc846d/original.pdf",
+      "repository": "web/doi.org",
+      "upstream_path": "SRC-b8df0bcc846d/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://doi.org/10.1007/978-3-658-41829-8_2",
+      "title": "Animationsvideos realer Szenen sozialwissenschaftlichen Fachunterrichts: zur Konzeption eines neuen Lehr-/Lernmediums für die Lehrer*innenbildung",
+      "size_bytes": 352383,
+      "sha256": "f1eb40c9e7305276c37c9abe3966ffbab26c21a4be2797b9c6160c2c1ce7c532",
+      "git_blob_sha1": "be0f5336f0fe879ff43d795f85fe94fc2d41b8c1",
+      "role": "original_article",
+      "license": "CC BY 4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b8df0bcc846d"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/978-3-658-41829-8_2.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete publisher PDF, 26 pages. Embedded CC BY 4.0 permission and attribution retained. No separate supplementary video files acquired. Third-party exception language retained; no separate restrictive figure credit found in extracted text."
+    },
+    {
+      "file": "upstream/web__doi.org/SRC-3a40a5e2b8af/original.pdf",
+      "repository": "web/doi.org",
+      "upstream_path": "SRC-3a40a5e2b8af/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://doi.org/10.3390/rs13204178",
+      "title": "Creating and Testing Explainer Videos for Earth Observation",
+      "size_bytes": 4672597,
+      "sha256": "a292cbe81ab97d7cafac733ea0ec7e232ae2c955bfbdc40a2479993a6a5e47b4",
+      "git_blob_sha1": "996f41828203ad5ad7e0e57e7e244985c8aa1d49",
+      "role": "original_article",
+      "license": "CC BY 4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3a40a5e2b8af"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-13-04178/article_deploy/remotesensing-13-04178-v2.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete publisher PDF, 18 pages. Embedded CC BY 4.0 permission and attribution retained. No separate supplementary video files acquired. Third-party exception language retained; no separate restrictive figure credit found in extracted text."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-0065c4dbbf25/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-0065c4dbbf25/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/article/10.1007/s10758-026-10000-z",
+      "title": "The Impact of Lecture Style, Language and Subtitles on the Processing and Effectiveness of EMI Lectures: A Mixed-Methods Eye-Tracking Study",
+      "size_bytes": 1759627,
+      "sha256": "9409a20a25f912688b14f79ba037919592ed0955b90ef3df606e5a41f93eee6b",
+      "git_blob_sha1": "7676a41180d57e52abd2dd416cdf28381c60fa7b",
+      "role": "original_article",
+      "license": "CC BY 4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-0065c4dbbf25"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10758-026-10000-z.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete publisher PDF, 26 pages. Embedded CC BY 4.0 permission and attribution retained. No separate supplementary video files acquired. Third-party exception language retained; no separate restrictive figure credit found in extracted text."
+    },
+    {
+      "file": "upstream/web__doi.org/SRC-e673da1cc30e/original.pdf",
+      "repository": "web/doi.org",
+      "upstream_path": "SRC-e673da1cc30e/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://doi.org/10.1007/s11042-020-09616-9",
+      "title": "Show me where the action is — 全员入框与叙事选取的人工修订差异",
+      "size_bytes": 3776199,
+      "sha256": "bc702e667cfdbf6893b3d95ea2bd91ad8125a791e6b1fe58610c987c961786b2",
+      "git_blob_sha1": "65eadf53534591a8bc950990bd865b4936e32ca8",
+      "role": "original_article",
+      "license": "CC BY 4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e673da1cc30e"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11042-020-09616-9.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete publisher PDF, 26 pages. Embedded CC BY 4.0 permission and attribution retained. No separate supplementary video files acquired. Third-party exception language retained; no separate restrictive figure credit found in extracted text."
+    },
+    {
+      "file": "upstream/web__doi.org/SRC-b7da9f21c876/original.pdf",
+      "repository": "web/doi.org",
+      "upstream_path": "SRC-b7da9f21c876/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://doi.org/10.1007/s10791-023-09425-2",
+      "title": "Multimodal video retrieval with CLIP: a user study",
+      "size_bytes": 1793722,
+      "sha256": "2613998321ebe512c1f12faa0d2de29450f4a9e7e59efb38b023f7db7188d964",
+      "git_blob_sha1": "ca872796d079ac98434b689193e1a26ad18c4aa4",
+      "role": "original_article",
+      "license": "CC BY 4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-b7da9f21c876"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10791-023-09425-2.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete publisher PDF, 22 pages. Embedded CC BY 4.0 permission and attribution retained. No separate supplementary video files acquired. Third-party exception language retained; no separate restrictive figure credit found in extracted text."
+    },
+    {
+      "file": "upstream/web__www.abc.net.au/SRC-3c21ae636bc4/original.html",
+      "repository": "web/www.abc.net.au",
+      "upstream_path": "SRC-3c21ae636bc4/original.html",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.abc.net.au/education/making-a-mini-documentary-ep-2-scripting-and-storyboarding-a-vi/13592994",
+      "title": "Making a Mini-documentary, Ep 2: Scripting and storyboarding a video interview",
+      "size_bytes": 9001,
+      "sha256": "33d1f8d5861056cb72e0af2b21dec8ef4bfb8d7f519ff5c54b2b7d134faa8bd4",
+      "git_blob_sha1": "d998e7948e2513c3f36e52d3fff99696b5303176",
+      "role": "full_text_extracted",
+      "license": "CC BY-SA 4.0 (text)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-3c21ae636bc4"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://www.abc.net.au/education/making-a-mini-documentary-ep-2-scripting-and-storyboarding-a-vi/13592994"
+      ],
+      "conditions": "Complete article text including transcript, learning prompts and original text-license notice. Formatting normalized. Video/images excluded; no inference of their reuse permissions."
+    }
+  ]
+}
