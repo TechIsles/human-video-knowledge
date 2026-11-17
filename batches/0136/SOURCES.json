@@ -1,0 +1,224 @@
+{
+  "batch": "0136",
+  "scope": "One complete author-hosted original PDF stored as 8 lossless byte parts; not directly openable as one PDF until reconstructed. See RECONSTRUCTION.md.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part001",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part001",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "8883406bc1431f17d5083fe879a10ccefb8abde66c187b7de9c6cae49450e752",
+      "git_blob_sha1": "2431978a283702942b5bb03c46799cfacc9d0120",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 1,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part002",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part002",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "10b43e75609abf2bae41ce8713665506ac059a7254e411cc8f195df51193812f",
+      "git_blob_sha1": "1a16ba86d80cfab27088ed0163e490606166b8ba",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 2,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part003",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part003",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "2ce779ae232db0f10744bdd0c09ae042c871f622c900efa0564f3c1e4ab01376",
+      "git_blob_sha1": "e7456c8bcc484be36f978803637bff7448f08ece",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 3,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part004",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part004",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "b42b950f999c1a500c2a65a57db57a27bc3a9fccfd51229e78089a13e6121a2c",
+      "git_blob_sha1": "0081ad175b36049301f841696b6664e73663ef2e",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 4,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part005",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part005",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "8e9aa1d3b833990049f7a8b59716cf16b96003aa89c78b47b3bba6dac0f07feb",
+      "git_blob_sha1": "fe4d69a1c1437c67e28e10b8f4a8865de07bc1b1",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 5,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part006",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part006",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "b37248c3191d85a8b1d734d306267b129c74a0ac531f21a428556d10db7fb1ca",
+      "git_blob_sha1": "39fe7f51c2ae7b62ce86acf6c62975748152dd3d",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 6,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part007",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part007",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9999999,
+      "sha256": "e482a1f969f82b2b7087ddb11eb139b25ef361179f5905282d729daf29c99333",
+      "git_blob_sha1": "f66dc7d589a60f12cf5020ce2de74b12cf231d87",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 7,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    },
+    {
+      "file": "upstream/web__www.cs.cornell.edu/SRC-3c7032ec32ab/original.pdf.part008",
+      "repository": "web/www.cs.cornell.edu",
+      "upstream_path": "SRC-3c7032ec32ab/original.pdf.part008",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+      "title": "CineCraft: Unified Shot Planning, Capture, and Post-Processing for Mobile Cinematography",
+      "size_bytes": 9078011,
+      "sha256": "d93a90d820754a25d9f9332a884941e838cfbe288289fce6acbac46e45ccfbc0",
+      "git_blob_sha1": "53d05ee65ecb70fe50c07ffddbe4c08fc16f4dac",
+      "role": "original_article_byte_part",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-3c7032ec32ab"
+      ],
+      "coverage_kind": "canonical_file_lossless_multipart",
+      "license_evidence_urls": [
+        "https://www.cs.cornell.edu/abe/projects/cinecraft/cinecraft_chi2026.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (15 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3772318.3791532. No separate supplementary media acquired.",
+      "part_number": 8,
+      "total_parts": 8,
+      "original_full_file_sha256": "62da9ef200233104e1d525b428839e0176f98e7ac38f402953fa90d0ced5a09c",
+      "original_full_file_size_bytes": 79078004
+    }
+  ]
+}
