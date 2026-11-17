@@ -1,0 +1,184 @@
+{
+  "batch": "0134",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-87e55eac983f/original.rst",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-87e55eac983f/original.rst",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/PyAV-Org/PyAV/264c428119ecac10a2ef6bae62b50898a0bbca65/docs/api/time.rst",
+      "title": "PyAV-Org/PyAV docs/api/time.rst",
+      "size_bytes": 4152,
+      "sha256": "6d7582f294a7a0b45f2acbbe9b92767d5f8ac58b6312cb73f55bc640f888cc9a",
+      "git_blob_sha1": "963b84b9cb19352151e168ddc483b25fe8f0755e",
+      "role": "official_documentation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-87e55eac983f"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/PyAV-Org/PyAV/264c428119ecac10a2ef6bae62b50898a0bbca65/LICENSE.txt"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://pyav.org/docs/stable/api/time.html. Upstream commit: 264c428119ecac10a2ef6bae62b50898a0bbca65. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-9873bb7557bb/original.txt",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-9873bb7557bb/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/PyAV-Org/PyAV/264c428119ecac10a2ef6bae62b50898a0bbca65/LICENSE.txt",
+      "title": "PyAV-Org/PyAV LICENSE.txt",
+      "size_bytes": 1505,
+      "sha256": "76af0461ffb92e19f1c14449e95557d83a2dfaa1baf202d49e5f1d8746c0da19",
+      "git_blob_sha1": "9db1661e7d701c7fd262ed77efc2acc3831e41a2",
+      "role": "license_notice",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9873bb7557bb"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/PyAV-Org/PyAV/264c428119ecac10a2ef6bae62b50898a0bbca65/LICENSE.txt"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://pyav.org/docs/stable/api/time.html. Upstream commit: 264c428119ecac10a2ef6bae62b50898a0bbca65. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-377c435e61c5/original.rst",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-377c435e61c5/original.rst",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/apache/arrow/66af8e32dc950328b73632d4f84ea30c2de5c9ab/docs/source/python/data.rst",
+      "title": "apache/arrow docs/source/python/data.rst",
+      "size_bytes": 25358,
+      "sha256": "ee4095a2b4d3101e9459f5101d8d9ead887115068850714a86bb964ec5d84597",
+      "git_blob_sha1": "22a3114fdd28d7e050c9ade6cc1bda99952d0b23",
+      "role": "official_documentation_source",
+      "license": "Apache-2.0 (with retained third-party notices)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-377c435e61c5"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/apache/arrow/66af8e32dc950328b73632d4f84ea30c2de5c9ab/LICENSE.txt"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://arrow.apache.org/docs/python/data.html. Upstream commit: 66af8e32dc950328b73632d4f84ea30c2de5c9ab. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-12fb06375336/original.txt",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-12fb06375336/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/apache/arrow/66af8e32dc950328b73632d4f84ea30c2de5c9ab/LICENSE.txt",
+      "title": "apache/arrow LICENSE.txt",
+      "size_bytes": 108406,
+      "sha256": "4400b507b722b880ae4c66ea45984f9f4f068b170b83a3c54590154aeb81e021",
+      "git_blob_sha1": "2f4988e212af93eb2938f80dffd3e56131bab7d8",
+      "role": "license_notice",
+      "license": "Apache-2.0 (with retained third-party notices)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-12fb06375336"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/apache/arrow/66af8e32dc950328b73632d4f84ea30c2de5c9ab/LICENSE.txt"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://arrow.apache.org/docs/python/data.html. Upstream commit: 66af8e32dc950328b73632d4f84ea30c2de5c9ab. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-e493921739d4/original.txt",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-e493921739d4/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/apache/arrow/66af8e32dc950328b73632d4f84ea30c2de5c9ab/NOTICE.txt",
+      "title": "apache/arrow NOTICE.txt",
+      "size_bytes": 2916,
+      "sha256": "afd895d61a00101f6d5a41cf518c83865d815e8109e956f512a0ce4ea9738c06",
+      "git_blob_sha1": "8046f20a0b919dba562dee3d5097fdee7bdd4010",
+      "role": "license_notice",
+      "license": "Apache-2.0 (with retained third-party notices)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e493921739d4"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/apache/arrow/66af8e32dc950328b73632d4f84ea30c2de5c9ab/LICENSE.txt"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://arrow.apache.org/docs/python/data.html. Upstream commit: 66af8e32dc950328b73632d4f84ea30c2de5c9ab. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-96297be65ee1/original.md",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-96297be65ee1/original.md",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/huggingface/huggingface_hub/761296ea59f477cae44ffe623613921c3b2351ad/docs/source/en/guides/download.md",
+      "title": "huggingface/huggingface_hub docs/source/en/guides/download.md",
+      "size_bytes": 13891,
+      "sha256": "faee488495395bd2451041d508cfa1bca6b11eee2ac41da2fd54c91f13043a06",
+      "git_blob_sha1": "e2117b63c04cc81ce21e455f330c9286f5b141a9",
+      "role": "official_documentation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-96297be65ee1"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/huggingface/huggingface_hub/761296ea59f477cae44ffe623613921c3b2351ad/LICENSE"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://huggingface.co/docs/huggingface_hub/guides/download. Upstream commit: 761296ea59f477cae44ffe623613921c3b2351ad. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-e504f694ada0/original.md",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-e504f694ada0/original.md",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/pydantic/pydantic/e56f60fd32273d1d7c397a3ac46bba05e6a73454/docs/concepts/strict_mode.md",
+      "title": "pydantic/pydantic docs/concepts/strict_mode.md",
+      "size_bytes": 6371,
+      "sha256": "059a8f823272b959a7915bdd10faf1e02597ee683c4311e2f7448122e2241219",
+      "git_blob_sha1": "f74b23f3397d73e26ffeab566e0d39faa0302541",
+      "role": "official_documentation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e504f694ada0"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/pydantic/pydantic/e56f60fd32273d1d7c397a3ac46bba05e6a73454/LICENSE"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://pydantic.dev/docs/validation/latest/concepts/strict_mode/. Upstream commit: e56f60fd32273d1d7c397a3ac46bba05e6a73454. Root license and notices retained; included code examples remain under their applicable licenses."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-10b654512356/original.txt",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-10b654512356/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/pydantic/pydantic/e56f60fd32273d1d7c397a3ac46bba05e6a73454/LICENSE",
+      "title": "pydantic/pydantic LICENSE",
+      "size_bytes": 1129,
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "git_blob_sha1": "488c6260c10f2e88fa1fae58a63fccec8d600cd1",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-10b654512356"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/pydantic/pydantic/e56f60fd32273d1d7c397a3ac46bba05e6a73454/LICENSE"
+      ],
+      "conditions": "Unmodified official documentation source file, not a rendered website or complete repository. Original website: https://pydantic.dev/docs/validation/latest/concepts/strict_mode/. Upstream commit: e56f60fd32273d1d7c397a3ac46bba05e6a73454. Root license and notices retained; included code examples remain under their applicable licenses."
+    }
+  ]
+}

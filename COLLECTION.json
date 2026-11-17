@@ -1,12 +1,12 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 1382,
-  "learning_or_source_body_files": 858,
-  "license_or_notice_files": 524,
-  "original_payload_bytes": 122045193,
-  "unique_original_sha256": 1381,
-  "new_full_canonical_source_objects_in_expansion": 661,
+  "original_payload_files": 1390,
+  "learning_or_source_body_files": 862,
+  "license_or_notice_files": 528,
+  "original_payload_bytes": 122208921,
+  "unique_original_sha256": 1389,
+  "new_full_canonical_source_objects_in_expansion": 665,
   "manifests": [
     "SOURCES.json",
     "batches/0001/SOURCES.json",
@@ -140,9 +140,10 @@
     "batches/0130/SOURCES.json",
     "batches/0131/SOURCES.json",
     "batches/0132/SOURCES.json",
-    "batches/0133/SOURCES.json"
+    "batches/0133/SOURCES.json",
+    "batches/0134/SOURCES.json"
   ],
   "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed. Twenty-two full article text files are explicitly marked normalized extractions, not byte-identical original pages; embedded and third-party media are excluded.",
-  "unique_complete_canonical_source_objects": 661,
+  "unique_complete_canonical_source_objects": 665,
   "normalized_full_article_text_files": 22
 }
