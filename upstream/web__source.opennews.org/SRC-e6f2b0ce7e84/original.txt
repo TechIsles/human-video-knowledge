@@ -1,0 +1,83 @@
+Title: How We Made Vigils in Paris, a VR Story
+Subtitle: Inside the development and production of the paper’s first in-house VR film
+Authors: By Graham Roberts
+Publication: Posted on: December 17, 2015
+Publisher: Source, an OpenNews project
+Source: https://source.opennews.org/articles/how-we-made-vigils-paris-vr-story/
+License: Creative Commons Attribution 3.0 (CC BY 3.0), as explicitly linked in this article footer
+License URL: https://creativecommons.org/licenses/by/3.0/
+Retrieved: 2026-11-17
+Representation: Complete licensed article-text extraction, not original HTML; media and separately sourced material exclusions are stated below.
+Changes: HTML markup removed; whitespace normalized; hyperlink destinations inserted next to link text.
+Exclusions: All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text.
+Original HTML SHA256: 523c2ca955dd0b5a57d56bd6a0eed3140a64fc3663fc3eda906a18764762ed40
+
+--- ARTICLE TEXT ---
+
+On November 20, the New York Times released “Vigils in Paris”—a virtual reality film that captured a city in mourning after the terror attacks a week earlier. It was the first VR project from the Times produced completely in-house. Graham Roberts, senior graphics editor at the Times, spoke with us over email about how they made it, and what the future of VR looks like. 
+
+Planning and Developing
+
+Q: How long has your team been planning to move into VR work?
+
+Our interest in VR really started after I attended the 2014 SIGGRAPH conference. VR and AR (augmented reality) were what everyone was talking about, and I was curious about what this could mean for journalism.
+
+In my report back from the conference, I emphasized that we should start treating it seriously, and my department, the Times’s graphics desk, began to build some resources so that we could conduct research into how we might produce this work, from shooting, to computer graphics, to audio, as well as distribution.
+
+Q: What was the app development phase like? And relatedly, what kind of competencies did you have to start building to support this move?
+
+The NYT VR app was developed by a separate team in advance of the launch of “The Displaced” video by the Magazine. (Additional details on that project and the parties involved are available elsewhere (http://investors.nytco.com/press/press-releases/press-release-details/2015/The-New-York-Times-Launches-NYT-VR-Delivers-Over-One-Million-Google-Cardboard-Viewers/default.aspx).)
+
+Producing VR In-House
+
+Q: How did the Vigils piece differ from The Displaced? Did your process or tech change between the two projects?
+
+The Vigils piece and The Displaced were fundamentally different productions. The Displaced was produced by the outside production company VRSE (http://vrse.com/) and the Magazine team at the Times. It included months of pre-planning as well as months of production. Vigils in Paris was the first VR project produced completely in-house by the Graphics and Video departments at the New York Times, and while we had been building a workflow for many months, this story pushed us to do it on a breaking news schedule. It was produced with no outside partners. We had no time to plan. The process took less than one week, from the decision to cover the event in VR to publication.
+
+Q: What was the creative process behind Vigils in Paris? Who worked on what?
+
+At the time of the attacks, our camera rig was with a few members of our department for a test-run related to another story. We decided to send the rig over to Paris, and Leslye Davis, a video producer and journalist, got on a flight right away.
+
+Ben Solomon, another video correspondent, also headed to Paris and would be able to help with the shoot as well. He had worked with VRSE to shoot and produce The Displaced, and while he didn’t have much experience shooting with our setup, he had already done a fair amount of this kind of shooting in the field.
+
+Over video chat we talked to Ben and Leslye in Paris from our New York offices on how to load cameras into the rig, best practices, etc. and we were very encouraged when we got back a useable shot right out of the gate.
+
+We started to do some reporting on where vigils were emerging, mostly expected locations, but with Ben and Leslye on the ground, they had to find the best spots to place the camera. As more shots came in, we decided to expand the ambitions of the piece, despite the extremely tight deadline.
+
+I edited the shots together so that you begin at night in the Place de la République, and then there is a fade to a day shot in the same location. From here you travel to two restaurant vigils and to the Bataclan concert hall, and then we return to the Place de la République for a more hopeful moment, ending the piece at night with a moment of singing.
+
+We had to lock the scenes in pretty early so that we could do the heavy post-production work still required—a task that Yuliya Parshina-Kottas, Evan Grothjan, and I worked on as the edit came together.
+
+Stitching 360-degree video essentially involves making the visual overlap from camera to camera on the rig appear seamless, but it can be extremely time consuming involving frame by frame work, and is not usually done on such a tight deadline. Video editor, Taige Jensen also helped to insure that color correction and audio correction was progressing in parallel.
+
+ Images mid-stitch, during the process to create the 360-degree sphere of video that creates the “virtual reality” experience.
+
+“Putting Someone There”
+
+Q: Tell us more about the technology and the creative choices behind Vigils, please—filming, audio, graphics, etc.
+
+The technology for our rig at this moment is essentially an array of GoPro cameras. The technology for VR is very much a moving target and the way we do things now is likely to be different in a matter of months. But essentially we are stitching the GoPro cameras into a full 360 video using special software designed for this purpose. This stitching is then further refined in compositing software, and then edited in a traditional fashion with the addition of a VR plug-in that allows viewing the scenes in 360 as we edit. Graphics/type can be incorporated as well, using software that converts these elements into the same un-wrapped “equirectangular” projection as the video.
+
+Creatively I pushed for longer shots. You can’t think of editing in VR in the traditional sense. You are putting someone there. That means they first need to orient themselves, and then you need to give them the time and space to look around and explore people’s expressions, artifacts, etc. In today’s world of quick, seconds-long cuts to capture short attention spans, VR really requires a rethinking of the approach.
+
+The Art and Future of VR
+
+Q: What unique ethical and aesthetic questions did you have to consider, given that VR is such an immersive experience?
+
+One interesting element of VR from a transparency perspective is the lack of a crop. Yes, there is camera placement, but when you choose a shot in a traditional video, you’re essentially making editing decisions by what you include and exclude from the frame. With VR, you give a lot of that back to the viewer because you capture everything.
+
+Q: Does VR change the role or focus of the journalist, re: building empathy?
+
+The focus question is an interesting one. In a traditional role, the journalist is behind the camera, making the subtle and important decisions involved with framing. VR takes that away to some degree, or at least makes it different in a way that we are still discovering. Now, there is no behind the camera. But there is still the “framing” of where the camera is placed, which is incredibly important, and I think as VR develops we will learn how this compares to what this role is in camera work as we have known it.
+
+Empathy is certainly the buzz-word surrounding VR, the idea being that if you are “there,” there is no longer this distance created by the frame and as a result viewers gain a stronger emotional attachment to the subject.
+
+I think this is possible, but not guaranteed. It depends on how well the shots are constructed, and whether a story is being told, just like any other medium. But I find it intriguing that VR relies on a viewer’s perception and discovery of content, and not just the cuts and frames decided on by an editor.
+
+Looking Ahead
+
+Q: What are your hopes for the future of VR at the Times? And is it something you imagine we’ll see more newsrooms exploring anytime soon?
+
+Many newsrooms are already exploring VR, but the Times did something important by getting the Cardboard viewers out there. In these early days, we aren’t just making the TV show, we kinda sent you the TV.
+
+…I hope that we can cover news stories even faster, with our time spent more on the creative side and less on the production side. We’re also excited about exploring ways we can construct stories, using both video and computer graphics—learning what really works, to engage and inform.

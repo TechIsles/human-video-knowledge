@@ -1,0 +1,1021 @@
+# Meaning Making with Multiple Representations: a Case Study of a Preservice Teacher Creating a Digital Explanation
+
+Source PDF: https://link.springer.com/content/pdf/10.1007/s11165-021-10038-2.pdf
+DOI: https://doi.org/10.1007/s11165-021-10038-2
+License: CC-BY-4.0; original authors and full license notice appear in the extracted article below.
+Original PDF SHA256: 0ac09b82e2dbe2c609e1caa61f165214ef0f3960a18fe6b31e7080bc7234d9af
+Transformation: Full-page text extracted using pdftotext -layout on 2026-11-17. Text, tables recoverable as text, references, and figure captions retained. All images, video frames, audio, supplementary assets and formatting omitted. This is not a byte-identical original PDF and it does not reproduce figure pixels.
+Rights boundary: Figure 3 is credited to Alberta Distance Learning Centre, reproduced with permission. That permission is not assumed transferable.
+
+--- BEGIN COMPLETE EXTRACTED ARTICLE TEXT ---
+
+Research in Science Education (2022) 52:871–890
+https://doi.org/10.1007/s11165-021-10038-2
+
+
+
+
+Meaning Making with Multiple Representations: a Case
+Study of a Preservice Teacher Creating a Digital Explanation
+
+Wendy Nielsen1         · Annette Turney1 · Helen Georgiou1 · Pauline Jones1
+
+Accepted: 13 December 2021 / Published online: 11 January 2022
+© The Author(s) 2022
+
+
+Abstract
+The construction of dynamic multimedia products requires the selection and integration of
+a range of semiotic resources. As an assessment task for preservice teachers, this construc-
+tion process is complex but has significant potential for learning. To investigate how weav-
+ing together multiple representations in such tasks enables learners to develop conceptual
+understanding, the paper presents an indicative case study of a 2nd-year preservice primary
+(K-6) teacher who created a digital explanation on the topic of ‘transparency’ for stage
+3 children (ages 11–12). We focus on data gathered during the 3-h construction process
+including artefacts such as images, online searches, websites accessed and paper records
+used for planning; the digital explanation as product; audio and video capture of the con-
+struction process and pre- and post-construction interviews. Using multimodal analysis,
+we examine these data to understand how meanings are negotiated as the maker moves
+iteratively among multiple representations and through semiotic choices within these rep-
+resentations to explain the science concept. The analyses illustrate the complexity of the
+construction process while providing insight into the creator’s decision-making and to her
+developing semiotic and conceptual understandings. These findings allow us to build on
+the concept of cumulative semiotic progression (Hoban & Nielsen, Research in Science
+Education, 35, 1101-1119, 2013) by explicating the role of iterative reasoning in the pro-
+duction of pedagogic multimedia.
+
+Keywords Digital explanation · Preservice teachers · Multimodalities · Social semiotics ·
+Representations · Student-generated digital media · Slowmation
+
+
+Introduction
+
+The increasing use of dynamic multimedia construction as an assessment task is based
+on a dual aim to improve science content knowledge and develop multimodal litera-
+cies (Hoban, Nielsen, & Shepherd, 2016). These two aims have long been linked in
+the science education literature, as it is understood that working with and constructing
+scientific representations is central to learning (Tytler et al. 2014). This is because how
+
+
+* Wendy Nielsen
+  wnielsen@uow.edu.au
+1
+    School of Education, University of Wollongong, Wollongong, New South Wales 2522, Australia
+
+
+                                                                                        13
+                                                                                Vol.:(0123456789)
+872                                                Research in Science Education (2022) 52:871–890
+
+
+meanings are made in scientific discourse is considered fundamental to the epistemic
+processes through which knowledge is generated, validated and communicated in sci-
+ence disciplines (Tytler et al., 2018). In science, the different modalities used (such as
+images, scientific symbols or language) serve to represent different aspects of scientific
+understanding (Lemke, 1998) and offer opportunities for exploring concepts, conduct-
+ing experiments, recording findings and disseminating understandings. This functional
+relationship between scientific enterprise and the modalities used signal that learning
+how to use representations in science is a means through which individuals learn how
+to reason and theorize in science (Gooding, 2006; Latour, 1999). Accordingly, science
+educators are increasingly seeking to foster the development of multimodal discipli-
+nary literacy (see, for example Airey & Larsson 2020; Linder et al., 2014; Tang et al.,
+2014; Tang & Danielsson, 2014; Tytler et al. 2014).
+    Although we are aware of the need to work across multiple scientific representations
+in assessment tasks, the potential of multimodal environments has not yet been fully
+realized.
+    Traditionally, the focus in education has been on the more established discipli-
+nary modes, such as language. As technologies develop, particularly those that enable
+dynamic representations, this focus has broadened to include other modes, including
+image (moving and still) (e.g. He, 2020; Unsworth, 2020) and gesture (e.g. Lim, 2011,
+2019). Explicit references to multimodality are now more commonplace in curricula.
+For instance, in Australia, students studying science from the late primary school level
+are expected to ‘Communicate ideas, explanations and processes using scientific repre-
+sentations in a variety of ways, including multi-modal texts’ (Australian Curriculum,
+Assessment and Reporting Authority [ACARA], 2017) and university science students
+‘gather, synthesize and evaluate information from a range of sources and to communi-
+cate science to a range of audiences for a range of purposes and in a variety of modes’
+(ALTC, 2011, p. 14).
+    The field of research that considers multimodal communication, ‘multimodal-
+ity’, is still in its infancy (Bateman et al., 2017). Although it is described as a field
+that draws from a range of different philosophies, it is heavily influenced by social
+semiotics, which posits the close relationship between texts and their social contexts.
+Though the central assumption of meaning making as a social practice is common,
+it manifests differently in different fields. For instance, in science education, social
+semiotics has been used to describe the use of representations in the discipline of
+physics (Airey & Linder, 2009). Theorizing in this space is particularly useful for
+science educators because specific disciplinary characteristics, such as the con-
+current use of modes such as mathematical equations and diagrams, are discussed.
+Another branch of social semiotics stems from systemic functional theory (SFT)
+(Halliday, 1978). Most fully developed for language, SFT focuses on the function
+of language (or other modes) and considers meaning making as involving choices
+made as part of systems of possible options. Systemic functional theory, together
+with genre theory, has informed current approaches to multimodality (Bateman et al.,
+2017; Kress, 2010; O’Halloran, 2011)
+    Given the increasing use of student-generated digital explanations as assessment in sci-
+ence education (Hoban, Nielsen, & Shepherd, 2016), there is a pressing need to better
+understand these products, both in terms of their construction as a meaning-making activ-
+ity and their pedagogic potential. We build on the concept of cumulative semiotic progres-
+sion (Hoban & Nielsen, 2013) to ask the question: How does a social semiotic account of
+digital media production help us to understand meaning making by a preservice teacher?
+
+13
+Research in Science Education (2022) 52:871–890                                          873
+
+
+Background
+
+Digital Explanations as Assessment
+
+Digital explanations are dynamic multimodal texts created by the learner to communi-
+cate science meanings (Nielsen & Hoban, 2015). These objects are referred to using a
+range of different terms depending on form and media, but the type we are considering
+is characterized by being student generated, multimodal and dynamic. Typically, this
+looks like a 3–5 min, stand-alone, digital, dynamic product employing narration, image
+and language on screen, with the possibility of animation and video (film) also being
+included (Nielsen et al., 2018). There are a number of different techniques that can be
+used in the creation, all of which are based on the ubiquity of personal, web-enabled
+digital devices such as smartphones or tablets and readily available media production
+software such as iMovie or Explain Everything. The ubiquity and ease of use of contem-
+porary educational technologies have unlocked potential for new and more sophisticated
+uses as assessment items (see, for example, Bennett et al., 2018; Mayer, 2009; Prensky,
+2001). This is particularly important in science, and in preservice teacher education,
+given the inherent multimodalities of both science and the primary classroom.
+   Digital explanation developed from an earlier technique called ‘slowmation’ (Hoban,
+2005, 2009, 2020; Hoban et al., 2011). Slowmation is a form of stop-motion animation
+where the learner plans a sequence of representations through storyboarding and model
+making. The models are then moved manually while taking a sequence of still images
+and uploading them into a movie-making programme. The sequence is then played at
+2 frames per second and narrated. The result is a stand-alone animated explanation of
+a science concept or process that aims to help the viewer visualize the ideas and make
+meaning. Hoban’s science learners were preservice primary teachers who, while devel-
+oping technical skills in creating a digital artefact, also developed conceptual under-
+standing of the science content (Hoban & Nielsen, 2013; Nielsen & Hoban, 2015).
+Similar results with slowmation have also been demonstrated across a range of learning
+contexts and in many different content areas: secondary science teachers in their teacher
+education programmes (Amos & Campbell, 2016; Keast & Cooper, 2016; Kidman
+et al., 2012; Paige et al., 2016); Aboriginal ways of knowing (McKnight et al., 2011);
+high school students studying geology (Mills et al., 2019, 2020) and preschool children
+learning about science concepts (Fleer & Hoban, 2012).
+   Recent work on digital explanations reveals significant potential for learning (see,
+for example Mills et al., 2019; Paige et al., 2016). In addition, results from a range of
+studies show that there might also be potential to improve communication skills, col-
+laboration and engagement (Hoban & Nielsen, 2014; Nielsen et al., 2017). However,
+multimodal texts are challenging to construct, assess and teach (Jones et al., 2020).
+Researchers in this area highlight that the use of digital explanations (or learner-gen-
+erated digital products more generally) has occurred without a substantial assessment
+framework and lacks theoretical underpinning (Reyna & Meier, 2018). Constructs from
+the field of social semiotics are thus helpful if we hope to realize the potential of digital
+explanations.
+
+
+
+
+                                                                                  13
+874                                                Research in Science Education (2022) 52:871–890
+
+
+Social Semiotics
+
+Social semiotics has proven useful in the fields of multimodality and science education,
+which is where this particular research lies. However, social semiotics is not a uniform
+theoretical framework, but rather, different traditions have adapted to different objects
+of study. In this paper, we draw from a range of concepts from science education, lin-
+guistics and multimodality to describe the meaning making and its relationship to learn-
+ing in preservice primary teacher education.
+    We begin with the notion of the cumulative semiotic progression (Hoban & Nielsen,
+2013) which identifies the process of constructing a multimodal product as constituting
+a number of stages (e.g. research notes, storyboard, models). Hoban and Nielsen argue
+that throughout these stages, meaning is made through the use of different ‘signs’. Key
+implications from this theorization include that, first, the signs used in each stage have
+particular potential for different kinds of meaning making and, second, that the process
+of recontextualization of meaning across the different signs in these stages results in
+improved reasoning and understanding.
+    The potential for meaning making by the different modes, described above, is cap-
+tured in the concept of ‘affordance’. Here, we use the definition offered by Airey and
+Linder (2009) within their disciplinary application of social semiotics. Identifying the
+discipline of physics, Airey and Linder describe learning or development in the disci-
+pline as having access to the ‘disciplinary ways of knowing’, which is achieved through
+familiarly with the discourse of the discipline. The discourse, in turn, involves tools,
+representations and activities. Each of these aspects of the disciplinary discourse can
+occur in different modes, which the authors identify as spoken language, written lan-
+guage, image, gesture, apparatus and so on. Airey and Linder explain that there are dif-
+ferent facets to the ways of knowing in a discipline that can only be achieved through
+the use of multiple modes. They explain that all facets of knowing cannot be expressed
+monomodally and theorize that each way of knowing is achieved by a ‘critical constel-
+lation of modes’: a ‘minimum’, specific combination of the modes detailed above that
+gives a learner holistic ‘access’ to the disciplinary discourse and thus, ways of knowing.
+This critical constellation differs for different concepts, and, once fluent in the critical
+constellation, learners can readily employ any other range of individual modes.
+    We can thus see how the process of constructing a multimodal resource (such as
+slowmation, as a multimedia product) provides an opportunity for a learner to achieve
+a critical constellation of modes, and here, we draw on more recent research in social
+semiotics to more precisely describe this process. In generating representations, learners
+must construe scientific meanings and then translate the meanings into different forms,
+which is where the learning is theorized to happen (Kress et al., 2001; Kress & van
+Leeuwen, 2006). Translation has technical meaning here and is used as a general semi-
+otic term to capture changes in meanings from one mode to another that result from
+having to work in a new medium or for a different audience. The concept of ‘trans-
+duction’ refers more specifically to ‘meaning material’ being moved from one semi-
+otic mode to another, for example the kinds of changes that emerge in moving from a
+written explanation of a process (language as a mode) to a diagram that represents that
+same process (image as a tool) (Bezemer & Kress, 2008). Bezemer and Kress’s idea of
+‘epistemological commitments’ is also useful here, in terms of illustrating the additional
+work required to translate or transduct meaning and further explain that different modes
+impose a different set of such commitments. Transduction of meaning from written to
+
+
+13
+Research in Science Education (2022) 52:871–890                                            875
+
+
+visual modes, for instance, might require additional detail, such as specific placements,
+colours or addition of other representations. Such commitments demand the attention of
+the author or creator of the digital product too.
+    Svensson and Eriksson (2020) also made a distinction between the disciplinary and ped-
+agogical affordances of the semiotic resources (Airey and Linder’s ‘modes’), bringing in a
+consideration of the audience. Depending on the context of their use, the resources may not
+reflect ‘traditional’ representations in the sense that the disciplinary representations may
+need to be modified to better suit the intended audience (see also Airey & Linder, 2009).
+Thus, when generating a digital explanation, how a particular learner selects resources may
+form part of a transductive process as meanings are translated from one representational
+form to another. Selecting and modifying multiple representations are thus of interest in
+order to better understand the meaning-making potential of this form of media production.
+    In addition to the meaning made by the creator, we also consider the multimodal litera-
+cies used to address an audience. In order to thus describe the purpose of the text, we draw
+on systemic functional linguistic theory (SFL) (Halliday & Hasan, 1976; Halliday & Mat-
+thiessen, 2014) together with genre theory (Martin & Rose, 2008). Genre theory describes
+the different patterning of texts according to their social purposes and has impacted cur-
+riculum literacies making it possible to identify the major genres associated with discipli-
+nary practices (Martin & Rose, 2008). Explanation genres are important in communicating
+different kinds of scientific processes such as sequencing (cyclical and sequential explana-
+tions), expressing causation (causal, factorial and consequential explanations) and describ-
+ing systems (system explanations) (Derewianka & Jones, 2016; Martin & Rose, 2008). A
+causal explanation, for example, consists of the phenomenon identification (identifying the
+relevant concept) and one or more explanation sequences (linking cause and effect). Dif-
+ferent kinds of explanations are recognizable as ‘recurrent patterns of meaning’ (Martin &
+Rose, 2008, p. 231) so that it is possible, for analytical and pedagogical purposes, to expect
+to find distinct stages through which an instance of a genre or text unfolds. Combinations
+of genres are common in the digital world as evidenced in websites, simulations and other
+digital artefacts such as videos. In the disciplinary contexts of higher education, texts are
+expanded through embedding and combining these different genres (Szenes, 2017) and
+learners build an understanding of these systems through countless instances of listening,
+speaking, writing and reading texts. Furthermore, genres configure three dimensions of
+context: fields of social activities, tenors of social relations and modes of meaning making
+(linguistic, visual, spatial, aural and gestural). Collectively, field, tenor and mode comprise
+register and patterns of register are realized as patterns of meaning in the text. The purpose
+of the explanation (genre) under focus in this paper is to explain a science concept (field),
+to children (tenor) drawing on a range of semiotic resources available through digital media
+(mode).
+
+
+Method
+
+We adopt an interpretive approach to characterize the meaning making, learning and
+communicative elements of the construction of a digital explanation. We use case meth-
+ods (Stake, 2005; Yin, 2017) to present a study of one preservice primary teacher (PST)
+who constructed a digital explanation artefact start-to-finish during a 3-h research period.
+‘Stacy’ (pseudonym) had previous experience with ‘slowmation’ and multimedia pro-
+duction having created a slowmation in a science methods class in year 1 of her degree
+
+
+                                                                                   13
+876                                                 Research in Science Education (2022) 52:871–890
+
+
+programme. The methods class included workshops and assignments to help PSTs develop
+techniques for digital media creation. During the pre-interview, Stacy was tasked to create
+a digital explanation about the concept of ‘transparency’ for children in years 5 and 6 (ages
+11–12). We assigned the topic of transparency for the digital explanation because it is a
+familiar but complex concept and is part of the primary science curriculum. At the time of
+this study, Stacy was mid-way through the second year of the 4-year Bachelor of Primary
+Education degree programme. During the pre-interview, we asked questions such as what
+do you know about the topic? How confident are you with your knowledge of the topic?
+What experience have you had with digital media production? What are your plans for cre-
+ating this digital explanation? Which keywords will you use to search for information? We
+also asked Stacy to talk aloud as she worked.
+   To support the construction, we provided a range of models and construction materials:
+scissors, coloured paper and plastic sheets, pens, plasticine, etc., as well as a small white-
+board and assorted equipment, such as ‘optics kit’ materials, including concave and convex
+lenses of different sizes, as well as mirrors, prisms, a light box and flashlights. The study
+was conducted in a sound studio on the university campus and the construction period was
+video and audio recorded. The audio recording was transcribed verbatim. Interviews with
+Stacy before and after the construction period were also transcribed and artefacts she gen-
+erated during the study period were collected. Additionally, still, photographs were taken
+throughout the study period including workspace layouts, websites she accessed and other
+salient details of her construction activities. The resulting digital explanation as well as a
+summary of the multimodal transcription of the construction period are both included as
+Supplementary Material for this paper.
+   We acknowledge that a single case is a limiter to wider generalizations; however, the
+wide range of data sources for the case offers an unusually rich opportunity to examine
+how these many resources were used by this preservice teacher to build meanings. Focus-
+ing on one or a small number of texts or artefacts allows detail and depth as well as rich-
+ness to analysis and descriptions and is not uncommon when studying meaning-making
+processes or representations (see, for example Jamini, 2011; Morgan & Kynigos, 2014;
+Unsworth, 2006; Zappavigna, 2016). The depth provided in this single case allows us to
+look at how relevant theories inform our understandings in the rich spaces of multimo-
+dalities, multiple representations, scientific explanations and the digital environment where
+student-generated products like digital explanations are artefacts of learning.
+
+
+
+Analysis and Results
+
+The research aims to describe the links between meaning making, learning and commu-
+nication of a scientific concept. There were two key steps in the analysis. Firstly, we used
+genre theory to identify the stages of the digital explanation that Stacy generated, including
+the phenomenon identification (which includes a definition), two explanation sequences,
+rounded out by a concluding statement. The stages also serve to organize the multimodal
+transcription of the construction period and presentation of the multiple representations
+she accessed or generated during the study period. Table 1 presents the transcription of the
+digital explanation, with time-stamped stages, that ran for 1 min and 28 s in total.
+   The transcription in Table 1 characterizes the digital explanation that Stacy created
+in terms of the purpose of the different stages in the genre, alongside a screenshot from
+that stage and our generalized multimodal analysis of visual and aural elements, similar
+
+13
+Research in Science Education (2022) 52:871–890                                         877
+
+Table 1  A staged multimodal analysis of the digital explanation
+
+
+
+
+to the analysis done by Tan (2014). The videographic elements are further characterized
+in terms of the static and dynamic representations used. An additional visual element
+is ‘on-screen text’, which was typically overlaid as a title or a label. In Stacy’s digital
+explanation, a scripted narration comprises the aural element.
+
+
+                                                                                13
+878                                                          Research in Science Education (2022) 52:871–890
+
+Table 2  A multimodal analysis of the construction period transcript
+
+
+
+
+   The second step in the analysis process involved exploring, in more detail, the context of
+the construction period where each of the stages was developed more expressly, in terms of
+how Stacy selected and worked with representations. The full summary of the multimodal
+transcript of the construction period is found in Supplementary Materials, while Table 2
+presents a part of this analysis. The construction period transcript includes timestamps,
+images of websites Stacy visited as source material and interpretive commentary for the
+segment. The quotes in red are phrases that Stacy read directly from the source material
+she accessed and in the case of Table 2, the sequence displayed reflects her refining a key
+definition for the digital explanation. We aim to show how the many moments reflected in
+Tables 1 and 2 are consequential for the dual aims of Stacy’s learning about science and
+communicating the science content in the digital explanation.
+   Through analysis, we thus consider how Stacy built topic-related meanings through her
+representational choices (field); how she oriented these choices to the needs of her young
+viewers (tenor) and, then, how she organised the various semiotic resources into the digital
+explanation (mode). Interview data complements the analysis of the artefact. We draw on
+the identified range of concepts from social semiotics for this work, examining each of the
+
+
+13
+Research in Science Education (2022) 52:871–890                                          879
+
+
+key informational sequences from the digital explanation she produced to understand how
+she chose the representation(s) and for what purpose.
+
+Preparation for Construction
+
+The task to create a digital explanation on the concept of transparency for children aged
+11–12 was explained to Stacy during the pre-interview, and she indicated that she didn’t
+know very much about the concept. She noted that she would begin the task by conducting
+internet searches for information. Initially, she conducted a google search using the key-
+word ‘transparency’, but she also searched for ‘experiments with kids’ realizing that many
+of the definitions she found in her initial searching were too advanced for the intended
+audience of years 5 and 6 children.
+   The construction period transcript foregrounds the recursive nature of Stacy’s produc-
+tion process as she moved backwards and forwards between the representations as she
+developed her reasoning about the topic. Rows 5 to 11 in Table 2 illustrate this recursive
+reasoning effectively. In this sequence, we see Stacy moving between different representa-
+tions as she starts to build her understanding of the concept—potentially the start of the
+development of a ‘critical constellation’ (Airey & Linder, 2009). She looks for further
+commitment in the images to understand the technical ‘scientific’ meaning of transparent
+(and the process of light transmission) and be ready to teach it.
+   Early in the sequence, Stacy is still uncertain of the relationship between transmission
+and transparency despite the initial definition on the ‘Science Sparks’ website linking the
+two congruently: ‘the reason we can see through transparent objects is that they transmit
+light without scattering it’ (row 5 in Table 2). By row 10, Stacy is still trying to recon-
+cile the definitions of transparency, her reading about how light travels and the representa-
+tions of the process as stylized in Fig. 1. She used this image to understand the difference
+between absorption, scattering and transmission.
+   The image in Fig. 1 is highly abstract with minimal detail committed visually and
+requires viewers to decode the meanings represented; notably, it is likely that she has not
+been taught to do this. Although the diagram does show how light interacts with different
+materials, Stacy struggles to make the connection between ‘transparent’ and ‘transmission’.
+She continued searching the internet and making notes for about 45 min before she began
+choosing resources for parts of the digital explanation.
+
+
+
+
+Fig. 1  Differences between scattering, absorption and transmission
+
+
+                                                                                  13
+880                                                   Research in Science Education (2022) 52:871–890
+
+
+   Selecting resources for inclusion into the digital explanation parallels the pedagogical
+work teachers do in preparing to teach science in their classrooms. For example, Stacy
+identified electron excitation or atoms scattering as concepts that were too advanced and
+thus inappropriate for the digital explanation she was tasked to make. Interestingly, while
+she noted information that was too advanced for children, she did not seem inclined or curi-
+ous to pursue a higher level of understanding of the concepts for herself, focusing instead
+on meeting her aims for the task at hand. Beyond selecting conceptual content, Stacy was
+also aware that visual, dynamic and auditory elements contribute meanings in the digital
+explanation. Late in the pre-interview, she googled ‘diagram of light scattering through
+see-through object’, commenting on what she was looking for:
+   I want like an image. It says, ‘Light travels in straight lines, transparent objects let
+   light pass through them, translucent objects let some light pass through them, opaque
+   objects do not let any…’ I could do like a progression of that.
+   The quote corresponds to line 6 in Table 2. As she initiated her search and clarified the
+phenomenon for her digital product, her sense of the required or appropriate stages of an
+explanation was clear. At 42:25 of the construction period, she stated:
+   I’ll probably start with ‘What is transparency?’ And then give a basic definition and
+   that will be a slide I think with a voiceover and maybe some pictures, and then…. I
+   might just write out things I definitely want to include and then I’ll think of the order.
+   So, I want [a] definition, I want a diagram of transmission of light passing through,
+   then I’ll have a video maybe something like ‘think about the things in the world that
+   you’re able to see through, the things around you that you’re able to see through’.
+   Consistent with the expectation that the product should include a range of representations
+(Nielsen et al., 2020), Stacy’s plan for the digital explanation included identifying examples
+or suggestions for the different stages of the product (see Fig. 2 for her planning sheet).
+
+Phenomenon Identification
+
+The introduction sequence of the digital explanation shows a videographic display of an
+open-source, colour, still image of a magnifying glass eyeing a field of sunflowers with the
+on-screen text overlay ‘transparency’ as a title (see Table 1, line 1). The sequence lasts for
+
+
+Fig. 2  Stacy’s planning sheet
+
+
+
+
+13
+Research in Science Education (2022) 52:871–890                                           881
+
+
+14 s and the narration includes a simple definition: “Transparency is when an object allows
+all the light to pass through it in a process called ‘transmission.’ Other words we might use
+to describe something transparent is ‘clear’ or ‘see-through’”. The definition is elaborated
+with two simple synonyms for ‘transparent’. The brief introduction was scripted during her
+early work in searching websites to find definitions at a suitable level of technicality for
+primary school children and her work to set up this stage involved field building of her own
+knowledge.
+    As an introduction, the narration is informative and sets out the topic as would be
+expected in an introductory sequence. In showing a magnifying glass, the image illustrates
+the concept of ‘see through’ even as the narration makes no explicit link between the visual
+element of a magnifier and the definition as narrated. The image relates the concept to
+the everyday lived experience of children, which is theorized to help them understand the
+technical nominalization and split the semiotic load between the visual and aural elements
+(Painter et al., 2013).
+
+
+
+Explanation Sequence 1: Slowmation
+
+Following the opening title and phenomenon identification sequence, the key definition
+for the digital explanation is presented as a ‘slowmation’ (Hoban, 2005, 2009) that lasts
+for about 9 s. Visually, the simple slowmation sequence consists of 15 images that Stacy
+drew on a small whiteboard. Table 1 (line 2) shows two screenshots from the slowmation
+sequence. A stylized ‘torch’ sits on the left edge of the screen and yellow horizontal lines
+advance from the torch toward the ‘transparent object’ (shown in the middle of the screen
+as a vertical green-hashed column) with light ‘rays’ passing through, emerging from the
+right side of the object. The narration at time 00:14 complements the visual imagery: ‘Here
+we see the process of transmission as the light from the torch hits the transparent object
+and passes through the other side’. In this case, Stacy uses a simple definitional sequence to
+demonstrate the abstract process of light transmission.
+   The slowmation sequence was based on a still image clipped from a YouTube video
+called ‘Translucent, Transparent and Opaque’ (Alberta Distance Learning Centre [ADLC],
+2020). Stacy commented on choosing the ADLC video, even as she had viewed quite a few
+others in her internet searching: ‘This is probably the most helpful video I’ve seen so far
+because it has diagrams and a clear explanation’ (0:47:31, construction period). The ADLC
+educational video was produced for elementary school children and Stacy returned to it
+many times through the construction period. The main image she referenced is shown in
+Fig. 3, which depicts light passing through a transparent object. The stylized sketches she
+drew on the small whiteboard simplify the ADLC image. Furthermore, she used the gen-
+eral plan from the ADLC video to structure her own digital explanation. Notably, the slow-
+mation illustrates the same process (light passing through a transparent object) and uses the
+same orientation and labels as the ADLC video.
+   While the ADLC diagram was the source of an idea for how to represent and define
+the central concept of transparency, Stacy then transformed the information in the ADLC
+diagram to a slowmation sequence that illustrated the invisible and dynamic process of
+light transmission. While visually quite basic, the short slowmation sequence illustrates
+her focus on the key definition in a simple explanation sequence and represents it stylisti-
+cally and clearly. The slowmation is also an introduction to the subsequent explanation
+sequences presented next as two short videos in the digital explanation.
+
+
+                                                                                  13
+882                                                        Research in Science Education (2022) 52:871–890
+
+
+
+
+Fig. 3  Screenshot from Alberta Distance Learning Centre (used with permission)
+
+
+Explanation Sequence 2: Video
+
+The two additional explanation sequences in the digital explanation are both dynamic
+videographic displays (of duration 14 and 26 s, respectively). The first of these videos
+shows a flashlight as a light source with a glass of water in front to illustrate light pass-
+ing through a transparent object (see Table 1, line 3). The flashlight is pointed at a glass
+of water in a darkened room to highlight the light passing through the glass of water as
+an example of a ‘transparent’ object. The narration focuses the viewer’s attention on the
+visual elements to exemplify the concept of transparency, representing the same idea,
+but in a different way, as part of a transductive process. These elements include the
+intensity of the light (requiring darkness to exemplify), the positions of the torch and
+glass and the appearance of the light that had been transmitted.
+   The second short video extends the concept of light passing through a transparent
+object by showing a non-example of transparency. In this video, the glass of water is
+replaced with a piece of cardboard in a plastic sleeve (see Table 1, line 5). Shining the
+flashlight toward the cardboard provided the non-example, as described in the narration
+(00:37): ‘When the cardboard is inside the plastic sleeve, light is unable to pass through
+as the cardboard is not transparent.’ With the flashlight still in place, a hand pulls the
+cardboard from the sleeve, offering another example of a transparent object as the nar-
+rator states: ‘The plastic on its own, however, allows for light to pass through, showing
+that it is indeed a transparent object.’ Notably, in the second video, Stacy chose not to
+introduce the additional term ‘opaque’, instead focusing on the notion of transparent (or
+‘not transparent’), as she described in the post-interview:
+   I didn’t have to say ‘The cardboard is opaque’ and then explain what ‘opaque’
+   means. So I don’t think it was 100 percent necessary but I thought it was good to
+   show the difference between ‘transparent’ and ‘opaque’, with or without the termi-
+   nology.
+
+
+13
+Research in Science Education (2022) 52:871–890                                        883
+
+
+   Prior to filming the videos, Stacy modelled her set-up on the examples seen in
+the ADLC video and noted: ‘I’m just seeing how the light goes through the different
+objects and trying to see what would be a good demonstration to film for my video’.
+When she filmed the video sequences, Stacy used slightly different materials to those
+in the ADLC video but combined them similarly to show what transmission looks like
+in ‘real-life’. By choosing a video for these parts of the explanation, Stacy demon-
+strates some level of awareness of a key affordance of video as a medium that can illus-
+trate processes that are not observable to the naked eye. This sequence also builds on
+the slowmation that preceded it, including how the flashlight is oriented and the direc-
+tion of travel of the light through the transparent object. By including a non-example,
+Stacy builds complexity to the meanings represented. There is also a temporal element
+in Stacy’s modal choices where real-time displays are complemented with examples
+shown in slow motion: the videos provide real-life examples while the slowmation
+slows down the process of transmission through the stop-motion animation technique
+(Hoban, 2005, 2009). This ‘slowing down’ is an important affordance of the slowma-
+tion technique as a form of representation. Furthermore, as part of the overall digital
+artefact, the objects chosen as models would be familiar to children of the age range
+targeted for the explanation.
+
+
+
+Examples and Definition Restatement
+
+The final image in the digital explanation is a busy photographic image that includes
+a number of transparent objects such as water bottles (both plastic and glass), plastic
+containers, rolls of plastic film and glass ampules (see Table 1, line 6). The image
+remains on screen for 23 s and the narration at 00:54 links children’s experience and
+the visual representations in the image: ‘Think about some other transparent objects
+in the world around you. What about windows, or a water bottle, a plastic bag, a con-
+tainer, sticky tape, glasses, a snow globe, a light bulb, magnifying glass, googles, even
+air is transparent’. By naming a range of transparent objects, the narration comple-
+ments and extends the visual element to a number of objects and materials that would
+be familiar to years 5 and 6 children and speaks to the pedagogic purpose of the digi-
+tal explanation. In a way, this moves from the stylistic or simple representations used
+earlier to a different form. The familiarity suggests to children that they could also try
+the same thing on their own, which we note is a common feature of science videos for
+children.
+   With 11 s remaining in the digital explanation, the screen goes black and the narra-
+tion concludes with a restatement of the key definition (Table 1, line 7): ‘Remember,
+transparent objects are those which light passes through. These are the things that we
+are able to see through. Bye!’ As a concluding sequence and by way of summary that
+restates the key definition, both the narration and the final image are elements that
+offer a common-sense description along with familiar examples that reinforce the ini-
+tial definition of ‘transparent’. While planning for the summary sequence and aiming
+to finish the digital explanation with an ‘interesting ending’, Stacy commented late in
+the construction period (2:24:26): ‘my idea for this is just to get heaps of images and
+have them as a collage on the page but each image popping up one at a time.’ While
+the final image does not do this more technically challenging ‘popping up,’ restating
+the definition serves as a concluding marker for the digital explanation.
+
+
+                                                                               13
+884                                                               Research in Science Education (2022) 52:871–890
+
+
+Working with Multiple Representations
+
+In this section, we provide more detail around the translation and transduction across
+modes and representations. The representations Stacy accessed guided both building
+her field knowledge of the concept of transparency and a plan for the digital explana-
+tion. At some point of her searching for information, she identified one representation
+that ‘worked’ for her and she used it as a source definition for the product (the ADLC
+image), choosing it among the range of other representations she had accessed. The
+range of sources among the possible representational forms that Stacy accessed could
+be considered as forming part of an apparent ‘critical constellation’ of modes (Airey
+& Linder, 2009); we say ‘apparently’ because it was limited to ‘ways of knowing’ at
+a less advanced level. As summarized in Table 3, Stacy used the source definition and
+diagram from the ADLC video to carry forward meanings into other representations
+that she constructed. She revised both the definition and the ADLC diagram to nomi-
+nalize the word ‘transparent’ to ‘transparency’ and elaborated the definition to include
+everyday words to help clarify meanings. She used the dynamic medium of slowmation
+to illustrate the process of light transmission. She then expanded the definition through
+intentional changes to the language used in the narration complemented simply by illus-
+trating light rays passing through the transparent object in the slowmation sequence.
+Notably, the source diagram as a static image was transformed into a dynamic process
+shown in the slowmation sequence. As a way to ‘unpack’ meanings, this transformation
+is significant since it helps to make the invisible visible (Olympiou et al., 2013). During
+the post-interview, Stacy commented on why she made this transformation:
+   I think the slowmation is good because it doesn’t just show the still image of the
+   diagram which I was initially going with; it actually shows the audience the physi-
+   cal process of what the light is doing as it travels through.
+
+
+   The animation of the process arguably foregrounds the process of transmission, help-
+ing to distinguish it from the material property of transparency, which was represented
+by still photographs.
+
+
+Table 3  Stacy’s transformations of the key definition and visual referent for ‘transparency’
+  Source                              Stacy’s Representations                   Intentional Changes
+  ADLC video definition:              Stacy’s narration:                        -Nominalization of
+                                      Transparency is when an object
+  “A transparent material lets        allows all the light to pass through it
+                                                                                ‘transparent’ to
+  all the light through.”             in a process called ‘transmission.’       ‘transparency’
+                                      Other words we might use to describe      -elaboration of process of
+                                      something transparent is ‘clear’ or
+                                      ‘see-through’.
+                                                                                transmission
+                                                                                -static image transformed to
+                                                                                show dynamic process (via
+                                                                                slowmation)
+                                                                                -concept of transmission
+                                                                                illustrated with ‘moving’
+                                                                                light rays
+  (ADLC, 2020)
+
+
+
+13
+Research in Science Education (2022) 52:871–890                                           885
+
+
+    Stacy is aware of the affordances of the slowmation as a representational form and uses
+this to bridge the more technical definition and abstract concept from the source material
+for the intended audience for her digital explanation.
+    Potentially, any representational form can be transformed in multiple ways and in Sta-
+cy’s case, she modified the definition and images to support viewer meaning-making, but
+this also helped her to better understand the process of light transmission. Through the pro-
+cess of building meanings for the intended viewer, her choices to transform representations
+illustrate how she resolved contradictions, more specifically, in terms of which parts of the
+concept to represent and which representational form to use to make a given point.
+    Many of Stacy’s decisions for selecting or transforming the representations she used
+in the digital explanation were governed by an aim to appeal to the audience of children.
+She emphasized this appeal to the audience explicitly in her comments about language
+choice while displaying images, video or slowmations, but also implicitly in her choice of
+words in the nominalizations made to modify terminology, also for the intended audience.
+The significance of explicit or implicit attention may be an interesting direction for future
+research.
+
+
+
+Discussion
+
+Constructing a digital explanation is a meaning-making exercise that has been associated
+with improved disciplinary understanding (Nielsen et al., 2018; Nielsen & Hoban, 2015).
+Although we understand the importance of working with disciplinary literacies and mul-
+tiple representations, the complexity of the multimodal environment means that we are
+still coming to understand learners’ meaning making during the design and construction of
+multimodal products, particularly dynamic texts, and also, how this is related to the under-
+standing of both a text’s purpose and its register demands. In this paper, we draw on a
+range of concepts from social semiotic theory to understand the process of meaning-mak-
+ing, and its role in learning content knowledge and acquiring specialized literacy skills.
+    We first consider the role of the maker’s understanding of the context in terms of the
+genre at stake. In the product, Stacy adheres to the expected genre of the scientific explana-
+tion. In genre theory, the explanation genre employed is ‘causal explanation’ and gener-
+ally consists of phenomenon identification (e.g. ‘transparency’) and one or more explana-
+tion sequences. While genre theory has often been used in literacy pedagogy to understand
+expert texts and mostly in terms of written language, it is also useful in the context of this
+dynamic text. Here, existing online texts representing the target genre acted as models for
+Stacy to construct her digital explanation. Although not stated explicitly by the preservice
+teacher, it was implicitly understood that the digital explanation text required a particular
+structure and that repetition was important. This highlights the need for high-quality multi-
+modal model texts, particularly in the classroom, since as Maton and Howard (2021) have
+warned ‘not all multimedia are created equal’ (p. 76). In other words, some source material
+may be better (or worse) suited to the pedagogical purposes in a classroom or as models for
+digital media creation.
+    The SFL register variable of field was also important. Field plays a significant role
+throughout our analysis. We consider two aspects of the field that are relevant here. First,
+we note the development of Stacy’s field knowledge in the pre-construction phase of the
+product design. Stacy plans and undertakes research to reach a level of sufficiency of
+understanding of the concept of transparency, which she admits is a concept she initially
+
+                                                                                  13
+886                                                  Research in Science Education (2022) 52:871–890
+
+
+knew little about. The process involves accessing a number of different sources of informa-
+tion online and an intentional search for specific representations, such as diagrams. Stacy
+reaches sufficiency when she reaches the understanding expected of a younger audience,
+dismissing information considered to be too ‘advanced’. Although it is not clear whether
+this represents a ‘critical constellation of modes’ (Airey & Linder, 2009), there is a distinct
+point at which she believes she has understood enough, and the similarity to the notion of a
+critical constellation of modes is striking.
+   Second, the field knowledge represented in the product is also pertinent. We note that
+Stacy adopted a range of accepted disciplinary representations. She has appreciated the
+importance of using technical terms appropriately (e.g. transparent, translucent, opaque)
+and has understood that a range of disciplinary representations is also required (e.g. dia-
+gram, experiment). In the talk-aloud protocol and interview, Stacy explained that it was in
+fact necessary to include a diagram and from the outset of the study period searched for
+one that she deemed appropriate. There is also an understanding here of the affordances
+of different representations. Stacy explained how the experiment (shown in the two short
+video sequences) displayed ‘what actually happened’ when light interacted with a transpar-
+ent object, while the slowmation was more useful in showing the ‘process’ of transmission,
+which couldn’t be seen otherwise. Furthermore, making the slowmation was an important
+impetus for Stacy to really make sure that her own knowledge was secure. She could have
+used a ready-made image to show the relationship between transparency and transmission
+but this would likely have remained quite abstract, whereas the need to show it dynamically
+prompted her to further interrogate what was going on since the maker needs to commit
+more meaning-making options in a dynamic semiotic mode such as slowmation.
+   Ultimately, when preservice teachers develop a digital explanation, they are doing so to
+produce a learning resource for children. Thus, aspects of tenor include the particulars of
+age appropriateness (of the individual representations, at a suitable level of technicality)
+but also moving between what is deemed familiar/unfamiliar for the audience of children.
+Throughout the digital explanation, and with each of the representations Stacy chose, there
+is clear attention to the audience through the use of familiar objects presented visually
+alongside a narration with age appropriate language. The purpose of the digital explanation
+task as an explanation for children supports this pedagogical emphasis, which is a highly
+relevant aim for activities in preservice teacher education since teachers must also choose
+suitable materials and resources for use in their classrooms while attending to content com-
+plexity, modal affordances and relevance for the audience. While earlier research in the
+area of slowmation and digital explanation made claims about PST learning through the
+construction process (Hoban & Nielsen, 2013; Nielsen & Hoban, 2015), in the current case
+study, our analysis has shown Stacy’s efforts to build meanings for the intended audience
+as part of her pedagogic purpose to explain the concept. This seems to work in tension
+with the underlying desire by science educators to foster PST learning through tasks such
+as digital explanation and is a possible constraint on how PST develop representational
+competence (Volkwyn et al., 2020). In other words, when PST focus on what the audience
+needs to know, their own learning (about the topic or concepts) may be limited to that
+level of understanding. On one level, this may be reasonable given primary school teach-
+ers’ need to focus field knowledge at a suitable level of abstraction when teaching children.
+However, if our aim as science educators is to have PST work with multiple representations
+so as to learn the science content, we need to find ways to push PST to advance beyond a
+year 5 or 6 level of understanding.
+   Finally, we consider the meaning-making process. As has been argued elsewhere, mean-
+ings are made through the modes of the ‘cumulative semiotic progression’ (Hoban &
+
+13
+Research in Science Education (2022) 52:871–890                                                                  887
+
+
+Nielsen, 2013). Here is where multiple transductions shape field-related meanings both for
+the creator and for the intended audience. Stacy followed the basic steps outlined by Hoban
+and Nielsen: ‘background notes’, ‘storyboard’, ‘models’, ‘digital photos’ and ‘narrated
+animation’, but these are not linear steps and each has different affordances for meaning-
+making. Coordinating among these different representational systems requires some level
+of technical skill in working with objects in different modes, but the semiotic work is in
+transforming them so that the intended meanings are built through the arranged sequence
+in the overall explanation. Transductions between and across different representations help
+to build the explanation and involve considering meanings for individual representations,
+but also across the steps of the sequence and how each of the representations contributes to
+meanings overall—both disciplinary (field related) and pedagogical (tenor related) (Airey
+& Linder, 2009; Svensson & Eriksson, 2020). Making these ‘epistemological commit-
+ments’ appears to play an important part in learning, particularly for conceptually demand-
+ing ideas. Importantly, the creation of a digital explanation provides a context to consider
+these meanings. We see this as similar to the notion of ‘representational competence’
+described by Volkwyn et al. (2020) where awareness of the affordances and limitations of
+different forms of representation are consequential for meaning-making, both for the crea-
+tor and the imagined audience.
+
+
+
+Conclusion
+
+Social semiotics provides a lens to examine meaning-making processes both during con-
+struction and in the resulting product when creating a digital explanation. Through the
+analysis in this paper, we have developed the concept of ‘cumulative semiotic progres-
+sion’ by showing how a case preservice teacher developed her own field knowledge while
+translating source images and other online materials in the process of constructing the
+multimedia artefact. The construction process is not, however, linear because in working
+with online materials, design choices necessarily involve iterative reasoning about the sci-
+ence concepts being explained, the affordances of different modal forms and ways to build
+meaning from multiple representations. This is where the process of construction is fruitful
+for meaning making with multiple representations in science.
+
+Acknowledgements We would like to thank the preservice teacher who volunteered to be part of this
+research. The study was supported by an ARC Discovery Grant (DP160102926) and this support is grate-
+fully acknowledged. We also thank the ADLC and teacher Josef Martha for granting permission to repro-
+duce the image in Figure 3.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Com-
+mons licence, and indicate if changes were made. The images or other third party material in this article
+are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+
+
+
+
+                                                                                                       13
+888                                                          Research in Science Education (2022) 52:871–890
+
+
+References
+Airey, J., & Larsson, J. (2020). Developing students’ disciplinary literacy? The case of university physics.
+     In K. S. Tang & K. Danielsson (Eds.), Global Developments in Literacy Rearch for Science Education
+     (pp. 357–376). Springer.
+Airey, J., & Linder, C. (2009). A disciplinary discourse perspective on university science learning: Achiev-
+     ing fluency in a critical constellation of modes. Journal of Research in Science Teaching, 46, 27–49.
+Airey, J., & Linder, C. (2017). Social semiotics in university physics education. In D. F. Treagust, R. Duit,
+     & H. E. Fischer (Eds.), Multiple Representations in Physics Education (pp. 95–122). Springer.
+Alberta Distance Learning Centre. (2020). ADLC—elementary science: Translucent, transparent, opaque.
+     Available: https://​www.​youtu​be.​com/​watch?v=​dvMYs​5JXjPg. Accessed 31 Dec 2021.
+Amos, R., & Campbell, S. (2016). Learner reflections on the use of slowmation as a tool for creating effec-
+     tive explanations in a science teacher education program. In G. Hoban, W. Nielsen, & A. Shepherd
+     (Eds.), Student-generated digital media in science education (pp. 176–193). Routledge.
+Australia Learning and Teaching Council. (2011). Science: Learning and teaching academic standards.
+     ALTC.
+Australian Curriculum and Assessment Authority. (2017). Australian curriculum: Scieince (Version 8.4).
+     Available: https://​www.​austr​alian​curri​culum.​edu.​au. Accessed 31 Dec 2021.
+Bateman, J., Wildfeuer, J., & Hiippala, T. (2017). Multimodality: Foundations, research and analysis: A
+     problem-oriented introduction. De Gruyter Mouton.
+Bennett, S., Lockyer, L., & Agostinho, S. (2018). Towards sustainable technology-enhanced innovation in
+     higher education: Advancing learning design by understanding and supporting teacher design practice.
+     British Journal of Educational Research, 49(6), 1014–1026.
+Bezemer, J., & Kress, G. (2008). Writing in multimodal texts: A social semiotic account of designs for
+     learning. Written Communication, 25(2), 166–195.
+Derewianka, B., & Jones, P. (2016). Teaching language in context. South Melbourne.
+Fleer, M., & Hoban, G. (2012). Using ‘Slowmation’ for intentional teaching in early childhood centres: Pos-
+     sibilities and imaginings. Australasian Journal of Early Childhood, 37(3), 61–70.
+Gilbert, J. K., & Treagust, D. (2009). Multiple representations in chemical education. Springer.
+Gooding, D. (2006). From phenomenology to field theory: Faraday’s visual reasoning. Perspectives on Sci-
+     ence, 14(1), 40–65.
+Halliday, M. A. K. (1978). Language as social semiotic. Edward Arnold.
+Halliday, M. A. K., & Hasan, R. (1976). Cohesion in English. Longman (English Language Series 9).
+Halliday, M. A. K., & Matthiessen, C. M. I. M. (2014). An introduction to functional grammar (4th ed.).
+     Edward Arnold.
+He, Y. (2020). A functional perspective on the semiotic features of science animation. In L. Unsworth (Ed.),
+     Learning from animations in science education (pp. 25–54). Springer.
+Hoban, G. (2005). From claymation to slowmation: A teaching procedure to develop students’ science
+     understandings. Teaching Science: Australian Science Teachers’ Journal, 51(2), 26–30.
+Hoban, G. (2009). Facilitating learner-generated animations with slowmation. In L. Lockyer, S. Bennett, S.
+     Agostino, & B. Harper (Eds.), Handbook of research on learning design and learning objects: Issues,
+     applications, and technologies (pp. 313–330). IGI Global.
+Hoban, G. (2020). Slowmation and blended media: Engaging students in a learning system when creating
+     student-generated animations. In L. Unsworth (Ed.), Learning from animations in science education:
+     Innovating in semiotic and educational research (pp. 193–208). Springer.
+Hoban, G., Loughran, J., & Nielsen, W. (2011). Slowmation: Engaging preservice elementary teachers
+     with science knowledge through creating digital animations. Journal of Research in Science Teaching,
+     48(9), 985–1009.
+Hoban, G., & Nielsen, W. (2012). Using ‘slowmation’ to enable preservice primary teachers to create multi-
+     modal representations of science concepts. Research in Science Education, 35(1), 1101–1119.
+Hoban, G., & Nielsen, W. (2013). Learning science through designing and making a narrated stop-motion
+     animation: A case study of preservice teachers’ conceptual change with slowmation. International
+     Journal of Science Education, 35(1), 119–146.
+Hoban, G., & Nielsen, W. (2014). Generating science discussions through creating a narrated stop-motion
+     animation: The affordances of Slowmation. Teaching and Teacher Education, 42, 68–78.
+Hoban, G., Nielsen, W., & Hyland, C. (2016). Blended media: Student-generated mash-ups to promote
+     engagement with science content. International Journal of Mobile and Blended Learning, 8(3), 35–48.
+     https://​doi.​org/​10.​4018/​IJMBL.​20160​70103
+Hoban, G., Nielsen, W., & Shepherd, A. (Eds.). (2016). Student-generated digital media in science educa-
+     tion: Engaging students in learning, explaining and communicating content. Routledge.
+
+
+13
+Research in Science Education (2022) 52:871–890                                                        889
+
+Jamini, K. J. (2011). A semiotics discourse analysis framework: Understanding meaning making in science
+     education contexts. In S. C. Hamel (Ed.), Semiotics Theory and Applications (pp. 191–208). Nova
+     Science.
+Jones, P. T., Turney, A., Georgiou, H., & Nielsen, W. (2020). Assessing multimodal literacies in science:
+     Semiotic and practical insights from pre-service teacher education. Language and Education. https://​
+     doi.​org/​10.​1080/​09500​782.​2020.​17202​27.
+Keast, S., & Cooper, R. (2016). Developing pedagogical knowledge of pre-service science teachers using
+     slowmation as a shared experience. In G. Hoban, W. Nielsen, & A. Shepherd (Eds.), Student-generated
+     digital media in science education (pp. 151–165). Routledge.
+Kidman, G., Keast, S., & Cooper, R. (2012). Responding to the 5Rs: An alternate perspective of slowma-
+     tion. Teaching Science: Australian Science Teachers Journal, 58(2), 24–30.
+Kress, G. (2010). Multimodality: A social semiotic approach to contemporary communication. Routledge.
+Kress, G. T., Jewitt, C., Ogborn, J., & Tsatsarelis, C. (2001). Multimodal teaching and learning: The rheto-
+     rics of the science classroom. Continuum.
+Kress, G., & van Leeuwen, T. (2006). Reading images: The grammar of visual design. Routledge.
+Latour, B. (1999). Pandora’s hope: Essays on the reality of science studies. Harvard.
+Lemke, J. (1998). Multiplying meaning: Visual and verbal semiotics in scientific text. In J. R. Martin &
+     R. Veel (Eds.), Reading science: Critical and functional perspectives on discourses of science (pp.
+     87–113). Routledge.
+Lim, F. V. (2011). A systemic funcation multimodal discourse analysis approach to pedagogic discourse
+     [Unpublished doctoral thesis]. National University of Singapore.
+Lim, F. V. (2019). Investigating intersemiosis: A systemic functional multimodal discourse analysis
+     of the relationship between language and gesture in classroom discourse. Visual Communication,
+     20(1), 34–58. https://​doi.​org/​10.​1177/​14703​57218​820695
+Linder, A., Airey, J., Mayaba, N., & Webb, P. (2014). Fostering disciplinary literacy? South African
+     physics lecturers’ educational responses to their students’ lack of representational competence.
+     African Journal of Research in Mathematics, Science and Technology Education, 18(3), 242–252.
+Martin, J. R., & Rose, D. (2008). Genre relations: Mapping culture. Equinox.
+Martin, J. R., & Rose, D. (2012). Genres and texts: Living in the real world. Indonesian Journal of SFL,
+     1, 1–21.
+Maton, K., & Howard, S. K. (2021). Animating science: Activating the affordances of multimedia
+     in teaching. In K. Maton, J. R. Martin, & Y. J. Doran (Eds.), Teaching Science (pp. 76–102).
+     Routledge.
+Mayer, R. E. (2009). Multi-media learning (2nd ed.). Cambridge University.
+McKnight, A., Hoban, G., & Nielsen, W. (2011). Using slowmation for animated storytelling to repre-
+     sent non-Aboriginal preservice teachers’ awareness of ‘relatedness to country’. Australasian Jour-
+     nal of Educational Technology, 27(1), 41–54.
+Mills, R., Tomas, L., & Lewthwaite, B. (2019). The impact of student-constructed animation on middle
+     school students’ learning about plate tectonics. Journal of Science Education and Technology, 28,
+     165–177.
+Mills, R., Tomas, L., Whiteford, C., & Lewthwaite, B. (2020). Developing middle school students’
+     interest in learning science and geology through slowmation. Research in Science Education, 50,
+     1501–1520.
+Morgan, C., & Kynigos, C. (2014). Digital artefacts as representations: Forging connections between
+     a constructionist and a social semiotic perspective. Educational Studies in Mathematics, 85,
+     357–379.
+Nielsen, W., Georgiou, H., Jones, P., & Turney, A. (2018). Digital explanation as assessment in uni-
+     versity science. Research in Science Education, 50, 2391–2418. https://​doi.​org/​10.​1007/​
+     s11165-​018-​9785-9.
+Nielsen, W., & Hoban, G. (2015). Designing a digital teaching resource to explain phases of the moon: A
+     case study of preservice elementary teachers making a slowmation. Journal of Research in Science
+     Teaching, 52(9), 1207–1233.
+Nielsen, W., Hoban, G., & Hyland, C. (2017). Pharmacology students’ perceptions of creating multimodal
+     digital explanations. Chemistry Education Research and Practice, 18, 329–339.
+Nielsen, W., Turney, A., Georgiou, H., & Jones, P. (2020). Working with multiple representations: Pre-
+     service teachers’ decision-making to produce a digital explanation. Learning: Research and Prac-
+     tice, 6(1), 51–69. https://​doi.​org/​10.​1080/​23735​082.​2020.​17506​73.
+O’Halloran, K. (2011). Multimodal discourse analysis. In K. Hyland & B. Paltridge (Eds.), Continuum
+     companion to discourse analysis (pp. 120–137). Continuum.
+
+
+
+
+                                                                                              13
+890                                                          Research in Science Education (2022) 52:871–890
+
+Olympiou, G., Zacharias, Z., & deJong, T. (2013). Making the invisible visible: Enhancing students’
+     conceptual understanding by introducing representations of abstract objects in a simulation.
+     Instructional Science, 41, 575–596.
+Paige, K., Bentley, B., & Dobson, S. (2016). Slowmation: An innovative twenty-first century teaching
+     and learning tool for science and mathematics pre-service teachers. Australian Journal of Teacher
+     Education, 41(2), 1–15.
+Painter, C., Martin, J. R., & Unsworth, L. (2013). Reading visual narratives: Image analysis of chil-
+     dren’s picture books. Equinox.
+Prain, V., & Tytler, R. (2012). Learning through constructing representations in science: A framework of
+     representational affordances. International Journal of Science Education, 34, 2751–2773.
+Prain, V., Tytler, R., & Peterson, S. (2009). Multiple representations in learning about evaporation.
+     International Journal of Science Education, 31(6), 787–808.
+Prensky, M. (2001). Digital natives, digital immigrants. On the Horizon, 9(5), 1–6.
+Reyna, J., & Meier, P. (2018). Using the learner-generated digital media (LGDM) framework in tertiary
+     science education: A pilot study. Education in Science, 8, 23.
+Stake, R. (2005). Qualitative case studies. In N. K. Denzin & Y. S. Guba (Eds.), The Sage handbook of
+     qualitative research (pp. 443–466). Sage.
+Svensson, K., & Eriksson, U. (2020). Concept of a transductive link. Physical review physics education
+     research, 16, 026101. https://​doi.​org/​10.​1103/​physr​evphy​seduc​res.​16.​026101
+Szenes, E. (2017). The linguistic construction of business reasoning: Towards a language-based model
+     of decision-making in undergraduate business. Unpublished doctoral thesis. University of Sydney.
+Tan, S. (2014). Multimodal constructions of factuality and authenticity in tv-news bulletins. In S. Norris
+     & C. D. Maier (Eds.), Interactions, images and text: A reader in multimodality (pp. 299–311). de
+     Gruyter. https://​doi.​org/​10.​1515/​97816​14511​175.​297
+Tang, K. S., & Danielsson, K. (2018). Global developments in literacy for science education. Springer.
+Tang, K. S., Delgado, C., & Moje, E. B. (2014). An integrative framework for the analysis of multiple
+     and multimodal representations for meaning-making in science education. Science Education, 98(2),
+     305–326.
+Tytler, R., Prain, V., & Hubber, P. (2018). Representation construction as a core science disciplinary lit-
+     eracy. In K. S. Tang & K. Danielsson (Eds.), Global developments in literacy research for science
+     education (pp. 301–317). Springer.
+Tytler, R., Prain, V., Hubber, P., & Waldrip, B. (Eds.). (2014). Constructing representations to learn in sci-
+     ence. Sense.
+Unsworth, L. (2006). Towards a metalanguage for multiliteracies education: Describing the meaning-mak-
+     ing resources of language-image interaction. English Teaching: Practice and Critique, 5(1), 55–76.
+Unsworth, L. (Ed.). (2020). Learning from animations in science education: Innovating in semiotic and
+     educational research. Springer.
+van der Meij, J., & de Jong, T. (2006). Supporting students’ learning with multiple representations in a
+     dynamic simulation-based learning environment. Learning and Instruction, 16, 199–212.
+Volkwyn, T. S., Airey, J., Gregorcic, B., & Linder, C. (2020). Developing representational competence:
+     Linking real-world motion to physics concepts through graphs. Learning: Research and Practice, 6(1),
+     88–107. https://​doi.​org/​10.​1080/​23735​082.​2020.​17506​70
+Yeo, J., & Gilbert, J. (2017). The role of representations in students’ explanations of four phenomena in
+     physics: Dynamics, thermal physics, electromagnetic induction and superposition. In D. Treagust, R.
+     Duit, & H. E. Fisher (Eds.), Multiple representations in physics education (pp. 255–287). Springer
+     International.
+Yin, R. (2017). Case study research and applications: Design and methods (6th ed.). Sage.
+Zappavigna, M. (2016). Social media photography: Construing subjectivity in Instagram images. Visual
+     Communication, 15, 271–292.
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+
+
+
+
+13
+

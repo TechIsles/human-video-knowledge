@@ -1,0 +1,1039 @@
+# Design, Development and Evaluation of the Citizen Science Cancer Curriculum (CSCC): a Design and Development Case Study
+
+Source PDF: https://link.springer.com/content/pdf/10.1007/s11528-022-00737-6.pdf
+DOI: https://doi.org/10.1007/s11528-022-00737-6
+License: CC-BY-4.0; original authors and full license notice appear in the extracted article below.
+Original PDF SHA256: 4b133035d78172a81aca282cdefad2bfd5603c7648af89597cd0d37172eba549
+Transformation: Full-page text extracted using pdftotext -layout on 2026-11-17. Text, tables recoverable as text, references, and figure captions retained. All images, video frames, audio, supplementary assets and formatting omitted. This is not a byte-identical original PDF and it does not reproduce figure pixels.
+Rights boundary: Article is CC BY 4.0; the CSCC teaching curriculum has separate CC BY-NC-SA 4.0 terms. No curriculum downloads, linked lesson materials or figure images are bundled.
+
+--- BEGIN COMPLETE EXTRACTED ARTICLE TEXT ---
+
+TechTrends (2022) 66:666–680
+https://doi.org/10.1007/s11528-022-00737-6
+
+    ORIGINAL PAPER
+
+
+
+Design, Development and Evaluation of the Citizen Science Cancer
+Curriculum (CSCC): a Design and Development Case Study
+Natercia Valle1       · Janet Brishke2        · Elizabeth Shenkman2   · Albert D. Ritzhaupt3
+
+Accepted: 13 April 2022 / Published online: 30 April 2022
+© The Author(s) 2022
+
+
+Abstract
+The purpose of this design and development case study is to provide an in-depth account of the needs analysis (through
+surveys and interviews), design, development and formative evaluation of the Citizen Science Cancer Curriculum (CSCC).
+The curriculum was developed as an online, self-paced educational program distributed as an Open Educational Resource
+using Creative Commons licensing. The instructional approach described in this design and development case study was
+informed by the Self-Determination Theory (SDT) framework. The case reflects a new frontier in the development of com-
+munity stakeholder engagement models and describes how evidence-based instructional design practices and approaches
+(e.g., storytelling) can be used to support Citizen Scientists’ interests, learning and motivation to engage in cancer-related
+research. Results from quantitative and qualitative analyses indicate that the CSCC supported Citizen Scientists’ learning per-
+formance and motivation. More specifically, the use of storytelling as an instructional approach supported Citizen Scientists’
+psychological needs, especially relatedness and competence, which translated into their behavioral intentions to contribute
+to cancer-related research. We share context-specific challenges and opportunities in working with Citizen Scientists as well
+as with cancer researchers and clinicians during the design and development of the curriculum.
+
+Keywords Cancer · Case study · Citizen scientists · Design and development research · Open educational resource · Self-
+determination theory · Storytelling
+
+
+Introduction                                                          stakeholder engagement, some common principles include:
+                                                                      a) authentic and sustained engagement across the research
+A relatively incipient endeavor in the domain of clinical and         continuum and beyond, b) clarity in the roles and expecta-
+translational research, community stakeholder engagement              tions of all parties engaged in the research, c) mutual trust
+is a multi-disciplinary approach where patients, caregivers,          and respect, d) commitment to co-learning and co-produc-
+patient advocates or members of the general public collabo-           tion and e) access to the appropriate resources, supports
+rate with researchers to ensure that research efforts reflect         and training (Banner et al., 2019). In the present study, the
+the needs of the population targeted by the health research           Citizen Science (CS) program is conceived as an example
+(Domecq et al., 2014; Stallings et al., 2019). While different        of stakeholder engagement.
+models, frameworks and taxonomies have been proposed                      The CS program includes a diverse array of community
+to conceptualize key definitions and approaches related to            members serving as Citizen Scientists (CSs) who partici-
+                                                                      pate in healthcare research projects to ensure the voice of
+                                                                      the community is heard and understood by the healthcare
+* Natercia Valle
+  nvalle@ufl.edu                                                      researchers. To support CSs’ participation in a wide range
+                                                                      of research projects, the design and development of spe-
+1
+     Marston Science Library, University of Florida, Gainesville,     cific curricula are necessary as CSs need a foundation in
+     FL, USA                                                          healthcare-related research topics and terminology. Our
+2
+     Department of Health Outcomes and Biomedical Informatics,        first CS curriculum addressed a broad range of topics to
+     College of Medicine, University of Florida, Gainesville, FL,     prepare the CSs to meaningfully contribute to healthcare
+     USA
+                                                                      research projects (Valle et al., 2018). Within the present
+3
+     School of Teaching and Learning, College of Education,           work, we extended this CS curriculum program in response
+     University of Florida, Gainesville, FL, USA
+
+
+13
+TechTrends (2022) 66:666–680                                                                                                  667
+
+
+to changing research priorities of the institution to prepare        This is probably a general motivation that you'll hear
+CSs to collaborate to cancer-related research. Despite the           from anybody, but cancer affects so many people. And
+focus on “access to the appropriate resources, supports and          so, you know, I have people on my personal life that
+training” (Banner et al., 2019, p. 5), the operationalization        have cancer, and have been fighting it and it just seems
+of resources and training to support community stakeholder           like such a horrible, horrible situation and our only
+engagement initiatives is still under-represented in the litera-     hope is research, you know, and so it's kind of like
+ture, with only a few exceptions (McElfish et al., 2019; Valle       whatever you can do to jump on board and help with
+et al., 2018). Given the lack of models and design strate-           the hope that we have is, is what you do. Yeah, that's,
+gies empirically tested and validated to address community           that's my motivation.
+stakeholder engagement initiatives, the present study pro-
+                                                                   Another participant mentioned her own health condition,
+vides some empirical basis to guide the facilitation of learn-
+                                                                   patient status and other personal reasons for her motivation
+ing and performance in this particular context (Richey &
+                                                                   (e.g., grandfather who died from leukemia, a cousin who
+Klein, 2014). More specifically, the present study describes
+                                                                   died from breast cancer). She described her motivation as
+the full analysis, design, development and formative evalu-
+                                                                   being “a personal thing”:
+ation of the Citizen Science Cancer Curriculum (CSCC).
+The curriculum is part of a community engagement initiative          I've lost my grandfather to leukemia many years ago, I
+(Citizen Science Program) housed at a large public research          had a cousin who died from breast cancer a few years
+university in the southeast United States.                           ago. And so [...] just being on the personal side a little
+                                                                     more. […] This is why we're going to do that. So now
+                                                                     [it] is a personal thing for me.
+Learner Analysis, Motivation
+and Instructional Goals
+                                                                   Cancer Researchers
+As any instructional design initiative, we first sought to bet-
+ter understand the needs of the target learners – CSs aspiring     When we asked researchers to describe their motivation for
+to contribute to cancer-related research – and the needs of        working with CSs on cancer-related projects, they: a) men-
+the cancer researchers who would work with the CSs. We             tioned how CSs can help bridge communication between
+sought to intentionally match the needs of the learners and        scientists and the community, b) emphasized the need for
+the cancer researchers to create a relevant learning experi-       accountability in face of existing disparities between com-
+ence to ensure the mutual goals addressed with the curricu-        munities and c) discussed the challenges of creating part-
+lum. Therefore, we conducted a needs assessment with the           nerships between researchers and communities to support
+two parties to explore their mutual goals. Seven CSs and           robust cancer-related research. For instance, in relation to
+three researchers participated in different parts of the study.    enhancing communication between the scientific community
+The needs assessment involved a focus group (duration of           and community stakeholders, one of the researchers said:
+49 min) with three learners and one researcher, individual           Because I think a citizen scientist has the potential of
+interviews with three learners (M = 34.33 min) and three             being the connection with the community in the sense
+researchers (M = 41.66 min) and a short survey completed             that we don't stay in those silos of the scientists over
+by all participants. We discovered learners’ initial motiva-         here or the physicians over here and then the com-
+tion to engage in cancer-related research as well as their           munity over there.
+thoughts about the development of the curriculum and its
+learning materials.                                                Another researcher described his views that, as a country,
+                                                                   the U.S. innovates, but these innovations are often not acces-
+                                                                   sible to the people who fund them or who are part of the
+Citizen Scientists
+                                                                   community in which those discoveries are made.
+When we asked the CSs about their motivation for working             We use this (cancer research) to better human condi-
+on cancer-related research projects, we found that their moti-       tions, but at the same time, there are some political
+vation was related to: a) a sense of social responsibility, b)       things, some educational barriers in our society, which
+the value they attribute to their work as CSs and c) personal        doesn't allow to apply this in our own population […]
+stories and patient status. For example, in terms of social          and our patients can simply not afford it. And I think
+responsibility, one participant said that her motivations to         the only way to change this on the long run is to really
+work on cancer-related projects is because “cancer affects           to have people, which are better than we as scientists
+so many people”:
+
+
+                                                                                                                       13
+668                                                                                                  TechTrends (2022) 66:666–680
+
+  and more centered in their communities. So to bring            specific details about causes and treatments of cancer. The
+  this up, this is nothing people talk about.                    following list provides a summary of the more frequent top-
+                                                                 ics mentioned by the CSs through the interviews and survey:
+He mentioned the challenge of a scientist not being able to
+                                                                 introduction to cancer, basic concepts (cellular and genetic
+fully get the message in the hands of the community, which
+                                                                 level), causes, diagnostic process, treatments, the cancer
+highlights why CS involvement is vital to mitigate commu-
+                                                                 lexicon, types of cancers and survival rates, different popu-
+nication barriers:
+                                                                 lations and perspectives from cancer patients and caregivers.
+  So that, that's why I think it's really [sic] to have that         When asked about which instructional goals are deemed
+  link and I think I want to help. I will […] if we find the     necessary to prepare CSs for meaningful engagement on
+  right tool and I have confidence from people which             cancer-related research projects, the researchers mentioned
+  work in the community that we're hitting the right             some foundational knowledge and more detailed content
+  tone, so that we make a difference […] if we can work          based on CSs’ interest in and motivation to work on cancer-
+  together with a citizen scientist, then we can amplify         related projects as illustrated by the following feedback:
+  these efforts because there's only so much you can do
+                                                                   It's kind of like in like a pyramid. Okay, start broad, get
+  as a scientist.
+                                                                   a little bit more specific about what's actually going
+                                                                   on in the lab and then even more detailed. So as far
+                                                                   as what they need to know to be participants in this:
+Reconciling CSs’ Learning Needs and Researchers’
+                                                                   they have to have an interest in science, I guess, but
+Instructional Goals
+                                                                   I don't think there's a huge prerequisite for this to be
+                                                                   successful.[…] Now, the level of experience and the
+Reflecting on the original CS curriculum (Valle et al., 2018),
+                                                                   level of understanding of that topic, that will grow as…
+most CSs mentioned video tutorials, case studies and story-
+                                                                   if they're interested in it, then I can give them more
+telling as the appropriate instructional strategy for the cur-
+                                                                   information, we can get more deeply involved in it.
+riculum. At least two participants also suggested the use
+of reflective questions to support learning and to provide       Similar to the feedback provided by CSs, the researchers
+emotional support:                                               suggested a variety of topics to be integrated into the curric-
+                                                                 ulum, including: basic concepts about cancer, viruses, risk
+  […] there's a lot of power in those interview videos
+                                                                 factors (e.g., smoking), aspects related to scientific rigor,
+  and the all the Citizen Scientists in action videos (from
+                                                                 data quality control, reproducibility and scientific merit,
+  previous curriculum) […] One of the main powers of
+                                                                 clinical trial design, how new therapies are introduced into
+  those videos I think is that it helps you to process the
+                                                                 clinical practice, metastasis, genetics and cancer patients and
+  information in that you can kind of take a step down
+                                                                 caregivers. Given the outcomes of the needs assessment and
+  from maybe an academic type of learning and kind of
+                                                                 the role of motivation in supporting collaboration intents
+  have more of a social type of learning if that makes
+                                                                 between CSs and researchers, we elected to create a theory-
+  sense. I think that that's something that will be really
+                                                                 based conceptual framework to guide the design and devel-
+  necessary with this topic […] the lectures and then
+                                                                 opment efforts of the curriculum.
+  maybe some videos to watch. And then maybe the
+  quizzes could be a combination of like a quiz on the
+  information and then a quiz of like, kind of like a check
+                                                                 Conceptual Framework
+  in on how you're feeling quiz, maybe questions like,’
+  how do you feel about this?’ […] What do you feel was
+                                                                 The instructional approach described in this design and
+  your level of understanding of this topic that was just
+                                                                 development case study was informed by the Self-Determi-
+  explained?’ I don't know, provide some sort of source
+                                                                 nation Theory (SDT). The study examined how the design,
+  for people to kind of check in with themselves. […] I
+                                                                 development and formative evaluation of an innovative cur-
+  just think it allows them to build their own checkpoints
+                                                                 riculum could be used to support community stakeholder
+  […] this is what I know, this is what I need to work
+                                                                 engagement in the context of cancer-related research. The
+  on, this is what’s stressing out about the information,
+                                                                 SDT theory posits that motivation can be developed and sus-
+  you know, this is what I feel confident about and I’d be
+                                                                 tained only when people’s innate need for autonomy, com-
+  willing to go talk to a researcher about. Maybe adding
+                                                                 petence and relatedness are met (Ryan & Deci, 2017). SDT
+  in some "emotional quizzes".
+                                                                 provides a useful framework for the design and development
+When asked about which topics they would like to see in          of the CSCC because it assumes an interconnection between
+the cancer curriculum, the CSs emphasized the importance         people’s behavior and motivation (Valle et al., 2020). Fur-
+of foundational concepts and terminology as well as more         thermore, this framework recognizes the complexity of
+
+
+13
+TechTrends (2022) 66:666–680                                                                                                     669
+
+human motivation beyond dichotomic views. In other words,          in the learning situation (Hung et al., 2012), b) make connec-
+motivation is seen within a continuum that involves different      tions with their personal experiences (Yang & Wu, 2012),
+levels of regulatory styles (external, introjected, identified     c) develop/sustain positive attitudes toward science (Valle
+and integrated) and loci of causality (impersonal, external        et al., 2021) and d) improve perceptions of social representa-
+and internal) as discussed by Ryan and Deci (2017). Finally,       tion (Valle et al., 2020), task value and self-efficacy (Yang &
+the motivation continuum assumed by the SDT framework              Wu, 2012). In the context of the curriculum, the motivational
+is more likely to align with the range of motivations com-         role of storytelling was expected to support learners’ motiva-
+munity members bring with them as they become part of the          tion to act (e.g., become involved in cancer-related research)
+CS Program. Thus, the SDT framework was used to support            based on how they perceive their agency over their learning
+CSs’ sense of autonomy, confidence and well-being – impor-         (autonomy), ability to contribute to cancer-related research
+tant psychological benefits. Figure 1 provides a visual of the     (competence) and how they perceived themselves as part of
+conceptual framework.                                              the multi-disciplinary research group (relatedness).
+
+Storytelling to Support Learning and Motivation
+                                                                   Design of Citizen Science Cancer Curriculum
+As a culturally universal product (Landrum et al., 2019),
+storytelling has been used as a pedagogical approach across        Our approach was largely informed by our conceptual frame-
+different disciplines and contexts, including science, social      work, which addresses the motivational, emotional and
+science, psychology and patient self-management (Landrum           cognitive outcomes of the curriculum. Our conception of
+et al., 2019; Lugmayr et al., 2017). Storytelling supports         the CSCC was beyond mere knowledge acquisition, as we
+instructional strategies because stories can be used to: a) cre-   intended to touch on the emotional and motivational states
+ate interest, b) provide a structure for remembering course        of the learners with authentic and relevant storytelling and
+material, c) share information in a familiar and accessible        an engaging emotional design. We outline these affordances
+form and d) create a more personal student-teacher con-            within this section and discuss the development of these
+nection (Green, 2004; Landrum et al., 2019). Furthermore,          resources using emerging learning technologies. The full
+stories provide relatable examples and memory links that           CSCC includes five modules that blends the educational
+support recall, learning and problem-solving (Hung et al.,         affordances and key cancer-related topics thematically into
+2012; Jonassen & Hernandez-Serrano, 2002).                         the full, coherent, online, self-paced curriculum. The final
+   In addition to its pedagogical value, storytelling can also     CSCC is presented as an Open Educational Resource (OER)
+support motivation by helping learners: a) become involved         and distributed under a Creative Commons license with
+                                                                   attribution, non-commercial use and share alike (Creative
+                                                                   Commons, n.d.). The decision for creating the curriculum
+                                                                   as an OER had important design implications, including the
+                                                                   need for keeping the curriculum as free of branding as pos-
+                                                                   sible to facilitate its use by other institutions and prioritizing
+                                                                   the utilization of more general topics rather than region-
+                                                                   specific topics to ensure that the learning materials would be
+                                                                   relevant to programs in other regions. Table 1 provides the
+                                                                   module overview with the contents and activity types within
+                                                                   each module. Figure 2 provides a visual of a typical lesson
+                                                                   within a module of the program.
+
+                                                                   Learning Objectives and Thought Questions
+
+                                                                   Each instructional video within a module includes clearly
+                                                                   stated learning objectives and thought questions serving as
+                                                                   pre-instructional strategies to heighten a learner’s awareness
+                                                                   of the topics addressed within the lesson and to focus the
+                                                                   learner’s attention on salient details and vocabulary (Hart-
+                                                                   ley & Davies, 1976; Morrison et al., 2019). The writing of
+                                                                   the learning objectives resulted from consultations with the
+Fig. 1  Conceptual framework for CSCC using Self-Determination     subject-matter experts (SMEs) and followed best practices
+Theory                                                             from instructional design literature. Each objective included
+
+
+                                                                                                                         13
+670                                                                                                         TechTrends (2022) 66:666–680
+
+Table 1  Module overview with contents and activity types
+Module and Title                                            Module Contents and Activity Type
+
+Module 1: Introduction to Cancer and Cancer Research        1.1 What is Cancer? (Instructional Video and Assessment)1.2 Patient Case
+                                                              Study: Part 1 (Video of Cancer Survivor)1.3 Citizen Scientists: Providing
+                                                              New Perspectives to Advance Cancer Research (Supplemental Video)1.4
+                                                              Clinical Trials 101 (Instructional Video and Assessment)1.5 Spotlight on
+                                                              Citizen Scientists (Interview with Citizen Scientist)
+Module 2: Causes of Cancer                                  2.1 Causes of Cancer (Instructional Video and Assessment)2.2 Patient Case
+                                                              Study: Part 2 (Video of Cancer Caregiver)2.3 Research Team Meeting (Sup-
+                                                              plemental Video)2.4 Team Science (Supplemental Video)2.5 Spotlight on
+                                                              Citizen Scientists (Interview with Citizen Scientist)
+Module 3: Treatment of Cancer                               3.1 Surgical Treatment of Cancer (Instructional Video and Assessment)3.2
+                                                              Patient Case Study: Part 3 (Video of Physician)3.3 Palliative Care (Instruc-
+                                                              tional Video and Assessment)3.4 Breast Cancer Treatment: A Multidis-
+                                                              ciplinary Team Approach (Supplemental Video)3.5 Cancer Clinical Trial
+                                                              Enrollment (Instructional Video and Assessment)
+Module 4: Prevention and Survivorship                       4.1 Cancer Prevention (Instructional Video and Assessment)4.2 Patient Case
+                                                              Study: Part 4 (Video of Cancer Survivor)4.3 Survivorship (Supplemental
+                                                              Video)4.4 Patient Case Study: Part 5 (Video of Physician)4.5 Spotlight on
+                                                              Citizen Scientists (Interview with Citizen Scientist)4.6 Patient Case Study:
+                                                              Part 6 (Video of Physician)
+Module 5: Social Determinants of Health (SDOH) and Cancer   5.1 What are Social Determinants of Health? (Instructional Video and Assess-
+                                                              ment)5.2 Importance of Social Determinants of Health (Instructional Video
+                                                              and Assessment)5.3 Mapping Cancer Health Outcomes and Disparities
+                                                              (Supplemental Video)5.4 Social Determinants of Health in Clinical Practice
+                                                              (Supplemental Video)5.5 Spotlight on Citizen Scientists (Interview with
+                                                              Citizen Scientist)
+
+
+
+actionable and measurable verbs connected to the subject            Theory of Multimedia Learning (CTML) (Moreno & Mayer,
+matter under consideration. Following standard instructional        1999). The SMEs were encouraged to use a conversational
+design practices, the learning objectives were used to craft        style in the instructional videos and avoid the use of extra-
+the embedded assessment items in an effort to clearly con-          neous details within their explanations (coherence princi-
+nect the objectives and assessment activities (Dick et al.,         ple). The video scripts were created with the SMEs and an
+2015). In distinction, the thought questions were analogous         instructional designer to achieve these objectives and the
+to simultaneously provide an advanced organizer (Barnes &           slides made use of relevant images (multimedia principle)
+Clawson, 1975) for cuing the structure of the forthcoming           inclusive of both representational and organizational pic-
+materials and to provide relevance to the learners.                 tures (Levin, 1981) with minimal verbal redundancy (redun-
+                                                                    dancy principle). Appropriate slides design involved placing
+Instructional Videos and Supplemental Videos                        imagery with verbal explanations concurrently (spatial and
+                                                                    temporal contiguity principles) and included cues (e.g., bold
+We intentionally designed two types of videos for the CSCC:         or italics) (signaling principle) to emphasize key points in
+1) instructional videos and 2) supplemental videos. All             the narrative (modality principle). While the inclusion of
+videos were created following best practices and evidence           the speaker on-screen in an instructional video remains an
+and are intentionally short (no more than 10 min) on well-          area of ongoing research (Wang & Antonenko, 2017), our
+defined topics with controls for stopping, playing, rewinding       intentions were to showcase diversity (e.g., gender, ethnicity
+and fast-forwarding (Fiorella & Mayer, 2018; Mayer et al.,          and age) among the speakers to reach a broad audience of
+2020). The instructional videos are integrated with the             CSs. In contrast, the supplemental videos provided addi-
+learning objectives, thought questions, interactive embed-          tional enrichment on topics that were not essential to the
+ded assessments and reflection questions; and serve as the          training of a CS to effectively participate in cancer-related
+primary intended learning outcomes connected to the topics          research projects based on our needs assessment. The sup-
+identified in the needs assessment. Each of these instruc-          plemental videos were designed with the same guiding prin-
+tional videos are presented by a SME and are recorded on a          ciples CTML, but did not include the interactive embedded
+green screen with PowerPoint slides designed with the inspi-        assessments or always make use of PowerPoint slides. The
+ration from the multimedia principles from the Cognitive            supplemental videos enrich the curriculum with additional
+
+
+
+13
+TechTrends (2022) 66:666–680       671
+
+Fig. 2  Example instructional
+video with thought questions,
+learning objectives, assessment
+and reflection questions
+
+
+
+
+                                  13
+672                                                                                                     TechTrends (2022) 66:666–680
+
+relevant examples and discussion points and intentionally        Table 2  Example assessment items from embedded assessments
+involved the use of storytelling.                                Example Items and Distractors
+   To support CS’s motivation and self-efficacy to contribute
+to cancer-related research, the instructional design team met    What are the three major external causes of cancer? (Recognition)
+                                                                  A. Chemicals, metaphase, genetics B. Chemicals, meiosis, radiation
+with presenters of both supplemental and instructional vid-
+                                                                  C. Chemicals, mitosis, geneticsD. Chemicals, microorganisms,
+eos to discuss how the content in the videos could highlight      radiation
+concrete examples (storytelling) and the role CSs can play       Read the following scenario to answer the question. (Analysis) Char-
+as part of a multi-disciplinary approach in cancer-related        lotte loves going to the beach in sunny Florida. When she cannot go
+research. For example, in the supplemental video “Mapping         to the beach, she uses tanning beds. However, more recently, Char-
+                                                                  lotte has been concerned about her frequent exposure to UV rays
+Cancer Health Outcomes and Disparities”, the presenter
+                                                                  because her brother has been diagnosed with skin cancer. Which
+introduced the topic by saying:                                   of the following reasons could explain Charlotte’s concerns? A.
+                                                                  Sun exposure is a well-known environmental factor associated with
+  For cancer population sciences, maps are very impor-            cancer. B. There is a chance that Charlotte and her brother have an
+  tant for describing and understanding the disparity             inherited genetic predisposition for skin cancer.C. Tanning beds
+  in cancer health outcomes of our communities. As a              also emit UV rays that cause skin damage and can lead to cancer.D.
+  Citizen Scientist, your research team is likely to be           All of the above
+  using maps from the literature and generating your
+  own maps from public health data.
+                                                                 reviewed by the team to ensure best practices in multiple-
+   While we used storytelling and the role of CSs as impor-      choice item-writing (Miller et al., 2013) and were also
+tant stakeholders in those narratives to support CSs’ sense      reviewed by the SMEs to ensure accuracy of the content.
+of belonging (relatedness) and self-efficacy (competence),
+we also intended to support CSs’ autonomy through the user       Spotlights on Citizen Scientists
+control and self-paced nature of the curriculum. In attending
+to CSs’ sense of belonging, self-efficacy and autonomy, we       We intentionally included videos of the CSs sharing their
+enhanced the alignment between our instructional design          motivation, personal experiences and how those aspects
+strategy and the key psychological needs described by the        influenced their interest in cancer-related research. The
+SDT framework (Ryan & Deci, 2017).                               CS spotlight videos create authenticity and relevance for
+                                                                 the learners and can instill in them a sense of belonging
+Interactive Embedded Assessments                                 within the learning community (Balyasnikova & Gillard,
+                                                                 2018; Delmas, 2017). Similar to the approach used for the
+Using the learning objectives as the blueprint, we created       supplemental and instructional videos, the instructional
+assessment items for each of the instructional videos within     design team met with each CS featured in the “Spotlight
+the CSCC. The creation and use of the assessment items           on Citizen Scientists” videos. The goal of those meetings
+were based on research and evidence on providing learn-          was to provide background information related to the
+ers distributed practice experiences (Roediger & Karpicke,       video production and prepare CSs for the general ques-
+2006) clearly aligned to learning objectives. For these          tions that would be asked to guide the conversational
+assessments, we employed five multiple-choice questions          style intended for the video format. The questions asked
+on each practice assessment that combined recognition,           included: a) what is your motivation for working on can-
+analysis and evaluation of the content covered in each video.    cer-related research? b) can you please talk about your pre-
+The combination of different types of questions was used         vious experiences with cancer and some lessons learned
+to create a balanced learning experience where learners          through those experiences? c) how do these experiences
+could contextualize the content and develop higher-order         influence your work as a CS? In addition to these more
+learning outcomes (Buchanan Hill, 2016). To illustrate how       generic questions, other questions were developed based
+these types of questions were implemented, we provide a          on CSs’ initial narratives. For example, one CS described
+few examples from the assessment related to the instruc-         the importance of humanizing the patient. This prompted
+tional video “Causes of Cancer” in Table 2 with the correct      the design team to address this topic in the final video
+response presented in bold.                                      recording with the question “Based on your experience,
+   To support CSs’ conceptual learning (Finn et al., 2018)       why is it important to humanize the patient?” The “Spot-
+and transfer to novel contexts, all assessment items had elab-   light on Citizen Scientists” videos were recorded using a
+orated feedback for both correct and incorrect responses.        video conference platform (Zoom) and ranged between
+Since feedback is a powerful learning aid, we chose to incor-    7:35 and 8:20 min in length. The edited final versions
+porate the feedback messages for all of the multiple-choice      of the videos only show the CSs telling their stories and
+questions (Shute, 2008). All assessments were carefully          addressing related questions.
+
+
+13
+TechTrends (2022) 66:666–680                                                                                                  673
+
+
+Patient Case Study Video Series                                    an engaging learning experience for the future CSs working
+                                                                   at our institution. The materials can be adapted for different
+The patient case study video series was informed by the con-       online platforms, including Learning Management Systems
+ceptual framework to a motivational and emotional account          (LMSs) commonly used in institutions of higher education
+of the importance of cancer-related research and the critical      or on other Internet-based distribution systems. Licensed
+role CSs play as advocates in this process. We intentionally       under Creative Commons, the CSCC supports open educa-
+captured the stories from a cancer survivor, his caregivers        tion and ensures that commercial entities do not monetize
+(i.e., parents) and the physician who provided the treatment       the resources.
+to humanize the CS role in cancer-related research using the          The development of the resources closely mirrored the
+notion of storytelling. The development of the patient case        formative evaluation procedures used to ensure the highest
+study video series required two meetings for preparation: one      quality outcomes, which used an iterative process of crea-
+with the patient’s physician and a second meeting with the         tion, formative evaluation and subsequent revision negoti-
+physician, the patient and the patient’s parents. In the first     ated by the SME and the instructional design team based on
+meeting, the physician described the case from his perspec-        data collected. We elected to build the curriculum within
+tive and how the patient was able to enroll in an experimental     the existing web ecosystem at our institution, which uses
+clinical trial. In the second meeting, the patient and his par-    the WordPress content management system for its web pres-
+ents described the family’s journey from the initial onset of      ence. One clear advantage to the WordPress platform is the
+symptoms through the diagnosis and treatment of the patient’s      wealth of plug-ins available to extend the functionality of
+cancer. These accounts helped the instructional design team        the platform. We opted to employ the H5P plugin (H5P,
+identify key points that could be highlighted across six seg-      2021), which provides a suite of interactive experiences,
+ments of the final version of the case study. Two segments         such as the use of embedded assessments with multiple-
+addressed the patient’s perspectives and focused on his experi-    choice questions and item-level feedback and auto-grading.
+ence growing up with, receiving treatment for and becoming a       All videos were recorded by our professional video staff at
+survivor of cancer. Three segments focused on the physician’s      the institution, edited accordingly and uploaded to YouTube
+narrative of the diagnosis, treatment plan, opportunity for an     for distribution.
+innovative cancer treatment and the collaboration between
+researchers and the patients’ health care providers and family.
+Finally, one segment focused on the patient’s caregivers and       Formative Evaluation Method
+how they relied on extensive supportive systems (e.g., family,
+friends, doctors, nurses) to navigate the challenges imposed by    Objectives for Evaluation
+a cancer diagnosis. The caregivers detailed how this support
+system was critical as they cared for their child and enrolled     While the initial evaluation during the needs assessment
+him in the clinical trial that ultimately contributed to long-     stage served to support the rationale for the design and
+term remission of the cancer and survival of the patient.          development of the CSCC curriculum, the formative evalua-
+    To ensure that the rights and well-being of the patient and    tion based on qualitative and quantitative data was important
+his family were protected and that the project followed the        to examine CSs’ affective and content-specific outcomes.
+most ethical approaches and guidelines, our team contacted         This multi-method approach has been used in other design
+the university’s cancer center office of communications at the     and development research studies (Richey & Klein, 2014). In
+planning stage of the project. As part of this process, the can-   terms of evaluation models, the formative evaluation reflects
+cer center required the use of a consent form that the patient     the reaction- and learning-level described in the Kirkpatrick
+filled out with help from a trained communications person          Model, where learners’ reactions to the training (e.g., CS sat-
+not involved in the development of the curriculum. The form        isfaction with the instructional approach) and learning out-
+was filled out prior to the shoot and before any identifying       comes (e.g., CSs can identify the main causes of cancer) are
+information about the participant was published in any format.     assessed (Jones et al., 2018). The following objectives were
+                                                                   considered based on the intent of the course and its design
+                                                                   to support CSs’ motivation and learning outcomes: 1) the
+                                                                   CSCC incorporates sound instructional design informed by
+Development of Citizen Science Cancer                              the conceptual framework, 2) the CSCC supports the learn-
+Curriculum                                                         ing and application of cancer-related concepts among the
+                                                                   CSs and 3) the CSs’ motivation to engage in cancer-related
+The CSCC was developed as an online, self-paced resource           research projects is positively shaped by the design of the
+to support the sharing and distribution of the relevant cur-       CSCC and its affordances. To assess the extent to which
+riculum resources across medical institutions and to provide       each of these objectives was achieved, we employed a range
+
+
+                                                                                                                       13
+674                                                                                                TechTrends (2022) 66:666–680
+
+of formative evaluation techniques with the CSs to assess          cancer research? Please explain why or why not. (Auton-
+the resources within the CSCC using an iterative process           omy)
+of creation, evaluation and revision by the team and related
+stakeholders (e.g., SMEs). The last two levels of the Kirk-        As the CSCC project was implemented in the 2020–21
+patrick Model (behavior- and results-levels), which assess      academic year, the COVID pandemic shaped our approach
+how the training translated into behavioral changes (e.g.,      to creating and evaluating the resources as we had to ensure
+continuing engagement of CS with cancer research) and           the safety (e.g., adherence to Centers for Disease Control and
+the outcome of the training (e.g., successful collaborations    Prevention [CDC] guidelines) of all stakeholders involved.
+between CSs and cancer researchers), respectively, were not     Consequently, the videos and assessments were recorded and
+addressed in the present study.                                 created out of order and evaluated asynchronously by the
+                                                                CSs using the Qualtrics survey platform.
+Participants, Instruments and Procedures
+                                                                Usability Expert Think Aloud
+The same seven CSs (2 Males, 5 Females) who participated
+in the needs assessment also participated in the design,        As the CSCC is an interactive resource with the option
+development and formative evaluation (between five and          of both linear or non-linear navigation of the curriculum
+seven participants in each session) of the CSCC. Their expe-    resources, we elected to seek the expertise of a user experi-
+rience working as CSs ranged between one and five years.        ence design professional to conduct think aloud analysis of
+Following the research protocol approved by the university’s    the final CSCC prior to production release. The user experi-
+institutional review board (IRB), we collected data on CS’s     ence design professional has more than 20-years of expe-
+learning performance and perceptions of the course and its      rience developing interactive learning resources. The user
+learning materials via surveys in Qualtrics™. The forma-        experience design expert carefully reviewed the full CSCC
+tive evaluation of the instructional videos was conducted       resource while using a think aloud approach as a video
+in nine separate instances, one per instructional video and     recording. The full think aloud video lasted approximately
+included five-point Likert-type questions (1. Strongly Disa-    30 min and attended to a range of instructional design, usa-
+gree to 5. Strongly Agree) to address the quality of assess-    bility, navigation and accessibility thoughts on the CSCC.
+ment items (e.g., I think the assessment items were easy to     After receiving the video from the user experience design
+understand) and instructional videos (e.g., The presenter did   expert, the team carefully reviewed the points raised and
+not use too much technical language or jargon). Standard-       made slight alterations (e.g., changed lettering, formatting
+ized Cronbach’s alpha values for the quality of assessment      and navigation) to the CSCC. This review served as the final
+items scores (α = 0.85) and for the quality of video scores     check-point before the final production release of the CSCC.
+(α = 0.83) indicate good internal consistency. Open-ended
+items for additional feedback were also used for additional
+insights.                                                       Results of Formative Evaluation
+   To understand how the patient case study video series
+influenced CSs’ general interest/motivation, relatedness,       Learning and Satisfaction
+competence/self-efficacy and autonomy as they related to
+cancer research, we asked four open-ended questions, which      Quantitative and qualitative results from the formative eval-
+were presented in the survey along with the six videos asso-    uation sessions indicate that the curriculum and its learning
+ciated with the patient case study:                             materials where helpful to support CSs’ learning outcomes
+                                                                and motivation. More specifically, all instructional videos
+• Does this case study influence your motivation to work        (IV) and related assessments presented over 85% of correct
+  as a Citizen Scientist in cancer research? Please explain     responses as shown in Fig. 3.
+  why or why not. (General interest/motivation)                    Even when we consider specific items within each
+• Did the Patient Case Study help you relate to the chal-       module, most items presented greater than 70% of correct
+  lenges that patients, caregivers and physicians go through    responses. Only two instructional videos (Palliative Care and
+  as they deal with cancer diagnosis, treatment and survi-      Clinical Trial Enrollment) had one item each with a lower
+  vorship? Please explain why or why not. (Relatedness)         percentage (see Fig. 4). These data suggest a clear alignment
+• How does the Patient Case Study influence your thinking       among the learning objectives, the instructional videos and
+  about how you can contribute to cancer research? Please       the practice assessments.
+  explain. (Competence/self-efficacy)                              CSs’ learning performance in the assessment items indi-
+• Do you feel the Patient Case Study empowered you to           cates that they comprehended the topics with a high level
+  advocate for the needs of all stakeholders involved in        of mastery and were able to apply the concepts covered in
+
+
+13
+TechTrends (2022) 66:666–680                                                                                                                                                                                                                                              675
+
+
+                                    Assessment                                                                                           instructional design process from the onset of the project.
+                              100
+                                                                                                                                         Note, the quality of the assessment items and the videos
+Mean Percentage Correct (%)
+
+                                       Mean = 93.89
+                              90                                                                                                         were rated on a five-point scale.
+                              80                                                                                                            CSs’ critical reflections were also present in the data.
+                              70                                                                                                         Their reflections were particularly helpful to guide changes
+                              60                                                                                                         regarding content presentation and scaffolding. For example,
+                              50                                                                                                         for the Clinical Trial 101 module, a CS mentioned:
+                              40
+                                                                                                                                                                I also feel that more explanation should be given to
+                              30
+                                                                                                                                                                Phase 0 as this is seldom mentioned, in studies, and
+                              20
+                                                                                                                                                                how is it determined if the drug [works] or is useful to
+                              10
+                                0
+                                                                                                                                                                go one [sic] studying in phase 0???.
+                                     IV1   IV2    IV3    IV4   IV5                             IV6       IV7     IV8       IV9              Similar critical feedback was provided for the assess-
+                                                      Instructional Videos
+                                                                                                                                         ment items, which was used to make useful changes to the
+                                                                                                                                         language and presentation of these items. For example, for
+Fig. 3  Overall percentage of correct responses per instructional video
+and related assessment
+                                                                                                                                         the module about the Importance of Social Determinants of
+                                                                                                                                         Health (Instructional Video 6), a CS said:
+
+Fig. 4  Percentage of correct                                                                  Instructional Video 1                                                Instructional Video 2                                             Instructional Video 3
+                                                                                               What is Cancer                                                       Palliative Care                                                   Clinical Trial Enrollment
+responses per question for each
+                                                                                         100                                                                  100                                                               100
+instructional video                                                                       90                                                                   90                                                               90
+
+                                                                                          80                                                                   80                                                               80
+                                                                Percentage Correct (%)
+
+
+
+
+                                                                                                                                     Percentage Correct (%)
+
+
+
+
+                                                                                                                                                                                                       Percentage Correct (%)
+                                                                                          70                                                                   70                                                               70
+
+                                                                                          60                                                                   60                                                               60
+
+                                                                                          50                                                                   50                                                               50
+
+                                                                                          40                                                                   40                                                               40
+
+                                                                                          30                                                                   30                                                               30
+
+                                                                                          20                                                                   20                                                               20
+
+                                                                                          10                                                                   10                                                               10
+
+                                                                                           0                                                                    0                                                                 0
+                                                                                                     1     2       3       4     5                                      1      2       3       4   5                                      1       2       3       4   5
+                                                                                                               Questions                                                           Questions                                                          Questions
+                                                                                               Instructional Video 4                                                Instructional Video 5                                             Instructional Video 6
+                                                                                               Clinical Trial 101                                                   SDOH Part1                                                        SDOH Part2
+                                                                                         100                                                                  100                                                               100
+
+                                                                                         90                                                                    90                                                               90
+
+                                                                                         80                                                                    80                                                               80
+                                                                Percentage Correct (%)
+
+
+
+
+                                                                                                                                     Percentage Correct (%)
+
+
+
+
+                                                                                                                                                                                                       Percentage Correct (%)
+
+
+                                                                                         70                                                                    70                                                               70
+
+                                                                                         60                                                                    60                                                               60
+
+                                                                                         50                                                                    50                                                               50
+
+                                                                                         40                                                                    40                                                               40
+
+                                                                                         30                                                                    30                                                               30
+
+                                                                                         20                                                                    20                                                               20
+
+                                                                                         10                                                                    10                                                               10
+
+                                                                                           0                                                                    0                                                                 0
+                                                                                                     1     2       3       4     5                                      1      2       3       4   5                                      1       2       3       4   5
+                                                                                                               Questions                                                           Questions                                                          Questions
+                                                                                               Instructional Video 7                                                Instructional Video 8                                             Instructional Video 9
+                                                                                               Cancer Prevention                                                    Cancer Treatment                                                  Causes of Cancer
+                                                                                         100                                                                  100                                                               100
+
+                                                                                         90                                                                    90                                                               90
+
+                                                                                         80                                                                    80                                                               80
+                                                                Percentage Correct (%)
+
+
+
+
+                                                                                                                                                                                                       Percentage Correct (%)
+                                                                                                                                     Percentage Correct (%)
+
+
+
+
+                                                                                         70                                                                    70                                                               70
+
+                                                                                         60                                                                    60                                                               60
+
+                                                                                         50                                                                    50                                                               50
+
+                                                                                         40                                                                    40                                                               40
+
+                                                                                         30                                                                    30                                                               30
+
+                                                                                         20                                                                    20                                                               20
+
+                                                                                         10                                                                    10                                                               10
+
+                                                                                           0                                                                    0                                                                 0
+                                                                                                     1     2       3       4     5                                      1      2       3       4   5                                      1       2       3       4   5
+                                                                                                               Questions                                                           Questions                                                          Questions
+
+
+
+
+the modules to the criterion-referenced assessment items.
+                                                                                                                                                                The first assessment asking for regurgitate [sic] a sta-
+This result aligns with CSs’ overall positive feedback of
+                                                                                                                                                                tistic seemed a little unfair. I didn't think the point of
+the assessment items and instructional videos (Fig. 5),
+which highlights the importance of involving CSs in the
+
+
+                                                                                                                                                                                                                                                              13
+676                                                                                                                                                        TechTrends (2022) 66:666–680
+
+Fig. 5  Distribution of the mean                    Quality Assessment Items                                                       Quality Video
+scores across participants                      5                                                                              5
+
+
+
+
+                                                4                                                                              4
+
+
+
+
+                                   Mean Score
+
+
+
+
+                                                                                                                  Mean Score
+                                                3                                                                              3
+
+
+
+
+                                                2                                                                              2
+
+
+
+
+                                                1                                                                              1
+
+                                                      IV1   IV2   IV3    IV4    IV5     IV6     IV7   IV8   IV9                      IV1   IV2     IV3    IV4    IV5     IV6    IV7   IV8   IV9
+                                                                        Instructional Videos                                                             Instructional Videos
+
+
+
+
+   the video was to remember if it was 17% or 71% but to                                       the concepts covered as seen in the following suggestions
+   recognize that there is a relationship.                                                     by a CS:
+   The feedback provided during the formative evaluation                                          I think the scenario questions were particularly help-
+were essential to guide revisions to assessment items and                                         ful.
+for the final recording of the instructional videos. The com-                                     Think there could be a few more scenarios to further
+ments and suggestions provided by CSs were addressed in                                           ascertain understanding of the video material.
+the slides and verbal remarks. For instance, in light of their
+comments about the phases of clinical trials, we added about                                   Patient Case Study
+30 s of content, especially regarding phase 0, as it was essen-
+tially a passing mention earlier. Initially, we considered the                                 The feedback from CSs about the patient case study video
+information to be only a supplemental component, but since                                     series indicate an overall approval of the storytelling approach
+the CSs asked for more detail, we changed course and added                                     as an instructional strategy to support their motivation to work
+more information in the presentation.                                                          on cancer-related research. The feedback was mostly positive
+                                                                                               (83%) and outlined four emerging themes: a) importance of
+                                                                                               information and research, b) positive outcome, c) multiple
+Instructional Videos                                                                           stakeholder engagement and d) role of CSs (Table 3).
+                                                                                                  It is worth mentioning that there were a few negative (17%)
+CSs’ feedback about the instructional videos indicate that                                     and neutral (29%) types of comments as well. For example, one
+their motivation was also supported by the interaction with                                    CS mentioned that despite the story’s happy ending, they did
+the instructional materials. CSs were particularly apprecia-                                   not perceive a connection with the role of CS in cancer research:
+tive of the attention presenters gave to their role as CSs,
+                                                                                                  I do not see any empowerment related to my role as
+which fostered a sense of belonging and competence in their
+                                                                                                  Citizen Scientist in this particular patient study!! I feel
+work as CSs, as described by one participant:
+                                                                                                  happy that the young man finally made a connection
+   I felt valued as a Citizen Scientist and enthusiastic                                          that worked to save his life.
+   about my role in the research process.
+                                                                                                  The negative feedback suggests that the CSs felt entitled
+   However, when they did not feel the connection between                                      and comfortable to share their concerns when their expec-
+the content being presented and their roles as CSs, they also                                  tations regarding the quality of the learning material and
+voiced their concerns as illustrated by the feedback provided                                  instructional approach were not met.
+by another CS:
+   The information was clear, easy to follow and compre-
+                                                                                               Discussion and Reflections
+   hensive. The actual ROLE of Citizen Scientists did not
+   seem to be addressed.
+                                                                                               As this work is a design and development case study focused
+   Importantly, the CSs really appreciated the use of sto-                                     on the creation of an authentic learning resource to engage
+ries in the videos and assessment items to contextualize                                       CSs in cancer-related research, our discussion is framed
+
+
+13
+TechTrends (2022) 66:666–680                                                                                                                677
+
+Table 3  Themes related to CSs’ feedback about the patient case study video series
+Themes                                                                  Examples
+
+Importance of information and research: the comments addressed how Yes. Jeremy's story is […] an example of the importance of research in
+ access to information was key for the enrollment of the patient in the  achieving positive health outcomesIt underscored the importance of
+ clinical trial and the happy outcome.                                   having access to the latest information.Having access to information
+                                                                         to make an informed decision is key. Some doctors are great at pro-
+                                                                         viding patients and caregivers with more information. Others less so.
+Positive outcome: CSs’ comments highlighted the happy ending of the Jeremy's story is one of success and triumph.I think if anything it gives
+ story and the importance of staying positive to face the challenges     me more hope that even when the situation seems bleak, the patient
+ that follow a cancer diagnosis.                                         can still pull through and that research can make all the difference.It
+                                                                         was a very positive series, showing how very helpful joining a study
+                                                                         can be, and how wonderful to connect with a physician who is dedi-
+                                                                         cated to the improvement and [well-being] of his patient.
+Multiple stakeholder engagement: the comments emphasized how the The case study gave more insight on those directly [sic] effected [by]
+ story created awareness of the struggles patients and their families    and involved with cancer. My motivation is as result of having a
+ face and the important role of community and family support to face     grandfather who had leukemia and [lost] his fight many years ago.
+ these challenges (relatedness).                                         The support network was key to Jeremy's successful outcome. From
+                                                                         his doctors, his family, down to the aides serving his food and the
+                                                                         cleaners - all played an important part in Jeremy's treatment.It shows
+                                                                         how important it is to have a community of support and a positive
+                                                                         outlook.I think it has alerted me to the needs of the caregivers that I
+                                                                         may not have thought about before. For example, I would not have
+                                                                         thought about the mother not being able to sleep for fear of her son
+                                                                         needing her and her not waking up. I think areas like this are also
+                                                                         important to consider when approaching patients to be in a trial -
+                                                                         how does that trial affect the caregiver? Will the caregiver have the
+                                                                         capacity to handle whatever additional requirements come from the
+                                                                         trial? How can the researchers relieve the caregivers some as part of
+                                                                         participating in the trial?
+Role of CSs: CSs’ feedback indicated that the videos supported their    As a Citizen Scientist I would advocate providing a myriad of resources
+ sense of self-efficacy (competence). For example, they described that to the patient and caregiver.It has made me more aware of the dif-
+ in their roles as CS they would advocate for the patient, family and    ferent components of a successful treatment plan. This is important
+ communities by providing them information and resources.                in talking to others about cancer research. I feel I can be a good
+                                                                         resource providing I have some of the necessary tools to do it.Through
+                                                                         my involvement as a Citizen Scientist I'm able advocate for patients
+                                                                         and communities that may not be aware that such research treatments
+                                                                         exist. Providing them with information, giving them the opportunity to
+                                                                         make the decision to participate or not.
+
+
+
+
+as context-specific lessons learned and discussion points                    Starting with our needs assessment focused on both CSs
+(Richey & Klein, 2014). Creating effective learning materi-               and cancer researchers, we opted to maximize the mutual
+als and resources requires collaboration and expertise among              needs and interests of both parties involved with the CSCC.
+many different relevant stakeholders (e.g., learners, instruc-            While the CSs are the intended learners for the CSCC, the
+tional designers, SMEs) (Luo et al., 2020), often with dif-               cancer researchers were also primary stakeholders since a
+ferent viewpoints and agendas. The creation of the CSCC                   critical point of the program is to improve cancer-related
+was an especially unique design and development case study                research outcomes by involving well-prepared community
+since the work was executed during a pandemic in which                    members in these projects. The findings from the needs
+different constraints (e.g., CDC safety guidelines) influenced            assessment formed the foundation of the curriculum topics
+our overall approach. Because of the COVID pandemic and                   (e.g., treatment of cancer) for the CSCC. Results from the
+our concern for the safety of all stakeholders involved in the            needs assessment also guided our theory-driven instructional
+project, our team was forced to employ alternative methods                design approach focused on the motivational and emotional
+for the development, evaluation and revision of the CSCC                  aspects of both researchers and CSs engaging in this work.
+resources using a range of information and communication                  Notably, the needs assessment was conducted entirely online
+technologies. Though we faced many challenges and con-                    through the use of information and communication technolo-
+straints in the creation of the CSCC, the overall project led             gies (ICTs) (e.g., Zoom) to collect the important information
+to some reflections and discussion points for others working              since this process began in the earlier stages of the COVID
+on similar projects to consider.                                          pandemic in 2020. While our team had to use a range of
+
+
+                                                                                                                                    13
+678                                                                                                          TechTrends (2022) 66:666–680
+
+ICTs to carry out the needs assessment work, our appraisal          changes among learners. For example, questions such as “Do
+of the quality of the information gained and the initial buy-in     the learning materials support the long-term engagement
+from the stakeholders (e.g., SMEs for the instructional vid-        of CSs in cancer research?” or “Does the use of storytell-
+eos) using this approach is that we did not have to sacrifice       ing facilitate long-term knowledge retention?” could be
+the quality of the process for the sake of adhering to safety       addressed.
+protocols.
+   Our team’s experience with the original CS curriculum
+(Valle et al., 2018), shaped our engagement strategy for each
+of the stakeholders in the project. For instance, we knew           Closing Remarks
+from experience that creating effective instructional videos
+with the SMEs would require careful attention to the con-           While community stakeholder engagement is a critical
+tents of the slides and scripts used in for the final recordings.   component of clinical and translational research processes
+One challenging aspect to working with the SMEs on the              to ensure alignment between research practices and the
+CSCC was the immense difficulty in scheduling the SMEs              need of targeted populations (Stallings et al., 2019), there
+to record their videos in the production studio, as clinicians      is limited literature to guide institutions and health pro-
+have often inflexible and variable schedules. As some of the        fessionals on how to support the training of community
+SMEs were also surgeons, there were literal life-and-death          stakeholders so they can become active members of the
+circumstances that caused a need to reschedule. This real-          research team (Valle et al., 2018). The purpose of this
+ity forced the team to spend more time in the initial design        design and development case study was to assess how
+stages to ensure consistency across the CSCC and to subse-          the design and development of a curriculum informed by
+quently record the videos out of sequence. While this reality       SDT, which used storytelling as an instructional strategy,
+proved challenging, we quickly learned that producing the           influenced CSs’ motivation and learning outcomes in
+resources out of sequence would not hinder the project so           the domain of cancer research. The results indicate that
+long as appropriate design time was spent on the learning           the instructional design process (Morrison et al., 2019)
+objectives, slides, scripts and assessments across the CSCC         was key for the creation of quality assessment items and
+prior to full production. Though the SMEs were difficult to         instructional videos based on their alignment with the
+schedule, they were very excited about participating in the         instructional goals set in the initial stage of the project.
+project to further refine the cancer-related research trajectory    Furthermore, CSs’ feedback indicate that the CSCC cur-
+of the institution.                                                 riculum supported CSs’ learning and motivation to engage
+   The engagement of multiple stakeholders (e.g., CSs,              in cancer-related research projects. Finally, the use of sto-
+SMEs, video production team) from the inception of the              rytelling was essential to create interest in the topic and
+project until its closing was essential for the alignment           support learners’ psychological needs for relatedness and
+between the curriculum’s theoretical underpinnings and              competence in the context of the CS program. Although
+the learning materials developed. The validation of our             there are some context-specific aspects that may limit the
+instructional design approach came in the form of learning          generalization of this case (Richey & Klein, 2014), we
+outcomes and CSs’ feedback on how they felt valued and              hope the detailed descriptions and reflections will pro-
+how the storytelling component supported their interest             vide invaluable insights into how instructional design
+(attention to the importance of cancer-related research and         approaches and the use of storytelling as an instructional
+access to information), relatedness (emotional involvement,         strategy hold potential for supporting similar community
+sympathy for the struggles of caregivers and patients)              stakeholder engagement initiatives.
+and sense of competence to contribute to cancer-related
+research.
+   Taken together, the processes and outcomes of this design        Funding Research reported in this publication was supported in part
+                                                                    by the University of Florida Health Cancer Center, the OneFlorida+
+and development case study indicate that the integration of         Clinical Data Network (Patient-Centered Outcomes Research Institute
+learning sciences (e.g., SDT) into the instructional design         numbers CDRN-1501-26692, RI-CRN-2020-005 and RI-FLORIDA-
+practice to attend to learners’ psychological needs and well-       01-PS1), and the University of Florida Clinical and Translational Sci-
+being is a viable solution for successful curriculum devel-         ence Institute, which is supported in part by the National Institutes of
+                                                                    Health National Center for Advancing Translational Sciences under
+opment, especially around sensitive topics such as cancer.          award number UL1TR001427. The content is solely the responsibility
+The robust needs assessment was essential to support the            of the authors and does not necessarily represent the official views of
+negotiation of differing priorities toward a common goal:           the University of Florida Health Cancer Center; the Patient-Centered
+the successful engagement of CS in cancer-related research          Outcomes Research Institute, its Board of Governors or Methodol-
+                                                                    ogy; the OneFlorida+ Clinical Research Network; the UF Clinical and
+projects. Future studies in similar contexts could strive to        Translational Science Institute; or the National Institutes of Health.
+include summative evaluations and assessment of behavioral
+
+
+13
+TechTrends (2022) 66:666–680                                                                                                                                 679
+
+
+Declarations                                                                       Green, M. C. (2004). Storytelling in teaching. APS Observer,
+                                                                                        17(4). https://​www.​psych​ologi​calsc​ience.​org/​obser​ver/​story​telli​
+                                                                                        ng-​in-​teach​ing Accessed 27-03-2021
+Ethical Approval This study was approved by the institutional review
+                                                                                   H5P (2021). Release overview. https://​h5p.​org/​post-​hub-​relea​ses
+board (IRB) of the University of Florida.
+                                                                                        Accesssed 13-06-2021
+                                                                                   Hartley, J., & Davies, I. K. (1976). Preinstructional strategies: The role
+Conflict of Interest The authors have no conflicts of interest to declare               of pretests, behavioral objectives, overviews and advance organ-
+that are relevant to the content of this article.                                       izers. Review of Educational Research, 46(2), 239–265. https://​
+                                                                                        doi.​org/​10.​3102/​00346​54304​60022​39
+Open Access This article is licensed under a Creative Commons Attri-               Hung, C.-M., Hwang, G.-J., & Huang, I. (2012). A project-based digital
+bution 4.0 International License, which permits use, sharing, adapta-                   storytelling approach for improving students’ learning motivation,
+tion, distribution and reproduction in any medium or format, as long                    problem-solving competence and learning achievement. Journal
+as you give appropriate credit to the original author(s) and the source,                of Educational Technology & Society, 15(4), 368–379.
+provide a link to the Creative Commons licence, and indicate if changes            Jonassen, D. H., & Hernandez-Serrano, J. (2002). Case-based reason-
+were made. The images or other third party material in this article are                 ing and instructional design: Using stories to support problem
+included in the article's Creative Commons licence, unless indicated                    solving. Educational Technology Research and Development,
+otherwise in a credit line to the material. If material is not included in              50(2), 65–77. https://​doi.​org/​10.​1007/​BF025​04994
+the article's Creative Commons licence and your intended use is not                Jones, C., Fraser, J., & Randall, S. (2018). The evaluation of a home-
+permitted by statutory regulation or exceeds the permitted use, you will                based paediatric nursing service: Concept and design develop-
+need to obtain permission directly from the copyright holder. To view a                 ment using the Kirkpatrick model. Journal of Research in Nurs-
+copy of this licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.        ing, 23(6), 492–501. https://​doi.​org/​10.​1177/​17449​87118​786019
+                                                                                   Landrum, R. E., Brakke, K., & McCarthy, M. A. (2019). The pedagogi-
+                                                                                        cal power of storytelling. Scholarship of Teaching and Learning
+                                                                                        in Psychology, 5(3), 247–253. https://d​ oi.o​ rg/1​ 0.​1037/​stl00​00152
+                                                                                   Levin, J. R. (1981). On functions of pictures in prose. In F. J. Piroz-
+References                                                                              zolo & M. C. Wittrock (Eds.), Neuropsychological and cognitive
+                                                                                        processes in reading (p. 203). Academic Press.
+                                                                                   Lugmayr, A., Sutinen, E., Suhonen, J., Sedano, C. I., Hlavacs, H., &
+Balyasnikova, N., & Gillard, S. (2018). “I love to write my story”: Sto-
+                                                                                        Montero, C. S. (2017). Serious storytelling – A first definition and
+     rytelling and its role in seniors’ language. Canadian Journal for
+                                                                                        review. Multimedia Tools and Applications, 76(14), 15707–15733.
+     the Study of Adult Education, 30(2), Article 2. https://​cjsae.​libra​
+                                                                                        https://​doi.​org/​10.​1007/​s11042-​016-​3865-5
+     ry.​dal.​ca/​index.​php/​cjsae/​articl​ e/​view/5​ 428 Accessed 02-05-2021
+                                                                                   Luo, F., Antonenko, P., Valle, N., Sessa, E., Burleigh, G., Endara, L.,
+Banner, D., Bains, M., Carroll, S., Kandola, D. K., Rolfe, D. E., Wong,
+                                                                                        McDaniel, S., Carey, S., & Davis, E. C. (2020). Collaborative
+     C., & Graham, I. D. (2019). Patient and public engagement in
+                                                                                        design reasoning in a large interdisciplinary learning tool design
+     integrated knowledge translation research: Are we there yet?
+                                                                                        project. International Journal of Designs for Learning, 11(1),
+     Research Involvement and Engagement, 5(1), 8. https://​doi.​org/​
+                                                                                        85–97.
+     10.​1186/​s40900-​019-​0139-1
+                                                                                   Mayer, R. E., Fiorella, L., & Stull, A. (2020). Five ways to increase
+Barnes, B. R., & Clawson, E. U. (1975). Do advance organizers facili-
+                                                                                        the effectiveness of instructional video. Educational Technology
+     tate learning? Recommendations for further research based on an
+                                                                                        Research and Development, 68(3), 837–852. https://​doi.​org/​10.​
+     analysis of 32 studies. Review of Educational Research, 45(4),
+                                                                                        1007/​s11423-​020-​09749-6
+     637–659. https://​doi.​org/​10.​3102/​00346​54304​50046​37
+                                                                                   McElfish, P. A., Rowland, B., Ayers, B. L., O’Connor, G. E., Purvis,
+Buchanan Hill, J. (2016). Questioning techniques: A study of instruc-
+                                                                                        R. S., Aitaoto, N., Capelle, L., Laelan, M., Felix, H. C., Stewart,
+     tional practice. Peabody Journal of Education, 91(5), 660–671.
+                                                                                        M. K., & Yeary, K. H. (2019). Development and evaluation of a
+     https://​doi.​org/​10.​1080/​01619​56X.​2016.​12271​90
+                                                                                        community-engaged research training program: Building capacity
+Creative Commons (n.d.). Attribution-NonCommercial-ShareAlike 4.0
+                                                                                        of Marshallese stakeholders and academic researchers to conduct
+     International — CC BY-NC-SA 4.0. Retrieved January 30, 2022,
+                                                                                        health research. Gateways: International Journal of Community
+     from https://​creat​iveco​mmons.​org/​licen​ses/​by-​nc-​sa/4.​0/
+                                                                                        Research and Engagement, 12(1), ID 6198–ID 6198. https://​doi.​
+Delmas, P. M. (2017). Using VoiceThread to create community in
+                                                                                        org/​10.​5130/​ijcre.​v12i1.​6198
+     online learning. TechTrends, 61(6), 595–602. https://​doi.​org/​10.​
+                                                                                   Miller, M. D., Linn, R. L., & Gronlund, N. E. (2013). Measurement
+     1007/​s11528-​017-​0195-z
+                                                                                        and assessment in teaching (11th ed.). Pearson.
+Dick, W., Carey, L., & Carey, J. O. (2015). The systematic design of
+                                                                                   Moreno, R., & Mayer, R. E. (1999). Cognitive principles of multi-
+     instruction (8th ed.). Pearson.
+                                                                                        media learning: The role of modality and contiguity. Journal of
+Domecq, J. P., Prutsky, G., Elraiyah, T., Wang, Z., Nabhan, M., Ship-
+                                                                                        Educational Psychology, 91(2), 358–368. https://d​ oi.o​ rg/1​ 0.1​ 037/​
+     pee, N., Brito, J. P., Boehmer, K., Hasan, R., Firwana, B., Erwin,
+                                                                                        0022-​0663.​91.2.​358
+     P., Eton, D., Sloan, J., Montori, V., Asi, N., Abu Dabrh, A. M., &
+                                                                                   Morrison, G. R., Ross, S. J., Morrison, J. R., & Kalman, H. K. (2019).
+     Murad, M. H. (2014). Patient engagement in research: A system-
+                                                                                        Designing effective instruction (8th ed.). Wiley.
+     atic review. BMC Health Services Research, 14(1), 89. https://d​ oi.​
+                                                                                   Richey, R. C., & Klein, J. D. (2014). Design and development research.
+     org/​10.​1186/​1472-​6963-​14-​89
+                                                                                        In J. M. Spector, M. D. Merrill, J. Elen, & M. J. Bishop (Eds.),
+Finn, B., Thomas, R., & Rawson, K. A. (2018). Learning more from
+                                                                                        Handbook of research on educational communications and tech-
+     feedback: Elaborating feedback with examples enhances concept
+                                                                                        nology (pp. 141–150). Springer. https://​doi.​org/​10.​1007/​978-1-​
+     learning. Learning and Instruction, 54, 104–113. https://​doi.​org/​
+                                                                                        4614-​3185-5_​12
+     10.​1016/j.​learn​instr​uc.​2017.​08.​007
+                                                                                   Roediger, H. L., & Karpicke, J. D. (2006). The power of testing mem-
+Fiorella, L., & Mayer, R. E. (2018). What works and doesn’t work with
+                                                                                        ory: Basic research and implications for educational practice. Per-
+     instructional video. Computers in Human Behavior, 89, 465–470.
+                                                                                        spectives on Psychological Science, 1(3), 181–210. https://d​ oi.o​ rg/​
+     https://​doi.​org/​10.​1016/j.​chb.​2018.​07.​015
+                                                                                        10.​1111/j.​1745-​6916.​2006.​00012.x
+
+
+
+                                                                                                                                                   13
+680                                                                                                                      TechTrends (2022) 66:666–680
+
+Ryan, R. M., & Deci, E. L. (2017). Self-determination theory: Basic                  Information Technologies, 25(4), 3275–3297. https://​doi.​org/​10.​
+      psychological needs in motivation, development, and wellness.                  1007/​s10639-​020-​10121-7
+      Guilford Publications.                                                    Valle, N., Brishke, J., Ritzhaupt, A. D., Evans, C., Nelson, D. R., &
+Shute, V. J. (2008). Focus on formative feedback. Review of Educa-                   Shenkman, E. (2018). Using instructional design to support com-
+      tional Research, 78(1), 153–189. https://​doi.​org/​10.​3102/​00346​           munity engagement in clinical and translational research: A design
+      54307​313795                                                                   and development case. Journal of Formative Design in Learning,
+Stallings, S. C., Boyer, A. P., Joosten, Y. A., Novak, L. L., Richmond,              2(1), 20–35. https://​doi.​org/​10.​1007/​s41686-​018-​0018-4
+      A., Vaughn, Y. C., & Wilkins, C. H. (2019). A taxonomy of                 Wang, J., & Antonenko, P. D. (2017). Instructor presence in instruc-
+      impacts on clinical and translational research from community                  tional video: Effects on visual attention, recall, and perceived
+      stakeholder engagement. Health Expectations, 22(4), 731–742.                   learning. Computers in Human Behavior, 71, 79–89. https://​doi.​
+      https://​doi.​org/​10.​1111/​hex.​12937                                        org/​10.​1016/j.​chb.​2017.​01.​049
+Valle, N., Antonenko, P., Endara, L., Davis, E. C., Somarriba, G.,              Yang, Y.-T. C., & Wu, W.-C. I. (2012). Digital storytelling for enhanc-
+      Sessa, E., Luo, F., Carey, S., Dogan, S., Burleigh, J. G., & McDan-            ing student academic achievement, critical thinking, and learn-
+      iel, S. (2021). Community science, storytelling, or inquiry-based              ing motivation: A year-long experimental study. Computers &
+      learning? Evaluating three technology-enhanced pedagogical                     Education, 59(2), 339–352. https://​doi.​org/​10.​1016/j.​compe​du.​
+      approaches in an online botany course. The American Biology                    2011.​12.​012
+      Teacher, 83(8), 513–520. https://​doi.​org/​10.​1525/​abt.​2021.​83.8.​
+      513                                                                       Publisher’s Note Springer Nature remains neutral with regard to
+Valle, N., Antonenko, P., Soltis, P. S., Soltis, D. E., Folk, R. A., Gural-     jurisdictional claims in published maps and institutional affiliations.
+      nick, R. P., Oliverio, J. C., Difato, T. T., Xu, Z., & Cheng, L.
+      (2020). Informal multimedia biodiversity awareness event as a
+      digital ecology for promoting culture of science. Education and
+
+
+
+
+13
+

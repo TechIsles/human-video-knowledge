@@ -1,0 +1,313 @@
+Title: On Repeat
+Subtitle: How to use loops to explain anything
+Authors: By Lena Groeger
+Publication: Posted on: June 5, 2015
+Publisher: Source, an OpenNews project
+Source: https://source.opennews.org/articles/power-loops/
+License: Creative Commons Attribution 3.0 (CC BY 3.0), as explicitly linked in this article footer
+License URL: https://creativecommons.org/licenses/by/3.0/
+Retrieved: 2026-11-17
+Representation: Complete licensed article-text extraction, not original HTML; media and separately sourced material exclusions are stated below.
+Changes: HTML markup removed; whitespace normalized; hyperlink destinations inserted next to link text.
+Exclusions: All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text.
+Original HTML SHA256: a305acd183c04cd87e0a662d995eb5b2a4049d6ecfc60b21d64774f2bd3410e7
+
+--- ARTICLE TEXT ---
+
+This article is cross-posted at ProPublica’s Nerd Blog (https://www.propublica.org/nerds/item/on-repeat-how-to-use-loops-to-explain-anything).
+
+As visual journalists, one of our central responsibilities is to inform people. We do this in lots of ways. One technique I think we have only just begun to use for visual explanations is the visual loop. Specifically, the animated GIF. 
+
+Animated gifs: so much potential
+
+We might overlook the GIF because we associate it with certain unserious things like memes, absurd mashups, and celebrity bloopers (or celebrity llamas). 
+
+Typical reaction GIF
+
+A most masterful mashup
+
+This llama’s J. Law moment (http://www.vox.com/2015/2/26/8116713/llama-chase-arizona)
+
+But while these GIFs may be awesome and hilarious, looped images have a much richer past and lots of potential to help us explain complex concepts to readers. 
+
+ GIFs in the Past
+
+ Loops actually have quite a long history—and it started long before the 1990’s when the Graphics Interchange Format first included support for animation (by swapping multiple images in a sequence to form a rudimentary video). As delightful as they are, these were not the first visual loops:
+
+ Starting in the early 1800’s we saw a variety of mechanical devices that used rows of images printed on strips or disks of paper to create the illusion of motion. These were the first animation devices.
+
+ Three early animation machines
+
+The phenakistoscope (http://en.wikipedia.org/wiki/Phenakistoscope) was basically a spinning disk of images that you viewed through a narrow slit to trick your brain to see a sequence of images instead of a continuous blur.
+
+The Phenakistoscope (http://www.thisiscolossal.com/2013/10/the-first-animated-gifs/)
+
+The praxinoscope (http://en.wikipedia.org/wiki/Praxinoscope) used mirrors to achieve the same result—reflected pictures on the inside of a spinning cylinder appeared as a moving picture.
+
+The praxinoscope (http://en.wikipedia.org/wiki/Praxinoscope)
+
+The zoetrope (http://en.wikipedia.org/wiki/Zoetrope) combined these concepts, with a spinning cylinder and narrow slits you’d look through to see the “moving” image. 
+
+The zoetrope (http://en.wikipedia.org/wiki/Zoetrope)
+
+There’s also the poor man’s version, the flip book (http://en.wikipedia.org/wiki/Flip_book), which was actually invented around the same time as these other contraptions.
+
+Flipbook from the University of Iowa Libraries (http://uispeccoll.tumblr.com/post/56144226905/miniature-monday-publisher-feature-you-should) miniature book collection
+
+Whether it was a spinning disk or a series of mirrors, the end result was actually pretty similar to the GIFs we know today—looping images that play cognitive tricks to allow us to see motion. 
+
+The technique of the phenakistoscope and other devices hasn’t dissapeared entirely, even if it’s been replaced by more sophisticated, digital forms. It showed up on the Boston T a few years ago. Ads for movie Coraline were printed as a series of posters inside the subway tunnel, which passengers saw as an animated movie as the train sped by. 
+
+A promotional loop for the movie Coraline
+
+ Riders of the subway in Brooklyn see an animation on the wall as the train approaches and leaves the DeKalb Ave station.
+
+But back to the 1800s. In 1872 photographer Eadweard Muybridge took the idea of looped images even further and created a system to actually project them. Some say this was the first movie projector.
+
+Rendering of Muybridge’s zoopraxiscope
+
+If you look closely at that image being projected, it might remind you of something else that comes up often in the context of data visualization.
+
+This is Horse in Motion (http://www.hrc.utexas.edu/exhibitions/permanent/windows/southeast/eadweard_muybridge.html), a piece by the same Eadweard Muybridge who invented the movie projector. He created this series of images to settle an argument about whether a horse gets all four feet off the ground at the same time (it does). But this piece is also a classic example of what we call “small multiples.” Small multiples are a chart form made up of sequences of small images. They’re useful because they put every bit of information in front of us at the same time. If we saw a single video of this horse in motion, it might be harder to see differences because we can’t hold everything in our working memories. Small multiples let us offload our memory onto the page. 
+
+But what if we turn that series of photos into a single, looping GIF?
+
+The (Animated) Horse in Motion (http://commons.wikimedia.org/wiki/File:The_Horse_in_Motion-anim.gif)
+
+Now here’s the horse is in motion, the GIF edition. Note that rather than repeat this image over and over in space, like small multiples do, we’ve just repeated it over and over again in time—forever. That GIFs repeat forever is important—in a sense GIFs introduce onto the web the notion of the infinite. Where does it start? When will it stop? When do you leave? Maybe you should stay!
+
+And I think it is this repetition, this infinite looping, that makes GIFs such a powerful tool.
+
+So let’s turn to why loops are useful to us, as journalists.
+
+ Why Are Loops Useful?
+
+ To demonstrate why GIFs might be useful to us, let’s take a look at examples of loops that exist already. Many of these GIFs help explain a process.
+
+Explain a Process
+
+Here’s a GIF that explains how a cheetah runs.
+
+Cheetah in motion (http://animagraffs.com/cheetah-natures-speed-machine/)
+
+Or how a lock works, as well as how to pick one.
+
+Lock mechanism (http://sploid.gizmodo.com/how-to-pick-a-lock-in-one-simple-gif-1536001796)
+
+Picking a lock (http://sploid.gizmodo.com/how-to-pick-a-lock-in-one-simple-gif-1536001796)
+
+Or how a sewing machine works.
+
+How a lockstitch mechanism works (http://commons.wikimedia.org/wiki/File:Lockstitch.gif)
+
+Quite a lot of these “how stuff works” GIFs fall into the food category—pretzels, pop tarts, ice cream sandwiches, pasta, dough.
+
+Making pretzels (https://www.youtube.com/watch?v=v1_5Xx3N3sY), pasta (https://www.youtube.com/watch?v=TXtm_eNaIwQ), pasta (https://www.youtube.com/watch?v=TXtm_eNaIwQ), bread (https://www.youtube.com/watch?v=3UjUWfwWAC4), ice cream sandwiches (https://www.youtube.com/watch?v=fWon4ITqago)
+
+ Then we’ve got how chains are made, or paper clips.
+
+How to make chain (https://www.youtube.com/watch?v=a9O_kGbEsW8), paperclips (https://www.youtube.com/watch?v=OsDdmDFDYHA&feature=youtu.be)
+
+More complex ones that show us the inner workings of how creatures breathe.
+
+An animated guide to breathing (http://tabletopwhale.com/2014/10/24/3-different-ways-to-breathe.html)
+
+ Or how a fan rotates.
+
+Then some processes that you’ve probably never even thought of, like how to make a globe. (One could consider this the opposite problem of map projection.)
+
+How globes are made (https://www.youtube.com/watch?v=TcIGR2_F53U)
+
+ Or how Superman gets that perfect cape flutter (http://jezebel.com/heres-how-they-get-models-hair-to-flip-around-in-shampo-1597127575). 
+
+Superman’s cape troupe (https://www.youtube.com/watch?v=56rr5_uWLsI)
+
+Or what’s really inside Big Bird.
+
+How Big Bird works (http://www.theglobeandmail.com/arts/film/beneath-the-feathers-the-man-who-gives-wing-to-big-bird/article18187405/)
+
+Street lettering (https://vimeo.com/36167291)
+
+Explain a Concept
+
+GIFs can also help us explain more abstract things, like the Pythagorean theorem or sorting algorithms. 
+
+Pythagorean triple (http://commons.wikimedia.org/wiki/File:Pythagorean_theorem_-_Ani.gif)
+
+Sorting algorithms (http://www.sorting-algorithms.com/)
+
+Or how zip codes actually work—it’s probably not what you think!
+
+Zip codes (https://www.census.gov/geo/reference/zcta/zcta_delin_anim.html)
+
+Or common passwords.
+
+Common keyboard patterns. (http://wpengine.com/unmasked/) (It’s as bad as you thought)
+
+Or how positioning in CSS works (http://blog.froont.com/positioning-in-web-design/).
+
+If only this GIF had existed years ago…
+
+Or how to build better bar charts (http://darkhorseanalytics.com/blog/wp-content/uploads/2013/08/data-ink.gif), pie charts (http://darkhorseanalytics.com/blog/wp-content/uploads/2014/09/devourThePie3.gif) and tables (http://darkhorseanalytics.com/blog/wp-content/uploads/2014/03/ClearOffTheTableMd.gif).
+
+Tufte, in a gif (https://darkhorseanalytics.com/blog/data-looks-better-naked/)
+
+Show Probability
+
+GIFs can also help us show probability and chance in more intuitive ways.
+
+Here’s a looping graphic that accompanied a New York Times article (http://www.nytimes.com/2014/05/02/upshot/how-not-to-be-misled-by-the-jobs-report.html?_r=0) about the jobs report. On the left hand side is hypothetical chart of what the unemployment rate could be, and on the right is what the jobs report would look like given that rate. So even if job growth were totally flat, the jobs report could look like it’s going up or down (or some combination).
+
+Using loops to explain uncertainty in the jobs report (http://www.nytimes.com/2014/05/02/upshot/how-not-to-be-misled-by-the-jobs-report.html?abt=0002&abg=1&_r=0)
+
+Here’s another example (http://www.nytimes.com/newsgraphics/2014/senate-model/) where pressing a button gives you a different possible outcome of who will win the Senate. The more you spin, the more you see how the probability shifts.
+
+Can’t stop spinning… (http://www.nytimes.com/newsgraphics/2014/senate-model/)
+
+ Why Are Loops Effective?
+
+ Those are just a few examples of journalistic or explanatory GIFs in the wild. But why do they work? Why is repetition so great? What is it that actually happens when a image is looped? Let’s take a look at some theories.
+
+Exposure
+
+The mere-exposure effect (http://en.wikipedia.org/wiki/Mere-exposure_effect) says we tend to like things we’ve been exposed to before.
+
+And this tendency to like familar things begins at a pretty young age—just think of children’s stories. Kids love to listen to the same story over and over and over! Things that are familiar are comfortable, they are predictable, and our tendency to like repetition is how we begin as children to learn to recognize patterns, to pick up new vocabulary, and to make predictions about the future.
+
+It’s also why hit songs are a thing. The first time we hear a song, we might think that it’s just OK. But then we hear it at the gym, at the grocery store, and suddenly we’re singing along to it in the car.
+
+More on music in the brain (http://aeon.co/magazine/culture/why-we-love-repetition-in-music/)
+
+ Repetition is pretty central to music in general—both internally within songs (the chorus repeats at least a few times) and then externally any time you listen to a song you’ve heard before. Sometimes on repeat (https://twitter.com/julianneross/status/510847261199597568). 
+
+Besides children stories, which most of us grow out of anyways, there are very few areas in life where we’re absolutely fine with repeating the same thing over and over. If someone told you a joke for the 18th time, it’d likely be very annoying. But if you heard your favorite song for the 18th time, it would probably be just as great! So if anything can help us solve the mysterious power of loops, it should be music.
+
+Imagination and Expectation
+
+One reason why psychologists think music is so powerful is that we become imagined participants in a song (https://www.youtube.com/watch?v=1lo8EomDrwA). When you hear a few notes of a song you know, you’re already imagining what’s coming next—your mind is unconsciously singing along.
+
+In a way this is why the little bouncing ball on old Disney sing-a-long music videos works so well—we can imagine and prepare to sing what comes next. And every time our imagination is right, every time our expectations about what comes next are confirmed, it’s a surprise, and we get a big rush!
+
+We are always one step ahead of the lyrics in a song
+
+I think there’s some parallel in this type of expectation to visual repetition. Even if we know what comes next, we are somehow surprised over and over again, whether it’s Edward Norton waking up or James Stewart and Grace Kelly shifting their gazes. 
+
+These will never get old
+
+Some GIF enthusiasts at the Smithsonian library (http://blog.library.si.edu/2014/02/library-hacks-creating-animated-gifs/) clearly have had some fun adding little elements of surprise to old images and illustrations. In this example they’ve managed to turn the common flying squirrel into…a legit flying squirrel!
+
+Or making these whales actually swim, or just having a little fun with skeletons, or making a part of the page come alive.
+
+Thank you, Smithsonian (http://blog.library.si.edu/2014/02/library-hacks-creating-animated-gifs/)
+
+There is also something expectational in this story (http://storiesforyourscreen.com/annie96-is-typing/), which is told as a text message conversation. You have to keep clicking to read the next text and see how the story unfolds. It even comes complete with the little dots that indicate someone is typing (while you’re anxiously waiting to see her reply). It’s very hard to stop clicking again and again to see the next text, the next text.
+
+The mystery unfolds via text
+
+Shifting Attention
+
+Another theory as to why repetition is so effective is that it allows us to shift our focus each time.
+
+ Each time we listen to a song we not necessarily listening to it the same way—we shift our attention from one aspect to another. First perhaps we listen to the melody, then to a guitar riff, then to some particularly interesting section of lyrics. In this way we’re never really focusing on the same part of a song each time. We hear different aspects of the sound on each new listen. 
+
+Our attention shifts between aspects of sound
+
+This happens in language too. “Semantic satiation” is the term for what happens when you repeat a word over and over again and suddenly the word stops having any meaning at all. Repetition effectively makes you stop focusing on what the word means, and instead focus on what the word sounds like. So repetition can really open up new elements of sound, not accessible on first hearing.
+
+A similar phenomenon happens in the visual realm. When I see a GIF repeat over and over, I can first focus on one part, then another, then another. I start to notice new things. Remember those spot the difference games (http://en.wikipedia.org/wiki/Spot_the_difference), in which you have to detect all the visual discrepancies between two pictures? Notice that it’s a lot easier to see the differences when the two images loop back and forth than when they are just side by side. Looping makes us notice differences, because our attention can shift around.
+
+Spot the differences without even trying
+
+This bodes well for GIFs that show changes over time because by repeating these images with lots of moving parts, we can notice new things each time.
+
+So here’s a look at how U.S. territories got added over the years (https://www.youtube.com/watch?v=mbuaMaJ2SMA), how Boston was filled in (http://www.bc.edu/bc_org/avp/cas/fnart/fa267/sequence.html) with landfill, how the New York subway system grew over time (http://very-appealing.com/misc/subwayhistory/), space junk collection (http://orbitaldebris.jsc.nasa.gov/photogallery/beehives.html) over the past decades, the ebb and flow of the seasons year after year (http://uxblog.idvsolutions.com/2013/07/a-breathing-earth.html), the baby boom (http://www.pewresearch.org/next-america/#Two-Dramas-in-Slow-Motion), even how alphabets have evolved (http://webspace.ship.edu/cgboer/evolalpha.html) from 900 B.C. to the present.
+
+Here’s a loop that shows the urban sprawl of Walmart (http://www.npr.org/2015/04/01/396757476/the-neighborhood-wal-mart-a-blessing-or-a-curse). NPR brilliantly used GIFs for the mobile version of this graphic and small multiples for the desktop version. Both versions use repetition (one in space and the other in time), but are perfectly suited to the platform of the user.
+
+NPR swaps gifs for small multiples in the mobile version
+
+Memorization
+
+I can’t mention repetition and music and not talk about earworms (http://en.wikipedia.org/wiki/Earworm). These are the bits of a song that work their way into our subconscious and then suddenly we can’t get them out of our heads. One theory about earworms says it’s our brains trying to work out a melody or song lyrics. We repeat and repeat and repeat so that we can remember the last few words, and when we figure them out (or when we listen to the song again) the earworm disappears.
+
+Disney’s “It’s a Small World” is a notorious earworm
+
+But consider this. When we repeat catchy tunes in our minds, we also repeat the lyrics. It’s much easier for us to remember song lyrics than it is to memorize other sorts of things such as speeches. Songs become almost like a “hook” for us to hang words on. In addition to the rhythm, you have the melody: the tune, the ups and downs, and the pitch that the words accompany. This provides a powerful set of cues that help you remember the words, much more effectively than random monotone stretches of speech.
+
+And educators have taken full advantage of this fact to attach some pretty useful words to melodies; to encode information in lyrics. Think of the ABCs (https://www.youtube.com/watch?v=75p-N9YKqNo). Or the days of the week in Spanish (https://www.youtube.com/watch?v=s5WHgkjL3kE), or the Fifty Nifty United States (https://www.youtube.com/watch?v=WhDrGnjacvA), or the presidents. (https://www.youtube.com/watch?v=Vvy0wRLD5s8)
+
+The alphabet song has the same tune as “Twinkle Twinkle Little Star”
+
+We’ve already harnessed the power of musical loops for learning, so why not harness that power of repetition in visual ways to teach/inform? If a tune provides a hook on which to hang words, then the question becomes…could visuals provide a hook to hang information?
+
+In fact, they already have! Since ancient Greece people have used a mental trick called a memory palace (http://www.mostlymaths.net/2011/03/learn-to-remember-everything-memory.html) to associate information with images. A memory palace is basically an imagined building in your mind’s eye in which you “place” various objects, the crazier the better, that you want to remember. Our brains have a much easier time remembering places and images than words or numbers, and so by associating the two you can memorize all sorts of things. After repeatedly walking through this “palace,” people can recall the most intricate details and trivia years later (http://www.npr.org/2011/02/23/134003962/Moonwalking-With-Einstein).
+
+So we know images can help us remember things. I think we can also use these same visual “hooks” for another purpose: to provide instructions. If you need to help someone memorize a sequence of steps and then repeat them later, instructional GIFs are perfect!
+
+So that could be how to dance (https://source.opennews.org/articles/power-loops/img/foxtrotgif.gif) or tie a knot (https://source.opennews.org/articles/power-loops/img/knots.gif).
+
+ Or it could be how to tie a bow tie (http://syndicate.details.com/post/how-to-tie-a-bow-tie-gif-for-all-of-the-guys-that-always-ask) (a combination small-multiples/GIF loop), or how to make assorted baked goods (http://www.buzzfeed.com/rachelysanders/make-the-pastry-from-the-grand-budapest-hotel#.si3g1Xxe2), how to moonwalk (http://thoughtcatalog.com/brandon-gorrell/2013/02/heres-a-gif-guide-of-how-to-moonwalk-it-actually-works/) (apparently everyone is doing it the wrong way, these GIFs show you how not to), how to golf (http://www.golfdigest.com/golf-instruction/photos-basic-swing-gifs), or even how to sign various internet slang (http://www.hopesandfears.com/hopes/now/internet/168477-internet-american-sign-language).
+
+Here’s an instructional loop that the New York Public Library put together (http://buildinginspector.nypl.org/) to help explain how to use its new crowdsourced building inspector tool. It’s the first thing you see on the homepage, and it walks you through exactly what you’re supposed to do.
+
+NYPL walks you through how to use Building Inspector
+
+What if public health officials used instructional loops to teach people how to use a defibrillator or how to perform CPR? If we had a GIF when we were learning these things—one that showed us exactly how to do them? We might remember it better later on.
+
+Wouldn’t this be amazing as a GIF?
+
+Because in addition to providing visual cues for memorizing, loops also show us exactly what order to do things in. This is obviously important when it comes to say, using defibrillator. Order is something we pick up on without even really knowing it, kind of like how after listening to a playlist over and over I know exactly what song comes next, even if I didn’t try to memorize the order intentionally. 
+
+Now, GIFs won’t replace medical training, but I think they could be pretty useful for this sort of instruction. And as far as I can tell, the current state of public health GIFs is pretty grim, because the only thing that turned up when I searched for “public health GIFs” was this little collection (http://dir.coolclips.com/Healthcare/Medical_Equipment_and_Supplies/Gif_Animations/). So, progress is possible!
+
+The sorry state of public health GIFs
+
+Transformation
+
+Finally, another reason loops are so powerful is that they can transform something mundane or average into something completely different. To illustrate this, let me tell you the story of Diana Deutsche.
+
+Diana Deutsche is a psychologist at U.C. San Diego who studies how people perceive music and pitch and how that’s affected by all sorts of things, like whether you’re right- or left-handed, where you grew up, or even our expectations or beliefs about what we’re about to hear. 
+
+Typically, Deutsche conducts these experiments by having people listen to tapes that she records and edits herself. So one night she was editing a bit of audio, and left the tape running on a loop while she went to the kitchen to make tea. After a little while she started wondering—what is that singing? She realized it was her own voice, on repeat, that she had confused with a song.
+
+So, this seems really strange. We know the difference between speaking and singing, right? Well, let’s see for ourselves what happens when we listen to what Diana did.
+
+Notation of the found music in Deutsche’s recording
+
+If you are like most people, at some point the “sometimes behaves so strangely” started sounding like a melody. And just in case you think you’re the only one, see how the exact same thing happened to these children. (https://www.youtube.com/watch?v=6Zr9BU0bJoc)
+
+What is especially insane about this speech-to-song illusion (http://deutsch.ucsd.edu/psychology/pages.php?i=212) is that you can never unhear it—you will ALWAYS, from now on, hear “sometimes behave so strangely” as a song.
+
+Now, this powerful illusion tells us that repetition is so deeply rooted in music that we can turn words into music merely by repeating them in a loop!
+
+And… if we can repeat a few words over and over to become music, what happens when we repeat other things over and over? 
+
+Applying Loops More Widely
+
+A year or two ago the inventor of Giphy, Alex Chung (http://giphy.com/team), and video artist Paul Pfeiffer (http://www.pbs.org/art21/artists/paul-pfeiffer) asked the same question. (https://vimeo.com/65101249) They began by thinking about a loop as a function. If you put sound through that loop function, you would get music. If you put an image or video through it, you would get a GIF. But then they took this premise to it’s logical extreme. What if you put thought through it? What if we applied this loop to ourselves?
+
+The loop function
+
+Their answer to the question “what does repetitive thought look like?” was hypnosis. If you think about it, this idea makes some sense in the contexts of loops and repetition. The classic icons for hypnosis are typically a mesmerizing clock swaying back and forth, or psychedelic spirals that zoom forever.
+
+You are getting very sleepy
+
+But hypnosis also contains the concept of a meditative state. Saying the same thing over and over, mantras, Ohm, are all the loop function applied to human thought. And what’s more, Chung and Pfieffer thought, the process of hypnosis is basically the process of gaining access to your unconscious mind. With your brain in this hypnotic, suggestible state, it’s possible to erase or override non-productive patterns and replace them with useful ones.
+
+This idea also seems to make sense when we think repeated images in other contexts. Exposure therapy (http://en.wikipedia.org/wiki/Exposure_therapy) is a behavioral therapy technique that’s all about repeatedly exposing a patient to feared objects or contexts in order to overcome those fears. The idea of desensitization, that repeated exposure to a particular image or particular types of images could make you less sensitive to them, depends on this notion that repetition can be transformative—it can fundamentally change you.
+
+So while Chung and Pfieffer were thinking about how looped images could help reprogram our minds, they came up with a crazy new startup idea which they called GIPHNOSIS: Using GIFs to reprogram yourself.
+
+GIPHNOSIS
+
+Specifically they thought by using GIFs as screen savers they could transform people’s moods in all kinds of ways. So whether it was desensitizing you to particularly ghastly horrors or boosting your mood by showing you adorably coordinated cats, GIFs, they thought, had immense power. 
+
+Mood-altering gifs were the main idea behind GIPHNOSIS
+
+Even if GIFNOSIS wasn’t exactly a successful startup, it’s fair to say that visual loops can be incredibly transformative. Whether they are used for good or for bad, they are powerful tools, and we’ve already seen some of the ways they can be used.
+
+ GIFs in the Future
+
+ I am pretty confident that there are many more ways to use GIFs for journalism. And while I’m not sure what sorts of forms GIFs will take in the future, I urge you to think of ways to bring loops into the world of storytelling on the web in a purposeful, insightful, or just plain humorous way. Because who knows what sorts of impossible or magical or transformative experiences we can create—all with the power of loops.
+
+GIF magic (http://www.michaelbransonsmith.net/blog/2012/08/28/peter-pan-would-make-great-animated-gifs/)

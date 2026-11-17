@@ -1,0 +1,1005 @@
+TITLE: Multimodal cohesion and viewers' comprehension of scene transitions in film: an empirical investigation
+SOURCE PDF: https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2024.1347788/pdf
+LICENSE: Creative Commons Attribution (CC BY), as explicitly stated in the article; https://creativecommons.org/licenses/by/4.0/
+TRANSFORMATION: Complete all-page text extraction with pdf text layout; images and film/video frames excluded. This is not the original PDF. Author attribution and license statement retained below.
+SOURCE PDF SHA256: d77267b7970d314ef8324cce96fbc4f9dde15f14a92877fa485c1bbd00ddd445
+
+                                                                                                                       TYPE Original Research
+                                                                                                                       PUBLISHED 28 March 2024
+                                                                                                                       DOI 10.3389/fcomm.2024.1347788
+
+
+
+
+                                                    Multimodal cohesion and
+OPEN ACCESS                                         viewers’ comprehension of scene
+                                                    transitions in ﬁlm: an empirical
+EDITED BY
+Claudia Lehmann,
+University of Potsdam, Germany
+REVIEWED BY
+Karl-Heinrich Schmidt,
+                                                    investigation
+University of Wuppertal, Germany
+Assimakis Tseronis,
+Örebro University, Sweden                           Dayana Markhabayeva1* and Chiao-I Tseng2
+*CORRESPONDENCE                                     1
+                                                      Faculty of Linguistics and Literary Studies, University of Bremen, Bremen, Germany, 2 Department of
+Dayana Markhabayeva
+                                                    Applied Information Technology, University of Gothenburg, Gothenburg, Sweden
+  dayana1@uni-bremen.de
+RECEIVED 01 December 2023
+ACCEPTED 08 March 2024
+PUBLISHED 28 March 2024
+                                                    This paper presents three empirical studies that unravel how the devices
+                                                    of multimodal cohesion support viewers’ narrative interpretation of scene
+CITATION
+Markhabayeva D and Tseng C-I (2024)                 transitions in ﬁlm. The linguistics-informed method of cohesion analysis
+Multimodal cohesion and viewers’                    in ﬁlm uncovers the establishment of cohesive ties between characters,
+comprehension of scene transitions in ﬁlm: an
+                                                    objects, settings and characters’ actions. Previous studies using eye-tracking
+empirical investigation.
+Front. Commun. 9:1347788.                           and comprehension tests already indicate the signiﬁcance of multimodal
+doi: 10.3389/fcomm.2024.1347788                     cohesion in people’s comprehension of background settings within a continuous
+COPYRIGHT                                           scene. The present paper investigates further whether ﬁlm cohesion impacts
+© 2024 Markhabayeva and Tseng. This is an           viewers’ story comprehension across different scenes and settings. Moreover,
+open-access article distributed under the
+terms of the Creative Commons Attribution
+                                                    it also explores whether the spatio-temporal relations between scenes is a
+License (CC BY). The use, distribution or           signiﬁcant factor, along with cohesive devices, in viewers’ scene comprehension.
+reproduction in other forums is permitted,          Methodologically, we create contrasting ﬁlm situations by manipulating
+provided the original author(s) and the
+copyright owner(s) are credited and that the
+                                                    cohesion structures and spatio-temporal orders of scenes. Our comparative
+original publication in this journal is cited, in   analyses of viewers’ comprehension of these different ﬁlm situations reveal that
+accordance with accepted academic practice.         the presence of cohesive cues signiﬁcantly can inﬂuence viewers’ accurate scene
+No use, distribution or reproduction is
+permitted which does not comply with these
+                                                    comprehension. Through testing the inter-relation of cohesion, spatio-temporal
+terms.                                              order, characters’ intention and viewers’ time perception, this paper offers new
+                                                    avenues for further exploration of space, time and coherence in ﬁlm.
+
+                                                    KEYWORDS
+
+                                                    ﬁlm, cohesion, scene transition, multimodal                      discourse     analysis,    narrative
+                                                    comprehension, spatio-temporal relations
+
+
+
+                                                    1 Introduction
+                                                        In the history of film studies, the ways of how the viewers are carried from shot to
+                                                    shot and scene to scene as well as the effects of different types of scene transitions have
+                                                    been frequently investigated. Eisenstein (1969) explored how filmmakers’ combinations of
+                                                    different shots and scenes can lead the viewers to interpret meaning in particular ways . In
+                                                    the 1970s, transitions of shots and scenes were systematically analyzed by the semiotician
+                                                    Christian Metz. Metz (1974) Grande Syntagmatique proposes eight types of cinematic
+                                                    syntax, namely, the transitions between film shots and scenes. Following the pursuit of
+                                                    Metz to create a generalized modeling of scene and shot transitions, the recent study of
+                                                    Bateman (2007) and Bateman and Schmidt (2012) proposed a Grande Paradigmatique,
+                                                    which maps out a more comprehensive set of semantic relations between different shots
+                                                    such as different types of spatio-temporal and logical relations.
+                                                        While the semiotic theories by Bateman focus on shot-based semantic relations, other
+                                                    scholars have explored another type of mechanism, namely, cohesion, addressing how
+                                                    verbal, visual and audio elements within film shots are tied together to signal the coherent
+                                                    flow of film narratives across scene changes.
+
+
+
+Frontiers in Communication                                                 01                                                               frontiersin.org
+Markhabayeva and Tseng                                                                                                10.3389/fcomm.2024.1347788
+
+
+
+
+    Cohesion is originally a linguistic concept. It refers to a set          theorized by Bateman (2007) and whether cohesion and spatio-
+of semantic relations in text which enable the interpretation of             temporal relations are related to viewers’ perception of intention
+meaning coherence. In text linguistics (Halliday and Hasan, 1976),           and time. This paper will precisely extend the previous empirical
+text as a coherent whole is the result of cohesive devices at work.          endeavor to address these open questions.
+Halliday and Hasan (1976, p.12) posits that “cohesion is a relational             The paper is structured as follows: Section 2 exemplifies the
+concept; it is not the presence of a particular class of item that is        analysis of multimodal cohesion and how the cohesive structures,
+cohesive, but the relation between one item and another”.                    termed cohesive chains, reflect the viewers understanding of the
+    In the context of cinema, the film theorist Bordwell (2008)              presentation and re-occurrences of characters, objects and settings.
+provides an exploratory account of how different types of                    Drawing on the multimodal cohesion analysis, Section 3 presents
+audiovisual cohesion function to carry viewers across scene                  the empirical studies we conduct to triangulate the multimodal
+transition and how patterns of film cohesion unravel viewers                 linguistic framework with the viewer’s cognitive process. Several
+cognitive comprehension activities. Bordwell exemplifies, for                cognitive studies have endeavored to address how the audiences’
+instance, how cohesive relation is established when the re-                  coherent narrative comprehension is steered by film narrative
+occurrence of a same object or characters in two different scenes            and technical features such as continuity editing (Smith, 2012),
+cues the viewer to interpret the coherent narrative flow. The recent         event recognition (Zacks, 2015) and scene construction (Loschky
+empirical studies of scene comprehension (Loschky et al., 2015b)             et al., 2015a). Our studies of multimodal cohesion complement
+also investigate the elements within and across shots that lead              the previous cognitive studies through providing a semiotically
+to coherent scene perception. This paper, employing Bordwell’s               formulated model of interpretation. As we will see in the next
+definition of scene and insights from cognitive studies, examines            section, this semiotic-textual level of analysis offers a more fine-
+scene transition as a disruption in space and time, namely, a change         grained yet systematic investigation interconnecting the functions
+of event location and the break of continuous events.                        of film technical features, narrative elements, semantic structures
+    Systematically employing the linguistic concept of textual               and the overall contextual coherence.
+cohesion, the two works of Tseng (2012, 2013) extend Bordwell’s
+attempt to identify internal cohesive structure and propose a more
+systematic framework of film cohesion. In linguistic analysis, the
+                                                                             2 Analysing multimodal cohesion in
+analytical tools of cohesion are used to describe the “repetition”           ﬁlm
+and “re-occurrences” of linguistic patterns, with which a text
+holds itself together as a unit of communication. Along the                      The framework of multimodal cohesion (Tseng, 2013) provides
+same lines, the multimodal cohesion analysis unravels how the                a powerful discourse semantics for examining cohesive ties between
+“repetition” and “re-occurrences” of narrative elements such as              film elements within and across shots and scenes. It was formulated
+people, places, objects and actions, whether identified in the               drawing on the discourse semantic model of identification, which
+visualtrack (e.g., visible figures or as written names on the                was developed for the analysis of natural language (Martin, 1992).
+screen) or in the audiotrack (e.g., spoken names or sounds                   In the linguistic analysis, the choices of the identification system
+and music that represent certain identities), are cued to the                realize the identity presentation and re-occurrence of people, places
+viewers for interpreting the narrative coherence within and across           and things throughout a text. The structures of identification,
+shots.                                                                       namely, how relevant people, places and things are actually tracked,
+    While the framework of multimodal cohesion has been applied              then highlight the textually constructed unity of any particular text.
+to other media such as TV series, comics, other graphic novels               Tseng (2013) applied the discourse semantic framework to film. In
+(Tseng and Bateman, 2018; Tseng et al., 2018; Drummond and                   this way, the framework captures not only the area of semiotic work
+Wildfeuer, 2020) and interactive narratives (Tseng and Thiele,               shared across language and film but also the differentiation of the
+2022), there has not been sufficient empirical investigations of just        filmic cohesion analysis from the linguistic analysis.
+which verbal, visual and audiovisual cohesive cues in film play                  The multimodal cohesion system developed for film is shown in
+the dominant, pivotal role of facilitating the seamless connection           Figure 1 represented as a system network. System networks are used
+between the storytelling units.                                              in systemic functional linguistics to show the abstract paradigmatic
+    One of the first empirical attempts for triangulating the                “choices” available for language users drawn from the meaning
+multimodal cohesion framework and the viewer’s cognition and                 potential of their language (Halliday and Matthiessen, 2013). In
+memory is conducted by Tseng et al. (2021). The authors use                  the film system, the network in Figure 1 shows the functional
+comprehension tests and eye-tracking experiments to compare                  mechanisms for cuing identities of characters, objects and settings
+viewers’ attention and narrative interpretation of film sequences,           as a film unfolds. In the system network, contrasting options are
+either with or without cohesive cues crucial for the viewers’                collected together into individual systems of choice: for instance, in
+comprehension of the specific settings within a scene. They use              the system of [presenting/presuming], only one of the two features
+film sequences extracted from The Birds and a Monty Python sketch            may be selected at a time. Certain feature selections then also lead
+for the experiments and their findings indicate the significant role         on to finer classifications. For example, in the case of the choice
+of cohesive devices for the viewers’ narrative comprehension and             [gradual], the system leads on to a further dependent, i.e., finer,
+gaze-behavior. The findings open up more questions as to whether             choice between [dynamic] and [static]. It is also possible for several
+cohesion still plays a role in the more complex scene transitions,           dimensions of classification to be pursued in parallel: such systems
+whether cohesion in film influences the way the viewers interpret            are called simultaneous systems and are grouped with a curly right-
+the continuity of spatio-temporal and logical relations as those             facing bracket. In Figure 1, for example, choices need to be made
+
+
+
+Frontiers in Communication                                              02                                                           frontiersin.org
+Markhabayeva and Tseng                                                                                                   10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 1
+   The system of multimodal cohesion in ﬁlm developed by Tseng (2013).
+
+
+
+
+from the features presented by both the systems [generic/specific]              same tattoo setting is suggested by the background tattoo images
+and [presenting/presuming] for a complete description.                          and symbols on the walls of the room. In shot 13, Leonard and
+    We exemplify the process of constructing a multimodal                       the tattooist both came out. Shots 14 and 15 construct shot/reverse
+cohesive analysis of film using a scene of Nolan’s (2000) Memento.              shot showing the conversation between the two characters in the
+The film is a thriller, depicting the main character, Leonard Shelby,           room.
+an insurance investigator, suffers from short-term memory loss                       Focusing for the purposes of illustration on the setting of Tattoo
+and uses notes and tattoos to hunt for the man he thinks killed                 shop, we can describe the cohesive devices for presenting and
+his wife, which is the last thing he remembers. The segment we                  tracking the tattoo shop based on the instantiation of features from
+exemplify here is a scene when Leonard goes into a tattoo shop.                 the system network of Figure 1.
+We also employ this segment below in one of our experimental                         In shot 1, the front door of a shop is seen from a street view.
+studies.                                                                        For the viewers who notice the Tattoo sign written on the orange
+    Figure 2 shows the scene transition from street view to the                 board at the left corner, the specific identity of the tattoo shop is
+indoor setting of a tattoo shop. It includes selected shots that can            immediately established. This is therefore a case of [presenting]
+best depict the location transition across the outdoor and indoor               rather than [presuming]. As the shop is specified as Tattoo shop
+scenes. Shot 1a shows the front door of a shop. A small orange                  right at the outset, the cohesive devices at work are therefore
+sign at the bottom left shows it is a tattoo shop. Within the same              [specific] from the continuum [generic - specific] and [immediate]
+shot, a car is seen and heard squeaking and stopping abruptly in                salience.
+front of the shop (shot 1b). It is then cut to shot 2, the closeup of                In shot 3, the written text tattoo on the paper held in Leonard’s
+Leonard, who is seen looking at a white object. The point-of-view               hands is the multimodal re-occurrence of the tattoo shop. Although
+shot in shot 3 then shows the note he is reading, with Tattoo Fact              tattoo does not directly refer to the shop setting, it is a hyponym of
+6: car license written on it. A closeup in shot 4 shows the shop’s              tattoo shop, cohesively related to the previously seen tattoo setting.
+name, Emma’s TATTOO. It is followed by the transition into the                  Hence, this is the case of [presuming] that track the same identity
+indoor scene of the shop. Shot 5 shows the closeup of the tattooist’s           of tattoo shop.
+hands tattooing the same written text of the note seen in shot 3 on                  Similarly, in shot 4, the front door of the shop with the
+someone’s skin. Shot 6 and shot 7 reveal that Leonard is the one                shop name Emma’s Tattoo cohesively cues the viewers back to the
+being tattooed. Throughout shots 5 to 7, the audience can hear the              tattoo note. Here the cohesive devices [presuming] and [explicit]
+continuous tattooing sounds. The second character, Teddy, entered               reappearance are at work to track of the tattoo shop.
+the room in shot 8, greeting Leonard: “Lenny!”. While in shot 9,                     From shot 5 onwards, re-occurrences of the theme Tattoo
+Leonard lifts his head, seeming not remembering who the person is,              and Tattoo shop are visualized through more sets of multimodal
+in shot 10, the tattooist yells at Teddy: “It is private back here. Wait        elements: the female tattooist’s tattooing Leonard’s thigh, the
+out there”. In shot 11, Teddy looks frustrated but goes out to wait             continuing tattooing sounds and the background tattoo pictures in
+in another room in the same tattoo shop, shown in shot 12. The                  the room from shots 12 to 15.
+
+
+
+
+Frontiers in Communication                                                 03                                                            frontiersin.org
+Markhabayeva and Tseng                                                                                                  10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 2
+   Selected shots of the tattoo shop scene in Memento.
+
+
+
+
+    In other words, all these verbal, visual and audio cues are               only seen but also heard when the car breaks with a squeaking
+cohesively tied together to signal the concept of tattoo/tattoo               sound. Hence, the first element of the car chain is annotated as
+place; and each re-occurrence of a cohesive element is related to             [v](squeaking).
+preceding occurrences by specifically labeled cohesive ties showing                Moreover, in research work on verbal texts (Hasan, 1984)
+the tracking strategy involved.                                               as well as film (Tseng, 2008), it has been observed that such
+    Whereas cohesive ties relate pairs of cohesive elements,                  chains and, in particular chain interactions, appear to be more
+sequences of element re-occurrences and the classified cohesive               revealing of a text’s organization than elements that occur in relative
+ties between those occurrences are structured into cohesive                   isolation. Interactions between chains occur whenever elements
+chains, which show textual development of narratively significant             of distinct chains are brought together within the depiction of a
+characters, objects and settings across larger portions of film               single action or event. Thus, although any element in a textual
+sequences. The overall cohesive chains structured from the tattoo             artifact typically enters into a large number of cohesive links
+shop scene is displayed in Figure 3. Here we can see that the tattoo          with other elements, it is the elements participating in chain
+shop chain interlinks the multimodal realization of the elements we           interactions that are constructed as being textually “significant”.
+discussed above. This chain starts with Tattoo in written text and the        This constructs a useful method for selecting from all the cohesive
+visual figure of the tattoo shop, annotated as [V]. It is then linked         ties potentially available in a text just those collections of ties that
+by an upward pointing arrow from both written text Tattoo in shot             are hypothesized to be most likely to play a role in guiding the
+3. The arrows refer to the semantic relation of anaphora, which ties          viewers’ narrative interpretation. That is, a viewer does not need to
+the pairs of cohesive narrative elements together. Along the same             attend to “everything” that is audio-visually on offer, but rather will
+lines, the continuing multimodal cohesive chain links together the            be guided to attend to those elements that contribute to interacting
+written text Emma’s Tattoo, audio (tattooing sounds) and visual               chains. For example, before the scene transition across shot 4 and 5,
+(indoor shop) elements of the setting tattoo shop.                            namely, from the outdoor to the indoor scenes, the cohesive chains
+    Similar to the cohesive chain of tattoo shop, the chain of                of street and car combine/interact with the chains of character
+Leonard shows how this character is visually presented (in visual             Leonard and setting tattoo shop to construct a coherent event that
+image [v] in shot 2) but reoccurred multimodally in the following             might be glossed in natural language as follows:
+shot—in shot 8, his identity is realized in spoken text when Teddy
+                                                                                      On a street in front of a tattoo shop, a car driven by Leonard
+called his name. Moreover, the cohesive chain of car also shows
+                                                                                  stops in front of the shop door.
+a multimodal presentation of the object (shot 1b) – it is not
+
+
+
+Frontiers in Communication                                               04                                                             frontiersin.org
+Markhabayeva and Tseng                                                                                                     10.3389/fcomm.2024.1347788
+
+
+
+
+                                                                                  sequence lead the viewers to interpret particular ‘events’ across
+                                                                                  scene transitions on the basis of the available cohesive cues.
+                                                                                       In the remainder of this paper, we investigate the empirical
+                                                                                  support for such a close association of cohesive patterning
+                                                                                  and narrative interpretation. In this pursuit, we employ the
+                                                                                  methodology of selecting film sequences and systematically
+                                                                                  modifying those sequences so that different patterns of cohesion
+                                                                                  are established. The two sequences, original and manipulated, are
+                                                                                  then shown to different groups of viewers. We then measure and
+                                                                                  compare the comprehension and engagement by the two groups of
+                                                                                  participants.
+                                                                                       The measurement was conducted by providing participants
+                                                                                  with questionnaires designed to evaluate their understanding of
+                                                                                  the observed events. Three studies testing the functions of cohesive
+                                                                                  cues in events across scene transitions were performed. The first
+                                                                                  uses the sequence of the tattoo shop scene in Memento analyzed
+                                                                                  above. The second study employs the same method but factors
+                                                                                  in the aspect of spatio-temporal cues to test the viewers scene
+                                                                                  transition in the beginning sequence of Memento.
+                                                                                       While the results of the second study revealed little effect for
+                                                                                  the spatial-temporal order, we speculate that this is because it is a
+                                                                                  puzzle film which begins with loosely connected scenes. This kind
+                                                                                  of challenging patterns of scene transitions in the film beginning
+                                                                                  is typical of puzzle film genres (Bateman and Tseng, 2013). his
+                                                                                  motivated us to conduct a third study using a different film with a
+                                                                                  structure distinct from the complex, puzzle structure of Memento.
+                                                                                  We chose Ephron’s (2009) Julie & Julia. The movie has simple,
+                                                                                  linear structure. It portrays the lives of two women, Julie Powell
+                                                                                  and Julia Child. Julie finds herself in a career rut and decides to
+                                                                                  challenge herself by embarking on a journey to cook all the recipes
+   FIGURE 3
+   Cohesive chains of the tattoo shop scene. [v]= visual realization of           from Julia Child’s cookbook. She documents her experiences in a
+   people, places, and objects. ()= audio elements, italics= written text,        blog and discovers a new passion for cooking. The segment we
+   ""= spoken text.                                                               selected for the experiment is a scene in which Julie goes to a
+                                                                                  butcher’s shop to buy ingredients after her failed attempt to cook
+                                                                                  a dish from Julia’s book. In the third study, in addition to selecting
+                                                                                  a film with a different structure, we also expanded the scope of the
+    After the scene transition into the indoor setting, the cohesive
+                                                                                  measures. We used more fine-grained scales for comparing degrees
+chains allow the construction of sequences of three further events:
+                                                                                  of correctness of participants’ responses and included the measures
+                                                                                  of participants’ confidence level for their responses. We also tested
+         While Leonard in the tattoo shop is being tattooed by a
+                                                                                  viewers’ interpretation of the main character’s intention and the
+    tattooist, Teddy comes in and interacts with him.
+                                                                                  length of event time.
+                                                                                       In other words, the presentation of the three studies
+    We predict that viewers are likely to see such generalized events             demonstrates the process of our step by step investigation into
+across the scene transition based on the audiovisual material they                the complex configuration of cohesive and structural factors
+engage with. Therefore, the deployment of the material possibilities              in the viewers’ narrative comprehension of events and scene
+of film itself serves a central role in guiding a film’s reception.               comprehension.
+Hence, we predict that the interaction of cohesive chains (Hasan,
+1984), namely, how elements in cohesive chains are combined/co-
+occur in each shot, should lead to the interpretation path of the
+generalized events across scene transition.                                       3.1 Study 1: “tattoo shop” scene in
+    We explain how we experimentally investigated this in the                     Memento
+following questions.
+                                                                                      For the manipulation of the sequence analyzed above, we
+                                                                                  focused on the scene transition from the street view to the
+3 Toward experimental investigation                                               specific tattoo shop. As suggested in Figure 3, the original
+                                                                                  sequence encompasses sufficient multimodal cohesive cues for
+    We have predicted that multimodal cohesion analysis can                       explicitly identifying just what kind of shop Leonard is in
+reveal how the filmic elements presented and maintained in a film                 after the scene transition. For testing the functions of these
+
+
+
+Frontiers in Communication                                                   05                                                           frontiersin.org
+Markhabayeva and Tseng                                                                                                  10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 4
+   Changes in the chain patterns of the manipulated version of the tattoo shop sequence.
+
+
+
+
+multimodal cohesive cues, we subtly removed the specific cues                  orange board in shot 1, Emmas in shot 4, which are usually
+that indicate the identity of tattoo shop. That is, we blurred                 recognized as signs for a shop. In terms of multimodal cohesion
+the written signs (on the orange board in shot 1, on the paper                 and the classification system of Figure 1, therefore, the modification
+in shot 3 and on shop door in shot 4) identifying it as a                      undertaken at the discourse level was a change in presentation
+tattoo shop. We replaced the tattooing sound with some generic                 strategy for the shop scene from a [specific] to [generic] shop.
+background music and we cut out shot 5 and shot 7, the closeups                The manipulation also resulted in the change of the tattooist
+of the tattooing actions. As the two shots removed for the                     chain - as we cut away shot 5 and shot 7 when the woman
+experimental version are close-ups of the tattooing actions, the               is seen specifically as a tattooist, the woman shown in shots
+manipulation does not lead to the loss of other significant story              10 and 13 then changes to a [generic] woman in the indoor
+information.                                                                   space.
+    Except for the texts, sounds and actions about the tattoo, the
+manipulated sequence is identical to the original sequence. Our
+hypothesis is that removing the cohesive connections in this way               3.1.1 Hypothesis
+should nevertheless disrupt the viewers’ narrative comprehension                   To assess whether the manipulations indeed disrupted
+of scene transition from street view to the specific indoor                    participants’ comprehension of the excerpt, we tested the specific
+location.                                                                      hypothesis:
+    Figure 4 shows the audiovisual cohesive chain analysis of the
+modified sequence. The removal of the tattoo text in shots 1,                    • Viewers of the manipulated versions will be less certain about
+3 and 4 results in the change of the setting from a specific                       the specific identities of the shop, even though the relevant
+named tattoo shop to a generic indoor space. It could still be                     visual elements inside the shop (i.e. tattoo pictures on the wall)
+recognized as a shop due to some visual elements such as the                       are still readily accessible on screen.
+
+
+
+
+Frontiers in Communication                                                06                                                           frontiersin.org
+Markhabayeva and Tseng                                                                                                                    10.3389/fcomm.2024.1347788
+
+
+
+
+TABLE 1
+                                                                                                 3.2 Study 2: the beginning four scenes of
+                               Cued              Uncued                 Total                    Memento
+  Comprehended                    23                  13                   36
+                                                                                                      In order to show how the deployment of cohesive and spatio-
+  Not comprehended                 0                   9                   9                     temporal relation can interact and guide narrative interpretation,
+  Total                           23                  22                   45                    in the second study, we applied the same method of multimodal
+Memento tattoo shop study: number of participants with correct or incorrect answer to the
+                                                                                                 cohesive analysis to the beginning sequence of Memento. It is the
+question in group 1 (cued version) and group 2 (uncued version).                                 first seven minutes of the film composed of a two-track alternating
+                                                                                                 sequence of four scenes. The detailed cohesion analysis of the four
+                                                                                                 scenes are provided by Tseng (2013). Here we focused on the
+                                                                                                 comprehension tests of the transition of the four scenes, which we
+3.1.2 Experiments                                                                                simply label S1, S2, S3 and S4, respectively, in order to emphasize
+    This hypothesis was investigated by having participants answer                               their location and inter-relations in the film. Figure 5 shows the
+the following questions immediately following their viewing of the                               transition of the four scenes and the shots before and after the
+Tattoo shop segments:                                                                            transition points. The changes of these four scenes are very clear for
+                                                                                                 viewers in that their boundaries are signaled through fade-outs and
+  • “Where is the setting of the indoor place”?                                                  fade-ins, which give the viewer explicit cues for recognizing that a
+                                                                                                 new narrative segment may be beginning.
+    The comprehension test was conducted at the University                                            The first scene, S1, is presented in color and runs behind
+of Bremen, and participants (n = 45) were undergraduate                                          the opening credits. It depicts events in which Leonard shoots
+students who had not seen the film before the experiment.                                        Teddy dead. This scene runs in reverse: i.e. the film is actually
+The participants were divided into two groups. Group 1                                           played backwards (although the sound runs forward to avoid overly
+(n = 23) watched the original versions (i.e., the cohesively                                     disturbing interpretative possibilities). The second scene, S2, is
+“cued” versions) of the two sequences, while Group 2                                             a black and white scene depicting Leonard sitting in a motel
+(n = 22, “uncued”) viewed the manipulated versions with                                          room looking and feeling confused. His confusion is depicted
+cohesive cues removed. Fisher’s exact test was used to evaluate                                  through his voiceover narration. The third scene, S3, then returns
+statistical significance of dependencies between the cohesion                                    to a color scene. It starts with Leonard pointing at Teddy’s
+status (cued vs. uncued) and viewers’ interpretations of the                                     picture to the receptionist at the motel counter, before Teddy
+location (correct vs. incorrect), with p < 0.05 considered                                       shows up at the reception and walks to the motel garage with
+significant.                                                                                     Leonard. The middle image of S3 in Figure 5 shows the long
+                                                                                                 shot which depicts their walking from reception to garage. The
+                                                                                                 long shot clearly shows the motel name Discount Inn on a big
+                                                                                                 sign seen on the upper part of the screen. Leonard drives Teddy
+                                                                                                 to an abandoned building where Teddy is then shot dead by
+3.1.3 Results                                                                                    Leonard. The narrative in this scene therefore directly precedes
+    Table 1 presents the test results. All 23 participants in Group                              and overlaps with that of the first color sequence (S1). Finally, the
+1 who watched the cued version were aware of the specific                                        second black-and-white scene (S4) continues Leonard voice-over
+identity of the tattoo shop, while only 13 participants from                                     narration from the previous black-and-white scene in the same
+Group 2, who watched the uncued version (without cohesive                                        motel room.
+cues), answered the question correctly. The 6 participants who                                        Drawing on the detailed cohesion analysis by (Tseng and
+were not certain about the location gave answers varying                                         Bateman, 2012) and (Tseng, 2013), the beginning four scenes
+from a generic room to an office. Fisher’s exact test shows a                                    of Memento are non-linear and have no clear spatio-temporal
+significant association between the independent variable "cohesion"                              or logical relations across the color and the black and white
+(cued/uncued) and the dependent variable “establishment of                                       scenes. Nevertheless, there are sufficient cohesive cues to interpret
+the setting’s identity” (correct/incorrect) (p = 0.0006). Thus,                                  the characters and settings across the four scenes. Figure 6A
+although it is certainly the case that viewers of the uncued                                     summarizes the straightforward pattern of cohesive chains of the
+version might be able to guess the kind of shop involved correctly                               main characters and settings across the four scenes. As the chains
+based on the pictures of tattoo patterns in the background                                       show, Leonard and Teddy are both presented visually in S1. The
+(in shots 12–15) , the question interrogated here is whether                                     Leonard chain shows that the reappearance of Leonard’s face is
+the manipulation makes a difference. The results demonstrate                                     tracked in S2 and S3, while his name as “Lenny” was explicitly
+that the cued and uncued versions indeed differ significantly in                                 identified by Teddy in S3. The Teddy chain shows that Teddy is
+comprehension.                                                                                   visually presented in S1, and his name is also explicitly written
+    While the previous empirical study of multimodal cohesion                                    on his photo seen in the beginning shot in S3, before he appears
+by Tseng et al. (2021) focuses on setting interpretation within                                  in the motel counter. The chain of the first setting, the building,
+one continuous scene, our result above re-endorses the empirical                                 connects the visual repetition of the same setting in S1 and S3.
+ground of cohesive setting across a scene change. The test design                                This re-occurrence is further endorsed through the repetition of
+was further expanded in the second study to include the factor of                                the same actions in the images where Leonard shoots Teddy. The
+spatio-temporal cues between scenes.                                                             chain of the second setting, the motel room, shows that the setting is
+
+
+Frontiers in Communication                                                                  07                                                           frontiersin.org
+Markhabayeva and Tseng                                                                                                10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 5
+   Shots before and after scene transitions S1 to S4 in the opening sequence of Memento.
+
+
+
+
+first explicitly identified as "motel room" in S2 by Leonard’s spoken              Figure 6B shows the cohesive analysis across the four scenes in
+text "So you are in a motel room". In S3, the sign of Discount Inn             the manipulated version. The main difference lies in the chain motel
+and the visual image of motel reception then cohesively link back              room. The original motel room chain now connects the generic
+to the motel room in S2. There is no clear cue whether the room                room in S1 and S4. The scene setting in S3 is disconnected from
+in S2 is in Discount Inn in S3 but the cohesive cue is nevertheless            the original motel chain to form an independent generic Discount
+established through a hyponymous relation (i.e. motel room, motel              shop counter chain, as any cue indicating the link between a
+reception and motel garage). The hyponymy could possibly lead the              shop/counter and a room is missing here.
+viewer to interpret the same setting. The same motel room explicitly               Apart from manipulating cohesive cues for the two comparative
+reappears in S4.                                                               sequences, namely, cued and uncued versions, we also manipulated
+     Along the same lines of the previous study, we created the                the spatio-temporal order of the four scenes. As described above,
+second version for comparison and manipulated the original                     the chronological sequence of the film story actually runs as S2-S4-
+sequence by removing the cohesive cues that direct the viewers to              S3-S1. In this chronological sequence, Leonard is in a motel room
+the specific interpretation of the second setting, the motel room.             contemplating and plotting the murder of the assumed killer of
+To this purpose, we wiped out the two lines of the spoken text by              his wife. He then emerges to the reception, encounters Teddy, and
+Leonard in S2, which explicitly refer the room as motel room: “You             subsequently murders Teddy after driving from the motel to the
+are in some motel room. You just wake up and you are in a motel                building. Hence, we also prepared two versions of the scene orders,
+room”. That means, the viewers only hear Leonard saying “so where              an original film version and the re-edited version with the S2-S4-
+are you?” In S3, we also manipulated the motel sign, wiping out Inn            S3-S1 order. Our hypothesis was that the re-edited sequence with
+from Discount Inn.                                                             chronological order might untangle the narrative complexity and
+
+
+
+Frontiers in Communication                                                08                                                         frontiersin.org
+Markhabayeva and Tseng                                                                                                 10.3389/fcomm.2024.1347788
+
+
+
+
+                                                                                • Viewers of the original, achronological version will be less
+                                                                                  certain about the event order of the black and white and the
+                                                                                  color scenes.
+
+
+                                                                              3.2.2 Experiments
+                                                                                  The hypotheses were investigated by having participants
+                                                                              evaluate one question and one statement immediately following
+                                                                              their viewing of the beginning sequence of Memento:
+                                                                              1. Where is the setting of the black and white scene?
+                                                                              2. From the perspective of the characters, the black and white
+                                                                                 scenes happens before the color scenes.
+                                                                                  As the previous study, the first one is an open question, while
+                                                                              the second question was designed as a Likert scale. The viewer
+                                                                              needs to select a response from the 5 points: 1 (totally disagree) to
+                                                                              5 (totally agree).
+                                                                                  The comprehension test was conducted at the University of
+                                                                              Bremen, and the participants (n = 74) were undergraduate
+                                                                              students who had not seen the film before the experiment. As the
+                                                                              study had a 2x2 design, the participants were divided into four
+                                                                              groups: Group 1 (n = 21) watched the original achronological
+                                                                              version without cohesive cues (with motel cues removed), group
+                                                                              2 (n = 17) viewed the chronological version (edited s2-s4-s3-s1
+                                                                              sequence) with cohesive cues removed, group 3 (n = 17) viewed
+                                                                              the original achronological version with the cohesive motel cues,
+   FIGURE 6                                                                   group 4 (n = 17) watched the chronological version with cohesive
+   The cohesive chains of the original and manipulated versions of the
+                                                                              cues.
+   four scenes of the opening sequence of Memento. (A) The cohesive
+   chains of the two characters, Leonard, Teddy and the locations
+   building and motel, are established from S1 to S4. (B) The cohesive
+   chains of the manipulated version. The two images on the right             3.2.3 Results
+   show the removal of Inn from Discount Inn.
+                                                                                  Question 1—Comprehension of the motel setting.
+                                                                                  For analysing the open answers of the first question about the
+                                                                              motel setting (Where is the setting of the black and white scene?),
+lead the viewers to interpret the correct event development, namely,          we coded the accurate answer (motel/hotel room) as 1 and all
+Leonard was first in motel room in black and white scene, which               other answers as 0. Most inaccurate answers included “a room” or
+precedes the color scenes. We also predicted that chronological               “sleeping room”. In this study, we used dichotomous coding and
+order and cohesive cues impact each other in directing the viewers’           treated any answer without mentioning "motel room" as incorrect.
+scene comprehension. Cohesive cues may help the viewers to                    This indeed revealed a clear impact of cohesive cues. Nevertheless,
+interpret scene order and vice versa, temporal cues of the scenes             as we will see in Study 3, we decided to refine the coding of the
+may improve the viewers’ identification of the motel room setting,            answer about the setting to finer gradations, which then uncovered
+because the color scenes start with the location of reception counter         more nuanced differences of participants’ interpretation.
+and garage of a motel, which might increase the viewers’ inferences               For the statistical analysis, we used logistic regression, suitable
+of black and white scene as a motel room.                                     for modeling binary responses, to analyse the relationship between
+    Hence, this study follows a 2x2 design, with cohesive cues                cohesive cues, temporal order and the viewers‘ comprehension.
+and chronological scene order as two independent variables.                   In general, the results show a significant effect of cohesive cues
+The sequences, original and manipulated, were then presented                  on the viewers’ ability to establish the identity of the motel room
+to four different groups of participants and differences in their             (p = 0.0199). The other independent variable, temporal cue, did
+comprehension were measured.                                                  not have a significant effect on the viewers‘ scene comprehension
+                                                                              (p = 0.92763).
+                                                                                  More importantly, logistic regression analysis shows the
+3.2.1 Hypotheses                                                              relationship between cohesive cues and chronological order on the
+    To assess the predicted effects, we test the specific hypotheses:         probability of correct comprehension of the motel room. This is
+                                                                              demonstrated in terms of odds ratio—it was found that, holding
+  • Viewers of the manipulated, uncued, versions will be less                 chronological order constant, the odds of accurate comprehension
+    certain about the specific identities of the motel room, even             decrease by 87% for the viewers who watch the sequence without
+    though the relevant visual elements inside the room are still             cohesive cues, compared to the viewers who watch the sequence
+    readily accessible on screen.                                             with cohesive cues. It was also found that, holding cohesive cues
+
+
+
+Frontiers in Communication                                               09                                                            frontiersin.org
+Markhabayeva and Tseng                                                                                                 10.3389/fcomm.2024.1347788
+
+
+
+
+constant, the odds of correct comprehension increase only by                  third study, using a sequence of a more straightforward drama film,
+5.3% for the viewers who watch the sequence with chronological                Julie & Julia. With this film material, in the next study, we were able
+temporal order, compared to the viewers who watch the sequence                to refine our experimental measures and broaden our questions
+with the original, complex achronological order.                              to include the viewers’ confidence level of their comprehension
+    The above comparative result of odds ratio is visualized in the           and their interpretation of the main characters’ intention. The
+Figure 7. Here we can see the impacts of the two factors (“with”              rationale behind testing participants’ level of confidence in their
+vs “without” cohesive cues, “chronological” vs “achronological”               own inferences was to test whether the manipulation has resulted
+sequencing) to the correctness of participants’ answers.                      in any uncertainties among participants as to their own judgements
+    A significant decrease of correct comprehension of motel room             regarding the setting and the goal of the main character. Testing
+(between the probabilities of 1 and 0) if the cohesive cues are               participants’ self-rated level of confidence could provide insight
+removed (namely, when data points move from “with” to “without”               into whether there was a discernible difference in the perceived
+variable). In terms of “chronological and achronological” variable,           confidence influenced by the manipulation.
+there is no significant difference in the probabilities of correct
+comprehension. The two lines are nearly merged.
+    Question 2—Temporal relation between black-white and color
+scenes                                                                        3.3 Study 3: Julie & Julia
+    For analysing the Likert scale results of question 2 (From the
+perspective of the characters, the black and white scenes happens                  As described above, in the third study, we tested the same
+before the color scenes), namely, about the temporal order of color           independent variables, cohesive cues and temporal orders, but we
+and black and white scenes, we used the Align-and-Rank transform              refined our measures and used a sequence extracted from a non-
+(ART) test. The results show a significance of cohesive cues (p =             puzzle film. The sequence also deals with three transitions across
+0.0156) in the viewers‘ inferences of event orders across the scene           four scenes.
+transitions. The violin plot in Figure 8 shows the main difference                 Figure 9 presents four representative shots from each scene.
+of the two conditions (with and without cohesive cues). The                   Shot 1 depicts the first scene in the living room of the main
+distributions of the Likert scale score (1–5) for the two conditions          character, Julie Powell, while she is seen typing on her laptop and
+are demonstrated through density curves - here we can see that                reading aloud to her husband a passage from her blog, wherein
+in the original version with cohesive cues, a significant portion             she recounts her unsuccessful cooking attempt from the previous
+of participants is related to the score of 5 (totally agree), while           day. Shot 2 shows the second scene, in which she walks on the
+the responses of the participants who watch the version without               street before entering a butcher’s shop. In shot 3, Julie has entered
+cohesive cues substantially vary, with more responses toward 1                the shop. Inside the shop, Julie is seen purchasing ingredients
+(totally disagree).                                                           for one of the recipes she is attempting from Child’s cookbook.
+    However, the variable of temporal order did not have a                    In this scene, the shop setting is filled with conventional visual
+significant effect on the viewers’ scene connections (p = 0.1379).            cues of a butcher’s shop, e.g. meat displayed behind the counter.
+Moreover, no significant interaction effect between cohesive cues             The viewers can also hear Julie off-screen voiceover depicting her
+and temporal order was revealed (p = 0.7566).                                 cooking plan throughout shot 2 and 3. This scene is then cut to
+    In summary, in this study, cohesive cues remain significant in            the kitchen setting, shown in shot 4, where Julie is already back
+leading the viewers’ interpretation of both the specific setting of           from the butcher’s shop and is cooking using the ingredients she
+the scenes (Hypothesis 1) and temporal order of event sequences               just purchased from the shop.
+(Hypothesis 2).                                                                    While creating film materials for all experimental conditions,
+    However, the second factor that we considered, the variable               we decided to first remove the overall spoken text of the
+of chronological order of the scenes, does not have significant               entire sequence (including the dialogues between Julie and her
+effects both on the comprehension of motel setting and on the                 husband and Julie’s voiceover). The reason is that the spoken
+interpretation of event sequence orders.                                      text is highly indicative for Julie’s plan to go to the butcher’s
+    The reason for the weak effect of the second factor, the                  shop and purchase meat in the shop. We wiped out the entire
+chronological order of scenes, might be attributed to the fact                spoken text to remove verbal cohesive cues leading to the
+that Memento is a puzzle film characterized by Nolan’s signature              setting of the butcher’s shop. Nevertheless, removing the entire
+complex, non-linear film structure. Although in the manipulated               verbal text for the version without cohesive cues could lead
+version, we tried re-ordering the four scenes to match its                    to the substantially loose control of two conditions because we
+general story order (S2-S4-S3-S1), the scene transition between               also wiped out other verbal information that is relevant to the
+S4 and S3, namely, the black and white scene of Leonard in                    overall narrative interpretation. Hence, to secure clean effects
+a motel room and the next color scene of Leonard at the                       through the experimental control, we decided to remove and
+motel reception, still exhibit a substantial ellipsis. This deliberate        replace the spoken text with the film’s soundtrack music for all
+narrative gap in Nolan’s famous puzzle film might be the                      conditions first and then manipulate visual cohesive cues and
+reason why the effect of the variable chronological order is                  temporal orders based on these sequences already without verbal
+diluted.                                                                      text.
+    To refine our test design in order to further investigate the                  Figure 10A illustrates the analysis of cohesive chains of the
+significance of chronological orders of scene relations theorized by          version with visual cohesive cues. As we can see in the chain pattern
+(Bateman, 2007) and (Bateman and Schmidt, 2012), we conducted a               here, no spoken verbal cues are included, as they were all removed.
+
+
+
+Frontiers in Communication                                               10                                                            frontiersin.org
+Markhabayeva and Tseng                                                                                                      10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 7
+   The probability of the correct establishment of the motel room identity across the groups with/without cohesion and chronological/achronological
+   order of the scenes.
+
+
+
+
+   FIGURE 8
+   Main effect of cohesive cues (with and without) on participants’ inferences of the events ordering.
+
+
+
+
+Across the four scenes, three reoccurring narrative elements are                  presented in shot 2, the specific identity of the butcher’s shop chain is
+tracked. The first Julie chain shows her reoccurring appearance                   introduced through textual visual cues such as K&T Quality Meats,
+throughout the entire segment. The second chain is the setting of                 Meat and Poultry and the associated price tags on the window. In
+Julie’s home, it is first presented with a living room setting and                shot 3, visual cues such as butcher’s outfit, meat and cheese products
+is cohesively linked through a hyponymous relation by another                     inside the shop cohesively link the setting to the butcher’s shop chain
+home setting, the kitchen. The third chain is a butcher’s shop. It is             introduced in the previous shot.
+
+
+
+Frontiers in Communication                                                   11                                                              frontiersin.org
+Markhabayeva and Tseng                                                                                                  10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 9
+   Selected shots in Julie & Julia.
+
+
+
+
+    The events across the scene transitions can then be depicted               elements of a generic indoor space, such as a door and a
+based on the chain pattern as follows:                                         counter.
+                                                                                    In addition to the removal of the cohesive visual cues and for
+        Julie is first at home and then she goes to the butcher’s shop,        testing the second factor, namely, the temporal scene order, we re-
+    before returning home again.                                               edited the temporal relation between the four scenes. That means,
+                                                                               based on the original temporal order (S1-S2-S3-S4), we edited
+    To manipulate visual cohesive cues, we targeted the setting of             the order into an alternative one, S4-S1-S2-S3. In this alternative
+the butcher’s shop. We removed all visual cohesive cues from the               version, viewers first see Julie cooking in the kitchen, followed by
+butcher’s setting (shop front door in shot 2 and indoor setting                the living room scene and subsequently, Julie’s visit to the butcher’s
+in shot 3) that reveals the specific identity of the shop. Figure 11           shop. This was done in order to temporally change the logical
+shows exactly what visual cues were removed from the original                  relation between the scene in the butcher’s shop and the scenes
+scenes. Here we can see that the text K&T Quality Meats, Meat                  at home. Our hypothesis following the scene order modification
+and Poultry and the price tags for the meat products are written               is that, the home cooking scene (S4) directly followed by Julie’s
+on the roof and the windows of the shop that Julie is entering                 visit to a shop (S3) might lead the viewers to infer the setting as
+in shot 2. In the uncued version, these texts have been removed                a food-related shop, even in the absence of the cohesive visual cues
+and we can see that Julie is entering an indoor space with no                  of butcher’s shop.
+written indication of its identity (Figure 11A). Moreover, in the
+version with cohesive visual cues we can see Julie talking to the
+butcher who is attired in a traditional white butcher’s costume
+(Figure 11B), placing and weighing meat pieces on the scale. There             3.4 Hypotheses
+are also refrigerators stocked with jars, meat and cheese, big chunks
+of cheese hanging off the ceiling and price tags on the counter’s                 To assess the predicted effects of cohesive cues and temporal
+glass. Contrasting this, in the uncued version (bottom image of                orders, we tested the specific hypotheses:
+Figure 11B) we turned the butcher’s conventional outfit into a blue
+shirt and a red hat. We have also removed all food products,                     • Viewers of the uncued (without cohesive visual cues) and
+price tags, the scale and the meat pieces in the butcher’s hand,                   alternative temporal order version will be less accurate at
+so that it is no longer identifiable what he is putting on the                     establishing the identity of the butcher’s shop.
+counter.                                                                         • Viewers of the uncued (without cohesive visual cues) and
+    Figure 10B illustrates the cohesive analysis across the                        alternative temporal order will be less accurate at identifying
+four scenes in the version without cohesive cues. Similar                          the goal and intention of Julie’s actions in the story.
+to the previous two Memento studies, the removal of                              • Viewers of the uncued (without cohesive visual cues) and
+cohesive cues transforms the specific shop identity (here the                      alternative temporal order version will be less confident in
+butcher’s shop) into a generic, non-specified indoor space.                        their inferences about the butcher’s shop identity and the goal
+Hence, the same setting chain now includes only visual                             of the female character’s actions.
+
+
+
+Frontiers in Communication                                                12                                                           frontiersin.org
+Markhabayeva and Tseng                                                                                                10.3389/fcomm.2024.1347788
+
+
+
+
+                                                                              (n = 19) watched the original temporal order version with cohesive
+                                                                              cues, Group 2 (n = 19) watched the original temporal order
+                                                                              version without cohesive cues, Group 3 (n = 19) watched the
+                                                                              alternative temporal order version with cohesive cues, Group 4
+                                                                              (n = 19) watched alternative temporal order version without
+                                                                              cohesive cues.
+                                                                                  For a general comprehension check, that is, to make sure that
+                                                                              participants were also able to follow the non-manipulated part
+                                                                              of the excerpt, we also asked them some basic comprehension
+                                                                              questions to reveal whether they noticed that there were 3
+                                                                              characters in total, that Julie was typing and talking in S1 and that
+                                                                              the husband was holding a bike. Hence, we first asked the following
+                                                                              questions:
+
+                                                                                • How many characters are in the video clip (both main and
+                                                                                  secondary)?
+                                                                                • What was the female character doing when she was talking to
+                                                                                  the man in the living room?
+                                                                                • What was the man holding when he was leaving the living
+                                                                                  room?
+
+                                                                                  The questions of comprehension check were immediately
+                                                                              followed by the questions listed below to address the hypotheses
+                                                                              of cohesive cues and temporal order:
+                                                                              1. In what kind of place was the female character when she was
+                                                                                 talking to the other man?
+                                                                              2. Why do you think she went there? Be specific.
+                                                                              3. How sure are you about your answer to the previous question?
+                                                                              4. Estimate approximate time period shown in the video clip.
+                                                                                  To avoid leading language, we used the wording “the other
+                                                                              man” when referring to the butcher. This decision was based on
+                                                                              the arrangement of questions in the questionnaire provided to
+                                                                              participants. The question directly followed two questions that
+                                                                              mentioned “the man in the living room”.
+                                                                                  For analysing the answers, participants’ responses to question
+                                                                              1 and question 2 were converted into points that ranged from
+                                                                              0 to 3, where 0 indicated the least accurate answer, and 3
+                                                                              represented the right establishment of the butcher’s shop or
+   FIGURE 10
+   The cohesive chains of the original and manipulated versions of the        the goal of the female character going there. Participants who
+   selected sequence of Julie & Julia. (A) The cohesive chains of the         explicitly stated that the female character went to the designated
+   character Julie and the locations home and butcher’s shop are              place to buy ingredients received a score of 3. Examples of such
+   established from S1 to S4. (B) The cohesive chains of the
+   manipulated version.                                                       responses include “She was buying ingredients for cooking” and
+                                                                              “She probably wanted to buy some ingredients for dinner”. Those
+                                                                              who inferred that she was buying food were awarded a score of
+                                                                              2, as can be seen in the following response “She went there to get
+  • There will be a difference in participants’ time perception               lunch”. Participants who mentioned shopping, without specifying
+    of the story events between the original and a orders of the              ingredients or food, received a score of 1, for example, as in the
+    segment.                                                                  response “womöglich um sich irgendwas zu kaufen”(perhaps to
+                                                                              buy something). Those who did not mention any of the above
+                                                                              received a score of 0, as indicated in the response “to pick up some
+                                                                              parcel”.
+3.5 Experiments                                                                   Question 3 is about participants’ confidence in their previous
+                                                                              responses. It is estimated using a five-point Likert-Scale question,
+    The experiment was conducted at the University of Bremen.                 ranging from 1 (not sure) to 5 (very sure).
+All participants (n = 76) were students or employees of the                       Question 4 addresses participants’ time perception of the story
+university who had not seen the movie before. Each participant                events. Participants were given the following options: two hours,
+was allocated to one of the four experimental groups: Group 1                 four hours, one day, more than one day.
+
+
+Frontiers in Communication                                               13                                                          frontiersin.org
+Markhabayeva and Tseng                                                                                                         10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 11
+   Screenshots from the original and manipulated versions of the butcher’s shop scene in Julie & Julia. (A) Scene outside of the butcher shop: The
+   version with cohesive visual cues (top) versus the version without cohesive visual cues (bottom) in Julie & Julia. (B) Scene inside of the butcher shop:
+   The version with cohesive visual cues (top) versus the version without cohesive visual cues (bottom) in Julie & Julia.
+
+
+
+
+3.6 Results                                                                       shown in Figure 12B in which we can tell the difference that
+                                                                                  participants who watched the manipulated, alternative temporal
+    General comprehension check                                                   order version on average received higher scores (M = 2.237,
+    The general comprehension check shows that participants                       IQR = 1) than those who watched original temporal order
+across the four groups understood the overall, non-manipulated                    version (M = 2, IQR = 0), as shown by the ART test (p =
+part of the sequence.                                                             0.038) (Figure 12B). As described above, we predict that the
+    Question 1 - Comprehension of the setting identity of the butcher’s           alternative temporal order version which brings the home cooking
+shop                                                                              scene before the butcher shop scene enhances the inferences
+    For analysing responses of this question, we used the ART test.               of the shop as a food/cooking relevant shop. The plot shape
+In general, the main effects of both independent variables, cohesive              also reveals that in the original temporal order conditions, the
+cues and temporal order, were significant.                                        majority of participants received the score of 2. In contrast,
+    In terms of the variable of cohesive cue, the analysis results                the alternative temporal order conditions exhibited a more wide
+show differences in participants’ comprehension of the segment                    spread distribution between scores 2 and 3, with more participants
+between the version with and without cohesive cues. In the                        receiving a score of 3.
+conditions where cohesive cues were present, participants were                        With regard to the interaction effect between the visual cues
+significantly more accurate at establishing the identity of the                   and the temporal order, our results show no significance, as the
+butcher’s shop. This result is visualized in Figure 12A. Here one                 interaction effect between the two factors tested in Study 2.
+can see that participants from the condition with cohesive cues on                    Question 2 - Main character’s intention in the story
+average received higher scores than participants in the condition                     To analyse participants’ responses of question 2, namely, “Why
+without cohesive cues. [Mean (M) = 2.553, Interquartile Range                     do you think she went there?”, the ART test revealed that the removal
+(IQR) = 1] compared to the uncued conditions, where visual cues                   of cohesive cues indeed led to a deterioration in participants’ ability
+were absent (M = 1.684, IQR = 0), as revealed by the Align-and-                   to comprehend the goal of Julie in the segment (p = 0.013). As
+Rank transform (ART) test (p < 0.05). The plot shape indicates                    shown in Figure 13, the average score is significantly higher in the
+greater variation in participants’ responses in the condition without             conditions with cohesive cues (M = 2.132, IQR = 0.75) compared
+cohesive cues, while those in the conditions with cohesive cues                   to the conditions without cohesive cues (M = 1.632, IQR = 1).
+exhibited higher agreement.                                                       The IQR illustrated in the plot indicates that, in the conditions
+    Unlike the previous study on the puzzle film Memento, we                      without cohesive cues, the middle 50% of participants received
+found that the temporal order in this study played a significant                  scores below 2, while in cued conditions, the middle 50% received
+role in comprehending the butcher’s shop setting. This result is                  scores above 2.
+
+
+
+Frontiers in Communication                                                   14                                                                 frontiersin.org
+Markhabayeva and Tseng                                                                                                               10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 12
+   Participants’ scores for establishing the identity of the butcher’s shop based on the presence of cohesive cues (without/with) and temporal order
+   (alternative/original) in Julie & Julia. (A) Main effect of cohesive cues on participants’ ability to establish the butcher’s shop identity. (B) Main effect of
+   temporal order on participants’ ability to establish the butcher’s shop identity.
+
+
+
+
+    In terms of the second factor, the temporal order, the effect was                 duration of the events taking place in the story to be longer
+not significant (p > 0.05). Our analysis also reveals that there was                  in the conditions with original temporal order (M = 2.105,
+no significant interaction effect between cohesive visual cues and                    IQR = 0.75) compared to conditions with alternative temporal
+temporal order.                                                                       order (M = 1.737, IQR = 1), as illustrated in Figure 15. The
+    Question 3 - Confidence level of viewers in their own responses                   IQR illustrated in the plot indicates that, in the alternative
+    At first glance at the results, we note that none of the                          order conditions, the middle 50% of participants rated that
+participants who watched the extract without cohesive cues rated                      the events in the sequence took less than four hours. In
+their confidence at level 5 (representing “very sure”). Similarly,                    contrast, in the original temporal order conditions, the middle
+none of the participants who viewed the extract with visual cues                      50% of participants estimated the events took more than four
+rated their confidence at level 1 (indicating "very unsure") in                       hours.
+both the establishment of the butcher’s shop identity and the                            There was no significant interaction effect between the
+establishment of the causal relation.                                                 independent variables on participants’ temporal perception of the
+    We then used two-way ANOVA to analyse responses to                                segment (p > 0.05). The results show that the main effect of
+question 3. Our results show that the main effect of cohesive                         cohesive cues on time perception was not statistically significant (p
+visual cues on confidence level was highly significant (p < 0.001).                   > 0.05).
+As illustrated in Figure 14, the comparative findings indicate that
+participants in conditions with cohesive cues displayed significantly
+higher confidence in their inferences (M = 3.5, SD = 1.033)
+compared to participants in conditions without cohesive cues (M                       4 Discussion and conclusion
+= 2.474, SD = 0.893).
+    As in the analysis of the questions 1 and 2, the effect of temporal                    The results of our three studies have further empirically
+order on confidence level was not statistically significant (p >                      supported our hypothesis that cohesion in film is highly relevant
+0.05) and there was no significant interaction effect between visual                  and significant in people’s comprehension of scenes and settings
+cohesive cues and temporal order either.                                              whether during a continuous scene or transition across different
+    Question 4 - Viewers’ time perception of story events                             scenes and whether in a complex puzzle film or in a narratively
+    For analysing the responses of question 4, we used the ART test                   straightforward film. We also provide results showing that cohesion
+again to test the effect of cohesive cues and temporal scene order on                 is significant in viewers’ inferences of character’s intention in the
+the time perception of the story events.                                              story. Moreover, we also show the significance of temporal order
+    A significant main effect of temporal order was observed (p                       of scenes in viewers’ inferences of both scenes and settings and the
+= 0.024), indicating that participants estimated the approximate                      length of event time.
+
+
+
+Frontiers in Communication                                                       15                                                                    frontiersin.org
+Markhabayeva and Tseng                                                                                                      10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 13
+   Main effect of cohesive cues on participants’ ability to establish the goal of the main character in Julie & Julia.
+
+
+
+
+    The empirical results of our study lead to more questions and                   The event comprehension model (Zacks, 2007) proposes that the
+hypotheses for future investigation.                                                changes of space, time and intention all lead to the comprehension
+    First of all, the cultural background of viewers might impact                   of event change. However, there has not been sufficient research
+their understanding of a film. For instance, two participants in our                indicating whether these factors actually interact—our study 3
+Study 3 noted after the experiment that such butcher’s shops were                   shows that space (cohesive cues of setting) is significant in
+more prevalent in the countries of their origin than in Germany.                    viewers’ comprehension of character’s intention, while time is not
+This observation is similar to the previous research on the role of                 a significant factor for story intention. Hence, more empirical tests
+cultural background in narrative comprehension (Horiba, 1990),                      are thus required to untangle the inter-relation of these factors for
+which demonstrated that, when reading about scenes taking place                     event comprehension.
+in Japan, native Japanese readers focus on more intricate details                       Our study 3 also explores the intriguing issue of time perception
+and utilize their cultural knowledge about the local details to infer               and its relation to space in film. Our results indicate that the
+the protagonists’ actions. In contrast, non-native Japanese readers                 difference in the perception of the temporal length of events in the
+did not exhibit the same degree of event details in their narrative                 two experimental groups (original and alternative versions) actually
+comprehension. Hence, we believe that cultural origin of viewers                    rests on the different narrative spatial structures. For instance, in
+could be a relevant factor for different ways of establishing cohesion              the non-chronological version, in which S4 in Julie’s kitchen is
+within a scene and could be a crucial variable to investigate                       edited directly before S1 in Julie’s living room, the story event
+empirically.                                                                        time seem shortened for the viewers due to the contiguous space
+    Another question to dive deeper into is what narrative features                 relation between S4 (kitchen) and S1 (living room). We hence
+impact viewers’ interpretation of intentions and goals of characters.               further hypothesize that event perception of two contiguous spaces
+
+
+
+Frontiers in Communication                                                     16                                                          frontiersin.org
+Markhabayeva and Tseng                                                                                                   10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 14
+   Main effect of cohesive cues on participants’ level of conﬁdence in their inferences in Julie & Julia.
+
+
+
+
+could also lead to the event interpretation of closeness in event time.                We also identify limitations of conducting experiments
+The hypothesis will require further empirical studies.                             using cinematic materials. It is challenging to predict if a film
+     In this paper, we have presented results of three empirical                   material offers enough control of stimuli. The refinement of
+studies conducted with the aim of investigating how multimodal                     our experimental from Study 1 to Study 3 shows our endeavor
+cohesion in film influences viewers’ narrative comprehension of                    to shift from Memento to Julie & Julia in order to extend
+events across scene transitions. While the previous research (Tseng                the questions that can be addressed in a more controlled
+et al., 2021) has indicated that the absence of cohesive cues leads                fashion.
+to an uncertainty about the setting within a continuous scene,                         We hope our empirical studies on multimodal cohesion
+we have broadened the test scope about multimodal cohesion in                      demonstrate a valuable combination of empirical methods and
+three aspects: (1) we tested how cohesive cues function to carry                   multimodal discourse analysis, which is a robust, textual-
+viewers across scene transitions (study 1), (2) we added another                   based model highly valuable for investigating people’s cognitive
+factor, namely, temporal order of scenes theorized by Bateman                      processes through uncovering how people maximize coherence
+(2007), to investigate how these two factors impact narrative                      when perceiving multimodal artifacts. Finally, we also hope
+comprehension independently and interactively, (3) apart from                      to have shown how the multimodal film research endeavors
+testing viewers’ correct understanding of setting identities, we                   in the last decade by Bateman (2007), Bateman and Schmidt
+also tested the viewers’ confidential level about their answers,                   (2012), Tseng and Bateman (2012), and Tseng et al. (2021)
+whether their understanding of character’s intention and event                     continue to develop and shed light on significant aspects
+time perception are related to the two factors, cohesive cues and                  of human perception and meaning interpretation of film
+temporal scene orders.                                                             narratives.
+
+
+
+
+Frontiers in Communication                                                    17                                                       frontiersin.org
+Markhabayeva and Tseng                                                                                                      10.3389/fcomm.2024.1347788
+
+
+
+
+   FIGURE 15
+   Main effect of temporal order on participants’ time perception in Julie & Julia.
+
+
+
+
+Data availability statement                                                        Author contributions
+   The raw data supporting the conclusions of this article will be                     DM: Writing – original draft. C-IT: Writing – original draft.
+made available by the authors, without undue reservation.
+
+                                                                                   Funding
+Ethics statement
+                                                                                       The author(s) declare that financial support was received for the
+    Ethical approval was not required for the studies involving                    research, authorship, and/or publication of this article. The research
+humans because in our studies, participants watched movie                          in this paper was conducted with the support of the University of
+clips and then completed a questionnaire to measure their                          Bremen.
+understanding. No personal data was collected. Participants were
+informed about any potential risks and their participation
+was strictly voluntary, with the option to withdraw at                             Conﬂict of interest
+any time. All collected data was kept strictly confidential.
+The studies were conducted in accordance with the local                                The authors declare that the research was conducted in the
+legislation and institutional requirements. The participants                       absence of any commercial or financial relationships that could be
+provided their written informed consent to participate in                          construed as a potential conflict of interest.
+this study. Written informed consent was obtained from                                 The author(s) declared that they were an editorial board
+the individual(s) for the publication of data included in                          member of Frontiers, at the time of submission. This had no impact
+this article.                                                                      on the peer review process and the final decision.
+
+
+
+Frontiers in Communication                                                    18                                                           frontiersin.org
+Markhabayeva and Tseng                                                                                                                              10.3389/fcomm.2024.1347788
+
+
+
+
+Publisher’s note                                                                                 organizations, or those of the publisher, the editors and the
+                                                                                                 reviewers. Any product that may be evaluated in this article, or
+    All claims expressed in this article are solely those of the                                 claim that may be made by its manufacturer, is not guaranteed or
+authors and do not necessarily represent those of their affiliated                               endorsed by the publisher.
+
+
+
+
+References
+   Bateman, J. A. (2007). Towards a grande paradigmatique of film: Christian Metz                  Metz, C. (1974). Film Language: a Semiotics of the Cinema. Oxford and Chicago:
+reloaded. Semiotica 167, 13–64                                                                   Oxford University Press and Chicago University Press.
+  Bateman, J. A., and Schmidt, K.-H. (2012). Multimodal Film Analysis: How Films                    Nolan, C. E. (2000). “Memento,” in Summit Entertainment, USA (film).
+Mean. Routledge Studies in Multimodality. London: Routledge.
+                                                                                                    Smith, T. J. (2012). The attentional theory of cinematic continuity. Projections. 6,
+   Bateman, J. A., and Tseng, C. (2013). The establishment of interpretative                     1–27. doi: 10.3167/proj.2012.060102
+expectations in film. Rev. Cognit. Linguist. 11, 353–368. doi: 10.1075/rcl.11.2.09bat
+                                                                                                    Tseng, C. (2008). “Cohesive harmony in filmic text,” in Multimodal Semiotics:
+   Bordwell, D. (2008). The Hook: Scene Transitions in Classical Cinema. Online Essay            Functional Analysis in Contexts of Education, ed. L. Unsworth (London: Continuum),
+(David Bordwell’s Website on Cinema) Available online at: http://www.davidbordwell.              87–104.
+net/essays/hook.php (accessed March 15, 2024).
+                                                                                                    Tseng, C. (2012). Audiovisual texture in scene transition. Semiotica 192, 123–160
+    Drummond, T., and Wildfeuer, J. (2020). “The multimodal annotation of gender
+                                                                                                   Tseng, C. (2013). Cohesion in Film: Tracking Film Elements. Basingstoke: Palgrave
+differences in contemporary tv series. Annotations in scholarly editions and research,”
+                                                                                                 Macmillan.
+in Functions, Differentiations, Systematization, 35–58.
+                                                                                                    Tseng, C., and Bateman, J. A. (2012). Multimodal narrative construction in
+   Eisenstein, S. (1969). Film Form: Essays in Film Theory. Eugene: Harvest Book.
+                                                                                                 christopher Nolan’s Memento: a description of method. J. Visual Commun. 11, 91–119.
+   Ephron, N. (2009). “Julie & Julia,” in Columbia Pictures, USA (film).                         doi: 10.1177/1470357211424691
+   Halliday, M. A. K., and Hasan, R. (1976). Cohesion in English. London: Longman.                  Tseng, C., and Bateman, J. A. (2018). Cohesion in comics and graphic novels: an
+                                                                                                 empirical comparative approach to transmedia adaptation in city of glass. Adaptation
+  Halliday, M. A. K., and Matthiessen, C. M. I. M. (2013). Halliday’s Introduction to
+                                                                                                 11, 122–143
+Functional Grammar. London and New York: Routledge.
+                                                                                                    Tseng, C., Laubrock, J., and Pflaeging, J. (2018). “Character developments in comics
+   Hasan, R. (1984). “Coherence and cohesive harmony,” in Understanding
+                                                                                                 and graphic novels: a systematic analytical scheme,” in Empirical Comics Research:
+Reading Comprehensi on: Cognition, Language, and the Structure of Prose,
+                                                                                                 Digital, Multimodal, and Cognitive Methods, eds. J. L. Alexandra Dunst, J. Wildfeuer,
+ed. J. Flood (Newark, Delaware: International Reading Association),
+                                                                                                 and A. Dunst (London: Routledge).
+181–219.
+                                                                                                    Tseng, C.-I., Laubrock, J., and Bateman, J. A. (2021). The impact of multimodal
+  Horiba, Y. (1990). Narrative comprehension processes: a study of native and
+                                                                                                 cohesion on attention and interpretation in film. Discourse, Context Media 44, 100544.
+non-native readers of japanese. Modern Lang J. 74, 188–202.
+                                                                                                 doi: 10.1016/j.dcm.2021.100544
+   Loschky, L. C., Larson, A. M., Magliano, J. P., and Smith, T. J. (2015a).
+What would jaws do? The tyranny of film and the relationship between                                Tseng, C.-I., and Thiele, L. (2022). Actions and digital empathy in interactive
+gaze and higher-level narrative film comprehension. PLoS ONE. 10, e142474.                       storytelling of serious games: Multimodal discourse approach. Soc. Semiot.
+doi: 10.1371/journal.pone.0142474                                                                doi: 10.1080/10350330.2022.2128039
+   Loschky, L. C., Ringer, R. V., Ellis, K., and Hansen, B. C. (2015b). Comparing rapid             Zacks, J. (2015). Flicker: Your Brain on Movie. Oxford: Oxford University Press.
+scene categorization of aerial and terrestrial views: a new perspective on scene gist. J.
+                                                                                                    Zacks, J. M., Speer, N., Swallow, K., Braver, T., and Reynolds, J.
+Vision 15, 1–29. doi: 10.1167/15.6.11
+                                                                                                 (2007). Event perception: a mind/brain prespective. Psychol. Bullet. 133,
+   Martin, J. R. (1992). English Text: Systems and Structure. Amsterdam: Benjamins.              273–293. doi: 10.1037/0033-2909.133.2.273
+
+
+
+
+Frontiers in Communication                                                                  19                                                                         frontiersin.org
+

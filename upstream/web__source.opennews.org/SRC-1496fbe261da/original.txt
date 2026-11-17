@@ -1,0 +1,179 @@
+Title: How We Made Unequal Justice
+Subtitle: Our project showed complex data on racial disparities in the justice system
+Authors: By Ann Choi, Erin Geismar, James Stewart, and Will Welch
+Publication: Posted on: April 30, 2018
+Publisher: Source, an OpenNews project
+Source: https://source.opennews.org/articles/how-we-made-unequal-justice/
+License: Creative Commons Attribution 3.0 (CC BY 3.0), as explicitly linked in this article footer
+License URL: https://creativecommons.org/licenses/by/3.0/
+Retrieved: 2026-11-17
+Representation: Complete licensed article-text extraction, not original HTML; media and separately sourced material exclusions are stated below.
+Changes: HTML markup removed; whitespace normalized; hyperlink destinations inserted next to link text.
+Exclusions: All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text.
+Original HTML SHA256: 64ca7a4b8920f4bea775d2cb302c7aeebf6b084b521f9441e16464e6ff4acf16
+
+--- ARTICLE TEXT ---
+
+Newsday reporters spent 18 months investigating racial disparities in arrests and sentencing on Long Island and found that, across 33 charges, nonwhites were arrested at a rate five times higher than whites and went to jail twice as often. 
+
+The findings were used in a two-part series and painted a picture of disparate justice systems (https://projects.newsday.com/long-island/unequal-justice/) on Long Island depending on race or ethnicity. As we planned the web presentation for the stories, we decided to produce an interactive that would serve as an entry point to the series. The idea was to walk readers through the main points and then draw them into the stories. The challenge in structuring it was to both summarize the arc of the series and provide a more accessible angle.
+
+Getting Started
+
+Our first plan was to put faces to the data, but it was more difficult than we imagined to find two people whose circumstances were identical other than race. Several attempts to do this left us with too many variables that could affect the sentencing outcome. 
+
+So we turned to the data to find a single thread we could follow. We landed on possession of a controlled substance in the seventh degree, a misdemeanor. This charge was an outlier because whites were arrested more than nonwhites.
+
+Reporters analyzed the outcomes of 41,000 disposition results for possession of a controlled substance arrests to compare cases that were pursued by the DA’s office versus those that were dropped, and then cases that ended in jail sentences versus those that did not. After controlling the caseloads for both groups compared to the general population, Newsday found that cases with nonwhites received jail time at nearly double the rate of whites.
+
+Representing the Data
+
+Throughout the project, we had to be careful about how we represented the data. We had two sets of data from the state—one showing arrests and the other showing sentencing outcomes. Each dataset was grouped by arrest charge and race without identifying individuals, so we couldn’t draw a direct line between individuals and their sentencing outcomes. That led us to address each dataset separately and to focus on proportions instead of raw numbers.
+
+As a result, stacked bar charts became the primary graphic for the project. We felt they did the best job of showing proportions while letting the reader compare the arrest data and sentencing data.
+
+We also spent a lot of time talking about the breakdown of arrests and jail sentences for each charge. We felt that it was important to show that the trend identified in the story held true for all 33 charges Newsday examined, but it was too much to show 33 different charts. We initially talked about highlighting just a few charges, but we felt that didn’t make the point in the same way. We also talked about showing the first few charges and having the user click to show more, but that didn’t have the same impact as scrolling through every charge.
+
+Instead, we grouped the different degrees of each charge together for a total of seven charts and did additional analysis to make sure the grouped charts made sense. The sentencing outcome depends heavily on whether the charge was a felony or misdemeanor, so we added a breakdown of the misdemeanor and felony charges that the reader could toggle. 
+
+The final chart shows how the sentencing process leads to a higher proportion of nonwhites going to jail, even when more whites were arrested.
+
+We initially ended the project after showing the difference in felony and misdemeanor charges for possession of a controlled substance, but we thought we could give the reader a fuller picture of the disparity by drilling deeper for the misdemeanor charge.
+
+The chart we ended up with came from a very early pitch for the story that showed how whites gained advantages through multiple stages of the justice system. We made three charts— arrests, prosecutions and jail sentencings—which gave users a step-by-step view of how nonwhites ended up in jail at nearly twice the rate of whites. This chart put us on the path to completing the project.
+
+Development
+
+Newsday has built a few stepper (https://projects.newsday.com/sports/high-school/high-school-football/helmets-long-island/) projects (https://projects.newsday.com/news/nassau-tax-shift/) in the past. We wanted this one to be different by tying our slide animations to the reader’s scroll instead of triggering them sequentially.
+
+All of our slides are grouped into sections with a single background. For example, the last chart in the project is a single section with four slides. As the user scrolls from one slide to the next we change the background, which is the animating chart the reader sees. 
+
+For the most basic effects, we just added an active state to the background when the section entered the screen until it exited, which kept the background stationary while the slide content scrolled over it.
+
+<section>
+
+ <div class="background"></div>
+
+ <div class="slide"></div>
+
+ <div class="slide"></div>
+
+</section>
+
+<script>
+
+ $(window).scroll(function () {
+
+ $('.background').each(function () {
+
+ var background = $(this),
+
+ section = background.parent(),
+
+ scrollTop = window.pageYOffset || document.documentElement.scrollTop,
+
+ sectionTop = section.offset().top,
+
+ sectionHeight = section.height(),
+
+ backgroundHeight = background.height();
+
+ if (scrollTop + backgroundHeight >= sectionTop && scrollTop < sectionTop + sectionHeight) {
+
+ background.addClass('active');
+
+ } else {
+
+ background.removeClass('active');
+
+ }
+
+ });
+
+ });
+
+</script>
+
+For other effects, we calculated the user’s scroll progress through a section and used it to change things like the opacity of the background. The most elaborate version of this is a full screen bar chart that slides from one proportion to the other as the reader scrolls.
+
+We ran into a few problems as we built out the project.
+
+In one of the sections that didn’t make it into the final version, we had a graphic that we wanted to move up the screen as the reader scrolled down. We did this by making the graphic position: absolute and moving it down the page at a slightly slower rate than the reader’s scroll-—but when scrolling quickly, the graphic would lag.
+
+We tried to improve the update performance by debouncing the scroll event using requestAnimationFrame (https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) so that we are only calculating scroll changes when the browser is ready to paint a new frame, but the animation was still jumpy.
+
+var ticking = false;
+
+$(window).scroll(function () {
+
+ if (!ticking) {
+
+ requestAnimationFrame(update);
+
+ }
+
+ ticking = true;
+
+}
+
+function update () {
+
+ // update animations
+
+ ticking = false;
+
+}
+
+The animation became smoother when we moved the graphic to a fixed background so that we were only changing its position relative to viewport instead of the document. But we found more stuttering issues when we tested the project on a phone.
+
+We had built out the project by applying position: fixed to the section background when it entered the screen and removing it on the last slide. That way it jumped in and out of the document flow at the appropriate time. But applying and removing the fixed position was taxing, and the small flickers between the fixed and unfixed states were distracting.
+
+After looking at a lot of other stepper projects, we saw that keeping all the backgrounds invisible and position: fixed, then changing their visibility as the user scrolled was much more effective. We had to reorder the project a bit to make it work, but it ultimately made the project much smoother.
+
+Still one problem remained on the phone, which was the browser navigation bars that would appear and disappear when scrolling in mobile Safari and mobile Chrome. The browser bars changed the height of the viewport, which in turn was changing the height of the slides. Scroll animations would jump when the navigation bars suddenly changed the height of the screen.
+
+The best solution we found for this project was to prevent the browser bars from disappearing at all by moving our content into a div that was the same height as the screen. That way the reader would scroll inside the div instead of the window.
+
+html, body, #panel {
+
+ height: 100%;
+
+}
+
+#panel {
+
+ overflow-y: scroll;
+
+ -webkit-overflow-scrolling: touch;
+
+}
+
+One of the side effects was that our position: fixed backgrounds would cover the #panel scrollbar. Our solution was to set the width of position: fixed elements with JavaScript and update their width when the user re-sized the browser.
+
+Unfortunately, with the addition of the browser bars, our available screen height shrank and the non-scrollable text in some of the sections was getting cut off. The primary offender was the final chart in the project, which has text that fades in and out in place. With our deadline looming, we chose to adjust styles individually instead of changing the animations.
+
+We knew that the text would still get cut off on some devices. Luckily, we had built the project to be functional without scroll effects, so we could disable effects for users with smaller screens and keep the content scrollable.
+
+Of course, we would have preferred to support all screen sizes. One of our takeaways from this project is that would have been better to keep all the text free-scrolling. We animated the text in the last section of the project to avoid covering a chart, but it ultimately caused more problems than it solved.
+
+Design
+
+Our goal for the stepper was to create a product that compartmentalized a lot of data into easily digestible pieces and introduced readers to the information-dense articles. By limiting the screen real estate, we tried to create a narrative that is both detailed and focused. 
+
+A prominent theme in the project was the “stop-and-pullover” aspect of the arrests, so the initial drafts began with a textured road background. This created a traveling effect as the reader scrolled and worked with tone of the project. 
+
+Establishing colors for data and typography that stand out without risking eye fatigue was a challenge with the dark backgrounds. The colors we used to establish binary data sets, such as the full page bar chart, had to strike the balance of contrasting while complementing the rest of the project.
+
+We chose red and blue as base colors because we could mute them without losing contrast. We also thought they mirrored the police lights used in the animation from the earlier slides nicely. 
+
+In the initial design, the red and blue swatches were intended for charts only. As the project developed, we realized we could use the same colors to highlight the words “white” and “nonwhite” in the text. In addition to making the design more cohesive, the colors added clarity to the narrative.
+
+Since the stepper had to maintain a strict layout across a variety of devices, the typography had to be flexible. Most slides used a standard size of 18 pixels for the narrative with phrases and statistics pulled out in sizes larger than 100 pixels. After several drafts, we chose Lato as the primary typeface for its versatility.
+
+Final Takeaways
+
+The full process of producing the stepper took about five months, much of which we spent bulletproofing the charts, analyzing the data and iterating over different versions of the narrative. Ultimately, the most challenging part of the project was finding a narrative that represented our data and got readers invested in the story. For that, we found that there’s no substitute for prototyping a bunch of versions and seeing what works. It’s hard to know how something is going to read and feel until you can interact with it, but that experimentation came with its own challenges.
+
+Each time we proposed a new narrative arc, we had to recheck the strength of our data analysis. Data from the criminal justice system is rarely uniformly kept throughout jurisdictions and hard to come by, so we relied on a records officer at the New York Division of Criminal Justice Services to ensure we fully understood the numbers. For example, Newsday reporters first thought the number of dispositions equated to number of individuals, but later learned that an individual could have multiple dispositions in a given year. So with that information, we obtained a comparable sample size for cases in which an individual had more than one disposition and adjusted the analysis accordingly.
+
+For each type of analysis our reporters wanted to draw from the database, we got feedback from the records officer on how feasible, fair, and contextual the analysis would be based on the dataset. We’d advise anyone working with this kind of data to go through similar steps. Though it added time to the process, these conversations with the record keeper were crucial and even more incumbent for those reporting on fraught topics such as racial disparity in the criminal justice system.

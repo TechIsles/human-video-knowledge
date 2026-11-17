@@ -1,0 +1,465 @@
+{
+  "batch": "0139",
+  "scope": "Six unmodified licensed original PDFs and fourteen rights-filtered article text extractions. Snow Fall omits an uncleared third-party quoted passage and is counted separately as a partial source, not a complete canonical source.",
+  "new_canonical_source_objects": 19,
+  "new_original_payload_paths": 20,
+  "files": [
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-25fe476b433e/original.txt",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-25fe476b433e/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2024.1347788/pdf",
+      "title": "Multimodal cohesion and viewers' comprehension of scene transitions in film: an empirical investigation",
+      "size_bytes": 104694,
+      "sha256": "dc5896b9cfac596aa2213124ebdc87d4bae49eea5c89b612105482d0423a647f",
+      "git_blob_sha1": "ed0245a0664751a5e722f7854a928e3fa64fc80d",
+      "role": "original_article",
+      "license": "CC-BY (article notice)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-25fe476b433e"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2024.1347788/pdf"
+      ],
+      "conditions": "Full article text extraction; excludes third-party frames from commercial films including Memento and Julie & Julia. Original text, author attribution, figure captions and license notice retained; whitespace/layout normalization is a declared transformation."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-fa0bdf245c6c/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-fa0bdf245c6c/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11423-025-10572-0.pdf",
+      "title": "Static, dynamic, or human? The role of slide dynamics and instructor cues in video lectures",
+      "size_bytes": 967879,
+      "sha256": "c45c0465844455520eaebb8675f2724a1b6839dd521a040e3d6a140d69eb6439",
+      "git_blob_sha1": "c71af6fcae0ec71640df9bc3cc915a6553013b81",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-fa0bdf245c6c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11423-025-10572-0.pdf"
+      ],
+      "conditions": "Unmodified complete publisher PDF; author attribution and embedded CC BY 4.0 license retained. No separate supplementary videos acquired. Publisher includes third-party material unless separately excepted; no separate restrictive credit line found."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-916a6680bbda/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-916a6680bbda/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10758-024-09745-2.pdf",
+      "title": "Short, Long, and Segmented Learning Videos: From YouTube Practice to Enhanced Video Players",
+      "size_bytes": 1282275,
+      "sha256": "1373779e18b209a03cdc48239a432f476df794d3f8ed233ab8ecfc319ee0db25",
+      "git_blob_sha1": "dffbeed59aa3a1a90e77a8304b730f5a8fc50b5b",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-916a6680bbda"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10758-024-09745-2.pdf"
+      ],
+      "conditions": "Unmodified complete publisher PDF; author attribution and embedded CC BY 4.0 license retained. No separate supplementary videos acquired. Publisher includes third-party material unless separately excepted; no separate restrictive credit line found."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-aaaacecc60b7/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-aaaacecc60b7/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10758-026-09973-8.pdf",
+      "title": "Can Interactive Videos Enhance Understanding of Variables as Generalizers? Randomized Controlled Trial on Engagement Effects",
+      "size_bytes": 3567125,
+      "sha256": "34a15fb11c3be327edcfa64ae28e033a1bbfc462f3add7e1f84390eadcaaccac",
+      "git_blob_sha1": "dd742ad92af90815e534527851a4269cf4f82ad1",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-aaaacecc60b7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10758-026-09973-8.pdf"
+      ],
+      "conditions": "Unmodified complete publisher PDF; author attribution and embedded CC BY 4.0 license retained. No separate supplementary videos acquired. Publisher includes third-party material unless separately excepted; no separate restrictive credit line found."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-403f946786b5/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-403f946786b5/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s10763-022-10265-7.pdf",
+      "title": "Misconceptions in Physics Explainer Videos and the Illusion of Understanding: an Experimental Study",
+      "size_bytes": 1102961,
+      "sha256": "23ba000a840230de07370d2df2a90af1f9888c1f2e59668f405d1ecc599cb445",
+      "git_blob_sha1": "b76b35da750f82c90f7ad62461f9f10944c39241",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-403f946786b5"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10763-022-10265-7.pdf"
+      ],
+      "conditions": "Unmodified complete publisher PDF; author attribution and embedded CC BY 4.0 license retained. No separate supplementary videos acquired. Publisher includes third-party material unless separately excepted; no separate restrictive credit line found."
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-ef5d3b99a2e8/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-ef5d3b99a2e8/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/how-we-made-snow-fall/",
+      "title": "How We Made Snow Fall",
+      "size_bytes": 13290,
+      "sha256": "b351ec0245ea375a7482bc39a2df3fd2362d0d9b7266e8403be73a43505b6c4c",
+      "git_blob_sha1": "6a0f2643a32f5e95855c81e39c56454d493d4422",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-ef5d3b99a2e8"
+      ],
+      "coverage_kind": "partial_article_text_third_party_quote_excluded",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/how-we-made-snow-fall/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text. One separately sourced New York Times quotation omitted; placeholder and source link retained.",
+      "excluded_from_complete_canonical_source_count": true
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-e59a5ada334b/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-e59a5ada334b/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/how-we-made-year-push-alerts/",
+      "title": "How We Made “The Year in Push Alerts”",
+      "size_bytes": 15269,
+      "sha256": "9561ed077ff0e76f1b029f1c7caff1e4bb533c69580d592b938bf5eee939058d",
+      "git_blob_sha1": "4e5690d813b8356739da2e7c7f31aa3bad724055",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-e59a5ada334b"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/how-we-made-year-push-alerts/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text."
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-1496fbe261da/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-1496fbe261da/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/how-we-made-unequal-justice/",
+      "title": "How We Made Unequal Justice",
+      "size_bytes": 14135,
+      "sha256": "b90f74ba87eaecdb9b223685630e36d740fcf9626ec944bcd649522803a08b7e",
+      "git_blob_sha1": "4b20b31a7a63f3a2a10cc4bd67e8bb2217b91111",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-1496fbe261da"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/how-we-made-unequal-justice/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text."
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-5e29f51e7eea/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-5e29f51e7eea/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/how-we-made-billions-birds-migrate/",
+      "title": "How We Made “Billions of Birds Migrate”",
+      "size_bytes": 29588,
+      "sha256": "58be92172cbc7986d6bf5c32cb4dec08b175f02cf262df64bc8b3d4569de26da",
+      "git_blob_sha1": "e3dd8f1fa5244a9045ad0b19c3a3fb78b36170c5",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-5e29f51e7eea"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/how-we-made-billions-birds-migrate/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text."
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-c31883ab852e/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-c31883ab852e/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/power-loops/",
+      "title": "On Repeat",
+      "size_bytes": 27658,
+      "sha256": "99057db85898c6d76d92cbca32241ce766ade7f2985438b43696f78c03af210e",
+      "git_blob_sha1": "754c5bdfcc9925e7065eb4125e1adbf50b8be25a",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-c31883ab852e"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/power-loops/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text."
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-e6f2b0ce7e84/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-e6f2b0ce7e84/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/how-we-made-vigils-paris-vr-story/",
+      "title": "How We Made Vigils in Paris, a VR Story",
+      "size_bytes": 9201,
+      "sha256": "f1449bffcfdda165dab822707dd15b29fefc22a02e29d4de63a15e837f33b594",
+      "git_blob_sha1": "0034f70f0e77f61af7ca6004d9e282d0fbf3afa8",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-e6f2b0ce7e84"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/how-we-made-vigils-paris-vr-story/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text."
+    },
+    {
+      "file": "upstream/web__source.opennews.org/SRC-f8ca494dbc59/original.txt",
+      "repository": "web/source.opennews.org",
+      "upstream_path": "SRC-f8ca494dbc59/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://source.opennews.org/articles/playing-suspense-data-visualizations/",
+      "title": "Playing with Suspense in Data Visualizations",
+      "size_bytes": 6744,
+      "sha256": "03fa6fa421e85a5018acf97dc9f8d58f9c4ba2b4fd8b761b620916546859ad3a",
+      "git_blob_sha1": "4d057692775ade66094a26ebb95b3114ed591dc4",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-3.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-f8ca494dbc59"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://source.opennews.org/articles/playing-suspense-data-visualizations/",
+        "https://creativecommons.org/licenses/by/3.0/"
+      ],
+      "conditions": "Retain author attribution and CC BY 3.0 notice. HTML-to-text extraction with links retained; not byte-identical original. All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-d193f0c919d7/original.pdf",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-d193f0c919d7/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s12650-025-01066-5.pdf",
+      "title": "A design space of animating data-driven transitions in data videos",
+      "size_bytes": 1795234,
+      "sha256": "d8ef3a2434daeee340224d67bf7e5c6960818cf10c98d2488cb5fae675e4ec67",
+      "git_blob_sha1": "47cf6b30cf2459cb1b46a246a79d64e76dd596a1",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d193f0c919d7"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s12650-025-01066-5.pdf",
+        "https://doi.org/10.1007/s12650-025-01066-5"
+      ],
+      "conditions": "Unmodified complete publisher PDF, including original authorship and license notice. No standalone supplementary media acquired. No separately restrictive figure credit identified in inspected PDF text. All 18 pages included as original PDF."
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-abbb19acc181/original.pdf",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-abbb19acc181/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.frontiersin.org/articles/10.3389/flang.2024.1474924/pdf",
+      "title": "When to use a metaphor: metaphors in dialogical explanations with addressees of different expertise",
+      "size_bytes": 7354103,
+      "sha256": "398b3ccd323dfa0c57169c0c9849383ac1c3b6eadb5ac05d5d751caf5907db2f",
+      "git_blob_sha1": "54126a831c57019e75034724768ffdf4635196ce",
+      "role": "original_article",
+      "license": "CC BY (publisher article notice)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-abbb19acc181"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/articles/10.3389/flang.2024.1474924/pdf",
+        "https://doi.org/10.3389/flang.2024.1474924"
+      ],
+      "conditions": "Unmodified complete publisher PDF, including original authorship and license notice. No standalone supplementary media acquired. No separately restrictive figure credit identified in inspected PDF text. All 18 pages included as original PDF."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-95e9c1267d7f/original.txt",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-95e9c1267d7f/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11165-021-10038-2.pdf",
+      "title": "Meaning Making with Multiple Representations: a Case Study of a Preservice Teacher Creating a Digital Explanation",
+      "size_bytes": 72979,
+      "sha256": "18caeb5050e726971e16bb2f136e9659c8d94b9d7afc5356513bd0e8b55ca92a",
+      "git_blob_sha1": "efe5ed8a0d4802751712ace679fd936fcd435c94",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-95e9c1267d7f"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11165-021-10038-2.pdf",
+        "https://doi.org/10.1007/s11165-021-10038-2"
+      ],
+      "conditions": "Figure 3 is credited to Alberta Distance Learning Centre, reproduced with permission. That permission is not assumed transferable. Retain source, original authorship, license notices and the extraction-change statement. Complete text extraction, not original PDF bytes. Text extracted from all 20 pages with no page-range limitation; all figure pixels and audiovisual media omitted; extraction may not recover text inside raster images.."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-c3827dbe915f/original.txt",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-c3827dbe915f/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11251-021-09535-8.pdf",
+      "title": "Counteracting detrimental effects of misconceptions on learning and metacomprehension accuracy: The utility of refutation texts and think sheets",
+      "size_bytes": 109345,
+      "sha256": "0e8ddeda984b7444c5bb6911667779058fa94fca0410a34b3e23589afb042878",
+      "git_blob_sha1": "7d8ceb6d7feb59685be917fe32afd1e15410e3d3",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-c3827dbe915f"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11251-021-09535-8.pdf",
+        "https://doi.org/10.1007/s11251-021-09535-8"
+      ],
+      "conditions": "Conservative text-only edition excludes teaching-material screenshots and other figures. Retain source, original authorship, license notices and the extraction-change statement. Complete text extraction, not original PDF bytes. Text extracted from all 31 pages with no page-range limitation; all figure pixels and audiovisual media omitted; extraction may not recover text inside raster images.."
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-4e60e114d2f3/original.txt",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-4e60e114d2f3/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.frontiersin.org/articles/10.3389/fcomm.2023.1087120/pdf",
+      "title": "Going viral: A science communication collaboration in the era of COVID-19 and social media",
+      "size_bytes": 127911,
+      "sha256": "3bf6627dc9e37673b707e04a864f65e803ff4eec777a099a70a430c4ad4b409b",
+      "git_blob_sha1": "e797396766c5dfd5142d88e108bda675fb2cba5a",
+      "role": "original_article",
+      "license": "CC BY (publisher article notice)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-4e60e114d2f3"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/articles/10.3389/fcomm.2023.1087120/pdf",
+        "https://doi.org/10.3389/fcomm.2023.1087120"
+      ],
+      "conditions": "Article is CC BY; embedded COVID-19 graphics are separately CC BY-SA 4.0. Images/GIFs are excluded rather than relicensed. Retain source, original authorship, license notices and the extraction-change statement. Complete text extraction, not original PDF bytes. Text extracted from all 16 pages with no page-range limitation; all figure pixels and audiovisual media omitted; extraction may not recover text inside raster images.."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-483ae2693da0/original.txt",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-483ae2693da0/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11263-025-02664-4.pdf",
+      "title": "It’s Just Another Day: Unique Video Captioning by Discriminitive Prompting",
+      "size_bytes": 79452,
+      "sha256": "f8c0f497449aa0e8bec8082faff1bad4e69d2c284ded74e701393ec54155d5c2",
+      "git_blob_sha1": "3e46043b4c87c59eb96668904408ed95f3a44295",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-483ae2693da0"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11263-025-02664-4.pdf",
+        "https://doi.org/10.1007/s11263-025-02664-4"
+      ],
+      "conditions": "Video frame examples and external dataset imagery are excluded; their separate permissions are not assumed. Retain source, original authorship, license notices and the extraction-change statement. Complete text extraction, not original PDF bytes. Text extracted from all 16 pages with no page-range limitation; all figure pixels and audiovisual media omitted; extraction may not recover text inside raster images.."
+    },
+    {
+      "file": "upstream/web__www.frontiersin.org/SRC-14ad5c622eb7/original.txt",
+      "repository": "web/www.frontiersin.org",
+      "upstream_path": "SRC-14ad5c622eb7/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.frontiersin.org/articles/10.3389/fcomm.2026.1827126/pdf",
+      "title": "‘We should be in this…’: telling the story of the Missing Piece study",
+      "size_bytes": 91630,
+      "sha256": "a41ce6bf85dac285b170273bc9f0ef498c31dda8be647f03aca53ba280b4e0cf",
+      "git_blob_sha1": "6793f3d1f33d9df76377c420502027da621f8817",
+      "role": "original_article",
+      "license": "CC BY (publisher article notice)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-14ad5c622eb7"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://www.frontiersin.org/articles/10.3389/fcomm.2026.1827126/pdf",
+        "https://doi.org/10.3389/fcomm.2026.1827126"
+      ],
+      "conditions": "Article is CC BY; linked animation and song have separate noncommercial licensing. No animation, soundtrack, frames or other images are bundled. Retain source, original authorship, license notices and the extraction-change statement. Complete text extraction, not original PDF bytes. Text extracted from all 12 pages with no page-range limitation; all figure pixels and audiovisual media omitted; extraction may not recover text inside raster images.."
+    },
+    {
+      "file": "upstream/web__link.springer.com/SRC-cad509eeffac/original.txt",
+      "repository": "web/link.springer.com",
+      "upstream_path": "SRC-cad509eeffac/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11528-022-00737-6.pdf",
+      "title": "Design, Development and Evaluation of the Citizen Science Cancer Curriculum (CSCC): a Design and Development Case Study",
+      "size_bytes": 106489,
+      "sha256": "bf870db1d9d406dc99e99431d0d6c5ce49f721ceb0676e4d4d6c509b5c3cc2e2",
+      "git_blob_sha1": "00e2cb9beb7ee510918707563418164ef18319f2",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-cad509eeffac"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11528-022-00737-6.pdf",
+        "https://doi.org/10.1007/s11528-022-00737-6"
+      ],
+      "conditions": "Article is CC BY 4.0; the CSCC teaching curriculum has separate CC BY-NC-SA 4.0 terms. No curriculum downloads, linked lesson materials or figure images are bundled. Retain source, original authorship, license notices and the extraction-change statement. Complete text extraction, not original PDF bytes. Text extracted from all 15 pages with no page-range limitation; all figure pixels and audiovisual media omitted; extraction may not recover text inside raster images.."
+    }
+  ],
+  "new_partial_source_objects": 1
+}

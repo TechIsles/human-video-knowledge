@@ -1,0 +1,94 @@
+Title: How We Made Snow Fall
+Subtitle: A Q&A with the New York Times team
+Authors: By Steve Duenes, Erin Kissane, Andrew Kueneman, Jacky Myint, Graham Roberts, and Catherine Spangler
+Publication: Posted on: January 1, 2013
+Publisher: Source, an OpenNews project
+Source: https://source.opennews.org/articles/how-we-made-snow-fall/
+License: Creative Commons Attribution 3.0 (CC BY 3.0), as explicitly linked in this article footer
+License URL: https://creativecommons.org/licenses/by/3.0/
+Retrieved: 2026-11-17
+Representation: Complete licensed article-text extraction, not original HTML; media and separately sourced material exclusions are stated below.
+Changes: HTML markup removed; whitespace normalized; hyperlink destinations inserted next to link text.
+Exclusions: All images, video/audio files, embeds, scripts, and third-party media omitted. Navigation, share controls, recommendations, and author profile boilerplate omitted. Captions retained as article text. One separately sourced New York Times quotation omitted; placeholder and source link retained.
+Original HTML SHA256: 38d12208d67ce38ecfff27ca72010d94e40ec064ed9a15495e243ebfb5f4fda4
+
+--- ARTICLE TEXT ---
+
+The New York Times’ astonishing Snow Fall: The Avalanche at Tunnel Creek (http://www.nytimes.com/projects/2012/snow-fall/), launched in the final days of 2012, capped a year of extraordinary work in interactive journalism, both at the Times and in newsrooms around the world. In the six days after Snow Fall’s launch on December 20th, 2012, it had received more than 3.5 million page views and 2.9 million visitors (http://jimromenesko.com/2012/12/27/more-than-3-5-million-page-views-for-nyts-snow-fall/), nearly a third of whom were new visitors to the Times website.
+
+It’s an exemplary piece of multimedia journalism, and its many moving (and swooping and clicking) pieces have attracted intense attention from media commentators, but Snow Fall began life not as a demonstration of technology and design capabilities, but with a traditional, in-depth piece by Times reporter John Branch. In a Q&A with Times readers (http://www.nytimes.com/2012/12/22/sports/q-a-the-avalanche-at-tunnel-creek.html?_r=0) published the day after Snow Fall’s launch, Branch explained its origins:
+
+[Third-party quotation omitted: John Branch’s New York Times Q&A. Follow the preceding source link for the quoted passage.]
+
+In the days before Christmas, we asked the Snow Fall team about their process, and they responded with a mosaic of answers from their designers, reporters, developers, end editors.
+
+ Beginnings & Collaborations
+
+ Q. How did the project begin?
+
+Steve Duenes, Graphics Director: The first conversation the larger group had was after John had done a fair amount of reporting. At that point, he and Jason Stallman, the Deputy Sports Editor and Joe Sexton, the Sports editor recognized that there was multimedia potential and invited us in to ask what we thought.
+
+Q. How closely entwined were the writing/reporting, multimedia, and technical processes?
+
+Duenes: As John did some of his reporting, he would work with video journalist Catherine Spangler and photographer Ruth Fremson. He says more about that here (http://www.nytimes.com/2012/12/22/sports/q-a-the-avalanche-at-tunnel-creek.html).
+
+John also exchanged sources with Hannah Fairfield, Joe Ward and others, and they started reporting information for graphics like the avalanche simulation and the skier paths down the mountain.
+
+As we started to collect our ideas for the structure of the project, the multimedia group agreed that we didn’t want to create a bunch of different overlapping pieces and hang them all off the text. We wanted to make a single story out of all the assets, including the text. So the larger project wasn’t a typical design effort. It was an editing project that required us to weave things together so that text, video, photography and graphics could all be consumed in a way that was similar to reading—a different kind of reading. The two Sports editors and John were very interested in this idea, so we moved forward on parallel tracks, exchanging files and reviewing progress together.
+
+Q. How long did you all work on it? Roughly speaking, how did the project’s phases break out?
+
+Duenes: It started in the summer, but for many on the project, there were long periods when we didn’t spend much time on it. 2012 was a busy year with the Olympics, Hurricane Sandy, the election and the recent Newtown shooting—all stories that arrived as we were working on the avalanche project.
+
+Jacky Myint, Multimedia Producer/Designer: I came on board in September and started thinking about the initial design for the project. Pretty soon after that, we went into the prototyping phase and collaborated on how best to integrate the graphics and video into the narrative experience. There was a lot of trial and error and experimenting. For example, Xaquín González Veira or Graham Roberts, two of the graphics editors on the project would throw out an idea, and after roughly coding it up, the two of us or the bigger group would look at the interaction and decide whether it was worth pursuing. As we were getting closer to launch, we were able to step back and review the various elements to see how they fit editorially, and we made design revisions and tweaks.
+
+ Pacing & Balance
+
+ Q. There’s a ton of audio and moving-image work in Snow Fall, and you used a lot of techniques from filmmaking, but within a very reading-centric experience. What kind of challenges did those elements present?
+
+Catherine Spangler, Video Journalist: The challenges of crafting multimedia to complement a text-based story were the same challenges faced in any storytelling endeavor. We focused on the pacing, narrative tension and story arc—all while ensuring that each element gave the user a different experience of the story. The moving images provided a much-needed pause at critical moments in the text, adding a subtle atmospheric quality. The team often asked whether a video or piece of audio was adding value to the project, and we edited elements out that felt duplicative. Having a tight edit that slowly built the tension of the narrative was the overall goal.
+
+Graham Roberts, Graphics Editor: With the visuals, especially ones that would actually interrupt the reading, we wanted it to feel like a natural continuation. This required choosing appropriate color palettes, and the right kind of fluid movements. The reader would hopefully feel that they were reading into the graphic, and not see it as a distraction. Content wise, these elements needed to occur in passages that were challenging to express with words alone, like the layout of the terrain, and the shape, speed and duration of the avalanche itself. Or something that was very hard to follow without a visual aid, like the trajectory and timing of each skier’s path down the mountain.
+
+Q. How did you find the right pace for the animations? How do you work out the rhythms for something like that?
+
+Roberts: The pacing of the animations was driven by many factors. The small airbag animation needed to be quick—a little thing to give the reader an understanding of what an airbag was without making too much of a fuss. The pacing of the avalanche simulation was driven by data. It is a real-time experience of the avalanche as it occurred. The rendering of the paths down the mountain was driven by the user’s scrolling motion, connected directly to the pace that they read through the story. The Cascades flyover, in the beginning was given a nice slow movement. Readers were just becoming familiar with the story at that point, and it allowed them to absorb the topography of the setting.
+
+ A still from the Cascades flyover sequence (New York Times)
+
+ Development & Testing
+
+ Q. On the tech side, what are the ingredients of Snow Fall? What libraries and tools did you use to build the final project?
+
+Myint: We used a number of custom components that we’ve used in other projects in the past like the modal slideshows. But some tools/libraries include jQuery, underscore, jPlayer, HTML5 video, jQuery Reel, and jQuery address. In triggering scroll-based events, I took inspiration from Remy Sharp’s inview jquery plugin (https://github.com/protonet/jquery.inview).
+
+Q. What was your biggest or most interesting tech (or design) problem?
+
+Andrew Kueneman, Deputy Director, Digital Design: Managing the path we wanted the reader to follow. We have several visual/media elements that sit within or closely alongside of the narrative. Using scale, positioning, animation, and other design variables to control how much these elements interrupted or crept into the story was critical. We wanted the reader to experience these supporting bits of the story without feeling overwhelmed or removed from the narrative and pace that John had established in the text.
+
+Q. What kind of trade-offs did you make (technically or otherwise) to maintain a smooth reader experience?
+
+Kueneman: We tried not to make any technical trade-offs. The presentation techniques we employed needed to function and be visually interesting for the vast majority of our readers, no matter what device or browser they happened to be using. We took advantage of platforms that could handle more complex and rich behaviors, and we made sure less-powerful or less-sophisticated platforms received the best experience they could handle. Not so much a trade-off, but we definitely made design and presentation decisions that we would classify as editing. At times a more flashy, loud, or visually spectacular transition or behavior was toned down or removed because we felt it simply detracted from the story or could cause reader-fatigue (or just be annoying).
+
+Myint: From the beginning we made the decision to not offer the exact same experience across all browsers/devices. This allowed me to focus on the main experience in the more modern web browsers while my colleagues focused on different experiences on other devices or older browsers. Josh Williams worked on the iPad/iPhone/touch experience while Jon Huang worked on IE8. We each had to figure out the best experience for the respective browsers/devices we were focusing on and work within their limitations.
+
+Q. How much cross-platform testing did your team have to do?
+
+Myint: We tried to be thorough about testing on all the major browsers. As I mentioned, Josh Williams was focusing on iPad/iPhone/touch while Jon Huang was simplifying the experience for IE8. Alan McLean did a lot of testing and debugging on major browsers as well as pinpointing where the code could be optimized. 
+We were all working off the same code base so there were definitely moments of frustration when I added new design features or elements that the other guys then had to account for.
+
+ Release Tactics & Future Plans
+
+ Q. Was there anything you learned in the process of creating Snow Fall that will make future projects like this any easier?
+
+Spangler: Editing, editing, editing. With a project of this scale and length, it can be easy to include mass amounts of data, information, visuals and audio because they exist and can compliment the story in different ways. It’s also easy to lose perspective on the big picture. One thing I think the team accomplished with this project is showing judiciousness in which elements best told the story at key moments in the text.
+
+Kueneman: We learned that allowing for a good amount of feedback from our colleagues as the project starts to take its final shape—especially for something this complex and long—was valuable. You can’t work inside a bubble with thousands of words and probably hours of footage and animated graphics and expect to be able to approach the various drafts with a fresh/clear perspective. We also learned that building or prototyping a behavior or presentation device that you haven’t used or seen before is really the only way to fairly evaluate those ideas—and we were able to weed out difficult things and find success and surprises in others by actively experimenting along the way.
+
+Q. My first glimpse of Snow Fall was the preview you released behind a password that was distributed on Twitter. How did your team decide on that kind of release? Did you learn anything interesting from the process?
+
+Duenes: We were hoping to stir a little buzz and get some people behind the project before we launched the whole thing. I think the elongated launch reminded us that adding a little intrigue never hurts.
+
+Q. How do you judge the long- and short-term success of this kind of massive effort?
+
+Kueneman: We have a large number of metrics that we use to evaluate the success of any article or project. Traffic on our site and activity on Twitter and Facebook are a few obvious ones. There are other less quantifiable measures, like how excited our readers, colleagues, and competitors are when they react to or discuss the project on and off our site. In the long term, we also walk away from an effort like this with many valuable lessons in design, development, team collaboration, editing, promotion, etc.—lessons we can apply going forward, and ones we could only learn while working on deadline.
