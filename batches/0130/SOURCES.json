@@ -1,0 +1,47 @@
+{
+  "batch": "0130",
+  "scope": "Full ACMI teaching text extracted, excluding embedded media, plus official terms text.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/web__www.acmi.net.au/SRC-2ce3e79c789a/original.html",
+      "repository": "web/www.acmi.net.au",
+      "upstream_path": "SRC-2ce3e79c789a/original.html",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.acmi.net.au/education/school-program-and-resources/film-it-editing/",
+      "title": "ACMI Editing — Film it",
+      "size_bytes": 21491,
+      "sha256": "7c7618e60daf638ba28d0666b01c76590bc8527d6e2c98a14ccff257089cae19",
+      "git_blob_sha1": "37df396bd1bd7813d81218d65f17c46d6a6abd48",
+      "role": "full_text_extracted",
+      "license": "CC-BY (version not specified)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-2ce3e79c789a"
+      ],
+      "coverage_kind": "canonical_article_text_full",
+      "license_evidence_urls": [
+        "https://www.acmi.net.au/about/terms-conditions/websites-terms-of-use/"
+      ],
+      "conditions": "Full main textual content extracted. © Australian Centre for the Moving Image. CC BY text; version unspecified. Images, audio/video and third-party media excluded. Formatting normalized, not unchanged original webpage."
+    },
+    {
+      "file": "upstream/web__www.acmi.net.au/SRC-2ce3e79c789a/license-evidence.html",
+      "repository": "web/www.acmi.net.au",
+      "upstream_path": "SRC-2ce3e79c789a/license-evidence.html",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.acmi.net.au/about/terms-conditions/websites-terms-of-use/",
+      "size_bytes": 14263,
+      "sha256": "45c97a16b348c46439c5f2dacbbf4c89e53ca4bc0cd25d4c85e79d7717ddf6cc",
+      "git_blob_sha1": "5776a9e39e8989eb4d75d953f26a6b8801abafcd",
+      "role": "license_notice",
+      "license": "CC-BY (version not specified)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-2ce3e79c789a"
+      ],
+      "coverage_kind": "license_support"
+    }
+  ]
+}
