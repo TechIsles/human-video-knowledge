@@ -1,0 +1,100 @@
+{
+  "batch": "0135",
+  "scope": "One unmodified CC BY author PDF and three full text-only extractions excluding separately copyrighted or uncleared images.",
+  "new_canonical_source_objects": 4,
+  "new_original_payload_paths": 4,
+  "files": [
+    {
+      "file": "upstream/web__www.medien.ifi.lmu.de/SRC-98347be70c6c/original.pdf",
+      "repository": "web/www.medien.ifi.lmu.de",
+      "upstream_path": "SRC-98347be70c6c/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.medien.ifi.lmu.de/pubdb/publications/pub/amin2026avi/amin2026avi.pdf",
+      "title": "EmoArc: Interactive Emotion Graph for Human-AI Collaborative Writing",
+      "size_bytes": 2028590,
+      "sha256": "03cdd329489b593f2cce7d78f6d60bcae4c53d46d350847a9743a2275292d1d8",
+      "git_blob_sha1": "e738fab6093d3fd5b4f53561b6bb1b9992014bc2",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-98347be70c6c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.medien.ifi.lmu.de/pubdb/publications/pub/amin2026avi/amin2026avi.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete author/institution-hosted PDF (9 pages), with embedded CC BY 4.0 notice and attribution retained. DOI 10.1145/3811427.3811429. No separate supplementary media acquired."
+    },
+    {
+      "file": "upstream/web__microedits.github.io/SRC-d3c01b2ce6df/original.txt",
+      "repository": "web/microedits.github.io",
+      "upstream_path": "SRC-d3c01b2ce6df/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://microedits.github.io/pdf/micro_edits_final.pdf",
+      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
+      "size_bytes": 93335,
+      "sha256": "0833f220c3c51c3a2b0e2d6c9a11d14c9c08b5e34f7918862ae7d1d51796a78e",
+      "git_blob_sha1": "b2fcbdbec808b4a09203d7233ed0a18bfeeb2674",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-d3c01b2ce6df"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://microedits.github.io/pdf/micro_edits_final.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "CC BY 4.0 attribution and license retained; full text-only extraction, not unmodified original PDF. All video frames are explicitly copyright EditStock. All embedded images, including these frames, are excluded."
+    },
+    {
+      "file": "upstream/web__chaozhang.design/SRC-373da3bba2e5/original.txt",
+      "repository": "web/chaozhang.design",
+      "upstream_path": "SRC-373da3bba2e5/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://chaozhang.design/assets/publications/ier_chi26/ier_chi26.pdf",
+      "title": "Interactive Explainable Ranking",
+      "size_bytes": 102519,
+      "sha256": "5db0197dda22d3a55097a91c99e5a8ebc2c628ed95314326d8ac9ef21bd0399e",
+      "git_blob_sha1": "7da7b944947a390ab1469690883c768defbe1acd",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-373da3bba2e5"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://chaozhang.design/assets/publications/ier_chi26/ier_chi26.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "CC BY 4.0 attribution and license retained; full text-only extraction, not unmodified original PDF. Interface screenshots include third-party short-film thumbnails and city photographs; separate image rights were not verified. All embedded images are excluded."
+    },
+    {
+      "file": "upstream/web__ailiefraser.ca/SRC-6495099f7f19/original.txt",
+      "repository": "web/ailiefraser.ca",
+      "upstream_path": "SRC-6495099f7f19/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://ailiefraser.ca/ItsMoreOfAVibe-DIS2025.pdf",
+      "title": "It’s more of a vibe I’m going for: Designing Text-to-Music Generation Interfaces for Video Creators",
+      "size_bytes": 89850,
+      "sha256": "2ef9752344e6da4a6cdf6267cf0c07cefd2980e105bf1ae33d3370e6a8f6b9f1",
+      "git_blob_sha1": "a5b7567899c0432de489e03c0381c9b06baab013",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-6495099f7f19"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://ailiefraser.ca/ItsMoreOfAVibe-DIS2025.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "CC BY 4.0 attribution and license retained; full text-only extraction, not unmodified original PDF. Interface and mock-up figures contain video frames and photographs whose separate rights are not stated. All embedded images are excluded as a precaution."
+    }
+  ]
+}
