@@ -1,0 +1,31 @@
+{
+  "batch": "0133",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/web__prosocialcomputing.com/SRC-e1b4973fec02/original.pdf",
+      "repository": "web/prosocialcomputing.com",
+      "upstream_path": "SRC-e1b4973fec02/original.pdf",
+      "upstream_commit": "retrieved-20261116",
+      "source_url": "https://prosocialcomputing.com/assets/pdf/publications/cristobal-chi2026-papertok.pdf",
+      "title": "PaperTok: Exploring the Use of Generative AI for Creating Short-form Videos for Research Communication",
+      "size_bytes": 3461356,
+      "sha256": "aa2e7a76f1b4da0b1e4cc62bdecb564744191d94d2f3b42b0e5530ba62fc5b08",
+      "git_blob_sha1": "ddda21f2e332f2a2bcbdd7ea4bfa512a2b05e8e9",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-e1b4973fec02"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://prosocialcomputing.com/assets/pdf/publications/cristobal-chi2026-papertok.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified author-hosted complete PDF; embedded author attribution and CC BY 4.0 license retained. DOI 10.1145/3772318.3790553. No separate supplementary media acquired."
+    }
+  ]
+}
