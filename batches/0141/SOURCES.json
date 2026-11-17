@@ -1,0 +1,169 @@
+{
+  "batch": "0141",
+  "scope": "One original CC BY research PDF, one complete MIT SKILL file, and five licensed full-article text extractions excluding third-party media.",
+  "new_canonical_source_objects": 7,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/web__arxiv.org/SRC-9ea9bbffd1fd/original.txt",
+      "repository": "web/arxiv.org",
+      "upstream_path": "SRC-9ea9bbffd1fd/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://arxiv.org/pdf/2607.14645v2",
+      "title": "Autoregressive Modeling of Film with Applications in Video Montage (FilmGPT)",
+      "size_bytes": 82235,
+      "sha256": "291a8577cdd67b47293c8a304b650e84bd995c1535f80410ac33567a8cb94551",
+      "git_blob_sha1": "b89eab79f89d29e97e64abcadb15e33008b421cb",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-9ea9bbffd1fd"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://arxiv.org/pdf/2607.14645v2"
+      ],
+      "conditions": "Article text is separately licensed CC BY 4.0 on first page. EditStock thumbnails explicitly excluded; retain attribution, text, captions, third-party notices and transformation disclosure."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-d3ead4a7a151/original.md",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-d3ead4a7a151/original.md",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/SKILL.md",
+      "title": "I Hate Editing — SKILL.md",
+      "size_bytes": 19976,
+      "sha256": "c5fab74e1f68f3d48873c95c2c0220377b364126f6aa2e63a2fe3a25ff4ae720",
+      "git_blob_sha1": "09a46171fa9a811c18a4ce7e0af13651dbd9c050",
+      "role": "original_article",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/LICENSE"
+      ],
+      "conditions": "Unmodified complete SKILL.md file only, not the complete repository or referenced rules/assets. MIT license and author attribution retained."
+    },
+    {
+      "file": "upstream/web__jcom.sissa.it/SRC-76babfa75d6c/original.pdf",
+      "repository": "web/jcom.sissa.it",
+      "upstream_path": "SRC-76babfa75d6c/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://jcom.sissa.it/article/1534/galley/7252/download/",
+      "title": "What makes a good story? An empirical analysis of the factors that constitute “good” storytelling in the context of science communication",
+      "size_bytes": 3526990,
+      "sha256": "371369acadf7f4369338505a74d1b951026542911a97b700f78afea616902ad1",
+      "git_blob_sha1": "dd545ed7c1dc88bf9de13d79d5aa4ff212d6e109",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-76babfa75d6c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://jcom.sissa.it/article/pubid/JCOM_2503_2026_A06/",
+        "https://jcom.sissa.it/article/1534/galley/7252/download/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Unmodified complete 20-page publisher PDF. Page 20 explicitly states Creative Commons Attribution 4.0. Original authors Peter Fischer and Barbara Thies retained. Figures are research structural models; no separate restrictive third-party figure credit identified. No linked supplementary materials acquired."
+    },
+    {
+      "file": "upstream/web__campus.dariah.eu/SRC-a11ad03d692f/original.txt",
+      "repository": "web/campus.dariah.eu",
+      "upstream_path": "SRC-a11ad03d692f/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://campus.dariah.eu/resources/hosted/exploring-audiovisual-grammar-cut",
+      "title": "Exploring Audiovisual Grammar: CUT",
+      "size_bytes": 22272,
+      "sha256": "d52b7163180e0877d8fdbeeb6bc7fc199b873b805dffa4469cb2e4c8951bbba4",
+      "git_blob_sha1": "dc02f4295785a2ecfd0d6ae792616ab7730b8a6e",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-a11ad03d692f"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://campus.dariah.eu/resources/hosted/exploring-audiovisual-grammar-cut",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://campus.dariah.eu/documentation/reuse-charter"
+      ],
+      "conditions": "Author attribution, original source and license retained. Complete article text-only extraction; all visual/audio/interactive media excluded; not byte-identical HTML."
+    },
+    {
+      "file": "upstream/web__blog.ncase.me/SRC-59e37bfb2839/original.txt",
+      "repository": "web/blog.ncase.me",
+      "upstream_path": "SRC-59e37bfb2839/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://blog.ncase.me/neurotic-neurons-design-patterns/",
+      "title": "Neurotic Neurons: Design Patterns",
+      "size_bytes": 9334,
+      "sha256": "ded3481a521e7689b0fba7ff1f3264a97710b46d2b8d5aedadb700ce86275d4f",
+      "git_blob_sha1": "908bd8783243ea83870c451490dd04f5b6e2950b",
+      "role": "normalized_full_article_text",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-59e37bfb2839"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://blog.ncase.me/neurotic-neurons-design-patterns/",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "conditions": "Author attribution, original source and license retained. Complete article text-only extraction; all visual/audio/interactive media excluded; not byte-identical HTML."
+    },
+    {
+      "file": "upstream/web__blog.ncase.me/SRC-b62b368af437/original.txt",
+      "repository": "web/blog.ncase.me",
+      "upstream_path": "SRC-b62b368af437/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://blog.ncase.me/explorable-explanations-4-more-design-patterns/",
+      "title": "Explorable Explanations: 4 More Design Patterns",
+      "size_bytes": 10141,
+      "sha256": "14e6fe27bf038fdfde2ba73bb0a8544330d3166f499882d81bc21506494318fc",
+      "git_blob_sha1": "7017686c3dbdff0acf013a1ccb922da149d62d25",
+      "role": "normalized_full_article_text",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-b62b368af437"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://blog.ncase.me/explorable-explanations-4-more-design-patterns/",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "conditions": "Author attribution, original source and license retained. Complete article text-only extraction; all visual/audio/interactive media excluded; not byte-identical HTML."
+    },
+    {
+      "file": "upstream/web__blog.ncase.me/SRC-dd27b788c012/original.txt",
+      "repository": "web/blog.ncase.me",
+      "upstream_path": "SRC-dd27b788c012/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://blog.ncase.me/neurotic-neurons-simplifications/",
+      "title": "Neurotic Neurons: Simplifications",
+      "size_bytes": 5264,
+      "sha256": "3436c56f9d32529c006c0dd0a8c5872e5600bbca32739d9775a88564a250b2e5",
+      "git_blob_sha1": "d0c2cb9742d738126b63fcbff784682e6bde48d2",
+      "role": "normalized_full_article_text",
+      "license": "CC0-1.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-dd27b788c012"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://blog.ncase.me/neurotic-neurons-simplifications/",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+      ],
+      "conditions": "Author attribution, original source and license retained. Complete article text-only extraction; all visual/audio/interactive media excluded; not byte-identical HTML."
+    }
+  ]
+}

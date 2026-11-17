@@ -1,0 +1,674 @@
+TITLE: Autoregressive Modeling of Film with Applications in Video Montage (FilmGPT)
+SOURCE PDF: https://arxiv.org/pdf/2607.14645v2
+LICENSE: Article explicitly declares CC BY 4.0 on first page; arXiv hosting license does not replace the separate author-granted work license. https://creativecommons.org/licenses/by/4.0/
+TRANSFORMATION: Complete all-page text extraction. Excludes all figures, screenshots and EditStock-copyrighted video thumbnails. Figure captions, authors, references, license and third-party notices retained. This is not the original PDF.
+ORIGINAL PDF SHA256: fd7b95ee93e27752c4d140dc9d17b7b0ef90fcb6d25b76982d6b57f1ed298770
+
+                                         Autoregressive Modeling of Film with Applications in Video Montage
+                                         MARCELO SANDOVAL-CASTAÑEDA, TTI-Chicago, USA
+                                         FABIAN CABA HEILBRON, Adobe, USA
+                                         SHIRY GINOSAR, TTI-Chicago, USA
+                                         BRYAN RUSSELL, Adobe, USA
+                                         JOSEF SIVIC, Adobe, USA and Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University, Czech
+                                         Republic
+                                         ALEXEI EFROS, UC Berkeley, USA
+                                         GREGORY SHAKHNAROVICH, TTI-Chicago, USA
+
+                                                                                           https://mudtriangle.com/filmgpt
+                                         Input Footage                                 Output Video
+arXiv:2607.14645v2 [cs.CV] 20 Jul 2026
+
+
+
+
+                                                                                                          Establishing Sequence                      Cut on Action                     Point-of-View
+
+
+
+
+                                                                         FilmGPT
+                                         Fig. 1. From raw footage to edited video with emergent idioms. Our system takes as input a collection of raw footage, typically hundreds of minutes.
+                                         Our autoregressive model FilmGPT selects, trims and assembles videos from this collection into plausible sequences of shots. We find that this approach
+                                         produces edited sequences where standard film editing idioms, such as establishing sequences, cutting on action, and point-of-view shots, naturally emerge.
+                                         Thumbnails are copyrighted and belong to EditStock.
+
+                                         This work introduces FilmGPT, an autoregressive transformer designed to                 outperforming the previous state of the art. We then evaluate our footage-
+                                         address the challenge of video montage – turning a collection of raw, “un-              constrained decoding algorithm on the full film editing task via a user study,
+                                         watchable” footage into coherent cinematic sequences. Inspired by language              and find that our FilmGPT-based editing significantly outperforms previous
+                                         learning in modern LLMs, we train a long-context autoregressive trans-                  approaches. Finally, we demonstrate the applicability of FilmGPT to a wide
+                                         former on a large corpus of movies. The aim is to implicitly capture the                range of applications in video montage, from automatic video segment trim-
+                                         “grammar” of film directly from data rather than from hand-coded rules.                 ming to human-in-the-loop film editing. Please see our supplementary
+                                         Unlike other generative models, FilmGPT does not generate any new video                 material for qualitative results.
+                                         frames. Instead, at inference time, we introduce a footage-constrained de-              CCS Concepts: • Applied computing → Media arts.
+                                         coding algorithm to select the best next shot from the input raw footage
+                                         according to the statistical patterns learned from films. We first evaluate             Additional Key Words and Phrases: video editing
+                                         these learned statistics directly by using the FilmGPT autoregressive model             ACM Reference Format:
+                                         for next shot prediction on a standard benchmark of shot sequence ordering,             Marcelo Sandoval-Castañeda, Fabian Caba Heilbron, Shiry Ginosar, Bryan
+                                                                                                                                 Russell, Josef Sivic, Alexei Efros, and Gregory Shakhnarovich. 2026. Au-
+                                         Authors’ Contact Information: Marcelo Sandoval-Castañeda, marcelo@ttic.edu, TTI-        toregressive Modeling of Film with Applications in Video Montage. In Spe-
+                                         Chicago, USA; Fabian Caba Heilbron, Adobe, USA, caba@adobe.com; Shiry Ginosar,
+                                                                                                                                 cial Interest Group on Computer Graphics and Interactive Techniques Con-
+                                         TTI-Chicago, USA, shiry@ttic.edu; Bryan Russell, Adobe, USA, brussell@adobe.com;
+                                         Josef Sivic, Adobe, USA;, Czech Institute of Informatics, Robotics and Cybernetics,     ference Conference Papers (SIGGRAPH Conference Papers ’26), July 19–23,
+                                         Czech Technical University, Czech Republic, inr03127@adobe.com; Alexei Efros, UC        2026, Los Angeles, CA, USA. ACM, New York, NY, USA, 11 pages. https:
+                                         Berkeley, USA, aaefros@berkeley.edu; Gregory Shakhnarovich, TTI-Chicago, USA,           //doi.org/10.1145/3799902.3811220
+                                         greg@ttic.edu.
+                                                                                                                                 1   Introduction
+                                                                                                                                 Video authoring and filmmaking once belonged to large crews,
+                                         This work is licensed under a Creative Commons Attribution 4.0 International License.   specialized equipment, and sky-high budgets. Over the last two
+                                         SIGGRAPH Conference Papers ’26, Los Angeles, CA, USA                                    decades, that barrier has collapsed. Digital cameras – and then
+                                         © 2026 Copyright held by the owner/author(s).
+                                         ACM ISBN 979-8-4007-2554-8/2026/07                                                      smartphones – made capture cheap, portable, and nearly effortless.
+                                         https://doi.org/10.1145/3799902.3811220                                                 Weddings, birthdays, school plays, camping trips, and everyday
+
+                                                                                                                                         SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+2   •   Sandoval-Castañeda et al.
+
+
+moments are now routinely recorded, often by several people at                             Our approach takes a different path. We make the following tech-
+once. The result is an unprecedented abundance of raw video: hours,                     nical contributions. (1) We frame the task of computational
+sometimes tens of hours, of footage for a single event.                                 video montage as a next-token prediction problem over dis-
+   And yet, most of this footage is never watched. The reason is                        crete video tokens. We propose a long-context autoregressive
+simple and well understood by filmmakers: raw video is largely                          transformer (dubbed FilmGPT, illustrated in Fig. 1), optionally condi-
+unwatchable. Cameras run too long, frames “wander”, and moments                         tioned on audio, that predicts sequences of tokens corresponding to
+repeat. Editing – in the sense of video montage, the selection, trim-                   frames drawn from a collection of raw footage. This formulation al-
+ming, and ordering of shots rather than pixel-level modification                        lows the model to learn the “grammar” of film editing directly from
+– is what turns this unruly material into something coherent and                        data rather than from hand-coded rules, while operating strictly
+engaging. In professional filmmaking, editing routinely discards the                    on existing visual material. (2) We make editing a first-class
+vast majority of captured footage – often on the order of a 1:100                       operation in video modeling by introducing an explicit ⟨CUT⟩
+shooting ratio – to leave behind a carefully shaped sequence of                         token and a modified cross-entropy objective, enabling the model to
+shots. This observation is hardly new. Indeed, Orson Welles once                        jointly reason about shot selection and trimming. (3) We design an
+said that “it is the very eloquence of the cinema that is constructed                   inference-time footage-constrained decoding algorithm that
+in the editing room.” [Bazin et al. 1958]                                               applies the learned model to assembly of raw footage into edited
+   Importantly, editing is not an ad-hoc or purely intuitive process.                   video sequences that follow standard cinematic editing conventions.
+It is a craft with a well-defined vocabulary and a learned “gram-                       (4) We demonstrate the effectiveness of our approach through
+mar”. Film schools and textbooks devote extensive attention to film                     both qualitative and quantitative evaluation, focusing primar-
+editing idioms, such as continuity editing, cutting on action, shot-                    ily on professional-grade footage where editing conventions are
+reverse-shot patterns, match cuts, pacing, and visual rhythm [Arijon                    clearly expressed and evaluation is more controlled. This includes a
+1991; Katz 1991]. These conventions are taught because they work:                       user study showing strong human preference over prior automated
+when applied skillfully, they make edits feel “invisible”, preserving                   editing methods, as well as state-of-the-art performance on the
+coherence and guiding the viewer without calling attention to the                       AVE [Argaw et al. 2022] shot sequence ordering benchmark. Finally,
+edit itself. At the same time, any experienced editor knows that                        we demonstrate the model’s versatility in professional applications
+these rules are flexible, frequently bent, and occasionally broken in                   such as multi-camera editing and stringout assembly.
+service of the material. This combination – structured principles
+coupled with contextual judgment – makes editing both powerful                          2 Related Work
+and difficult to formalize.
+   It is useful to think of editing techniques as operating at multiple                 2.1 Computational Models of Film Editing Idioms
+levels of abstraction. At the lowest level are shot-quality decisions:                  Film idioms are the underlying structural units in which shots (video
+removing technically flawed material, trimming unusable segments,                       sub-clips delimited by two cuts within a longer movie) are ordered
+and ensuring that individual shots meet basic visual standards. At                      to convey meaning [Metz 1992]. There have been many attempts at
+the mid level are structural decisions that make sequences coherent:                    understanding and applying movie idioms computationally. Early
+continuity editing, cutting on action, respecting screen direction, as-                 works formalize idioms explicitly: hierarchical expert systems for
+sembling common patterns such as shot-reverse-shot or establishing                      movie editing [Karp and Feiner 1993], declarative programming
+sequences, and controlling pacing. At the highest level lie narrative                   languages for camera control [Christianson et al. 1996], and finite
+and thematic decisions – what a scene is about, what emotional                          state machines [He et al. 1996]. Further work decomposes the movie
+arc it serves, and how sequences relate across an entire film. Our                      editing process into a series of actions to be performed iteratively
+present work concentrates on the low- and mid-level abstractions.                       using these formalizations [Jhala and Young 2005]. The movie edit-
+   These abstractions are difficult to encode explicitly and to auto-                   ing task can also be modeled as path finding in a graph where
+mate. The “grammar” of editing is not a set of rigid rules that can                     nodes are sub-clips, and the edges have costs obtained from hand-
+be cleanly programmed: conventions are often violated deliberately,                     crafted functions based on idioms and other constraints [Lino et al.
+context matters deeply, and acceptable edits are non-unique. The                        2011]. Other approaches aimed to develop query and query-like
+combinatorial space of possible edits grows explosively with footage                    languages with which to describe cinematographic properties of
+length, making exhaustive search infeasible. Moreover, many mid-                        individual shots [Ronfard et al. 2015], stylistic patterns and con-
+level techniques, such as dialogue shot-reverse-shot1 , require rea-                    straints [Wu and Christie 2016], or both [Wu et al. 2018]. The first
+soning over extended temporal windows, beyond individual frames                         approach to learn film editing patterns directly from data used a
+or short clips. This reasoning is needed both to decide which shots to                  Hidden Markov Model (HMM) and relied on manual annotation of
+select and where within an action to place cuts, including identifying                  cinematographic data [Merabti et al. 2016]. A competing approach
+corresponding moments across shots. As a result, prior automated                        showed that hand-crafting HMM parameters following a list of id-
+editing systems have largely relied on low-level signals such as                        ioms was more effective in producing high-quality edits without
+motion or saliency, producing results that are highlight-driven but                     costly annotations [Leake et al. 2017].
+often brittle [Gygli et al. 2016; Xiong et al. 2019].                                      Most recently, Argaw et al. [2024] propose the Trailer Generation
+1 A dialogue shot-reverse-shot is an editing technique that depicts a conversation
+                                                                                        Transformer (TGT), an encoder-decoder transformer for sequencing
+between two characters by cutting back and forth between people speaking and reacting   shots into movie trailers. TGT represents a movie as a sequence
+to each other.                                                                          of shot embeddings (e.g., CLIP features) and learns, from curated
+
+SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+                                                                                         Autoregressive Modeling of Film with Applications in Video Montage   •   3
+
+
+Next Token Prediction Training                                          Inference with Footage-Constrained Decoding
+
+
+                                  FilmGPT
+                                                                                                                                                 …
+                                                                                Footage-Constrained         Footage-Constrained          Footage-Constrained
+                                                                                     Decoding                    Decoding                     Decoding
+                         ⟨CUT⟩ Token      ⟨CUT⟩ Token
+AF3            TiTok-L              TiTok-L           TiTok-L
+                                                                                                                 FilmGPT
+
+
+                                  Edited Cuts
+
+
+
+Fig. 2. Overview of our computational video montage framework. (Left) During training, FilmGPT from movies via next token prediction. Given an
+edited video, each frame is individually tokenized using TiTok-L [Yu et al. 2024], and an additional ⟨CUT⟩ token is added at the boundaries of each shot. For
+the purposes of this visualization, each frame is tokenized to one single token. In our actual implementation, each frame is tokenized to a sequence of 32
+tokens. Tokens belonging to the same shot are shown in the same color. The ⟨CUT⟩ token is shown with red diagonal stripes. FilmGPT is then trained as an
+autoregressive model using next token prediction with interleaved cross-attention layers that attend to the audio features produced by Audio Flamingo 3 [Goel
+et al. 2025]. (Right) At inference time, we produce edited video sequences using our footage-constrained decoding algorithm. At each step, the sampling
+algorithm chooses and trims a new shot from the video collection V, which is then appended to the original context to select the shot that follows. This
+process is repeated until the desired number of shots (or duration) is reached. Thumbnails are copyrighted and belong to EditStock.
+
+
+movie-trailer pairs, to generate a trailer shot sequence autoregres-              of user interfaces that allow for interactive video editing using AI
+sively. Our approach is related in spirit to TGT – both cast editing              systems [Huber et al. 2019; Huh et al. 2023; Tilekbay et al. 2024;
+as sequence modeling – but differs in objective and supervision. We               Wang et al. 2024a,b].
+model movies as sequences directly, as opposed to assembling trail-                  Other recent approaches leverage pre-trained language models
+ers, and thus do not require aligned movie-trailer pairs. Moreover,               to produce movies from existing footage. The objective of these
+TGT operates on fixed-size shots, whereas our model operates at                   approaches is fine-grained user control by using natural language.
+the frame level with an explicit cut operation, using a decoder-only              For example, Transcript2Video [Xiong et al. 2022] takes in a text
+autoregressive (AR) transformer and a discrete image tokenizer. This              query and retrieves footage that is most similar to the text query
+is also reminiscent of Merabti et al. [2016], which requires manual               in a joint text-image embedding space. TimelineAssembler [Pardo
+annotations. In contrast, our supervision reduces to shot boundaries,             et al. 2024] requires text prompts of explicit editing actions to ex-
+which can be obtained reliably with off-the-shelf detectors such as               ecute, e.g., “swap the order of the first two shots”, and fine-tunes
+TransNet V2 [Souček and Lokoč 2024].                                              a language model that outputs resulting edited videos. Finally, Ed-
+   Finally, our formulation is also inspired by the classic Video Tex-            itDuet [Sandoval-Castañeda et al. 2025] models the video editing
+tures work [Schödl et al. 2000]. Video Textures addresses the comple-             task as an interaction between two LLM-based agents that aim to
+mentary problem of synthesizing arbitrarily long, visually coherent               satisfy a high-level user request expressed in natural language.
+sequence from a short clip. It represents a video texture as a Markov                Our work targets a different level of abstraction than these language-
+chain in which each state is a frame and transition probabilities are             driven editing systems. Transcript2Video, TimelineAssembler, and
+derived from frame similarity. Then, synthesis proceeds by travers-               EditDuet focus on high-level intent and user control. They use lan-
+ing this transition graph, selecting the next frame according to its              guage to decide what to include and how to change a timeline. Our
+transition probabilities. We adopt a similar sequential generation                FilmGPT does not reason over natural language. It models the low-
+view, but for editing: FilmGPT predicts the next discrete visual token            and mid-level editing layer: selecting and trimming footage, placing
+and uses an explicit cut token to decide when to cut.                             cuts, and shaping local coherence from audiovisual cues. Never-
+                                                                                  theless, in Sec. 4.1, we show that FilmGPT can be wrapped with a
+                                                                                  language interface to enable a direct comparison to prior language-
+2.2   High-level Approaches for Computational Video
+                                                                                  driven editing systems. Given a user request, an LLM proposes a
+      Montage                                                                     candidate set of shots from the footage, and FilmGPT turns that set
+Many systems have been proposed to tackle specific sub-tasks                      into an edit by selecting, trimming, cutting, and pacing the final
+in movie editing. Some of these include predicting cuts in inter-                 sequence. This isolates the low- and mid-level editing problem while
+views [Berthouzoz et al. 2012] to assemble a story, editing musical               keeping the narrative intent in the language space.
+performances [Lee et al. 2022], gaze-informed editing from a wide
+shot [Moorthy et al. 2020], or determining transitions between clips
+that are fixed and given to the model [Guhan et al. 2025; Shen et al.
+2022]. In addition, there are works that address the development
+
+                                                                                          SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+4   •    Sandoval-Castañeda et al.
+
+
+3       Computational Video Montage Framework                                   goal is to model filmmaking choices, we also represent each “cut”
+Our goal is to develop a system that outputs a video montage given              (i.e., the change from one continuous camera stream to the next
+a collection of raw footage. Such a system must make a series of                within a long video) explicitly with a ⟨CUT⟩ token. This makes cut
+editing decisions – selecting shots, placing cuts to trim them, and             placement a first-class event the model can learn to predict. Finally,
+ordering the resulting trimmed shots into a coherent sequence.                  we prepend and append beginning- and end-of-sequence tokens.
+Our key insight is that, while raw footage is unstructured, movies              3.1.2 Autoregressive Transformer with Long Context. Given the dis-
+exhibit recurring patterns governing these decisions. These patterns            crete token sequence x defined above, FilmGPT parameterizes the
+correspond to common film idioms [Arijon 1991; Metz 1992]. By                   conditional distribution 𝑝 (𝑥𝑡 | 𝑥 <𝑡 ) with a decoder-only autoregres-
+training an autoregressive model on movies, we can learn these                  sive transformer trained for next-token prediction. As the above
+patterns from data and use it to assemble raw footage into a coherent           tokenization procedure yields an average length of 102k tokens for a
+video montage.                                                                  single video in the AVE dataset [Argaw et al. 2022], naively applying
+   We formalize this idea by representing movies as sequences of                full self-attention is expensive due to its quadratic complexity in
+frames and explicit cut events, encoded as discrete tokens inter-               sequence length. At the same time, editing decisions require both
+leaved with a special ⟨CUT⟩ token. Let x = (𝑥 1, . . . , 𝑥𝑇 ) denote this       temporally fine-grained cues and long-range context, so it would
+sequence, with each 𝑥𝑡 drawn from a discrete vocabulary. In prac-               be detrimental to truncate or subsample this context.
+tice, each video frame is encoded as a short run of tokens (32 in                  To make long-context modeling feasible, we adopt sliding win-
+our implementation), and we insert a single ⟨CUT⟩ token between                 dow attention [Beltagy et al. 2020], which reduces self-attention
+shots.                                                                          cost from O (𝑛 2 ) to O (𝑛𝑤), where 𝑛 is the sequence length and 𝑤
+   We model the joint probability distribution 𝑝 (x) of professionally          the sliding-window size. A window size of 16k tokens enables our
+edited video sequences and factorize it autoregressively:                       model to train with a 128k-token context. Ignoring cut tokens, at 32
+                                  𝑇
+                                  Ö                                             tokens per frame, this is roughly equivalent to 4000 frames or, at 24
+                        𝑝 (x) =          𝑝 (𝑥𝑡 | 𝑥 1, . . . , 𝑥𝑡 −1 ).    (1)   frames per second, more than 2.5 minutes of video. In comparison,
+                                  𝑡 =1                                          the average sequence of shots in the AVE dataset [Argaw et al. 2022]
+This formulation casts editing as causal next-token prediction over             is 2.25 minutes long, and instructional filmmaking books point at 3
+frames and cuts, in direct analogy to language modeling.                        minutes as the maximum suggested duration of a scene [Trottier
+   Unlike standard language generation, where token sequences can               1994]. For more details on the model and training, see the supplemen-
+be arbitrary, an edit must be constrained to the footage collection. In         tary material.
+our formulation, this means we cannot freely generate tokens from               3.1.3 Cut-Weighted Cross Entropy Loss. The training sequences
+the vocabulary. Instead, we decode under a hard footage constraint:             are long and contain few cuts: on average, a 128k token sequence
+between ⟨CUT⟩ tokens, the visual tokens must correspond to a                    extracted from a typical movie scene contains only 34 ⟨CUT⟩ tokens.
+contiguous subsequence existing in the set of the raw input videos.             As a result, training with standard cross-entropy loss encourages
+   Our framework therefore consists of two main components, as                  the model to spend most of its capacity on predicting the next
+shown in Fig. 2:                                                                token within a shot, rather than on learning when to cut and what
+1. An autoregressive model, FilmGPT, which learns a joint distribu-             shot should follow. For our task, these cut decisions are a primary
+   tion 𝑝 (x) over sequences of frame and cut tokens from profes-               modeling target. Thus, we modify the standard cross-entropy loss
+   sional movies (Sec. 3.1).                                                    used in language modeling, introducing position-dependent weights
+2. An inference-time footage-constrained decoding algorithm, which              that upweight cut tokens and the short sequence immediately after
+   finds the highest-likelihood edit while enforcing that each shot             a cut. Formally, 𝑥𝑖 denotes the ground-truth token at position 𝑖 and
+   is a contiguous segment of the footage collection (Sec. 3.2).                𝑝ˆ𝑖 the model’s predicted distribution over the token vocabulary,
+                                                                                such that:
+3.1      FilmGPT: Autoregressive Modeling of Film                                                   ℓ𝑖 = 𝛿𝑖 · 𝐶𝐸 (𝑥𝑖 , 𝑝ˆ𝑖 ),                      (2)
+We now describe the instantiation of FilmGPT used to model movies.                                       (
+                                                                                                           𝑤 − 𝑑𝑖cut, if 𝑑𝑖cut < 𝑤,
+Specifically, we define the discrete sequence x and parameterize                                    𝛿𝑖 =                                           (3)
+𝑝 (𝑥𝑡 | 𝑥 <𝑡 ) with a long-context autoregressive transformer, using a                                     1,              otherwise,
+cut-weighted loss and optional audio conditioning.                              where 𝐶𝐸 (·, ·) is the standard cross-entropy loss, 𝑤 is the maximum
+                                                                                weight given to a cut token, and 𝑑𝑖cut denotes the distance from
+3.1.1 Discrete Tokenization of Edited Videos. To build FilmGPT,
+                                                                                position 𝑖 to the nearest preceding ⟨CUT⟩ or zero, if the token at
+we represent a movie as a single discrete token sequence x =
+                                                                                position 𝑖 is itself a cut. This ensures that the loss weight is larger
+(𝑥 1, . . . , 𝑥𝑇 ) that interleaves frame and cut tokens. We use TiTok-
+                                                                                when the target is a ⟨CUT⟩ token, and it quickly decays back to
+L [Yu et al. 2024] to encode each frame into 32 discrete tokens
+                                                                                standard cross-entropy after a small window 𝑤 of tokens that follow.
+from a 4096-token vocabulary. We chose this method as it is a one-
+                                                                                We empirically set 𝑤 = 32, matching the number of tokens that
+dimensional sequence of tokens, it produces short sequences com-
+                                                                                correspond to a single frame.
+pared to other discrete tokenizers, and it empirically yields sufficient
+reconstruction quality. For qualitative examples of TiTok-L recon-              3.1.4 Audio Conditioning. Movie editing decisions are often driven
+struction on our data, see the supplementary material. Since our                by sound cues, especially for pacing and cut timing. Therefore, we
+
+SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+                                                                                  Autoregressive Modeling of Film with Applications in Video Montage   •   5
+
+
+                Video Tokens             Time
+                                                                            Algorithm 1 Footage-Constrained Decoding Algorithm
+                                                                            Input: Model M, Video collection V, Init sequence 𝑠, Beam width
+Audio Vectors             Time-Aware Cross-Aention                              𝑘, Max shots 𝑁 shots , Max tokens 𝑁 tokens
+                                                                            Output: Edited token sequence 𝑠
+  Time                                                                        1: function GenerateVideo(M, V, 𝑠, 𝑘, 𝑁 shots , 𝑁 tokens )
+                                                                              2:     𝑐 shots ← 0
+                                                                              3:     while 𝑐 shots < 𝑁 shots and length(𝑠) < 𝑁 tokens do
+Fig. 3. Audio conditioning via cross-attention. For the purposes of this
+                                                                                     // Step 1: Produce unique candidates
+visualization, each audio token corresponds to one second and each video      4:          𝐴 ← ConstrainedBeamSearch(M, V, 𝑠, 𝑘)
+token corresponds to 0.25 seconds. Each video token only cross-attends to     5:          if 𝐴 = ∅ then break
+the audio vectors corresponding to the past and to the current second in      6:          𝑠 best ← null, 𝐿best ← ∞, 𝑣 best ← null
+time. The ⟨CUT⟩ token is shown with red diagonal stripes.                                 // Step 2: Find optimal length of each candidate
+                                                                              7:          for each video-position pair (𝑣, 𝑝) ∈ 𝐴 do
+                                                                              8:                𝐹 ← ExtractTokens(V, 𝑣, 𝑝)
+                                                                              9:                𝑠 cut, 𝐿cut ← FindCut(M, 𝑠, 𝐹 )
+additionally condition our model on audio features from the edited                              // Step 3: Finalizing the next shot
+sequences during training. We extract audio representations using            10:                if 𝐿cut < 𝐿best then
+Audio Flamingo 3 [Goel et al. 2025], then mean pool these to one             11:                      𝐿best ← 𝐿cut , 𝑠 best ← 𝑠 cut , 𝑣 best ← 𝑣
+feature vector per second for efficiency. During training, we drop           12:                end if
+the audio features with probability 0.4 to prevent our model from            13:          end for
+over-reliance on audio.                                                      14:          if 𝑠 best = null then break
+   The audio features are introduced to our autoregressive model by          15:          𝑠 ← Concat(𝑠, 𝑠 best )
+interleaving self-attention blocks with cross-attention blocks where         16:          𝑐 shots ← 𝑐 shots + 1
+the keys and values come from audio features [Dong et al. 2018].             17:     end while
+As the audio for the next shot may inform what the current visual            18:     return 𝑠
+content should be, a given token in a sequence is only allowed to            19: end function
+attend to audio features on the vector corresponding to the current
+second and to all vectors in the past, but not the future. A cut            20: function ConstrainedBeamSearch(M, V, 𝑠, 𝑘)
+always attends to the same audio vectors as the token immediately           21:    𝐵 ← {𝑠} // Initialize beam
+preceding it. Our audio conditioning is illustrated in Fig. 3.              22:    while not AllCandidatesUnique(𝐵, V) do
+                                                                            23:       𝐵 next ← ∅
+3.2      Footage-Constrained Decoding Algorithm                             24:       for each candidate 𝑐 ∈ 𝐵 do
+Given our trained autoregressive model, we seek to edit raw footage         25:            𝑃 ← NextTokenProbabilities(M, 𝑐)
+from a video collection of any duration. This task is challenging as        26:           𝑇valid ← GetValidNextTokens(V, 𝑐)
+there are combinatorial possible ways to select and trim footage            27:            𝑃 ← MaskInvalidTokens(𝑃,𝑇valid )
+from the collection. We are inspired by constrained generation ap-          28:           𝑇top_k ← GetTopK(𝑃, 𝑘)
+proaches that output a sequence of tokens one at a time using beam          29:            for each token 𝑡 ∈ 𝑇top_k do
+search [Hokamp and Liu 2017]. However, these works usually sam-             30:                𝐵 next ← 𝐵 next ∪ {Concat(𝑐, 𝑡)}
+ple from the model following permissive sets of rules, whereas we           31:            end for
+need to ensure that the selected subsequences are constrained to the        32:       end for
+video collection, and that selected shots are separated with ⟨CUT⟩          33:       𝐵 ← PruneToTopK(𝐵 next, 𝑘)
+tokens. We address this by using a footage-constrained generation           34:    end while
+approach. Let V be a tokenized video collection of raw footage, com-        35:    return GetVideoPositions(V, 𝐵)
+posed of videos of variable length. We perform beam search over             36: end function
+the space of possible edited videos assembled from subsequences in
+collection V.                                                               37: function FindCut(M, 𝑠 base , 𝐹 )
+   We start with a sequence of tokens 𝑠 to be extended. At a given          38:    𝐼 valid ← TokensPerFrame(𝐹 ) // 32 tokens in TiTok-L
+step in the editing selection process, we maintain a beam of 𝑘 can-                // Compute per-token NLL for all valid prefixes
+didate extensions of a given length, say 𝑚 tokens. Critically, we           39:    𝐿array ← PrefixCutNLL(M, 𝑠 base, 𝐹, 𝐼 valid )
+enforce a hard subsequence constraint: every generated token pre-           40:    𝑖 opt ← arg min𝑖 ∈𝐼valid 𝐿array [𝑖]
+fix must match a contiguous span of tokens in at least one video in         41:    𝑠 best_cut ← Concat(𝐹 [0 : 𝑖 opt ], ⟨CUT⟩)
+V. The algorithm proceeds along the following three steps (details          42:    return 𝑠 best_cut, 𝐿array [𝑖 opt ]
+are in the supplementary material).                                         43: end function
+
+3.2.1 Step 1: produce unique candidates. We start with empty can-
+didate sequences and extend them one token at a time, each time
+
+                                                                                   SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+6   •   Sandoval-Castañeda et al.
+
+
+Transcript2Video [Xiong et al. 2022]
+
+
+
+
+EditDuet [Sandoval-Castaneda et al. 2025]
+
+
+
+
+FilmGPT (Ours)
+
+
+
+
+Fig. 4. Samples from the three competing methods in our user study. Transcript2Video [Xiong et al. 2022] often suffers from repeated shots. Edit-
+Duet [Sandoval-Castañeda et al. 2025] shows high bias towards shots of people talking, and shifts between characters doing seemingly unrelated tasks.
+In contrast, our method sticks to a specific set of characters, and shows clear progression in the task of baking bread across the entire sequence. See the
+supplementary material for these video outputs. Thumbnails are copyrighted and belong to EditStock.
+
+
+retaining the 𝑘 top valid candidates under the subsequence con-                 4     Results
+straint. Since each frame is represented by 32 discrete tokens, short           We train FilmGPT using edited video sequences from several sources:
+prefixes (e.g., the first 1–3 tokens) may match multiple frames in              AVE dataset [Argaw et al. 2022], movies in the public domain in
+V. Thus, we keep extending each candidate until it has a unique                 the US, movies from the Soviet studio Mosfilm available online, and
+anchor in V, i.e., it matches a single frame occurrence (at a specific          feature-length documentaries with permissive Creative Commons
+video and position). In practice, this requires fewer than 32 tokens.           licenses, for a total of 6200 hours of training footage. The AVE
+                                                                                dataset has scenes segmented into shots. For the other movies, we
+                                                                                use an off-the-shelf shot change detector [Souček and Lokoč 2024].
+3.2.2 Step 2: finding optimal length of each candidate. We extend
+each candidate by adding varying numbers of frames following it
+in the associated video in collection V, up to 10 seconds, and select           4.1    User Study: B-Roll Documentary Editing
+the extension which, appended with the cut token, has the highest               We ran a user study using the EditStock [EditStock 2025] evalua-
+per-token likelihood under the model. This can be done efficiently in           tion setup proposed in EditDuet [Sandoval-Castañeda et al. 2025].
+FilmGPT, computing likelihoods in parallel for all possible lengths.            It is a forced choice preference assessment where we ask partici-
+                                                                                pants to compare editing quality between samples from our model
+                                                                                against baselines using the same raw footage. The samples come
+3.2.3 Step 3: finalizing the next shot. Step 2 yields 𝑘 candidate shots         from documentaries where each model is tasked with assembling
+extending sequence 𝑠, potentially of different lengths. We sample one           B-roll sequences starting from a fixed A-roll sequence. A-roll refers
+of these with weights proportional to their per-token likelihoods, or           to voice-over or talking head interview footage, and B-roll refers to
+(if doing greedy decoding) select the one with the highest likelihood.          the complementary visuals that aid in storytelling. This is a standard
+In our experiments, we use greedy decoding.                                     task in documentary filmmaking, where editors assemble A-roll as
+    Note that one can further restrict the process by, e.g., removing           an initial step and then work on the corresponding B-roll.
+frame sequences already in sequence 𝑠 from the video collection V.                 Following EditDuet, we show participants the two videos with
+We do not do this in our experiments, and observe that the model                their corresponding audio tracks and ask them “Which of the two
+avoids such duplicate selections naturally.                                     video sequences is better edited?” to assess general preference.
+    Each round of this process yields the new extended sequence                 We compare results from our algorithm with results from Tran-
+𝑠, which is then fed to the next round as input to the model to                 script2Video [Xiong et al. 2022] and EditDuet [Sandoval-Castañeda
+be extended further, as shown in Fig. 2 (right). This results in our            et al. 2025]. We ran this study with a total of 83 participants on the
+model producing a full edited sequence. There are multiple possible             Prolific platform, for a total of 1242 data points. Fig. 4 shows one
+stopping conditions for this algorithm, depending on the application:           sample edited video for each method in our user study.
+desired number of shots in sequence, desired duration of sequence,                 As our model does not support text instructions natively, we
+number of distinct source videos selected from V, etc. The full                 adapt our footage-constrained decoding algorithm (Sec. 3.2) and
+pseudo-code is in Algorithm 1.                                                  include a large language model (LLM) planner. We use the same LLM
+
+SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+                                                                                       Autoregressive Modeling of Film with Applications in Video Montage   •   7
+
+
+Q: Which of the two video sequences is beer edited?   FilmGPT      Other      Table 1. Ablations on shot sequence ordering. Previous state-of-the-art
+                    83.07%                                 16.93%   T2V        performance (UQNet [Li et al. 2025]) included for reference. Best perfor-
+                    61.49%                                 38.51%   EditDuet   mance in bold. “Acc@1” refers to standard accuracy and “Acc@3” (first
+                                                                               reported in UQNet), refers to the likelihood that the correct ordering is
+                                                                               included within the top 3 predictions of the model.
+Fig. 5. Participant preference results in our user study. We compare
+our model with T2V [Xiong et al. 2022] and EditDuet [Sandoval-Castañeda
+et al. 2025]. 𝑝 < 0.001 for all results. Our method outperforms competing                   Model                 Acc@1          Δ      Acc@3          Δ
+methods in terms of participant preference.
+                                                                                   UQNet [Li et al. 2025]           35.3         —         69.8        —
+                                                                                   Base AR Transformer              25.3        —         57.1        —
+as in EditDuet (Llama-3.1-8B-Instruct [Dubey et al. 2024]). The                     + ⟨CUT⟩ Token                   29.7       + 4.4      67.3       +10.2
+LLM receives a JSON file containing high level descriptions of every                + Cut-Weighted CE               34.5       + 9.2      68.9       +11.8
+video in the raw footage and an instruction in plain text from the                  + 128k Context                  44.5       +19.2      81.4       +24.0
+EditDuet user study. Instructions are high-level descriptions of B-roll             + Audio Conditioning            50.5       +25.2      84.1       +26.7
+sequences, along with a desired duration. The LLM then decomposes                   + Our Datasets                  53.9       +28.6      84.3       +26.9
+the instruction into descriptions of the visual components of each
+B-roll sequence, e.g., “Tight close-ups of an old woman kneading
+dough, interleaved with close-ups of her face while baking. End with           attention in our autoregressive transformer so that its context can be
+fast-paced shots of the oven setup process” becomes “close-ups of              extended up to 128k tokens. At this step, we also start incorporating
+hands”, “old woman face”, “old woman opening oven”, etc. We then               into the input the context of the sequence that we are trying to order.
+constrain our video collection to files that match these descriptions          For example, a video 𝑠 is composed of 𝑡 shots 𝑠 0, 𝑠 1, . . . , 𝑠𝑡 −2, 𝑠𝑡 −1 .
+by computing CLIP [Radford et al. 2021] similarity with key frames             The task is to order the shots 𝑠𝑡 −3, 𝑠𝑡 −2, 𝑠𝑡 −1 . Our model can now
+from the raw footage. The top 50 video matches become the reduced              receive 𝑠 0, 𝑠 1, . . . , 𝑠𝑡 −4 as context to perform this task. This is both a
+video collection our model will sample from during editing. This               closer setup to the real task of editing and a way of including extra
+process is the only form of external conditioning that our model               information for the task that previous approaches are unable to
+receives when assembling these sequences.                                      incorporate. Accuracy with these additions jumps to 44.5%, showing
+   As shown in Fig. 5, our method is preferred by participants                 how important it is for editing to have access to a larger context.
+over the two methods we compare against. Compared to Tran-                     Adding audio conditioning also improves accuracy considerably, to
+script2Video, users prefer our method 83.07% of the time. Compared             50.5%. Audio from the context is included as-is, and audio from the
+to EditDuet, our method is preferred 61.49% of the time. Despite               sequence to be ordered is permuted to align with the six possible
+relying on the same LLM as EditDuet for story generation, our                  video orderings. Finally, we add our large collection of movies as
+method’s edits are favored over EditDuet’s, without multiple rounds            training on top of AVE. This pushes accuracy to a final number of
+of LLM calls, iterations, or exploration. In addition, EditDuet relies         53.9%, a full 18.6 points of improvement over the previous state of
+on pre-segmenting videos using TW-FINCH [Sarfraz et al. 2021],                 the art method, UQNet [Li et al. 2025]. Note that UQNet leverages
+whereas our method can perform this task implicitly.                           extra manual labels (shot size, camera angle, motion, genre). Despite
+                                                                               using no such annotations, our model learns directly from the data
+4.2    Ablation Study: Shot Sequence Ordering                                  and uses preceding context to implicitly capture rhythm, pacing,
+We use the standard AVE [Argaw et al. 2022] shot sequence ordering             and cinematic language.
+task as an indicator of performance when conducting ablations. The                Our ablations are all trained with a fixed compute budget. Train-
+task is as follows: given a set of three consecutive shots 𝑠 0 , 𝑠 1 , and     ing of the base AR transformer, the addition of a ⟨CUT⟩ token, the
+𝑠 2 from a scene, the model should determine the correct ordering              addition of cut-weighted cross entropy loss, and the 128k context
+of 𝑠 0 , 𝑠 1 , and 𝑠 2 . With our autoregressive model, we calculate the       each take 131.4 EFLOPs, and inference cost in these models is 0.07
+probability of each of the six possible orderings, and return the              GFLOPs per token. Our audio conditioned model and extra data
+highest probability ordering.                                                  take 239.7 EFLOPs to train and 0.13 GFLOPs per token.
+    Table 1 shows results of our ablations on shot sequence ordering.
+We start from a base autoregressive (AR) transformer without ⟨CUT⟩
+                                                                               5     Applications in Video Montage
+tokens and with a maximum context length of 16k tokens using full              Our model enables a range of real-world video editing applications.
+attention and no audio conditioning. We train it on AVE only, and              We use FilmGPT as-is and apply the same constrained editing algo-
+get an accuracy of 25.3%. Explicitly representing each cut with a              rithm across tasks, with only minor constraints tweaks. We present
+single token yields a significant improvement in accuracy, 29.7%.              four applications, from low-level to mid-level complexity.
+Next, training the model with our cut-weighted cross-entropy loss,
+which forces the model to prioritize cuts over other portions of               5.1    Video Segment Trimming
+the sequence, improves accuracy up to 34.5%. For comparison, we                When shooting film, it is common for videos to start and end with
+evaluate an alternative objective computed only at the final token of          footage that is not meant to be used in the final product. E.g., in
+each frame and at ⟨CUT⟩ tokens; however, this yielded an accuracy              scripted fiction film this includes elements of the filmmaking process
+of 19.2%, so we discard it. The following step is to use sliding window        such as slates, cameras moving into and out of position, and other
+
+                                                                                       SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+8   •   Sandoval-Castañeda et al.
+
+
+                                                                                of drawing from raw footage directly, and then further refined by
+                                                                                editors as needed.
+                                                                                   Our method is capable of coming up with stringouts given a video
+                                                                                collection and an empty initial sequence. We employ our editing
+                                                                                algorithm as-is over the entire collection of raw footage, and sim-
+                                                                                ply let it draw video sequences from any given file. As there is
+                                                                                no existing sequence that provides conditioning signal for pace or
+(a) Medium tracking shot from behind. Our method is able to discard             content, our method simply defaults to producing high likelihood se-
+the first start of the video, where the camera is being set up while pointing   quences, which generally respect film editing conventions. Though
+at the floor and moving around erratically. It also discards the end of the     this property also arises in other editing tasks, we find that assem-
+video, where the camera quickly moves around as it is being turned off.         bling stringouts in this way considerably increases the frequency
+                                                                                and diversity of identifiable film idioms.
+                                                                                   Fig. 7 and the supplementary material provide examples using
+                                                                                footage from EditStock documentaries. The input for the exam-
+                                                                                ples is the raw footage for each project (hundreds of minutes at
+                                                                                23.976 frames per second). Our method is able to assemble plausible
+                                                                                stringouts based on film idioms – cutting on action, establishing
+                                                                                sequences, and point-of-view shots, which are widely used building
+                                                                                blocks in film.
+(b) Frontal tracking close-up shot. Our method discards the first few
+frames where little is happening, and starts the sequence when the woman        5.3   Aligned Multi-Camera Editing
+starts walking. Our method cuts right before the woman walks out of the
+frame.                                                                          Mutli-camera setups are common when shooting live music perfor-
+                                                                                mances, theatre, and other live events that cannot afford multiple
+Fig. 6. Samples from our video segment trimming example applica-                takes. The cameras are placed in different locations in space and
+tion. Grayed out portions on the film strips are segments not selected by       synchronized by external devices to maximize coverage of the event.
+our method. The model correctly assigns low probability to segments that        Our footage-constrained decoding can be directly applied to multi-
+do not look cinematic and with erratic movements. Output trimmed videos         camera raw footage, with one new constraint: the model can no
+are provided in the supplementary material.                                     longer draw from any frame in any file, but only those that corre-
+                                                                                spond to the current time step in the video collection. The editing
+                                                                                task then becomes simply picking a frame from one of the video
+                                                                                streams at a time and deciding when to change video streams.
+general setup of a scene. A low-level task in video editing is to find             Fig. 8 and the supplementary material show an example output
+the segments in each video that do not include such elements.                   from our method. For this, we use the project “Before You Accuse
+   Our editing algorithm can be directly applied to this task. The              Me”, from the film editing website CineStudy. In the footage, a duo of
+“video collection” in this application is the single video at hand. We          musicians with guitars play a song in a small room facing toward the
+want the model to identify a contiguous sequence of tokens from                 cameras. The project consists of four video streams in sync: the first
+the video, appended with the ⟨CUT⟩ token, that has the highest like-            three are static cameras on a tripod and the fourth is a collection of
+lihood. As our model is trained on professional movies, a sequence              aligned B-roll stringouts from multiple handheld cameras. At every
+starting too early/late will yield a worse likelihood than trimming             frame, our model selects whether to continue on the current video
+to the useful segment.                                                          stream or to cut and switch to one of the other three. Our method
+   Fig. 6 and the supplementary material provide two examples of                cuts appropriately to the pacing of the song and selects portions
+this process with our own footage. We use tracking shots where                  of the footage with the appropriate main subject. It focuses on the
+portions of the beginning and end consist of erratic camera move-               correct guitars during guitar solos, moves to close-ups and medium
+ments and visual content of little interest, such as the ground and             shots of the person singing, and selects wider shots during the more
+the shoes of the cameraperson. These portions would be extremely                uneventful portions of the music video. In the segment shown in
+unlikely occurrences in a real movie and, in both examples, our                 Fig. 8, our method maintains an editing pattern of medium shot –
+method successfully trims them out.                                             close-up – medium shot – close-up during one of the guitar solos
+                                                                                that then moves into singing, and breaks it when that particular
+5.2     Assembling Stringouts                                                   section of the song is over.
+Stringouts are defined as smaller sequences of shots that are coher-
+ent next to each other in a larger film. These are typically sequences          5.4   Human-in-the-Loop Video Editing
+of two to four shots that follow certain patterns of editing, e.g.,             Finally, we show that our approach is well-suited for human-in-the-
+cutting on action or establishing sequences.                                    loop video editing. In this application, the task is to assist editors
+   Stringouts are commonly assembled as the first step in the editing           in completing a full edited video. We set this up by replacing the
+process. They are then used as building blocks to draw from, instead            LLM in our user study with a human editor that is assembling an
+
+SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+                                                                                         Autoregressive Modeling of Film with Applications in Video Montage   •   9
+
+
+                                                                                  per frame may allow for longer contexts and better results. Second,
+                                                                                  our method often cuts on action between two unrelated videos
+                                                                                  where motion is similar. This is common in projects having shots
+                                                                                  where one would expect a cut on action to occur, but there is no
+                                                                                  footage that would create a coherent cut on action. Fig. 10 shows an
+(a) Cut on action. Consecutive frames from sequences assembled by our             example of this failure mode. Third, the sequencing and trimming
+method for “Built by Life” and “The Ovens of Cappoquin”. Note how the             of video is but one task in the endeavor of film post-production.
+continuity of action is preserved across cuts in both sequences, despite the      Other tasks include editing audio, color grading, and shot transitions
+shots not being recorded at the same time.                                        different from cuts. Though our current model is conditioned on
+                                                                                  audio, it cannot directly modify it in any way. This limitation leaves
+                                                                                  some film idioms out of reach of our model, most notably L-cuts
+                                                                                  and J-cuts [Hockrow 2014]. Finally, the video editing task is one
+                                                                                  where a number of condition signals would help in producing better
+                                                                                  results. Some examples of useful condition signals are screenplays,
+                                                                                  storyboards, or explicit style directions. Our current version of this
+(b) Establishing sequence. Sequence of shots assembled by our method              model only receives conditioning from audio and constraints in the
+for “The Ovens of Cappoquin”. The video gets progressively closer to the          video collection through our inference algorithm, which is effective
+protagonist: first, with a long shot outside the bakery, then with the bakery’s   but limited. We envision future versions of this model to be capable
+street sign, followed by moving inside the bakery, and finally our protago-       of receiving more complex conditioning signals and style.
+nist’s face in a close-up as she drinks tea.                                         Ethical concerns include potential impact on labor and possible
+                                                                                  malicious use. Just as spell-checkers and auto-complete did not re-
+                                                                                  place the role of the writer, our goal is not to automate away the
+                                                                                  role of the human film editor. Our model handles the low- and mid-
+                                                                                  level tasks of video editing, such as pacing, continuity, and action
+                                                                                  matching. This frees the human editor to focus on high-level as-
+                                                                                  pects of editing: story-crafting, emotional arcs, and meaning. As for
+(c) Point-of-view. Consecutive frames from sequences assembled by our             potentially malicious use, our model is limited to splicing existing
+method for “The Rock Climber” and “The Ovens of Cappoquin”. The juxta-            footage with cinematic-quality cuts. Thus, unlike models that syn-
+position of these shots give the sensation that we see the objects (i.e., the     thesize new visual content, FilmGPT is unlikely to fabricate videos
+cliff on the left sequence and the dough on the right sequence) from the          or hallucinate events that did not occur. However, as with any edit-
+perspective of the protagonists.                                                  ing tool, the system could be misused to selectively recontextualize
+                                                                                  footage in misleading ways through omission or rearrangement. We
+Fig. 7. Samples from our stringouts example application. Our method               emphasize that FilmGPT is designed as an assistive, human-in-the-
+convincingly assembles short sequences of shots that respect simple movie         loop system: it proposes candidate edits, but editorial intent, factual
+idioms. Output stringout videos are provided in the supplementary material.
+                                                                                  integrity, and ethical responsibility remain with the user.
+Thumbnails are copyrighted and belong to EditStock.
+
+                                                                                  7   Conclusion
+edited draft for a short film. As the user edits, our method produces             In this paper, we show a simple and effective approach to computa-
+candidate sequences to continue the edit, and the human editor is                 tional video montage using autoregressive sequence modeling. Our
+able to choose and modify sequences produced by our method to                     approach achieves a new state of the art for shot sequence ordering
+edit instead of manually searching through the hundreds of minutes                and out-performs previous approaches in quality of edited results
+of raw footage. For this use case, we maintain the conditioning by                according to user studies. Taken together, our contributions show
+text description, and include further constraint options for the video            that large-scale sequence modeling provides a practical and effective
+collection based on the video metadata. These include constraining                way to learn and apply the “grammar” of film editing directly from
+by file name, location, date, and file directory. We include an example           data. More broadly, we see our work as part of a longer trajectory in
+output of this process for “The Ovens of Cappoquin” in Fig. 9 and in              graphics and vision: just as computational photography has dramat-
+our supplementary material. Producing an acceptable edited short                  ically improved the quality of everyday images without automating
+film of 3.5 minutes from 288 minutes of raw footage took an amateur               artistic intent, our work opens up a new avenue of human-computer
+editor a few hours, as opposed to the several days the task often                 co-creation for making existing video more watchable. In a world
+takes [La Rosa 2025].                                                             already saturated with video, the challenge is not to generate more,
+                                                                                  but to rescue from obscurity what has already been captured.
+6   Limitations and Ethical Considerations
+Our approach has the following limitations. First, FilmGPT is limited
+                                                                                  References
+                                                                                  Dawit Mureja Argaw, Fabian Caba Heilbron, Joon-Young Lee, Markus Woodson, and
+by the context length. We believe that switching from the TiTok                     In So Kweon. 2022. The Anatomy of Video Editing: A Dataset and Benchmark Suite
+tokenizer to one built specifically for video requiring fewer tokens                for AI-Assisted Video Editing. In ECCV. Springer, 201–218.
+
+
+                                                                                          SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+10   •   Sandoval-Castañeda et al.
+
+
+
+
+Fig. 8. Sample from our multi-camera editing example application. Grayed out portions on the film strips are segments not selected by our method.
+Footage comes from the project “Before You Accuse Me”, where a duo of musicians with guitars play in front of a number of cameras. Our method cuts
+between streams focusing on sources of audio and rhythm. The output edited video is in the supplementary material. Thumbnails are copyrighted and belong
+to CineStudy.
+
+
+
+
+Fig. 9. Sample from our human-in-the-loop video editing example application. The fourth frame in the strip belongs to the A-roll. Note the ability of
+our method to stick to thematic cross-cutting across B-roll sequences, where shots of the oven fire are interleaved with the process of preparing dough. See the
+supplementary material for the video outputs. Thumbnails are copyrighted and belong to EditStock.
+
+
+                                                                                        EditStock. 2025. EditStock. (2025). https://editstock.com
+                                                                                        Arushi Goel, Sreyan Ghosh, Jaehyeon Kim, Sonal Kumar, Zhifeng Kong, Sang-gil Lee,
+                                                                                           Chao-Han Huck Yang, Ramani Duraiswami, Dinesh Manocha, Rafael Valle, et al.
+                                                                                           2025. Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio
+                                                                                           Language Models. arXiv preprint arXiv:2507.08128 (2025).
+                                                                                        Pooja Guhan, Tsung-Wei Huang, Guan-Ming Su, Subhadra Gopalakrishnan, and Di-
+                                                                                           nesh Manocha. 2025. V-Trans4Style: Visual Transition Recommendation for Video
+                                                                                           Production Style Adaptation. In ECCV. Springer, 191–206.
+Fig. 10. Failure mode: cutting on unrelated actions. Consecutive frames                 Michael Gygli, Yale Song, and Liangliang Cao. 2016. Video2GIF: Automatic Generation
+from sequences assembled by our method for “The Ovens of Cappoquin”                        of Animated GIFs from Video. In CVPR.
+and “Built by Life”. On the left, a shot of hands grabbing dough is cut to a            Li-wei He, Michael F. Cohen, and David H. Salesin. 1996. The Virtual Cinematographer:
+                                                                                           A Paradigm for Automatic Real-Time Camera Control and Directing. In Proceedings
+shot with hands placing dough in a loaf pan. The dough, the location, and                  of the 23rd Annual Conference on Computer Graphics and Interactive Techniques (SIG-
+the lighting are clearly different, making a jarring cut. On the right, a man              GRAPH ’96). Association for Computing Machinery, New York, NY, USA, 217–224.
+working the field with a rake is cut to a man walking. Not only is the action              doi:10.1145/237170.237259
+different, but this cut also violates the 180-degree rule of editing, making a          Ross Hockrow. 2014. Out of Order: Storytelling Techniques for Video and Cinema Editors.
+                                                                                           Peachpit Press, San Francisco, CA.
+jarring cut. Thumbnails are copyrighted and belong to EditStock.                        Chris Hokamp and Qun Liu. 2017. Lexically Constrained Decoding for Sequence
+                                                                                           Generation Using Grid Beam Search. In Proceedings of the 55th Annual Meeting of
+                                                                                           the Association for Computational Linguistics (Volume 1: Long Papers).
+                                                                                        Bernd Huber, Hijung Valentina Shin, Bryan Russell, Oliver Wang, and Gautham J
+Dawit Mureja Argaw, Mattia Soldan, Alejandro Pardo, Chen Zhao, Fabian Caba Heilbron,       Mysore. 2019. B-script: Transcript-based b-roll video editing with recommendations.
+   Joon Son Chung, and Bernard Ghanem. 2024. Towards Automated Movie Trailer               In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems.
+   Generation. In CVPR. 7445–7454.                                                         1–11.
+Daniel Arijon. 1991. Grammar of the Film Language. Silman-James Press.                  Mina Huh, Saelyne Yang, Yi-Hao Peng, Xiang’Anthony’ Chen, Young-Ho Kim, and
+André Bazin, Charles Bitsch, and Jean Domarchi. 1958. Interview with Orson Welles.         Amy Pavel. 2023. AVScript: Accessible video editing with audio-visual scripts. In
+   Cahiers du Cinéma 84 (June 1958), 1–13.                                                 Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.
+Iz Beltagy, Matthew E. Peters, and Arman Cohan. 2020. Longformer: The Long-                1–17.
+   Document Transformer. arXiv:2004.05150 (2020).                                       Arnav Jhala and Robert Michael Young. 2005. A Discourse Planning Approach to
+Floraine Berthouzoz, Wilmot Li, and Maneesh Agrawala. 2012. Tools for placing cuts         Cinematic Camera Control for Narratives in Virtual Environments. In AAAI, Vol. 5.
+   and transitions in interview video. ACM TOG 31, 4 (2012), 1–8.                          307–312.
+David B Christianson, Sean E Anderson, Li-wei He, David H Salesin, Daniel S Weld, and   Peter Karp and Steven Feiner. 1993. Automated Presentation Planning of Animation
+   Michael F Cohen. 1996. Declarative Camera Control for Automatic Cinematography.         Using Task Decomposition with Heuristic Reasoning. In Graphics Interface. Canadian
+   In AAAI. 148–155.                                                                       Information Processing Society, 118–118.
+Linhao Dong, Shuang Xu, and Bo Xu. 2018. Speech-transformer: a no-recurrence            Steven D. Katz. 1991. Film Directing: Shot by Shot: Visualizing from Concept to Screen.
+   sequence-to-sequence model for speech recognition. In International Conference on       Michael Wiese Productions.
+   Acoustics, Speech and Signal Processing (ICASSP). 5884–5888.                         Melanie La Rosa. 2025. Contemporary Post-Production: Create, Cut, Collaborate, Color,
+Abhimanyu Dubey, Abhinav Jauhri, and et. al. 2024. The Llama 3 Herd of Models.             Deliver. Routledge, New York.
+   arXiv:2407.21783 [cs.AI] https://arxiv.org/abs/2407.21783
+
+
+SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+                                                                                                     Autoregressive Modeling of Film with Applications in Video Montage        •   11
+
+
+Mackenzie Leake, Abe Davis, Anh Truong, and Maneesh Agrawala. 2017. Computational             Saquib Sarfraz, Naila Murray, Vivek Sharma, Ali Diba, Luc Van Gool, and Rainer
+    Video Editing for Dialogue-Driven Scenes. ACM TOG 36, 4 (2017), 130–1.                       Stiefelhagen. 2021. Temporally-Weighted Hierarchical Clustering for Unsupervised
+Dawon Lee, Jung Eun Yoo, Kyungmin Cho, Bumki Kim, Gyeonghun Im, and Junyong                      Action Segmentation. In CVPR.
+    Noh. 2022. PopStage: The Generation of Stage Cross-Editing Video based on Spatio-         Arno Schödl, Richard Szeliski, David H. Salesin, and Irfan Essa. 2000. Video Textures
+   Temporal Matching. ACM TOG 41, 6 (2022), 1–13.                                                (SIGGRAPH ’00).
+Yuzhi Li, Haojun Xu, and Feng Tian. 2025. Shot Sequence Ordering for Video Edit-              Yaojie Shen, Libo Zhang, Kai Xu, and Xiaojie Jin. 2022. Autotransition: Learning to
+    ing: Benchmarks, Metrics, and Cinematology-inspired Computing Methods. arXiv                 recommend video transition effects. In ECCV. Springer, 285–300.
+    preprint arXiv:2503.17975 (2025).                                                         Tomáš Souček and Jakub Lokoč. 2024. TransNet V2: An effective deep network archi-
+Christophe Lino, Mathieu Chollet, Marc Christie, and Rémi Ronfard. 2011. Computa-                tecture for fast shot transition detection. In ACM MM.
+    tional Model of Film Editing for Interactive Storytelling. In Interactive Storytelling:   Bekzat Tilekbay, Saelyne Yang, Michal Adam Lewkowicz, Alex Suryapranata, and
+    Fourth International Conference on Interactive Digital Storytelling, ICIDS. Springer,        Juho Kim. 2024. ExpressEdit: Video Editing with Natural Language and Sketching.
+    305–308.                                                                                     In Proceedings of the 29th International Conference on Intelligent User Interfaces.
+Billal Merabti, Marc Christie, and Kadi Bouatouch. 2016. A Virtual Director Using                515–536.
+    Hidden Markov Models. In Comput. Graph. Forum, Vol. 35. Wiley Online Library,             David Trottier. 1994. The Screenwriter’s Bible: A Complete Guide to Writing, Formatting,
+    51–67.                                                                                       and Selling Your Spec Script. Screenwriting Center.
+Christian Metz. 1992. Some Points in the Semiotics of the Cinema. In Film Theory              Bryan Wang, Yuliang Li, Zhaoyang Lv, Haijun Xia, Yan Xu, and Raj Sodhi. 2024a. LAVE:
+    and Criticism: Introductory Readings, Gerald Mast, Marshall Cohen, and Leo Braudy            LLM-Powered Agent Assistance and Language Augmentation for Video Editing. In
+    (Eds.). Oxford University Press.                                                             International Conference on Intelligent User Interfaces.
+KL Bhanu Moorthy, Moneish Kumar, Ramanathan Subramanian, and Vineet Gandhi.                   Sitong Wang, Zheng Ning, Anh Truong, Mira Dontcheva, Dingzeyu Li, and Lydia B
+    2020. Gazed–gaze-guided cinematic editing of wide-angle monocular video record-              Chilton. 2024b. PodReels: Human-AI Co-Creation of Video Podcast Teasers. In
+    ings. In Proceedings of the 2020 CHI Conference on Human Factors in Computing                Proceedings of the 2024 ACM Designing Interactive Systems Conference. 958–974.
+    Systems. 1–11.                                                                            Hui-Yin Wu and Marc Christie. 2016. Analysing Cinematography with Embedded Con-
+Alejandro Pardo, Jui-Hsien Wang, Bernard Ghanem, Josef Sivic, Bryan Russell, and                 strained Patterns. In WICED-Eurographics Workshop on Intelligent Cinematography
+    Fabian Caba Heilbron. 2024. Generative Timelines for Instructed Visual Assembly.             and Editing.
+    arXiv preprint arXiv:2411.12293 (2024).                                                   Hui-Yin Wu, Francesca Palù, Roberto Ranon, and Marc Christie. 2018. Thinking Like
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini                 a Director: Film Editing Patterns for Virtual Cinematographic Storytelling. ACM
+    Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen                  Transactions on Multimedia Computing, Communications, and Applications (TOMM)
+    Krueger, and Ilya Sutskever. 2021. Learning Transferable Visual Models From                  14, 4 (2018), 1–22.
+    Natural Language Supervision. In ICML.                                                    Bo Xiong, Yannis Kalantidis, Deepti Ghadiyaram, and Kristen Grauman. 2019. Less Is
+Rémi Ronfard, Vineet Gandhi, Laurent Boiron, and Vaishnavi Ameya Murukutla. 2015.                More: Learning Highlight Detection From Video Duration. In CVPR.
+    The Prose Storyboard Language: A Tool for Annotating and Directing Movies. arXiv          Yu Xiong, Fabian Caba Heilbron, and Dahua Lin. 2022. Transcript to video: Efficient
+    preprint arXiv:1508.07593 (2015).                                                            clip sequencing from texts. In ACM MM.
+Marcelo Sandoval-Castañeda, Bryan Russell, Josef Sivic, Gregory Shakhnarovich, and            Qihang Yu, Mark Weber, Xueqing Deng, Xiaohui Shen, Daniel Cremers, and Liang-
+    Fabian Caba Heilbron. 2025. EditDuet: A Multi-Agent System for Video Non-Linear              Chieh Chen. 2024. An Image is Worth 32 Tokens for Reconstruction and Generation.
+    Editing. In SIGGRAPH ’25. 1–11.                                                              NeurIPS (2024).
+
+
+
+
+                                                                                                       SIGGRAPH Conference Papers ’26, July 19–23, 2026, Los Angeles, CA, USA.
+
