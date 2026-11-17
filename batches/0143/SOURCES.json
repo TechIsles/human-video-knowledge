@@ -1,0 +1,387 @@
+{
+  "batch": "0143",
+  "scope": "Complete 21-file MIT LottieFiles motion-design-skill repository snapshot, one independent source.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 21,
+  "source_inventory_note": "New user-authorized candidate discovered outside the original inventory snapshot; original inventory denominator is not retroactively changed.",
+  "files": [
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/.gitignore",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": ".gitignore",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/.gitignore",
+      "size_bytes": 30,
+      "sha256": "8920572359961490db0febe52dc26edb18fcaeee315f6f6b919c3317bdd1c0ba",
+      "git_blob_sha1": "617dde01440b8787c2ee19f73a3c5e504041ea22",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/LICENSE",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/LICENSE",
+      "size_bytes": 1068,
+      "sha256": "9fc2e8685daa09e28d54b6afa8a38f168417c5735a3cd676c80c159785e93a80",
+      "git_blob_sha1": "cf29711a87aa93532c1253aa71c8c9815938abe2",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/README.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "README.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/README.md",
+      "size_bytes": 4057,
+      "sha256": "10c2fee8939d07bcbf2d73fef4f46dc9bc82726f75736eea72f498958fcc3b9c",
+      "git_blob_sha1": "60a9288f8914300e641fcfe774f4edae2f68fccc",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/SKILL.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/SKILL.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/SKILL.md",
+      "size_bytes": 13478,
+      "sha256": "c639050706d07e62501db06c90c644d24d4815d5c05908b64771e1bf775778d7",
+      "git_blob_sha1": "4246c64986636d6ed2ab8ed4a571eaa77b455502",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/choreography.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/choreography.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/choreography.md",
+      "size_bytes": 3035,
+      "sha256": "c81257b56160b9b2f3d99f78d4b8172b425c22d9ca73be06d3ffaa7305a34deb",
+      "git_blob_sha1": "8b0322efe715247e4e120c561d2023308d2273a2",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/context-adaptation.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/context-adaptation.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/context-adaptation.md",
+      "size_bytes": 3066,
+      "sha256": "550e96a1c8c369513304ee74c0e89b63168bc7287b83e9ed5685bb65609986b3",
+      "git_blob_sha1": "97bc36ee57deb70b2c721caaad41b76191a066dd",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/core-philosophy.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/core-philosophy.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/core-philosophy.md",
+      "size_bytes": 1864,
+      "sha256": "7aaa8a065d9940dad0198cf9cfe74979008495e6daf87f46f9022fff1b6a85e9",
+      "git_blob_sha1": "b48ea367dca840ec251b4cc36adbdc6df34c243f",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/decision-framework.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/decision-framework.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/decision-framework.md",
+      "size_bytes": 2866,
+      "sha256": "4b6758da6742475c928b4f8be8c662f4b5ed0964468ba7760df8f7635c779358",
+      "git_blob_sha1": "040e1ed776993ea0071388425143e39bc7664d0b",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/disney-principles.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/disney-principles.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/disney-principles.md",
+      "size_bytes": 3197,
+      "sha256": "39024711890c2684a3434659a4d95a52ca8231facea74e87e79503054aaca671",
+      "git_blob_sha1": "4e573031d960aaf69aeea9aa42a2d00a1985afcc",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/emotion-mapping.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/emotion-mapping.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/emotion-mapping.md",
+      "size_bytes": 2877,
+      "sha256": "a279e55a3f52a9f5830d38dc54679c652d9a5c26f0dd360700c16e23766d468b",
+      "git_blob_sha1": "3a923b76b405231074881f5f27415a7ec8978fd6",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/motion-personality.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/motion-personality.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/motion-personality.md",
+      "size_bytes": 2998,
+      "sha256": "66a3623b6654869482c02157ca791034a614ca6dcb02a8112049e28d292ee18a",
+      "git_blob_sha1": "63e319397123f15169af44e3da904d32fd8a34c9",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/narrative-structure.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/director/narrative-structure.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/director/narrative-structure.md",
+      "size_bytes": 2407,
+      "sha256": "d49db19db40425dec027c3012d553b50fd74ed79e27ace9dec1226796469061b",
+      "git_blob_sha1": "c989603d1e8749220e66d7273f349bb69db72b82",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/ambient-continuous.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/patterns/ambient-continuous.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/ambient-continuous.md",
+      "size_bytes": 2823,
+      "sha256": "f9cfa00d3325dceadcb9ffd77dcb5dcbc51d34121f3b1f162979939006056773",
+      "git_blob_sha1": "17d6533571b39a1e8a171b6366623bf8df6c1e1b",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/entrance-exit.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/patterns/entrance-exit.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/entrance-exit.md",
+      "size_bytes": 2822,
+      "sha256": "70b3fc3a8d58ebe58e293e643b78fd13750d9c8ef1c8fc5fe85e52f7378cbd91",
+      "git_blob_sha1": "4f3dc318565fce5ae410da5c95448bc786d1407f",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/multi-element.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/patterns/multi-element.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/multi-element.md",
+      "size_bytes": 2362,
+      "sha256": "46c8da91843c593deb763a4a7fa32849bdaeb7a7ecd4d559e3b21bcc976f2c46",
+      "git_blob_sha1": "68aab1c0ccfd08a535a59bc01b3d39ad4823dc72",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/state-feedback.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/patterns/state-feedback.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/patterns/state-feedback.md",
+      "size_bytes": 3062,
+      "sha256": "dac86388c2d8fcdfc2f194b4f8877caedcdc010df9ce29d27dfc99d08cf8c60e",
+      "git_blob_sha1": "8efb7209986ee450a11df829c413a943ff156de7",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/export-and-render.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/reference/export-and-render.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/export-and-render.md",
+      "size_bytes": 3723,
+      "sha256": "ea5708e1a253da752c3298942d05d156c0b131e5c6111b68852ebde27e51fb4a",
+      "git_blob_sha1": "ccf5cae4da3df3ea5cbd52adb27a589db82009d9",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/property-selection.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/reference/property-selection.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/property-selection.md",
+      "size_bytes": 2922,
+      "sha256": "053d830795fc824fed27618fbd18084207af6aeed55b73c0a6e1d5665de894ae",
+      "git_blob_sha1": "21e8594a4eb360093b22aa3ed3146dbb513618ce",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/quality-checklist.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/reference/quality-checklist.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/quality-checklist.md",
+      "size_bytes": 2080,
+      "sha256": "c11bf193b700d9c9ebc5d871f1d5f193bccc441c4eccc0509b53a40d6e8dc558",
+      "git_blob_sha1": "a3d7033f744256e3b6d45468b64a3f19b48ebb6e",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/timing-easing-tables.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/reference/timing-easing-tables.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/timing-easing-tables.md",
+      "size_bytes": 2900,
+      "sha256": "e478f3b99c4cac3f96eca008e20f8808d4cfae165f5799f260092baf9b6ebcff",
+      "git_blob_sha1": "810de35c9923d8f43ffc37aeef70faebb7e5bbfc",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    },
+    {
+      "file": "upstream/LottieFiles__motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/troubleshooting.md",
+      "repository": "LottieFiles/motion-design-skill",
+      "upstream_path": "skills/motion-design/reference/troubleshooting.md",
+      "upstream_commit": "2e1f3c052dd70c60b598413e2fc5d7704d9e9896",
+      "source_url": "https://raw.githubusercontent.com/LottieFiles/motion-design-skill/2e1f3c052dd70c60b598413e2fc5d7704d9e9896/skills/motion-design/reference/troubleshooting.md",
+      "size_bytes": 2709,
+      "sha256": "69e5aaeee108231d51187143ae3fce4db7a42936f10682908ca9462a008a047a",
+      "git_blob_sha1": "dbae0ebed28c920893393d9210661c1c4e27bf64",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-1a6fc40b5313"
+      ],
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified tracked text file from pinned official repository; all 21 tracked files are retained as one complete repository source. Root MIT license and LottieFiles copyright retained. Static archival copy only; no upstream instructions or code executed."
+    }
+  ]
+}

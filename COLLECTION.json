@@ -1,12 +1,12 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 1513,
-  "learning_or_source_body_files": 980,
-  "license_or_notice_files": 533,
-  "original_payload_bytes": 238154425,
-  "unique_original_sha256": 1512,
-  "new_full_canonical_source_objects_in_expansion": 708,
+  "original_payload_files": 1534,
+  "learning_or_source_body_files": 1000,
+  "license_or_notice_files": 534,
+  "original_payload_bytes": 238220771,
+  "unique_original_sha256": 1533,
+  "new_full_canonical_source_objects_in_expansion": 709,
   "manifests": [
     "SOURCES.json",
     "batches/0001/SOURCES.json",
@@ -149,11 +149,15 @@
     "batches/0139/SOURCES.json",
     "batches/0140/SOURCES.json",
     "batches/0141/SOURCES.json",
-    "batches/0142/SOURCES.json"
+    "batches/0142/SOURCES.json",
+    "batches/0143/SOURCES.json"
   ],
   "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed. Normalized article text extractions are explicitly marked, not byte-identical original pages; embedded and third-party media are excluded. Snow Fall additionally omits an uncleared third-party quoted passage and is counted as one partial source, excluded from complete source totals. CineCraft is one complete original PDF held as eight ordered lossless binary parts, not a directly openable single PDF; see batches/0136/RECONSTRUCTION.md.",
-  "unique_complete_canonical_source_objects": 708,
+  "unique_complete_canonical_source_objects": 709,
   "normalized_full_article_text_files": 48,
   "additional_partial_canonical_source_objects": 1,
-  "normalized_partial_article_text_files": 1
+  "normalized_partial_article_text_files": 1,
+  "additional_candidate_source_urls": [
+    "https://github.com/LottieFiles/motion-design-skill"
+  ]
 }
