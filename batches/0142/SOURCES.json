@@ -1,0 +1,1242 @@
+{
+  "batch": "0142",
+  "scope": "Companion rules, source scripts, templates and tests for an already-published MIT SKILL file. Excludes demo images/video and GitHub workflows. Not executed; not a complete clone.",
+  "new_canonical_source_objects": 0,
+  "new_original_payload_paths": 68,
+  "deduplicated_existing_files": [
+    {
+      "upstream_path": "LICENSE",
+      "sha256": "d9653651935253966e0f94c34ed8f95308104fd72d534fa11bdc677e75ac9b41"
+    },
+    {
+      "upstream_path": "SKILL.md",
+      "sha256": "c5fab74e1f68f3d48873c95c2c0220377b364126f6aa2e63a2fe3a25ff4ae720"
+    }
+  ],
+  "files": [
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/.gitignore",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": ".gitignore",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/.gitignore",
+      "size_bytes": 245,
+      "sha256": "d27d98500f033648944324a458594dd4c1fc22318949d4fd24766d1b1d606913",
+      "git_blob_sha1": "290f226519a83e9252acb0e9056e778108f8c045",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/HARD-RULES.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "HARD-RULES.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/HARD-RULES.md",
+      "size_bytes": 7411,
+      "sha256": "6c38bba1a39a278f876fe991d783403bbbfe22ddf8927cd24f68bff231e0e73e",
+      "git_blob_sha1": "d9d59789264727855252ad00c94a77374bafbc75",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/README.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "README.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/README.md",
+      "size_bytes": 11802,
+      "sha256": "cfd54caa460f301504f9d23247115af09f5da0c2a1eff49285eb3d76f109cace",
+      "git_blob_sha1": "f5b2993320ba4e3df266a139ed83630588746e89",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/SECURITY.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "SECURITY.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/SECURITY.md",
+      "size_bytes": 2329,
+      "sha256": "15805d478495e001468437e314debba8dd250492c3d7c38b8bcfabeec868fba8",
+      "git_blob_sha1": "9c4584fadfd16e5591dd7a0eda22e7c9b62facf4",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/assets/sfx-taxonomy.json",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "assets/sfx-taxonomy.json",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/assets/sfx-taxonomy.json",
+      "size_bytes": 5087,
+      "sha256": "17050f250aea9e8e43376c4de7ae73bee071febd4e970168dec26b9c59a68117",
+      "git_blob_sha1": "57de3cb10e61eee5c9f2dec5d17f37451d390357",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/install.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "install.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/install.md",
+      "size_bytes": 5609,
+      "sha256": "1d418be2559aa7a558e6667461c8d5a0d7c8ed2c2cfd9d58c5d4b33ed3586c6e",
+      "git_blob_sha1": "b669e902970a0ad4b98f931fdb428016af5fe615",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/pyproject.toml",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "pyproject.toml",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/pyproject.toml",
+      "size_bytes": 373,
+      "sha256": "f06c15692194ae4523f8e436c89e0aab1c2e3501f502b513d2ba7404ad946b93",
+      "git_blob_sha1": "92e4f40bfbd51d359955fed2f82c1b5dd1efd934",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/assets.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/assets.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/assets.md",
+      "size_bytes": 7348,
+      "sha256": "d2a240cf714c737e337879d6136fac7c6e62ad8bb1cce9814153341144af3e2c",
+      "git_blob_sha1": "bf6c33703b6527fef6a663435a0b8195f42394a6",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/captions.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/captions.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/captions.md",
+      "size_bytes": 4187,
+      "sha256": "c767831f1b9678ae0465a78af9ca046fc5321eb36ae74eab99761a2cf64b523e",
+      "git_blob_sha1": "cc03a388a623304b0b7b40183b849f2ce485e431",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/cutting.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/cutting.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/cutting.md",
+      "size_bytes": 4818,
+      "sha256": "4c14bb2e5d5caea03b1c39d89b033af267171e46fcb476e540e54dfa4098e397",
+      "git_blob_sha1": "56a125cd53abbba5089f26c88adf344543da7305",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/framing.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/framing.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/framing.md",
+      "size_bytes": 4351,
+      "sha256": "04f53a014f45d6303662c306664a487d5b282ad4ae933902c64ddccf5b48a3e8",
+      "git_blob_sha1": "bd305b6bfc8677fe02556e174893b11d691addac",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/hooks.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/hooks.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/hooks.md",
+      "size_bytes": 17398,
+      "sha256": "62708ae0c37e7863bc50215519a924236020c907032e16aa7861570c6ee2da03",
+      "git_blob_sha1": "4bd6987d7fa8e547ea4dfbd5e7642a6c566ecd53",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/motion.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/motion.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/motion.md",
+      "size_bytes": 9017,
+      "sha256": "ef735ded4d514ad16c6199555ca57c5a387fa531382eaa0822c34d7b6c503760",
+      "git_blob_sha1": "a6fe12e743cc19df104aa0664217f780a071acf2",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/proof.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/proof.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/proof.md",
+      "size_bytes": 11363,
+      "sha256": "5b6b134dd9f319e20a00405d1f93a1461d86b005001cd8d121d7e43d396c099b",
+      "git_blob_sha1": "3d2aefcf7cc23bd0da423a48a03ba4914ce6e3fc",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/scenes.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/scenes.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/scenes.md",
+      "size_bytes": 5139,
+      "sha256": "4ba75dee13d005031e492eba080205196f3eef0e4c704b872d1e161e444b1763",
+      "git_blob_sha1": "1df2827ee2ac6a49f8cde80b120d487a62e8134b",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/sound.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "rules/sound.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/rules/sound.md",
+      "size_bytes": 12034,
+      "sha256": "ee9eda6d8443a45e3f4551ed31963d3833593844bcf765521c9f779c66d1080f",
+      "git_blob_sha1": "1c99674a8b25d5a84af1bba08c75ebc3e7017544",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/adobe_enhance.mjs",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/adobe_enhance.mjs",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/adobe_enhance.mjs",
+      "size_bytes": 3803,
+      "sha256": "72ecbce4905a80ac5ef51f473a735c4c6610b781a766bf1b51ec68680aae28f0",
+      "git_blob_sha1": "b68fa1794ccf22a3149ee619d32ef8e4f1bce733",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/beats.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/beats.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/beats.py",
+      "size_bytes": 8611,
+      "sha256": "9fb0853fa82a781a822fe77a534643dae70300066246ffae58bcdebc9bbd2489",
+      "git_blob_sha1": "423939cd06db53d234e38ee0f13d6926a1a33ba9",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/captions.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/captions.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/captions.py",
+      "size_bytes": 9869,
+      "sha256": "c6e9f748cddabac27e2dc5169e33a4d2945570e932ce89122e6c83ef4e236fde",
+      "git_blob_sha1": "dab5cd43c647cc3d5714b5ffd4b8889dfe38c2dd",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/capture.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/capture.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/capture.py",
+      "size_bytes": 8689,
+      "sha256": "62f55ef32a70398f5ae0de00b665d2624868780d22ee69327d3d51232a827c28",
+      "git_blob_sha1": "0a52b83208cfa683098aae22683d72202c403a3c",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/compose.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/compose.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/compose.py",
+      "size_bytes": 48115,
+      "sha256": "32daa2bc36601a96e2c9f8394dcbc8dc7ce691ea3e8f1dde36f14793a1d8dcf0",
+      "git_blob_sha1": "dba59ab5071b532bf64dfbea8f61cffe5c1d85f5",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/cutout_broll.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/cutout_broll.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/cutout_broll.py",
+      "size_bytes": 21357,
+      "sha256": "eabcf9cd7dc3b6422f5e9227a61584094c7a9cb10dc6dce10699031ebab568a9",
+      "git_blob_sha1": "27ab6b1b90374b1cd00bd5bdb62fc8d581020548",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/deliver.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/deliver.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/deliver.py",
+      "size_bytes": 9800,
+      "sha256": "1bde37bdbbd598f9920e01f5ae602ba24510b22dd1de99da8fde70ae12d6c69b",
+      "git_blob_sha1": "462b5e49966471ed5a8909e50e7b7454fe0ccff0",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/enhance.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/enhance.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/enhance.py",
+      "size_bytes": 3423,
+      "sha256": "3553a52d7ae8b4e8fdb3f7f3161f7c64cffc8821a0adad61cdd1ea5a3f77faf0",
+      "git_blob_sha1": "d6b3651662835ff1ce7ccedff861ce2b8f140f57",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/gen_image.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/gen_image.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/gen_image.py",
+      "size_bytes": 4044,
+      "sha256": "adf02f38d7d8a2279be1651eca16ee0f1106260b046ba35e4dc1217913b3bf11",
+      "git_blob_sha1": "c8c60fa7232b913e22ba6f301e000a1613215c22",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/grade.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/grade.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/grade.py",
+      "size_bytes": 9183,
+      "sha256": "2ae07532ca18517d6ce7f7f87e5473e29b5e6798bfb4b586b2747e71b294498c",
+      "git_blob_sha1": "60b14ab19324138d6e9b3ccebed28273ea6baa02",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/hook_plan.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/hook_plan.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/hook_plan.py",
+      "size_bytes": 52441,
+      "sha256": "66ed6a7715cd373482afb8631cb4817e8c28d319105f097109b613f742a72247",
+      "git_blob_sha1": "9fa56933754e1b5407427182a28efabc6d3040ce",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/hook_storyboard.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/hook_storyboard.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/hook_storyboard.py",
+      "size_bytes": 4309,
+      "sha256": "2d3bf9f1a8f7168d5fb86c39074079e736612c915be9c998d195e75e8b343d51",
+      "git_blob_sha1": "b936e41e31177dfdb61084567c818861a435b573",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/icons.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/icons.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/icons.py",
+      "size_bytes": 6789,
+      "sha256": "e6f74f74f70863868c04bf3477c03dd3ca03e8ea46e063aa2cea6572e2361cac",
+      "git_blob_sha1": "c9ccda3edc7ef209bfd1c2b97df8aa179f1cefd3",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/media.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/media.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/media.py",
+      "size_bytes": 2644,
+      "sha256": "796bf8dd79870be24e676e79941c0660d225a85dbf44188fe63dbb067dc8d948",
+      "git_blob_sha1": "8bcf328a34895b81eef7d83d4e12b86dc6220904",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/music.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/music.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/music.py",
+      "size_bytes": 4996,
+      "sha256": "f1ad0118547164e33caa457aaba6a1a0eddaad5b42ea5ad2f9f823719f8bc176",
+      "git_blob_sha1": "fe9948978046612a8acd79e0ef39cbfce3a795e1",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/pack.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/pack.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/pack.py",
+      "size_bytes": 3117,
+      "sha256": "8d11d72a01445a49f3807321947af6d8f8dda068ba0e4e6915e4f6f3bacdf9fa",
+      "git_blob_sha1": "2f75eff6200912c9de6904381b214f59471f9f01",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/proofread.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/proofread.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/proofread.py",
+      "size_bytes": 10169,
+      "sha256": "77a025b5b40679489af4b86f52a8c9ecc5ce38978376427fc1155a3546a201a9",
+      "git_blob_sha1": "b2257c539e5b6d0d830285a0e4ee22eaf938e44a",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/render.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/render.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/render.py",
+      "size_bytes": 9129,
+      "sha256": "f284c24ad31b711146c3482d1fef30951b21599b576c53336da00ac7278e42c6",
+      "git_blob_sha1": "ee795244d807ce31c83b743b2cf065abeaffd09c",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/review.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/review.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/review.py",
+      "size_bytes": 7846,
+      "sha256": "87cf8d2d30f8b6b45dd391b05199cd763f912c89ed5a460724ad9af5193cdae9",
+      "git_blob_sha1": "8dd359a25d7726f00a24a457ab8e782705a1c7c9",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/safe_zone.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/safe_zone.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/safe_zone.py",
+      "size_bytes": 12607,
+      "sha256": "660a7c5bde3e6508821f3399606a96addd5b9ce3d50e9318d1f16f4b12d05cf3",
+      "git_blob_sha1": "b8aaf20c6e714b8dee07fe853aefde40c7db32c4",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/scan.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/scan.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/scan.py",
+      "size_bytes": 14811,
+      "sha256": "6173301f8b8750ac49b3f4ed076f5637d47708152a388f99ce294e3c5599e15a",
+      "git_blob_sha1": "b545ea4a2a1a70a2951e84305a134cb99d6c8d67",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/scenes.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/scenes.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/scenes.py",
+      "size_bytes": 13025,
+      "sha256": "4180a9aa3ccda6fe26adf0b571ea95ea2420bfd5d239d10a3f0c8225f1b33b82",
+      "git_blob_sha1": "316a33bdcfc7876be1711de91c21774176827c94",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/sfx.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/sfx.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/sfx.py",
+      "size_bytes": 19711,
+      "sha256": "1a2e234d1b87c9458a2a6668f3dc1dc86d1bc124196949a27263ac033e7d3b93",
+      "git_blob_sha1": "bac2a3055866f4383f9b6666c35b5bf990536161",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/sfx_library.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/sfx_library.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/sfx_library.py",
+      "size_bytes": 6408,
+      "sha256": "e6cd62f197937fb3934b35ef4722c2bb130dab31da442524348ebbed8d0da9cc",
+      "git_blob_sha1": "59e502e2d79ffa46a9479cd0a8fd1aa5f1864f8d",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/silences.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/silences.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/silences.py",
+      "size_bytes": 3385,
+      "sha256": "21406a864939885eb0f3645df4756e2b5a4421368d8056e768f0d0df05caccf2",
+      "git_blob_sha1": "18eb727ca03c657b163921b433b71e4406a3b0c3",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/sound.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/sound.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/sound.py",
+      "size_bytes": 9724,
+      "sha256": "5ea20379e2da22fd96e60f6c7c614736565cd40f48ffdceac699efbf580b71f5",
+      "git_blob_sha1": "38f2a8af2d4f26b4e5211be88b6dd2584a1958b2",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/taste.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/taste.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/taste.py",
+      "size_bytes": 6759,
+      "sha256": "8cfd463608625ec1e26377ae04c4ddae15015060ec68b0f66db387032637ea53",
+      "git_blob_sha1": "78ac6f091581661b91a22dd10ba77e1524a7c61b",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/transcribe.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/transcribe.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/transcribe.py",
+      "size_bytes": 12505,
+      "sha256": "048055e0376b0b2eb4bc0189f82db0c7a5a3667fdfd7742d3f2a7b44c75aad8e",
+      "git_blob_sha1": "310a439ac7fa716270d60f6504eff2864bcad12a",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/verify.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "scripts/verify.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/scripts/verify.py",
+      "size_bytes": 8906,
+      "sha256": "af8b34fe23b85d80389b99735ce764e64262e72500e74aad20fd8309e55eedae",
+      "git_blob_sha1": "ff01af23cd1644415f4f8e773a64edffc9e74f85",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/NOTICE.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/hook/NOTICE.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/NOTICE.md",
+      "size_bytes": 1573,
+      "sha256": "f3e54d41bf054274b17aa061fcf528ead5795844a2a4b911614a57b15c5f3941",
+      "git_blob_sha1": "afe4bb53a9ab69e7f423f74e6497206de09efaf3",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/README.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/hook/README.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/README.md",
+      "size_bytes": 2796,
+      "sha256": "068abfd3a4c67c162b45b8bc5bd7c08c9fa3f47ca6fc781ee1c5ad80fda9a4e9",
+      "git_blob_sha1": "869cadf38877ade4db0d72568cb584ba13d725c3",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/demo.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/hook/demo.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/demo.py",
+      "size_bytes": 2461,
+      "sha256": "06dc0d97d22244a242fecb710e7cead8f774edb1c2b9a6960bf8d71ae091ee5a",
+      "git_blob_sha1": "e3312a1a70c23fd8c5a6893401fe35c2f5c1f78e",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/headline.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/hook/headline.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/headline.py",
+      "size_bytes": 35252,
+      "sha256": "3e1dae95fe76b258e7931dce0c00ec934b6b2891f3ff408f490a70cbcd2c583f",
+      "git_blob_sha1": "f65924c9764b89211cfe1d0365ca9720c43495b8",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/shatter.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/hook/shatter.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/hook/shatter.py",
+      "size_bytes": 13011,
+      "sha256": "c3940b709a0079bcd01427951d9149f03275e64bc673c9ee160aa634de12a1ad",
+      "git_blob_sha1": "5b40d78c20c836e2eb20b65dc3a68a4b7108e776",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/package.json",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/remotion/package.json",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/package.json",
+      "size_bytes": 411,
+      "sha256": "e42c17b25287c42250c23d2f058dd62ce1e99321708d40ee585dbce792359b3a",
+      "git_blob_sha1": "be3761eb671f5ed89c9fdd8ff58788132efc91d2",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/src/index.tsx",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/remotion/src/index.tsx",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/src/index.tsx",
+      "size_bytes": 105,
+      "sha256": "5462d3268136731ce43bfd7c5072ea1ba48b51fec94fa30076f5044f4b39e4a2",
+      "git_blob_sha1": "d831f7b0f12b8445b8a2d547eb2bd0c3559a5d36",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/src/scenes/README.md",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/remotion/src/scenes/README.md",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/src/scenes/README.md",
+      "size_bytes": 620,
+      "sha256": "c172ee0e145317b704b8281835e848384f2c812b592180f2e567cbb061b4c18c",
+      "git_blob_sha1": "4dcde8e258669e56edad0fb36641e63c45a583e5",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/tsconfig.json",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "templates/remotion/tsconfig.json",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/templates/remotion/tsconfig.json",
+      "size_bytes": 315,
+      "sha256": "7b8b1f62826807ec9036c822997c77ded739fa8e605900d5f8f619ce1f2d4ce9",
+      "git_blob_sha1": "3d8531ec99bd031cb720a7c90a407ca1ab82e863",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_capture_mobile.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_capture_mobile.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_capture_mobile.py",
+      "size_bytes": 1753,
+      "sha256": "38e93c292aa6cf60707e384b82c50ff98464a4555f995c45b01ea4fa569632df",
+      "git_blob_sha1": "996181cba264ddfe66801c9fe7e8bfdb7433f91d",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_compose_pin.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_compose_pin.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_compose_pin.py",
+      "size_bytes": 558,
+      "sha256": "46f946e81a17cfea33394c7ea6b6617b94ff53101a2b91c7bb2ca6771093a6a7",
+      "git_blob_sha1": "66cd010cbc7d58c35114400adbfac5f3acb9cead",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_cutout_broll.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_cutout_broll.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_cutout_broll.py",
+      "size_bytes": 5189,
+      "sha256": "f2dd51fdbd8fed4b9a2419dee3915c01b3ba8b58eef5e416a94697f326bf6548",
+      "git_blob_sha1": "b65c72f61f5bd38e5e15e2c0789ce8511c3a32f4",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_grade_window.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_grade_window.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_grade_window.py",
+      "size_bytes": 1853,
+      "sha256": "4fcff10083700735ab514ec141bd29ec6c2ad8250af7e2293cdc7cca2a7cf51c",
+      "git_blob_sha1": "e85238e5541fb052271705b0a12a196043d67b14",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_headline.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_hook_headline.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_headline.py",
+      "size_bytes": 8239,
+      "sha256": "ed2ce60ff39a5ce99c2e76093a85574f860062dbdbb4f73d429023f441664e58",
+      "git_blob_sha1": "ba84d5d89b12b2187719dcf55ef59093d7b9ed5c",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_plan.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_hook_plan.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_plan.py",
+      "size_bytes": 14644,
+      "sha256": "c5e910ad6e2a3ef8f35fa8d5ec4bff563a7267bc1d092c24918dd294d1716e51",
+      "git_blob_sha1": "3ac500a00e3899fdf1859e87e5975ce70b5b57fb",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_shatter.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_hook_shatter.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_shatter.py",
+      "size_bytes": 2308,
+      "sha256": "34a10973d7622c4f1e1d7739674f6be390bcf3986ed7db49b3f237bafbb45cbd",
+      "git_blob_sha1": "fd8ab13b593474e10db8648723063b1fc0f0d9ac",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_storyboard.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_hook_storyboard.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_hook_storyboard.py",
+      "size_bytes": 1414,
+      "sha256": "63194daf29e918c9d453de7100fd22a6f9260e79d4cea22e6d6f42a7b8b263f5",
+      "git_blob_sha1": "d7f6d267512f978010a0f286cfb2324408028f67",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_pack.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_pack.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_pack.py",
+      "size_bytes": 1268,
+      "sha256": "6624237ca2670904951acaa6df440a1c0df14c2dfb67d5ac50fd08026f8bff6e",
+      "git_blob_sha1": "40c8bbada83cfdc2ac8f3193e98b3750d65b771e",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_safe_zone.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_safe_zone.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_safe_zone.py",
+      "size_bytes": 4250,
+      "sha256": "539f24a11bf86fabaf4f9eb31fd0317ef685fa625b6a29f5929f585a7a7344be",
+      "git_blob_sha1": "785bae6659fb6141dab3439617454ab2f4ffdf18",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_scenes.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_scenes.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_scenes.py",
+      "size_bytes": 2271,
+      "sha256": "cd222917407001259ad1237475fd2ce73c936cda2796258a633aa3d1bbb98d43",
+      "git_blob_sha1": "d6e4fed85f53af525ed02f4f1edda3bd2c10bf0d",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_sfx_hook_open.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_sfx_hook_open.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_sfx_hook_open.py",
+      "size_bytes": 4432,
+      "sha256": "68ba297f91742228e1182943aedaeae5de4d7a1181b7db4ef45f71d80318f231",
+      "git_blob_sha1": "4008c2ef1deb3dcdefe2e1c97282f148acd2240a",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_silences.py",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "tests/test_silences.py",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/tests/test_silences.py",
+      "size_bytes": 739,
+      "sha256": "f6577d5bacaa2deff899e17a304f8a96b1d84b320d39518d108a185eeb86ff04",
+      "git_blob_sha1": "3044aff439d1bc65c69d0257d1ac79431746f16e",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    },
+    {
+      "file": "upstream/ranahaani__i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/uv.lock",
+      "repository": "ranahaani/i-hate-editing",
+      "upstream_path": "uv.lock",
+      "upstream_commit": "a5add74b595f652e0da9577bbf8f6fc4b1d57457",
+      "source_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/a5add74b595f652e0da9577bbf8f6fc4b1d57457/uv.lock",
+      "size_bytes": 78287,
+      "sha256": "e797247041377e2f4a6a819b854a0e8d87e09d1e700d02a01f95a1bbd26b4838",
+      "git_blob_sha1": "76eff6ead0e735a44ddcf561a0fb598639877ff0",
+      "role": "supporting_file",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-d3ead4a7a151"
+      ],
+      "coverage_kind": "supporting_file",
+      "conditions": "Unmodified companion source file for already-published I Hate Editing SKILL.md; not a new independent source object. Root MIT license and adapted-work attribution retained. Source archived only, not executed or security-certified."
+    }
+  ]
+}
