@@ -1,0 +1,74 @@
+{
+  "batch": "0138",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-4e3331a13bd3/original.rst",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-4e3331a13bd3/original.rst",
+      "upstream_commit": "e6987e19329eed45e76a2ae3ca9741d3f98c47aa",
+      "source_url": "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/e6987e19329eed45e76a2ae3ca9741d3f98c47aa/docs/cli.rst",
+      "title": "Breakthrough/PySceneDetect docs/cli.rst",
+      "size_bytes": 36402,
+      "sha256": "d22da9bbf70cbbc75b1198b5258bfa2310213fcb35ca830c86e497a95946b61e",
+      "git_blob_sha1": "8b898c62aa5225776ff58dd67a5cfa79ff9dfc40",
+      "role": "official_documentation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-4e3331a13bd3"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/e6987e19329eed45e76a2ae3ca9741d3f98c47aa/LICENSE"
+      ],
+      "conditions": "Unmodified complete official documentation source file, not a rendered website or full repository. Canonical site: https://www.scenedetect.com/docs/latest/cli.html. Root license retained. Referenced images, additional guides and UI components not bundled."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-ceb072863f47/original.mdx",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-ceb072863f47/original.mdx",
+      "upstream_commit": "b9db3c5e53678372cdf1a7d15dc6382a45695184",
+      "source_url": "https://raw.githubusercontent.com/mlflow/mlflow/b9db3c5e53678372cdf1a7d15dc6382a45695184/docs/docs/classic-ml/tracking/index.mdx",
+      "title": "mlflow/mlflow docs/docs/classic-ml/tracking/index.mdx",
+      "size_bytes": 21937,
+      "sha256": "58a7cd12e1381e70b887cf6cea896740aa7a58e53b43737bfa3aa5cf5e232ce4",
+      "git_blob_sha1": "9d15bc734154e5a4cbbc7acfef57875da00c1081",
+      "role": "official_documentation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-ceb072863f47"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/mlflow/mlflow/b9db3c5e53678372cdf1a7d15dc6382a45695184/LICENSE.txt"
+      ],
+      "conditions": "Unmodified complete official documentation source file, not a rendered website or full repository. Canonical site: https://mlflow.org/docs/latest/ml/tracking/. Root license retained. Referenced images, additional guides and UI components not bundled."
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-805cb4113d6a/original.txt",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-805cb4113d6a/original.txt",
+      "upstream_commit": "b9db3c5e53678372cdf1a7d15dc6382a45695184",
+      "source_url": "https://raw.githubusercontent.com/mlflow/mlflow/b9db3c5e53678372cdf1a7d15dc6382a45695184/LICENSE.txt",
+      "title": "mlflow/mlflow LICENSE.txt",
+      "size_bytes": 11382,
+      "sha256": "6395355de6f391afff35996a30fb41b189b4991a4cb54993ace35ab69a0bfa28",
+      "git_blob_sha1": "db7cb10b5e330d56b40370bc178974ccabe71458",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-805cb4113d6a"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/mlflow/mlflow/b9db3c5e53678372cdf1a7d15dc6382a45695184/LICENSE.txt"
+      ],
+      "conditions": "Unmodified complete official documentation source file, not a rendered website or full repository. Canonical site: https://mlflow.org/docs/latest/ml/tracking/. Root license retained. Referenced images, additional guides and UI components not bundled."
+    }
+  ]
+}
