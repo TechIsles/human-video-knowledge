@@ -1,0 +1,54 @@
+{
+  "batch": "0137",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-82db6eab2ca4/original.md",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-82db6eab2ca4/original.md",
+      "upstream_commit": "b45c483edc7c7e4671d24a5ac4228835c7b029f3",
+      "source_url": "https://raw.githubusercontent.com/GStreamer/gstreamer/b45c483edc7c7e4671d24a5ac4228835c7b029f3/subprojects/gst-docs/markdown/additional/design/synchronisation.md",
+      "title": "GStreamer Synchronisation design documentation",
+      "size_bytes": 9084,
+      "sha256": "9c8f8d2ce6d89ca3a1aa7915e713a8377956b25aace64c1a3b574d1926a93ef6",
+      "git_blob_sha1": "c54bdd06f3aee303302092f78da781b768d23f89",
+      "role": "official_documentation_source",
+      "license": "LGPL-2.1-or-later",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-82db6eab2ca4"
+      ],
+      "coverage_kind": "canonical_document_source_file_full",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/GStreamer/gstreamer/b45c483edc7c7e4671d24a5ac4228835c7b029f3/subprojects/gst-docs/README.md",
+        "https://raw.githubusercontent.com/GStreamer/gstreamer/b45c483edc7c7e4671d24a5ac4228835c7b029f3/subprojects/gst-docs/LICENSE.LGPL-2.1"
+      ],
+      "conditions": "Unmodified official design-documentation source file. Module README explicitly licenses design documentation under LGPL 2.1 or later. License and original module notices retained. Not a copy of the entire GStreamer repository. Canonical page https://gstreamer.freedesktop.org/documentation/additional/design/synchronisation.html"
+    },
+    {
+      "file": "upstream/web__raw.githubusercontent.com/SRC-297e6a81e755/original.md",
+      "repository": "web/raw.githubusercontent.com",
+      "upstream_path": "SRC-297e6a81e755/original.md",
+      "upstream_commit": "b45c483edc7c7e4671d24a5ac4228835c7b029f3",
+      "source_url": "https://raw.githubusercontent.com/GStreamer/gstreamer/b45c483edc7c7e4671d24a5ac4228835c7b029f3/subprojects/gst-docs/README.md",
+      "title": "GStreamer documentation README.md",
+      "size_bytes": 4020,
+      "sha256": "6c80172169a52ba305afcfe59db2183ab3292c91a25011daee8fa0b541056383",
+      "git_blob_sha1": "124600223727c52b92f6e2906d2217a460ba1377",
+      "role": "license_notice",
+      "license": "LGPL-2.1-or-later",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-297e6a81e755"
+      ],
+      "coverage_kind": "license_support",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/GStreamer/gstreamer/b45c483edc7c7e4671d24a5ac4228835c7b029f3/subprojects/gst-docs/README.md",
+        "https://raw.githubusercontent.com/GStreamer/gstreamer/b45c483edc7c7e4671d24a5ac4228835c7b029f3/subprojects/gst-docs/LICENSE.LGPL-2.1"
+      ],
+      "conditions": "Unmodified official design-documentation source file. Module README explicitly licenses design documentation under LGPL 2.1 or later. License and original module notices retained. Not a copy of the entire GStreamer repository. Canonical page https://gstreamer.freedesktop.org/documentation/additional/design/synchronisation.html"
+    }
+  ]
+}

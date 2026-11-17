@@ -1,12 +1,12 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 1402,
-  "learning_or_source_body_files": 874,
-  "license_or_notice_files": 528,
-  "original_payload_bytes": 203601219,
-  "unique_original_sha256": 1401,
-  "new_full_canonical_source_objects_in_expansion": 670,
+  "original_payload_files": 1404,
+  "learning_or_source_body_files": 875,
+  "license_or_notice_files": 529,
+  "original_payload_bytes": 203614323,
+  "unique_original_sha256": 1403,
+  "new_full_canonical_source_objects_in_expansion": 671,
   "manifests": [
     "SOURCES.json",
     "batches/0001/SOURCES.json",
@@ -143,9 +143,10 @@
     "batches/0133/SOURCES.json",
     "batches/0134/SOURCES.json",
     "batches/0135/SOURCES.json",
-    "batches/0136/SOURCES.json"
+    "batches/0136/SOURCES.json",
+    "batches/0137/SOURCES.json"
   ],
   "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed. Twenty-five full article text files are explicitly marked normalized extractions, not byte-identical original pages; embedded and third-party media are excluded. CineCraft is one complete original PDF held as eight ordered lossless binary parts, not a directly openable single PDF; see batches/0136/RECONSTRUCTION.md.",
-  "unique_complete_canonical_source_objects": 670,
+  "unique_complete_canonical_source_objects": 671,
   "normalized_full_article_text_files": 22
 }
