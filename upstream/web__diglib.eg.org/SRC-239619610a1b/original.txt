@@ -1,0 +1,387 @@
+TITLE: Leaving the Lab Setting: What We Can Learn About the Perception of Narrative Medical Visualizations from YouTube Comments
+DOI: 10.2312/vcbm.20241193
+SOURCE PDF: https://diglib.eg.org/server/api/core/bitstreams/638591a4-87e2-4017-af5d-06ecc81d783a/content
+LICENSE: Creative Commons Attribution, as stated in the paper; version not specified.
+TRANSFORMATION: Complete all-page text extraction, excluding images. Figure 1 is a screenshot of a Nucleus Medical Media video; no rights to that third-party imagery are claimed. Original authors, figure captions, and license notice retained. Not the original PDF.
+SOURCE PDF SHA256: daef6cab960bdaece40d2672d8df891d06e0b930d4986cb73f3a97e0449e9f93
+
+Eurographics Workshop on Visual Computing for Biology and Medicine (2024)                                                                                  Short Paper
+L. Garrison and D. Jönsson (Editors)
+
+
+
+
+ Leaving the Lab Setting: What We Can Learn About the Perception
+   of Narrative Medical Visualizations from YouTube Comments
+
+                                            Sarah Mittenentzwei1 , Danish Murad1 , Bernhard Preim1 , Monique Meuschke1
+
+                                                    1 Department of Simulation and Graphics, University of Magdeburg, Germany
+
+
+
+
+         Abstract
+         The general public is highly interested in medical information, particularly educational media about diseases, healthy biological
+         processes such as pregnancy, and surgical procedures. Efforts to develop educational materials using data-driven approaches like
+         narrative visualization exist, but studies are often performed in lab settings. Since there are few public sources for visualizations
+         of medical image data, YouTube videos, which often contain 3D medical visualizations, are an important reference. We aim to
+         better understand the user base of these videos. Therefore, we curated a dataset of 76 videos featuring medical 3D visualizations.
+         We analyzed 14,550 comments across all videos using manual review and machine learning techniques, including natural
+         language processing for sentiment and emotion analysis of user comments. While few comments directly link visual attributes or
+         design choices to user sentiment, insights into users’ motivation and opinions of specific design choices have emerged.
+         CCS Concepts
+         • Applied computing → Life and medical sciences; • Information systems → Web mining;
+
+
+
+
+1. Introduction                                                                                     2. Related Work
+For narrative visualization targeted at explaining medical concepts                                 We review research on 3D visualization in education, specifically
+to a lay audience, analysis of existing visualizations provides in-                                 medical content on YouTube and video analysis. We also discuss
+sights into the design space and the frequency of certain design                                    foundational NLP work for analyzing social media comments.
+decisions. Although medical image data typically depict anatomi-
+cal structures in 3D space and 3D models are increasingly used in
+                                                                                                    2.1. Analysis of YouTube Videos in Health Education
+anatomy education [AGAZG23], explanatory 3D medical visualiza-
+tions for laypersons are rare. We are investigating YouTube videos                                  3D medical visualizations enhance understanding and interactive
+that contain medical 3D visualizations since they can be found in                                   learning [AGAZG23] but necessitate expert and animator involve-
+larger quantities. Analyzing YouTube videos allows us to analyze                                    ment. Narrative medical visualization focuses on making medical
+a large amount of user feedback in the form of views, replay rates,                                 data engaging and accessible [GMPB23], with YouTube serving as
+and comments outside of artificial lab settings. Particularly in light                              a key platform for enhancing health literacy among diverse audi-
+of the COVID-19 pandemic, there has been a transformation in the                                    ences [LTX∗ 22]. However, due to the risk of misinformation from
+educational landscape. More and more people have increasingly                                       non-expert creators [LL19], our analysis will exclusively focus on
+turned to the internet, social media, and YouTube for health-related                                videos from health companies, excluding private individuals. Park
+content [WJJ17]. Our analysis strives to investigate how health ed-                                 & Goering [PG16] found that non-health professionals use YouTube
+ucation materials, similar to the narrative medical visualizations                                  for health reasons due to its convenience and empowering effects,
+produced by the research community, are perceived by users.                                         which enhance users’ healthcare competence and learning.
+   We analyze 76 YouTube videos featuring 3D visualizations across                                     Burgess & Green [JJ20] analyzed YouTube’s transformation into
+diverse medical topics, spanning diseases, procedures, and preven-                                  a public communication tool, highlighting its democratizing impact,
+tion from five medical YouTube channels. Leveraging Natural Lan-                                    creativity, accessibility, and community due to open access. Wel-
+guage Processing (NLP) techniques, we conduct a comprehensive                                       bourne & Grant [WG16] examined factors affecting the popularity
+analysis of user comments, both qualitatively and quantitatively. Our                               of science and health channels, noting user-generated content often
+research integrates NLP with the examination of video content. By                                   outperforms professional content in views, with shorter videos be-
+analyzing the comments using state-of-the-art NLP techniques to                                     ing preferred for science communication [YBSX22]. Additionally,
+analyze user sentiment and emotion towards each video, we aim to                                    Amini et al. [AHRL∗ 15] identified design patterns for data videos,
+derive insights about user motivation and preferences.                                              and Shi et al. [SLL∗ 21] defined a design space for such videos.
+
+© 2024 The Authors.
+Proceedings published by Eurographics - The European Association for Computer Graphics.
+This is an open access article under the terms of the Creative Commons Attribution License, which
+permits use, distribution and reproduction in any medium, provided the original work is properly
+cited.
+
+
+
+
+                                                                                                                                      https://www.eg.org          https://diglib.eg.org
+DOI: 10.2312/vcbm.20241193
+2 of 5                            S. Mittenentzwei, D. Murad, B. Preim, M. Meuschke / User Responses in YouTube Videos
+
+2.2. Natural Language Processing                                            4. Data Collection and Preprocessing
+We use NLP techniques to analyze user-generated content on                  We used YouTube’s API to extract video titles, channel names, view
+YouTube, deriving insights from the extensive data. Sentiment analy-        counts, upload dates, durations, and top-level comments (excluding
+sis evaluates emotions in text, with Pang and Lee [PL08] demonstrat-        replies). Since the number of likes lacks context without dislikes,
+ing its effectiveness in extracting opinions. The transformer model         which were unavailable, we did not analyze them. We ensured
+by Vaswani et al. [VSP∗ 17] marked a significant advancement, as            privacy by not collecting usernames or any personally identifiable
+its attention mechanism captures long-term dependencies and en-             information. Replay graphs were extracted as images from the site’s
+ables parallel processing. Radford et al.’s [RNSS18] GPT model,             HTML. These graphs do not show exact replay counts but indicate
+focusing on sequential text generation, and Devlin et al.’s [DCLT19]        relative replay frequencies across different parts of a video, with
+BERT model, excelling in context understanding, further pushed              peaks denoting high replay numbers. All videos were manually
+the boundaries of NLP. Alaparthi & Mishra [AM21] compared                   reviewed to correlate user responses with video content.
+BERT to previous models, highlighting its superiority in sentiment
+                                                                            Preprocessing of Comments. Once collected, the textual parts
+classification. Chiorrini et al. [CDMP21] confirmed BERT’s ac-
+                                                                            of the comments underwent two essential preprocessing steps for
+curacy in emotion and sentiment analysis. Liu et al. [LOG∗ 19]
+                                                                            any NLP system, as the characters, words, and sentences identified
+improved upon BERT with the RoBERTa model, achieving better
+                                                                            are crucial for all subsequent processing stages. First, informali-
+performance across various tasks. These recent developments high-
+                                                                            ties like spelling errors, slang, new words, URLs, special charac-
+light RoBERTa’s potential for analyzing large text datasets, like our
+                                                                            ters, and emoticons were filtered out using the Python libraries
+collection of YouTube comments.
+                                                                            demoji and regular expression (RegEx). Second, we removed non-
+   Other work proves how state-of-the-art NLP techniques can be             English comments using a fine-tuned RoBERTa-based model for
+used to analyze YouTube comments. Porreca et al.’s study [PSN20]            language detection that has an average accuracy of 99.6 % over 20
+highlighted a sentiment shift in comments on Italian vaccination            languages [Pap23]. Following these preprocessing steps, the final
+videos post-campaign, while Bozkurt and Aras [BA20] found mixed             dataset consists of 14,550 comments across 76 videos.
+sentiments in comments on videos about cleft lip and palate disease,
+                                                                            Sentiment Analysis. For sentiment analysis, we use the “Twitter-
+with negative comments often detailing surgical pain and public
+                                                                            RoBERTa-base for Sentiment Analysis” model [LBN∗ 22], the latest
+embarrassment.
+                                                                            model trained on the concise, informal nature of social media posts.
+                                                                            This model is relevant as Twitter’s limit of 280 characters per post
+3. Video Selection                                                          encourages unstructured informal content similar to YouTube com-
+                                                                            ments [SOA∗ 23]. The chosen model is pre-trained on 124 million
+We included four aspects in our analysis: (1) number of views, (2)
+                                                                            tweets from January 2018 to December 2021 and fine-tuned for sen-
+number of comments, (3) content of comments, and (4) replay rates.
+                                                                            timent analysis on social media. The model classified each comment
+Our search was conducted using the keywords “3D medical ani-
+                                                                            as positive, neutral, or negative, along with the respective sentiment
+mation” and “3D medical visualization”. YouTube allows filtering
+                                                                            score that encodes the probability for a comment to contain the
+based on relevance (default), view count, upload date, and rating.
+                                                                            chosen sentiment.
+Upload date and rating filters were found to produce less useful re-
+sults, mainly showing irrelevant latest videos due to the lack of user      Emotion Analysis. Emotion detection offers a more granular insight
+engagement. In 2022, YouTube introduced a new feature called re-            into the feelings that users might be experiencing. A pre-trained
+play graph (see Fig. 1) which highlights the segments of a video that       RoBERTa-based model fine-tuned on a dataset containing emotions
+viewers replay most frequently. It is depicted as a semi-transparent        was chosen [Low23]. The dataset contained 28 different emotions,
+area chart right above the video progress bar. However, not every           which resulted in a multi-label classification for the model output.
+video is accompanied by a replay graph. In addition, few details            This way we are able to identify a range of emotions from YouTube
+about the replay graph are public, so it is not clear what criteria a       comments, such as joy, approval, disapproval, anger, and disappoint-
+video must meet to be equipped with the replay graph. The collection        ment. As output, each comment was assigned an emotion and a
+of videos was narrowed down based on these criteria:                        respective emotion score.
+• The videos must show 3D visualizations of human anatomy.
+• The replay graph is present in the video.                                 5. Video Analysis
+• The channels must be credible.
+                                                                            We discuss our analysis and insights gained. The comments were
+• The videos must be in the English language.
+                                                                            analyzed regarding sentiment and emotion. Additionally, individual
+• The videos need to also have comments in the English language.
+                                                                            comments directly referring to the video’s content are discussed. The
+   Efforts were made to select a diverse range of topics, anatomic          number of views and comments per video has a moderate positive
+structures, length of video, and range of upload period. Credibility        correlation (0.65), except for one video that had an exceptionally
+was checked by determining whether the channels were managed by             high number of views. This outlier video about COVID-19 had about
+companies with expertise in health communication. Finally, a total          339 million views but only 836 comments, compared to other videos
+of 76 videos from the following five channels were selected: Nucleus        with fewer views that had more than 1000 comments. However, the
+Medical Media (47 videos), Scientific Animations (9 videos), Dan-           number of comments is not a reliable metric because it can be
+delion Medical Animation (15 videos), BioDigital, Inc. (4 videos),          influenced by the channel owner by filtering comments before they
+and Infuse Medical (1 video).                                               are posted and deleting comments that have already been posted.
+
+                                                                                                                                                    © 2024 The Authors.
+                                                                                 Proceedings published by Eurographics - The European Association for Computer Graphics.
+                                       S. Mittenentzwei, D. Murad, B. Preim, M. Meuschke / User Responses in YouTube Videos                                  3 of 5
+
+                                                                                                              100
+
+
+
+
+                                                                                          Normalized Number
+                                                                                           of Comments in %
+                                                                                                               80
+                                                                                                               60
+                                                                                                              40
+                                                                                                               20
+                                                                                                               0
+                                                                                                                        Posi�ve     Neutral    Nega�ve
+
+                                                                                          Figure 2: Normalized distribution among all the videos, in ascend-
+                                                                                          ing order regarding the number of negative comments.
+
+Figure 1: Screenshot from the video: What is a Coronary Angio-
+plasty? (Nucleus Medical Media) showing the replay graph.
+                                                                                          focusing on those that mentioned words or phrases related to feed-
+                                                                                          back about the video’s presentation, style, quality, clarity, and sim-
+                                                                                          ilar aspects. These included “video,” “visualization,” “animation,”
+   The replay graphs vary greatly not only in terms of where peaks
+                                                                                          “graphics,” “quality,” “audio,” “voice,” “presentation,” “background,”
+are visible in relation to the video content but also in their overall
+                                                                                          and “sound.” After filtering for these keywords, a combination of
+shape. While some show few clear peaks, others show an almost
+                                                                                          emotions presented and a manual reading approach was undertaken
+smooth curve, while still others show a zigzag pattern of multiple
+                                                                                          to gain insights into viewers’ perceptions of the videos:
+small high-frequency peaks. It is possible that replay graphs act as a
+self-fulfilling prophecy; that is, as peaks become visible, more users                    • Viewers generally praised the videos for being helpful, improv-
+tend to jump to those time stamps, making the peaks larger and more                         ing their knowledge, and being informative, simple, and easy to
+prominent to other users. As a result, the shape of the replay graph                        understand. Here are a few example comments:
+may not be fully based on the content of the videos and, therefore,
+does not provide insight into the content of the videos. Furthermore,                             – "Your videos are really helpful. Well explained in a simple and
+we did not find any connection between the video content with the                                   uncomplicated way. You made learning enjoyable."
+highest replay rates and the content of the comments.                                             – "This really broke it down & made it so easy to understand!
+                                                                                                    Thank you. The visual is great."
+Sentiment Analysis. Overall, the sentiment distribution was fairly
+even, with positive comments slightly edging the numbers. The                             • Viewers generally felt negative about robotic, monotone, or com-
+overall sentiment distribution shows that most comments were posi-                          puter voiceovers. Some viewers also expressed concerns about
+tive (35.92 %), followed by neutral comments (30.46 %) and nega-                            emotional or health triggers that might be present in the video.
+tive comments (33.62 %). The following observations were made                               Some comments mentioning them are below:
+through a manual investigation:                                                                   – "Pleaseee use a different voice for these videos. People who
+• Positive Sentiment (35.92 %): These viewers had a favorable or                                    are concerned about their health do not want a cold robotic
+  supportive response to the videos. Appreciation for the content,                                  voice adding to their anxiety."
+  agreement with the information presented, or positive experiences                               – "just an FYI, you should include a trigger warning before
+  related to the video topics.                                                                      showing visuals of an aura. It can cause migraines for those
+• Neutral Sentiment (30.46 %): Comments with a neutral senti-                                       who get them."
+  ment were more likely informational, seeking clarity, or sharing
+                                                                                          Ten Videos with Highest Proportion of Positive Comments. The
+  personal experiences. They also included queries about the video
+                                                                                          majority of these videos had less than 50 comments, one with 116
+  topic, requests for more information or videos, or discussions that
+                                                                                          and another video called “From Fertilization to Childbirth” with
+  do not express strong positive or negative feelings.
+                                                                                          1113 comments as a complete outlier. The user reactions were natu-
+• Negative Sentiment (33.62 %): These comments usually ex-
+                                                                                          rally skewed by the sheer number of comments in this video.
+  pressed concerns, disagreements, or negative personal experi-
+  ences. Negative sentiments could arise from viewers who have                               Similar themes as the videos with predominantly negative senti-
+  faced challenges, side effects, or unfavorable outcomes related to                      ment were found here as well. Viewers generally praised the videos
+  the video topics.                                                                       and animations for being helpful, improving their knowledge, be-
+                                                                                          ing informative, and thanking the channel. The negative comments
+   While the majority of the videos had less than 200 comments, it
+                                                                                          generally revolved around viewers’ personal experiences or general
+was important to get a normalized view to find patterns or videos
+                                                                                          comments regarding the topic of the videos. While there were some
+that needed a more in-depth analysis, see Figure 2. To cover the
+                                                                                          comments that talked about an individual video not showing symp-
+extremes of the distribution, we look at the ten videos with the most
+                                                                                          toms (“What are the symptoms for this”) or the choice of having
+negative and the ten videos with the most positive comments.
+                                                                                          music in one of the videos (“WHOLLY unnecessary music......”),
+Ten Videos with Highest Proportion of Negative Comments. It                               these comments were few and far between. It is difficult to say with
+was not feasible to manually examine thousands of comments. A                             certainty if it directly led to low or high user engagement or users
+keyword-based method was employed to sift through comments,                               liking or disliking the video.
+
+© 2024 The Authors.
+Proceedings published by Eurographics - The European Association for Computer Graphics.
+4 of 5                             S. Mittenentzwei, D. Murad, B. Preim, M. Meuschke / User Responses in YouTube Videos
+
+Rest of the Videos. After analyzing the extremes, the other 56               Other Correlating Factors. The normalized sentiment distribu-
+videos had a fairly even distribution of sentiments. The presence of         tion was fairly consistent across various channels and videos, with
+neutral comments suggested that some viewers might have questions,           comments in preventive/informative content generally slightly posi-
+suggestions, or general observations that are neither strongly positive      tive. This is expected in topics that do not evoke strong emotions,
+nor negative. These videos also showed similar content in terms              unlike content about severe conditions, which could distress some
+of user comments after a combination of sentiment and emotion                viewers. Despite using sentiment and emotion analysis tools, clear
+as well as keyword analysis. Positive comments praised them for              patterns were elusive, likely due to the subjective nature of user
+being informative, increasing their understanding, and thanking the          preferences—what engages one user may seem lacking or overly
+channels. Some negative and neutral comments were observed:                  complex to another.
+• Viewers’ comments on the use of music varied, often within the
+  same video, highlighting the subjective nature of preferences and          6. Insights and Limitations
+  the complexity of decision-making in design.
+                                                                             We reflect on limitations and insights, focusing on why users watch
+  – "umm the music is really annoying............. can’t concentrate"        the videos, what they like or dislike about them, and possible corre-
+  – "Thanks for the video. Very well done and explained. Music is            lations of sentiment with the visual content of the videos.
+    very relaxing also."
+• The use of plain or dark background was questioned: “Why are
+                                                                             6.1. Limitations
+  medical 3D animations always scary like there is something about
+  the plain dark background, or the lack of sound apart from the             Our video set is dominated by the Nucleus Medical Media channel,
+  voice of the narrator, idk”. While this gives an insight into how          which makes up more than half of the videos since this channel is
+  backgrounds might induce certain emotions in the viewer, the               the most active channel producing videos featuring medical 3D vi-
+  lack of other comments about backgrounds in other videos made              sualizations. Our results might be influenced by the unequal sample
+  it hard to substantiate it as a general design goal.                       size and including additional channels might uncover new insights.
+• Again, the use of natural, and relaxing human voice was praised,           When searching for videos, their sorting on YouTube is not static
+  as opposed to computer-generated or monotonous voiceovers.                 and is tweaked to the account’s preference. Thus, the same search
+                                                                             methodology might show different videos to another person. The
+  – "Does anyone else find these videos very relaxing? Aside from
+                                                                             comments posted per video can also be influenced by channel own-
+    being fascinating, I just feel at home amongst these animations
+                                                                             ers, e.g., by filtering and deleting comments. As a result, certain
+    and calm voice and neutral colours."
+                                                                             content may have been mentioned by viewers, but the comments are
+• Some viewers questioned the pacing of videos:                              not publicly available and were not included in our analysis. Also,
+  – "I set the speed to 1.25x. This video is a bit slow otherwise..."        the users who comment on YouTube may not be representative of
+  – "Would’ve been great if the narrator explained a bit slow for            the general user who only watches the video. Furthermore, the influ-
+    non-medical people like me."                                             ence of external factors like the popularity of the channel, the time
+                                                                             of posting, the video topic, and concurrent trends might confound
+Emotion Analysis. The comments for each emotion were manually                the analysis. There is a possibility of bias or error in automated
+inspected, with observations focused on the top five emotions, as            sentiment analysis tools, especially in interpreting sarcasm, irony, or
+others appeared in less than 5 % of all comments:                            cultural nuances, which we counteracted by manually investigating
+• Neutral (34.37 %): These comments were mostly discussing the               the comments.
+  topic, seeking answers, or sharing experiences without a strong
+  emotional expression. This reaffirms our earlier observation from          6.2. Insights
+  sentiment analysis that many comments that are informational,
+  inquisitive, or descriptive in nature do not show strong emotions.         User Motivation. As many users share personal experiences in
+• Admiration (14.54 %): Comments expressing appreciation, re-                their comments, a major reason for watching the videos seems to
+  spect, and positive regard for the content, or the people going            be personal dismay. Either the user themselves is or was affected
+  through experiences described in the videos.                               by the topic or a relative. Interestingly, some users also write about
+• Gratitude (9.13 %): Many viewers expressed gratitude, thankful             personal experiences that lie in the past, thus, the personal dismay
+  for the information provided, the clarity of the presentation, or          is not always acute. Other contexts to watch these videos could be
+  the insights gained from watching the videos.                              for personal interest or academic purposes. However, this was not
+• Sadness (7.99 %): Comments with sadness were sharing chal-                 specifically mentioned in the comments.
+  lenges, personal losses, or empathizing with others.
+                                                                             Positive/Negative Feedback. Users appreciated the videos for sim-
+• Curiosity (7.57 %): Comments expressing curiosity suggested
+                                                                             plifying medical topics with clear visuals, highlighting a preference
+  that viewers are keen to learn more, have questions, or are in-
+                                                                             for simplicity and aesthetics. Though specific visual styles were
+  trigued by the content.
+                                                                             not singled out, the overall satisfaction with the visuals was high.
+   Sentiment and emotion were used to narrow down interesting                Human voiceovers were favored over AI voices, although advance-
+videos and comments. For example, emotions such as confusion,                ments in AI voice quality could change this perception. Background
+annoyance, anger, or disapproval were more likely to provide insight         music received mixed reviews; it could be irritating if too dominant
+into what people did not like about the videos.                              but added liveliness in the absence of voiceover. Gender-specific
+
+                                                                                                                                                     © 2024 The Authors.
+                                                                                  Proceedings published by Eurographics - The European Association for Computer Graphics.
+                                       S. Mittenentzwei, D. Murad, B. Preim, M. Meuschke / User Responses in YouTube Videos                                   5 of 5
+
+medical videos typically featured narrators of the same gender. The                       [DCLT19] D EVLIN J., C HANG M., L EE K., T OUTANOVA K.: BERT: pre-
+narration speed also drew comments: It was deemed too slow in the                           training of deep bidirectional transformers for language understanding.
+video "How do carbohydrates affect your weight?" and too fast in                            In Proc. of Conference of the North American Chapter of the Association
+                                                                                            for Computational Linguistics: Human Language Technologies (2019),
+"COVID-19 Animation: What Happens If You Get Coronavirus?",                                 Association for Computational Linguistics, pp. 4171–4186. 2
+suggesting that the ideal pace may depend on the topic’s complex-                         [GMPB23] G ARRISON L. A., M EUSCHKE M., P REIM B., B RUCKNER
+ity. For example, the biomedical processes of COVID-19 are likely                           S.: Current Approaches in Narrative Medical Visualization. Springer
+perceived as more complex than basic information on healthy eating.                         Nature Switzerland, Cham, 2023, pp. 95–116. 1
+Correlations with Visual Content. Darker-themed videos generally                          [JJ20] J EAN B., J OSHUA G.: Youtube: Online video and participatory
+                                                                                             culture. European Journal of Communication 35, 4 (2020), 419–423. 1
+received more negative comments, whereas videos with mixed col-
+ors received more positive comments. Additionally, the percentage                         [LBN∗ 22] L OUREIRO D., BARBIERI F., N EVES L., A NKE L. E.,
+                                                                                            C AMACHO -C OLLADOS J.: Timelms: Diachronic language models from
+of comments showing “sadness” was slightly larger in dark-themed                            twitter. arXiv, 2022. 2
+videos. The results are not pronounced enough to conclude if color
+                                                                                          [LL19] L ANGFORD A., L OEB S.: Perceived patient-provider communi-
+alone influences emotions in these cases because the content of the                         cation quality and sociodemographic factors associated with watching
+video and how it is presented might play a major role as well. If the                       health-related videos on YouTube: A cross-sectional analysis. Journal of
+video’s topic is more somber or deals with serious topics like cancer,                      Medical Internet Research 21, 5 (2019), e13512. 1
+and it also has a dark theme, the combination could amplify feelings                      [LOG∗ 19] L IU Y., OTT M., G OYAL N., D U J., J OSHI M., C HEN D.,
+of sadness. While we observed a diverse range of design decisions                           L EVY O., L EWIS M., Z ETTLEMOYER L., S TOYANOV V.: RoBERTa:
+in the videos, user comments were only rarely commenting on these.                          A robustly optimized bert pretraining approach. ArXiv abs/1907.11692
+                                                                                            (2019). 2
+Instead, it became clear that viewers mainly wanted to share their
+                                                                                          [Low23] L OWE S.:   roberta-base-go_emotions. https://
+personal experiences with the medical topic covered in the video.
+                                                                                            huggingface.co/SamLowe/roberta-base-go_emotions,
+                                                                                            2023. 2
+7. Conclusion and Future Work                                                             [LTX∗ 22] L EE J., T URNER K., X IE Z., K ADHIM B., H ONG Y.-R.: As-
+                                                                                            sociation between health information–seeking behavior on YouTube and
+We analyzed the user responses of 76 YouTube videos showcasing                              physical activity among U.S. adults: Results from health information
+3D medical visualizations. While the user comments rarely target                            trends survey 2020. AJPM Focus 1, 2 (2022), 100035. 1
+concrete design decisions, we are able to provide an overview and                         [Pap23] PAPARIELLO  L.:         xlm-roberta-base-language-
+reflect on the motivation for watching the videos, aspects praised                           detection.       https://huggingface.co/papluca/
+or criticized in the videos, and correlations with the videos’ visual                        xlm-roberta-base-language-detection, 2023. 2
+content. We only included top-level comments, excluding replies.                          [PG16] PARK D. Y., G OERING E. M.: The health-related uses and grati-
+However, analyzing the hierarchical structure of comments would                             fications of YouTube: Motive, cognitive involvement, online activity, and
+allow us to also investigate discussions between several viewers.                           sense of empowerment. Journal of Consumer Health on the Internet 20,
+                                                                                            1-2 (2016), 52–70. 1
+Channel owners can be asked to contribute to the analysis of the
+                                                                                          [PL08] PANG B., L EE L.: Opinion mining and sentiment analysis, vol. 2.
+videos by providing additional information not accessible to view-
+                                                                                            Now Publishers, Inc., 2008. 2
+ers, such as demographics of the viewers and dropout rates. Since
+                                                                                          [PSN20] P ORRECA A., S COZZARI F., N ICOLA M. D.: Using text mining
+the comments may not be representative of the general audience, it                          and sentiment analysis to analyse YouTube italian videos concerning
+is important to gain further insight into the behavior of users who                         vaccination. BMC Public Health 20, 1 (2020). 2
+watch medical videos but do not comment. Future studies can com-                          [RNSS18] R ADFORD A., NARASIMHAN K., S ALIMANS T., S UTSKEVER
+bine the analysis of the comments with an in-depth analysis of the                          I.: Improving language understanding by generative pre-training, 2018. 2
+video content, e.g., analyzing the design of transitions, anatomical                      [SLL∗ 21] S HI Y., L AN X., L I J., L I Z., C AO N.: Communicating with
+structures, body functions, and the logical structure of the videos,                        motion: A design space for animated visual narratives in data videos.
+potentially discovering further correlations.                                               In Proc. of ACM Conference on Human Factors in Computing Systems
+                                                                                            (2021), CHI ’21. 1
+                                                                                          [SOA∗ 23] S HEVTSOV A., O IKONOMIDOU M., A NTONAKAKI D.,
+References                                                                                  P RATIKAKIS P., I OANNIDIS S.: What tweets and YouTube comments
+[AGAZG23] A RDILA C. M., G ONZÁLEZ -A RROYAVE D., Z ULUAGA -                                have in common? Sentiment and graph analysis on data related to US
+  G ÓMEZ M.: Efficacy of three-dimensional models for medical education:                    elections 2020. PLOS ONE 18, 1 (2023), e0270542. 2
+  A systematic scoping review of randomized clinical trials. Heliyon 9, 2                 [VSP∗ 17] VASWANI A., S HAZEER N., PARMAR N., U SZKOREIT J.,
+  (2023), e13395. 1                                                                         J ONES L., G OMEZ A. N., K AISER L. U ., P OLOSUKHIN I.: Attention
+[AHRL∗ 15] A MINI F., H ENRY R ICHE N., L EE B., H URTER C., I RANI                         is all you need. In Proc. of Advances in Neural Information Processing
+  P.: Understanding data videos: Looking at narrative visualization through                 Systems (2017), vol. 30, Curran Associates, Inc. 2
+  the cinematography lens. In Proc. of ACM Conference on Human Factors                    [WG16] W ELBOURNE D. J., G RANT W. J.: Science communication
+  in Computing Systems (2015), p. 1459–1468. 1                                              on youtube: Factors that affect channel and video popularity. Public
+[AM21] A LAPARTHI S., M ISHRA M.: BERT: A sentiment analysis                                Understanding of Science 25, 6 (2016), 706–718. 1
+  odyssey. Journal of Marketing Analytics 9, 2 (2021), 118–126. 2                         [WJJ17] W URA JACOBS A. O. A., J EON K. C.: Health information
+[BA20] B OZKURT A. P., A RAS I.: Cleft lip and palate YouTube videos:                       seeking in the digital age: An analysis of health information seeking
+  Content usefulness and sentiment analysis. The Cleft Palate-Craniofacial                  behavior among us adults. Cogent Social Sciences 3, 1 (2017), 1302785.
+  Journal 58, 3 (2020), 362–368. 2                                                          1
+[CDMP21] C HIORRINI A., D IAMANTINI C., M IRCOLI A., P OTENA                              [YBSX22] YANG S., B ROSSARD D., S CHEUFELE D. A., X ENOS M. A.:
+  D.: Emotion and sentiment analysis of tweets using bert. In Prof. of                      The science of YouTube: What factors influence user engagement with
+  EDBT/ICDT Workshops (2021). 2                                                             online science videos? PLOS ONE 17, 5 (2022), e0267697. 1
+
+© 2024 The Authors.
+Proceedings published by Eurographics - The European Association for Computer Graphics.
+

@@ -1,0 +1,257 @@
+{
+  "batch": "0140",
+  "scope": "Four unmodified licensed original PDFs and five complete text-only article extractions; excludes independently uncleared third-party media. Two generated license-evidence notes explicitly identified.",
+  "new_canonical_source_objects": 9,
+  "new_original_payload_paths": 11,
+  "files": [
+    {
+      "file": "upstream/web__diglib.eg.org/SRC-8fe2ca2e1a88/original.pdf",
+      "repository": "web/diglib.eg.org",
+      "upstream_path": "SRC-8fe2ca2e1a88/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://diglib.eg.org/server/api/core/bitstreams/ab297d57-b41e-45b5-a281-51fa6561d9f8/content",
+      "title": "Is there a Tornado in Alex’s Blood Flow? A Case Study for Narrative Medical Visualization",
+      "size_bytes": 5720499,
+      "sha256": "010bc8e42d17bf8c03469b20f8b9ea4cc89434891c4e98e1c5fe4df227d2acc5",
+      "git_blob_sha1": "99eba87733707d0239b3b20fee09bd784fb8c8f7",
+      "role": "original_article",
+      "license": "CC-BY (article notice; version unspecified)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-8fe2ca2e1a88"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://diglib.eg.org/server/api/core/bitstreams/ab297d57-b41e-45b5-a281-51fa6561d9f8/content"
+      ],
+      "conditions": "DOI 10.2312/vcbm.20221183. Unmodified complete 11-page publisher PDF. Creative Commons Attribution notice retained. Illustrations are described as study authors’ designed story materials; no separate restrictive image credit found."
+    },
+    {
+      "file": "upstream/web__diglib.eg.org/SRC-239619610a1b/original.txt",
+      "repository": "web/diglib.eg.org",
+      "upstream_path": "SRC-239619610a1b/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://diglib.eg.org/server/api/core/bitstreams/638591a4-87e2-4017-af5d-06ecc81d783a/content",
+      "title": "Leaving the Lab Setting: What We Can Learn About the Perception of Narrative Medical Visualizations from YouTube Comments",
+      "size_bytes": 44412,
+      "sha256": "fce1f5f26e56608d3b2d1748b26cc12621fa19f416d4040d70e93a68e1e782ce",
+      "git_blob_sha1": "26b9ab8af2d9b71df86a2275be691fe338694cc1",
+      "role": "original_article",
+      "license": "CC-BY (article notice; version unspecified)",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-239619610a1b"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://diglib.eg.org/server/api/core/bitstreams/638591a4-87e2-4017-af5d-06ecc81d783a/content"
+      ],
+      "conditions": "DOI 10.2312/vcbm.20241193. Complete text-only extraction; excludes third-party Nucleus Medical Media screenshot and all other figures. Author attribution and license statement preserved."
+    },
+    {
+      "file": "upstream/web__ejane.me/SRC-7d404f9c3e5c/original.txt",
+      "repository": "web/ejane.me",
+      "upstream_path": "SRC-7d404f9c3e5c/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://ejane.me/assets/pdf/papers/li2026vizcrit.pdf",
+      "title": "VizCrit: Exploring Strategies for Displaying Computational Feedback in a Visual Design Tool",
+      "size_bytes": 139244,
+      "sha256": "1891cc3230c1448051dc1210db172945945e52ba16fbce2d2b8e8100ec10d93b",
+      "git_blob_sha1": "3b378d618035c0a4c1c5336c89c4dc68ca5a677c",
+      "role": "normalized_full_article_text",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-7d404f9c3e5c"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://ejane.me/assets/pdf/papers/li2026vizcrit.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "conditions": "Retain authors, attribution and CC BY 4.0 notice. Full text extraction; all figures/media omitted; not unmodified PDF."
+    },
+    {
+      "file": "upstream/web__www.mdpi.com/SRC-9c28b64d3877/original.pdf",
+      "repository": "web/www.mdpi.com",
+      "upstream_path": "SRC-9c28b64d3877/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.mdpi.com/2227-7102/14/4/403/pdf",
+      "title": "Redesign of a Life Cycle Figure Improves Student Conceptions of Ecology and Evolution",
+      "size_bytes": 4691269,
+      "sha256": "d518e467f684eccf0eb912b388e8a127f200c403af4076a77878ca03572da61e",
+      "git_blob_sha1": "130fe6291da7ef5ea260168c9640b293a054ba83",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-9c28b64d3877"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://www.mdpi.com/2227-7102/14/4/403/pdf",
+        "https://doi.org/10.3390/educsci14040403",
+        "https://api.crossref.org/works/10.3390/educsci14040403"
+      ],
+      "conditions": "Unmodified complete 18-page PDF. Original authorship retained. CC BY 4.0 license confirmed by original PDF and/or publisher article landing page with matching Crossref license. No separately restrictive figure credit identified. No standalone supplementary media included."
+    },
+    {
+      "file": "upstream/web__scholarworks.iu.edu/SRC-c7439ab1ae3c/original.pdf",
+      "repository": "web/scholarworks.iu.edu",
+      "upstream_path": "SRC-c7439ab1ae3c/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://scholarworks.iu.edu/journals/index.php/josotl/article/download/21027/30046",
+      "title": "Digital Video as a Personalized Learning Assignment: A Qualitative Study of Student Authored Video using the ICSDR Model",
+      "size_bytes": 199849,
+      "sha256": "c0ec25b9b354fc517450934ff803ffae5788b5f4f603131b106f0a1a54832eaf",
+      "git_blob_sha1": "6fe3849dba9b814a63b74ff4ee250b2cc3909354",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c7439ab1ae3c"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://scholarworks.iu.edu/journals/index.php/josotl/article/view/21027",
+        "https://scholarworks.iu.edu/journals/index.php/josotl/article/download/21027/30046",
+        "https://doi.org/10.14434/josotl.v18i1.21027",
+        "https://api.crossref.org/works/10.14434/josotl.v18i1.21027"
+      ],
+      "conditions": "Unmodified complete 14-page PDF. Original authorship retained. CC BY 4.0 license confirmed by original PDF and/or publisher article landing page with matching Crossref license. No separately restrictive figure credit identified. No standalone supplementary media included."
+    },
+    {
+      "file": "upstream/web__cronfa.swan.ac.uk/SRC-941b38147cdf/original.pdf",
+      "repository": "web/cronfa.swan.ac.uk",
+      "upstream_path": "SRC-941b38147cdf/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://cronfa.swan.ac.uk/Record/cronfa57437/Download/57437__20681__1485c97d14c343688ce3c1cfe4356497.pdf",
+      "title": "Reflections from the team: Co‐creating visual media about ecological processes for young people",
+      "size_bytes": 2221164,
+      "sha256": "236b81ec57a1304b403356ce54ecc294bf69929aba0e0fc9dab5698077f0d82a",
+      "git_blob_sha1": "c2b077d16f91616fd730ab5d8063cc434d23cf1d",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-941b38147cdf"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://cronfa.swan.ac.uk/Record/cronfa57437/Download/57437__20681__1485c97d14c343688ce3c1cfe4356497.pdf",
+        "https://doi.org/10.1002/pan3.10241",
+        "https://api.crossref.org/works/10.1002/pan3.10241"
+      ],
+      "conditions": "Unmodified complete 12-page PDF. Original authorship retained. CC BY 4.0 license confirmed by original PDF and/or publisher article landing page with matching Crossref license. No separately restrictive figure credit identified. No standalone supplementary media included."
+    },
+    {
+      "file": "upstream/web__www.cambridge.org/SRC-a8695ee4aaf3/original.txt",
+      "repository": "web/www.cambridge.org",
+      "upstream_path": "SRC-a8695ee4aaf3/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0007087425101118",
+      "title": "Between education and entertainment: animation, science communication, and the Bell System Science Series",
+      "size_bytes": 101364,
+      "sha256": "de250359ee2787f3c8d7eac32dd5a899cfed646532fef273ee3214d1816d074e",
+      "git_blob_sha1": "5fdcc390bee03541c6db1bb89565b34c6c7540ff",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-a8695ee4aaf3"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0007087425101118",
+        "https://doi.org/10.1017/S0007087425101118",
+        "https://api.crossref.org/works/10.1017/S0007087425101118"
+      ],
+      "conditions": "Historical Bell Science Series film frames and other third-party archive illustrations omitted; permission to reuse those images is not inferred from article CC BY. All 22 pages text-extracted; raster-embedded text may not be recovered. Retain original authorship, license evidence and extraction-change notice."
+    },
+    {
+      "file": "upstream/web__reference-global.com/SRC-10c1430c190b/original.txt",
+      "repository": "web/reference-global.com",
+      "upstream_path": "SRC-10c1430c190b/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://reference-global.com/pdf/10.5334/csci.45",
+      "title": "Enhancing Women’s Participation in Turkey through Digital Storytelling",
+      "size_bytes": 55518,
+      "sha256": "78ca8f70cf2fe960f7a2e9340c28729c92750c79ccc94a729ec66c13ebfcf407",
+      "git_blob_sha1": "0781d63df90e91573713174f79f2356b58fa648e",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-10c1430c190b"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://reference-global.com/article/10.5334/csci.45",
+        "https://reference-global.com/pdf/10.5334/csci.45",
+        "https://doi.org/10.5334/csci.45",
+        "https://api.crossref.org/works/10.5334/csci.45"
+      ],
+      "conditions": "Digital-story screenshots, photographs and participant portraits omitted; no standalone films or participant assets reproduced. All 19 pages text-extracted; raster-embedded text may not be recovered. Retain original authorship, license evidence and extraction-change notice."
+    },
+    {
+      "file": "upstream/web__diglib.eg.org/SRC-e5b578e80e45/original.txt",
+      "repository": "web/diglib.eg.org",
+      "upstream_path": "SRC-e5b578e80e45/original.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://diglib.eg.org/bitstreams/220ed69f-f0ac-44c6-9d16-8e23c7f6cb6c/download",
+      "title": "Designing Annotations in Visualization: Considerations from Visualization Practitioners and Educators",
+      "size_bytes": 113139,
+      "sha256": "f3590f3fb4defe0a1a0e6a178a07d837aa47748c962837f64dcb6a81bdc30730",
+      "git_blob_sha1": "3697a570b45cdac32e9d57c627b098cdd484c007",
+      "role": "original_article",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-e5b578e80e45"
+      ],
+      "coverage_kind": "canonical_fulltext_extraction",
+      "license_evidence_urls": [
+        "https://diglib.eg.org/bitstreams/220ed69f-f0ac-44c6-9d16-8e23c7f6cb6c/download",
+        "https://doi.org/10.1111/cgf.70435",
+        "https://api.crossref.org/works/10.1111/cgf.70435"
+      ],
+      "conditions": "Examples of third-party visualization graphics and screenshots omitted; no independently copyrighted image content retained. All 12 pages text-extracted; raster-embedded text may not be recovered. Retain original authorship, license evidence and extraction-change notice."
+    },
+    {
+      "file": "upstream/web__scholarworks.iu.edu/SRC-c7439ab1ae3c/license-evidence.txt",
+      "repository": "web/scholarworks.iu.edu",
+      "upstream_path": "SRC-c7439ab1ae3c/license-evidence.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://scholarworks.iu.edu/journals/index.php/josotl/article/view/21027",
+      "size_bytes": 703,
+      "sha256": "322827bd6b23ce017361d25a1d16718e68c77975c81d42c640b82c5245878654",
+      "git_blob_sha1": "21118909d84a926a9f2644882380ae1aabf03cc7",
+      "role": "license_evidence_note",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-c7439ab1ae3c"
+      ],
+      "coverage_kind": "license_support_generated",
+      "generated_evidence_note": true
+    },
+    {
+      "file": "upstream/web__reference-global.com/SRC-10c1430c190b/license-evidence.txt",
+      "repository": "web/reference-global.com",
+      "upstream_path": "SRC-10c1430c190b/license-evidence.txt",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://reference-global.com/article/10.5334/csci.45",
+      "size_bytes": 611,
+      "sha256": "81f57927bf8e468c98461c87c70b8ad3c1212c8020ebccc3d37bb43959572042",
+      "git_blob_sha1": "08545d0557433576ed800a6d176aa084b34c105b",
+      "role": "license_evidence_note",
+      "license": "CC-BY-4.0",
+      "original_bytes_unchanged": false,
+      "related_public_source_ids": [
+        "SRC-10c1430c190b"
+      ],
+      "coverage_kind": "license_support_generated",
+      "generated_evidence_note": true
+    }
+  ]
+}
