@@ -1,0 +1,30 @@
+{
+  "batch": "0131",
+  "scope": "Complete original files, with applicable publisher permission and attribution retained.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/web__discovery.ucl.ac.uk/SRC-c693f3174be3/original.pdf",
+      "repository": "web/discovery.ucl.ac.uk",
+      "upstream_path": "SRC-c693f3174be3/original.pdf",
+      "upstream_commit": "retrieved-20261117",
+      "source_url": "https://discovery.ucl.ac.uk/id/eprint/10045777/",
+      "title": "Phys FilmMakers: teaching science students how to make YouTube-style videos",
+      "size_bytes": 409407,
+      "sha256": "ca3ee4052a69f0df52f59bafdc42d08ca6be510400b071aaeb1f5cf75b0a7a16",
+      "git_blob_sha1": "5deeb1b3c5647181b6d12c88f08afc597e5d59aa",
+      "role": "original_article",
+      "license": "CC BY 3.0",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-c693f3174be3"
+      ],
+      "coverage_kind": "canonical_file_full",
+      "license_evidence_urls": [
+        "https://discovery.ucl.ac.uk/id/eprint/10045777/1/McKemmish_Coates_2018_Eur._J._Phys._39_015706.pdf"
+      ],
+      "conditions": "Original publisher PDF including cover, authors, citation, DOI and explicit CC BY 3.0 notice. Source: UCL repository; no separate permissions inferred for linked supplementary videos."
+    }
+  ]
+}
