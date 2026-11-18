@@ -1,0 +1,90 @@
+{
+  "batch": "0155",
+  "scope": "Two previously uncollected original-directory papers, official ACL/TACL versions under CC BY4: full text from all 17 and19 PDF pages, figures/media excluded. No README or source-code supplements.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/articles/2024.tacl-1.9.fulltext.txt",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "authors": [
+        "Nelson F. Liu",
+        "Kevin Lin",
+        "John Hewitt",
+        "Ashwin Paranjape",
+        "Michele Bevilacqua",
+        "Fabio Petroni",
+        "Percy Liang"
+      ],
+      "source_url": "https://aclanthology.org/2024.tacl-1.9.pdf",
+      "canonical_url": "https://aclanthology.org/2024.tacl-1.9/",
+      "registry_source_id": "IFH-6ee83218472b",
+      "related_public_source_ids": [
+        "IFH-6ee83218472b"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2024.tacl-1.9/",
+      "license_evidence": "Official 17-page TACL 2024 PDF page 1 (printed page 157) explicitly states ©2024 Association for Computational Linguistics, distributed under CC-BY 4.0. Official publication page also confirms 2016-and-later ACL materials are CC BY 4.0.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 58656,
+      "sha256": "6912cc79b2fc894c67b15bde698c0032933d10c75fcf2d18e44a4f901cece2b0",
+      "upstream_pdf_sha256": "f37f6fabe0fe0d8c73b67579cd115dbf14e282cfb7b7af655ae8109638402c9b",
+      "page_count": 17,
+      "conditions": "Retain attribution, source link, CC BY 4.0 license and change notice. All figures/images/media excluded.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2024.tacl-1.9.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2024.tacl-1.9/"
+      ],
+      "git_blob_sha1": "c256a03400c98003db1ff86ef51167795b3b10e4"
+    },
+    {
+      "file": "upstream/articles/2024.findings-acl.57.fulltext.txt",
+      "title": "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression",
+      "authors": [
+        "Zhuoshi Pan",
+        "Qianhui Wu",
+        "Huiqiang Jiang",
+        "Menglin Xia",
+        "Xufang Luo",
+        "Jue Zhang",
+        "Qingwei Lin",
+        "Victor Rühle",
+        "Yuqing Yang",
+        "Chin-Yew Lin",
+        "H. Vicky Zhao",
+        "Lili Qiu",
+        "Dongmei Zhang"
+      ],
+      "source_url": "https://aclanthology.org/2024.findings-acl.57.pdf",
+      "canonical_url": "https://aclanthology.org/2024.findings-acl.57/",
+      "registry_source_id": "IFH-31ff4c063d85",
+      "related_public_source_ids": [
+        "IFH-31ff4c063d85"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2024.findings-acl.57/",
+      "license_evidence": "Official ACL publication page footer licenses ACL materials published in or after 2016 under CC BY 4.0. This is a 2024 ACL publication; the PDF identifies Association for Computational Linguistics copyright. Policy-based evidence, not a separately retrieved author license form.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 73873,
+      "sha256": "f9095a455022e156aa0b99b44d58e523e9ce6496b17bbab3f52528e61cb816e5",
+      "upstream_pdf_sha256": "5f8217cd3c0d0c60e00b2e56984b722c981db0cb4ef1034e67569d88fc6d5651",
+      "page_count": 19,
+      "conditions": "Retain attribution, source link, CC BY 4.0 license and change notice. All figures/images/media excluded.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2024.findings-acl.57.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2024.findings-acl.57/"
+      ],
+      "git_blob_sha1": "bcead16c9d9155f2dbad7a8a2f507833216c8d2f"
+    }
+  ]
+}
