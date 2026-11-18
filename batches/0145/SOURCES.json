@@ -1,0 +1,62 @@
+{
+  "batch": "0145",
+  "scope": "License-only correction for an existing skill source. No new source bodies. Assafkip entry reverified and left unchanged because MIT + Commons Clause was already accurate.",
+  "new_canonical_source_objects": 0,
+  "new_original_payload_paths": 3,
+  "files": [
+    {
+      "file": "upstream/0xsline__OpenChatCut/LICENSE",
+      "repository": "0xsline/OpenChatCut",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+      "source_url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/LICENSE",
+      "size_bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "role": "license_notice",
+      "license": "AGPL-3.0 (repository root)",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-df594892ae7d"
+      ],
+      "coverage_kind": "license_support",
+      "conditions": "Directory NOTICE applies GPL-3.0-only to adapted agent skills; root AGPL applies other repository components. Standard GPL text is supplied separately from SPDX, not represented as an original upstream file. No new work or relicensing."
+    },
+    {
+      "file": "upstream/0xsline__OpenChatCut/src/agent/skills/NOTICE.md",
+      "repository": "0xsline/OpenChatCut",
+      "upstream_path": "src/agent/skills/NOTICE.md",
+      "upstream_commit": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
+      "source_url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/skills/NOTICE.md",
+      "size_bytes": 1118,
+      "sha256": "fa0ddd77824050d4a80b239142de431cccfbffdaf0a4e61484354d325ebb333d",
+      "git_blob_sha1": "e9a4882f33cd4fea9f19b45a624b048007695082",
+      "role": "license_notice",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-df594892ae7d"
+      ],
+      "coverage_kind": "license_support",
+      "conditions": "Directory NOTICE applies GPL-3.0-only to adapted agent skills; root AGPL applies other repository components. Standard GPL text is supplied separately from SPDX, not represented as an original upstream file. No new work or relicensing."
+    },
+    {
+      "file": "upstream/0xsline__OpenChatCut/src/agent/skills/GPL-3.0-canonical.txt",
+      "repository": "0xsline/OpenChatCut",
+      "upstream_path": "src/agent/skills/GPL-3.0-canonical.txt",
+      "upstream_commit": "retrieved-20261118-standard-license-text",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-3.0-only.txt",
+      "size_bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "git_blob_sha1": "f6cdd22a6c1fbc887e08a215cb4beb3c47048041",
+      "role": "license_notice",
+      "license": "GPL-3.0-only",
+      "original_bytes_unchanged": true,
+      "related_public_source_ids": [
+        "SRC-df594892ae7d"
+      ],
+      "coverage_kind": "license_support",
+      "conditions": "Directory NOTICE applies GPL-3.0-only to adapted agent skills; root AGPL applies other repository components. Standard GPL text is supplied separately from SPDX, not represented as an original upstream file. No new work or relicensing."
+    }
+  ]
+}

@@ -169,23 +169,29 @@
       "file": "upstream/web__github.com/SRC-df594892ae7d/original.md",
       "repository": "web/github.com",
       "upstream_path": "SRC-df594892ae7d/original.md",
-      "upstream_commit": "retrieved-20261116",
+      "upstream_commit": "7fa4b7903e7ebecf832a36249f0c0c755200cc17",
       "source_url": "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/skills/news-rough-cut/SKILL.md",
       "title": "OpenChatCut: news-rough-cut skill",
       "size_bytes": 7076,
       "sha256": "5e2310e111ffdb3559a80dfe423dd280ba96633ee0c7c523c55b590cd9637a3a",
       "git_blob_sha1": "9bb018116ba12daba20aa366e502233de63bf76b",
       "role": "original_article",
-      "license": "AGPL-3.0",
+      "license": "GPL-3.0-only (per directory NOTICE)",
       "original_bytes_unchanged": true,
       "related_public_source_ids": [
         "SRC-df594892ae7d"
       ],
       "coverage_kind": "canonical_file_full",
       "license_evidence_urls": [
+        "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/src/agent/skills/NOTICE.md",
         "https://github.com/0xsline/OpenChatCut/blob/7fa4b7903e7ebecf832a36249f0c0c755200cc17/LICENSE"
       ],
-      "conditions": "Unmodified complete skill source document. AGPL-3.0 retained for this file; no relicensing or software execution. Linked reference files are not included."
+      "conditions": "Unmodified complete skill source document. Corrected from root AGPL to the more specific directory GPL-3.0-only notice. Preserve ChatCut-Inc attribution and adaptation notice. Root AGPL is retained as context, not used to override directory terms. Exact original upstream adaptation commit remains unverified; no blanket provenance clearance, relicensing, execution, or inclusion of linked supporting files is claimed.",
+      "retained_license_and_notice_files": [
+        "upstream/0xsline__OpenChatCut/LICENSE",
+        "upstream/0xsline__OpenChatCut/src/agent/skills/NOTICE.md",
+        "upstream/0xsline__OpenChatCut/src/agent/skills/GPL-3.0-canonical.txt"
+      ]
     }
   ]
 }
