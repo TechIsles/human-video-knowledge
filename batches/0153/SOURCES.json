@@ -1,0 +1,183 @@
+{
+  "batch": "0153",
+  "scope": "Two newly collected original-directory sources: Data Journeys full published article text (all graphics excluded), and AttrScore official README with three complete supporting files. This is not a full repository or visual-article bundle. Original attribution and licenses retained; research-only datasets and models excluded.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 7,
+  "files": [
+    {
+      "file": "upstream/OSU-NLP-Group__AttrScore/README.md",
+      "repository": "OSU-NLP-Group/AttrScore",
+      "upstream_path": "README.md",
+      "upstream_commit": "adbd919df9b7dcb4210e037b59a3176f3c82f6cc",
+      "source_url": "https://github.com/OSU-NLP-Group/AttrScore/blob/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/README.md",
+      "title": "AttrScore: Automatic Evaluation of Attribution by Large Language Models / README.md",
+      "role": "original_repository_readme",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file_full",
+      "related_public_source_ids": [
+        "IFH-ee040f155132"
+      ],
+      "conditions": "Complete unmodified official file at fixed commit. Preserve OSU MIT notice. Research-only datasets, dataset examples/demo_attr, notebook outputs, model weights, linked paper and images are NOT included or relicensed. README contains a relative image link but image bytes not bundled. Only this README constitutes one new repository source; other files are attachments. No code executed. Entire applicable license texts read; complete tree contains no additional NOTICE/ancestor license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/OSU-NLP-Group/AttrScore/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/OSU-NLP-Group__AttrScore/LICENSE"
+      ],
+      "size_bytes": 13786,
+      "sha256": "78dc15c6ad0865ed4c01d0c7b5fc09155b9c374f301aa61135cd4bb309ea0629",
+      "git_blob_sha1": "2a1f4c78e0eb0219e6b65d0a56b9a684e49f7831"
+    },
+    {
+      "file": "upstream/OSU-NLP-Group__AttrScore/inference_alpaca.py",
+      "repository": "OSU-NLP-Group/AttrScore",
+      "upstream_path": "inference_alpaca.py",
+      "upstream_commit": "adbd919df9b7dcb4210e037b59a3176f3c82f6cc",
+      "source_url": "https://github.com/OSU-NLP-Group/AttrScore/blob/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/inference_alpaca.py",
+      "title": "AttrScore: Automatic Evaluation of Attribution by Large Language Models / inference_alpaca.py",
+      "role": "repository_source_attachment",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file_full",
+      "related_public_source_ids": [
+        "IFH-ee040f155132"
+      ],
+      "conditions": "Complete unmodified official file at fixed commit. Preserve OSU MIT notice. Research-only datasets, dataset examples/demo_attr, notebook outputs, model weights, linked paper and images are NOT included or relicensed. README contains a relative image link but image bytes not bundled. Only this README constitutes one new repository source; other files are attachments. No code executed. Entire applicable license texts read; complete tree contains no additional NOTICE/ancestor license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/OSU-NLP-Group/AttrScore/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/OSU-NLP-Group__AttrScore/LICENSE"
+      ],
+      "size_bytes": 7807,
+      "sha256": "8e1ab6b4b4e5606ab72cba9f549489de956f843ad7e1ef7218b4342a572eb65f",
+      "git_blob_sha1": "47a28239cdbe21bfd0fe30af15f68740842075cf"
+    },
+    {
+      "file": "upstream/OSU-NLP-Group__AttrScore/prompt_and_demo/task_prompts.json",
+      "repository": "OSU-NLP-Group/AttrScore",
+      "upstream_path": "prompt_and_demo/task_prompts.json",
+      "upstream_commit": "adbd919df9b7dcb4210e037b59a3176f3c82f6cc",
+      "source_url": "https://github.com/OSU-NLP-Group/AttrScore/blob/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/prompt_and_demo/task_prompts.json",
+      "title": "AttrScore: Automatic Evaluation of Attribution by Large Language Models / prompt_and_demo/task_prompts.json",
+      "role": "repository_source_attachment",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file_full",
+      "related_public_source_ids": [
+        "IFH-ee040f155132"
+      ],
+      "conditions": "Complete unmodified official file at fixed commit. Preserve OSU MIT notice. Research-only datasets, dataset examples/demo_attr, notebook outputs, model weights, linked paper and images are NOT included or relicensed. README contains a relative image link but image bytes not bundled. Only this README constitutes one new repository source; other files are attachments. No code executed. Entire applicable license texts read; complete tree contains no additional NOTICE/ancestor license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/OSU-NLP-Group/AttrScore/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/OSU-NLP-Group__AttrScore/LICENSE"
+      ],
+      "size_bytes": 2170,
+      "sha256": "9de6f4d5cd4584b4de81b37a297c518918e1390ff0fd7697868ab60740c09ea4",
+      "git_blob_sha1": "d5aacf3780440f28a3fa33166652bb534bd5719d"
+    },
+    {
+      "file": "upstream/OSU-NLP-Group__AttrScore/train_alpaca.py",
+      "repository": "OSU-NLP-Group/AttrScore",
+      "upstream_path": "train_alpaca.py",
+      "upstream_commit": "adbd919df9b7dcb4210e037b59a3176f3c82f6cc",
+      "source_url": "https://github.com/OSU-NLP-Group/AttrScore/blob/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/train_alpaca.py",
+      "title": "AttrScore: Automatic Evaluation of Attribution by Large Language Models / train_alpaca.py",
+      "role": "repository_source_attachment",
+      "license": "Apache-2.0 AND MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file_full",
+      "related_public_source_ids": [
+        "IFH-ee040f155132"
+      ],
+      "conditions": "Complete unmodified official file at fixed commit. Preserve OSU MIT notice and original Taori/Gulrajani/Zhang/Dubois/Li Apache-2.0 file header and license text; do not relabel Apache original as MIT. Research-only datasets, dataset examples/demo_attr, notebook outputs, model weights, linked paper and images are NOT included or relicensed. README contains a relative image link but image bytes not bundled. Only this README constitutes one new repository source; other files are attachments. No code executed. Entire applicable license texts read; complete tree contains no additional NOTICE/ancestor license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/OSU-NLP-Group/AttrScore/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/LICENSE",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Apache-2.0.txt",
+        "https://raw.githubusercontent.com/OSU-NLP-Group/AttrScore/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/train_alpaca.py"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/OSU-NLP-Group__AttrScore/LICENSE",
+        "upstream/OSU-NLP-Group__AttrScore/APACHE-2.0.txt"
+      ],
+      "size_bytes": 10413,
+      "sha256": "44b5506fdda5d09881f0d8eb477370cc363ccf1dd91ecdacacb14ab8d0fa12fc",
+      "git_blob_sha1": "b8233fce789afb8fb22559dc0c09d637b5bd67e6"
+    },
+    {
+      "file": "upstream/OSU-NLP-Group__AttrScore/LICENSE",
+      "repository": "OSU-NLP-Group/AttrScore",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "adbd919df9b7dcb4210e037b59a3176f3c82f6cc",
+      "source_url": "https://raw.githubusercontent.com/OSU-NLP-Group/AttrScore/adbd919df9b7dcb4210e037b59a3176f3c82f6cc/LICENSE",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "license_support",
+      "related_public_source_ids": [
+        "IFH-ee040f155132"
+      ],
+      "size_bytes": 1088,
+      "sha256": "953ff47dbbc0c0563d1ec2d245b06d1206f2f38c4ed2f0da728e027ae2e5a973",
+      "git_blob_sha1": "6be8137f919e209ce89c5e9c18c9e3a3a1539491"
+    },
+    {
+      "file": "upstream/OSU-NLP-Group__AttrScore/APACHE-2.0.txt",
+      "repository": "spdx/license-list-data",
+      "upstream_path": "text/Apache-2.0.txt",
+      "upstream_commit": "retrieved-20261118",
+      "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Apache-2.0.txt",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "license_support",
+      "related_public_source_ids": [
+        "IFH-ee040f155132"
+      ],
+      "size_bytes": 10280,
+      "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff",
+      "git_blob_sha1": "137069b823873b8bcf42979bcf8e9371052d26a2"
+    },
+    {
+      "file": "upstream/articles/data-journeys-popular-science-published.fulltext.txt",
+      "title": "Data Journeys in Popular Science: Producing Climate Change and COVID-19 Data Visualizations at Scientific American",
+      "authors": [
+        "Kathleen Gregory",
+        "Laura Koesten",
+        "Regina Schuster",
+        "Torsten Möller",
+        "Sarah Davies"
+      ],
+      "source_url": "https://assets.pubpub.org/5683hq0lwln76fv8rk827jo9y0jurdio.pdf?download=1",
+      "canonical_url": "https://hdsr.mitpress.mit.edu/pub/jme9l45q/release/2",
+      "registry_source_id": "IFH-c3059a2c6a31",
+      "related_public_source_ids": [
+        "IFH-c3059a2c6a31"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://assets.pubpub.org/5683hq0lwln76fv8rk827jo9y0jurdio.pdf?download=1",
+      "license_evidence": "Official PubPub publisher PDF front cover explicitly CC BY4; terminal copyright section explicitly author copyright2024 and CC BY4 except separately credited material. All Scientific American image/preview graphics excluded. Publisher footer credits retained.",
+      "version": "Publisher PDF, HDSR6.2 Spring2024, dated25March2024",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 136139,
+      "sha256": "bcab2482a71afdab13a6d9aff12a5e3803d64d8a4fb213840fc2430c5eb7d310",
+      "upstream_pdf_sha256": "1b2652afa5b1c108a2c22eff77246713e6dda416814c63b017858561dfe2882d",
+      "conditions": "Complete 50-page publisher-PDF textual extraction, excludes all graphical material with third-party rights; attribution/license/change notice retained. Supersedes accepted-manuscript candidate for same source; do not count both as distinct sources.",
+      "upstream_pdf_size": 3112954,
+      "repository": "web/hdsr.mitpress.mit.edu",
+      "upstream_path": "5683hq0lwln76fv8rk827jo9y0jurdio.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://assets.pubpub.org/5683hq0lwln76fv8rk827jo9y0jurdio.pdf?download=1",
+        "https://hdsr.mitpress.mit.edu/pub/jme9l45q/release/2"
+      ],
+      "git_blob_sha1": "1db88e3654282953e5ceaa0661795700ee0748d5"
+    }
+  ]
+}

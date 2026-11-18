@@ -1,0 +1,2246 @@
+Data Journeys in Popular Science: Producing Climate Change and COVID-19 Data Visualizations at Scientific American
+Authors: Kathleen Gregory; Laura Koesten; Regina Schuster; Torsten Möller; Sarah Davies
+Published: Harvard Data Science Review, Issue6.2, Spring2024, dated25March2024.
+Canonical source: https://hdsr.mitpress.mit.edu/pub/jme9l45q/release/2
+Publisher PDF: https://assets.pubpub.org/5683hq0lwln76fv8rk827jo9y0jurdio.pdf?download=1
+License: CC BY4 https://creativecommons.org/licenses/by/4.0/
+Copyright2024 authors, retained below.
+Changes: Complete selectable-text extraction from all50 publisher-PDF pages using pdftotext -layout; all figures and preview imagery excluded, especially Scientific American graphics with separate copyright. Captions and original credit statements preserved. Text tables, bibliography, appendices and embedded interview guide retained. Typesetting/reading order may differ; some original font ligatures may not extract cleanly. Not unchanged PDF.
+
+--- BEGIN FULL TEXT ---
+
+Harvard Data Science Review • Issue 6.2, Spring 2024
+
+
+
+Data Journeys in Popular
+Science: Producing Climate
+Change and COVID-19 Data
+Visualizations at Scienti c
+American
+Kathleen Gregory1 Laura Koesten2 Regina Schuster2 Torsten Möller2,3
+Sarah Davies4
+1Centre for Science and Technology Studies, Leiden University, Leiden, Netherlands,
+2Faculty of Computer Science, University of Vienna, Vienna, Austria,
+3Research Network Data Science, University of Vienna, Vienna, Austria,
+4Department of Science and Technology Studies, University of Vienna, Vienna, Austria
+
+
+
+
+Published on: Mar 25, 2024
+DOI: https://doi.org/10.1162/99608f92.141c99cf
+License: Creative Commons Attribution 4.0 International License (CC-BY 4.0)
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+
+ABSTRACT
+Vast amounts of (open) data are increasingly used to make arguments about crisis topics such as climate
+change and global pandemics. Data visualizations are central to bringing these viewpoints to broader publics.
+However, visualizations often conceal the many contexts involved in their production, ranging from decisions
+made in research labs about collecting and sharing data to choices made in editorial rooms about which data
+stories to tell. In this article, we examine how data visualizations about climate change and COVID-19 are
+produced in popular science magazines, using Scientific American, an established English-language popular
+science magazine, as a case study. To do this, we apply the analytical concept of ‘data journeys’ (Leonelli,
+2020) in a mixed methods study that centers on interviews with Scientific American staff and is supplemented
+by a visualization analysis of selected charts. In particular, we discuss the affordances of working with open
+data, the role of collaborative data practices, and how the magazine works to counter misinformation and
+increase transparency. This work provides an empirical contribution by providing insight into the data
+(visualization) practices of science communicators and demonstrating how the concept of data journeys can be
+used as an analytical framework.
+
+Keywords: data visualization, science communication, data practices, open data, data reuse, climate change,
+COVID-19
+
+
+
+Media Summary
+Vast amounts of data are increasingly used to make arguments about crisis topics such as climate change and
+global pandemics. Data visualizations are central to bringing these viewpoints to broader publics, where
+‘narrative visualizations’ are used in popular science to inform, entertain, and persuade. At the same time, data
+visualizations conceal the many contexts involved in their production, ranging from decisions made in research
+labs about how to collect data to choices made in editorial rooms about which stories to tell. Revealing the
+contexts involved in producing data and visualizations is important to facilitate data understanding and reuse,
+counter misinformation, and increase transparency.
+
+In this article, we apply the analytical concept of ‘data journeys’ (Leonelli, 2020) to examine how data
+visualizations about climate change and COVID-19 are produced in popular science magazines, using
+Scientific American, an established English-language popular science magazine, as a case study. We use the
+idea of data journeys to present the results of a mixed methods study centering on interviews with Scientific
+American staff, which is supplemented by a visualization analysis of selected charts. We also incorporate
+‘visual vignettes’ into our analysis, which include example charts provided with permission from Scientific
+American.
+
+
+
+
+                                                         2
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+Our findings highlight one set of practices for making data journeys visible and more transparent in popular
+science, while also critically exploring how data about climate change and COVID-19 are reused, visualized,
+and transported outside of academia to broader readerships. In particular, we highlight affordances of working
+with open data, the role of collaborative data practices, and how the magazine works to counter misinformation
+and increase transparency. Our work provides an empirical contribution by providing insight into the data
+(visualization) practices of science communicators and demonstrating how the concept of data journeys can be
+used as an analytical framework.
+
+
+
+1. Introduction
+Open data are increasingly used to communicate urgent messages about crisis topics, such as climate change
+and global pandemics, by both advocates and skeptics (Lee et al., 2021). Data visualizations are central to
+bringing these viewpoints to broader audiences (Harkness, 2020; Zhang et al., 2021). However, visualizations
+often conceal the many contexts involved in their production (Lynch, 1988; Pandey et al., 2014), ranging from
+decisions made in research labs about how to collect and share data to choices made in editorial rooms about
+which data stories to tell (Beaulieu & Leonelli, 2021; Cabreros, 2021).
+
+Revealing the contexts involved in producing data and visualizations is important to facilitate data reuse
+(Gregory et al., 2020), increase transparency (Kennedy et al., 2020), and counter misinformation (Heley et al.,
+2022). Such contexts can be hinted at using a reference to a data source or data set, although this is far from
+being a standardized practice in scholarly or science communication (Gregory et al., 2023; Zamith, 2019). A
+simple reference also does not represent the complexity of a ‘data journey’ (Leonelli & Tempini, 2020). In
+such journeys, data travel from their sites of creation to places in which they are read and interpreted (Beaulieu
+& Leonelli, 2021). Each site through which data travel has its own norms and ways of working with data
+(Borgman, 2015; Edwards et al., 2011) and for producing scientific knowledge for different audiences (Burri,
+2012; Burri & Dumit, 2008).
+
+In this article, we draw on the analytical concept of ‘data journeys’ (Leonelli, 2020) to examine how data
+visualizations about climate change and COVID-19 are produced in popular science magazines, taking
+Scientific American, an established English-language popular science magazine, as a case study. Specifically,
+we explore the following research questions: What are the practices of producing data visualizations at
+Scientific American? How do science communicators work with data, and what do ‘open data’ enable? To
+address these questions, we present the results of a mixed methods study consisting of semistructured
+interviews with the Scientific American staff and an analysis of a sample of visualizations and documentation
+provided by the magazine.
+
+We begin by situating our study within the context of literature on the use of open data and visualizations in
+science communication, before detailing our conceptual framework. We then use this framework to structure
+
+
+
+
+                                                         3
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+our findings. We conclude by discussing how (open) data and visualization production practices allow, shape,
+and inhibit data journeys in the popularization of science along four dimensions that we identify in our data: i)
+the affordances of open data; ii) the role of collaborative work; iii) misinformation; and iv) transparency.
+
+2. Background and Conceptual Framework
+2.1. Open Data in Science Communication
+Increasing amounts of data are being shared online, openly when possible (Benjelloun et al., 2020; Tenopir et
+al., 2020). Data are shared for many reasons, ranging from increasing transparency and reproducibility to
+enabling others to reuse and combine data in new ways (Pasquetto et al., 2019; Zuiderwijk et al., 2015).
+Although one of the primary aims of the broader open science movement is to make scientific information and
+data available to nonspecialists, the practices of scientists are typically foregrounded, rather than those of
+decision-makers or journalists (Elliott, 2022). Science communicators do reuse open data, for example, in
+stories about crisis topics such as climate change and the COVID-19 pandemic (Newell et al., 2016; Zhang et
+al., 2021); work examining how they do so, however, particularly to create data visualizations, is relatively
+sparse.
+
+In a recent review of the use of open data in journalism before and during the COVID-19 pandemic,
+Fleerackers and colleagues (2023) highlight that the majority of data journalists make use of data from
+governmental sources rather than ‘open research data,’ which they define as publicly available data created at
+universities or research institutions. Stalph and Heravi (2021) find a similar pattern for data visualizations in
+award-winning journalistic pieces, where only 4% of visualizations relied on data from academic institutions,
+perhaps reflecting the claim that research data are more relevant and interpretable to scholars than to journalists
+or other audiences (Elliott & Resnik, 2019; Fleerackers et al., 2023).
+
+Recent work analyzes the (open) data sources used to create visualizations about both COVID-19 and climate
+change specifically. Zhang and colleagues identified 450 different data sources used to create visualizations
+about COVID-19, although they did not classify the types of data sources used (Zhang et al., 2021).
+Governmental and intergovernmental data sources play a particularly important role in climate science
+(Edwards, 1999; Stanhill, 2001) and in visual data communication to public audiences. This is evidenced in
+part by the proliferation of visualizations in legacy and social media that have been derived from reports by the
+Intergovernmental Panel on Climate Change (IPCC) (O’Neill et al., 2015; Schuster et al., 2023).
+
+2.2. Data Visualizations in Science Communication and Popular Science
+Magazines
+Data visualizations, also termed charts, are commonly used within science communication to present data in
+ways that are designed to be understandable and engaging to different audiences (Böttinger et al., 2020).
+Although a range of visualization types are mobilized for these purposes (Borkin et al., 2016; Franconeri et al.,
+
+
+
+
+                                                          4
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+2021), visualizations within popular science tend to be ‘narrative visualizations,’ which are designed to convey
+stories, or accounts of events, facts, and the connections between them (Segel & Heer, 2010). Simplification
+(of data, visualization designs, and textual elements) is seen to be a key part of visual storytelling for
+nonacademic audiences (Engebretsen, 2020; Schuster et al., 2023).
+
+Narrative visualizations are often embedded within other text or exist in online environments, where readers’
+attention is directed through the use of visual characteristics, chart placement, and interactive elements (Segel
+& Heer, 2010). To facilitate navigating and interacting with visualizations, producers use rhetorical techniques
+at different editorial layers (Hullman & Diakopoulos, 2011). Data visualizations in science communication are
+typically studied by analyzing articles in general news sources, such as The New York Times, The Guardian, or
+Zeit Online. Such studies focus on characterizing the number, complexity, and types of visualizations within
+pieces of data journalism (Knight, 2015; Stalph, 2018; Stalph & Heravi, 2021; Tandoc & Oh, 2017). Data
+visualizations are also a key element in popular science magazines, although scholarship in this area has
+typically focused on other visual forms, specifically photography (Born, 2020; Remillard, 2011).
+
+Some visualizations in popular science magazines are reworked and ‘recontextualized’ versions of charts
+originally published in academic journals (Heekeren, 2021), although the division between what constitutes an
+academic journal and a popular science magazine is not always clear-cut. The multidisciplinary peer-reviewed
+academic journals Nature and Science also publish journalistic pieces and engage in different levels of visual
+design intervention, depending on an article’s intended audience and copyright concerns. At the journal Nature,
+designers make only minor alterations to visualizations in peer-reviewed scientific articles, while they create
+more bespoke graphics to use in news stories (Krause, 2017).
+
+Popular science magazines are perhaps unique in their use of data, although this has yet to be explicitly
+investigated. We suggest that these magazines likely engage with data that have passed through research
+settings rather than governmental data sources alone. Such data may have been encountered through the
+academic literature as charts are recontextualized (as in Heekeren, 2021) or through contact with scientists,
+who contribute to pieces (Bowler, 2013). Popular science magazines also occupy a unique corner in the science
+communication landscape, as hybrid spaces between academic journals and the mass media, where “scientific
+truth claims are selected, recontextualized and actively transformed’’ (Born, 2020, p. 34), making them an
+interesting case for analysis using the data journeys concept.
+
+2.3. Data Visualization Production Practices in Science Communication
+Much critical work studying practices of how data visualizations are produced stems from a chart-based
+approach, where analysis begins with a close reading of visualizations to identify and question traces of
+production decisions (Klein, 2022; Poirier, 2021; Sorapure, 2019). The chart-based approach provides valuable
+insights, especially when visualization producers are distant in time or space. Visualizations can also be studied
+
+
+
+
+                                                          5
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+at their sites of production, which enables exploring the practices of how visualizations are actually constructed
+(Burri & Dumit, 2008).
+
+Ethnographically oriented approaches provide insight into the broader data practices of journalists (e.g., Borges-
+Rey, 2017; Parasie, 2015; Parasie & Dagiral, 2013). In their observations of investigative journalists, Parasie
+(2015) identifies two paths for how reporters work with data: a hypothesis-driven path, where journalists seek
+data to support or invalidate existing leads, and a data-driven path, in which journalists follow a ‘light
+hypothesis’ to explore data and develop new directions. Drawing on 60 interviews of journalists across Europe,
+Kennedy and colleagues explicitly explore data visualization practices in newsrooms (Kennedy et al., 2020;
+Weber et al., 2018). Although journalists in these studies describe linking to and crediting data sources as a
+way to increase transparency, such processes are time-consuming and not implemented in a standard way
+across newsrooms (Kennedy et al., 2020).
+
+2.4. Conceptual Framework: Data Journeys and the Popularization of
+Science
+The processes of working with (open) scientific data and designing visualizations in popular science are often
+investigated separately. We argue that these practices are not isolated from each other, but that data
+visualizations in popular science result from intersecting contexts and practices within and between science and
+journalism. Combining the concepts of data journeys and scientific popularization into a conceptual framework
+(Figure 1) allows us to explore these intersections and examine the role of popular science magazines in data
+journeys.
+
+
+
+
+                                                         6
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+
+ Figure 1. Components of the conceptual framework showing the broad dynamics involved in
+                      data journeys in the popularization of science.
+
+Although the term ‘data journeys’ has been used in various literatures (Bates et al., 2016; Daga & Groth, 2023),
+we adopt the conceptualization outlined by Sabina Leonelli and colleagues (Beaulieu & Leonelli, 2021;
+Leonelli, 2016; Leonelli & Tempini, 2020). In this view, data journeys are composed of a “myriad of
+techniques, efforts, instruments, infrastructures and institutions used to mobilize and process data” (Leonelli &
+Tempini, 2020, p. v); these elements work together to help data to travel across space, time, and social contexts.
+
+Data journeys can be classified into particular stages of data practices, including data collection, cleaning, and
+visualization, which occur across sites of creation, mobilization, and interpretation (Beaulieu & Leonelli, 2021,
+Figure 1). Data are altered to fit new environments as they travel, for example, by getting new labels or through
+merging and deletion (Leonelli, 2020). These modifications allow data to be made usable by new audiences for
+different purposes, which in turn shapes the meaning and values that data carry. Such modifications also raise
+questions about when a data set stops being the same data set and starts being something else. Focusing on the
+narrative of a data journey rather than seeing data as a single entity provides a more holistic view. Studying
+data journeys also requires thinking about how data travel, by examining the ‘vehicles’ that transport data on
+their journeys, for example, documents and case reports (Ankeny, 2020), and the relationships between data
+and the various actors who are involved in making data portable, from scientists to data curators to journalists.
+
+The concept of data journeys aligns with research on the popularization of scientific knowledge (Hilgartner,
+1990). Critiquing the ‘dominant model’ of science communication, Hilgartner emphasizes that the spread of
+scientific knowledge is not a linear transfer of genuine science into appropriately simplified versions fit for
+public audiences. Instead, scientific knowledge is transformed as it moves across formats and modes. These
+
+
+
+                                                         7
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+transformations are often multidirectional, such that scientists, mediators (e.g., journalists), and audiences all
+contribute to how science is constituted (Felt & Davies, 2020).
+
+Throughout processes of popularization, transformations therefore occur in both scholarly products and
+knowledge claims (Latour & Woolgar, 1986, Figure 1). These transformations happen within academic
+processes, for example, when researchers teach or write grant proposals, or in other settings, for example, when
+journalists write news stories or create data visualizations (see also Brennen, 2018). Importantly, the dominant
+model—the idea that it is straightforward to distinguish between ‘genuine’ science and its ‘popularized’
+versions—privileges the viewpoint of scientists, as researchers have the power to decide what constitutes an
+appropriate simplification and to denounce communication that does not match their own viewpoints
+(Hilgartner, 1990).
+
+3. Case Description and Methodology
+Founded as a weekly publication for “the ambitious youth of the machine age” in 1845, Scientific American
+(SciAm) is the longest continuously published magazine in the English language (Mott, 1930, p. 324). Since
+then, the magazine’s envisioned readership, content, and form have evolved. In our interviews, SciAm
+described their current readership as an educated science-interested public and sees the publication as one of
+few magazines (along with National Geographic and Science News) that provides in-depth science reporting in
+a way that is understandable to curious lay people. Online readers tend to be younger, more globally
+distributed, and are seen to have a desire for higher-level coverage of topics. Classic stories in the magazine
+have covered topics in space and physics, life and environmental sciences, and paleontology. An increasing
+amount of coverage explores how science intersects with social issues.
+
+A special issue commemorating the 175th anniversary of the magazine demonstrates in more detail how SciAm
+articles have evolved over time (Scientific American, 2020). An analysis of the length and structure of articles
+found a decrease in the number of characters per article after a magazine redesign in 2001. This shift is
+attributed to more room being allocated for visual elements, for example, photography and special typography
+(Stefaner et al., 2020). Today, the magazine publishes in-depth feature articles, news stories, expert opinions,
+and other media, both print and online, reaching millions of people each month (Scientific American, 2015). At
+the time of our study, SciAm employed approximately 30 people, including six news editors, six graphics
+employees, and six production staff, along with various managers.
+
+To answer our research questions about producing data visualizations and the affordances of open data at
+SciAm, we used a mixed methods approach incorporating interviews and visual analysis.
+
+3.1. Interviews
+We conducted 11 one-hour semistructured interviews via videoconferencing with current and past members of
+the Scientific American staff. We used snowball sampling to recruit participants involved in chart creation or in
+
+
+
+
+                                                          8
+Harvard Data Science Review • Issue 6.2, Spring 2024              Data Journeys in Popular Science: Producing Climate Change and
+                                                                              COVID-19 Data Visualizations at Scienti c American
+
+
+
+decisions that could influence how data are visually communicated. Sampling of participants stopped once we
+had spoken with representatives from all professional roles involved in visual data communication who were
+willing to participate in the study. This represented the overwhelming majority of people involved in producing
+data visualizations and data-driven stories on our topics of interest. We also determined that we had reached
+sufficiency in the interviews, that is, that we had collected enough data to address our research questions
+(LaDonna et al., 2021; Vasileiou et al., 2018). Participants worked as text editors, graphics editors,
+visualization designers, fact-checkers, and in leadership positions. Seven participants had over 15 years of
+experience in their roles; three reported having 6 to 15 years of experience; and one participant had been
+working at SciAm for one year. To protect the anonymity of participants, we describe their demographics at an
+aggregate level only. In our findings, we attribute quotes to participants using a number (PX) to differentiate
+between viewpoints.
+
+Prior to the interview, participants selected at least one article that included at least one visualization that they
+had worked on about climate change or COVID-19. During each interview, we asked participants to walk us
+through the process of producing the article and its visualizations. Examples of these visualizations are
+included in the findings as ‘visual vignettes’ in Boxes 1–3. We asked further questions about collaborative
+(data) work practices, design and aesthetic choices, editorial guidelines, and audience engagement. Questions
+were tailored to match participants’ expertise and professional roles. The interview protocol is available in the
+appendix. Interviews were recorded, transcribed, and then coded using ATLAS.ti (ATLAS.ti Scientific
+Software Development GmbH, 2022).
+
+We used a combination of deductive and inductive coding and analyzed the coded transcripts using reflexive
+thematic analysis (Braun & Clarke, 2006, 2019). The codebook went through three rounds of iterative
+development with two of the authors. Deductive codes were based on the literature informing our conceptual
+framework and the structure of our interview protocol, with codes such as audience engagement, story choice,
+and data access. Inductive codes focus on particular types of data work, transparency, and misinformation. The
+first author coded all transcripts and consulted with the second author when clarity was needed. This study is
+part of a project that has undergone ethical screening according to the guidelines of our institution and has been
+determined to be low risk.
+
+3.2. Visualization Analysis
+We draw on a visualization analysis first reported in our earlier work (Koesten et al., 2023) to supplement our
+interview findings, which are our main data source in this article. In our previous study, we conducted a
+characterization and thematic analysis of data visualizations published in articles about climate change and
+COVID-19 (and pandemics more generally) in Scientific American, published between 1970 and 2022. This
+corpus is further described in Table 1.
+
+Table 1. Corpus description (a single article can contain multiple data visualizations).
+
+
+
+
+                                                           9
+Harvard Data Science Review • Issue 6.2, Spring 2024                          Data Journeys in Popular Science: Producing Climate Change and
+                                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+                                                                        Articles (n = 58)                  Visualizations (n = 171)
+
+
+ Subject                             Climate change                                   49                                  135
+
+
+                                     COVID-19                                          7                                   34
+
+
+                                     Pandemics generally                               2                                   2
+
+
+ Type                                Print                                            35                                  107
+
+
+                                       In-depth feature articles                      27                                   97
+
+
+                                       One-page graphic-centered                       8                                   10
+                                       articles
+
+
+                                     Online (Brief news-oriented                      23                                   64
+                                     pieces)
+
+
+ Publication year                    Between 2017 and 2022                            43                                   58
+
+
+                                     Between 1970 and 2016                            15                                   59
+
+
+
+Here, in a new analysis of the corpus, we focus on codes pertinent to answering our research questions about
+data visualization production practices and open data and to our conceptual framework. Codes used in this
+analysis include descriptions of data sources and references, data visualization producers, article author
+information, and article subject information. During the visualization coding process (described in Koesten et
+al., 2023), we also created detailed memos documenting our questions, challenges, and observations. We also
+asked SciAm to comment on their goals for creating selected visualizations, including the visualizations
+presented in Boxes 1–2, as described in (Koesten et al., 2023). For the analysis reported in this article, we
+thematically coded these memos and comments, informed by our conceptual framework and research
+questions. We further examined the magazine’s style guide, provided by SciAm. We interweave the results of
+the visualization analysis into our narrative interview findings to provide a more contextualized analysis.
+
+4. Findings
+We begin by exploring the data and work practices that constitute data journeys at Scientific American (Section
+4.1) before focusing on the transformations that occur in data visualizations during the popularization of
+scientific knowledge (Section 4.2). Finally, we examine how data, text, and visual elements are crafted into
+new vehicles, enabling data to travel to audiences and sites of consumption in future journeys (Section 4.3,
+Figure 2).
+
+
+
+
+                                                                   10
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+4.1. Tracing Data Journeys: Data Flows and Workflows
+The decision-making processes involved in making data travel at Scientific American occur in different
+iterative phases of work, described below.
+
+4.1.1. Deciding on Which Story to Tell
+At the beginning of a data journey at SciAm, staff members come together to propose and discuss possible
+stories to further develop for publication. Story pitches (and data) arrive at the magazine via various
+mechanisms, or ‘vehicles’ that bring data to SciAm (Figure 2). Editors and journalists hear about new academic
+work by monitoring academic conference circuits, publication alerts, social media accounts, other news outlets,
+and university press releases. Scientists and journalists also pitch stories directly to SciAm, attracted by the
+reputation of the magazine; editors, in turn, know scientists working on specific topics and reach out to them
+directly. This can create a Matthew effect (Merton, 1968), where work that is already being written about,
+publicized, or published by known researchers is further disseminated.
+
+
+
+
+Figure 2. Data journeys at SciAm involve practices (dark teal) and vehicles (light teal) used to
+                               make data travel to new sites.
+
+SciAm also chooses story ideas based on what is interesting to staff members, as educated ‘science-minded
+people,’ which is also how they describe their intended readership. Ideas can be born from conversations or
+events in staff members’ personal lives; these ideas are brought to pitch meetings where editors collaboratively
+decide what will be published, acting as brokers between science and different publics (Allen, 2018). Decisions
+can be based on tacit knowledge, developed over years, about what will be interesting and emotionally
+engaging for readers. Editors use their own emotional responses as an initial gauge to estimate the reception of
+a story.
+
+    There’s the data, but there’s an infinite number of stories we could tell (. ...) If we have an emotional
+    response, that’s kind of the first level of oh, maybe this is something that people will also respond to.
+    (P11)
+
+
+
+
+                                                          11
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+Staff members also choose stories as a way of drawing attention to concerning topics that have the potential to
+be collectively solved. Staff do not see themselves as activists in a political sense, but they care deeply about
+stimulating change and providing context, for both climate change and COVID-19.
+
+    Wherever we can sort of put it in that context of saying (...) here's something we can do that can make a
+    difference, we try and hit that note. I think it helps people feel less paralyzed. The reason we write about
+    climate change is because we think it’s important and something we should be doing something about.
+    We don’t think of ourselves as advocates in any political sense, but obviously, as someone who has
+    written about this for so long, I really want us to do something about climate change. (P5)
+
+Providing context about data and numbers is seen as an important mechanism to counter common
+misperceptions and misinformation. This desire to fight misinformation and reach new audiences, especially in
+the case of climate change, means that editors decide to cover the same old story in different ways. A particular
+story may be new for some readers, but longtime subscribers may have previously encountered the content.
+Much climate change research also focuses on similar topics, for example, temperature increases or rising sea
+levels. We observed this in our article corpus, where topics such as weather extremes, greenhouse gas
+emissions, or past and future warming predictions recur across years of publication (Figure 3). Editors search
+for stories that have new insights about recurring topics, aiming to develop stories that emphasize the problem
+but avoid “beating them [readers] over the head” (P3).
+
+
+
+
+  Figure 3. Topics present in the climate change articles in the analyzed corpus (n = 49). Bar
+             length represents the number of articles per year on a specific topic.
+
+
+
+
+                                                         12
+Harvard Data Science Review • Issue 6.2, Spring 2024              Data Journeys in Popular Science: Producing Climate Change and
+                                                                              COVID-19 Data Visualizations at Scienti c American
+
+
+
+4.1.2. Deciding on a Graphical Approach
+After a decision has been made to pursue a story, SciAm staff begin to plan their graphical approach. Staff
+decide if a story should be graphics-focused, meaning that it will incorporate data and data visualizations, or if
+photographs or bespoke illustrations and art will accompany the text. Data visualizations are just one part of
+the visual plan of a story; each visual element has affordances about what it can communicate. According to
+one editor,
+
+    If it’s about elephants, I want to see the elephants. If it’s about the James Webb Space Telescope, we want
+    to see the images from the Space Telescope. But some stories, you know, like about Alzheimer’s disease
+    or other things, there aren’t good photos. (P11)
+
+Similarly, including data visualizations is not appropriate for every story, nor are all types of visualizations;
+data can “strengthen a story, or it can weaken it, depending on how it’s used” (P8). Graphics staff, editors, and
+journalists develop dynamic visual plans for how to incorporate visual elements into an article. This involves
+looking for the graphics potential of a particular story, commissioning art from freelancers, and engaging in
+back-and-forth conversations with each other and researchers. Each team member brings their own expertise to
+these exchanges; the development of the visual plan can involve simultaneously working with data and
+experimenting with different visualization types.
+
+4.1.3. Working With (Open) Data
+There are two primary workflows for how SciAm staff work with data; these are informed by the type of
+reporting being done and the availability of the data. In the first workflow, which we term the ‘narrative
+workflow,’ SciAm staff know the narrative and message of a data visualization and story in advance. They have
+usually already encountered the analyzed data (e.g., via a known source, an academic article, or through a
+scientist), and they need the data to make a point in the story. While they may or may not have already seen a
+visualized version of the data (created by the scientist) in this workflow, they know the scientific conclusions
+the data have been used to support.
+
+    Most of the articles I work on come out of the text first, especially from scientist authors, or journalists
+    who propose or pitch a story idea. Then we develop graphics that support that story. (P1)
+
+The visual vignette presented in Box 1 is an example of a visualization produced using this workflow, which is
+the more common data workflow at the magazine. Although the design of this visualization was significantly
+different from the original, the message and narrative of the overall visualization remained the same as the
+conclusions drawn by the scientist, underscoring the power that scientists exert in the popularization process
+(Hillgartner, 1990).
+
+Box 1. A visual vignette describing the production of a climate change visualization.
+Reproduced with permission. Copyright © (2022) SCIENTIFIC AMERICAN, a Division of
+
+
+
+                                                          13
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+Springer Nature, America, Inc. All rights reserved. Originally published in Thompson &
+Montañez (2022).
+
+
+
+
+In the second workflow, which is similar to the ‘data-driven path’ proposed by Parasie (2015), SciAm staff
+work using a ‘light hypothesis’ in an exploratory approach. They have questions of their own and seek data to
+investigate them, as in the case of the visual vignette presented in Box 2. Journalists track down the needed
+data to explore, for example, the effects of the pandemic on the funding of clinical trials. This workflow gives
+SciAm staff and hired freelancers the freedom to discover new insights or to change direction as they uncover
+or collect new data. It is a constant process of questioning, researching, and looking for data—and pivoting if
+the data do not exist or are not findable.
+
+
+
+
+                                                        14
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+Box 2. A visual vignette describing the production of a COVID-19 visualization.
+Reproduced with permission. Copyright © (2022) SCIENTIFIC AMERICAN, a Division of
+Springer Nature, America, Inc. All rights reserved. Originally published in Montañez &
+Christiansen (2022).
+
+
+
+
+In both workflows, SciAm works with data directly to create visualizations. Where an open data set is available,
+this is done by downloading it from a repository or data portal; in other cases, SciAm requests data from
+scientists. In the past, before data were shared as openly, SciAm would transcribe data from existing charts in
+the academic literature if necessary, although this is not done currently. This type of transcription is a practice
+in which scientists also engage (Gregory et al., 2019). When necessary, SciAm staff ask scientists questions to
+help understand data encountered in academic literature. In the second workflow, it is not always possible to
+consult with a scientist, leaving staff to rely on the provided documentation to understand the meaning of
+variables, such as ‘person year’ in government data.
+
+There is also a middle ground between these two workflows, based on SciAm’s tacit knowledge about the
+general conclusions made across scientific studies. Here, they do not highlight a particular piece of research but
+rather look for data that will help them to tell the story that is emerging and becoming accepted within
+
+
+
+
+                                                          15
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+academia. They are operating from a more hypothesis-driven approach (Parasie, 2015) as they dig into the data
+to see if broader stories, trends, or hunches they have observed are supported.
+
+    Sometimes we have anecdotal ideas that something has occurred or that there’s been a trend. Then you
+    get the data, and you go, oh, well, that’s not actually as clear as we thought it was, or maybe we’re really
+    [only] talking about a subset of what the data is showing. And that gives us an opportunity to go into the
+    weeds a little bit and talk it out a bit. (P10)
+
+4.1.4. Creating the Visualization
+Working directly with the data to create visualizations allows SciAm to own the copyright to graphics they
+produce; it also allows them to potentially avoid mistakes by reproducing errors present in previous
+publications or visualizations and gives designers and artists more freedom to craft something unique, creative,
+and engaging. Visualization designers make decisions about what data to display and where to put the focus of
+a visualization. This often boils down to determining and formulating messages for each visualization in
+advance (further detailed in Koesten et al., 2023); defining messages also helps to guide collaborative data
+work. Crafting data into a visualization requires a host of decisions, for example, about chart type, the use of
+color, and the placement of text on charts. These more visible decisions are just the tip of a longer, iterative
+process involving transformations of visualizations and carefully composing different elements, as described in
+Sections 4.2 and 4.3.
+
+4.1.5. Fact-Checking, Review, and Accuracy
+Internal rounds of fact-checking begin once draft visualizations are available. Fact-checkers review different
+versions of visualizations, for example, for web and mobile interfaces and print editions. This involves double-
+checking calculations and formulas in spreadsheets, comparing data sets and visualization drafts, ‘eyeballing’
+the size of visual elements, and checking consistency with textual elements. Most of the time, fact-checking
+involves making comparisons between the visualizations and the data sets and sources provided by the
+graphics specialists. Fact-checkers also compare the provided data sets and the visualized data to other data
+sources and their own knowledge. Sometimes the process requires extra attention, especially when working
+with dynamic data sets that are continuously updated, as in the case of COVID-19 data. Data could change
+between when the visualization and text were created and when they were reviewed. In the past, SciAm needed
+to work backward from visualizations and reconstruct the data. As data-sharing norms have changed, this is not
+as necessary, particularly when scientists can review visualizations for accuracy.
+
+    When I first started, we were doing a lot of tracing and reconstructing data…there was a lot of backward
+    architecture going on. But now I’m finding that scientists are much more open with their data. Especially
+    when they know you’re going to be running the final visualization past them for an accuracy check to
+    make sure that you’re interpreting things correctly… In the case where we’re asking somebody directly
+    for their dataset, involving them and making sure that we’re interpreting it properly is pretty critical. (P1)
+
+
+
+                                                          16
+Harvard Data Science Review • Issue 6.2, Spring 2024               Data Journeys in Popular Science: Producing Climate Change and
+                                                                               COVID-19 Data Visualizations at Scienti c American
+
+
+
+4.1.6. Making Data Journeys Transparent and Traceable
+Data journeys are made visible using references or citations to data sets, data sources, and articles. While SciAm
+has a history of citing its sources and data, how they do so is in a state of development. Most commonly, SciAm
+staff reports referencing an academic article where the data were first analyzed. The article provides a gateway
+for others to access the data, independent of the data’s location.
+
+    Either it might be in the article itself or the supplementary information, but this data is available through
+    that publication in some way. They might need to click through a little bit, but somebody who is saying
+    oh, I want to look at this data myself, if they go to that article, they can find it through a few steps. (P1)
+
+Referencing a peer-reviewed academic article also allows SciAm to back up the rigor of the messages and
+claims in their own visualizations, as these reflect the findings present in the original publications. When SciAm
+works with data from a portal that has not been ‘pre-analyzed’ in a scientific publication, they cite the data
+source itself. They believe that this communicates that their presented analysis has not been peer-reviewed.
+
+    For somebody who’s really interested in deconstructing what we’ve done here, they can kind of start to
+    suss out what’s been peer-reviewed and what’s raw data that somebody hasn’t necessarily analyzed. It’s
+    still perfectly valid data. But…there haven’t been necessarily as many eyes making sure that it’s been
+    analyzed correctly. (P1)
+
+References and bylines are also used to recognize the work that is involved in creating graphics. One past
+member of the graphics team stated that it was not possible to credit all of the work involved in making visuals
+and putting an issue together; in an ideal world, they would like to add a long note detailing who had been
+responsible for which piece of work, for example, “layout by PX, type design by PY” (P7). In contrast, our
+visualization analysis shows that most bylines include the name of a single graphics specialist.
+
+In our visualization analysis, we found that 88% of the articles in our corpus included some type of reference to
+at least one data source. Supporting the interview findings, the majority of these data sources were academic
+publications, followed by references to institutions and organizations, reports, and individuals, both with and
+without academic affiliations (Figure 4). We classify data that have been analyzed in academic publications or
+university reports or that are associated with individual researchers at particular universities as data that are
+likely to have passed through research settings; 42% of the 142 mentions of data sources in the corpus match
+this criterion. Similarly, 40% of sources were associated either with the name of an intergovernmental or
+governmental organization, data portal, or report.
+
+
+
+
+                                                           17
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+
+ Figure 4. Types of data sources mentioned in the corpus (n = 142) and the types of settings
+ through which data pass. A single reference could include multiple mentions of data sources.
+
+SciAm sometimes integrates data from multiple sources to create a single graphic. Sixteen of the data
+references included multiple data sources. For example, as described in Box 3, heat wave data from an
+academic publication were combined with rainfall data from CarbonBrief—a climate website, which itself
+aggregates data from peer-reviewed studies—and climate data from an intergovernmental report. In almost all
+of these multi-source references, SciAm clearly marks which data in the visualization comes from each source.
+
+As a whole, references to data provide context and facilitate transparency and the possibility of tracing data to
+their original sources; however, many of the stages in a data journey discussed in this section are not visible in
+such references alone, including the collaborative nature of producing charts.
+
+4.2. Popularization Processes: Transformations in Visualizations
+Thus far, we have described the data journeys through which data enters SciAm and become the focus of
+different work practices. Data visualizations also undergo many transformations through these workflows,
+which we describe below.
+
+4.2.1. Transforming Visualizations From Existing Publications
+SciAm staff nearly always make some alterations to visualizations previously published in academic articles. A
+straightforward time series chart may look quite similar in SciAm, but there are always slight changes, for
+example, stripping out jargon and adding narrative framings. The process of transforming an academic
+visualization to a narrative visualization involves communicating with scientists to ensure that SciAm maintains
+the correct message and has interpreted the data appropriately (see Section 4.1). This review is particularly
+important when SciAm staff work with unfamiliar data and topics. While designers value scientists’ opinions
+about accuracy, they are not that interested in hearing opinions about visual design and aesthetics. Scientists
+sometimes love the transformed versions of their original visualizations; at other times, they are frustrated,
+especially when (academic) design conventions are broken.
+
+Just as when choosing stories, SciAm staff try to transform commonly circulating visualizations to show
+something new. This is apparent when transforming graphics in reports from the IPCC, as the timely nature of
+the information puts pressure to create something new (and newsworthy) in a short timeframe. As seen in Box
+
+
+
+                                                         18
+Harvard Data Science Review • Issue 6.2, Spring 2024        Data Journeys in Popular Science: Producing Climate Change and
+                                                                        COVID-19 Data Visualizations at Scienti c American
+
+
+
+3, having data readily available—and being able to work with that data—allows SciAm to add to the IPCC
+story in a new way.
+
+
+
+
+                                                       19
+Harvard Data Science Review • Issue 6.2, Spring 2024        Data Journeys in Popular Science: Producing Climate Change and
+                                                                        COVID-19 Data Visualizations at Scienti c American
+
+
+
+Box 3. A visual vignette describing the production of a report based on the IPCC report.
+Reproduced with permission. Copyright © (2018) SCIENTIFIC AMERICAN, a Division of
+Springer Nature, America, Inc. All rights reserved. Originally published in Thompson (2018).
+
+
+
+
+                                                       20
+Harvard Data Science Review • Issue 6.2, Spring 2024               Data Journeys in Popular Science: Producing Climate Change and
+                                                                               COVID-19 Data Visualizations at Scienti c American
+
+
+
+4.2.2. Print and Online Transformations
+Visualizations are also transformed from print graphics into online versions. SciAm staff rescale and invert
+print charts, at times putting the x-axis at the top rather than the bottom to better match online scrolling
+behavior or to make charts more readable on mobile devices. It is not always possible, or desirable, to
+transform print visualizations into online graphics. Some transformations would require too much time or
+effort to provide the same experience online as in print. Instead, SciAm works to maximize the impact of print
+graphics by leveraging the structure of the magazine, for example, by adding a timeline running through a six-
+page spread on the impact of COVID-19 to provide different entry points to the data (see Box 2). The online
+environment does not automatically equate to a deeper engagement experience:
+
+    It’s more engaging to look at it in print, you can kind of scan along and pick out what you like and don’t
+    like, or what you’re curious about (...) and this [online version], you’re really just scrolling through, and
+    so you might miss something, and or get a little bored (. ...) It’s definitely a challenge to translate that [the
+    print version] when we don’t have the right online capabilities for publishing it in a similar way. (P10)
+
+Online visualizations are often simpler than their print counterparts. Designers use more basic chart types and
+boil data down into more succinct transformations to match format constraints and the online magazine's
+envisioned readership. SciAm focuses on creating stories and visualizations that provide online readers with
+“news you can use” (P8). Graphics in print feature articles tend to be more experimental or “mind-bending”
+(P1), offering a reward to print readers who are believed to enjoy a more challenging reading experience than
+online readers, who are seen as preferring content that is crisp, clear, and fast to grasp.
+
+4.2.3. More Than Just Simplification
+As visualizations are transformed, they are not just simplified. Transformations are crafted to add aesthetic and
+textual elements, which trigger emotions in ways not encouraged in scholarly communication. SciAm carefully
+considers how to responsibly use color and form to evoke emotions or moods, such as using shades of blue to
+trigger feelings of somberness in a visualization about death or reds in visualizations about increasing
+temperatures. They recognize that SciAm is not required reading for most audiences and that a more dramatic
+aesthetic can draw in more readers and improve the magazine’s bottom line (Box 1). Aesthetics are also seen as
+a way to invite people to engage more deeply with data and to reinforce scientific messages in visualizations.
+Experiments with form and text are also used to reframe climate change stories and data to connect with
+readers with different needs:
+
+    It’s like, let’s try it and throw up the graphic novel form to engage somebody where the focus isn't on the
+    chart. The chart is there to help support this narrative. So I think that’s an area where we’re trying to meet
+    different people’s needs in different ways, in part because there’s such a sense of urgency. It’s like, 20
+    years of these targets haven't been making enough of an impact. How else can we present this
+    information in a way that connects with people? (P1)
+
+
+
+                                                           21
+Harvard Data Science Review • Issue 6.2, Spring 2024                Data Journeys in Popular Science: Producing Climate Change and
+                                                                                COVID-19 Data Visualizations at Scienti c American
+
+
+
+4.3. Creating New Vehicles: Careful Compositions for (Un)Anticipated
+Consumption
+SciAm crafts new data ‘vehicles,’ composed of data, visual, and textual elements, preparing data to continue
+their journey to SciAm’s readership (Figure 1). Visualizations are rarely “just graphs” (P10) but integrate
+textual and visual elements to tell a particular story. While it is possible to understand a visualization or text on
+its own, these elements work best when presented together with other art, images, and text in the magazine.
+Doing so helps keep readers’ attention but also provides moments of relaxation—a much-needed break as
+readers work through meaty content. The data vehicles created at SciAm, therefore, consist not just of data
+visualizations but also of articles and the magazine as a whole.
+
+SciAm considers the affordances of multiple individual elements and how they work in relation to each other in
+their designs. Graphics can be used to grab readers’ attention and advance a story in ways not possible through
+text; the positioning of data visualizations in an article and the function they play in communicating the larger
+narrative message depend on what SciAm believes will be most useful to readers.
+
+    Sometimes we're using graphics (...) as connective tissue to help pull people through. Sometimes we're
+    using them as ways of providing background information in a way that allows the text narrative to
+    continue its flow but provide background information that could be useful to some people. And other
+    times, we’re using the graphic to tell the story itself. (P1)
+
+As also seen in their decisions about which stories to tell (Section 4.1), the magazine’s envisioned audience—
+including their imagined interests and ways of consuming content—informs staff's choices. These conceptions
+of the audience, and by extension, how SciAm transforms and visualizes data, are informed by online metrics
+(e.g., clicking and scrolling behavior), emails from readers, and staff members’ own intuition and tacit
+knowledge about their readership that they have developed over time.
+
+New data vehicles are designed to withstand potentially problematic future data journeys. SciAm staff
+considers how visualizations may travel if others repost them on social media. They embed explanatory text
+into charts, as observed in our visualization analysis. Annotations, labels, explanatory boxes, and other textual
+elements were incorporated into 54% of the visualizations in our corpus. This awareness that visualizations
+may be shared out of context is also reflected in SciAm’s internal style guide, which contains instructions for
+placing “on-art” annotations and labels to explain the significance of different graphical elements (e.g.,
+relationships between coordinates in scatterplots or the use of shading to indicate uncertainty ranges in line
+charts). Different guidelines exist for different visualization types (e.g., bar charts, small multiples, lollipop, or
+line charts) but also for the various environments in which they will be displayed (e.g., print vs. online, desktop
+vs. mobile).
+
+Carefully portioning data into separate elements is another strategy for providing context and countering
+potential misuse. Splitting data into multiple visualizations constrains the messages that can be communicated
+
+
+
+                                                           22
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+if a visualization is taken out of context.
+
+    We originally had another graphic that showed the total number of deaths among the vaccinated versus
+    the unvaccinated (...), but we were worried that would be taken out of context, and someone would tweet
+    it and say look at all these vaccinated deaths—which is exactly the opposite of the message we were
+    trying to convey. So we ultimately decided to (...) just have the graphic show the total number—the total
+    vaccinated versus unvaccinated population in this first graphic. And then the second graphic (...) was the
+    death rate. (P8)
+
+Portioning data in this way steps readers through often complex information and guides them through the
+composition of an article. In such cases, SciAm creates a natural flow where data are mentioned in text before
+being shown in a visualization, which readers can then examine in more depth. This allows the magazine to
+more tightly control the narrative and some aspects of future data journeys. It also gives SciAm’s envisioned
+audience succinct arguments they can use to counter misinformation circulating in their own local spheres.
+
+    Sometimes, we're trying to create stories that you could imagine sending to a friend [or relative] to say,
+    hey, look (...) Because many people might themselves accept vaccines, but they have relatives who don't.
+    And this might be one way to (...) arm them with some data to say, okay, look, vaccinated people can get
+    COVID and die from it, but look at the rates. (P8)
+
+Data visualizations, particularly those published online, are framed in light of potential science skepticism and
+mistrust. COVID-19 stories, for example, are constructed to emphasize the evolving nature of pandemic data—
+to communicate that “this is what we know now, rather than this is what we know” (P8)—to avoid skeptics
+calling the content incorrect should data change. SciAm staff also make careful choices about how to frame
+climate change articles and visualizations, which are fraught with political tensions that may affect how readers
+interpret them:
+
+    Obviously, there's a lot more politicization around climate change. It's a very fraught topic. (...) People
+    have very strong and very entrenched views. (...) It's the milieu that the stories are coming out in, and that
+    can affect reader response. You know, it's the context that they are being read in. (P5)
+
+5. Discussion
+Taking Scientific American as a case study, we analyzed how data visualizations are produced in a popular
+science magazine. We rooted our analysis in the concept of data journeys and notions about the popularization
+of scientific information. This allowed us to identify and discuss the practices and visualization transformations
+involved in bringing data from sites of creation to broader readerships. We conclude by discussing how (open)
+data and visualization production practices allow, shape, and inhibit data journeys in the popularization of
+science along four lines: i) the affordances of open data; ii) the role of collaborative work; iii) misinformation;
+and iv) transparency.
+
+
+
+                                                          23
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+5.1. Affordances of Working With (Open) Data
+Our results show that SciAm has an established practice of working with data directly to create visualizations.
+They do this in part to maintain ownership and copyright of the graphics, as does the journal Nature (Krause,
+2017), another publication owned by SciAm’s parent company. As documented in Section 4.1, working with
+data involves a series of time- and resource-intensive workflows, collaborative work, and skills. Arguably, not
+every popular science magazine has the same resources that we observed at Scientific American. This raises
+questions about the sustainability of these data practices, particularly as the media landscape sees less
+investment in (bespoke) print popular science publications (Farhi, 2023). As the amount of available data and
+research increases (Benjelloun et al., 2020; Thelwall & Sud, 2022), questions arise about how a relatively small
+team can stay up-to-date and make meaningful decisions about which stories to cover.
+
+As shown in both the visualization analysis (Figure 4) and the description of data workflows, SciAm frequently
+works with data that have passed through research settings. This contrasts with an earlier analysis documenting
+minimal use of research data in visualizations in news sources (Stalph & Heravi, 2021) and underscores how
+popular science magazines act as unique hybrid spaces between academia and the mass media (Born, 2020).
+The difference between our results and those of Stalph and Heravi (2021) also highlights difficulties in
+classifying data according to their places of creation, for example, as ‘research data’ or ‘governmental data.’
+Research is also conducted within governmental and industry settings, and academic researchers also make use
+of governmental data in their work (Gregory et al., 2020). The concept of data journeys helps to identify sites
+through which data pass rather than relying on difficult and reductive categorizations based on data origin.
+
+Working with data directly affords more than just copyright ownership of graphics; doing so also enables
+SciAm staff to be creative and diverse in their visual designs in ways that are not (currently) possible within the
+strictures of most academic publications. Our findings also suggest that having access to data may lead to
+greater diversity in the messages communicated via data visualizations. SciAm does not always rely on data
+that have been ‘pre-analyzed’ by scientists; rather, they at times seek data to answer their own questions and
+add new elements to recurring stories (as in Box 2 and Box 3). This use of data to answer new questions
+mirrors the potential many see for secondary data reuse in academia (Pasquetto et al., 2017) and has
+similarities with both the hypothesis-driven and data-driven paths of investigative data journalism observed by
+Parasie (2015).
+
+5.2. Collaborative Work and Contingent Encounters
+Various actors shape the narratives transported in data visualizations and popular science articles. The stories
+created with pre-analyzed data at SciAm closely mirror those of scientists themselves, signaling the power
+scientists hold in defining ‘appropriate’ popularizations (Hilgartner, 1990). To some extent, scientists also
+implicitly shape SciAm’s stories when staff work without pre-analyzed data, as SciAm relies on data
+
+
+
+
+                                                         24
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+documentation and metadata, which are themselves shaped by scientific and curation processes (Edwards et al.,
+2011).
+
+As they work to understand and use data, SciAm staff engage in similar strategies as researchers and other data
+professionals (Koesten et al., 2021), such as contacting data creators directly for clarification and collaborative
+problem-solving with colleagues (Koesten et al., 2017; Yoon, 2017). Collaborating with scientists is a key
+strategy for SciAm to ensure the accuracy of their own analyses and visual representations of data. As
+Pasquetto and colleagues suggest, data creators tend to have an ‘intimate and tacit knowledge’ about their data
+that can be traded within collaborations for mutual benefit (Pasquetto et al., 2019). In this case, collaborations
+between SciAm and scientists improve the accuracy of data visualizations, which is in both parties’ best
+interest. Scientists may also benefit from these collaborations by gaining a wider audience for their work or by
+being able to demonstrate its ‘societal impact,’ as is increasingly required in the assessment of academic
+careers (Bornmann, 2013).
+
+While input from scientists is valued at SciAm, the magazine makes its own choices about aesthetics,
+visualization design, and how different elements are pieced together to engage (and increase) its readership.
+Crafting visualizations and articles involves collaborative work among staff members with different expertise
+(Koesten et al., 2019); these collaborations are often invisible when looking at charts alone. While graphics
+staff mostly work with data, our results also document collaborative work between visualization designers,
+writers, editors, and fact-checkers. Data and visualizations are transformed through these contingent
+encounters, which in turn shape the composition of an article as a whole.
+
+5.3. Misinformation
+Our analysis shows that data travel in carefully composed ‘vehicles’ containing specific arrangements of data,
+text, and visual elements; this is partially done to provide multiple perspectives and increase engagement and
+understanding (as recommended in Unwin, 2020). In line with the broader literature describing narrative
+visualizations (Hullman & Diakopoulos, 2011; Segel & Heer, 2010), SciAm constructs visualizations and
+stories with an eye to how it believes readers would like to (or should) navigate content. They also consider
+possible ‘misuses’ of visualizations and data, for example, to make claims opposite from those that are
+intended (Correll & Heer, 2017; Lee et al., 2021; Lo et al., 2022). While this type of misinformation is not
+restricted to digital content, information and data circulated on social media are especially prone to being
+repurposed and taken out of context (Allcott et al., 2019). SciAm attempts to counter visual misinformation by
+using what Zheng and Ma (2022, p. 141) term “defensive design methods,” for example, by embedding and
+integrating textual annotations into visualizations or splitting data into separate charts.
+
+Focusing our analysis on data journeys makes many interaction points visible where data, visualizations, and
+stories are transformed and mixed with other types of content. Misinformation can be introduced at these
+points, intentionally and inadvertently (Lewandowsky et al., 2012). Our findings demonstrate that SciAm is
+
+
+
+
+                                                          25
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+well aware of this risk and that they engage in extensive internal and external fact-checking as a
+countermeasure. In the transformation processes, different types of (visual) information are also introduced, as
+aesthetic and artistic elements are added to ‘humanize’ data and make narratives emotionally appealing
+(Kennedy & Hill, 2018; Peck et al., 2019) or as SciAm staff strive to reframe familiar climate change stories in
+new ways. Here, their aim is not so much to fight the spread of misinformation directly but to use
+visualizations as a means of encouraging or revealing opportunities for action among readers (Metag, 2020;
+Schuster et al., 2023), who can in turn fight misinformation in their own circles.
+
+5.4. Transparency and Future Journeys
+Packaging data into vehicles implies that data will travel further, although naturally not all data travel to, or
+from, Scientific American. The stories and the data that SciAm chooses are usually already ‘flowing’ within the
+academic literature, into data portals and repositories, or via posts on social media. Stories are also chosen
+based on what SciAm believes will be engaging, interesting, and sellable to their readership. This suggests that
+SciAm’s anticipated audience also shapes story and design choices and that the flow of data can be understood
+as coproduced between many actors, including researchers, magazine staff, and readers (Felt & Fochler, 2011).
+
+Once packaged into visualizations and articles, data travel into the world of SciAm subscribers and readers but
+also to other (unanticipated) publics. SciAm works to make previous steps in data journeys transparent,
+particularly by crediting the work of chart producers and citing data sources. As with other data journalists
+(Kennedy et al., 2020; Zamith, 2019), findings from both the interviews and the visualization analysis indicate
+that SciAm’s data citation practices are in a state of development. We also found that SciAm often provides
+extra context to their data references to increase transparency (e.g., by clearly indicating which data
+corresponds to which part of a figure) or to indicate if data had undergone prior analysis, as in Box 2. These
+‘contextual additions’ go beyond what is normally recommended in academic data citation standards (e.g.,
+American Psychological Association, 2022; DataCite, n.d.).
+
+SciAm’s practices for referencing data sources are problematized by issues in the broader landscape of
+scholarly and science communication. Data themselves are not always persistently available (Federer et al.,
+2018; Pepe et al., 2014) or able to be cited at a level of granularity that enables them to be found (Silvello,
+2018). Many academic publications, which are commonly cited data sources at SciAm, are also not openly
+available (Piwowar et al., 2018); this hampers the ability of publications to act as a gateway to the data. Despite
+these wider problems, our results demonstrate that SciAm is experimenting with and developing their own
+practices for referencing data rather than waiting for a ‘perfect’ solution to be developed, which may not be
+possible (Lowenberg, 2022; Lowenberg et al., 2021).
+
+As SciAm visualizations travel to new contexts, SciAm becomes responsible for the data in a new way. They
+own the rights to the visualizations, although the data come from somewhere else. This raises its own set of
+questions about transparency and documentation and emphasizes the importance of having robust, persistent
+
+
+
+
+                                                          26
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+links not only between scholarly publications and data (Silvello, 2018) but also with other forms of science
+communication.
+
+6. Conclusion
+Drawing on the concept of data journeys, we explored how data travel to visualizations in popular science
+magazines, taking Scientific American as a case study. We shed light on the mundane and collaborative
+practices involved in producing data visualizations and discussed the effects of these practices. We also
+provided a detailed example of how the concept of data journeys can be used as an analytical framework.
+
+Making use of the data journeys concept allowed us insight into how different meanings and connotations
+become a part of data as they travel. SciAm works to maintain the original scientific meaning and contexts
+present in the data that they work with; at the same time, the connotations of data are changed in both larger
+and more incremental ways as they journey through the magazine. This is particularly visible in the data-driven
+workflow we describe, where SciAm works with data not previously discussed in academic articles to answer
+their own research questions. It is also visible in the aesthetic and design choices that SciAm makes as they
+visualize data with the aim of engaging readers, triggering emotions, or fighting misinformation. These perhaps
+more incremental changes—be they the stripping of jargon, recoloring of lines, or placement of charts—add
+layers of interpretation, connotation, and meaning to data and affect how future readers may understand data
+and use them in their own lives.
+
+Our approach highlights the importance of focusing on the practices involved in data journeys and data
+transformations. From a practical standpoint, paying attention to these practices can be a starting point for
+identifying where tools and guiding principles to preserve and develop meaning for ‘popularized data’ could be
+developed. Examining SciAm's data practices also reveals one set of strategies that may be of interest to
+broader scholarly and science communication communities, particularly regarding visualization design and
+transparency.
+
+While analyzing a data journey arguably provides a more holistic view of data reuse, it also raises theoretical
+questions about what makes a data journey a successful journey (see also Leonelli & Tempini, 2020). Is a
+journey successful when data get where they are intended to travel? Or when data tell an intended story or are
+used in an anticipated manner? Perhaps a journey is successful if data travel to many different places or if
+something is learned along the way? Answering these questions requires further investigation of data practices
+at future sites in a data journey, from multiple perspectives.
+
+
+
+Disclosure Statement
+This work has been funded by the Vienna Science and Technology Fund (WWTF) [10.47379/ICT20065]. The
+authors have no conflicts of interest to declare.
+
+
+
+
+                                                         27
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+
+Acknowledgments
+We would like to especially thank Scientific American for their collaboration and participation in this study and
+Alice Fleerackers for the close reading and insightful comments. We would also like to give special thanks to
+the Technosciences, Materiality, and Digital Cultures research collective at the University of Vienna for their
+early input into this article and to Christian Knoll and Michaela Hubweber for their comments and
+visualization advice.
+
+
+
+References
+Allcott, H., Gentzkow, M., & Yu, C. (2019). Trends in the diffusion of misinformation on social media.
+Research & Politics, 6(2). https://doi.org/10.1177/2053168019848554
+
+Allen, W. L. (2018). Visual brokerage: Communicating data and research through visualisation. Public
+Understanding of Science, 27(8), 906–922. https://doi.org/10.1177/0963662518756853
+
+American Psychological Association. (2022). Data set references. https://apastyle.apa.org/style-grammar-
+guidelines/references/examples/data-set-references
+
+Ankeny, R. A. (2020). Tracing data journeys through medical case reports: Conceptualizing case reports not as
+“anecdotes” but productive epistemic constructs, or why zebras can be useful. In S. Leonelli & N. Tempini
+(Eds.), Data journeys in the sciences (pp. 59–76). Springer International Publishing.
+https://doi.org/10.1007/978-3-030-37177-7_4
+
+ATLAS.ti Scientific Software Development GmbH. (2022). ATLAS.ti (ATLAS.ti 22 Mac) [Qualitative data
+analysis software]. ATLAS.ti Scientific Software Development GmbH. https://atlasti.com
+
+Bates, J., Lin, Y.-W., & Goodale, P. (2016). Data journeys: Capturing the socio-material constitution of data
+objects and flows. Big Data & Society, 3(2). https://doi.org/10.1177/2053951716654502
+
+Beaulieu, A., & Leonelli, S. (2021). Data and society: A critical introduction. SAGE.
+
+Benjelloun, O., Chen, S., & Noy, N. (2020). Google Dataset Search by the numbers. In J. Z. Pan, V. Tamma, C.
+d’Amato, K. Janowicz, B. Fu, A. Polleres, O. Seneviratne, & L. Kagal (Eds.), The Semantic Web – ISWC 2020
+(pp. 667–682). Springer International Publishing. https://doi.org/10.1007/978-3-030-62466-8_41
+
+Borges-Rey, E. (2017). Towards an epistemology of data journalism in the devolved nations of the United
+Kingdom: Changes and continuities in materiality, performativity and reflexivity. Journalism, 21(7), 915–932.
+https://doi.org/10.1177/1464884917693864
+
+
+
+
+                                                        28
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+Borgman, C. L. (2015). Big data, little data, no data: Scholarship in the networked world. MIT Press.
+https://doi.org/10.7551/mitpress/9963.001.0001
+
+Borkin, M. A., Bylinskii, Z., Kim, N. W., Bainbridge, C. M., Yeh, C. S., Borkin, D., Pfister, H., & Oliva, A.
+(2016). Beyond memorability: Visualization recognition and recall. IEEE Transactions on Visualization and
+Computer Graphics, 22(1), 519–528. https://doi.org/10.1109/TVCG.2015.2467732
+
+Born, D. (2020). Images and imaginations of climate change: The construction of climate change in popular
+science magazines [Unpublished doctoral dissertation]. University of Vienna.
+
+Bornmann, L. (2013). What is societal impact of research and how can it be assessed? A literature survey.
+Journal of the American Society for Information Science and Technology, 64(2), 217–233.
+https://doi.org/10.1002/asi.22803
+
+Böttinger, M., Kostis, H.-N., Velez-Rojas, M., Rheingans, P., & Ynnerman, A. (2020). Reflections on
+visualization for broad audiences. In M. Chen, H. Hauser, P. Rheingans, & G. Scheuermann (Eds.),
+Foundations of data visualization (pp. 297–305). Springer International Publishing.
+https://doi.org/10.1007/978-3-030-34444-3_16
+
+Bowler, P. J. (2013). Popular science magazines in interwar Britain: Authors and readerships. Science in
+Context, 26(3), 437–457. https://doi.org/10.1017/S0269889713000136
+
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology,
+3(2), 77–101. https://doi.org/10.1191/1478088706qp063oa
+
+Braun, V., & Clarke, V. (2019). Reflecting on reflexive thematic analysis. Qualitative Research in Sport,
+Exercise and Health, 11(4), 589–597. https://doi.org/10.1080/2159676X.2019.1628806
+
+Brennen, J. S. (2018). Magnetologists on the beat: The epistemology of science journalism reconsidered.
+Communication Theory, 28(4), 424–443. https://doi.org/10.1093/ct/qty001
+
+Burri, R. V. (2012). Visual rationalities: Towards a sociology of images. Current Sociology, 60(1), 45–60.
+https://doi.org/10.1177/0011392111426647
+
+Burri, R. V., & Dumit, J. (2008). Social studies of scientic imaging and visualization. In E. Hackett, O.
+Amsterdamska, M. Lynch, & J. Wajcman (Eds.), The handbook of science and technology studies (3rd ed., pp.
+297–317). MIT Press.
+
+Cabreros, I. (2021, April 26). Side-stepping safeguards – Data journalists are doing science now. Impact of
+Social Sciences. https://blogs.lse.ac.uk/impactofsocialsciences/2021/04/26/side-stepping-safeguards-data-
+journalists-are-doing-science-now/
+
+
+
+
+                                                        29
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+Correll, M., & Heer, J. (2017, October 2). Black hat visualization. Paper presented at the Workshop on Dealing
+with Cognitive Biases in Visualisations (DECISIVe), IEE VIS 2017, Phoenix, Arizona.
+http://idl.cs.washington.edu/files/2017-BlackHatVis-DECISIVe.pdf
+
+Daga, E., & Groth, P. (2023). Data journeys: Explaining AI workflows through abstraction. Semantic Web,
+(June), 1–27. https://doi.org/10.3233/SW-233407
+
+DataCite. (n.d.). DataCite–Connecting research, advancing knowledge. Retrieved September 30, 2023, from
+https://datacite.org/
+
+Edwards, P. N. (1999). Global climate science, uncertainty and politics: Data‐laden models, model‐filtered
+data. Science as Culture, 8(4), 437–472. https://doi.org/10.1080/09505439909526558
+
+Edwards, P. N., Mayernik, M. S., Batcheller, A. L., Bowker, G. C., & Borgman, C. L. (2011). Science friction:
+Data, metadata, and collaboration. Social Studies of Science, 41(5), 667–690.
+https://doi.org/10.1177/0306312711413314
+
+Elliott, K. C. (2022). Open science for non-specialists: Making open science meaningful beyond the scientific
+community. Philosophy of Science, 89(5), 1013–1023. https://doi.org/10.1017/psa.2022.36
+
+Elliott, K. C., & Resnik, D. B. (2019). Making open science work for science and society. Environmental
+Health Perspectives, 127(7), Article 075002. https://doi.org/10.1289/EHP4808
+
+Engebretsen, M. (2020). What ‘work’ can Dataviz do in popular science communication? In A. Kerren, C.
+Hurter, & J. Braz (Eds.), Proceedings of the 15th International Joint Conference on Computer Vision, Imaging
+and Computer Graphics Theory and Applications (pp. 260–264). SciTePress.
+https://doi.org/10.5220/0009094002600264
+
+Farhi, P. (2023, June 29). National Geographic lays off its last remaining staff writers. The Washington Post.
+https://www.washingtonpost.com/media/2023/06/28/national-geographic-staff-writers-laid-off/
+
+Federer, L. M., Belter, C. W., Joubert, D. J., Livinski, A., Lu, Y.-L., Snyders, L. N., & Thompson, H. (2018).
+Data sharing in PLOS ONE: An analysis of data availability statements. PLOS ONE, 13(5), Article e0194768.
+https://doi.org/10.1371/journal.pone.0194768
+
+Felt, U., & Davies, S. R. (2020). Exploring science communication: A science and technology studies
+approach. SAGE. https://doi.org/10.4135/9781529721256
+
+Felt, U., & Fochler, M. (2011). Re-ordering epistemic living spaces: On the tacit governance effects of the
+public communication of science. In S. Rödder, M. Franzen, & P. Weingart (Eds.), The Sciences’ Media
+
+
+
+
+                                                        30
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+Connection – Public Communication and its Repercussions (pp. 133–154). Springer Netherlands.
+https://doi.org/10.1007/978-94-007-2085-5_7
+
+Fleerackers, A., Chtena, N., Oliveira, M., Dorsch, I., Pinfield, S., & Alperin, J. P. (2023). Open data
+journalism: A narrative synthesis of how, when, and why data journalists use open data sources. SocArXiv.
+https://doi.org/10.31235/osf.io/wh8jx
+
+Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The science of visual data
+communication: What works. Psychological Science in the Public Interest, 22(3), 110–161.
+https://doi.org/10.1177/15291006211051956
+
+Gregory, K., Groth, P., Scharnhorst, A., & Wyatt, S. (2020). Lost or found? Discovering data needed for
+research. Harvard Data Science Review, 2(2). https://doi.org/10.1162/99608f92.e38165eb
+
+Gregory, K. M., Cousijn, H., Groth, P., Scharnhorst, A., & Wyatt, S. (2019). Understanding data search as a
+socio-technical practice. Journal of Information Science, 46(4), 459–475.
+https://doi.org/10.1177/0165551519837182
+
+Gregory, K., Ninkov, A., Ripp, C., Roblin, E., Peters, I., & Haustein, S. (2023). Tracing data: A survey
+investigating disciplinary differences in data citation. Quantitative Science Studies, 4(3), 622–649.
+https://doi.org/10.1162/qss_a_00264
+
+Harkness, T. (2020). Stop flaunting those curves! Time for stats to get down and dirty with the public. Harvard
+Data Science Review, 2(3). https://doi.org/10.1162/99608f92.caab8ba0
+
+Heekeren, S. (2021). Popular science images: Reflections on visual practices in science communication.
+Design Issues, 37(4), 72–85. https://doi.org/10.1162/desi_a_00659
+
+Heley, K., Gaysynsky, A., & King, A. J. (2022). Missing the bigger picture: The need for more research on
+visual health misinformation. Science Communication, 44(4), 514–527.
+https://journals.sagepub.com/doi/10.1177/10755470221113833
+
+Hilgartner, S. (1990). The dominant view of popularization: Conceptual problems, political uses. Social Studies
+of Science, 20(3), 519–539. https://doi.org/10.1177/030631290020003006
+
+Hullman, J., & Diakopoulos, N. (2011). Visualization rhetoric: Framing effects in narrative visualization. IEEE
+Transactions on Visualization and Computer Graphics, 17(12), 2231–2240.
+https://doi.org/10.1109/TVCG.2011.255
+
+Kennedy, H., & Hill, R. L. (2018). The feeling of numbers: Emotions in everyday engagements with data and
+their visualisation. Sociology, 52(4), 830–848. https://doi.org/10.1177/0038038516674675
+
+
+
+
+                                                         31
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+Kennedy, H., Weber, W., & Engebretsen, M. (2020). Data visualization and transparency in the news. In M.
+Engebretsen & H. Kennedy (Eds.), Data visualization in society (pp. 169–186). Amsterdam University Press.
+https://doi.org/10.1515/9789048543137-015
+
+Klein, L. (2022). What data visualization reveals: Elizabeth Palmer Peabody and the work of knowledge
+production. Harvard Data Science Review, 4(2). https://doi.org/10.1162/99608f92.5dec149c
+
+Knight, M. (2015). Data journalism in the UK: A preliminary analysis of form and content. Journal of Media
+Practice, 16(1), 55–72. https://doi.org/10.1080/14682753.2015.1015801
+
+Koesten, L., Gregory, K., Groth, P., & Simperl, E. (2021). Talking datasets – Understanding data sensemaking
+behaviours. International Journal of Human-Computer Studies, 146, Article 102562.
+https://doi.org/10.1016/j.ijhcs.2020.102562
+
+Koesten, L., Gregory, K., Schuster, R., Knoll, C., Davies, S., & Möller, T. (2023). What is the message?
+Perspectives on visual data communication. ArXiv. http://arxiv.org/abs/2304.10544
+
+Koesten, L., Kacprzak, E., Tennison, J. F. A., & Simperl, E. (2017). The trials and tribulations of working with
+structured data: A study on Information seeking behaviour. In G. Mark & S. Fussell (Eds.), CHI ’17:
+Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (pp. 1277–1289). ACM.
+https://doi.org/10.1145/3025453.3025838
+
+Koesten, L., Kacprzak, E., Tennison, J., & Simperl, E. (2019). Collaborative practices with structured data: Do
+tools support what users need? In S. Brewster & G. Fitzpatrick (Eds.), CHI ’19: Proceedings of the 2019 CHI
+Conference on Human Factors in Computing Systems (Article 100, pp. 1–14). ACM.
+https://doi.org/10.1145/3290605.3300330
+
+Krause, K. (2017). A framework for visual communication at Nature. Public Understanding of Science, 26(1),
+15–24. https://doi.org/10.1177/0963662516640966
+
+LaDonna, K. A., Artino, A. R., Jr, & Balmer, D. F. (2021). Beyond the guise of saturation: Rigor and
+qualitative interview data. Journal of Graduate Medical Education, 13(5), 607–611.
+https://doi.org/10.4300/JGME-D-21-00752.1
+
+Latour, B., & Woolgar, S. (1986). Laboratory life: The construction of scientific facts. Princeton University
+Press.
+
+Lee, C., Yang, T., Inchoco, G. D., Jones, G. M., & Satyanarayan, A. (2021). Viral visualizations: How
+coronavirus skeptics use orthodox data practices to promote unorthodox science online. In Y. Kitamura & A.
+Quigley (Eds.), CHI ’21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(Article 607, pp. 1–18). ACM. https://doi.org/10.1145/3411764.3445211
+
+
+
+                                                        32
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+Leonelli, S. (2016). Data-centric biology: A philosophical study. University of Chicago Press.
+https://doi.org/10.7208/9780226416502
+
+Leonelli, S. (2020). Learning from data journeys. In S. Leonelli & N. Tempini (Eds.), Data Journeys in the
+Sciences (pp. 1–24). Springer International Publishing. https://doi.org/10.1007/978-3-030-37177-7_1
+
+Leonelli, S., & Tempini, N. (Eds.). (2020). Data journeys in the sciences. Springer. https://doi.org/10.1007/978-
+3-030-37177-7
+
+Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its
+correction: Continued influence and successful debiasing. Psychological Science in the Public Interest, 13(3),
+106–131. https://doi.org/10.1177/1529100612451018
+
+Lo, L. Y.-H., Gupta, A., Shigyo, K., Wu, A., Bertini, E., & Qu, H. (2022). Misinformed by visualization: What
+do we learn from misinformative visualizations? Computer Graphics Forum, 41(3), 515–525.
+https://doi.org/10.1111/cgf.14559
+
+Lowenberg, D. (2022). Recognizing our collective responsibility in the prioritization of open data metrics.
+Harvard Data Science Review, 4(3). https://doi.org/10.1162/99608f92.c71c3479
+
+Lowenberg, D., Lammey, R., Jones, M. B., Chodacki, J., & Fenner, M. (2021). Data citation: Let’s choose
+adoption over perfection. Zenodo. https://doi.org/10.5281/zenodo.4701079
+
+Lynch, M. (1988). The externalized retina: Selection and mathematization in the visual documentation of
+objects in the life sciences. Human Studies, 11(2–3), 201–234. https://doi.org/10.1007/BF00177304
+
+Merton, R. K. (1968). The Matthew effect in science. Science, 159(3810), 56–63.
+https://doi.org/10.1126/science.159.3810.56
+
+Metag, J. (2020). Climate change visuals: A review of their effects on cognition, emotion and behaviour. In D.
+C. Holmes & L. M. Richardson (Eds.), Research handbook on communicating climate change (pp. 153–160).
+Edward Elgar Publishing.
+https://www.elgaronline.com/display/edcoll/9781789900392/9781789900392.00025.xml
+
+Montañez, A., & Christiansen, J. (2022, March). Data captured COVID’s uneven toll. Scientific American,
+326(3), 58–63. https://doi.org/10.1038/scientificamerican0322-58
+
+Mott, F. L. (1930). A history of American magazines, Volume I: 1741–1850. Belknap Press.
+
+Newell, R., Dale, A., & Winters, C. (2016). A picture is worth a thousand data points: Exploring visualizations
+as tools for connecting the public to climate change research. Cogent Social Sciences, 2(1).
+https://doi.org/10.1080/23311886.2016.1201885
+
+
+
+                                                       33
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+O’Neill, S., Williams, H. T., Kurz, T., Wiersma, B., & Boykoff, M. (2015). Dominant frames in legacy and
+social media coverage of the IPCC Fifth Assessment Report. Nature Climate Change, 5(4), 380–385.
+https://doi-org/10.1038/nclimate2535
+
+Pandey, A. V., Manivannan, A., Nov, O., Satterthwaite, M., & Bertini, E. (2014). The persuasive power of data
+visualization. IEEE Transactions on Visualization and Computer Graphics, 20(12), 2211–2220.
+https://doi.org/10.1109/TVCG.2014.2346419
+
+Parasie, S. (2015). Data-driven revelation?: Epistemological tensions in investigative journalism in the age of
+“big data.” Digital Journalism, 3(3), 364–380. https://doi.org/10.1080/21670811.2014.976408
+
+Parasie, S., & Dagiral, E. (2013). Data-driven journalism and the public good: “Computer-assisted-reporters”
+and “programmer-journalists” in Chicago. New Media & Society, 15(6), 853–871.
+https://doi.org/10.1177/1461444812463345
+
+Pasquetto, I. V., Borgman, C. L., & Wofford, M. F. (2019). Uses and reuses of scientific data: The data
+creators’ advantage. Harvard Data Science Review, 1(2). https://doi.org/10.1162/99608f92.fc14bf2d
+
+Pasquetto, I. V., Randles, B. M., & Borgman, C. L. (2017). On the reuse of scientific data. Data Science
+Journal, 16, Article 8. https://doi.org/10.5334/dsj-2017-008
+
+Peck, E. M., Ayuso, S. E., & El-Etr, O. (2019). Data is personal: Attitudes and perceptions of data visualization
+in rural Pennsylvania. In In S. Brewster & G. Fitzpatrick (Eds.), CHI ’19: Proceedings of the 2019 CHI
+Conference on Human Factors in Computing Systems (Article 244, pp. 1–12). ACM.
+https://doi.org/10.1145/3290605.3300474
+
+Pepe, A., Goodman, A., Muench, A., Crosas, M., & Erdmann, C. (2014). How do astronomers share data?
+Reliability and persistence of datasets linked in AAS publications and a qualitative study of data practices
+among US astronomers. PLoS ONE, 9(8), Article e104798. https://doi.org/10.1371/journal.pone.0104798
+
+Piwowar, H., Priem, J., Larivière, V., Alperin, J. P., Matthias, L., Norlander, B., Farley, A., West, J., &
+Haustein, S. (2018). The state of OA: A large-scale analysis of the prevalence and impact of open access
+articles. PeerJ, 6, Article e4375. https://doi.org/10.7717/peerj.4375
+
+Poirier, L. (2021). Reading datasets: Strategies for interpreting the politics of data signification. Big Data &
+Society, 8(2). https://doi.org/10.1177/20539517211029322
+
+Remillard, C. (2011). Picturing environmental risk: The Canadian oil sands and the National Geographic.
+International Communication Gazette, 73(1–2), 127–143. https://doi.org/10.1177/1748048510386745
+
+
+
+
+                                                          34
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+Schuster, R., Gregory, K., Möller, T., & Koesten, L. (2023). “Being Simple on Complex Issues”—Accounts on
+Visual Data Communication about Climate Change. In IEEE Transactions on Visualization and Computer
+Graphics. Early Access. IEEE. https://doi.org/10.1109/TVCG.2024.3352282
+
+Scientific American. (2020). Scientific American: Celebrating 175 years.
+
+Scientific American. (2015, November 22). About Scientific American.
+https://www.scientificamerican.com/page/about-scientific-american/
+
+Segel, E., & Heer, J. (2010). Narrative visualization: Telling stories with data. IEEE Transactions on
+Visualization and Computer Graphics, 16(6), 1139–1148. https://doi.org/10.1109/TVCG.2010.179
+
+Silvello, G. (2018). Theory and practice of data citation. Journal of the Association for Information Science
+and Technology, 69(1), 6–20. https://doi.org/10.1002/asi.23917
+
+Sorapure, M. (2019). Text, image, data, interaction: Understanding information visualization. Computers and
+Composition, 54, Article 102519. https://doi.org/10.1016/j.compcom.2019.102519
+
+Stalph, F. (2018). Classifying data journalism. Journalism Practice, 12(10), 1332–1350.
+https://doi.org/10.1080/17512786.2017.1386583
+
+Stalph, F., & Heravi, B. (2021). Exploring data visualisations: An analytical framework based on dimensional
+components of data artefacts in journalism. Digital Journalism, 11(9), 1641–1663.
+https://doi.org/10.1080/21670811.2021.1957965
+
+Stanhill, G. (2001). The growth of climate change science: A scientometric study. Climatic Change, 48(2), 515–
+524. https://doi.org/10.1023/A:1010721600896
+
+Stefaner, M., Daston, L., & Christiansen, J. (2020, September). The language of science: How the words we
+use have evolved over the past 175 years. Scientific American, 323(3), 26–33.
+
+Tandoc, E. C., & Oh, S.-K. (2017). Small departures, big continuities?: Norms, values, and routines in The
+Guardian ’s big data journalism. Journalism Studies, 18(8), 997–1015.
+https://doi.org/10.1080/1461670X.2015.1104260
+
+Tenopir, C., Rice, N. M., Allard, S., Baird, L., Borycz, J., Christian, L., Grant, B., Olendorf, R., & Sandusky,
+R. J. (2020). Data sharing, management, use, and reuse: Practices and perceptions of scientists worldwide.
+PLoS ONE, 15(3), Article e0229003. https://doi.org/10.1371/journal.pone.0229003
+
+Thelwall, M., & Sud, P. (2022). Scopus 1900–2020: Growth in articles, abstracts, countries, fields, and
+journals. Quantitative Science Studies, 3(1), 37–50. https://doi.org/10.1162/qss_a_00177
+
+
+
+
+                                                        35
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+Thompson, A. (2018, October 17). What’s in a half a degree? 2 very different future climates. Scientific
+American. https://www.scientificamerican.com/article/whats-in-a-half-a-degree-2-very-different-future-
+climates/
+
+Thompson, A., & Montañez, A. (2022, February). Generational climate change. Scientific American, 326(2),
+76.
+
+Unwin, A. (2020). Why is data visualization important? What is important in data visualization? Harvard Data
+Science Review, 2(1). https://doi.org/10.1162/99608f92.8ae4d525
+
+Vasileiou, K., Barnett, J., Thorpe, S., & Young, T. (2018). Characterising and justifying sample size sufficiency
+in interview-based studies: Systematic analysis of qualitative health research over a 15-year period. BMC
+Medical Research Methodology, 18(1), Article 148. https://doi.org/10.1186/s12874-018-0594-7
+
+Weber, W., Engebretsen, M., & Kennedy, H. (2018). Data stories: Rethinking journalistic storytelling in the
+context of data journalism. Studies in Communication Sciences, 2018(1), 191–206.
+https://doi.org/10.24434/j.scoms.2018.01.013
+
+Yoon, A. (2017). Role of communication in data reuse. Proceedings of the Association for Information Science
+and Technology, 54(1), 463–471. https://doi.org/10.1002/pra2.2017.14505401050
+
+Zamith, R. (2019). Transparency, interactivity, diversity, and information provenance in everyday data
+journalism. Digital Journalism, 7(4), 470–489. https://doi.org/10.1080/21670811.2018.1554409
+
+Zhang, Y., Sun, Y., Padilla, L., Barua, S., Bertini, E., & Parker, A. G. (2021). Mapping the landscape of
+COVID-19 crisis visualizations. In Y. Kitamura & A. Quigley (Eds.), CHI ’21: Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems (Article 608, pp. 1–23). ACM.
+https://doi.org/10.1145/3411764.3445381
+
+Zheng, C., & Ma, X. (2022). Evaluating the effect of enhanced text-visualization integration on combating
+misinformation in data story. In 2022 IEEE 15th Pacific Visualization Symposium (PacificVis) (pp. 141–150).
+IEEE. https://doi.org/10.1109/PacificVis53943.2022.00023
+
+Zuiderwijk, A., Janssen, M., & Dwivedi, Y. K. (2015). Acceptance and use predictors of open data
+technologies: Drawing upon the unified theory of acceptance and use of technology. Government Information
+Quarterly, 32(4), 429–440. https://doi.org/10.1016/j.giq.2015.09.005
+
+
+
+Appendix
+
+
+
+
+                                                        36
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+Semistructured Interview Protocol
+The interview protocol consisted of four main parts, including the collection of demographic information. Prior
+to the interview, participants selected relevant article(s) with visualization(s), which served as a discussion
+prompt in Part 2. The protocol was tailored to individual’s areas of expertise.
+
+Introduction
+Thank you for participating in this study and for your time today.
+
+Thank you for completing the informed consent form. Do you have any questions about the form or the
+interview?
+
+Begin recording of the interview.
+
+Outline goals of the project and the study.
+
+   As you read in the informed consent, this study is part of the Talking Charts project, which investigates how
+   climate change and COVID data are visualized in scholarly and popular science media.
+
+   As part of this project, we are analyzing visual data communication in Scientific American on the topics of
+   climate change and the COVID-19 pandemic. This analysis will serve as a case study for how visualizations
+   are used to communicate data about these topics to nonacademic audiences.
+      This involves two parts: an analysis of charts and semistructured interviews.
+
+   The goal of the interview study is to learn more about the production and reception of charts in Scientific
+   American. We will ask questions, e.g., about editorial and visualization production practices, guidelines and
+   the audiences and readership of the magazine.
+
+Overview of the interview
+
+   The majority of the interview will be a conversation centered around one of the articles which you sent in
+   advance.
+
+Part 1: Demographics
+   What is your professional role?
+   How long have you been working in this capacity / in the profession?
+   What is your (academic/professional) background?
+   Could you describe the Scientific American publication a bit for context?
+      How do you see the role of the publication in the wider science communication landscape?
+
+
+
+
+                                                         37
+Harvard Data Science Review • Issue 6.2, Spring 2024              Data Journeys in Popular Science: Producing Climate Change and
+                                                                              COVID-19 Data Visualizations at Scienti c American
+
+
+
+Part 2: Visualization production and data work
+In this section, participants discussed the sample article(s) and visualization(s) which they had sent prior to the
+interview. The interviewer or participant shared their screen with the visualization/article which was being
+discussed.
+
+   Could you walk us through the creation of this article?
+   Prompts:
+      Why was this story chosen?
+         Why and how do you generally choose the stories which you do?
+         Are stories always related to an academic publication?
+            Do you have access to those publications?
+      Why was this story made online vs. print?
+         Which stories are chosen for print? And which for online? How are the two related?
+      How do charts and other elements (text, photos, etc.) work together to tell the narrative of the story?
+         Do you see charts as something which can stand alone? Or are they best understood in relation to an
+         entire article?
+      How were the charts made? Who made them? For which purposes?
+         Are charts usually derived from another graphic or a copy of an original graphic?
+      Where did the data come from?
+         Are data available outside of a publication (e.g., in a repository or governmental portal?)
+         Do you access the data directly?
+      Could you describe the experience of using secondary data (data which you don’t create yourself)?
+      Could you discuss the role of collaborating with others when creating charts?
+         How do you work with data creators, with scientific experts, with other team members, etc.?
+         Are there any differences here between creating print or online charts?
+      What is the role of aesthetics in chart creation?
+      Would you say these processes which you describe are typical?
+
+Part 3: Audience-related questions
+   Who is the intended audience of Scientific American? Do you know if the intended audience matches the
+   actual audience?
+
+   How does an envisioned reader work through the article? Do they start with visualizations first or text?
+
+   Do you think that the readership understands the articles in Scientific American? Do they understand the
+   visualizations?
+
+
+
+
+                                                          38
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+   How do you (or have you) measured audience engagement? (i.e., logs, downloads, web analytics, focus
+   groups) How have these insights been used?
+
+   How do people end up at Scientific American (both print and online)?
+
+Part 4: Publication-related questions
+   Do you have documented editorial guidelines/procedures?
+      Could you describe those?
+      How are they used? How are people trained?
+
+   What are some of the biggest changes have you observed in Scientific American over time?
+      Are there things which you used to do, but don’t any longer? For example, some material which was only
+      online, and now is in print, or vice versa?
+
+Closing
+   Are any of these processes, etc. which we have discussed today unique for climate change stories or charts?
+   For COVID-19 stories or charts?
+
+   Thank you very much for your time and insight.
+
+
+©2024 Kathleen Gregory, Laura Koesten, Regina Schuster, Torsten Möller, and Sarah Davies. This article is
+licensed under a Creative Commons Attribution (CC BY 4.0) International license, except where otherwise
+indicated with respect to particular material included in the article.
+
+Preview Image graphic reproduced with permission. Copyright © (2022) SCIENTIFIC AMERICAN, a
+Division of Springer Nature, America, Inc. All rights reserved.
+
+References
+   Allcott, H., Gentzkow, M., & Yu, C. (2019). Trends in the diffusion of misinformation on social media.
+   Research & Politics, 6(2). https://doi.org/10.1177/2053168019848554
+
+    ↩
+   Allen, W. L. (2018). Visual brokerage: Communicating data and research through visualisation. Public
+   Understanding of Science, 27(8), 906–922. https://doi.org/10.1177/0963662518756853
+
+    ↩
+   American Psychological Association. (2022). Data set references. https://apastyle.apa.org/style-grammar-
+   guidelines/references/examples/data-set-references
+
+
+
+
+                                                          39
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   Ankeny, R. A. (2020). Tracing data journeys through medical case reports: Conceptualizing case reports not
+   as “anecdotes” but productive epistemic constructs, or why zebras can be useful. In S. Leonelli & N.
+   Tempini (Eds.), Data journeys in the sciences (pp. 59–76). Springer International Publishing.
+   https://doi.org/10.1007/978-3-030-37177-7_4
+
+    ↩
+   ATLAS.ti Scientific Software Development GmbH. (2022). ATLAS.ti (ATLAS.ti 22 Mac) [Qualitative data
+   analysis software]. ATLAS.ti Scientific Software Development GmbH. https://atlasti.com
+
+    ↩
+   Bates, J., Lin, Y.-W., & Goodale, P. (2016). Data journeys: Capturing the socio-material constitution of data
+   objects and flows. Big Data & Society, 3(2). https://doi.org/10.1177/2053951716654502
+
+    ↩
+   Beaulieu, A., & Leonelli, S. (2021). Data and society: A critical introduction. SAGE.
+
+    ↩
+   Benjelloun, O., Chen, S., & Noy, N. (2020). Google Dataset Search by the numbers. In J. Z. Pan, V. Tamma,
+   C. d’Amato, K. Janowicz, B. Fu, A. Polleres, O. Seneviratne, & L. Kagal (Eds.), The Semantic Web – ISWC
+   2020 (pp. 667–682). Springer International Publishing. https://doi.org/10.1007/978-3-030-62466-8_41
+
+    ↩
+   Borges-Rey, E. (2017). Towards an epistemology of data journalism in the devolved nations of the United
+   Kingdom: Changes and continuities in materiality, performativity and reflexivity. Journalism, 21(7), 915–
+   932. https://doi.org/10.1177/1464884917693864
+
+    ↩
+   Borgman, C. L. (2015). Big data, little data, no data: Scholarship in the networked world. MIT Press.
+   https://doi.org/10.7551/mitpress/9963.001.0001
+
+    ↩
+   Borkin, M. A., Bylinskii, Z., Kim, N. W., Bainbridge, C. M., Yeh, C. S., Borkin, D., Pfister, H., & Oliva, A.
+   (2016). Beyond memorability: Visualization recognition and recall. IEEE Transactions on Visualization and
+   Computer Graphics, 22(1), 519–528. https://doi.org/10.1109/TVCG.2015.2467732
+
+    ↩
+   Born, D. (2020). Images and imaginations of climate change: The construction of climate change in popular
+   science magazines [Unpublished doctoral dissertation]. University of Vienna.
+
+    ↩
+
+
+
+                                                        40
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+   Bornmann, L. (2013). What is societal impact of research and how can it be assessed? A literature survey.
+   Journal of the American Society for Information Science and Technology, 64(2), 217–233.
+   https://doi.org/10.1002/asi.22803
+
+    ↩
+   Böttinger, M., Kostis, H.-N., Velez-Rojas, M., Rheingans, P., & Ynnerman, A. (2020). Reflections on
+   visualization for broad audiences. In M. Chen, H. Hauser, P. Rheingans, & G. Scheuermann (Eds.),
+   Foundations of data visualization (pp. 297–305). Springer International Publishing.
+   https://doi.org/10.1007/978-3-030-34444-3_16
+
+    ↩
+   Bowler, P. J. (2013). Popular science magazines in interwar Britain: Authors and readerships. Science in
+   Context, 26(3), 437–457. https://doi.org/10.1017/S0269889713000136
+
+    ↩
+   Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology,
+   3(2), 77–101. https://doi.org/10.1191/1478088706qp063oa
+
+    ↩
+   Braun, V., & Clarke, V. (2019). Reflecting on reflexive thematic analysis. Qualitative Research in Sport,
+   Exercise and Health, 11(4), 589–597. https://doi.org/10.1080/2159676X.2019.1628806
+
+    ↩
+   Brennen, J. S. (2018). Magnetologists on the beat: The epistemology of science journalism reconsidered.
+   Communication Theory, 28(4), 424–443. https://doi.org/10.1093/ct/qty001
+
+    ↩
+   Burri, R. V. (2012). Visual rationalities: Towards a sociology of images. Current Sociology, 60(1), 45–60.
+   https://doi.org/10.1177/0011392111426647
+
+    ↩
+   Burri, R. V., & Dumit, J. (2008). Social studies of scientic imaging and visualization. In E. Hackett, O.
+   Amsterdamska, M. Lynch, & J. Wajcman (Eds.), The handbook of science and technology studies (3rd ed.,
+   pp. 297–317). MIT Press.
+
+    ↩
+   Cabreros, I. (2021, April 26). Side-stepping safeguards – Data journalists are doing science now. Impact of
+   Social Sciences. https://blogs.lse.ac.uk/impactofsocialsciences/2021/04/26/side-stepping-safeguards-data-
+   journalists-are-doing-science-now/
+
+    ↩
+
+
+
+                                                        41
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+   Correll, M., & Heer, J. (2017, October 2). Black hat visualization. Paper presented at the Workshop on
+   Dealing with Cognitive Biases in Visualisations (DECISIVe), IEE VIS 2017, Phoenix, Arizona.
+   http://idl.cs.washington.edu/files/2017-BlackHatVis-DECISIVe.pdf
+
+    ↩
+   Daga, E., & Groth, P. (2023). Data journeys: Explaining AI workflows through abstraction. Semantic Web,
+   (June), 1–27. https://doi.org/10.3233/SW-233407
+
+    ↩
+   DataCite. (n.d.). DataCite–Connecting research, advancing knowledge. Retrieved September 30, 2023, from
+   https://datacite.org/
+
+    ↩
+   Edwards, P. N. (1999). Global climate science, uncertainty and politics: Data‐laden models, model‐filtered
+   data. Science as Culture, 8(4), 437–472. https://doi.org/10.1080/09505439909526558
+
+    ↩
+   Edwards, P. N., Mayernik, M. S., Batcheller, A. L., Bowker, G. C., & Borgman, C. L. (2011). Science
+   friction: Data, metadata, and collaboration. Social Studies of Science, 41(5), 667–690.
+   https://doi.org/10.1177/0306312711413314
+
+    ↩
+   Elliott, K. C. (2022). Open science for non-specialists: Making open science meaningful beyond the
+   scientific community. Philosophy of Science, 89(5), 1013–1023. https://doi.org/10.1017/psa.2022.36
+
+    ↩
+   Elliott, K. C., & Resnik, D. B. (2019). Making open science work for science and society. Environmental
+   Health Perspectives, 127(7), Article 075002. https://doi.org/10.1289/EHP4808
+
+    ↩
+   Engebretsen, M. (2020). What ‘work’ can Dataviz do in popular science communication? In A. Kerren, C.
+   Hurter, & J. Braz (Eds.), Proceedings of the 15th International Joint Conference on Computer Vision,
+   Imaging and Computer Graphics Theory and Applications (pp. 260–264). SciTePress.
+   https://doi.org/10.5220/0009094002600264
+
+    ↩
+   Farhi, P. (2023, June 29). National Geographic lays off its last remaining staff writers. The Washington Post.
+   https://www.washingtonpost.com/media/2023/06/28/national-geographic-staff-writers-laid-off/
+
+    ↩
+
+
+
+
+                                                        42
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   Felt, U., & Davies, S. R. (2020). Exploring science communication: A science and technology studies
+   approach. SAGE. https://doi.org/10.4135/9781529721256
+
+    ↩
+   Felt, U., & Fochler, M. (2011). Re-ordering epistemic living spaces: On the tacit governance effects of the
+   public communication of science. In S. Rödder, M. Franzen, & P. Weingart (Eds.), The Sciences’ Media
+   Connection – Public Communication and its Repercussions (pp. 133–154). Springer Netherlands.
+   https://doi.org/10.1007/978-94-007-2085-5_7
+
+    ↩
+   Fleerackers, A., Chtena, N., Oliveira, M., Dorsch, I., Pinfield, S., & Alperin, J. P. (2023). Open data
+   journalism: A narrative synthesis of how, when, and why data journalists use open data sources. SocArXiv.
+   https://doi.org/10.31235/osf.io/wh8jx
+
+    ↩
+   Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The science of visual data
+   communication: What works. Psychological Science in the Public Interest, 22(3), 110–161.
+   https://doi.org/10.1177/15291006211051956
+
+    ↩
+   Gregory, K. M., Cousijn, H., Groth, P., Scharnhorst, A., & Wyatt, S. (2019). Understanding data search as a
+   socio-technical practice. Journal of Information Science, 46(4), 459–475.
+   https://doi.org/10.1177/0165551519837182
+
+    ↩
+   Gregory, K., Groth, P., Scharnhorst, A., & Wyatt, S. (2020). Lost or found? Discovering data needed for
+   research. Harvard Data Science Review, 2(2). https://doi.org/10.1162/99608f92.e38165eb
+
+    ↩
+   Gregory, K., Ninkov, A., Ripp, C., Roblin, E., Peters, I., & Haustein, S. (2023). Tracing data: A survey
+   investigating disciplinary differences in data citation. Quantitative Science Studies, 4(3), 622–649.
+   https://doi.org/10.1162/qss_a_00264
+
+    ↩
+   Harkness, T. (2020). Stop flaunting those curves! Time for stats to get down and dirty with the public.
+   Harvard Data Science Review, 2(3). https://doi.org/10.1162/99608f92.caab8ba0
+
+    ↩
+
+
+
+
+                                                         43
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   Heley, K., Gaysynsky, A., & King, A. J. (2022). Missing the bigger picture: The need for more research on
+   visual health misinformation. Science Communication, 44(4), 514–527.
+   https://journals.sagepub.com/doi/10.1177/10755470221113833
+
+    ↩
+   Hilgartner, S. (1990). The dominant view of popularization: Conceptual problems, political uses. Social
+   Studies of Science, 20(3), 519–539. https://doi.org/10.1177/030631290020003006
+
+    ↩
+   Hullman, J., & Diakopoulos, N. (2011). Visualization rhetoric: Framing effects in narrative visualization.
+   IEEE Transactions on Visualization and Computer Graphics, 17(12), 2231–2240.
+   https://doi.org/10.1109/TVCG.2011.255
+
+    ↩
+   Kennedy, H., & Hill, R. L. (2018). The feeling of numbers: Emotions in everyday engagements with data
+   and their visualisation. Sociology, 52(4), 830–848. https://doi.org/10.1177/0038038516674675
+
+    ↩
+   Kennedy, H., Weber, W., & Engebretsen, M. (2020). Data visualization and transparency in the news. In M.
+   Engebretsen & H. Kennedy (Eds.), Data visualization in society (pp. 169–186). Amsterdam University
+   Press. https://doi.org/10.1515/9789048543137-015
+
+    ↩
+   Klein, L. (2022). What data visualization reveals: Elizabeth Palmer Peabody and the work of knowledge
+   production. Harvard Data Science Review, 4(2). https://doi.org/10.1162/99608f92.5dec149c
+
+    ↩
+   Knight, M. (2015). Data journalism in the UK: A preliminary analysis of form and content. Journal of Media
+   Practice, 16(1), 55–72. https://doi.org/10.1080/14682753.2015.1015801
+
+    ↩
+   Koesten, L., Gregory, K., Groth, P., & Simperl, E. (2021). Talking datasets – Understanding data
+   sensemaking behaviours. International Journal of Human-Computer Studies, 146, Article 102562.
+   https://doi.org/10.1016/j.ijhcs.2020.102562
+
+    ↩
+   Koesten, L., Gregory, K., Schuster, R., Knoll, C., Davies, S., & Möller, T. (2023). What is the message?
+   Perspectives on visual data communication. ArXiv. http://arxiv.org/abs/2304.10544
+
+    ↩
+
+
+
+                                                        44
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+   Koesten, L., Kacprzak, E., Tennison, J. F. A., & Simperl, E. (2017). The trials and tribulations of working
+   with structured data: A study on Information seeking behaviour. In G. Mark & S. Fussell (Eds.), CHI ’17:
+   Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (pp. 1277–1289). ACM.
+   https://doi.org/10.1145/3025453.3025838
+
+    ↩
+   Koesten, L., Kacprzak, E., Tennison, J., & Simperl, E. (2019). Collaborative practices with structured data:
+   Do tools support what users need? In S. Brewster & G. Fitzpatrick (Eds.), CHI ’19: Proceedings of the 2019
+   CHI Conference on Human Factors in Computing Systems (Article 100, pp. 1–14). ACM.
+   https://doi.org/10.1145/3290605.3300330
+
+    ↩
+   Krause, K. (2017). A framework for visual communication at Nature. Public Understanding of Science,
+   26(1), 15–24. https://doi.org/10.1177/0963662516640966
+
+    ↩
+   LaDonna, K. A., Artino, A. R., Jr, & Balmer, D. F. (2021). Beyond the guise of saturation: Rigor and
+   qualitative interview data. Journal of Graduate Medical Education, 13(5), 607–611.
+   https://doi.org/10.4300/JGME-D-21-00752.1
+
+    ↩
+   Latour, B., & Woolgar, S. (1986). Laboratory life: The construction of scientific facts. Princeton University
+   Press.
+
+    ↩
+   Lee, C., Yang, T., Inchoco, G. D., Jones, G. M., & Satyanarayan, A. (2021). Viral visualizations: How
+   coronavirus skeptics use orthodox data practices to promote unorthodox science online. In Y. Kitamura & A.
+   Quigley (Eds.), CHI ’21: Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+    (Article 607, pp. 1–18). ACM. https://doi.org/10.1145/3411764.3445211
+
+    ↩
+   Leonelli, S. (2016). Data-centric biology: A philosophical study. University of Chicago Press.
+   https://doi.org/10.7208/9780226416502
+
+    ↩
+   Leonelli, S. (2020). Learning from data journeys. In S. Leonelli & N. Tempini (Eds.), Data Journeys in the
+   Sciences (pp. 1–24). Springer International Publishing. https://doi.org/10.1007/978-3-030-37177-7_1
+
+    ↩
+
+
+
+
+                                                        45
+Harvard Data Science Review • Issue 6.2, Spring 2024           Data Journeys in Popular Science: Producing Climate Change and
+                                                                           COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its
+   correction: Continued influence and successful debiasing. Psychological Science in the Public Interest,
+   13(3), 106–131. https://doi.org/10.1177/1529100612451018
+
+    ↩
+   Lo, L. Y.-H., Gupta, A., Shigyo, K., Wu, A., Bertini, E., & Qu, H. (2022). Misinformed by visualization:
+   What do we learn from misinformative visualizations? Computer Graphics Forum, 41(3), 515–525.
+   https://doi.org/10.1111/cgf.14559
+
+    ↩
+   Lowenberg, D. (2022). Recognizing our collective responsibility in the prioritization of open data metrics.
+   Harvard Data Science Review, 4(3). https://doi.org/10.1162/99608f92.c71c3479
+
+    ↩
+   Lowenberg, D., Lammey, R., Jones, M. B., Chodacki, J., & Fenner, M. (2021). Data citation: Let’s choose
+   adoption over perfection. Zenodo. https://doi.org/10.5281/zenodo.4701079
+
+    ↩
+   Lynch, M. (1988). The externalized retina: Selection and mathematization in the visual documentation of
+   objects in the life sciences. Human Studies, 11(2–3), 201–234. https://doi.org/10.1007/BF00177304
+
+    ↩
+   Merton, R. K. (1968). The Matthew effect in science. Science, 159(3810), 56–63.
+   https://doi.org/10.1126/science.159.3810.56
+
+    ↩
+   Metag, J. (2020). Climate change visuals: A review of their effects on cognition, emotion and behaviour. In
+   D. C. Holmes & L. M. Richardson (Eds.), Research handbook on communicating climate change (pp. 153–
+   160). Edward Elgar Publishing.
+   https://www.elgaronline.com/display/edcoll/9781789900392/9781789900392.00025.xml
+
+    ↩
+   Montañez, A., & Christiansen, J. (2022, March). Data captured COVID’s uneven toll. Scientific American,
+   326(3), 58–63. https://doi.org/10.1038/scientificamerican0322-58
+
+    ↩
+   Mott, F. L. (1930). A history of American magazines, Volume I: 1741–1850. Belknap Press.
+
+    ↩
+
+
+
+
+                                                       46
+Harvard Data Science Review • Issue 6.2, Spring 2024              Data Journeys in Popular Science: Producing Climate Change and
+                                                                              COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   O’Neill, S., Williams, H. T., Kurz, T., Wiersma, B., & Boykoff, M. (2015). Dominant frames in legacy and
+   social media coverage of the IPCC Fifth Assessment Report. Nature Climate Change, 5(4), 380–385.
+   https://doi-org/10.1038/nclimate2535
+
+    ↩
+   Pandey, A. V., Manivannan, A., Nov, O., Satterthwaite, M., & Bertini, E. (2014). The persuasive power of
+   data visualization. IEEE Transactions on Visualization and Computer Graphics, 20(12), 2211–2220.
+   https://doi.org/10.1109/TVCG.2014.2346419
+
+    ↩
+   Parasie, S. (2015). Data-driven revelation?: Epistemological tensions in investigative journalism in the age
+   of “big data.” Digital Journalism, 3(3), 364–380. https://doi.org/10.1080/21670811.2014.976408
+
+    ↩
+   Parasie, S., & Dagiral, E. (2013). Data-driven journalism and the public good: “Computer-assisted-
+   reporters” and “programmer-journalists” in Chicago. New Media & Society, 15(6), 853–871.
+   https://doi.org/10.1177/1461444812463345
+
+    ↩
+   Pasquetto, I. V., Borgman, C. L., & Wofford, M. F. (2019). Uses and reuses of scientific data: The data
+   creators’ advantage. Harvard Data Science Review, 1(2). https://doi.org/10.1162/99608f92.fc14bf2d
+
+    ↩
+   Pasquetto, I. V., Randles, B. M., & Borgman, C. L. (2017). On the reuse of scientific data. Data Science
+   Journal, 16, Article 8. https://doi.org/10.5334/dsj-2017-008
+
+    ↩
+   Peck, E. M., Ayuso, S. E., & El-Etr, O. (2019). Data is personal: Attitudes and perceptions of data
+   visualization in rural Pennsylvania. In In S. Brewster & G. Fitzpatrick (Eds.), CHI ’19: Proceedings of the
+   2019 CHI Conference on Human Factors in Computing Systems (Article 244, pp. 1–12). ACM.
+   https://doi.org/10.1145/3290605.3300474
+
+    ↩
+   Pepe, A., Goodman, A., Muench, A., Crosas, M., & Erdmann, C. (2014). How do astronomers share data?
+   Reliability and persistence of datasets linked in AAS publications and a qualitative study of data practices
+   among US astronomers. PLoS ONE, 9(8), Article e104798. https://doi.org/10.1371/journal.pone.0104798
+
+    ↩
+
+
+
+
+                                                        47
+Harvard Data Science Review • Issue 6.2, Spring 2024             Data Journeys in Popular Science: Producing Climate Change and
+                                                                             COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   Poirier, L. (2021). Reading datasets: Strategies for interpreting the politics of data signification. Big Data &
+   Society, 8(2). https://doi.org/10.1177/20539517211029322
+
+    ↩
+   Remillard, C. (2011). Picturing environmental risk: The Canadian oil sands and the National Geographic.
+   International Communication Gazette, 73(1–2), 127–143. https://doi.org/10.1177/1748048510386745
+
+    ↩
+   Schuster, R., Gregory, K., Möller, T., & Koesten, L. (2023). “Being Simple on Complex Issues”—Accounts
+   on Visual Data Communication about Climate Change. In IEEE Transactions on Visualization and
+   Computer Graphics. Early Access. IEEE. https://doi.org/10.1109/TVCG.2024.3352282
+
+    ↩
+   Scientific American. (2015, November 22). About Scientific American.
+   https://www.scientificamerican.com/page/about-scientific-american/
+
+    ↩
+   Scientific American. (2020). Scientific American: Celebrating 175 years.
+
+    ↩
+   Segel, E., & Heer, J. (2010). Narrative visualization: Telling stories with data. IEEE Transactions on
+   Visualization and Computer Graphics, 16(6), 1139–1148. https://doi.org/10.1109/TVCG.2010.179
+
+    ↩
+   Silvello, G. (2018). Theory and practice of data citation. Journal of the Association for Information Science
+   and Technology, 69(1), 6–20. https://doi.org/10.1002/asi.23917
+
+    ↩
+   Sorapure, M. (2019). Text, image, data, interaction: Understanding information visualization. Computers
+   and Composition, 54, Article 102519. https://doi.org/10.1016/j.compcom.2019.102519
+
+    ↩
+   Stalph, F. (2018). Classifying data journalism. Journalism Practice, 12(10), 1332–1350.
+   https://doi.org/10.1080/17512786.2017.1386583
+
+    ↩
+   Stalph, F., & Heravi, B. (2021). Exploring data visualisations: An analytical framework based on
+   dimensional components of data artefacts in journalism. Digital Journalism, 11(9), 1641–1663.
+   https://doi.org/10.1080/21670811.2021.1957965
+
+
+
+
+                                                         48
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+   ↩
+   Stanhill, G. (2001). The growth of climate change science: A scientometric study. Climatic Change, 48(2),
+   515–524. https://doi.org/10.1023/A:1010721600896
+
+    ↩
+   Stefaner, M., Daston, L., & Christiansen, J. (2020, September). The language of science: How the words we
+   use have evolved over the past 175 years. Scientific American, 323(3), 26–33.
+
+    ↩
+   Tandoc, E. C., & Oh, S.-K. (2017). Small departures, big continuities?: Norms, values, and routines in The
+   Guardian ’s big data journalism. Journalism Studies, 18(8), 997–1015.
+   https://doi.org/10.1080/1461670X.2015.1104260
+
+    ↩
+   Tenopir, C., Rice, N. M., Allard, S., Baird, L., Borycz, J., Christian, L., Grant, B., Olendorf, R., & Sandusky,
+   R. J. (2020). Data sharing, management, use, and reuse: Practices and perceptions of scientists worldwide.
+   PLoS ONE, 15(3), Article e0229003. https://doi.org/10.1371/journal.pone.0229003
+
+    ↩
+   Thelwall, M., & Sud, P. (2022). Scopus 1900–2020: Growth in articles, abstracts, countries, fields, and
+   journals. Quantitative Science Studies, 3(1), 37–50. https://doi.org/10.1162/qss_a_00177
+
+    ↩
+   Thompson, A. (2018, October 17). What’s in a half a degree? 2 very different future climates. Scientific
+   American. https://www.scientificamerican.com/article/whats-in-a-half-a-degree-2-very-different-future-
+   climates/
+
+    ↩
+   Thompson, A., & Montañez, A. (2022, February). Generational climate change. Scientific American, 326(2),
+   76.
+
+    ↩
+   Unwin, A. (2020). Why is data visualization important? What is important in data visualization? Harvard
+   Data Science Review, 2(1). https://doi.org/10.1162/99608f92.8ae4d525
+
+    ↩
+   Vasileiou, K., Barnett, J., Thorpe, S., & Young, T. (2018). Characterising and justifying sample size
+   sufficiency in interview-based studies: Systematic analysis of qualitative health research over a 15-year
+   period. BMC Medical Research Methodology, 18(1), Article 148. https://doi.org/10.1186/s12874-018-0594-7
+
+    ↩
+
+
+
+                                                         49
+Harvard Data Science Review • Issue 6.2, Spring 2024            Data Journeys in Popular Science: Producing Climate Change and
+                                                                            COVID-19 Data Visualizations at Scienti c American
+
+
+
+   Weber, W., Engebretsen, M., & Kennedy, H. (2018). Data stories: Rethinking journalistic storytelling in the
+   context of data journalism. Studies in Communication Sciences, 2018(1), 191–206.
+   https://doi.org/10.24434/j.scoms.2018.01.013
+
+    ↩
+   Yoon, A. (2017). Role of communication in data reuse. Proceedings of the Association for Information
+   Science and Technology, 54(1), 463–471. https://doi.org/10.1002/pra2.2017.14505401050
+
+    ↩
+   Zamith, R. (2019). Transparency, interactivity, diversity, and information provenance in everyday data
+   journalism. Digital Journalism, 7(4), 470–489. https://doi.org/10.1080/21670811.2018.1554409
+
+    ↩
+   Zhang, Y., Sun, Y., Padilla, L., Barua, S., Bertini, E., & Parker, A. G. (2021). Mapping the landscape of
+   COVID-19 crisis visualizations. In Y. Kitamura & A. Quigley (Eds.), CHI ’21: Proceedings of the 2021 CHI
+   Conference on Human Factors in Computing Systems (Article 608, pp. 1–23). ACM.
+   https://doi.org/10.1145/3411764.3445381
+
+    ↩
+   Zheng, C., & Ma, X. (2022). Evaluating the effect of enhanced text-visualization integration on combating
+   misinformation in data story. In 2022 IEEE 15th Pacific Visualization Symposium (PacificVis) (pp. 141–
+   150). IEEE. https://doi.org/10.1109/PacificVis53943.2022.00023
+
+    ↩
+   Zuiderwijk, A., Janssen, M., & Dwivedi, Y. K. (2015). Acceptance and use predictors of open data
+   technologies: Drawing upon the unified theory of acceptance and use of technology. Government
+   Information Quarterly, 32(4), 429–440. https://doi.org/10.1016/j.giq.2015.09.005
+
+    ↩
+
+
+
+
+                                                        50
+
