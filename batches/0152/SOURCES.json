@@ -1,0 +1,1237 @@
+{
+  "batch": "0152",
+  "scope": "Two full PMLR article text extractions under publisher CC BY4 publication policy, plus 44 complete supplementary source/doc files from eight existing repositories; attribution and closer licenses retained, images/media excluded from article extracts.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 48,
+  "files": [
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/services/cache.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/services/cache.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/services/cache.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 2914,
+      "sha256": "3c67a17af6e070bb519bac3ab1a37d758b9f8f6464d527d19f21c73594fd802e",
+      "git_blob_sha1": "b48640ef97421115a7ea39f29317f1454679855e"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/modify_audio.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/modify_audio.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/modify_audio.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 1438,
+      "sha256": "233bb65f112bcc8eaa8add54f402ba8a90bb47fa90190b81d739b568a9b5c558",
+      "git_blob_sha1": "c4ab65d29452f38f31ed6559f479897b1edb426c"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/services/base.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/services/base.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/services/base.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 11685,
+      "sha256": "6877c6e47f2c0b05728307bd09350416c940f0e08400df064a7fc3a907715c8e",
+      "git_blob_sha1": "decb0f5c645ce169939bed9f2be063a216b8d828"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/tracker.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/tracker.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/tracker.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 6341,
+      "sha256": "42367f5df1609b882a81c299529d1586e70a2b38460c26f53596e27c265febbb",
+      "git_blob_sha1": "b2a7fd55c779c4cc58127873c9dee88f7b629d8f"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/voiceover_scene.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/voiceover_scene.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/voiceover_scene.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 8964,
+      "sha256": "bf78354ff36b9c2a47d4b9522a17934eff70802bfbff1ed1accd6733d28b7c86",
+      "git_blob_sha1": "0303e71a898bebb688fa08dd08890602455ed0b9"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/helper.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/helper.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/helper.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 6303,
+      "sha256": "22ba5b5c17ca28d6d5324d50bbb37ffe5df1b0f2f55088c77094ceb3ee37a34b",
+      "git_blob_sha1": "556e2d887f806a561fb178bfc34d08d5259a2608"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/src/manim_voiceover/services/azure.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "src/manim_voiceover/services/azure.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/src/manim_voiceover/services/azure.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 9895,
+      "sha256": "c3ae4465c89c0551c4a19fd2d9fd6e9aa23ea800fe9ccbcc77a426305fd692d9",
+      "git_blob_sha1": "401144bd2691231bef42897d097b81e4e8594395"
+    },
+    {
+      "file": "upstream/ManimCommunity__manim-voiceover/examples/bookmark-example.py",
+      "repository": "ManimCommunity/manim-voiceover",
+      "upstream_path": "examples/bookmark-example.py",
+      "upstream_commit": "3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a",
+      "source_url": "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/examples/bookmark-example.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-d6831052ee06"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/ManimCommunity__manim-voiceover/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/ManimCommunity/manim-voiceover/blob/3dc0d95d2f1d9d0937872b3dd68c7b38c4dfc96a/LICENSE"
+      ],
+      "size_bytes": 4690,
+      "sha256": "c0f3a930bc088345c91958f31f1d6c10f6fa44d82d655cbff3814ec4347d4529",
+      "git_blob_sha1": "cd944a344098b6ee8dd651c05e4d6753bee5bec8"
+    },
+    {
+      "file": "upstream/HumanSignal__label-studio/docs/source/includes/annotation_ids.md",
+      "repository": "HumanSignal/label-studio",
+      "upstream_path": "docs/source/includes/annotation_ids.md",
+      "upstream_commit": "284a2e72f200e89a6269f2bdf047b8f64a3f17ad",
+      "source_url": "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/docs/source/includes/annotation_ids.md",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-641388482fa0"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/HumanSignal__label-studio/LICENSE",
+        "upstream/HumanSignal__label-studio/NOTICE",
+        "upstream/HumanSignal__label-studio/web/libs/editor/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/LICENSE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/NOTICE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/web/libs/editor/LICENSE"
+      ],
+      "size_bytes": 741,
+      "sha256": "1cd4f8786494a117d75e4f58930711f463549326d05f31969a598b2be576cb06",
+      "git_blob_sha1": "d824822040c3e3397daef801a1e6a92c1c440263"
+    },
+    {
+      "file": "upstream/HumanSignal__label-studio/docs/source/guide/export.md",
+      "repository": "HumanSignal/label-studio",
+      "upstream_path": "docs/source/guide/export.md",
+      "upstream_commit": "284a2e72f200e89a6269f2bdf047b8f64a3f17ad",
+      "source_url": "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/docs/source/guide/export.md",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-641388482fa0"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/HumanSignal__label-studio/LICENSE",
+        "upstream/HumanSignal__label-studio/NOTICE",
+        "upstream/HumanSignal__label-studio/web/libs/editor/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/LICENSE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/NOTICE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/web/libs/editor/LICENSE"
+      ],
+      "size_bytes": 18622,
+      "sha256": "bf8ea4dc039c46e8c3c1940a9dafb5946393c4597e1b61141b6ec1d0c49d2745",
+      "git_blob_sha1": "5af73711ff2dc58009e022deb738a9108828b585"
+    },
+    {
+      "file": "upstream/HumanSignal__label-studio/docs/source/templates/video_object_detector.md",
+      "repository": "HumanSignal/label-studio",
+      "upstream_path": "docs/source/templates/video_object_detector.md",
+      "upstream_commit": "284a2e72f200e89a6269f2bdf047b8f64a3f17ad",
+      "source_url": "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/docs/source/templates/video_object_detector.md",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-641388482fa0"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/HumanSignal__label-studio/LICENSE",
+        "upstream/HumanSignal__label-studio/NOTICE",
+        "upstream/HumanSignal__label-studio/web/libs/editor/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/LICENSE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/NOTICE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/web/libs/editor/LICENSE"
+      ],
+      "size_bytes": 20959,
+      "sha256": "7841467cfc8abf9c57c2176e6ce11b780fe7c68cbf102fbe9dc14d9b55b1e852",
+      "git_blob_sha1": "7f20dc82cf92d953ea1c2cd3787432d8b01e0bc1"
+    },
+    {
+      "file": "upstream/HumanSignal__label-studio/web/libs/editor/src/regions/VideoRegion.js",
+      "repository": "HumanSignal/label-studio",
+      "upstream_path": "web/libs/editor/src/regions/VideoRegion.js",
+      "upstream_commit": "284a2e72f200e89a6269f2bdf047b8f64a3f17ad",
+      "source_url": "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/web/libs/editor/src/regions/VideoRegion.js",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-641388482fa0"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/HumanSignal__label-studio/LICENSE",
+        "upstream/HumanSignal__label-studio/NOTICE",
+        "upstream/HumanSignal__label-studio/web/libs/editor/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/LICENSE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/NOTICE",
+        "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/web/libs/editor/LICENSE"
+      ],
+      "size_bytes": 4766,
+      "sha256": "79bb99b8c0ed2be0f7db3e470af99e75811c92d78fc09ba29b75f95e74ef9861",
+      "git_blob_sha1": "1ddd925c295585c732c6ed7404c63a429190fd02"
+    },
+    {
+      "file": "upstream/voxel51__fiftyone/fiftyone/core/labels.py",
+      "repository": "voxel51/fiftyone",
+      "upstream_path": "fiftyone/core/labels.py",
+      "upstream_commit": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "source_url": "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/fiftyone/core/labels.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-57127ff1936d"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/voxel51__fiftyone/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/LICENSE"
+      ],
+      "size_bytes": 67080,
+      "sha256": "d88a280a48d5ceac5f641e035d0b45340b0fb394ed3eee0fe1aedb670245b08a",
+      "git_blob_sha1": "7ca0c216d3b40b371b4f30ad96e008c4a5ecb14a"
+    },
+    {
+      "file": "upstream/voxel51__fiftyone/docs/source/user_guide/using_datasets.rst",
+      "repository": "voxel51/fiftyone",
+      "upstream_path": "docs/source/user_guide/using_datasets.rst",
+      "upstream_commit": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "source_url": "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/docs/source/user_guide/using_datasets.rst",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-57127ff1936d"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/voxel51__fiftyone/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/LICENSE"
+      ],
+      "size_bytes": 235153,
+      "sha256": "c210e014e08027c51ed406fdac508f31e44abb4de4d7bab6b2cc2db7ff19431a",
+      "git_blob_sha1": "fd35cd43e58166f9ec7c4653196de259ae3be609"
+    },
+    {
+      "file": "upstream/voxel51__fiftyone/fiftyone/core/sample.py",
+      "repository": "voxel51/fiftyone",
+      "upstream_path": "fiftyone/core/sample.py",
+      "upstream_commit": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "source_url": "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/fiftyone/core/sample.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-57127ff1936d"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/voxel51__fiftyone/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/LICENSE"
+      ],
+      "size_bytes": 35734,
+      "sha256": "eac0ad2099ab82742e14039996505deffa1c5181d41763a2eb759f72458fc129",
+      "git_blob_sha1": "4ba7767cae1aba49776f2927b80301359f32e031"
+    },
+    {
+      "file": "upstream/vega__vega-lite/src/compile/data/aggregate.ts",
+      "repository": "vega/vega-lite",
+      "upstream_path": "src/compile/data/aggregate.ts",
+      "upstream_commit": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "source_url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/src/compile/data/aggregate.ts",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-8dd2f3ec4307"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE"
+      ],
+      "size_bytes": 8951,
+      "sha256": "dc8a97c12eefd688bd8662ccd7d4ddb8de2b336020e0fc1cc1de43f552f264bf",
+      "git_blob_sha1": "dbdc8732fc0af196e788e39b22be3b3a5e197d36"
+    },
+    {
+      "file": "upstream/vega__vega-lite/site/docs/encoding/type.md",
+      "repository": "vega/vega-lite",
+      "upstream_path": "site/docs/encoding/type.md",
+      "upstream_commit": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "source_url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/site/docs/encoding/type.md",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-8dd2f3ec4307"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE"
+      ],
+      "size_bytes": 3665,
+      "sha256": "37f21b8f02e5f958ca1d8ea0a0a69d48c5526c31ce7a2eb0758f26a7ea216cba",
+      "git_blob_sha1": "c830169e73132289ce497d063c75f0b4ad7a4df1"
+    },
+    {
+      "file": "upstream/vega__vega-lite/site/docs/encoding/field.md",
+      "repository": "vega/vega-lite",
+      "upstream_path": "site/docs/encoding/field.md",
+      "upstream_commit": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "source_url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/site/docs/encoding/field.md",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-8dd2f3ec4307"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE"
+      ],
+      "size_bytes": 1834,
+      "sha256": "def81588125ce053de9744be213abc45c31abcf86f9f7ff2ee4976aa50594384",
+      "git_blob_sha1": "9ab5663698722a8c00a886e241552d4a20cf5718"
+    },
+    {
+      "file": "upstream/vega__vega-lite/src/normalize/index.ts",
+      "repository": "vega/vega-lite",
+      "upstream_path": "src/normalize/index.ts",
+      "upstream_commit": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "source_url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/src/normalize/index.ts",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-8dd2f3ec4307"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE"
+      ],
+      "size_bytes": 4070,
+      "sha256": "19312745f18d5515c4dfadff7ac3c221a4e2ad2c6ce1d62def5510600e97afa0",
+      "git_blob_sha1": "3a7fff3712240a0fea0a13a5fb7a9ee1fc12979b"
+    },
+    {
+      "file": "upstream/vega__vega-lite/src/compile/compile.ts",
+      "repository": "vega/vega-lite",
+      "upstream_path": "src/compile/compile.ts",
+      "upstream_commit": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "source_url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/src/compile/compile.ts",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-8dd2f3ec4307"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE"
+      ],
+      "size_bytes": 8436,
+      "sha256": "112939b7f1c1f6a6264a7cdddb0df08318ef5ffe0a88d05d8121db2cb007ee0a",
+      "git_blob_sha1": "fcbd3c0864d17e3b4c0570a8a371a74a6e72e775"
+    },
+    {
+      "file": "upstream/vega__vega-lite/src/compile/buildmodel.ts",
+      "repository": "vega/vega-lite",
+      "upstream_path": "src/compile/buildmodel.ts",
+      "upstream_commit": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "source_url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/src/compile/buildmodel.ts",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-8dd2f3ec4307"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified implementation/documentation file from original research fixed revision. Root and applicable closer licenses, original copyright and notices retained. Linked media, assets, datasets, service credentials and dependencies not included. Partial repository selection, not runnable project; no instructions/code executed.",
+      "retained_license_and_notice_files": [
+        "upstream/vega__vega-lite/LICENSE"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE"
+      ],
+      "size_bytes": 1080,
+      "sha256": "07b2f9a86c754f5d26912abbe1c19515ec4e85e18097568897faedda26ce446c",
+      "git_blob_sha1": "38263ed09519a49d4432b72a213e52ce628381cd"
+    },
+    {
+      "file": "upstream/HumanSignal__label-studio/web/libs/editor/LICENSE",
+      "repository": "HumanSignal/label-studio",
+      "upstream_path": "web/libs/editor/LICENSE",
+      "upstream_commit": "284a2e72f200e89a6269f2bdf047b8f64a3f17ad",
+      "source_url": "https://github.com/HumanSignal/label-studio/blob/284a2e72f200e89a6269f2bdf047b8f64a3f17ad/web/libs/editor/LICENSE",
+      "role": "license_notice",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-641388482fa0"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "license_support",
+      "size_bytes": 11341,
+      "sha256": "a521e1bc8db64bb04100212882b4867034a5abc3a12587b44a777494978a7d2e",
+      "git_blob_sha1": "d11fac77a1bc0d35fe768d6dc2fc4551eb718617"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/__init__.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/__init__.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/__init__.py",
+      "title": "BerriAI/litellm / litellm/__init__.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 107620,
+      "sha256": "e6867fa4ae389edb015be1508b2c64c8d0c04a066af6b10330d6f27e94f01e9f",
+      "git_blob_sha1": "c0141f43611ced798eda6cf289ca0708ca678749"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/litellm_core_utils/core_helpers.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/litellm_core_utils/core_helpers.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/litellm_core_utils/core_helpers.py",
+      "title": "BerriAI/litellm / litellm/litellm_core_utils/core_helpers.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 40838,
+      "sha256": "16636fd1e0589ea09ed156ce82b397936f1531dddffe5925aa7d10c48b2d6451",
+      "git_blob_sha1": "00c6ce97e78effe478ccdf80f1dff6b76b61e6ca"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/litellm_core_utils/json_validation_rule.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/litellm_core_utils/json_validation_rule.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/litellm_core_utils/json_validation_rule.py",
+      "title": "BerriAI/litellm / litellm/litellm_core_utils/json_validation_rule.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 4200,
+      "sha256": "d5e0c78f8b9020fcc98ea1df44d3d4d65c2f452e8b0804e180350195be7021e1",
+      "git_blob_sha1": "b6b16aff7a7bcbf2f7397ed0a1fa3f741b58d11e"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/llms/anthropic/chat/handler.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/llms/anthropic/chat/handler.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/llms/anthropic/chat/handler.py",
+      "title": "BerriAI/litellm / litellm/llms/anthropic/chat/handler.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 68129,
+      "sha256": "e1bcc17b331a0f144ab4fec4dff14896e377721616c406a8f39346d3bdb3ba3f",
+      "git_blob_sha1": "13ceea3e31b76ebde31410d77a1837e35f39a3de"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/llms/anthropic/chat/transformation.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/llms/anthropic/chat/transformation.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/llms/anthropic/chat/transformation.py",
+      "title": "BerriAI/litellm / litellm/llms/anthropic/chat/transformation.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 145769,
+      "sha256": "8488e05dd043e83434e6b1fe41ffeb0c7fa4196b0d95e990256c15e92dbf4d80",
+      "git_blob_sha1": "92e7c84031c0ccdc584753d65a89f1d181fa8b96"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/main.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/main.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/main.py",
+      "title": "BerriAI/litellm / litellm/main.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 373700,
+      "sha256": "76653466c858c2815cb756eb85065b927023f47ec2afa36c93078401d15f65ab",
+      "git_blob_sha1": "f30d93361e540940fa132faa26b6f267a468624b"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/litellm/utils.py",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "litellm/utils.py",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/litellm/utils.py",
+      "title": "BerriAI/litellm / litellm/utils.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources. LiteLLM enterprise directory excluded; selected paths are outside that directory and governed by MIT.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/BerriAI/litellm/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e"
+      ],
+      "size_bytes": 480025,
+      "sha256": "214fc8ab7289bebfa407caca969c2665fa6719a784d0baa665c3b8430f9cd90c",
+      "git_blob_sha1": "e2820f9c68253e48613e296f60b840df79a6ff91"
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/llms/base.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/llms/base.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/llms/base.py",
+      "title": "vibrantlabsai/ragas / src/ragas/llms/base.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-1ea1685ac7b2"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/vibrantlabsai/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ],
+      "size_bytes": 45505,
+      "sha256": "83642636cb399bba6916bc0e79fef8803b9127def00e0278813872540dc876b5",
+      "git_blob_sha1": "825660ec5973a6d65709e311eb394a612b92e4a5"
+    },
+    {
+      "file": "upstream/vibrantlabsai__ragas/src/ragas/metrics/base.py",
+      "repository": "vibrantlabsai/ragas",
+      "upstream_path": "src/ragas/metrics/base.py",
+      "upstream_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+      "source_url": "https://github.com/vibrantlabsai/ragas/blob/298b68274234c060deacab3cf5fb52aa3a20e885/src/ragas/metrics/base.py",
+      "title": "vibrantlabsai/ragas / src/ragas/metrics/base.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-1ea1685ac7b2"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/vibrantlabsai/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/vibrantlabsai__ragas/LICENSE"
+      ],
+      "size_bytes": 51892,
+      "sha256": "d31061944d727d4aeac057661111afeca38e07e1418edd0c6cb08905fb813bf6",
+      "git_blob_sha1": "ada9bcfd3cedde34dc550d8293d066a925e49664"
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/libs/checkpoint/langgraph/checkpoint/base/__init__.py",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "libs/checkpoint/langgraph/checkpoint/base/__init__.py",
+      "upstream_commit": "a25bfafe4858d2a85bede09ba83f9a591d1f1133",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/checkpoint/langgraph/checkpoint/base/__init__.py",
+      "title": "langchain-ai/langgraph / libs/checkpoint/langgraph/checkpoint/base/__init__.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-642743ad9061"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/LICENSE",
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/checkpoint/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE",
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ],
+      "size_bytes": 32051,
+      "sha256": "e1b412fb541b47cf9ab0657f5c160c955c71ce929d8ac786f0bcc94d356481e9",
+      "git_blob_sha1": "c7cacc7bfd703f298427e870bd6d07b4aa395812"
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/libs/langgraph/langgraph/graph/state.py",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "libs/langgraph/langgraph/graph/state.py",
+      "upstream_commit": "a25bfafe4858d2a85bede09ba83f9a591d1f1133",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/langgraph/graph/state.py",
+      "title": "langchain-ai/langgraph / libs/langgraph/langgraph/graph/state.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-642743ad9061"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/LICENSE",
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE",
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ],
+      "size_bytes": 76310,
+      "sha256": "d8c8021a93a8fc895d62335a9482e50d51353343bf885901e6487611dcd0d212",
+      "git_blob_sha1": "9a87f16fa91a794b2e9be09352c1cb03ae89a90d"
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/libs/langgraph/langgraph/pregel/_algo.py",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "libs/langgraph/langgraph/pregel/_algo.py",
+      "upstream_commit": "a25bfafe4858d2a85bede09ba83f9a591d1f1133",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/langgraph/pregel/_algo.py",
+      "title": "langchain-ai/langgraph / libs/langgraph/langgraph/pregel/_algo.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-642743ad9061"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/LICENSE",
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE",
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ],
+      "size_bytes": 52094,
+      "sha256": "39a8eab7c318ca866b8b394447063444403ea668df6fd173af21bfcb5270e976",
+      "git_blob_sha1": "2cb244958b43e36949bb4ec349544c9b3adb8f5e"
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/libs/langgraph/langgraph/pregel/_loop.py",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "libs/langgraph/langgraph/pregel/_loop.py",
+      "upstream_commit": "a25bfafe4858d2a85bede09ba83f9a591d1f1133",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/langgraph/pregel/_loop.py",
+      "title": "langchain-ai/langgraph / libs/langgraph/langgraph/pregel/_loop.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-642743ad9061"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/LICENSE",
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE",
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ],
+      "size_bytes": 91418,
+      "sha256": "cc51e52a6624aa064ac1688e4a55326012d11b615d9810d4b5c1f19bf5f579e0",
+      "git_blob_sha1": "4f3d21538f25c8e87ab4ef0c4c233ecd74f4974e"
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/libs/langgraph/langgraph/pregel/_runner.py",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "libs/langgraph/langgraph/pregel/_runner.py",
+      "upstream_commit": "a25bfafe4858d2a85bede09ba83f9a591d1f1133",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/langgraph/pregel/_runner.py",
+      "title": "langchain-ai/langgraph / libs/langgraph/langgraph/pregel/_runner.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-642743ad9061"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/LICENSE",
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE",
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ],
+      "size_bytes": 37363,
+      "sha256": "dc835c835cbd2c783ff1df3ca46343ecab9b4a7f534ed0083be8d0664d21816e",
+      "git_blob_sha1": "6799d86bdaa1f697c9464304a75001088a83de13"
+    },
+    {
+      "file": "upstream/langchain-ai__langgraph/libs/langgraph/langgraph/types.py",
+      "repository": "langchain-ai/langgraph",
+      "upstream_path": "libs/langgraph/langgraph/types.py",
+      "upstream_commit": "a25bfafe4858d2a85bede09ba83f9a591d1f1133",
+      "source_url": "https://github.com/langchain-ai/langgraph/blob/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/langgraph/types.py",
+      "title": "langchain-ai/langgraph / libs/langgraph/langgraph/types.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-642743ad9061"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/LICENSE",
+        "https://raw.githubusercontent.com/langchain-ai/langgraph/a25bfafe4858d2a85bede09ba83f9a591d1f1133/libs/langgraph/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langgraph/LICENSE",
+        "upstream/langchain-ai__langgraph/LICENSE"
+      ],
+      "size_bytes": 37830,
+      "sha256": "062583a1c0af9833477935a9a78d336408cc9a33c425722a1191e000d032107a",
+      "git_blob_sha1": "8fba752a1d20d98721d2afcdfff8ee92dfa4c84b"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/indices/vector_store/retrievers/retriever.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/indices/vector_store/retrievers/retriever.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/indices/vector_store/retrievers/retriever.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/indices/vector_store/retrievers/retriever.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 10839,
+      "sha256": "0f22a10a5d5dfee82afc526e3950cc877632e3c1e62b02dfadc7a616ac5fc746",
+      "git_blob_sha1": "31900ac2eb161f08a80702d2f6725d868a3ae68b"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/prompts/default_prompts.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/prompts/default_prompts.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/prompts/default_prompts.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/prompts/default_prompts.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 21392,
+      "sha256": "3797c4258e77a2af55f97412206a977c2cfc44b856249654f10f63a832491678",
+      "git_blob_sha1": "6dd7f1771b667ac890b186cb406de31e71bcbd03"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/query_engine/retriever_query_engine.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/query_engine/retriever_query_engine.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/query_engine/retriever_query_engine.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/query_engine/retriever_query_engine.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 9634,
+      "sha256": "136c2476ce49d6647324cdd4b9633e293a41268d14966150691c710678a31c40",
+      "git_blob_sha1": "907d391048d1d636b24ceb3c1dc0feee5e6682ed"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/response_synthesizers/base.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/response_synthesizers/base.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/response_synthesizers/base.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/response_synthesizers/base.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 12722,
+      "sha256": "5fb39a634acc1bcab884ace42754478abc6fcf427d89caa89622716c48015103",
+      "git_blob_sha1": "0974bdbbfcdf39dac15ae7de8f8b49f7288554c8"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/response_synthesizers/simple_summarize.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/response_synthesizers/simple_summarize.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/response_synthesizers/simple_summarize.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/response_synthesizers/simple_summarize.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 7066,
+      "sha256": "541cbff5072c97a60be5e6cf5f4ddba87bc5661ece1715ff3212685cd0b3b927",
+      "git_blob_sha1": "0cbcf3090b49b5c0b005c2739491b8a444a77729"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/schema.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/schema.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/schema.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/schema.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 49245,
+      "sha256": "690c751ff2e8372150b4cb7dc921221ed0ce57bbf44a31a3053f3dc14c9c56a4",
+      "git_blob_sha1": "57da5a2b0e5f287aa1d6d51375ecafddda4ae9c6"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/vector_stores/simple.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/vector_stores/simple.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/vector_stores/simple.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/vector_stores/simple.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 12096,
+      "sha256": "a5d84b7b8e37de20b20b21028c02d3da5abfe12327ee05e2ea2a113bc3837a84",
+      "git_blob_sha1": "fffd8a7bd2e24957c34e93c4fb9698c8fdf36916"
+    },
+    {
+      "file": "upstream/run-llama__llama_index/llama-index-core/llama_index/core/vector_stores/utils.py",
+      "repository": "run-llama/llama_index",
+      "upstream_path": "llama-index-core/llama_index/core/vector_stores/utils.py",
+      "upstream_commit": "619d74664e8404612038bc15a1a40c686037277c",
+      "source_url": "https://github.com/run-llama/llama_index/blob/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/llama_index/core/vector_stores/utils.py",
+      "title": "run-llama/llama_index / llama-index-core/llama_index/core/vector_stores/utils.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-e7f1aab302e1"
+      ],
+      "conditions": "Complete unmodified official source file at previously researched fixed commit. Original root and applicable ancestor licenses and copyright retained. No embedded third-party exclusion found in selected file; linked/imported libraries, datasets, media and binaries not included or relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/LICENSE",
+        "https://raw.githubusercontent.com/run-llama/llama_index/619d74664e8404612038bc15a1a40c686037277c/llama-index-core/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/run-llama__llama_index/LICENSE",
+        "upstream/run-llama__llama_index/LICENSE"
+      ],
+      "size_bytes": 9250,
+      "sha256": "14d4d82f135a56f168089a3e4ee1397618a148c478ff5271d76241468e09c888",
+      "git_blob_sha1": "707df32d39f7c637237a0dd5feffdbcaa5756b4c"
+    },
+    {
+      "file": "upstream/BerriAI__litellm/licenses/LICENSE-dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "repository": "BerriAI/litellm",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "dddbaa803d6e9fcc862ea7a5412f771cb1ae040e",
+      "source_url": "https://github.com/BerriAI/litellm/blob/dddbaa803d6e9fcc862ea7a5412f771cb1ae040e/LICENSE",
+      "role": "license_notice",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "license_support",
+      "related_public_source_ids": [
+        "IFH-dab892839df4"
+      ],
+      "retained_license_and_notice_files": [],
+      "size_bytes": 1419,
+      "sha256": "b170d6bf8e8835dd357e011681db028f4d51e2fb0ea892058f56e01fb39b8273",
+      "git_blob_sha1": "3bfef5bae9b48c334acf426d5b7f21bc1913aab9"
+    },
+    {
+      "file": "upstream/articles/datashapley.fulltext.txt",
+      "title": "Data Shapley: Equitable Valuation of Data for Machine Learning",
+      "authors": [
+        "Amirata Ghorbani",
+        "James Zou"
+      ],
+      "source_url": "https://proceedings.mlr.press/v97/ghorbani19c/ghorbani19c.pdf",
+      "canonical_url": "https://proceedings.mlr.press/v97/ghorbani19c.html",
+      "registry_source_id": "IFH-0a892436d395",
+      "related_public_source_ids": [
+        "IFH-0a892436d395"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://proceedings.mlr.press/pmlr-license-agreement.html",
+      "license_evidence": "PMLR publisher publication agreement paragraph2 grants the article to general public under CC BY4; paragraph3 requires citation and hyperlink to original PMLR paper. Downloaded PDFs identify respective PMLR volume97/2019 and202/2023 and author copyright. This is publisher-policy-based applicability; no separate individual signed author agreement was accessed. No contrary paper license noticed. Publisher FAQ requires signed author permission forms before proceedings are supplied. Applicability is based on this mandatory publication policy and official published-version identity, not on access to individual signed forms.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 55201,
+      "sha256": "f2c9ff61a88ea6a37e89ad0fdf7dc8e491e952c09a2ce7990e85ab18f71ce462",
+      "upstream_pdf_sha256": "48979f27f610c834ffda28ab48194c1af13c453d32add965fc817bba1e9b4407",
+      "conditions": "Full publisher-PDF text with source citation/link/license retained; all images and external datasets/media omitted. Publisher policy evidence, not an article-specific CC footer.",
+      "repository": "web/proceedings.mlr.press",
+      "upstream_path": "v97/ghorbani19c/ghorbani19c.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://proceedings.mlr.press/pmlr-license-agreement.html",
+        "https://proceedings.mlr.press/faq.html",
+        "https://proceedings.mlr.press/v97/ghorbani19c.html"
+      ],
+      "git_blob_sha1": "fbd11dc3b92b7bfdba02916a214d49a54b9485b5"
+    },
+    {
+      "file": "upstream/articles/trak.fulltext.txt",
+      "title": "TRAK: Attributing Model Behavior at Scale",
+      "authors": [
+        "Sung Min Park",
+        "Kristian Georgiev",
+        "Andrew Ilyas",
+        "Guillaume Leclerc",
+        "Aleksander Madry"
+      ],
+      "source_url": "https://proceedings.mlr.press/v202/park23c/park23c.pdf",
+      "canonical_url": "https://proceedings.mlr.press/v202/park23c.html",
+      "registry_source_id": "IFH-09b864687d2e",
+      "related_public_source_ids": [
+        "IFH-09b864687d2e"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://proceedings.mlr.press/pmlr-license-agreement.html",
+      "license_evidence": "PMLR publisher publication agreement paragraph2 grants the article to general public under CC BY4; paragraph3 requires citation and hyperlink to original PMLR paper. Downloaded PDFs identify respective PMLR volume97/2019 and202/2023 and author copyright. This is publisher-policy-based applicability; no separate individual signed author agreement was accessed. No contrary paper license noticed. Publisher FAQ requires signed author permission forms before proceedings are supplied. Applicability is based on this mandatory publication policy and official published-version identity, not on access to individual signed forms.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 201002,
+      "sha256": "595e067651d8e3079134c6378255523ea26e38929979dd38c71305b830c14239",
+      "upstream_pdf_sha256": "9a3aa5c2b83511ddac253b2368daf808590e9c8714089a51be5cf4bfe069b96e",
+      "conditions": "Full publisher-PDF text with source citation/link/license retained; all images and external datasets/media omitted. Publisher policy evidence, not an article-specific CC footer.",
+      "repository": "web/proceedings.mlr.press",
+      "upstream_path": "v202/park23c/park23c.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://proceedings.mlr.press/pmlr-license-agreement.html",
+        "https://proceedings.mlr.press/faq.html",
+        "https://proceedings.mlr.press/v202/park23c.html"
+      ],
+      "git_blob_sha1": "731bbf850c01b65a75fb2db7ccf7a8ac95adeece"
+    }
+  ]
+}
