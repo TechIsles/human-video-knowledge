@@ -1,0 +1,38 @@
+{
+  "batch": "0154",
+  "scope": "One new original-directory paper: complete official PNAS main-article JATS XML under explicit CC BY4. External image files and separate supplementary material are not included. No README or code supplement added.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/articles/cross-prediction-powered-inference.fulltext.xml",
+      "title": "Cross-prediction-powered inference",
+      "authors": [
+        "Tijana Zrnic",
+        "Emmanuel J. Candès"
+      ],
+      "repository": "web/europepmc.org",
+      "upstream_path": "PMC11009639/fullTextXML",
+      "upstream_commit": "retrieved-20261118",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11009639/fullTextXML",
+      "canonical_url": "https://doi.org/10.1073/pnas.2322083121",
+      "registry_source_id": "IFH-af244872d72b",
+      "related_public_source_ids": [
+        "IFH-af244872d72b"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11009639/fullTextXML"
+      ],
+      "license_evidence": "Original article XML permissions identifies Copyright2024 authors and explicitly Creative Commons Attribution4.0. Published PNAS version, not arXiv nonexclusive preprint.",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_full_article_xml",
+      "conditions": "Original complete main-article JATS XML with text, MathML equations, citations, figure captions, attribution and license. External image files and separate supplementary PDF, datasets and software are not bundled; not a complete visual PDF or supplementary-material archive.",
+      "sha256": "97d7cbcbe3e09a51cffa877a26e050d97fe2da32447761075f3edc7326bcc541",
+      "size_bytes": 316802,
+      "git_blob_sha1": "b3063067783dc6462756336a06fab0fb693ec2a8"
+    }
+  ]
+}
