@@ -1,0 +1,62 @@
+{
+  "batch": "0156",
+  "scope": "One complete unmodified107-page ERIC research-report PDF plus archive-added attribution/evidence notice. Rights based on explicit original not-copyrighted declaration, not CC or assumed government authorship. External films not included.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "title": "Learner Response, Feedback, and Review in Film Presentation. Final Report.",
+      "source_url": "https://files.eric.ed.gov/fulltext/ED019882.pdf",
+      "canonical_url": "https://eric.ed.gov/?id=ED019882",
+      "license": "LicenseRef-ERIC-NotCopyrighted",
+      "rights_evidence_page": 106,
+      "date": "1968-03-20",
+      "sha256": "fec261525becad8476f76622fffa81cf59b487e5078c55628907b57832b92835",
+      "size_bytes": 2739359,
+      "page_count": 107,
+      "coverage_kind": "canonical_full_document",
+      "role": "original_research_report",
+      "original_bytes_unchanged": true,
+      "conditions": "Complete original ERIC PDF, 107 scan pages including report, appendices, ERIC report resume and mailing page (catalog describes 103 pages). Page 106 explicitly marks document NOT COPYRIGHTED and ERIC reproduction release YES; not a CC license and not assumed US Government authorship. Retain entire declaration page and source attribution. External experimental films are not included/licensed by this distribution. No third-party copyright exception or identifiable pupil records found; name/school/ID forms are blank. Original scan quality retained.",
+      "file": "upstream/articles/ED019882.pdf",
+      "authors": [
+        "William H. Allen",
+        "Royd Weintraub",
+        "Stuart M. Cooney"
+      ],
+      "registry_source_id": "IFH-b264fbff5596",
+      "repository": "web/files.eric.ed.gov",
+      "upstream_path": "fulltext/ED019882.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "related_public_source_ids": [
+        "IFH-b264fbff5596"
+      ],
+      "license_evidence_urls": [
+        "https://files.eric.ed.gov/fulltext/ED019882.pdf#page=106"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/articles/ED019882_RIGHTS.txt"
+      ],
+      "git_blob_sha1": "e171df2d4533258b6a2b6bd18eed968f36658fb0"
+    },
+    {
+      "file": "upstream/articles/ED019882_RIGHTS.txt",
+      "title": "Archive-added rights and attribution record for ED019882",
+      "repository": "archive-generated",
+      "upstream_path": "ED019882_RIGHTS.txt",
+      "upstream_commit": "created-20261118",
+      "source_url": "https://files.eric.ed.gov/fulltext/ED019882.pdf",
+      "role": "license_notice",
+      "license": "LicenseRef-ERIC-NotCopyrighted",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "archive_added_rights_notice",
+      "related_public_source_ids": [
+        "IFH-b264fbff5596"
+      ],
+      "conditions": "Archive-created evidence summary; not an original publisher notice or a new license grant. Original declaration remains in unmodifiedPDF page106.",
+      "size_bytes": 942,
+      "sha256": "c1b12834bc2d73a80d3535e211e3158958e0058353d6e6fad6dd3c167eb7dcff",
+      "git_blob_sha1": "8379c8a3e683acd6be8b2680d516ae0cc585c78a"
+    }
+  ]
+}
