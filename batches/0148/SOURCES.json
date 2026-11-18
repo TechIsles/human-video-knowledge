@@ -1,0 +1,815 @@
+{
+  "batch": "0148",
+  "scope": "One new CC BY4 official original paper PDF plus 32 complete source-code/documentation supplements to six existing repositories; source count not inflated by implementation attachments.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 33,
+  "files": [
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/g_eval/schema.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/g_eval/schema.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/g_eval/schema.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 287,
+      "sha256": "57adbdb71b83aebff6204284b2025561865bfe991d7dc96d415f598efc4ae5ca",
+      "git_blob_sha1": "96610fc9f9a7730ecc51ca8e1e8a40d0aa4404c2"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/utils/generation.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/utils/generation.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/utils/generation.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 5706,
+      "sha256": "ea0deba84b5af17ccca29f426e3a969e863fff47c6fd6c9560b0ac768e013cc9",
+      "git_blob_sha1": "081fb8a6639ea73d25545f58337158475a688165"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/g_eval/g_eval.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/g_eval/g_eval.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/g_eval/g_eval.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 16575,
+      "sha256": "2ebbeb1e4b261db52e23eef361d19167b10cabea28b759b508f1be5cdbadf640",
+      "git_blob_sha1": "32697479617c166d4a5e9c6d389c24b72ba27c60"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/utils/test_case.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/utils/test_case.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/utils/test_case.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 13069,
+      "sha256": "8430bc1958255af743cb226afc53457579a01a5a06b4a00f6cf9c73df8e6836b",
+      "git_blob_sha1": "84afcb2b7a82d642f5127ac38a5667e115fb52ea"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/base_metric.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/base_metric.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/base_metric.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 12207,
+      "sha256": "b0533aa52abfd2d6172c6c592601044e88dc765372adbed1d090fbe0a9abd6cb",
+      "git_blob_sha1": "9cd59475c1c555bc23c9e4179a3ed68b5e4886c9"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/utils/decision.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/utils/decision.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/utils/decision.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 22019,
+      "sha256": "0ae323b0563be5e2fa2bb442e511fef34b98b6cc2d2c09aabfc130ac8b0dab07",
+      "git_blob_sha1": "20755e053742531f553a3567dfe2b2fcec1ec204"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/g_eval/templates/generate_evaluation_results.txt",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/g_eval/templates/generate_evaluation_results.txt",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/g_eval/templates/generate_evaluation_results.txt",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 1481,
+      "sha256": "04e9a77a6405019c44b0edc1c033dd82860c8373b60c0638c26a5b903b986281",
+      "git_blob_sha1": "7405739d4fa2277743453db02d3cab889ab55262"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/g_eval/utils.py",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/g_eval/utils.py",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/g_eval/utils.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 13363,
+      "sha256": "214b4232c8dd1a55195919beb83822975a49bfec43ef84d3502f27337ea6869f",
+      "git_blob_sha1": "19f32047f49f8bdbe90259b51ba8932615229154"
+    },
+    {
+      "file": "upstream/confident-ai__deepeval/deepeval/metrics/g_eval/templates/generate_evaluation_steps.txt",
+      "repository": "confident-ai/deepeval",
+      "upstream_path": "deepeval/metrics/g_eval/templates/generate_evaluation_steps.txt",
+      "upstream_commit": "5410e3822dda5f889d5f35de3325a3738004aeb1",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/deepeval/metrics/g_eval/templates/generate_evaluation_steps.txt",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-b2dde8d2b4d7"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/confident-ai/deepeval/blob/5410e3822dda5f889d5f35de3325a3738004aeb1/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/confident-ai__deepeval/LICENSE.md"
+      ],
+      "size_bytes": 544,
+      "sha256": "122b5ab0ea4bb085f4ff135b1ba27c3816d8b3e36623dfbac2134a7fdbc69377",
+      "git_blob_sha1": "5a06d92b1a37ba589f3265a6f7fc29a572819a5e"
+    },
+    {
+      "file": "upstream/huggingface__datasets/docs/source/about_cache.mdx",
+      "repository": "huggingface/datasets",
+      "upstream_path": "docs/source/about_cache.mdx",
+      "upstream_commit": "ef61228a5756dcebfff8ee245d89c72822fb6ae6",
+      "source_url": "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/docs/source/about_cache.mdx",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-014216b2538f"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ],
+      "size_bytes": 3479,
+      "sha256": "b80ee2076e32fc83c8afcf6a93cefef318ccadb26a515362bc31e67cbb85e9be",
+      "git_blob_sha1": "9e8a561b269176b278ea70100f875535c2627c8a"
+    },
+    {
+      "file": "upstream/huggingface__datasets/src/datasets/fingerprint.py",
+      "repository": "huggingface/datasets",
+      "upstream_path": "src/datasets/fingerprint.py",
+      "upstream_commit": "ef61228a5756dcebfff8ee245d89c72822fb6ae6",
+      "source_url": "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/src/datasets/fingerprint.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-014216b2538f"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE"
+      ],
+      "size_bytes": 21922,
+      "sha256": "867cc856cfa308228962a8ba2ef13c5163662cd389f7b6ef5b3eae0351002a22",
+      "git_blob_sha1": "13b801621bb5945c61c34f615e9dfa5ab70234ae"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/mapping_func.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/mapping_func.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/mapping_func.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 8959,
+      "sha256": "c80fc5702d6df00a6f84756f3fbfdc5d495342bc8027dd03d09b993112bde8d2",
+      "git_blob_sha1": "35d296868068e6f129a49e00aa61cea948d6fd84"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/tuners/tuners_utils.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/tuners/tuners_utils.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/tuners/tuners_utils.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 139834,
+      "sha256": "eb8127f90d9d17a5976a08872df43ed0f7bc38c395871371ff1616b9e63d4e2c",
+      "git_blob_sha1": "aea461364f175c10063123ca07911913d63ecf85"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/tuners/lora/layer.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/tuners/lora/layer.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/tuners/lora/layer.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 134035,
+      "sha256": "7f0952efd6df729e060055566cef17a3fff6876a3b4dc4a4502b8d9e31349ffa",
+      "git_blob_sha1": "8886d30b234f0477294f0514fb04a99292981efb"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/utils/constants.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/utils/constants.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/utils/constants.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 18571,
+      "sha256": "b840578c9626740ad01e84c31f713f85aecc0c696bdde29e4e3891f23db1e9f5",
+      "git_blob_sha1": "8241b72c23a25c43c8c24aa50d3db9a458fd13f8"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/utils/save_and_load.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/utils/save_and_load.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/utils/save_and_load.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 49965,
+      "sha256": "581ac0c08438cc51f1bb5fba5bf47e255128fae488b855b60790556632150c38",
+      "git_blob_sha1": "4ad0307bc111de0639fc61d8db967a44e871a942"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/tuners/lora/model.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/tuners/lora/model.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/tuners/lora/model.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 70431,
+      "sha256": "f96de9a473e88650428de62efd2bf169957897d127d271f0da25ffba76dc5ee1",
+      "git_blob_sha1": "3af7909d378e29b4933c751203dd593a50a1bdf4"
+    },
+    {
+      "file": "upstream/huggingface__peft/src/peft/tuners/lora/config.py",
+      "repository": "huggingface/peft",
+      "upstream_path": "src/peft/tuners/lora/config.py",
+      "upstream_commit": "7d6315ae910bf62b6044a7ca917bccf5881f5e43",
+      "source_url": "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/src/peft/tuners/lora/config.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-e4d7a94c01b1"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/peft/blob/7d6315ae910bf62b6044a7ca917bccf5881f5e43/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/AcademySoftwareFoundation__OpenTimelineIO/LICENSE.txt"
+      ],
+      "size_bytes": 78994,
+      "sha256": "8af5cf06b8d81ca7d9065c427e727be16e8273b4396be2c831477acff4ed3507",
+      "git_blob_sha1": "069b6bc5b53bd8946e4dccfa1da41c5b31597ee5"
+    },
+    {
+      "file": "upstream/huggingface__trl/trl/trainer/dpo_trainer.py",
+      "repository": "huggingface/trl",
+      "upstream_path": "trl/trainer/dpo_trainer.py",
+      "upstream_commit": "c6eac19f63be27498f2a7c8108d1e8a4dffde23f",
+      "source_url": "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/trl/trainer/dpo_trainer.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-29825e1ad161"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ],
+      "size_bytes": 103746,
+      "sha256": "148ae182814e8983409209bf3898397923cbdb67d4a195f2af3af36f895f9f4f",
+      "git_blob_sha1": "354a0967d085eada56e5971fb2924d4e9a95ffc5"
+    },
+    {
+      "file": "upstream/huggingface__trl/trl/trainer/sft_config.py",
+      "repository": "huggingface/trl",
+      "upstream_path": "trl/trainer/sft_config.py",
+      "upstream_commit": "c6eac19f63be27498f2a7c8108d1e8a4dffde23f",
+      "source_url": "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/trl/trainer/sft_config.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-29825e1ad161"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ],
+      "size_bytes": 17862,
+      "sha256": "4a18512fbdc83c9d16be09ee68529cd4cc07e4243c9ad733686fd3cb70984d6b",
+      "git_blob_sha1": "1a937bc600dbd84ee9edce20dd89338567b1222c"
+    },
+    {
+      "file": "upstream/huggingface__trl/docs/source/dataset_formats.md",
+      "repository": "huggingface/trl",
+      "upstream_path": "docs/source/dataset_formats.md",
+      "upstream_commit": "c6eac19f63be27498f2a7c8108d1e8a4dffde23f",
+      "source_url": "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/docs/source/dataset_formats.md",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-29825e1ad161"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ],
+      "size_bytes": 36276,
+      "sha256": "9292236881983d3483f6d5db9c8a68d2b18db141e6cf216808bda98088fddd4b",
+      "git_blob_sha1": "7fd3773e6480d6d7d0c9d1635484d12441badb95"
+    },
+    {
+      "file": "upstream/huggingface__trl/trl/trainer/sft_trainer.py",
+      "repository": "huggingface/trl",
+      "upstream_path": "trl/trainer/sft_trainer.py",
+      "upstream_commit": "c6eac19f63be27498f2a7c8108d1e8a4dffde23f",
+      "source_url": "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/trl/trainer/sft_trainer.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-29825e1ad161"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ],
+      "size_bytes": 102167,
+      "sha256": "ab992191b84cdc47e14c0b6baf4e6be724240da4b4d98f26341cdaba072e8e92",
+      "git_blob_sha1": "c44253301ed3ba30b8de1eeecf17c02fb8fa3553"
+    },
+    {
+      "file": "upstream/huggingface__trl/trl/data_utils.py",
+      "repository": "huggingface/trl",
+      "upstream_path": "trl/data_utils.py",
+      "upstream_commit": "c6eac19f63be27498f2a7c8108d1e8a4dffde23f",
+      "source_url": "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/trl/data_utils.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-29825e1ad161"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ],
+      "size_bytes": 42889,
+      "sha256": "24e80d9427de17026cc74e25a7b11612746d57d213317b82132ff1bc7ae9468b",
+      "git_blob_sha1": "908cd98379e24284ffa9407c730782a8c263b464"
+    },
+    {
+      "file": "upstream/huggingface__trl/trl/trainer/dpo_config.py",
+      "repository": "huggingface/trl",
+      "upstream_path": "trl/trainer/dpo_config.py",
+      "upstream_commit": "c6eac19f63be27498f2a7c8108d1e8a4dffde23f",
+      "source_url": "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/trl/trainer/dpo_config.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "related_public_source_ids": [
+        "IFH-29825e1ad161"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file from original research fixed revision; not a complete runnable package. Preserve original headers and root Apache2 license; shared byte-identical standard license reused. No closer ancestor license. External dependencies, datasets, models and media not bundled; code not executed.",
+      "license_evidence_urls": [
+        "https://github.com/huggingface/trl/blob/c6eac19f63be27498f2a7c8108d1e8a4dffde23f/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/huggingface__trl/LICENSE"
+      ],
+      "size_bytes": 21676,
+      "sha256": "2c7aeb332ccbf0c754d5e34ef68341d188d5ebf4b1dc82aa4bf9d95777e3741a",
+      "git_blob_sha1": "6e49da243f4b35c3af0222f39ba20c1d894cb5bd"
+    },
+    {
+      "file": "upstream/motion-canvas__motion-canvas/packages/core/src/app/PlaybackManager.ts",
+      "repository": "motion-canvas/motion-canvas",
+      "upstream_path": "packages/core/src/app/PlaybackManager.ts",
+      "upstream_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "source_url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/app/PlaybackManager.ts",
+      "title": "motion-canvas/motion-canvas / packages/core/src/app/PlaybackManager.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-86aa9b35ea11"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 6481,
+      "sha256": "8fd958b261a48d37e07866e1172a0263dc718377bbe6358450ba5c0aafbb8b36",
+      "git_blob_sha1": "aba26c054cad63303640f49eacf861072c9fc4a2"
+    },
+    {
+      "file": "upstream/motion-canvas__motion-canvas/packages/core/src/app/PlaybackStatus.ts",
+      "repository": "motion-canvas/motion-canvas",
+      "upstream_path": "packages/core/src/app/PlaybackStatus.ts",
+      "upstream_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "source_url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/app/PlaybackStatus.ts",
+      "title": "motion-canvas/motion-canvas / packages/core/src/app/PlaybackStatus.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-86aa9b35ea11"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 1172,
+      "sha256": "5f83c75e1b417c0d6bb4e006bc8a943689b799a9b0d205b68ba4749f31e21376",
+      "git_blob_sha1": "1605eca8684555f59ccb346ede88bc1468ed99fe"
+    },
+    {
+      "file": "upstream/motion-canvas__motion-canvas/packages/core/src/app/Player.ts",
+      "repository": "motion-canvas/motion-canvas",
+      "upstream_path": "packages/core/src/app/Player.ts",
+      "upstream_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "source_url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/app/Player.ts",
+      "title": "motion-canvas/motion-canvas / packages/core/src/app/Player.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-86aa9b35ea11"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 15524,
+      "sha256": "c62f41b3cd5d9ac5e7570230f6d785ff1e1944a7a1c076b92ef7c82bdad1829c",
+      "git_blob_sha1": "dcf09f7a548eaf9a14ac513038811e58cff22f28"
+    },
+    {
+      "file": "upstream/motion-canvas__motion-canvas/packages/core/src/app/Renderer.ts",
+      "repository": "motion-canvas/motion-canvas",
+      "upstream_path": "packages/core/src/app/Renderer.ts",
+      "upstream_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "source_url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/app/Renderer.ts",
+      "title": "motion-canvas/motion-canvas / packages/core/src/app/Renderer.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-86aa9b35ea11"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 9109,
+      "sha256": "2a1d337e90457eaef597c9b447a721cd1d6446e5209fad14393e2a2ef5d12577",
+      "git_blob_sha1": "ff92283a54bdb21263826c47d0804695e767f29d"
+    },
+    {
+      "file": "upstream/motion-canvas__motion-canvas/packages/core/src/scenes/GeneratorScene.ts",
+      "repository": "motion-canvas/motion-canvas",
+      "upstream_path": "packages/core/src/scenes/GeneratorScene.ts",
+      "upstream_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "source_url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/scenes/GeneratorScene.ts",
+      "title": "motion-canvas/motion-canvas / packages/core/src/scenes/GeneratorScene.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-86aa9b35ea11"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 10583,
+      "sha256": "541dd2922a4ed31da05efbfa58585a61e15120ce6f0819c54bd99ffee0bc575c",
+      "git_blob_sha1": "63caf478d018314a3728e06f5f9af3ea3e0498c5"
+    },
+    {
+      "file": "upstream/motion-canvas__motion-canvas/packages/core/src/threading/Thread.ts",
+      "repository": "motion-canvas/motion-canvas",
+      "upstream_path": "packages/core/src/threading/Thread.ts",
+      "upstream_commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "source_url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/threading/Thread.ts",
+      "title": "motion-canvas/motion-canvas / packages/core/src/threading/Thread.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-86aa9b35ea11"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/motion-canvas/motion-canvas/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 3981,
+      "sha256": "f0a8ca971c7d965d1e50a9300e6ebf81cf028e764361b8aea86c1b094a9a6c38",
+      "git_blob_sha1": "ba129f3f083c2a6f617a5a971f12813ca2a8bf14"
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/core/src/app/Renderer.ts",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/core/src/app/Renderer.ts",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/core/src/app/Renderer.ts",
+      "title": "midrender/revideo / packages/core/src/app/Renderer.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 12023,
+      "sha256": "4df1a44e9675ae52ec28507f9771b7cb2c785d89db96efd41aa9987a7da77f98",
+      "git_blob_sha1": "4a22c119f79d83325d364e720a9bfceaee4e1c52"
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/core/src/app/Stage.ts",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/core/src/app/Stage.ts",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/core/src/app/Stage.ts",
+      "title": "midrender/revideo / packages/core/src/app/Stage.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Root MIT license and motion-canvas copyright retained. Full recursive tree has only root LICENSE; no nearer ancestor license/notice. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/midrender__revideo/LICENSE"
+      ],
+      "size_bytes": 3459,
+      "sha256": "ea7c7f3d40f0d609c0bdd2412ac77b7f2bd8bcb8e11ca445b8766a2b29710bac",
+      "git_blob_sha1": "07910d010ba153aec6e97b933a8a193be0e811d5"
+    },
+    {
+      "file": "upstream/articles/how-to-visualize-computational-mechanics.pdf",
+      "source_url": "https://open.fau.de/bitstreams/05f82c53-55bd-4f99-8e75-9dbab241db8b/download",
+      "canonical_url": "https://doi.org/10.1002/cae.70189",
+      "title": "How to Visualize Computational Mechanics: Animating Finite Elements, Continuum Mechanics, and Tensor Calculus",
+      "authors": [
+        "Moritz Flaschel"
+      ],
+      "registry_source_id": "IFH-f11bd1198b76",
+      "related_public_source_ids": [
+        "IFH-f11bd1198b76"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://open.fau.de/handle/openfau/40748",
+      "license_evidence": "Official FAU repository Document Licence CC BY4; downloaded publisher Version of Record page 1 states Creative Commons Attribution, copyright 2026 The Authors / Wiley. Crossref corroborates CC BY4 for VOR. Full 11-page text and all-page contact sheet reviewed: diagrams/animations presented as author-created using Matplotlib/Manim/Blender; no separate third-party restrictions or credited borrowed imagery identified. External code/gallery/videos not downloaded.",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file",
+      "size_bytes": 2630722,
+      "sha256": "9e80de29c27aea99091817cf4ff08022c7b8bc6354dfcafbd146efd305b6786d",
+      "conditions": "Complete unmodified 11-page publisher PDF from official FAU university repository. Author, publisher and license notices retained; associated external videos/code are not included. DOI and SHA256 absent from existing repo metadata.",
+      "repository": "web/open.fau.de",
+      "upstream_path": "bitstreams/05f82c53-55bd-4f99-8e75-9dbab241db8b/download",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://open.fau.de/handle/openfau/40748",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "bad709eca33bc11197ad0d466ec6cb93c52aaf8f"
+    }
+  ]
+}

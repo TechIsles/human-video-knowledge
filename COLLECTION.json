@@ -1,12 +1,12 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 1572,
-  "learning_or_source_body_files": 1032,
+  "original_payload_files": 1605,
+  "learning_or_source_body_files": 1065,
   "license_or_notice_files": 540,
-  "original_payload_bytes": 239325243,
-  "unique_original_sha256": 1568,
-  "new_full_canonical_source_objects_in_expansion": 714,
+  "original_payload_bytes": 242954354,
+  "unique_original_sha256": 1601,
+  "new_full_canonical_source_objects_in_expansion": 715,
   "manifests": [
     "SOURCES.json",
     "batches/0001/SOURCES.json",
@@ -154,10 +154,11 @@
     "batches/0144/SOURCES.json",
     "batches/0145/SOURCES.json",
     "batches/0146/SOURCES.json",
-    "batches/0147/SOURCES.json"
+    "batches/0147/SOURCES.json",
+    "batches/0148/SOURCES.json"
   ],
   "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed. Normalized article text extractions are explicitly marked, not byte-identical original pages; embedded and third-party media are excluded. Snow Fall additionally omits an uncleared third-party quoted passage and is counted as one partial source, excluded from complete source totals. CineCraft is one complete original PDF held as eight ordered lossless binary parts, not a directly openable single PDF; see batches/0136/RECONSTRUCTION.md.",
-  "unique_complete_canonical_source_objects": 714,
+  "unique_complete_canonical_source_objects": 715,
   "normalized_full_article_text_files": 50,
   "additional_partial_canonical_source_objects": 1,
   "normalized_partial_article_text_files": 1,
