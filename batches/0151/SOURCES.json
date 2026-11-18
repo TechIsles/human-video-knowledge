@@ -1,0 +1,44 @@
+{
+  "batch": "0151",
+  "scope": "One new complete CC BY4 publisher PDF from copyright-holder official institution.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/articles/misunderstood-terms-fragile-x-premutation.pdf",
+      "title": "Misunderstood terms and concepts identified through user testing of educational materials for fragile X premutation: “Not weak or fragile?”",
+      "authors": [
+        "Beth Lincoln-Boyea",
+        "Rebecca R. Moultrie",
+        "Barbara B. Biesecker",
+        "Marcia Underwood",
+        "Martin Duparc",
+        "Anne C. Wheeler",
+        "Holly L. Peay"
+      ],
+      "source_url": "https://www.rtihs.org/sites/default/files/35299_Moultrie_2024_Misunderstood%20terms%20and%20concepts%20identified%20through%20user%20testing%20of%20educational%20materials%20for%20fragile%20X%20premutation.pdf",
+      "canonical_url": "https://doi.org/10.1002/jgc4.1725",
+      "registry_source_id": "IFH-06b8e9225f7e",
+      "related_public_source_ids": [
+        "IFH-06b8e9225f7e"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Official RTI Health Solutions author-organization hosted publisher PDF page 1 explicitly Creative Commons Attribution; embedded license hyperlink resolves by/4.0. Copyright 2023 RTI International / Wiley / National Society of Genetic Counselors retained. Page 7 image panel depicts evaluated educational materials from authors study; no separate image credit/restriction found. No linked video/media copied.",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file",
+      "size_bytes": 1080360,
+      "sha256": "e977d238f9fbcfc0a881d6dbc1ad8323fdf726ef89462e69593d72eef7357a63",
+      "conditions": "Complete unmodified 11-page publisher PDF from official copyright-holder institution website. DOI and SHA absent from current SOURCES. No underlying participant data or external video downloaded.",
+      "repository": "web/www.rtihs.org",
+      "upstream_path": "sites/default/files/35299_Moultrie_2024_Misunderstood%20terms%20and%20concepts%20identified%20through%20user%20testing%20of%20educational%20materials%20for%20fragile%20X%20premutation.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://www.rtihs.org/sites/default/files/35299_Moultrie_2024_Misunderstood%20terms%20and%20concepts%20identified%20through%20user%20testing%20of%20educational%20materials%20for%20fragile%20X%20premutation.pdf",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "7a90b2404d893190ad399740378963e13a7155f6"
+    }
+  ]
+}
