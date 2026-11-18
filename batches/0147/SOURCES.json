@@ -1,0 +1,76 @@
+{
+  "batch": "0147",
+  "scope": "Two new complete CC BY4 article text extractions from official publisher/university PDFs; figures/media omitted and transformation disclosed.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/articles/landers.fulltext.txt",
+      "title": "The Wonderful, Fluorescent, Massive World of Tiny Invisible Things: Creating transformative science stories for children",
+      "canonical_url": "https://doi.org/10.32926/2025.Landers",
+      "source_url": "https://mutualimages-journal.org/index.php/mi/article/download/142/133",
+      "authors": [
+        "Rachel Landers"
+      ],
+      "registry_source_id": "IFH-33a04d9a4c2f",
+      "related_public_source_ids": [
+        "IFH-33a04d9a4c2f"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Publisher article page states Creative Commons Attribution 4.0 International License and Copyright (c) 2026 Rachel Landers. PDF issue/year 2025 retained as printed. Crossref corroborates CC BY4. Figures credited to distinct animators; all figure imagery omitted.",
+      "license_evidence_url": "https://www.mutualimages-journal.org/index.php/mi/article/view/142",
+      "size_bytes": 53573,
+      "sha256": "d31d32fc5f4af4e01be217f0f37853c0a5921b6bbd01dcb2c1944700b89b841f",
+      "upstream_pdf_sha256": "0738e1acf0b323316eb0778beb99b255df358f408d26553ef6077862e0c0073c",
+      "upstream_pdf_size": 787231,
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "conditions": "CC BY4 attribution/license retained. All PDF pages extracted completely; figures/media omitted, textual captions retained. Does not license separately linked media or datasets. DOI, title and hashes absent from current repository SOURCES metadata.",
+      "repository": "web/mutualimages-journal.org",
+      "upstream_path": "index.php/mi/article/download/142/133",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://www.mutualimages-journal.org/index.php/mi/article/view/142",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "30b7026608a7a7e8106a50346f7b58cf22f341b9"
+    },
+    {
+      "file": "upstream/articles/zoti.fulltext.txt",
+      "title": "Zoti's Social Toolkit: Developing and piloting novel animated tasks to assess emotional understanding and conflict resolution skills in childhood",
+      "canonical_url": "https://doi.org/10.1111/bjdp.12475",
+      "source_url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/313934009/Lloyd_Esenkaya_Russell_St_Clair_2024_British_J_of_Dev_Psycho_-_2024_-_Lloyd_E2_80_90Esenkaya_-_Zoti_s_Social_Toolkit_Developing_and_piloting_novel_animated_tasks_to.pdf?download=1",
+      "authors": [
+        "Vanessa Lloyd-Esenkaya",
+        "Ailsa J. Russell",
+        "Michelle C. St Clair"
+      ],
+      "registry_source_id": "IFH-33255a633666",
+      "related_public_source_ids": [
+        "IFH-33255a633666"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "University of Bath publisher PDF cover states CC BY; article first page explicitly permits use, distribution and reproduction under Creative Commons Attribution. Crossref identifies CC BY4. Copyright 2024 The Authors; Wiley/British Psychological Society credit preserved. Figures, animated stimuli and external supplements excluded; no underlying participant dataset acquired.",
+      "license_evidence_url": "https://researchportal.bath.ac.uk/en/publications/zotis-social-toolkit-developing-and-piloting-novel-animated-tasks/",
+      "size_bytes": 131770,
+      "sha256": "091bf80ca1683d10a13c1d1d80f86c3f7aa1db205d9f889db4eedc863440f82c",
+      "upstream_pdf_sha256": "8673c27ead6f44712f50aa63d5ad3795c9fe65c8f58cf8c7621a67d62587ba10",
+      "upstream_pdf_size": 1364168,
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "conditions": "CC BY4 attribution/license retained. All PDF pages extracted completely; figures/media omitted, textual captions retained. Does not license separately linked media or datasets. DOI, title and hashes absent from current repository SOURCES metadata.",
+      "repository": "web/purehost.bath.ac.uk",
+      "upstream_path": "ws/portalfiles/portal/313934009/Lloyd_Esenkaya_Russell_St_Clair_2024_British_J_of_Dev_Psycho_-_2024_-_Lloyd_E2_80_90Esenkaya_-_Zoti_s_Social_Toolkit_Developing_and_piloting_novel_animated_tasks_to.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://researchportal.bath.ac.uk/en/publications/zotis-social-toolkit-developing-and-piloting-novel-animated-tasks/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "707ea1706702e55be930d076c53600735651477f"
+    }
+  ]
+}
