@@ -1,0 +1,72 @@
+{
+  "batch": "0158",
+  "scope": "One complete13-page original published interview PDF, CC BY4 article-specific publisher grant, with archive-added attribution/license note; no external films or media included.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "file": "upstream/articles/grimshaw-theory-is-death/grimshaw_scielo.pdf",
+      "title": "“Theory is the death of the film”: an interview with Anna Grimshaw about Antropology and the craft of film editing",
+      "authors": [
+        "Pedro Branco"
+      ],
+      "interviewee": "Anna Grimshaw",
+      "source_url": "https://www.scielo.br/j/ra/a/p6HnkRyZYhZf3DFhB9V3jZP/?format=pdf&lang=en",
+      "canonical_url": "https://revistas.usp.br/ra/en/article/view/184483",
+      "doi": "10.11606/1678-9857.ra.2021.184483",
+      "registry_source_id": "IFH-d63c72a4d5a4",
+      "related_public_source_ids": [
+        "IFH-d63c72a4d5a4"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://revistas.usp.br/ra/en/article/view/184483",
+      "license_evidence": "Publisher article-specific License section declares CC BY4.0.13-page original SciELO PDF verified matching DOI/title; no third-party image content found.",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file",
+      "size_bytes": 414928,
+      "sha256": "2ce4fc0c308dce4fdedf1d2ecfd4db666acf7d40cdbecd246d8104f595c8512b",
+      "conditions": "Retain author, interviewee, original publication attribution and CC BY4 license link.",
+      "repository": "web/scielo.br",
+      "upstream_path": "j/ra/a/p6HnkRyZYhZf3DFhB9V3jZP/",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://revistas.usp.br/ra/en/article/view/184483"
+      ],
+      "git_blob_sha1": "4b4ef2aa55850954a3d3061a3524870a5d8c4a7d"
+    },
+    {
+      "file": "upstream/articles/grimshaw-theory-is-death/grimshaw.LICENSE.txt",
+      "title": "“Theory is the death of the film”: an interview with Anna Grimshaw about Antropology and the craft of film editing",
+      "authors": [
+        "Pedro Branco"
+      ],
+      "interviewee": "Anna Grimshaw",
+      "source_url": "https://www.scielo.br/j/ra/a/p6HnkRyZYhZf3DFhB9V3jZP/?format=pdf&lang=en",
+      "canonical_url": "https://revistas.usp.br/ra/en/article/view/184483",
+      "doi": "10.11606/1678-9857.ra.2021.184483",
+      "registry_source_id": "IFH-d63c72a4d5a4",
+      "related_public_source_ids": [
+        "IFH-d63c72a4d5a4"
+      ],
+      "role": "license_notice",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://revistas.usp.br/ra/en/article/view/184483",
+      "license_evidence": "Publisher article-specific License section declares CC BY4.0.13-page original SciELO PDF verified matching DOI/title; no third-party image content found.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "archive_added_rights_notice",
+      "size_bytes": 740,
+      "sha256": "1688726812f5f78afd33c0e0cc02ee0b06d326f033fc35d56d560772bd63e626",
+      "conditions": "Retain author, interviewee, original publication attribution and CC BY4 license link. Archive-generated attribution/license summary; not a new original publisher document.",
+      "repository": "web/scielo.br",
+      "upstream_path": "j/ra/a/p6HnkRyZYhZf3DFhB9V3jZP/",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://revistas.usp.br/ra/en/article/view/184483"
+      ],
+      "git_blob_sha1": "cb9bb9c4ca699c5f9b9d8c5730e52a5528767e3c"
+    }
+  ]
+}
