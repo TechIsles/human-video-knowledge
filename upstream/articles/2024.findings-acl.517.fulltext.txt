@@ -1,0 +1,2298 @@
+TempCompass: Do Video LLMs Really Understand Videos?
+Authors: Yuanxin Liu; Shicheng Li; Yi Liu; Yuxiang Wang; Shuhuai Ren; Lei Li; Sishuo Chen; Xu Sun; Lu Hou
+Source: https://aclanthology.org/2024.findings-acl.517/
+PDF: https://aclanthology.org/2024.findings-acl.517.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+            TempCompass: Do Video LLMs Really Understand Videos?
+                        Yuanxin Liu§ * , Shicheng Li§ * , Yi Liu§ , Yuxiang Wang§ ,
+                       Shuhuai Ren§ , Lei Li† , Sishuo Chen¶ , Xu Sun§ , Lu Hou‡
+                   §
+                     National Key Laboratory for Multimedia Information Processing,
+                            School of Computer Science, Peking University
+                              ¶
+                                Center for Data Science, Peking University
+                      †
+                        The University of Hong Kong ‡ Huawei Noah’s Ark Lab
+                 {liuyuanxin, yuxiangwang, shuhuai_ren}@stu.pku.edu.cn               nlp.lilei@gmail.com
+                      {lisc99, imliuyi, chensishuo, xusun}@pku.edu.cn              houlu3@huawei.com
+
+
+                            Abstract                           of initial efforts (Li et al., 2023c; Zhang et al., 2023;
+                                                               Maaz et al., 2023; Luo et al., 2023; Ren et al.,
+     Recently, there is a surge in interest surround-
+     ing video large language models (Video LLMs).             2023b) have been devoted to build LLMs with
+     However, existing benchmarks fail to provide a            video understanding ability. These Video LLMs
+     comprehensive feedback on the temporal per-               can serve as versatile multi-modal solvers for video
+     ception ability of Video LLMs. On the one                 and language tasks, demonstrating strong potential
+     hand, most of them are unable to distinguish              across various real-world applications.
+     between different temporal aspects (e.g., speed,
+     direction) and thus cannot reflect the nuanced            With the rapid development of Video LLMs, a com-
+     performance on these specific aspects. On the             pelling question arises: “Do Video LLMs really
+     other hand, they are limited in the diversity             understand the temporal dynamics of videos” De-
+     of task formats (e.g., only multi-choice QA),             spite the importance of this question, current bench-
+     which hinders the understanding of how tem-
+                                                               marks fail to provide a satisfactory answer. Firstly,
+     poral perception performance may vary across
+     different types of tasks. Motivated by these              a majority of them neglect differentiating between
+     two problems, we propose the TempCompass                  various temporal aspects (e.g., type of action, speed
+     benchmark, which introduces a diversity of                and direction), thereby failing to offer a comprehen-
+     temporal aspects and task formats. To collect             sive view to diagnose the temporal perception abil-
+     high-quality test data, we devise two novel               ity. Secondly, while some Video LLM benchmarks
+     strategies: (1) In video collection, we con-              (Chen et al., 2023; Li et al., 2023d) have catego-
+     struct conflicting videos that share the same             rized various temporal aspects, they are restricted
+     static content but differ in a specific tempo-
+                                                               in task format variety (e.g., only multi-choice QA).
+     ral aspect, which prevents Video LLMs from
+     leveraging single-frame bias or language pri-             Consequently, they are not optimally suited for
+     ors. (2) To collect the task instructions, we             assessing Video LLMs, which are expected to gen-
+     propose a paradigm where humans first anno-               eralize across diverse tasks and instruction formats.
+     tate meta-information for a video and then an
+     LLM generates the instruction. We also design             In response to the above issues, this work pro-
+     an LLM-based approach to automatically and                poses the TempCompass, a benchmark to compre-
+     accurately evaluate the responses from Video              hensively evaluate the temporal perception ability
+     LLMs. Based on TempCompass, we compre-                    of Video LLMs. TempCompass introduces five
+     hensively evaluate 9 state-of-the-art (SOTA)              basic temporal aspects (Action, Speed, Direction,
+     Video LLMs and 3 Image LLMs, and reveal                   Attribute Change and Event Order) and ten fine-
+     the discerning fact that these models exhibit
+                                                               grained sub-aspects, as shown in Figure 1. Addi-
+     notably poor temporal perception ability. The
+     data and evaluation code are available at https:
+                                                               tionally, TempCompass involves four distinct types
+     //github.com/llyx97/TempCompass.                          of task formats (Multi-Choice QA, Yes/No QA, Cap-
+                                                               tion Matching and Caption Generation), as shown
+1    Introduction                                              in Figure 2, which allows us to investigate how the
+                                                               temporal perception ability of Video LLMs varies
+The development of video understanding systems
+                                                               across different task formats.
+has long been a popular topic in artificial intel-
+ligence research. Inspired by the unprecedented                The videos in TempCompass are originated from
+progress of large language models (LLMs), a line               the ShutterStock1 platform. These open-domain
+    * Equal contribution.                                         1
+                                                                      https://www.shutterstock.com
+
+                                                          8731
+                   Findings of the Association for Computational Linguistics: ACL 2024, pages 8731–8772
+                           August 11-16, 2024 ©2024 Association for Computational Linguistics
+videos cover a diverse variety of contents, rang-         Benchmark
+                                                                                                        Temporal      Task       Open
+                                                                                                        Diversity   Diversity   Domain
+ing from human activities to natural scenarios,           Video Understanding Benchmarks
+among others. To prevent Video LLMs from                  MSVD-QA (Xu et al., 2017)                        ✗           ✗          ✓
+                                                          MSRVTT-QA (Xu et al., 2017)                      ✗           ✗          ✓
+leveraging single-frame bias or language priors to        TGIF-QA (Jang et al., 2017)                      ✗           ✗          ✓
+                                                          SSv2 (Goyal et al., 2017)
+complete the tasks, we construct conflicting video        SSv2-label (Lei et al., 2022)
+                                                                                                           ✗
+                                                                                                           ✗
+                                                                                                                       ✗
+                                                                                                                       ✗
+                                                                                                                                  ✗
+                                                                                                                                  ✗
+pairs/triplets, within which the videos share the         CLEVRER (Yi et al., 2020)                        ✗           ✗          ✗
+                                                          ActivityNet-QA (Yu et al., 2019)                 ✗           ✗          ✗
+same static content but differ from each other in         NEXT-QA (Xiao et al., 2021)                      ✗           ✓          ✗
+a specific temporal aspect. Given the collected           ViLMA (Kesen et al., 2024)
+                                                          Perception Test (Puatruaucean et al., 2023)
+                                                                                                           ✓
+                                                                                                           ✓
+                                                                                                                       ✗
+                                                                                                                       ✓
+                                                                                                                                  ✓
+                                                                                                                                  ✗
+videos, we derive 7,540 task instructions for the         VITATECS (Li et al., 2023e)                      ✓           ✗          ✓
+
+four types of tasks, using a collaboration of human       Video LLM Benchmarks
+                                                          SEEDBench (Li et al., 2023a)                     ✗           ✗          ✗
+annotated meta-information and LLM generation.            Video-Bench (Ning et al., 2023)                  ✗           ✗          ✓
+                                                          VLM-Eval (Li et al., 2023f)                      ✗           ✓          ✓
+Due to the diverse task formats in TempCompass            AutoEval-Video (Chen et al., 2023)
+                                                          MVBench (Li et al., 2023d)
+                                                                                                           ✓
+                                                                                                           ✓
+                                                                                                                       ✗
+                                                                                                                       ✗
+                                                                                                                                  ✓
+                                                                                                                                  ✓
+and the free-form nature of Video LLM responses,          TempCompass (Ours)                               ✓           ✓          ✓
+it is non-trivial to automatically evaluate the per-
+formance of Video LLMs. To address this chal-          Table 1: Comparison with related benchmarks. The
+lenge, we resort to the language understanding abil-   rightmost three columns represent, respectively, whether
+ity of LLMs for evaluation. For each type of task,     the benchmark assesses performance across diverse tem-
+                                                       poral aspects, task formats, and includes open-domain
+we use tailored evaluation prompts for ChatGPT
+                                                       videos. The detailed temporal aspects and task formats
+(gpt3.5-turbo) to assess whether the Video LLM         are described in Appendix A.6.
+response is correct. To balance the cost and accu-
+racy of evaluation, we also adopt some rule-based
+assessment methods, which are implemented prior        Taori et al., 2023; Chiang et al., 2023), numerous
+to utilizing ChatGPT.                                  recent efforts have been made to build multi-modal
+Based on our TempCompass benchmark, we evalu-          LLMs (MLLMs). To enable LLMs to compre-
+ate 12 SOTA multi-modal LLMs (MLLMs), includ-          hend visual context, two categories of paradigms
+ing 9 Video LLMs and 3 Image LLMs. The eval-           have emerged and evolved. The Pipeline paradigm
+uation results reveal that the Video LLMs demon-       (Shen et al., 2023; Sur’is et al., 2023; Wu et al.,
+strate a deficiency in temporal perception skills,     2023; Yang et al., 2023) leverages off-the-shelf vi-
+failing to surpass their Image LLMs counterparts.      sion expert models to extract visual information in
+We also find that the temporal perception ability      the form of texts, which are then fed to LLMs to
+of MLLMs indeed varies a lot across different task     perform the downstream vision tasks. The End-to-
+formats, which emphasizes the need to incorporate      End paradigm integrates vision encoders and LLM
+diverse task formats in the assessment process.        in an end-to-end trainable manner. The outputs
+                                                       from vision encoders are mapped to the LLM em-
+The main contributions of this work are summa-         bedding space, using linear projectors (Liu et al.,
+rized as follows: (1) We present a benchmark with      2023b,a; Zhu et al., 2023b), attention-based projec-
+diverse temporal aspects and task formats to com-      tions (Li et al., 2023b; Ye et al., 2023; Dai et al.,
+prehensively evaluate the temporal perception abil-    2023; Bai et al., 2023b) or mixed projections (Lin
+ity of Video LLMs. (2) We introduce conflicting        et al., 2023b; Gao et al., 2024). Recent Video
+videos that prevent Video LLMs from exploiting         LLMs (Su et al., 2023; Li et al., 2023c; Zhang et al.,
+singe-frame bias or language priors. (3) We com-       2023; Lin et al., 2023a; Li et al., 2023d; Maaz et al.,
+bine rule-based and LLM-based methods to effi-         2023; Luo et al., 2023; Li et al., 2023g; Jin et al.,
+ciently and accurately evaluate the responses from     2023) primarily follow the End-to-End paradigm,
+Video LLMs. (4) Our empirical results reveal the       with optional temporal modules to model the tem-
+weak temporal perception ability of SOTA Video         poral information across frames.
+LLMs.
+                                                       2.2       Temporal Perception Evaluation
+2   Related Work
+                                                       Temporal perception is a fundamental distinction
+2.1 Multi-Modal Large Language Models                  between video-centered and image-centered appli-
+Following the success of pure-text LLMs (Brown         cations. Prior to the age of LLMs, a lot of studies
+et al., 2020; OpenAI, 2022; Touvron et al., 2023a,b;   (Goyal et al., 2017; Yi et al., 2020; Yu et al., 2019;
+                                                   8732
+                                           Action                                                                   Attribute Change
+          Coarse-Grained Action                          Fine-Grained Action                 Size & Shape Change                           Color & Light Change
+
+
+
+          Meta Information                             Meta Information                      Meta Information                               Meta Information
+       Subject: woman athletes                  Subject: bear                              Subject: ice cream                        Subject: entire video
+       Action: running                          Action: scratching against a tree          Attribute Change: melting                 Attribute Change: getting darker
+
+
+                                           Speed
+                                                                                              Combined Change                                   Other Change
+             Relative Speed                                Absolute Speed
+
+
+                                                                                             Meta Information                               Meta Information
+          Meta Information                              Meta Information                   Subject: apple                                Subject: eye
+     Subject: the yellow car                        Subject: entire video                  Attribute Change:                             Attribute Change: from
+     Speed: faster than other cars                  Speed: slow motion                     shrinking and drying out                      closed to open
+
+
+                                     Direction
+            Object Direction                             Camera Direction                                              Event Order
+
+
+                                                                                                                    Meta Information
+          Meta Information                             Meta Information
+                                                                                                     Subject: the fighter jet
+   Subject: ball                               Subject: entire video                                 Events: 1. shooting one missile 2. shooting two missiles
+   Direction: rolling from left to right       Direction: moving forward
+
+
+
+
+          Figure 1: Illustration of the temporal aspects (Section 3.1.1) and meta-information (Section 3.2.2).
+
+
+Bagad et al., 2023; Buch et al., 2022; Hendricks                                       poral aspects. AutoEval-Video (Chen et al., 2023)
+et al., 2018; Sevilla-Lara et al., 2019; Jang et al.,                                  and MVBench (Li et al., 2023d) define and incor-
+2017; Ren et al., 2023a; Xiao et al., 2021) have                                       porate a range of temporal aspects while lacking
+been conducted to evaluate the temporal perception                                     diverse task formats.
+performance of video-language models. However,
+most of these works neglect the distinction between                                    Table 1 compares TempCompass with representa-
+various temporal aspects. To tackle this issue, the                                    tive video understanding and Video LLM bench-
+Perception Test (Puatruaucean et al., 2023), VI-                                       marks. We can see that TempCompass stands out
+TATECS (Li et al., 2023e) and ViLMA (Kesen                                             by emphasizing diverse temporal aspects, task for-
+et al., 2024) introduce a diversity of fine-grained                                    mats and open-domain videos.
+temporal aspects, thereby enabling a more com-
+                                                                                       3     TempCompass Benchmark
+prehensive and nuanced evaluation of the temporal
+perception capability. However, VITATECS and                                           TempCompass is a dataset of videos and task in-
+ViLMA are limited in the diversity of task formats                                     structions intended to test the temporal perception
+and Perception Test is constrained to indoor videos,                                   ability of Video LLMs. This section will intro-
+making them less ideal to evaluate Video LLMs.                                         duce the temporal aspects, task formats and static
+                                                                                       contents included in TempCompass (Section 3.1),
+2.3 MLLM Benchmarks                                                                    how to collect the videos and task instructions (Sec-
+With the advent of MLLMs, there is an increasing                                       tion 3.2) and how to automatically evaluate Video
+number of MLLMs benchmarks. A majority of                                              LLMs on TempCompass (Section 3.4).
+them (Fu et al., 2023; Liu et al., 2023c; Yu et al.,
+                                                                                       3.1     Benchmark Structure
+2023; Bai et al., 2023c; Xu et al., 2023) are specif-
+ically designed for Image LLMs. Recently, some                                         3.1.1      Temporal Aspects
+tailored benchmarks have also been proposed for                                        In contrast to images that only contain static visual
+Video LLMs. However, among these Video LLM                                             information, videos convey dynamic visual infor-
+benchmarks, SEEDBench (Li et al., 2023a), VLM-                                         mation over time, i.e., temporal information. As
+Eval (Li et al., 2023f) and Video-Bench (Ning et al.,                                  shown in Figure 1, we identify five basic aspects of
+2023) fall short in discerning between various tem-                                    temporal information in TempCompass:
+                                                                                    8733
+       Action Speed                         People Buildings Vehicles                          aspects, including Size & Shape, Color & Light
+（1） Event Order Direction                   Animals Artifacts Abstracts                        Change, Combined Change and Other Change.
+        Attribute Change                    Natural Objects Food Plants
+                                                                                           Event Order. This aspect focuses on the chrono-
+                                                        Meta Information
+（2）                                                   Subject: ice cream               （3） logical order that different events happen in a video.
+                                                      Attribute Change: melting
+
+                 Multi-Choice QA                                 Yes/No QA                     3.1.2    Task Formats
+                                                           Is the ice cream freezing?
+          What is happening to the ice cream?
+          A. melting      B. freezing
+                                                                                               Having established the definition of different as-
+                                                           Answer: no
+          C. evaporating D. Solidifying
+                                                                                               pects of temporal information, we now deal with
+                                                           Is the ice cream melting?
+          Answer: A. melting
+                                                                                               the question of “how to examine whether a Video
+                                                           Answer: yes
+                                                                                               LLM understands a specific temporal information?”
+                                   Caption Matching                                            As illustrated in Figure 2, for a specific temporal
+          Which caption matches the video better?                                              information in the given video, we test the temporal
+          Caption A: The ice cream is melting.
+          Caption B: The ice cream is freezing.                                                perception ability of Video LLMs using four types
+（4）
+          Answer: Caption A: The ice cream is melting.                                         of tasks: (1) Multi-Choice QA asks the model to
+                                                                                               select the correct answer from multiple candidate
+                                 Caption Generation                                            choices. (2) Yes/No QA involves the model deter-
+          Identify the information that consistent with the video and generate a
+          video caption.
+                                                                                               mining whether a statement is correct based on the
+          Information A: {'subject': 'ice cream', 'attribute_change': 'melting’}
+          Information B: {'subject': 'ice cream', 'attribute_change': 'freezing’}
+                                                                                               video. (3) Caption Matching requires the model
+          Information C: {'subject': 'ice cream', 'attribute_change': 'evaporating’}
+          Information D: {'subject': 'ice cream', 'attribute_change': 'solidifying'}
+                                                                                               to distinguish between two video captions, one of
+                                                                                               which is consistent with the video while the other is
+          Answer: The video shows an ice cream is melting.
+                                                                                               inconsistent with the video in the temporal aspect
+     (1) Temporal Aspect & Static Content Selection                                            of interest. (4) In the task of Caption Generation,
+     (2) Video Collection                                                                      several pieces of information about the given tem-
+     (3) Meta-Information Collection
+     (4) Instruction Collection
+                                                                                               poral aspect are presented to the model, which is
+                                                                                               then asked to select the correct one and generate
+ Figure 2: Illustration of the four types of task formats                                      a video caption accordingly. Such a constrained
+ and the data collection steps.                                                                form of captioning makes it easier to automatically
+                                                                                               evaluate the correctness of the generated caption
+                                                                                               (see Section 3.4 for details).
+ Action. This aspect assesses the ability to distin-
+ guish between different types of actions, which is a                                          3.1.3    Static Contents
+ common task for video understanding models. We
+                                                                                               We define nine categories of static contents: peo-
+ further divide this aspect into Coarse-Grained Ac-
+                                                                                               ple, animals, plants, food, natural objects, vehicles,
+ tion and Fine-Grained Action. The former involves
+                                                                                               artifacts, buildings, abstract (please refer to Ap-
+ a broader set of activities or movements while the
+                                                                                               pendix A.1 for detailed descriptions). Each video
+ latter is about more specific and detailed actions.
+                                                                                               in TempCompass is classified into one or multiple
+ Speed. This aspect delves into the capacity to                                                categories, depending on the static visual content.
+ discern variations in speed, which is further catego-
+ rized into two components. Absolute Speed focuses                                             3.2     Data Collection
+ on the speed of a specific object or the pace of an                                           Each data example in TempCompass contains four
+ entire video while Relative Speed compares the                                                components: video, meta-information, static con-
+ speed of different objects.                                                                   tent categories and task instructions. As shown in
+                                                                                               Figure 2, we collect these components in four steps.
+ Direction. This aspect emphasizes the percep-
+                                                                                               (1) We first select a set of temporal aspects and
+ tion of movement direction. Under this aspect, we
+                                                                                               static content categories, based on which we then
+ separately consider the direction of objects (Object
+                                                                                               (2) collect a video together with (3) annotated meta-
+ Direction) and the direction of camera (Camera
+                                                                                               information. (4) Following this, we employ Chat-
+ Direction).
+                                                                                               GPT (gpt3.5-turbo) (OpenAI, 2022), an LLM,
+ Attribute Change. This aspect centers on how                                                  to generate task instructions according to the meta-
+ the attribute of objects or the entire video change                                           information. Next, we will describe how to collect
+ over time. Attribute change encompasses four sub-                                             the three components in detail.
+                                                                                           8734
+                      Reversing                                                       Spatial Concatenation
+
+     Target Aspects
+                                 Video1: Original
+   Direction
+   Attribute Change
+                                                              Video1: Upper Faster          Video2: Upper Slower   Video3: Same Speed
+                                                                                      Target Aspect        Speed
+                                 Video2: Reversed
+
+
+                                                    Temporal Concatenation
+
+
+                 Video1: First weight lifting,                 Video2: First cat licking,
+                                                                  then weight lifting                     Video3: Same Time
+                      then cat licking
+
+                                                    Target Aspect   Event Order
+
+
+              Figure 3: Illustration of conflicting video pairs/triplets for different temporal aspects.
+
+
+3.2.1 Video Collection                                               the conflicting videos:
+We collect raw videos from the ShutterStock plat-                    Reversing. Information of Direction and At-
+form. To enhance video diversity, we carefully                       tribute Change in a video can usually be modified
+control the static content distribution, guaranteeing                by playing the video in reverse. Therefore, the
+that each category contains an adequate number of                    conflicting video pairs for these two temporal as-
+video samples. (Figure 4(b) shows the distribution).                 pects consist of an original video and its reversed
+At the same time, we ensure that the videos are not                  counterpart.
+included in WebVid (Bain et al., 2021), a dataset
+                                                                     Spatial Concatenation. For the Speed aspect,
+widely used in pre-training video-language models.
+                                                                     we first accelerate or decelerate a video. Then, we
+In the literature, it has been shown that video un-                  concatenate this modified video with the original
+derstanding models may utilize language priors or                    one along the spatial dimension by (1) placing the
+single-frame bias as shortcuts to obtain the correct                 faster version above or (2) placing the slower ver-
+answer, without truly understanding the temporal                     sion above, creating two conflicting videos. We
+content of a video (Huang et al., 2018; Buch et al.,                 also construct a third video by concatenating two
+2022; Sevilla-Lara et al., 2019; Lei et al., 2022;                   exactly same videos in the spatial dimension.
+Girdhar and Ramanan, 2019). Language priors is                       Temporal Concatenation. For the Event Order
+the prior knowledge learned from language model-                     aspect, we concatenate two videos along the tempo-
+ing (e.g., an ice cream is more likely to be melting                 ral dimension. Two conflicting videos are produced
+instead of freezing). Single-frame bias refers to                    by reversing the order of the two original videos,
+the reliance on static visual cues in a single frame,                creating two different sequences of events. Ad-
+which strongly correlates with the correct answer                    ditionally, we construct a third video by spatially
+(e.g., inferring the moving direction of a vehicle                   concatenating the two original videos, thereby pre-
+from its orientation in a single frame).                             senting the two events at the same time.
+
+To mitigate the impact of such shortcuts, we con-                    3.2.2 Meta-Information Collection
+struct conflicting video pairs/triplets. Within a                    Given a collected video, we convert its key infor-
+pair/triplet, the videos have the same static content,               mation into textual format. To reduce the load of
+but differ from each other in a particular temporal                  annotation, we manually annotate semi-structured
+aspect. In this manner, the very shortcut that in-                   meta-information. As Figure 1, 2 shows, each piece
+duces a correct answer for one video will inversely                  of meta-information is comprised of two parts: (1)
+lead to an incorrect answer when applied to the                      a phrase describing the subject and (2) another
+conflicting counterpart. Specifically, as depicted in                phrase describing the information related to the
+Figure 3, we propose three methods to construct                      temporal aspect of interest.
+                                                               8735
+                                                                                 Abstract         Vehicles
+                                 camera                                   Food
+            object              30                                                                       Buildings
+                  79                    fine
+                        109           48                                                 37 43
+                    Direction                                                       48            29            Plants
+                                           99
+ absolute 33                      Action          51 coarse                                         32
+
+                97 Speed                           6 other                                            69             Natural
+                                  Attribute       20 combined                170                                     Objects
+  relative 64                     Change                         People
+                       Event             96                                                      79
+                       Order                    44 size                                     42
+                          99
+                                      26                                                                 Artifacts
+                        99              color
+                    order                                                          Animals
+                     (a) Temporal Aspects.                                   (b) Static Content Categories.
+
+                  Figure 4: Distribution of videos over temporal aspects and static content categories.
+
+
+3.2.3 Instruction Collection                                     distribution of task instructions, video duration and
+With the annotated meta-information, we obtain the               answer distribution. In Appendix A.5, we present
+task instructions via a process with interleaved au-             complete data examples including the video, meta-
+tomatic generation and manual refinement. Specif-                information, static content and instructions.
+ically, we first employ ChatGPT to automatically
+                                                                 3.3   Quality Verification
+generate Multi-Choice QA instructions based on
+the meta-information. Then, these instructions are               After the data collection process described in Sec-
+checked and rectified by humans. Subsequently,                   tion 3.2, we randomly sample 200 task instructions
+we prompt ChatGPT to generate Yes/No QA, Cap-                    to verify the data quality. These instructions and
+tion Matching and Caption Generation instructions,               videos are presented to three human annotators to
+based on the manually rectified Multi-Choice QA                  perform the task. Human annotators also have the
+instructions. These instructions are also further                option to label an instruction as "Cannot Answer",
+checked and rectified by humans. More details of                 which indicates that the instruction is unreasonable.
+instruction collection and the prompts for instruc-              Among the 600 annotated results, only 5 are la-
+tion generation are shown in Appendix A.2.                       beled as "Cannot Answer". Table 2 also show that
+                                                                 the human annotators achieve near-perfect accu-
+3.2.4 Data Statistics                                            racy across most tasks and aspects, attesting to the
+We collect a total of 410 videos and 500 pieces of               high quality of the collected data. More details of
+meta-information (a video may be annotated with                  quality verification can be found in Appendix A.4.
+multiple pieces of meta-information). Figure 4                   3.4   Automatic Evaluation
+depicts the video statistics, revealing an even distri-
+bution across basic temporal aspects, with roughly               For Multi-Choice QA, Yes/No QA and Caption
+100 videos representing each aspect. The nine con-               Matching, we adopt a hybrid approach that inte-
+tent categories are also well covered by our col-                grates rule-based methods and ChatGPT to au-
+lected videos. These data distributions demonstrate              tomatically evaluate the responses generated by
+the diversity of TempCompass in terms of both                    Video LLMs. To begin with, we check whether any
+temporal aspects and static visual contents.                     candidate option (e.g., A/B/C/D, Yes/No or Cap-
+                                                                 tion A/Caption B) is explicitly mentioned in the re-
+Given a piece of meta-information, we collect mul-               sponse and compare it against the ground-truth an-
+tiple instructions for each type of task: at least 3 for         swer. Hand-crafted matching rules are specifically
+Multi-Choice QA, 2 for Yes/No QA, 3 for Caption                  designed for different types of tasks. Then, for re-
+Matching, and 4 for Caption Generation. In this                  sponses that fail to match any candidate options, we
+way, we collect a total of 7,540 instructions in our             resort to ChatGPT’s language understanding ability
+benchmark. In Appendix A.3, we show the detailed                 to determine whether they are correct based on the
+                                                              8736
+                            Baseline                  Image LLM                                                 Video LLM
+                                          LLaVA-1.5   SPHINX-v2   Qwen-VL   V-LLaVA   LLaMA-VID   mPLUG-Owl   PandaGPT   Valley    VideoChat2   V-ChatGPT   V-LLaMA   TimeChat
+                      Human      Random
+                                             13B         13B        7B         7B         7B         7B          13B      7B           7B          7B          13B       7B
+ Multi-Choice QA
+ Action                100        28.9      71.3         89.9      85.8      70.4        58.6        66.6       35.5        47.0      88.5        47.0        54.1      82.5
+ Direction             96.7       27.8      31.6         37.0      36.7      32.2        29.9        29.3       27.8        29.3      36.4        31.6        24.5      36.4
+ Speed                  90        32.1      36.0         43.2      42.3      38.2        29.3        32.2       29.3        32.5      42.0        28.4        28.1      43.2
+ Event Order           100        32.2      34.4         36.4      40.7      41.4        30.5        34.8       31.8        18.9      40.7        37.1        32.8      42.1
+ Attribute Change      100        28.5      38.9         45.1      44.8      39.9        26.0        35.4       30.9        29.9      45.5        30.9        28.5      47.2
+ Avg                   97.3       29.9      42.8         50.9      50.6      44.7        35.3        40.0       31.1        31.8      51.1        35.2        33.9      50.7
+ Match Rate             -          -        84.2         99.6      46.8      37.9        62.9        3.1         6.4        3.5      100.0        1.3         0.6       99.9
+
+ Yes/No QA
+ Action                96.7       50.0      74.7         79.1      81.4      74.3        63.0        64.4       53.0        58.1      72.8        52.5        68.1      66.2
+ Direction             83.3       50.0      48.8         51.2      51.6      51.8        48.8        50.6       49.6        52.0      53.8        50.0        46.0      51.6
+ Speed                 96.7       50.0      49.0         54.7      59.8      50.3        49.2        51.2       50.8        52.5      53.8        49.5        48.8      47.7
+ Event Order           93.3       50.0      49.5         54.5      50.8      49.2        48.4        51.3       53.7        50.3      51.3        51.0        51.8      51.0
+ Attribute Change      100        50.0      55.4         50.4      49.1      51.1        52.7        52.0       52.2        52.9      53.8        50.0        50.9      54.7
+ Avg                   94         50.0       56.4        59.1      60.0      56.4        53.0        54.4       51.8        53.5      58.0        50.7        53.7      54.7
+ Match Rate             -          -        100.0       100.0      99.8      100.0       99.1        95.6      100.0        98.7      18.8        100.0       95.1     100.0
+
+ Caption Matching
+ Action                100        50.0      86.9         89.2      90.2      88.2        72.7        56.9       56.6        15.5      65.0        64.6        73.1      75.1
+ Direction             96.7       50.0      50.8         52.0      53.5      53.8        45.6        45.3       51.4        21.4      53.8        48.6        47.4      55.7
+ Speed                 100        50.0      54.6         47.1      55.0      61.9        52.2        46.4       44.3        22.0      52.6        47.8        47.1      55.0
+ Event Order           100        50.0      55.0         53.0      60.3      57.0        49.0        49.3       55.0        28.3      53.0        49.3        52.0      58.3
+ Attribute Change      100        50.0      51.0         55.2      56.9      58.3        49.0        49.0       49.0        22.9      53.8        48.6        48.3      51.7
+ Avg                   99.3       50.0      59.5         59.2      63.1      63.7        53.6        49.3       51.3        22.0      55.6        51.8        53.5      59.1
+ Match Rate             -          -        76.7         88.7      91.6      74.3        41.9        15.8       30.7        11.2      95.3         7.5         0.1     100.0
+
+ Caption Generation
+ Action                100        28.8      67.4         67.9      62.6      50.8        53.0        46.5       23.7        24.7      54.0        40.9        54.3      56.1
+ Direction             86.7       28.4      31.9         19.0      27.8      28.7        28.0        28.2       25.7        20.4      31.0        28.4        21.3      32.8
+ Speed                 100        32.4      24.7         20.4      29.6      23.2        21.9        30.4       26.0        21.9      32.7        24.5        13.9      29.4
+ Event Order           100        32.1      33.0         37.2      34.8      38.2        35.5        31.2       29.8        35.8      34.2        31.8        38.5      38.8
+ Attribute Change      100        28.6      35.4         31.0      32.3      33.6        35.9        36.5       32.6        29.4      41.4        33.9        33.9      37.8
+ Avg                   97.3       30.0      38.4         34.9      37.3      34.8        34.8        34.4       27.5        26.3      38.5        31.8        32.2      38.9
+
+
+
+Table 2: Accuracy of MLLMs on our TempCompass benchmark. “V-” in the model names stands for “Video-”. The
+best and second-best MLLM results are bold and underlined, respectively. "Match Rate" denotes the success rate
+of matching a predicted option from the MLLM’s response using hand-crafted rules. The complete results of all
+temporal aspects are reported in Appendix D.1.
+
+
+task instruction and ground-truth answer. Details of                                       (Zhang et al., 2023), Video-ChatGPT (Maaz et al.,
+the matching rules and the prompts for LLM-based                                           2023), Valley (Luo et al., 2023), VideoChat2 (Li
+evaluation are illustrated in AppendixB.                                                   et al., 2023d), mPLUG-Owl (Ye et al., 2023),
+                                                                                           PandaGPT (Su et al., 2023), Video-LLaVA (Lin
+When it comes to the Caption Generation task, the
+                                                                                           et al., 2023a), LLaMA-VID (Li et al., 2023g),
+rule-based evaluation method is ineffective because
+                                                                                           LLaVA-v1.5 (Liu et al., 2023a), SPHINX (Lin
+almost all Video LLM responses are free-form
+                                                                                           et al., 2023b; Gao et al., 2024) and Qwen-VL-Chat
+video captions. Therefore, we solely rely on Chat-
+                                                                                           (Bai et al., 2023b). These models cover a wide
+GPT for evaluation. Specifically, we prompt Chat-
+                                                                                           range of Video LLMs and Image LLMs with dif-
+GPT to answer the corresponding Multi-Choice
+                                                                                           ferent model architectures and training strategies.
+question using the generated video caption as con-
+                                                                                           Inspired by (Li et al., 2023d), we append answer
+text. If the answer by ChatGPT is correct, then the
+                                                                                           prompts to the task instructions to guide MLLMs
+generated caption is deemed as correct and vice
+                                                                                           generating responses in the desired formats (see Ap-
+versa. The motivation is that if the Video LLM
+                                                                                           pendix C.2 for details). In addition to the MLLMs,
+selects an incorrect information to generate the cap-
+                                                                                           we also incorporate random and human baselines.
+tion, ChatGPT will consequently select an incorrect
+                                                                                           Details of the models and human baseline are de-
+option. Considering the possibility that the gener-
+                                                                                           scribed in Appendix C and Appendix A.4, respec-
+ated caption may not involve any of the provided
+                                                                                           tively.
+information, we include an extra option: “None of
+the choices are correct” in the Multi-Choice ques-
+                                                                                            4.2     Main Results
+tion. In case where ChatGPT selects this option,
+the generated caption is also deemed as incorrect.                                         Table 2 summarizes the results across the four tasks.
+                                                                                           We discuss the results from four perspectives:
+4      Experiments
+                                                                                            Overall Performance. Existing MLLMs exhibit
+4.1 Evaluated Models                                                                        poor temporal perception ability. Five Video LLMs,
+We conduct evaluation experiments on a total of                                             i.e., LLaMA-VID, Panda-GPT, Valley, Video-
+12 open-sourced state-of-the-art MLLMs, includ-                                             ChatGPT, and Video-LLaMA, fail to convincingly
+ing TimeChat (Ren et al., 2023b), Video-LLaMA                                               surpass the random baseline across all tasks. Al-
+                                                                                      8737
+though TimeChat, Video-LLaVA and VideoChat2
+                                                            Question: What is happening in the video?
+exhibit improved performance, they still fall sig-
+                                                            A. A person drops down the pineapple
+nificantly short of the human. Notably, all Video
+                                                            B. A person pushes forward the pineapple
+LLMs struggle to consistently surpass SPHINX-v2
+                                                            C. A person rotates the pineapple
+and Qwen-VL-Chat, two Image LLMs, highlight-
+                                                            D. A person picks up the pineapple
+ing a pervasive lack of temporal perception abil-
+ity in current Video LLMs. This finding echoes
+                                                            Original Video
+with VITATECS (Li et al., 2023e), which reveals
+that current video-language models barely surpass
+random guesses in a task similar to our Caption
+Matching.
+                                                            Ground-Truth: D. A person picks up the
+                                                            pineapple
+Performance Across Temporal Aspects.
+                                                            SPHINX-v2: D (✓)
+MLLMs demonstrate their highest proficiency in
+                                                            Video-LLaVA: D (✓)
+Action aspect, with the best model achieving near
+                                                            Video-ChatGPT: The best option is to pick
+90 accuracy on Multi-Choice QA and Caption
+                                                            up the pineapple. (✓)
+Matching. The reason is that the type of action can
+largely be deduced from static visual cues alone.
+                                                            Reversed Video
+This observation indicates that existing MLLMs
+already demonstrate a strong understanding
+capability of static visual information, which is
+the foundation to develop temporal perception
+capabilities. In comparison, the performance are            Ground-Truth: A. A person drops down the
+significantly worse on the remaining four aspects,          pineapple
+as they are more dependent on the temporal                  SPHINX-v2: D (✗)
+information across frames. This finding implies             Video-LLaVA: C (✗)
+that there is a pressing need for enhancing the             Video-ChatGPT: The best option would be
+current MLLMs’ capabilities in perceiving Speed,            to pick up the pineapple and place it on the
+Direction, Event Order and Attribute Change.                table. (✗)
+
+
+Performance Across Tasks. Comparing the re-
+sults across all four tasks, we can see that there    Table 3: Example of MLLM responses to a multi-choice
+exists a significant variation in performance. This   question, given a pair of conflicting videos. ✓and ✗are
+variation can be attributed to two factors. On the    assessed by our automatic evaluation method.
+one hand, the inherent complexity of the tasks
+varies, as exemplified by the performance differ-
+                                                      Ability to Respond in Desired Format. Despite
+ences between Multi-Choice QA and Caption Gen-
+                                                      the use of answer prompts, some MLLM usually
+eration. The latter generally yields worse results,
+                                                      fail to respond in the desired format, as reflected by
+because it necessitates not only selecting the cor-
+                                                      the low match rate in Table 2. This phenomenon
+rect information but also generating the caption
+                                                      demonstrates the limitation of rule-based match-
+accordingly. On the other hand, individual models
+                                                      ing in evaluating MLLM responses and underlines
+have innate strengths and weaknesses in different
+                                                      the necessity of LLM-based evaluation. We also
+tasks. For instance, Video-LLaVA takes a leading
+                                                      observe that the design of answer prompt has a non-
+place in the Speed aspect on Caption Matching,
+                                                      negligible impact on the match rate. Please refer to
+while performing not better than random in the
+                                                      Appendix D.2 for the analytical study.
+same temporal aspect on Yes/No QA and Caption
+Generation. These findings suggest that the tem-
+                                                      4.3     Qualitative Results
+poral perception ability displayed by MLLMs is
+highly dependent on the form of evaluation tasks,     Table 3 illustrates the responses from three
+which emphasizes the need to incorporate a diverse    MLLMs, given a pair of conflicting videos of the
+array of tasks in the assessment process.             Direction aspect. We can see that all three MLLMs
+                                                  8738
+         Multi-Choice    Yes/No
+                                  Caption       Caption                  4.5    Effect of the Conflicting Videos
+                                  Matching     Generation
+                                                                         Table 5 compares the performance of Image LLMs
+         99.67            98.33      99.0            79.33
+                                                                         on all videos and when excluding the constructed
+Table 4: Accuracy of the automatic evaluation results,                   conflicting videos (i.e., on the raw videos). Evi-
+benchmarked against human evaluation as ground-truth.                    dently, the Image LLMs notably outperform the
+                                                                         random baseline on raw video samples, espe-
+ Model             Multi-Choice   Yes/No
+                                            Caption       Caption        cially in Multi-Choice QA, Yes/No QA and Caption
+                                            Matching     Generation
+                                                                         Matching. This implies that, to a considerable de-
+ LLaVA-1.5
+ w/ Conflicting         35.1       50.6       52.8           31.3
+                                                                         gree, questions about raw videos can be answered
+ w/o Conflicting        41.1       52.8       57.3           33.6        by leveraging the single-frame bias and language
+ SPHINX-v2                                                               priors. With the introduction of conflicting video,
+ w/ Conflicting         40.3       52.7       51.8           26.7
+ w/o Conflicting        52.8       58.3       62.8           31.5
+                                                                         the performance of Image LLMs is clearly closer to
+ Qwen-VL-Chat
+                                                                         random baseline, effectively alleviating the impact
+ w/ Conflicting         41.0       53.2       56.4           31.0        of biases. The effect of conflicting videos is also
+ w/o Conflicting        49.0       59.5       63.5           32.9
+                                                                         illustrated by the example cases in Table 3, 20, 21,
+ Random                 30.1       50.0       50.0           30.3
+                                                                         22, 23.
+Table 5: The performance of Image LLMs w/ and w/o
+                                                                         5     Conclusions
+conflicting videos. The results are averaged over all
+temporal aspects except for the Action aspect, for which                 In this work, we propose the TempCompass bench-
+we do not construct conflicting videos.                                  mark to evaluate the temporal perception ability of
+                                                                         Video LLMs. Our benchmark introduces ten tem-
+accurately respond to the question when presented                        poral aspects and four distinct types of task formats,
+with the original video; however, they fail to deliver                   which offers a comprehensive view to investigate
+correct answers when confronted with the reversed                        the temporal perception capability. Two innova-
+version. This result indicates the inherent inabil-                      tive strategies are devised in the data collection
+ity of the models to perceive and understand the                         process, including (1) the construction of conflict-
+direction of movement. The automatic evaluation                          ing videos to mitigate the influence of single-frame
+results also showcase that our LLM-based eval-                           bias and language-priors and (2) the collaboration
+uation method is able to deal with the free-form                         of human annotation and LLM generation to effi-
+response from MLLMs. More qualitative results                            ciently collect high-quality task instructions. We
+on other temporal aspects and task formats can be                        also propose an automatic evaluation method based
+found in Appendix D.3.                                                   on ChatGPT, which is able to accurately assess the
+                                                                         free-form Video LLM responses. Based on Temp-
+4.4 Automatic Evaluation Accuracy                                        Compass, we extensively evaluate 9 SOTA Video
+To validate the reliability of the proposed automatic                    LLMs and 3 Image LLMs. Our evaluation results
+evaluation method, we compare its results with hu-                       reveal the pressing need to enhance the temporal
+man evaluation. The details of evaluation setups is                      perception ability of Video LLMs.
+described in Appendix B.3. Table 4 shows the per-
+                                                                         6     Limitations
+centage of automatic evaluation results that agree
+with human judgements, averaged over three hu-                           Despite the contributions made by TempCompass,
+man evaluators. We can see that our automatic                            this work is still limited in two perspective. First,
+evaluation method achieves very high consistency                         despite our effort in constructing the conflicting
+with humans in Multi-Choice QA, Yes/No QA and                            videos, the influence of single-frame and languages-
+Caption Matching. In terms of Caption Genera-                            priors persist. This is evident from the fact that
+tion, roughly 20% of the LLM-based evaluation                            Image LLMs continue to perform clearly above
+are inconsistent with humans. This is because the                        random baselines in specific tasks and temporal
+MLLMs may hallucinate some contents irrelevant                           aspects. Second, our automatic evaluation method
+to the video, which is hard to detect for the pure-                      encounters challenges in accurately assessing cer-
+text GPT3.5-Turbo. In Appendix D.3, we present                           tain generated video captions, which, although con-
+qualitative examples to better illustrate the pros and                   sistent with the ground-truth candidate information,
+cons of our automatic evaluation method.                                 incorporate elements of hallucinated content.
+                                                                      8739
+Acknowledgements                                          ing the “video” in video-language understanding. 2022
+                                                          IEEE/CVF Conference on Computer Vision and Pattern
+We thank all the anonymous reviewers for their            Recognition (CVPR), pages 2907–2917.
+constructive comments. This work is supported in
+                                                          Xiuyuan Chen, Yuan Lin, Yuchen Zhang, and Weiran
+part by a Huawei Research Grant, National Natural         Huang. 2023. Autoeval-video: An automatic bench-
+Science Foundation of China (No. 62176002) and            mark for assessing large vision language models
+The Fundamental Research Funds for the Central            in open-ended video question answering. ArXiv,
+Universities. Xu Sun is the corresponding author          abs/2311.14906.
+of this paper.                                            Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng,
+                                                          Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan
+                                                          Zhuang, Yonghao Zhuang, Joseph E. Gonzalez, Ion Sto-
+References                                                ica, and Eric P. Xing. 2023. Vicuna: An open-source
+                                                          chatbot impressing gpt-4 with 90%* chatgpt quality.
+Piyush Bagad, Makarand Tapaswi, and Cees G. M.
+Snoek. 2023. Test of time: Instilling video-language      Wenliang Dai, Junnan Li, Dongxu Li, Anthony
+models with a sense of time. 2023 IEEE/CVF Con-           Meng Huat Tiong, Junqi Zhao, Weisheng Wang,
+ference on Computer Vision and Pattern Recognition        Boyang Albert Li, Pascale Fung, and Steven C. H.
+(CVPR), pages 2503–2516.                                  Hoi. 2023. Instructblip: Towards general-purpose
+                                                          vision-language models with instruction tuning. ArXiv,
+Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, Kai Dang,     abs/2305.06500.
+Xiaodong Deng, Yang Fan, Wenhang Ge, Yu Han, Fei
+Huang, Binyuan Hui, Luo Ji, Mei Li, Junyang Lin, Runji    Alexey Dosovitskiy, Lucas Beyer, Alexander
+Lin, Dayiheng Liu, Gao Liu, Chengqiang Lu, K. Lu,         Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas
+Jianxin Ma, Rui Men, Xingzhang Ren, Xuancheng Ren,        Unterthiner, Mostafa Dehghani, Matthias Minderer,
+Chuanqi Tan, Sinan Tan, Jianhong Tu, Peng Wang, Shi-      Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and
+jie Wang, Wei Wang, Shengguang Wu, Benfeng Xu,            Neil Houlsby. 2020. An image is worth 16x16 words:
+Jin Xu, An Yang, Hao Yang, Jian Yang, Jian Yang,          Transformers for image recognition at scale. ArXiv,
+Shusheng Yang, Yang Yao, Bowen Yu, Yu Bowen,              abs/2010.11929.
+Hongyi Yuan, Zheng Yuan, Jianwei Zhang, Xing Zhang,
+Yichang Zhang, Zhenru Zhang, Chang Zhou, Jingren          Yuxin Fang, Wen Wang, Binhui Xie, Quan-Sen Sun,
+Zhou, Xiaohuan Zhou, and Tianhang Zhu. 2023a. Qwen        Ledell Yu Wu, Xinggang Wang, Tiejun Huang, Xinlong
+technical report. ArXiv, abs/2309.16609.                  Wang, and Yue Cao. 2022. Eva: Exploring the limits
+                                                          of masked visual representation learning at scale. 2023
+Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang,         IEEE/CVF Conference on Computer Vision and Pattern
+Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, and        Recognition (CVPR), pages 19358–19369.
+Jingren Zhou. 2023b. Qwen-vl: A versatile vision-
+language model for understanding, localization, text      Chaoyou Fu, Peixian Chen, Yunhang Shen, Yulei Qin,
+reading, and beyond. ArXiv, abs/2308.12966.               Mengdan Zhang, Xu Lin, Zhenyu Qiu, Wei Lin, Jinrui
+                                                          Yang, Xiawu Zheng, Ke Li, Xing Sun, and Rongrong
+Shuai Bai, Shusheng Yang, Jinze Bai, Peng Wang, Xing      Ji. 2023. Mme: A comprehensive evaluation bench-
+Zhang, Junyang Lin, Xinggang Wang, Chang Zhou,            mark for multimodal large language models. ArXiv,
+and Jingren Zhou. 2023c. Touchstone: Evaluating           abs/2306.13394.
+vision-language models by language models. ArXiv,
+abs/2308.16890.                                           Peng Gao, Renrui Zhang, Chris Liu, Longtian Qiu,
+                                                          Siyuan Huang, Weifeng Lin, Shitian Zhao, Shijie Geng,
+Max Bain, Arsha Nagrani, Gül Varol, and Andrew Zis-       Ziyi Lin, Peng Jin, Kaipeng Zhang, Wenqi Shao, Chao
+serman. 2021. Frozen in time: A joint video and image     Xu, Conghui He, Junjun He, Hao Shao, Pan Lu, Hong-
+encoder for end-to-end retrieval. 2021 IEEE/CVF Inter-    sheng Li, and Yu Qiao. 2024. Sphinx-x: Scaling data
+national Conference on Computer Vision (ICCV), pages      and parameters for a family of multi-modal large lan-
+1708–1718.                                                guage models. ArXiv, abs/2402.05935.
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie          Rohit Girdhar, Alaaeldin El-Nouby, Zhuang Liu, Man-
+Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind          nat Singh, Kalyan Vasudev Alwala, Armand Joulin, and
+Neelakantan, Pranav Shyam, Girish Sastry, Amanda          Ishan Misra. 2023. Imagebind one embedding space
+Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen    to bind them all. 2023 IEEE/CVF Conference on Com-
+Krueger, Tom Henighan, Rewon Child, Aditya Ramesh,        puter Vision and Pattern Recognition (CVPR), pages
+Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christo-   15180–15190.
+pher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin,
+Scott Gray, Benjamin Chess, Jack Clark, Christopher       Rohit Girdhar and Deva Ramanan. 2019. Cater: A di-
+Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,     agnostic dataset for compositional actions and temporal
+and Dario Amodei. 2020. Language models are few-          reasoning. ArXiv, abs/1910.04744.
+shot learners. In NeurIPS.
+                                                          Raghav Goyal, Samira Ebrahimi Kahou, Vincent
+S. Buch, Cristobal Eyzaguirre, Adrien Gaidon, Jiajun      Michalski, Joanna Materzynska, Susanne Westphal, He-
+Wu, Li Fei-Fei, and Juan Carlos Niebles. 2022. Revisit-   una Kim, Valentin Haenel, Ingo Fründ, Peter N. Yiani-
+                                                      8740
+los, Moritz Mueller-Freitag, Florian Hoppe, Christian      comprehensive multi-modal video understanding bench-
+Thurau, Ingo Bax, and Roland Memisevic. 2017. The          mark. ArXiv, abs/2311.17005.
+“something something” video database for learning and
+evaluating visual common sense. 2017 IEEE Interna-         Shicheng Li, Lei Li, Shuhuai Ren, Yuanxin Liu, Yi Liu,
+tional Conference on Computer Vision (ICCV), pages         Rundong Gao, Xu Sun, and Lu Hou. 2023e. Vitatecs: A
+5843–5851.                                                 diagnostic dataset for temporal concept understanding
+                                                           of video-language models. ArXiv, abs/2311.17404.
+Lisa Anne Hendricks, Oliver Wang, Eli Shechtman,
+Josef Sivic, Trevor Darrell, and Bryan C. Russell. 2018.   Shuailin Li, Yuang Zhang, Yucheng Zhao, Qiuyue
+Localizing moments in video with temporal language.        Wang, Fan Jia, Yingfei Liu, and Tiancai Wang. 2023f.
+In EMNLP, pages 1380–1390. Association for Compu-          Vlm-eval: A general evaluation on video large language
+tational Linguistics.                                      models. ArXiv, abs/2311.11865.
+
+J. Edward Hu, Yelong Shen, Phillip Wallis, Zeyuan          Yanwei Li, Chengyao Wang, and Jiaya Jia. 2023g.
+Allen-Zhu, Yuanzhi Li, Shean Wang, and Weizhu Chen.        Llama-vid: An image is worth 2 tokens in large lan-
+2021. Lora: Low-rank adaptation of large language          guage models. ArXiv, abs/2311.17043.
+models. ArXiv, abs/2106.09685.                             Bin Lin, Bin Zhu, Yang Ye, Munan Ning, Peng Jin, and
+De-An Huang, Vignesh Ramanathan, Dhruv Kumar Ma-           Li Yuan. 2023a. Video-llava: Learning united visual
+hajan, Lorenzo Torresani, Manohar Paluri, Li Fei-Fei,      representation by alignment before projection. ArXiv,
+and Juan Carlos Niebles. 2018. What makes a video          abs/2311.10122.
+a video: Analyzing temporal information in video un-       Ziyi Lin, Chris Liu, Renrui Zhang, Peng Gao, Longtian
+derstanding models and datasets. 2018 IEEE/CVF Con-        Qiu, Han Xiao, Han Qiu, Chen Lin, Wenqi Shao, Ke-
+ference on Computer Vision and Pattern Recognition,        qin Chen, Jiaming Han, Siyuan Huang, Yichi Zhang,
+pages 7366–7375.                                           Xuming He, Hongsheng Li, and Yu Jiao Qiao. 2023b.
+                                                           Sphinx: The joint mixing of weights, tasks, and vi-
+Y. Jang, Yale Song, Youngjae Yu, Youngjin Kim, and
+                                                           sual embeddings for multi-modal large language models.
+Gunhee Kim. 2017. Tgif-qa: Toward spatio-temporal
+                                                           ArXiv, abs/2311.07575.
+reasoning in visual question answering. 2017 IEEE
+Conference on Computer Vision and Pattern Recogni-         Haotian Liu, Chunyuan Li, Yuheng Li, and Yong Jae
+tion (CVPR), pages 1359–1367.                              Lee. 2023a. Improved baselines with visual instruction
+                                                           tuning. ArXiv, abs/2310.03744.
+Peng Jin, Ryuichi Takanobu, Caiwan Zhang, Xiaochun
+Cao, and Li Yuan. 2023. Chat-univi: Unified visual rep-    Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae
+resentation empowers large language models with image      Lee. 2023b.     Visual instruction tuning.   ArXiv,
+and video understanding. ArXiv, abs/2311.08046.            abs/2304.08485.
+Ilker Kesen, Andrea Pedrotti, Mustafa Dogan, Michele       Ye Liu, Siyuan Li, Yang Wu, Chang Wen Chen, Ying
+Cafagna, Emre Can Acikgoz, Letitia Parcalabescu, Iacer     Shan, and Xiaohu Qie. 2022a. Umt: Unified multi-
+Calixto, Anette Frank, Albert Gatt, Aykut Erdem, and       modal transformers for joint video moment retrieval
+Erkut Erdem. 2024. Vilma: A zero-shot benchmark for        and highlight detection. 2022 IEEE/CVF Conference
+linguistic and temporal grounding in video-language        on Computer Vision and Pattern Recognition (CVPR),
+models. In International Conference on Learning Rep-       pages 3032–3041.
+resentations (ICLR).
+                                                           Yuanzhan Liu, Haodong Duan, Yuanhan Zhang, Bo Li,
+Jie Lei, Tamara L. Berg, and Mohit Bansal. 2022. Re-       Songyang Zhang, Wangbo Zhao, Yike Yuan, Jiaqi Wang,
+vealing single frame bias for video-and-language learn-    Conghui He, Ziwei Liu, Kai Chen, and Dahua Lin.
+ing. ArXiv, abs/2206.03428.                                2023c. Mmbench: Is your multi-modal model an all-
+                                                           around player? ArXiv, abs/2307.06281.
+Bohao Li, Rui Wang, Guangzhi Wang, Yuying Ge, Yix-
+iao Ge, and Ying Shan. 2023a. Seed-bench: Bench-           Zhuang Liu, Hanzi Mao, Chaozheng Wu, Christoph
+marking multimodal llms with generative comprehen-         Feichtenhofer, Trevor Darrell, and Saining Xie. 2022b.
+sion. ArXiv, abs/2307.16125.                               A convnet for the 2020s. 2022 IEEE/CVF Conference
+                                                           on Computer Vision and Pattern Recognition (CVPR),
+Junnan Li, Dongxu Li, Silvio Savarese, and Steven C. H.    pages 11966–11976.
+Hoi. 2023b. Blip-2: Bootstrapping language-image pre-
+training with frozen image encoders and large language     Ruipu Luo, Ziwang Zhao, Min Yang, Junwei Dong,
+models. In International Conference on Machine Learn-      Ming-Hui Qiu, Pengcheng Lu, Tao Wang, and Zhongyu
+ing.                                                       Wei. 2023. Valley: Video assistant with large language
+                                                           model enhanced ability. ArXiv, abs/2306.07207.
+Kunchang Li, Yinan He, Yi Wang, Yizhuo Li, Wen
+Wang, Ping Luo, Yali Wang, Limin Wang, and Yu Qiao.        Muhammad Maaz, Hanoona Abdul Rasheed, Salman
+2023c. Videochat: Chat-centric video understanding.        Khan, and Fahad Shahbaz Khan. 2023. Video-chatgpt:
+ArXiv, abs/2305.06355.                                     Towards detailed video understanding via large vision
+                                                           and language models. ArXiv, abs/2306.05424.
+Kunchang Li, Yali Wang, Yinan He, Yizhuo Li,
+Yi Wang, Yi Liu, Zun Wang, Jilan Xu, Guo Chen, Ping        Munan Ning, Bin Zhu, Yujia Xie, Bin Lin, Jiaxi Cui,
+Luo, Limin Wang, and Yu Qiao. 2023d. Mvbench: A            Lu Yuan, Dongdong Chen, and Li Yuan. 2023. Video-
+                                                       8741
+bench: A comprehensive benchmark and toolkit for           Tatsunori B. Hashimoto. 2023. Stanford alpaca: An
+evaluating video-based large language models. ArXiv,       instruction-following llama model.
+abs/2311.16103.
+                                                           Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier
+OpenAI. 2022. Introducing chatgpt. CoRR.                   Martinet, Marie-Anne Lachaux, Timothée Lacroix,
+                                                           Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal
+Maxime Oquab, Timoth’ee Darcet, Théo Moutakanni,           Azhar, Aurelien Rodriguez, Armand Joulin, Edouard
+Huy Q. Vo, Marc Szafraniec, Vasil Khalidov, Pierre         Grave, and Guillaume Lample. 2023a. Llama: Open
+Fernandez, Daniel Haziza, Francisco Massa, Alaaeldin       and efficient foundation language models. ArXiv,
+El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech         abs/2302.13971.
+Galuba, Russ Howes, Po-Yao (Bernie) Huang, Shang-
+Wen Li, Ishan Misra, Michael G. Rabbat, Vasu Sharma,       Hugo Touvron, Louis Martin, Kevin R. Stone, Peter
+Gabriel Synnaeve, Huijiao Xu, Hervé Jégou, Julien          Albert, Amjad Almahairi, Yasmine Babaei, Nikolay
+Mairal, Patrick Labatut, Armand Joulin, and Piotr Bo-      Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti
+janowski. 2023. Dinov2: Learning robust visual fea-        Bhosale, Daniel M. Bikel, Lukas Blecher, Cristian Can-
+tures without supervision. ArXiv, abs/2304.07193.          tón Ferrer, Moya Chen, Guillem Cucurull, David Esiobu,
+                                                           Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller,
+Viorica Puatruaucean, Lucas Smaira, Ankush Gupta,          Cynthia Gao, Vedanuj Goswami, Naman Goyal, An-
+Adrià Recasens Continente, Larisa Markeeva, Dylan S.       thony S. Hartshorn, Saghar Hosseini, Rui Hou, Hakan
+Banarse, Skanda Koppula, Joseph Heyward, Mateusz           Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa,
+Malinowski, Yezhou Yang, Carl Doersch, Tatiana Mate-       Isabel M. Kloumann, A. V. Korenev, Punit Singh Koura,
+jovicova, Yury Sulsky, Antoine Miech, Alexander            Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Di-
+Fréchette, Hanna Klimczak, R. Koster, Junlin Zhang,        ana Liskovich, Yinghai Lu, Yuning Mao, Xavier Mar-
+Stephanie Winkler, Yusuf Aytar, Simon Osindero, Dima       tinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog,
+Damen, Andrew Zisserman, and João Carreira. 2023.          Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi
+Perception test: A diagnostic benchmark for multimodal     Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva,
+video models. ArXiv, abs/2305.13786.                       Eric Michael Smith, R. Subramanian, Xia Tan, Binh
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya         Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan,
+Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry,      Puxin Xu, Zhengxu Yan, Iliyan Zarov, Yuchen Zhang,
+Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen        Angela Fan, Melanie Kambadur, Sharan Narang, Au-
+Krueger, and Ilya Sutskever. 2021. Learning transfer-      relien Rodriguez, Robert Stojnic, Sergey Edunov, and
+able visual models from natural language supervision.      Thomas Scialom. 2023b. Llama 2: Open foundation
+In International Conference on Machine Learning.           and fine-tuned chat models. ArXiv, abs/2307.09288.
+
+Shuhuai Ren, Sishuo Chen, Shicheng Li, Xu Sun, and         Chenfei Wu, Sheng-Kai Yin, Weizhen Qi, Xiaodong
+Lu Hou. 2023a. Testa: Temporal-spatial token ag-           Wang, Zecheng Tang, and Nan Duan. 2023. Visual chat-
+gregation for long-form video-language understanding.      gpt: Talking, drawing and editing with visual foundation
+ArXiv, abs/2310.19060.                                     models. ArXiv, abs/2303.04671.
+
+Shuhuai Ren, Linli Yao, Shicheng Li, Xu Sun, and           Junbin Xiao, Xindi Shang, Angela Yao, and Tat
+Lu Hou. 2023b. Timechat: A time-sensitive multi-           seng Chua. 2021. Next-qa: Next phase of question-
+modal large language model for long video understand-      answering to explaining temporal actions. 2021
+ing. ArXiv, abs/2312.02051.                                IEEE/CVF Conference on Computer Vision and Pattern
+                                                           Recognition (CVPR), pages 9772–9781.
+Laura Sevilla-Lara, Shengxin Zha, Zhicheng Yan,
+Vedanuj Goswami, Matt Feiszli, and Lorenzo Torre-          D. Xu, Zhou Zhao, Jun Xiao, Fei Wu, Hanwang Zhang,
+sani. 2019. Only time can tell: Discovering temporal       Xiangnan He, and Yueting Zhuang. 2017. Video ques-
+data for temporal modeling. 2021 IEEE Winter Con-          tion answering via gradually refined attention over ap-
+ference on Applications of Computer Vision (WACV),         pearance and motion. Proceedings of the 25th ACM
+pages 535–544.                                             international conference on Multimedia.
+
+Yongliang Shen, Kaitao Song, Xu Tan, Dong Sheng Li,        Peng Xu, Wenqi Shao, Kaipeng Zhang, Peng Gao, Shuo
+Weiming Lu, and Yue Ting Zhuang. 2023. Hugginggpt:         Liu, Meng Lei, Fanqing Meng, Siyuan Huang, Yu Jiao
+Solving ai tasks with chatgpt and its friends in hugging   Qiao, and Ping Luo. 2023. Lvlm-ehub: A comprehen-
+face. ArXiv, abs/2303.17580.                               sive evaluation benchmark for large vision-language
+                                                           models. ArXiv, abs/2306.09265.
+Yixuan Su, Tian Lan, Huayang Li, Jialu Xu, Yan
+Wang, and Deng Cai. 2023. Pandagpt: One model              Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin,
+to instruction-follow them all. ArXiv, abs/2305.16355.     Ehsan Azarnasab, Faisal Ahmed, Zicheng Liu, Ce Liu,
+                                                           Michael Zeng, and Lijuan Wang. 2023. Mm-react:
+D’idac Sur’is, Sachit Menon, and Carl Vondrick. 2023.      Prompting chatgpt for multimodal reasoning and action.
+Vipergpt: Visual inference via python execution for        ArXiv, abs/2303.11381.
+reasoning. 2023 IEEE/CVF International Conference
+on Computer Vision (ICCV), pages 11854–11864.              Qinghao Ye, Haiyang Xu, Guohai Xu, Jiabo Ye, Ming
+                                                           Yan, Yi Zhou, Junyan Wang, Anwen Hu, Pengcheng
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann          Shi, Yaya Shi, Chenliang Li, Yuanhong Xu, Hehong
+Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and      Chen, Junfeng Tian, Qiang Qi, Ji Zhang, and Feiyan
+                                                       8742
+Huang. 2023. mplug-owl: Modularization empow-                   3. Generating instructions for the other three
+ers large language models with multimodality. ArXiv,               tasks based on manually rectified Multi-
+abs/2304.14178.
+                                                                   Choice QA instructions, using ChatGPT.
+Kexin Yi, Chuang Gan, Yunzhu Li, Pushmeet Kohli,
+Jiajun Wu, Antonio Torralba, and Joshua B. Tenenbaum.           4. Manually review and rectify the generated in-
+2020. CLEVRER: collision events for video representa-              structions.
+tion and reasoning. In ICLR. OpenReview.net.
+Weihao Yu, Zhengyuan Yang, Linjie Li, Jianfeng               The detailed collection process for each type of
+Wang, Kevin Lin, Zicheng Liu, Xinchao Wang, and              task is described as follows:
+Lijuan Wang. 2023. Mm-vet: Evaluating large mul-
+timodal models for integrated capabilities. ArXiv,
+abs/2308.02490.                                              Multi-Choice QA The task instructions are
+                                                             directly generated from the annotated meta-
+Zhou Yu, Dejing Xu, Jun Yu, Ting Yu, Zhou Zhao,
+Yueting Zhuang, and Dacheng Tao. 2019. Activitynet-          information. We also design some in-context
+qa: A dataset for understanding complex web videos via       learning examples to help ChatGPT better under-
+question answering. In AAAI, pages 9127–9134. AAAI           stand the task to accomplish. The detailed prompt
+Press.                                                       is shown in Table 12. For each piece of meta-
+Hang Zhang, Xin Li, and Lidong Bing. 2023. Video-            information, we prompt ChatGPT to generate five
+llama: An instruction-tuned audio-visual language            Multi-Choice QA instructions. To prevent bias to-
+model for video understanding. ArXiv, abs/2306.02858.        wards any specific option position, we randomly
+Bin Zhu, Bin Lin, Munan Ning, Yang Yan, Jiaxi Cui,           shuffle the order of the options. Following this step,
+HongFa Wang, Yatian Pang, Wenhao Jiang, Junwu                the generated instructions undergo meticulous re-
+Zhang, Zongwei Li, Wancai Zhang, Zhifeng Li, Wei             view and refinement by the authors, ensuring that
+Liu, and Liejie Yuan. 2023a. Languagebind: Extending
+video-language pretraining to n-modality by language-        a minimum of three high-quality instructions are
+based semantic alignment. ArXiv, abs/2310.01852.             retained within in the benchmark.
+Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, and
+Mohamed Elhoseiny. 2023b. Minigpt-4: Enhancing               Yes/No QA. Based on the manually rectified
+vision-language understanding with advanced large lan-       Multi-Choice QA questions, we prompt ChatGPT
+guage models. ArXiv, abs/2304.10592.                         to directly generate an equal number of Positive
+                                                             and Negative questions, as shown in Table 13.
+A       More Details of Data
+A.1 Static Contents                                          Caption Matching. Based on the manually rec-
+                                                             tified Multi-Choice QA questions, we first prompt
+Our benchmark covers nine categories of static               ChatGPT to generate a True caption and three False
+contents, including people, animals, plants, food,           captions, which are subsequently integrated into
+natural objects, vehicles, artifacts, buildings, ab-         several templates to construct the task instructions.
+stract. Natural objects denotes lifeless natural ob-         To eliminate bias stemming from caption position,
+jects and scenery. Artifacts encompasses human-              we randomize the sequence in which True and
+made objects, excluding large-size objects like ve-          False captions are displayed for each instruction.
+hicles and buildings. Abstract refers to abstract            The caption generation prompt and instruction tem-
+geometric shapes and symbols. For better under-              plates are shown in Table 14.
+standing, please refer to the example videos with
+annotated categories in Table 16,17,18,19.
+                                                             Caption Generation. As shown in Table 15, the
+A.2 Instruction Collection                                   instructions for this task consists of a task descrip-
+                                                             tion and several pieces of information similar to
+We collect the task instructions in four steps:              the meta-information. We first manually compose
+    1. Generating Multi-Choice QA instructions               a task description and paraphrase it using ChatGPT.
+       based on meta-information, using ChatGPT.             Then, an instruction "Ensure that the generated
+                                                             video caption is brief" is appended to the two task
+    2. Manually review and rectify 2 the generated           descriptions, resulting in four task descriptions in
+       Multi-Choice QA instructions.                         total. The candidate information are derived from
+    2
+    All human annotation and evaluation in this study were   the meta-information and the manually rectified
+done by the authors.                                         Multi-Choice question.
+                                                         8743
+          Multi-Choicecamera
+                        QA(1580)                                           Yes/No
+                                                                             camera
+                                                                                    QA(2453)
+                             92                                                    148           fine
+           object243                 153fine                        object346
+                                                                                               269
+                    335                                                       494
+                 Direction              338                                 Direction          592
+                                  Action    185coarse                                     Action   323coarse
+  absolute124
+                                                            absolute189
+              317Speed      Attribute 60  18 other
+                                            combined
+                                                                             Speed       Attribute 100  24 other
+                                                                                                          combined
+                            Change                                         537           Change
+    relative193      Event         288                                            Event         448
+                     Order            132size                    relative348      Order             188size
+                        302       78color                                            382       136color
+                       302                                                          382
+                   order                                                         order
+
+
+        Caption Matching(1503)
+                    camera
+                                                                  Caption Generation(2004)
+                                                                               camera
+            object237         90                                        object316        120
+                                      144fine                                                     192fine
+                     327                                                         436
+                 Direction              297                                  Direction          396
+   absolute 99                    Action    153coarse        absolute132                  Action    204coarse
+              291Speed     Attribute 18 other                             388Speed     Attribute 24 other
+                           Change       60 combined                                    Change        80 combined
+   relative192       Event                                     relative256       Event
+                     Order       288                                             Order        384
+                                    132size                                                      176size
+                       300                                                         400
+                                78color                                                     104color
+                      300                                                         400
+                  order                                                       order
+
+
+                        Figure 5: Distribution of task instructions over the temporal aspects.
+
+
+A.3 Data Statistics                                          Video Duration. Figure 7 shows the distribution
+                                                             of video duration. Our benchmark primarily fo-
+Task Instructions. Figure 5 presents the distri-             cuses on short and medium-length videos within
+bution of task instructions. We can see that each            30 seconds.
+type of task involves at least 1,500 instructions and
+every basic temporal aspect has a balanced number            A.4 Quality Verification and Human Baseline
+of these instructions.
+                                                             We randomly sample 200 task instructions, with
+                                                             a balanced distribution of 10 instructions for each
+Answers. As can be seen in Figure 6, the distribu-           temporal aspect across every task (i.e., 50 instruc-
+tion of ground-truth answers within our benchmark            tions per task). For Multi-Choice QA, Yes/No QA
+dataset is balanced across all options. An excep-            and Caption Matching, human annotators are di-
+tion is the option "D" in Multi-Choice QA, which             rectly asked to select an option, instead of gen-
+appears less frequently compared to the other three          erating a free-form answer as the MLLMs. The
+options. This is because not all Multi-Choice ques-          selected option is then compared with the ground-
+tion includes four options. when we restrict our             truth answer. For Caption Generation, human an-
+analysis to questions that offer exactly four options        notators follow the same instructions presented to
+(a total of 675 instances), the frequency of "D"             MLLMs to generate video captions, which are then
+as the correct answer (occurring 157 times) aligns           evaluated in the manner described in Appendix B.
+closely with the frequencies of the remaining three          In addition to performing the task, human annota-
+options.                                                     tors have another option to label a task instruction
+                                                        8744
+                           Multi-Choice QA                        Yes/No QA                     Caption Matching
+           1200
+           1000
+            800
+# Answer
+
+
+
+
+            600
+            400
+            200
+                0
+                     A        B        C        D           yes               no           CA    SA   O1   CB    SB   O2
+
+Figure 6: Distribution of answers. CA, CB, SA, SB, O1, O2 stand for Caption A, Caption B, Sentence A, Sentence
+B, Option 1, Option 2, respectively.
+
+
+           60                                                        while, the variation in performance across different
+                                                                     task formats cannot be reflected by most current
+           50                                                        benchmarks. While Perception Test considers both
+                                                                     multiple task formats and temporal aspects, it is
+           40
+# Videos
+
+
+
+
+                                                                     constrained to indoor videos that focusing on peo-
+           30                                                        ple and artifacts. In comparison, our proposed
+                                                                     TempCompass uniquely stands out by emphasiz-
+           20
+                                                                     ing a rich variety of temporal dimensions, diverse
+           10                                                        task formats and open-domain videos. This design
+                                                                     enables TempCompass to provide a more holistic
+            0
+                0     5     10    15       20   25   30     35       assessment of Video LLM’s temporal perception
+                          Video Duration (seconds)                   capabilities.
+
+                Figure 7: Distribution of video duration.            It is worth noting that the definition of temporal
+                                                                     aspects and task formats vary among different stud-
+                                                                     ies. For the sake of clarity, we unify their naming
+as "Cannot Answer". In this case, the answer is                      in Table 6. Here we explain some definitions as
+considered as incorrect when evaluating the human                    follows:
+performance. Figure 8 shows the interface to col-
+lect human answers. The final results are obtained                   Temporal Aspects. "Repetition" measures the
+by averaging among three human annotators.                           ability to count the number of repeating activi-
+                                                                     ties. "Object Interaction" focuses on the relation-
+A.5 Data Examples                                                    ship between different objects participating in the
+Table 16,17,18,19 illustrate complete data exam-                     same event. "Temporal Localization" require the
+ples in our benchmark. Each example contains the                     model to identify the temporal position of specific
+video, meta-information, static content categories                   events in the video. "X Change" encompasses vari-
+and task instructions.                                               ous changes over time, including attribute change,
+                                                                     scene change, etc.
+A.6 Comparison With Related Benchmarks                               Task Formats. "Free-form QA" may involve dif-
+Table 6 summarizes the specific temporal aspects                     ferent formats of task instructions but a proper
+and task formats involved in related benchmarks.                     categorization is not provided in the benchmark.
+We can see that the majority of existing bench-                      In "Action Recognition", the model is required
+marks lack a comprehensive categorization of tem-                    to classify videos into a predetermined set of ac-
+poral aspects. By contrast, VITATECS, Perception                     tions. Notably, the original SSv2 dataset does not
+Test, ViLMA and MVBench introduce a variety                          offer explicit task instructions for this classification
+of temporal aspects, which are complementary to                      process. "Grounded Video QA" demands that the
+the ones presented in our TempCompass. Mean-                         model tracks the objects meeting specific condi-
+                                                                  8745
+ Benchmark                                             Temporal Aspects                  Task Formats             Open Domain
+ Conventional Video Understanding Benchmarks
+   MSVD-QA (Xu et al., 2017)                                    -                       Free-form QA                  ✓
+   MSRVTT-QA (Xu et al., 2017)                                  -                       Free-form QA                  ✓
+   TGIF-QA (Jang et al., 2017)                       Repetition,Event Order             Free-form QA                  ✓
+   SSv2 (Goyal et al., 2017)                                    -                     Action Recognition              ✗
+   SSv2-label (Lei et al., 2022)                                -                     Caption Matching                ✗
+   CLEVRER (Yi et al., 2020)                                    -                    MC QA,Free-form QA               ✗
+   ActivityNet-QA (Yu et al., 2019)                   Action,Event Order                Free-form QA                  ✗
+
+    NEXT-QA (Xiao et al., 2021)                       Action,Event Order             MC QA,Free-form QA               ✗
+
+                                                       Action,Direction,
+    ViLMA (Kesen et al., 2024)                                                         Caption Matching               ✓
+                                                      X Change,Repetition
+
+                                                      Action,Event Order,
+    VITATECS (Li et al., 2023e)                         Speed,Direction                Caption Matching               ✓
+                                                       Object Interaction
+
+                                                    Event Order,Repetition,       MC QA,Grounded Video QA
+    Perception Test (Puatruaucean et al., 2023)    Direction,Action,X Change     Object Tracking,Point Tracking       ✗
+                                                     Temporal Localization            Action Localization
+ Video LLM Benchmarks
+   SEEDBench (Li et al., 2023a)                       Action,Event Order                    MC QA                     ✗
+   Video-Bench (Ning et al., 2023)                            -                             MC QA                     ✓
+
+                                                                                    Free-form QA,Retrieval,
+    VLM-Eval (Li et al., 2023f)                                -                                                      ✓
+                                                                                      Caption Generation
+
+                                                     Event Order,Direction,
+    AutoEval-Video (Chen et al., 2023)                                                   Free-form QA                 ✓
+                                                       Attribute Change
+
+                                                  Action,Repetition,Direction,
+                                                    Temporal Localization,
+    MVBench (Li et al., 2023d)                                                              MC QA                     ✓
+                                                    X Change,Event Order
+                                                       Object Interaction
+                                                                                       MC QA,Y/N QA,
+                                                     Action,Speed,Direction,
+    TempCompass (Ours)                                                                Caption Matching,               ✓
+                                                  Attribute Change,Event Order
+                                                                                      Caption Generation
+
+Table 6: Comparison with related benchmarks. The temporal aspects focus on basic temporal perception ability
+while excluding the aspects that require reasoning skills. "MC QA" and "Y/N QA" represent multi-choice QA and
+Yes/No QA, respectively. Video LLMs cannot be directly tested on the gray task formats because they lack textual
+task instructions. Detailed definition of some temporal aspects and task formats are explained in Appendix A.6.
+
+
+tions by pinpointing them within bounding boxes                    complete option (e.g., "A. melting") or the option
+throughout the video. "Object Tracking" and "Point                 indicator (e.g., "A"). For Caption Matching, we
+Tracking" require tracking the bounding boxes and                  match the Video LLM response with the complete
+points, without providing a textual task instruction.              option (e.g., "Caption A: Ice cream is melting."),
+"Retrieval" encompasses text-to-video (T2V) re-                    the option sentence (e.g., "Ice cream is melting.")
+trieval and video-to-text (V2T) retrieval. Taking                  or the option indicator (e.g., "Caption A"). In terms
+V2T as example, the Video LLM first generates                      of Yes/No QA, we check if the Video LLM response
+a description of the video, which is then used to                  starts with "yes" or "no". Once the Video LLM re-
+retrieve the relevant texts.                                       sponse has been mapped to a specific option, we
+                                                                   proceed by comparing that chosen option with the
+B     More Details of Evaluation Setups                            ground-truth answer to assess the correctness of
+                                                                   the response.
+B.1    Rule-based Evaluation
+For Multi-Choice QA, we map the Video LLM re-
+sponse to an option if the response matches with the
+                                                             8746
+Figure 8: Screenshot of the interface to collect human
+answers.
+
+
+B.2   LLM-based Evaluation                               Figure 9: Screenshot of the human evaluation interface.
+
+If a Video LLM response fails to match any of the
+options, we resort to LLM-based evaluation. For          incorrect if it (1) describes other candidate infor-
+Multi-Choice QA, Yes/No QA and Caption Match-            mation instead of the "Ground-Truth Answer", (2)
+ing, we present task instruction, Video LLM re-          describes none of the candidate information, (3)
+sponse and ground-truth answer to ChatGPT and            describes contents that are inconsistent with the
+prompt it to determine whether the response is cor-      video (e.g., hallucination), or (4) fail to generate a
+rect. The detailed prompts are shown in Table 10.        video description. Figure 9 illustrates the interface
+                                                         used in our human evaluations.
+Regarding the task of Caption Generation, we en-
+gage ChatGPT to tackle the corresponding Multi-          C     More Details of Evaluated Models
+Choice QA task, using the caption generated by
+Video LLM contextual reference, as described in          C.1    Model Architecture
+Section 3.4. To enhance the accuracy of Chat-            We evaluate the performance of nine Video LLMs
+GPT in answering the Multi-Choice questions, we          and three Image LLMs on TempCompass. All
+present it with several in-context learning exam-        the evaluated models follow the prevalent MLLM
+ples and prompt it to generate an extra reasoning        paradigm and contain three primary components: a
+step prior to obtaining the final answer. Table 11       visual encoder, a vision-language connector, and an
+presents a clear illustration of the prompt structure    LLM. The details of these methods are as follows.
+used in this process.
+                                                         TimeChat (Ren et al., 2023b) introduces a time-
+B.3   Human Evaluation                                   sensitive frame encoder (ViT (Dosovitskiy et al.,
+                                                         2020) + Q-Former) to encode timestamp knowl-
+To conduct human evaluation, we randomly sam-
+                                                         edge into visual tokens, then uses a sliding video
+ple 400 responses from SPHINX-v2 and Video-
+                                                         Q-Former to aggregate the representations of indi-
+LLaVA, ensuring that each of the four tasks con-
+                                                         vidual frames. It takes LLaMA-2-7B as the LLM
+tains an equal share of 100 samples. The video,
+                                                         backbone.
+MLLM response, task instruction and ground-truth
+answer are presented to three human annotators,          Video-LLaMA (Zhang et al., 2023) employs the
+who then assign binary labels indicating the cor-        same visual encoder as used in BLIP-2 (Li et al.,
+rectness of the MLLM response. For the Caption           2023b) (ViT (Dosovitskiy et al., 2020) + Q-Former)
+Generation task, an MLLM response is deemed as           and introduces a trainable video Q-Former to ag-
+                                                     8747
+gregate the representations of individual frames.       Bind (Zhu et al., 2023a) to encode visual inputs
+Both the vision encoder and the LLM are frozen          and a linear layer to project visual features into the
+during training. We choose “Video-LLaMA-2-13B”          LLM space. LanguageBind and the LLM (Vicuna-
+for evaluation which is based on LLaMA-2-13B            v1.5-7B) are both frozen during the two-stage train-
+(Touvron et al., 2023b).                                ing.
+Video-ChatGPT (Maaz et al., 2023) proposes to           LLaMA-VID (Li et al., 2023g) represents each
+use spatial pooling and temporal pooling to aggre-      frame with two tokens, a text-guided context to-
+gate frame features from a frozen image encoder         ken and a visual content token, which significantly
+(CLIP-ViT-L/14 (Radford et al., 2021)). A sin-          reduces computational cost when increasing the
+gle linear layer is utilized to connect the pooled      number of sampled frames. We evaluate the per-
+features to a frozen LLM (Vicuna-v1.1-7B (Chi-          formance of “llama-vid-7b-full-224-video-fps-1”,
+ang et al., 2023)). Unlike most MLLMs, Video-           which is based on EVA-ViT-G (Fang et al., 2022)
+ChatGPT only performs single-stage instruction          and Vicuna-v1.5-7B.
+tuning on video-text data.
+                                                        LLaVA-1.5 (Liu et al., 2023a) is an Image LLM
+Valley (Luo et al., 2023) uses a similar pooling        built upon the pioneering framework of LLaVA. It
+strategy as Video-ChatGPT and further incorpo-          replaces the original linear connector with an MLP
+rates a temporal modeling module into the vision        and includes additional training data to enhance
+encoder. In Valley, the LLM parameters are also         its capabilities. The version we test is “LLaVA-
+fine-tuned during instruction tuning to achieve         1.5-13B”, which adopts Vicuna-v1.5-13B as the
+stronger performance. Our evaluation is carried         LLM.
+out on “Valley2-7b” with LLaMA-2-7B as the base
+LLM.                                                    SPHINX (Lin et al., 2023b) achieves high perfor-
+                                                        mance on many Image LLM benchmarks by mix-
+VideoChat2 (Li et al., 2023d) adopts UMT-L (Liu         ing visual embeddings from various vision back-
+et al., 2022a) as the vision encoder, Vicuna-v0-7B      bones including ViT, ConvNeXt (Liu et al., 2022b),
+as the LLM, and utilizes a Q-Former to connect          DINOv2 (Oquab et al., 2023), and Q-Former. We
+both modalities. It follows a progressive three-        evaluate “SPHINX-v2” on our benchmark which
+stage training strategy including vision-language       is built upon LLaMA-2-13B.
+alignment, vision-language connection, and instruc-
+tion tuning.                                            Qwen-VL-Chat (Bai et al., 2023b) utilizes a single-
+                                                        layer cross-attention module with learnable query
+mPLUG-Owl (Ye et al., 2023) proposes to use a           embeddings as the vision-language connector. It
+visual abstractor similar to the Q-Former to connect    undergoes extensive vision-language pre-training
+the vision encoder and the LLM. It incorporates         before fine-tuned on multi-modal instruction data.
+both language-only data and multimodal data into        The LLM of Qwen-VL-Chat is initialized with
+the instruction tuning procedure. Its video ver-        Qwen-7B (Bai et al., 2023a).
+sion, “mPLUG-Owl-video-7B”, uses LLaMA-7B
+(Touvron et al., 2023a) as the LLM and introduces       C.2   Inference Settings
+additional temporal query tokens into the visual
+                                                        Table 7 shows the detailed inference settings for the
+abstractor for temporal modeling.
+                                                        MLLMs. The frame sampling strategies of Video
+PandaGPT (Su et al., 2023) adopts ImageBind             LLMs and the LLM decoding strategies of all the
+(Girdhar et al., 2023) as the visual encoder which      evaluated MLLMs are determined according to the
+is pre-trained for multi-modal alignment. Similar to    recommended inference script in their correspond-
+LLaVA (Liu et al., 2023b), the vision-language con-     ing codebases. For Image LLMs, we extract the
+nector consists only of a linear projection. Only the   middle frame of each video as the visual input to
+projection and additional LoRA (Hu et al., 2021)        these models.
+weights on LLM attention modules are updated
+                                                        Inspired by (Li et al., 2023d), we append answer
+during single-stage instruction tuning. We test
+                                                        prompts to the task instructions to guide MLLMs
+“pandagpt-13b-max-len-400” on our dataset, which
+                                                        generating responses in the desired formats. In
+uses Vicuna-v0-13B as the LLM.
+                                                        terms of Multi-Choice QA and Caption Matching,
+Video-LLaVA (Lin et al., 2023a) uses Language-          we employ the prompt “Best Option:” for most
+                                                    8748
+                                            Frame sampling                          LLM decoding
+                                           strategy            # frame    strategy        parameter
+     Image LLM
+       LLaVA-1.5 (13B)                  Middle frame              1       Random          T = 0.7
+       SPHINX-v2 (13B)                  Middle frame              1        Top-p       T = 0.9, p = 0.8
+       Qwen-VL-Chat (7B)                Middle frame              1        Top-p          p = 0.3
+     Video LLM
+       TimeChat (7B)                     Uniform                  96       Top-p     p = 0.8
+       Video-LLaVA (7B)                  Uniform                  8       Random     T = 0.1
+       LLaMA-VID (7B)                      1fps                variable   Random     T = 1.0
+       mPLUG-Owl (7B)                    Uniform                  8        Top-k      k=5
+       PandaGPT (13B)             See Girdhar et al. (2023)       10       Top-p     p = 0.8
+       Valley (7B)                       Uniform                  8              Greedy
+       VideoChat2 (7B)                   Uniform                  16             Greedy
+       Video-ChatGPT (7B)                Uniform                 100      Random     T = 0.2
+       Video-LLaMA (13B)                 Uniform                  8        Top-p     p = 0.8
+
+                             Table 7: Inference settings for the evaluated MLLMs.
+
+
+models except for VideoChat2 and TimeChat. Re-           This reveals that while VideoChat2 can respond in
+garding VideoChat2, an additional left bracket is        desired format (i.e., directly selecting an option) by
+appended (i.e., “Best Option: (”) following the          identifying the left-bracket, it is not robust to the
+original paper (Li et al., 2023d). For TimeChat, we      variation of answer prompts. (2) Compared with
+utilize “Please directly give the best option:”. In      match rate, the accuracy is relatively insensitive
+the case of Yes/No QA, we introduce the prompt of        to the chance of answer prompt. For instance, the
+“Please answer yes or no: ”. Lastly, for Caption         change in accuracy of Video-LLaVA and Qwen-
+Generation, we use “Generated Caption:”. Unless          VL-Chat on Multi-Choice QA is less than 1%, de-
+otherwise specified, all the results in this paper are   spite a 50% 60% increase of match rate.
+obtained using the above answer prompts.
+                                                         D.3   Qualitative Results
+D    More Experimental Results                           Table 22, 23, 24, 25, 26, 27, 28, 29 demonstrate
+D.1 Results on Fine-Grained Temporal                     examples of MLLM responses alongside our auto-
+    Aspects                                              mated assessment results. We can find that: (1) It
+                                                         is evident that the models demonstrate a deficiency
+Table 8 summarizes the evaluation results on all         in genuine temporal perception skills in terms of
+fine-grained temporal aspects.                           speed, direction, event order and attribute change.
+                                                         While they manage to provide accurate answers for
+D.2 Effect of Answer Prompt                              most questions in certain videos, their performance
+Table 9 reports the results on Multi-Choice QA           falters when confronted with corresponding con-
+and Caption Matching when using two different            flicting videos. (2) The proposed automatic evalua-
+answer prompts, i.e., “Best Option:" and “Please         tion method is reliable. Despite the arbitrary form
+directly give the best option:". The following obser-    of MLLM responses, our method can offer accurate
+vations can be derived: (1) The selection of answer      assessment in most cases. (3) Our LLM-based eval-
+prompt has a non-negligible impact on the match          uation method mistakenly assesses a small portion
+rate. The latter answer prompt, which is more de-        of incorrect captions as correct (Table 26, 27, 28),
+tailed, can substantially increase the match rate for    which echoes with the results in Table 4. We find
+most MLLMs that already achieve >30% match               that such inaccurate evaluation is mostly caused
+rate using the former answer prompt, on both two         by the failure to detect hallucinated contents in the
+tasks. By contrast, the match rate of VideoChat2         captions. Table 30 presents two more detailed eval-
+significantly drops from near 100% to near 0%.           uation examples with intermediate reasoning steps
+                                                      8749
+by ChatGPT. As we can see, ChatGPT is able to
+select the correct option in Multi-Choice QA, de-
+spite the existence of hallucinated content in the
+generated captions, thereby leading to inaccurate
+assessment.
+
+E   Licencing and Intended Use
+Our TempCompass benchmark is under CC-BY 4.0
+license. The videos and textual annotation in this
+work should only be used for research purposes.
+
+
+
+
+                                                 8750
+                           Action            Direction                   Speed            Event Order           Attribute Change
+                                                                                                                                           Avg
+                        fine     coarse   object      camera     absolute      relative      order      color   size   combined    other
+ Multi-Choice QA
+ Baseline
+   Human                       100                 96.7                   90                 100                       100                 97.3
+   Random               28.4      29.3    28.3            26.3    30.6           33.0        32.2       30.1    28.9      26.4     25.9    29.9
+ Image LLM
+   LLaVA-1.5 (13B)      56.2      83.8    32.5            29.3    44.4           30.6        34.4       42.3    35.6      38.3     50.0    42.8
+   SPHINX-v2 (13B)      85.0      94.1    36.2            39.1    48.4           39.9        36.4       51.3    40.2      46.7     50.0    50.9
+   Qwen-VL-Chat (7B)    82.4      88.6    37.4            34.8    46.0           39.9        40.7       52.6    40.9      43.3     44.4    50.6
+ Video LLM
+   TimeChat (7B)        73.9      89.7    37.0            34.8    44.4           42.5        42.1       46.2    47.7      48.3     44.4    50.7
+   Video-LLaVA (7B)     54.9      83.2    31.7            33.7    46.0           33.2        41.4       39.7    40.2      35.0     55.6    44.7
+   LLaMA-VID (7B)       34.6      78.4    30.0            29.3    30.6           28.5        30.5       23.1    25.0      28.3     38.9    35.3
+   mPLUG-Owl (7B)       49.7      80.5    28.8            30.4    36.3           29.5        34.8       30.8    37.1      35.0     44.4    40.0
+   PandaGPT (13B)       40.5      31.4    29.6            22.8    20.2           35.2        31.8       30.8    33.3      25.0     33.3    31.1
+   Valley (7B)          33.3      58.4    34.2            16.3    31.5           33.2        18.9       39.7    26.5      26.7     22.2    31.8
+   VideoChat2 (7B)      80.4      95.1    39.1            29.3    54.0           34.2        40.7       52.6    43.9      43.3     33.3    51.1
+   Video-ChatGPT (7B)   28.8      62.2    33.7            26.1    28.2           28.5        37.1       26.9    31.1      35.0     33.3    35.2
+   Video-LLaMA (13B)    40.5      65.4    26.7            18.5    28.2           28.0        32.8       26.9    25.0      33.3     44.4    33.9
+
+ Yes/No QA
+ Baseline
+   Human                       96.7                83.3                  96.7                93.3                      100                  94
+   Random               50.0       50.0   50.0            50.0    50.0           50.0        50.0       50.0    50.0      50.0     50.0    50.0
+ Image LLM
+   LLaVA-1.5 (13B)      65.4      82.4    48.3            50.0    48.1           49.4        49.5       55.1    52.7      62.0     50.0    56.4
+   SPHINX-v2 (13B)      72.1      84.8    50.6            52.7    58.7           52.6        54.5       44.1    51.6      55.0     58.3    59.1
+   Qwen-VL-Chat (7B)    74.0      87.6    51.4            52.0    61.9           58.6        50.8       45.6    51.6      52.0     37.5    60.0
+ Video LLM
+   TimeChat (7B)        55.8      74.9    51.4            52.0    47.1           48.0        51.0       58.1    53.2      53.0     54.2    54.7
+   Video-LLaVA (7B)     58.4      87.6    51.4            52.7    50.8           50.0        49.2       52.2    50.0      53.0     45.8    56.4
+   LLaMA-VID (7B)       53.9      70.6    48.3            50.0    53.4           46.8        48.4       54.4    50.0      55.0     54.2    53.0
+   mPLUG-Owl (7B)       54.6      72.4    50.9            50.0    52.4           50.6        51.3       57.4    52.7      49.0     29.2    54.4
+   PandaGPT (13B)       53.9      52.3    50.3            48.0    47.6           52.6        53.7       53.7    52.7      47.0     62.5    51.8
+   Valley (7B)          50.2      64.7    52.3            51.4    57.7           49.7        50.3       57.4    51.1      52.0     45.8    53.5
+   VideoChat2 (7B)      62.5      81.4    52.3            57.4    59.3           50.9        51.3       50.7    54.3      58.0     50.0    58.0
+   Video-ChatGPT (7B)   50.2      54.5    50.0            50.0    49.7           49.4        51.0       50.0    50.0      50.0     50.0    50.7
+   Video-LLaMA (13B)    58.7      75.9    45.1            48.0    53.4           46.3        51.8       43.4    55.3      54.0     45.8    53.7
+
+ Caption Matching
+ Baseline
+   Human                       100                 96.7                  100                 100                       100                 99.3
+   Random               50.0      50.0    50.0            50.0    50.0           50.0        50.0       50.0    50.0      50.0     50.0    50.0
+ Image LLM
+   LLaVA-1.5 (13B)      82.6      90.8    48.9            55.6    61.6           51.0        55.0       39.7    50.0      66.7     55.6    59.5
+   SPHINX-v2 (13B)      82.6      95.4    54.0            46.7    54.5           43.2        53.0       56.4    50.8      63.3     55.6    59.2
+   Qwen-VL-Chat (7B)    86.1      94.1    56.5            45.6    55.6           54.7        60.3       64.1    55.3      51.7     55.6    63.1
+ Video LLM
+   TimeChat (7B)        64.6      85.0    53.6            61.1    60.6           52.1        58.3       41.0    54.5      58.3     55.6    59.1
+   Video-LLaVA (7B)     79.2      96.7    53.2            55.6    69.7           57.8        57.0       60.3    56.1      60.0     61.1    63.7
+   LLaMA-VID (7B)       61.8      83.0    47.7            40.0    56.6           50.0        49.0       51.3    47.7      46.7     55.6    53.6
+   mPLUG-Owl (7B)       54.9      58.8    45.6            44.4    48.5           45.3        49.3       42.3    50.8      51.7     55.6    49.3
+   PandaGPT (13B)       54.2      58.8    50.6            53.3    45.5           43.8        55.0       55.1    47.0      46.7     44.4    51.3
+   Valley (7B)          16.7      14.4    23.2            16.7    27.3           19.3        28.3       21.8    22.0      26.7     22.2    22.0
+   VideoChat2 (7B)      56.9      72.5    57.0            45.6    56.6           50.5        53.0       57.7    54.5      46.7     55.6    55.6
+   Video-ChatGPT (7B)   61.1      68.0    48.1            50.0    45.5           49.0        49.3       47.4    46.2      56.7     44.4    51.8
+   Video-LLaMA (13B)    65.3      80.4    48.1            45.6    52.5           44.3        52.0       50.0    43.2      55.0     55.6    53.5
+
+ Caption Generation
+ Baseline
+   Human                       100                 86.7                  100                 100                       100                 97.3
+   Random               28.3      29.2    28.8            27.2    30.8           33.2        32.1       29.5    28.8      26.7     29.2    30.0
+ Image LLM
+   LLaVA-1.5 (13B)      56.2      77.9    36.1            20.8    25.0           24.6        33.0       41.3    34.1      35.0     20.8    38.4
+   SPHINX-v2 (13B)      54.2      80.9    23.7             6.7    14.4           23.4        37.2       32.7    29.5      32.5     29.2    34.9
+   Qwen-VL-Chat (7B)    47.4      77.0    29.4            23.3    25.0           32.0        34.8       28.8    34.7      30.0     37.5    37.3
+ Video LLM
+   TimeChat (7B)        43.2      68.1    36.1            24.2    25.0           31.6        38.8       32.7    41.5      36.2     37.5    38.9
+   Video-LLaVA (7B)     33.3      67.2    29.7            25.8    18.2           25.8        38.2       31.7    36.9      26.2     41.7    34.8
+   LLaMA-VID (7B)       38.5      66.7    28.8            25.8    18.9           23.4        35.5       36.5    35.2      37.5     33.3    34.8
+   mPLUG-Owl (7B)       38.0      54.4    28.8            26.7    35.6           27.7        31.2       33.7    38.6      35.0     37.5    34.4
+   PandaGPT (13B)       26.0      21.6    28.2            19.2    21.2           28.5        29.8       30.8    36.4      25.0     37.5    27.5
+   Valley (7B)          25.0      24.5    23.7            11.7    19.7           23.0        35.8       31.7    29.0      25.0     37.5    26.3
+   VideoChat2 (7B)      45.8      61.8    32.9            25.8    40.2           28.9        34.2       43.3    38.1      47.5     37.5    38.5
+   Video-ChatGPT (7B)   26.0      54.9    30.4            23.3    20.5           26.6        31.8       36.5    34.1      30.0     33.3    31.8
+   Video-LLaMA (13B)    41.7      66.2    23.1            16.7    15.2           13.3        38.5       28.8    34.7      33.8     50.0    32.2
+                                                                     8751
+Table 8: Results of the evaluation experiments. The best and second-best MLLM results are bold and underlined,
+respectively.
+                           Image LLM                                                      Video LLM
+              LLaVA-1.5   SPHINX-v2    Qwen-VL-Chat   V-LLaVA   LLaMA-VID   mPLUG-Owl   PandaGPT   Valley    VideoChat2   V-ChatGPT   V-LLaMA
+                 13B         13B            7B           7B         7B         7B          13B      7B           7B          7B          13B
+ Multi-Choice QA
+ Prompt 1
+ Avg Acc        42.8        50.9           50.6        44.7        35.3        40.0       31.1        31.8      51.1        35.2        33.9
+ Match Rate     84.2        99.6           46.8        37.9        62.9         3.1        6.4         3.5     100.0        1.3         0.6
+ Prompt 2
+ Avg Acc        47.4         50.6          51.1        45.6        38.0        36.4       34.4        29.6      42.9        37.7        31.3
+ Match Rate     99.9        100.0          98.5        100.0       97.0        13.7       3.9         0.4       0.0         0.2         3.3
+
+ Caption Matching
+ Prompt 1
+ Avg Acc        59.5        59.2           63.1        63.7        53.6        49.3       51.3        22.0      55.6        51.8        53.5
+ Match Rate     91.2        89.3           91.6        76.6        44.5        15.8       30.7        11.2      95.3         7.5         0.1
+ Prompt 2
+ Avg Acc        64.3        64.3           64.1        63.3        56.0        48.5       51.6        34.6      53.7        53.7        54.2
+ Match Rate     98.2        99.9           96.0        99.5        68.3        63.3       22.5        3.7       1.5         16.5        0.5
+
+
+Table 9: Accuracy and match rate when using different answer prompts. Prompt 1 is “Best Option: (” for VideoChat2
+and “Best Option:” for the remaining MLLMs. Prompt 2 is “Please directly give the best option:".
+
+
+
+
+    You will receive a [X] question, the ground-truth answer and the prediction from a question
+    answering (QA) model. Your task is to determine whether QA model prediction is correct, based
+    on the question and ground-truth answer. If the prediction is correct, respond "Correct". If the
+    prediction is incorrect, respond "Incorrect".
+
+    [X] Question:
+    [question]
+    Ground-Truth Answer:
+    [ground_truth_answer]
+    Model Prediction:
+    [video_llm_prediction]
+
+
+
+Table 10: The prompt used to evaluate Multi-Choice QA, Yes/No QA and Caption Matching, where [X] ∈
+{Multi-Choice, Yes/No, Caption Matching}.
+
+
+
+
+                                                                    8752
+   You will receive a video description and a multi-choice question. Your task is to choose the correct
+   answer and briefly explain the reason why you choose the answer. If none of the choice candidates
+   are correct or the video description lacks enough information to answer the question, just answer
+   "None of the choices are correct". Please organize your response in this format:
+   “‘
+   Reasoning: [Your reason to obtain the answer]
+   Answer: [Your answer]
+   “‘
+
+   Here are some examples of video description, multi-choice question and the expected answer:
+   “‘
+   Video Description: A person is palying football.
+   Multi-Choice Question:
+   What is the person doing in the video?
+   A. cooking B. palying football C. playing basketball D. reading book
+   Reasoning: The video description mentions that the person is playing football.
+   Answer: B. palying football
+
+   Video Description: A bird is flying clockwise.
+   Multi-Choice Question:
+   In which direction is the bird flying? A. backwark B. counter-clockwise C. clockwise D. downward
+   Reasoning: The video description mentions that the bird is flying clockwise
+   Answer: C. clockwise
+
+   Video Description: An air balloon is inflating.
+   Multi-Choice Question:
+   What is happening to the air balloon? A. exploding B. getting smaller C. flying
+   Reasoning: The video description mentions that the air balloon is inflating, while none of the
+   choices can be explained as inflating.
+   Answer: None of the choices are correct
+   “‘
+
+   Video Description:
+   [video_llm_prediction]
+   Multi-Choice Question:
+   [multi_choice_question]
+   Answer:
+
+
+
+Table 11: The prompt used to answer the [multi_choice_question] using the generated video caption as context. The
+answer from ChatGPT is compared with the ground-truth to assess the correctness of generated caption.
+
+
+
+
+                                                      8753
+   You will receive a piece of meta-information in the form of JSON dictionary. The meta-information
+   consists of a "subject" and a temporal dimension (related to "action", "speed", "direction", "order"
+   or "attribute change"). Your task is to generate 5 multi-choice questions and a correct answer
+   based on the meta-information. Ensure that the 5 questions are diverse in language, diverse in
+   format and diverse in the set of choices.
+   Ensure that the question can be answered from the given meta-information.
+
+   Here are some examples of meta-information and generated questions:
+   “‘
+   [in_context_examples]
+   “‘
+
+   Meta-information: [meta_information]
+   Generate 5 multi-choice questions and correct answers related to "[temporal_aspect]". Generate
+   the correct answer after every generated question. Separate the questions with the string "[SEP]"
+   and don’t list the number of questions.
+
+
+   [in_context_examples]:
+   Meta-information: {"subject": "boy", "action": "playing basketball"}
+   Multi-Choice Question:
+   What is the boy doing in the video?
+   A. cooking B. singing C. playing basketball
+   Correct Answer: C. playing basketball
+
+   Meta-information: {"subject": "entire video", "speed": "normal speed"}
+   Multi-Choice Question:
+   What is the speed of the video? A. normal speed B. time-lapse C. slow motion
+   Correct Answer: A. normal speed
+
+   Meta-information: {"subject": "car", "direction": "turning left"}
+   Multi-Choice Question:
+   In which direction is the car driving? A. straightforward B. leftwards C. rightwards
+   Correct Answer: B. leftwards
+
+   Meta-information: {"subject": "girl", "event1": "dressing up", "event2": "leaving the room"}
+   Multi-Choice Question:
+   What is the girl doing? A. dressing up and then leaving the room B. entering the room and dressing
+   up C. turning off clothes and then leaving the room D. entering the room and then turning off
+   clothes
+   Correct Answer: A. dressing up and then leaving the room
+
+   Meta-information: {"subject": "balloon", "attribute_change": "exploding"}
+   Multi-choice Question:
+   What is happening to the balloon? A. shrinking B. stay in the same shape C. exploding
+   Correct Answer: C. exploding
+
+
+
+Table 12: The prompt used to generate Multi-Choice QA instructions. [meta_information] and [temporal_aspect]
+are dependent on the given meta-information. [in_context_examples] are fixed for all Multi-Choice QA instructions.
+
+                                                      8754
+   You will receive information about several multi-choice questions in the form of JSON dictionary.
+   The dictionaries consist of a "question" that describes the question and choices and an "answer"
+   that describes the correct answer. Your task is to generate a positive question and a negative
+   question for each multi-choice question. The positive questions, which are related to the correct
+   "answer" of multi-choice question, should be answered with "yes". The negative questions, which
+   are related to other choices except for the correct "answer", should be answered with "no".
+   Ensure that the generated questions are diverse in language and do NOT fabricate information that
+   does not exist in the given multi-choice question.
+
+   Here is an example of multi-choice questions and generated positive and negative questions:
+   “‘
+   Multi-Choice Questions:
+   {"question": "What is the person doing? A. singing B. cooking C. sleeping", "answer": "B.
+   cooking"}
+   {"question": "What is the primary action of the person? A. playing football B. cooking C.
+   sleeping", "answer": "B. cooking"}
+   {"question": "Which of the following actions best describes the person? A. singing B. cooking C.
+   drinking tea", "answer": "B. cooking"}
+   Positive Questions:
+   {"question": "Is the person cooking?", "answer": "yes"}
+   {"question": "Is the primary action of the person about cooking?", "answer": "yes"}
+   {"question": "Is cooking best describes the person’s action?", "answer": "yes"}
+   Negative Questions:
+   {"question": "Is the person sleeping?", "answer": "no"}
+   {"question": "Is the primary action of the person about playing football?", "answer": "no"}
+   {"question": "Is drinking tea best describes the person’s action?", "answer": "no"}
+   “‘
+
+   Multi-Choice Questions:
+   [multi_choice_questions]
+   Generate the positive and negative questions in JSON format as shown in the above example:
+
+
+Table 13: The prompt used to generate Yes/No QA instructions. [multi_choice_questions] are generated by ChatGPT
+and rectified by humans.
+
+
+
+
+                                                     8755
+   Prompt to Generate True/False Captions
+   You will receive information about two multi-choice questions in the form of JSON dictionary.
+   The dictionary consists of a "question" that describes the question and choices and an "answer"
+   that describes the correct answer. Your task is to generate 1 true caption and 3 false captions. The
+   true caption describes the correct "answer" of multi-choice question. The false captions describe
+   other choices except for the correct "answer".
+   Ensure that the generated captions are diverse in language and do NOT fabricate information that
+   does not exist in the given multi-choice questions.
+
+   Here is an example of multi-choice questions and generated true and false captions:
+   “‘
+   Multi-Choice Questions: {"question": "What is the person doing? A. singing B. cooking C.
+   sleeping", "answer": "B. cooking"}
+   {"question": "What is the action shown in the video? A. drawing B. cooking C. reading", "answer":
+   "B. cooking"}
+   True Caption:
+   A person is cooking.
+   False Captions:
+   A person is sleeping.
+   A video showing a person singing.
+   The person is reading.
+   “‘
+
+    Multi-Choice Questions:
+    [multi_choice_questions]
+    Generate the true and false captions, do NOT show the multi-choice question in your response:
+
+   Instruction Templates for Caption Matching
+   - Which caption matches the video better? Caption A: [caption_a] Caption B: [caption_b]
+   - Which description is a more suitable match for the video? Option 1: [caption_a] Option 2:
+   [caption_b]
+   - Which sentence better captures the essence of the video? Sentence A: [caption_a] Sentence B:
+   [caption_b]
+
+
+
+Table 14: The prompt used to generate Ture/False captionis (upper) and the instruction templates for Caption Match-
+ing (lower). True and False captions are randomly inserted into [caption_a] or [caption_b]. [multi_choice_questions]
+are generated by ChatGPT and rectified by humans.
+
+
+
+
+                                                       8756
+   Instruction Template for Caption Generation:
+   [task_description]
+   Information A: {”subject”: [subject], “[temporal_aspect]”: [option_a]}
+   Information B: {”subject”: [subject], “[temporal_aspect]”: [option_b]}
+   Information C: {”subject”: [subject], “[temporal_aspect]”: [option_c]}
+   Information D: {”subject”: [subject], “[temporal_aspect]”: [option_d]}
+
+   Templates for [task_description]:
+   - You will be presented with a video and several pieces of information. One piece of information is
+    consistent with the video while the others are not. Please identify the information that consistent
+   with the video and generate a video caption accordingly.
+   - A video and multiple pieces of information will be provided to you. One of these pieces of
+    information matches the content of the video, while the remaining ones do not. Your objective is
+    to pinpoint the information that is in harmony with the video and craft a suitable video caption.
+   - You will be presented with a video and several pieces of information. One piece of information is
+    consistent with the video while the others are not. Please identify the information that consistent
+   with the video and generate a video caption accordingly. Ensure that the generated video caption is
+    brief.
+   - A video and multiple pieces of information will be provided to you. One of these pieces of
+    information matches the content of the video, while the remaining ones do not. Your objective is
+    to pinpoint the information that is in harmony with the video and craft a suitable video caption.
+    Ensure that the generated video caption is brief.
+
+
+
+Table 15: Caption Generation instruction templates. [subject] and [temporal_aspect] are obtained from the meta-
+information. The [options] are derived from the Multi-Choice QA instructions. Every [task_description] template
+will be combined with the candidate information to construct different task instructions.
+
+
+
+
+                                                    8757
+   Meta-Information:
+   {"subject":"ice cream", "attribute change":"melting", "fg-aspect":"size & shape change"}
+
+   Static Contents: food
+
+   Multi-Choice QA:
+   - What is happening to the ice cream? A. melting B. freezing C. evaporating D. solidifying
+   - How is the ice cream changing? A. changing color B. being eaten out C. turning into liquid D.
+   solidifying into a ball
+   - Which term best describes the state change of the ice cream? A. evaporation B. solidifying C.
+   melting
+
+   Yes/No QA:
+   - Is the ice cream melting?
+   - Is the ice cream turning into liquid?
+   - Is the ice cream freezing?
+   - Is the ice cream evaporating?
+
+    Caption Matching:
+   - Which caption matches the video better? Caption A: The ice cream is melting. Caption B: The
+    ice cream is freezing.
+   - Which description is a more suitable match for the video? Option 1: The ice cream is evaporating.
+    Option 2: The ice cream is melting.
+   - Which sentence better captures the essence of the video? Sentence A: The ice cream is melting.
+    Sentence B: The ice cream is solidifying.
+
+    Caption Generation:
+   - You will be presented with a video and several pieces of information. One piece of information is
+    consistent with the video while the others are not. Please identify the information that consistent
+   with the video and generate a video caption accordingly.
+       Information A: {’subject’:’ice cream’, ’attribute_change’:’melting’}
+       Information B: {’subject’:’ice cream’, ’attribute_change’:’freezing’}
+       Information C: {’subject’:’ice cream’, ’attribute_change’:’evaporating’}
+       Information D: {’subject’:’ice cream’, ’attribute_change’:’solidifying’}
+
+
+Table 16: One data example in TempCompass. For each task type, we collect multiple instructions. Due to space
+limitation, only one instruction is shown for the caption generation task.
+
+
+
+
+                                                    8758
+   Meta-Information:
+   {"subject":"clock hands", "direction":"moving counter-clockwise", "fg-aspect":"object direction"}
+
+   Static Contents: artifacts
+
+    Multi-Choice QA:
+   - What is the direction in which the clock hands are moving? A. counterclockwise B. clockwise C.
+    stationary
+   - How are the clock hands changing their orientation? A. standing still B. moving clockwise C.
+    moving anti-clockwise
+   - In what direction are the clock hands moving? A. clockwise B. alternating between clockwise
+    and counterclockwise C. counterclockwise
+
+   Yes/No QA:
+   - Are the clock hands moving counterclockwise?
+   - Are the clock hands moving clockwise?
+
+    Caption Matching:
+   - Which description is a more suitable match for the video? Option 1: The clock hands are moving
+    clockwise. Option 2: The clock hands are moving counterclockwise.
+   - Which sentence better captures the essence of the video? Sentence A: The clock hands are
+    moving counterclockwise. Sentence B: The clock hands are moving clockwise.
+   - Which caption matches the video better? Caption A: The clock hands are rotating counterclock-
+   wise. Caption B: The clock hands are rotating clockwise.
+
+    Caption Generation:
+   - You will be presented with a video and several pieces of information. One piece of information is
+    consistent with the video while the others are not. Please identify the information that consistent
+   with the video and generate a video caption accordingly.
+       Information A: {’subject’:’clock hands’, ’direction’:’counterclockwise’}
+       Information B: {’subject’:’clock hands’, ’direction’:’clockwise’}
+       Information C: {’subject’:’clock hands’, ’direction’:’stationary’}
+
+
+Table 17: One data example in TempCompass. For each task type, we collect multiple instructions. Due to space
+limitation, only one instruction is shown for the caption generation task.
+
+
+
+
+                                                    8759
+   Meta-Information: {"subject":"entire video", "direction":"zoom into a 3d digital brain",
+   "fg-aspect":"camera direction"}
+
+   Static Contents: abstract
+
+    Multi-Choice QA:
+   - What is happening in the video? A. Zoom out from a 3D digital brain B. Standing still before a
+    3D digital brain C. Zoom into a 3D digital brain
+   - In which direction is the camera moving in the video? A. zooming in B. downwards C. upwards
+    D. zooming out
+   - How would you describe the trajectory of the video’s direction? A. panning right B. panning left
+    C. zooming out D. zooming in
+
+   Yes/No QA:
+   - Is the camera zooming into a 3D digital brain?
+   - Is the camera moving in the video by zooming in?
+   - Is the camera standing still before a 3D digital brain?
+   - Is the camera zooming out in the video?
+
+    Caption Matching:
+   - Which caption matches the video better? Caption A: The camera is standing still before a 3D
+    digital brain. Caption B: The camera is zooming into a 3D digital brain.
+   - Which description is a more suitable match for the video? Option 1: The camera is zooming out
+    from a 3D digital brain. Option 2: The camera is zooming into a 3D digital brain.
+   - Which sentence better captures the essence of the video? Sentence A: The camera is zooming
+    into a 3D digital brain. Sentence B: The camera is moving downwards.
+
+    Caption Generation:
+   - You will be presented with a video and several pieces of information. One piece of information is
+    consistent with the video while the others are not. Please identify the information that consistent
+   with the video and generate a video caption accordingly.
+       Information A: {’subject’:’entire video’, ’direction’:’Zoom out from a 3D digital brain’}
+       Information B: {’subject’:’entire video’, ’direction’:’Standing still before a 3D digital brain’}
+       Information C: {’subject’:’entire video’, ’direction’:’Zoom into a 3D digital brain’}
+
+
+Table 18: One data example in TempCompass. For each task type, we collect multiple instructions. Due to space
+limitation, only one instruction is shown for the caption generation task.
+
+
+
+
+                                                    8760
+   Meta-Information: {"subject":"entire video", "event1":"a person is kneading dough", "event2":"a
+   girl is jumping into water"}
+
+   Static Contents: food, people, natural objects
+
+   Multi-Choice QA:
+   - What is the sequence of events in the video? A. a person is kneading dough followed by a girl
+   jumping into water B. a girl jumping into water followed by a person kneading dough C. a girl
+   jumping into water while a person kneading dough
+   - What is happening first in the video? A. Both events occur at the same time B. a person is
+   kneading dough C. a girl is jumping into water
+   - What event occurs second in the video? A. a person is kneading dough B. a girl is jumping into
+   water C. Both events occur at the same time
+
+   Yes/No QA:
+   - Is the sequence of events in the video a person kneading dough followed by a girl jumping into
+   water?
+   - Is the sequence of events in the video a girl jumping into water followed by a person kneading
+   dough?
+
+   Caption Matching:
+   - Which description is a more suitable match for the video? Option 1: In the video, a person is
+   kneading dough followed by a girl jumping into water. Option 2: A girl jumping into water while
+   a person kneading dough.
+   - Which sentence better captures the essence of the video? Sentence A: A girl is jumping into
+   water, followed by a person kneading dough. Sentence B: In the video, a person is kneading dough
+   followed by a girl jumping into water.
+   - Which caption matches the video better? Caption A: In the video, a person is kneading dough
+   followed by a girl jumping into water. Caption B: A person is kneading dough after a girl jumping
+   into water.
+
+    Caption Generation:
+   - You will be presented with a video and several pieces of information. One piece of information is
+    consistent with the video while the others are not. Please identify the information that consistent
+   with the video and generate a video caption accordingly.
+       Information A: {’subject’:’entire video’, ’order’:’a person is kneading dough followed by a girl
+    jumping into water’}
+       Information B: {’subject’:’entire video’, ’order’:’a girl jumping into water followed by a person
+    kneading dough’}
+       Information C: {’subject’:’entire video’, ’order’:’a girl jumping into water while a person
+    kneading dough’}
+
+
+Table 19: One data example in TempCompass. For each task type, we collect multiple instructions. Due to space
+limitation, only one instruction is shown for the caption generation task.
+
+                                                    8761
+   Multi-Choice QA:
+   Q: What is happening in the video? A. A person drops down the pineapple B. A person pushes
+   forward the pineapple C. A person rotates the pineapple D. A person picks up the pineapple
+   Ground-Truth: D. A person picks up the pineapple
+      SPHINX-v2: D (✓)
+      Video-LLaVA: D (✓)
+      Video-ChatGPT: The best option is to pick up the pineapple. (✓)
+
+   Yes/No QA:
+   Q: Is a person picking up the pineapple?
+   Ground-Truth: yes
+      SPHINX-v2: Yes (✓)
+      Video-LLaVA: Yes (✓)
+      Video-ChatGPT: Yes, a person is picking up the pineapple. (✓)
+
+   Caption Matching:
+   Q: Which sentence better captures the essence of the video? Sentence A: A person is dropping
+   down the pineapple. Sentence B: A person is picking up the pineapple.
+   Ground-Truth: Sentence B: A person is picking up the pineapple.
+      SPHINX-v2: Sentence B (✓)
+      Video-LLaVA: Sentence B: A person is picking up the pineapple. (✓)
+      Video-ChatGPT: Sentence B captures the essence of the video better as it shows the person
+   picking up the pineapple, which is the main focus of the video. (✓)
+
+   Caption Generation:
+   Ground-Truth: Information D: {’subject’: ’person’, ’direction’: ’A person picks up the pineapple’}
+       SPHINX-v2: A person is holding a pineapple on a pink table. (✓)
+       Video-LLaVA: A person picks up the pineapple and drops it down. (✓)
+       Video-ChatGPT: In the video, a person is seen dropping a pineapple, pushing forward a
+   pineapple, rotating a pineapple, and picking up a pineapple. The person is seen using their hands
+   to interact with the pineapple. The video shows the person’s actions and the pineapple’s movement,
+   but the exact reason for the actions is not clear from the video. (✗)
+
+
+
+Table 20: An example of MLLM responses and evaluation results of the Direction aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+
+
+
+                                                      8762
+   Multi-Choice QA:
+   Q: What is happening in the video? A. A person drops down the pineapple B. A person pushes
+   forward the pineapple C. A person rotates the pineapple D. A person picks up the pineapple
+   Ground-Truth: A. A person drops down the pineapple
+       SPHINX-v2: D (✗)
+       Video-LLaVA: c (✗)
+       Video-ChatGPT: The best option would be to pick up the pineapple and place it on the table.
+   (✗)
+
+   Yes/No QA:
+   Q: Is a person picking up the pineapple?
+   Ground-Truth: no
+      SPHINX-v2: Yes (✗)
+      Video-LLaVA: Yes (✗)
+      Video-ChatGPT: Yes, a person is picking up the pineapple. (✗)
+
+   Caption Matching:
+   Q: Which sentence better captures the essence of the video? Sentence A: A person is dropping
+   down the pineapple. Sentence B: A person is picking up the pineapple.
+   Ground-Truth: Sentence A: A person is dropping down the pineapple.
+      SPHINX-v2: Sentence B (✗)
+      Video-LLaVA: Sentence B: A person is picking up the pineapple. (✗)
+      Video-ChatGPT: Sentence B captures the essence of the video better as it shows the person
+   picking up the pineapple, which is the main action in the video. (✗)
+
+   Caption Generation:
+   Ground-Truth: Information A: {’subject’: ’person’, ’direction’: ’A person drops down the
+   pineapple’}
+       SPHINX-v2: A person is holding a pineapple on a pink surface. (✗)
+       Video-LLaVA: A person drops down the pineapple, and then a person pushes forward the
+   pineapple. After that, a person rotates the pineapple, and finally, a person picks up the pineapple.
+   (✗)
+       Video-ChatGPT: In the video, a person is seen dropping a pineapple, pushing forward a
+   pineapple, rotating a pineapple, and picking up a pineapple. The person is seen using their hands
+   to interact with the pineapple. The video shows the person’s actions and the pineapple’s movement,
+   but the exact reason for the actions is not clear from the video. (✗)
+
+
+
+Table 21: An example of MLLM responses and evaluation results of the Direction aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+
+
+                                                      8763
+   Multi-Choice QA:
+   Q: What is happening to the ice cream? A. melting B. freezing C. evaporating D. solidifying
+   Ground-Truth: A. melting
+      SPHINX-v2: A (✓)
+      Video-LLaVA: A. melting (✓)
+      Video-ChatGPT: The best option is A. melting, as the ice cream is melting in the image. (✓)
+
+   Yes/No QA:
+   Q: Is the ice cream melting?
+   Ground-Truth: yes
+      SPHINX-v2: Yes (✓)
+      Video-LLaVA: Yes. (✓)
+      Video-ChatGPT: Yes, the ice cream is melting. (✓)
+
+   Caption Matching:
+   Q: Which sentence better captures the essence of the video? Sentence A: The ice cream is melting.
+   Sentence B: The ice cream is solidifying.
+   Ground-Truth: Sentence A: The ice cream is melting.
+      SPHINX-v2: The ice cream is melting. (✓)
+      Video-LLaVA: Sentence B: The ice cream is solidifying. (✗)
+      Video-ChatGPT: Sentence A, T̈he ice cream is melting,c̈aptures the essence of the video more
+   accurately as it shows the ice cream melting and dripping off the table. (✓)
+
+   Caption Generation:
+   Ground-Truth: Information A: {’subject’: ’ice cream’, ’attribute_change’: ’melting’}
+      SPHINX-v2: A scoop of ice cream melting on a pink table. (✓)
+      Video-LLaVA: A scoop of ice cream melts on a pink background. (✓)
+      Video-ChatGPT: The video shows a close-up of a melting ice cream cone, which is a consistent
+   piece of information with the video. (✓)
+
+
+
+Table 22: An example of MLLM responses and evaluation results of the Attribute Change aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+
+
+
+                                                      8764
+   Multi-Choice QA:
+   Q: What is happening to the ice cream? A. melting B. freezing C. evaporating D. solidifying
+   Ground-Truth: D. solidifying
+      SPHINX-v2: A (✗)
+      Video-LLaVA: A. melting (✗)
+      Video-ChatGPT: The best option is A. melting, as the ice cream is shown melting in the video.(✗)
+
+   Yes/No QA:
+   Q: Is the ice cream melting?
+   Ground-Truth: no
+      SPHINX-v2: Yes (✗)
+      Video-LLaVA: Yes. (✗)
+      Video-ChatGPT: Yes, the ice cream is melting. (✗)
+
+   Caption Matching:
+   Q: Which sentence better captures the essence of the video? Sentence A: The ice cream is melting.
+   Sentence B: The ice cream is solidifying.
+   Ground-Truth: Sentence B: The ice cream is solidifying.
+       SPHINX-v2: The ice cream is melting. (✗)
+       Video-LLaVA: Sentence A: The ice cream is melting. (✗)
+       Video-ChatGPT: Sentence A, T̈he ice cream is melting,c̈aptures the essence of the video better
+   as it shows the ice cream melting and dripping off the table. (✗)
+
+   Caption Generation:
+   Ground-Truth: Information D: {’subject’: ’ice cream’, ’attribute_change’: ’solidifying’}
+      SPHINX-v2: A scoop of ice cream melting on a pink table. (✗)
+      Video-LLaVA: The video shows a close-up of ice cream melting on a pink surface. The ice
+   cream is shown melting in a circular motion, with the liquid dripping off the surface. The video
+   emphasizes the process of melting and evaporating, with the ice cream gradually solidifying. (✗)
+      Video-ChatGPT: The video shows a close-up of an ice cream cone melting. This information is
+   consistent with the video and is reflected in the generated caption. (✗)
+
+
+
+Table 23: An example of MLLM responses and evaluation result of the Attribute Change aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+
+
+
+                                                      8765
+    Multi-Choice QA:
+    Q: In relation to the speedometer on the left, how does the speedometer in the center appear? A.
+    stationary B. moving slower C. moving faster
+    Ground-Truth: C. moving faster
+        SPHINX-v2: C (✓)
+        Video-LLaVA: The speedometer in the center appears to be moving faster than the one on the
+    left. (✓)
+        Video-ChatGPT: The speedometer in the center appears to be moving slower than the one on
+    the left. (✗)
+
+   Yes/No QA:
+   Q: Is the speedometer in the center moving faster than the one on the left?
+   Ground-Truth: yes
+      SPHINX-v2: yes (✓)
+      Video-LLaVA: Yes. (✓)
+      Video-ChatGPT: Yes, the speedometer in the center is moving faster than the one on the left. (✓)
+
+    Caption Matching:
+    Q: Which description is a more suitable match for the video? Option 1: The speedometer in the
+    center is moving faster than the one on the left. Option 2: The speedometer in the center is moving
+    slower than the one on the left.
+    Ground-Truth: Option 1: The speedometer in the center is moving faster than the one on the left.
+        SPHINX-v2: The speedometer in the center is moving faster than the one on the right. (✗)
+        Video-LLaVA: Option 1: The speedometer in the center is moving faster than the one on the
+    left. (✓)
+        Video-ChatGPT: Option 1 is the most suitable description for the video, as the speedometer in
+    the center is moving faster than the one on the left. (✓)
+
+    Caption Generation:
+    Ground-Truth: Information C: {’subject’: ’the speedometer in the center’, ’speed’: ’moving
+    faster’}
+        SPHINX-v2: A speedometer with the needle pointing to the number 0. (✗)
+        Video-LLaVA: The video shows a speedometer in the center of the screen, which is stationary.
+    The speedometer is then shown moving slower, and finally moving faster. The video does not
+    provide any additional information about the speedometer. (✗)
+        Video-ChatGPT: The video shows a speedometer in the center, with two other speedometers on
+    either side. The speedometer in the center is stationary, while the speedometers on either side are
+    moving slower and faster, respectively. (✗)
+
+
+
+Table 24: An example of MLLM responses and evaluation results of the Speed aspect. The ✓and ✗in the parentheses
+are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded for simplicity.
+
+
+                                                        8766
+    Multi-Choice QA:
+    Q: What is the speed of the video? A. time-lapse B. slow motion C. normal speed
+    Ground-Truth: B. slow motion
+       SPHINX-v2: C (✗)
+       Video-LLaVA: A. time-lapse (✗)
+       Video-ChatGPT: The correct answer is A. time-lapse. (✗)
+
+   Yes/No QA:
+   Q: Is the video playing in slow motion?
+   Ground-Truth: yes
+      SPHINX-v2: No (✗)
+      Video-LLaVA: Yes. (✓)
+      Video-ChatGPT: Yes, the video is playing in slow motion. (✓)
+
+    Caption Matching:
+    Q: Which description is a more suitable match for the video? Option 1: The video is playing in
+    fast motion. Option 2: The video is playing in slow motion.
+    Ground-Truth: Option 2: The video is playing in slow motion.
+       SPHINX-v2: The video is playing in slow motion. (✓)
+       Video-LLaVA: Option 2: The video is playing in slow motion. (✓)
+       Video-ChatGPT: The video is playing in fast motion. (✗)
+
+    Caption Generation:
+    Ground-Truth: Information B: {’subject’: ’entire video’, ’speed’: ’slow motion’}
+        SPHINX-v2: A man is charging his car with an electric charger. (✗)
+        Video-LLaVA: A man is seen charging his electric car in a parking lot. He uses a portable
+    charger to charge his car. The video shows the process of charging the car and the man’s actions.
+    (✗)
+        Video-ChatGPT: Based on the provided information, the video is a time-lapse of a man
+    pumping gas into a car. (✗)
+
+
+
+Table 25: An example of MLLM responses and evaluation results of the Speed aspect. The ✓and ✗in the parentheses
+are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded for simplicity.
+
+
+
+
+                                                        8767
+   Multi-Choice QA:
+   Q: Which event happens first in the video? A. They happen simultaneously B. Cars are racing C.
+   Women are running
+   Ground-Truth: C. Women are running
+      SPHINX-v2: C (✓)
+      Video-LLaVA: Cars are racing first in the video. (✗)
+      Video-ChatGPT: The events in the video occur in the following order: cars racing, then women
+   running. (✗)
+
+   Yes/No QA:
+   Q: Do the events occur in the order of women running, then cars racing?
+   Ground-Truth: yes
+      SPHINX-v2: no (✗)
+      Video-LLaVA: Yes. (✓)
+      Video-ChatGPT: Yes, the events occur in the order of women running, then cars racing. (✓)
+
+   Caption Matching:
+   Q: Which description is a more suitable match for the video? Option 1: The video shows
+   women running first, followed by cars racing. Option 2: Woman running and car racing happen
+   simultaneously.
+   Ground-Truth: Option 1: The video shows women running first, followed by cars racing.
+       SPHINX-v2: Option 2 (✗)
+       Video-LLaVA: Option 2: The video shows a woman running and cars racing simultaneously.
+   (✗)
+       Video-ChatGPT: Option 2 is the most suitable match for the video, as it shows both a woman
+   running and cars racing simultaneously. (✗)
+
+   Caption Generation:
+   Ground-Truth: Information B: {’subject’: ’entire video’, ’order’: ’Women running, then cars
+   racing’}
+      SPHINX-v2: A woman running on a track next to a car race. (✗)
+      Video-LLaVA: The video starts with a woman running on a track, followed by several other
+   women running. The scene then shifts to cars racing on a highway. The video then shows the
+   women running again, followed by the cars racing. The video ends with the women running again.
+   The video showcases the beauty of nature and the excitement of racing. The video is a perfect
+   blend of nature and technology, making it a must-watch for all car enthusiasts. (✓)
+      Video-ChatGPT: The video shows a group of women running on a track while cars are racing
+   nearby. The cars are racing in the background while the women are running in the foreground.
+   This suggests that the video captures a dynamic scene where both the cars and the women are
+   engaged in their respective activities. (✗)
+
+
+Table 26: An example of MLLM responses and evaluation results of the Event Order aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+                                                      8768
+   Multi-Choice QA:
+   Q: Which event happens first in the video? A. They happen simultaneously B. Cars are racing C.
+   Women are running
+   Ground-Truth: B. Cars are racing
+      SPHINX-v2: C (✗)
+       Video-LLaVA: The video shows that the women are running first, followed by the cars
+   racing.(✗)
+      Video-ChatGPT: The events in the video happen simultaneously. The women are running on
+   the road, and at the same time, the cars are racing on the road. (✗)
+
+   Yes/No QA:
+   Q: Do the events occur in the order of cars racing, then women running?
+   Ground-Truth: yes
+      SPHINX-v2: no (✗)
+      Video-LLaVA: Yes (✓)
+      Video-ChatGPT: Yes. (✓)
+
+   Caption Matching:
+   Q: Which caption matches the video better? Caption A: The cars are racing first, followed by
+   women running. Caption B: Woman running and car racing happen simultaneously.
+   Ground-Truth: Caption A: The cars are racing first, followed by women running.
+      SPHINX-v2: Caption A (✓)
+      Video-LLaVA: Caption B matches the video better as it shows the women running and the cars
+   racing simultaneously. (✗)
+      Video-ChatGPT: Caption A is the best option as it accurately describes the events in the video.
+   The cars are racing first, followed by women running. (✓)
+
+   Caption Generation:
+   Ground-Truth: Information C: {’subject’: ’entire video’, ’order’: ’Cars racing, then women
+   running’}
+      SPHINX-v2: The women are running and cars are racing. (✗)
+      Video-LLaVA: The video starts with a yellow sports car driving down a highway, followed
+   by a group of women running on a track. The women are seen running in slow motion, and the
+   video captures their movements in detail. The scene then shifts to a group of cars racing down the
+   same highway, with the women running alongside them. The video captures the excitement and
+   energy of both the car race and the women’s run, showcasing the beauty of nature and the thrill of
+   competition. (✓)
+      Video-ChatGPT: The information that is consistent with the video is that there are women
+   running and cars racing in the video. The video shows a group of women running on a road, and at
+   the same time, cars are racing around them. This suggests that the video captures a dynamic and
+   exciting moment where both the women and the cars are engaged in their respective activities. (✗)
+
+
+Table 27: An example of MLLM responses and evaluation results of the Event Order aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+                                                      8769
+   Multi-Choice QA:
+   Q: Which direction is the camera moving before the stone building? A. rightwards B. upwards C.
+   leftwards D. downwards
+   Ground-Truth: B. upwards
+       SPHINX-v2: B (✓)
+       Video-LLaVA: The camera is moving upwards before the stone building. (✓)
+       Video-ChatGPT: The camera is moving rightwards before the stone building. (✗)
+
+   Yes/No QA:
+   Q: Is the camera moving upwards before the stone building?
+   Ground-Truth: yes
+      SPHINX-v2: Yes (✓)
+      Video-LLaVA: Yes. (✓)
+      Video-ChatGPT: Yes, the camera is moving upwards towards the stone building. (✓)
+
+   Caption Matching:
+   Q: Which caption matches the video better? Caption A: The camera is moving downwards before
+   the stone building. Caption B: The movement in the video is upwards.
+   Ground-Truth: Caption B: The movement in the video is upwards.
+      SPHINX-v2: Caption A (✗)
+      Video-LLaVA: Caption B: The movement in the video is upwards. (✓)
+      Video-ChatGPT: Caption A, which states that the camera is moving downwards before the
+   stone building, is the best match for the video. (✗)
+
+   Caption Generation:
+   Ground-Truth: Information B: {’subject’: ’entire video’, ’direction’: ’upwards’}
+      SPHINX-v2: The video is a great resource for understanding the subject matter. (✗)
+      Video-LLaVA: The video showcases a beautiful and historic location with a clock tower and a
+   church. The camera pans around the area, capturing the stunning architecture and scenery. The
+   video also includes a shot of a mountain in the background, adding to the overall beauty of the
+   location. (✗)
+      Video-ChatGPT: The video features a large building with a clock tower, which is located in
+   a mountainous area. The building is surrounded by a forest, and the clock tower is situated on
+   top of a hill. The video also shows a person walking towards the building, and a car driving by.
+   The building appears to be old and has a rustic appearance. The clock tower is visible in the
+   background, and the person is walking towards it. The video is shot from a distance, capturing the
+   overall landscape and architecture of the area. (✓)
+
+
+
+Table 28: An example of MLLM responses and evaluation results of the Direction aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+
+                                                      8770
+   Multi-Choice QA:
+   Q: What is the primary movement of the sun? A. descending B. standing still C. rising
+   Ground-Truth: C. rising
+      SPHINX-v2: C (✓)
+       Video-LLaVA: The sun is seen rising in the sky, which is the primary movement of the sun in
+   the video. (✓)
+       Video-ChatGPT: The primary movement of the sun in the video is descending, as it is seen
+   setting over the ocean. (✗)
+
+   Yes/No QA:
+   Q: Is rising the primary movement of the sun?
+   Ground-Truth: yes
+      SPHINX-v2: No (✗)
+      Video-LLaVA: Yes. (✓)
+      Video-ChatGPT: Yes, the sun is rising in the sky. (✓)
+
+   Caption Matching:
+   Q: Which description is a more suitable match for the video? Option 1: The sun is moving
+   downwards. Option 2: The sun is moving upwards.
+   Ground-Truth: Option 2: The sun is moving upwards.
+      SPHINX-v2: The sun is setting. (✓)
+      Video-LLaVA: Option 1: The sun is moving downwards. (✗)
+      Video-ChatGPT: The sun is moving downwards in the sky. (✗)
+
+   Caption Generation:
+   Ground-Truth: Information B: {’subject’: ’sun’, ’direction’: ’rising’}
+      SPHINX-v2: The sun is setting in the sky. (✗)
+      Video-LLaVA: The sun is seen setting in the sky, with clouds moving around it. (✗)
+       Video-ChatGPT: The consistent information with the video is that the sun is setting, as it is
+   described as a "sunset" in the video. The other two pieces of information, "sun rising" and "sun
+   staying in one place," do not align with the visual content of the video, which shows the sun
+   setting. Therefore, the caption should be "Sun setting in the sky." (✗)
+
+
+
+Table 29: An example of MLLM responses and evaluation results of the Direction aspect. The ✓and ✗in the
+parentheses are assessed by our automatic evaluation method. The Caption Generation task instruction is discarded
+for simplicity.
+
+
+
+
+                                                      8771
+   Generated Caption (Video-LLaVA):
+   A group of people are dancing in a pool while a man is cooking in the background.
+   Multi-Choice Question:
+   What are the people doing? A. cooking B. sleeping C. dancing
+   ChatGPT Reasoning:
+   The video description mentions that a group of people are dancing in a pool, while cooking is
+   happening in the background.
+   ChatGPT Answer: C. dancing
+   ChatGPT Rating: ✓
+   Human Rating: ✗
+
+
+
+
+   Generated Caption (Video-LLaVA):
+   The man in the video is seen smiling and then showing a serious expression. He then smiles again.
+   Multi-Choice Question:
+   In what order does the man’s expression change? A. The man doesn’t change his expression B.
+   Smiling, then showing a serious expression C. Showing a serious expression, then smiling
+   ChatGPT Reasoning:
+   The video description states that the man is seen smiling and then showing a serious expression,
+   followed by smiling again. This implies that the man’s expression changes from smiling to
+   showing a serious expression, and then back to smiling.
+   ChatGPT Answer: C. Showing a serious expression, then smiling
+   ChatGPT Rating: ✓
+   Human Rating: ✗
+
+
+
+Table 30: Examples showing our LLM-evaluation fail to detect the unsatisfactory caption in terms of hallucination.
+The hallucinated content in MLLM response is highlighted in red. The correct answer to the multi-choice question
+is highlighted in green.
+
+
+
+
+                                                      8772
+

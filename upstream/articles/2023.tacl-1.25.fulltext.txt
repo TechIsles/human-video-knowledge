@@ -1,0 +1,1004 @@
+Dubbing in Practice: A Large Scale Study of Human Localization With Insights for Automatic Dubbing
+Authors: William Brannon; Yogesh Virkar; Brian Thompson
+Source: https://aclanthology.org/2023.tacl-1.25/
+PDF: https://aclanthology.org/2023.tacl-1.25.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+                      Dubbing in Practice: A Large Scale Study of Human
+                       Localization With Insights for Automatic Dubbing
+
+          William Brannon∗                                    Yogesh Virkar                                       Brian Thompson†
+         MIT Media Lab, USA                                 AWS AI Labs, USA                                     AWS AI Labs, USA
+         wbrannon@mit.edu                                 yvvirkar@amazon.com                                   brianjt@amazon.com
+
+
+                             Abstract                                           deep empirical or theoretical bases for how to
+                                                                                organize their work.
+        We investigate how humans perform the task
+        of dubbing video content from one language                                 What is missing from both literatures, and can
+        into another, leveraging a novel corpus of                              help bridge the gap between them, is a large-scale
+        319.57 hours of video from 54 profession-                               study of human dubbing in practice: a data-driven
+        ally produced titles. This is the first such                            examination of the way humans actually perform
+        large-scale study we are aware of. The results                          this task. Such an analysis can have benefits for
+        challenge a number of assumptions commonly
+                                                                                both the qualitative study of human dubbing, by
+        made in both qualitative literature on human
+        dubbing and machine-learning literature on
+                                                                                providing empirical evidence of how dubbing
+        automatic dubbing, arguing for the importance                           teams approach their work, and informing fu-
+        of vocal naturalness and translation quality                            ture machine-learning work on automatic dubbing
+        over commonly emphasized isometric (char-                               systems. It is exactly this analysis we undertake
+        acter length) and lip-sync constraints, and for                         in this work.
+        a more qualified view of the importance of                                 Human dubbing involves a sequence of human
+        isochronic (timing) constraints. We also find
+                                                                                contributors each with control over a different as-
+        substantial influence of the source-side audio
+        on human dubs through channels other than                               pect of the process (Chiaro, 2008a,b; Matamala,
+        the words of the translation, pointing to the                           2010; Chaume, 2012). The first step is an approx-
+        need for research on ways to preserve speech                            imately literal translation of the original script,
+        characteristics, as well as transfer of semantic                        done by a dialogue translator. Next, a dialogue
+        properties such as emphasis and emotion, in                             adaptor will modify this translation into a plausi-
+        automatic dubbing systems.                                              ble script meeting the requirements for dubbing
+                                                                                such as isochrony, lip sync, kinesic synchrony,
+1       Introduction
+                                                                                and so on. Finally, the translated and modified
+Considerable attention has been paid to the dub-                                script will go to a production team. Voice actors,
+bing of video content from one language into                                    with input from a dubbing director or supervisor,
+another, both in the literature of several disciplines                          have been noted to often have freedom to impro-
+and in the daily practice of the entertainment in-                              vise or make small changes to the dialogue as
+dustry. One influential line of work, in the fields                             it is being recorded (Paolinelli and Di Fortunato,
+of film studies and audiovisual translation, stud-                              2009; Chiaro, 2008b; Matamala, 2010).
+ies human dubbing from a qualitative perspective                                   We, however, aim to understand human dub-
+(Chaume, 2012; Zabalbeascoa, 1997, 2008; Freddi                                 bing by studying not its process, but its product:
+and Pavesi 2009), as a profession and semiotic ac-                              a large set of actual dubbed dialogues from real
+tivity. This literature has developed a rich body                               TV shows, obtained from Amazon Studios. As
+of theory on the nature of the human dubbing                                    compared to qualitative work or interviews with
+task, and the ways humans approach it, but has                                  dubbers, this approach has the particular virtue
+little engagement with large-scale data. More re-                               of capturing tacit knowledge brought to bear in
+cently, machine-learning practitioners have taken                               the human dubbing process but difficult to write
+up the task of building multimodal systems for au-                              down or explain.
+tomatic dubbing (e.g., Saboo and Baumann, 2019;                                    We organize our investigation around one of
+Federico et al., 2020a; Tam et al., 2022), but lack                             the most fundamental insights from the qualitative
+    ∗
+        Work conducted during an internship at Amazon.                          literature, that of human dubbing (and subtitling,
+    †
+        Corresponding author.                                                   which we do not consider here) as ‘‘constrained
+                                                                          419
+
+              Transactions of the Association for Computational Linguistics, vol. 11, pp. 419–435, 2023. https://doi.org/10.1162/tacl a 00551
+                           Action Editor: Liang Huang. Submission batch: 9/2022; Revision batch: 12/2022; Published 5/2023.
+                                c 2023 Association for Computational Linguistics. Distributed under a CC-BY 4.0 license.
+translation’’ (Titford, 1982; Mayoral et al., 1988).                     himself a translator and writer of dubbed dialogue.
+A dub, after all, is not just a translation of the                       He explored many of the constraints and methods
+original content—indeed, it is not a purely textual                      which later literature elaborated.
+product at all. As a translation, it should preserve                        Dubbing (both human and automatic) has subse-
+the meaning of the original; as spoken language,                         quently come to be viewed as a type of constrained
+it should sound natural; as an accompaniment to a                        translation, with more constraints than settings
+video track, it should fit with the timing of actors’                    like comics, songs, or voice-over video content
+mouth movements, body language, and the flow                             (Mayoral et al., 1988). Most of the constraints
+of the story (Chaume, 2020).                                             stem from the need for a close match to the
+    Simultaneously satisfying all of these con-                          original video track.
+straints is very difficult, and in general may not be                       In particular, dubs have isochronic constraints:
+possible. We are accordingly interested in how hu-                       They should be about the same duration as the
+man dubbers balance the competing interests of se-                       source, and should respect perceptible pauses
+mantic fidelity, natural speech, timing constraints,                     within a speaker turn (Miggiani, 2019). Simi-
+and convincing lip sync. Each can be traded                              larly, dubs benefit from complying with phonetic
+off against the others, with varying effects on the                      synchrony2 , also known as lip sync: compatibil-
+audience’s experience of the resulting product.                          ity between the articulatory mouth movements
+    We operationalize this broad question as sev-                        required to produce the dub and the mouth move-
+eral more specific ones about the human dubbing                          ments, when visible, of the original actors (Fodor,
+process:1                                                                1976; Miggiani, 2019).
+Isochrony Do dubbers respect timing constraints                             Dubs also need to consider kinesic syn-
+    imposed by the video and original audio?                             chrony: the plausibility of the dubbed dialogue
+Isometry Do the original and dub texts have ap-                          in light of visible body movements of the
+    proximately the same number of characters?                           original actors (Chaume, 2012). These three con-
+                                                                         straints—isochronic, phonetic and kinesic—are
+Speech tempo How much do voice actors vary                               true ‘‘synchronies’’ in modern usage as they re-
+    their speaking rates, possibly compromis-                            late to time. Kinesic synchrony is also an example
+    ing speech naturalness, to meet timing                               of the broader category of semiotic or iconic
+    constraints?                                                         constraints, or constraints ‘‘inherent to film lan-
+Lip sync How closely do the voice actors’ words                          guage’’ (Chaume, 2020): the need for coherence
+     match visible mouth movements of the                                between the language of the dub and the visual
+     original actors?                                                    information of the film (Martı́ Ferriol, 2010).
+Translation quality How much will dubbers re-                               Dubs, of course, have non-temporal constraints
+    duce translation accuracy (i.e., adequacy and                        as well. As cultural products, they should be read-
+    fluency) to meet other constraints?                                  ily intelligible to a member of the target linguistic
+                                                                         and cultural community, with foreign references
+Source influence Do source speech traits influ-
+                                                                         avoided or used for effect. (As Chaume [2020]
+    ence the target in ways not mediated by the
+                                                                         puts it, they must comply with ‘‘sociocultural
+    wordsofthe dub, indicatingsemantictransfer?
+                                                                         constraints.’’) As speech, they should sound nat-
+  After exploring each of these questions, we                            ural, as though originally recorded in the target
+provide insights on several research directions                          language. Dubs which fail to meet this criterion are
+to address weaknesses we uncover in current                              often considered examples of ‘‘dubbese’’ (Myers,
+automatic dubbing approaches.                                            1973). The peculiarities of ‘‘dubbese’’ have been
+                                                                         studied extensively in a wide range of language
+2    Related Work                                                        pairs (see Herbst, 1997; Nencioni, 1976; Pavesi,
+2.1 Qualitative                                                          1996; Freddi and Pavesi, 2009; and many others),
+                                                                         especially as it may be specific to a national or
+Modern qualitative research on human dubbing
+                                                                         linguistic community of dubbers (Chaume, 2020).
+began with a seminal monograph by Fodor (1976),
+    1                                                                        2
+      We do not consider other constraints or synchronies, like                This is the term used in the literature, but synchrony of
+cultural fit with the target audience; though such constraints           visemes (Fisher, 1968) would be a more accurate name, as
+are important, they are too difficult to examine quantitatively.         lip sync bears on externally visible mouth movements.
+
+
+                                                                   420
+   Turning to content, dubs have the same goal                the translated transcript with the original
+as any translation of preserving the semantic                 utterances’’ (Federico et al., 2020b). Öktem
+meaning of the source. However, some leeway is                et al. (2019) focused only on the linguistic
+allowed; Chaume (2020) provides two examples:                 content matching between source-target phrases
+(1) In a Spanish-to-English dub, an off-screen                as a way to improve TTS, while Federico et al.
+omelet may be turned into a pie, as the word                  (2020a) focused on fluency. Their subsequent
+for pie better adheres to lip-sync constraints. (2)           work (Federico et al., 2020b; Virkar et al.,
+In a Japanese-to-English dub, non-visible chop-               2021) further enhanced prosodic alignment by
+sticks might be changed to a fork to adhere                   addition of features controlling for TTS speaking
+to sociocultural constraints. Viewed through this             rate variation and linguistic content matching.
+lens, dubbing is a form of non-literal translation            Additionally, they introduced a time-boundary
+called ‘‘transcreation’’ (Zanotti, 2014). However,            relaxation mechanism that can help to control
+it is often desirable to keep such changes to a               speaking rate and speech fluency. Virkar et al.
+minimum to preserve fidelity to the source film               (2022) extended the time-boundary relaxation
+(Martı́ Ferriol, 2010).                                       to further relax timing constraints for sentences
+   Finally, other qualitative research has examined           that are off-screen. Tam et al. (2022) examined
+the social and textual nature of dubbing (Bosseaux,           integrating pause constraints directly into MT.
+2018; Chaume, 2020). Scholars have investigated               Finally, in contrast to the pipeline architecture
+the role of power, ideology, identity, and similar            used in most automatic dubbing works, Hu et al.
+considerations in the production of dubs (Miggiani,           (2021) explored end-to-end dubbing.
+2019; De Marco, 2012; Santamaria, 2016).
+                                                              2.3 Empirical Studies
+2.2 Automatic Dubbing
+                                                              In recent years, some studies have attempted to
+Several studies have explored the automatic                   examine human dubbing through a quantitative
+generation of dubs, focusing on a variety of                  lens, providing empirical information to inform
+constraints.                                                  theoretical debate. One line of work, such as
+   One line of work has focused on integrating                Sánchez-Mompeán (2020a,b), has done detailed
+lip sync constraints into the dub generation pro-             studies of prosody in human dubs, generally
+cess. Taylor et al. (2015) developed a method                 in a language-specific way. Other recent work
+for automatic dubbing that matches the visemes                has employed laboratory eye-tracking studies
+of the original speech. Saboo and Baumann                     (Perego et al., 2016) to gauge audience reac-
+(2019) integrated lip-sync constraints into an                tion. Di Giovanni and Romero-Fresco (2019), in
+encoder-decoder machine translation architecture.             particular, found that audiences may not be as sen-
+Taking a different approach, Kim et al. (2019)                sitive to lip sync as traditionally believed. They
+have explored adjusting mouth movements in the                report the existence of a ‘‘dubbing effect’’, in
+original video to match a dubbed audio track.                 which audiences subconsciously avoid looking at
+   Other literature has examined ‘‘isometric’’                the mouth movements of on-screen actors when
+machine translation: producing a translation                  dubbed speech fails to be lip synced.
+for use in automatic dubbing which has a sim-                    In the ML literature, recent work by Karakanta
+ilar length (in characters) to the input. It’s argued         et al. (2020) concluded that on-screen human
+that this property is ‘‘a proxy for the duration              dubs have significantly lower translation quality
+of its spoken realization’’ (Lakew et al., 2021),             (i.e., translation adequacy and/or fluency) than
+and that similarity in character length makes                 human off-screen dubs, with the drop in quality
+text to speech (TTS)-generated speech sound                   attributed to the need to satisfy constraints (e.g.,
+more natural (Lakew et al., 2022). This ap-                   isochrony) not applicable or less applicable to
+proach has garnered interest from the community               offscreen dubs. They draw this conclusion—on
+in the form of a shared task at IWSLT 2022                    the HEROES corpus (Öktem et al., 2018)—by
+(Anastasopoulos et al., 2022).                                training a show-specific MT system and showing
+   A third line of work has focused on controlling            that it has lower performance (as measured by
+the speaking rate in automatic dubbing systems                BLEU against the human dub) for on-screen than
+to achieve prosodic alignment, or ‘‘synchronizing             off-screen.
+
+                                                        421
+Genre         Language       Episodes      Shows        Speakers          Duration (hrs)      Dialogue Lines
+ALL            English         674           54              9,215             319.6              234,322
+               German           72           13              2,498              43.2               29,210
+               Spanish         197           18              7,384             118.7               28,720
+Drama          English         264           23              4,737             161.5              115,549
+               German           39            7              1,817              29.2               18,892
+               Spanish         132           10              5,809              93.7               22,125
+Kids           English         320           17              2,086             113.2                82,508
+               German           32            5                654              13.7                 9,972
+               Spanish          60            7              1,483              23.0                 6,224
+Comedy         English         157           16              2,449              74.1                61,080
+               German           23            4              1,023              14.8                13,146
+               Spanish          58            6              2,197              30.4                 7,942
+Suspense       English           52           6              1,002              33.1                23,008
+               German             8           2                336               5.7                 3,338
+               Spanish           19           3                902              12.9                 3,985
+
+Table 1: Number of episodes (‘‘Episodes,’’ e.g., a 45-min video), shows (‘‘Shows’’, e.g., a show might
+have 2 seasons each with 10 episodes), number of speakers as estimated by the number of distinct
+characters in the given show (‘‘Speakers’’), total run time for the show (‘‘Duration’’), and the number
+of distinct dialogue lines (‘‘Dialogue Lines’’) for the show. We report statistics for the entire corpus
+(‘‘All’’) as well as four genres (Drama, Kids, Comedy, and Suspense), in each of the 3 languages
+considered in this work (English, the source language, as well as German and Spanish dubs).
+
+
+3   Corpus Description & Preprocessing                      originals and audio tracks for the professionally
+                                                            produced Spanish and German dubs where avail-
+We begin with a dataset consisting of every TV              able. Much of our analysis relies on a subset of
+show produced by Amazon Studios which was                   35.68 hours of content with both Spanish and
+available on Prime Video at the end of 2021 for             German dubs. Our dataset also includes final tran-
+which we were able to locate a hand-curated tran-           scripts from both the original and dubbing videos,
+script (for English shows) or dubbing script (for           which contain dialogue lines read by original or
+dubbed shows). These scripts are produced as part           voice actors, with each line having a timestamp
+of the human dubbing process (see § 1 for more              or ‘‘timecode’’ indicating its relative start time
+details). This dataset contains 674 episodes of 54          within the episode.
+shows, constituting 319.57 hours of content from               We perform extensive quality filtering prior
+9,215 distinct speakers. A detailed summary of              to analysis. Data amounts for the entire corpus
+this dataset is provided in Table 1. Prime Video            as well as each genre/language subset, at each
+reports one or more genres per show—to provide              stage of processing/filtering described below, are
+more insight into the characteristics of this data,         provided in Table 2.
+we report statistics for all genres for which we
+have at least 400 lines of manual on/off annota-            3.1 Segmentation and Forced Alignment
+tions (see § 3.5 for more details): Drama, Kids,            The first step of our data preparation pipeline
+Comedy, and Suspense. These subsets are used                uses script timecodes to segment audio tracks. As
+extensively in future sections to check the robust-         scripts do not include end times, each dialogue line
+ness of our conclusions. Note that these genre              is associated with the audio between its start time
+subsets have some overlap, due to the fact that             and the start time of the next line (or the end of the
+some shows have more than one reported genre.               episode for the last line). Lines are roughly, but
+   All shows were originally recorded in English;           not exactly, the same as speaker turns: Sometimes
+we acquired both audio and video for the English            one line is only part of a speaker turn, and more
+
+                                                      422
+Subset       Orig        Filter    Align     On/Off             taset to identify and remove erroneous dialogue
+                                                                lines. Specifically, we filter out the following:
+ALL        292,252 201,246 42,850             3,617
+                                                                   Foreign-language Text We identify dialogue
+Drama    156,566 115,159 27,845               3,097             lines in the English originals whose text is not in
+Kids      98,704 72,938 14,351                  446             English. We use a language identification model
+Comedy 82,168 54,525 21,034                   2,278             for text4 and exclude anything with a low proba-
+Suspense 30,331 20,789 5,046                    608             bility of being English, as well as one entire show
+German       29,210      25,739 22,892        1,926             whose script text appeared not to be in English.
+Spanish      28,720      23,196 19,958        1,691                Foreign-language Audio Similarly, we iden-
+                                                                tify lines with non-English audio (from original
+Table 2: Total number of dialogue lines, for vari-              non-English speech and errors in the corpus),
+ous stages of filtering, for all of the data (‘‘ALL’’),         using an audio language identification model
+genre subsets (Drama, Kids, Comedy, and Sus-                    trained on the VOXLINGUA107 corpus from
+pense), and both target language subsets (German                the SpeechBrain toolkit (Ravanelli et al., 2021;
+and Spanish). The ‘‘Orig’’ column gives the num-                Valk and Alumae, 2021). We excluded an entire
+ber of lines before any filtering (see § 3). The                show whose supposedly English audio was actu-
+‘‘Filter’’ column gives the number of lines after               ally German, several characters who spoke only
+quality filtering described in sections § 3.1 and               in non-English languages, and any lines with low
+§ 3.2. The ‘‘Align’’ column gives the number of                 probability of being English.
+lines after cross-lingual alignment described in                   Multiple Speakers or Overlapping Speech
+§ 3.3. Finally, the ‘‘On/Off’’ column gives the                 Because overlapped speech is likely to con-
+number of lines which have manual on-screen /                   fuse MFA, we ran overlapped speech detection
+off-screen annotations (see § 3.5).                             (Bredin et al., 2020; Bredin and Laurent, 2021),
+                                                                and excluded anything with a detected fraction
+                                                                of overlap higher than 30%.
+rarely one line may include multiple speakers or
+                                                                   Incorrect Alignments We performed ASR on
+crosstalk. The timecode-based segmentation pro-
+                                                                each line’s audio using an in-house tool and ex-
+cess produces 234,322 dialogue lines for English,
+                                                                cluded dialogue lines with a) empty ASR output,
+29,210 for German, and 28,720 for Spanish.
+                                                                b) an exact match to the gold text except for an
+   Next, we use the Montreal Forced Aligner
+                                                                inclusion at the front (these indicate segmentation
+(McAuliffe et al., 2017; MFA) to force align
+                                                                errors), or c) a Levenshtein distance to the original
+each dialogue line with its corresponding au-
+                                                                greater than 80% of the original length.
+dio, producing a sequence of phones spoken in
+                                                                   After filtering, we have 201,246 dialogue lines,
+each word, along with start and end times for
+                                                                from 688 episodes and 52 shows, constituting
+each phone. MFA successfully aligns 87.37% of
+                                                                355.36 hours of source and target content. Man-
+English lines (204,734), 89.35% of German lines
+                                                                ual inspection with Praat (Boersma and Weenink,
+(26,099), and 80.81% of Spanish lines (23,209).
+                                                                2022) suggests that post-filtering alignment qual-
+   Speaker fundamental frequency (i.e., F0 or, less
+                                                                ity is acceptably high. Most words and phones are
+formally, ‘‘pitch’’) is extracted using pyworld3
+                                                                correctly aligned, with only 12% of words in a
+and linearly interpolated to fill in missing values,
+                                                                hand-audited sample containing any phones with
+and energy is computed from Mel spectrograms
+                                                                major problems. Errors most frequently occurred
+of the speech signals. Both pitch and energy are
+                                                                on foreign words and at silence boundaries, with
+averaged on a per-phone basis.
+                                                                word-initial or word-terminal phones incorrectly
+                                                                aligned into a preceding or following silence.
+3.2 Filtering
+There are several ways our data collection, seg-                3.3 Cross-lingual Alignment
+mentation, and alignment procedures might fail.                 Given sets of force-aligned and filtered content
+We extensively filter the English side of the da-               in each language, we still need to align across
+
+   3                                                               4
+   https://github.com/JeremyCCHsu/Python                           https://huggingface.co/papluca/xlm-roberta
+-Wrapper-for-World-Vocoder.                                     -base-language-detection.
+
+
+                                                          423
+languages to create a single corpus of parallel              annotations for 23,304 dialogue lines (54.39% of
+(English, dub) examples.                                     the filtered corpus).
+   Offset Finding Many of the dubbed shows
+have episode-initial inserts, such as recaps of              3.5 On-Screen Annotations
+previous episodes or intro segments. Our dataset             We used annotations in the German dubbing
+lacks target-side videos, and in lieu of manually            scripts to identify on-screen (i.e., when the actor’s
+identifying these segments from the audio tracks,            mouth is visible) and off-screen (the actor’s mouth
+we rely on cross-correlation of the aligned speech           is not visible) speech in the 49 episodes which had
+signals. For each (English, dub) pair of a given             English, Spanish, and German versions. Because
+episode we sample at 100-Hz a binary indica-                 these are the scripts actually used by dubbing
+tor of whether MFA has aligned a non-silence                 professionals, they are not only human judgments
+phone, and find the offset that maximizes the                of when characters’ mouths are visible, but also
+cross-correlation of these two signals. By inspec-           directly influenced the actual human dubbing pro-
+tion, these offsets work well and produce closely            cess. Only approximately 9.68% of aligned pairs
+correlated patterns of silence between English and           have on-screen/off-screen annotations.
+dubbed content. This process revealed 3 episodes                Because much of our analysis rests on com-
+with quality issues, which were dropped from                 paring onscreen and offscreen dialogue lines, we
+further analysis.                                            would also like to test for systematic differences
+   Sentence Alignment Finally, we need to align              in what type of content is onscreen or offscreen.
+groups of sentences occurring at approximately               In particular, we look for statistically significant
+the same time in each (English, dub) episode pair.           differences in the duration of onscreen and off-
+Note that because voice actors do not have to                screen lines, and (to measure the complexity of
+respect the exact distribution of silences in the            speech) the average perplexity of the GPT-2 lan-
+original audio track, we have a many-to-many                 guage model (Radford et al., 2019) on each set of
+alignment problem: Many stretches of speech in               lines. Reassuringly, neither is significantly differ-
+English may correspond to many, indeed poten-                ent: an independent-samples t-test fails to reject
+tially a different number, of stretches of speech            the null hypothesis that onscreen and offscreen
+in the dub. Accordingly, we align mostly ac-                 examples have the same source-side mean dura-
+cording to content, using the Vecalign algorithm             tion (p = 0.106), and bootstrapping the average
+(Thompson and Koehn, 2019, 2020) on multilin-                GPT-2 perplexity fails to reject the null hypothesis
+gual LASER embeddings (Artetxe et al., 2018) of              that it is the same between onscreen and offscreen
+the English and dubbed lines. We align contiguous            (p = 0.08). It is possible that dubbing profes-
+stretches of speech. After alignment, we perform             sionals themselves skip adding on/off annotations
+two final filtering steps to remove any spurious             in cases (like narration) when it would be obvi-
+alignments, dropping sentence pairs where either             ous from the text itself whether it is onscreen or
+duration is exactly one frame, or the midpoint               offscreen.
+times of the source and target speech segments
+differ by more than 1s.                                      3.6 Data Release Considerations
+   The final dataset of parallel cross-lingual
+                                                             Unfortunately, content licensing restrictions pre-
+alignments contains 42,850 aligned dialogue
+                                                             vent us from releasing our data. We believe this
+line pairs, from 49 episodes and 11 shows,
+                                                             will be the case for any similar high-quality, large
+constituting 35.68 hours of source and target
+                                                             corpus: professionally written, acted, produced,
+content.
+                                                             and dubbed shows are proprietary for commercial
+                                                             reasons.
+3.4 Gender Annotations
+                                                                Note that a few prior studies (Pavesi, 2009;
+We extract information from the dramatis per-                Öktem et al., 2018) have released human dubbing
+sonae lists in the original scripts on characters’           datasets; however, these datasets are much smaller
+genders. The scripts do not list all characters from         than the dataset considered in this work and the
+whom we have speech, and differences in name                 legality of these datasets relies on a very permis-
+formatting mean that some characters’ gender in-             sive interpretation of ‘‘fair use’’, which may not
+formation is lost. We are able to collect gender             be acceptable at some organizations.
+
+                                                       424
+4       Analysis                                                 increase of only 3.3%. Excluding animated
+                                                                 shows where characters’ (animated) mouth move-
+4.1 Isochrony                                                    ments may be less constraining, this gap rises
+Perhaps the most obvious constraint of dubs is                   slightly: offscreen overlap of 0.656, vs 0.690
+isochronic: Dubbed speech should line up in time                 onscreen, for an off-to-on increase of 5.2%.
+with the original speech. This constraint is es-                 Both differences, while small in magnitude,
+pecially binding when the character’s mouth is                   are statistically significant at the α = 0.01
+visible (‘‘onscreen’’), but may apply for other                  level under independent-samples t-tests (overall:
+reasons even when it is not (‘‘offscreen’’): Ex-                 t = −2.93, p = 0.003; live-action: t = −5.35,
+amples include cuts or transitions in the video,                 p = 8.7 × 10−8 ). For individual genre subsets,
+surrounding onscreen speech, and the need to align               we find the offscreen to onscreen gap is signif-
+with actors’ body movements. Much qualitative                    icant for Drama (t = −2.95, p = 0.003) and
+work has considered isochronic constraints (e.g.,                Comedy (t = −3.70, p = 0.0002) but not for
+Chaume, 2012; Miggiani, 2019; Fodor, 1976),                      Kids and Suspense. The increase is not significant
+and automatic dubbing work has explored inte-                    at the α = .01 level for either language (Ger-
+grating them, usually with a proxy for isochrony                 man: t = −2.28, p = 0.02, Spanish: t = −1.57,
+such as length in syllables (Saboo and Baumann,                  p = 0.12).6
+2019; Öktem et al., 2019) or in characters                         The small gap in on- vs off-screen isochrony
+(Federico et al., 2020a; Lakew et al., 2021, 2022;               may be partially explained by our on/off screen
+Tam et al., 2022). We are accordingly interested                 annotations: The dubbing professionals are likely
+in exploring how much human dubbers respect                      only annotating sections where on- and off-screen
+this constraint.                                                 dialogues are mixed, and the on-screen con-
+   First, we simply compare the durations of                     straints may be constraining preceding/successive
+aligned dialogue line pairs. Source duration ought               off-screen lines.
+to be a strong predictor of dub duration, which
+indeed it is: The correlation5 between the two is                4.2 Isometry
+quite high at r = 0.877. But duration does not                   Past work (Lakew et al., 2022; Anastasopoulos
+consider the actual start and stop times of lines,               et al., 2022) has examined similarity of text length
+and may simply reflect the need to convey the                    (measured in characters) as a way to constrain
+same amount of information in source and target.                 translation for automatic dubbing, especially a
+   As a further check, we look at the overlap                    requirement that the target translation be within
+fraction of speech time: the amount of time in                   ±10% of the source character length. This prac-
+each dialogue line when both the original (source                tice is called ‘‘isometric machine translation’’
+language) actor and the dubbing voice actor (tar-                (Lakew et al., 2022), and we refer to the length
+get language) are speaking (i.e., the intersection),             constraint as ‘‘isometry.’’ This literature uses
+divided by the amount of time when either is                     isometry mainly as a proxy for similarity of
+speaking (i.e., the union). A value of 1.0 indi-                 duration and for isochrony, though it may also
+cates perfect time alignment, while 0.0 indicates                help avoid large variations in TTS output rates
+the source and target speech occur at entirely dif-              (Lakew et al., 2022). We aim to test these assump-
+ferent times. The mean overlap fraction in our                   tions: How good a proxy is isometry for isochrony
+corpus is 0.658 and the median is 0.731—in 4.3%                  in human dubs, and how much do human dubbers
+of lines, overlap is exactly 0, pulling down the                 preserve character length?
+mean. Thus, while human dubbed speech mostly                        We examined the text length (measured in char-
+co-occurs with source speech, isochronic con-                    acters) of aligned (source, human dub) dialogue
+straints are also frequently violated by human                   line pairs, and especially the percentage change
+dubbers.                                                         in character length from source to dub. Charac-
+   We observe that on-screen dubs are more                       ter lengths on both sides included punctuation
+isochronic than off-screen, but to a surprisingly                   6
+                                                                      For significance tests in this work, unless otherwise
+small degree. The average offscreen dialogue line                noted we test for the entire corpus for which the test is valid,
+has overlap fraction 0.662, vs 0.684 on-screen—an                as well as for subsets of the valid corpus corresponding to
+                                                                 each target language (German and Spanish) and the genres
+    5
+        Correlations are Pearson unless otherwise noted.         listed in Table 1 (Drama, Kids, Comedy, and Suspense).
+
+
+                                                           425
+                                                                       We observe that human dubs are largely
+                                                                    non-isometric in both Spanish and German, with
+                                                                    neither language differing from the English source
+                                                                    lines by more than 10% in less than 69% of
+                                                                    cases. The length differences are, however, dis-
+                                                                    tributed differently. German skews toward longer
+                                                                    dub lines, with 53% of all lines longer than the
+                                                                    matched English lines by ≥ 10%, and 16% shorter
+                                                                    by ≥ 10%; Spanish displays a smaller skew in the
+                                                                    opposite direction, with 30% at least 10% longer
+                                                                    and 42% at least 10% shorter.
+                                                                    4.3 Speaking Rate
+Figure 1: Percentage change in character count from
+                                                                    Previous literature has paid considerable atten-
+English source to human dub among onscreen lines.
+The plot is clipped at a 200% increase (and the character           tion to the naturalness of human dubbed speech
+count can’t decrease by more than 100%). Vertical red               (Sánchez-Mompeán, 2020b). A frequent, though
+lines indicate a ±10% change.                                       not universal, conclusion is that dubs sound ‘‘arti-
+                                                                    ficial and contrived’’ (Chaume, 2020), for reasons
+                                                                    ranging from strange intonations to ‘‘anglicisms’’
+and spaces (except at the start or end of a dia-                    inspired by the source language (Fresco, 2009).
+logue line). To measure how well character length                   From another angle, the isometric MT literature
+similarity proxies for similarity of duration, we                   argues that TTS models, which are less flexible
+compared the ratio of target to source length to the                than humans in varying speaking rate, may re-
+ratio of target to source duration. We examine here                 quire isometric input to produce natural sounding
+only known onscreen lines, as these are subject to                  isochronic output (Lakew et al., 2022). Because
+the greatest pressure to be isochronic; results are                 naturalness is a broad topic, and in general may
+very similar if using all lines.7                                   require human evaluation, we focus on examining
+   We find first that isometry is a weak-to-                        speaking rates. We’re particularly interested in
+moderate proxy for isochrony. The ratio of human                    whether dubbing voice actors are willing to vary
+dub to English character lengths has a correlation                  their speaking rates, and perhaps compromise nat-
+of only r = 0.279 (r2 = 0.078) with the time                        uralness, in order to meet other constraints, like
+overlap fraction of source and target, though it is                 isochrony.
+somewhat more correlated with the ratio of target                      We examined both the dub speaking rate8 and
+to source durations (r = 0.620, r2 = 0.385).                        the ratio of human dub duration to source duration
+   Our results on character length similarity in                    as functions of the number of words in source
+human dubs, meanwhile, are summarized in                            and target dialogue lines.9 As the dub-to-source
+Figure 1. Overall, there are large changes in char-                 ratio of length in words (‘‘word length ratio’’)
+acter length from source to human dub. Most sen-                    increases, in other words, what happens to dub
+tence pairs differ in length by more than prior                     speaking rate and the duration ratio?
+work’s 10% threshold. The absolute percentage                          Perhaps counterintuitively, it seems that the
+change in character length is significantly differ-                 duration ratio is much more closely related to rel-
+ent from 0 under a one-sample t-test (t = 20.3,                     ative length of content than the dub speaking rate.
+p = 3.9e-83). These changes are significant                         Simple linear regression of each outcome variable
+for both languages and all genre subsets with                       on the word length ratio indicates a correlation
+p < 1e-38. Character lengths are more similar for                   of 0.523 between word length ratio and duration
+longer sentences (and the distribution of charac-                       8
+                                                                          In this work, we calculate speaking rate as the average
+ter count change is smoother), but nearly 60% of                    number of words spoken per second in each dialogue line,
+pairs in which the source sentence is at least 50                   including pause time, following Laver (1994).
+characters long differ in length by more than 10%.                      9
+                                                                          As in § 4.2, we excluded lines with either source or tar-
+                                                                    get duration less than 0.2s. Results are robust to thresholds
+   7
+     We exclude from analysis dialogue lines where either           as low as 0.06s. We also exclude 4 dialogue lines, which
+source or target had an aligned duration less than 0.2s; by         appear to be alignment errors, in which the target-to-source
+inspection, most of these lines are segmentation errors.            duration ratio was more than 20.
+
+
+                                                              426
+ratio (r2 = 0.273), while human dub speaking rate           German sounds made without moving the lips are
+has a correlation of only 0.163 with duration ratio         dropped. To measure cooccurrence, we sample the
+(r2 = 0.027).                                               viseme active on both source and dub sides and
+   As an additional check, we examined the vari-            compute the viseme-viseme cooccurrence matrix.
+ance of speaking rate (at the dialogue-line level)          We normalize the matrix so that the observed fre-
+in source and human dub. If the dubbing voice               quency of each viseme pair is a fraction of the
+actor is varying speaking rate to meet timing con-          frequency expected if source and target visemes
+straints, we would expect more variability in the           were independent, but with the observed marginal
+dubbed speech than the source speech. We do                 distributions.
+not, however, observe this: The standard devia-                Over all the data (onscreen, offscreen, and unan-
+tion of dubbing voice actor speaking rate is lower          notated), the average within-viseme cooccurrence
+for both Spanish (1.25 w/s, vs 1.47 w/s on the              rate as a fraction of the rate under independence
+source side) and German (1.26 w/s, vs 1.46 w/s              is 1.575, with an average across-viseme rate of
+on the source side). In both cases we can reject            0.981. For onscreen the average within-viseme
+the null hypothesis that the standard deviation of          cooccurrence rate is 1.613, while for offscreen
+speaking rate is higher for dub than source via             it is 1.463. We believe both on- and off-screen
+a percentile-bootstrap test (Spanish: p < 10−10 ;           rates are above 1.0 due to the presence of names
+German: p < 10−10 ). Likewise, we can reject the            and cognates, where the phones may be (nearly)
+null hypothesis for all genre subsets considered            the same for the source and dub. The onscreen /
+with p < 10−10 .                                            offscreen differences are statistically significant
+   When forced to pick one or the other, hu-                at the α = 0.05 level under a percentile-bootstrap
+man dubbers appear more willing to break timing             test (p = 0.017) for the entire corpus, as well as
+constraints than vary speaking rate.                        for both languages and all genre subsets.
+                                                               Moreover, we see similar patterns by language:
+4.4 Lip Sync                                                The amount of excess cooccurrence is 40.8%
+Both qualitative (Chaume, 2012; Fodor, 1976;                for German (1.638 to 1.898)11 and 37.8% for
+Miggiani, 2019) and technical work (Taylor et al.,          Spanish (1.439 to 1.605). But though the effect
+2015; Hu et al., 2021; Kim et al., 2019) has                is significant, it is not large in absolute terms:
+considered ‘‘lip sync’’ constraints in human and            even in onscreen speech, only about 12.4% of
+automatic dubbing, respectively. The idea is that           speech time has the same viseme on the source
+dubbed audio should match the (visible) mouth               and target sides. This suggests that human dubbers
+movements of the original actors. Failing to do             do sometimes lip sync their output, but it is a fairly
+so may be jarring to the audience and reduce the            soft constraint.
+quality of the dub. Some recent empirical studies,             Note that this analysis is sensitive to small
+however, have found that this constraint may not            errors in the exact start and stop times of aligned
+be as binding as previously assumed (Perego et al.,         phones, and to inconsistencies across languages
+2016). Accordingly, we ask here whether human               in the phone boundaries used to train aligners.
+dubbers produce speech which matches the mouth              Our results are thus likely to be a lower bound
+movements of the original actors.                           on how closely human dubbers observe lip sync
+   Rather than relying on the video tracks, we use          constraints.
+the notion of a ‘‘viseme’’, or visual phoneme
+(Fisher, 1968), to capture alignment between                4.5 Translation Quality
+source and human dub mouth movements. Phones                As previously discussed (see § 1), the human
+in the same viseme are produced with similar ar-            dubbing process is complicated, with the trans-
+ticulatory movements of the lips and tongue, and            lation modified throughout the process to satisfy
+look visually similar. We use viseme tables10 to            isochrony, lip sync, and other constraints. Thus an
+map each MFA-aligned phone to its correspond-               obvious question to ask is how faithful the result-
+ing viseme. The glottal stop and four guttural              ing translation actually is to the source material.12
+                                                               11
+                                                                  The increase in excess cooccurrence is (0.898 − 0.638) /
+  10
+   https://docs.aws.amazon.com/polly                        0.638 = 40.8%.
+                                                               12
+/latest/dg/ref-phoneme-tables-shell                               We use the term translation quality here to refer to
+.html.                                                      translation adequacy and fluency. It does not refer to the
+
+
+                                                      427
+                                                                      2002), which requires a reference, in many cases
+                                                                      (Thompson and Post, 2020a; Freitag et al., 2021).
+                                                                         The results are summarized in Figure 2. We
+                                                                      find no substantial differences between onscreen
+                                                                      and offscreen speech for either metric, with the
+                                                                      on/off difference in means being less than 1/10th
+                                                                      of a standard deviation for both comet and prism.
+                                                                      Neither average comet scores (t = 0.936, p =
+                                                                      0.349) nor average prism scores (t = 1.51, p =
+                                                                      0.131) were significantly different onscreen from
+                                                                      offscreen under a two-sided independent-samples
+                                                                      t-test. Likewise, for both metrics, we did not
+                                                                      find statistically significant differences for either
+                                                                      language or any genre at the α = .05 level.
+                                                                      Though not depicted in Figure 2, the results are
+                                                                      similar when broken out by language: Neither
+Figure 2: Comet-qe scores, including means and stan-                  Spanish nor German dubs show any meaningful
+dard deviations, broken out by onscreen/offscreen                     worsening of translation quality when onscreen.
+status. Note that these scores represent only data                    Human dubbers do not, in other words, appear
+points with onscreen/offscreen annotations. No mean-                  to be sacrificing translation quality to hit other
+ingful onscreen/offscreen differences are observed in                 constraints.
+comet-qe or prism-src (not shown for space) scores.
+                                                                      4.6 Non-Text Transfer
+
+Reducing translation quality may, after all, make                     Finally, we explore whether the human dub audio
+it easier to satisfy other constraints: For example,                  depends on the source audio in ways not mediated
+changing the meaning in the target language may                       by the text of the dub translation.
+better fit the original English mouth movements                          We first look at source influence on three as-
+than a more correct translation.                                      pects of dubbing speech actor (target language)
+   To address this question, we rely again on the                     audio: speaking rate, pitch, and energy. For pitch
+onscreen/offscreen annotations. Isochronic con-                       and energy, we compute both the mean and the
+straints should be more binding onscreen, and                         standard deviation per dialogue line, relying on
+we’ve shown above that the (inherently onscreen)                      higher standard deviation, and thus greater range,
+lip sync constraints are at least partly followed. If                 of pitch and energy as a crude indicator of emotion
+translation quality is sacrificed to meet these other                 (Frick, 1985). (We drop from analysis of standard
+goals, we should see lower-quality translations                       deviations any line with only one phone on the
+onscreen than offscreen.                                              source or target side.) We also use the gender
+   In contrast to Karakanta et al. (2020), we use a                   annotations extracted in § 3.4 to control for the
+more straightforward approach of simply measur-                       effect of gender on the dubbing voice actor’s vo-
+ing the quality of the human dubs using automatic                     cal pitch. As in § 4.2, we exclude dialogue lines
+MT metrics. Since we do not have access to the                        where either source or target has aligned duration
+original, pre-adaptation, human translation, we                       less than 0.2s.
+rely on reference-free metrics. In particular, we                        Overall, we find that source audio properties
+measure performance for each (source, human                           explain a substantial fraction of target variance.
+dub) pair with comet-qe (Rei et al., 2020) and                        Source speaking rate correlates with target speak-
+prism-src (Thompson and Post, 2020a,b). Despite                       ing rate (r = 0.439, r2 = 0.193), and the
+the lack of references, both have been shown to                       correlation is stronger the longer the dialogue
+have better correlation with human judgements                         lines. For lines with source and target both at least
+of MT quality than BLEU (Papineni et al.,                             1s long, the correlation is r = 0.584 (r2 = 0.342).
+overall quality of the human dubbing output, which may
+                                                                      Line-level mean pitch is even more strongly
+intentionally decrease translation adequacy and/or fluency to         related, with r = 0.792, r2 = 0.628, though stan-
+meet other constraints.                                               dard deviation of pitch is less so (r = 0.429, r2 =
+
+                                                                428
+Property          C(Speaker) +Source          Δ
+Spk rate, 0.2s+      0.116       0.239     +0.122
+Spk rate, 1s+        0.191       0.390     +0.198
+Pitch mean           0.675       0.733     +0.057
+Pitch std.           0.284       0.316     +0.032
+Energy mean          0.184       0.268     +0.084
+Energy std.          0.210       0.275     +0.065
+
+Table 3: r2 values for linear models predicting
+various properties of target audio (dubbing voice
+actor) from source audio (original actor). The first
+column reflects models containing only indicator
+or dummy variables for the speaker, while models
+in the second column add the line-level property
+for the source side. All increases in explained
+variance are significant at the α = 10−6 level by            Figure 3: Pearson correlations of various audio proper-
+F-test. This finding also holds for both language            ties between source and target (dubbing voice actors)
+and all genre subsets (not shown).                           within aligned word pairs (‘‘Within-word’’) and within
+                                                             unaligned word pairs (‘‘Across-word’’) in the same
+                                                             dialogue line. All properties show greater correlation
+0.184). Both the mean (r = 0.381, r2 = 0.145)                within aligned word pairs than across them.
+and standard deviation (r = 0.366, r2 = 0.134)
+of energy also display some linear relationship
+between source and target, though even more                  target) pairs of semantically similar words. If
+weakly.                                                      dubbing voice actors are imitating properties of
+   By fitting sets of linear models predicting dub-          the source speech in their own speech, we might
+bing voice actor speaking rate, mean pitch and               expect to find that speaking rate, pitch and energy
+standard deviation of pitch, first as a function             at the word level are more closely correlated within
+only of indicator / dummy variables for speakers,            aligned word pairs than in other word pairs within
+and second adding in the line-level property on the          the same dialogue line. We look in particular at
+source side, we show this relationship is not simply         the number of phones per second as well as the
+a speaker-level effect: see Table 3. While speaker           word-level mean and standard deviation of both
+identity is generally a good predictor of target             pitch and energy.
+audio characteristics, dialogue line-level variables            All of these properties are, in fact, more closely
+also increase predictive power. This line-level in-          correlated within aligned word pairs than in other
+formation is more useful for speaking rate than              word pairs, as shown in Figure 3. The amount
+pitch, but its increase in predictive power is sig-          of increase from across-pair to within-pair ranges
+nificant for both. Additionally, we find the gender          from 0.08 to 0.11, with all six increases significant
+of the source character is only a weak predictor             at the α = 10−6 level by a test based on Fisher’s
+of line-level mean pitch, with an indicator vari-            z-transform for correlation coefficients. The in-
+able for male having only about r2 = 0.058 in                creases are also significant for each language and
+predicting the dub-side mean pitch.                          genre subset at the α = 10−6 level.
+   Altogether, these results suggest that there is              As an even more stringent check, we first nor-
+quite a bit of both speaker-level and line-level             malize the word-level variables, subtracting their
+influence for future machine learning work to                line-level means and dividing by their line-level
+consider.                                                    standard deviations. Doing so guards against the
+                                                             possibility that patterns at the line level, such as
+4.6.1 Semantic Transfer                                      the amount of attention human dubbers pay to dif-
+Finally, as a more stringent check, we also conduct          ferent types of line, influence these results. This
+word alignment via FastAlign (Dyer et al., 2013)             analysis, shown in Table 4, confirms the findings
+between each English dialogue line and its human             of the unnormalized version. As expected, little
+dub. The alignment process produces (source,                 to no relationship is visible between unaligned
+
+                                                       429
+Property          Within      Across         Δ               does exist in this space, we suspect there is much
+                                                             room for improvement.
+Phone Rate         0.117      −0.009      +0.125
+                                                                We find strong evidence for several levels of
+Pitch Mean         0.112      −0.009      +0.120
+                                                             non-textual transfer of source audio properties
+Pitch Std          0.090      −0.007      +0.097
+                                                             into human dubs: speaker characteristics, dialogue
+Energy Mean        0.092      −0.007      +0.099
+                                                             line-level effects, and emotion/emphasis transfer
+Energy Std         0.108      −0.009      +0.116
+                                                             when considering semantic alignments at the word
+Table 4: Pearson correlations of various audio               level. This points to a glaring issue with pipeline
+properties between source and target (dubbing                approaches employed by the vast majority of auto-
+voice actor) within aligned word pairs (‘‘within’’)          matic dubbing literature: Without a mechanism to
+and within unaligned word pairs (‘‘across’’) in              encode emotion/emphasis, individual vocal pro-
+the same dialogue line. Word-level variables have            files and other traits of the source speech, we
+first been normalized at the line level before being         expect them to be nearly impossible to replicate
+correlated, subtracting their line-level means and           in synthetic target speech.
+dividing by their line-level standard deviations.               The high rates of isochrony that we observe
+                                                             in human dubs support the need for continued
+                                                             research on isochronic MT, especially given the
+pairs of words, while aligned pairs are weakly,              observed unwillingness of human dubbers to vary
+but positively, correlated across several metrics.           their speaking rate, which shows that automatic
+All of these differences are also significant at the         dubbing systems should not simply vary speaking
+α = 10−6 level by the same test as above, using              rates to achieve isochronic constraints. However,
+Fisher’s z-transform. The increases are also sig-            our findings do not support the use of isometric
+nificant for each language and genre subset at the           MT. Our work refutes the claim that isometry is a
+α = 10−6 level.                                              good proxy for isochrony, and it also casts doubt
+   These patterns clearly indicate that human dub-           on the claim that isochrony is more necessary with
+bers are imitating properties of the source audio            TTS than with human voice actors because TTS
+at a very granular (and semantic) level. We inter-           is less able to vary speaking rates (i.e., we find
+pret these results as evidence of emotion and/or             that human dubbers are not varying speaking rate
+emphasis transfer from source to target.                     to meet isochronic constraints, and thus automatic
+                                                             dubbing systems should likely not either). The
+5   Insights for Automatic Dubbing                           authors suspect that directly optimizing isochrony
+                                                             (as opposed to isometry) is likely a better approach
+Our analysis of the human dubbing process points
+                                                             for automatic dubbing.
+to several directions that should (and perhaps
+should not) be pursued in automatic dubbing,                    Finally, the low rates of lip sync that we observe
+which we summarize below.                                    (and the very small if still statistically significant
+   Translation quality and speech naturalness                difference between on- and off-screen rates) in
+appear to be paramount. The input to the dubbing             human dubs suggest that research on automatic
+process mostly consist of dialogue with challeng-            lip sync can be marginally useful, at best, for
+ing issues for automatic translation systems, like           automatic dubbing. Efforts like Kim et al. (2019),
+ambiguous speaker gender, ambiguous addressee                however, which edit mouth movements in the
+gender and number, and formality between char-               video, may be an exception.
+acters. Speaker gender and number issues are
+especially critical since the audience can often             6 Future Work
+both hear and see the speakers and addressees.
+We note a stark lack of literature on automatic              This work focused on two language pairs:
+translation of dialogues, compared to common                 English-German and English-Spanish. In future
+domains in literature like news. Likewise, natu-             work, we hope to analyze more distant language
+ralness for TTS systems is challenging enough                pairs (e.g., English-Chinese or English-Arabic),
+under normal circumstances, but TV shows often               as well as non-English source material.
+include yelling, crying, whispering, and so forth,              Our analysis has shown that isometry is a poor
+making the problem even harder. While research               proxy for isochrony in human dubs, yet several
+
+                                                       430
+prior works have claimed that isometric MT bene-                Prashant Mathur, Paul McNamee, Kenton
+fits automatic dubbing. In future work, we hope to              Murray, Maria Nǎdejde, Satoshi Nakamura,
+perform analysis to understand this discrepancy.                Matteo Negri, Jan Niehues, Xing Niu, John
+   The scope of this work necessitated automatic                Ortega, Juan Pino, Elizabeth Salesky, Jiatong
+metrics. However, in future work, we hope to ver-               Shi, Matthias Sperber, Sebastian Stüker,
+ify some of these findings (e.g., translation quality           Katsuhito Sudoh, Marco Turchi, Yogesh
+on- vs off-screen) using human annotators.                      Virkar, Alexander Waibel, Changhan Wang,
+   Finally, the aggregate analysis in this work is              and Shinji Watanabe. 2022. Findings of
+necessary to provide high-level insights for au-                the IWSLT 2022 Evaluation Campaign. In
+tomatic dubbing. However, it likely also hides                  Proceedings of the 19th International Confe-
+interesting variations across different individual              rence on Spoken Language Translation (IWSLT
+translators, adaptors, dubbers, dubbing studios,                2022), pages 98–157, Dublin, Ireland (in-
+and so on. We hope to better explore these                      person and online). Association for Computa-
+dimensions in future work.                                      tional Linguistics. https://doi.org.10
+                                                                .18653/v1/2022.iwslt-1.10
+7   Conclusion
+                                                              Mikel Artetxe, Gorka Labaka, and Eneko
+We present the first large-scale quantitative study
+                                                               Agirre. 2018. A robust self-learning method for
+of how humans perform the task of dubbing video
+                                                               fully unsupervised cross-lingual mappings of
+content from one language into another. Our re-
+                                                               word embeddings. In Proceedings of the 56th
+sults challenge a number of popular assumptions
+                                                               Annual Meeting of the Association for Com-
+in both qualitative and machine learning liter-
+                                                               putational Linguistics (Volume 1: Long Pa-
+ature: Human dubbers display less respect for
+                                                               pers), pages 789–798, Melbourne, Australia.
+isochrony and especially lip sync than is suggested
+                                                               Association for Computational Linguistics.
+by qualitative literature, while being surprisingly
+                                                               https://doi.org/10.18653/v1/P18-1073
+unwilling to vary speaking rates or sacrifice trans-
+lation quality to hit other constraints. Our analysis         Paul Boersma and David Weenink. 2022. Praat:
+provides insights on research directions to ad-                 Doing phonetics by computer [Computer pro-
+dress weaknesses in current automatic dubbing                   gram]. Version 6.2.14, retrieved July 6, 2022
+approaches.                                                     from https://www.praat.org, https://
+                                                                www.fon.hum.uva.nl/praat/
+Acknowledgments
+This effort would not have been possible without              Charlotte Bosseaux. 2018. Dubbing, Luis
+Joel Chengottusseriyil, Robert Enyedi, Bradley                  Pérez-González, editor, The Routledge Hand-
+Gordon, Natawut Monaikul, Prashanth Rajagopal,                  book of Audiovisual Translation Studies,
+and Shuai Tang, who prepared the initial data used              Routledge,
+in this work. We also thank Marcello Federico,
+                                                              Hervé Bredin and Antoine Laurent. 2021.
+Prashant Mathur, Surafel Lakew, Reza Madad,
+                                                                End-to-end speaker segmentation for overlap-
+and the anonymous TACL reviewers for helpful
+                                                                aware resegmentation. In Interspeech 2021,
+discussions and feedback.
+                                                                pages 3111–3115. ISCA. https://doi.org
+                                                                /10.21437/Interspeech.2021-560
+References
+                                                              Hervé Bredin, Ruiqing Yin, Juan Manuel Coria,
+Antonios Anastasopoulos, Loı̈c Barrault, Luisa                  Gregory Gelly, Pavel Korshunov, Marvin
+  Bentivogli, Marcely Zanon Boito, Ondřej Bojar,               Lavechin, Diego Fustes, Hadrien Titeux,
+  Roldano Cattoni, Anna Currey, Georgiana                       Wassim Bouaziz, and Marie-Philippe Gill.
+  Dinu, Kevin Duh, Maha Elbayad, Clara                          2020. Pyannote.Audio: Neural building blocks
+  Emmanuel, Yannick Estève, Marcello Federico,                 for speaker diarization. In ICASSP 2020 - 2020
+  Christian Federmann, Souhir Gahbiche,                         IEEE International Conference on Acoustics,
+  Hongyu Gong, Roman Grundkiewicz, Barry                        Speech and Signal Processing (ICASSP),
+  Haddow, Benjamin Hsu, Dávid Javorský,                       pages 7124–7128. https://doi.org/10
+  Vĕra Kloudová, Surafel Lakew, Xutai Ma,                     .1109/ICASSP40776.2020.9052974
+
+                                                        431
+Frederic Chaume. 2012. Audiovisual Translation:              Association for Computational Linguistics.
+  Dubbing, 1st edition. Translation Practices                https://doi.org/10.18653/v1/2020
+  Explained, St. Jerome Pub, Manchester, UK.                 .iwslt-1.31
+Frederic Chaume. 2020. Dubbing. In Łukasz                  Marcello Federico, Yogesh Virkar, Robert
+  Bogucki and Mikołaj Deckert, editors, The                 Enyedi, and Roberto Barra-Chicote. 2020b.
+  Palgrave Handbook of Audiovisual Transla-                 Evaluating and optimizing prosodic alignment
+  tion and Media Accessibility, pages 103–132.              for automatic dubbing. In Interspeech 2020,
+  Springer International Publishing, Cham.                  pages 1481–1485. ISCA. https://doi
+  https://doi.org/10.1007/978-3-030                         .org/10.21437/Interspeech.2020
+  -42105-2 6                                                -2983
+Delia Chiaro. 2008a. Issues in audiovisual trans-          Cletus G. Fisher. 1968. Confusions among
+  lation. In The Routledge Companion to Trans-               visually perceived consonants. Journal of
+  lation Studies, 1st edition, page 25. Routledge.           Speech and Hearing Research, 11(4):796–804.
+Delia Chiaro. 2008b. Issues of quality in screen             https://doi.org/10.1044/jshr.1104
+  translation: Problems and solutions. In Delia              .796, PubMed: 5719234
+  Chiaro, Christine Heiss, and Chiara Bucaria,
+                                                           István Fodor. 1976. Film Dubbing: Phonetic,
+  editors, Benjamins Translation Library, vol-
+                                                              Semiotic, Esthetic and Psychological Aspects,
+  ume 78, pages 241–256. John Benjamins
+                                                              1st edition. Buske, Hamburg.
+  Publishing Company, Amsterdam. https://
+  doi.org/10.1075/btl.78.24chi                             Maria Freddi and Maria Pavesi, editors. 2009.
+Marcella De Marco. 2012. Audiovisual Trans-                 Analysing Audiovisual Dialogue: Linguistic
+ lation through a Gender Lens, volume 37 of                 and Translational Insights. CLUEB, Bologna.
+ Approaches to Translation Studies. Rodopi,                Markus Freitag, Ricardo Rei, Nitika Mathur,
+ Amsterdam. https://doi.org/10.1163                         Chi-kiu Lo, Craig Stewart, George Foster,
+ /9789401207881                                             Alon Lavie, and Ondřej Bojar. 2021. Results of
+Elena Di Giovanni and Pablo Romero-Fresco.                  the WMT21 Metrics Shared Task: Evaluating
+  2019. Chapter 6. Are we all together across               metrics with expert-based human evaluations
+  languages? An eye tracking study of origi-                on TED and news domain. In Proceedings
+  nal and dubbed films. In Irene Ranzato and                of the Sixth Conference on Machine Trans-
+  Serenella Zanotti, editors, Benjamins Trans-              lation, pages 733–774, Online. Association for
+  lation Library, volume 148, pages 126–144.                Computational Linguistics.
+  John Benjamins Publishing Company, Amster-               Pablo Romero Fresco. 2009. Naturalness in the
+  dam. https://doi.org/10.1075/btl                           Spanish dubbing language: A case of not-so-
+  .148.06di                                                  close friends. Meta, 54(1):49–72. https://
+Chris Dyer, Victor Chahuneau, and Noah A.                    doi.org/10.7202/029793ar
+  Smith. 2013. A simple, fast, and effective
+                                                           Robert W. Frick. 1985. Communicating emotion:
+  reparameterization of IBM Model 2. In Pro-
+                                                             The role of prosodic features. Psychologi-
+  ceedings of the 2013 Conference of the
+                                                             cal Bulletin, 97(3):412–429. https://doi
+  North American Chapter of the Association
+                                                             .org/10.1037/0033-2909.97.3.412
+  for Computational Linguistics: Human Lan-
+  guage Technologies, pages 644–648, Atlanta,              Thomas Herbst. 1997. Dubbing and the dubbed
+  Georgia. Association for Computational                     text—style and cohesion. In Anna Trosborg,
+  Linguistics.                                               editor, Benjamins Translation Library, vol-
+                                                             ume 26, page 291. John Benjamins Publishing
+Marcello Federico, Robert Enyedi, Roberto
+                                                             Company, Amsterdam. https://doi.org
+ Barra-Chicote, Ritwik Giri, Umut Isik,
+                                                             /10.1075/btl.26.21her
+ Arvindh Krishnaswamy, and Hassan Sawaf.
+ 2020a. From speech-to-speech translation to               Chenxu Hu, Qiao Tian, Tingle Li, Wang
+ automatic dubbing. In Proceedings of the 17th               Yuping, Yuxuan Wang, and Hang Zhao.
+ International Conference on Spoken Lan-                     2021. Neural Dubber: Dubbing for videos
+ guage Translation, pages 257–264, Online.                   according to scripts. In Advances in Neural
+
+                                                     432
+  Information Processing Systems, volume 34,                  lation, 56(2):101–118. https://doi.org
+  pages 16582–16595. Curran Associates, Inc.                  /10.1075/babel.56.2.01mat
+Alina Karakanta, Supratik Bhattacharya, Shravan             Roberto Mayoral, Dorothy Kelly, and Natividad
+  Nayak, Timo Baumann, Matteo Negri, and                      Gallardo. 1988. Concept of constrained trans-
+  Marco Turchi. 2020. The two shades of dub-                  lation. Non-linguistic perspectives of transla-
+  bing in neural machine translation. In Proceed-             tion. Meta, 33(3):356–367. https://doi
+  ings of the 28th International Conference on                .org/10.7202/003608ar
+  Computational Linguistics, pages 4327–4333,               Michael McAuliffe, Michaela Socolof, Sarah
+  Barcelona, Spain (Online). International Com-              Mihuc, Michael Wagner, and Morgan
+  mittee on Computational Linguistics. https://              Sonderegger. 2017. Montreal forced aligner:
+  doi.org/10.18653/v1/2020.coling-main                       Trainable text-speech alignment using Kaldi.
+  .382                                                       In Interspeech 2017, pages 498–502. ISCA.
+Hyeongwoo Kim, Mohamed Elgharib, Michael                     https://doi.org/10.21437/Interspeech
+  Zollhöfer, Hans-Peter Seidel, Thabo Beeler,               .2017-1386
+  Christian Richardt, and Christian Theobalt.               Giselle Spiteri Miggiani. 2019. Dialogue Writ-
+  2019. Neural style-preserving visual dubbing.               ing for Dubbing: An Insider’s Perspective,
+  ACM Transactions on Graphics, 38(6):1–13.                   1st edition. Palgrave Macmillan, Basingstoke,
+  https://doi.org/10.1145/3355089                             Hampshire. https://doi.org/10.1007
+  .3356500                                                    /978-3-030-04966-9
+Surafel M. Lakew, Marcello Federico, Yue                    Lora Myers. 1973. The art of dubbing. Filmmak-
+  Wang, Cuong Hoang, Yogesh Virkar, Roberto                   ers’ Newsletter, 6(6):56–58.
+  Barra-Chicote, and Robert Enyedi. 2021.
+                                                            Giovanni Nencioni. 1976. Parlato-parlato,
+  Machine translation verbosity control for
+                                                              parlato-scritto, parlato-recitato. Strumenti crit-
+  automatic dubbing. In ICASSP 2021 -
+                                                              ici, 29:49.
+  2021 IEEE International Conference on
+  Acoustics, Speech and Signal Processing                   Alp Öktem, Mireia Farrús, and Antonio
+  (ICASSP), pages 7538–7542, Toronto, ON,                     Bonafonte. 2018. Bilingual prosodic dataset
+  Canada. IEEE. https://doi.org/10                            compilation for spoken language translation.
+  .1109/ICASSP39728.2021.9414411                              In IberSPEECH 2018, pages 20–24. ISCA.
+                                                              https://doi.org/10.21437/IberSPEECH
+Surafel M. Lakew, Yogesh Virkar, Prashant                     .2018-5
+  Mathur, and Marcello Federico. 2022. ISO-
+  METRIC MT: Neural machine translation                     Alp Öktem, Mireia Farrús, and Antonio
+  for automatic dubbing. In ICASSP 2022 -                     Bonafonte. 2019. Prosodic phrase alignment
+  2022 IEEE International Conference on                       for machine dubbing. In Interspeech 2019,
+  Acoustics, Speech and Signal Processing                     pages 4215–4219. ISCA. https://doi.org
+  (ICASSP), pages 6242–6246, Singapore, Singa-                /10.21437/Interspeech.2019-1621
+  pore. IEEE. https://doi.org/10.1109                       Mario Paolinelli and Eleonora Di Fortunato. 2009.
+  /ICASSP43922.2022.9747023                                  Tradurre per il doppiaggio: la trasposizione
+John Laver. 1994. Principles of Phonetics. Cam-              linguistica dell’audiovisivo: teoria e pratica di
+  bridge Textbooks in Linguistics. Cambridge                 un’arte imperfetta, 4th edition. Hoepli, Milano.
+  University Press, Cambridge.                              Kishore Papineni, Salim Roukos, Todd Ward,
+                                                              and Wei-Jing Zhu. 2002. BLEU: A method
+José Luis Martı́ Ferriol. 2010. Cine independiente
+                                                              for automatic evaluation of machine trans-
+  y traducción, Prosopopeya (Tirant lo Blanch):
+                                                              lation. In Proceedings of the 40th Annual
+  Manuales, Tirant lo Blanch, Valencia.
+                                                              Meeting of the Association for Computational
+Anna Matamala. 2010. Translations for dubbing                 Linguistics, pages 311–318, Philadelphia, Penn-
+  as dynamic texts: Strategies in film synchro-               sylvania, USA. Association for Computational
+  nisation. Babel. Revue internationale de la                 Linguistics. https://doi.org/10.3115
+  traduction / International Journal of Trans-                /1073083.1073135
+
+                                                      433
+Maria Pavesi. 1996. L’allocuzione nel doppiaggio            Sofı́a Sánchez-Mompeán. 2020a. Dubbing and
+ dall’inglese all’italiano. In Traduzione multi-              Prosody at the Interface, pages 19–88. Springer
+ mediale per il cinema, la televisione e la scena :           International Publishing, Cham.
+ atti del Convegno internazionale : Forlı̀, 26-28
+                                                            Sofı́a Sánchez-Mompeán. 2020b. The Prosody
+ ottobre 1995 = Multimediale Übersetzung für
+                                                              of Dubbed Speech: Beyond the Charac-
+ film ... = Multimedia translation for film ... / a
+                                                              ter’s Words. Springer International Publish-
+ cura di Christine Heiss, Rosa Maria Bollettieri
+                                                              ing. https://doi.org/10.1007/978
+ Bosinelli, pages 117–130. CLUEB.
+                                                              -3-030-35521-0
+Maria Pavesi. 2009. Chapter 14: Dubbing                     Laura Santamaria. 2016. Filmmaking: Cul-
+ English into Italian: A closer look at the                   tural referents, terminology and identity,
+ translation of spoken language. In Jorge Dı́az               Lucı́a Molina and Laura Santamaria, edi-
+ Cintas, editor, New Trends in Audiovisual                    tors, Traducción, Interpretación y Estudios
+ Translation, pages 197–209. Multilingual                     Interculturales, Editiorial Comares, Granada.
+ Matters. https://doi.org/10.21832
+                                                            Derek Tam, Surafel M. Lakew, Yogesh Virkar,
+ /9781847691552-016
+                                                              Prashant Mathur, and Marcello Federico.
+Elisa Perego, David Orrego-Carmona, and Sara                  2022. Isochrony-aware neural machine trans-
+  Bottiroli. 2016. An empirical take on the dub-              lation for automatic dubbing. In Inter-
+  bing vs. subtitling debate: An eye movement                 speech    2022.   https://doi.org/10
+  study. Lingue e Linguaggi, 19:255–274.                      .21437/Interspeech.2022-11136
+
+Alec Radford, Jeffrey Wu, Rewon Child, David                Sarah Taylor, Barry-John Theobald, and Iain
+  Luan, Dario Amodei, and Ilya Sutskever. 2019.               Matthews. 2015. A mouth full of words: Vi-
+  Language models are unsupervised multitask                  sually consistent acoustic redubbing. In 2015
+  learners.                                                   IEEE International Conference on Acous-
+                                                              tics, Speech and Signal Processing (ICASSP),
+Mirco Ravanelli, Titouan Parcollet, Peter                     pages 4904–4908. South Brisbane, Queens-
+ Plantinga, Aku Rouhe, Samuele Cornell, Loren                 land, Australia. IEEE. https://doi.org
+ Lugosch, Cem Subakan, Nauman Dawalatabad,                    /10.1109/ICASSP.2015.7178903
+ Abdelwahab Heba, Jianyuan Zhong, Ju-Chieh
+                                                            Brian Thompson and Philipp Koehn. 2019. Ve-
+ Chou, Sung-Lin Yeh, Szu-Wei Fu, Chien-Feng
+                                                              calign: Improved sentence alignment in linear
+ Liao, Elena Rastorgueva, François Grondin,
+                                                              time and space. In Proceedings of the 2019
+ William Aris, Hwidong Na, Yan Gao, Renato
+                                                              Conference on Empirical Methods in Natural
+ De Mori, and Yoshua Bengio. 2021. Speech-
+                                                              Language Processing and the 9th International
+ Brain: A general-purpose speech toolkit. arXiv
+                                                              Joint Conference on Natural Language Pro-
+ preprint arXiv:2106.04624.
+                                                              cessing (EMNLP-IJCNLP), pages 1342–1348,
+Ricardo Rei, Craig Stewart, Ana C. Farinha, and               Hong Kong, China. Association for Computa-
+  Alon Lavie. 2020. COMET: A neural frame-                    tional Linguistics. https://doi.org/10
+  work for MT Evaluation. In Proceedings of                   .18653/v1/D19-1136
+  the 2020 Conference on Empirical Methods                  Brian Thompson and Philipp Koehn. 2020.
+  in Natural Language Processing (EMNLP),                     Exploiting sentence order in document align-
+  pages 2685–2702, Online. Association for                    ment. In Proceedings of the 2020 Conference
+  Computational Linguistics.                                  on Empirical Methods in Natural Language
+                                                              Processing (EMNLP), pages 5997–6007, On-
+Ashutosh Saboo and Timo Baumann. 2019. In-
+                                                              line. Association for Computational Linguis-
+  tegration of dubbing constraints into machine
+                                                              tics. https://doi.org/10.18653/v1
+  translation. In Proceedings of the Fourth Con-
+                                                              /2020.emnlp-main.483
+  ference on Machine Translation (Volume 1:
+  Research Papers), pages 94–101, Florence,                 Brian Thompson and Matt Post. 2020a. Auto-
+  Italy. Association for Computational Linguis-               matic machine translation evaluation in many
+  tics. https://doi.org/10.18653/v1                           languages via zero-shot paraphrasing. In Pro-
+  /W19-5210                                                   ceedings of the 2020 Conference on Empirical
+
+                                                      434
+  Methods in Natural Language Processing                     Speech and Signal Processing (ICASSP),
+  (EMNLP), pages 90–121, Online. Association                 pages 7543–7574, Toronto, ON, Canada. IEEE.
+  for Computational Linguistics. https://doi                 https://doi.org/10.1109/ICASSP39728
+  .org/10.18653/v1/2020.emnlp-main.8                         .2021.9414966
+Brian Thompson and Matt Post. 2020b. Para-                 Yogesh Virkar, Marcello Federico, Robert
+  phrase generation as zero-shot multilingual                Enyedi, and Roberto Barra-Chicote. 2022.
+  translation: Disentangling semantic similar-               Prosodic alignment for off-screen automatic
+  ity from lexical and syntactic diversity. In               dubbing. https://doi.org/10.21437
+  Proceedings of the Fifth Conference on                     /Interspeech.2022-11089
+  Machine Translation, pages 561–570, Online.              Patrick Zabalbeascoa. 1997. Dubbing and the
+  Association for Computational Linguistics.                 nonverbal dimension of translation, Fernando
+Christopher Titford. 1982. Sub-titling-Constrained           Poyatos, editor, Benjamins Translation Library,
+  Translation. Lebende Sprachen, 27(3):113–116.              volume 17, page 327. John Benjamins Pub-
+Jorgen Valk and Tanel Alumae. 2021. VOXLIN-                  lishing Company, Amsterdam. https://doi
+  GUA107: A dataset for spoken language                      .org/10.1075/btl.17.26zab
+  recognition. In 2021 IEEE Spoken Language                Patrick Zabalbeascoa. 2008. The nature of the
+  Technology Workshop (SLT), pages 652–658,                  audiovisual text and its parameters. In Jorge
+  Shenzhen, China. IEEE. https://doi.org                     Dı́az-Cintas, editor, Benjamins Translation Li-
+  /10.1109/SLT48900.2021.9383459                             brary, volume 77, pages 21–37. John Benjamins
+Yogesh Virkar, Marcello Federico, Robert                     Publishing Company, Amsterdam. https://
+  Enyedi, and Roberto Barra-Chicote. 2021.                   doi.org/10.1075/btl.77.05zab
+  Improvements to prosodic alignment for auto-             Serenella Zanotti. 2014. Translation and tran-
+  matic dubbing. In ICASSP 2021 - 2021                       screation in the dubbing process: A genetic
+  IEEE International Conference on Acoustics,                approach. Cultus, 7:109–134.
+
+
+
+
+                                                     435
+

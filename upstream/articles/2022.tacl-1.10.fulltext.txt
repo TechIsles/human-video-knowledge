@@ -1,0 +1,905 @@
+SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization
+Authors: Philippe Laban; Tobias Schnabel; Paul Bennett; Marti A. Hearst
+Source: https://aclanthology.org/2022.tacl-1.10/
+PDF: https://aclanthology.org/2022.tacl-1.10.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+                               SUMMAC: Re-Visiting NLI-based Models for
+                                Inconsistency Detection in Summarization
+
+               Philippe Laban                 Tobias Schnabel Paul N. Bennett Marti A. Hearst
+              UC Berkeley, USA                    Microsoft, USA                 Microsoft, USA               UC Berkeley, USA∗
+
+
+                             Abstract                                           even state-of-the-art pre-trained language mod-
+                                                                                els can generate inconsistent summaries in more
+        In the summarization domain, a key require-                             than 70% of all cases (Pagnoni et al., 2021). This
+        ment for summaries is to be factually consis-                           has led to accelerated research around summary
+        tent with the input document. Previous work
+                                                                                inconsistency detection.
+        has found that natural language inference
+        (NLI) models do not perform competitively
+                                                                                   A closely related task to inconsistency detection
+        when applied to inconsistency detection. In                             is textual entailment, also referred to as Natural
+        this work, we revisit the use of NLI for in-                            Language Inference (NLI), in which a hypothesis
+        consistency detection, finding that past work                           sentence must be classified as either entailed by,
+        suffered from a mismatch in input granular-                             neutral, or contradicting a premise sentence. En-
+        ity between NLI datasets (sentence-level), and                          abled by the crowd-sourcing of large NLI datasets
+        inconsistency detection (document level). We                            such as SNLI (Bowman et al., 2015) and MNLI
+        provide a highly effective and light-weight
+                                                                                (Williams et al., 2018), modern architectures have
+        method called SUMMACCONV that enables NLI
+        models to be successfully used for this task by                         achieved close to human performance at the task.
+        segmenting documents into sentence units and                               The similarity of NLI to inconsistency detec-
+        aggregating scores between pairs of sentences.                          tion, as well as the availability of high-performing
+        We furthermore introduce a new benchmark                                NLI models, led to early attempts at using NLI to
+        called SUMMAC (Summary Consistency) which                               detect consistencyerrorsinsummaries. These early at-
+        consists of six large inconsistency detection                           tempts were unsuccessful, finding that re-ranking
+        datasets. On this dataset, SUMMACConv obtains                           summaries according to an NLI model can lead
+        state-of-the-art results with a balanced accu-
+                                                                                to an increase in consistency errors (Falke et al.,
+        racy of 74.4%, a 5% improvement compared
+        with prior work.                                                        2019), or that out-of-the-box NLI models obtain
+                                                                                52% accuracy at the binary classification task
+                                                                                of inconsistency detection, only slightly above
+1       Introduction
+                                                                                random guessing (Kryscinski et al., 2020).
+Recent progress in text summarization has been                                     In this work, we revisit this approach, showing
+remarkable, with ROUGE record-setting models                                    that NLI models can in fact successfully be used
+published every few months, and human eval-                                     for inconsistency detection, as long as they are
+uations indicating that automatically generated                                 used at the appropriate granularity. Figure 1 shows
+summaries are matching human-written sum-                                       how crucial using the correct granularity as input
+maries in terms of fluency and informativeness                                  to NLI models is. An inconsistency checker should
+(Zhang et al., 2020a).                                                          flag the last sentence in the summary (shown right)
+                                                                                as problematic. When treating the entire document
+   A major limitation of current summarization
+                                                                                as the premise and the summary as the hypothesis,
+models is their inability to remain factually consis-
+                                                                                a competitive NLI model predicts with probability
+tent with the respective input document. Summary
+                                                                                of 0.91 that the summary is entailed by the docu-
+inconsistencies are diverse—from inversions (i.e.,
+                                                                                ment. However, when splitting the documents into
+negation) to incorrect use of an entity (i.e., subject,
+                                                                                sentence premise-hypothesis pairs (visualized as
+object swapping), or hallucinations (i.e., intro-
+                                                                                edges in Figure 1) the NLI model correctly deter-
+duction of entity not in the original document).
+                                                                                mines that S3 is not supported by any document
+Recent studies have shown that in some scenarios,
+                                                                                sentence. This illustrates that working with sen-
+    ∗
+    Author emails: {phillab,hearst}@berkeley.edu, {Tobias.                      tence pairs is crucial for making NLI models work
+Schnabel,Paul.N.Bennett}@microsoft.com                                          for inconsistency detection.
+                                                                          163
+
+              Transactions of the Association for Computational Linguistics, vol. 10, pp. 163–177, 2022. https://doi.org/10.1162/tacl a 00453
+                            Action Editor: Shay Cohen. Submission batch: 8/2021; Revision batch: 11/2021; Published 2/2022.
+                                c 2022 Association for Computational Linguistics. Distributed under a CC-BY 4.0 license.
+                                                             2.1 Fact Checking and Verification
+                                                             Fact checking is a related task in which a model
+                                                             receives an input claim along with a corpus of
+                                                             ground truth information. The model must then
+                                                             retrieve relevant evidence and decide whether the
+                                                             claim is supported, refuted, or if there is not
+                                                             enough information in the corpus (Thorne et al.,
+                                                             2018). The major difference to our task lies in the
+                                                             different semantics of consistency and accuracy.
+                                                             If a summary adds novel and accurate information
+                                                             not present in the original document (e.g., adding
+                                                             background information), the summary is accurate
+                                                             but inconsistent. In the summary inconsistency
+Figure 1: Example document with an inconsistent              detection domain, the focus is on detecting any
+summary. When running each sentence pair (Di , Sj )          inconsistency, regardless of its accuracy, as prior
+through an NLI model, S3 is not entailed by any doc-         work has shown that current automatic summariz-
+ument sentence. However, when running the entire             ers are predominantly inaccurate when inconsist-
+(document, summary) at once, the NLI model incor-            ent (Maynez et al., 2020).
+rectly predicts that the document highly entails the
+entire summary.
+                                                             2.2 Datasets for Inconsistency Detection
+                                                             Several datasets have been annotated to evalu-
+   Our contributions are two-fold. First, we intro-
+                                                             ate model performance in inconsistency detection,
+duce a new approach for inconsistency detection
+                                                             typically comprising up to two thousand annotated
+based on the aggregation of sentence-level entail-
+                                                             summaries. Datasets are most commonly crowd-
+ment scores for each pair of input document and
+                                                             annotated with three judgements each, despite
+summary sentences. We present two model vari-
+                                                             some work showing that as many as eight anno-
+ants that differ in the way they aggregate sentence-
+                                                             tators are required to achieve high inter-annotator
+level scores into a single score. SUMMACZS
+                                                             agreement (Falke et al., 2019).
+performs zero-shot aggregation by combining
+                                                                Reading the entire original document being
+sentence-level scores using max and mean op-
+                                                             summarized is time-consuming, and to amortize
+erators. SUMMACCONV is a trained model consisting
+                                                             this cost, consistency datasets often contain multi-
+of a single learned convolution layer compiling the
+                                                             ple summaries, generated by different models, for
+distribution of entailment scores of all document
+                                                             the same original document.
+sentences into a single score.
+   Second, to evaluate our approach, we introduce               Some datasets consist of an overall consistency
+the SUMMAC Benchmark by standardizing existing               label for a summary (e.g., FactCC [Kryscinski
+datasets. Because the benchmark contains the six             et al., 2020]), while others propose a finer-grained
+largest summary consistency datasets, it is more             typology with up to 8 types of consistency errors
+comprehensive and includes a broader range of                (Huang et al., 2020).
+inconsistency errors than prior work.                           We include the six largest summary consistency
+   The SUMMAC models outperform existing in-                 datasets in the SUMMAC Benchmark, and describe
+consistency detection models on the benchmark,               them more in detail in Section 4.
+with the SUMMACCONV obtaining an overall bal-
+                                                             2.3 Methods for Inconsistency Detection
+anced accuracy of 74.4%, 5% above prior work.
+We publicly release the models and datasets.1                Due to data limitations, most inconsistency detec-
+                                                             tion methods adapt NLP pipelines from other tasks
+2       Related Work                                         including QAG models, synthetic classifiers, and
+                                                             parsing-based methods.
+We briefly survey existing methods and datasets                 QAG methods follow three steps: (1) question
+for fact checking, inconsistency detection, and              generation (QG), (2) question answering (QA)
+inconsistency correction.                                    with the document and the summary, (3) matching
+    1
+        https://github.com/tingofurro/summac/.               document and summary answers. A summary is
+
+                                                       164
+considered consistent if few or no questions have            (2018) leverage an NLI-based component as
+differing answer with the document. A key design             part of an overall ROUGE-based reward, and
+choice for these methods lies in the source for              Zhang et al. (2020b) use a parsing-based measure
+question generation. Durmus et al. (2020) generate           in the domain of medical report summarization.
+questions using the summary as a source, making                 Re-writing methods typically operate as a
+their FEQA method precision-oriented. Scialom                modular component that is applied after an ex-
+et al. (2019) generate questions with the document           isting summarization model. Cao et al. (2020) use
+as a source, creating a recall-focused measure.              a synthetic dataset of rule-corrupted summaries
+Scialom et al. (2021) unite both in QuestEval, by            to train a post-corrector model, but find that this
+generating two sets of questions, sourced from the           model does not transfer well to real summarizer
+summary and document respectively. We include                errors. Dong et al. (2020) propose to use a QAG
+FEQA and QuestEval in our benchmark results.                 model to find erroneous spans, which are then
+   Synthetic classifiers rely on large, synthetic            corrected using a post-processing model.
+datasets of summaries with inconsistencies, and                 Since all methods discussed above for con-
+use those to train a classifier with the expectation         sistency correction rely on a model to detect
+that the model generalizes to non-synthetic sum-             inconsistencies, they will naturally benefit from
+maries. To generate a synthetic dataset, Kryscinski          more accurate inconsistency detectors.
+et al. (2020) propose a set of semantically invari-
+ant (e.g., paraphrasing) and variant (e.g., sentence         3 SUMMAC Models
+negation) text transformations that they apply to a
+                                                             We now introduce our SUMMAC models for incon-
+large summarization dataset. FactCC-CLS, the
+                                                             sistency detection. The first step common to all
+classifier obtained when training on the synthetic
+                                                             models is to apply an out-of-the-box NLI model to
+dataset, is included in our benchmark results for
+                                                             generate an NLI Pair Matrix for a (document,
+comparison.
+                                                             summary) pair. The two models we present then
+   Parsing-based methods generate relations
+                                                             differ in the way they process this pair matrix
+through parsing and compute the fraction of
+                                                             to produce a single consistency score for a given
+summary relations that are compatible with docu
+                                                             summary. We also describe the SUMMAC evalua-
+ment relations as a precision measure of summary
+                                                             tion benchmark, a set of inconsistency detection
+factuality. Goodrich et al. (2019) extract (sub-
+                                                             datasets, in Section 4. In Section 5, we measure the
+ject, relation, object) tuples most
+                                                             performance of the SUMMAC models on this bench-
+commonly using OpenIE (Etzioni et al., 2008). In
+                                                             mark and investigate components of the models,
+the recent DAE model, Goyal and Durrett (2020)
+                                                             including which NLI model achieves highest per-
+propose to use arc labels from a dependency
+                                                             formance, which NLI categories should be used,
+parser instead of relation triplet. We include the
+                                                             and what textual granularity is most effective.
+DAE model in our benchmark results.
+                                                             3.1 Generating the NLI Pair Matrix
+2.4 Methods for Consistency Correction
+                                                             NLI datasets are predominantly represented at the
+Complementary to inconsistency detection, some               sentence level. In our pilot experiments, we found
+work focused on the task of mitigating inconsis-             that this causes the resulting NLI models to fail
+tency errors during summarization. Approaches                in assessing consistency for documents with 50
+fall in two categories: Reinforcement Learning               sentences and more.
+(RL) methods to improve models and stand-alone                  This motivates the following approach. We
+re-writing methods.                                          generate an NLI Pair Matrix by splitting a (doc-
+   RL methods often rely on an out-of-the-box                ument, summary) pair into sentence blocks.
+inconsistency detection model and use reinforce-             The document is split into M blocks, each consid-
+ment learning to optimize a reward with a                    ered a premise labeled from D1 , . . . , DM , and the
+consistency component. Arumae and Liu (2019)                 summary is split into N blocks, each considered
+optimize a QA-based consistency reward, and                  a hypothesis labeled from S1 , . . . , SN .
+Nan et al. (2021) streamline a QAG reward by                    Each Di , Sj combination is run through the
+combining the QG and QA model, making it more                NLI model, which produces a probability distribu-
+efficient for RL training. Pasunuru and Bansal               tion over the three NLI categories (Eij , Cij , Nij )
+
+                                                       165
+                                                               step consists of retaining the score for the docu-
+                                                               ment sentence that provides the strongest support
+                                                               for each summary sentence. For the example in
+                                                               Figure 1:
+                                                                                              
+                                                               max(Xpair , axis=‘col’) =          0.98 0.99 0.04
+
+                                                                  The second step consists of taking the mean
+                                                               of the produced vector, reducing the vector to a
+                                                               scalar which is used as the final model score. At
+                                                               a high level, this step aggregates sentence-level
+                                                               information into a single score for the entire sum-
+                                                               mary. For example, in Figure 1, the score produced
+Figure 2: Diagram of the SUMMACZS (top) and                    by SUMMACZS would be 0.67. If we removed the
+SUMMACCONV (bottom) models. Both models utilize the            third sentence from the summary, the score would
+same NLI Pair Matrix (middle) but differ in their pro-
+                                                               increase to 0.985. We experiment with replacing
+cessing to obtain a score. The SUMMACZS is Zero-Shot,
+and does not have trained parameters. SUMMACCONV               the max and mean operators with other operators
+uses a convolutional layer trained on a binned version         in Appendix B.
+of the NLI Pair Matrix.
+                                                               3.3 SUMMACCONV : Convolution
+for entailment, contradiction, and neutral, respec-            One limitation of SUMMACZS is that it is highly
+tively. If not specified otherwise, the pair matrix            sensitive to extrema, which can be noisy due to
+is an M × N matrix consisting of the entail-                   the presence of outliers and the imperfect na-
+ment scores Eij . In Section 5.3.3, we examine the             ture of NLI models. In SUMMACCONV , we reduce
+effect of granularity by splitting texts at the para-          the reliance on extrema values by instead taking
+graph level or binning two sentences at a time. In             into account the entire distribution of entailment
+Section 5.3.2, we explore the use of the contradic-            scores for each summary sentence. For each sum-
+tion and neutral categories in our experiments.                mary sentence, a learned convolutional layer is in
+   The example in Figure 1 has M = 4 document                  charge of converting the entire distribution into a
+sentences, and N = 3 summary sentences, and the                single score.
+corresponding NLI Pair Matrix is the following:                   The first step of the SUMMACCONV algorithm is
+                   ⎡                      ⎤                    to turn each column of the NLI Pair Matrix into
+                      0.02 0.02 0.04
+                   ⎢ 0.98 0.00 0.00 ⎥                          a fixed-size histogram that represents the distribu-
+          Xpair = ⎢⎣ 0.43 0.99 0.00 ⎦
+                                          ⎥                    tion of scores for that given summary sentence.
+                                                                  We bin the NLI scores into H evenly spaced
+                      0.00 0.00 0.01
+                                                               bins (e.g., if H = 5, the bins are [0, 0.2),
+The pair matrix can be interpreted as the weights              [0.2, 0.4), [0.4, 0.6), [0.6, 0.8), [0.8, 1)). Thus the
+of a bipartite graph, which is also illustrated in             first summary sentence of the example in Figure 1
+Figure 1 where the opacity of each edge (i, j )                would have the following histogram: [2, 0, 1, 0, 1],
+represents the entailment probability Eij .                    because there are two values between [0.0, 0.2] in
+  The two SUMMAC models take as input the same                 the first column, one in [0.4, 0.6] and one in
+NLI Pair Matrix, but differ in the aggregation                 [0.8, 1.0].
+method to transform the pair matrix into a score.                 By producing one histogram for each summary
+Figure 2 presents an overview of SUMMACZS and                  sentence, the binning process in the example of
+SUMMACCONV .                                                   Figure 1 would produce:
+
+3.2 SUMMACZS : Zero-Shot                                                                  ⎡              ⎤
+                                                                                          2        3   4
+In the SUMMACZS model, we reduce the pair ma-                                           ⎢ 0        0   0 ⎥
+                                                                                        ⎢                ⎥
+trix to a one-dimensional vector by taking the                            bin(Xpair ) = ⎢
+                                                                                        ⎢ 1        0   0 ⎥
+                                                                                                         ⎥
+maximum (max) value of each column. On an                                               ⎣ 0        0   0 ⎦
+intuitive level, for each summary sentence, this                                          1        1   0
+
+                                                         166
+Dataset                                Size       % Positive IAA Source # Summarizer # Sublabel
+                                   Valid. Test
+CoGenSumm (Falke et al., 2019)     1281     400         49.8        0.65   C              3             0
+XSumFaith (Maynez et al., 2020)    1250    1250         10.2        0.80   X              5             2
+Polytope (Huang et al., 2020)       634     634          6.6         −     C             10             8
+FactCC (Kryscinski et al., 2020)    931     503         85.0         −     C             10             0
+SummEval (Fabbri et al., 2021)      850     850         90.6        0.7    C             23             4
+FRANK (Pagnoni et al., 2021)        671    1575         33.2        0.53   C+X            9             7
+
+Table 1: Statistics of the six datasets in the SUMMAC Benchmark. For each dataset, we report the
+validation and test set sizes, the percentage of summaries with positive (consistent) labels (% Positive),
+the inter-annotator agreement (when available, IAA), the source of the documents (Source: C for
+CNN/DM, X for XSum), the number of summarizers evaluated, and the number of sublabels annotated.
+
+
+
+   The binned matrix is then passed through a 1-D            sistency detection, which we standardize to use
+convolution layer with a kernel size of H . The              the same classification task.
+convolution layer scans the summary histograms
+one at a time, and compiles each into a scalar               4.1 Benchmark Standardization
+value for each summary. Finally, the scores of
+each summary sentence are averaged to obtain the             We standardize the task of summary inconsistency
+final summary-level score.                                   detection by casting it as a binary classification
+   In order to learn the weights of the convolution          task. Each dataset contains (document, sum-
+layer, we train the SUMMACCONV model end-to-                 mary, label) samples, where the label can
+end with the synthetic training data in FactCC               either be consistent or inconsistent.
+(Kryscinski et al., 2020). The original training                Each dataset is divided into a validation and
+dataset contains one million (document,                      test split, with the validation being available for
+summary) pairs evenly distributed with con-                  parameter tuning. We used existing validation/test
+sistent and inconsistent summaries. Because we               splits created by dataset authors when available.
+are only training a small set of H parameters                We did not find a split for XSumFaith, Poly-
+(we use H = 50), we find that using a 10,000                 tope, and SummEval, and created one by putting
+sub-sample is sufficient. We train the model using           even-indexed samples in a validation split, and
+a cross-entropy loss, the Adam optimizer, a batch            odd-indexed samples in the test split. This method
+size of 32, and a learning rate of 10−2 . We perform         of splitting maintains similar class imbalance and
+hyper-parameter tuning on a validation set from              summarizer identity with the entire dataset.
+the FactCC dataset.                                             We computed inter-annotator agreement cal-
+   The number of bins used in the binning process,           culated with Fleiss’ Kappa (Fleiss, 1971) on the
+which corresponds to the number of parameters in             dataset as an estimate for dataset quality, omit-
+the convolution layer, is also a hyper-parameter             ting datasets for which summaries only had a
+we tune on the validation set. We find that per-             single annotator (Polytope and FactCC). Table 1
+formance increases until 50 bins (i.e., a bin width          summarizes dataset statistics and properties.
+of 0.02) and then plateaus. We use 50 bins in all
+our experiments.                                             4.2 Benchmark Datasets
+                                                             We introduce each dataset in the benchmark
+4   SUMMAC Benchmark                                         chronologically, and describe the standardizing
+                                                             procedure.
+To rigorously evaluate the SUMMAC models on                     CoGenSumm (Correctness of Generated
+a diverse set of summaries with consistency                  Summaries, CGS) (Falke et al., 2019) is the first
+judgements, we introduce a new large benchmark               introduced dataset for summary inconsistency
+dataset, the SUMMAC Benchmark. It comprises the              detection, based on models trained on the
+six largest available datasets for summary incon-            CNN/DM dataset (Nallapati et al., 2016). The
+
+                                                       167
+authors proposed that consistency detection                    dataset by modifying consistent summaries with
+should be approached as a ranking problem:                     semantically variant rules. We use a sub-portion
+Given a consistent and inconsistent summary for a              of this synthetic dataset to train the SUMMACCONV
+common document, a ranking model should score                  model.
+the consistent summary higher. Although inno-                     SummEval (Fabbri et al., 2021) contains sum-
+vative, other datasets in the benchmark do not                 marizer outputs from seven extractive models and
+always have positive and negative samples for a                sixteen abstractive models. Each summary was
+given document. We thus map the dataset to a                   labeled using a 5-point Likert scale along four
+classification task by using all inconsistent and              categories: coherence, consistency, fluency, and
+consistent summaries as individual samples.                    relevance by 3 annotators. We label summaries as
+   XSumFaith (eXtreme Summarization Faith-                     consistent if all annotators gave a score of 5 in
+fulness, XSF) (Maynez et al., 2020) is a data-                 consistency, and inconsistent otherwise.
+set with models trained on the XSum dataset                       FRANK (Pagnoni et al., 2021) contains anno-
+(Narayan et al., 2018), which consists of more                 tations for summarizers trained on both CNN/DM
+abstractive summaries than CoGenSumm. The                      and XSum, with each summary annotated by three
+authors find that standard generators remain con-              crowd-workers. The authors propose a new ty-
+sistent for only 20-30% of generated summaries.                pology with seven error types, organized into
+The authors differentiate between extrinsic and                semantic frame errors, discourse errors and con-
+intrinsic hallucinations (which we call inconsis-              tent verifiability errors. The authors confirm that
+tencies in this work). Extrinsic hallucinations,               models trained on the more abstractive XSum
+which involve words or concepts not in the original            dataset generate a larger proportion of inconsis-
+document can nonetheless be accurate or inaccu-                tent summaries, compared to models trained on
+rate. In order for a summarizer to generate an                 CNN/DM. We label summaries as consistent if
+accurate extrinsic hallucination, the summarizer               a majority of annotators labeled the summary as
+must possess external world knowledge. Because                 containing no error.
+the authors found that the models are primarily
+inaccurate in terms of extrinsic hallucinations, we
+map both extrinsic and intrinsic hallucinations to             4.3 Benchmark Evaluation Metrics
+a common inconsistent label.                                   With each dataset in the SUMMAC Benchmark
+   Polytope (Huang et al., 2020) introduces a                  converted to a binary classification task, we now
+more extensive typology of summarization errors,               discuss the choice of appropriate evaluation met-
+based on the Multi-dimensional Quality Metric                  rics for the benchmark. Previous work on each
+(Mariana, 2014). Each summary is annotated with                dataset in the benchmark used different evaluation
+eight possible errors, as well as a severity level for         methods, falling into three main categories.
+the error. We standardize this dataset by labeling                First, CoGenSumm proposes a re-ranking based
+a summary as inconsistent if it was annotated with             measure, requiring pairs of consistent and incon-
+any of the five accuracy errors (and disregarded               sistent summaries for any document evaluated;
+the three fluency errors). Each summary in Poly-               this information is not available in several datasets
+tope was labeled by a single annotator, making it              in the benchmark.
+impossible to measure inter-annotator agreement.                  Second, XSumFaith, SummEval, and FRANK
+   FactCC (Kryscinski et al., 2020) contains                   report on correlation of various metrics with
+validation and test splits that are entirely anno-             human annotations. Correlation has some advan-
+tated by authors of the paper, because attempts                tages, such as not requiring a threshold and being
+at crowd-sourced annotation yielded low inter-                 compatible with the Likert-scale annotations of
+annotator agreement. Prior work (Gillick and Liu,              SummEval, however it is an uncommon choice
+2010) shows that there can be divergence in                    to measure performance of a classifier due to the
+annotations between experts and non-experts in                 discrete and binary label.
+summarization, and because the authors of the                     Third, authors of FactCC measured model per-
+paper are NLP researchers familiar with the lim-               formance using binary F1 score, and balanced
+itations of automatic summarizations, we expect                accuracy, which corrects unweighed accuracy
+that FactCC annotations differs in quality from                with the class imbalance ratio, so that majority
+other datasets. FactCC also introduces a synthetic             class voting obtains a score of 50%.
+
+                                                         168
+   The datasets have widely varying class imbal-             similar to prior work on using NLI models for
+ances, ranging from 6% to 91% positive sam-                  inconsistency detection (Kryscinski et al., 2020).
+ples. Therefore, we select balanced accuracy                    FactCC-CLS is a RoBERTa-base model fine-
+(Brodersen et al., 2010) as the primary evalua-              tuned on the synthetic training portion of the
+tion metric for the SUMMAC Benchmark. Balanced               FactCC dataset. Although trained solely on artifi-
+accuracy is defined as:                                      cially created inconsistent summaries, prior work
+                                                             showed the model to be competitive on the FactCC
+             1     TP        TN                              and FRANK datasets.
+    BAcc =               +                      (1)
+             2   TP + FN   TN + FP                              DAE (Goyal and Durrett, 2020) is a parsing-
+                                                             based model using the default model and hyper-
+Where T P stands for true positive, F P false pos-           parameters provided by the authors of the paper.2
+itive, T N true negative, and F N false negative.               FEQA (Durmus et al., 2020) is a QAG method,
+The choice of metric is based on the fact that               using the default model and hyper-parameters
+accuracy is a conceptually simple, interpretable             provided by the authors of the paper.3
+metric, and that adjusting the class imbalance                  QuestEval (Scialom et al., 2021) is a QAG
+out of the metric makes the score more uniform               method taking both precision and recall into
+across datasets.                                             account. We use the default model and hyper-
+   The balanced accuracy metric requires models              parameters provided by the authors of the paper.4
+to output a binary label (i.e., not a scalar score),         The model has an option to use an additional
+which for most models requires the selection of a            question weighter, however experiments revealed
+threshold in the score. The threshold is selected            that the weighter lowered overall performance on
+using the validation set, allowing for a different           the validation portion of the SUMMAC Benchmark,
+threshold for each dataset in the benchmark. Per-            and we compare to the model without weighter.
+formance on the benchmark is the unweighted
+                                                             5.2 SUMMAC Benchmark Results
+average of performance on the six datasets.
+   We choose Area Under the Curve of the                     Balanced accuracy results are summarized in
+Receiver Operating Chart (ROC-AUC) as a sec-                 Table 2. We find that the SUMMAC models achieve
+ondary evaluation metric, a common metric to                 the two best performances in the benchmark.
+summarize a classifier’s performance at different            SUMMACCONV achieves the best benchmark per-
+threshold levels (Bradley, 1997).                            formance at 74.4%, 5 points above QuestEval, the
+                                                             best method not involving NLI.
+5   Results                                                     Looking at the models’ ability to generalize
+                                                             across datasets and varying scenarios of inconsis-
+We compared the SUMMAC models against a wide                 tency detection provides interesting insights. For
+array of baselines and state-of-the-art methods.             example, the FactCC-CLS model achieves strong
+                                                             performance on the FactCC dataset, but close to
+5.1 Comparison Models                                        lowest performance on FRANK and XSumFaith.
+                                                             In comparison, SUMMAC model performance is
+We evaluated the following models on the                     strong across the board.
+SUMMAC Benchmark:                                               The strong improvement from the SUMMACZS
+   NER Overlap uses the spaCy named entity                   to SUMMACCONV also shines a light on the im-
+recognition (NER) model (Honnibal et al., 2020)              portance of considering the entire distribution of
+to detect when an entity present in the summary is           document scores for each summary sentence, in-
+not present in the document. This model, adapted             stead of taking only the maximum score: The
+from Laban et al. (2021), considers only a sub-              SUMMACCONV model learns to look at the distribu-
+set of entity types as hallucinations (PERSON,               tion and makes more robust decisions, leading to
+LOCATION, ORGANIZATION, etc.)                                gains in performance.
+   MNLI-doc is a RoBERTa (Liu et al., 2019)                     The table of results with the ROC-AUC metric,
+model finetuned on the MNLI dataset (Williams                the secondary metric of the SUMMAC Benchmark,
+et al., 2018). The document is used as the premise             2
+                                                                 https://github.com/tagoyal/dae-factuality.
+and the summary as a hypothesis, and we use                    3
+                                                                 https://github.com/esdurmus/feqa.
+                                                               4
+the predicted probability of entailment as a score,              https://github.com/ThomasScialom/QuestEval.
+
+
+                                                       169
+                                    SUMMAC Benchmark Datasets
+Model Type Model Name       CGS     XSF Polytope FactCC SummEval FRANK                    Overall    Doc./min.
+           NER-Overlap      53.0     63.3   52.0     55.0     56.8   60.9                  56.8       55,900
+Baseline
+           MNLI-doc         57.6     57.5   61.0     61.3     66.6   63.6                  61.3        6,200
+Classifier FactCC-CLS       63.1     57.6   61.0     75.9     60.1   59.4                  62.8       13,900
+Parsing    DAE              63.4     50.8   62.8     75.9     70.3   61.7                  64.2          755
+           FEQA             61.0     56.0   57.8     53.6     53.8   69.9                  58.7         33.9
+QAG
+           QuestEval        62.6     62.1   70.3*    66.6     72.5   82.1                  69.4         22.7
+           SUMMACZS         70.4*    58.4   62.0     83.8*    78.7   79.0                  72.1*         435
+NLI
+           SUMMACCONV       64.7     66.4*  62.7     89.5**   81.7** 81.6                  74.4**        433
+
+Table 2: Performance of Summary Inconsistency Detection models on the test set of the SUMMAC
+Benchmark. Balanced accuracy is computed for each model on the six datasets in the benchmark, and
+the average is computed as the overall performance on the benchmark. We obtain confidence intervals
+comparing the SUMMAC models to prior work: * indicates an improvement with 95% confidence, and **
+99% confidence (details in Section 5.2.1). The results of the throughput analysis of Section 5.2.2 are in
+column Doc./min (Documents per minute).
+
+
+is included in Appendix A2, echoing the trends             (i.e., number of documents processed by the model
+seen with the balanced accuracy metric.                    per unit of time).
+                                                              A common method to compare algorithms is
+5.2.1 Statistical Testing                                  using computational complexity analysis, com-
+We aim to determine whether the performance im-            puting the amount of resources (time, space)
+provements of the SUMMAC models are statistically          needed as the size of the input varies. Compu-
+significant. For each dataset of the benchmark, we         tational complexity analysis is impractical in our
+perform two tests through bootstrap resampling             case, as the units of analysis differ between mod-
+(Efron, 1982), comparing each of the SUMMAC                els, and do not allow for a direct comparison.
+models to the best-performing model from prior             More specifically, some of the models’ complex-
+work. We perform interval comparison at two sig-           ity scales with the number of sub-word units
+nificance level: p = 0.05 and p = 0.01, and apply          in the document (MNLI-doc, FactCC-CLS),
+the Bonferroni correction (Bonferroni, 1935) as            some with the number of entities in a document
+we perform several tests on each dataset. We               (NER-Overlap, DAE, QuestEval), and some
+summarize which improvements are significant in            with number of sentences (the SUMMAC models).
+Table 2, and perform a similar testing procedure              We instead compare models by measuring
+for the ROC-AUC results in Table A2.                       throughput on a fixed dataset using a common
+   SUMMAC models lead to a statistically signifi-          hardware setup. More precisely, we measured the
+cant improvement on CoGenSumm, XSumFaith,                  processing time of each model on the 503 docu-
+FactCC, and SummEval. QuestEval outperforms                ments in the test set of FactCC (with an average
+the SUMMAC models on Polytope at a confidence              of 33.2 sentences per document), running a single
+of 95%. On the FRANK dataset, QuestEval and                Quadro RTX 8000 GPU. For prior work, we used
+SUMMACCONV achieve highest performance with no             implementation publicly released by the authors,
+statistical difference. Overall on the benchmark,          and made a best effort to use the model at an
+both SUMMAC models significantly outperform                appropriate batch size for a fair comparison.
+prior work, SUMMACZS at a p = 0.05 significance               The result of the throughput analysis is included
+level and SUMMACCONV at p = 0.01.                          in Table 2 (column Docs./min.). SUMMAC mod-
+                                                           els are able to process around 430 documents
+5.2.2 Computational Cost Comparison                        per minute, which is much lower than some of
+Computational cost of the method is an important           the baselines capable of processing more than
+practical factor to consider when choosing a model         10,000 documents per minute. However, QAG
+to use, as some applications such as training with         methods are more than 10 times slower than
+a generator with Reinforcement Learning might              SUMMAC models, processing only 20-40 docu-
+require a minimum throughput from the model                ments per minute.
+
+                                                     170
+                                     Performance             increase of 1.3 percentage points when going
+Architecture       NLI Dataset       ZS    Conv              from a base to a large architecture.
+Dec. Attn      SNLI                  56.9    56.4               Third, the choice of NLI dataset has a strong
+                                                             influence on overall performance. SNLI leads to
+               SNLI                  66.6    64.0
+BERT Base      MNLI                  69.5    69.8
+                                                             lowest performance, which is expected as its tex-
+               MNLI+VitaminC         67.9    71.2            tual domain is based on image captions, which
+               SNLI                  66.6    62.4
+                                                             are dissimilar to the news domain. MNLI and
+               SNLI+MNLI+ANLI        69.9    71.7            Vitamin C trained models both achieve close to
+BERT Large     VitaminC              71.1    72.8            the best performance, and training on both jointly
+               MNLI                  70.9    73.0            leads to the best model, which we designate as the
+               MNLI+VitaminC         72.1    74.4            default NLI model for the SUMMAC models (i.e.,
+                                                             the model included in Table 2).
+Table 3: Effect of NLI model choice on SUMMAC                   The latter two trends point to the fact that
+models performance. For each NLI model, we in-               improvements in the field of NLI lead to improve-
+clude the balanced accuracy scores of SUMMACZS               ments in the SUMMAC models, and we can expect
+and SUMMACCONV . BERT X corresponds to a BERT                that future progress in the NLI community will
+or other pre-trained models of similar size.                 translate to gains of performance when integrated
+                                                             into the SUMMAC model.
+                                                                We relied on trained models available in Hug-
+5.3 Further Results                                          gingFace’s Model Hub (Wolf et al., 2020). Details
+                                                             in Appendix A.
+We now examine how different components and
+design choices affect SUMMAC model performance.
+                                                             5.3.2 Choice of NLI Category
+5.3.1 Choice of NLI Model                                    The NLI task is a three-way classification task,
+SUMMAC models rely on an NLI model at their                  yet most prior work has limited usage of the
+core, which consists of choosing two main com-               model to the use of the entailment probability for
+ponents: a model architecture, and a dataset to              inconsistency detection (Kryscinski et al., 2020;
+train on. We investigate the effect of both of these         Falke et al., 2019). We run a systematic experiment
+choices on the performance of SUMMAC models                  by training multiple SUMMACCONV models that have
+on the benchmark.                                            access to varying subsets of the NLI labels, and
+   Regarding model architectures, we experi                  measure the impact on overall performance. Re-
+ment with the decomposable attention model                   sults are summarized in Table 4. Using solely the
+(Parikh et al., 2016), which is a pre-Transformer            entailment category leads to strong performance
+architecture model that was shown to achieve high            for all models. However, explicitly including the
+performance on SNLI, as well as Transformer base             contradiction label as well leads to small boosts in
+and Transformer Large architectures.                         performance for the ANLI and MNLI models.
+   With respect to datasets, we include models                  With future NLI models being potentially more
+trained on standard NLI datasets such as SNLI                nuanced and calibrated, it is possible that incon-
+(Bowman et al., 2015) and MNLI (Williams                     sistency detector models will be able to rely on
+et al., 2018), as well as more recent datasets               scores from several categories.
+such as Adversarial NLI (Nie et al., 2019) and
+Vitamin C (Schuster et al., 2021).                           5.3.3 Choice of Granularity
+   Results are summarized in Table 3, and we em-             So far, we’ve reported experiments primarily with
+phasize three trends. First, the low performance of          a sentence-level granularity, as it matches the
+the decomposable attention model used in experi-             granularity of NLI datasets. One can imagine
+ments in prior work (Falke et al., 2019) confirms            cases where sentence-level granularity might be
+that less recent NLI models did not transfer well            limiting. For example, in the case of a summary
+to summary inconsistency detection.                          performing a sentence fusion operation, an NLI
+   Second, NLI models based on pre-trained                   model might not be able to correctly predict en-
+Transformer architectures all achieve strong per-            tailment of the fused sentence, seeing only one
+formance on the benchmark, with an average                   sentence at a time.
+
+                                                       171
+    Category         SUMMACCONV Performance                    We study the total of 8 (document, sum-
+E     N    C      VITC+MNLI      ANLI    MNLI               mary) granularity combinations with the two
+✓                      74.4        69.2     72.6            best-performing NLI models of Table 2: MNLI
+      ✓                71.2        55.8     66.4            and Vitamin C, each included as SUMMACZS and
+          ✓            72.5        69.2     72.6            SUMMACCONV models.5
+✓     ✓                73.1        69.6     72.6
+                                                               Results for the granularity experiments are sum-
+✓         ✓            74.0        70.2     73.0
+      ✓   ✓            72.5        69.2     72.6            marized in Table 5. Overall, finer granularities
+✓     ✓   ✓            74.0        69.7     73.0            lead to better performance, with (sentence,
+                                                            sentence) and (two sent, sentence)
+Table 4: Effect of NLI category inclusion on                achieving highest performance across all four
+SUMMACCONV performance. Models had access                   models.
+to different subsets of the three category predic-             The MNLI-only trained model achieves lowest
+tions (Entailment, Neutral, Contradiction), with            performance when used with full text granularity
+performance measured in terms of balanced ac-               on the document level, and performance steadily
+curacy. Experiments were performed with 3 NLI               increases from 56.4% to 73.5% as granularity is
+models: Vitamic C+MNLI, ANLI, and MNLI.                     made finer both on the document and summary
+                                                            side. Results for the MNLI+VitaminC model vary
+                             Performance                    less with changing granularity, showcasing that
+     Granularity         MNLI       MNLI + VitC             the model is perhaps more robust to different
+Document Summary        ZS Conv     ZS    Conv              granularity levels. However the (two sent,
+           Full        56.4  −      72.1   −                sentence) and (sentence,sentence)
+Full
+           Sentence    57.4  −      73.1   −
+           Full        59.8 61.8    69.8  71.2              settings achieve highest performance, implying
+Paragraph                                                   that finer granularity remains valuable.
+           Sentence    65.2 64.7    72.6  74.3
+Two Sent.
+           Full        64.0 63.8    69.7  71.3                 For all models, performance degrades in cases
+           Sentence    71.2 73.5    72.5  74.7              where granularity on the document level is
+           Full        58.7 61.1    68.4  69.4
+Sentence
+           Sentence    70.3 73.0    72.1  74.4
+                                                            finer than summary granularity. For example
+                                                            the (sentence, full) or (two sent,
+Table 5: Effect of granularity choice on                    full) combinations lead to some of the low-
+SUMMAC models performance. We tested four                   est performance. This is expected, as in cases in
+granularities on the document side: full, para-             which summaries have several sentences, it is un-
+graph, two sentence, and sentence, and two                  likely that they will fully be entailed by a single
+granularities on the summary side: full and sen-            document sentence. This implies that granularity
+tence. Performance of the four models is measured           on the document side should be coarser or equal
+in balanced accuracy on the benchmark test set.             the summary’s granularity.
+                                                               Overall, we find that finer granularity for the
+                                                            document and summary is beneficial in terms of
+   To explore this facet further, we experiment             performance and recommend the use of a (sen-
+with modifying the granularity of both the docu-            tence, sentence) granularity combination.
+ment and the summary. With regard to document
+granularity, we consider four granularities: (1)
+                                                            6 Discussion and Future Work
+full text, the text is treated as a single block,
+(2) paragraph-level granularity, the text is sep-           Improvements on the Benchmark. The models
+arated into paragraph blocks, (3) two-sentence              we introduced in this paper are just a first step
+granularity, the text is separated into blocks of           towards harnessing NLI models for inconsistency
+contiguous sentences of size two (i.e., block 1             detection. Future work could explore a number
+contains sentence 1-2, block 2 contains sentence            of improvements: combining the predictions of
+3-4), and (4) sentence-level, splitting text at in-         multiple NLI models, or combining multiple gran-
+dividual sentences. For the summary granularity,            ularitiy levels—for example, through multi-hop
+we only consider two granularities: (1) full text,          reasoning (Zhao et al., 2019).
+and (2) sentence, because other granularities are              5
+                                                                 We skip SUMMACCONV experiments involving full text
+less applicable since summaries usually consist of          granularity on the document-side, as that case reduces the
+three sentences or fewer.                                   binning process to having a single non-zero value.
+
+
+                                                      172
+   Interpretability of Model Output. If a model               ties for further improvements and applications of
+can pinpoint which portion of a summary is in-                our methods.
+consistent, some work has shown that corrector
+models can effectively re-write the problem-
+atic portions and often remove the inconsistency              Acknowledgments
+(Dong et al., 2020). Furthermore, fine-grained
+consistency scores can be incorporated into visual            We would like to thank Katie Stasaski, Dongyeop
+analysis tools for summarization such as Summ-                Kang, and the TACL reviewers and editors for
+Viz (Vig et al., 2021). The SUMMACZS model is                 their helpful comments, as well as Artidoro
+directly interpretable, whereas the SUMMACCONV                Pagnoni for helpful pointers during the project.
+is slightly more opaque, due to the inability to              This work was supported by a Microsoft BAIR
+trace back a low score to a single sentence in the            Commons grant as well as a Microsoft Azure
+document being invalidated. Improving the inter-              Sponsorship.
+pretability of the SUMMACCONV model is another
+open area for future work.
+   Beyond News Summarization. The six
+datasets in the SUMMAC Benchmark contain                      References
+summaries from the news domain, one of the
+most common application of summarization tech-                Kristjan Arumae and Fei Liu. 2019. Guid-
+nology. Recent efforts to expand the application                ing extractive summarization with question-
+of summarization to new domains such as legal                   answering rewards. In Proceedings of the
+(Kornilova and Eidelman, 2019) or scholarly                     2019 Conference of the North American
+(Cachola et al., 2020) text will hopefully lead to              Chapter of the Association for Computa-
+the study of inconsistency detection in these novel             tional Linguistics: Human Language Tech-
+domains, and perhaps even out of summarization                  nologies, Volume 1 (Long and Short Papers),
+on tasks such as text simplification, or code                   pages 2566–2577. https://doi.org/10
+generation.                                                     .18653/v1/N19-1264
+   Towards Consistent Summarization. Incon-
+sistency detection is but a first step in eliminating         Carlo E. Bonferroni. 1935. Il calcolo delle assi-
+inconsistencies from summarization. Future work                 curazioni su gruppi di teste. Studi in onore del
+can include more powerful inconsistency detec-                  professore salvatore ortu carboni, pages 13–60.
+tors in the training of next generation summarizers
+to reduce the prevalence of inconsistencies in                Samuel Bowman, Gabor Angeli, Christopher
+generated text.                                                 Potts, and Christopher D. Manning. 2015. A
+                                                                large annotated corpus for learning natural lan-
+                                                                guage inference. In Proceedings of the 2015
+7   Conclusion                                                  Conference on Empirical Methods in Natural
+                                                                Language Processing, pages 632–642.
+We introduce SUMMACZS and SUMMACCONV , two
+NLI-based models for summary inconsistency de-                Andrew P. Bradley. 1997. The use of the area
+tection based on the key insight that NLI models                under the ROC curve in the evaluation of
+require sentence-level input to work best. Both                 machine learning algorithms. Pattern Recogni-
+models achieve strong performance on the SUM-                   tion, 30(7):1145–1159. https://doi.org
+MAC Benchmark, a new diverse and standardized                   /10.1016/S0031-3203(96)00142-2
+collection of the six largest datasets for inconsis-
+tency detection. SUMMACCONV outperforms all prior             Kay Henning Brodersen, Cheng Soon Ong,
+work with a balanced accuracy score of 74.4%, an                Klaas Enno Stephan, and Joachim M.
+improvement of five absolute percentage points                  Buhmann. 2010. The balanced accuracy and
+over the best baseline. To the best of our knowl-               its posterior distribution. In 2010 20th Inter-
+edge, this the first successful attempt at adapting             national Conference on Pattern Recognition,
+NLI models for inconsistency detection, and we                  pages 3121–3124. IEEE. https://doi.org
+believe that there are many exciting opportuni-                 /10.1109/ICPR.2010.764
+
+                                                        173
+Isabel Cachola, Kyle Lo, Arman Cohan, and                     2019. Ranking generated summaries by correct-
+   Daniel S. Weld. 2020. Tldr: Extreme summa-                 ness: An interesting but challenging application
+   rization of scientific documents. In Proceedings           for natural language inference. In Proceed-
+   of the 2020 Conference on Empirical Meth-                  ings of the 57th Annual Meeting of the
+   ods in Natural Language Processing: Findings,              Association for Computational Linguistics,
+   pages 4766–4777. https://doi.org/10                        pages 2214–2220. https://doi.org/10
+   .18653/v1/2020.findings-emnlp.428                          .1037/h0031619
+Meng Cao, Yue Dong, Jiapeng Wu, and Jackie Chi              Joseph L. Fleiss. 1971. Measuring nominal scale
+ Kit Cheung. 2020. Factual error correction for               agreement among many raters. Psychological
+ abstractive summarization models. In Proceed-                Bulletin, 76(5):378.
+ ings of the 2020 Conference on Empirical Meth-
+                                                            Dan Gillick and Yang Liu. 2010. Non-expert
+ ods in Natural Language Processing (EMNLP),
+                                                              evaluation of summarization systems is risky.
+ pages 6251–6258. https://doi.org/10
+                                                              In Proceedings of the NAACL HLT 2010
+ .18653/v1/2020.emnlp-main.506
+                                                              Workshop on Creating Speech and Lan-
+Yue Dong, Shuohang Wang, Zhe Gan, Yu                          guage Data with Amazon’s Mechanical Turk,
+  Cheng, Jackie Chi Kit Cheung, and Jingjing                  pages 148–151.
+  Liu. 2020. Multi-fact correction in abstrac-              Ben Goodrich, Vinay Rao, Peter J. Liu, and
+  tive text summarization. In Proceedings of                  Mohammad Saleh. 2019. Assessing the fac-
+  the 2020 Conference on Empirical Methods                    tual accuracy of generated text. In Proceedings
+  in Natural Language Processing (EMNLP),                     of the 25th ACM SIGKDD International Con-
+  pages 9320–9331. https://doi.org/10                         ference on Knowledge Discovery & Data
+  .18653/v1/2020.emnlp-main.749                               Mining, pages 166–175. https://doi.org
+Esin Durmus, He He, and Mona Diab.                            /10.1145/3292500.3330955
+  2020. Feqa: A question answering evalua-                  Tanya Goyal and Greg Durrett. 2020. Evaluating
+  tion framework for faithfulness assessment                  factuality in generation with dependency-level
+  in abstractive summarization. In Proceed-                   entailment. arXiv preprint arXiv:2010.05478.
+  ings of the 58th Annual Meeting of the
+  Association for Computational Linguistics,                Matthew Honnibal, Ines Montani, Sofie Van
+  pages 5055–5070. https://doi.org/10                        Landeghem, and Adriane Boyd. 2020. spaCy:
+  .18653/v1/2020.acl-main.454                                Industrial-strength Natural Language Pro-
+                                                             cessing in Python. https://doi.org/10
+Bradley Efron. 1982. The jackknife, the boot-                .18653/v1/2020.findings-emnlp.322
+  strap and other resampling plans. In CBMS-
+  NSF Regional Conference Series in Applied                 Dandan Huang, Leyang Cui, Sen Yang,
+  Mathematics. https://doi.org/10.1145                        Guangsheng Bao, Kun Wang, Jun Xie, and
+  /1409360.1409378                                            Yue Zhang. 2020. What have we achieved
+                                                              on text summarization? In Proceedings of
+Oren Etzioni, Michele Banko, Stephen Soderland,               the 2020 Conference on Empirical Methods
+  and Daniel S. Weld. 2008. Open information                  in Natural Language Processing (EMNLP),
+  extraction from the web. Communications of                  pages 446–469. https://doi.org/10
+  the ACM, 51(12):68–74.                                      .18653/v1/2020.emnlp-main.33
+Alexander R. Fabbri, Wojciech Kryściński, Bryan           Anastassia Kornilova and Vladimir Eidelman.
+  McCann, Caiming Xiong, Richard Socher,                      2019. Billsum: A corpus for automatic sum-
+  and Dragomir Radev. 2021. Summeval: Re-                     marization of us legislation. In Proceedings
+  evaluating summarization evaluation. Trans-                 of the 2nd Workshop on New Frontiers in
+  actions of the Association for Computational                Summarization, pages 48–56.
+  Linguistics, 9:391–409. https://doi.org
+                                                            Wojciech Kryscinski, Bryan McCann, Caiming
+  /10.1162/tacl_a_00373
+                                                             Xiong, and Richard Socher. 2020. Eval-
+Tobias Falke, Leonardo F. R. Ribeiro, Prasetya               uating the factual consistency of abstrac-
+  Ajie Utama, Ido Dagan, and Iryna Gurevych.                 tive text summarization. In Proceedings of
+
+                                                      174
+  the 2020 Conference on Empirical Methods               Shashi Narayan, Shay B. Cohen, and Mirella
+  in Natural Language Processing (EMNLP),                  Lapata. 2018. Don’t give me the details, just
+  pages 9332–9346. https://doi.org/10                      the summary! Topic-aware convolutional neu-
+  .18653/v1/2020.emnlp-main.750                            ral networks for extreme summarization. In
+                                                           Proceedings of the 2018 Conference on Empir-
+Philippe Laban, Tobias Schnabel, Paul Bennett,             ical Methods in Natural Language Processing,
+  and Marti A. Hearst. 2021. Keep it simple:               pages 1797–1807. https://doi.org/10
+  Unsupervised simplification of multi-paragraph           .18653/v1/D18-1206
+  text. In Proceedings of the 59th Annual Meet-
+  ing of the Association for Computational               Yixin Nie, Adina Williams, Emily Dinan, Mohit
+  Linguistics and the 11th International Joint             Bansal, Jason Weston, and Douwe Kiela. 2019.
+  Conference on Natural Language Processing                Adversarial NLI: A new benchmark for nat-
+  (Volume 1: Long Papers), pages 6365–6378,                ural language understanding. arXiv preprint
+  Online. Association for Computational Linguis-           arXiv:1910.14599. https://doi.org/10
+  tics. https://doi.org/10.18653/v1                        .18653/v1/2020.acl-main.441
+  /2021.acl-long.498
+                                                         Artidoro Pagnoni, Vidhisha Balachandran, and
+Yinhan Liu, Myle Ott, Naman Goyal, Jingfei                 Yulia Tsvetkov. 2021. Understanding factual-
+  Du, Mandar Joshi, Danqi Chen, Omer Levy,                 ity in abstractive summarization with frank: A
+  Mike Lewis, Luke Zettlemoyer, and Veselin                benchmark for factuality metrics. In NAACL.
+  Stoyanov. 2019. RoBERTa: A robustly op-                Ankur Parikh, Oscar Täckström, Dipanjan Das,
+  timized BERT pretraining approach. arXiv                 and Jakob Uszkoreit. 2016. A decomposable at-
+  preprint arXiv:1907.11692.                               tention model for natural language inference. In
+                                                           Proceedings of the 2016 Conference on Empir-
+Valerie R. Mariana. 2014. The Multidimensional
+                                                           ical Methods in Natural Language Processing,
+  Quality Metric (MQM) framework: A new
+                                                           pages 2249–2255.
+  framework for translation quality assessment.
+  Brigham Young University.                              Ramakanth Pasunuru and Mohit Bansal. 2018.
+                                                           Multi-reward reinforced summarization with
+Joshua Maynez, Shashi Narayan, Bernd                       saliency and entailment. In Proceedings of
+  Bohnet, and Ryan McDonald. 2020. On                      the 2018 Conference of the North American
+  faithfulness and factuality in abstractive               Chapter of the Association for Computational
+  summarization. arXiv preprint arXiv:2005                 Linguistics: Human Language Technologies,
+  .00661. https://doi.org/10.18653                         Volume 2 (Short Papers), pages 646–653.
+  /v1/2020.acl-main.173                                    https://doi.org/10.18653/v1/N18
+                                                           -2102
+Ramesh Nallapati, Bowen Zhou, Cicero dos
+  Santos, Çağlar Gulçehre, and Bing Xiang.            Tal Schuster, Adam Fisch, and Regina Barzilay.
+  2016. Abstractive text summarization using               2021. Get your Vitamin C! Robust fact verifica-
+  sequence-to-sequence rnns and beyond. In Pro-            tion with contrastive evidence. In Proceedings
+  ceedings of The 20th SIGNLL Conference                   of the 2021 Conference of the North American
+  on Computational Natural Language Learn-                 Chapter of the Association for Computa-
+  ing, pages 280–290. https://doi.org/10                   tional Linguistics: Human Language Technolo-
+  .18653/v1/K16-1028                                       gies, pages 624–643. https://doi.org
+                                                           /10.18653/v1/2021.naacl-main.52
+Feng Nan, Cicero Nogueira dos Santos, Henghui
+  Zhu, Patrick Ng, Kathleen McKeown, Ramesh              Thomas Scialom, Paul-Alexis Dray, Patrick
+  Nallapati, Dejiao Zhang, Zhiguo Wang,                    Gallinari, Sylvain Lamprier, Benjamin
+  Andrew O. Arnold, and Bing Xiang. 2021.                  Piwowarski, Jacopo Staiano, and Alex Wang.
+  Improving factual consistency of abstractive             2021. Questeval: Summarization asks for fact-
+  summarization via question answering. arXiv              based evaluation. arXiv preprint arXiv:2103.
+  preprint arXiv:2105.04623. https://doi                   12693. https://doi.org/10.18653/v1
+  .org/10.18653/v1/2021.acl-long.536                       /2021.emnlp-main.529
+
+                                                   175
+Thomas Scialom, Sylvain Lamprier, Benjamin                  Jingqing Zhang, Yao Zhao, Mohammad Saleh,
+  Piwowarski, and Jacopo Staiano. 2019. An-                    and Peter Liu. 2020a. Pegasus: Pre-training
+  swers unite! unsupervised metrics for rein-                  with extracted gap-sentences for abstractive
+  forced summarization models. In Proceedings                  summarization. In International Conference
+  of the 2019 Conference on Empirical Meth-                    on Machine Learning, pages 11328–11339.
+  ods in Natural Language Processing and the                   PMLR.
+  9th International Joint Conference on Natu-
+  ral Language Processing (EMNLP-IJCNLP),                   Yuhao Zhang, Derek Merck, Emily Tsai,
+  pages 3246–3256. https://doi.org/10                         Christopher D. Manning, and Curtis Langlotz.
+  .18653/v1/D19-1320                                          2020b. Optimizing the factual correctness of
+                                                              a summary: A study of summarizing radiology
+James Thorne, Andreas Vlachos, Christos                       reports. In Proceedings of the 58th Annual
+  Christodoulopoulos, and Arpit Mittal. 2018.                 Meeting of the Association for Computational
+  Fever: A large-scale dataset for fact extraction            Linguistics, pages 5108–5120. https://doi
+  and verification. In Proceedings of the 2018                .org/10.18653/v1/2020.acl-main.458
+  Conference of the North American Chapter
+  of the Association for Computational Linguis-             Chen Zhao, Chenyan Xiong, Corby Rosset, Xia
+  tics: Human Language Technologies, Volume 1                 Song, Paul Bennett, and Saurabh Tiwary.
+  (Long Papers), pages 809–819. https://                      2019. Transformer-XH: Multi-evidence reason-
+  doi.org/10.18653/v1/N18-1074                                ing with extra hop attention. In International
+                                                              Conference on Learning Representations.
+Jesse Vig, Wojciech Kryscinski, Karan Goel, and
+  Nazneen Fatema Rajani. 2021. Summvis: Inter-
+  active visual analysis of models, data, and eval-         Appendix
+  uation for text summarization. arXiv preprint
+  arXiv:2104.07605. https://doi.org/10                      A NLI Model Origin
+  .18653/v1/2021.acl-demo.18
+                                                            We list the NLI models we used throughout the
+Adina Williams, Nikita Nangia, and Samuel                   paper, which can be retrieved on HuggingFace’s
+  Bowman. 2018. A broad-coverage challenge                  model hub.6 BERT stands for any Pre-trained
+  corpus for sentence understanding through in-             bi-directional Transformer of an equivalent size:
+  ference. In Proceedings of the 2018 Conference
+  of the North American Chapter of the Asso-                  • boychaboy/SNLI roberta-base
+  ciation for Computational Linguistics: Human                  BERT Base+SNLI
+  Language Technologies, Volume 1 (Long Pa-
+  pers), pages 1112–1122. https://doi.org                     • microsoft/deberta-base-mnli
+  /10.18653/v1/N18-1101                                         BERT Base+MNLI
+
+Thomas Wolf, Lysandre Debut, Victor Sanh,                     • tals/albert-base-vitaminc-mnli
+  Julien Chaumond, Clement Delangue, Anthony                    BERT Base + MNLI + VitaminC
+  Moi, Pierric Cistac, Tim Rault, Rémi Louf,
+                                                              • boychaboy/SNLI roberta-large
+  Morgan Funtowicz, Joe Davison, Sam Shleifer,
+                                                                BERT Large+SNLI
+  Patrick von Platen, Clara Ma, Yacine Jernite,
+  Julien Plu, Canwen Xu, Teven Le Scao,                       • tals/albert-xlarge-vitaminc
+  Sylvain Gugger, Mariama Drame, Quentin                        Bert Large+VitaminC
+  Lhoest, and Alexander M. Rush. 2020. Trans-
+  formers: State-of-the-art natural language pro-             • roberta-large-mnli
+  cessing. In Proceedings of the 2020 Conference                Bert Large+MNLI
+  on Empirical Methods in Natural Language
+                                                              • tals/albert-xlarge-vitaminc-mnli
+  Processing: System Demonstrations, pages 38–45,
+                                                                BERT Large+MNLI+VitaminC
+  Online. Association for Computational Lin-
+  guistics. https://doi.org/10.18653
+                                                              6
+  /v1/2020.emnlp-demos.6                                          https://huggingface.co/models.
+
+
+                                                      176
+B SUMMACZS Operator Choice                                                        Operator 2
+Table A1 measures the effect of the choice of             Op. 1        Min          Mean        Max
+the two operators in the SUMMACZS model. We               Min          53.1         55.7        57.4
+explore three options (min, mean, and max)                Mean         60.5         62.8        62.0
+for each operator. We find that the choice of max         Max          68.8         72.1        69.1
+for Operator 1 and mean for Operator 2 achieves
+the highest performance and use these choices in          Table A1: Effect of operator choice on the per-
+our model.                                                formance of the SUMMACZS model, measured
+                                                          in terms of balanced accuracy. Operator 1
+C SUMMAC Benchmark ROC-AUC                                reduces the row dimension of the NLI Pair
+  Results                                                 Matrix, and Operator 2 reduces the column
+                                                          dimension.
+Table A2 details results of models on the
+benchmark according to the ROC-AUC metric,
+confirming that the SUMMAC models achieve the
+two best accuracy results on the benchmark.
+
+
+                                      SUMMAC Benchmark Datasets
+ Model Type Model Name          CGS XSF Polytope FactCC SummEval FRANK                         Overall
+               NER-Overlap      53.0 61.7      51.6           53.1        56.8       60.9       56.2
+ Baseline
+               MNLI-doc         59.4 59.4      62.6           62.1        70.0       67.2       63.4
+ Classifier    FactCC-CLS       65.0 59.2      63.5           79.6        61.4       62.7       65.2
+ Parsing       DAE              67.8 41.3      64.1           82.7        77.4       64.3       66.3
+               FEQA             60.8 53.4      54.6           50.7        52.2       74.8       57.7
+ QAG
+               QuestEval        64.4 66.4      72.2           71.5        79.0       87.9       73.6
+               SUMMACZS         73.1 58.0      60.3           83.7        85.5       85.3       74.3
+ NLI
+               SUMMACCONV       67.6 70.2      62.4           92.2**      86.0*      88.4       77.8**
+
+ Table A2: Performance of Summary Inconsistency Detection models on the test portion of the SUMMAC
+ Benchmark in terms of ROC-AUC metric. The metric is computed for each model on the six datasets in
+ the benchmark, and the average is computed as the overall performance on the benchmark. Confi-
+ dence intervals comparing the SUMMAC models to prior work: * indicates an improvement with 95%
+ confidence, and ** 99% confidence (details in Section 5.2.1).
+
+
+
+
+                                                    177
+

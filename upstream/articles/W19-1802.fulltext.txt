@@ -1,0 +1,687 @@
+Referring to Objects in Videos Using Spatio-Temporal Identifying Descriptions
+Authors: Peratham Wiriyathammabhum; Abhinav Shrivastava; Vlad Morariu; Larry Davis
+Source: https://aclanthology.org/W19-1802/
+PDF: https://aclanthology.org/W19-1802.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+                           Referring to Objects in Videos using
+                         Spatio-Temporal Identifying Descriptions
+
+                  Peratham Wiriyathammabhum♠♦ , Abhinav Shrivastava♠♦ ,
+                             Vlad I. Morariu♦ , Larry S. Davis♠♦
+             University of Maryland: Department of Computer Science♠, UMIACS♦
+                    peratham@cs.umd.edu, abhinav@cs.umd.edu
+                       morariu@umd.edu, lsd@umiacs.umd.edu
+
+
+                     Abstract
+    This paper presents a new task, the ground-
+    ing of spatio-temporal identifying descriptions
+    in videos. Previous work suggests potential
+    bias in existing datasets and emphasizes the
+    need for a new data creation schema to bet-
+    ter model linguistic structure. We introduce
+    a new data collection scheme based on gram-
+    matical constraints for surface realization to
+    enable us to investigate the problem of ground-
+    ing spatio-temporal identifying descriptions in
+    videos. We then propose a two-stream modu-
+    lar attention network that learns and grounds
+    spatio-temporal identifying descriptions based
+    on appearance and motion. We show that mo-
+    tion modules help to ground motion-related                Figure 1: The first spatio-temporal identifying descrip-
+    words and also help to learn in appearance                tion in the green box grounds to the event that a panda
+    modules because modular neural networks re-               goes down the slide. Another panda can be a context
+    solve task interference between modules. Fi-              because they are interacting in the same scene. The
+    nally, we propose a future challenge and a                second identifying description in the blue box grounds
+    need for a robust system arising from replac-             to the event that another panda climbs up the slide.
+    ing ground truth visual annotations with auto-
+    matic video object detector and temporal event            likely to mention salient properties and also salient
+    localization.                                             differences based on the referent in comparison to
+                                                              other distractors. The differences can be about ob-
+1   Introduction
+                                                              ject category, attributes, poses, actions, changes in
+Localizing referring expressions in videos in-                location, relationships and contexts in the scene.
+volves both static and dynamic information. A                    Existing image referring expression datasets
+referring expression (Dale and Reiter, 1995; Roy              (Mao et al., 2016; Johnson et al., 2015;
+and Reiter, 2005) is a linguistic expression that             Kazemzadeh et al., 2014; Plummer et al., 2017;
+grounds its meaning to a specific referent object             Krishna et al., 2017b) do not contain referring
+in the world. The input video can be very long,               expressions that refer to dynamic properties or
+have unknown length, contain many objects from                movements of the referent. These datasets do not
+the same class, or contain similar actions and in-            require temporal understanding that would require
+teractions throughout the video. A successful,                a system to learn that “moving to the right” is dif-
+grounded communication between a speaker and a                ferent from “moving to the left” and “getting up”
+listener must ensure that the sentence or discourse           is different from “lying down”. Existing video re-
+provides enough information such that the listener            ferring expression datasets and approaches (Kr-
+can eliminate all distractors and focus only on the           ishna et al., 2017a; Hendricks et al., 2017; Gao
+referent object that acts in a specific time interval.        et al., 2017; Berzak et al., 2015; Li et al., 2017;
+That essential information varies from the diver-             Hendricks et al., 2018; Gavrilyuk et al., 2018)
+sity of events in the world. However, a speaker is            focus only on temporal localization but referent
+
+                                                         14
+              Proceedings of the Second Workshop on Shortcomings in Vision and Language, pages 14–25
+                 Minneapolis, USA, June 6, 2019. c 2017 Association for Computational Linguistics
+                                                             of object bounding box coordinates in a given
+                                                             temporal         interval,      {[x0 , y0 , x1 , y1 ]start ,. . . ,
+                                                             [x0 , y0 , x1 , y1 ]end }), we want to localize an iden-
+                                                             tifying expression ie to the correct target tubelet
+                                                             tbtarget not the distractor tubelets tbdistractor as
+                                                             our predicted tubelet r. We evaluate using the
+                                                             accuracy measure.
+                                                                For automatic localization, tubelet IoU (Rus-
+                                                             sakovsky et al., 2015) and temporal IoU are used
+                                                             to evaluate the bounding box and temporal inter-
+                                                             val with the ground truth respectively. Let Ri be
+                                                             the region in the frame i to be detected,
+Figure 2: We add a motion stream to modular attention                                 P
+                                                                                          δ(IoU (ri , Ri ) > 0.5)
+network. Our motion modules take optical flow input             tubelet IoU = i                                      , (1)
+                                                                                                 N
+and model motion information for the subject and its
+relationship.                                                where the denominator is the number of detected
+object localization. In other words, they do not             frame measured by the standard Intersection over
+ground events in both space and time. Emphasized             Union (IoU) in an image and N denotes the num-
+by (Cirik et al., 2018), the data collection pro-            ber of union frames.
+cess for referring expressions should incorporate                                       ∩(intervali , intervalj )
+linguistic structure such that the model can learn               temporal IoU =                                   , (2)
+                                                                                        ∪(intervali , intervalj )
+more than shallow correlations between pairs of a
+sentence and visual features. That is, a particular          where intervali and intervalj are input temporal
+dataset should not have a shortcut that only detect-         intervals and the intersection and union functions
+ing nouns (object class) can perform well. Our               are operations over 1-D intervals.
+dataset mitigates this issue by forcing instance-
+level recognition. We create a requirement that              3     Related Work
+grounding the referring expressions must identify                 Spatio-Temporal Localization.            Spatio-
+the target object among many distractors from the            temporal localization (or action understanding)
+contrast set (same class distractors).                       is a long standing challenge in computer vision.
+   The contributions of this paper are (i) We pro-           Most existing datasets like LIRIS-HARL (Wolf
+pose a novel vision and language data collection             et al., 2014), J-HMDB (Jhuang et al., 2013),
+scheme based on grammatical constraints for sur-             UCF-Sports (Rodriguez et al., 2008), UCF-101
+face realization to ground video referring expres-           (Soomro et al., 2012) or AVA (Gu et al., 2018) lo-
+sions in both space and time with lexical corre-             calize a spatio-temporal tubelet for human actions
+lations between vision and language. We col-                 in either trimmed videos or a simple visual set-
+lected the Spatio-Temporal Video Identifying De-             ting or a fixed lexicon. In contrast to action labels,
+scription Localization (STV-IDL) dataset consist-            our work accepts a free-form referring expression
+ing of 199 video sequences from Youtube and                  annotation which also contains a richer set of re-
+7,569 identifying descriptions. (ii) We propose              lations in the forms of prepositions, adverbs and
+an interpretable system based on two-stream mod-             conjunctions.
+ular attention network that models both appear-                 Referring Expression Comprehension. The
+ance and motion to ground referring expressions              goal of referring expression comprehension (Gol-
+as instance-level video object detection and event           land et al., 2010) is to ground phrases or sentences
+localization. We also perform ablation studies to            into the specific visual regions that the phrase
+get insights and identify potential challenges for           refers. Prior works in the image domain have
+the task.                                                    either focused on using a captioning module to
+                                                             generate the sentence (Mao et al., 2016; Nagaraja
+2   Spatio-Temporal Localization
+                                                             et al., 2016) or learning a joint embedding to com-
+Given ground truth temporal intervals                        prehend the sentence by modeling the correspond-
+([start, end]) and object tubelets (a sequence               ing region unambiguously and localize the region
+
+                                                        15
+Figure 3: An overview of our system: an input video is using either ground truth annotations or is fed into both
+tubelet object proposal and temporal interval proposal modules. The resulting tubelet and interval proposals are
+then fed into an appearance and motion Faster-RCNN to extract the two-stream features. Then, a modular neural
+network will rank the tubelets given an input referring expression. The scores are average-pooled, and the system
+outputs the most likely tubelet that contains the reference object.
+
+(Rohrbach et al., 2016; Wang et al., 2016; Hu                jects. TEMPO (Hendricks et al., 2018) and TVQA
+et al., 2017; Yu et al., 2018). For the video domain,        (Lei et al., 2018) use a compositional format for
+(Yamaguchi et al., 2017) further annotated the Ac-           words like before or after to specify temporal rela-
+tivityNet dataset with one referring expression per          tionships between events during crowdsourcing.
+video for video retrieval with natural language                 We incorporate grammatical constraints (Lin-
+query. (Li et al., 2017) uses referring expressions          guistic prescription) based on part-of-speech into
+to help track a target object in a video sequence            our annotation pipeline so that we can crowd-
+in a subset of OTB100 (Lu et al., 2014) and Ima-             source well-formed sentences from people which
+geNet VID (Russakovsky et al., 2015). DiDeMo                 contain enough meaning representations for vision
+(Hendricks et al., 2017) and TEMPO (Hendricks                systems to locate the target object with visual con-
+et al., 2018) focus on localizing an input sentence          texts. Instead of manually writing sentences based
+into the corresponding temporal interval out of a            on context-free grammars like (Yu and Siskind,
+finite number of backgrounds. Importantly, these             2013), we ask the annotators to write sentences
+datasets do not consider distractor objects from the         in which valid sentences contain at least a noun
+same class. While our work also focuses on the               phrase (NP), a verb phrase (VP) and one of a
+video domain, it focuses on localizing objects and           prepositional phrase (PP), adverb phrase (ADVP)
+events as spatio-temporal tubelets aligned with an           or conjunction phrase (CONJP). The rest of each
+input expression.                                            sentence are language variations where we expect
+   Surface Realization in Vision and Language.               crowdsourcing to create more variations compared
+Surface realization is a process for generating sur-         to manual annotations by a few annotators. We
+face forms, like natural language sentences, based           want computer vision models to learn useful and
+on some underlying representations. For natu-                interpretable features by correlating the expres-
+ral language generation, the underlying represen-            sions and videos. So, we want the learned visual
+tation tends to be syntactic features. In vision             semantics from grounding models to be similar
+and language, captioning systems can use mean-               to structural inputs in surface realization systems.
+ing representation like triplets as an input for a           Each part-of-speech correlates with a specific vi-
+surface realization module to generate a sentence.           sual feature.
+(Farhadi et al., 2010) uses <Objects, Actions,
+Scenes>. (Yang et al., 2011) uses part-of-speech             4     STV-IDL Dataset
+as <Nouns, Verbs, Scenes, Prepositions>. (Li
+                                                             4.1    Dataset Construction
+et al., 2011) uses <<adj1, obj1>, prep, <adj2,
+obj2>>where adjectives are object attributes and             We develop a new data collection schema that en-
+prepositions are spatial relationships between ob-           sures rich correspondences between referring ex-
+
+                                                        16
+         Table 1: STV-IDL dataset statistics.                  Table 2: STV-IDL part-of-speech statistics. (Please see
+                                                               the supplementary material for more details.)
+     Info                              Statistics
+     Number of Videos                    199                         Part-of-Speech                     percents
+     Number of Sentences                 7569                        Noun, singular or mass (NN)          28.1
+     Average objects per Video           2.85                        Determiner (DT)                      15.3
+     Average words per Sentence         22.65                        Preposition or                       10.9
+     Sentences per Video                38.04                        subordinating conjunction (IN)
+                                                                     Adjective (JJ)                        9.7
+                                                                     Possessive pronoun ($PRP)             5.7
+pressions and referred objects in a video using                      Verb, 3rd person                      5.1
+constraints. The spatio-temporal relations that we                   singular present (VBZ)
+are interested in are about state transitions, that is,              Adverbs (RB)                          3.6
+what happens before and after the action and how                     Coordinating conjunction (CC)         3.4
+objects move. The state transitions should be rela-
+tive to other objects and background. For example,
+a sentence ‘A man in a green uniform kicking the               ization. Therefore, we ensure that every referring
+ball then running toward the net.’ is a good video             expression in our dataset provides grammatically
+referring expression. This sentence is valid only              relevant visual grounding based on part-of-speech
+in a spatial region that represents a noun phrase              such that a valid sentence must contain at least a
+‘a man in a green uniform’ and a time interval in              noun phrase (NP), a verb phrase (VP) and one of a
+which an action from the verb phrase ‘hitting the              prepositional phrase (PP), adverb phrase (ADVP)
+ball then running toward the net’ occurs. Also,                or conjunction phrase (CONJP). We also found
+the action ‘hitting the ball’ comes before his next            that the annotators may write relevant sentences
+action ‘running toward the net’ which shows the                without the constraints but the contents are ran-
+action steps of ‘hitting’ followed by ‘running’ and            dom and may not be visually grounded either spa-
+the action ‘running’ has a context object ‘the net.’           tially or temporally or both in the video. Some ex-
+                                                               ample sentences without the constraints are “The
+   First, we ensure that all of our High Defini-               guy was lucky to save the tennis ball.” and “The
+tion videos (720p) crawled from Youtube con-                   sun is blocking the ball for the back player.”.
+tain at least two objects similar to (Mao et al.,
+2016), but each video will focus on just one ob-               4.2    Video Tubelet, Temporal Interval, and
+ject class to form a contrast set. This constraint                    Expressions Annotations
+prevents a simple video object detector from re-
+solving referential ambiguity using only nouns by              We manually identify interesting events in each
+just outputting based on class information as in               video and select a keyframe for that action in the
+(Cirik et al., 2018). Because a simple object de-              presence of distractors. Then, we manually anno-
+tector randomly outputs one object from a com-                 tate the start and end of that event into an interval
+bination of the target and the contrast set. Then,             lasting around one second. For bounding box an-
+the output is the same as random because the ob-               notation, we use a javascript variant of Vatic (Von-
+ject confidence scores do not correlate with the re-           drick et al., 2013; Bolkensteyn) to manually draw
+ferring expression. We want more language cues                 a tubelet of bounding boxes in all frames for each
+to guide the system to seek additional visual con-             object of interest in every video. We crowdsource
+texts (Divvala et al., 2009) to focus and output only          annotations of referring expressions from Amazon
+one unambiguous object detection. The dataset                  Mechanical Turk (AMT). We create a clip segment
+contains 13 categories of videos which are either              with a bounding box around the target object to
+multi-player sports or animals. Second, inspired               fixate the annotator’s attention.
+by (Siskind, 1990; Yu and Siskind, 2013), a sen-                  Next, we manually verify the referring expres-
+tence, consists of a subject and a predicate, can              sions using another web interface that helps us
+be viewed as a set of structured labels based on               evaluate if the sentence refers to the target object,
+part-of-speech and each label can be meaningfully              is correct based on the video, is different from sen-
+grounded in a video. Besides, annotations can use              tences for the distractors and is sufficient to distin-
+grammars for lexical grounding and surface real-               guish the target object from the distractors and the
+
+                                                          17
+                                                              tionship) and t is the index location of the word
+                                                              this attention weights its hidden representation the
+                                                              Bi-LSTM encodes.
+                                                                 The original MAttNet model (RGB) decom-
+                                                              poses image referring expression grounding into
+                                                              three modules, a subject module, a location mod-
+                                                              ule, and a relationship module. The network out-
+                                                              put score for an object oi and an expression r is,
+                                                                                     X
+                                                                      S(oi |r) =               wm S(oi |q m ),   (3)
+                                                                                   m∈modules
+Figure 4: Stacked two-stream modular attention net-
+work based on five optical flow image input. We model         where wm is the weight vector from the language
+the bounding box sequence is a moving location mod-           attention module on the visual module m. q m is
+ule and a relationship module. The motion Faster-             the weighted sum of attention am,t over all word
+RCNN is also trained using a stack of five flow images        embedding. S(oi |q m ) is the module score from a
+for frame index fi ∈ [t − 2, t + 2].                          cosine similarity in the joint embedding between
+                                                              the visual representation of oi denoted as vei m and
+background. The annotation interfaces, payment                qm.
+and dataset statistics are shown in supplemen-                   Given a positive pair (oi , ri ), the network is
+tary material. We refer to the resulting referring            discriminatively trained by sampling two negative
+expressions as identifying descriptions (Mitchell             pairs (oi , rj ) and (ok , ri ) where rj is the expres-
+et al., 2013) because our expressions are referring           sion from other contrast object and ok is the con-
+expressions in the verified intervals which may be            trast object from the same frame. The combined
+overspecified but are also descriptions which may             hinged loss Lr is,
+be underspecified for the whole videos. Our re-                        X
+ferring expressions are long because we want to                 Lr =        λ1 max(0, ∆ + S(oi , rj ) − S(oi , ri ))
+make sure that they are clear enough to provide                         i
+input cues for the system. However, it still might                + λ2 max(0, ∆ + S(ok , ri ) − S(oi , ri )). (4)
+be not enough to localize an event from the whole
+video because the video has many events and can               The loss is linearly combined with other loss terms
+be exhaustive to be specific for a particular event.          such as attribute prediction with cross-entropy loss
+                                                              Latt from the subject module in a multi-task learn-
+5   Approach: Two-stream Modular                              ing setting.
+    Attention Network                                            We extend MAttNet to the video domain by ap-
+                                                              plying two things. First, MAttNet uses Faster-
+We start by employing a state-of-the-art image re-            RCNN (Girshick, 2015) for feature extraction so
+ferring expression localization, namely, Modular              we follow a well-established actor-action detec-
+Attention Network (MAttNet) (Yu et al., 2018)                 tion pipeline which extends image object detec-
+for our tasks. This model fits our objective since            tion to frame-based spatio-temporal action detec-
+it is a variant of modular neural networks (Auda              tion (Peng and Schmid, 2016). With this, we re-
+and Kamel, 1999; Andreas et al., 2016) that is                frame the problem by replacing action labels with
+decomposed based on tasks according to Fodor’s                referring expressions and putting MAttNet on top
+modularity of mind (Fodor, 1985). Therefore, we               of Faster-RCNN. Also, we use external object and
+can interpret the model in an ablation study on               interval proposal instead of Region Proposal Net-
+each neural module for a specific vision subtask              work (RPN) in Faster-RCNN. Second, we add
+and input type. Also, the model also provides                 subject motion and relationship motion modules
+linguistic interpretability using its language atten-         to capture temporal information in a two-streams
+tion module that can visualize different bindings             setting (Simonyan and Zisserman, 2014). These
+from word symbols in a referring expression to                modules have the same architecture as the subject
+each visual module as attention am,t where mod-               and relationship module but are using optical flow
+ule m ∈ {subj, loc, rel} (subject, location, rela-            as their input. We replace the three channel RGB
+
+                                                         18
+input with a stack of flow-x, flow-y and flow mag-              Table 3: Identifying Description Localization: mAP for
+nitude from the flow image. The aim of these mod-               each collection. (values are in percents.) The fused1
+                                                                MAttNet is the proposed two-stream method and the
+ifications, depicted in Figure 2, is to better model
+                                                                fused5 MAttNet is the stacked version of the proposed
+attributes, motion, movements and dynamic con-                  two-stream method.
+text in a video.
+   Previous work (Simonyan and Zisserman,                                     Model                mAP
+2014) has shown that stacking many optical flow                               random               29.68
+images can help recognition. So, we train another                             RGB MAttNet          41.51
+variant of two-stream modular attention network                               flow MAttNet         39.02
+using stacked five optical flow frames shown in                               flow5 MAttNet        41.90
+Figure 4. In this setting, we train the stacked mo-                           fused1 MAttNet       44.66
+tion Faster-RCNN by stacking flow images Fidx                                 fused5 MAttNet       42.82
+where frame index idx ∈ [t − 2, t + 2]. The
+input becomes a 15 channel stacked optical flow                 Table 4: Ablation study on fused1 MAttNet: mAP for
+image. In addition, we add the moving loca-                     each module combination. (values are in percents.)
+tion module to further model the movement of
+                                                                          Model                       mAP
+the location by stacking location features li =
+        ymin xmax ymax Arearegion                                         Subject+Location            44.46
+[ xmin
+   W , H , W , H , Areaimage ] where W and                                +Relationship               44.46
+H are width and height of the image. Then the                             +Subject Motion             44.46
+location features are concatenated with the loca-                         +Relationship Motion        44.66
+tion difference feature of the target object with
+up to five context objects from the same class,                 on the Sports-1M dataset (Karpathy et al., 2014).
+                                           ∆Arearegion
+δij = [ ∆xWmin , ∆yHmin , ∆xWmax , ∆yHmax , Areaimage  ]        The feature set f = C3D(ti : ti + δ), ti ∈ [bi , ei ]
+so that we have a sequence of [li ; δij ]idx where              where δ = 16 from the original pretrained model.
+frame index idx ∈ [t−2, t+2]. Then, we place an                 The duration of each segment Lk also increases
+LSTM on top of the sequence and we forward the                  as a power of 2, that is Lk+1 = 2 ∗ Lk . The
+concatenation of all hidden states to a fully con-              features are fed to a 2-layered LSTM to perform
+nected layer and output the final location features.            {Event/Background} sequence classification.
+We also make a location sequence and place an
+LSTM on top of location in the relationship mo-                 6     Experiments and Analysis
+tion module in this stacked optical flow setting.               We want to show how and to what extent mod-
+                                                                ular attention networks ground input expressions
+5.1   Tubelet and Temporal Interval Proposals
+                                                                with motion information in videos. So, we per-
+We employ the state-of-the-art video object detec-              form two sets of experiments, identifying descrip-
+tor, flow-guided feature aggregation (FGFA) (Zhu                tion localization and automatic video object detec-
+et al., 2017), finetuned on STV-IDL to generate the             tor and temporal event localization. Similar to (Gu
+tubelet proposals. The per-frame detections from                et al., 2018), we split the dataset into training, val-
+FGFA are post-processed by linking into tubelets                idation and test sets at the video level; that is, there
+using Seq-NMS (Han et al., 2016) based on the                   are no overlapping video segments for every split.
+top 300 bounding boxes ranked by the confidence                 There are 159 training, 13 validation, and 27 test
+of the category scores.                                         videos. The rough ratio is 12:1:2. Implementation
+   For temporal proposals, we implemented a vari-               details are in the supplementary material.
+ent of Deep Action Proposals (DAPs) (Escorcia
+et al., 2016) based on multi-scale proposal. First,             6.1    Identifying Description Localization
+we use a temporal sliding window with a fixed                   Setup. We perform three experiments, localiza-
+length of L frames and a stride of s (8 in our case).           tion with ground truth annotations, module abla-
+This produces a set of intervals, (bi ,ei ) where bi            tion study, and word attention study. First, we
+and ei are the beginning and the end of the in-                 evaluate our model by selecting the target from
+terval. Then, we extract the C3D features (Tran                 a pool of candidate targets plus distractors. We
+et al., 2015) from the image frames in that interval            compare five models based on input and modules.
+using the activation in the ‘fc7’ layer, pretrained             The five models are (1) MAttNet for RGB in-
+
+                                                           19
+Table 5: Ablation study on fused5 MAttNet: mAP for          ing location is a predictive feature to model mo-
+each module combination. (values are in percents.)          tion and spatial location (Yin and Ordonez, 2017),
+         Model                     mAP                      but it prevents other vision modules from becom-
+                                                            ing sufficiently tuned in this setting. We also try to
+         Subject+Location          33.97
+                                                            combine the moving location with the fused1 set-
+         +Relationship             35.32
+                                                            ting. The results degenerate more, and the overall
+         +Subject Motion           35.41
+                                                            accuracy is only 37.12%. It is even lower than flow
+         +Moving Location          42.84
+                                                            MAttNet model.
+         +Relationship Motion      42.82
+                                                               Figure 6 shows how the language attention net-
+                                                            work assigns weights to each module by aggre-
+put (RGB MAttNet/original model/baseline); (2)
+                                                            gating all the weights for each word based on
+MAttNet for flow image input (flow MAttNet); (3)
+                                                            Penn part-of-speech tag during test set predic-
+MAttNet for stacked five flow image input (flow5
+                                                            tion of the fused1 model to explain the perfor-
+MAttNet); (4) two-stream MAttNet for RGB and
+                                                            mance gain. The aggregated statistics show that
+flow image input (fused1 MAttNet) and (5) two-
+                                                            motion words like verbs, prepositions, and con-
+stream MAttNet for RGB and stacked five flow
+                                                            junctions are ranked higher for flow modules on
+image input (fused5 MAttNet). Second, we inter-
+                                                            average which means more attention to motion.
+pret the model by setting the module score weights
+                                                            We also focus on just aggregating verbs in Fig-
+from language attention module to zeros for the
+                                                            ure 7 to further explain the modules. The statistics
+modules we want to turn off in our ablation study.
+                                                            show that flow and location modules focus more
+Third, we collect the statistics of the attention of
+                                                            on verbs on average compared to their correspond-
+each word from the input expressions in the test
+                                                            ing appearance-based modules.
+set to explain how and which kind of words each
+module attends.                                             6.2     Automatic Video Object Detector and
+   Results. The accuracies in Table 3 show su-                      Temporal Event Localization
+perior performance for stacked flow5 and two-               Because spatio-temporal detection and localiza-
+streams models. The stacked flow5 model im-                 tion is very challenging, we want to identify po-
+proves over the RGB baseline by 0.39% while                 tential challenges for spatio-temporal grounding
+two-stream fused1 and fused5 models have 3.15%              when automatic computer vision systems replace
+and 1.31% improvement respectively. Both vari-              the ground truth annotations. So, we replace
+ants of two-stream models, fused1 and fused5,               tubelets with top 8 detections from flow-guided
+outperform all one-stream models, RGB, flow, and            feature aggregation (FGFA) (Zhu et al., 2017) and
+flow5. All models perform better than randomly              temporal intervals with the proposal system de-
+selecting an object from the set of tubelets.               scribed in Section 3.2. We create three scenarios:
+   The accuracies in Table 4 show that each mod-            in each scenario, varying amounts of the problem
+ule in fused1 learns better since the modules in ap-        are revealed via the ground truth to separate each
+pearance stream alone have 2.95% improvements               component and measure the hardness of each sub-
+over the RGB only baseline. We further hypothe-             problem and the impact of one on another.
+size that the reason is the motion stream takes care
+of motion grounding so the appearance modules               6.2.1    Automatic Video Object Detector
+can learn better because of the separation of un-           Setup. We evaluate both the tubelet object propos-
+related information into other modules. A modu-             als and the pretrained modular attention networks.
+lar neural network avoids internal interference be-         We replace the groundtruth tubelets to imperfect
+tween features by training each module indepen-             proposals which contains bounding box perturba-
+dently and each module will masters its task more           tions and we want to see how the model behaves.
+precisely (Auda and Kamel, 1999). The additional               Results. Since all modular attention networks
+relationship motion module also provides comple-            are not trained on tubelet proposals, the results
+mentary information for the additional 0.20% im-            from the automatic video object detector in Table
+provement. The accuracies in Table 5 show that              6 shows performance drops in all models and the
+the stacked flow5 model focuses mostly on the               performances are even lower than the object de-
+moving location module which causes the overall             tection baseline. The object detection baseline se-
+improvement over the RGB baseline. The mov-                 lects the tubelet with the highest confidence score
+
+                                                       20
+Figure 5: A qualitative result: the first, middle and last frames from an interval in the STV-IDL dataset with
+an expression, ‘The male tennis player in the near court moves from right to left in order to hit the ball but his
+teammate outside the court reaches the ball first and just hits it.’ The fused1 MAttNet can properly refer to the
+object highlighted in the red box in contrast to the baseline.
+
+
+
+
+Figure 6: Aggregations of output word attention weights for each module on the STV-IDL test set. Part-of-speech
+tags are CC, DT, IN, JJ, NN, NNS, PRP$, RB, TO and VBZ (left to right).
+                                                            Table 7: Event Localization: mAP temporal IoU@0.5
+                                                            for each model. (values are in percents.)
+
+                                                                      Model                  tIoU@0.5
+                                                                      RGB MAttNet               8.72
+                                                                      flow MAttNet               7.28
+                                                                      flow5 MAttNet             8.79
+                                                                      fused1 MAttNet             8.07
+                                                                      fused5 MAttNet            7.02
+Figure 7: Aggregations on all verbs for each module.
+(from left to right: Relationship flow/RGB, Subject
+                                                                      speaker LSTM               7.74
+flow/RGB, Location)                                                   speaker Bi-LSTM           10.10
+
+                                                            6.2.2 Temporal Event Localization
+Table 6: Visual Object Detection: mAP tracklet
+IoU@0.5 for each model. (values are in percents.)           Setup. We evaluate the event localization compo-
+                                                            nent by removing ground truth temporal intervals.
+           Model                IoU@0.5                     All previous settings so far operate on trimmed
+           RGB MAttNet            35.02                     video segments and focus on ‘where’ the sen-
+           flow MAttNet           22.63                     tences refer to. We want to see how the model
+           flow5 MAttNet          28.98                     behaves on untrimmed videos in which the system
+           fused1 MAttNet         23.93                     needs to answer ‘when’ the referred events occur.
+           fused5 MAttNet         24.26                     The system’s task is to infer the temporal intervals
+           FGFA most conf.        35.87                     [tk , tk+40 ) which are likely to correspond to the in-
+           FGFA 2nd conf.         34.16                     put expressions. We evaluate the system via tem-
+                                                            poral mean Average Precision with temporal IoU
+                                                            similar to (Krishna et al., 2017b). Since our iden-
+from FGFA. We hypothesize that it is from bound-            tifying descriptions are sentences for the whole
+ing box perturbation that may affect both Faster            videos, we compare modular attention networks
+RCNN features and location features. The results            to a video captioner, S2VT (Venugopalan et al.,
+also show that the performance drops are more se-           2015), which is a speaker model (Mao et al., 2016)
+vere in two-stream models - we think that it is from        that output the probability of producing an expres-
+an accumulation of errors from both streams.                sion given a video. The S2VT model is trained
+
+                                                       21
+Table 8: Spatio-temporal Localization: mAP temporal           7   Summary
+IoU@0.5 then tracklet IoU@0.5 for each model. (val-
+ues are in percents.)                                         We discussed the problem of grounding spatio-
+                                                              temporal identifying descriptions to spatio-
+          Model                tIoU@0.5
+                                                              temporal object-event tubelets in videos. The
+          RGB MAttNet             2.75
+                                                              critical challenge in this dataset is to ground verbs
+          flow MAttNet            2.04
+                                                              and motion words in both space and time, and
+          flow5 MAttNet           2.62
+                                                              we show that this is possible by our proposed
+          fused1 MAttNet          1.70
+                                                              two-stream modular neural network models
+          fused5 MAttNet          1.51
+                                                              which have complimentary optical flow inputs
+                                                              to ground verbs and motion words. We validate
+on a different feature set consisting of the image            this by collecting aggregated statistics on word
+features from the last layer ‘fc1000’ of ResNet-50            attention and found that the two-stream models
+(He et al., 2016), the interval (bi ,ei ) and the cur-        ground verbs better. The motion stream also
+rent frame number. This S2VT model is trained                 helps the appearance stream learn better because
+on ground truth intervals and expressions, so it is           it abstracts away motion noise from appearance.
+likely to produce expressions with high probabili-            We further inspected the components in the
+ties on the ground truth event intervals compared             system and revealed potential challenges. A better
+to the background intervals which do not contain              training scheme such as improved loss functions
+‘interesting’ events.                                         or hard example mining for future spatio-temporal
+   Results. The results in Table 7 shows that                 grounding systems should consider both efficiency
+speaker Bi-LSTM performs the best and even bet-               and effectiveness.
+ter than all modular attention networks. We sus-
+pect that the reason is from the discriminative               8   Acknowledgement
+training scheme of the modular attention networks
+is not suitable for temporal localization. Train-             The authors thank the anonymous reviewers for
+ing with only negative pairs from the same frame              their insightful comments and suggestions. We
+takes a week, so it is computationally expensive to           thank Dr. Hal Daumé III, Nelson Padua-Perez and
+train with all negative pairs from all frames in the          Dr. Ryan Farrell for very useful advises and dis-
+whole video. The top-5 prediction for Bi-LSTM                 cussions. We also thank members of UMD Com-
+increases to 26.23% but it is still far from the up-          puter Vision Lab (CVL), UMD Human-Computer
+per bound of 71.02%, the recall of the proposal               Interaction Lab (HCIL) and UMD Computa-
+system.                                                       tional Linguistics and Information Processing Lab
+                                                              (CLIP) for useful insights and support. We also
+                                                              thank academic twitter users for useful knowledge
+6.2.3   Spatio-temporal Localization                          and discussions.
+
+Setup. We evaluate our event interval propos-
+als, tubelet object proposals, and modular atten-             References
+tion networks. We fix tubelet Intersection over
+                                                              Jacob Andreas, Marcus Rohrbach, Trevor Darrell, and
+Union (tubelet IoU) to 0.5. The evaluation is a                  Dan Klein. 2016. Neural module networks. In Pro-
+two-step process, temporal IoU then tubelet IoU.                 ceedings of the IEEE Conference on Computer Vi-
+We allow tubelet IoU over all frames of the pro-                 sion and Pattern Recognition, pages 39–48.
+posal interval instead of ground truth interval to
+show that the system refers to the right object in            Gasser Auda and Mohamed Kamel. 1999. Modular
+an event interval and the tubelet IoU does not de-              neural networks: a survey. International Journal of
+                                                                Neural Systems, 9(02):129–151.
+pend on temporal IoU.
+   Results. The results in Table 8 show that the              Yevgeni Berzak, Andrei Barbu, Daniel Harari, Boris
+performance further decreases from Table 7. We                  Katz, and Shimon Ullman. 2015. Do you see what
+                                                                i mean? visual resolution of linguistic ambiguities.
+suspect that the reason is also from the discrimi-              In Proceedings of the 2015 Conference on Empiri-
+native training scheme because the models are not               cal Methods in Natural Language Processing, pages
+trained on some background frames.                              1477–1487.
+
+                                                         22
+Dinesh Bolkensteyn. vatic.js: A pure javascript video            Sukthankar, et al. 2018. Ava: A video dataset of
+  annotation tool.   https://dbolkensteyn.                       spatio-temporally localized atomic visual actions.
+  github.io/vatic.js/.                                           In CVPR 2018.
+Volkan Cirik, Louis-Philippe Morency, and Taylor               Wei Han, Pooya Khorrami, Tom Le Paine, Prajit
+  Berg-Kirkpatrick. 2018. Visual referring expression            Ramachandran, Mohammad Babaeizadeh, Honghui
+  recognition: What do systems actually learn? In                Shi, Jianan Li, Shuicheng Yan, and Thomas S
+  Proceedings of the 2018 Conference of the North                Huang. 2016. Seq-nms for video object detection.
+  American Chapter of the Association for Computa-               arXiv preprint arXiv:1602.08465.
+  tional Linguistics: Human Language Technologies,
+  Volume 2 (Short Papers), volume 2, pages 781–787.            Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian
+                                                                 Sun. 2016. Deep residual learning for image recog-
+Robert Dale and Ehud Reiter. 1995. Computational                 nition. In Proceedings of the IEEE conference on
+  interpretations of the gricean maxims in the gener-            computer vision and pattern recognition, pages 770–
+  ation of referring expressions. Cognitive science,             778.
+  19(2):233–263.
+                                                               Lisa Anne Hendricks, Oliver Wang, Eli Shechtman,
+Santosh K Divvala, Derek Hoiem, James H Hays,                     Josef Sivic, Trevor Darrell, and Bryan Russell. 2017.
+  Alexei A Efros, and Martial Hebert. 2009. An                    Localizing moments in video with natural language.
+  empirical study of context in object detection. In              In Proceedings of the IEEE International Confer-
+  Computer Vision and Pattern Recognition, 2009.                  ence on Computer Vision (ICCV).
+  CVPR 2009. IEEE Conference on, pages 1271–
+  1278. IEEE.                                                  Lisa Anne Hendricks, Oliver Wang, Eli Shechtman,
+                                                                  Josef Sivic, Trevor Darrell, and Bryan Russell. 2018.
+Victor Escorcia, Fabian Caba Heilbron, Juan Carlos                Localizing moments in video with temporal lan-
+  Niebles, and Bernard Ghanem. 2016. Daps: Deep                   guage. In Proceedings of the 2018 Conference on
+  action proposals for action understanding. In Euro-             Empirical Methods in Natural Language Process-
+  pean Conference on Computer Vision, pages 768–                  ing, pages 1380–1390.
+  784. Springer.
+                                                               Ronghang Hu, Marcus Rohrbach, Jacob Andreas,
+Ali Farhadi, Mohsen Hejrati, Mohammad Amin                       Trevor Darrell, and Kate Saenko. 2017. Modeling
+  Sadeghi, Peter Young, Cyrus Rashtchian, Julia                  relationships in referential expressions with com-
+  Hockenmaier, and David Forsyth. 2010. Every pic-               positional modular networks. In Computer Vision
+  ture tells a story: Generating sentences from images.          and Pattern Recognition (CVPR), 2017 IEEE Con-
+  In European conference on computer vision, pages               ference on, pages 4418–4427. IEEE.
+  15–29. Springer.
+                                                               Hueihan Jhuang, Juergen Gall, Silvia Zuffi, Cordelia
+Jerry A Fodor. 1985. Precis of the modularity of mind.           Schmid, and Michael J Black. 2013. Towards un-
+   Behavioral and brain sciences, 8(1):1–5.                      derstanding action recognition. In Proceedings of
+                                                                 the IEEE international conference on computer vi-
+Jiyang Gao, Chen Sun, Zhenheng Yang, and Ram                     sion, pages 3192–3199.
+   Nevatia. 2017. Tall: Temporal activity localization
+   via language query. In Proceedings of the IEEE In-          Justin Johnson, Ranjay Krishna, Michael Stark, Li-Jia
+   ternational Conference on Computer Vision, pages               Li, David Shamma, Michael Bernstein, and Li Fei-
+   5267–5275.                                                     Fei. 2015. Image retrieval using scene graphs. In
+                                                                  Proceedings of the IEEE Conference on Computer
+Kirill Gavrilyuk, Amir Ghodrati, Zhenyang Li, and                 Vision and Pattern Recognition, pages 3668–3678.
+  Cees GM Snoek. 2018. Actor and action video seg-
+  mentation from a sentence. In Proceedings of the             Andrej Karpathy, George Toderici, Sanketh Shetty,
+  IEEE Conference on Computer Vision and Pattern                 Thomas Leung, Rahul Sukthankar, and Li Fei-Fei.
+  Recognition, pages 5958–5966.                                  2014. Large-scale video classification with convo-
+                                                                 lutional neural networks. In CVPR.
+Ross Girshick. 2015. Fast r-cnn. In Proceedings of the
+  IEEE international conference on computer vision,            Sahar Kazemzadeh, Vicente Ordonez, Mark Matten,
+  pages 1440–1448.                                               and Tamara L Berg. 2014. Referitgame: Refer-
+                                                                 ring to objects in photographs of natural scenes. In
+Dave Golland, Percy Liang, and Dan Klein. 2010. A                EMNLP, pages 787–798.
+  game-theoretic approach to generating spatial de-
+  scriptions. In Proceedings of the 2010 conference            Ranjay Krishna, Kenji Hata, Frederic Ren, Li Fei-Fei,
+  on empirical methods in natural language process-              and Juan Carlos Niebles. 2017a. Dense-captioning
+  ing, pages 410–419. Association for Computational              events in videos. In International Conference on
+  Linguistics.                                                   Computer Vision (ICCV).
+Chunhui Gu, Chen Sun, David Ross, Carl Vondrick,               Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin John-
+  Caroline Pantofaru, Yeqing Li, Sudheendra Vijaya-              son, Kenji Hata, Joshua Kravitz, Stephanie Chen,
+  narasimhan, George Toderici, Susanna Ricco, Rahul              Yannis Kalantidis, Li-Jia Li, David A Shamma,
+
+                                                          23
+  et al. 2017b. Visual genome: Connecting language               Anna Rohrbach, Marcus Rohrbach, Ronghang Hu,
+  and vision using crowdsourced dense image anno-                  Trevor Darrell, and Bernt Schiele. 2016. Ground-
+  tations. International Journal of Computer Vision,               ing of textual phrases in images by reconstruction.
+  123(1):32–73.                                                    In European Conference on Computer Vision, pages
+                                                                   817–834. Springer.
+Jie Lei, Licheng Yu, Mohit Bansal, and Tamara Berg.
+   2018. Tvqa: Localized, compositional video ques-              Deb Roy and Ehud Reiter. 2005. Connecting language
+   tion answering. In Proceedings of the 2018 Con-                 to the world. Artificial Intelligence, 167(1-2):1–12.
+   ference on Empirical Methods in Natural Language
+   Processing, pages 1369–1379.                                  Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause,
+                                                                   Sanjeev Satheesh, Sean Ma, Zhiheng Huang, An-
+Siming Li, Girish Kulkarni, Tamara L Berg, Alexan-                 drej Karpathy, Aditya Khosla, Michael Bernstein,
+  der C Berg, and Yejin Choi. 2011. Composing sim-                 Alexander C. Berg, and Li Fei-Fei. 2015. Ima-
+  ple image descriptions using web-scale n-grams. In               geNet Large Scale Visual Recognition Challenge.
+  Proceedings of the Fifteenth Conference on Com-                  International Journal of Computer Vision (IJCV),
+  putational Natural Language Learning, pages 220–                 115(3):211–252.
+  228. Association for Computational Linguistics.
+                                                                 Karen Simonyan and Andrew Zisserman. 2014. Two-
+Zhenyang Li, Ran Tao, Efstratios Gavves, Cees GM                   stream convolutional networks for action recogni-
+  Snoek, Arnold WM Smeulders, et al. 2017. Track-                  tion in videos. In Advances in neural information
+  ing by natural language specification. In CVPR, vol-             processing systems, pages 568–576.
+  ume 1, page 5.
+                                                                 Jeffrey Mark Siskind. 1990. Acquiring core meanings
+Yang Lu, Tianfu Wu, and Song Chun Zhu. 2014. On-                    of words, represented as jackendoff-style conceptual
+  line object tracking, learning and parsing with and-              structures, from correlated streams of linguistic and
+  or graphs. In Proceedings of the IEEE Conference                  non-linguistic input. In Proceedings of the 28th an-
+  on Computer Vision and Pattern Recognition, pages                 nual meeting on Association for Computational Lin-
+  3462–3469.                                                        guistics, pages 143–156. Association for Computa-
+                                                                    tional Linguistics.
+Junhua Mao, Jonathan Huang, Alexander Toshev, Oana
+  Camburu, Alan L Yuille, and Kevin Murphy. 2016.                Khurram Soomro, Amir Roshan Zamir, and Mubarak
+  Generation and comprehension of unambiguous ob-                  Shah. 2012. Ucf101: A dataset of 101 human ac-
+  ject descriptions. In Proceedings of the IEEE con-               tions classes from videos in the wild. arXiv preprint
+  ference on computer vision and pattern recognition,              arXiv:1212.0402.
+  pages 11–20.
+                                                                 Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo
+Margaret Mitchell, Kees Van Deemter, and Ehud Re-                  Torresani, and Manohar Paluri. 2015. Learning
+ iter. 2013. Generating expressions that refer to vis-             spatiotemporal features with 3d convolutional net-
+ ible objects. In Proceedings of the 2013 Confer-                  works. In Proceedings of the IEEE international
+ ence of the North American Chapter of the Associa-                conference on computer vision, pages 4489–4497.
+ tion for Computational Linguistics. Association for
+ Computational Linguistics (ACL).                                Subhashini Venugopalan, Marcus Rohrbach, Jeff Don-
+                                                                   ahue, Raymond Mooney, Trevor Darrell, and Kate
+Varun K Nagaraja, Vlad I Morariu, and Larry S Davis.               Saenko. 2015. Sequence to sequence – video to text.
+  2016. Modeling context between objects for refer-                In Proceedings of the IEEE International Confer-
+  ring expression understanding. In European Confer-               ence on Computer Vision (ICCV).
+  ence on Computer Vision, pages 792–807. Springer.
+                                                                 Carl Vondrick, Donald Patterson, and Deva Ramanan.
+Xiaojiang Peng and Cordelia Schmid. 2016. Multi-                   2013. Efficiently scaling up crowdsourced video an-
+  region two-stream r-cnn for action detection. In Eu-             notation. International Journal of Computer Vision,
+  ropean Conference on Computer Vision, pages 744–                 101(1):184–204.
+  759. Springer.
+                                                                 Liwei Wang, Yin Li, and Svetlana Lazebnik. 2016.
+Bryan A Plummer, Liwei Wang, Chris M Cervantes,                    Learning deep structure-preserving image-text em-
+  Juan C Caicedo, Julia Hockenmaier, and Svetlana                  beddings. In Proceedings of the IEEE conference
+  Lazebnik. 2017. Flickr30k entities: Collecting                   on computer vision and pattern recognition, pages
+  region-to-phrase correspondences for richer image-               5005–5013.
+  to-sentence models. International Journal of Com-
+  puter Vision, 123(1):74–93.                                    Christian Wolf, Eric Lombardi, Julien Mille, Oya Ce-
+                                                                   liktutan, Mingyuan Jiu, Emre Dogan, Gonen Eren,
+Mikel D Rodriguez, Javed Ahmed, and Mubarak Shah.                  Moez Baccouche, Emmanuel Dellandréa, Charles-
+  2008. Action mach a spatio-temporal maximum av-                  Edmond Bichot, et al. 2014. Evaluation of video ac-
+  erage correlation height filter for action recognition.          tivity localizations integrating quality and quantity
+  In Computer Vision and Pattern Recognition, 2008.                measurements. Computer Vision and Image Under-
+  CVPR 2008. IEEE Conference on, pages 1–8. IEEE.                  standing, 127:14–30.
+
+                                                            24
+Masataka Yamaguchi, Kuniaki Saito, Yoshitaka
+ Ushiku, and Tatsuya Harada. 2017. Spatio-temporal
+ person retrieval via natural language queries. arXiv
+ preprint arXiv:1704.07945.
+Yezhou Yang, Ching Lik Teo, Hal Daumé III, and Yian-
+  nis Aloimonos. 2011. Corpus-guided sentence gen-
+  eration of natural images. In Proceedings of the
+  Conference on Empirical Methods in Natural Lan-
+  guage Processing, pages 444–454. Association for
+  Computational Linguistics.
+Xuwang Yin and Vicente Ordonez. 2017. Obj2text:
+  Generating visually descriptive language from ob-
+  ject layouts. In Proceedings of the 2017 Conference
+  on Empirical Methods in Natural Language Pro-
+  cessing, pages 177–187.
+Haonan Yu and Jeffrey Mark Siskind. 2013. Grounded
+  language learning from video described with sen-
+  tences. In Proceedings of the 51st Annual Meet-
+  ing of the Association for Computational Linguistics
+  (Volume 1: Long Papers), volume 1, pages 53–63.
+Licheng Yu, Zhe Lin, Xiaohui Shen, Jimei Yang, Xin
+  Lu, Mohit Bansal, and Tamara L Berg. 2018. Mat-
+  tnet: Modular attention network for referring expres-
+  sion comprehension. In Proceedings of the IEEE
+  Conference on Computer Vision and Pattern Recog-
+  nition (CVPR).
+
+Xizhou Zhu, Yujie Wang, Jifeng Dai, Lu Yuan, and
+  Yichen Wei. 2017. Flow-guided feature aggrega-
+  tion for video object detection. In Proceedings of
+  the IEEE International Conference on Computer Vi-
+  sion, volume 3.
+
+
+
+
+                                                          25
+

@@ -1,0 +1,344 @@
+{
+  "batch": "0149",
+  "scope": "Eight new complete CC BY4 ACL paper text extractions from official PDFs; image/media exclusions and transformation disclosed.",
+  "new_canonical_source_objects": 8,
+  "new_original_payload_paths": 8,
+  "files": [
+    {
+      "file": "upstream/articles/2023.tacl-1.25.fulltext.txt",
+      "title": "Dubbing in Practice: A Large Scale Study of Human Localization With Insights for Automatic Dubbing",
+      "authors": [
+        "William Brannon",
+        "Yogesh Virkar",
+        "Brian Thompson"
+      ],
+      "source_url": "https://aclanthology.org/2023.tacl-1.25.pdf",
+      "canonical_url": "https://aclanthology.org/2023.tacl-1.25/",
+      "registry_source_id": "IFH-da8073353650",
+      "related_public_source_ids": [
+        "IFH-da8073353650"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2023.tacl-1.25/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 96066,
+      "sha256": "a02f0b3ad2da9ee5da831ca2a5936f081e480163a287b9792dc1011e94faf49f",
+      "upstream_pdf_sha256": "5d4491e00fc710e75b85f00828a54364566dd6268ae543db4c8f7384798294ff",
+      "upstream_pdf_size": 503426,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2023.tacl-1.25.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2023.tacl-1.25/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "14e9dcb853cf1c9cb982351d77e5dafabce3e9e9"
+    },
+    {
+      "file": "upstream/articles/2024.findings-acl.517.fulltext.txt",
+      "title": "TempCompass: Do Video LLMs Really Understand Videos?",
+      "authors": [
+        "Yuanxin Liu",
+        "Shicheng Li",
+        "Yi Liu",
+        "Yuxiang Wang",
+        "Shuhuai Ren",
+        "Lei Li",
+        "Sishuo Chen",
+        "Xu Sun",
+        "Lu Hou"
+      ],
+      "source_url": "https://aclanthology.org/2024.findings-acl.517.pdf",
+      "canonical_url": "https://aclanthology.org/2024.findings-acl.517/",
+      "registry_source_id": "IFH-65c33b2e9b31",
+      "related_public_source_ids": [
+        "IFH-65c33b2e9b31"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2024.findings-acl.517/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 173113,
+      "sha256": "f72083e08c045950b9c7dc12d5e453fb63b808ae28da7ded6a9beeb67e32490c",
+      "upstream_pdf_sha256": "3c68c765f22fd0417028e548e48d82816279a50ca7a93e7c5a8c7394180a7318",
+      "upstream_pdf_size": 3261066,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2024.findings-acl.517.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2024.findings-acl.517/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "e111be60df4462633bb54fa9839ce66dcb84a5d2"
+    },
+    {
+      "file": "upstream/articles/2022.findings-acl.177.fulltext.txt",
+      "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+      "authors": [
+        "Ahmed Masry",
+        "Do Xuan Long",
+        "Jia Qing Tan",
+        "Shafiq Joty",
+        "Enamul Hoque"
+      ],
+      "source_url": "https://aclanthology.org/2022.findings-acl.177.pdf",
+      "canonical_url": "https://aclanthology.org/2022.findings-acl.177/",
+      "registry_source_id": "IFH-247b234770f0",
+      "related_public_source_ids": [
+        "IFH-247b234770f0"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2022.findings-acl.177/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 87228,
+      "sha256": "e061d61ead6628ab2a0bcbe2252f40892679f39ae7df168a0ff8cffa10d86fc8",
+      "upstream_pdf_sha256": "ce9867a4515564f2a8bed0eb33d1de39e556778efe3ab55a2dafc79b053403bf",
+      "upstream_pdf_size": 3030985,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2022.findings-acl.177.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2022.findings-acl.177/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "3c6f9c568c500b2fab80287fe7d64ef81a443476"
+    },
+    {
+      "file": "upstream/articles/2026.findings-emnlp.756.fulltext.txt",
+      "title": "ShotFinder: Imagination-Driven Open-Domain Video Shot Retrieval via Web Search",
+      "authors": [
+        "Tao Yu",
+        "Haopeng Jin",
+        "Hao Wang",
+        "Shenghua Chai",
+        "Yujia Yang",
+        "Zhongtian Luo",
+        "Junhao Gong",
+        "Jiaming Guo",
+        "Minghui Zhang",
+        "Xinlong Chen",
+        "Zhenghao Zhang",
+        "Yuxuan Zhou",
+        "Yanpei Gong",
+        "YuanCheng Liu",
+        "Yiming Ding",
+        "Kangwei Zeng",
+        "Pengfei Yang",
+        "Yufei Xiong",
+        "Shanbin Zhang",
+        "Chengshaoxiong",
+        "Huang Ruilin",
+        "Li Shuo",
+        "Yuxi Niu",
+        "Xinyuan Zhang",
+        "Yueya Xu",
+        "Jie Mao",
+        "Ruixuan Ji",
+        "Yaru Zhao",
+        "Mingchen Zhang",
+        "Jiabing Yang",
+        "Jiaqi Liu",
+        "YiFan Zhang",
+        "Hongzhu Yi",
+        "Xinming Wang",
+        "Cheng Zhong",
+        "Xiao Ma",
+        "Zhang Zhang",
+        "Yan Huang",
+        "Liang Wang"
+      ],
+      "source_url": "https://aclanthology.org/2026.findings-emnlp.756.pdf",
+      "canonical_url": "https://aclanthology.org/2026.findings-emnlp.756/",
+      "registry_source_id": "IFH-532b57285a8f",
+      "related_public_source_ids": [
+        "IFH-532b57285a8f"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2026.findings-emnlp.756/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 170252,
+      "sha256": "3f1788d42d7d339cc2c7e3b7c90c225534e2b7593db2479dc7ebe4e52d6a423a",
+      "upstream_pdf_sha256": "daa1049f56e1bcdaf7d40834e9252e794c6e1acee9abad6686a6252c84451fcd",
+      "upstream_pdf_size": 47972429,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2026.findings-emnlp.756.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2026.findings-emnlp.756/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "f4918361e4c2807f11d2421620e1f38153dd9217"
+    },
+    {
+      "file": "upstream/articles/2025.emnlp-industry.185.fulltext.txt",
+      "title": "From Long Videos to Engaging Clips: A Human-Inspired Video Editing Framework with Multimodal Narrative Understanding",
+      "authors": [
+        "Xiangfeng Wang",
+        "Xiao Li",
+        "Yadong Wei",
+        "Songxueyu",
+        "Yang Song",
+        "Xiaxiaoqiang",
+        "Fangrui Zeng",
+        "Zaiyi Chen",
+        "Liuliu",
+        "Gu Xu",
+        "Tong Xu"
+      ],
+      "source_url": "https://aclanthology.org/2025.emnlp-industry.185.pdf",
+      "canonical_url": "https://aclanthology.org/2025.emnlp-industry.185/",
+      "registry_source_id": "IFH-994faf3895f8",
+      "related_public_source_ids": [
+        "IFH-994faf3895f8"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2025.emnlp-industry.185/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 76275,
+      "sha256": "a0ecaa0a491e4e31699e1f77db44e280ca6597f14dc73476daff6d22dd5faf2b",
+      "upstream_pdf_sha256": "cfd8cac4f698296b89fc0229275050fffb78fa73da5c32da33100d3512fb0618",
+      "upstream_pdf_size": 658255,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2025.emnlp-industry.185.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2025.emnlp-industry.185/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "7f575d09286179dc5503714444dcf25f4b22e67f"
+    },
+    {
+      "file": "upstream/articles/W19-1802.fulltext.txt",
+      "title": "Referring to Objects in Videos Using Spatio-Temporal Identifying Descriptions",
+      "authors": [
+        "Peratham Wiriyathammabhum",
+        "Abhinav Shrivastava",
+        "Vlad Morariu",
+        "Larry Davis"
+      ],
+      "source_url": "https://aclanthology.org/W19-1802.pdf",
+      "canonical_url": "https://aclanthology.org/W19-1802/",
+      "registry_source_id": "IFH-4384bf475c37",
+      "related_public_source_ids": [
+        "IFH-4384bf475c37"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/W19-1802/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 62578,
+      "sha256": "c07fbafb40979373ec1eb88178036ffb582ae7f4600c356905125f76a56106bd",
+      "upstream_pdf_sha256": "b0b32c538398972b0bc925d7fcd52e84d09e6b9d6c4ddefa67e0cc62ac7c2e5f",
+      "upstream_pdf_size": 4074803,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "W19-1802.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/W19-1802/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "b677d304fee4b20fffea3b9fa248f4a9cd989d93"
+    },
+    {
+      "file": "upstream/articles/2022.findings-aacl.34.fulltext.txt",
+      "title": "Chop and Change: Anaphora Resolution in Instructional Cooking Videos",
+      "authors": [
+        "Cennet Oguz",
+        "Ivana Kruijff-Korbayová",
+        "Emmanuel Vincent",
+        "Pascal Denis",
+        "Josef van Genabith"
+      ],
+      "source_url": "https://aclanthology.org/2022.findings-aacl.34.pdf",
+      "canonical_url": "https://aclanthology.org/2022.findings-aacl.34/",
+      "registry_source_id": "IFH-12c8df03b0ed",
+      "related_public_source_ids": [
+        "IFH-12c8df03b0ed"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2022.findings-aacl.34/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 63240,
+      "sha256": "7f33639a839d7d5b11eca2cf5781fae3db73da3481a83544a25f7436e7cd3582",
+      "upstream_pdf_sha256": "444c8f1fc125a78f37428417719fb16a7fb26949977a0411da6d550bd4045c79",
+      "upstream_pdf_size": 3110719,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2022.findings-aacl.34.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2022.findings-aacl.34/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "54ded3e10700444a5c5a1e697f470a33eac2ed5b"
+    },
+    {
+      "file": "upstream/articles/2022.tacl-1.10.fulltext.txt",
+      "title": "SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
+      "authors": [
+        "Philippe Laban",
+        "Tobias Schnabel",
+        "Paul Bennett",
+        "Marti A. Hearst"
+      ],
+      "source_url": "https://aclanthology.org/2022.tacl-1.10.pdf",
+      "canonical_url": "https://aclanthology.org/2022.tacl-1.10/",
+      "registry_source_id": "IFH-8e200fa1245a",
+      "related_public_source_ids": [
+        "IFH-8e200fa1245a"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_url": "https://aclanthology.org/2022.tacl-1.10/",
+      "license_evidence": "Official ACL article landing-page footer explicitly licenses ACL materials published in or after 2016 under CC BY4. Downloaded article confirms ACL publication/copyright and date. Non-ACL external images, videos and datasets are not included.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 81484,
+      "sha256": "8aa5decc6b0583f7dac72bcdd4df9395e130a38a16e8376f81ae90ea287703e9",
+      "upstream_pdf_sha256": "04e8c19ac0d6b6c75dec6839c37560dd1ccb8a938962db10a9e39d665d268979",
+      "upstream_pdf_size": 380922,
+      "conditions": "Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.",
+      "repository": "web/aclanthology.org",
+      "upstream_path": "2022.tacl-1.10.pdf",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://aclanthology.org/2022.tacl-1.10/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "fa875d8e01a00e22b952ceff06f57b5f06ed1fc8"
+    }
+  ]
+}

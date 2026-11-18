@@ -1,0 +1,738 @@
+Chop and Change: Anaphora Resolution in Instructional Cooking Videos
+Authors: Cennet Oguz; Ivana Kruijff-Korbayová; Emmanuel Vincent; Pascal Denis; Josef van Genabith
+Source: https://aclanthology.org/2022.findings-aacl.34/
+PDF: https://aclanthology.org/2022.findings-aacl.34.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+Chop and Change: Anaphora Resolution in Instructional Cooking Videos
+                    Cennet Oguz1 , Ivana Kruijff-Korbayova1 , Pascal Denis2 ,
+                          Emmanuel Vincent3 and Josef van Genabith1
+        1
+          German Research Center for Artificial Intelligence (DFKI), Saarland Informatics
+     2
+       Univ. Lille, Inria, CNRS, Centrale Lille, UMR 9189 CRIStAL, F-59000 Lille, France
+             3
+               Université de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France
+        {cennet.oguz, ivana.kruijff, josef.van_genabith}@dfki.de
+                    {pascal.denis, emmanuel.vincent}@inria.fr
+
+                      Abstract
+                                                              (a)                            ...
+    Linguistic ambiguities arising from changes
+    in entities in action flows are a key challenge
+    in instructional cooking videos. In particular,                 chop the bread                 mix the cubes with mixture
+    temporally evolving entities present rich and
+    to date understudied challenges for anaphora
+    resolution. For example “oil” mixed with “salt”           (b)                            ...
+    is later referred to as a “mixture”. In this pa-
+    per we propose novel annotation guidelines to                   cut the salmon in half         slice the salmon into strips
+    annotate recipes for the anaphora resolution
+    task, reflecting change in entities. Moreover,
+    we present experimental results for end-to-end            (c)                            ...
+    multimodal anaphora resolution with the new
+    annotation scheme and propose the use of tem-                   peel the potatoes              cut them to halves
+    poral features for performance improvement.
+
+1   Introduction                                              (d)                            ...
+
+Anaphora resolution is the task of identifying the
+antecedent of an anaphor, i.e., find a language ex-               place the mixture in loaf pan cook in the oven
+
+pression that a given entity refers to. For exam-
+ple, in the sentence take a potato and wash it, Figure 1: Examples from the YouCookII dataset show-
+the pronoun it is an anaphor that refers to the an- ing the effect of the temporal changes on the entities and
+tecedent a potato. This is a challenging NLP task         the referring expressions. Each row displays a different
+                                                          use of expressions and entities.
+which has been attracting much attention (Poesio
+et al., 2018; Fang et al., 2021, 2022). Different
+types of anaphoric relations have been identified
+and described in the scientific literature, e.g., iden- their intrinsic multimodality (Huang et al., 2016).
+tity (Poesio and Artstein, 2008), near-identity (Re- Krishnaswamy and Pustejovsky (2019) point to
+casens et al., 2011; Hovy et al., 2013), and bridging     various “channels of information” in the transmis-
+(Asher and Lascarides, 1998).                             sion of each modality. A “shared reference of enti-
+   Recipes provide a rich source for referring ex- ties” is introduced when two modalities refer to the
+pressions (Kiddon et al., 2015) of transformed enti- same description (Krishnaswamy and Pustejovsky,
+ties, and offer a challenge for anaphora resolution       2020). As presented in cooking instructions of
+tasks. Fang et al. (2022) use written recipes with        videos when two modalities refer to the same en-
+anaphora annotations to trace the temporal change         tity, the use of a referring expression is affected by
+of entities. While the ingredients undergo phys- both modalities. For example, the cubes is used
+ical or chemical change in the action flow, they          in Figure 1a to denote the bread pieces in the text
+can be still referred to in the same way. For ex- modality because the instruction chop the bread
+ample, an egg before and after it is boiled can be        shaped them into cubes in the video modality. The
+referred to with the same noun egg. Compared to           choice of referring expressions might also differ
+text recipes, instructional cooking videos raise addi- with respect to the changes of the entities. In Fig-
+tional challenges for anaphora resolution owing to        ure 1b the same nominal phrase refers to a different
+                                                       364
+                                                        1
+             Findings of the Association for Computational Linguistics: AACL-IJCNLP 2022, pages 364–374
+                       November 20–23, 2022. ©2022 Association for Computational Linguistics
+object (the whole salmon piece; and then one of the     Anaphoric Relations: identity, near-identity, as-
+halves) whereas in Figure 1c a coreferential pro-       sociation. Anaphoras mainly come in two forms:
+noun is used although the object has changed. Fig-      coreference and bridging. Coreference is defined
+ure 1c is in fact the most well-behaved in terms of     as language expressions referring to the same entity
+keeping the language expressions consistent across      (Weischedel et al., 2012), whereas bridging is an
+instructions and with the entities being referred to.   anaphoric phenomenon based on a non-identical
+Figure 1d shows the use of null arguments: the sec-     associated antecedent via lexical-semantic, frame-
+ond instruction cook in the oven does not explicitly    based, or encyclopedic relations (Asher and Las-
+mention what to cook, whereas the image of the          carides, 1998). A coreferring anaphor and its an-
+instruction displays it.                                tecedent in a text refer to the same entity (identity
+   The main contributions of this paper are as          relation), e.g., a black Mercedes and the car, while
+follows: (i) We propose an anaphora annotation          in bridging, an anaphor and its antecedent refer to
+scheme for instructional cooking videos that allows     different entities (non-identity relation), e.g., the
+us to address linguistic ambiguities in anaphora res-   car and the engine in the utterance I saw [a black
+olution. In particular, we define different types of    Mercedes] parked outside the restaurant. [The car]
+anaphoric relations to keep track of spatio-temporal    belonged to Bill. [The engine] was still running.
+changes of entities. We also provide a clear defi-      (Poesio and Artstein, 2008).
+nition of “identity of reference” and specify cate-     As Rösiger et al. (2018) point out, bridging studies
+gories that make an essential change resulting in a     so far employ various methods to describe bridging
+different entity. (ii) We annotate the YouCookII        dissimilar to the coreference definition. Neverthe-
+dataset (Zhou et al., 2018b,a) according to our         less, both the concept of sameness in the corefer-
+scheme and make it publicly available.1 (iii) Null      ence definition and the bridging associations ne-
+anaphors, e.g., mix in the bowl, are included in        glect the changes referents may undergo. There-
+the annotation thanks to cooking videos that of-        fore, the concept of near-identity was introduced
+fer the precise visual observation of null anaphors     by Recasens et al. (2010, 2012) as a middle ground
+to annotators. (iv) We provide a baseline multi-        between coreference and bridging. It addresses
+modal anaphora resolution model for this dataset.       spatio-temporal changes of entities, e.g., the en-
+In particular, we adapt an end-to-end (Lee et al.,      tity Postville in the text: On homecoming night
+2017) coreference model for the anaphora resolu-        [Postville] feels like Hometown, . . . it’s become a
+tion task. (v) We offer a novel method to improve       miniature Ellis Island . . . For those who prefer [the
+anaphora resolution models for instructional lan-       old Postville], Mayor John Hyman has a simple . . . .
+guage by leveraging temporal features capturing         This sample exemplifies the referential ambiguity,
+temporal order of instructions instead of using the     arising from two language expressions referring
+token distance as Lee et al. (2017) and Yu and Poe-     to “almost” the same entity, i.e., Postville and the
+sio (2020).                                             old Postville (Recasens et al., 2010). Rösiger et al.
+                                                        (2018) and Poesio et al. (2018) claim that the in-
+2   Related Work                                        troduction of the additional near-identity category
+                                                        in between coreference and bridging introduces
+Reference Resolution The reference resolution
+                                                        more uncertainty. Nevertheless, we consider the
+task addresses the linguistic ambiguities in state
+                                                        near-identity relationship suitable because spatio-
+changes of entity mentions by linking the entities
+                                                        temporal changes are essential in recipes and the
+to their corresponding instructions (Kiddon et al.,
+                                                        information they convey describes the visual con-
+2015; Huang et al., 2016, 2018), e.g., the mashed
+                                                        tent.
+potato and the fork refer to the instruction mash the
+potatoes with a fork. We depart from this type of      Coreference and Bridging Annotations. Coref-
+approaches, as they rely on unsound ontological as-    erence is a well studied and clearly defined concept
+sumptions (actions/events and entities are different   with some noticeable exceptions. In recent years
+objects) and they introduce unnecessary semantic       several annotated corpora with different corefer-
+ambiguities (by linking different entity mentions to   ence guidelines have been released. OntoNotes
+the same instruction).                                 v5.0 (Weischedel et al., 2012) exclusively focus
+  1
+    https://github.com/OguzCennet/                     on coreference using a schema similar to CoNLL-
+Recipe-Anaphora-Resolution                             2012 (Pradhan et al., 2012) and WikiCoref (Ghad-
+                                                    365
+                                                     2
+dar and Langlais, 2016) with two different relations:                                Train      Test
+one is identity, a symmetrical and transitive rela-
+                                                                   Coreference         891      330
+tion, and the other appositive for adjacent noun
+phrases. The extraction of the mentions and the use                Hyponmy              47       10
+of prepositions in mentions are crucial questions                  Near-Identity       699      217
+for corerefence annotation (Rösiger et al., 2018;                  Bridging            602      217
+Poesio et al., 2018). There are many extant hy-                    Produce             507      182
+potheses explaining how bridging relations func-                   Reduce               40       22
+tion with different annotation schemes for bridging                Set-member           44        9
+(Hou et al., 2018). The ARRAU corpus (Poesio                       Part-of              11        4
+et al., 2018) consists of general language annotated               Instruction       2,829      984
+with bridging relations of noun phrases (such as set               Token             8,754    2,966
+membership, subset, possession and unrestricted.)                  Recipe              264       89
+Markert et al. (2012) present ISnotes derived from                 Entity            5,669    1,927
+OntoNotes with unrestricted bridging relations in                  Null Entity         465      168
+addition to OntoNotes coreferences. The BASHI                      Pronoun Entity      206       61
+corpus (Rösiger, 2018) is based on OntoNotes con-
+tent and the bridging relations in the BASHI corpus     Table 1: Statistics of annotated data with the number of
+restrict the bridging anaphors to be truly anaphoric,   annotated samples with anaphoric relations.
+i.e., not interpretable without an antecedent.
+   All aforementioned annotation studies focus          of state changes by annotating the null entities in
+solely on the anaphoric relation between two dis-       recipes; (4) the judgement of anaphoric relations
+course entities and neglect the change of entities      of state changes and different semantic relations
+over time. Instructional language raises a novel        such as identity, non-identity, near-identity, and
+question in anaphora resolution: the definition of      association.
+anaphoric relations based on the change of lan-
+guage with entities that undergo change. Therefore,     3   Corpus
+RecipeRef (Fang et al., 2022) considers the state
+changes for preparing the annotation guideline for      We use the YouCookII dataset (Zhou et al., 2018a)
+recipe text based on the ChEMU-Ref (Fang et al.,        that includes manually provided descriptions (i.e.,
+2021) anaphora annotation on chemistry patent           instructions) of actions in the cooking videos. The
+documents. RecipeRef annotation was applied to          dataset contains 2,000 unconstrained instructional
+the RecipeDB data (Batra et al., 2020) that was         videos from 89 cooking recipes. The videos pro-
+aggregated from recipe websites and each recipe         vide a visual input of the corresponding objects to
+was divided into two parts, the ingredients sec-        observe the changes clearly. To obtain a variety of
+tion, and the cooking instructions. The cooking         ingredients and their state changes, we choose at
+instructions of RecipeDB contains only textual in-      least three random samples for each the 89 cooking
+structions without any visual content. The state        recipes for the training set and one sample for the
+changes are addressed in RecipeRef as a subtype of      test set. There is no intersection between training
+bridging relation, even though bridging is clearly      and test recipe samples. In total, we have 264 train-
+defined as an associative relation in the literature    ing documents and 89 test documents as shown in
+(Clark, 1975; Asher and Lascarides, 1998; Poesio        Table 1.
+and Artstein, 2008; Poesio et al., 2018). Besides,
+                                                        Recipe A recipe is text containing a list of cook-
+null anaphors are not included in the annotation of
+                                                        ing instructions with a list of ingredients, see Fig-
+RecipeRef, despite their frequent use in recipes.
+                                                        ure 2. Here, we use the YouCookII annotation, all
+   Several important questions remain open regard- instructions for each video are manually annotated
+ing anaphora resolution, and RecipeRef annotation, with temporal boundaries and described by impera-
+including: (1) interpretation of the state changes      tive English sentences. Since the video inputs show
+of entities over time; (2) addressing the referring     the entities and actions clearly, the use of refer-
+expression in anaphora resolution with data that        ring expressions and null entities is very common
+has different modalities; (3) obtaining the sequence    contrary to textual recipes.
+                                                     366
+                                                      3
+Instruction. Each video recipe contains 3 to 15                                  1. slice the pepperoni
+
+instructions. Each instruction is a temporally-
+                                                                                 2. slice the bacon
+aligned imperative sentence that is described ac-                                                             near identity
+cording to the corresponding action on the video                                 3. fry the bacon
+by human annotators. The instructions are not ut-
+
+
+
+
+                                                                 near identity
+tered by the instructor of the video but annotated                               4. roll the pizza dough
+by the human annotator from a third-person view-
+                                                                                 5. sprinkle flour on the pizza peel
+point while watching the video. Each instruction
+
+
+
+
+                                                                                                                                                    near identity
+                                                                                                                                    near identity
+                                                                                                               coreference
+defines an action, i.e., a predicate, applied to a set
+                                                                                 6. place the pizza crust on it
+of objects, i.e., entities. Video segments provide
+the visual status of the spatio-temporal changes for                             7. spread a layer of pizza sauce
+
+
+
+
+                                                           bridging / produce
+the mentioned entities for each instruction. Unlike
+other common types of texts, cooking instructions                                8. place grated cheese               sliced pepperoni and fried bacon
+
+focus on processes and entities undergoing change
+during the process. So, the corresponding videos                                 9. put the pizza      in the oven
+                                                                                              near identity
+in the YouCookII dataset enable us to comprehend
+                                                                                 10. cut the pizza into pieces
+the use of referring expressions of entities for each
+change.                                                  Figure 2: Example of annotation of a recipe from the
+                                                         YouCookII dataset named “stone baked pizza”. The start
+4     Annotation Categories and Guidelines               point of each arrow denotes the anaphor and the end
+                                                         point the corresponding antecedent. The antecedent and
+In this section, we explain our strategy of mention      anaphor pairs are highlighted in the same color. Grey
+selection and the use of our annotation schema on        boxes represent new entities (e.g., singletons) without
+the YouCookII data.                                      antecedent.
+
+4.1    Mention Selection
+                                                         of entities, see Figure 2. It is worth noting that
+In our work, we segment multiple-action instruc-
+                                                         the recipe videos are exploited to judge the “same-
+tions, e.g., put the chickpeas into the processor
+                                                         ness” of entities after an action (e.g., wash, cut,
+and blend all the ingredients, into single-action in-
+                                                         etc.) was applied. Thus, the visual features from
+structions put the chickpeas into the processor and
+                                                         cooking videos clarify the state change of enti-
+blend all the ingredients while preserving the order
+                                                         ties in the instructions and our annotation does not
+of actions. Each recipe instruction contains one
+                                                         rely only on the mental image of entities based on
+predicate and 0 to 8 entities. Null arguments and
+                                                         text only settings as in other coreference datasets
+ellipses are extremely common in recipes (Kiddon
+                                                         (Weischedel et al., 2012; Pradhan et al., 2012) and
+et al., 2015; Huang et al., 2016), since some ob-
+                                                         anaphora datasets (Roesiger, 2016; Poesio and Art-
+jects are not verbally expressed, but deduced from
+                                                         stein, 2008; Fang et al., 2021, 2022).
+the context of the remaining elements or videos.
+For example stir for 5 minutes does not explicitly       4.2.1                     Coreference
+mention the entity to be stirred. Nominal phrases        The anaphor and the antecedent are identical and
+with (in)definite noun phrases and pronouns are          point to the same entity. Some actions such as
+also used to mention the objects of recipes as in        washing or transferring the result to another con-
+the following instruction: coat the pork in the          tainer preserve the properties of the entity involved.
+marinade and place it in the oven. Therefore, we         For example, a tomato is the same tomato after
+consider null arguments (i.e., null anaphors) and        washing, or a piece of meat is the same amount of
+nominal phrases to define mentions. Contrary to          meat after putting it in a pan.
+ONTONOTES (Weischedel et al., 2012), we in-
+clude expressions that do not refer to any other         4.2.2                     Hyponymy
+mention as singletons in the annotation.                 The hyponymy relation was considered as bridging
+                                                         by Poesio and Vieira (1998), however Baumann
+4.2 Anaphoric Relations and Entity Change                and Riester (2012) use the term not as context-
+In this section, we explain how we define anaphoric      dependent but as “lexical accessibility” to define
+relations occurring in the recipes with state changes    the hyponymy relation between words as corefer-
+                                                      367
+                                                       4
+ence, as Rösiger et al. (2018). For example the         mix water and flour or dressing is produced by the
+herb refers to the entities mint and parsley in the     instruction mix yogurt and pepper.
+instruction Wash mint and parsley. Here again the
+anaphor may refer to a group of entities as the cor-    R EDUCED: We define R EDUCED as the bridg-
+responding antecedent.                                  ing relation linking an entity. The anaphor might
+                                                        be a number expression (e.g., to the whole entity),
+4.2.3   Near-Identity                                   an indefinite pronoun (some), or an indefinite noun
+Some actions alter either the physical or chemical      phrase (e.g., one piece). We use R EDUCED in cases
+properties of the entities involved. For instance,      when the anaphor means a part of the correspond-
+boiling a potato or an egg changes their chemi-         ing antecedent, provided no mereological relation
+cal properties whereas cutting a potato or an egg       exists. For example one slice is reduced from a
+changes their physical properties. Here, anaphor        bread by the instruction slice the bread into pieces.
+and antecedent entities are neither identical nor
+associated, they are partially the same entity shar-    S ET- MEMBER: In a recipe, SET- MEMBER refers
+ing many crucial commonalities, but differing in        to a relation between a group of entities and its
+at least one crucial dimension. For this type of        definite subset. In other words, this relation defines
+anaphoric relation, Recasens et al. (2010) propose      a bridge from a subset or element to the whole
+the near-identity relation to describe the spatio-      collection. For example, cucumber, tomato, and
+temporal changes of the entities as a middle ground     lettuce is an antecedent of the anaphor ingredients
+between coreference and bridging. Even though           in cut the ingredients.
+Rösiger et al. (2018) claim that additional cate-
+                                                        PART- OF: The antecedent may associate in a
+gories between coreference and bridging introduce
+                                                        mereological relationship with the anaphor, and
+further uncertainty which makes the annotation pro-
+                                                        cannot be captured well by pre-defined lexical re-
+cess more arduous, we consider the near identity
+                                                        lations. For example, the antecedent lemon in the
+relationship more suitable because spatio-temporal
+                                                        instruction cut the lemon relates to the anaphor
+changes are essential in recipes and the information
+                                                        seeds in take the seeds out.
+they convey describes the visual content. There-
+fore, if they are not the same entity, the antecedent
+                                                        4.3   Inter-annotator Agreement
+is not reduced to its parts for the anaphor, and the
+antecedent is not mixed with other entities to pro-     50 randomly selected recipes have been annotated
+duce a new entity for the anaphor, then we define       by two Computational Linguists, a PhD candidate
+such entities as near-identical. For example, an egg    and a final year Master student in Computational
+or a potato are accepted as near-identical entities     Linguistics. Five rounds of annotation training
+before and after boiling.                               were completed prior to beginning the official an-
+                                                        notation. In each round, the two annotators indi-
+4.2.4   Bridging                                        vidually annotated the same 5 recipes (different
+In bridging, the antecedent is related and not iden-    across each round of annotation), and compared
+tical; in contrast to coreference the anaphor is also   their annotations; annotation guidelines were then
+not interchangeable with the given antecedent. As       refined based on discussion. Finally, We achieved a
+mentioned in Section 2, various phenomena are           high inner-annotator agreement of Krippendorff’s
+identified as bridging, resulting in diverse guide-     α = 0.99 for the creation of a new entity and refer-
+lines for bridging annotations. In accordance with      ence, α = 0.95 for the selection of the antecedent
+the variety of associations, we assign different        and α = 0.93 for selection of anaphoric relations.
+anaphora relations in our annotation schema.
+                                                        5     Method
+P RODUCED: We define P RODUCED as the rela-
+tionship when the anaphor refers to an antecedent    In this section, we present our end-to-end multi-
+producing the anaphor. The antecedent is always      modal anaphora resolution model. Figure 3 shows
+an instruction with predicates and given ingredi- our joint neural model similar to Yu and Poesio
+ents. Here, the anaphor may refer to a group of      (2020) and Fang et al. (2021), adapted from Lee
+instructions as the corresponding antecedent. For    et al. (2017). We extend the model with novel
+example, the dough is produced by the instruction    temporal features, see Section 5.3.
+                                                  368
+                                                   5
+                       ViT
+
+
+
+
+                                       CNN
+                                       Layer
+
+
+
+
+                                                                                           no relation
+                 w1
+
+                                                                             coreference
+                 w2
+                 ...                   FFNN                      FFNN         n-identity           FFNN   rel(i,j)
+                wT-1                   Block                     Block
+                                                                               bridging
+                 wT
+                                                            Ɛ
+                                                   Pair
+                       BERT    Span
+                                      mention                   reference
+                                       FFNN                       FFNN
+
+
+                                        s(i)                     ref(i,j)
+
+
+
+Figure 3: Proposed anaphora resolution architecture. The CNN Layer is a convolutional layer with five input
+channels (one per frame). The FFNN Block refers to a layer block with FFNN+ReLU+Dropout, wt indicates the
+t-th word of Recipe R. ViT is a Transformer-based model to represent the features of the video inputs.
+
+
+5.1   Task                                                        RELATION for relation classification, this points to
+
+In linguistics, the term Anaphora Resolution refers               two scenarios: (1) the span is not an entity, or (2)
+to the method of identifying the antecedent for                   the span is an entity but it is not referent and so does
+an anaphor. To achieve anaphora resolution on                     not have an anaphoric relation to other entities.
+cooking instructions, we propose two different
+                                                                      5.2 Baseline
+sub-tasks: recognizing mentions, and finding the
+anaphor-antecedent pairs. Additionally, relation                      5.2.1 Visual Features
+classification is used to find the relation between                   Each video consists of n segments, v1 , . . . vn , each
+each anaphor and its antecedent.                                      corresponding to one instruction. Following Zhou
+   We adopt the following notations. Each recipe                      et al. (2018a), we evenly divide each segment into
+R consists of T tokens w1 , . . . , wT and n ≥ 1 five clips and randomly sample one frame from
+instructions ai such that R = a1 , . . . , an . Each                  each clip to capture the temporal features of that
+instruction ai = (pi , eℓ ), e.g., pour olive oil on the              segment. Each frame fi is encoded using the Vision
+Italian bread cubes, contains one action predicate                    Transformer (ViT) model (Dosovitskiy et al., 2021).
+pi and an entity list eℓ . The entity list consists of                The instruction’s visual feature vector is obtained
+zero or more entities eℓ = ∅ or eℓ = {e1 , . . . , em }               by concatenating the frame-level feature vectors:
+where ∅ denotes null entities which are extremely                     vi = CNN([ViT(f1 ), . . . , ViT(f5 )]).
+common in recipe instructions (Kiddon et al., 2015;
+Huang et al., 2017) and ei indicates entities such                    5.2.2 Mention Detection
+as the Italian bread cubes.                                           For mention detection, following Lee et al. (2017),
+   We define three sub-tasks. The first task is                       we consider all continuous tokens with up to L
+mention detection: it extracts all mentions eℓ                        words as a potential span and compute the corre-
+from ai . The second task is anaphora resolu- sponding span score. BERT (Devlin et al., 2019)
+tion: it assigns each ei to an antecedent yi ∈                        is used to extract the contextualised word embed-
+{ϵ, a1 , . . . , ai−1 , e1,ℓ , . . . , ei−1,ℓ }, if any. The third    dings x∗t = BERT(w1 , . . . , wT ) where x∗t refers to
+task is relation classification: it assigns one of the                the vector representation of the token at time t of
+relation classes {NO - RELATION, COREFERENCE, R. The vector representation gi of a given span is
+NEAR - IDENTITY, BRIDGING} to each pair (ei , yi ).                   obtained by concatenating the word vectors of its
+The selection of ϵ as the antecedent collapses two                    boundary tokens and its width feature:
+different situations: (1) the span is not an entity,
+or (2) the span is an entity but it is not referent                           gi = [x∗START(i) , x∗END(i) , ϕ(i)]
+(Lee et al., 2017). Likewise, if the relation is NO -                         ϕ(i) = WIDTH(END(i) − START(i)).
+                                                                   369
+                                                                    6
+START (i) and END (i) represent the starting and         and bridgingij into the relation vector relij :
+ending token indexes for gi , respectively. ϕ(i) is
+the width feature of the span where WIDTH(.) is              relij = [coreferenceij , n-identityij , bridingij ].
+the embedding function of the predefined bins of
+[1, 2, 3, 4, 8, 16] as defined by Clark and Manning      To classify the anaphoric relation for each input
+(2016).                                                  pair, we then compute softmax(FFNN([gij , relij ]).
+The use of head attention (Lee et al., 2017; Yu and
+                                                         5.3    Temporal Features
+Poesio, 2020; Fang et al., 2021) is very common in
+coreference/anaphora resolution models. However,         Recipe instructions are written with an implied tem-
+we disregard the head representation of spans for        poral order (Jermsurawong and Habash, 2015), and
+two reasons: (1) the common use of null anaphors         the entities involved go through this temporal order
+in our data: instead the instruction ai of the null      until the cooking is complete. We propose to select
+anaphor is used for extracting the vector represen-      the number of instructions (see Figure 2) as the tem-
+tation, (2) the self-attention mechanism (Vaswani        poral marker of entities instead of token distance
+et al., 2017) of the BERT model implicitly captures      ϕdist (ij) to avoid issues with different instruction
+the mention head word.                                   and entity lengths. We design our experiments to
+   The mention score softmax(FFNN(gi )) is com-          explain how the temporal stage of entities in action
+puted for each span, and the mention model is            flows influences the pair representation of mentions
+trained using the cross-entropy loss.                    in cooperating with the anaphora resolution model.
+                                                         Thus, we formulate our temporal features as
+5.2.3    Anaphora Resolution
+For anaphora resolution, the representation of span             ϕtemp (i, j) = TEMPORAL(#aj − #ai )
+pair gij is obtained by concatenating the two span
+embeddings [gi , gj ] and their element-wise multi-      where TEMPORAL(·) is an embedding function that
+plication, gi · gj , among others:                       uses the list of bins [1,2,3..,30]. #ai refers to the
+                                                         instruction index of span i and #aj to the instruc-
+ gij = [gi , gj , gi · gj , vi · vj , ϕdist (i, j)]      tion index of span j. We concatenate ϕtemp (i, j) in
+                                                         place of ϕdist (i, j) to obtain the vector representa-
+ ϕdist (i, j) = DISTANCE(START(j) − START(i))
+                                                         tion of a span pair:
+where the feature vector ϕdist (i, j) is the distance
+                                                               gij = [gi , gj , gi · gj , vi · vj , ϕtemp (i, j))].
+between the index of span i and span j. DIS -
+TANCE (·) is an embedding function of the prede-
+                                                            Token distance varies depending on the use of
+fined bins of [1, 2, 3.., 30] as defined by Clark and
+                                                         token numbers in instructions and entities. For ex-
+Manning (2016).
+                                                         ample, the instruction mix red chili cinnamon stick
+For anaphora resolution, we minimize the cross
+                                                         cloves cumin seeds mustard seeds pepper garlic
+entropy loss for candidate span pairs with
+                                                         vinegar sugar and wine might also be written mix
+sigmoid(FFNN(gij )).
+                                                         red chili cinnamon stick cloves cumin seeds mus-
+5.2.4    Relation Classification                         tard seeds followed by add pepper garlic vinegar
+                                                         in the bowl and mix with sugar and wine. There-
+As shown in Table 1, the number of observed hy-
+                                                         fore, temporal features are not captured well by
+ponym, reduce, set-member, and part-of instance
+                                                         token distance in instructional language.
+relations is low. Therefore, we define the anaphoric
+relations in term of the three main categories: coref-   6     Experimental Setup
+erence, near-identity, and bridging.
+To learn the vectors for each relation of feature        6.1    Input
+vector gij , we apply an FFNN layer:                  Cooking Instructions. To encode the recipes we
+                                                      use BERT (Devlin et al., 2019), a bidirectional
+         coreferenceij = FFNN(gij )                   transformer model trained on a masked language
+         n-identityij = FFNN(gij )                    modeling task. First, we fine-tune BERT-large-
+         bridgingij = FFNN(gij ).                     uncased by using the YouCookII dataset (Zhou
+                                                      et al., 2018a) after removing our test recipes. Be-
+Then, we concatenate coreferenceij , n-identityij , cause of sub word embeddings, there are different
+                                                   370
+                                                    7
+                                             Candidate Spans                       Gold Spans
+                                      Precision Recall F1-score        Precision     Recall F1-score
+               w/o Temporal
+               Anaphora Resolution    48.1         34.1      39.9        48.9         46.7    47.8
+               Coreference            34.2         43.4      38.2        40.1         47.5    43.5
+               Near-identity          66.8         37.0      47.7        78.5         38.8    51.9
+               Bridging               12.0         37.5      18.2        16.7         45.0    24.3
+               Overall Relation       21.6         44.6      29.2        28.4         50.3    36.3
+               w Temporal
+               Anaphora Resolution    48.7         34.2      40.0        51.2         50.0    50.6
+               Coreference            29.1         45.8      35.6        46.1         50.6    48.3
+               Near-identity          57.0         33.8      42.4        90.1         44.7    59.7
+               Bridging               14.7         41.9      21.7        24.4         43.7    31.3
+               Overall Relation       22.6         46.2      30.4        32.6         54.3    40.8
+
+Table 2: Average evaluation results over 3 runs of the proposed anaphora resolution model on our annotated test data
+for 200 epochs. w Temporal and w/o Temporal refer to the results with or without temporal features, respectively.
+Candidate Spans refers to all the possible spans of continuous tokens extracted from the recipes whereas Gold Spans
+refers the mentions with nominal phrases, null anaphors, and instructions.
+
+
+choices of presenting words. We use the first sub-         gold mentions. The F1-score for anaphora resolu-
+token for representing the word as proposed by             tion is computed where precision is the result of
+Devlin et al. (2019). Additionally, due to the struc-      dividing the number of correctly predicted pairs
+ture of multiple successive layers, the last hidden        by the total number of predicted pairs and recall
+layer is used to represent the words in recipes.           is computed by dividing the number of correctly
+                                                           predicted pairs by the total number of gold pairs.
+Video Frames. To encode each video frame, ViT              To evaluate relation classification we compute the
+(Dosovitskiy et al., 2021) is pre-trained on Ima-          F1-score where precision is computed by divid-
+geNet (Russakovsky et al., 2015) and fine-tuned on         ing the number of correctly predicted relations by
+Food-101 (Bossard et al., 2014) images. In the end,        the total number of predicted relations and recall
+each instruction (i.e., segment) is represented by a       is computed by dividing the number of correctly
+3,840-dimensional vector vi .                              predicted relations by the total number of gold re-
+                                                           lations.
+6.2   Experiments
+Candidate Spans Without any pruning, we con-               6.4      Results and Discussion
+sider all continuous tokens (Clark and Manning,            6.4.1     Overview
+2016; Lee et al., 2017) as a potential spans for the     We investigate the anaphora resolution and rela-
+training and testing phases.                             tion classification results of gold and candidate
+                                                         spans comparing the F1-scores with the distance
+Gold Spans In order to investigate the perfor- and temporal features. Overall, our results in Ta-
+mance of anaphora resolution and relation classifi- ble 2 demonstrate that replacing token distance
+cation models without mention detection noise, we        with our temporal features improves anaphora reso-
+also consider gold spans for the training and testing    lution and relation classification for both candidate
+phases.                                                  and gold spans.
+                                                            The performance of each task is propagated to
+6.3 Evaluation
+                                                         subsequent tasks due to the sequential structure
+Following Hou et al. (2018) and Yu and Poesio            of the end-to-end system (see Section 5). The
+(2020), we analyze the performance of our end-to- difference between the results of candidate and
+end anaphora resolution model with its subtasks. gold spans demonstrates that the mention detec-
+For mention detection, anaphora resolution and           tion model propagates errors to anaphora resolution
+relation classification we report F1-scores.             and relation classification. For example, temporal
+To evaluate mention detection, precision is com- features are not predictive features for anaphoric
+puted as the fraction of correctly detected mentions     relations, but they are valuable for finding the an-
+among all detected mentions whereas recall is the        tecedent of an anaphor, i.e., anaphora resolution.
+fraction of correctly detected mentions among all        Our observations show that improvements in re-
+                                                      371
+                                                       8
+lation classification are propagated from the pre-        coreference classification for candidate spans.
+ceding anaphora resolution task in the end-to-end            Overall, the end-to-end model suffers from mis-
+system for gold spans.                                    takes in detecting and resolving null anaphors. Ex-
+   Additionally, binary mention detection results         pecting that all instructions contain a null anaphor
+show a precision of 0.92, a recall of 0.88, and an F1-    increases the input noise for candidate spans. Re-
+score of 0.90. However, the differences between           lation classification follows anaphora resolution
+the scores in anaphora resolution and relation clas-      and mention detection. Therefore, some problems
+sification results for the candidate and gold spans       in relation classification originate from mention
+(see Table 2) reveal issues in transferring the men-      detection and anaphora resolution errors.
+tion features. We observe the main problem of                False positive bridging relations are due to sin-
+mention detection in distinguishing the singletons.       gleton spans (non-referents) whereas false positive
+                                                          coreference and near-identical relations are due to
+6.4.2   Anaphora Resolution                               the preference for surface words with/without state
+We detect a significant improvement in anaphora           changes. For instance, in the example wash the egg
+resolution with temporal features, since temporal         coreference              near-identity
+                                                          −−−−−−→ boil the egg −−−−−−−→ crack the egg,
+features often conspire to reduce unwelcome lexi-         the use of the same words for changing entities
+cal similarity. For example, potato−  → it →− potato,     introduces an immense modelling challenge.
+the first potato is the antecedent of it, and it is the
+antecedent of the second potato. Temporal features        7   Conclusion and Future Work
+prevent predicting the first potato as an antecedent
+for the second potato and designate the anaphora          We introduce a novel anaphora annotation scheme
+link from the second potato to it, because it is in       including the state changes of entities and near-
+the instruction closer in the temporal line. The          identical relations. This fresh approach relies on
+improvements with temporal features reveal the            video inputs for visual observation for anaphora an-
+issues of contextualized embeddings. While we             notation. Likewise, we provide baseline anaphora
+use contextualized embeddings, the bias of lexical        resolution results with novel temporal features on
+similarity induces complexity to link the anaphor         the annotated data. In future work, the mention
+with a correct antecedent; as recurrent in the bacon      detection model will be designed to perform with
+→
+− bacon →  − fried bacon sample in Figure 2. The          null entities and singleton mentions to improve the
+sliced bacon is predicted as the antecedent of the        performance of the end-to-end model. Addition-
+bacon of instruction 3, and it is also the antecedent     ally, different visual feature extraction methods for
+of fried bacon of instruction 8. This issue occurs        single frames, e.g., CLIP (Radford et al., 2021)
+for rare entities and predicates. When we compare         or for videos, e.g., S3D (Xie et al., 2018) will be
+the false positives in accordance with temporality,       investigated to find the best way of learning from
+the improvement due to temporal features mainly           cooking videos for anaphora resolution.
+affects pronoun resolution. Hence, we observe that
+                                                          8   Acknowledgements
+the antecedents of pronouns are closer to the pro-
+nouns. Some anomalies can be observed in the              We would like to thank Iuliia Zaitova for help-
+results of anaphora resolution with candidate spans       ing with the annotation study. This research was
+due to the propagated error from mention detec-           funded by the joint IMPRESS (01|S20076) project
+tion. For example, we have the candidate spans            between the French National Institute for Research
+the pizza, pizza dough, and the pizza dough for the       in Digital Science and Technology (Inria) and the
+mention the pizza dough of instruction 4 with the         German Research Center for Artificial Intelligence
+same temporal features.                                   (DFKI).
+
+6.4.3   Relation Classification
+Table 2 shows that temporal features significantly      References
+improve anaphora resolution results for gold spans. Nicholas Asher and Alex Lascarides. 1998. Bridging.
+Especially for bridging pairs, a noteworthy benefit       Journal of Semantics, 15(1):83–113.
+of temporal features can also be observed in gold       Devansh Batra, Nirav Diwan, Utkarsh Upadhyay,
+and candidate spans. However, the mistakes can            Jushaan Singh Kalra, Tript Sharma, Aman Kumar
+also be observed in the results of near-identity and      Sharma, Dheeraj Khanna, Jaspreet Singh Marwah,
+                                                     372
+                                                      9
+  Srilakshmi Kalathil, Navjot Singh, Rudraksh Tuwani,       Yufang Hou, Katja Markert, and Michael Strube. 2018.
+  and Ganesh Bagler. 2020. Recipedb: a resource for           Unrestricted bridging resolution. Computational Lin-
+  exploring recipes. Database: The Journal of Biologi-        guistics, 44(2):237–284.
+  cal Databases and Curation, 2020.
+                                                            Eduard Hovy, Teruko Mitamura, Felisa Verdejo, Jun
+Stefan Baumann and Arndt Riester. 2012. Referen-              Araki, and Andrew Philpot. 2013. Events are not
+   tial and lexical givenness: Semantic, prosodic and         simple: Identity, non-identity, and quasi-identity. In
+   cognitive aspects. In Prosody and meaning, pages           Workshop on Events: Definition, Detection, Coref-
+  119–162. De Gruyter Mouton.                                 erence, and Representation, pages 21–28, Atlanta,
+                                                              Georgia. Association for Computational Linguistics.
+Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool.
+  2014. Food-101–mining discriminative components           De-An Huang, Shyamal Buch, Lucio Dery, Animesh
+  with random forests. In European conference on              Garg, Li Fei-Fei, and Juan Carlos Niebles. 2018.
+  computer vision, pages 446–461. Springer.                   Finding" it": Weakly-supervised reference-aware vi-
+                                                              sual grounding in instructional videos. In Proceed-
+Herbert H. Clark. 1975. Bridging. In Theoretical Issues       ings of the IEEE Conference on Computer Vision and
+  in Natural Language Processing.                             Pattern Recognition, pages 5948–5957.
+Kevin Clark and Christopher D. Manning. 2016. Im-           De-An Huang, Joseph J Lim, Li Fei-Fei, and Juan Car-
+  proving coreference resolution by learning entity-          los Niebles. 2017. Unsupervised visual-linguistic
+  level distributed representations. In Proceedings           reference resolution in instructional videos. In Pro-
+  of the 54th Annual Meeting of the Association for           ceedings of the IEEE Conference on Computer Vision
+  Computational Linguistics (Volume 1: Long Papers),          and Pattern Recognition, pages 2183–2192.
+  pages 643–653, Berlin, Germany. Association for
+  Computational Linguistics.                                Ting-Hao Huang, Francis Ferraro, Nasrin Mostafazadeh,
+                                                               Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and                  Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Ba-
+   Kristina Toutanova. 2019. BERT: Pre-training of             tra, et al. 2016. Visual storytelling. In Proceedings
+   deep bidirectional transformers for language under-         of the 2016 Conference of the North American Chap-
+   standing. In Proceedings of the 2019 Conference of          ter of the Association for Computational Linguistics:
+   the North American Chapter of the Association for          Human Language Technologies, pages 1233–1239.
+  Computational Linguistics: Human Language Tech-
+   nologies, Volume 1 (Long and Short Papers), pages        Jermsak Jermsurawong and Nizar Habash. 2015. Pre-
+  4171–4186, Minneapolis, Minnesota. Association for           dicting the structure of cooking recipes. In Proceed-
+   Computational Linguistics.                                  ings of the 2015 Conference on Empirical Methods
+                                                               in Natural Language Processing, pages 781–786,
+Alexey Dosovitskiy, Lucas Beyer, Alexander                     Lisbon, Portugal. Association for Computational Lin-
+  Kolesnikov, Dirk Weissenborn, Xiaohua Zhai,                  guistics.
+  Thomas Unterthiner, Mostafa Dehghani, Matthias
+  Minderer, Georg Heigold, Sylvain Gelly, Jakob             Chloé Kiddon, Ganesa Thandavam Ponnuraj, Luke
+  Uszkoreit, and Neil Houlsby. 2021. An image                 Zettlemoyer, and Yejin Choi. 2015. Mise en place:
+  is worth 16x16 words: Transformers for image                Unsupervised interpretation of instructional recipes.
+  recognition at scale. ArXiv, abs/2010.11929.                In Proceedings of the 2015 Conference on Empiri-
+                                                              cal Methods in Natural Language Processing, pages
+Biaoyan Fang, Timothy Baldwin, and Karin Verspoor.            982–992.
+  2022. What does it take to bake a cake? the
+  RecipeRef corpus and anaphora resolution in pro-          Nikhil Krishnaswamy and James Pustejovsky. 2019.
+  cedural text. In Findings of the Association for Com-       Generating a novel dataset of multimodal referring
+  putational Linguistics: ACL 2022, pages 3481–3495,          expressions. In Proceedings of the 13th International
+  Dublin, Ireland. Association for Computational Lin-         Conference on Computational Semantics - Short Pa-
+  guistics.                                                   pers, pages 44–51, Gothenburg, Sweden. Association
+                                                              for Computational Linguistics.
+Biaoyan Fang, Christian Druckenbrodt, Saber A
+  Akhondi, Jiayuan He, Timothy Baldwin, and Karin           Nikhil Krishnaswamy and James Pustejovsky. 2020.
+  Verspoor. 2021. ChEMU-ref: A corpus for model-              A formal analysis of multimodal referring strate-
+  ing anaphora resolution in the chemical domain. In          gies under common ground. In Proceedings of the
+  Proceedings of the 16th Conference of the European          Twelfth Language Resources and Evaluation Confer-
+  Chapter of the Association for Computational Lin-           ence, pages 5919–5927, Marseille, France. European
+  guistics: Main Volume, pages 1362–1375, Online.             Language Resources Association.
+  Association for Computational Linguistics.
+                                                            Kenton Lee, Luheng He, Mike Lewis, and Luke Zettle-
+Abbas Ghaddar and Philippe Langlais. 2016. Wiki-              moyer. 2017. End-to-end neural coreference reso-
+  coref: An english coreference-annotated corpus of           lution. In Proceedings of the 2017 Conference on
+  wikipedia articles. In Proceedings of the Tenth In-         Empirical Methods in Natural Language Processing,
+  ternational Conference on Language Resources and            pages 188–197, Copenhagen, Denmark. Association
+  Evaluation (LREC’16), pages 136–142.                        for Computational Linguistics.
+                                                          373
+                                                          10
+Katja Markert, Yufang Hou, and Michael Strube. 2012.            (LREC’16), pages 1743–1749, Portorož, Slovenia.
+  Collective classification for fine-grained information        European Language Resources Association (ELRA).
+  status. In Proceedings of the 50th Annual Meeting of
+  the Association for Computational Linguistics (Vol-       Ina Rösiger. 2018. BASHI: A corpus of Wall Street
+  ume 1: Long Papers), pages 795–804.                         Journal articles annotated with bridging links. In Pro-
+                                                               ceedings of the Eleventh International Conference on
+Massimo Poesio and Ron Artstein. 2008. Anaphoric              Language Resources and Evaluation (LREC 2018),
+ annotation in the ARRAU corpus. In Proceedings                Miyazaki, Japan. European Language Resources As-
+ of the Sixth International Conference on Language             sociation (ELRA).
+ Resources and Evaluation (LREC’08), Marrakech,
+ Morocco. European Language Resources Associa-              Ina Rösiger, Arndt Riester, and Jonas Kuhn. 2018.
+ tion (ELRA).                                                  Bridging resolution: Task definition, corpus re-
+                                                               sources and rule-based experiments. In Proceedings
+Massimo Poesio, Yulia Grishina, Varada Kolhatkar,              of the 27th International Conference on Computa-
+ Nafise Moosavi, Ina Roesiger, Adam Roussel, Fabian            tional Linguistics, pages 3516–3528.
+ Simonjetz, Alexandra Uma, Olga Uryupina, Juntao
+ Yu, and Heike Zinsmeister. 2018. Anaphora resolu-          Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause,
+ tion with the ARRAU corpus. In Proceedings of the            Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej
+ First Workshop on Computational Models of Refer-             Karpathy, Aditya Khosla, Michael Bernstein, Alexan-
+ ence, Anaphora and Coreference, pages 11–22, New             der C. Berg, and Li Fei-Fei. 2015. ImageNet Large
+ Orleans, Louisiana. Association for Computational            Scale Visual Recognition Challenge. International
+ Linguistics.                                                 Journal of Computer Vision (IJCV), 115(3):211–252.
+
+Massimo Poesio and Renata Vieira. 1998. A corpus-           Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
+ based investigation of definite description use. Com-        Uszkoreit, Llion Jones, Aidan N Gomez, Ł ukasz
+ putational Linguistics, 24(2):183–216.                       Kaiser, and Illia Polosukhin. 2017. Attention is all
+                                                              you need. In Advances in Neural Information Pro-
+Sameer Pradhan, Alessandro Moschitti, Nianwen Xue,            cessing Systems, volume 30. Curran Associates, Inc.
+  Olga Uryupina, and Yuchen Zhang. 2012. Conll-
+  2012 shared task: Modeling multilingual unrestricted      R Weischedel, S Pradhan, L Ramshaw, J Kaufman,
+  coreference in ontonotes. In Joint Conference on            M Franchini, M El-Bachouti, N Xue, M Palmer,
+  EMNLP and CoNLL-Shared Task, pages 1–40.                    JD Hwang, C Bonial, et al. 2012. Ontonotes release
+                                                              5.0. linguistic data consortium. Technical report,
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya            Philadelphia, Technical Report.
+  Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sas-
+                                                            Saining Xie, Chen Sun, Jonathan Huang, Zhuowen Tu,
+  try, Amanda Askell, Pamela Mishkin, Jack Clark,
+                                                              and Kevin Murphy. 2018. Rethinking spatiotemporal
+  et al. 2021. Learning transferable visual models
+                                                              feature learning: Speed-accuracy trade-offs in video
+  from natural language supervision. In International
+                                                              classification. In Proceedings of the European con-
+  Conference on Machine Learning, pages 8748–8763.
+                                                              ference on computer vision (ECCV), pages 305–321.
+  PMLR.
+                                                            Juntao Yu and Massimo Poesio. 2020. Multitask
+Marta Recasens, Eduard Hovy, and M. Antònia Martí.
+                                                              learning-based neural bridging reference resolution.
+ 2010. A typology of near-identity relations for coref-
+                                                              In Proceedings of the 28th International Conference
+ erence (NIDENT). In Proceedings of the Seventh
+                                                              on Computational Linguistics, pages 3534–3546,
+ International Conference on Language Resources
+                                                              Barcelona, Spain (Online). International Committee
+ and Evaluation (LREC’10), Valletta, Malta. Euro-
+                                                              on Computational Linguistics.
+ pean Language Resources Association (ELRA).
+                                                            Luowei Zhou, Nathan Louis, and Jason J. Corso. 2018a.
+Marta Recasens, Eduard Hovy, and M Antònia Martí.             Weakly-supervised video object grounding from text
+ 2011. Identity, non-identity, and near-identity: Ad-         by loss weighting and object interaction. In BMVC.
+ dressing the complexity of coreference. Lingua,
+ 121(6):1138–1152.                                          Luowei Zhou, Chenliang Xu, and Jason J. Corso. 2018b.
+                                                              Towards automatic learning of procedures from web
+Marta Recasens, M. Antònia Martí, and Constantin              instructional videos. In AAAI.
+ Orasan. 2012. Annotating near-identity from coref-
+ erence disagreements. In Proceedings of the Eighth
+ International Conference on Language Resources
+ and Evaluation (LREC’12), pages 165–172, Istanbul,
+ Turkey. European Language Resources Association
+ (ELRA).
+
+Ina Roesiger. 2016. SciCorp: A corpus of English
+   scientific articles annotated for information status
+   analysis. In Proceedings of the Tenth International
+  Conference on Language Resources and Evaluation
+                                                          374
+                                                          11
+

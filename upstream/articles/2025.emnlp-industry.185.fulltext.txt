@@ -1,0 +1,1037 @@
+From Long Videos to Engaging Clips: A Human-Inspired Video Editing Framework with Multimodal Narrative Understanding
+Authors: Xiangfeng Wang; Xiao Li; Yadong Wei; Songxueyu; Yang Song; Xiaxiaoqiang; Fangrui Zeng; Zaiyi Chen; Liuliu; Gu Xu; Tong Xu
+Source: https://aclanthology.org/2025.emnlp-industry.185/
+PDF: https://aclanthology.org/2025.emnlp-industry.185.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+    From Long Videos to Engaging Clips: A Human-Inspired Video Editing
+           Framework with Multimodal Narrative Understanding
+               Xiangfeng Wang* 1 , Xiao Li* 2 , Yadong Wei2 , Xueyu Song2 , Yang Song2 ,
+             Xiaoqiang Xia2 , Fangrui Zeng2 , Zaiyi Chen2 , Liu Liu2 , Gu Xu2 , Tong Xu†1
+                          1
+                            University of Science and Technology of China
+                                          2
+                                            ByteDance China
+                        xf9462@mail.ustc.edu.cn, tongxu@ustc.edu.cn
+                                   lixiao.dlut@bytedance.com
+                  https://huggingface.co/datasets/wonderful9462/DramaAD
+
+                            Abstract                           clips—offers a potential solution. Such edited clips
+                                                               not only alleviate users’ browsing pressure but also
+        The rapid growth of online video content, es-          facilitate easier content sharing. With the rise of
+        pecially on short video platforms, has created         short video platforms, the demand for efficient
+        a growing demand for efficient video editing
+                                                               video editing has grown substantially. Currently,
+        techniques that can condense long-form videos
+        into concise and engaging clips. Existing auto-        video editing is largely performed manually by con-
+        matic editing methods predominantly rely on            tent creators, who must watch the entire video and
+        textual cues from ASR transcripts and end-to-          identify highlights for re-creation. Although man-
+        end segment selection, often neglecting the rich       ually edited clips tend to be of higher quality, this
+        visual context and leading to incoherent outputs.      process is labor-intensive and inefficient, making it
+        In this paper, we propose a Human-Inspired au-         unsuitable for large-scale applications. As a result,
+        tomatic Video Editing framework (HIVE) that
+                                                               automatic video editing has emerged as a promis-
+        leverages multimodal narrative understanding
+        to address these limitations. Our approach in-         ing solution to address these challenges.
+        corporates character extraction, dialogue analy-          Early approaches to automatic video editing typ-
+        sis, and narrative summarization through multi-        ically adopt end-to-end frameworks for training
+        modal large language models, enabling a holis-         editing models. Some studies (Chen et al., 2016;
+        tic understanding of the video content. To fur-        Podlesnyy, 2020; Argaw et al., 2022) formulate the
+        ther enhance coherence, we apply scene-level           task as a sequence selection problem, effectively
+        segmentation and decompose the editing pro-
+                                                               performing subtraction on the original video by re-
+        cess into three subtasks: highlight detection,
+        opening/ending selection, and pruning of ir-
+                                                               moving less informative segments. Other works
+        relevant content. To facilitate research in this       (Hu et al., 2023) treat it as a next-shot retrieval prob-
+        area, we introduce DramaAD, a novel bench-             lem, performing addition by selecting and assem-
+        mark dataset comprising over 2500 short drama          bling shots to construct the edited video. However,
+        episodes and 500 professionally edited adver-          these early methods were limited by the capacity
+        tisement clips. Experimental results demon-            of the models and lacked explicit understanding of
+        strate that our framework consistently outper-         narrative structures within videos. Consequently,
+        forms existing baselines across both general
+                                                               the generated clips often failed to exhibit coherent
+        and advertisement-oriented editing tasks, sig-
+        nificantly narrowing the quality gap between           storylines or logical progression.
+        automatic and human-edited videos.                        In recent years, the emergence of large language
+                                                               models (LLMs) and multimodal large language
+1       Introduction                                           models (MLLMs) has significantly advanced the ca-
+                                                               pability for video narrative understanding, making
+In recent years, the rapid increase of online video            content-aware automatic video editing increasingly
+content has significantly enriched users’ viewing              feasible. Existing LLM-based editing approaches,
+experiences. However, it has also increased the cog-           such as FunClip 1 and AI YouTube Shorts Gener-
+nitive burden of content consumption, particularly             ator 2 , typically employ automatic speech recog-
+for long-form videos. Video editing—specifically,              nition (ASR) to transcribe spoken dialogue into
+condensing lengthy videos with low information                 text, which is then processed by LLMs to infer the
+density into short, engaging, and information-rich
+                                                                   1
+                                                                   https://github.com/modelscope/FunClip
+    * Equal contribution.                                          2
+                                                                   https://github.com/SamurAIGPT/
+    †
+        Corresponding author.                                  AI-Youtube-Shorts-Generator
+
+                                                            2764
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track, pages 2764–2781
+                          November 4-9, 2025 ©2025 Association for Computational Linguistics
+narrative and select segments for editing.                ing, we present DramaAD, a novel benchmark
+   However, these ASR-based methods primarily             dataset constructed from real-world short drama
+rely on dialogue and thus lack access to the rich vi-     videos. These short dramas, fast-paced serialized
+sual information present in videos. Thus, they often      episodes typically lasting 1 to 3 minutes, have re-
+fail to capture non-verbal cues such as facial expres-    cently surged in popularity on short video plat-
+sions, gestures, and other visual context, leading        forms. In practical applications, companies are
+to an incomplete understanding of the video con-          increasingly interested in repurposing such content
+tent. In addition, we observe that existing methods       into advertisement-style clips through automatic
+tend to adopt relatively simplistic editing strategies.   editing, aiming to reduce manual effort and produc-
+They often rely on prompt engineering to elicit           tion costs. DramaAD addresses this emerging need
+end-to-end predictions from the model regarding           by offering both academic and industrial value: it
+which segments should be included in the final clip.      comprises over 2500 raw drama videos and more
+However, this approach frequently results in abrupt       than 500 professionally edited advertisement clips
+transitions between shots, which can negatively af-       as references. To facilitate objective evaluation, we
+fect the overall viewing experience. In summary,          also propose a suite of quantitative metrics covering
+automatic video editing faces two major challenges:       multiple aspects of editing quality. Experimental
+(1) an incomplete understanding of video narratives       results demonstrate that our proposed framework
+caused by insufficient fusion of visual and textual       significantly outperforms existing baselines in both
+modalities, and (2) the absence of systematic edit-       ad-specific and general video editing tasks, while
+ing strategies, often leading to abrupt transitions       closing the performance gap with human editors.
+and incoherent storytelling.                                 Our main contributions are as follows:
+   To address these challenges, we propose HIVE,
+an automatic video editing framework based on                 • We introduce a multimodal narrative under-
+multimodal narrative understanding. The HIVE                    standing approach that comprehensively in-
+considers both the visual content and the under-                terprets video content, ensuring smooth and
+lying storyline, enabling the generation of diverse             engaging edited videos.
+and engaging edited videos. Specifically, to achieve
+                                                              • We propose an innovative human-inspired au-
+accurate video comprehension, we incorporate not
+                                                                tomatic video editing framework that decom-
+only character extraction and dialogue analysis but
+                                                                poses the editing task into three LLM-friendly
+also leverage MLLMs to generate narrative sum-
+                                                                sub-tasks, enabling superior editing perfor-
+maries of video content, thereby compensating for
+                                                                mance.
+missing visual information. To enhance the coher-
+ence and viewing experience of the edited clips, we           • To support research in automatic video editing,
+adopt an improved video scene segmentation (Rao                 we have created a dataset of short dramas in
+et al., 2020), instead of conventional shot detection           the advertising domain, which includes manu-
+(Fu et al., 2017; Soucek and Lokoc, 2024), to di-               ally edited videos for reference.
+vide the video into semantically complete scenes.
+This ensures that clip boundaries do not interrupt        2     Related Work
+ongoing dialogue or character actions.
+   Furthermore, to achieve human-level editing            2.1    Automatic Video Editing
+quality, we conducted a detailed study of the editing     In recent years, automatic video editing has gained
+techniques commonly employed by professional              increasing attention (Soe, 2021; Ronfard, 2021;
+editors. Inspired by their strategies, we decom-          Koorathota et al., 2021; Wang et al., 2019). Early
+pose the editing task into three relatively simple        methods primarily relied on feature extraction for
+sub-tasks: highlight detection, opening/ending se-        video editing. Pardo et al. (2021) trained a ranking
+lection, and irrelevant content pruning. This decom-      model using contrastive learning techniques, which
+position allows the LLM to progressively refine the       can rank and identify plausible cuts among all
+video in a manner analogous to human editors. Our         possible transitions between a given pair of shots.
+experimental results show that this step-by-step ap-      Podlesnyy (2020) designed a data-driven editing
+proach leads to more coherent and polished results        model that treats the video editing task as a se-
+compared to end-to-end editing methods.                   quence decision problem, allowing the model to de-
+   To support research in automatic video edit-           termine whether each shot should be retained. Hu
+                                                      2765
+et al. (2023) utilized a pretrained Vision-Language      3       Method
+Model to extract editing-related representations
+and train an editor model by reinforcement learn-        To tackle automatic video editing, we propose a
+ing. These methods lack an explicit understand-          two-stage framework: (1) Comprehensive content
+ing of the video content and suffer from a lack          analysis, including characters, dialogues, character-
+of interpretability. Recently LLM-based editing          dialogue matching and video scene segmentation,
+methods have made progress. Some works (Barua            to obtain accurate narratives for each scene. (2) An
+et al., 2025; Wang et al., 2024a) utilize LLMs           editing strategy inspired by human editors, which
+to assist human editors, while other fully auto-         detects highlight clips, selects attention-grabbing
+mated approaches, such as FunClip, leverage ASR-         openings & suspenseful endings and prunes redun-
+transcribed speech to achieve video editing.             dant content to produce the final edited video.
+
+  Compared to these methods, our approach pro-           3.1     Multimodal Narrative Understanding
+vides a more comprehensive handling of videos
+and superior editing strategies.                         Our framework combines audiovisual models with
+                                                         MLLMs to convert video content into detailed tex-
+                                                         tual representations, simulating human cognition.
+2.2 Video Understanding                                  It features dialogue analysis, character extraction,
+                                                         character-dialogue matching, video scene segmen-
+Recently, significant progress has been made in          tation and memory module.
+LLM-based video understanding. Methods such              Dialogue Analysis. Films and short dramas of-
+as VideoChat2 (Li et al., 2024) and LLaVA-Video          ten feature dense dialogues, with key plot develop-
+(Lin et al., 2023) integrate video foundation mod-       ments driven by character conversations. To cap-
+els with LLMs. VideoChat2 uses a learnable Q-            ture this, we first apply ASR technology (Radford
+former inspired by BLIP2 (Li et al., 2023) for           et al., 2023), though its transcripts are prone to er-
+aligning visual and textual features, while LLaVA-       rors from acoustic interference, background music,
+Video employs a simple linear projection trained         and character name ambiguities. To address these
+jointly on image-video data. Other methods, such         issues, we use optical character recognition (OCR)
+as ChatVideo (Wang et al., 2023a) and VideoA-            (Bautista and Atienza, 2022) to extract subtitles
+gent (Wang et al., 2024c), incorporate LLMs within       directly from video frames, providing a reliable ref-
+agent frameworks. Furthermore, general-purpose           erence. Leveraging Doubao 1.5 pro 3 , we align and
+multimodal models, such as GPT-4o (Hurst et al.,         correct ASR outputs based on OCR subtitles, sig-
+2024) and Gemini (Team et al., 2023), also demon-        nificantly improving transcription accuracy. Addi-
+strate powerful visual understanding abilities ap-       tionally, we perform speaker diarization (Horiguchi
+plicable to video tasks. In addition, Some studies       et al., 2020) to distinguish audio by speaker, en-
+focus on understanding films through audio de-           abling fine-grained narrative analysis.
+scription (Han et al., 2023), narration (Zhang et al.,   Character Extraction. The goal of character ex-
+2024), and storytelling (He et al., 2024), requiring     traction is to identify individuals in videos and
+finer video understanding and stronger narrative         build a database of their key information. While an-
+flow. In the short-video domain, datasets such as        notated data or metadata may sometimes be avail-
+SkyScript-100M (Tang et al., 2024) provide struc-        able, it is often missing and must be generated
+tured textual formats capturing scenes, emotions,        automatically. To address this, we employ face
+and cinematography instructions, thus supporting         detection (Deng et al., 2019) and clustering: detect-
+AI-based video generation tasks. Similarly, Vript        ing faces in video frames, extracting facial embed-
+(Yang et al., 2025) creates detailed mappings be-        dings, and clustering them into distinct identities.
+tween general videos and fine-grained screenplay         Additionally, we enrich character profiles by ex-
+text, enabling more precise video description and        tracting character’s name or identity from drama
+understanding.                                           dialogues. Integrating these information into the
+                                                         character database can facilitate deeper narrative
+   In contrast to these works, our research fo-
+                                                         comprehension.
+cuses specifically on video semantic analysis and
+leverages multi-dimensional information to achieve           3
+                                                             https://seed.bytedance.com/en/special/doubao_
+deeper video understanding.                              1_5_pro
+
+                                                     2766
+Figure 1: An overview of the proposed framework. The video understanding module (a) extracts video information
+across multiple dimensions, such as dialogues and characters, etc., and segments the video into semantically complete
+scenes. Consequently, we obtain a sequence of scenes along with their corresponding narrative descriptions (b). This
+content is then fed into the editing module (c), which identifies highlights, selects appropriate editing boundaries,
+and removes unnecessary scenes as human editors do (take highlight clip 1 for example).
+
+Character-Dialogue Matching. To enable human-               Meanwhile, a description of the current event is
+like video understanding, we introduce a special-           generated. This approach balances segmentation
+ized module that links identified characters to their       granularity and semantic completeness, ensuring
+dialogues and infers their relationships. After ap-         transition fluency.
+plying speaker diarization, dialogue segments are           Memory. The memory module supports process-
+initially unlabeled. To align the speaker with the          ing requirements for long-form videos and multi-
+spoken content, we input the character’s facial im-         episode short dramas by organizing and manag-
+age and dialogue information into Doubao 1.5 pro            ing data around two core dimensions: characters
+to reason and infer the speaker’s identity. To ensure       and narrative. For characters, it maintains key
+accuracy, we employ multiple inference iterations           information, including visual features, interper-
+followed by a voting mechanism.                             sonal relations, dialogues, and narrative trajectories
+                                                            across episodes or video segments. For the nar-
+Video Scene Segmentation. Video scene segmen-               rative dimension, it systematically records scene
+tation is crucial for dividing video content into co-       segmentation results and overall storyline progres-
+herent semantic units. Traditional methods often            sion. Additionally, this module interacts dynami-
+rely on low-level visual features, leading to frag-         cally with other components, supports real-time up-
+mented outputs, especially in dramas with frequent          dates, and enables multi-dimensional data retrieval,
+shot transitions. To achieve this, we first apply Au-       effectively accommodating storyline evolution and
+toShot (Zhu et al., 2023) to obtain shot-level bound-       facilitating downstream analysis.
+aries and use Qwen2-VL (Wang et al., 2024b) to
+merge shots with the same site (e.g. restaurant             3.2   Human-Inspired Editing Framework
+or office). Subsequently, we further utilize Gem-           To explore better editing methods, we consult sev-
+ini 2.0 flash to merge them belonging to the same           eral professional advertisement editors and distill
+event based on contextual information and offer.            their strategies into our editing framework, which
+                                                       2767
+Algorithm 1 Highlight-based Automatic Video Editing Algorithm
+ 1: Initialization: Highlight rule Rh , Opening rule Ro , Ending rule Re , Pruning rule Rp
+ 2: Input: Video composed of n scenes V = (S1 , S2 , ..., Sn ), LLM L, Top highlights number k
+ 3: Output: Edited videos V ′
+ 4: H = (h1 , h2 , ..., hk ) ← L(Rh , V )                             ▷ Extract highlight clips H using LLM
+ 5: H ′ ← sort(H)                               ▷ Sort highlight clips H by scene score in descending order
+ 6: Initialize candidate editing boundary set B ← {}
+ 7: for each h′ ∈ H ′ [1 : k] do
+ 8:     O = {o1 , ..., om } ← L(Ro , h′ , V )             ▷ Select all suitable opening scenes for h′ , O ⊆ V
+ 9:                                    ′
+        E = {e1 , ..., en } ← L(Re , h , V )               ▷ Select all suitable ending scenes for h′ , E ⊆ V
+10:     B ← B ∪ (O × E)                        ▷ Enumerate all openings-endings pairs by cartesian product
+11: end for
+12: Initialize edited video set V ′ ← {}
+13: for each (o, e) ∈ B do
+14:     P = {p1 , ..., pl } ← L(Rp , V [o : e])            ▷ Get scenes to be pruned within V [o, e], P ⊆ V
+15:     V ′ ← V ′ ∪ Cut & Splice(V [o : e] \ P )                            ▷ Cut and splice remaining scenes
+16: end for
+17: return V ′
+
+
+consists of three components: Highlight Detection,      some redundant scenes may remain. To stream-
+Opening & Ending Selection, and Content Pruning.        line the final video, the GPT-4o analyzes each gen-
+Algorithm 1 provides a detailed illustration of the     eral scene’s relevance to the storyline. Less engag-
+workflow of the editing algorithm.                      ing scenes are pruned, ensuring a smooth narrative
+Highlight Detection. Highlight clips are crucial        flow without unnecessary content. The result is an
+for producing engaging videos (Yao et al., 2016;        edited video with a captivating introduction, tightly
+Xiong et al., 2019; Badamdorj et al., 2022). In         packed highlights, and a suspenseful conclusion.
+our framework, DeepSeek-R1 (Guo et al., 2025) is           It is important to emphasize that we only present
+introduced to identify highlights. Specifically, we     an editing framework. The framework itself is
+abstract common highlight clips in short dramas         model-agnostic, allowing any required models to
+and films into a set of rules and use R1 to evaluate    be replaced with more suitable alternatives depend-
+whether each scene matches these rules (See Ap-         ing on the practical context. Thus, our framework
+pendix A.3 for more details). Each scene is scored      ensures both flexibility and adaptability across dif-
+based on the number of matched patterns, while          ferent applications. All prompts used in our frame-
+unmatched scenes are labeled as "general scenes"        work are listed in Appendix A.
+with zero scores. After scoring, adjacent non-zero-
+scored scenes are merged into "highlight clips",        4     DramaAD Dataset
+with the total score reflecting their importance.
+                                                        4.1    Data Collection
+Opening & Ending Selection. After highlight
+clips are detected, we select appropriate starting      Firstly, we collect 30 popular Chinese short dramas
+and ending scenes to form the video boundaries.         from the internet. Subsequently, we hire some ad-
+For short drama advertisements, the opening aims        vertisement editing experts to create advertisement
+to attract viewers’ attention, while the ending         videos for these short dramas as references. Ad-
+leaves suspense or concludes climax to encourage        ditionally, we annotate the reference videos with
+clicks. Candidate starting scenes include preceding     the corresponding multimodal narration and edit-
+general scenes and the first scene of each highlight    ing timestamps to facilitate future research. In this
+clip; ending candidates include following general       manner, we construct the proposed dataset, named
+scenes and the last scene of highlight clips. The       DramaAD.
+GPT-4o evaluates these candidates (details in Ap-
+pendix A.4), and several opening-ending pairs are       4.2    Statistics and Comparison
+sampled to ensure variety.                              DramaAD contains 3104 videos, of which 2582
+Content Pruning. Even after boundary selection,         are short drama videos and 522 are edited adver-
+                                                   2768
+                 Dataset                    Domain       Videos      Duration    Resolution    Reference Videos
+    YouCook2 (Zhou et al., 2018)            Cooking          2K       176h           -                  -
+    InternVid (Wang et al., 2023b)           Open           7.1M     760.3Kh       720P                 -
+       Vript (Yang et al., 2025)             Open             -       1.3Kh        720P                 -
+       AVE (Argaw et al., 2022)              Movie          5.5K      207h      720P-1080P              -
+  SkyScript-100M (Tang et al., 2024)         Drama          6.6K       2Kh         720P                 -
+          DramaAD (Ours)                    Drama           2.6K       68h      720P-1080P             522
+
+                       Table 1: Comparison between DramaAD and other related datasets.
+
+
+                                                              ence of the edited video. Smoothness is defined
+                                                              as the average uninterrupted duration, meaning the
+                                                              average number of minutes before an unnatural or
+                                                              jarring transition occurs.
+                                                                                        Duration(V )
+                                                                     Smoothness =                               (2)
+                                                                                     1 + Interruption(V )
+                                                              Engagement. Engagement captures the extent to
+                                                              which the edited video maintains viewers’ atten-
+                                                              tion. Participants are instructed that they may either
+                                                              switch to 2× playback speed or skip forward using
+                                                              the progress bar if they find any part of the video
+Figure 2: The distribution of the total video duration
+                                                              uninteresting. We define Engagement as the pro-
+for each short drama. The average duration is about 40        portion of the video watched at normal speed:
+minutes.                                                                          NormalPlayDuration(V )
+                                                                  Engagement =                           (3)
+                                                                                      Duration(V )
+tisement videos. Compared to other datasets, our              Viewing Experience Index. To provide a holistic
+drama videos have 1080P resolution (the resolution            view of video quality, we define the Viewing Ex-
+of reference videos ranges from 720P to 1080P)                perience Index (VEI) as the product of fluency and
+and are in a 9:16 aspect ratio, which aligns better           engagement:
+with the trend of increasing popularity of mobile
+short-form videos. The statistical information of                    VEI = Engagement × Smoothness              (4)
+the dataset and comparison with other datasets are               Besides general metrics, we propose two addi-
+presented in Figure 2 and Table 1 seperately.                 tional metrics specifically for advertising scenarios.
+                                                              Hook Rate. It indicates whether viewers will pause
+4.3 Evaluation Metrics
+                                                              to watch the video upon encountering it, reflecting
+To conduct a comprehensive evaluation, we pro-                the attractiveness of the video’s opening.
+pose multiple quantitative metrics for assessing              Suspense Rate. It measures whether viewers are
+both the edited videos and the editing methods.               motivated to continue watching due to the suspense
+Diversity. Diversity is utilized to measure the cre-          created at the end of the video.
+ativity of the editing methods. Give raw footage,
+assuming the editing method generates n edited                5     Experiments
+videos (V1 , V2 , ...Vn ), the diversity is calculated as
+                                                              5.1    Experiment Settings
+follows:
+                                                              Data. We sample 220 episodes from DramaAD
+                                 n
+                       1 X                                    dataset and select several complete storylines from
+       Diversity = 1 − n  IoU(Vi , Vj )             (1)
+                            2   i<j
+                                                              these videos, which typically span approximately
+                                                              10 episodes and last 20 to 30 minutes. These videos
+Smoothness. Abrupt transitions are a common is-               will serve as the raw footage for the editing process.
+sue in automated video editing. We use a metric               Baselines and Reference. We compare our frame-
+called smoothness to evaluate the overall coher-              work with the following baselines.
+                                                        2769
+                            Strategy           General Scenarios                    Advertising Scenarios
+         Method
+                            Diversity    Smoothness Engagement             VEI     Hook Rate Suspense Rate
+    Human (Golden)             0.74           6.84             0.93        6.35        0.87              0.91
+    End2End (ASR)              0.75           0.65             0.82        0.54        0.64              0.47
+  End2End (Narration)          0.48           1.28             0.88        1.14        0.62              0.52
+      HIVE (ours)              0.66           4.48             0.89        4.01        0.71              0.73
+    a. w/o highlight           0.78           4.42             0.62        2.74        0.65              0.69
+    b. w/o boundary            0.54           4.17             0.81        3.38        0.28              0.30
+     c. w/o pruning            0.66           5.10             0.69        3.51        0.69              0.68
+
+Table 2: Evaluation results on DramaAD dataset. The best result among the automatic editing methods is in bold,
+while the second best is underlined.
+
+ (1) End2end editing method based on ASR-                  diversity stems from the model’s ability to freely
+     transcribed dialogue, which is a commonly             select editing ranges across all scenes. Randomly
+     used editing method. For fairness, we replace         selecting opening and ending scenes significantly
+     the prompts with the same requirements.               weakens advertisement effectiveness and slightly
+                                                           decreases engagement. Omitting scene pruning
+ (2) End2end editing method based on our video             leads to a lower proportion of engaging content in
+     scene segmentation and narratives. Compared           the final video, but it reduces abrupt visual transi-
+     to methods in (1), we replace dialogues with          tions, thereby improving smoothness. 4
+     scene narratives. For fairness, both methods
+     are provided with the same editing expertise          6     Conclusion
+     (See Appendix A.6 for more details).
+                                                           In this work, we present a novel human-inspired
+ (3) Additionally, human-edited videos in the              framework for automatic video editing, addressing
+     dataset will serve as the golden editing ref-         key limitations of existing ASR-based approaches.
+     erence.                                               By integrating multimodal narrative understanding
+                                                           and decomposing the editing process into intuitive
+Ablation Study Settings. We conduct ablation
+                                                           sub-tasks, our method achieves superior editing
+studies to analyze the contribution of the compo-
+                                                           quality with improved interpretability. To further
+nents in our framework.
+                                                           advance research in this area, we introduce Dra-
+a. w/o highlight localization We directly view all
+                                                           maAD, the first large-scale short drama dataset
+scenes as starting and ending candidates.
+                                                           with reference advertisement edits, providing valu-
+b. w/o boundary selection We randomly select
+                                                           able resources for both academia and industry. Ex-
+starting and ending scenes from candidates.
+                                                           perimental results demonstrate that our approach
+c. w/o pruning All clips from the opening to end-
+                                                           significantly narrows the gap between automated
+ing scenes are kept without filtering.
+                                                           and human editing. We hope our work will advance
+5.2 Experimental Results                                   research in the field of automatic video editing.
+Main Results. As shown in Table 2, our proposed
+                                                           Limitations
+method outperforms end-to-end editing approaches
+in both general and advertisement scenarios.                   1. The proposed method is currently not compati-
+   ASR-based methods yield higher diversity, likely               ble with editing techniques such as flashbacks
+due to richer timestamp information in conversa-                  or non-linear storytelling.
+tional data, but result in lower fluency, limiting their
+industrial applicability. Comparing the two end-to-            2. Since video scene segmentation divides the
+end methods, our video understanding framework                    original video into coarser units compared to
+improves fluency through semantic-based shot ag-                  shot segmentation, it may reduce the flexibil-
+gregation, albeit at the expense of some diversity.               ity of editing.
+Ablation Analysis. Ablation studies reveal that                4
+                                                                 However, since no additional processing is applied to
+removing highlight detection increases diversity           the ending effects when stitching multiple episodes, abrupt
+but lowers the engagement ratio. The increase in           transitions may still occur occasionally.
+
+                                                       2770
+  3. Compared to human editing, the proposed              Jiankang Deng, Jia Guo, Niannan Xue, and Stefanos
+     method still falls short in terms of metrics            Zafeiriou. 2019. Arcface: Additive angular margin
+                                                             loss for deep face recognition. In Proceedings of
+     such as diversity and smoothness. We hope
+                                                             the IEEE/CVF conference on computer vision and
+     this work can contribute to advancing research          pattern recognition, pages 4690–4699.
+     in this area.
+                                                          Cheng-Yang Fu, Wei Liu, Ananth Ranga, Ambrish
+Ethics Statement                                            Tyagi, and Alexander C Berg. 2017. Dssd: De-
+                                                            convolutional single shot detector. arXiv preprint
+We strictly follow the ACL Code of Ethics and               arXiv:1701.06659.
+comply with all guidelines during the research. Our       Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song,
+work presents two potential ethical concerns: data          Ruoyu Zhang, Runxin Xu, Qihao Zhu, Shirong Ma,
+source and human editing services.                          Peiyi Wang, Xiao Bi, et al. 2025. Deepseek-r1: In-
+Data Source. All short drama data in our dataset            centivizing reasoning capability in llms via reinforce-
+                                                            ment learning. arXiv preprint arXiv:2501.12948.
+are authorized by the copyright holders, allowing
+us to conduct academic research based on these            Tengda Han, Max Bain, Arsha Nagrani, Gül Varol,
+videos.                                                     Weidi Xie, and Andrew Zisserman. 2023. Autoad:
+                                                            Movie description in context. In Proceedings of the
+Human Editing Services. In constructing the                 IEEE/CVF Conference on Computer Vision and Pat-
+dataset, we enlisted experienced editing profession-        tern Recognition, pages 18930–18940.
+als to generate the reference edited videos. Each
+                                                          Yichen He, Yuan Lin, Jianchao Wu, Hanchong Zhang,
+video took around 30 minutes to complete, and               Yuchen Zhang, and Ruicheng Le. 2024. Storyteller:
+the experts were compensated fairly based on local          Improving long video description through global
+rates.                                                      audio-visual character identification. arXiv preprint
+                                                            arXiv:2411.07076.
+Acknowledgments
+                                                          Shota Horiguchi, Yusuke Fujita, Shinji Watanabe,
+This work was supported in part by the grants from          Yawen Xue, and Kenji Nagamatsu. 2020. End-to-end
+                                                            speaker diarization for an unknown number of speak-
+National Natural Science Foundation of China                ers with encoder-decoder based attractors. arXiv
+(No.62222213, U22B2059).                                    preprint arXiv:2005.09921.
+                                                          Panwen Hu, Nan Xiao, Feifei Li, Yongquan Chen, and
+References                                                  Rui Huang. 2023. A reinforcement learning-based
+                                                            automatic video editing method using pre-trained
+Dawit Mureja Argaw, Fabian Caba Heilbron, Joon-             vision-language model. In Proceedings of the 31st
+  Young Lee, Markus Woodson, and In So Kweon.               ACM International Conference on Multimedia, pages
+  2022. The anatomy of video editing: A dataset and         6441–6450.
+  benchmark suite for ai-assisted video editing. In
+  ECCV.                                                   Aaron Hurst, Adam Lerer, Adam P Goucher, Adam
+                                                            Perelman, Aditya Ramesh, Aidan Clark, AJ Os-
+Taivanbat Badamdorj, Mrigank Rochan, Yang Wang,             trow, Akila Welihinda, Alan Hayes, Alec Radford,
+  and Li Cheng. 2022. Contrastive learning for unsu-        et al. 2024. Gpt-4o system card. arXiv preprint
+  pervised video highlight detection. In Proceedings of     arXiv:2410.21276.
+  the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition, pages 14042–14052.                 Sharath Koorathota, Patrick Adelman, Kelly Cotton,
+                                                            and Paul Sajda. 2021. Editing like humans: a con-
+Aadit Barua, Karim Benharrak, Meng Chen, Mina Huh,          textual, multimodal framework for automated video
+  and Amy Pavel. 2025. Lotus: Creating short videos         editing. In Proceedings of the IEEE/CVF Conference
+  from long videos with abstractive and extractive sum-     on Computer Vision and Pattern Recognition, pages
+  marization. arXiv preprint arXiv:2502.07096.              1701–1709.
+Darwin Bautista and Rowel Atienza. 2022. Scene text       Junnan Li, Dongxu Li, Silvio Savarese, and Steven Hoi.
+  recognition with permuted autoregressive sequence         2023. Blip-2: Bootstrapping language-image pre-
+  models. In European Conference on Computer Vi-            training with frozen image encoders and large lan-
+  sion, pages 178–196, Cham. Springer Nature Switzer-       guage models. In International conference on ma-
+  land.                                                     chine learning, pages 19730–19742. PMLR.
+Jianhui Chen, Hoang M Le, Peter Carr, Yisong Yue, and     Kunchang Li, Yali Wang, Yinan He, Yizhuo Li,
+   James J Little. 2016. Learning online smooth pre-        Yi Wang, Yi Liu, Zun Wang, Jilan Xu, Guo Chen,
+   dictors for realtime camera planning using recurrent     Ping Luo, et al. 2024. Mvbench: A comprehensive
+   decision trees. In Proceedings of the IEEE Confer-       multi-modal video understanding benchmark. In Pro-
+   ence on Computer Vision and Pattern Recognition,         ceedings of the IEEE/CVF Conference on Computer
+   pages 4688–4696.                                         Vision and Pattern Recognition, pages 22195–22206.
+                                                      2771
+Bin Lin, Yang Ye, Bin Zhu, Jiaxi Cui, Munan Ning,              Chatvideo: A tracklet-centric multimodal and ver-
+  Peng Jin, and Li Yuan. 2023. Video-llava: Learn-             satile video understanding system. arXiv preprint
+  ing united visual representation by alignment before         arXiv:2304.14407.
+  projection. arXiv preprint arXiv:2311.10122.
+                                                            Miao Wang, Guo-Wei Yang, Shi-Min Hu, Shing-Tung
+Alejandro Pardo, Fabian Caba, Juan León Alcázar, Ali K       Yau, Ariel Shamir, et al. 2019. Write-a-video: com-
+  Thabet, and Bernard Ghanem. 2021. Learning to               putational video montage from themed text. ACM
+  cut by watching movies. In Proceedings of the              Trans. Graph., 38(6):177–1.
+  IEEE/CVF International Conference on Computer
+  Vision, pages 6858–6868.                                  Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhi-
+                                                              hao Fan, Jinze Bai, Keqin Chen, Xuejing Liu, Jialin
+Sergey Podlesnyy. 2020. Towards data-driven automatic         Wang, Wenbin Ge, et al. 2024b. Qwen2-vl: Enhanc-
+  video editing. In Advances in Natural Computation,          ing vision-language model’s perception of the world
+  Fuzzy Systems and Knowledge Discovery: Volume 1,            at any resolution. arXiv preprint arXiv:2409.12191.
+  pages 361–368. Springer.
+                                                            Xiaohan Wang, Yuhui Zhang, Orr Zohar, and Serena
+Alec Radford, Jong Wook Kim, Tao Xu, Greg Brock-              Yeung-Levy. 2024c. Videoagent: Long-form video
+  man, Christine McLeavey, and Ilya Sutskever. 2023.          understanding with large language model as agent.
+  Robust speech recognition via large-scale weak su-          In European Conference on Computer Vision, pages
+  pervision. In International conference on machine           58–76. Springer.
+  learning, pages 28492–28518. PMLR.
+                                                            Yi Wang, Yinan He, Yizhuo Li, Kunchang Li, Jiashuo
+Anyi Rao, Linning Xu, Yu Xiong, Guodong Xu,                   Yu, Xin Ma, Xinhao Li, Guo Chen, Xinyuan Chen,
+  Qingqiu Huang, Bolei Zhou, and Dahua Lin. 2020. A           Yaohui Wang, et al. 2023b. Internvid: A large-scale
+  local-to-global approach to multi-modal movie scene         video-text dataset for multimodal understanding and
+  segmentation. In Proceedings of the IEEE/CVF con-            generation. arXiv preprint arXiv:2307.06942.
+  ference on computer vision and pattern recognition,       Bo Xiong, Yannis Kalantidis, Deepti Ghadiyaram, and
+  pages 10146–10155.                                          Kristen Grauman. 2019. Less is more: Learning high-
+                                                              light detection from video duration. In Proceedings
+Rémi Ronfard. 2021. Film directing for computer
+                                                              of the IEEE/CVF conference on computer vision and
+  games and animation. In Computer Graphics Forum,
+                                                              pattern recognition, pages 1258–1267.
+  volume 40, pages 713–730. Wiley Online Library.
+                                                            Dongjie Yang, Suyuan Huang, Chengqiang Lu, Xi-
+Than Htut Soe. 2021. Ai video editing tools. what             aodong Han, Haoxin Zhang, Yan Gao, Yao Hu, and
+  editors want and how far is ai from delivering? arXiv       Hai Zhao. 2025. Vript: A video is worth thousands of
+  preprint arXiv:2109.07809.                                  words. Advances in Neural Information Processing
+                                                              Systems, 37:57240–57261.
+Tomás Soucek and Jakub Lokoc. 2024. Transnet v2: An
+  effective deep network architecture for fast shot tran-   Ting Yao, Tao Mei, and Yong Rui. 2016. Highlight
+  sition detection. In Proceedings of the 32nd ACM In-        detection with pairwise deep ranking for first-person
+  ternational Conference on Multimedia, pages 11218–          video summarization. In Proceedings of the IEEE
+  11221.                                                      conference on computer vision and pattern recogni-
+                                                              tion, pages 982–990.
+Jing Tang, Quanlu Jia, Yuqiang Xie, Zeyu Gong,
+   Xiang Wen, Jiayi Zhang, Yalong Guo, Guibin               Chaoyi Zhang, Kevin Lin, Zhengyuan Yang, Jianfeng
+   Chen, and Jiangping Yang. 2024. Skyscript-100m:            Wang, Linjie Li, Chung-Ching Lin, Zicheng Liu, and
+   1,000,000,000 pairs of scripts and shooting scripts        Lijuan Wang. 2024. Mm-narrator: Narrating long-
+   for short drama. arXiv preprint arXiv:2408.09333.          form videos with multimodal in-context learning. In
+                                                              Proceedings of the IEEE/CVF Conference on Com-
+Gemini Team, Rohan Anil, Sebastian Borgeaud, Jean-            puter Vision and Pattern Recognition, pages 13647–
+  Baptiste Alayrac, Jiahui Yu, Radu Soricut, Johan            13657.
+  Schalkwyk, Andrew M Dai, Anja Hauth, Katie
+  Millican, et al. 2023.    Gemini: a family of             Luowei Zhou, Chenliang Xu, and Jason Corso. 2018.
+  highly capable multimodal models. arXiv preprint            Towards automatic learning of procedures from web
+  arXiv:2312.11805.                                           instructional videos. In Proceedings of the AAAI
+                                                              conference on artificial intelligence, volume 32.
+Bryan Wang, Yuliang Li, Zhaoyang Lv, Haijun Xia,
+  Yan Xu, and Raj Sodhi. 2024a. Lave: Llm-powered           Wentao Zhu, Yufang Huang, Xiufeng Xie, Wenxian
+  agent assistance and language augmentation for video       Liu, Jincan Deng, Debing Zhang, Zhangyang Wang,
+  editing. In Proceedings of the 29th International          and Ji Liu. 2023. Autoshot: A short video dataset
+  Conference on Intelligent User Interfaces, pages 699–      and state-of-the-art shot boundary detection. In Pro-
+  714.                                                       ceedings of the IEEE/CVF Conference on Computer
+                                                             Vision and Pattern Recognition, pages 2238–2247.
+Junke Wang, Dongdong Chen, Chong Luo, Xiyang Dai,
+  Lu Yuan, Zuxuan Wu, and Yu-Gang Jiang. 2023a.
+                                                        2772
+A   Prompt Templates
+Here we present our detailed instruction templates
+which have been translated into English.
+
+A.1 Dialogue Analysis
+We instruct LLM to correct ASR-transcribed dia-
+logue with OCR, the prompt template is shown in
+Table 3.
+
+A.2 Comprehensive Caption
+Table 4 shows the details of the scene description
+we obtained using MLLM as well as multidimen-
+sional information.
+
+A.3 Highlight Detection
+We defined the highlight scenes of the short dramas
+according to the gender of their target audience.
+Table 5 presents the highlight rules for the male
+audience, while table 6 presents those for the fe-
+male audience. Table 7 shows the instructions for
+highlight detection.
+
+A.4 Opening & Ending Selection
+Table 8 is about selecting an appropriate opening
+and ending. Here our prompt is to serve advertising
+purposes.
+
+A.5 Content Pruning
+Please see Table 9 for more details.
+
+A.6 End2End Editing
+End2End Editing instruction is shown in Table 10,
+and the ASR version is presented in Table 11.
+
+
+
+
+                                                  2773
+Instruction for Correct ASR with OCR
+ ## Role
+You are an expert in video dialogue content recognition. You’re provided with the ASR (Automatic Speech Recognition)
+ results and OCR (Optical Character Recognition) results from the same video, both with associated timestamp
+ information. Your task is to cross-reference these two inputs to correct the ASR results to produce the most accurate
+ speaker identification and dialogue content. The time information in the ASR must remain unchanged.
+ ## Input
+- ASR: Includes timestamps, speaker identification, and spoken content. Due to potential inaccuracies in detection, both
+ the speaker and the dialogue content might have errors and require correction.
+- OCR: Includes timestamps and recognized text from the video’s visuals. While OCR text is generally accurate, it may
+ occasionally contain irrelevant visual noise (e.g., text from objects or advertisements), which requires careful filtering.
+ ## Output
+- Corrected ASR: Includes timestamps, corrected speaker identification, and dialogue content. Time remains unchanged
+ from the original ASR. Corrections are made using OCR where inaccuracies in speaker or content are evident, while
+ irrelevant OCR text is excluded. Speaker labels are adjusted only for clear mistakes to ensure accuracy.
+ ## Requirements
+1. Cross-reference the timestamp in OCR with the timestamp in ASR to adjust the ASR speaker and spoken dialogue
+ content.
+ 2. Correct typical errors such as phonetic spelling issues in ASR by using OCR text with matching timestamps.
+ 3. Ensure that the corrected ASR speaker and content align logically within the context of the video.
+4. Maintain the original timestamp information from the ASR, regardless of corrections made.
+ 5. Filter out irrelevant OCR content such as noise, and avoid overwriting ASR with unrelated visual information.
+ASR:
+{ASR}
+ OCR:
+{OCR}
+
+
+
+                             Table 3: Instruction template for Correct ASR with OCR
+
+Instruction for Comprehensive Caption
+ ## Role
+You are a professional film and drama captioning expert. Your task is to produce accurate and coherent narrative
+ descriptions of key scenes in a video segment by integrating multimodal inputs while maintaining logical plot continuity.
+ ## Input
+- Current Video Segment: The specific video clip or sampled frames corresponding to the segment that needs to be
+ summarized.
+- Character Information: A list of characters appearing in this segment and their roles in the drama.
+- Dialogue: A transcript of all dialogues spoken within this scene, including timestamps and speaker attributions.
+- Previous Segment Context: A concise overview of important events or character dynamics from the previous segment.
+ ## Output
+- Comprehensive Description:
+A coherent and context-aware summary of the segment that integrates characters, dialogue, and contextual information
+ to reflect its significance within the broader narrative. Key events, character interactions, and logical plot connections
+ should be naturally framed, avoiding verbatim dialogue and focusing on emotional and story progression.
+ ## Requirements
+1. Holistic Scene Summarization:Generate a coherent narrative that captures key events, character motivations,
+ relationships, and emotional flow while emphasizing the scene’s role in advancing the plot or developing character arcs.
+ 2. Continuity Maintenance: Ensure the summary remains consistent with the Previous Episode Summary and Current
+ Episode Summary, connecting past interactions or unresolved conflicts to the current scene within the broader storyline.
+ 3. Incorporate Dialogue and Key Interactions: Integrate key dialogues naturally into the description to highlight
+ important developments, reframing them fluently into the narrative without listing them verbatim.
+4. Context Sensitivity: Use all provided inputs (Character Information, Dialogue, Previous Segment Context and Current
+Video Segment) to create a summary aligned with both scene details and the overall plot progression.
+ Current Video Segment:
+{Current Video Segment}
+ Character Information:
+{Character Information}
+ Dialogue:
+{Dialogue}
+ Previous Segment Context:
+{Previous Segment Context}
+
+
+
+                            Table 4: Instruction template for Comprehensive Caption
+
+                                                           2774
+Highlight Definition and Scoring Rules for Male Audience
+ Category 1 – Modern Male-Lead Stories
+This category usually focuses on a male protagonist who hides his true identity or abilities, playing the underdog while
+ secretly being powerful.
+ Common plots include:
+- Unknown Hero Rises: A seemingly ordinary man suddenly enters the scene, shaking up the world around him.
+- Return and Revenge: The male lead is forced to stay away for some reason. When he returns, he finds his wife and
+ children have suffered, prompting him to take revenge.
+Typical Highlight Moments:
+- First Encounter with Female Lead: Their first meeting usually involves intense conflict and serves as an early mini-
+ climax. (3 points)
+- Mocked or Doubted: A classic setup where the hero is looked down upon, making the audience eager to see how he
+ proves everyone wrong. (3 points)
+- Praised by Powerful Figures: When villains attack the hero, someone with a strong background—like a senior or
+ powerful ally—steps in to support him, subtly hinting at his true status. (3 points)
+- Hero Saves the Beauty: A timeless scene—rescuing the female lead when she’s in trouble, avenging his wife, or helping
+ her through a career crisis. (3 points)
+- Beautiful Woman Appears Out of Nowhere: Whatever the hero wants, it conveniently shows up. For example, an old
+ man whose life the hero saved offers his daughter in marriage, or after the ex-wife scorns him, new admirers suddenly
+ appear. (3 points)
+ If none of the above apply, you can choose:
+- Betting Scenes: Moments involving wagers or dares. (2 points)
+- Running into an Ex: Meeting an ex-girlfriend, wife, etc. (2 points)
+- Large Crowds: Scenes like auctions, competitions, or any event involving many extras. (2 points)
+ Category 2 – Historical Male-Lead Stories
+These stories often feature a male protagonist who uses memories from a past life or modern-day knowledge to
+ continuously rise in status. They can be split into time-travel or reincarnation subgenres.
+Typical Highlight Moments:
+- First Pot of Gold: Usually the first big moment in the series—such as using modern knowledge to earn money. (3
+ points)
+- Mocked, Then Fights Back: Again, a classic "looked down upon but rises up" setup. (3 points)
+- First Meeting with Female Lead: This encounter usually comes with dramatic tension. (3 points)
+ Category 3 – General Highlights
+These highlight moments apply broadly across all story types:
+- Major Climax or Turning Point: This could involve a key character’s death, a huge secret revealed, or any major plot
+ shift. (2 points)
+- Emotional Resonance: Moments that trigger strong emotions—whether sadness, joy, shock, or fear—that stay with the
+ audience. (1 point)
+- Cultural Impact: Scenes that spark social discussion or shift public attitudes. (1 point)
+- Cliffhanger: Endings that leave viewers eagerly awaiting the next episode. (2 points)
+- Key Plot Twist: Includes major developments like the heroine’s identity being revealed or the story’s main conflict
+ emerging. (2 points)
+
+
+
+                 Table 5: Highlight scene definition and scoring rules for the male audience.
+
+
+
+
+                                                         2775
+Highlight Definition and Scoring Rules for Female Audience
+ Category 1 – Modern Female-Lead Stories These stories are told mainly from the female protagonist’s perspective.
+They typically fall into two types:
+- Sweet Romance: Often follows a "married first, fall in love later" plot, with plenty of sweet, heartwarming moments
+ sprinkled throughout.
+- Revenge & Glow-Up: The heroine is divorced by her ex-husband, only to thrive and shine even brighter afterward.
+ Common Highlight Moments:
+- Unexpected Accidents: For example, the heroine gets into a car accident. (3 points)
+- Arguments & Face-Offs: Such as the heroine confronting a rival female character. (3 points)
+- Divorce Scenes: Like the heroine asking the male lead for a divorce. (3 points)
+- Identity Reveals or Secrets Uncovered: For instance, it turns out the heroine is a highly skilled expert. (2 points)
+- Humor & Comedy: Scenes with funny twists, e.g., the heroine making the CEO male lead ride an electric scooter. (2
+ points)
+- Violence & Intensity: High-drama moments like slapping scenes. (3 points)
+- Flirty & Ambiguous Moments: Light teasing or suggestive scenes that keep viewers hooked. (3 points)
+- First Encounter Between Leads: Usually the first mini-climax of the show. (3 points)
+- One-Night Stand/Pregnancy Plotlines: A one-night stand leads to future encounters filled with potential drama. (3
+ points)
+- Heroine Actively Pursues the Male Lead: "Chasing love" moments are often the sweetest parts. (3 points)
+- The heroine in Trouble, Rescued by Male Lead: Typically involves the heroine being mocked, drugged, attacked, or
+ assassinated—only for the male lead to appear heroically. (3 points)
+- Heroine’s Suffering Moments: Classic melodrama setup, where she is initially oppressed before rising up. (3 points)
+- Heroine’s Counterattack: She fights back against vicious rivals, ex-husbands, or antagonists. (3 points)
+ If none of the above apply, you can choose:
+- Sweet Interactions Between Leads: Romantic or affectionate scenes. (2 points)
+- Male Lead Protecting or Supporting the Heroine: Either defending her or helping with her career. (2 points)
+- Pregnancy Reveal: When either lead learns about the pregnancy. (2 points)
+- Heroine Pressured to Divorce: Scenes where the ex-husband or in-laws force her to divorce. (2 points)
+ Category 2 – Historical Female-Lead Stories
+These stories usually feature a heroine who uses memories from a past life or modern knowledge to outsmart rivals and
+win true love.
+ Common Highlight Moments:
+- Pre/Post Time-Travel or Rebirth Scenes: The opening explains the setup, drawing viewers in. (3 points)
+- Heroine’s Counterattack: She strikes back at jealous female rivals, villains, or underlings. (3 points)
+- Heroine in Peril: Trapped or framed by villains, followed by a rescue. (3 points)
+ If none of the above apply, you can choose:
+- Sweet Interactions Between Leads: Hugging, cheek touching, or other intimate moments. (2 points)
+- Villain’s First Appearance: Introduction of key antagonists. (2 points)
+ Category 3 – General Highlights
+These highlight moments apply broadly across all story types:
+- Major Climax or Turning Point: This could involve a key character’s death, a huge secret revealed, or any major plot
+ shift. (2 points)
+- Emotional Resonance: Moments that trigger strong emotions—whether sadness, joy, shock, or fear—that stay with the
+ audience. (1 point)
+- Cultural Impact: Scenes that spark social discussion or shift public attitudes. (1 point)
+- Cliffhanger: Endings that leave viewers eagerly awaiting the next episode. (2 points)
+- Key Plot Twist: Includes major developments like the heroine’s identity being revealed or the story’s main conflict
+ emerging. (2 points)
+
+
+
+                          Table 6: Highlight scene definition for the female audience.
+
+
+
+
+                                                        2776
+Instruction for Highlight Detection
+## Role
+You are a professional short drama editor with a deep understanding of plot development and audience engagement.
+Your task is to evaluate the highlight level of each scene based on specific scoring guidelines and return the results
+accordingly.
+## Input
+- Drama Title: The name of the short drama.
+- Target Audience Gender: The primary gender demographic of the audience.
+- Scene Fragments: Several scene descriptions from a specific episode.
+## Output
+You should output the score for each scene in sequence, formatted as a JSON list, wrapped with <result> tags. The
+format should look like this:
+<result>
+[
+{"episode": 1, "scene_id": 1, "reason": "Your justification for the score of this scene.", "score": 3},
+{"episode": 1, "scene_id": 2, "reason": "Your justification for the score of this scene.", "score": 0},
+...
+]
+</result>
+Explanation:
+- episode: The episode number.
+- scene_id: The scene number within that episode.
+- score: The score assigned to the scene.
+- reason: The rationale behind the score.
+Please note: The input scene fragments may not start from Episode 1. Make sure to keep the episode and scene numbers
+consistent in your output.
+## Requirements
+1. I will provide you with editing insights that summarize key elements of popular and engaging plotlines. Based on
+these guidelines, please evaluate each scene as follows:
+2. If a scene matches one or more of the provided criteria, add up the corresponding points.
+3. If the scene does not meet any criteria or feels plain, assign a score of 0.
+
+{Highlight definition and scoring rules (dependent on audience gender)}
+
+{Scene narration of episode 1 ∼ T}
+
+
+
+                              Table 7: Instruction template for highlight detection.
+
+
+
+
+                                                        2777
+Instruction for Opening & Ending Selection
+ ## Role
+You are a professional short drama editor with a deep understanding of narrative structure and audience engagement.
+Your goal is to create captivating edited videos by highlighting the most exciting scenes. For simplicity, the editing
+ strategy is as follows:
+- First, select the pre-identified highlight scenes as the core selling points.
+- Then, choose suitable starting and ending scenes to wrap around these highlights.
+ In this task, the highlight scenes are already marked. You need to analyze the drama and select the best start and end
+ scenes accordingly.
+ ## Input
+- Drama Title: The name of the short drama.
+- Target Audience Gender: The primary gender demographic of the audience.
+- Drama Plot: The storyline of the drama, is composed of multiple scenes. Each scene contains an episode ID, a scene
+ ID, and a description of its visual content. Some scenes are labeled as follows:
+- <Highlight>: Key exciting scenes that serve as the main attraction in the edited video.
+- <Optional Start>: Scenes pre-selected as potential starting points.
+- <Optional End>: Scenes pre-selected as potential ending points.
+ Some scenes may carry multiple tags at the same time.
+ ## Output
+ For each scene labeled as <Optional Start> or <Optional End>, you need to decide whether it is suitable to be used as
+ the start or end of the video.
+ Output your decision as a JSON list wrapped in <result> tags, like this:
+<result>
+ [
+{"episode": 1, "scene_id": 1, "thought": "Your reason about if this scene is a suitable start or end scene.", "starting": true,
+ "ending": false},
+{"episode": 1, "scene_id": 2, "thought": "Your reason about if this scene is a suitable start or end scene.", "starting":
+ false, "ending": false},
+{"episode": 2, "scene_id": 4, "thought": "Your reason about if this scene is a suitable start or end scene.", "starting":
+ false, "ending": true},
+ ...
+ ]
+</result>
+ Explanation:
+- episode: episode number.
+- scene_id: scene number within that episode.
+- thought: your reasoning and decision for each scene.
+- starting: true if suitable as the start scene; otherwise false.
+- ending: true if suitable as the end scene; otherwise false.
+ ## Requirements
+ For Selecting Start Scenes:
+You should analyze the plot and consider:
+- Audience Engagement: The opening scene should immediately grab attention and draw viewers in.
+- Clarity: Avoid starting with scenes that rely heavily on prior plot context, such as ones mid-event, which might confuse
+ new viewers.
+- Introduction Scenes: Scenes that introduce characters, setting, or plot premise can be good starting points.
+ For Selecting End Scenes:
+You should analyze the plot and consider:
+- Relevance: Avoid ending on scenes unrelated to the highlight, as they may transition to a new, less exciting storyline.
+- Neutral Endings: If a scene doesn’t strongly affect the viewing experience, either way, it can still be chosen as an
+ ending.
+- Suspense: Prefer ending on scenes that leave a sense of suspense, encouraging viewers to click to find out what happens
+ next.
+- Complete Story Arc: It is also acceptable to end where a plot arc is fully wrapped up, giving a satisfying sense of
+ closure while showcasing the highlight.
+
+{Scene narration of episode 1 ∼ T with tags}
+
+
+
+                          Table 8: Instruction template for Opening & Ending Selection.
+
+
+
+
+                                                            2778
+Instruction for Content Pruning
+## Role
+You are a professional short drama editor with a deep understanding of storyline structure. Your goal is to craft engaging
+and cohesive edited videos. For this task, a relatively attractive video segment has already been pre-selected for you.
+Your job is to analyze the storyline and remove redundant scenes to make the plot more concise and gripping.
+## Input
+- Drama Title: The name of the short drama.
+- Target Audience Gender: The primary gender demographic of the audience.
+- Drama Plot: The storyline is composed of multiple scenes. Each scene includes an episode ID, a scene ID, and a
+description of the visual content.
+Additionally, each scene is labeled as either <Highlight Scene> or <General Scene>:
+- <Highlight Scene> refers to key moments designed to attract viewers and evoke strong emotions. These are the main
+selling points of the edited video.
+- <General Scene> refers to relatively plain or transitional scenes, which are candidates for possible removal.
+## Output
+For every <General Scene>, you need to decide whether it can be deleted. Generate your decision as a JSON list
+wrapped in <result> tags, like this:
+<result>
+[
+{"episode": 1, "scene_id": 1, "thought": "Your reasoning on whether this scene should be kept or removed.", "delete":
+false},
+{"episode": 1, "scene_id": 3, "thought": "Your reasoning on whether this scene should be kept or removed.", "delete":
+true},
+{"episode": 2, "scene_id": 2, "thought": "Your reasoning on whether this scene should be kept or removed.", "delete":
+false},
+...
+]
+</result>
+Explanation:
+- episode: Episode number.
+- scene_id: Scene number within that episode.
+- thought: Your reasoning about whether this scene can be removed.
+- delete: true if the scene should be removed; false if it should be kept.
+## Requirements
+1. Only remove scenes labeled as <Regular Scene>. Scenes marked as <Highlight Scene> must never be deleted.
+2. Do not remove the first or last scene, even if labeled as <Regular Scene>.
+3. If there are no deletable scenes, simply output an empty list inside the <result> tag.
+4. Maintain the original episode and scene_id numbers as provided.
+5. Be cautious when removing scenes. Unnecessary deletions may affect the coherence of the storyline, negatively
+impacting the viewing experience.
+
+{Scene narration of episode 1 ∼ T with tags}
+
+
+
+                                Table 9: Instruction template for Content Pruning.
+
+
+
+
+                                                          2779
+Instruction for End2End Editing
+## Role
+You are a professional short drama editor with a deep understanding of plot development and audience engagement.
+## Input
+- Drama Title: The name of the short drama.
+- Target Audience Gender: The primary gender demographic of the audience.
+- Scene Fragments: Several scene descriptions from a specific episode.
+## Requirements
+1. You need to fully understand the content of the input short drama, analyzing the plot and characters to grasp the
+overall storyline.
+2. Based on the scene descriptions, you should edit the drama by preserving the key plot points while ensuring the final
+cut remains coherent and smooth.
+3. Pay special attention to retaining highlight moments within the scenes, as these can significantly enhance the appeal
+of the edited video. However, always prioritize the overall narrative flow when selecting which highlight moments to
+include.
+I will provide highlight definitions and scoring rules for you.
+
+{Highlight definition and scoring rules (dependent on audience gender)}
+
+ Besides highlights, good opening and ending scenes are also crucial.
+ For Selecting Start Scenes:
+You should analyze the plot and consider:
+- Audience Engagement: The opening scene should immediately grab attention and draw viewers in.
+- Clarity: Avoid starting with scenes that rely heavily on prior plot context, such as ones mid-event, which might confuse
+ new viewers.
+- Introduction Scenes: Scenes that introduce characters, setting, or plot premise can be good starting points.
+ For Selecting End Scenes:
+You should analyze the plot and consider:
+- Relevance: Avoid ending on scenes unrelated to the highlight, as they may transition to a new, less exciting storyline.
+- Neutral Endings: If a scene doesn’t strongly affect the viewing experience, either way, it can still be chosen as an
+ ending.
+- Suspense: Prefer ending on scenes that leave a sense of suspense, encouraging viewers to click to find out what happens
+ next.
+- Complete Story Arc: It is also acceptable to end where a plot arc is fully wrapped up, giving a satisfying sense of
+ closure while showcasing the highlight.
+ ## Output
+When generating the output, you should reflect on these requirements and devise an appropriate editing strategy. After
+ careful consideration, select the scenes you believe are suitable for the final cut and include them in a list. Remember to
+ use <result> as the delimiter and present the edited script in the following format:
+<result>
+ [
+{"episode":1, "scene_id": 0, "thought": Your justification for choosing this scene. }
+{"episode":1, "scene_id": 2, "thought": Your justification for choosing this scene. }
+ ...
+ ]
+</result>
+ Explanation:
+- episode: episode number.
+- scene_id: scene number within that episode.
+- thought: your reasoning and decision for each scene.
+
+{Scene narration of episode 1 ∼ T}
+
+
+
+                               Table 10: Instruction template for End2End Editing.
+
+
+
+
+                                                           2780
+Instruction for End2End Editing with ASR
+## Role
+You are a professional short drama editor with a deep understanding of plot development and audience engagement.
+## Input
+- Drama Title: The name of the short drama.
+- Target Audience Gender: The primary gender demographic of the audience.
+- Dialogue Information: Dialogue information includes the start time, end time, and the content of each utterance.
+## Requirements
+1. You need to fully understand the content of the input short drama, analyzing the plot and characters to grasp the
+overall storyline.
+2. Based on the scene descriptions, you should edit the drama by preserving the key plot points while ensuring the final
+cut remains coherent and smooth.
+3. Pay special attention to retaining highlight moments within the scenes, as these can significantly enhance the appeal
+of the edited video. However, always prioritize the overall narrative flow when selecting which highlight moments to
+include.
+I will provide highlight definitions and scoring rules for you.
+
+{Highlight definition and scoring rules (dependent on audience gender)}
+
+ Besides highlights, good opening and ending scenes are also crucial.
+ For Selecting Opening:
+You should analyze the plot and consider:
+- Audience Engagement: The opening shots should immediately grab attention and draw viewers in.
+- Clarity: Avoid clips that rely heavily on prior plot context, such as ones mid-event, which might confuse new viewers.
+- Introduction Shots: Shots that introduce characters, setting, or plot premise can be good starting points.
+ For Selecting Ending:
+You should analyze the plot and consider:
+- Relevance: Avoid endings that are unrelated to the highlight, as they may transition to a new, less exciting storyline.
+- Neutral Endings: If a shot doesn’t strongly affect the viewing experience, either way, it can still be chosen as an ending.
+- Suspense: Prefer endings that leave a sense of suspense, encouraging viewers to click to find out what happens next.
+- Complete Story Arc: It is also acceptable to end where a plot arc is fully wrapped up, giving a satisfying sense of
+ closure while showcasing the highlight.
+ ## Output
+ In the output phase, you can consider these requirements and devise an editing strategy first. Finally, save the segments
+you deem suitable for editing into a list, and output your decision as a JSON list wrapped in <result> tags, like this:
+<result>
+ [
+{"episode":1, "start_time": 0, "end_time": 14, "thought": Your justification for choosing this clip. }
+{"episode":1, "start_time": 18, "end_time": 125, "thought": Your justification for choosing this clip. }
+ ...
+ ]
+</result>
+ Explanation:
+- episode: episode number.
+- start_time: starting time of selected clip.
+- end_time: ending time of selected clip.
+- thought: your justification for choosing this clip.
+
+{ASR information of episode 1 ∼ T}
+
+
+
+                         Table 11: Instruction template for End2End Editing with ASR.
+
+
+
+
+                                                           2781
+

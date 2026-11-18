@@ -1,0 +1,1846 @@
+ShotFinder: Imagination-Driven Open-Domain Video Shot Retrieval via Web Search
+Authors: Tao Yu; Haopeng Jin; Hao Wang; Shenghua Chai; Yujia Yang; Zhongtian Luo; Junhao Gong; Jiaming Guo; Minghui Zhang; Xinlong Chen; Zhenghao Zhang; Yuxuan Zhou; Yanpei Gong; YuanCheng Liu; Yiming Ding; Kangwei Zeng; Pengfei Yang; Yufei Xiong; Shanbin Zhang; Chengshaoxiong; Huang Ruilin; Li Shuo; Yuxi Niu; Xinyuan Zhang; Yueya Xu; Jie Mao; Ruixuan Ji; Yaru Zhao; Mingchen Zhang; Jiabing Yang; Jiaqi Liu; YiFan Zhang; Hongzhu Yi; Xinming Wang; Cheng Zhong; Xiao Ma; Zhang Zhang; Yan Huang; Liang Wang
+Source: https://aclanthology.org/2026.findings-emnlp.756/
+PDF: https://aclanthology.org/2026.findings-emnlp.756.pdf
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Copyright: Association for Computational Linguistics; original notices retained below.
+License evidence: official ACL page explicitly licenses ACL materials published in or after 2016 under CC BY4; all selected papers 2019–2026.
+Changes: Complete selectable-text extraction from every PDF page using pdftotext -layout. All bitmap/vector images and linked video/dataset media omitted. Captions, tables, references and original notices retained. Control NUL characters removed; typography/reading order may differ. Not an unchanged PDF.
+
+--- BEGIN EXTRACTED FULL TEXT ---
+
+ ShotFinder: Imagination-Driven Open-Domain Video Shot Retrieval via
+                             Web Search
+              Tao Yu1,2∗♠ , Haopeng Jin1∗† , Hao Wang1∗† , Shenghua Chai1† , Yujia Yang2
+        Zhongtian Luo1† , Junhao Gong4 , Jiaming Guo1† , Minghui Zhang1† , Xinlong Chen1,2
+        Zhenghao Zhang2 , Yuxuan Zhou5 , Yanpei Gong1† , Yuancheng Liu1† , Yiming Ding1†
+                 Kangwei Zeng1† , Pengfei Yang1† , Yufei Xiong1† , Shanbin Zhang1,2
+          Shaoxiong Cheng1† , Ruilin Huang1† , Shuo Li1† , Yuxi Niu1† , Xinyuan Zhang1†
+               Yueya Xu1† , Jie Mao1† , Ruixuan Ji1† , Yaru Zhao1† , Mingchen Zhang1†
+          Jiabing Yang1,2 , Jiaqi Liu1† , YiFan Zhang1,2‡ , Hongzhu Yi2‡ , Xinming Wang1,2
+             Cheng Zhong3 , Xiao Ma3 , Zhang Zhang1,2 , Yan Huang1,2‡ , Liang Wang1,2
+           1
+             CASIA 2 UCAS 3 Lenovo 4 Peking University 5 Tsinghua University
+                                          yutao2025@ia.ac.cn
+
+
+                      Abstract                              Zhou et al., 2025b,c; OpenAI, 2024; DeepMind,
+                                                            2023; Anthropic, 2024) have substantially im-
+    In recent years, large language models (LLMs)           proved their capability in information retrieval.
+    have made rapid progress in information re-
+                                                            Text-based LLMs can already interact with search
+    trieval, yet existing research has mainly focused
+    on text or static multimodal settings. Open-            engines via reasoning and tool use to accomplish
+    domain video shot retrieval, which involves             complex text retrieval tasks (Jin et al., 2025; Wu
+    richer temporal structure and more complex              et al., 2025a,b; Tao et al., 2025; Yu et al., 2025b).
+    semantics, still lacks systematic benchmarks            Meanwhile, multimodal large language models
+    and analysis. To fill this gap, we introduce            (MLLMs) have begun to show the potential to
+    ShotFinder, a benchmark that formalizes edit-           perform cross-modal retrieval through reasoning
+    ing requirements as keyframe-oriented shot de-
+                                                            and tool invocation, exemplified by methods (Geng
+    scriptions and introduces five types of control-
+    lable single-factor constraints: Temporal or-
+                                                            et al., 2025; Yu et al., 2026e). However, existing
+    der, Color, Visual style, Audio, and Resolution.        research has largely focused on text or static multi-
+    We curate 1,210 high-quality samples from               modal retrieval, while systematic investigation of
+    YouTube across 20 thematic categories, using            video retrieval remains limited, despite its richer
+    large models for generation with human verifi-          temporal structure and more complex semantics.
+    cation. Based on the benchmark, we propose                 In practical video editing workflows, videos are
+    ShotFinder, a text-driven three-stage retrieval         typically divided into multiple basic units—shots
+    and localization pipeline: (1) query expansion
+                                                            (Yang et al., 2023). A shot generally refers to a
+    via video imagination, (2) candidate video re-
+    trieval with a search engine, and (3) description-      continuous sequence of frames between one cut or
+    guided shot localization. Experiments on mul-           transition and the next. As the fundamental build-
+    tiple closed-source and open-source models re-          ing blocks of a video, shots not only constitute the
+    veal a significant gap to human performance,            temporal axis of the video but also serve as impor-
+    with clear imbalance across constraints: tem-           tant carriers of content expression (Lu et al., 2025).
+    poral localization is relatively tractable, while       When video editors attempt to obtain a specific shot,
+    color and visual style remain major challenges.
+                                                            they often need to preview the footage in advance
+    These results reveal that open-domain video
+    shot retrieval is still a critical capability that
+                                                            and remember the timestamps, which makes video
+    multimodal large models have yet to overcome.           editing largely dependent on personal experience
+                                                            and raises the entry barrier for newcomers.
+1   Introduction                                               Against this backdrop, a natural question arises:
+                                                            can current MLLM interact with search engines
+In recent years, the rapid advances in LLMs (Yang           through reasoning and tool use to accomplish shot-
+et al., 2025; Yu et al., 2025a; Zhang et al., 2025b;        level video retrieval and temporal localization? An-
+    ∗
+      Equal contribution.                                   swering this question is not only of academic im-
+    †
+      Work done during an internship at CASIA.              portance but also directly relates to the practical
+    ‡
+      Corresponding author.
+    ♠
+      Project leader.                                       potential of real-world video editing applications.
+                                                         15915
+              Findings of the Association for Computational Linguistics: EMNLP 2026, pages 15915–15944
+                          October 24-29, 2026 ©2026 Association for Computational Linguistics
+                      Question                                                                                       Question                                                                              Question
+          When is the paper submission deadline                                                                   On the Wikipedia page for the animal
+                                                                                                                                                                                                          I am a video editor. Please help me find shots
+          for the ACL 2026 Industry Track, and                                                                      in the provided image, how many
+                                                                                                                                                                                                         that meet the following criteria:, a long-haired
+            what is the venue address for the                                                                       revisions from before 2020 had
+                                                                                                                                                                                                         woman sits at a table, leaning slightly forward...
+                       conference?                                                                                         "visual edit" tags?
+         Click "Calls"                   Click "separate"                     Get the answer                        Image Analysis       Image Search                   Get the answer                    Video Imagination   Search for URL                 Grounding
+                                            https: //2026.aclweb.org/calls/     https: //2026.aclweb.org/calls/
+           https: //2026.aclweb.org/                                                                                                       https: //www.wikipedia.org      https: //www.wikipedia.org                            https: //www.youtube.com/
+                                              main_conference_papers/             main_conference_papers/
+                                                                                                                  <think>                                                                               <think>
+                                                                                                                  Considering the                                                                       A long-haired
+                                                                                                                  combination of                                                                        woman sits at a
+                                                                                                                  body shape,                                                                           table, leaning
+                                                                                                                  plumage, beak                                                                         slightly forward,
+                                                                                                                  morphology...                                                                         her right hand...
+                                                                                                                  </think>                                                                              </think>
+
+                   Answer                                                                                                 Answer                                                                                  Answer
+              The paper submission deadline for the
+                                                                                                                   On the Wikipedia page for the animal shown in                                            I have already found a
+              ACL 2026 Industry Track is January
+                                                                                                                      the image, there were 20 revisions made                                                shot that meets the
+               14, 2026 and the conference well be
+                                                                                                                   before 2020 that were tagged as “visual edit.”                                               requirements
+                    held in San Diego, CA, USA
+                                       (a) Text Only                                                                                (b) Multimodal Data                                                                (c) ShotFinder (Ours)
+
+
+
+Figure 1: Comparison of ShotFinder benchmark with (a) text benchmarks and (b) other multimodal benchmarks.
+ShotFinder targets open-domain video retrieval. It requires the model to perform "Video Imagination" to bridge the
+gap between shot descriptions and full video search, followed by searching for URLs and grounding shots.
+
+   To this end, we propose ShotFinder, a shot re-                                                                                                                     On the ShotFinder benchmark, we evaluate hu-
+trieval benchmark tailored to realistic video editing                                                                                                              man performance and multiple closed-source and
+workflows. ShotFinder systematically formulates                                                                                                                    open-source models. The results show that all mod-
+the core requirements of video editors in footage                                                                                                                  els remain far below human performance. Closed-
+retrieval as shot descriptions and five single-factor                                                                                                              source models perform best overall, with GPT-
+constraints in terms of temporal, color, style, audio,                                                                                                             5.2 achieving the highest average accuracy, while
+and resolution (Pardo et al., 2021; Bonneel et al.,                                                                                                                Qwen3 models show competitive results on Tem-
+2013; Tian et al., 2018; Tu et al., 2021). While                                                                                                                   poral and Color. Across tasks, Temporal is rela-
+keeping the task controllable, ShotFinder enables                                                                                                                  tively easier, whereas Color and Style remain chal-
+analysis of how different descriptive factors affect                                                                                                               lenging. Moreover, model scale does not always
+video retrieval and temporal localization. To miti-                                                                                                                yield consistent gains, suggesting the importance
+gate biases introduced by content distribution, we                                                                                                                 of architecture and multimodal alignment (Yu et al.,
+adopt a constraint-aware topic assignment strat-                                                                                                                   2026a; Wang et al., 2026).
+egy and construct a dataset containing 1,210 high-                                                                                                                    In summary, the main contributions are as fol-
+quality video shots through LLM-based generation                                                                                                                   lows: we introduce ShotFinder, the first benchmark
+with human verification. For evaluation, we em-                                                                                                                    for open-domain video shot retrieval, and propose
+ploy a keyframe-based LLM-assisted assessment                                                                                                                      an imagination-driven retrieval method. Experi-
+method, which more effectively captures perfor-                                                                                                                    ments on the ShotFinder benchmark reveal the key
+mance differences among methods under complex                                                                                                                      challenges faced by current models in this field and
+conditions. The difference between ShotFinder and                                                                                                                  point to directions for improvement.
+previous benchmarks is shown in Figure 1.
+                                                                                                                                                                   2    Related Works
+   Building upon the benchmark, we further pro-
+pose ShotFinder, a text-description-driven method                                                                                                                  Web-Based Information Retrieval Web-Based
+for open-domain video shot retrieval and localiza-                                                                                                                 Information Retrieval involves utilizing web re-
+tion. Given a shot description and optional ad-                                                                                                                    sources such as search engines, web pages, and
+ditional constraints, the method follows a staged                                                                                                                  external tools to autonomously acquire and syn-
+processing pipeline. First, it performs query expan-                                                                                                               thesize information (Yu et al., 2026c; Wang et al.,
+sion based on video imagination, lifting shot-level                                                                                                                2025c). Systems like Search-R1 combine search
+descriptions to video-level search semantics. It                                                                                                                   engine queries with reasoning abilities, continu-
+then interacts with search engines to collect a set                                                                                                                ously refining answers through dynamic search in-
+of candidate videos from online video platforms.                                                                                                                   teractions. WebDancer adopts a curriculum-driven
+Finally, it conducts description-guided shot local-                                                                                                                strategy, guiding the agent through web-based tasks
+ization to identify the target shot that matches the                                                                                                               to perform multi-step reasoning and collect infor-
+input semantics. By organically integrating shot-                                                                                                                  mation from multiple sources (Yu et al., 2026b;
+level understanding, open-domain video retrieval,                                                                                                                  Zhou et al., 2025a). WebWatcher further extends
+and description-driven fine-grained localization.                                                                                                                  this by integrating tools such as text and image
+                                                                                                                                          15916
+search, code interpretation, and webpage browsing,       The descriptions are usually very detailed and long,
+enabling the agent to handle more complex multi-         making them unsuitable for direct retrieval queries.
+step queries (Yu et al., 2026f). Despite these ad-       The model needs to extract searchable key enti-
+vancements, research in this area remains primarily      ties/attributes/actions from the description, distin-
+focused on text or static multimodal information re-     guish between strong constraints and weak descrip-
+trieval, with limited systematic exploration of video    tions, and compress them into effective retrieval
+shot retrieval tasks that involve temporal structure     representations (e.g. keywords).
+and semantic complexity (Yu et al., 2026d). To ad-          3. Video redundancy and long context pres-
+dress this gap, we propose a benchmark for video         sure. Videos contain a large number of irrele-
+shot retrieval in real-world editing scenarios, which    vant frames and multiple event segments. The
+includes 6 tasks and covers 20 topics.                   system must both locate the matching moment
+   Video Temporal Grounding Video Temporal               amidst redundant content and model the tempo-
+Grounding (VTG) aims to localize specific mo-            ral clues. This presents higher requirements for
+ments in videos from natural language queries.           frame sampling, cross-frame aggregation, and the
+Early methods such as Moment-DETR (Lei et al.,           context length that the model can handle.
+2021) and CONE (Hou et al., 2023) rely on spe-
+cialized architectures for short and long videos,        3.2     Data Collection
+respectively. Recently, MLLMs have become dom-
+                                                         3.2.1    Task Design
+inant: VTimeLLM (Huang et al., 2023) enables
+fine-grained temporal reasoning, TimeChat (Ren           This classification system is derived from real-
+et al., 2024) introduces timestamp-aware encoding        world editing retrieval scenarios: when editors
+for long videos, and Grounded-VideoLLM (Wang             search for footage, the basic need is "whether the
+et al., 2025a) improves temporal grounding through       content of the shot meets the description," while
+segment-level perception. However, existing VTG          higher-level needs involve "whether the shot has a
+methods assume the target video is already avail-        specific narrative function or audiovisual presenta-
+able, limiting their use when videos must first be re-   tion effect." To address this, we divide the retrieval
+trieved from external sources. Our work addresses        task into shot descriptions and factor constraints,
+this gap by coupling open-domain video retrieval         with the latter introducing additional constraints on
+with temporal grounding.                                 top of the shot descriptions.
+                                                            Shot Description Shot Description refers to re-
+3   ShotFinder Benchmark                                 trieval tasks where the candidate shot is only re-
+                                                         quired to match the description of the shot. The
+3.1 Task Definition                                      description mainly includes attributes of people/ob-
+This paper proposes an open-domain shot retrieval        jects, actions, and scene elements, and the judg-
+task: given a fine-grained natural language descrip-     ment is based on whether the visual content is
+tion corresponding to the key frame of the target        consistent. For example: "An older male with
+shot (which may include subject/action/scene infor-      silver-gray, center-parted long hair, darker skin
+mation, and possibly constraints such as temporal        tone, wearing a dark high-collared suit, giving a
+sequence, color, style, audio, resolution, etc.), the    speech with full attention." In this setting, as long
+system is required to search the internet and return     as the key frame of the candidate shot semantically
+video shots that are semantically consistent with        matches the above content, it is considered a match.
+the description and satisfy the given constraints.          Shot Description + Single Constraint In real-
+This task faces the following unique challenges:         world editing, the selection of "usable footage"
+   1. Information imbalance. The input consists          depends not only on "what’s in the shot" but also
+of partial information of the key frame of the shot,     on the shot’s position in the narrative, overall at-
+while the search target is the entire video. This is     mosphere, or audiovisual style. To controllably
+equivalent to using a small portion of the video’s       analyze the impact of these factors on retrieval, we
+information to match the full video. As a result, it     do not directly cover all the complex combinations
+may happen that the overall theme of the video is        of narrative constraints. Instead, we adopt a design
+close, but the key moment described in the query         where "only one additional factor is added to shot
+is missing.                                              description." This extends the task to the following
+   2. Information extraction and compression.            five single-factor setups:
+                                                    15917
+                                                                                                              The original version
+                                   Generate video shot      "I need a video shot ... a man and a woman pass
+                                    descriptions using           each other on an outdoor staircase...          I need a video shot, in the scene,two men pass
+                                      Gemini 3 Pro                           Shot Description                   each other near a river. The man, dressed in a
+                                                                                                                dark suit and carrying weight, ascends slowly,
+                                       Calculate the                           "1080P"                          while the other man in glowing ethereal attire
+                                  resolution of this shot                       Resolution                                   descends gracefully.
+   Scrape videos
+                                    Generate temporal        The previous seconds begin with a subtitle...          Verification and
+   from YouTube and
+                                    descriptions from        The following seconds transition to other...             Refinement
+   extract shots                      temporal shot                       Temporal Description
+
+                                     Generate color           The overall color tone is warm, bathed in
+                                    descriptions using                                                                                          1. Semantics
+                                                              simulated sunlight that creates a bright...
+                                         Gemini                                                                                                 2. Facts
+                                                                            Color Description                 Researchers with a background
+                                                                                                                                                3. Constraint consistency
+                                                                                                                 in computer science × 10
+                                     Generate audio         The video features a lively and rhythmic piece
+                                    descriptions from       playing in the background. The melody is light     The modified version
+                                     temporal audio               and bouncy, creating a cheerful...             I need a video shot, in the scene, a man and a
+                                        segments
+                                                                             Audio Description                  woman pass each other on an outdoor staircase.
+                                                                                                                 The man, dressed in a dark suit and carrying
+                                     Generate a style       This is a classic Japanese 2D animation style,      weight, ascends slowly, while the woman in light
+                                     description using          bearing visual hallmarks of Makoto...
+                                                                                                                        casual clothing descends gently.
+                                          Gemini                              Style Description
+                          (a) Model-based Description Generation                                                     (b) Human Verification and Refinement
+
+
+
+
+Figure 2: ShotFinder construction pipeline. (a) Model-based Description Generation, where Gemini generates
+shot descriptions with five specific constraints (Resolution, Temporal, Color, Style, Audio); and (b) Human
+Verification and Refinement, where experts refine the data to ensure semantic accuracy and constraint consistency.
+
+   These constraints include Temporal, which re-                                   and potentially introducing additional noise.
+quire the shot to align with conditions related to                                    Based on these considerations, we adopt a
+preceding or following shots or action phases. We                                  constraint-aware topic allocation strategy. Specifi-
+also consider Color, where the overall tone and                                    cally, for each type of constraint, we select a topic
+warmth/coolness of the shot must match the de-                                     set that is highly relevant to its semantic charac-
+scription, capturing the atmospheric differences                                   teristics, and within that set, we aim to cover as
+that color can convey. Additionally, Style are in-                                 diverse a range of video content forms as possible.
+cluded, where the visual style, such as live-action                                At the same time, we deliberately avoid establish-
+footage or 3D/2D animation, must align with the                                    ing a one-to-one correspondence between topics
+description to reflect the impact of style on per-                                 and specific constraints, achieving weak coupling
+ception. Audio are also introduced, requiring the                                  between constraints and video content, thereby re-
+presence of specific sound elements or audiovisual                                 ducing the bias introduced by the content itself.
+relationships, such as speech, background music,                                      In selecting video topics, we refer to the con-
+or environmental sounds, to introduce cross-modal                                  tent classification of the mainstream video platform
+constraints. Finally, Resolution are applied, ensur-                               Youtube. We ultimately selected 20 common video
+ing that technical attributes like clarity meet the                                topics, covering genres such as Variety Shows, An-
+requirements outlined in the description, reflecting                               imation, Dance, Tech, Food, Automotive, Sports,
+limitations on the usability of the footage.                                       Lifestyle Vlogs, Film, TV series, Documentary,
+   Therefore, our research includes 6 task settings.                               Gaming, Music, Knowledge, Fashion, Animals,
+Shot Description, and Shot Description with the                                    Visual Arts, Tourism, Fitness, and Parenting.
+additional constraints of (Temporal, Color, Style,                                    In practical implementation, Shot Description
+Audio, Resolution).                                                                does not impose additional constraint factors, so
+                                                                                   they cover all topic categories to ensure the broad-
+3.2.2 Topic Allocation Strategy                                                    ness of content distribution. For tasks with added
+Different constraint factors exhibit significant dif-                              constraint factors, we select the appropriate topic
+ferences in their semantic and perceptual adaptabil-                               set based on the type of constraint: Temporal
+ity to video content. For example, Color typically                                 mainly corresponds to topics with clear event struc-
+relies on clear visual appearance and color distri-                                tures or action flows, such as knowledge, fitness,
+bution, while Audio focuses more on audio cues                                     food, sports, automobiles, games, movies, and TV
+and their semantic information. If a unified set of                                dramas; Color focuses on topics with significant
+topics is forced across all tasks, it could introduce                              visual features, such as parenting, fashion, technol-
+many samples that are weakly related or even mis-                                  ogy, art, documentaries, and travel; Style covers
+matched with specific constraints, thereby weaken-                                 content types with prominent style attributes, such
+ing the analysis of the influence of the constraints                               as variety shows, animation, games, and music;
+                                                                          15918
+                                                                                                                Search Engine
+                          Input                                       LLM Query                                  Interaction
+                       Shot
+                                                   Video Shot Imagination                                    Search Engine API
+
+                        +
+                    Description
+                                                   Imagining the original video content                     Filter     & Download
+                                                   that includes the given video shot
+                    Constraints
+                     1. Color                      Video-level Queries Generation                            Candidate video pool
+                     2. Style                                                                                 (top-n candidates)
+                     3. Audio                      Generating video-level keywords
+                     4. Resolution                 based on “Imagination”
+                     5. Temporal                                                                      Stage 2 Retriever
+                                             Stage 1 Generator
+
+                                                                          Descriptions
+                                                                                                                          Output
+                            MLLM Grounding
+                                                      Multimodal Grounding
+                                                                                  Text
+                   Shot Frame Sampling
+                                                     Visual Frames
+                                                                                   Match
+                                                                                     ?
+                                                                                                                     The target shot for
+                                                    Audio(optional)
+                                                                                             Verification            successful matching
+                                                                      {Frame K}   N/A
+                                             x n                                                                     of candidate videos
+                 Stage 3 Localizer
+
+
+
+
+Figure 3: Illustration of the ShotFinder method pipeline. (1) Generator, utilizing "Video Imagination" to expand
+shot descriptions into effective search queries; (2) Retriever, fetching and filtering candidate videos from the web;
+and (3) Localizer, employing MLLMs with adaptive frame sampling to precisely locate the target shot.
+
+Audio primarily involves topics with rich audio                                   automated generation phase, ultimately construct-
+information, such as TV dramas, documentaries,                                    ing a dataset of 1,210 high-quality samples.
+dance, and animals; and Resolution corresponds
+to content types that are more sensitive to visual                                3.3      Dataset Statistics
+clarity, such as fashion, movies, lifestyle vlogs,                                As shown in the Figure 7, the benchmark dataset
+and fitness. For detailed classification rules, see                               consists of 1,210 samples, evenly distributed across
+Appendix A.                                                                       six tasks. These tasks cover a diverse range of 20
+3.2.3 Description Generation Pipeline                                             topics, ensuring broad content representation. The
+Model-based Description Generation As shown                                       videos used for this dataset span a wide range of
+in Figure 2(a), to efficiently construct a large-scale                            durations, reflecting a variety of video types. This
+and structurally consistent description dataset, we                               distribution provides a comprehensive foundation
+crawl videos from YouTube and use large models                                    for evaluating the model’s performance across dif-
+for automated description generation. In this phase,                              ferent domains, constraints, and content forms.
+we use Gemini-3-Pro to generate Shot Description,
+                                                                                  3.4      Evaluation Metrics
+as well as various constraint descriptions (such as
+Temporal, Color, Style, Audio, and Resolution).                                   We first attempted to use CLIP-based (Radford
+The generated descriptions provide initial candi-                                 et al., 2021) similarity metrics to evaluate the con-
+date texts for subsequent manual verification. The                                sistency between the model’s retrieval results and
+specific process details and generation templates                                 the target shots. However, in preliminary experi-
+are provided in Appendix C.                                                       ments, we found that this type of global visual-text
+   Human Verification and Refinement As shown                                     embedding metric struggled to effectively capture
+in Figure 2(b), to ensure the accuracy and consis-                                fine-grained description constraints. The evalua-
+tency of the data, we introduce a human verification                              tion results showed significant discrepancies with
+and refinement phase. Specifically, we recruited 10                               human judgment. Relevant analysis and compari-
+researchers with backgrounds in computer science                                  son results are provided in Appendix B.
+to review each of the model-generated descriptions                                   Based on these observations, we further adopt
+manually. During the verification process, anno-                                  large-model-assisted evaluation as the primary eval-
+tators were required to assess the correctness of                                 uation method. Specifically, considering the cost
+the descriptions in terms of semantic, factual, and                               and complexity of directly evaluating video shots,
+constraint consistency, and to revise any errors or                               we use the keyframes of video shots as an approx-
+imprecise statements they identified. Through this                                imate representation of the shot content, with the
+manual correction and revision process, we effec-                                 validity of the keyframes detailed in Appendix 5.3.
+tively eliminated the noise introduced during the                                 For each retrieval result, we input the correspond-
+                                                                       15919
+ing keyframe, the input textual description, and the     4.3    Retriever: Web Video Retrieval
+ground-truth frame into Gemini-2.5-Pro, GPT-5.2,         After generating the search expansion, we perform
+and Claude-4.0-Sonnet, and let them vote to deter-       video retrieval through a search engine to construct
+mine whether the retrieved video shot satisfies the      a candidate video set. Specifically, we use the gen-
+given description in terms of both semantics and         erated keywords to interact with the search engine,
+constraints. The evaluation prompt is provided in        retrieving publicly available video links relevant to
+Appendix D.                                              the query, and then filter out n accessible YouTube
+                                                         video URLs as candidate results.
+4   ShotFinder Method                                       To ensure the stability of subsequent processing,
+                                                         we retain only the links that are successfully ac-
+4.1 Overview                                             cessible and contain complete video content, and
+                                                         download the corresponding video files locally for
+ShotFinder is a video shot retrieval and localization    later description-based shot localization.
+process based on textual descriptions. Given a shot
+description (and optional additional constraints),       4.4    Localizer: Description-guided Temporal
+this method performs three stages: query expan-                 Localization
+sion, candidate video retrieval, and description-        For each candidate video, we employ an adap-
+based temporal localization, as shown in Figure          tive shot sampling strategy based on its dura-
+3. First, the Generator module generates video-          tion. Specifically, we use TransNetV2 (Souček
+level search queries through a video association         and Lokoč, 2020) to segment the video into contin-
+mechanism. Next, the Retriever module fetches a          uous shots and extract the midpoint frame from
+candidate video set from search engines. Finally,        each shot as a representative keyframe. These
+the Localizer module performs temporal localiza-         keyframes serve as an approximate representation
+tion of the target shot based on the description.        of the video content, providing visual input for
+This staged design effectively combines shot-level       subsequent description-based shot localization.
+descriptions with open-domain video retrieval.              During the localization phase, we input the de-
+                                                         scription from which the search queries are gener-
+4.2 Generator: Query Expansion via Video                 ated and the extracted frames into MLLM, and ask
+    Imagination                                          the model to determine which frame matches the
+                                                         given description. For tasks involving Audio, we
+Given a video shot description (and optional addi-
+                                                         additionally provide the video’s audio as input. If
+tional constraint descriptions), one straightforward
+                                                         the model determines that no shot in the candidate
+approach is to ask a large model to summarize the
+                                                         video matches the description, it outputs N/A.
+input text or extract keywords, using them as search
+                                                            Finally, we input the description from which
+queries. However, in preliminary experiments, we
+                                                         the search queries are generated, the ground-truth
+found that this strategy tends to be limited to the
+                                                         frame, and the frame selected by the model into
+local semantics of the shot, making it difficult to
+                                                         three different MLLMs, which vote on whether
+effectively cover high-level concepts commonly
+                                                         the localized shot matches the description. This
+found in real video titles, tags, or descriptions, re-
+                                                         two-stage localization and verification mechanism
+sulting in low retrieval recall.
+                                                         effectively reduces the uncertainty introduced by a
+   To address this, we propose a query expansion         single model judgment.
+strategy based on video imagination. Specifically,
+we guide the model to first infer what type of com-      5     Experiments
+plete video the shot is most likely to appear in—i.e.,
+we ask the model to "imagine" the original video         5.1    Baselines and Settings
+content that includes the shot (such as the video’s      To evaluate the performance of different mod-
+theme), and then generate search keywords based          els, we use both closed-source and open-source
+on this imagination. Unlike text summarization,          models as baselines. The closed-source mod-
+this process incorporates video-level semantics,         els include Gemini-2.5-Pro (DeepMind, 2023),
+making the query more aligned with how videos            Gemini-3-Pro, Claude 4.0 Sonnet (Anthropic,
+are organized and labeled on online platforms. The       2024), GPT-5.2 (OpenAI, 2024), and GPT-5-mini
+imagination prompt is in Appendix E.                     (OpenAI, 2024), while the open-source models
+                                                    15920
+                                                                                                                                                       Shot                Temporal                Color                       Style                   Resolution                                       Audio                            Avg.
+                                                                            Human                                                                      85.1                         91.6               91.4                     83.3                             91.7                                    87.5                             88.5
+                                                                            Closed-source Models
+                                                                            Gemini-3-Pro                                                               22.5                         31.0               15.7                     26.5                             21.0                                    30.0                             24.4
+                                                                            Gemini-2.5-Pro                                                             23.5                         29.5               12.9                     17.5                             18.5                                    26.5                             21.3
+                                                                            GPT-5.2                                                                    25.5                         35.5               15.7                     32.5                             26.0                                     –                               26.9
+                                                                            GPT-5-mini                                                                 12.0                         21.0               10.5                     17.0                             16.0                                     –                               15.2
+                                                                            Claude-4.0-Sonnet                                                          18.0                         30.0                8.1                     15.5                             19.5                                     –                               18.1
+                                                                            Open-source Models
+                                                                            Qwen3-Omni-30B-A3B                                                         19.0                         33.0               11.4                     18.5                             17.5                                    21.0                             20.0
+                                                                            Qwen3-VL-235B-A22B                                                         18.5                         28.5               20.5                     17.0                             18.5                                     –                               20.6
+                                                                            InternVL3.5-241B-A28B                                                      20.0                         20.8               16.7                     20.8                             20.8                                     –                               19.8
+                                                                            VideoLLaMA3-7B                                                             15.0                         12.5               12.5                     16.7                             16.7                                     –                               14.7
+
+                                           Table 1: Performance comparison of closed-source and open-source models on ShotFinder benchmark.
+
+                                      $4XHU\([SDQVLRQM × N                                  %5HWULHYDO9ROXPHM × N                                                
+                                                                                                                                                                                                                                       JRRJOHVHDUFK
+                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                          GXFNGXFNJR                                     \RXWXEHVHDUFK
+                                                                                                                                                                                                                
+3HUIRUPDQFH
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                 
+
+
+
+
+                                                                                                                                                                                                   6FRUH
+                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                          
+
+
+                                                                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                               
+                                         î                    î                        î                   î                     î                  î                                       
+                                      6PDOO            %DVH                 /DUJH           6PDOO              %DVH            /DUJH                                         6KRW           7HPSRUDO         &RORU                     6W\OH                    $XGLR 5HVROXWLRQ $YHUDJH
+                                                                         $YHUDJH                  6KRW                7HPSRUDO              &RORU
+                                                                                      6W\OH                  $XGLR              5HVROXWLRQ
+                                                                                                                                                                                                                                      Figure 6: Ablation on search engine.
+Figure 4: Results of further analysis. Notation
+(M × N) : M = Search Queries, N = Candidate                                                                                                                                                           Human vs. Model Comparison Human evalua-
+URLs per Query.                                                                                                                                                                                    tion performs the best across all categories, and the
+                                                                                                                               ZRLPDJLQH                ZLPDJLQH
+                                                                                                                                                                                                   best-performing models show significant discrep-
+                                                                                                                                         
+                                                                                                                                                                                                   ancies compared to human evaluation, highlighting
+                                                                                                                                                                                       the challenge of the benchmark. Human evaluation
+                                                                                                                          
+                                                                                                                                                                                                   can consider the details of video shots, including
+                             
+ 6FRUH
+
+
+
+
+                                                                                                                                                                                           style, color, and other subtle details, while existing
+                             
+                                                
+                                                                                                                                                      
+                                                                                                                                                                                                   models struggle to capture these details.
+                                                                                                                                                                         
+                                                                                                                                                                                                      Closed-source Models Among the closed-
+                                                                                              
+                                                                                                                                                                                             source models, GPT-5.2 performs the best with an
+                                 
+                                                  6KRW     7HPSRUDO
+                                                                                     
+                                                                                     &RORU           6W\OH        5HVROXWLRQ      $XGLR             $YJ
+                                                                                                                                                                                                   average accuracy of 26.9%, showing strong perfor-
+                                                                                                                                                                                                   mance in most categories, especially in Temporal
+                                              Figure 5: Ablation on video imagination.                                                                                                             and Style. However, its performance in Color is rel-
+                                                                                                                                                                                                   atively low. Gemini-3-Pro follows closely with an
+include Qwen3-VL-235B-A22B-Instruct (Yang                                                                                                                                                          average accuracy of 24.4%, excelling in Temporal
+et al., 2025), Qwen3-Omni-30B-A3B-Instruct (Xu                                                                                                                                                     and Audio, but lagging behind in Color. GPT-5-
+et al., 2025), InternVL3.5-241B-A28B (Wang et al.,                                                                                                                                                 mini and Claude-4.0-Sonnet show lower overall
+2025b), and VideoLLaMA3-7B (Zhang et al.,                                                                                                                                                          performance, indicating that smaller or less special-
+2025a). In this experiment, we consistently use                                                                                                                                                    ized models struggle more in this benchmark.
+Gemini-2.5-Pro, GPT-5.2, and Claude-4.0-Sonnet                                                                                                                                                        Open-source Models The Qwen3 series demon-
+for evaluation. Each model generates two search                                                                                                                                                    strates competitive performance, with Qwen3-VL-
+queries, with two URLs extracted for each query.                                                                                                                                                   235B-A22B scoring an average of 20.6. While
+To maintain consistency, all models are accessed                                                                                                                                                   it slightly outperforms Gemini-3-Pro in Color, it
+via API calls with the temperature set to 0.                                                                                                                                                       does not surpass closed-source models in Tempo-
+                                                                                                                                                                                                   ral and Style. Qwen3-Omni-30B-A3B shows sim-
+5.2 Main Results                                                                                                                                                                                   ilar results, with an average accuracy of 20.0%,
+Table 1 presents the performance of different mod-                                                                                                                                                 performing strongly in Temporal and Audio.
+els on ShotFinder, with the key conclusions:                                                                                                                                                          Performance Trends Temporal is the best-
+                                                                                                                                                                                                15921
+performing category across all tasks. Color is gen-      case study is detailed in Appendix G.3.
+erally lower, but the gap between closed-source             Sensitivity to Search Engine Choice. We com-
+and open-source models in these categories is not        pare Google Search, DuckDuckGo, and YouTube
+significant. Style shows a larger split, with mod-       Search under identical settings. As shown in Fig-
+els like GPT-5.2 and Gemini-3-Pro having signifi-        ure 6, overall performance remains comparable
+cantly stronger capabilities.                            across engines (20.7–25.0 average). Google Search
+   Model Scalability Larger models do not neces-         performs best overall, while DuckDuckGo shows
+sarily lead to better performance across all cate-       stronger results on Temporal and Color but weaker
+gories. Qwen3-Omni-30B-A3B performs close to             results on Shot and Audio. We therefore use
+GPT-5.2 on Temporal. Both GPT-5.2 and Gemini-            Google Search as the default retriever.
+3-Pro show stable performance with their larger             Reproducibility Analysis. We run the full
+architectures, but smaller open-source models still      pipeline three times under identical settings and
+deliver reasonable results.                              report the mean, standard deviation, and variance
+                                                         in Table 3. All metrics show low standard deviation
+5.3 Further Analysis                                     (0–2.67), with an average variance of only 1.14, in-
+In this section, we randomly selected a subset of the    dicating stable and reproducible results despite the
+data for further analysis. Detailed further analysis     use of closed-source models and external APIs.
+data information can be found in Appendix F.                Prompt Sensitivity Analysis. We test three se-
+   Effectiveness of the number of search queries.        mantically equivalent evaluator prompts with un-
+As shown in Figure 4A, increasing the number of          changed criteria. As shown in Table 2, the average
+queries (from 1×2 to 3×2) significantly improves         variance is only 0.11, with five of six categories
+the model’s performance, especially in Shot and          showing zero variance and only minor fluctuation
+Style. This indicates that increasing the number of      in Color. This indicates that the evaluation is ro-
+queries helps bridge the granularity gap between         bust to prompt wording.
+shot-level descriptions and video-level metadata.           Keyframe vs. Shot-level Evaluation. To assess
+Although the performance improvement in Color            whether keyframe-based evaluation biases results,
+is relatively small, Temporal and Style show clear       we compare it with full-shot human judgment on
+benefits with an increase in the number of queries,      50 random instances. As shown in Table 5, the
+suggesting that additional queries can better cap-       two protocols reach 98% agreement. The few dis-
+ture complex temporal and style features.                agreements mainly involve shots with substantial
+   Effectiveness of the number of downloaded             semantic variation, suggesting that keyframes are a
+videos. As shown in Figure 4B, increasing the num-       practical and reliable proxy for large-scale evalua-
+ber of videos downloaded per query (from 2×1 to          tion.
+2×3) improves the model’s overall performance,              Latency Breakdown In Table 5, we report the
+particularly in Shot and Audio. This suggests that       average per-sample latency of each pipeline stage
+more candidate videos provide additional match-          with a parallelism level of 5. The full pipeline
+ing information, especially for features that are        takes about 6 minutes, dominated by downloading
+difficult to obtain directly through simple descrip-     (40.4%), followed by search (29.3%) and temporal
+tions. However, the improvement in Resolution is         grounding (21.1%). This suggests an I/O-bound
+relatively slow, indicating that its improvement is      bottleneck, which could be reduced through higher
+related to the inherent quality of the video, rather     parallelism, streaming extraction, and caching.
+than the number of retrieved candidates.                    Failure cases. In this study, we analyzed com-
+   Effectiveness of video imagination. We com-           mon pipeline errors. Generator errors occur when
+pare NoImagine, which directly generates search          the MLLM misinterprets input, causing incorrect
+keywords from the input description, with Imag-          search expansions and irrelevant video retrieval.
+ine, which first infers the likely full-video context.   Partial search expansions can also omit crucial in-
+As shown in Figure 5, Imagine improves average           formation, leading to irrelevant or partially relevant
+accuracy by 10.7 points, with gains across all cat-      videos and inaccurate shot localization. Retriever
+egories, especially Resolution and Audio (+12.5          errors happen when the MLLM generates accurate
+each). This improvement suggests that video imag-        search expansions, but the retrieval stage either
+ination helps bridge the gap between fine-grained        fails to find valid videos or retrieves irrelevant ones,
+shot descriptions and video-level metadata. The          leading to incorrect frame extraction. Localizer er-
+                                                    15922
+rors arise when, despite accurate search expansions      discussions during the idea proposal stage: Yan-
+and relevant video retrieval, issues with frame sam-     pei Gong, Yuancheng Liu, Yiming Ding, Kangwei
+pling lead to incorrect frames being extracted, or       Zeng, Pengfei Yang, Zhongtian Luo, Jiaqi Liu.
+when the model mistakenly issues a judgment that            This work was jointly supported by National
+contradicts human annotations. A more detailed           Natural Science Foundation of China (62322607,
+analysis can be found in Appendix G.2.                   62236010 and 62276261), Beijing Natural Science
+                                                         Foundation (L252033).
+6   Conclusion
+                                                         Ethical Considerations
+In this paper, we propose ShotFinder, a benchmark
+for open-domain video shot retrieval in realistic        In this study, we only crawl publicly available,
+video editing scenarios and an imagination-driven        non-infringing video content from the YouTube
+retrieval method. ShotFinder benchmark evaluates         platform and adhere to the platform’s terms of ser-
+MLLMs based on shot descriptions and five practi-        vice and privacy policy. All data is used solely
+cally meaningful constraint dimensions. Through          for academic research, with strict measures to en-
+MLLM evaluations, we identify significant capabil-       sure anonymity and privacy protection. The models
+ity gaps both among existing models and between          used in this study are accessed via API calls, ensur-
+models and humans, and reveal the challenges             ing compliance with the terms of service set by the
+faced by current MLLMs in video shot retrieval           respective API providers. The models themselves
+tasks as well as their optimization directions.          were neither distributed nor modified in any way,
+                                                         ensuring that no intellectual property rights were
+Limitations                                              violated. The benchmark is intended solely for aca-
+This study has several limitations. (1) In this study,   demic research purposes. We do not redistribute
+we used key frames as a substitute for the full video    raw YouTube videos. Any future use of the bench-
+shots, considering the cost and complexity of work-      mark should comply with original YouTube Terms
+ing with complete video clips. Future work will          of Service and applicable copyright regulations.
+explore better methods for handling entire video
+shots. (2) Currently, we have focused on the impact      References
+of single-factor constraints on video editing. Multi-
+                                                         Anthropic. 2024. Claude 3 models. https://www.
+factor narrative editing, which is a more complex
+                                                           anthropic.com/index/introducing-claude-3.
+and realistic challenge, requires addressing com-          Accessed: 2025-09-21.
+bined constraints in a holistic manner, and we plan
+to explore solutions for this in future research. (3)    Nicolas Bonneel, Kalyan Sunkavalli, Sylvain Paris, and
+                                                           Hanspeter Pfister. 2013. Example-based video color
+For query generation, we employed single-turn in-          grading. ACM Trans. Graph., 32(4):39–1.
+teractions, but we aim to expand to multi-turn inter-
+actions in future iterations. After retrieving videos    Constantinos K Coursaris, Sarah J Swierenga, and Ethan
+                                                           Watrall. 2008. An empirical investigation of color
+from search engines, we applied basic usability fil-
+                                                           temperature and gender effects on web aesthetics.
+tering, but we intend to implement more refined            Journal of usability studies, 3(3):103–117.
+filtering based on HTML metadata from webpages
+for deeper content assessment. (4) Due to cost           Google      DeepMind.      2023.              Gem-
+                                                           ini:         Google’s     multimodal      models.
+constraints and task complexity, we only evaluate a        Https://deepmind.google/technologies/gemini/.
+limited set of state-of-the-art models with relatively
+strong capabilities. As more powerful models be-         Jort F Gemmeke, Daniel PW Ellis, Dylan Freedman,
+                                                           Aren Jansen, Wade Lawrence, R Channing Moore,
+come available in the future, we plan to expand the         Manoj Plakal, and Marvin Ritter. 2017. Audio set:
+range of evaluated models accordingly.                     An ontology and human-labeled dataset for audio
+                                                            events. In 2017 IEEE international conference on
+Acknowledgments                                             acoustics, speech and signal processing (ICASSP),
+                                                            pages 776–780. IEEE.
+Thank these students for their contributions dur-
+ing the data quality revision phase: Shaoxiong           Xinyu Geng, Peng Xia, Zhen Zhang, Xinyu Wang, Qi-
+                                                           uchen Wang, Ruixue Ding, Chenxi Wang, Jialong
+Cheng, Ruilin Huang, Shuo Li, Yuxi Niu, Xinyuan            Wu, Yida Zhao, Kuan Li, et al. 2025. Webwatcher:
+Zhang, Yueya Xu, Jie Mao, Ruixuan Ji, Yaru Zhao,           Breaking new frontiers of vision-language deep re-
+Mingchen Zhang. Thank these students for their             search agent. arXiv preprint arXiv:2508.05748.
+                                                    15923
+Silvio Giancola, Mohieddine Amine, Tarek Dghaily,          Zhengwei Tao, Jialong Wu, Wenbiao Yin, Junkai Zhang,
+   and Bernard Ghanem. 2018. Soccernet: A scal-              Baixuan Li, Haiyang Shen, Kuan Li, Liwen Zhang,
+   able dataset for action spotting in soccer videos. In     Xinyu Wang, Yong Jiang, Pengjun Xie, Fei Huang,
+   2018 IEEE/CVF Conference on Computer Vision               and Jingren Zhou. 2025. Webshaper: Agentically
+   and Pattern Recognition Workshops (CVPRW), page           data synthesizing via information-seeking formaliza-
+   1792–179210. IEEE.                                        tion. Preprint, arXiv:2507.15061.
+
+Vlad Hosu, Hanhe Lin, Tamas Sziranyi, and Dietmar          Yapeng Tian, Jing Shi, Bochen Li, Zhiyao Duan,
+  Saupe. 2020. Koniq-10k: An ecologically valid              and Chenliang Xu. 2018. Audio-visual event
+  database for deep learning of blind image quality          localization in unconstrained videos. Preprint,
+  assessment. IEEE Transactions on Image Process-            arXiv:1803.08842.
+  ing, 29:4041–4056.
+                                                           Zhengzhong Tu, Yilin Wang, Neil Birkbeck, Balu
+Zhijian Hou, Wanjun Zhong, Lei Ji, Difei Gao, Kun Yan,       Adsumilli, and Alan C. Bovik. 2021. Ugc-vqa:
+  Wing-Kwong Chan, Chong-Wah Ngo, Zheng Shou,                Benchmarking blind video quality assessment for
+  and Nan Duan. 2023. Cone: An efficient coarse-to-          user generated content. IEEE Transactions on Image
+  fine alignment framework for long video temporal           Processing, 30:4449–4464.
+  grounding. Preprint, arXiv:2209.10918.
+                                                           Haibo Wang, Zhiyang Xu, Yu Cheng, Shizhe Diao, Yu-
+Bin Huang, Xin Wang, Hong Chen, Zihan Song, and              fan Zhou, Yixin Cao, Qifan Wang, Weifeng Ge, and
+  Wenwu Zhu. 2023. Vtimellm: Empower llm to grasp            Lifu Huang. 2025a. Grounded-videollm: Sharpen-
+  video moments. Preprint, arXiv:2311.18445.                 ing fine-grained temporal grounding in video large
+                                                             language models. Preprint, arXiv:2410.03290.
+Bowen Jin, Hansi Zeng, Zhenrui Yue, Jinsung Yoon,
+  Sercan Arik, Dong Wang, Hamed Zamani, and Jiawei         Weiyun Wang, Zhangwei Gao, Lixin Gu, Hengjun Pu,
+  Han. 2025. Search-r1: Training llms to reason and         Long Cui, Xingguang Wei, Zhaoyang Liu, Linglin
+  leverage search engines with reinforcement learning.      Jing, Shenglong Ye, Jie Shao, Zhaokai Wang, Zhe
+  Preprint, arXiv:2503.09516.                               Chen, Hongjie Zhang, Ganlin Yang, Haomin Wang,
+                                                            Qi Wei, Jinhui Yin, Wenhao Li, Erfei Cui, and 56
+Jie Lei, Tamara L. Berg, and Mohit Bansal. 2021.            others. 2025b. Internvl3.5: Advancing open-source
+   Qvhighlights: Detecting moments and highlights           multimodal models in versatility, reasoning, and effi-
+   in videos via natural language queries. Preprint,        ciency. Preprint, arXiv:2508.18265.
+   arXiv:2107.09609.
+                                                           Xinming Wang, Weinong Wang, Hongming Yang, Yan-
+Chen Yi Lu, Md Mehrab Tanjim, Ishita Dasgupta,               song Lin, Zheng Ruan, Shangpin Peng, Qiming Peng,
+  Somdeb Sarkhel, Gang Wu, Saayan Mitra, and So-             Nan Qiao, Fengyuan Lu, Guoqing Ma, et al. 2026.
+  mali Chaterji. 2025. Skald: Learning-based shot            Beyond correctness: Benchmarking and aligning re-
+  assembly for coherent multi-shot video creation.           sponse behaviors in hybrid-thinking mllms. arXiv
+  Preprint, arXiv:2503.08010.                                preprint arXiv:2608.12781.
+
+OpenAI. 2024. Gpt-4 technical report.                      Xinming Wang, Jian Xu, Aslan H Feng, Yi Chen,
+                                                             Haiyang Guo, Fei Zhu, Yuanqi Shao, Minsi Ren,
+Alejandro Pardo, Fabian Caba Heilbron, Juan León             Hongzhu Yi, Sheng Lian, et al. 2025c. The hitch-
+  Alcázar, Ali Thabet, and Bernard Ghanem. 2021.             hiker’s guide to autonomous research: A survey
+  Learning to cut by watching movies. Preprint,              of scientific agents. TechRxiv.August 07, 2025.
+  arXiv:2108.04294.                                          DOI:10.36227/techrxiv175459840.02185500/V1.
+
+Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya         Jialong Wu, Baixuan Li, Runnan Fang, Wenbiao Yin,
+  Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sas-          Liwen Zhang, Zhengwei Tao, Dingchu Zhang, Zekun
+  try, Amanda Askell, Pamela Mishkin, Jack Clark,             Xi, Yong Jiang, Pengjun Xie, Fei Huang, and
+  Gretchen Krueger, and Ilya Sutskever. 2021. Learn-          Jingren Zhou. 2025a. Webdancer: Towards au-
+  ing transferable visual models from natural language        tonomous information seeking agency. Preprint,
+  supervision. Preprint, arXiv:2103.00020.                    arXiv:2505.22648.
+
+Shuhuai Ren, Linli Yao, Shicheng Li, Xu Sun, and           Jialong Wu, Wenbiao Yin, Yong Jiang, Zhenglin Wang,
+  Lu Hou. 2024. Timechat: A time-sensitive multi-             Zekun Xi, Runnan Fang, Deyu Zhou, Pengjun Xie,
+  modal large language model for long video under-            and Fei Huang. 2025b. Webwalker: Benchmarking
+  standing. Preprint, arXiv:2312.02051.                       llms in web traversal. Preprint, arXiv:2501.07572.
+
+Stephan R. Richter, Vibhav Vineet, Stefan Roth, and        Jin Xu, Zhifang Guo, Hangrui Hu, Yunfei Chu, Xiong
+  Vladlen Koltun. 2016. Playing for data: Ground truth        Wang, Jinzheng He, Yuxuan Wang, Xian Shi, Ting
+   from computer games. Preprint, arXiv:1608.02192.           He, Xinfa Zhu, Yuanjun Lv, Yongqi Wang, Dake
+                                                              Guo, He Wang, Linhan Ma, Pei Zhang, Xinyu
+Tomáš Souček and Jakub Lokoč. 2020. Transnet v2:            Zhang, Hongkun Hao, Zishan Guo, and 19 oth-
+  An effective deep network architecture for fast shot        ers. 2025. Qwen3-omni technical report. Preprint,
+  transition detection. Preprint, arXiv:2008.04838.           arXiv:2509.17765.
+                                                      15924
+An Yang, Anfeng Li, Baosong Yang, Beichen Zhang,           Tao Yu, Yi-Fan Zhang, Chaoyou Fu, Junkang Wu,
+  Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao,                Jinda Lu, Kun Wang, Xingyu Lu, Yunhang Shen,
+  Chengen Huang, Chenxu Lv, Chujie Zheng, Day-               Guibin Zhang, Dingjie Song, Yibo Yan, Tianlong
+  iheng Liu, Fan Zhou, Fei Huang, Feng Hu, Hao               Xu, Qingsong Wen, Zhang Zhang, Yan Huang, Liang
+  Ge, Haoran Wei, Huan Lin, Jialong Tang, and 41             Wang, and Tieniu Tan. 2025a. Aligning multimodal
+  others. 2025. Qwen3 technical report. Preprint,            llm with human preference: A survey. Preprint,
+  arXiv:2505.09388.                                          arXiv:2503.14504.
+Guoxing Yang, Haoyu Lu, Zelong Sun, and Zhiwu Lu.          Tao Yu, Zhengbo Zhang, Zhiheng Lyu, Junhao Gong,
+  2023. Shot retrieval and assembly with text script for     Hongzhu Yi, Xinming Wang, Yuxuan Zhou, Ji-
+  video montage generation. ICMR ’23.                        abing Yang, Ping Nie, Yan Huang, and Wenhu Chen.
+                                                             2025b. Browseragent: Building web agents with
+Tao Yu, Yifei Qu, Zhiqing Cui, Pengfei Zhou, Zhong-          human-inspired web browsing actions. Preprint,
+  tian Luo, Yujia Yang, Shenghua Chai, Haopeng               arXiv:2510.10666.
+  Jin, Zhenghao Zhang, Xinming Wang, Hongzhu Yi,
+  Wangbo Zhao, Zhenglin Wan, Yan Huang, Yeshani,           Boqiang Zhang, Kehan Li, Zesen Cheng, Zhiqiang Hu,
+  Jinwen Luo, and Yang You. 2026a. Scope-router:             Yuqian Yuan, Guanzheng Chen, Sicong Leng, Yum-
+  Cost-aware open-set vlm routing for execution-             ing Jiang, Hang Zhang, Xin Li, Peng Jin, Wenqi
+  oriented tasks. Preprint, arXiv:2608.12127.                Zhang, Fan Wang, Lidong Bing, and Deli Zhao.
+                                                             2025a. Videollama 3: Frontier multimodal foun-
+Tao Yu, Hao Wang, Changyu Li, Shenghua Chai,
+                                                             dation models for image and video understanding.
+  Minghui Zhang, Zhongtian Luo, Yuxuan Zhou,
+                                                             Preprint, arXiv:2501.13106.
+  Haopeng Jin, Zhaolu Kang, Jiabing Yang, YiFan
+  Zhang, Xinming Wang, Hongzhu Yi, Zheqi He, Jing-         Yi-Fan Zhang, Tao Yu, Haochen Tian, Chaoyou Fu,
+  Shu Zheng, Xi Yang, Yan Huang, and Liang Wang.             Peiyan Li, Jianshu Zeng, Wulin Xie, Yang Shi,
+  2026b. Beyond the all-in-one agent: Benchmarking           Huanyu Zhang, Junkang Wu, Xue Wang, Yibo Hu,
+  role-specialized multi-agent collaboration in enter-       Bin Wen, Fan Yang, Zhang Zhang, Tingting Gao,
+  prise workflows. Preprint, arXiv:2605.08761.               Di Zhang, Liang Wang, Rong Jin, and Tieniu Tan.
+Tao Yu, Yujia Yang, Shenghua Chai, Zhang Jinshuai,           2025b. Mm-rlhf: The next step forward in multi-
+  Haopeng Jin, Hao Wang, Minghui Zhang, Zhong-               modal llm alignment. Preprint, arXiv:2502.10391.
+  tian Luo, Yuchen Long, Xinlong Chen, Jiabing Yang,       Luowei Zhou, Chenliang Xu, and Jason J. Corso. 2017.
+  Zhaolu Kang, Yuxuan Zhou, Zhengyu Man, Xinming             Towards automatic learning of procedures from web
+  Wang, Hongzhu Yi, Zheqi He, Xi Yang, Yan Huang,            instructional videos. Preprint, arXiv:1703.09788.
+  and Liang Wang. 2026c. When seeing is not believ-
+  ing – a benchmark for search-grounded video misin-       Yuxuan Zhou, Yang Bai, Kuofeng Gao, Tao Dai, and
+  formation detection. Preprint, arXiv:2606.04098.           Shu-Tao Xia. 2025a. Jpro: Automated multimodal
+                                                             jailbreaking via multi-agent collaboration framework.
+Tao Yu, Yujia Yang, Haopeng Jin, Junhao Gong,
+                                                             arXiv preprint arXiv:2511.07315.
+  Xinlong Chen, Yuxuan Zhou, Shanbin Zhang, Ji-
+  abing Yang, Xinming Wang, Hongzhu Yi, Ping Nie,          Yuxuan Zhou, Yuzhao Peng, Yang Bai, Kuofeng Gao,
+  Kai Zou, Zhang Zhang, Yan Huang, Liang Wang,               Yihao Zhang, Yechao Zhang, Xun Chen, Tao Yu, Tao
+  Yeshani, Ruiwen Tao, Jin Ma, Haijin Liang, and Jin-        Dai, and Shu-Tao Xia. 2025b. Why does weak-ood
+  wen Luo. 2026d. Beyond closed-pool video retrieval:        help? a further step towards understanding jailbreak-
+  A benchmark and agent framework for real-world             ing vlms. arXiv preprint arXiv:2511.08367.
+  video search and moment localization. Preprint,
+  arXiv:2602.10159.                                        Yuxuan Zhou, Tao Yu, Wen Huang, Yuheng Zhang, Tao
+                                                             Dai, and Shu-Tao Xia. 2025c. Improving deepfake
+Tao Yu, yiming ding, Shenghua Chai, Minghui Zhang,           detection with reinforcement learning-based adaptive
+  Zhongtian Luo, Xinming Wang, Xinlong Chen,                 data augmentation. Preprint, arXiv:2511.07051.
+  Zhaolu Kang, Junhao Gong, Yuxuan Zhou, Haopeng
+  Jin, Zhiqing Cui, Jiabing Yang, YiFan Zhang,
+  Hongzhu Yi, Zheqi He, Xi Yang, Yan Huang, and
+  Liang Wang. 2026e. Omni-deepsearch: A bench-
+  mark for audio-driven omni-modal deep search.
+  Preprint, arXiv:2605.08762.
+Tao Yu, Minghui Zhang, Zhiqing Cui, Hao Wang,
+  Zhongtian Luo, Shenghua Chai, Junhao Gong,
+  Yuzhao Peng, Yuxuan Zhou, Yujia Yang, Zhenghao
+  Zhang, Haopeng Jin, Xinming Wang, Yufei Xiong,
+  Jiabing Yang, Jiahao Yuan, Hanqing Wang, Hongzhu
+  Yi, Yan Huang, and Liang Wang. 2026f. Paperx:
+  A unified framework for multimodal academic pre-
+  sentation generation with scholar dag. Preprint,
+  arXiv:2602.03866.
+                                                      15925
+Appendix                                                 distribution, the ratio of Pre-context, Post-context,
+                                                         and both is 75:75:50, with topics in each category
+A Theme Classification                            12     distributed equally.
+
+B Model Evaluation vs. Human Evaluation 13               Color To create clear color boundaries, we ap-
+                                                         plied strategic sampling: we mapped Parenting
+C Description Generation                          13     and Fashion to warm tones, utilizing the family
+  C.1 Data Acquisition . . . . . . . . .          13     warmth in Parenting content and the warm light-
+  C.2 Description Generation Prompts .            14     ing in Fashion videos, which statistically form a
+       C.2.1 Filtering Prompts . . . . .          14     significant contrast with cool-toned backgrounds;
+       C.2.2 Frame Description Prompt             15     Tech and Art were assigned to cool tones because
+       C.2.3 JSON Validation Prompt .             15     technology and digital art images frequently use
+                                                         cool hues (blue/cyan), high-saturation composite
+D Evaluation                                      16     colors, and metallic finishes, enhancing the seman-
+                                                         tics of “precision,” “technological maturity,” and
+E Imagination                                     17
+                                                         “futurism”—cool tones create a perception of tech-
+F Further Analysis                                18     nology and objectivity visually (Coursaris et al.,
+                                                         2008), making them widely used in product illustra-
+G Case study                                      19     tions and digital art; Finally, we used Documentary
+  G.1 Case study for verification. . . . .        19     and Travel as neutral categories, retaining natural
+  G.2 Case study for errors occured in                   light distribution from the real world and avoiding
+       pipeline . . . . . . . . . . . . . .       20     overly stylized color grading, serving as the true
+       G.2.1 Generator errors . . . . .           20     visual baseline for the dataset. For data distribution,
+       G.2.2 Retriever errors . . . . . .         22     the ratio of warm tones, cool tones, and neutral is
+       G.2.3 Localizer errors . . . . . .         24     70:70:70, with topics in each category distributed
+  G.3 Case Study for video imagination .          27     equally.
+
+H Annotation Guidelines                           27     Style This choice achieves strict balanced distri-
+                                                         bution by assigning a single representative category
+A    Theme Classification                                to each quadrant. Variety Shows are the primary
+                                                         Live-action component, characterized by standard
+Temporal To strictly define the ratio of Pre-            studio shooting techniques; Animation is explic-
+context, we selected categories such as Knowledge,       itly defined as 2D Animation; Gaming represents
+Fitness, and Food, as these topics inherently have       3D Animation/Rendering, as discussed by (Richter
+a strong process-oriented nature. As described by        et al., 2016), where modern game engines generate
+(Zhou et al., 2017) in their research on learning        realistic images but differ fundamentally in tex-
+steps through instructional videos, such content         ture mapping and lighting calculations from real
+relies on initial “ingredients” or “instructions” to     cameras, helping the model distinguish between
+build subsequent temporal logic; viewers must un-        passive CGI and real-time rendering. Lastly, Music
+derstand the prerequisites to grasp the core con-        was chosen as the representative of Pure Graphics,
+tent. For Post-context categories, we chose Sports,      particularly for lyric videos and dynamic typogra-
+Automotive, and Gaming. Based on (Giancola               phy, where high-density overlay text and dynamic
+et al., 2018) research on action recognition in sports   graphics create unique visual features, ensuring the
+videos, the semantic focus of such content often         model can effectively recognize and process non-
+shifts to “event outcomes” (e.g., goals, win/loss sta-   natural scene content dominated by text elements
+tus, race rankings), making their temporal ground-       and user interfaces. For data distribution, the ratio
+ing dependent on final discrete results rather than      of live-action, 2D animation, 3D animation, and
+initial states. Movies and TV Series are isolated        pure graphics is 50:50:50:50, with topics in each
+in the Pre-context and Post-context category be-         category distributed equally.
+cause they represent complex narrative structures,
+requiring both setup and resolution, and this bidi-      Audio To satisfy the 100:50:50 ratio, we priori-
+rectional temporal dependency aligns with the nar-       tized Human Voice, selecting TV Series and Doc-
+rative coherence required in narratology. For data       umentaries because these dialogue-driven genres
+                                                    15926
+provide the most continuous speech signals. This        a case study in Appendix G.1. In our experiments,
+aligns with (Gemmeke et al., 2017), whose Au-           we set the CLIP similarity score threshold to 0.7.
+dioSet ontology identifies “Human Voice” as the
+core, essential explicit signal for video semantic      C     Description Generation
+understanding. Dance was selected to represent          C.1    Data Acquisition
+Music because its visual choreography is strictly
+synchronized with the audio rhythm, offering su-        The benchmark dataset is collected from YouTube,
+perior multimodal alignment compared to mixed           covering six task categories designed to evaluate
+audio types. Finally, Animals was chosen to rep-        multimodal understanding capabilities in video
+resent Ambient Sound, as this content is mainly         editing scenarios. The data acquisition process
+filmed in natural, outdoor environments, ensuring       varies based on task requirements, with different
+that the audio track is naturally dominated by bio-     preprocessing and filtering strategies applied to
+logical calls and environmental textures (e.g., wind,   different task types.
+water sounds), rather than human noise or dialogue.
+For data distribution, the ratio of human voice, mu-
+                                                        Task Categories The dataset includes six
+sic sound effects, and ambient sound is 100:50:50,
+                                                        task types: shot detection, temporal grounding,
+with topics in each category distributed equally.
+                                                        resolution classification, color classification, style
+Resolution We built a 100:100 (1:1) split be-           classification, and audio description. Each task
+tween professionally produced content and user-         targets a specific aspect of video editing tasks.
+generated content (UGC). Fashion and Movies
+serve as anchors at 1080p (High-Res), as these
+genres inherently prioritize extreme visual fidelity    Standard Tasks (Direct Collection) For shot
+and complex color grading to provide an immer-          detection, temporal grounding, and resolution
+sive viewing experience, providing the model with       classification tasks, video segments are directly
+clean, artifact-free reference samples. In contrast,    collected through keyword-based YouTube search
+Life Vlogs and Fitness are mapped to 720p (Low/-        and undergo standard preprocessing without
+Variable Res) to capture “outdoor” authenticity;        additional filtering requirements. These tasks focus
+this aligns with (Hosu et al., 2020), which empha-      on structural and technical attributes that can be
+sizes the necessity of learning from real distortion.   reliably extracted through automated processing.
+These categories introduce typical mobile filming
+artifacts such as focus errors and compression ar-
+                                                        Filtered Tasks (Dual-Model Strategy) For
+tifacts, training the model to robustly handle the
+                                                        color classification, style classification, and audio
+diverse quality spectrum found in real-world social
+                                                        description tasks, video segments require specific
+media streams. For data distribution, the ratio of
+                                                        characteristics that cannot be directly obtained
+1080p and 720p is 100:100, with topics in each
+                                                        through metadata or keyword search. Since these
+category distributed equally.
+                                                        attributes are intrinsically linked to video content
+B   Model Evaluation vs. Human                          rather than searchable metadata, we employ
+    Evaluation                                          automated filtering strategies to ensure data quality.
+
+As shown in Figure 8, we present the confusion
+matrices between CLIP evaluation and human eval-
+uation, as well as between MLLM voting-based            Dual-Model Filtering for Color and Style For
+evaluation and human evaluation. From the figure,       color and style classification tasks, we implement a
+it is evident that there is a significant discrepancy   parallel dual-model filtering mechanism using both
+between CLIP evaluation and human evaluation,           Qwen-2.5-VL-72B and Gemini-3-Pro to ensure
+whereas MLLM evaluation aligns closely with hu-         annotation consistency and reduce model bias.
+man evaluation in most cases. This indicates that,      Both models independently analyze the same video
+in this experiment, the CLIP evaluation method          frames, and they must reach agreement on the
+is not suitable, while the voting-based judgments       classification results meeting the requirements for
+of MLLMs demonstrate strong reliability and can         them to be considered valid. The system automati-
+effectively replace human evaluation. We provide        cally retries up to 3 times if either model returns
+                                                   15927
+unknown or ambiguous results. Only frames              embeddings. If all pairwise similarities exceed
+where both models agree on the same category           0.8, indicating insufficient temporal variation, the
+are retained in the dataset. This consensus-based      entire sequence is discarded and a new target times-
+approach significantly improves filtering accuracy     tamp is randomly selected. This process repeats
+and ensures consistent annotation quality.             until a sequence with adequate temporal diversity
+                                                       is obtained. This strategy ensures that the extracted
+                                                       frames capture meaningful temporal changes rather
+Automated Audio Filtering For the audio                than static scenes.
+description task, we use Gemini-3-Pro with an
+automated audio quality assessment system to filter    C.2     Description Generation Prompts
+video segments. The system analyzes whether the        C.2.1    Filtering Prompts
+audio meets the requirements of our task, and only
+                                                           Color Filtering Prompt
+segments that meet the criteria are retained for
+annotation.                                                Input: Target keyframe (JPG image)
+
+                                                           System Prompt: You are a visual analysis
+Preprocessing Pipeline After passing the
+                                                           expert specializing in color tone classifica-
+filtering stage (for color, style, and audio tasks)
+                                                           tion.
+or direct collection (for shot, temporal, and reso-
+lution tasks), all video segments undergo unified
+preprocessing. For each video, we randomly select          Task: Analyze the provided image and
+a target timestamp and extract a 10-second window          classify its overall color tone into one of
+centered on that moment. The preprocessing                 three categories.
+extracts the following multimodal assets:
+                                                           Categories:
+                                                           Warm Tone: The image is dominated by
+Multimodal Asset Structure The extracted as-               warm colors such as orange, yellow, or red.
+sets for each video segment include:                       Cold Tone: The image is dominated by
+   • Target Frame: A single keyframe (JPG for-             cold colors such as blue, cyan, or purple.
+     mat) representing the moment to be described.         Neutral Tone: The image has balanced
+                                                           white balance with no obvious color bias.
+   • Preceding Frames: Three frames sampled
+     at 1-second intervals before the target frame,        Output: Return only one word indicating
+     providing temporal context of what happened           the classification result.
+     before.
+
+   • Following Frames: Three frames sampled at
+     1-second intervals after the target frame, cap-       Style Filtering Prompt
+     turing the subsequent narrative development.
+                                                           Input: Target keyframe (JPG image)
+   • Audio Segment: An MP3 file extracted from
+     the 10-second window centered on the target           System Prompt: You are a visual analysis
+     timestamp.                                            expert specializing in visual style classifica-
+                                                           tion.
+   • Metadata: A JSON file recording the target
+     timestamp, video duration, resolution, and file
+                                                           Task: Analyze the provided image and
+     paths of all extracted assets.
+                                                           classify its visual style into one of four
+Frame Similarity Filtering To ensure temporal              categories.
+diversity and avoid redundant frames, we employ
+a CLIP-based similarity filtering mechanism. For           Categories:
+each 7-frame sequence (target frame + 3 preced-            Real: Live-action or cinematic footage,
+ing + 3 following), we compute cosine similarity           content based on reality.
+between all 9 pairs of adjacent frames using CLIP
+                                                   15928
+   2D Animation: Flat animation including                Task Requirements:
+   anime, cartoons, or hand-drawn content.
+   3D Animation: 3D animation, game                      Main Frame Description (240-260 char-
+   graphics, or rendered scenes.                         acters): Provide a detailed description of
+   Graphic: Pure graphics such as charts,                the key frame, including subjects, actions,
+   text, or software interfaces.                         props, text overlays, lighting characteristics,
+                                                         and camera language. The description
+   Output: Return only one option indicating             should be rich in visual details and maintain
+   the classification result.                            the specified character count.
+
+                                                         Temporal Context:
+   Audio Filtering Prompt                                Preceding Seconds:        Describe what
+                                                         happens in the few seconds before the
+   Input: Audio segment (MP3 file)                       key frame, focusing on actions and scene
+                                                         transitions.
+   System Prompt: You are an expert in                   Following Seconds:        Describe what
+   audio description classification.                     happens in the few seconds after the key
+                                                         frame, emphasizing narrative continuity.
+   Task: Analyze the provided audio clip and
+   classify its overall audio description into           Color Analysis: Analyze the overall color
+   one of the three categories.                          tendency, color intensity, and lighting
+                                                         characteristics of the frame. Describe the
+   Categories:                                           dominant color palette and its emotional
+   Human Voice: The audio clip primarily                 impact.
+   contains human speech or dialogue.
+   Background Music: The audio clip                      Style Analysis: Classify the visual style
+   primarily contains music or background                (real, 2D animation, 3D animation, or
+   tracks, with no significant human voice.              graphic) and describe its characteristic
+   Ambient Sound: The audio clip primarily               features, such as rendering techniques,
+   contains natural or environmental sounds,             artistic style, or production quality.
+   such as wind, water, animal sounds, etc.
+                                                         Audio Description: Analyze the audio
+   Output: Return only one word indicating               track, including speech content, sound
+   the classification result.                            events, background music, and ambient
+                                                         audio. Describe the audio atmosphere and
+                                                         its relationship to the visual content.
+C.2.2   Frame Description Prompt
+   Multimodal     Description    Generation              Output Format: Generate descriptions in
+   Prompt                                                natural language for each component listed
+                                                         above.
+   Input: Target keyframe (JPG image),
+   preceding frames (3 images), following
+   frames (3 images), and audio segment             C.2.3    JSON Validation Prompt
+   (MP3)                                                 Data Validation and Formatting Prompt
+
+   System Prompt: You are a professional                 Input: Raw multimodal descriptions (text
+   video content analyst. Generate compre-               format)
+   hensive multimodal descriptions for video
+   segments.                                             System Prompt: You are a professional
+                                                         data annotator. Organize the input raw
+
+                                                 15929
+video analysis data into strict JSON format.           segment_description_en: ...,
+                                                       context_description_ch: [before..., after...],
+Task Requirements:                                     context_description_en: [before..., after...],
+                                                       color_description_ch: ...,
+Deduplication and Cleaning: Remove                     color_description_en: ...,
+descriptions of non-content elements such              style_description_ch: ...,
+as watermarks, progress bars, and corner               style_description_en: ...,
+icons.                                                 audio_description_ch: ...,
+                                                       audio_description_en: ...
+Privacy Compliance: Remove specific                    }
+real-world names and locations (unless they
+are well-known landmarks), replacing them
+with generic descriptions.                        D     Evaluation
+                                                       Evaluation Prompt
+Bilingual Output: All description fields
+must generate both Chinese (_ch) and                   Role: You are a Visual Frame Grounding
+English (_en) versions.                                Specialist. Your task is to identify the single
+                                                       most relevant frame that best matches the
+                                                       user’s description.
+Character Count Requirement (Critical):
+The segment_description_ch must be
+maintained at approximately 240-260                    Context: The input consists of multiple
+characters. The detailed content from                  images extracted from a video. The images
+raw_main must be fully preserved, with                 are provided in strict chronological order,
+only privacy cleaning applied, without                 from the beginning to the end of the video.
+reducing word count.                                   Each image is a representative frame of
+                                                       one video shot, where the frame is sampled
+Context Description Format (Impor-                     approximately from the temporal middle
+tant): The context_description_ch and                  of that shot. The first image has frame_id
+context_description_en must be arrays                  = 0, the second image has frame_id = 1,
+containing two elements in the format: [de-            and so on. In addition to images, you
+scription of preceding seconds, description            are also given the full audio track of the
+of following seconds].                                 video. The audio is not segmented per
+                                                       frame or shot and should be used as global
+                                                       temporal and semantic context, not as a
+Format Requirements (Critical): Output
+                                                       direct frame-to-audio alignment.
+only pure JSON objects without any
+Markdown markers. Do not add any
+explanatory text. Ensure all strings are               Shot Metadata: For each frame, the
+properly escaped.                                      corresponding shot’s temporal boundaries
+                                                       are provided as start_time and end_time.
+                                                       Each frame_id identifies a representative
+Output JSON Schema:
+                                                       frame of one shot, and the corresponding
+{
+                                                       start_time and end_time specify the
+id: youtube_<video_id>,                                temporal extent of that shot.
+video_link: https://...,
+video_source: YouTube,                                 Shot Metadata format:
+category: ...,                                         frame_id = 0, start_time = <seconds>,
+timestamp: YYYY-MM-DD HH:MM:SS,                        end_time = <seconds>
+resolution: 1080P/720P,                                frame_id = 1, start_time = <seconds>,
+segment_description_ch: ...,                           end_time = <seconds>
+                                                       ...
+
+                                               15930
+                                                       the temporal location of each shot. The
+Target Description (The event to find):
+                                                       approximate representative time of a shot
+"$en_memory_data$"
+                                                       may be considered as ti = (start_timei +
+                                                       end_timei ) / 2. However, the actual visual
+Instructions:                                          evidence should take precedence over this
+1. Joint Reasoning with Vision, Audio,                 approximate representative time when
+and Shot Metadata:          Use the text               selecting the best match.
+description, visual content of all frames,
+the audio track, and the Shot Metadata
+                                                       5. Mandatory Selection Rule: You must
+together. Use audio cues (e.g., speech,
+                                                       return exactly one valid frame_id. The
+sound events, changes in intensity) to infer
+                                                       frame_id must be an integer between 0
+when the described event occurs. Use the
+                                                       and $NUM_FRAMES$ - 1. Do not return
+start_time and end_time of each shot to
+                                                       "N/A", null, or multiple values.
+determine which shot covers or is closest
+to the inferred event time. Use visual
+evidence from the representative frames to             Output Format (JSON Only):
+determine which frame best represents the              <tool_call>{"frame_id:<integer>}</tool_call>
+described event.
+                                                  E     Imagination
+2. Scan All Frames: Analyze all provided
+images in chronological order. Consider
+                                                       Imagination Prompt
+both the visual-semantic similarity between
+the target description and each frame and              You are an autonomous "Video Hunter
+the temporal consistency between the                   Agent". Your ultimate goal is to precisely
+inferred event time and the corresponding              locate the original video link based on the
+shot’s start_time and end_time.                        user’s vague memory (including visual,
+                                                       auditory, and timeline clues). You must
+3. Select the Best Match: Identify the                 provide 2 keywords most likely to hit the
+single frame whose visual content is most              target container.
+relevant to the target description. If the
+target event occurs within a shot’s temporal           Tool Available:
+interval, prefer the representative frame              search_videos: Simultaneously performs
+of that shot. If multiple shots partially              search on YouTube.
+match, choose the frame from the shot                  Parameters:     {"query":        "search
+that provides the strongest combination of             keywords"}
+visual relevance, semantic relevance, and              Note: This tool automatically handles
+temporal proximity to the inferred event. If           the "youtube" suffix, so you only need to
+the event occurs near a boundary between               provide the core keywords.
+two shots, compare the neighboring shots
+and select the most relevant frame. If                 Output Format:
+the audio provides weak or ambiguous                   <think>...your deep reasoning pro-
+temporal information, select the most                  cess...</think>
+semantically and visually related frame.               <tool_call>{"name":      "search_videos",
+                                                       "arguments": {"query": ["your search
+4. Important Temporal Reasoning Rule:                  term1", "your search term2"]}}</tool_call>
+Do not assume that frame_id corresponds
+to a uniformly sampled timestamp. Each                 Core Constraints & Strategy:
+frame_id identifies the representative frame
+of a particular shot. Use the provided
+                                                       1.  Reasoning First: Before taking
+start_time and end_time to reason about
+                                                       any action, you must think inside
+
+                                               15931
+<think>...</think>. You must not directly                search_videos
+call tools or output answers without prior
+reasoning.                                               Example:
+                                                         User: "Split-screen dance video, Y2K
+2. Keyword Generation Strategy (Abduc-                   fashion, leg warmers, electronic music"
+tive Reasoning): You must use "Abductive                 Agent: <think>Y2K fashion + split-
+Reasoning" to bridge the gap between the                 screen editing + dance = likely TikTok
+user’s "clip description" and the likely "full           trend or K-pop cover. Keywords: style
+video title."                                            +     format.</think><tool_call>{"name":
+                                                         "search_videos", "arguments": {"query":
+Deconstruction: Extract visual anchors                   ["Y2K dance split screen leg warm-
+(OCR, specific objects), actions, and                    ers",    "split screen clone dance
+atmosphere.                                              phonk"]}}</tool_call>
+
+Divergent Hypotheses ("Container"                   F     Further Analysis
+Logic): You must propose different paths
+for what the full video actually is:                The data distribution in the ablation experiments is
+                                                    the same as in the main experiment, and the data
+Hypothesis A (Literal): The video is                distribution is shown in Figure 9. The model used
+explicitly about the action described (e.g., a      for generating results is Gemini 3 Pro.
+"How-to" or generic vlog).                             For Shot, one data sample is randomly selected
+                                                    from each of the 20 topics; for Temporal, 24 data
+Hypothesis B (Metaphorical/B-roll):                 samples are randomly selected with the following
+The clip is a visual metaphor for an                distribution: Knowledge, Fitness, Food, Sports,
+abstract concept (e.g., "cutting bread with a       Cars, Games, Movies, and TV Shows, with 3 sam-
+spoon" → Search keywords: "inefficiency",           ples each. Specifically, Knowledge, Fitness, and
+"wrong tools", "productivity").                     Food use Pre-context; Sports, Cars, and Games
+                                                    use Post-context; Movies and TV Shows use both
+Hypothesis C (Specific Source): The clip            Pre-context and Post-context. For Color, 24 data
+is from a specific movie, meme, game                samples are randomly selected, with the following
+glitch, or news event (e.g., "bucket on             distribution: Parenting, Fashion, Technology, Art,
+shopkeeper head" → Search keywords:                 Documentaries, and Travel, with 4 samples each.
+"Skyrim bucket thief").                             Specifically, Parenting and Fashion use warm tones;
+                                                    Technology and Art use cool tones; Documentaries
+                                                    and Travel use neutral tones. For Style, 24 data
+Selection: Select the most probable hy-
+                                                    samples are randomly selected, with the following
+pothesis to construct a single best English
+                                                    distribution: Variety Shows, Animation, Games,
+search phrase.
+                                                    and Music, with 6 samples each. Specifically, Va-
+                                                    riety Shows use live-action; Animation uses 2D
+Information Source Isolation: Reference             animation; Games use 3D animation; Music uses
+ONLY English corpus.                                pure graphics. For Audio, 24 data samples are
+                                                    randomly selected, with the following distribution:
+3. Search Strategy: You MUST perform                TV Shows, Documentaries, Dance, and Animals,
+search rounds using the best English                with 6 samples each. Specifically, TV Shows and
+keywords derived from your strongest                Documentaries use human voices; Dance uses mu-
+hypothesis.                                         sic; Animals use ambient sounds. For Resolution,
+                                                    24 data samples are randomly selected, with the
+4. Execution Workflow: Analyze the                  following distribution: Fashion, Movies, Lifestyle
+description using Abductive Reasoning &             Vlogs, and Fitness, with 6 samples each. Specif-
+construct the best English keyword → call           ically, Fashion and Movies use 1080P; Lifestyle
+                                                    Vlogs and Fitness use 720P.
+                                                 15932
+G    Case study
+                                                           Ground truth text:
+G.1 Case study for verification.                           I am looking for a clip, this is a keyframe
+                                                           from a nighttime highway racing per-
+    Example of case A                                      spective, captured with an immersive
+    (MLLM True & Human True)                               first-person wide-angle lens. The fore-
+                                                           ground is dominated by the hood of a
+    Selected frame:
+                                                           teal-modified sports car, with sharp black
+                                                           air vents and the right-side mirror clearly
+                                                           visible, enhancing the sense of driver
+    Ground truth text:                                     immersion. In the midground, a white
+    I need a video clip, two male musicians                Lamborghini convertible supercar races
+    stand side by side on an open expanse of               ahead on the left, its low-slung body
+    sand: one plays an acoustic guitar while the           and prominent rear wing standing out
+    other cradles his instrument, eyes closed              dramatically against the night sky. Floating
+    in impassioned vocal performance. Their                text at the top displays the white English
+    postures are natural and fully immersed,               title ’Smoked a Lambo going home’ and the
+    with microphone stands positioned before               central phrase ’wait for it...’ builds suspense
+    them to form a performance array. The                  and foreshadows an impending overtaking
+    foreground features the subjects and their             climax. Environmental lighting comes
+    instruments; the midground reveals a flat              primarily from distant streetlights and
+    desert landscape; and the background                   digital billboards, creating high-contrast
+    presents softly blurred mountain silhou-               highlights against the dark sky.
+    ettes. A horizontal composition enhances
+    spatial depth. The overall tone is natural,            Ground truth frame:
+    neutral-leaning warm, with a transparent
+    and clean atmosphere. Colors are soft
+    with low saturation and smooth transitions.
+    The lighting is bright, characterized by
+    soft natural diffused light without strong
+    contrast or harsh shadows, resulting in a
+    moderately low overall contrast.
+                                                           Model’s prediction: True
+    Ground truth frame:
+                                                           Human’s prediction: False
+
+
+
+                                                           Example of case C
+                                                           (MLLM False & Human True)
+    Model’s prediction: True
+                                                           Selected frame:
+    Human’s prediction: True
+
+
+
+    Example of case B
+    (MLLM True & Human False)
+                                                           Ground truth text:
+    Selected frame:
+                                                           I want to find a video segment, the main
+                                                           subject of this frame is a large, majestic
+                                                           adult male lion standing inside a metal
+
+                                                   15933
+transport cage mounted on the back of                    with a low-slung profile, while the street
+a truck. It has a thick, flowing mane,                   recedes into a backdrop of urban buildings.
+transitioning from golden yellow on the                  The foreground features asphalt pavement
+head to deep black around the neck,                      with clear lane markings; the midground
+exuding strength and dignity. The lion                   is dominated by the vehicle itself; and
+stands tall, alert and solemn, gazing intently           the background comprises multi-story
+toward the upper right of the frame. The                 buildings and street trees, resulting in a
+cage, featuring a black metal frame and                  balanced, symmetrical composition.The
+dense silver wire mesh, is positioned above              overall tone is neutral to warm and natural,
+a lowered metal ramp and a heavy-duty                    dominated by the inherent colors of the
+white bumper with circular holes, creating               realistic scene. Color saturation is moderate
+a strong industrial and oppressive feel.                 to soft, providing a plain and natural
+Bright natural sunlight streams from the                 visual experience. The image is bright
+upper right, clearly highlighting the texture            with moderate contrast between light and
+of the lion’s facial muscles and mane.                   shadow, featuring both highlights from
+                                                         direct sunlight and clear shadows cast by
+Ground truth frame:                                      objects, indicating distinct light direction
+                                                         and dimensionality.
+
+                                                         Ground truth frame:
+
+
+
+
+Model’s prediction: False
+
+Human’s prediction: True
+                                                         Model’s prediction: False
+
+                                                         Human’s prediction: False
+Example of case D
+(MLLM False & Human False)
+
+Selected frames:                                    G.2     Case study for errors occured in pipeline
+                                                    G.2.1    Generator errors
+                                                    In this error category, the MLLM misinterprets the
+                                                    input fragment, which results in the generation of
+                                                    incorrect search expansions. This initial error leads
+                                                    the web search interface to retrieve an irrelevant
+                                                    candidate video set, further propagating the inaccu-
+                                                    racy to the shot localization stage. Consequently,
+                                                    the entire pipeline operates on irrelevant videos,
+                                                    ultimately yielding an erroneous final output.
+
+                                                         Generate wrong queries
+
+                                                         Input fragment:
+Ground truth text:                                       Please find the link to this video: I need
+I am searching for a clip, a black van drives            a video clip, three figures clad in dark
+centrally toward the camera, its headlights              gear move swiftly across the snowfield in
+illuminated. The vehicle hugs the road                   a tight triangular formation, maintaining
+
+                                                 15934
+low postures, synchronized movements,                  tablishing a composition that is expansive
+and consistent spacing between them,                   with pronounced depth. (1080P)
+casting sharp, elongated diagonal shadows.             Ground truth frame:
+In the foreground, textured undulations
+of ice create intricate surface detail; the
+midground features the trio as the primary
+subjects; and the background reveals
+towering snow-capped peaks and glacial
+escarpments, establishing a composition                Model’s prediction: False
+that is expansive with pronounced depth.
+
+MLLM output context:
+                                                     In this type of error, the MLLM generates only
+<think>The description is highly detailed
+                                                  partially precise search expansions, which cause
+and specific ("three figures clad in dark
+                                                  the omission of crucial information from the input.
+gear," "triangular formation," "textured un-
+                                                  This information loss leads the retrieval interface to
+dulations of ice"), which strongly suggests
+                                                  return a candidate video set that is either partially
+it is a prompt or description of an AI-
+                                                  relevant or entirely unrelated. Consequently, the
+generated video, likely from OpenAI’s Sora
+                                                  system fails to perform accurate shot localization,
+showcase. The phrasing matches the style
+                                                  making it impossible to extract the correct frames
+of prompts used to demonstrate Sora’s ca-
+                                                  for final judgment.
+pabilities.</think>
+<tool_call>{"name":        "search_videos",
+"arguments": {"query": ["Sora AI three                 Generate partially correct queries
+figures dark gear snowfield", "three                   Input fragment:
+figures snow triangular formation cine-
+                                                       Please find the link to this video: I need a
+matic"]}}</tool_call>
+                                                       video clip, a blonde woman stands centered
+                                                       on stage, wearing a tailored grayish-brown
+Selected frames:
+                                                       dress, her hands gently clasped at her chest
+                                                       in a poised and dignified posture, as if
+                                                       delivering a speech or expressing gratitude.
+                                                       The background features a deep blue
+                                                       gradient backdrop with naturally cascading
+                                                       folds that create soft vertical depth; the
+                                                       foreground subject is sharply rendered
+                                                       and prominently highlighted, while the
+                                                       midground remains free of distracting
+                                                       elements, resulting in a balanced and
+                                                       symmetrical composition.
+Ground truth text:
+I need a video clip, three figures clad in             MLLM output context:
+dark gear move swiftly across the snowfield            <think>The detailed, descriptive language
+in a tight triangular formation, maintaining           ("sharply rendered", "midground remains
+low postures, synchronized movements, and              free", "deep blue gradient backdrop with
+consistent spacing between them, casting               naturally cascading folds") strongly sug-
+sharp, elongated diagonal shadows. In the              gests this is a prompt or description of a spe-
+foreground, textured undulations of ice cre-           cific AI-generated video demo, likely from
+ate intricate surface detail; the midground            OpenAI’s Sora or similar high-end video
+features the trio as the primary subjects;             generation models. The visual specifics
+and the background reveals towering snow-              match a known Sora example.</think>
+capped peaks and glacial escarpments, es-              <tool_call>{"name":         "search_videos",
+
+                                               15935
+                                                             No searched videos
+   "arguments": {"query": ["Sora AI blonde
+   woman speech blue background ", "blonde                   Input fragment:
+   woman grayish brown dress deep blue back-                 Please find the link to this video: I need
+   drop (missing:handclaspe)"]}}</tool_call>                 a piece of stock footage, two drummers
+                                                             stand side by side at the center of the
+   Selected frames:                                          stage, clad in black sleeveless tops, long
+                                                             trousers, and brown boots, simultaneously
+                                                             striking wooden war drums suspended
+                                                             at their waists with drumsticks. Their
+                                                             movements are perfectly synchronized
+                                                             and charged with tension. The foreground
+                                                             features a dark, reflective stage surface;
+                                                             the midground frames the performers; and
+                                                             the background consists of a metal mesh
+                                                             panel overlaid with a dot-matrix LED wall,
+                                                             creating a strong sense of depth. The shot
+                                                             is a static, eye-level medium frame that
+                                                             fully captures the performers’ upper bodies
+                                                             and their drums, emphasizing rhythmic dy-
+                                                             namism. Overhead top lighting interplays
+   Ground truth text:
+                                                             with side-mounted green lights, sharply de-
+   I need a video clip, a blonde woman
+                                                             lineating the performers’ silhouettes, while
+   stands centered on stage, wearing a tai-
+                                                             deep shadows in the background enhance
+   lored grayish-brown dress, her hands gently
+                                                             the subjects’ presence and evoke an intense
+   clasped at her chest in a poised and digni-
+                                                             yet enigmatic atmosphere. Real-shot. The
+   fied posture, as if delivering a speech or ex-
+                                                             visual style is typical of stage performance
+   pressing gratitude. The background features
+                                                             photography, emphasizing the capture of
+   a deep blue gradient backdrop with natu-
+                                                             dynamic moments and realistic states. The
+   rally cascading folds that create soft vertical
+                                                             composition presents obvious symmetry,
+   depth; the foreground subject is sharply ren-
+                                                             with a realistic visual language that focuses
+   dered and prominently highlighted, while
+                                                             on showcasing the on-site atmosphere and
+   the midground remains free of distracting
+                                                             tension of movement.
+   elements, resulting in a balanced and sym-
+   metrical composition.(1080P)
+                                                             MLLM output context:
+   Ground truth frame:
+                                                             <think>The user describes a specific stock
+                                                             footage clip featuring two synchronized
+                                                             drummers with war drums on a stage with
+                                                             green lighting and a metal mesh back-
+                                                             ground. Key visual elements include the
+                                                             symmetry, the specific outfit (black sleeve-
+   Model’s prediction: False                                 less), and the lighting conditions. I will con-
+                                                             struct queries focusing on the drummers,
+                                                             the type of drum, and the lighting/stage at-
+G.2.2 Retriever errors                                       mosphere. </think>
+                                                             <tool_call>{"name":         "search_videos",
+In this type of error, the MLLM generates precise
+                                                             "arguments": {"query": ["two drummers
+search expansions, the video retrieval stage fails
+                                                             synchronized war drums green lights stage
+to construct a valid candidate video set from the
+                                                             ", "stock footage two drummers black
+web. Due to the lack of accessible video links that
+                                                             sleeveless wooden drums"]}}</tool_call>
+match the search expansions on the search engine,
+the system ultimately returns a null output.
+
+                                                     15936
+                                                           Searched videos are all wrong
+   Selected frames:
+   No selected videos.                                     Input fragment:
+   Ground truth text:                                      Please find the link to this video: I need
+   I need a piece of stock footage, two drum-              a piece of stock footage, the primary
+   mers stand side by side at the center of                subject is a standing male figure wearing
+   the stage, clad in black sleeveless tops,               an olive-green jacket, holding a luminous
+   long trousers, and brown boots, simulta-                device in his right hand and raising his
+   neously striking wooden war drums sus-                  left hand in a natural, focused explana-
+   pended at their waists with drumsticks.                 tory gesture. In the foreground lies an
+   Their movements are perfectly synchro-                  orange tabletop with black equipment; the
+   nized and charged with tension. The fore-               midground features the main subject; and
+   ground features a dark, reflective stage sur-           the background displays large electronic
+   face; the midground frames the perform-                 instruments alongside a blurred topographic
+   ers; and the background consists of a metal             map, establishing a clear sense of depth and
+   mesh panel overlaid with a dot-matrix LED               layered composition. The shot is a static
+   wall, creating a strong sense of depth. The             eye-level medium frame, tightly framing
+   shot is a static, eye-level medium frame that           the upper body of the subject with no
+   fully captures the performers’ upper bodies             discernible camera movement, ensuring a
+   and their drums, emphasizing rhythmic dy-               stable presentation of the demonstration
+   namism. Overhead top lighting interplays                scene.
+   with side-mounted green lights, sharply de-
+   lineating the performers’ silhouettes, while            MLLM output context:
+   deep shadows in the background enhance                  <think>The user describes a specific stock
+   the subjects’ presence and evoke an intense             footage clip featuring a man in an olive-
+   yet enigmatic atmosphere.Real-shot. The                 green jacket holding a luminous device with
+   visual style is typical of stage performance            an orange table and electronic equipment.
+   photography, emphasizing the capture of                 The setting suggests a tech, scientific, or
+   dynamic moments and realistic states. The               military context. Keywords should focus
+   composition presents obvious symmetry,                  on the visual elements and the specific ac-
+   with a realistic visual language that focuses           tion.</think>
+   on showcasing the on-site atmosphere and                <tool_call>{"name":       "search_videos",
+   tension of movement.                                    "arguments": {"query": ["stock footage
+   Ground truth frame:                                     man olive green jacket luminous device
+                                                           orange table", "man holding luminous
+                                                           device explanatory gesture electronic
+                                                           instruments stock video"]}}</tool_call>
+
+                                                           Selected frames from the filtered videos:
+   Model’s prediction: False
+
+
+
+
+   In this type of error, thought the MLLM gen-
+erates precise search expansions and the retrieval
+stage returns some results. However, the returned
+video results are all irrelevant. Consequently, the
+shot localization stage returns irrelevant frames.
+
+
+
+
+                                                   15937
+                                                           breathtaking moment of a massive orca
+                                                           leaping vertically out of an artificial
+                                                           pool. The orca’s distinct black-and-white
+                                                           streamlined body is almost fully airborne,
+                                                           with its dorsal fin upright, showcasing
+                                                           immense power. As it surges upward, it
+   Selected frame from the dropped video
+                                                           generates a burst of churning white water,
+   (we choose the most similar frame):
+                                                           with droplets glistening in the sunlight.
+                                                           To the right, a trainer in a blue-and-black
+                                                           wetsuit stands at the pool’s edge, facing the
+                                                           orca with hands raised as if applauding or
+   Ground truth text:                                      giving commands, creating clear interaction.
+   I need a piece of stock footage, the primary            The background features a painted ocean
+   subject is a standing male figure wearing               mural, metal railings, and distant greenery,
+   an olive-green jacket, holding a luminous               with a prominent orange traffic cone by
+   device in his right hand and raising his left           the poolside. I vaguely recall the audio
+   hand in a natural, focused explanatory ges-             being lively and chaotic, as if I were in
+   ture. In the foreground lies an orange table-           some sort of obstacle course game. From
+   top with black equipment; the midground                 what I remember, there was a rapid and
+   features the main subject; and the back-                cheerful soundtrack, interspersed with
+   ground displays large electronic instruments            exaggerated sound effects of objects
+   alongside a blurred topographic map, estab-             crashing violently. I think there were also
+   lishing a clear sense of depth and layered              some indistinct shouts, creating a tense yet
+   composition. The shot is a static eye-level             comical and joyful atmosphere that left a
+   medium frame, tightly framing the upper                 lasting impression on me.
+   body of the subject with no discernible cam-
+   era movement, ensuring a stable presenta-               MLLM output context:
+   tion of the demonstration scene. (1080P)                <think>The user describes a specific visual
+   Ground truth frame:                                     of an orca jumping near a trainer with an
+                                                           orange cone, combined with audio resem-
+                                                           bling a chaotic obstacle course game (likely
+                                                           *Wipeout* or *Fall Guys*). This suggests
+                                                           the user saw a meme edit. I will search for
+                                                           the visual elements to find the source clip
+                                                           and the meme context.</think>
+                                                           <tool_call>{"name":        "search_videos",
+   Model’s prediction: False
+                                                           "arguments": {"query": ["orca jump
+                                                           trainer orange cone", "orca jump wipeout
+                                                           meme"]}}</tool_call>
+G.2.3 Localizer errors
+In this type of error, the MLLM successfully gen-          Selected frame:
+erates precise search expansions and retrieves rel-
+evant videos. However, the video frame sampling
+process is flawed, causing irrelevant frames to be
+                                                           True frame in the same video:
+extracted, which leads to a ’False’ judgement.
+
+   Sample wrong frames
+
+   Input fragment:                                         Ground truth text:
+   Please find the link to this video: I need              I need to get a clip, this keyframe captures
+   to get a clip, this keyframe captures a                 a breathtaking moment of a massive
+
+
+                                                   15938
+   orca leaping vertically out of an artificial            In the midground, a white Lamborghini
+   pool. The orca’s distinct black-and-white               convertible supercar races ahead on the
+   streamlined body is almost fully airborne,              left, its low-slung body and prominent rear
+   with its dorsal fin upright, showcasing                 wing standing out dramatically against
+   immense power. As it surges upward, it                  the night sky. Floating text at the top
+   generates a burst of churning white water,              displays the white English title ’Smoked
+   with droplets glistening in the sunlight.               a Lambo going home’ and the central
+   To the right, a trainer in a blue-and-black             phrase ’wait for it...’ builds suspense and
+   wetsuit stands at the pool’s edge, facing the           foreshadows an impending overtaking
+   orca with hands raised as if applauding or              climax. Environmental lighting comes
+   giving commands, creating clear interaction.            primarily from distant streetlights and
+   The background features a painted ocean                 digital billboards, creating high-contrast
+   mural, metal railings, and distant greenery,            highlights against the dark sky.
+   with a prominent orange traffic cone by the
+   poolside. (1080P)                                       MLLM output context:
+                                                           <think>The user describes a specific POV
+   Ground truth frame:                                     street racing video. Key identifiers are
+                                                           the text overlays "Smoked a Lambo going
+                                                           home" and "wait for it...", along with a teal
+                                                           sports car chasing a white Lamborghini con-
+                                                           vertible at night. The text is the strongest
+                                                           search signal.</think>
+   Model’s prediction: False                               <tool_call>{"name":        "search_videos",
+                                                           "arguments": {"query": ["Smoked a
+                                                           Lambo going home wait for it", "teal
+                                                           car racing white lamborghini night
+   In this error category, although the MLLM gen-
+                                                           pov"]}}</tool_call>
+erates precise search expansions, a discrepancy oc-
+curs between the retrieved content and the model’s
+                                                           Selected frame:
+judgment. Specifically, when the video retrieval
+stage returns an irrelevant candidate video set,
+the subsequent shot localization captures incorrect
+frames. However, the MLLM erroneously issues a             Ground truth text:
+’True’ judgment based on these irrelevant frames,          I am looking for a clip, this is a keyframe
+contradicting human ground truth. Conversely, the          from a nighttime highway racing per-
+error also manifests when the model produces a             spective, captured with an immersive
+’False’ judgment despite the retrieval of correct          first-person wide-angle lens. The fore-
+videos and the extraction of accurate frames.              ground is dominated by the hood of a
+                                                           teal-modified sports car, with sharp black
+   Wrong verification (I)                                  air vents and the right-side mirror clearly
+                                                           visible, enhancing the sense of driver
+   Input fragment:                                         immersion. In the midground, a white
+   Please find the link to this video: I am                Lamborghini convertible supercar races
+   looking for a clip, this is a keyframe from             ahead on the left, its low-slung body
+   a nighttime highway racing perspective,                 and prominent rear wing standing out
+   captured with an immersive first-person                 dramatically against the night sky. Floating
+   wide-angle lens.       The foreground is                text at the top displays the white English
+   dominated by the hood of a teal-modified                title ’Smoked a Lambo going home’ and the
+   sports car, with sharp black air vents                  central phrase ’wait for it...’ builds suspense
+   and the right-side mirror clearly visible,              and foreshadows an impending overtaking
+   enhancing the sense of driver immersion.
+
+                                                   15939
+climax. Environmental lighting comes                    cific lighting. The audio description (violent
+primarily from distant streetlights and                 shaking, small animal, man saying "Yeah")
+digital billboards, creating high-contrast              strongly resembles a viral meme involving
+highlights against the dark sky.                        a raccoon or possum, suggesting the user
+                                                        might be looking for a meme edit or a spe-
+Ground truth frame:                                     cific viral clip. I will search for the visual
+                                                        content of the lion transport and the specific
+                                                        audio context.</think>
+                                                        <tool_call>{"name":          "search_videos",
+                                                        "arguments": {"query": ["lion in transport
+                                                        cage truck majestic", "lion cage truck
+                                                        release video"]}}</tool_call>
+
+Model’s prediction: True                                Selected frame:
+
+Human’s prediction: False
+
+
+
+
+Wrong verification (II)
+
+Input fragment:                                         Ground truth text:
+Please find the link to this video: I want              I want to find a video segment, the main
+to find a video segment, the main subject               subject of this frame is a large, majestic
+of this frame is a large, majestic adult                adult male lion standing inside a metal
+male lion standing inside a metal transport             transport cage mounted on the back of
+cage mounted on the back of a truck. It                 a truck. It has a thick, flowing mane,
+has a thick, flowing mane, transitioning                transitioning from golden yellow on the
+from golden yellow on the head to deep                  head to deep black around the neck,
+black around the neck, exuding strength                 exuding strength and dignity. The lion
+and dignity. The lion stands tall, alert and            stands tall, alert and solemn, gazing intently
+solemn, gazing intently toward the upper                toward the upper right of the frame. The
+right of the frame. The cage, featuring a               cage, featuring a black metal frame and
+black metal frame and dense silver wire                 dense silver wire mesh, is positioned above
+mesh, is positioned above a lowered metal               a lowered metal ramp and a heavy-duty
+ramp and a heavy-duty white bumper with                 white bumper with circular holes, creating
+circular holes, creating a strong industrial            a strong industrial and oppressive feel.
+and oppressive feel. Bright natural sunlight            Bright natural sunlight streams from the
+streams from the upper right, clearly                   upper right, clearly highlighting the texture
+highlighting the texture of the lion’s                  of the lion’s facial muscles and mane.
+facial muscles and mane. I vaguely recall
+the audio of a metal cage being shaken                  Ground truth frame:
+violently, as if a small animal was agitated
+and restless. From what I remember, there
+was also a man’s voice, casually repeating
+"Yeah," as if responding to the lively
+creature, which felt very routine.
+
+MLLM output context:                                    Model’s prediction: False
+<think>The user describes a majestic male
+lion in a transport cage on a truck with spe-
+
+                                                15940
+                                                             Case 2: Alpaca video
+   Human’s prediction: True
+                                                             The difference is even more pronounced in
+                                                             the second case. Nothink produces queries
+                                                             like:
+
+G.3 Case Study for video imagination                            • "I AM THE RAREST ANIMAL
+                                                                  brown alpaca clown emoji hand
+                                                                  stroking."
+We further illustrate the importance of video
+imagination versus nothink in constructing search               • "AURAFORGE           alpaca     heavy
+queries through two concrete case studies.                        grotesque breaths electronic rhythm."
+
+                                                             These include highly localized and surface-
+   Case 1: The Game Awards
+                                                             level visual or auditory details. Although
+   For the case, nothink directly enumerates                 present in the shots, such details are not nec-
+   OCR/ASR details observed within the shots,                essarily reflected in full video titles, leading
+   for example:                                              to retrieval failure or semantic overfitting.
+                                                             In comparison, video imagination gener-
+      • "The Game Awards Best Esports                        ates queries such as:
+        Game nominees Counter-Strike 2
+        DOTA 2 League of Legends."                              • "I AM THE RAREST ANIMAL al-
+                                                                  paca meme."
+      • "The Game Awards Best Esports
+        Game female presenter silver gold hal-                  • "AURAFORGE alpaca video."
+        ter neck gown."
+                                                             Here, surface-level details such as “clown
+   This approach directly concatenates local-                emoji hand stroking” are abstracted into
+   ized information such as game names and                   higher-level concepts, e.g., “meme.” This
+   clothing details into the search queries.                 abstraction better aligns with the semantic
+   However, full video titles rarely include                 expectations of search engines and facili-
+   such fine-grained enumerations, making                    tates more robust semantic retrieval. No-
+   the queries overly specific and reducing re-              tably, this is not mere information reduc-
+   trieval success. In practice, the second set of           tion; rather, it uses causal reasoning to map
+   nothink queries failed to retrieve the target             shot-level cues to container-level semantics
+   video.                                                    likely to match full video titles.
+   In contrast, video imagination generates
+   queries such as:                                        Across these cases, video imagination demon-
+                                                        strates its ability to transform low-level shot details
+      • "The Game Awards 2023 Best Esports
+                                                        into high-level, semantically meaningful search
+        Game."
+                                                        queries, substantially improving retrieval success
+      • "The Game Awards 2023 Best Esports              compared to naive, surface-level keyword concate-
+        Game presenter."                                nation.
+
+   Here, the strategy performs shot-to-                 H     Annotation Guidelines
+   container abstraction, mapping individual
+   shots to a higher-level semantic descrip-            The goal of this annotation task is to manually ver-
+   tion—“the Best Esports Game segment at               ify and refine model-generated shot descriptions
+   TGA 2023”—which aligns better with typ-              to ensure that they accurately and faithfully reflect
+   ical video titles and significantly improves         the corresponding video shots. Annotators are pri-
+   retrieval accuracy.                                  marily responsible for identifying discrepancies
+                                                        between the generated descriptions and the actual
+                                                        video content, and correcting them when necessary.
+                                                           1. Video–Description Alignment
+                                                     15941
+   Before making any edits, please carefully watch         5. Annotation Objective
+the corresponding video shot in full. Pay close at-        By following this verification and refinement
+tention to the main subjects, actions, scenes, and       process, the final descriptions should accurately
+event progression, as well as relevant attributes        correspond to their video shots, providing a high-
+such as color characteristics, visual style, audio       quality, low-noise, and reproducible dataset for
+content, and visual quality. Then, review the model-     benchmark evaluation and subsequent research.
+generated shot description and constraint descrip-
+tions to form an overall understanding of their align-
+ment with the video.
+   2. Discrepancy Identification
+   Please assess whether the generated description
+contains any discrepancies with respect to the video
+content, considering the following aspects:
+   • Semantic consistency: Whether the descrip-
+     tion correctly captures the actions, events, and
+     visual content shown in the video, without
+     missing key elements or introducing nonexis-
+     tent ones.
+   • Factual accuracy: Whether entities such as
+     people, objects, scenes, and temporal order
+     match the video.
+   • Constraint consistency: Whether constraints
+     (e.g., temporal sequence, color, style, audio,
+     and resolution) are consistent with what is
+     actually observable in the video.
+   Any clear inconsistency in these aspects should
+be treated as a discrepancy.
+   3. Revision Principles
+   If discrepancies are found, please revise the de-
+scription based strictly on the video content. Revi-
+sions should follow these principles:
+   • Accuracy first: All statements in the descrip-
+     tion must be directly supported by the video.
+   • Minimal necessary changes: Make only the
+     modifications required to correct errors, and
+     avoid unnecessary rewriting.
+   • Objectivity: Do not add speculative or in-
+     ferred information that is not explicitly visible
+     or audible in the video.
+   • Clarity and precision: When correcting errors,
+     improve clarity and precision where appropri-
+     ate.
+   4. Handling Correct Descriptions
+   If the generated description is fully consistent
+with the video and contains no factual or constraint-
+related errors, it may be retained without modifica-
+tion.
+                                                    15942
+                                                    Figure 7: Theme distribution, task proportion, and time proportion of the dataset.
+
+
+
+                                                Case           Shot   Temporal      Color            Style                                       Audio      Resolution   Average
+                                                original       30        37.5        8.3               16.7                                      41.7          16.7           25
+                                                case1          30        37.5        4.2               16.7                                      41.7          16.7          24.3
+                                                case2          30        37.5        8.3               16.7                                      41.7          16.7           25
+                                                Mean           30        37.5        6.9               16.7                                      41.7          16.7          24.8
+                                                Variance        0         0          3.9                0                                         0             0            0.1
+
+                                                     Table 2: Experimental results for different cases, including mean and variance.
+
+
+
+                                              MLLM vs Human Evaluation                                                                           Clip vs Human Evaluation
+                                                                                                                                                                                     90
+            Model: Incorrect Model: Correct
+
+
+
+
+                                                                                                               Model: Incorrect Model: Correct
+
+
+
+
+                                                                                      100                                                                                            80
+                                                   19                   2                                                                               4                7
+MLLM Prediction
+
+
+
+
+                                                                                                                                                                                     70
+                                                                                                   Clip Prediction
+
+
+
+
+                                                                                      80
+                                                                                                                                                                                     60
+                                                                                                                                                                                     50
+                                                                                           Count
+
+
+
+
+                                                                                                                                                                                      Count
+
+
+
+
+                                                                                      60
+                                                                                                                                                                                     40
+                                                                                      40
+                                                    3                 116             20
+                                                                                                                                                      13                 92          30
+                                                                                                                                                                                     20
+                                                                                                                                                                                     10
+
+                                              Human: Correct     Human: Incorrect                                                                Human: Correct   Human: Incorrect
+                                                    Human Evaluation                                                                                    Human Evaluation
+Figure 8: Confusion matrices between MLLM voting-based evaluation and human evaluation, and between CLIP
+evaluation and human evaluation
+
+
+                                                                                            15943
+            Figure 9: Theme distribution and task proportion of the dataset for further analysis.
+
+
+
+
+                                   Column         Mean       Std     Var
+                                   Avg            24.94      1.07    1.14
+                                   Shot           30.42      1.38    1.91
+                                   Temporal       37.85      2.67    7.11
+                                   Color           7.29      1.80    3.25
+                                   Style          16.67        0       0
+                                   Audio          41.32      1.15    1.33
+                                   Resolution     17.01      1.15    1.33
+
+Table 3: Mean, standard deviation, and variance for each column, with values rounded to two decimal places.
+
+
+
+
+                Stage                                          Time             Proportion
+                Search (incl. Video Imagination)            104.60 s              29.33%
+                Download                                    144.20 s              40.44%
+                Frame Extraction                            35.10 s                9.84%
+                Grounding                                    75.30 s              21.12%
+                VLM Test                                    17.40 s                4.88%
+                Total                                  356.60 s (5.94 min)         100%
+
+                  Table 4: Time consumption and proportion of each stage in the pipeline.
+
+
+
+
+                                                   Shot: True       Shot: False
+                            Keyframe: True              13              1
+                            Keyframe: False              0              36
+
+                    Table 5: Confusion matrix for Shot detection based on Keyframes.
+
+
+                                                   15944
+
