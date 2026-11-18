@@ -1,0 +1,1572 @@
+{
+  "batch": "0150",
+  "scope": "Sixty complete source-code implementation supplements to nine previously represented repositories, plus third-party attribution/license support. Not new independent sources or runnable projects. One new full CC BY4 palaeoart article text extraction; figures/media excluded.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 63,
+  "files": [
+    {
+      "file": "upstream/meta-pytorch__torchtune/torchtune/data/_messages.py",
+      "repository": "meta-pytorch/torchtune",
+      "upstream_path": "torchtune/data/_messages.py",
+      "upstream_commit": "bd2a0fc7c31430972728494fa01aaeeb0ebf1ba1",
+      "source_url": "https://github.com/meta-pytorch/torchtune/blob/bd2a0fc7c31430972728494fa01aaeeb0ebf1ba1/torchtune/data/_messages.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-9033fef9c789"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/meta-pytorch/torchtune/blob/bd2a0fc7c31430972728494fa01aaeeb0ebf1ba1/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/meta-pytorch__torchtune/LICENSE"
+      ],
+      "size_bytes": 40069,
+      "sha256": "918e1cf535784708bd6ca80a354af0c353fcc0cd0e620cb2e36aa33f73ab92fe",
+      "git_blob_sha1": "6b5049a020e7eebd39176047a1e987dcd3f7bed2"
+    },
+    {
+      "file": "upstream/meta-pytorch__torchtune/torchtune/datasets/_sft.py",
+      "repository": "meta-pytorch/torchtune",
+      "upstream_path": "torchtune/datasets/_sft.py",
+      "upstream_commit": "bd2a0fc7c31430972728494fa01aaeeb0ebf1ba1",
+      "source_url": "https://github.com/meta-pytorch/torchtune/blob/bd2a0fc7c31430972728494fa01aaeeb0ebf1ba1/torchtune/datasets/_sft.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-9033fef9c789"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/meta-pytorch/torchtune/blob/bd2a0fc7c31430972728494fa01aaeeb0ebf1ba1/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/meta-pytorch__torchtune/LICENSE"
+      ],
+      "size_bytes": 8650,
+      "sha256": "f12595d50063ee4a08613ad0b8182afaf874b2a6cf3a9511459aa77db0998387",
+      "git_blob_sha1": "2e74ec66a0eb4c436c0182bb52a75a115c753a6a"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/teleprompt/vanilla.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/teleprompt/vanilla.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/teleprompt/vanilla.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 963,
+      "sha256": "2bc9fc0d970059373d5112f6bfeb69e3ad460bb6bc4a2d1fbab8a48d35ece093",
+      "git_blob_sha1": "3d51186950f76ea078b7dcfd8ab3b095f5040cca"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/adapters/json_adapter.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/adapters/json_adapter.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/adapters/json_adapter.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 12170,
+      "sha256": "1e42254a9fa9fbaf4aeeee476e9f1a30b160a44ff9269f7aa61a91f8f0fef52d",
+      "git_blob_sha1": "57eb2f4d0f65dcbdde4a84b62d2114b76fed6ba0"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/adapters/decision.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/adapters/decision.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/adapters/decision.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 10341,
+      "sha256": "6ccbdd2b120f6dd89c7612a77e6447c613ec22adec93f1d04b78defd4da76232",
+      "git_blob_sha1": "9e25772b40b869e679f7a3ffcb72617a9733a52f"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/signatures/signature.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/signatures/signature.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/signatures/signature.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 34839,
+      "sha256": "6dc35055b0a3690fb559816c19d89f7a3d5f841c04b409d817ee21f7389b892c",
+      "git_blob_sha1": "31a876c59439bbab5f104008c511495757168450"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/adapters/base.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/adapters/base.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/adapters/base.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 32961,
+      "sha256": "77983133d2b89b1519da753a7436b4e1dae20d06df54717c55f480c76bde072e",
+      "git_blob_sha1": "1d6c3ad9718e88c7bcf4cd9ffa4e522a5ba61268"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/adapters/utils.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/adapters/utils.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/adapters/utils.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 13137,
+      "sha256": "1670e8ea79768d558cae9812d9736219d553f78ad4df60e9378c34ed29cf69c9",
+      "git_blob_sha1": "6a08c42eb71db502035552ca943546164ec0090a"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/adapters/chat_adapter.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/adapters/chat_adapter.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/adapters/chat_adapter.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 12791,
+      "sha256": "3bf82a959573e95ea60e4d7ef9c818d67a5066f7c1775cff0423203329f699a8",
+      "git_blob_sha1": "a31663c874be60b0812e3785c1b1fb745795ac95"
+    },
+    {
+      "file": "upstream/stanfordnlp__dspy/dspy/predict/predict.py",
+      "repository": "stanfordnlp/dspy",
+      "upstream_path": "dspy/predict/predict.py",
+      "upstream_commit": "15aad8de2678a4d89a3a093e944fe58f8744c497",
+      "source_url": "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/dspy/predict/predict.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-a79ac563bcbf"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unmodified file, original research fixed revision. Root license and file headers retained; no applicable closer license. External dependencies/models/datasets not bundled. Not a complete runnable project; not executed.",
+      "license_evidence_urls": [
+        "https://github.com/stanfordnlp/dspy/blob/15aad8de2678a4d89a3a093e944fe58f8744c497/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/stanfordnlp__dspy/LICENSE"
+      ],
+      "size_bytes": 17441,
+      "sha256": "c9ff6c9b135f6215905cf12bb3b10d2e0edb989b5cfdfbeef040588719377d03",
+      "git_blob_sha1": "5c0910115ab21e9acfe4e6baced58b25f5085cd4"
+    },
+    {
+      "file": "upstream/huggingface__datasets/third-party/scikit-learn/COPYING",
+      "repository": "scikit-learn/scikit-learn",
+      "upstream_path": "COPYING",
+      "upstream_commit": "fd237278e895b42abe8d8d09105cbb82dc2cbba7",
+      "source_url": "https://github.com/scikit-learn/scikit-learn/blob/fd237278e895b42abe8d8d09105cbb82dc2cbba7/COPYING",
+      "role": "license_notice",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-014216b2538f"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "license_support",
+      "conditions": "Original upstream BSD license or explicitly archive-generated attribution, not an additional source body.",
+      "size_bytes": 1559,
+      "sha256": "3618538b53ee27fd43bc8b8acd0278dca3588d3999df75fbcf00d342e7940187",
+      "git_blob_sha1": "b98af1871018514c4c542266a8499735c9625533"
+    },
+    {
+      "file": "upstream/huggingface__datasets/third-party/scikit-learn/NOTICE.txt",
+      "repository": "scikit-learn/scikit-learn",
+      "upstream_path": "archive-generated-attribution",
+      "upstream_commit": "fd237278e895b42abe8d8d09105cbb82dc2cbba7",
+      "source_url": "https://github.com/scikit-learn/scikit-learn/blob/fd237278e895b42abe8d8d09105cbb82dc2cbba7/sklearn/model_selection/_split.py",
+      "role": "license_notice",
+      "license": "BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-014216b2538f"
+      ],
+      "original_bytes_unchanged": false,
+      "coverage_kind": "license_support",
+      "conditions": "Original upstream BSD license or explicitly archive-generated attribution, not an additional source body.",
+      "size_bytes": 1291,
+      "sha256": "580cb00ebf847bba5dc342e68e531c9081220c7cd2367d9efe9d5b1a019309f7",
+      "git_blob_sha1": "f5751be642bd8256ffeb7344e7becafa10e9a973"
+    },
+    {
+      "file": "upstream/huggingface__datasets/src/datasets/utils/stratify.py",
+      "repository": "huggingface/datasets",
+      "upstream_path": "src/datasets/utils/stratify.py",
+      "upstream_commit": "ef61228a5756dcebfff8ee245d89c72822fb6ae6",
+      "source_url": "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/src/datasets/utils/stratify.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0 AND BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-014216b2538f"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unchanged Hugging Face source. Apache2 plus explicit scikit-learn BSD-derived portions; original source comments and original full BSD COPYING and added attribution preserved. No external dataset or binary dependencies; not executed.",
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/huggingface__datasets/third-party/scikit-learn/COPYING",
+        "upstream/huggingface__datasets/third-party/scikit-learn/NOTICE.txt"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/LICENSE",
+        "https://github.com/scikit-learn/scikit-learn/blob/fd237278e895b42abe8d8d09105cbb82dc2cbba7/COPYING"
+      ],
+      "size_bytes": 4085,
+      "sha256": "f8c55a2e68a36211b2283a67652f40f128877a4688c959bce0757220840e99f8",
+      "git_blob_sha1": "6dab0469e8168148a81eb2c13f7c103b98d061e7"
+    },
+    {
+      "file": "upstream/huggingface__datasets/src/datasets/arrow_dataset.py",
+      "repository": "huggingface/datasets",
+      "upstream_path": "src/datasets/arrow_dataset.py",
+      "upstream_commit": "ef61228a5756dcebfff8ee245d89c72822fb6ae6",
+      "source_url": "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/src/datasets/arrow_dataset.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0 AND BSD-3-Clause",
+      "related_public_source_ids": [
+        "IFH-014216b2538f"
+      ],
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "conditions": "Complete unchanged Hugging Face source. Apache2 plus explicit scikit-learn BSD-derived portions; original source comments and original full BSD COPYING and added attribution preserved. No external dataset or binary dependencies; not executed.",
+      "retained_license_and_notice_files": [
+        "upstream/QwenLM__Qwen-MM-Plugins/LICENSE",
+        "upstream/huggingface__datasets/third-party/scikit-learn/COPYING",
+        "upstream/huggingface__datasets/third-party/scikit-learn/NOTICE.txt"
+      ],
+      "license_evidence_urls": [
+        "https://github.com/huggingface/datasets/blob/ef61228a5756dcebfff8ee245d89c72822fb6ae6/LICENSE",
+        "https://github.com/scikit-learn/scikit-learn/blob/fd237278e895b42abe8d8d09105cbb82dc2cbba7/COPYING"
+      ],
+      "size_bytes": 347232,
+      "sha256": "98c50ce98edc0fd700a8d6764dbae02beb91977036ed6ef5764875878947a977",
+      "git_blob_sha1": "9c57117415637e8aea149b6991e0c266bf1dcf92"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/decorators.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/decorators.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/decorators.py",
+      "title": "getzep/graphiti / graphiti_core/decorators.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 5704,
+      "sha256": "2a3f06663956e6caaa19310bc599eb7f6619c6cf3f47fc5064c3d20a01a73299",
+      "git_blob_sha1": "80bb8700cd622204f3022e7c0bddf32b8e8d9d01"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/edges.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/edges.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/edges.py",
+      "title": "getzep/graphiti / graphiti_core/edges.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 33822,
+      "sha256": "637732ae4291ca0e5b53e43dd92be6f46a91e352719cb7ea1570ebab7d5d0e33",
+      "git_blob_sha1": "6800438d9da1ea0f9d566a93bb4489c206726e2c"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/graphiti.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/graphiti.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/graphiti.py",
+      "title": "getzep/graphiti / graphiti_core/graphiti.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 93250,
+      "sha256": "4e456b2255196d13466e31d13d0f5790e85d611731cbdfa733abfb3091f24040",
+      "git_blob_sha1": "bd46a19e5f9ee129fb20df43dced053416c7e9f4"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/namespaces/edges.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/namespaces/edges.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/namespaces/edges.py",
+      "title": "getzep/graphiti / graphiti_core/namespaces/edges.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 11859,
+      "sha256": "b10e0d4052d92c574eec07cf77dc4efbcdbb7bcfd1ac8c0968cb8e8ffff3fd01",
+      "git_blob_sha1": "9fe13e517bdb364edd6feeb5bcda51021b509cf3"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/prompts/extract_edges.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/prompts/extract_edges.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/prompts/extract_edges.py",
+      "title": "getzep/graphiti / graphiti_core/prompts/extract_edges.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 18075,
+      "sha256": "8db3ce782d67592cffe70fc834d48d646273b4cf78b35da2b68b7d253598c07f",
+      "git_blob_sha1": "c814e57858e8efd4a4df64ed590ae0376ea58ae4"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/search/search.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/search/search.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/search/search.py",
+      "title": "getzep/graphiti / graphiti_core/search/search.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 33733,
+      "sha256": "bd224cb6a272d0be096779f3105a78639538f84d043a0c5ff5efddc9e46edf2a",
+      "git_blob_sha1": "9a74c84172dd15a159d4d5e2e35c10fb14d56f4a"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/search/search_config_recipes.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/search/search_config_recipes.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/search/search_config_recipes.py",
+      "title": "getzep/graphiti / graphiti_core/search/search_config_recipes.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 7443,
+      "sha256": "e06aae4698478499695d084064ec926270b30566284f0c65263e3879339abd94",
+      "git_blob_sha1": "4b8bc5a363baf730e3f00e6f576a730664516f59"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/search/search_filters.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/search/search_filters.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/search/search_filters.py",
+      "title": "getzep/graphiti / graphiti_core/search/search_filters.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 10726,
+      "sha256": "5112d9c57ae294a65d064723d3dcd718db01b8d71666db3946b231d02d490c0b",
+      "git_blob_sha1": "b2d08d07ce434a89bdcebcb9d189f592e275002f"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/search/search_utils.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/search/search_utils.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/search/search_utils.py",
+      "title": "getzep/graphiti / graphiti_core/search/search_utils.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 74411,
+      "sha256": "1128c86077ac250a8197ffb5109b36baa48cd1cb3863feef275d904a33af4cb4",
+      "git_blob_sha1": "b1570343331959607e9e2ea3a8b38082c3c8e171"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/utils/maintenance/edge_operations.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/utils/maintenance/edge_operations.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/utils/maintenance/edge_operations.py",
+      "title": "getzep/graphiti / graphiti_core/utils/maintenance/edge_operations.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 46743,
+      "sha256": "3f894ecf6e2cfb7a60d40d750fb4d0cf42d10d694312d72b4bb10ba5f86d36f9",
+      "git_blob_sha1": "465259e71a1e31a0b3e7c0b4fa7acc5701a6d21c"
+    },
+    {
+      "file": "upstream/getzep__graphiti/graphiti_core/utils/maintenance/temporal_edge_utils.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "graphiti_core/utils/maintenance/temporal_edge_utils.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/graphiti_core/utils/maintenance/temporal_edge_utils.py",
+      "title": "getzep/graphiti / graphiti_core/utils/maintenance/temporal_edge_utils.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 3023,
+      "sha256": "a86f7bc023e60c4a085677d589f9f183424eeb7324464149cddb344d052922fb",
+      "git_blob_sha1": "6a8e161e7510fcd5349828ff773ff686c6f05f78"
+    },
+    {
+      "file": "upstream/getzep__graphiti/tests/test_handle_multiple_group_ids.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "tests/test_handle_multiple_group_ids.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/tests/test_handle_multiple_group_ids.py",
+      "title": "getzep/graphiti / tests/test_handle_multiple_group_ids.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 4765,
+      "sha256": "c7ed2b96d84fc702fbe6e09c99877b0f5c89fb3e4c57411aa446cdb2de431c1d",
+      "git_blob_sha1": "b513030c2184b50df04654ef513f08e0bd4e4a4b"
+    },
+    {
+      "file": "upstream/getzep__graphiti/tests/utils/maintenance/test_edge_operations.py",
+      "repository": "getzep/graphiti",
+      "upstream_path": "tests/utils/maintenance/test_edge_operations.py",
+      "upstream_commit": "8ce6d633bdcd3d178b3a47bc25b105dce106a754",
+      "source_url": "https://github.com/getzep/graphiti/blob/8ce6d633bdcd3d178b3a47bc25b105dce106a754/tests/utils/maintenance/test_edge_operations.py",
+      "title": "getzep/graphiti / tests/utils/maintenance/test_edge_operations.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-ec7c36c51fe7"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/8ce6d633bdcd3d178b3a47bc25b105dce106a754/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/getzep__graphiti/LICENSE"
+      ],
+      "size_bytes": 62564,
+      "sha256": "de198da941af1210db89aa3992b13503a739634c1c1a3c5b719d6f62c7c4eba2",
+      "git_blob_sha1": "32942e2a22b947f3577040cd4e8c8828a095dd83"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/docs/docs/guides/manage_user_profile.md",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "docs/docs/guides/manage_user_profile.md",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/docs/docs/guides/manage_user_profile.md",
+      "title": "langchain-ai/langmem / docs/docs/guides/manage_user_profile.md",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 4820,
+      "sha256": "64d915dfab20c669b4c4acc65fc5c56730b84fd9c2fee227bc273a664f76bd1a",
+      "git_blob_sha1": "b1140270d0dcea99fc7aee3f50d59162cb06c7d1"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/docs/docs/guides/optimize_memory_prompt.md",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "docs/docs/guides/optimize_memory_prompt.md",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/docs/docs/guides/optimize_memory_prompt.md",
+      "title": "langchain-ai/langmem / docs/docs/guides/optimize_memory_prompt.md",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 5450,
+      "sha256": "f0610a7052100e1746af554a1464949ed88d5d13a06279ebcdd03e076c251939",
+      "git_blob_sha1": "8b87a7572953cc6bc991ae948aafba8eef9969ff"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/src/langmem/knowledge/tools.py",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "src/langmem/knowledge/tools.py",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/src/langmem/knowledge/tools.py",
+      "title": "langchain-ai/langmem / src/langmem/knowledge/tools.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 19240,
+      "sha256": "0118d3623a19c9b6c8c3d477aead51f08eeb44771c3ae3f51cd32d8a800b78d7",
+      "git_blob_sha1": "769325d953db392b60006fbbce318824e8b6c4c4"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/src/langmem/prompts/optimization.py",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "src/langmem/prompts/optimization.py",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/src/langmem/prompts/optimization.py",
+      "title": "langchain-ai/langmem / src/langmem/prompts/optimization.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 23215,
+      "sha256": "eba463458e6ab7de7d51edf4c9a48a949af2205911e6cf7685043ce92ab47862",
+      "git_blob_sha1": "f42e7b25f6563f6a336080d4dab2676fc1c1c022"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/src/langmem/prompts/prompt.py",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "src/langmem/prompts/prompt.py",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/src/langmem/prompts/prompt.py",
+      "title": "langchain-ai/langmem / src/langmem/prompts/prompt.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 1720,
+      "sha256": "a938470af1c1777cc50c3c3a51ddc6b58f35e61ade1f7bc23941c2a5ca334d1e",
+      "git_blob_sha1": "7bbd6383726f18abc1795866fb075a85867e3e8d"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/src/langmem/prompts/stateless.py",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "src/langmem/prompts/stateless.py",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/src/langmem/prompts/stateless.py",
+      "title": "langchain-ai/langmem / src/langmem/prompts/stateless.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 8612,
+      "sha256": "37326ec26e650b48aa52b7d2f484d24699437e129e49b147803dfb70c1b725de",
+      "git_blob_sha1": "cd3a3405c7606413d078ef1b075d7240445a7938"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/src/langmem/prompts/utils.py",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "src/langmem/prompts/utils.py",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/src/langmem/prompts/utils.py",
+      "title": "langchain-ai/langmem / src/langmem/prompts/utils.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 2721,
+      "sha256": "a68b4d471c1430f9fa939b6886d404d8758b0398ae57f5c5db82d31d37a5995c",
+      "git_blob_sha1": "e798453114fc878193555209a404221c85480e7d"
+    },
+    {
+      "file": "upstream/langchain-ai__langmem/src/langmem/utils.py",
+      "repository": "langchain-ai/langmem",
+      "upstream_path": "src/langmem/utils.py",
+      "upstream_commit": "48e3c11f5bb527282c7d5339c6a87a0b35abccfc",
+      "source_url": "https://github.com/langchain-ai/langmem/blob/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/src/langmem/utils.py",
+      "title": "langchain-ai/langmem / src/langmem/utils.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-9a996c68698b"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/langchain-ai/langmem/48e3c11f5bb527282c7d5339c6a87a0b35abccfc/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/langchain-ai__langmem/LICENSE"
+      ],
+      "size_bytes": 8180,
+      "sha256": "0671eaf7ca9d0c59de4dc07b327799e5371cdb559cfd7f58d01b35081cb73071",
+      "git_blob_sha1": "d68500f9db8939d56a02d7e7eb42592d1ddeca33"
+    },
+    {
+      "file": "upstream/mem0ai__mem0/mem0/configs/prompts.py",
+      "repository": "mem0ai/mem0",
+      "upstream_path": "mem0/configs/prompts.py",
+      "upstream_commit": "2c81af3bbe27d9bccb09c772d583df9e9be72ee5",
+      "source_url": "https://github.com/mem0ai/mem0/blob/2c81af3bbe27d9bccb09c772d583df9e9be72ee5/mem0/configs/prompts.py",
+      "title": "mem0ai/mem0 / mem0/configs/prompts.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-cddc9a2d075a"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/mem0ai/mem0/2c81af3bbe27d9bccb09c772d583df9e9be72ee5/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/mem0ai__mem0/LICENSE"
+      ],
+      "size_bytes": 64064,
+      "sha256": "10bc8a34b3b5f0ce24560a2a3190c9112b979a891b981f48393bbd168d915a5c",
+      "git_blob_sha1": "bdcb6af3f14aff66bf4d43d0d80e7a48a69eaa0f"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/docs/en/auto_dream.md",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "docs/en/auto_dream.md",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/docs/en/auto_dream.md",
+      "title": "agentscope-ai/ReMe / docs/en/auto_dream.md",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 9366,
+      "sha256": "1e1a5fa70d9d433acf0f657c0c21f2c65ef69bd0b5f791774af2444f737bf98b",
+      "git_blob_sha1": "6cc6ce925cd98d824ee17f6c1c025a718a258662"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/docs/en/memory_search.md",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "docs/en/memory_search.md",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/docs/en/memory_search.md",
+      "title": "agentscope-ai/ReMe / docs/en/memory_search.md",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 14021,
+      "sha256": "52d0ce0612e146a0c92758b140d2d21f259dcf06dc3244ff302758089603df0d",
+      "git_blob_sha1": "c2a72d6b4b44e16bdd39d081f0626fe2d774a926"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/components/agent_wrapper/base_agent_wrapper.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/components/agent_wrapper/base_agent_wrapper.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/components/agent_wrapper/base_agent_wrapper.py",
+      "title": "agentscope-ai/ReMe / reme/components/agent_wrapper/base_agent_wrapper.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 11150,
+      "sha256": "2222a36caeee6cf337d3b5384b4a7fef458e94d7a0d617e144c903edf3dbd535",
+      "git_blob_sha1": "69f1ace639d5551e3542318040453cd49e9da2a5"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/components/file_catalog/local_file_catalog.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/components/file_catalog/local_file_catalog.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/components/file_catalog/local_file_catalog.py",
+      "title": "agentscope-ai/ReMe / reme/components/file_catalog/local_file_catalog.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 2297,
+      "sha256": "9401348768986b5493eaf2e7b25a38d220e3f7e0723fd05472fe1bd13515486e",
+      "git_blob_sha1": "1cfe1199456fd407c591c9b3ba81372c6b5957c2"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/components/file_chunker/markdown_file_chunker.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/components/file_chunker/markdown_file_chunker.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/components/file_chunker/markdown_file_chunker.py",
+      "title": "agentscope-ai/ReMe / reme/components/file_chunker/markdown_file_chunker.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 23673,
+      "sha256": "657690607db99a83293503c78be5ee7e8ce0d98cb90b37fd2559b92e91a3dff8",
+      "git_blob_sha1": "06a077933307b0cb0a1023d137c232523fb65b7a"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/components/file_store/local_file_store.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/components/file_store/local_file_store.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/components/file_store/local_file_store.py",
+      "title": "agentscope-ai/ReMe / reme/components/file_store/local_file_store.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 54299,
+      "sha256": "5b785ff35482d639d80e3d497d8f8ee376df93a07ee817207c3f2eefa6166b74",
+      "git_blob_sha1": "ee36674b8a2891fa78891b59f346034e283d46c0"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/config/default.yaml",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/config/default.yaml",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/config/default.yaml",
+      "title": "agentscope-ai/ReMe / reme/config/default.yaml",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 26825,
+      "sha256": "dfb1060f87cf709dd9c29ca4fdb32ef37bf014f06e9bef7120e255eb2ee58ffa",
+      "git_blob_sha1": "c57c0b3cee60fe19656bf8b19e0264909610929f"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/schema/application_config.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/schema/application_config.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/schema/application_config.py",
+      "title": "agentscope-ai/ReMe / reme/schema/application_config.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 4623,
+      "sha256": "aa498d5ad2b84e7d240f1fe9b6d4e966dff264d2be12caa991638974414732c3",
+      "git_blob_sha1": "dc12737e5b10ee1aebe17158bc1206c2781ae299"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/schema/dream.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/schema/dream.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/schema/dream.py",
+      "title": "agentscope-ai/ReMe / reme/schema/dream.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 2756,
+      "sha256": "5842a9bb9e06ec192b3abaeb94a38cc36bafa9a38672c941eca284bed71fb448",
+      "git_blob_sha1": "105aa95737a6b5401ec009d41e97a9e161bd1f5a"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/evolve/dream/extract.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/evolve/dream/extract.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/evolve/dream/extract.py",
+      "title": "agentscope-ai/ReMe / reme/steps/evolve/dream/extract.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 10137,
+      "sha256": "4a54479c86f9e9c291d511e87227943052e18091ee1271b7e7c891bd33e652ff",
+      "git_blob_sha1": "d3d4c3b7434e5a0d080f1379a2fc7c58c8224a91"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/evolve/dream/extract.yaml",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/evolve/dream/extract.yaml",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/evolve/dream/extract.yaml",
+      "title": "agentscope-ai/ReMe / reme/steps/evolve/dream/extract.yaml",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 9005,
+      "sha256": "eb95ebb13687ae89f4d2a8d24ae7bc23fee93f69c2dfab40a4d6265ed273bd15",
+      "git_blob_sha1": "2cdcb942a4569295adb937db0c1408b04941e7b9"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/evolve/dream/finish.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/evolve/dream/finish.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/evolve/dream/finish.py",
+      "title": "agentscope-ai/ReMe / reme/steps/evolve/dream/finish.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 5128,
+      "sha256": "920139d5dfff285cfc0e10f520ba1866ae5718d2cc57d95a142e7a8cd968a924",
+      "git_blob_sha1": "980f93be6b5659a277396426c876548cd5009437"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/evolve/dream/integrate.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/evolve/dream/integrate.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/evolve/dream/integrate.py",
+      "title": "agentscope-ai/ReMe / reme/steps/evolve/dream/integrate.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 15026,
+      "sha256": "fc6720758afb235703fd993b03b9c7ab0a0a2623ceba93b3c8f2d97f0ed10f56",
+      "git_blob_sha1": "f3946318337297f371586e887fbcb6cb026a9fe1"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/evolve/dream/integrate.yaml",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/evolve/dream/integrate.yaml",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/evolve/dream/integrate.yaml",
+      "title": "agentscope-ai/ReMe / reme/steps/evolve/dream/integrate.yaml",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 28178,
+      "sha256": "41323803b7fc3dd5a0241685bc9906acf0a0ee8e5e6ab62c60590872123ae58f",
+      "git_blob_sha1": "25d66250980866adbfc9a9346e4926fa21e26cf0"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/file_io/_path.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/file_io/_path.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/file_io/_path.py",
+      "title": "agentscope-ai/ReMe / reme/steps/file_io/_path.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 6491,
+      "sha256": "c56725166a9f9e3491dea78dba0943dd4771da92e100f65efc86e837706dec3d",
+      "git_blob_sha1": "d8cad027a26e0606e9e7c34869bd9859f4f9d487"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/file_io/delete.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/file_io/delete.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/file_io/delete.py",
+      "title": "agentscope-ai/ReMe / reme/steps/file_io/delete.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 6261,
+      "sha256": "36ba15767e7ffaccee6c45d3e5664a2f80ebb4ffb583558ce7392d7d70dd39b4",
+      "git_blob_sha1": "c4eec0883d07e797ce5a98c0b8701833d1a22afb"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/file_io/edit.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/file_io/edit.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/file_io/edit.py",
+      "title": "agentscope-ai/ReMe / reme/steps/file_io/edit.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 4760,
+      "sha256": "bd429c46f780b48afd3017ba109566201ccae4af7e581f4d70ca89b399888485",
+      "git_blob_sha1": "b9a457d5278e223485eb754660c8e5a4545da7bf"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/index/init_changes.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/index/init_changes.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/index/init_changes.py",
+      "title": "agentscope-ai/ReMe / reme/steps/index/init_changes.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 3538,
+      "sha256": "15740dfb4e87b15955e467f2ce0181ad54da9cb2f0697041d1ac1dd48f167140",
+      "git_blob_sha1": "407116377d08f1cc8a1f196f8a8b7cea6379cc95"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/index/node_search.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/index/node_search.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/index/node_search.py",
+      "title": "agentscope-ai/ReMe / reme/steps/index/node_search.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 6425,
+      "sha256": "d791c51472d5fe3781d5f42a98ca7f5d5245baf3430892abb64e30c247bbf2d5",
+      "git_blob_sha1": "d6b50658ce5cda16f840978e980ecbd78e6cb220"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/index/search.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/index/search.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/index/search.py",
+      "title": "agentscope-ai/ReMe / reme/steps/index/search.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 16147,
+      "sha256": "cd01d073e9a30556d74fb1b1e12ca39945143c6af7cbfd25a0b205e1918d47d1",
+      "git_blob_sha1": "f4e20b3c6e6f94cfa020b521fd97661f75293e05"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/steps/index/update_changes.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/steps/index/update_changes.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/steps/index/update_changes.py",
+      "title": "agentscope-ai/ReMe / reme/steps/index/update_changes.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 16540,
+      "sha256": "69e66643f7c8f10afdbb7663853473e930fae3ebc31045670fb0986f69295621",
+      "git_blob_sha1": "6ce461f02097e867712814e81207b774c7cc0342"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/reme/utils/link_expansion.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "reme/utils/link_expansion.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/reme/utils/link_expansion.py",
+      "title": "agentscope-ai/ReMe / reme/utils/link_expansion.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 4530,
+      "sha256": "e71eaca6a8e6710eb2704a9fdc53b6198d19ceff458fd4d9a8a4d82b79c2f56e",
+      "git_blob_sha1": "5ec759e2cd05489d4beffd65182332e0756e16ac"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/tests/unit/test_auto_dream.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "tests/unit/test_auto_dream.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/tests/unit/test_auto_dream.py",
+      "title": "agentscope-ai/ReMe / tests/unit/test_auto_dream.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 42913,
+      "sha256": "a210b4b5590bc96379608143c01cca5408d9cc8e57b0dba73e580d0863c27a61",
+      "git_blob_sha1": "5a6a0be8e95f631d7d0ff08cc9a7d138eefd93ab"
+    },
+    {
+      "file": "upstream/agentscope-ai__ReMe/tests/unit/test_dream_checkpoint_versions.py",
+      "repository": "agentscope-ai/ReMe",
+      "upstream_path": "tests/unit/test_dream_checkpoint_versions.py",
+      "upstream_commit": "c773fa7b771d6b72657b5e6e2cc3dc56ed412089",
+      "source_url": "https://github.com/agentscope-ai/ReMe/blob/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/tests/unit/test_dream_checkpoint_versions.py",
+      "title": "agentscope-ai/ReMe / tests/unit/test_dream_checkpoint_versions.py",
+      "role": "implementation_source",
+      "license": "Apache-2.0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c3182ace2a6f"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/agentscope-ai/ReMe/c773fa7b771d6b72657b5e6e2cc3dc56ed412089/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/agentscope-ai__ReMe/LICENSE"
+      ],
+      "size_bytes": 12658,
+      "sha256": "70586ce7d7d3e8a19f47cf6d1f4385581fc595ada687ebeece2120d239118a72",
+      "git_blob_sha1": "ec97e1126a9c22603b5ea7cc8eafe949f90cbb88"
+    },
+    {
+      "file": "upstream/WujiangXu__A-mem/memory_layer.py",
+      "repository": "WujiangXu/A-mem",
+      "upstream_path": "memory_layer.py",
+      "upstream_commit": "b31a1dddf56f87ec762cce3539418602d7e2ffb1",
+      "source_url": "https://github.com/WujiangXu/A-mem/blob/b31a1dddf56f87ec762cce3539418602d7e2ffb1/memory_layer.py",
+      "title": "WujiangXu/A-mem / memory_layer.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-a69b8647b121"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/WujiangXu/A-mem/b31a1dddf56f87ec762cce3539418602d7e2ffb1/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/WujiangXu__A-mem/LICENSE"
+      ],
+      "size_bytes": 46698,
+      "sha256": "dd8f871da00a57a2218de63ba9792336dd5bf040ec4502beaea22739bd865d3c",
+      "git_blob_sha1": "d290b9ef364400f65a403b643e4252c740de99be"
+    },
+    {
+      "file": "upstream/noahshinn__reflexion/alfworld_runs/generate_reflections.py",
+      "repository": "noahshinn/reflexion",
+      "upstream_path": "alfworld_runs/generate_reflections.py",
+      "upstream_commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+      "source_url": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/alfworld_runs/generate_reflections.py",
+      "title": "noahshinn/reflexion / alfworld_runs/generate_reflections.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-147eb673155c"
+      ],
+      "conditions": "Complete unmodified official file at previously researched fixed commit. Original root license and copyright retained. Complete recursive tree checked for license/notice; no nearer ancestor license/notice applies to selected paths. No embedded third-party exclusion found in selected file; linked/imported libraries, binary decoders, brand assets and media not included/relicensed. Partial repository selection, not complete runnable package. Source not executed; source attachments do not count as new independent sources.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/noahshinn/reflexion/218cf0ef1df84b05ce379dd4a8e47f17766733a0/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/noahshinn__reflexion/LICENSE"
+      ],
+      "size_bytes": 2387,
+      "sha256": "d7fbe4af7ff21ce9bc73ad2bcf16bf265682d1fb3554dc62985f3ada09997ef7",
+      "git_blob_sha1": "1092cbd6dc1f0e25cf6ee60e2ea2d27e35001bf7"
+    },
+    {
+      "file": "upstream/articles/sri-lankan-palaeoart.fulltext.txt",
+      "title": "Toward an interdisciplinary 3D animation design process for palaeoart: Visualising Quaternary megafauna from Sri Lanka’s Sabaragamuwa Basin",
+      "authors": [
+        "Jason Kennedy",
+        "Aravinda Ravibhanu Sumanarathna"
+      ],
+      "source_url": "https://openrepository.aut.ac.nz/bitstreams/6cb58734-6783-474b-947b-fba01efbafb9/download",
+      "canonical_url": "https://doi.org/10.26879/1616",
+      "registry_source_id": "IFH-135c9578e4a3",
+      "related_public_source_ids": [
+        "IFH-135c9578e4a3"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Official AUT archived publisher PDF page1 explicitly states CC BY4, copyright Society of Vertebrate Paleontology, May2026.",
+      "license_evidence_url": "https://openrepository.aut.ac.nz/items/abc4d1f4-654c-4f79-93a4-335e3a3317e1",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "size_bytes": 162846,
+      "sha256": "a098691a1ada7e8e3c5a96d9a84df418fd837eb3d8da2b4671394ecd1455ee1f",
+      "upstream_pdf_sha256": "47604bcee6e75b84854f07bb01ff6e56acd9109513433303d01a44a57e2add09",
+      "upstream_pdf_size": 15049108,
+      "conditions": "Complete all-page textual extraction with attribution/license and change notice; all imagery and third-party media/model assets excluded. DOI and title absent from current repo metadata.",
+      "repository": "web/openrepository.aut.ac.nz",
+      "upstream_path": "bitstreams/6cb58734-6783-474b-947b-fba01efbafb9/download",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://openrepository.aut.ac.nz/items/abc4d1f4-654c-4f79-93a4-335e3a3317e1",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "2a9a95e9c03ca9cb02a4bdc231dc133f63489168"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Archive-added third-party attribution notice. This is not an original upstream file.
+
+The unchanged Hugging Face Datasets files src/datasets/arrow_dataset.py and src/datasets/utils/stratify.py refer to scikit-learn stratified splitting. Retain the Hugging Face Apache-2.0 license, original source comments, and the attached original scikit-learn BSD-3-Clause COPYING. Neither project license is replaced or relicensed.
+
+The source comment in arrow_dataset.py identifies:
+https://github.com/scikit-learn/scikit-learn/blob/fd237278e895b42abe8d8d09105cbb82dc2cbba7/sklearn/model_selection/_split.py
+This fixed original explicitly states BSD 3 clause and credits Alexandre Gramfort, Gael Varoquaux, Olivier Grisel and Raghav RV. Its stratified splitting imports _approximate_mode from sklearn/utils/__init__.py at the same revision. The Datasets stratify helper documents its scikit-learn derivation; this archive preserves the matching upstream group copyright and full license without claiming an exact historical adaptation commit for that helper.
+
+Original copyright: Copyright (c) 2007–2020 The scikit-learn developers. All rights reserved. See COPYING for the complete conditions and disclaimer.
+
+No scikit-learn package or dependencies are executed or bundled beyond this license text.

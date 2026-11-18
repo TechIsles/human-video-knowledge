@@ -1,0 +1,1910 @@
+Toward an interdisciplinary 3D animation design process for palaeoart: Visualising Quaternary megafauna from Sri Lanka’s Sabaragamuwa Basin
+Authors: Jason Kennedy; Aravinda Ravibhanu Sumanarathna
+Source: https://doi.org/10.26879/1616
+Full PDF: https://openrepository.aut.ac.nz/bitstreams/6cb58734-6783-474b-947b-fba01efbafb9/download
+Copyright: May 2026 Society of Vertebrate Paleontology.
+License: CC BY4 https://creativecommons.org/licenses/by/4.0/ (explicit on PDF page 1)
+Changes: Complete selectable-text extraction from all 39 pages using pdftotext -layout. All images/vector figures and linked media/assets omitted; captions, tables, references and notices retained. Source discusses commercially obtained TurboSquid base models: underlying model assets and imagery are excluded. Layout/reading order may differ; not an unchanged PDF.
+
+--- BEGIN FULL TEXT ---
+
+                      Palaeontologia Electronica
+                      palaeo-electronica.org
+
+
+
+
+        Toward an interdisciplinary 3D animation design process
+           for palaeoart: Visualising Quaternary megafauna
+                from Sri Lanka’s Sabaragamuwa Basin
+                     Jason Kennedy and Aravinda Ravibhanu Sumanarathna
+
+
+                                                          ABSTRACT
+
+                  This study examines the use of three dimensional (3D) animation workflows to
+            create scientifically credible palaeoart of extinct Quaternary megafauna from Sri
+            Lanka’s Sabaragamuwa Basin. While palaeoart has long played a critical role in visual-
+            ising prehistoric life, its scientific foundations are often under-reported, and visual
+            reconstructions are rarely subjected to peer review – especially in underrepresented
+            regions like Sri Lanka. There remains a significant gap in both the availability and
+            methodological transparency of palaeoart, despite increasing international calls for
+            standardised and evidence-based practices in the field. This research presents the first
+            photorealistic 3D reconstructions of two extinct Sri Lankan megafauna: Palaeoloxodon
+            namadicus sinhaleyus and Quaternary rhinoceros material historically referred to as
+            Rhinoceros sinhaleyus. These visualisations were produced through interdisciplinary
+            collaboration between a palaeontologist and digital artist team, merging morphometric
+            data of Ratnapuran fauna with animation and visual effects pipelines. By documenting
+            the full design process and clarifying the scientific and aesthetic decisions involved,
+            this study provides a model for future scientist-palaeoartist collaboration and highlights
+            the communicative power of digital visualisation to enhance public engagement with
+            underexplored palaeontological heritage.
+
+Jason Kennedy. Auckland University of Technology, c/o School of Art & Design,
+27 St Paul Street 1010, Auckland CBD, New Zealand. jason.kennedy@aut.ac.nz
+Aravinda Ravibhanu Sumanarathna. Richland Estate, Co-Research Station, Eco Astronomy HUB.
+Beruwaththa, Mitipola, Eheliyagoda 70600, Sri Lanka. aravinda@ecoastronomy.edu.lk
+
+KEYWORDS: palaeoart; 3D reconstruction; Quaternary megafauna; Sri Lankan palaeontology; scientific
+visualisation
+
+
+
+
+Final citation: Kennedy, Jason and Sumanarathna, Aravinda Ravibhanu. 2026. Toward an interdisciplinary 3D animation design
+process for palaeoart: Visualising Quaternary megafauna from Sri Lanka’s Sabaragamuwa Basin. Palaeontologia Electronica,
+29(2):a18.
+https://doi.org/10.26879/1616
+palaeo-electronica.org/content/2026/5840-3d-animation-design-process-for-sri-lankan-palaeoart
+
+Copyright: May 2026 Society of Vertebrate Paleontology.
+This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted
+use, distribution, and reproduction in any medium, provided the original author and source are credited.
+creativecommons.org/licenses/by/4.0
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+Submission: 27 July 2025. Acceptance: 22 April 2026.
+
+
+
+
+                    INTRODUCTION                          resentation. Although no single definition is univer-
+                                                          sally accepted, recent scholarship has sought to
+       Scientific visualisation plays a central role in
+                                                          formalise the term and distinguish it from other
+shaping how prehistoric life is understood by both
+                                                          forms of palaeontological imagery (Ansón et al.,
+specialists and the public. Palaeoart – the recon-
+                                                          2015). A recurring feature across these definitions
+struction of extinct organisms and environments
+                                                          is a commitment to the reconstruction of extinct life
+through artistic media – is among its most influen-
+                                                          grounded in available scientific evidence (Witton et
+tial forms, capable of synthesising anatomical, eco-
+                                                          al., 2014).
+logical, and behavioural evidence within a single
+                                                                The concept of palaeoart implies two inter-
+image. However, the scientific reasoning underpin-
+                                                          secting evaluative criteria. First, the imagery must
+ning palaeoart is often under-reported or obscured
+                                                          demonstrate scientific credibility in its anatomical,
+by artistic convention, limiting its value as a
+                                                          ecological, and behavioural depictions. Second, it
+research-informed communicative tool. This issue
+                                                          must possess sufficient aesthetic quality to function
+is particularly evident in underrepresented palae-
+                                                          as an artistic work, rather than serving a purely
+ontological contexts such as Sri Lanka, where
+                                                          illustrative role. This distinction separates palaeoart
+visual reconstructions of extinct fauna remain
+                                                          from technical figures such as skeletal restorations
+scarce.
+                                                          commonly included in palaeontological publica-
+       To date, only a small number of palaeoartistic
+                                                          tions, which are assessed for scientific accuracy
+representations of extinct Sri Lankan species have
+                                                          but not for artistic merit.
+been produced, including illustrations by P.E.P.
+                                                                To capture this dual requirement, Ansón et al.
+Deraniyagala (1955; 1958), Kelum Manamendra-
+                                                          (2015) defined palaeoart as: “any original artistic
+Arachchi (2005), and Saranath Dhananjaya Sena-
+                                                          manifestation that attempt[s] to reconstruct o[r]
+pathi (Jayatunga, 2014). This article presents the
+                                                          depict prehistoric life according to the current
+first scientifically informed reconstructions of
+                                                          knowledge and scientific evidence at the moment
+extinct species from Sri Lanka’s Sabaragamuwa
+                                                          of creating the artwork.” (p. 33), emphasising the
+Basin created using a photorealistic 3D animation
+                                                          need for both artistic skill and scientific understand-
+workflow. The reconstructions of Palaeoloxodon
+                                                          ing However, there are many depictions of prehis-
+namadicus sinhaleyus and Rhinoceros sinhaleyus
+                                                          toric life that fail to meet either scientific or
+constitute the first substantial visual updates to
+                                                          aesthetic standards. Debus and Debus (2002) pro-
+these taxa since 1955 (Deraniyagala 1955). Devel-
+                                                          posed the term palaeoimagery to describe all
+oped through interdisciplinary collaboration
+                                                          visual representations of prehistory, regardless of
+between palaeontologists and digital artists, the
+                                                          quality or intent. Because the reconstructions pre-
+work is accompanied by a detailed account of the
+                                                          sented in this study explicitly aim to meet both sci-
+scientific evidence and aesthetic decisions that
+                                                          entific and artistic criteria, the term palaeoart is
+informed each reconstruction.
+                                                          used throughout this article.
+       This research pursues two objectives: to
+establish a transparent and methodologically rigor-       Origins and Role of Palaeoart
+ous framework for producing scientifically credible
+                                                                Palaeoart has been closely linked to palaeon-
+palaeoart using 3D animation pipelines, and to
+                                                          tology since the early nineteenth century. One of
+increase visibility of Sri Lanka’s palaeontological
+                                                          the earliest examples dates to 1800, when Jean
+record within both regional education and interna-
+                                                          Hermann illustrated a speculative restoration of a
+tional research contexts. By documenting the rea-
+                                                          pterosaur skeleton first described by Cosimo Col-
+soning behind these reconstructions, this study
+                                                          lini 14 years earlier (Taquet and Padian, 2004). In
+contributes to ongoing efforts to integrate palaeoart
+                                                          1830, Henry Thomas De la Beche published Duria
+more formally into peer-reviewed scientific dis-
+                                                          Antiquior, a watercolour depicting ichthyosaurs,
+course.
+                                                          plesiosaurs, and pterosaurs reconstructed within a
+                                                          shared Jurassic environment based on fossils from
+                      PALAEOART
+                                                          Dorset, England. Unlike earlier depictions of extinct
+     Palaeoart is a form of scientific visualisation      organisms as isolated figures, Duria Antiquior rep-
+that depicts prehistoric life through naturalistic rep-   resented a deliberate attempt to visualise prehis-
+
+2
+                                                                                      PALAEO-ELECTRONICA.ORG
+
+
+toric life as part of a functioning ecology grounded          Similar constraints apply to decisions sur-
+in contemporary scientific understanding.               rounding colouration, body proportions, and soft
+      Earlier visualisations of extinct environments    tissues, including pelage or plumage where rele-
+were rare and not always intended as serious sci-       vant. Such features should be defensible in relation
+entific reconstructions. William Conybeare’s 1822       to all available evidence at the time of reconstruc-
+illustration of William Buckland encountering hye-      tion, rather than inherited from convention or aes-
+nas in Kirkdale Cave, for example, was a satirical      thetic habit (Witton et al., 2014; Davis et al., 2022).
+image rather than an ecological restoration (Pem-       Nevertheless, palaeoimagery frequently perpetu-
+berton, 2010). By contrast, De la Beche’s work          ates outdated visual tropes – including repeated
+marked a shift toward using palaeoart as a tool for     colour schemes, poses, behaviours, and composi-
+synthesising fossil evidence into coherent environ-     tional structures – that owe more to artistic tradition
+mental narratives. Lithographic reproductions of        than to contemporary scientific understanding
+Duria Antiquior were sold to academics for use in       (Naish, 2017).
+lectures (Lescaze, 2017) and, by 1859, model rep-             One of the most egregious of these tropes is
+licas of the Crystal Palace dinosaur sculptures         the “shrink-wrapping” of prehistoric animals, in
+were sold as merchandise, extending the influence       which skeletal and muscular forms are depicted as
+of palaeoart across academic, educational, and          tightly constrained beneath a thin layer of skin. This
+commercial spheres (Witton et al., 2014).               approach privileges osteology at the expense of
+      Today, palaeoart continues to play an import-     soft tissue, resulting in reconstructions that under-
+ant role in communicating palaeontological knowl-       represent the volume, flexibility, and surface com-
+edge to both specialist and non-specialist              plexity seen in extant animals. Comparative
+audiences (Witton et al., 2014). Primary taxonomic      anatomy provides clear counterexamples, includ-
+publications typically prioritise documentation of      ing the soft-tissue structures of birds and the
+anatomical evidence through fossil photography,         trunks, ears, and overall mass of elephants, all of
+bone illustrations, skeletal reconstructions, and       which demonstrate how skeletal outlines alone are
+phylogenetic diagrams. Fully realised palaeoart is      poor predictors of external form (McDermott,
+less commonly included at this stage, reflecting the    2020). In response to such limitations, recent
+focus of initial research outputs on evidentiary        palaeoart has increasingly challenged inherited
+description rather than visual synthesis. Recon-        visual conventions. The All Yesterdays movement,
+structions of complete, fleshed-out organisms           which emerged in the early 2010s, explicitly sought
+therefore more often appear in subsequent publi-        to disrupt the visual homogeneity of palaeoart by
+cations or as part of public engagement and out-        encouraging biologically plausible but unconven-
+reach efforts intended to contextualise scientific      tional interpretations of extinct animals (Conway et
+finds for wider audiences.                              al., 2012; Davis et al., 2022). Rather than aban-
+                                                        doning scientific constraint, this approach reframed
+Considerations in Reconstruction
+                                                        uncertainty as an opportunity to explore a broader
+      Despite their influence on both scientific and    range of defensible anatomical and behavioural
+public understanding, the decisions underpinning        possibilities.
+palaeoartistic reconstructions are rarely subjected
+                                                        Palaeoart and Popular Culture
+to formal peer review, even when works appear in
+academic contexts (Davis et al., 2022). This is               The relationship formed between a concept
+partly due to the infrequent documentation of visual    and its visual representation during childhood can
+methodologies by palaeoartists themselves               have long-lasting effects on how that concept is
+(Campbell et al., 2021). As palaeontological knowl-     understood into adulthood (Kosslyn et al., 2006).
+edge expands – particularly through advances that       Research suggests that the earliest visual depic-
+allow increasingly detailed analysis of fossil mate-    tions of dinosaurs encountered by children often
+rial – the scope for artistic licence correspondingly   exert the strongest influence on their lifelong men-
+narrows (Witton, 2014; Bertozzo et al., 2020;           tal models of those animals (Rosset al., 2012). As
+McDermott, 2020; Campbell et al., 2021). Anatomi-       a result, educational institutions such as museums
+cal reconstructions are therefore constrained by        carry a particular responsibility for the accuracy of
+biomechanical plausibility, limiting depictions to      their displays, websites, printed materials, and
+poses and behaviours consistent with a species’         associated merchandise, which exert far greater
+inferred functional capabilities.                       influence on public understanding – especially
+
+
+
+                                                                                                             3
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+among younger audiences – than scientific publi-         been made by scientists with artistic training,
+cations themselves (Campbell et al., 2021).              including Paulus Edward Pieris Deraniyagala,
+      Museums, however, represent only one ave-          Siran Deraniyagala, Saranath Dhananjaya Senap-
+nue through which depictions of prehistoric life are     athi, and Kelum Manamendra-Arachchi, (Jaya-
+disseminated. Popular culture artefacts – including      tunga, 2014). Their palaeoartistic output has
+toys, books, television, film, clothing, and even        primarily employed traditional media such as draw-
+dino chicken nuggets – arguably play an even             ing, painting, and sculpture, alongside raster-
+greater role in shaping public perceptions of extinct    based digital illustration tools (e.g., Adobe Photo-
+organisms. In such contexts, there is little incentive   shop). These works typically function as adjuncts
+to reflect contemporary scientific understanding.        to scientific research rather than as independently
+Instead, popular representations frequently perpet-      theorised visual reconstructions.
+uate outdated reconstructions, favour paedomor-                More recent large-scale palaeoart initiatives
+phic or exaggerated designs, or modify anatomy           include the cement sculptures installed at the Rath-
+and posture to meet commercial or manufacturing          napura National Museum Palaeobiodiversity
+constraints, such as ensuring a toy can stand            Museum Park. Created between 2012 and 2014 by
+upright (Ross et al., 2012; Witton, 2018).               Lalith Wijesinghe and D.U. Rajapaksha, these
+      As a result, palaeoimagery, and palaeoart in       works depict a range of extinct Sri Lankan mega-
+particular, “can easily create and perpetuate mis-       fauna and were produced under the supervision of
+conceptions that are carried through generations of      the Department of National Museums to ensure
+iterative popular media” (Davis et al., 2022, p. 1).     alignment with institutional standards. While signifi-
+Mark Witton (2017a) warns that the influence of          cant as public-facing representations, these sculp-
+palaeoart often exceeds those of press coverage          tures were not accompanied by published
+or even scientific papers, giving such imagery a         documentation detailing the scientific assumptions
+disproportionate influence on public perception          or reconstruction methodologies informing their
+and, in some cases, on scientific hypotheses them-       design.
+selves. Witton (2017b) further emphasises the                  Among Sri Lankan contributors, P.E.P. Derani-
+importance of actively guiding reconstructions           yagala warrants particular attention. In addition to
+toward greater credibility to shape future represen-     his central role in shaping twentieth-century Sri
+tational norms.                                          Lankan palaeontology (Jayatunga, 2014; Attha-
+      While these issues have been the subject of        pattu, 2022), he produced some of the country’s
+sustained discussion within global palaeoart com-        earliest palaeoart during the 1930s–1960s as
+munities, comparable discourse is largely absent in      visual interpretations of his fossil discoveries. An
+Sri Lanka. Visual representations of the island’s        accomplished artist as well as a scientist, Derani-
+prehistoric fauna remain scarce, heightening the         yagala integrated zooarchaeological knowledge
+importance of examining how such imagery is pro-         into drawings, paintings, carvings, and sculptures
+duced and interpreted within a local context. Given      that functioned simultaneously as research com-
+that this study focuses on species recovered from        munication and creative practice (Manamendra-
+the Sabaragamuwa Basin in southwestern Sri               Arachchi, 2012).
+Lanka, it is therefore necessary to situate the role
+of palaeoart within the country’s broader scientific                         METHODS
+and cultural landscape.
+                                                               While there is a small, but established, body
+Palaeoart in Sri Lanka                                   of palaeoart relating to Sri Lankan fauna, relatively
+                                                         few extinct taxa have been visually reconstructed
+     Palaeontological research in Sri Lanka
+                                                         to date (Sumanarathna et al., 2017; Sumanarathna
+remains comparatively underdeveloped, not due to
+                                                         et al., 2021). Existing representations vary consid-
+a lack of fossil material, but as a consequence of
+                                                         erably in style and level of anatomical resolution
+structural constraints. These include limited access
+                                                         and, although informed by available scientific evi-
+to research funding, the absence of sustained
+                                                         dence, tend toward interpretive or stylised depic-
+palaeontology-specific training pathways, and a
+                                                         tions rather than photorealistic reconstruction. To
+resulting scarcity of established specialists able to
+                                                         date, there are no documented examples of
+lead long-term research programmes.
+                                                         palaeoart depicting extinct Sri Lankan species pro-
+     Reflecting this broader context, palaeoart pro-
+                                                         duced using contemporary digital workflows,
+duction in Sri Lanka has also been limited. The
+                                                         including high-fidelity 2D or 3D computer-gener-
+most significant contributions have historically
+                                                         ated (CG) techniques.
+
+4
+                                                                                      PALAEO-ELECTRONICA.ORG
+
+
+      The imagery developed for this research con-        situate reconstructions within recognisable land-
+stitutes the first systematic attempt to produce pho-     scapes such as Sri Pada (Adam’s Peak) and Para-
+torealistic CG reconstructions of extinct Sri Lankan      dise, Kuruwita. The scientists emphasised the
+megafauna grounded in current palaeontological            importance of conveying species physiology, mor-
+and comparative anatomical evidence. In addition          phology, and inferred ecological relationships,
+to the resulting images, this research explicitly doc-    while explicitly acknowledging the speculative
+uments the scientific assumptions, interpretive           nature of such reconstructions given the fragmen-
+uncertainties, and creative decisions underpinning        tary fossil record. Despite these uncertainties,
+each reconstruction, following best-practice recom-       reconstructions were regarded as valuable tools for
+mendations outlined by Witton (2017a; 2018),              efficiently communicating scale, adaptation, and
+Campbell et al. (2021), and Davis et al. (2022). By       ecological presence. A longer-term objective of the
+making these decisions transparent, the palaeoart         project is the production of a documentary integrat-
+presented here is positioned as a peer-reviewable         ing animated reconstructions within live-action
+research output rather than an illustrative adjunct.      footage of ecologically analogous environments.
+In doing so, the study addresses a persistent gap         Artist considerations. The artistic team required
+in palaeontology–palaeoart collaboration by for-          clear expectations regarding timelines, production
+malising an interdisciplinary methodology for pro-        scope, and deliverables to manage scientific
+ducing visually rigorous reconstructions that             expectations realistically. This was particularly
+remain accountable to contemporary scientific             important given constraints on equipment availabil-
+knowledge.                                                ity and the reliance on student collaborators rather
+Project Origin                                            than full-time industry professionals. The team out-
+                                                          lined the cumulative demands of 3D production,
+         Palaeoartists enter collaborative projects       including modelling, rigging, animation, simulation,
+from a range of disciplinary backgrounds. Some            and rendering, alongside downstream processes
+are trained palaeontologists, while others possess        such as lighting, environment interaction, compos-
+limited formal scientific education and work primar-      iting. The time-intensive nature of each stage was
+ily through consultation with subject-matter              emphasised, as were the benefits of designing
+experts. In this project, the animation supervisor        assets for reuse across multiple outputs and media
+(J.K.) holds undergraduate training in palaeontol-        formats. Considerations of visual storytelling and
+ogy. While this level of training does not support        adaptability were therefore treated as production
+independent scientific interpretation, it proved suffi-   requirements rather than aesthetic preferences.
+cient to facilitate informed dialogue with the scien-     Production considerations. During initial discus-
+tific team and to interpret their guidance accurately     sions, the palaeontologist (A.R.S.) proposed visu-
+within the visualisation process.                         alising ten extinct megafaunal species from the
+       This intermediary role became particularly         Sabaragamuwa Basin within a 12-month period.
+important when supervising additional artists             These included three species of family Elephanti-
+involved in the reconstructions, many of whom had         dae, two from Rhinocerotidae, two from Felidae,
+no formal background in the natural sciences. The         and one species each from Hippopotamidae, Bovi-
+animation supervisor therefore functioned as a liai-      dae, and Crocodilia: Palaeoloxodon namadicus
+son between scientific contributors and artistic          sinhaleyus, Hypselephas hysudricus sinhaleyus,
+practitioners, translating scientific constraints into    Elephas maximus sinhaleyus, Rhinoceros sinha-
+actionable visual decisions while relaying artistic       leyus, Rhinoceros kagavena, Hexaprotodon sinha-
+uncertainties back to the research team. Establish-       leyus, Bibos sinhaleyus, Panthera leo sinhaleyus,
+ing a shared understanding of expectations, limita-       Panthera tigris, and Crocodylus sinhalyeus.
+tions, and decision-making authority was essential              Given the substantial anatomical divergence
+at the outset of the project. The following sections      across these families, the animation supervisor
+outline the key points of communication agreed            advised that the proposed scope exceeded the
+upon prior to commencing the visualisation work.          available time and resources. It was therefore rec-
+Scientist considerations. Key communication               ommended that the project focus on a smaller
+points from the scientific team centred on public         number of taxa within a reduced six-month time-
+accessibility and regional specificity. These             frame, allowing the development of proof-of-con-
+included the need to communicate Sri Lankan               cept reconstructions and the establishment of a
+palaeontology to non-specialist audiences, to visu-       reliable production workflow. Both parties agreed to
+alise extinct species endemic to the region, and to       this revised strategy, with the aim of completing
+
+                                                                                                            5
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+fully composited visualisations of Palaeoloxodon          closer to sculpture than illustration, though in prac-
+namadicus sinhaleyus and Rhinoceros sinha-                tice it is highly technical and shaped by software-
+leyus. In this context, compositing refers to the         specific constraints and conventions. Commonly
+integration of rendered digital elements with live-       used applications for 3D palaeoart include general-
+action imagery to achieve visually coherent and           ist modelling and animation software, alongside
+spatially credible results.                               specialist digital sculpting tools. A detailed compar-
+                                                          ison of such software ecosystems is beyond the
+Technical Considerations
+                                                          scope of this article, except where directly relevant
+      A range of approaches exist for visualising         to the methods adopted here.
+extinct species. Historically, palaeoart has been                A central technical consideration for this
+produced using traditional media such as drawing          research was the requirement that reconstructed
+and painting. Over the past 25 years, increased           species be capable of believable integration within
+access to capable graphics software and con-              real-world environments. A longer-term objective of
+sumer-grade computing hardware has led many               the project is to animate these reconstructions
+artists to adopt digital workflows. These can be          within present-day landscapes that serve as eco-
+broadly categorised as either two-dimensional (2D)        logical analogues for Quaternary habitats. Conse-
+or three-dimensional (3D) in approach.                    quently, the imagery needed to support
+      Two-dimensional workflows typically rely on         photorealistic rendering from multiple viewpoints,
+raster-based image editing software that provides         under varied lighting and environmental conditions,
+digital analogues of traditional artmaking practices,     and to remain suitable for posing or animation.
+such as drawing and painting with simulated               These requirements are best met by a 3D pipeline
+media. In addition to digital painting, such software     and align with the existing professional expertise of
+enables techniques including photo-manipulation           the animation supervisor.
+and photocollage. Photo-manipulation may involve                 The selection of software was guided by sev-
+altering photographs of extant animals to approxi-        eral pragmatic factors. These included access to
+mate the size or proportions of extinct taxa, while       software licences, which range from open-source
+photocollage – often referred to as “photobashing”        solutions to commercial packages requiring sub-
+– combines visual elements from multiple extant           stantial per-seat costs; the availability of computing
+species into a composite reconstruction. In prac-         hardware with sufficient graphics-processing capa-
+tice, these techniques are frequently used in com-        bility; and the technical proficiency of the produc-
+bination, as seen in the work of palaeoartists            tion team. High-performance hardware and
+Mauricio Antón and Julius T. Csotonyi (Ansón,             advanced software offer limited benefit without the
+2015).                                                    skills required to deploy them effectively. Accord-
+      However, reliance on photo-manipulation and         ingly, software and hardware choices were
+collage techniques carries well-documented risks.         matched to the existing competencies and institu-
+As Ansón et al. caution, “[w]hen we transplant            tional resources available to the project.
+directly the many subtle and distinctive aspects in              Through the facilities at Auckland University of
+the life appearance of an animal, what we are cre-        Technology (Auckland, New Zealand) and the tech-
+ating is the very same animal, recognizable               nical training embedded within AUT’s Animation,
+although deformed” (2015, p. 33). Such                    Visual Effects and Game Design major, the project
+approaches can inadvertently preserve species-            was able to utilise industry-standard software
+specific anatomical signatures that are inappropri-       across all stages of production, supported by high-
+ate for the extinct taxon being reconstructed.            performance computing infrastructure. The primary
+These limitations have prompted some practi-              tools employed included Autodesk Maya 2023
+tioners to adopt 3D workflows, which afford greater       (Autodesk, 2023a), Maxon ZBrush 2023 (Maxon,
+control over morphology, proportion, and presenta-        2023), Adobe Substance Painter 9.0 (Adobe,
+tion, as well as the use of virtual cameras that allow    2023a), Adobe Photoshop 2023 (Adobe, 2023b),
+a subject to be examined and depicted from any            and Adobe After Effects 2023 (Adobe, 2023c).
+viewpoint.                                                Within this pipeline, Maya functioned as the central
+      Within a 3D workflow, extinct species are con-      production environment, integrating modelling, ani-
+structed as digital models that can be sculpted, tex-     mation, fur simulation, lighting, and rendering using
+tured (i.e., assigned surface colour and material         Arnold Renderer for Maya 7.1.3.2 (Autodesk,
+properties), posed, lit, and rendered within fully vir-   2023b).
+tual environments. Conceptually, this process is
+
+6
+                                                                                                PALAEO-ELECTRONICA.ORG
+
+
+      Although alternative software packages could             provided a reliable baseline for both macro-scale
+have been used at each stage of production – such              anatomy and fine surface detail, allowing artists to
+as modelling in Blender (Blender Foundation,                   concentrate on modifying key morphological fea-
+2025), texturing in Mari (Foundry, 2025a), or com-             tures rather than constructing entire bodies from
+positing in Nuke (Foundry, 2025b) – the tools                  scratch. This approach also enabled rapid iteration
+selected were chosen for their compatibility with              in response to scientific feedback from A.R.S. and
+the project’s longer-term goals of animation, envi-            M. Aouititen (personal communication), as targeted
+ronmental integration, and methodological repro-               anatomical revisions could be implemented without
+ducibility. At the level of producing individual still         necessitating wholesale reconstruction. Under con-
+illustrations, there is relatively little difference in the    ditions of limited time and personnel, this strategy
+visual outcomes achievable using these platforms;              represented a more efficient and scientifically
+in such cases, software choice is primarily a matter           responsive use of artistic labour.
+of familiarity, efficiency, and pipeline fluency rather              Stock models of extant species were pur-
+than intrinsic capability.                                     chased from TurboSquid (www.turbosquid.com),
+      These distinctions become more consequen-                an online marketplace for professional-grade digi-
+tial when moving beyond isolated images into tem-              tal assets, with the specific assets used in this
+porally extended or large-scale production                     study listed in Table 1. To ensure suitability for
+contexts. For example, node-based compositing                  palaeoart reconstruction, candidate models were
+systems such as Nuke offer clear advantages over               required to meet the following core criteria:
+layer-based tools like After Effects when managing                   • The model exhibits sufficient anatomical
+complex, multi-pass visual effects sequences typi-                      fidelity for the extant species, including
+cal of documentary or cinematic production. Simi-                       accurate overall proportions, soft tissue
+larly, high-end texture painting applications such as                   definition, and high-resolution surface
+Mari may offer advantages for managing extremely                        detail (e.g., wrinkles, pores, scales).
+high-resolution or multi-UDIM assets in animation                    • The extant species demonstrates a close
+pipelines, though such capabilities exceed the                          morphological relationship to the extinct
+requirements of the present study.                                      taxon to be reconstructed, minimising the
+Production Considerations                                               extent of structural modification required.
+                                                                     • The model possesses clean, production-
+     The central production task was the creation
+                                                                        ready topology, characterised predomi-
+of anatomically credible and visually convincing 3D
+                                                                        nantly by quadrilateral faces. This supports
+models for each extinct species. The quality of the
+                                                                        smooth deformation during posing, pre-
+base model has a decisive influence on every sub-
+                                                                        serves continuous anatomical curvature,
+sequent stage of the pipeline, including posing,
+                                                                        and reduces the likelihood that technical
+texturing, simulation, lighting, and compositing.
+                                                                        artefacts (e.g., pinching or creasing) are
+High-quality creature modelling is both technically
+                                                                        misinterpreted as biological features.
+demanding and time-intensive, particularly when
+models are built entirely from first principles within               • The native file format is compatible with
+a 3D environment. Given the project’s scope and                         the software pipeline employed in this
+resource constraints, a hybrid strategy was                             research.
+adopted in which existing models of extant species                   Together, these criteria ensured that each
+were used as morphological starting points.                    extant model could function as a robust technical
+     To support this approach, the animation                   and anatomical substrate for modification into its
+supervisor acquired high-quality digital models of             extinct counterpart. Additional features were con-
+extant taxa that share morphological similarities              sidered advantageous, though not essential to the
+with the extinct species under study. These assets             baseline sculptural task, and were therefore
+                                                               treated as optional:
+
+TABLE 1. Extant 3D models purchased as the anatomical basis for reconstruction of the extinct taxa studied.
+      Extinct taxon       Extant base model     Year                                  URL
+  Palaeoloxodon          Elephas maximus        2019   https://www.turbosquid.com/3d-models/asian-elephant-anatomy-3d-
+  namadicus sinhaleyus                                 model-1387620
+  Rhinoceros sinhaleyus Ceratotherium simum     2018   https://www.turbosquid.com/3d-models/rhinoceros-rigged-3d-model-
+                                                       1327559
+
+                                                                                                                          7
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+     •   Inclusion of downstream production ele-         bell et al. (2021) have questioned the reliability of
+         ments such as UV layouts, texture maps,         retrodiction in relation to hominin reconstructions,
+         animation rigs, test animations, fur sys-       and their critique is relevant to prehistoric recon-
+         tems, or render setups.                         struction more broadly. Nevertheless, when direct
+      • Stylistic and topological consistency            empirical evidence is minimal, palaeoartists must
+         across selected models to support asset         draw on comparative analogues and ethological
+         reuse and pipeline coherence.                   inference to bound the range of plausible forms.
+      Based on these criteria, models of Elephas         The key methodological challenge is therefore not
+maximus and Ceratotherium simum were selected            the avoidance of retrodiction, but its careful con-
+as the primary morphological bases for adapting          straint.
+Palaeoloxodon namadicus sinhaleyus and Rhinoc-                  Despite the limited fossil record for the two
+eros sinhaleyus, respectively.                           taxa reconstructed in this study, it is essential to
+      Given the requirement to develop multiple          identify explicitly the empirical material that
+megafaunal assets within a fixed timeframe, addi-        informed the reconstructions. Photographs and
+tional personnel were necessary to meet produc-          osteological descriptions of all known fossils
+tion deadlines. As the project budget did not permit     attributed to Palaeoloxodon namadicus sinhaleyus
+the engagement of industry professionals, senior         and Rhinoceros sinhaleyus were compiled from the
+undergraduate students from the Animation, Visual        available scientific literature. Several fossils
+Effects and Game Design major at Auckland Uni-           described by Deraniyagala in the mid-twentieth
+versity of Technology were recruited as interns.         century are now missing; moreover, no specimen
+Students were selected based on demonstrated             or catalogue numbers were reported for this mate-
+technical competence and participated as part of         rial in the original published sources. As such, the
+their formal internship requirements. During 2022,       sources cited below represent the most complete
+nine student interns contributed to the project; a       photographic documentation available as of 2026.
+further six interns participated during 2023. Their      For P. namadicus sinhaleyus, the consulted mate-
+contributions spanned multiple stages of the pipe-       rial includes the holotype upper first molar (Derani-
+line, including 3D modelling, UV layout, texturing,      yagala, 1955, Plate 13), lower molars
+rigging, animation, simulation, lighting, rendering,     (Deraniyagala, 1958, Plates XLI, XLVI), and two
+and compositing.                                         fragmentary molar teeth (Sumanarathna et al.,
+                                                         2021, pp. 219–220). For R. sinhaleyus, consulted
+Reconstruction Challenges                                material includes a lower molar (Deraniyagala,
+     The most immediate constraint on reconstruc-        1955, Plate 13), the holotype second molar (Der-
+tion reliability is the quantity and quality of fossil   aniyagala, 1958, Plate XLVII), a right mandibular
+material available for a given taxon. The species        body (Deraniyagala, 1958, Plate XLIX), first and
+visualised in this article are represented by            second upper molars (Jayatunga, 2014, p. 14;
+extremely limited fossil remains, in some case by        Sumanarathna et al., 2021, pp. 231–235), and a
+isolated dental elements alone (e.g., Palaeoloxo-        proximal portion of a scapula (Sumanarathna et al.,
+don namadicus sinhaleyus). Although a small num-         2017, p. 22).
+ber of palaeoart representations exist for these                For both taxa, the available fossil material
+taxa, all known examples were consulted during           consists primarily of dentition, with the addition of a
+the development of the revised reconstructions           mandibular fragment and a proximal scapula por-
+presented here. In particular, the palaeoart             tion in the case of Rhinoceros sinhaleyus. Dental
+sketches produced by P.E.P. Deraniyagala pro-            morphology is critical for taxonomic identification
+duced as part of his research publications – most        and can offer indirect insights into diet and feeding
+notably The Pleistocene of Ceylon (1958) – served        strategy, but it provides limited information about
+as important historical reference points.                postcranial anatomy, body proportions, or soft-tis-
+     In cases where fossil evidence is sparse,           sue morphology. As a result, reconstruction
+reconstruction necessarily involves retrodiction – a     beyond the cranial region necessarily depends on
+form of constrained inference that extrapolates          comparative reference to closely related taxa.
+plausible morphology from extant or better-docu-                The three-dimensional reconstructions pre-
+mented phylogenetic relatives. This process              sented here for Palaeoloxodon namadicus sinha-
+blends scientific reasoning with informed artistic       leyus were produced by modifying an existing
+judgement, guided by comparative anatomy, func-          digital model of an adult Elephas maximus. This
+tional morphology, and ecological context. Camp-         decision was guided by the need for a complete,
+
+8
+                                                                                      PALAEO-ELECTRONICA.ORG
+
+
+articulable proboscidean body whose anatomy              infer detailed cranial or post-cranial anatomy. For
+could be independently evaluated against living          the purposes of this reconstruction, P. namadicus
+reference material. Because E. maximus is extant,        sinhaleyus was modelled at 80% of the estimated
+its skeletal structure, soft-tissue relationships, and   maximum shoulder height of the largest mainland
+range of anatomical variation can be directly veri-      P. namadicus. This proportion was not reported by
+fied using photographic, osteological, and observa-      Deraniyagala and should not be understood as a
+tional data, allowing errors introduced during digital   direct osteometric estimate derived from Sri
+modification to be identified and corrected.             Lankan material. Rather, it represents a conserva-
+      By contrast, although Palaeoloxodon antiquus       tive interpretive scaling decision made in this study,
+represents a close Eurasian sister taxon with            informed by Deraniyagala’s qualitative description
+unusually complete fossil material, any existing         of reduced stature and by comparative evidence
+digital reconstructions of this species necessarily      from insular dwarfing in other palaeoloxodont taxa
+embed prior interpretive assumptions that cannot         (Baleka et al., 2021). Because the visualisations in
+be readily audited or disentangled. For this reason,     this study were generated by modifying complete
+a pre-existing P. antiquus model was not adopted         digital models of extant animals selected as close
+as a starting point. Instead, the Elephas maximus        phylogenetic analogues, it is necessary to revisit
+model functioned as a technically robust base            the caution raised by Ansón et al. (2015) regarding
+mesh, providing a fully articulated proboscidean         photo-manipulation and collage in palaeoart recon-
+body suitable for large-scale proportional adjust-       struction. While their critique was directed primarily
+ment without inheriting unexamined speculative           at 2D practices, the underlying concern – the inad-
+decisions.                                               vertent retention of species-specific anatomical
+      Comparative anatomical guidance for post-          signatures – applies equally to 3D workflows. How-
+cranial morphology was drawn primarily from pub-         ever, digital sculpting affords a higher degree of
+lished osteological reconstructions and functional       control over anatomical continuity, allowing artists
+analyses of Palaeoloxodon antiquus, for which            to adjust proportions, surface topology, integumen-
+substantially more complete skeletal data are avail-     tary details, and musculature in a spatially coherent
+able than for Palaeoloxodon namadicus, and no            manner rather than through planar distortion. This
+post-cranial material is currently known for P.          is not meant to imply that 3D reconstructions are
+namadicus sinhaleyus. This included a study              immune to error. However, when applied rigor-
+based on the well-documented Neumark-Nord 1              ously, digital sculpting techniques enable anatomi-
+material from Germany, including a schematic             cal transformation without reducing the result to a
+reconstruction of an adult male P. antiquus assem-       merely deformed version of the extant analogue.
+bled from the best-preserved bones of individuals              The three-dimensional reconstruction pre-
+152-E9 and 175-E23A (Larramendi et al., 2017).           sented here for Rhinoceros sinhaleyus was pro-
+These studies informed conservative adjustments          duced by modifying an existing digital model of an
+to body mass distribution, limb proportions, and         adult Ceratotherium simum. This decision was
+cervical musculature in the Elephas maximus base         made for technical rather than phylogenetic rea-
+model. Cranial morphology was guided principally         sons: the model provided a complete, articulable
+by published comparative analysis of P. namadi-          rhinocerotid body with stable topology, muscula-
+cus, which constrain skull proportions, tusk orienta-    ture, and limb structure suitable for large-scale pro-
+tion, and craniofacial structure across the genus        portional adjustment during digital sculpting.
+(Larramendi, 2020). Estimates of overall body size       Because C. simum is extant, its anatomy can also
+were further informed by published measurements          be checked directly against photographic, zoologi-
+of P. namadicus material from the Narmada Valley         cal, and osteological reference material, allowing
+and other Indian localities, including femoral           modifications to be evaluated against an inde-
+remains used to infer shoulder height and body           pendently verifiable living animal.
+mass (Larramendi, 2016). The Sri Lankan material               However, Ceratotherium simum did not func-
+attributable to P. namadicus sinhaleyus is               tion as the primary anatomical analogue for the
+extremely limited, consisting only of isolated           final reconstruction. As a highly derived grazing rhi-
+molars described by Deraniyagala (1955; 1958) as         noceros with cranial, dental, and postcranial spe-
+smaller than those of the forma typica. Accordingly,     cialisations distinct from Asian browsing and
+this local material was used primarily to support        mixed-feeding taxa, it served only as a base mesh.
+taxonomic attribution and the plausibility of a mod-     Anatomical inference for Rhinoceros sinhaleyus
+est reduction in overall body size, rather than to       was instead guided by the available Sri Lankan
+
+                                                                                                             9
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+fossil material and by comparative reference to          Production Pipeline
+extant and fossil Asian rhinoceroses considered
+                                                               The reconstruction workflow followed a con-
+more closely related to the species.
+                                                         ventional visual effects (VFX) production pipeline
+      As stated above, the consulted fossil material
+                                                         comprising reference development, three-dimen-
+for Rhinoceros sinhaleyus consists primarily of
+                                                         sional modelling, surface and material definition,
+dentition, together with a right mandibular body
+                                                         deformation through rigging, and final lighting, ren-
+and a proximal scapula fragment. These remains
+                                                         dering, and compositing. In this context, these
+are sufficient to support taxonomic identification
+                                                         terms refer to the following:
+and provide limited insight into feeding ecology, rel-
+ative size, and aspects of mandibular structure, but           • Modelling: the construction of a digital geo-
+they do not permit direct reconstruction of full cra-             metric representation of form.
+nial form, postcranial proportions, musculature, or            • Surface and material definition: the specifi-
+integument. Accordingly, reconstruction beyond                    cation of properties such as colour, reflec-
+the preserved elements necessarily depended on                    tance, and roughness.
+comparative reference to closely related taxa.                 • Rigging: the creation of an internal control
+      Comparative anatomical guidance was drawn                   structure that allows posing while preserv-
+primarily from Rhinoceros unicornis and Rhinoc-                   ing underlying morphology.
+eros sondaicus, together with published discussion             • Rendering and compositing: the genera-
+of fossil rhinoceroses from the Shivalik Hills that               tion and assembly of images under con-
+have been considered relevant to the placement of                 trolled illumination.
+Rhinoceros sinhaleyus (Deraniyagala, 1958;                     This pipeline aligns with established VFX and
+Groves and Leslie, 2011; Sumanarathna et al.,            digital creature-development practice (Okun and
+2021). These sources informed conservative modi-         Zwerman, 2020), with minor modifications to
+fications to the Ceratotherium simum base model,         accommodate iterative scientific consultation and
+including adjustment of head shape, lip form, horn       the production of high-resolution static imagery
+proportions, skin fold development, body build, and      rather than animated sequences (Figure 1).
+overall scale. In particular, the reconstruction         Because the workflow relied primarily on commer-
+avoids reproducing the broad-muzzled, strongly           cial production tools developed for professional
+grazing-adapted cranial profile characteristic of        use rather than academic publication, support for
+Ceratotherium simum. Instead, the preserved den-         some technical procedures is drawn from industry-
+tition and mandibular material of Rhinoceros sinha-      standard references and software documentation
+leyus are more consistent with feeding on softer         in addition to scholarly sources. For each species
+vegetation and were therefore taken to support a         visualised in this research, one or more structured
+less robust cranial construction.                        discussions were conducted via videoconferencing
+      Because no complete limb bones or diagnos-         to ensure shared understanding between scientific
+tic cranial remains are presently known for Rhinoc-      and artistic contributors regarding anatomical con-
+eros sinhaleyus, body size and body proportions          straints, evidentiary limits, and visual priorities.
+could not be reconstructed directly from Sri Lankan      These consultations were integrated at key points
+postcranial       measurements.       Deraniyagala’s     within the pipeline to allow scientific feedback to
+description of the species as “somewhat smaller          inform modelling and surface development before
+than the living R. unicornis” (1958, p. 116), together   downstream stages introduced additional techni-
+with its brachyodont, relatively square molars and       cal or aesthetic inertia.
+inferred affinities with smaller or less heavily built         These ideas were formalised through the cre-
+Asian Rhinoceros taxa, was therefore used to sup-        ation of orthographic drawings (Figure 2) depicting
+port a conservative reduction in overall scale rela-     each species from multiple viewpoints conducive to
+tive to Rhinoceros unicornis rather than a precise       3D modelling (i.e., anterior, posterior, lateral, and
+osteometric estimate. The resulting model should         dorsal). These drawings functioned as image
+accordingly be understood as an evidence-con-            planes within the modelling environment, providing
+strained comparative reconstruction: grounded in         a consistent spatial framework against which major
+the known Sri Lankan fossil material but necessar-       morphological features could be aligned and evalu-
+ily extended through reference to extant and             ated across views.
+closely related fossil rhinoceroses where direct evi-
+                                                         3D modelling. The model of Rhinoceros sinha-
+dence is absent.
+                                                         leyus was developed by modifying a 3D model of
+                                                         Ceratotherium simum, while Palaeoloxodon nama-
+
+10
+                                                                                            PALAEO-ELECTRONICA.ORG
+
+
+
+
+FIGURE 1. Production pipeline used throughout this project.
+
+
+dicus sinhaleyus was constructed from a model of              dividing the model into multiple sections that can
+Elephas maximus (Figure 3). In both cases, the                be flattened with minimal distortion. These sections
+modelling process involved systematic adjustment              may be distributed across multiple UV tiles to
+of proportions, volumetric relationships, and ana-            increase effective texture resolution and preserve
+tomical features to align the base meshes of each             fine-scale surface detail in the rendered result
+extant species with the known or inferred morphol-            (Okun and Zwerman, 2020). Figure 4 depicts the
+ogy of the corresponding extinct taxon. These                 UV layout for Palaeoloxodon namadicus sinha-
+modifications were informed by comparative ana-               leyus, and Figure 5 depicts the UV layout for Rhi-
+tomical reference and iterative scientific feedback.          noceros sinhaleyus. Although the stock models
+     Most modelling was undertaken in Maxon                   used in this project included pre-existing UV lay-
+ZBrush for high-resolution digital sculpting, with            outs, subsequent morphological modification
+Autodesk Maya used for structural refinement and              necessitated UV adjustment to ensure that image-
+integration into the broader production pipeline.             based textures remained aligned with their
+This combination supported detailed anatomical                intended anatomical locations on the revised
+modification while preserving compatibility with              geometry.
+downstream processes, including rigging, lighting,                  All stock models included a set of texture files
+and rendering. The use of digital sculpting in this           describing the surface appearance of the animal’s
+context was not merely technical, but methodologi-            integument. These encoded multiple visual attri-
+cal: it enabled iterative modification of form in             butes, including base colour (“albedo” and “diffuse”
+response to anatomical evidence and specialist                maps), surface micro-variations affecting light
+review while maintaining continuity across the                reflection (“roughness” maps), and fine-scale sur-
+same underlying asset.                                        face relief visible at render time (“normal” and “dis-
+Materials and texturing. Establishing visual real-            placement” maps), among others (Figure 6). Most
+ism in a 3D reconstruction extends beyond accu-               stock textures were retained with minor modifica-
+rate form, proportion, and surface detail to include          tion to accommodate changes in underlying geom-
+the definition of materials assigned to different ana-        etry. Where existing textures were insufficient, new
+tomical regions, such as skin, eyes, oral tissues,            textures were generated using Adobe Substance
+and hooves or toenails. Each material incorporates            Painter and Maxon ZBrush through the projection
+a shader that governs how light interacts with the            of high-resolution photographic reference of the
+surface, controlling properties such as colour,               corresponding extant species’ skin onto the modi-
+reflectance, roughness, and subsurface response.              fied 3D models (Figure 7). This step was important
+These properties are typically modulated using tex-           not only for visual finish, but for preserving biologi-
+ture maps, which provide spatially variable control           cally plausible variation across the skin surface
+across the model’s surface (Okun and Zwerman,                 rather than relying on uniform or procedurally
+2020).                                                        generic texture treatment, consistent with compa-
+     To enable texture mapping, the three-dimen-              rable palaeontological visualisation workflows (Gu
+sional (X-Y-Z) surface of each model is projected             et al., 2025).
+into two-dimensional (U-V) space. For complex                 Rigging. A further critical stage in the pipeline
+organic forms, this process commonly involves                 involved enabling the models to be posed through
+
+                                                                                                                  11
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 2. Anterior, posterior, lateral, and dorsal image planes as initial modelling reference for: A, Palaeoloxodon
+namadicus sinhaleyus; and B, Rhinoceros sinhaleyus.
+
+
+the creation of an animation rig. A rig comprises a         case, the workflow was implemented through
+system of joints and a hierarchical set of animation        Rapid Rig: Modular 2, a third-party automated rig-
+controls that allow a 3D artist to manipulate the           ging system for Autodesk Maya (Nelson, 2016).
+model while deform its underlying geometry in a             These rigs were then customised for each species
+predictable manner. In the present context, rigging         to accommodate differences in proportion and
+was necessary not for character animation as an             articulation (Figure 8A-B). Following rig generation,
+end in itself but for testing and selecting anatomi-        each rig was bound to the surface geometry
+cally credible poses prior to rendering. Deformation        through a skinning process. Each mesh, composed
+quality therefore had a direct bearing on the believ-       of thousands of vertices arranged primarily into
+ability of the final reconstruction.                        quadrilateral faces (Figures 4A and 5A), was
+      Because none of the artists collaborating on          assigned weighted influence values linking each
+this project were specialist riggers, an automated          vertex to one or more joints within its correspond-
+modular rigging workflow was used to create the             ing rig (Figure 9). Effective skinning ensured that
+foundational quadrupedal rigs (Roy, 2014). In this          movement and deformation occurred smoothly and
+
+12
+                                                                                        PALAEO-ELECTRONICA.ORG
+
+
+
+
+FIGURE 3. Comparison between original stock 3D models and revised digital sculptures developed in this study. A,
+Palaeoloxodon namadicus sinhaleyus (blue) derived from the model of Elephas maximus (pink); B, Rhinoceros sinha-
+leyus (green) derived from the model of Ceratotherium simum (orange).
+
+
+plausibly across the model (Kennedy, 2021), allow-        animation; however, in the present project, a single
+ing the animals to be posed in anatomically credi-        pose was required for each final image.
+ble configurations.                                            A central aim of this research was the believ-
+Posing within the environment. Once a 3D asset            able integration of each reconstructed species into
+has been fully modelled, textured, and rigged, it         a photographic environment representing the type
+can be posed. In a moving-image context, this             of habitat in which the taxon is inferred to have
+would involve a sequence of poses to generate             lived. To support this integration, photographic ref-
+                                                          erences depicting closely related extant species in
+
+                                                                                                              13
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 4. A, low-resolution model of Palaeoloxodon namadicus sinhaleyus represented in 3D (X-Y-Z) space. B, UV
+layout of the P. namadicus sinhaleyus model projected in 2D (U-V) space corresponding with the head, trunk, legs,
+tusks, footpads, and oral cavity. C, 2D-projected UV layout of P. namadicus sinhaleyus corresponding with the main
+torso, tail, and toenails.
+
+ecologically analogous settings were selected.                For Rhinoceros sinhaleyus, a photograph of
+These images provided reference for plausible             Rhinoceros unicornis taken in Kaziranga National
+body posture, lighting conditions, and surface            Park by Diganta Talukdar (2017) was used as a pri-
+reflectance.                                              mary pose and lighting reference (Figure 10). The
+                                                          wet grassland setting is broadly analogous to
+
+14
+                                                                                           PALAEO-ELECTRONICA.ORG
+
+
+                                                              floodplain environments of the Sabaragamuwa
+                                                              Basin. The image depicts Rhinoceros unicornis in
+                                                              a dynamic stance with two small birds perched on
+                                                              its back. This pose was selected because it pro-
+                                                              duced a clear silhouette that emphasised distin-
+                                                              guishing morphological features relevant to R.
+                                                              sinhaleyus, particularly its proportionally longer
+                                                              limb structure. The inclusion of birds was retained
+                                                              in the final composition because it enhanced envi-
+                                                              ronmental integration without introducing additional
+                                                              speculative anatomical detail.
+                                                                    Because the creative team was based in New
+                                                              Zealand throughout production, direct photo-
+                                                              graphic documentation of Sri Lankan environments
+                                                              was not feasible. Instead, licences were obtained
+                                                              for a range of royalty-free stock photographs,
+                                                              including the image of Rhinoceros unicornis shown
+                                                              in Figure 9. In each case, the reference animal was
+                                                              digitally removed and its pixels replaced with sur-
+                                                              rounding image data to produce a clean back-
+                                                              ground plate suitable for compositing. These
+                                                              extractions were performed through digital inpaint-
+                                                              ing and image repair techniques in Adobe Photo-
+                                                              shop. The resulting plates preserved lighting,
+                                                              colour balance, and environmental texture consis-
+                                                              tent with the original photographs, enabling the
+                                                              seamless integration of rendered 3D assets.
+                                                              Lighting, rendering, and compositing. An
+                                                              important factor in believably integrating a 3D crea-
+                                                              ture into a photographed environment is the repli-
+                                                              cation of the scene’s lighting conditions. In VFX
+                                                              practice this is commonly achieved using high
+                                                              dynamic range (HDR) imaging, which retains a
+                                                              broader range of luminance values than standard
+                                                              photography. HDR capture typically involves pho-
+                                                              tographing a chrome sphere from a fixed position
+                                                              using multiple exposure values, which are then
+                                                              combined to produce a single HDR image suitable
+                                                              for image-based lighting (Okun and Zwerman,
+                                                              2020).
+                                                                    When imported into 3D software such as
+FIGURE 5. A, low-resolution model of Rhinoceros sinha-        Autodesk Maya, an HDR image functions as a
+leyus represented in 3D (X-Y-Z) space. B, UV layout of        spherical image-based lighting source, allowing the
+the R. sinhaleyus model projected in 2D (U-V) space           digital scene to be illuminated using light data
+corresponding with the head, oral cavity, and front feet.     derived from the photographed environment. This
+C & F, UV layout for the posterior body, upper hind legs,     enables the direction, colour, and relative intensity
+and ear (left and right sides, respectively). D & E, UV       of incoming light to be reproduced across the full
+layout for the anterior body and upper forelegs (left and     sphere surrounding the model, providing a coher-
+right sides, respectively). G, UV layout for the lower hind   ent lighting context for rendering prior to composit-
+legs and neck.                                                ing.
+                                                                    Creating a location-specific HDR image
+                                                              requires on-site capture under the same lighting
+                                                              conditions as the photographed scene. Because
+                                                              the creative team was not physically present in Sri
+
+                                                                                                                15
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 6. Example texture maps applied to the Palaeoloxodon namadicus sinhaleyus model and spread across UV
+tiles. The diffuse colour map for: A, head, trunk, legs, tusks, footpads, and oral cavity; and B, torso, tail, and toenails.
+Roughness map for: C, head, trunk, legs, tusks, footpads, and oral cavity; and D, torso, tail, and toenails.
+
+
+Lanka during this research, it was not possible to              production were consulted. Platforms such as
+generate HDR images directly from the target envi-              PolyHaven provide high-quality HDR images suit-
+ronments. This geographic displacement is the                   able for approximating real-world lighting condi-
+same constraint that necessitated the use of                    tions. Multiple HDR images were tested for each
+licensed stock photography for background plates.               scene to identify the closest match to the photo-
+As HDR lighting information cannot be recovered                 graphic backdrop, with particular attention to over-
+from standard single-exposure photographs, alter-               all light intensity, dominant directionality, colour
+native sources of environmental lighting were                   temperature, and atmospheric diffusion caused by
+required.                                                       cloud cover or haze, all of which influence shadow
+     To address this limitation, third-party HDR                softness and contrast. An HDR image taken at
+image libraries commonly used in visual effects                 Klötzle Blei, Germany by Andreas Mischok (2020)
+16
+                                                                                   PALAEO-ELECTRONICA.ORG
+
+
+
+
+FIGURE 7. Diffuse colour maps applied to the Rhinoceros sinhaleyus model and spread across the six UV tiles
+described in Figure 5.
+
+                                                                                                         17
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 8. A, the joint-based rig with animation controls for Palaeoloxodon namadicus sinhaleyus; B, the rig for Rhi-
+noceros sinhaleyus.
+
+
+18
+                                                                                            PALAEO-ELECTRONICA.ORG
+
+
+
+
+FIGURE 9. Skinning the joint-based rig to the 3D model. In this image, the influence of the selected joint on the sur-
+rounding geometry is represented in greyscale, ranging from black (0% influence) to white (100% influence), with pro-
+portional gradations in between. Individual vertices are located at the intersections of the green edge lines on the
+model’s surface.
+
+
+
+
+FIGURE 10. Side-by-side comparison with the original reference photograph. A, Rhinoceros unicornis; B, the posed
+3D reconstruction of Rhinoceros sinhaleyus composited into the same image after digitally removing R. unicornis. The
+scene simulates a palaeoenvironment analogous to the Sabaragamuwa Basin during the Late Pleistocene, incorpo-
+rating landscape elements associated with Adam’s Peak and the Kuruwita region, Sri Lanka (often locally referred to
+as “Paradise”). Original photograph: Diganta Talukdar, “Beauty of Kaziranga National Park” (2017), Wikimedia Com-
+mons, licensed under CC BY-SA 4.0.
+
+
+                                                                                                                    19
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 11. A, high dynamic range (HDR) image used as the baseline source of environmental illumination for the
+scene featuring Rhinoceros sinhaleyus. The rectangular HDR image is mapped onto a spherical dome encompassing
+the 3D scene, from which illumination is cast onto all scene assets. Although the HDR was photographed at Klötzle
+Blei, Germany, rather than within a floodplain environment, it was selected because its overcast sky produced a pat-
+tern of diffuse illumination closely matching the lighting conditions visible in the source photograph. B, the HDR image
+was used solely for lighting information and does not appear in the final rendered background. C, additional direc-
+tional and fill illumination was provided using digital light sources within the scene (white rectangles). HDR image:
+Andreas Mischok, “Kloetzle Blei” (2020), PolyHaven, licensed under CC0.
+
+
+was used in the Rhinoceros sinhaleyus composi-               lighting so that the rendered model more closely
+tion (Figure 11).                                            matched the observed pattern of illumination in the
+      In practice, HDR images alone rarely provide           photographic plate. These lights were used to
+complete or sufficiently directed illumination for a         reproduce key lighting cues present in the source
+3D scene, particularly when they are not captured            image, including dominant light direction, relative
+under the same conditions as a reference photo-              shadow placement, and highlight falloff across the
+graph (Figure 11B). Consequently, additional vir-            animal’s form (Figure 11C). Rather than overriding
+tual light sources were introduced to refine the             the HDR-based environmental illumination, these
+
+20
+                                                                                         PALAEO-ELECTRONICA.ORG
+
+
+supplementary lights were applied selectively to           A cryptomatte pass was also generated to enable
+reconcile discrepancies between generic HDR                precise isolation of specific regions of the render,
+lighting and the specific lighting conditions visible      such as the main body, eyes, and hair (Figure 12).
+in the photograph.                                         The solid colour identifiers within the cryptomatte
+      Rendering refers to the process of converting        were converted into selection masks in After
+the assembled 3D scene into a bitmap image                 Effects and used to target adjustments during com-
+incorporating geometry, materials, textures, and           positing.
+lighting. For this project, rendering was performed             Following compositing, the resulting image
+using the Arnold renderer within Autodesk Maya.            was refined in Adobe Photoshop to finalise integra-
+Producing a believable result required iterative           tion between the rendered asset and the photo-
+adjustment of rendering parameters through test-           graphic background. For the Rhinoceros
+ing and refinement. Although the final image               sinhaleyus scene, this included painting fore-
+appears singular, the scene was rendered as multi-         ground vegetation over portions of the feet to
+ple discrete passes representing different visual          restore correct depth relationships, as well as
+components. These passes were subsequently                 applying targeted colour correction to improve
+recombined during compositing, providing fine-             coherence between the rendered lighting and the
+grained control over the final image and allowing          photographic plate (Figure 13). These adjustments
+targeted adjustments without re-rendering the              are representative of the finishing processes
+entire scene (Okun and Zwerman, 2020).                     applied across all images produced in this
+      In this project, the rendered image was              research.
+divided into a series of discrete render passes,
+each containing a specific arbitrary output variable                      SPECIES ACCOUNTS
+(AOV), including diffuse colour, subsurface scatter-
+                                                                 Throughout the Pleistocene, fluctuating sea
+ing colour, specular colour, and ambient occlusion.
+                                                           levels periodically exposed a land bridge across
+The background photograph was retained as a
+                                                           the Palk Strait, linking northern Sri Lanka with the
+separate image. These passes were recombined in
+                                                           southern tip of the Indian peninsula (Figure 14).
+Adobe After Effects to reconstruct the final image,
+                                                           This connection facilitated the movement of terres-
+allowing localised adjustment of individual visual
+                                                           trial fauna between the two regions (Chauhan,
+components without re-rendering the entire scene.
+
+
+
+
+FIGURE 12. The render of Rhinoceros sinhaleyus separated into various arbitrary output variables (AOVs).
+
+                                                                                                             21
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 13. A, the background photographic plate; B, the reconstructed render of Rhinoceros sinhaleyus created by
+compositing individual render passes (AOVs) over the background plate; C, the final integrated image following colour
+correction and foreground paint work, including grass elements painted over the feet to restore depth relationships.
+
+
+2007). Within Sri Lanka, the Sabaragamuwa Basin             scape comprising forested uplands, savannah, and
+has yielded the greatest concentration of fossil            extensive freshwater systems (Roberts et al.,
+remains from the island’s extinct Quaternary mega-          2015; Sumanarathna et al., 2016).
+fauna (Sumanarathna et al., 2021). The species                   Below, we present rendered reconstructions
+discussed in this article were recovered primarily          of two extinct taxa examined in this study – Palae-
+from the vicinity of Ratnapura and are collectively         oloxodon namadicus sinhaleyus and Rhinoceros
+referred to as the “Ratnapura Fauna”.                       sinhaleyus. Each reconstruction is accompanied
+     These fossils occur within the gem-bearing             by a discussion of the scientific and aesthetic con-
+gravels of the Ratnapura Beds. Deraniyagala                 siderations informing its development. These dis-
+(1958) noted extensive redeposition of these grav-          cussions      address      external     morphology
+els had disrupted their original stratigraphic con-         (appearance) as well as inferred aspects of envi-
+text, making it difficult to establish reliable             ronment and behaviour where relevant. Given the
+chronological frameworks. Building on this issue,           fragmentary nature of the fossil record for both
+Deraniyagala (1988) proposed that, if redeposition          species, the reconstructions necessarily involve
+had not substantially altered the original strati-          degrees of informed speculation; however, all inter-
+graphic relationships, Palaeoloxodon namadicus              pretive decisions are grounded in available evi-
+sinhaleyus and Rhinoceros sinhaleyus were likely            dence and supported by comparative data from
+contemporaneous. It was emphasised, however,                closely related taxa.
+that resolving this question would require detailed
+                                                            Sri Lankan Straight-Tusked Elephant
+and systematic chronological investigation of the
+Ratnapura Beds (Chauhan, 2007).                                   Order: PROBOSCIDEA Illiger, 1811
+     Despite these uncertainties, multiple lines of               Family: ELEPHANTIDAE Gray, 1821
+evidence indicate that past ecological conditions             Genus: PALAEOLOXODON Matsumoto, 1924
+within the Sabaragamuwa Basin were broadly                  Species: Palaeoloxodon namadicus (Falconer and
+comparable to those of the present day. Palaeoen-                            Cautley, 1846)
+vironmental data suggest a heterogeneous land-              Subspecies: Palaeoloxodon namadicus sinhaleyus
+
+
+
+22
+                                                                                           PALAEO-ELECTRONICA.ORG
+
+
+                                                              the number of distinct species it comprises remains
+                                                              unresolved. Palaeoloxodon namadicus is well doc-
+                                                              umented within the Indian subcontinent, with cra-
+                                                              nial material recovered from sites including
+                                                              Hathnora and Narmadapuram (Madhya Pradesh),
+                                                              Nandur Madhmeshwar (Maharashtra), and the
+                                                              broader Narmada Valley region (Larramendi et al.,
+                                                              2020).
+                                                                    Evidence for Palaeoloxodon namadicus in Sri
+                                                              Lanka was reported by Deraniyagala (1955), who
+                                                              proposed that isolated molars recovered from gem
+                                                              pits in Kuruwita were sufficiently distinct to justify
+                                                              designation as the subspecies Palaeoloxodon
+                                                              namadicus sinhaleyus. This distinction was based
+                                                              solely on dental material that he described as
+                                                              smaller than that of the forma typica. Deraniyagala
+                                                              (1958) further noted that these remains were asso-
+                                                              ciated with hippopotamus fossils uranium-dated to
+                                                              the Upper Pleistocene (11.7–129 ka). More recent
+                                                              radiocarbon dates from the Narmada and Son Val-
+                                                              leys indicate that P. namadicus persisted until
+                                                              approximately 20-32 ka, extending well into the
+                                                              late Pleistocene megafaunal extinction interval
+                                                              (Turvey et al., 2021). In the absence of contradic-
+                                                              tory evidence, it is therefore plausible that a Sri
+                                                              Lankan population, if taxonomically distinct, may
+                                                              have survived into a similar period and become
+                                                              extinct no earlier than c. 20 ka.
+                                                                    Owing to the absence of a complete skeleton,
+                                                              estimates of body size for Palaeoloxodon namadi-
+                                                              cus are necessarily uncertain and vary depending
+                                                              on the skeletal elements used for extrapolation.
+FIGURE 14. Map of Sri Lanka showing the Palk Strait           Larramendi (2016) reports individual fossil mea-
+and the submerged limestone shoals known as Ram               surements that imply shoulder heights ranging
+Setu (Adam’s Bridge). The Sabaragamuwa Province               from approximately 400 to 450 cm. Deraniyagala
+comprises two districts (highlighted in red), including the   (1958) inferred a smaller overall stature for P.
+Ratnapura District in the south, within which the             namadicus sinhaleyus based on reduced molar
+Sabaragamuwa Basin is located (highlighted in dark            size; however, this inference remains speculative.
+blue). Base map of Sri Lanka adapted from “Sri Lanka          Dental size alone can vary due to multiple factors,
+Sabaragamuwa locator map.svg” by Jeroen (2007),
+                                                              including individual variation, ontogeny, and sexual
+Wikimedia Commons, licensed under CC BY-SA 2.5.
+                                                              dimorphism, and no additional anatomical evi-
+Modifications by the authors include the addition of the
+neighbouring Indian coastline, labelling of Sri Lankan        dence was provided to support subspecific differ-
+provinces and key localities, and colour changes to dis-      entiation. Compounding this limitation, the fossils
+tinguish between the Sabaragamuwa Province and Rat-           referenced by Deraniyagala (1955; 1958) have
+napura District.                                              since been lost, precluding reanalysis using con-
+                                                              temporary comparative methods.
+                                                                    One of the most distinctive features of the
+                (Deraniyagala, 1944)
+                                                              subfamily Palaeoloxodontinae is the parieto-occipi-
+                     (Figure 15)
+                                                              tal crest (POC), a cranial apomorphy that is char-
+Appearance. Palaeoloxodon is a genus of extinct               acterised by an “anterior projection of the skull roof
+straight-tusked elephants that dispersed from                 that is formed by the forward bending and subse-
+Africa to Europe and across Asia by the Middle                quent overhang of the occipital surface” (Larra-
+Pleistocene (MPT: 780-129 ka). Although the                   mendi et al., 2020, p. 2). Among palaeoloxodont
+genus is represented by a substantial fossil record,          taxa, this feature is most strongly developed in
+
+                                                                                                                 23
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 15. Three-dimensional reconstruction of an extinct male Sri Lankan straight-tusked elephant (Palaeoloxodon
+namadicus sinhaleyus) wading through shallow wetland terrain. The scene uses the environment of Sigiriya Lion
+Rock as an ecological analogue and depicts P. namadicus sinhaleyus at an estimated shoulder height of 360 cm for
+comparative scale. Background plate: stock photograph by Paul Prescott (2014).
+
+
+Palaeoloxodon namadicus, extending anteriorly                    Following more recent fossil discoveries, Lar-
+from near the external nasal aperture and over-            ramendi et al. (2017) proposed that the POC
+hanging much of the frons (Larramendi et al.,              served a functional role as an attachment area for
+2020). Deraniyagala (1955, Plate 13) illustrated the       enlarged dorsal neck musculature in palaeoloxo-
+POC of P. namadicus sinhaleyus using broad                 dont species. As individuals matured, the POC
+strokes rather than fine anatomical details. As            may have provided increased leverage to counter-
+depicted, the crest may be read as either an               balance the growing anterior mass of the head and
+exposed bony structure or one covered by limited           elongated tusks. Support for this interpretation
+soft tissue. While Deraniyagala (1955) described           comes from the notably broad occiput characteris-
+the morphology of the POC, he did not propose a            tic of Palaeoloxodon, and from well-defined inter-
+functional explanation. This is relevant primarily as      muscular markings on the skull roof of P.
+historical context, because earlier interpretations of     namadicus. These markings are divided by a pro-
+palaeoloxodont species (Osborn, 1931) treated the          nounced median channel along the nuchal surface,
+crest chiefly as a conspicuous cranial feature,            extending from the nuchal fossa to a mid-sagittal
+whereas more recent work (Larramendi et al.,               depression at the cranial vertex, a configuration
+2020) has instead emphasised its biomechanical             interpreted as indicating the presence of paired
+significance as a site of muscular attachment and          splenius muscles (Larramendi et al., 2020). Taken
+head support. The reconstruction presented here,           together, these features provide strong anatomical
+however, did not derive the dimensions or form of          support for interpreting the POC as a musculoskel-
+the crest from Deraniyagala’s figure, but from             etal adaptation associated with head and tusk sup-
+recent comparative research on Palaeoloxodon               port (Figure 16). However, functional demands
+cranial morphology, as discussed below.                    alone do not fully account for the degree of intra-
+
+24
+                                                                                             PALAEO-ELECTRONICA.ORG
+
+
+
+
+FIGURE 16. Close-up view of the parieto-occipital crest (POC) in the reconstruction of Palaeoloxodon namadicus sin-
+haleyus produced within this study. Following Larramendi et al. (2020), the crest is shown as the attachment site for
+enlarged dorsal neck musculature (including the splenius and supersplenius), contributing to structural support for the
+head and tusks in adult individuals.
+
+
+specific variability observed in POC development             all body proportions than P. antiquus, it
+(Larramendi et al., 2020).                                   nonetheless appears to have supported a substan-
+     This study incorporates the limited morpho-             tially more massive cranial structure (Larramendi,
+metric data derived from fossil material attributed          2018). On this basis, P. antiquus – which is repre-
+to Palaeoloxodon namadicus sinhaleyus recovered              sented by more complete skeletal material, includ-
+from the Sabaragamuwa Basin, Sri Lanka                       ing articulated specimens from sites such as
+(Sumanarathna et al., 2021), together with earlier           Neumark-Nord 1 (Larramendi et al., 2017) – pro-
+published material described by Deraniyagala                 vides a suitable anatomical proxy for reconstruct-
+(1955; 1958). However, the Sri Lankan remains are            ing the fragmentary remains attributed to P.
+extremely sparse and consist only of isolated den-           namadicus sinhaleyus.
+tal material, providing support primarily for taxo-                For the purposes of soft-tissue reconstruction,
+nomic attribution and the plausibility of reduced            the two species are treated as functionally analo-
+body size rather than for detailed cranial or post-          gous. Both occupied broadly similar ecological
+cranial reconstruction. Accordingly, anatomical              niches as temperate to semi-arid grazers or mixed
+reconstruction was informed chiefly by established           feeders, and likely shared comparable muscular
+morphological characteristics of mainland P. nama-           and integumentary adaptations (Larramendi et al.,
+dicus and by comparative osteological and func-              2017; Sumanarathna et al., 2017). These charac-
+tional studies of Palaeoloxodon antiquus. Soft-              teristics were translated into volumetric form by
+tissue reconstruction followed an extant phyloge-            extrapolating proportional relationships observed in
+netic bracketing approach, using osteological cor-           extant elephants, with allowances made for
+relates as primary indicators of muscle origin and           increased dorsal neck musculature consistent with
+insertion. Muscle placement and relative mass                the enlarged POC. Additional soft tissues, includ-
+were inferred from features of the nuchal surface,           ing connective tissues and skin thickness, were
+intermuscular lines, and occipital breadth, drawing          estimated from comparative anatomical data on liv-
+on comparative dorsal neck musculature recon-                ing elephants (Mikota, 2006; Marchant and
+structions of Palaeoloxodon antiquus and Elephas             Shoshani, 2007) and modified only where osteo-
+maximus presented by Larramendi et al. (2017).               logical correlates indicated specific mechanical or
+     Recent studies suggest that Palaeoloxodon               postural requirements. In practice, this chiefly
+namadicus differed from Palaeoloxodon antiquus               involved conservative augmentation of the dorsal
+in possessing a more hypertrophied POC, consis-              neck musculature and adjacent soft-tissue volume
+tent with a proportionally larger and heavier head           in areas where the nuchal surface, occipital
+and tusks (Larramendi, 2016; Larramendi et al.,              breadth, and enlarged POC indicate increased
+2017; Larramendi et al., 2020). Although P. namad-           demands associated with head and tusk support.
+icus is described as taller and more gracile in over-        The resulting external morphology therefore rep-
+
+                                                                                                                     25
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 17. Three-dimensional reconstruction of an extinct male Sri Lankan straight-tusked elephant (Palaeoloxodon
+namadicus sinhaleyus) depicted within a landscape near the Batadombalena prehistoric cave site, used here as an
+environmental analogue. Original photograph: lexiks, “Elephant goes through jungle” (2013), iStock photo ID
+177590574 (standard license).
+
+resents a conservative synthesis of osteological          antiquus. As a result, the reconstruction of P.
+evidence, extant analogues, and documented                namadicus sinhaleyus necessarily draws on large-
+muscle-scar interpretations, rather than specula-         scale morphological characteristics established for
+tive embellishment (Figure 17). Variation in POC          P. antiquus, modified to reflect traits associated
+development among Palaeoloxodon namadicus                 with South Asian populations.
+individuals appears to be correlated with both age              Although the available fossil material is insuffi-
+and sex, with the most pronounced crests                  cient to definitively distinguish Palaeoloxodon
+observed in fully mature, M3-bearing males (Larra-        namadicus sinhaleyus from the forma typica, this
+mendi et al., 2020). The observed range of varia-         study accepts the plausibility of a geographically
+tion suggests a degree of sexual dimorphism,              isolated Sri Lankan subspecies that was modestly
+although current interpretations remain constrained       smaller than its mainland counterparts, potentially
+by limited sample sizes. Assuming sexual dimor-           as a result of incipient insular dwarfing (Baleka et
+phism was present, two non-exclusive explana-             al., 2021). Accordingly, P. namadicus sinhaleyus is
+tions have been proposed: first, that pronounced          depicted here as morphologically equivalent to P.
+POC development functioned as a secondary sex-            namadicus but scaled to approximately 80% of the
+ual characteristic; and second, that increased            maximum shoulder height (360 cm) estimated for
+prominence in adult males reflects allometric scal-       the largest mainland individuals (Larramendi,
+ing associated with greater overall mass, particu-        2016).
+larly heavier and more robust tusks, relative to                 This scaling choice is informed by Deraniya-
+females (Larramendi et al., 2020).                        gala’s (1955) original suggestion that the Sri
+Reconstruction. Fossil remains of Palaeoloxodon           Lankan population was of reduced stature,
+namadicus are less complete than those of the             together with comparative dwarfing patterns docu-
+European straight-tusked elephant, Palaeoloxodon          mented for insular palaeoloxodont taxa. Baleka et
+
+26
+                                                                                     PALAEO-ELECTRONICA.ORG
+
+
+al. (2021) quantified dwarfing rates in Palaeoloxo-           Taken together, these factors support a
+don cf. mnaidriensis, a descendant of P. antiquus       hypothesis of moderate, rather than extreme, size
+from Sicily, identifying height reductions ranging      reduction in Palaeoloxodon namadicus sinhaleyus.
+from 0.15 to 41.49 mm per generation (assuming a        Conditions favouring limited dwarfing include pro-
+31-year generation time), and mass reductions           longed but intermittent isolation, altered resource
+between 0.79 and 200.95 kg per generation. These        availability relative to mainland environments, par-
+estimates reflect a wide range of possible evolu-       tial ecological release constrained by predation,
+tionary trajectories, contingent on colonisation tim-   and periodic genetic exchange facilitated by land-
+ing and isolation duration, and ultimately indicate     bridge connectivity (Baleka et al., 2021). In con-
+that the island form underwent an overall mass          trast to the pronounced dwarfing observed in Sicil-
+reduction of approximately 85% relative to the          ian palaeoloxodonts, the larger landmass of Sri
+ancestral mainland form, leaving it at roughly 15%      Lanka, its predator regime, and the likelihood of
+of the mainland ancestor’s mass.                        repeated recolonisation events argue for a more
+      However, the ecological and biogeographic         conservative reduction in body size. On this basis,
+conditions governing dwarfing on Sicily differ sub-     our scaling of P. namadicus sinhaleyus to approxi-
+stantially from those of Sri Lanka. Sri Lanka is        mately 80% of the maximum size of the forma typ-
+approximately 65,610 km² in area – roughly 2.5          ica represents a cautious and scientifically
+times larger than Sicily (25,711 km²) – and island      defensible reconstruction given current ecological,
+size is generally correlated with greater resource      geological, and palaeontological evidence.
+availability and more complex ecological interac-             Integumentary traits are not preserved for
+tions (Faurby and Svenning, 2016). While no direct      Palaeoloxodon material from Sri Lanka; conse-
+mathematical relationship exists between island         quently, external appearance was reconstructed
+area and dwarfing rate, smaller and more isolated       using nearest-living-relatives and functionally sup-
+islands tend to promote stronger ecological release     ported elephant skin models, while remaining con-
+and reduced predation pressure, accelerating body       servative where phylogenetic and ecophenotypic
+size reduction, whereas larger islands typically        signals are ambiguous. Skin texture follows the
+constrain these effects through sustained competi-      well-documented condition in extant elephants, in
+tion and predation (Faurby and Svenning, 2016;          which the integument is strongly sculptured by
+Sumanarathna et al., 2017).                             wrinkles and crevices arranged in geometric pat-
+      During the Quaternary, Sri Lanka supported a      terns that retain water and slow dehydration,
+suite of large predators, including Panthera leo sin-   thereby supporting evaporative cooling during peri-
+haleyus, Crocodylus sinhaleyus, and Homo sapi-          odic wetting and wallowing (Lillywhite & Stein,
+ens (Sumanarathna, 2018; Sumanarathna et al.,           1987). Recent biomechanical and developmental
+2021). The continued presence of such predators         studies further demonstrate that elephant skin
+would have limited ecological release and moder-        wrinkling arises through an interaction of form and
+ated selective pressures toward extreme dwarfism,       function rather than as a purely superficial feature,
+in contrast to smaller islands such as Sicily, where    particularly along the trunk where wrinkle density
+comparable predators were absent Baleka et al.          and depth vary with mechanical use (Martins et al.,
+(2021).                                                 2018; Schulz et al., 2024). Hair coverage was
+      Geological and bathymetric evidence further       reconstructed as very sparse, consistent with
+suggests that Sri Lanka experienced repeated peri-      expectations for extremely large-bodied elephants
+ods of connectivity with the Indian mainland. The       inhabiting warm climatic conditions; Larramendi et
+limestone shoals of Adam’s Bridge (Ram Setu),           al. (2017) argue that the high body volume-to-sur-
+spanning approximately 48 km, would have been           face-area ratio of straight-tusked elephants implies
+partially or fully emergent during glacial sea-level    reduced insulation and enhanced heat transfer,
+regressions exceeding 3–10 m (Dandabathula et           paralleling extant elephants with sparse hair distri-
+al., 2024; Sumanarathna, 2018). Multiple regres-        butions (Myhrvold et al., 2012).
+sions greater than 10 m occurred between approxi-             Colouration and visible patterning were
+mately 200 and 40 ka (Lambeck and Chappell,             treated as ecologically plausible approximations
+2001), potentially enabling recurrent migration and     rather than diagnostic traits. Comparative observa-
+gene flow in megafaunal populations such as P.          tions indicate clear differences in skin tone and tex-
+namadicus. Fossils recovered from the Ratnapura         ture between Asian and African elephants, with
+gravels fall broadly within this temporal window        Asian elephants typically exhibiting lighter, some-
+(Deraniyagala, 1992).                                   times pinkish pigmentation and smoother trunk
+
+                                                                                                           27
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+skin, and African elephants showing darker grey         tively inferred as a thermoregulatory adaptation
+coloration with more deeply cracked epidermis           consistent with its exceptional body mass and
+(Schulz et al., 2024). Given the close phylogenetic     warm-climate context, but their exact shape and
+relationship between Palaeoloxodon and Elephas,         proportional extent remain uncertain. Recent
+and the aim of remaining within the known range of      genetic evidence indicating a closer evolutionary
+extant elephant integument phenotypes, the recon-       relationship between Palaeoloxodon and Loxo-
+struction adopts pigmentation broadly comparable        donta cyclotis complicates earlier assumptions of a
+to Elephas maximus as a conservative baseline,          purely Asian-elephant-like morphology (Meyer et
+acknowledging that apparent colour in living ele-       al., 2017) but does not in itself provide direct con-
+phants is strongly influenced by mud, dust, hydra-      straints on ear form. Accordingly, ear morphology
+tion, and sun exposure.                                 in the reconstruction reflects a generalised large-
+      Colouration and visible patterning were           elephant condition rather than a close analogue
+treated as ecologically plausible approximations        drawn from any single extant species. This
+rather than diagnostic or phylogenetically prescrip-    approach is consistent with Larramendi (2016),
+tive traits. While Palaeoloxodon has historically       who proposed that Palaeoloxodon antiquus likely
+been grouped with Asian elephants (Elephas maxi-        possessed robust, intermediate-sized ears broadly
+mus) based on morphological characters, recent          comparable to those of Elephas maximus, rather
+genomic analyses indicate a closer evolutionary         than the extreme enlargement seen in Loxodonta
+relationship between Palaeoloxodon antiquus and         africana.
+extant African forest elephants (Loxodonta                    Trunk morphology presents similar inferential
+cyclotis), suggesting a more complex evolutionary       limits. Larramendi et al. (2017) emphasise that the
+history for straight-tusked elephants than previ-       form of the trunk tip is not reliably linked to dietary
+ously assumed (Meyer et al., 2017).                     behaviour and cannot be reconstructed with confi-
+      Importantly, integument colour in extant ele-     dence for extinct elephants. In the absence of fossil
+phants shows substantial overlap across lineages        evidence constraining trunk-tip anatomy in Palae-
+and is strongly influenced by environmental factors     oloxodon and given the high functional plasticity of
+such as habitat, substrate, hydration, sun expo-        the elephant trunk across extant taxa, the recon-
+sure, and behaviour, including dust- and mud-bath-      struction adopts a single dorsal finger configura-
+ing. Comparative observations indicate broad            tion. This choice reflects a conservative modelling
+differences in average skin tone and texture            decision that avoids introducing additional anatom-
+between Asian and African elephants, with Asian         ical specialisation unsupported by direct evidence,
+elephants often exhibiting lighter, sometimes pink-     rather than a definitive claim about trunk morphol-
+ish pigmentation and smoother trunk skin, and Afri-     ogy. As such, it should be understood as an illus-
+can elephants tending toward darker grey tones          trative approximation within the known range of
+with more deeply cracked epidermis (Schulz et al.,      extant elephant variation.
+2024). Given the humid, wet-zone environments                 Tusk morphology in Palaeoloxodon namadi-
+inferred for Palaeoloxodon namadicus sinhaleyus,        cus sinhaleyus was informed by comparative anat-
+and the aim of remaining within the documented          omy, palaeoecological context, and historical
+phenotypic range of extant elephant integument          reconstructions. Whereas Palaeoloxodon antiquus
+while avoiding over-specific phylogenetic claims,       is characterised by extremely long, largely straight
+the reconstruction adopts a moderately light grey       tusks associated with open temperate woodland
+baseline with subtle mottling, compatible with both     and savannah-like environments in Europe (Larra-
+Asian and African forest elephant analogues. This       mendi et al., 2017), P. namadicus sinhaleyus is
+approach reflects ecological plausibility rather than   known from markedly different habitats. Fossil and
+taxonomic certainty, acknowledging that apparent        environmental evidence places this subspecies
+colour in living elephants is highly variable and       within the wet-zone landscapes of the Sabarag-
+often dominated by extrinsic factors.                   amuwa Basin, which during the Late Pleistocene
+      Ear size and morphology were reconstructed        were dominated by dense tropical vegetation
+conservatively. Larramendi et al. (2017) note that      (Amano et al., 2023). In such environments, very
+ear dimensions in elephants correlate more              long, forward-projecting tusks would likely have
+strongly with body size and thermoregulatory            imposed mechanical constraints on locomotion
+demands than with phylogeny and therefore can-          through thick undergrowth, favouring reduced tusk
+not be inferred directly from extant relatives alone.   elongation. On this basis, we reconstructed P.
+For Palaeoloxodon, relatively large ears are tenta-     namadicus sinhaleyus with predominantly straight,
+
+28
+                                                                                       PALAEO-ELECTRONICA.ORG
+
+
+medium-length tusks, a decision consistent with          megafaunal fossils have been recovered inciden-
+Deraniyagala’s (1955, Plate 13) reconstruction of        tally through gem mining in the Sabaragamuwa
+the taxon.                                               Basin, whereas other regions have not been inves-
+      No cranial material is currently known for         tigated with comparable intensity (Sumanarathna
+Palaeoloxodon namadicus sinhaleyus, and as a             et al., 2021). Paleoenvironmental evidence from
+result the morphology of the parieto-occipital crest     Late Pleistocene Sri Lanka indicates the per-
+remains unknown. Among palaeoloxodonts, the              sistence of humid tropical conditions alongside
+development and expansion of the POC is gener-           habitat mosaics that included forest, wetlands, for-
+ally interpreted as a response to increased cranial      est-edge settings, and more open areas, rather
+and ante-cranial loading, including the mass and         than a wholly different environmental regime from
+leverage of large tusks and associated trunk mus-        that of the present (Wikramanayake, 2004; Roberts
+culature (Larramendi, 2016). Following the hypoth-       et al., 2017; Amano et al., 2023). This interpreta-
+esis advanced by Larramendi et al. (2020) that the       tion is also consistent with Acavidae evidence from
+POC also functioned as an attachment site for            Batadombalena, where environmentally sensitive
+enlarged splenius and supersplenius musculature,         land snails show broad continuity between fossil
+this reconstruction explicitly visualises that func-     and extant assemblages in the island’s wet zone
+tional relationship (Figures 15–17). Given that P.       over approximately 30,000 years (Sumanarathna
+namadicus sinhaleyus is reconstructed here with          et al., 2016). The inclusion of the Sigiriya land-
+intermediate-length tusks rather than the excep-         scape is therefore illustrative, intended to evoke
+tionally long and robust tusks of its forma typica, it   one plausible expression of this broader environ-
+is reasonable to speculate that selective pressure       mental range, rather than to imply fossil occur-
+for extreme POC enlargement may have been                rence at that specific locality.
+reduced in this subspecies. However, there is no
+                                                         Sri Lankan Rhinoceros
+direct evidence to constrain the degree of variation
+that may have existed in the POC itself, nor in              Order: PERISSODACTYLA Owen, 1848
+associated splenius and supersplenius muscula-               Family: RHINOCEROTIDAE Gray, 1821
+ture. While previous illustrations of Palaeoloxodon          Genus: RHINOCEROS Linnaeus, 1758
+namadicus and Palaeoloxodon antiquus depict               Species: Rhinoceros sinhaleyus (Deraniyagala,
+varying degrees of soft-tissue mass surrounding                               1936)
+the POC (Deraniyagala, 1955; Uchytel, 2012; Lar-                           (Figure 18)
+ramendi et al., 2017), the present reconstruction is,    Nomenclature. The nomenclatural history of the
+to our knowledge, the first to clearly articulate the    Sri Lankan rhinoceros material is complex and
+anatomical relationship between the POC and dor-         remains unresolved. P.E.P. Deraniyagala (1938)
+sal neck musculature in palaeoloxodonts. Any             applied the previously suggested subspecific name
+inferred reduction in these structures should there-     sinhaleyus to several extinct Ceylonese forms,
+fore be understood as a modelling assumption             including Rhinoceros sivalensis sinhaleyus, while
+made for biomechanical plausibility rather than a        noting that differences between the extinct faunas
+definitive anatomical reconstruction.                    of India and Ceylon appeared generally subspe-
+Environment context. In this research, Palaeolox-        cific, although more complete material might
+odon namadicus sinhaleyus is depicted within wet-        demonstrate specific distinction. Deraniyagala later
+land marsh and open grassland environments               used the combination Rhinoceros sinhaleyus in the
+(Figures 15 and 17). The grassy field setting was        monograph “The Pleistocene of Ceylon” (1946).
+photographed in an environment analogous with            S.U. Deraniyagala subsequently referred to the Sri
+the Sabaragamuwa Basin, a documented fossil              Lankan form as Rhinoceros sinhaleyus and distin-
+locality for this species (Sumanarathna et al.,          guished it from R. sivalensis on dental grounds,
+2021). The wetland environment was photo-                while also noting similarities with Rhinoceros uni-
+graphed near Sigiriya Lion Rock in north-central Sri     cornis and the limited nature of the available evi-
+Lanka and is used here as an ecological analogue         dence (Deraniyagala, 1988, 1992). The present
+rather than a site-specific reconstruction. Although     article does not seek to resolve the taxonomic sta-
+no fossil material of P. namadicus sinhaleyus has        tus of this material. Instead, Rhinoceros sinhaleyus
+been recorded from the Sigiriya area, this absence       is used here in a historical and operational sense
+more likely reflects uneven patterns of palaeonto-       to refer to the fossil rhinoceros traditionally identi-
+logical recovery than demonstrated exclusion from        fied under that name in Sri Lankan palaeontologi-
+that region. The majority of Sri Lanka’s Quaternary      cal literature. The reconstruction should therefore
+
+                                                                                                             29
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 18. Three-dimensional reconstruction of the extinct Sri Lankan rhinoceros (Rhinoceros sinhaleyus) standing
+on a grassy island within an extensive wetland environment. The scene is intended to evoke palaeoenvironmental
+conditions inferred for the Sabaragamuwa Basin during the Late Pleistocene. The background incorporates the
+Adam’s Peak massif and surrounding landscapes near Kuruwita, Sri Lanka, used here as a regional environmental
+analogue rather than a precise locational reconstruction.
+
+be understood as a visualisation of this historically     wide range of habitats across sub-Saharan Africa
+recognised form, rather than as a systematic reas-        and South and Southeast Asia, including grass-
+sessment of its species-level validity.                   lands, savannahs, shrublands, tropical forests, and
+     The fragmentary nature of the Sri Lankan rhi-        wetlands (Laurie et al., 1983; Groves and Leslie,
+noceros record is compounded by the loss, poor            2011; Sumanarathna et al., 2021). The earliest
+documentation, or uncertain present location of           members of family Rhinocerotidae diverged
+some historically reported material. For this rea-        approximately 4.3 million years ago (Bai et al.,
+son, the reconstruction relies primarily on pub-          2020).
+lished descriptions, historical figures and                    The genus Rhinoceros is defined by the pres-
+photographs where available, and comparison with          ence of a single nasal horn (Groves, 1983) and is
+extant and fossil rhinoceros species. This limitation     represented today by two extant examples: Rhi-
+is not treated as grounds for taxonomic certainty,        noceros unicornis and Rhinoceros sondaicus. In
+but as part of the methodological problem the visu-       Sri Lanka, R. unicornis persisted into the Holo-
+alisation addresses: how to responsibly reconstruct       cene, but during the Middle to Late Pleistocene, at
+historically documented but incompletely pre-             least two additional rhinocerotid taxa were present
+served Sri Lankan Quaternary fauna.                       in the Sabaragamuwa region: Rhinoceros sinha-
+Appearance. Rhinocerotidae is a family of large,          leyus and Rhinoceros kagavena. Both taxa are pri-
+heavy-bodied herbivorous mammals typically                marily known from dental material, although R.
+exceeding one tonne in mass and characterised by          sinhaleyus is additionally represented by a partial
+one or more keratinous nasal horns. Members of            mandible with a pronounced gonial prominence
+the family possess thick, protective skin with            and a proximal fragment of a scapula (Deraniya-
+sparse hair coverage, and extant species occupy a         gala, 1958; Sumanarathna et al., 2021).
+
+30
+                                                                                     PALAEO-ELECTRONICA.ORG
+
+
+      Dentition provides the principal basis for dis-         Skin texture in the reconstruction follows the
+tinguishing these species. Rhinoceros sinhaleyus        general condition observed in extant Asian rhinoc-
+exhibits brachyodont, relatively square molars,         eroses: a thick, largely hairless hide with prominent
+whereas R. kagavena is characterised by hypsod-         epidermal polygonal patterning. In Rhinoceros uni-
+ont dentition, suggesting differing feeding strate-     cornis and Rhinoceros sondaicus, skin thickness
+gies (Deraniyagala, 1939). Deraniyagala (1958, p.       ranges from approximately 2.5 to 3.5 cm depend-
+116) described R. sinhaleyus as “somewhat               ing on body region (Sody and Mohr, 1959), and the
+smaller than the living R. unicornis” and associated    epidermis is divided into closely arranged, flattened
+it with swampy environments (Chauhan, 2007). On         polygons that impart a reticulated surface appear-
+this basis, Deraniyagala (1988) later speculated        ance (Lydekker, 1907; Groves and Leslie, 2011)
+that the species may have possessed shortened           resembling scales (Harper, 1945). Regional skin
+limbs adapted for soft, waterlogged substrates.         folds are a defining feature of the genus, although
+      However, subsequent fossil discoveries com-       their development varies between species. R. uni-
+plicate this interpretation. Fossils of R. sinhaleyus   cornis exhibits deep, armour-like folds, including
+recovered from gem pits in the Kuruwita region of       pronounced cervical and shoulder segmentation
+the Sabaragamuwa Province – a mountainous               (Laurie et al., 1983), whereas R. sondaicus shows
+area whose present terrain closely resembles that       shallower folds and a diagnostic posterior cervical
+inferred for the Late Pleistocene – indicate that the   fold forming an independent nape shield (Grove
+species was not restricted to lowland swamps            and Leslie, 2011).
+(Sumanarathna et al., 2021). Moreover, R. sinha-              Given the inferred closer affinity of Rhinoceros
+leyus shares close affinities with fossil rhinocer-     sinhaleyus to Rhinoceros sondaicus and its com-
+oses from the Shivalik Hills of northern India,         paratively more primitive morphology relative to R.
+including R. unicornis and R. sivalensis (Deraniya-     sondaicus, the reconstruction adopts moderately
+gala, 1958; Sumanarathna et al., 2021). Dental          developed skin folds and avoids the exaggerated
+morphology aligns R. sinhaleyus with the R. uni-        segmentation and enlarged cervical “bib” charac-
+cornis lineage through the presence of a crista,        teristic of mature male Rhinoceros unicornis. This
+while the low crown height and square tooth profile     treatment is consistent with the lighter cranial con-
+suggest a relatively primitive condition and a          struction and reduced graviportality observed in R.
+smaller-bodied form, potentially closer to R. sival-    sondaicus and its Pleistocene precursors (Groves
+ensis or the extant R. sondaicus (Deraniyagala,         and Leslie, 2011).
+1958). Groves and Leslie (2011) have argued for a             Hair coverage is reconstructed as sparse. In
+close – possibly conspecific – relationship between     extant Asian rhinoceroses, body hair is typically
+Rhinoceros sinhaleyus, Rhinoceros sondaicus,            present in juveniles but becomes abraded or lost in
+and Rhinoceros sivalensis. Together with the Kuru-      adults, with hair consistently retained only as eye-
+wita fossil evidence, we interpret this as a broader    lashes, ear fringes, and a terminal tail brush (Lau-
+habitat range for R. sinhaleyus encompassing            rie et al., 1983). Given the warm, humid
+swampy lowlands, floodplains, and more rugged or        environments inferred for Rhinoceros sinhaleyus
+elevated terrain, which would suggest that extreme      and the absence of evidence for cold-adapted
+limb shortening is unlikely.                            integument, a largely hairless adult phenotype with
+      Integumentary features are not preserved in       retained sensory and display hairs is considered
+the fossil record of Rhinoceros sinhaleyus, and no      the most parsimonious reconstruction.
+skin impressions or soft tissue remains are known.            Colouration is treated as an ecologically plau-
+Consequently, the external appearance of this spe-      sible approximation rather than a diagnostic trait.
+cies was inferred using a proxy-based framework         Extant Rhinoceros unicornis typically exhibits a
+combining phylogenetic proximity, comparison with       grey-brown hide that may appear pinkish within
+extant congeners, and ecological plausibility, fol-     skin folds, while Rhinoceros sondaicus is generally
+lowing an Extant Phylogenetic Bracket (EPB)             described as grey to dusky grey (Laurie et al.,
+approach (Witmer, 1995). Primary analogues were         1983; Groves and Leslie, 2011). In both species,
+Rhinoceros unicornis and Rhinoceros sondaicus,          apparent colour is strongly influenced by wallowing
+both of which have been regarded as closely             behaviour, mud adherence, and hydration state.
+related to R. sinhaleyus and potentially conspecific,   Accordingly, Rhinoceros sinhaleyus is recon-
+although subspecifically destinct (Deraniyagala,        structed with a neutral grey to grey-brown base
+1958; Groves and Leslie, 2011).                         tone consistent with extant Asian rhinoceroses
+                                                        inhabiting wetland and forested environments.
+
+                                                                                                           31
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+
+
+
+FIGURE 19. Sculpture of Rhinoceros sinhaleyus by Lalith Wijesinghe (2014), displayed at the Rathnapura National
+Museum Palaeobiodiversity Museum Park. Photograph by A.R.S.
+
+
+      Other external features follow conditions          ports limb proportions suited to mobility across het-
+observed in living members of the genus. The             erogeneous landscapes rather than specialisation
+upper lip is depicted as elongated and prehensile,       for persistently waterlogged substrates. A sculp-
+reflecting browsing behaviour associated with            tural reconstruction by Lalith Wijesinghe displayed
+brachyodont dentition and paralleling feeding strat-     at the Palaeobiodiversity Museum Park of the
+egies documented in Rhinoceros unicornis and             Rathnapura National Museum (Figure 19) likewise
+Rhinoceros sondaicus (Laurie et al., 1983; Groves        depicts a long-limbed R. sinhaleyus, providing
+and Leslie, 2011). A single nasal horn is included,      independent visual support for this interpretation.
+consistent with the defining characteristic of Rhi-            In the scene depicted, an adult male R. sinha-
+noceros, with size and curvature kept conservative       leyus stands above tall grass on a temporary flood-
+to avoid overstating sexual dimorphism or horn           plain island. When reconstructed alongside
+hypertrophy in the absence of direct fossil evi-         Rhinoceros unicornis within a comparable environ-
+dence. Ear morphology, including a fringe of mar-        mental context (Figure 10), R. sinhaleyus is por-
+ginal hairs, and a terminal tail brush are also          trayed with a more gracile overall build. This
+retained, as these features are consistently present     reflects Deraniyagala’s (1955) description of the
+across extant rhinocerotids.                             species as somewhat smaller than the living Indian
+Reconstruction. Drawing on inferred morphology           rhinoceros and avoids assuming the robust, heav-
+from Shivalik rhinoceroses and closely related           ily armoured proportions characteristic of mature
+Asian taxa adapted to environments ranging from          male R. unicornis. While this comparison does not
+wetlands to upland and mountainous terrain, Rhi-         yield definitive measurements, it provides a relative
+noceros sinhaleyus is reconstructed with longer-         frame of reference grounded in extant morphology.
+than-average limb proportions (Figure 17). This                In Rhinoceros unicornis, documented shoul-
+treatment reflects phylogenetic and morphological        der heights range from approximately 147 to 193
+affinities with Shivalik Rhinoceros species and sup-     cm (Laurie et al., 1983), establishing a practical
+
+32
+                                                                                      PALAEO-ELECTRONICA.ORG
+
+
+upper bound for body size within the genus.              of the Sabaragamuwa Basin, from which R. sinha-
+Although a partial proximal scapula of Rhinoceros        leyus fossils have been recovered (Sumanarathna
+sinhaleyus has been recovered from Kuruwita, the         et al., 2017). Comparative evidence from extant
+fragmentary nature of this postcranial material pre-     Asian rhinoceroses further supports the plausibility
+cludes reliable estimation of body size or shoulder      of such habitat mosaics. For example, Rhinoceros
+height. As a result, overall proportions were con-       unicornis is most often associated with semi-open
+textualised using extant Asian rhinoceroses, with        floodplains, riverine grasslands, and swampy allu-
+R. unicornis treated as an upper dimensional limit       vial environments, whereas historical accounts of
+rather than a direct analogue.                           Rhinoceros sondaicus indicate use of a broader
+      In the absence of limb material suitable for       range of habitats, including lowland forests, fertile
+quantitative scaling, shoulder height for Rhinoc-        floodplains, open glades within forest, and hilly or
+eros sinhaleyus was estimated through compara-           mountainous terrain prior to its modern range con-
+tive allometry with its closest extant analogue,         traction (Laurie et al., 1983; Groves and Leslie,
+Rhinoceros sondaicus. This comparison is sup-            2011). Both species retain a strong affinity with
+ported by close phylogenetic affinity and shared         water but differ in the degree of openness and veg-
+aspects of general limb bone morphology between          etation structure they preferentially exploit.
+R. sondaicus and R. unicornis, which are broadly               Fossil evidence places Rhinoceros sinhaleyus
+similar despite differences in robustness (Mallet et     within the Sabaragamuwa Basin, including the
+al., 2019). Although dental dimensions are not iso-      Kuruwita        region     (Deraniyagala,       1958;
+metrically linked to body size, the brachyodont, rel-    Sumanarathna et al., 2017), an area characterised
+atively square molars of R. sinhaleyus align it with     during the Pleistocene by heterogeneous land-
+smaller browsing rhinoceroses rather than larger         scapes encompassing wetlands, floodplains, for-
+grazing forms (Deraniyagala, 1939). Given the            ested lowlands, and adjacent upland terrain
+documented shoulder height range of R. sondaicus         (Wikramanayake, 2004; Roberts et al., 2017;
+(150–170 cm), evidence for subspecific size reduc-       Amano et al., 2023). Taken together, these lines of
+tion in peripheral populations (Groves and Leslie,       evidence suggest that R. sinhaleyus was ecologi-
+2011), and Deraniyagala’s (1958) characterisation        cally flexible rather than restricted to a single nar-
+of R. sinhaleyus as a more primitive taxon, a con-       rowly defined habitat type (Sumanarathna et al.,
+servative shoulder height estimate of approxi-           2021). Accordingly, the reconstruction situates R.
+mately 150 cm places the species at the lower end        sinhaleyus within a temporary floodplain bordered
+of the Rhinoceros size spectrum without overstat-        by tall grasses and wetland vegetation. This setting
+ing its stature.                                         is presented as one plausible ecological context
+Environmental context. The landscape depicted            within the inferred environmental range for the spe-
+for Rhinoceros sinhaleyus is informed by both the        cies, rather than as an exclusive or definitive habi-
+geological and palaeoecological context of the           tat reconstruction.
+Sabaragamuwa region and the comparative ecol-                  The scene also includes small passerine birds
+ogy of closely related Asian rhinoceroses. As skel-      perched on the body of Rhinoceros sinhaleyus.
+etal morphology alone does not permit precise            These birds were present in the original reference
+habitat discrimination in rhinocerotids, ecological      photograph of extant Rhinoceros unicornis and
+inferences must remain broad and be treated cau-         were intentionally retained in the reconstruction to
+tiously (Mallet et al., 2019). Closely related species   preserve a documented behavioural context. In liv-
+may share similar limb morphologies while occupy-        ing R. unicornis, birds such as mynahs (Acridoth-
+ing distinct but overlapping environments, particu-      eres tristis) are known to forage opportunistically
+larly where access to water and dense vegetation         on invertebrates associated with the rhino’s skin
+is a common constraint.                                  (Laurie et al., 1983). However, owing to their small
+      Late Pleistocene evidence from Sri Lanka,          size and lack of diagnostic detail in the source
+particularly from the island’s wet zone and adjoin-      image, the birds depicted here cannot be identified
+ing regions, indicates humid tropical conditions         to species level. Their inclusion therefore indicates
+with heterogeneous habitat structure, including for-     a generalised interaction between rhinocerotids
+ested environments, wetlands, forest-edge set-           and small insectivorous passerines, rather than
+tings, and more open grassland components                implying the co-occurrence of any specific bird
+(Wikramanayake, 2004; Roberts et al., 2017;              taxon with R. sinhaleyus. This choice reflects a
+Amano et al., 2023). This broader environmental          behaviourally plausible ecological association
+framework is consistent with the geological context      rather than a taxonomic claim.
+
+                                                                                                            33
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+                   CONCLUSION                             mation methodologies to directly support Sri
+                                                          Lankan palaeontological research and constitute
+      This study presents the first integrated three-
+                                                          the first substantial visual revisions of Palaeoloxo-
+dimensional palaeoart reconstructions of Palae-
+                                                          don namadicus sinhaleyus and Rhinoceros sinha-
+oloxodon namadicus sinhaleyus and Rhinoceros
+                                                          leyus in several decades. By situating these taxa
+sinhaleyus grounded explicitly in Sri Lankan fossil,
+                                                          within plausible environmental contexts drawn from
+geological, and palaeoecological contexts. By syn-
+                                                          the Sabaragamuwa Basin and ecologically compa-
+thesising fragmentary fossil material with compara-
+                                                          rable regions elsewhere in Sri Lanka, the study
+tive anatomy, extant phylogenetic bracketing,
+                                                          highlights the ecological diversity of Sri Lanka’s
+palaeoenvironmental evidence, and documented
+                                                          Quaternary landscapes and underscores the sci-
+ecological analogues, the reconstructions offer
+                                                          entific value of a fossil record that remains largely
+updated visual hypotheses for two poorly known
+                                                          understudied.
+Quaternary megafaunal taxa. These images do not
+                                                                Finally, this work emphasises the importance
+claim to represent definitive appearances, but
+                                                          of transparency as reconstructions become
+rather articulate current, evidence-informed inter-
+                                                          increasingly realistic and persuasive. As palaeoart
+pretations that can be revised as new data emerge.
+                                                          continues to move toward higher visual fidelity, the
+      A key contribution of this research lies in the
+                                                          risk of conflating interpretive imagery with settled
+explicit documentation of reconstruction decisions.
+                                                          fact increases. Explicitly communicating uncer-
+Anatomical assumptions, scaling choices, soft-tis-
+                                                          tainty, assumptions, and alternative interpretations
+sue inferences, and environmental contexts are
+                                                          is therefore not ancillary to the reconstruction pro-
+made transparent, with clear distinction between
+                                                          cess but central to its scientific credibility. In this
+fossil-supported constraints and areas of informed
+                                                          sense, the reconstructions presented here are
+speculation. This includes the treatment of insular
+                                                          intended not only to visualise extinct species, but to
+size reduction in Palaeoloxodon namadicus sinha-
+                                                          model an approach to palaeoart that treats visuali-
+leyus, limb proportions and habitat flexibility in Rhi-
+                                                          sation as a rigorous, accountable component of
+noceros      sinhaleyus,     and     the    functional
+                                                          palaeontological research.
+interpretation of the parieto-occipital crest in palae-
+oloxodonts. By rendering these decisions visible
+                                                                        ACKNOWLEDGMENTS
+rather than implicit, the reconstructions function not
+merely as illustrations, but as testable syntheses of           We thank M. Aouititen, Beijing Forestry Uni-
+current knowledge.                                        versity School of Ecology and Nature Conserva-
+      Methodologically, this study demonstrates           tion, China, for her consultation and scientific
+how contemporary 3D animation and visual effects          feedback during the early stages of this project.
+workflows can be integrated into palaeontological               We also thank the student interns from Auck-
+research without sacrificing scientific rigour. The       land University of Technology (Animation, Visual
+use of modular digital assets, anatomically con-          Effects and Game Design major) who contributed
+strained deformation, and explicitly defined ecolog-      to this project: N. Bhat, N. Bickerton, G. Carrera, B.
+ical analogues allows reconstructions to be               Chen, A. Dela Cruz, T. Hobin, J. Jones, H. Kang,
+interrogated, updated, or repurposed as new evi-          C. Li, M. Malbog, A. Medel, D. Patel, V. Solovyeva,
+dence becomes available. In this respect, the mod-        H. Tiyyagura, and R. Zhang.
+els are not static endpoints but adaptable research             J.K. is thankful for strategic research funding
+artefacts, capable of supporting future visualisa-        from Auckland University of Technology to assist
+tion, comparative analysis, and public-facing inter-      with the purchase of 3D assets at the beginning of
+pretation.                                                this project.
+      The reconstructions presented here also rep-
+resent the first palaeoart produced using 3D ani-
+
+
+
+
+                                                REFERENCES
+
+          Adobe. 2023a. Adobe Substance Painter (Version 9.0). Adobe.
+          Adobe. 2023b. Adobe Photoshop (Version 2023). Adobe.
+          Adobe. 2023c. Adobe After Effects (Version 2023). Adobe.
+
+34
+                                                                                   PALAEO-ELECTRONICA.ORG
+
+
+Amano, N., Wedage, O., Ilgner, J., Boivin, N., Petraglia, M., and Roberts, P. 2023. Of forests and
+    grasslands: Human, primate, and ungulate palaeoecology in Late Pleistocene-Holocene Sri
+    Lanka. Frontiers in Earth Science, 11:1133281.
+    https://doi.org/10.3389/feart.2023.1133281
+Ansón, M., Hernández Fernández, M., and Saura Ramos, P.A. 2015. Paleoart: Terms and
+    conditions (a survey among paleontologists). Current Trends in Paleontology and Evolution,
+    Proceedings of the XIII Meeting of Early-Stage Researchers in Paleontology (XIII EJIP),
+    Cercedilla, Spain: pp. 28–34.
+    http://hdl.handle.net/10261/120877
+Attanyake, D. 2018. Solving the jigsaw of lost world. Sunday Observer, Colombo, Sri Lanka.
+    https://archives1.sundayobserver.lk/2018/08/26/news-features/solving-jigsaw-lost-world
+Atthapattu, I. 2022. The science that digs deeper. Ceylon Today, Colombo, Sri Lanka.
+    https://ceylontoday.lk/2022/10/08/the-science-that-digs-deeper
+Autodesk. 2023a. Autodesk Maya (Version 2023). Autodesk.
+Autodesk. 2023b. Arnold Renderer for Maya (Version 7.1.3.2). Autodesk.
+Bai, B., Meng, J., Zhang, C., Gong, Y.X., and Wang, Y.Q. 2020. The origin of Rhinocerotoidea
+    and phylogeny of Ceratomorpha (Mammalia, Perissodactyla). Communications Biology,
+    3(1):1–16.
+    https://doi.org/10.1038/s42003-020-01205-8
+Baleka, S., Herridge, V.L., Catalano, G., Lister, A.M., Dickinson, M.R., Di Patti, C., Barlow, A.,
+    Penkman, K.E.H., Hofreiter, M., and Paijmans, J.L.A. 2021. Estimating the dwarfing rate of
+    an extinct Sicilian elephant. Current Biology, 31(16):3606–3612.
+    https://doi.org/10.1016/j.cub.2021.05.037
+Bertozzo, F., Manucci, F., Dempsey, M., Tanke, D.H., Evans, D.C., Ruffell, A., and Murphy, E.
+    2020. Description and etiology of paleopathological lesions in the type specimen of
+    Parasaurolophus walkeri (Dinosauria: Hadrosauridae), with proposed reconstructions of the
+    nuchal ligament. Journal of Anatomy, 238(5):1055–1069.
+    https://doi.org/10.1111/joa.13363
+Blender Foundation. 2025. Blender (Version 5.0). Blender Foundation.
+Campbell, R.M., Vinas, G., Henneberg, M., and Diogo, R. 2021. Visual depictions of our
+    evolutionary past: A broad case study concerning the need for quantitative methods of soft
+    tissue reconstructions and art-science collaborations. Frontiers in Ecology and Evolution, 9:
+    1–17.
+    https://doi.org/10.3389/fevo.2021.639048
+Chauhan, P.R. 2007. Large mammal fossil occurrences and associated archaeological evidence
+    in Pleistocene contexts of peninsular India and Sri Lanka. Quaternary International,
+    192(2008): 20–42.
+    https://doi.org/10.1016/j.quaint.2007.06.034
+Conway, J., Kosemen, C.M., and Naish, D. 2012. All Yesterdays: Unique and Speculative Views
+    of Dinosaurs and Other Prehistoric Animals. Irregular Books.
+Dandabathula, G., Ghosh, K., Hari, R., Sharma, J., Sharma, A., Padiyar, N., Poonia, A., Bera,
+    A.K., Srivastav, S K., and Chauhan, P. 2024. Physical features of Adam’s Bridge interpreted
+    from ICESat-2 based high-resolution digital bathymetric elevation model. Scientific Reports,
+    14(1):14896.
+    https://doi.org/10.1038/s41598-024-65908-2
+Davis, M., Nye, B.D., Sinatra, G.M., Swartout, W., Sjöberg, M., Porter, M., Nelson, D., Kennedy,
+    A.A.U., Herrick, I., Weeks, D.D., and Lindsey, E. 2022. Designing scientifically-grounded
+    paleoart for augmented reality at La Brea Tar Pits. Palaeontologia Electronica, 25(1):a9.
+    https://doi.org/10.26879/1191
+Debus, A. and Debus, D. 2002. Paleoimagery: The Evolution of Dinosaurs in Art. McFarland &
+    Company, Inc, London.
+Deraniyagala, P.E.P. 1936. Rhinoceros sinhaleyus. The Journal of the Ceylon Branch of the
+    Royal Asiatic Society of Great Britain & Ireland, 33(88).
+Deraniyagala, P.E.P. 1939. Some Fossil Animals from Ceylon. Part III. The Journal of the Ceylon
+    Branch of the Royal Asiatic Society of Great Britain & Ireland, 34(92):374–385.
+Deraniyagala, P.E.P. 1944. Palaeoloxodon namdicus sinhaleyus. Spolia Zeylanica, 24:46–47.
+Deraniyagala, P.E.P. 1946. Some Mammals of the Extinct Ratnapura Fauna of Ceylon. Spolia
+    Zeylanica, 24(3):161–171.
+
+
+
+                                                                                                       35
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+         Deraniyagala, P.E.P. 1955. Some Extinct Elephants, Their Relatives and the Two Living Species.
+              Government Press, Colombo, Ceylon.
+         Deraniyagala, P.E.P. 1958. The Pleistocene of Ceylon. Ceylon National Museum, Colombo,
+              Ceylon.
+         Deraniyagala, S.U. 1988. The prehistory of Sri Lanka: An ecological perspective. Harvard
+              University, Cambridge, Massachusetts.
+         Deraniyagala, S.U. 1992. The prehistory of Sri Lanka: An ecological perspective, Part II.
+              Department of Archaeological Survey, Government of Sri Lanka, Colombo, Sri Lanka.
+         Falconer, H. and Cautley, P. T. 1846. Fauna antiqua Sivalensis, being the fossil zoology of the
+              Sewalik Hills, in the north of India. Smith, Elder and Company.
+         Faurby, S. and Svenning, J.C. 2016. Resurrection of the island rule: Human-driven extinctions
+              have obscured a basic evolutionary pattern. The American Naturalist, 187(6): 812–820.
+              https://doi.org/10.1086/686268
+         Foundry. 2025a. Mari (Version 7.5). Foundry.
+         Foundry. 2025b. Nuke (Version 16.0). Foundry.
+         Harper, F. 1945. Extinct and Vanishing Mammals of the Old World. Special Publication 12.
+              American Committee for International Wild Life Protection, New York Zoological Park, New
+              York.
+         Gray, J. E. 1821. On the natural arrangement of vertebrose animals. London Medical Repository,
+              15(1):296-310.
+         Groves, C.P. 1983. Phylogeny of the living species of rhinoceros. Journal of Zoological
+              Systematics and Evolutionary Research, 21293–313.
+         Groves, C.P., and Leslie, D.M. 2011. Rhinoceros sondaicus (Perissodactyla: Rhinocerotidae),
+              Mammalian Species, Volume 43, Issue 887, 26 September 2011: Pages 190–208,
+              https://doi.org/10.1644/887.1
+         Gu, S., Wu, Y., Lü, L., and Li, X. 2025). Interactive exhibits and scientific engagement: A case
+              study of fossils from southwestern China. Geoheritage, Volume 17, Issue 4, 134.
+              https://doi.org/10.1007/s12371-025-01193-3
+         Illiger, C. 1811. Prodromus Systematis Mammalium et Avium Additis Terminis Zoographicis
+              Utriusque Classis, Eorumque. Versione Germanica.
+         Jayatunga, P.A. (ed.) 2014. Action plan for conservation and sustainable use of
+              palaeobiodiversity in Sri Lanka. Department of Archaeological Survey, Government of Sri
+              Lanka, Colombo, Sri Lanka.
+         Jeroen. 2007. Sri Lanka Sabaragamuwa locator map.svg. Wikimedia Commons. Available at
+              https://commons.wikimedia.org/wiki/File:Sri_Lanka_Sabaragamuwa_locator_map.svg.
+              Licensed under CC BY-SA 2.5. Adapted by the authors through the addition of the
+              neighbouring Indian coastline, labelled localities, and colour change to highlight the
+              Ratnapura District.
+         Kennedy, J. 2021. Acting and its double: A practice-led investigation of the nature of acting within
+              performance capture. PhD Thesis, Auckland University of Technology, Auckland, New
+              Zealand.
+              https://openrepository.aut.ac.nz/handle/10292/13943
+         Kosslyn, S.M., Thompson, W.L., and Ganis, G. 2006. The Case for Mental Imagery. Oxford
+              University Press, Oxford, UK.
+         Lambeck, K. and Chappell, J. 2001. Sea level change through the last glacial cycle. Science,
+              292(5517): 679–686.
+              https://doi.org/10.1126/science.1059549
+         Larramendi, A. 2016. Shoulder height, body mass, and shape of proboscideans. Acta
+              Palaeontologica Polonica, 61(3):537–574.
+              https://doi.org/10.4202/app.00136.2014
+         Larramendi, A., Palombo, M.R., and Marano, F. 2017. Reconstructing the life appearance of a
+              Pleistocene giant: Size, shape sexual dimorphism and ontogeny of Palaeoloxodon antiquus
+              (Proboscidea: Elephantidae) from Neumark-Nord 1 (Germany). Bollettino della Società
+              Palaeontologica Italiana, 56(3):299–317.
+              https://doi.org/10.4435/BSPI.2017.29
+         Larramendi, A., Ferrett, M.P., Zhang, H., and Palombo, M.R. 2018. A new look at the evolution of
+              the Palaeoloxodon skull disentangling phylogenetic, sexually dimorphic, ontogenetic, and
+              allometric morphological signals [Poster presentation]. Annual Meeting of the
+
+
+
+36
+                                                                                      PALAEO-ELECTRONICA.ORG
+
+
+    Palaeontological Association 2018, Bristol, UK.
+    https://doi.org/10.13140/RG.2.2.27129.93283
+Larramendi, A., Zhang, H., Palombo, M.R., and Ferretti, M.P. 2020. The evolution of
+    Palaeoloxodon skull structure: Disentangling phylogenetic, sexually dimorphic, ontogenetic,
+    and allometric morphological signals. Quaternary Science Reviews, 229:1-22.
+    https://doi.org/10.1016/j.quascirev.2019.106090
+Laurie, W.A., Lang, E.M., and Groves, C.P. 1983. Rhinoceros unicornis. Mammalian Species,
+    211:1–6.
+    https://doi.org/10.2307/3504002
+Lescaze, Z. 2017. Paleoart: Visions of the Prehistoric Past. Taschen, Cologne, Germany.
+lexiks. 2013. Elephant goes through jungle [Stock photograph]. iStock. Licenced under the iStock
+    standard licence. Photo ID 177590574.
+Linnaeus, C. 1758. Systema naturae per regna tria naturae: Secundum classes, ordines,
+    genera, species, cum characteribus, differentiis, synonymis, locis. Holmiae, Impensis Direct.
+    Laurentii Salvii.
+Lydekker, R. 1907. The Game Animals of India, Burma, Malaya, and Tibet: Being a New and
+    Revised Edition of ‘The Great and Small Game of India, Burma, and Tibet’. Rowland Ward,
+    Limited, London.
+Mallet, C., Cornette, R., Billet, G., and Houssaye, A. 2019. Interspecific variation in the limb long
+    bones among modern rhinoceroses – extent and drivers. PeerJ, 7 (e7647).
+    https://doi.org/10.7717/peerj.7647
+Manamendra-Arachchi, K.N. 2005. Rhinoceros kagavena. Sri Lanka Archaeology.
+Manamendra-Arachchi, K.N. 2012. Dr. Paulus Edward Pieris Deraniyagala: the pioneer in
+    palaeobiodiversity. In P.E.P. Deraniyagala 39th Felicitation Volume. Department of
+    Archaeological Survey, Government of Sri Lanka, Colombo, Sri Lanka.
+Marchant, G.H. and Shoshani, J. 2007. Head muscles of Loxodonta africana and Elephas
+    maximus with comments on Mammuthus primigenius muscles. Quaternary International,
+    169-170, 186–191.
+    https://doi.org/10.1016/j.quaint.2007.02.004
+Matsumoto, H. 1924. Types of fossil elephants in Japan. Journal of the Geological Society of
+    Japan, 31(371):255–272.
+Maxon. 2023. ZBrush (Version 2023). Maxon.
+McDermott, A. 2020. Dinosaur art evolves with new discoveries in paleontology. Proceedings of
+    the National Academy of Sciences, 117(6):2728–2731.
+    https://doi.org/10.1073/pnas.2000784117
+Meyer, M., Palkopoulou, E., Baleka, S., Stiller, M., Penkman, K.E.H., Alt, K.A., Ishida, Y., Mania,
+    D., Mallick, S., Meijer, T., Meller, H., Nagel, S., Nickel, B., Ostritz, S., Rohland, N., Schauer,
+    K., Schüler, Roca, A.L., Reich, D., Shapiro, B., and Hofreiter, M. 2017. Palaeogenomes of
+    Eurasian straight-tusked elephants challenge the current view of elephant evolution. Nature,
+    546(7656):50–55.
+    https://doi.org/10.7554/eLife.25413
+Mikota, S.K. 200. Integument system. p. 253–251. In Fowler, M. and Mikota, S.K. (eds.), Biology,
+    Medicine, and Surgery of Elephants. Blackwell Publishing, Ames, Iowa, USA.
+Mischok, A. 2020. Kloetzle Blei. PolyHaven. Available at:
+    https://polyhaven.com/a/kloetzle_blei. Licensed under CC0.
+Naish, D. 2017. Palaeoart memes and the unspoken status quo in palaeontological
+    popularization. Scientific American (Tetrapod Zoology blog), February 10, 2017.
+    https://blogs.scientificamerican.com/tetrapod-zoology/palaeoart-memes-and-the-unspoken-
+    status-quo-in-palaeontological-popularization
+Nelson, D. 2016. Rapid Rig: Modular 2. Flipped Normals.
+Okun, J. and Zwerman, S. (eds.) 2020. The VES Handbook of Visual Effects: Industry Standard
+    VFX Practices and Procedures, Third Edition. Routledge, New York.
+Osborn, H.F. (1931). Palaeoloxodon antiquus italicus sp. nov., final stage in the 'Elephas
+    antiquus' phylum. American Museum novitates; no. 460:1–24.
+Owen, R. 1848. Description of teeth and portions of jaws of two extinct anthracotherioid
+    quadrupeds (Hyopotamus vectianus and Hyopotamus bovinus) discovered by the
+    Marchioness of Hastings in the Eocene deposits on the NW coast of the Isle of Wight: With
+    an attempt to develop Cuvier’s idea of the classification of pachyderms by the number of their
+    toes. Contributions to the History of British Fossil Mammals (1st Series), 7:30–71.
+
+                                                                                                          37
+KENNEDY & SUMANARATHNA: 3D ANIMATION DESIGN PROCESS FOR SRI LANKAN PALAEOART
+
+         Pemberton, S.G. 2010. History of ichnology: The Reverend William Buckland (1784–1856) and
+             the fugitive poets. Ichnos, 17(4):246–263.
+             https://doi.org/10.1080/10420940.2010.534341
+         Roberts, P., Perera, N., Wedage, O., Deraniyagala, S., Perera, J., Eregama, S., Gledhill, A.,
+             Patraglia, M.D., and Lee-Thorp, J.A. 2015. Direct evidence for human reliance on rainforest
+             resources in late Pleistocene Sri Lanka. Science, 347(6227):1246–1249.
+             https://doi.org/10.1126/science.aaa1230
+         Roberts, P., Perera, N., Wedage, O., Deraniyagala, S., Perera, J., Eregama, S., Petraglia, M. D.,
+             and Lee-Thorp, J. A. 2017. Fruits of the forest: Human stable isotope ecology and rainforest
+             adaptations in Late Pleistocene and Holocene (?36 to 3 ka) Sri Lanka. Journal of Human
+             Evolution, 106:102–118.
+             https://doi.org/10.1016/j.jhevol.2017.01.015
+         Ross, R.M., Duggan-Haas, D., and Allmon, W.D. 2012. The posture of Tyrannosaurus rex: Why
+             do student views lag behind the science? Journal of Geoscience Education, 61(1):145–160.
+             https://doi.org/10.5408/11-259.1
+         Roy, K. 2014. Finish Your Film! Tips and Tricks for Making an Animated Short in Maya.
+             Routledge, New York.
+         Sody, H.J.V. and Mohr, E. 1959. Das javanische Nashorn "Rhinoceros sondaicus": historisch und
+             biologisch. Deutscher Gesellschaft für Säugetierkunde.
+         Sumanarathna, A.R. 2018. Geology of Sri Lanka: A journey through ancient landscapes and
+             unique geological features. Journal of Eco Astronomy, 1(1), EA 2018-05.
+             https://doi.org/10.63119/JEA05.2018
+         Sumanarathna, A.R., Madurapperuma, B., Kuruppuarachchi, J., Katupotha, J., Abeywardhana,
+             S.M.K., and Pathmakumara, J. 2016. Morphological variation and speciation of Acavidae
+             family: A case study from fossil and living species of Batadombalena Cave pre-historic site in
+             Sri Lanka. Annals of Valahia University of Targoviste, Geographical Series, 16(2):59–68.
+         Sumanarathna, A.R., Katupotha, J., Abyewardhana, K., and Madurapperuma, B. 2017.
+             Extinction of quaternary mammalian habitats of megafauna in Sabaragamuwa Basin, Sri
+             Lanka. Journal of Eco Astronomy, 1(1):16–31.
+             https://doi.org/10.63119/JEA02.2017
+         Sumanarathna, A.R., Abewardhana, K., Katupotha, J., and Aouititen, M. 2021. Fossils of Sri
+             Lanka: Chapter Sabaragamuwa Basin. Journal of Wild Lanka, 9(2):173–300.
+         Talukdar, D. 2017. Beauty of Kaziranga National Park. Wikimedia Commons. Available at:
+             https://en.wikipedia.org/wiki/Kaziranga_National_Park#/media/
+             File:Beauty_of_Kaziranga_National_Park.jpg. Licensed under CC BY-SA 4.0.
+         Taquet, P. and Padian, K. 2004. The earliest known restoration of a pterosaur and the
+             philosophical origins of Cuvier’s Ossemens Fossiles. Comptes Rendus Palevol, 3:157–175.
+             https://doi.org/10.1016/j.crpv.2004.02.002
+         Turvey, S.T., Sathe, V., Crees, J.J., Jukar, A.M., Chakraborty, P., and Lister, A.M. 2021. Late
+             Quaternary megafaunal extinctions in India: How much do we know? Quaternary Science
+             Reviews, 252:1–14.
+             https://doi.org/10.1016/j.quascirev.2020.106740
+         Uchytel, R. 2012. Palaeoloxodon namadicus. Uchytel Studio. Available at:
+             https://uchytel.com/Palaeoloxodon-namadicus
+         Wikramanayake, T.W. 2004. The Life Style of Early Inhabitants of Sri Lanka. Journal of the Royal
+             Asiatic Society of Sri Lanka, 50:89–140.
+             https://www.jstor.org/stable/44626733
+         Witmer, L.M. and Thomason, J.J. 1995. The extant phylogenetic bracket and the importance of
+             reconstructing soft tissues in fossils. Functional Morphology in Vertebrate Paleontology,
+             1:19–33.
+         Witton, M.P. 2014. Patterns in palaeontology, palaeoart – fossil fantasies or recreating lost
+             reality? Palaeontology Online, 4(9):1–14.
+             https://www.palaeontologyonline.com/?p=3320
+         Witton, M.P. 2017a. Scientists, please pay more attention to palaeoart. Mark P. Witton’s Blog.
+             http://markwitton-com.blogspot.com/2017/02/scientists-please-pay-more-attention-to.html
+         Witton, M.P. 2017b. Scientists-palaeoartist collaborations – what palaeontologists can, and
+             probably should, critique when reviewing palaeoart. Mark P. Witton’s Blog.
+             http://markwitton-com.blogspot.com/2017/03/scientist-palaeoartist-collaborations.html
+
+
+
+38
+                                                                                  PALAEO-ELECTRONICA.ORG
+
+
+Witton, M.P. 2018. Palaeoartist’s Handbook: Recreating Prehistoric Animals in Art. The Crowood
+    Press, Marlborough, UK.
+Witton, M.P., Naish, D., and Conway, J. 2014. State of the palaeoart. Palaeontologia Electronica,
+    17.3.5E: 1–10.
+    https://doi.org/10.26879/145
+
+
+
+
+                                                                                                      39
+
