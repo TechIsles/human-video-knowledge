@@ -1,0 +1,459 @@
+{
+  "batch": "0146",
+  "scope": "Seventeen complete supplementary implementation source files from three already represented repositories: PySceneDetect, Whisper and librosa. No new independent source count; text archive, not runnable packages. One new original CC BY4 full-article JATS XML from EuropePMC.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 18,
+  "files": [
+    {
+      "file": "upstream/openai__whisper/whisper/timing.py",
+      "repository": "openai/whisper",
+      "upstream_path": "whisper/timing.py",
+      "upstream_commit": "86098128c0b4f24f0e2aa2994de830614b474227",
+      "source_url": "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/whisper/timing.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-24d2ebb24ff3"
+      ],
+      "sha256": "bb091c973c428697012f0f8d1b4f5f3a605cd93c5d1c129957f712a6a878a59c",
+      "size_bytes": 12697,
+      "git_blob_sha1": "2340000bc450b127911b5c53080042b60cd79520",
+      "license_evidence_urls": [
+        "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/openai__whisper/LICENSE"
+      ],
+      "conditions": "Unmodified complete implementation file from an already represented repository. License reviewed at fixed version; no closer license or conflicting file notice. Not a complete runnable project. External dependencies and media not bundled. Archived as text only, not executed."
+    },
+    {
+      "file": "upstream/openai__whisper/whisper/audio.py",
+      "repository": "openai/whisper",
+      "upstream_path": "whisper/audio.py",
+      "upstream_commit": "86098128c0b4f24f0e2aa2994de830614b474227",
+      "source_url": "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/whisper/audio.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-24d2ebb24ff3"
+      ],
+      "sha256": "36ed287b2de3eaf40207cd2a44a8d45d57ea5c212a39df07401d4fcb4d5a5a1a",
+      "size_bytes": 4945,
+      "git_blob_sha1": "826250f372c9234e13b8f06a24373d9fa7ceeca0",
+      "license_evidence_urls": [
+        "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/openai__whisper/LICENSE"
+      ],
+      "conditions": "Unmodified complete implementation file from an already represented repository. License reviewed at fixed version; no closer license or conflicting file notice. Not a complete runnable project. External dependencies and media not bundled. Archived as text only, not executed."
+    },
+    {
+      "file": "upstream/openai__whisper/whisper/transcribe.py",
+      "repository": "openai/whisper",
+      "upstream_path": "whisper/transcribe.py",
+      "upstream_commit": "86098128c0b4f24f0e2aa2994de830614b474227",
+      "source_url": "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/whisper/transcribe.py",
+      "role": "implementation_source",
+      "license": "MIT",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-24d2ebb24ff3"
+      ],
+      "sha256": "176f5ab30e961bec2a7872f5701a1f5bf3cbfc77946e50512f0f0cf00a1ceacf",
+      "size_bytes": 30375,
+      "git_blob_sha1": "56b29fbc888dd607c464ca90c427cf633b24f147",
+      "license_evidence_urls": [
+        "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/openai__whisper/LICENSE"
+      ],
+      "conditions": "Unmodified complete implementation file from an already represented repository. License reviewed at fixed version; no closer license or conflicting file notice. Not a complete runnable project. External dependencies and media not bundled. Archived as text only, not executed."
+    },
+    {
+      "file": "upstream/librosa__librosa/librosa/beat.py",
+      "repository": "librosa/librosa",
+      "upstream_path": "librosa/beat.py",
+      "upstream_commit": "4ffed287f9044654cc4a1a7393f895cd716a0a5d",
+      "source_url": "https://github.com/librosa/librosa/blob/4ffed287f9044654cc4a1a7393f895cd716a0a5d/librosa/beat.py",
+      "role": "implementation_source",
+      "license": "ISC",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c23c0d04e3a5"
+      ],
+      "sha256": "f1f972e87b187d4c02598c28975c7e724528e23011202567ac38f3edf6de088b",
+      "size_bytes": 26983,
+      "git_blob_sha1": "c4c9a7805e355b8b18d3954bffd1dbed25ff3e0a",
+      "license_evidence_urls": [
+        "https://github.com/librosa/librosa/blob/4ffed287f9044654cc4a1a7393f895cd716a0a5d/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/librosa__librosa/LICENSE.md"
+      ],
+      "conditions": "Unmodified complete implementation file from an already represented repository. License reviewed at fixed version; no closer license or conflicting file notice. Not a complete runnable project. External dependencies and media not bundled. Archived as text only, not executed."
+    },
+    {
+      "file": "upstream/librosa__librosa/librosa/onset.py",
+      "repository": "librosa/librosa",
+      "upstream_path": "librosa/onset.py",
+      "upstream_commit": "4ffed287f9044654cc4a1a7393f895cd716a0a5d",
+      "source_url": "https://github.com/librosa/librosa/blob/4ffed287f9044654cc4a1a7393f895cd716a0a5d/librosa/onset.py",
+      "role": "implementation_source",
+      "license": "ISC",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c23c0d04e3a5"
+      ],
+      "sha256": "375621605804840863e61652c1a3640e033042b0fd37bf6762376e1b6c2ed4eb",
+      "size_bytes": 21320,
+      "git_blob_sha1": "ef24b31922edff9dc5631530850aee1d05b24eb6",
+      "license_evidence_urls": [
+        "https://github.com/librosa/librosa/blob/4ffed287f9044654cc4a1a7393f895cd716a0a5d/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/librosa__librosa/LICENSE.md"
+      ],
+      "conditions": "Unmodified complete implementation file from an already represented repository. License reviewed at fixed version; no closer license or conflicting file notice. Not a complete runnable project. External dependencies and media not bundled. Archived as text only, not executed."
+    },
+    {
+      "file": "upstream/librosa__librosa/librosa/core/convert.py",
+      "repository": "librosa/librosa",
+      "upstream_path": "librosa/core/convert.py",
+      "upstream_commit": "4ffed287f9044654cc4a1a7393f895cd716a0a5d",
+      "source_url": "https://github.com/librosa/librosa/blob/4ffed287f9044654cc4a1a7393f895cd716a0a5d/librosa/core/convert.py",
+      "role": "implementation_source",
+      "license": "ISC",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-c23c0d04e3a5"
+      ],
+      "sha256": "093a8b2e17c5f9ea90b25d6e2e5cd5a7bb4c3b53dcb40bfb22567b39add9fd2f",
+      "size_bytes": 82986,
+      "git_blob_sha1": "902d6928f7322e3dbf3f98c5ca8639d63702756b",
+      "license_evidence_urls": [
+        "https://github.com/librosa/librosa/blob/4ffed287f9044654cc4a1a7393f895cd716a0a5d/LICENSE.md"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/librosa__librosa/LICENSE.md"
+      ],
+      "conditions": "Unmodified complete implementation file from an already represented repository. License reviewed at fixed version; no closer license or conflicting file notice. Not a complete runnable project. External dependencies and media not bundled. Archived as text only, not executed."
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/__init__.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/__init__.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/__init__.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/__init__.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 10409,
+      "sha256": "0da91cc446d89a7cc0759e8df4044ea7d05f72cfcc45c7dbc6269924d0514fff",
+      "git_blob_sha1": "d5b73efd716192749ffc09c118637ff22689724c"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/_cli/__init__.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/_cli/__init__.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/_cli/__init__.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/_cli/__init__.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 70081,
+      "sha256": "e1fd56f5921d04826d3c140199511055a5052862b97a915c2b9ddf0a7c5666ef",
+      "git_blob_sha1": "ae23241de31d85ab8d3bf21517a3805ba5b5c80e"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/_cli/config.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/_cli/config.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/_cli/config.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/_cli/config.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 32363,
+      "sha256": "904ecd9458f43d61bd605f4c58376759a6bb0de48d11ab0177fe6d88d4adc97c",
+      "git_blob_sha1": "0e3ef9b99b2c3ec567c920f4c8d3db9249c4f1f3"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/_cli/context.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/_cli/context.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/_cli/context.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/_cli/context.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 25953,
+      "sha256": "eb7fa28cb0d20322dd9b5989d9b3445780f98a76c81fedf85c62f024cd5a91bd",
+      "git_blob_sha1": "721a941fe8e4d12fcb9570d42262dc7d9c04af20"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/_cli/controller.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/_cli/controller.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/_cli/controller.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/_cli/controller.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 9205,
+      "sha256": "dad3b6979eb9f95e3a448a471ada25a6c20d590ed6245f7b0f25ed76456c1a2a",
+      "git_blob_sha1": "bf8b6f63e6c8fde7119cab6448d78351a4f31610"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/backends/opencv.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/backends/opencv.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/backends/opencv.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/backends/opencv.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 25398,
+      "sha256": "bafa4f6fd9bf73119fdebe3bda3bba5d23c23075944ce8d574f9eac40b3aba79",
+      "git_blob_sha1": "25b36044e03ea285706b3463abbfbe13f08732a1"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/common.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/common.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/common.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/common.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 38431,
+      "sha256": "281e668ee09e7086b0fe51962c07424560ec409e66cde0075fdb021d60614698",
+      "git_blob_sha1": "f3846693833b92b26d25e7ddd79ecbf50b812d7b"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/detector.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/detector.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/detector.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/detector.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 9679,
+      "sha256": "d5ec1d8d7d275dd020bc30e425c225e775a76381de0bbe2bb9ee469907800b51",
+      "git_blob_sha1": "f3c16d061c3ea97383222ece2a055c2f22f5c367"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/detectors/adaptive_detector.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/detectors/adaptive_detector.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/detectors/adaptive_detector.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/detectors/adaptive_detector.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 6703,
+      "sha256": "f09bc5cf03922752c2dbbd9dfca87b629324a770ef5dad877c7f9c1055ce2ab1",
+      "git_blob_sha1": "8f3f580055da8feafad404d8dc50dc0a84d79218"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/detectors/content_detector.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/detectors/content_detector.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/detectors/content_detector.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/detectors/content_detector.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 11059,
+      "sha256": "5c64a51c54525b9aa7ac09136f7d2ec01db07328096d89c9141c9a554ebd019b",
+      "git_blob_sha1": "b666f8c9f6d1fb47a62c6930ad136e7fae723e2e"
+    },
+    {
+      "file": "upstream/Breakthrough__PySceneDetect/scenedetect/scene_manager.py",
+      "repository": "Breakthrough/PySceneDetect",
+      "upstream_path": "scenedetect/scene_manager.py",
+      "upstream_commit": "fefd967e94cee63afbd7b1b6b3bfcc86be80e249",
+      "source_url": "https://github.com/Breakthrough/PySceneDetect/blob/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/scenedetect/scene_manager.py",
+      "title": "Breakthrough/PySceneDetect / scenedetect/scene_manager.py",
+      "role": "implementation_source",
+      "license": "BSD-3-Clause",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "supplementary_complete_source_file",
+      "related_public_source_ids": [
+        "IFH-7125bfc4d92e"
+      ],
+      "conditions": "Complete unmodified official source file from previously reviewed fixed commit. Preserve original file header and attached root license. Partial repository selection, not complete runnable package. Linked/imported libraries, assets and binary dependencies are not included or relicensed. No source code executed. Recursive tree not truncated; no more-specific ancestor license/notice; file header confirms governing license.",
+      "license_evidence_urls": [
+        "https://raw.githubusercontent.com/Breakthrough/PySceneDetect/fefd967e94cee63afbd7b1b6b3bfcc86be80e249/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "license-only/Breakthrough__PySceneDetect/LICENSE"
+      ],
+      "size_bytes": 32850,
+      "sha256": "183d7690c58f63dfcabc45fad034f634787b9ad565a11c73d27d55e079239e8c",
+      "git_blob_sha1": "05ba8dc1fd458646d27775b1d023bf3385f97c82"
+    },
+    {
+      "file": "upstream/articles/which-emphasis-technique-to-use.xml",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8841630/fullTextXML",
+      "canonical_url": "https://doi.org/10.1177/14738716211045354",
+      "title": "Which emphasis technique to use? Perception of emphasis techniques with varying distractors, backgrounds, and visualization types",
+      "authors": [
+        "Aristides Mairena",
+        "Carl Gutwin",
+        "Andy Cockburn"
+      ],
+      "registry_source_id": "IFH-dd1e348e6826",
+      "related_public_source_ids": [
+        "IFH-dd1e348e6826"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "© The Author(s) 2021This article is distributed under the terms of the Creative Commons Attribution 4.0 License (https://creativecommons.org/licenses/by/4.0/) which permits any use, reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_file",
+      "size_bytes": 296787,
+      "sha256": "2afbcc161816ddb8602e830742c226b5456626d273a9ff34ae4a481ba53aa03d",
+      "conditions": "Complete unmodified EuropePMC JATS XML full text including original author/copyright/license notices, tables, captions and bibliography. Linked figure bitmaps and supplemental assets are not downloaded or redistributed. No embedded binary images. DOI, PMC ID and title absent from all existing SOURCES.json metadata on 2026-11-18.",
+      "repository": "web/europepmc.org",
+      "upstream_path": "PMC8841630/fullTextXML",
+      "upstream_commit": "retrieved-20261118",
+      "license_evidence_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8841630/fullTextXML",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "git_blob_sha1": "98c82414e14a73c8e870900ae8404863bd6d28f8"
+    }
+  ]
+}
