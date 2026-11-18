@@ -1,0 +1,39 @@
+{
+  "batch": "0157",
+  "scope": "One full original-directory interview text cleared by current original-publisher CC BY4 site license; no film or other media assets included.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 1,
+  "files": [
+    {
+      "file": "upstream/articles/oneday-september-kevin-macdonald-interview.fulltext.txt",
+      "title": "One Day in September - Gripped by the Story - Interview with Kevin Macdonald",
+      "authors": [
+        "Cynthia Fuchs"
+      ],
+      "repository": "web/nitrateonline.com",
+      "upstream_path": "2000/foneday.html",
+      "upstream_commit": "retrieved-20261118",
+      "source_url": "https://www.nitrateonline.com/2000/foneday.html",
+      "canonical_url": "https://nitrateonline.com/2000/foneday",
+      "registry_source_id": "IFH-c0bb9c86bc60",
+      "related_public_source_ids": [
+        "IFH-c0bb9c86bc60"
+      ],
+      "role": "canonical_document",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence_urls": [
+        "https://www.nitrateonline.com/2000/foneday.html",
+        "https://www.nitrateonline.com/aboutus.html"
+      ],
+      "license_evidence": "Current original-publisher page and About footer explicitly mark CC BY4 through rel=license. About identifies original publication and interviewer as contributor. Site-level publisher permission, no individual author release accessed; no conflicting article restriction found.",
+      "original_bytes_unchanged": false,
+      "coverage_kind": "canonical_fulltext_extraction",
+      "upstream_html_sha256": "94a91a53fba70a2c0efdd5e4b6bc0b2916be167378825c1f25585ebfca3e84e5",
+      "conditions": "Full article/interview text only; whitespace normalized, external imagery/media/scripts/navigation excluded. Retain author/publisher attribution and current publisher license. Not permission for the discussed film, music or footage.",
+      "size_bytes": 16670,
+      "sha256": "c48dd2875063d89dbeaed371d3e4fcecc249026e7e662b99b437821b1d02f232",
+      "git_blob_sha1": "d9f4023dead3a0be047d1a21fbd2b590849b829a"
+    }
+  ]
+}
