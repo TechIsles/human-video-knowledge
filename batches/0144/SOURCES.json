@@ -1,0 +1,391 @@
+{
+  "batch": "0144",
+  "scope": "Two existing original-inventory repository sources; 12 complete previously-read text files plus 3 license/provenance notices. Not full repositories.",
+  "new_canonical_source_objects": 2,
+  "new_original_payload_paths": 15,
+  "files": [
+    {
+      "file": "upstream/adunext__adu-motion-video/LICENSE",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE",
+      "role": "license_notice",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 1067,
+      "sha256": "0f1d5e25e1035cf4fb24809d66dff30642a2d4c5a33837ba7e0e8af4ff66fdfc",
+      "git_blob_sha1": "11f0e8d0b8d8701c08bff1a6fc235c477ccddc47",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/THIRD_PARTY.md",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "THIRD_PARTY.md",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/THIRD_PARTY.md",
+      "role": "license_notice",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 6318,
+      "sha256": "5df3be0612bd22058f639d718d83ad669175a7c4f5aa5f80818a6500ff8b8330",
+      "git_blob_sha1": "3c4ec9c24a81a31d68104049a3f63ae36cdc95fb",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/README.md",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "README.md",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/README.md",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 12559,
+      "sha256": "f2d291cdfe2156d5c80889a9596185a07120f61f9a9e4da95d1ddb666e720b93",
+      "git_blob_sha1": "faca772cbc0a199f0ee2d08d01ec6b263df7f2c2",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/SKILL.md",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "SKILL.md",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/SKILL.md",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 19796,
+      "sha256": "6554f247f5503b3fdd0f3afb64760e16c85437eefd0aeaf99399309a39a4779c",
+      "git_blob_sha1": "03cf532debf8a5695f567c9ee8ed20604e094b4b",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/references/api.md",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "references/api.md",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/references/api.md",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 3383,
+      "sha256": "6305eaf308ad1e7fd8e41dc6a88cf1595f569e01cc3ce2219eac93b34c5e65e9",
+      "git_blob_sha1": "5ecfac7253c6a067d964fe2f5e2165b6af095763",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/references/adaptive-composition.md",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "references/adaptive-composition.md",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/references/adaptive-composition.md",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 16953,
+      "sha256": "ccff6c15b1b0165c05ec6de39b23e998fbdc15a35db83dcfd107da444f7f8984",
+      "git_blob_sha1": "375c95e2f93f66d56d22bf746074d4c22d8d54f0",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/references/automatic-selection.md",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "references/automatic-selection.md",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/references/automatic-selection.md",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 7150,
+      "sha256": "da41551303a624a053c6539ff57206f690d85f340c4bc5fc8f44e561445e06d0",
+      "git_blob_sha1": "19daee38ecbb48beae647c198b830a3b44e6f5b7",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/adunext__adu-motion-video/examples/adaptation/01-method-introduction.brief.json",
+      "repository": "adunext/adu-motion-video",
+      "upstream_path": "examples/adaptation/01-method-introduction.brief.json",
+      "upstream_commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "source_url": "https://raw.githubusercontent.com/adunext/adu-motion-video/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/examples/adaptation/01-method-introduction.brief.json",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-6318e17ebe65"
+      ],
+      "registry_source_id": "IFH-6318e17ebe65",
+      "size_bytes": 3587,
+      "sha256": "95048a86100de055f47f3b7b7087c801129a3fdef2fd6e84ee1908d05ac1a4c7",
+      "git_blob_sha1": "6f71cd1ed7819a889691dab417a3aa2aa6062a3e",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/adunext__adu-motion-video/LICENSE",
+        "upstream/adunext__adu-motion-video/THIRD_PARTY.md"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/LICENSE",
+      "repository": "midrender/revideo",
+      "upstream_path": "LICENSE",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE",
+      "role": "license_notice",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 1070,
+      "sha256": "b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e",
+      "git_blob_sha1": "b30f04e173f68773714b7d9e2652caecbeec53f9",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/README.md",
+      "repository": "midrender/revideo",
+      "upstream_path": "README.md",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/README.md",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 3685,
+      "sha256": "583e1dcb418fd2cd5d13b5d90dcde1be52f3ba86e32220d07bfeac8852b0a0b8",
+      "git_blob_sha1": "3f5d9cee1158dbd50e66f71f974a875428166943",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/docs/src/content/guide/performance/decoders.mdx",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/docs/src/content/guide/performance/decoders.mdx",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/docs/src/content/guide/performance/decoders.mdx",
+      "role": "canonical_document",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 2439,
+      "sha256": "582715290da7f66f0d1335bb4e4f0821d26ecb5aa3c90fe2c6ad9ed3663ffb9f",
+      "git_blob_sha1": "9c6b76766ce257d42f00580e11cf5f902bdbf28a",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/2d/src/lib/components/Video.ts",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/2d/src/lib/components/Video.ts",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/2d/src/lib/components/Video.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 10256,
+      "sha256": "63722d8a436d63e21452495f5bc8e84d9a2c075bf11af01a90404698509472e0",
+      "git_blob_sha1": "7a10e4295ef6ae0f7d2686e28a0d5831ddc0400a",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/2d/src/lib/components/Media.ts",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/2d/src/lib/components/Media.ts",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/2d/src/lib/components/Media.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 9102,
+      "sha256": "4d40b3e12fabebb9257e37cbd2e337ff29340286b9e7af0d8729f17242cc4c4b",
+      "git_blob_sha1": "c68f34378f5476b2fc35980f26c219620189e81e",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/2d/src/lib/utils/video/mp4-parser-manager.ts",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/2d/src/lib/utils/video/mp4-parser-manager.ts",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/2d/src/lib/utils/video/mp4-parser-manager.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 2099,
+      "sha256": "bd6f30f6c51cd9d92183d7408cf408462f7566ca3eddde41394b2e76e597abc0",
+      "git_blob_sha1": "8ff424a80c6ab5c23966350afcebac55fbcc4ee8",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    },
+    {
+      "file": "upstream/midrender__revideo/packages/2d/src/lib/utils/video/ffmpeg-client.ts",
+      "repository": "midrender/revideo",
+      "upstream_path": "packages/2d/src/lib/utils/video/ffmpeg-client.ts",
+      "upstream_commit": "b5de67a009a55aa2768a1e178b0446b2479a0b4e",
+      "source_url": "https://raw.githubusercontent.com/midrender/revideo/b5de67a009a55aa2768a1e178b0446b2479a0b4e/packages/2d/src/lib/utils/video/ffmpeg-client.ts",
+      "role": "implementation_source",
+      "license": "MIT",
+      "related_public_source_ids": [
+        "IFH-2a76b6d7b5d6"
+      ],
+      "registry_source_id": "IFH-2a76b6d7b5d6",
+      "size_bytes": 1126,
+      "sha256": "5d41ddae6923700004dbd51e51fada77a865a1df5da9b871af63d4849747c146",
+      "git_blob_sha1": "02f10408327ae8b3986c5127b7a5565fca71ee92",
+      "original_bytes_unchanged": true,
+      "coverage_kind": "canonical_repository_file",
+      "conditions": "Complete unmodified selected text file, not a complete repository snapshot. Root MIT copyright and permission notice retained. Linked images, video, fonts, dependencies and external assets are not downloaded or redistributed. Static archival copy; no code or instructions executed.",
+      "license_evidence_urls": [
+        "https://github.com/midrender/revideo/blob/b5de67a009a55aa2768a1e178b0446b2479a0b4e/LICENSE"
+      ],
+      "retained_license_and_notice_files": [
+        "upstream/midrender__revideo/LICENSE"
+      ]
+    }
+  ]
+}
