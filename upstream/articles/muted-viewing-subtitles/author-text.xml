@@ -1,0 +1,1718 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Adapted text-only extraction from the PLOS publisher XML. Retains author abstract, narrative, numeric aggregate tables, captions and references. Graphics, source audiovisual material, supplements, interview quotations and selected other quotations excluded. Not original publisher XML or full illustrated article. --><front><article-meta><article-id pub-id-type="doi">10.1371/journal.pone.0306251</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-23-41429</article-id>
+<title-group>
+<article-title>Watching subtitled videos with the sound off affects viewers’ comprehension, cognitive load, immersion, enjoyment, and gaze patterns: A mixed-methods eye-tracking study</article-title>
+<alt-title alt-title-type="running-head">Watching subtitled videos with the sound off</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-0048-993X</contrib-id>
+<name name-style="western">
+<surname>Szarkowska</surname>
+<given-names>Agnieszka</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+<role content-type="http://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+<role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+<role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role>
+<role content-type="http://credit.niso.org/contributor-roles/software/">Software</role>
+<role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Ragni</surname>
+<given-names>Valentina</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+<role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role content-type="http://credit.niso.org/contributor-roles/software/">Software</role>
+<role content-type="http://credit.niso.org/contributor-roles/validation/">Validation</role>
+<role content-type="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Szkriba</surname>
+<given-names>Sonia</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Black</surname>
+<given-names>Sharon</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+<role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Orrego-Carmona</surname>
+<given-names>David</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Kruger</surname>
+<given-names>Jan-Louis</given-names>
+</name>
+<role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+<role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff005"><sup>5</sup></xref>
+<xref ref-type="aff" rid="aff006"><sup>6</sup></xref>
+</contrib>
+</contrib-group>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Peña-Fernández</surname>
+<given-names>Antonio</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<pub-date pub-type="epub">
+<day>7</day>
+<month>10</month>
+<year>2024</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2024</year>
+</pub-date>
+<volume>19</volume>
+<issue>10</issue>
+<elocation-id>e0306251</elocation-id>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Szarkowska et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<abstract>
+<p>Every day, millions of viewers worldwide engage with subtitled content, and an increasing number choose to watch without sound. In this mixed-methods study, we examine the impact of sound presence or absence on the viewing experience of both first-language (L1) and second-language (L2) viewers when they watch subtitled videos. We explore this novel phenomenon through comprehension and recall post-tests, self-reported cognitive load, immersion, and enjoyment measures, as well as gaze pattern analysis using eye tracking. We also investigate viewers’ motivations for opting for audiovisual content without sound and explore how the absence of sound impacts their viewing experience, using in-depth, semi-structured interviews. Our goal is to ascertain whether these effects are consistent among L2 and L1 speakers from different language varieties. To achieve this, we tested L1-British English, L1-Australian English and L2-English (L1-Polish) language speakers (n = 168) while they watched English-language audiovisual material with English subtitles with and without sound. The findings show that when watching videos without sound, viewers experienced increased cognitive load, along with reduced comprehension, immersion and overall enjoyment. Examination of participants’ gaze revealed that the absence of sound significantly affected the viewing experience, increasing the need for subtitles and thus increasing the viewers’ propensity to process them more thoroughly. The absence of sound emerged as a global constraint that made reading more effortful. Triangulating data from multiple sources made it possible to tap into some of the metacognitive strategies employed by viewers to maintain comprehension in the absence of sound. We discuss the implications within the context of the growing trend of watching subtitled videos without sound, emphasising its potential impact on cognitive processes and the viewing experience.</p>
+</abstract>
+</article-meta></front><body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Millions of people worldwide now regularly watch video content with subtitles. The growing demand for subtitles can be attributed at least in part to the widespread availability of streaming platforms such as Netflix, Hulu, Amazon Prime, or Disney+, the large volume of video content on social media platforms, as well as the implementation of accessibility laws like the Americans with Disabilities Act and the EU Audiovisual Media Services Directive. Subtitles offer benefits not only to individuals who are deaf or hard of hearing, by enabling them to access the audio content, but also to wider audiences, for example by helping them understand foreign content or unfamiliar accents [<xref ref-type="bibr" rid="pone.0306251.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0306251.ref002">2</xref>]. Recent research indicates that it is younger generations, particularly Generation Z and millennials, who increasingly choose to enable subtitles, even in countries like the USA or Poland, where subtitling has not been prevalent traditionally [<xref ref-type="bibr" rid="pone.0306251.ref003">3</xref>–<xref ref-type="bibr" rid="pone.0306251.ref007">7</xref>]. Reasons cited for watching content with subtitles include unclear audio, fast speech rates, background music, challenging accents, the desire to focus, language learning, and not wanting to disturb family members or roommates [<xref ref-type="bibr" rid="pone.0306251.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0306251.ref010">10</xref>].</p>
+<p>The rise in subtitled content corresponds with changes in viewer behaviour. One notable trend is the practice of watching videos with muted sound on mobile devices, particularly short-form content on social media, in various settings like public places and during travel. A study conducted by Verizon Media and Publicis Media found that up to 69% of consumers prefer watching videos without sound in public spaces, with 25% choosing this approach in private settings [<xref ref-type="bibr" rid="pone.0306251.ref011">11</xref>]. In such cases, viewers largely depend on subtitles for content comprehension.</p>
+<p>From a film studies perspective, sound serves multiple important functions in a film: it ensures narrative continuity and coherence, creates mood, and enhances authenticity [<xref ref-type="bibr" rid="pone.0306251.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0306251.ref013">13</xref>]. The presence of sound significantly shapes the making-meaning process and content engagement [<xref ref-type="bibr" rid="pone.0306251.ref014">14</xref>]. When viewers choose to switch off the sound, they are deprived of three vital elements: dialogues (including prosody), sound effects, and music. Despite the critical role sound plays in enhancing the cinematic experience, as reflected in prestigious awards such as the Academy Award for Best Sound and Best Original Score, and substantial investments in advanced film sound technologies, it is surprising that many viewers opt to watch audiovisual content without sound.</p>
+<p>In this study, we examine this new trend of watching audiovisual content with no sound and investigate its impact on viewers’ comprehension, recall, cognitive load, immersion, and gaze patterns. By adopting a mixed methods approach [<xref ref-type="bibr" rid="pone.0306251.ref015">15</xref>] and analysing data from self-reports, eye movements, comprehension and recall post-tests, and semi-structured interviews, we seek to gain insights into why people choose to watch audiovisual content without sound and how this decision impacts their overall viewing experience.</p>
+<sec id="sec002">
+<title>Theoretical framework</title>
+<p>Watching subtitled video requires the coordination of complex mental processes that have not been explored extensively in the literature. There are some theoretical models and frameworks to explain the integration of text, image and sound, such as the integrated model of text and picture comprehension [<xref ref-type="bibr" rid="pone.0306251.ref016">16</xref>]; the multimodal integrated-language framework [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref018">18</xref>]; and the cognitive theory of multimedia learning [<xref ref-type="bibr" rid="pone.0306251.ref019">19</xref>, <xref ref-type="bibr" rid="pone.0306251.ref020">20</xref>]. The framework by Liao at al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>] investigates this integration in the context of dynamic texts like video with subtitles and a soundtrack. Both the model by Schnotz [<xref ref-type="bibr" rid="pone.0306251.ref016">16</xref>] and Mayer’s theory [<xref ref-type="bibr" rid="pone.0306251.ref020">20</xref>] understand the cognitive architecture as based on input from auditory and visual sensory modalities and a limited working memory capacity. They highlight how split attention in contexts like watching subtitled video without sound could impede comprehension. In Schnotz’s model [<xref ref-type="bibr" rid="pone.0306251.ref016">16</xref>], split attention would result in both descriptive processing (of words) and depictive processing (of sounds and images) being dependent on visual perception, thereby increasing cognitive load. In Mayer’s theory [<xref ref-type="bibr" rid="pone.0306251.ref020">20</xref>], the multimedia principle holds that a combination of words and pictures are better for learning than words alone, whereas the modality principle assumes that presenting information in two modalities is better for comprehension than presenting information only in one modality. This theory, like Schnotz’s model, would imply that subtitled video without sound would therefore increase cognitive load.</p>
+<p>Neither Schnotz’s model nor Mayer’s theory, however, specify how the processing of one source of information might impact on another (e.g., video and subtitles). The multimodal integrated-language framework of Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref018">18</xref>] builds on models of eye movement control during reading to predict how the reading of subtitles might be impacted by the concurrent presence of visual and auditory information. The framework assumes that reading is a serial process (i.e., sentence processing is contingent on the strictly sequential identification of words) and that objects in a scene likewise have to be fixated sequentially for identification due to the limitations of visual perception. However, the auditory processing of speech and sounds and the tracking of previously identified objects can occur in parallel with these serial processes. In the absence of sound, the benefit of parallel processing of sound disappears, forcing the viewer to rely on the sequential processing of image and subtitles.</p>
+<p>This article will attempt to confirm some of the findings of Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>], by exploring whether greater reliance on subtitles in the absence of sound will result in more time on the subtitles, longer fixations, and shorter saccades (or lower word skipping), reflecting the prioritization of the subtitles when the benefit of parallel processing of sound is absent.</p>
+</sec>
+<sec id="sec003">
+<title>Cognitive load</title>
+<p>The theoretical frameworks above are based on the fact that the components of the human cognitive architecture have limited capacity. According to cognitive load theory [<xref ref-type="bibr" rid="pone.0306251.ref021">21</xref>], limited working memory capacity might prevent novel information from entering long-term memory, which is why new information should be introduced in a way that does not create needless working memory load. In line with the theories discussed above, removing the sound from subtitled film would force viewers to process all information through the visual channel sequentially, without the benefit of concurrent processing of sound, thereby increasing cognitive load. A previous study by Łuczak [<xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>] in the context of subtitled video showed that when watching subtitled videos without sound, viewers reported higher cognitive load compared to the condition with the sound. Interestingly, despite higher cognitive load and contrary to what one would expect, viewers’ comprehension was not affected by taking away the sound. A similar result was reported by Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>], who found no significant differences in comprehension between subtitled videos with and without audio. Overall, this could mean that although viewers may need to expend more cognitive resources when watching videos without sound, this extra effort compensates for any potential loss in comprehension.</p>
+</sec>
+<sec id="sec004">
+<title>Immersion and enjoyment</title>
+<p>Filmmakers dedicate considerable effort to draw viewers in the narrative world and evoke their suspension of disbelief [<xref ref-type="bibr" rid="pone.0306251.ref023">23</xref>]. The suspension of disbelief involves viewers seemingly disregarding [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref024">24</xref>]. Immersion, often described as the sensation of [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref025">25</xref>] and [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref026">26</xref>], is a multi-faceted concept originating from studies in virtual reality, encompassing various dimensions and experiences [<xref ref-type="bibr" rid="pone.0306251.ref027">27</xref>]. It can be approached from different angles and has been referred to using various terms in literature, including transportation, engagement, flow, presence, involvement, or absorption [<xref ref-type="bibr" rid="pone.0306251.ref027">27</xref>–<xref ref-type="bibr" rid="pone.0306251.ref030">30</xref>].</p>
+<p>Previous research has revealed several factors contributing to higher immersion [<xref ref-type="bibr" rid="pone.0306251.ref031">31</xref>]. It is generally believed that [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref032">32</xref>]. Therefore–and importantly for this study–the presence of both the visual and auditory layers could trigger higher immersion than media without sound, as sound effects, prosody and music play a significant role in enhancing immersion and the overall film-watching experience by evoking emotions, and by supporting storytelling [<xref ref-type="bibr" rid="pone.0306251.ref028">28</xref>] and language processing. Yet, we still know very little about how the complete removal of the soundtrack affects immersion, which is a question we address in this study.</p>
+<p>Viewers also seek to derive enjoyment from watching audiovisual content. Enjoyment is often defined as [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref033">33</xref>]. Viewers typically experience the feeling of enjoyment as a result of [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref034">34</xref>]. If sound–including the cadence, tone, pitch, prosody and other paralinguistic parameters of a character’s speech–is taken away, viewers’ emotional reactions towards characters may be negatively affected, resulting in lower enjoyment of the audiovisual media entertainment content overall [<xref ref-type="bibr" rid="pone.0306251.ref034">34</xref>].</p>
+</sec>
+<sec id="sec005">
+<title>Evidence from eye-tracking research</title>
+<p>Previous eye-tracking research on subtitle reading has consistently demonstrated that subtitles are great gaze attractors [<xref ref-type="bibr" rid="pone.0306251.ref035">35</xref>, <xref ref-type="bibr" rid="pone.0306251.ref036">36</xref>]. Viewers tend to look at subtitles when they are displayed and this phenomenon holds true regardless of viewers’ prior experience with subtitling or the type of subtitles (interlingual, intralingual, or bilingual). Additionally, access to the film soundtrack–understood as either the presence/absence of sound or familiarity with the language of the soundtrack–is known to influence how viewers engage with subtitled content [<xref ref-type="bibr" rid="pone.0306251.ref036">36</xref>–<xref ref-type="bibr" rid="pone.0306251.ref040">40</xref>].</p>
+<p>Where sound is absent, it is reasonable to expect that viewers will rely more on the subtitles, as they constitute the main source of verbal information. However, eye-tracking studies to date provide little and conflicting evidence regarding the amount of time viewers spend reading subtitles with and without sound [<xref ref-type="bibr" rid="pone.0306251.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0306251.ref038">38</xref>, <xref ref-type="bibr" rid="pone.0306251.ref041">41</xref>]. The implication of spending more time in the subtitle area is that it comes at the cost of having less time to follow the unfolding on-screen action, which in turn could have a negative impact on understanding the plot, immersing in the story world, picking up on subtle visual cues, and enjoying the filmic product. Unfortunately, previous relevant research has not tested comprehension, immersion, enjoyment, and cognitive load together, so it is difficult to establish whether this increased time spent reading the subtitles without sound has a detrimental effect on the viewing experience. In this study, we therefore combine eye-tracking with measures of comprehension, immersion, enjoyment and cognitive load precisely to obtain a fuller picture of whether and how the absence of sound affects viewers’ overall engagement and the viewing experience as a whole.</p>
+<p>Previous eye-tracking research on subtitle reading has found that when viewers watch subtitled videos without sound, they tend to display shorter progressive saccades, less subtitle skipping, and higher fixation counts [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>], suggesting that removing the soundtrack has a discernible effect on reading patterns. Interestingly, however, the absence of sound does not seem to affect mean fixation duration (MFD), usually an indicator of deeper or more demanding cognitive processing [<xref ref-type="bibr" rid="pone.0306251.ref042">42</xref>]. It is therefore possible that, although most research to date shows that sound alters the reading experience, it may not impinge on it negatively in terms of cognitive effort (as evidenced by MFD), still allowing viewers to extract the information they need to fully comprehend the content, follow the storyline, and enjoy the experience. Although Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>] and Łuczak [<xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>] did not assess enjoyment or immersion, they did assess comprehension, and indeed did not find significant differences between the sound-on and sound-off conditions. In the present study we examine eye movement measures together with post-tests, self-reports and interviews to obtain a more nuanced understanding of viewers’ perception, comprehension and reading patterns of both L1 and L2 subtitles. Below, we present a more detailed review of relevant subtitle research involving L2 populations.</p>
+</sec>
+<sec id="sec006">
+<title>The impact of sound on L1 and L2 viewers</title>
+<p>To date, research investigating multimodal processing where multiple sources of information are available (sound, images, subtitles) has focussed on testing whether subtitles are useful, particularly for comprehension and vocabulary learning (for a meta-analysis, see [<xref ref-type="bibr" rid="pone.0306251.ref043">43</xref>]; for a recent review, see [<xref ref-type="bibr" rid="pone.0306251.ref044">44</xref>]). Research has amply confirmed that adding same-language (i.e., intralingual) subtitles to foreign-language videos enhances comprehension compared to listening-whilst-watching without subtitle support [<xref ref-type="bibr" rid="pone.0306251.ref045">45</xref>–<xref ref-type="bibr" rid="pone.0306251.ref047">47</xref>]. In comparison, other aspects of the multimodal viewing experience–such as the effects of adding/removing <italic>sound</italic> rather than the L2 subtitles–have been seldom tested directly.</p>
+<p>As a transient mode of verbal delivery, auditory input is generally more difficult to process than written input, especially for L2 learners [<xref ref-type="bibr" rid="pone.0306251.ref048">48</xref>], because it presents additional challenges such as accents, intonation, mode of delivery (e.g., mumbling or stuttering), multiple characters speaking at once, as well as volume changes (e.g., shouting vs. whispering), all of which can make it harder for L2 viewers to extract information from the auditory stream compared to L1 viewers [<xref ref-type="bibr" rid="pone.0306251.ref049">49</xref>]. For this reason, L2 subtitles are heralded as listening aids: by mapping aural word forms to their written counterparts [<xref ref-type="bibr" rid="pone.0306251.ref050">50</xref>, <xref ref-type="bibr" rid="pone.0306251.ref051">51</xref>], they help L2 learners visualise what they hear, clarify ambiguous aural input, and decode the L2 speech stream into meaningful chunks [<xref ref-type="bibr" rid="pone.0306251.ref047">47</xref>, <xref ref-type="bibr" rid="pone.0306251.ref052">52</xref>, <xref ref-type="bibr" rid="pone.0306251.ref053">53</xref>], thus assisting L2 word identification as well as enhancing speech learning and language understanding [<xref ref-type="bibr" rid="pone.0306251.ref054">54</xref>]. However, it is also possible that, as long as L2 subtitles are present, L2 viewers will heavily rely on these and make less use of the audio, in effect using the subtitles as crutches [<xref ref-type="bibr" rid="pone.0306251.ref055">55</xref>, <xref ref-type="bibr" rid="pone.0306251.ref056">56</xref>]. If this is the case, one would expect similar viewing patterns regardless of whether sound is present or not. If, on the other hand, L2 viewers actively use aural L2 input to support lexical processing and understanding when this channel is available, then one might expect a decreased reliance on the L2 subtitles–evidenced quantitatively in their reading patterns, for example through shorter subtitle processing times–when sound is present.</p>
+<p>In the handful of eye-tracking studies that explicitly include a condition without sound [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>, <xref ref-type="bibr" rid="pone.0306251.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0306251.ref038">38</xref>, <xref ref-type="bibr" rid="pone.0306251.ref041">41</xref>], the majority did not examine L2 subtitle reading. Ross and Kowler [<xref ref-type="bibr" rid="pone.0306251.ref041">41</xref>] and d’Ydewalle et al. [<xref ref-type="bibr" rid="pone.0306251.ref036">36</xref>] did not consider L2 learners at all (only L1 speakers exposed to video with L1 audio and L1 subtitles). Łuczak [<xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>] only considered subtitle reading in L1-Polish, and d’Ydewalle et al. [<xref ref-type="bibr" rid="pone.0306251.ref038">38</xref>] also only examined L1 subtitle reading (L2-German audio or no audio with L1-Dutch subtitles). However, reading in the L1 could have overriding effects [<xref ref-type="bibr" rid="pone.0306251.ref054">54</xref>] and because L2 processing is usually more difficult, less automatic, and slower than L1 processing [<xref ref-type="bibr" rid="pone.0306251.ref057">57</xref>], differences could be more visible when reading in the L2. To date, only Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>] examined L2-subtitle reading with and without sound in some of their study conditions. In terms of eye movements in the subtitle area when watching video with L2-English subtitles, their non-native L1-Chinese viewers displayed significantly more fixations, longer saccades and less skipping without sound compared L1-Chinese audio. In the case of L2-English audio, although the same pattern was observed as in the case of the L1-Chinese audio, the difference between L2-English audio and no audio was only significant in the case of fixation count, making it difficult to draw definitive conclusions.</p>
+<p>In the present study, we also examine L1-English processing in speakers of two distinct language varieties, Australian and British English, who are exposed to American English audio. Research has shown that, when different varieties of the same language are involved, accent can impede processing of information even for L1 speakers. For example, word processing has been shown to be impeded in the presence of regional or foreign accents as evidenced by delayed word identification [<xref ref-type="bibr" rid="pone.0306251.ref058">58</xref>]. This finding was robust for participants from the South-West of England when listening to either a French or Irish accent compared to a familiar Plymouth accent, and did not change with habituation. Similarly, L1 speakers of Canadian English were shown by Arnhold et al. [<xref ref-type="bibr" rid="pone.0306251.ref059">59</xref>] to be unable to make effective use of prosodic cues to disambiguate between two possible referents in British English instructions. In other words, word identification was again shown to be impeded by a regional accent (British English for Canadian English participants in this case). What this means for the current study is that speakers of Australian English and British English might also experience delayed auditory word identification resulting in more reliance on subtitles in the presence of American English audio, similar to the word identification difficulties experienced by the L2 viewers. Therefore, differences may be observed between the two L1 groups as well as between these two groups and the L2 group.</p>
+<p>In summary, more research is needed to establish how the absence of sound affects L1 and L2 processing when watching subtitled videos, and whether L2 and L1 viewers use auditory input to different extents to support their understanding of the storyline. To address this gap, we use a variety of eye-tracking measures (see ‘Eye movements’ section) to explicitly compare the viewing patterns of L1 and L2 viewers, to assess whether and how the removal of sound affects L2-subtitle reading in comparison to L1-subtitle reading, as well as to determine whether there are differences between L1-subtitle reading by speakers of different language varieties (Australian and British English).</p>
+</sec>
+<sec id="sec007">
+<title>The current study</title>
+<p>Given evolving viewing habits, notably among younger generations who increasingly prefer streaming over traditional broadcast television [<xref ref-type="bibr" rid="pone.0306251.ref060">60</xref>], along with the proliferation of online services and social media platforms, where sound is often muted [<xref ref-type="bibr" rid="pone.0306251.ref011">11</xref>], our study seeks to explore how the absence of sound affects the overall viewing experience.</p>
+<p>Additionally, we aim to investigate how different types of viewers–namely L1 speakers of the original language of the film and L2 viewers–engage with this novel type of viewing activity. With this goal in mind, the study examined three viewer groups: L1-English speakers from the United Kingdom and Australia, and L1-Polish speakers with advanced knowledge of English as a foreign language.</p>
+<p>We asked two overarching research questions:</p>
+<list list-type="simple">
+<list-item><p><italic>RQ1</italic>: <italic>How does the absence of sound affect cognitive load</italic>, <italic>comprehension</italic>, <italic>recall</italic>, <italic>immersion</italic>, <italic>enjoyment and viewing patterns</italic>?</p></list-item>
+<list-item><p><italic>RQ2</italic>: <italic>Does the presence or absence of sound affect speakers of L1-British English</italic>, <italic>L1-Australian English and L2-English (L1-Polish) viewers differently</italic>?</p></list-item>
+</list>
+</sec>
+</sec>
+<sec id="sec008" sec-type="materials|methods">
+<title>Method</title>
+<p>Adopting a mixed-methods approach [<xref ref-type="bibr" rid="pone.0306251.ref015">15</xref>], we collect quantitative data from self-reported immersion, enjoyment and cognitive load questionnaires, comprehension and recall post-tests, as well as eye-tracking data. Additionally, qualitative insights are gathered through semi-structured interviews. Following Creswell &amp; Creswell [<xref ref-type="bibr" rid="pone.0306251.ref015">15</xref>], we use the convergent mixed methods design, combining the results from the quantitative and qualitative data in order to see if the findings from both approaches confirm or disconfirm each other. Semi-structured interviews are also conducted for the purpose of completeness; i.e., to [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref061">61</xref>].</p>
+<p>Ethics clearance was secured from the ethics committees of each institution where data collection took place (Rector’s Committee for the Ethics of Research Involving Human Participants at the University of Warsaw, Faculty of Arts and Humanities Research Ethics Subcommittee at the University of East Anglia, and Human Sciences Subcommittee at Macquarie University). Upon arrival at the laboratory, participants were provided with an information sheet about the study and had the opportunity to ask questions. After reviewing the information, participants signed a written consent form in order to participate in the study.</p>
+<sec id="sec009">
+<title>Participants</title>
+<p>A total of 168 participants took part in the study. Six people were excluded as they were not L1-English speakers of the two varieties under investigation–British and Australian English (N = 3) or not L1 English speakers at all (N = 3), and one person did not complete the full experiment. For comprehension, recall, self-reported cognitive load, immersion and enjoyment analyses, we collected usable data from 161 participants, of whom 43 were British (‘UK’), 53 Australian (‘AUS’), and 65 Polish (‘PL’). Their mean age was 25.54 (SD = 8.80), ranging from 18 to 53. In the British cohort, the mean age was 26.37 (SD = 9.17), ranging from 18 to 45. In the Australian cohort, the mean age was 19.57 (SD = 1.06), ranging from 18 to 22. In the Polish cohort, the mean age was 29.86 (SD = 9.42), ranging from 19 to 53. Altogether we tested 115 females, 41 males, and five people who self-identified as non-binary. In the British cohort, there were 27 females, 12 males, and four non-binary participants. In the Australian cohort, there were 45 females and 8 males. In the Polish cohort, there were 43 females, 21 males and one non-binary participant. For the eye-tracking part, a further five participants were excluded due to poor-quality eye data, resulting in analysable data from 156 participants, of whom 63 were Polish, 42 were British and 51 were Australian.</p>
+<p>When queried about how often they watch subtitled films and TV shows with the sound off on a scale ranging from 1 to 7 (where 1 = [quoted wording omitted] and 7 = [quoted wording omitted]), the overall mean rating was 1.57 (SD = 1.04). Specifically, for Polish participants’ the average rating was 1.68 (SD = 0.97), for British participants 1.60 (SD = 1.15), and for Australian participants 1.40 (SD = 1.03).</p>
+<p>Regarding the frequency of watching videos on social media without sound, the overall mean was 3.23 (SD = 1.54) on a 7-point scale (where 1 = [quoted wording omitted] and 7 = [quoted wording omitted]). Polish participants had an average rating of 3.34 (SD = 1.46), British participants 3.51 (SD = 1.76), and Australian participants 2.85 (SD = 1.40).</p>
+<p>The descriptive statistics showed that Australians are the group that watches videos without sound the least frequently. However, the results of one-way ANOVAs for both questions indicated that the differences among the participants were not statistically significant in either of the two questions (p = .362 for films and TV shows, and p = .083 for social media).</p>
+<p>When queried about watching English-language videos with English subtitles, on a scale ranging from 1 to 7 (where 1 = [quoted wording omitted] and 7 = [quoted wording omitted]), the overall mean was 5.74 (SD = 1.72). British participants had an average of 5.43 (SD = 1.91), Australian participants 5.55 (SD = 1.80), and Polish participants 6.11 (SD = 1.45), indicating high overall familiarity with the task. A one-way ANOVA showed that there was no statistically significant difference between the groups (p = .077).</p>
+<p>We also measured the English proficiency of Polish participants with two tests: LexTALE [<xref ref-type="bibr" rid="pone.0306251.ref062">62</xref>] and Cambridge General English proficiency test freely available on the University of Cambridge English Language Assessment website. The mean LexTALE score was 79.22 (SD = 10.84), ranging from 53.75 to 100 (maximum). The mean score for the Cambridge test was 22.32 (SD = 3.08, ranging from 11 to 25 (maximum). The tests show that Polish participants had an average proficiency of C1 or C2 according to the Common European Framework of Reference for Languages (CEFR) and can therefore be regarded as proficient speakers of L2-English.</p>
+</sec>
+<sec id="sec010">
+<title>Materials</title>
+<p>Participants watched two videos with English-language subtitles, each lasting about 6 minutes, from the Netflix show <italic>The Chair</italic> [<xref ref-type="bibr" rid="pone.0306251.ref063">63</xref>]. American English was the language variety of the soundtrack and British English was the language variety of the subtitles, as this spelling is common to both L1 cohorts. One video was presented with sound, the other without. The two conditions were counterbalanced.</p>
+<p>The subtitles used in the study were intralingual (i.e. English to English) and verbatim; that is, they included all the words from the dialogues. They did not contain any sound or speaker identifiers (unlike subtitles for the deaf and hard of hearing). Altogether, viewers were presented with 364 subtitles. The average speed at which subtitles were displayed was 16.85 characters per second (SD = 5.23). The mean number of characters per subtitle was 35.18 (SD = 17.14). See the replication pack for details.</p>
+</sec>
+<sec id="sec011">
+<title>Apparatus</title>
+<p>Eye movements were recorded with an EyeLink Portable Duo in the UK and an EyeLink 1000 Plus Eye Tracker (SR-Research, Canada) in Australia and Poland. In the UK, a target sticker was used for remote tracking with the Portable Duo mounted on an ASUS GX701L laptop, with participants sitting approximately 60 cm from the display screen (1920 x 1080 resolution). In Poland and Australia, a chinrest was used to minimise head movement, with participants sitting at approximately 80 cm from an ASUS VG248QE (16:9) HD monitor screen (1920 x 1080 resolution). The different optimised participant-to-screen distances ensured comparability, such that in all experimental setups, each subtitle letter subtended ~0.32° of the visual angle. Per the manufacturer’s recommendations, a 13-point calibration was performed with the Portable Duo, and a 9-point calibration with the 1000 Plus. Data were recorded binocularly at a 1000 Hz sampling rate in all cases, and data were analysed for the right eye in most participants (N = 152, 97.4%). In a minority of cases (N = 4, 2.6%), as tracking accuracy was compromised only in the right eye, the left eye was used instead.</p>
+</sec>
+<sec id="sec012">
+<title>Procedure</title>
+<p>Data collection started in Poland on 29 November 2022 and finished in Australia on 26 May 2023.</p>
+<p>Participants were tested individually in a research laboratory. They were pre-screened to be adult speakers of L1-Polish or L1-English. All participants signed an informed consent form, and Polish participants also took the English proficiency tests. All participants completed a demographics questionnaire. Then, they underwent calibration for the eye-tracking test. After watching each clip, they answered a set of comprehension, recall, cognitive load, immersion and enjoyment questions. Each question was displayed separately on the screen and participants had to click on the correct answer. At the end, participants took part in a 10–15-minute semi-structured interview (see replication pack), which was audio recorded and transcribed for analysis.</p>
+</sec>
+<sec id="sec013">
+<title>Design</title>
+<p>We used a 2 x 3 mixed design with the presence or absence of sound (henceforth ‘Sound’) as the within-subject independent variable and language variety (henceforth ‘Group’) as a between-subject factor. In this design, ‘Group’ therefore represents the respective varieties of Australian L1-English, British L1-English, and L1-Polish.</p>
+<p>We tested participants’ comprehension, recall, cognitive load, immersion, and enjoyment. Comprehension was measured using ten true/false questions for each clip. Recall was measured with ten multiple-choice questions with four answers where only one answer was correct, and measured verbatim memory for numbers and exact wording. For comprehension and recall, we calculated the score as the percentage of correct answers.</p>
+<p>Cognitive load was tested using three dimensions derived from the NASA-TLX instrument [<xref ref-type="bibr" rid="pone.0306251.ref064">64</xref>]: difficulty (equivalent to Mental Demand in the NASA-TLX instrument), effort (corresponding to Effort in the NASA-TLX instrument), and frustration (equivalent to Frustration Level in the NASA-TLX instrument). Immersion was measured using the captivation dimension [<xref ref-type="bibr" rid="pone.0306251.ref031">31</xref>]. Each dimension of cognitive load, immersion and enjoyment were measured on a 1–7 scale, where [quoted wording omitted] represented the lowest value (smallest effort) and [quoted wording omitted] represented the highest value (highest effort). We calculated the means for each condition per participant.</p>
+</sec>
+<sec id="sec014">
+<title>Eye movements</title>
+<p>Previous research has shown a direct link between cognitive processing and fixation durations, as longer fixations are believed to reflect increased attentional focus [<xref ref-type="bibr" rid="pone.0306251.ref065">65</xref>, <xref ref-type="bibr" rid="pone.0306251.ref066">66</xref>] and more effortful word processing in reading [<xref ref-type="bibr" rid="pone.0306251.ref067">67</xref>]. In this study, we examine two fixation duration measures: <italic>mean fixation duration</italic> (MFD)–defined as the average duration of all fixations on the subtitle area–and <italic>total reading time</italic> (TRT)–defined as the sum of all fixation durations on the subtitle area. In reading, MFD is traditionally considered a measure of the depth of processing [<xref ref-type="bibr" rid="pone.0306251.ref042">42</xref>] and cognitive engagement with the text, with higher MFD values corresponding to more effortful processing. We examine this variable to enable a direct comparison with Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>] and Łuczak [<xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>], as per discussion above. TRT is believed to reflect later stages of lexical integration, as it includes regressive fixations and revisits to previously fixated words across all reading passes, possibly reflecting discourse-level integration [<xref ref-type="bibr" rid="pone.0306251.ref066">66</xref>]. By looking at this variable, we attempt to quantify the amount of overall attention to a subtitle.</p>
+<p>We also consider <italic>full skipping</italic>, i.e., whether a subtitle was fixated at least once or not whilst on screen, and <italic>crossover count</italic> (vertical saccadic movements between the image and subtitle area) to investigate whether and how the presence of sound affects visual attention distribution between these areas. Together, these measures help establish whether, and if so, how, the need for subtitles is modulated by sound, and provide some insight into the global reading strategies adopted by the participants.</p>
+<p>Regarding RQ1, we expect that the Sound-on condition might yield higher subtitle skipping rates and more crossovers, as well as lower TRT and MFD, as reading is less compelling when viewers can also hear what is written in the subtitles, since the processing of two different sources of information (auditory vs. visual) can occur in parallel. With regard to RQ2, we expect parallel processing to be less efficient in L2 populations (here: Polish participants), which should be reflected in longer fixation times (TRT) as well as less subtitle skipping and fewer crossovers than native viewers. However, as previous research has shown no significant differences in MFD in L1 and L2 subtitle reading [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>], we expect that this variable may or may not be a significant predictor in the analyses. Moreover, due to potential differences in accent familiarity between Australian and British participants with the American English of the audio, we acknowledge that differences may emerge between these two groups (cf. [<xref ref-type="bibr" rid="pone.0306251.ref068">68</xref>]), although the direction of these differences is more difficult to predict as it is not the main focus of this study. We return to this point in the Discussion section.</p>
+</sec>
+<sec id="sec015">
+<title>Data analyses</title>
+<p>For comprehension and recall as well as self-reported data on cognitive load, enjoyment and immersion, we conducted analyses of variance (ANOVA) with Sound as the within-subject variable (with two levels: on and off) and Group as the between-subject factor (with three levels: UK, AUS, and PL). ANOVA analyses were conducted using SPSS version 29.</p>
+<p>In the eye-tracking analyses, linear mixed-effect models (LMMs) were run for TRT, MFD and crossover counts. Generalised linear mixed-effect models (GLMMs) with a binomial family of distribution were run for subtitle skipping, as this is a binary outcome. The two key predictors of interest were Sound (on/off) and Group (AUS, UK, PL). All models included both fixed factors and their interactions. Fixed effects were known <italic>a priori</italic> and therefore entered first in the models. Then the maximal random effect structure (all possible intercepts and slopes) was modelled first, and progressively reduced until models started to converge. Different combinations of both correlated and uncorrelated slopes were fitted, and were kept only if they improved model fit [<xref ref-type="bibr" rid="pone.0306251.ref069">69</xref>, <xref ref-type="bibr" rid="pone.0306251.ref070">70</xref>]. All final models included at least simple intercepts for both participants and items (i.e., subtitles). Model comparisons were carried out by means of ANOVAs and AIC/BIC comparisons, to reach a maximal yet parsimonious model [<xref ref-type="bibr" rid="pone.0306251.ref071">71</xref>].</p>
+<p>In line with the literature, all individual fixations shorter than 60 ms and longer than 800 ms were excluded [<xref ref-type="bibr" rid="pone.0306251.ref072">72</xref>]. In the MFD and TRT analyses, all cases where MFD/TRT = 0 were also excluded, i.e., only cases where a subtitle was not skipped were included, as skipping was analysed separately.</p>
+<p>MFD was log-transformed to improve the shape of the data. The eye-tracking analyses (see the replication pack) include a total of 156 participants and 364 subtitles. The number of data points included in the analysis varied depending on the variable considered: the MFD and TRT analyses comprised 36,591 observations, the skipping analysis 38,086 and the crossover analysis, 33,439. All models were run in R (version 4.3.1), using the default treatment coding, which compares each level of a categorical variable to a fixed reference, the intercept being the cell mean of the reference group [<xref ref-type="bibr" rid="pone.0306251.ref073">73</xref>]. In all analyses, the reference category for the Sound variable was the Sound-on condition, whereas for the Group variable it was the UK cohort, such that both AUS and PL are compared to the UK baseline. Bonferroni corrections for multiple comparisons were applied to avoid inflating the chance of false positive results [<xref ref-type="bibr" rid="pone.0306251.ref074">74</xref>], such that only p values below 0.0125 (0.05/4) were considered significant.</p>
+</sec>
+</sec>
+<sec id="sec016" sec-type="results">
+<title>Results</title>
+<sec id="sec017">
+<title>Comprehension and recall</title>
+<p>As shown in Tables <xref ref-type="table" rid="pone.0306251.t001">1</xref> and <xref ref-type="table" rid="pone.0306251.t002">2</xref>, our 2 x 3 mixed ANOVA analyses revealed a statistically significant main effect of Sound on comprehension, F(1,158) = 7.050, p = .009, but not on recall, F(1,158) = 3.858, p = .051. Overall, participants had higher comprehension when they watched videos with sound (M<sub>ON</sub> = 81.30) than without (M<sub>OFF</sub> = 77.70). Similarly, recall was higher when the sound was on, M<sub>ON</sub> = 80.87 vs. M<sub>OFF</sub> = 78.14. However, the effect sizes for these results, as shown by partial eta squared <inline-formula id="pone.0306251.e001"><alternatives><mml:math display="inline" id="M1"><mml:mo>(</mml:mo><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>)</mml:mo></mml:math></alternatives></inline-formula> in <xref ref-type="table" rid="pone.0306251.t002">Table 2</xref>, were small.</p>
+<table-wrap id="pone.0306251.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t001</object-id>
+<label>Table 1</label> <caption><title>Estimated marginal means for comprehension and recall by Sound and Group.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="6">Sound</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">ON</th>
+<th align="center" colspan="3">OFF</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M</italic></th>
+<th align="center"><italic>SE</italic></th>
+<th align="center"><italic>95% CI</italic></th>
+<th align="center"><italic>M</italic></th>
+<th align="center"><italic>SE</italic></th>
+<th align="center"><italic>95% CI</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="6"><italic>Comprehension</italic> (% correct answers)</td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">82.09</td>
+<td align="char" char=".">1.96</td>
+<td align="center">78.21–85.97</td>
+<td align="char" char=".">82.55</td>
+<td align="char" char=".">2.21</td>
+<td align="center">78.17–86.93</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">80.94</td>
+<td align="char" char=".">1.76</td>
+<td align="center">77.45–84.43</td>
+<td align="char" char=".">75.28</td>
+<td align="char" char=".">1.99</td>
+<td align="center">71.33–79.22</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">81.07</td>
+<td align="char" char=".">1.59</td>
+<td align="center">77.92–84.23</td>
+<td align="char" char=".">76.46</td>
+<td align="char" char=".">1.80</td>
+<td align="center">72.89–80.02</td>
+</tr>
+<tr>
+<td align="left" colspan="6"><italic>Recall</italic> (% correct answers)</td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">84.41</td>
+<td align="char" char=".">2.28</td>
+<td align="center">79.91–88.92</td>
+<td align="char" char=".">81.86</td>
+<td align="char" char=".">2.18</td>
+<td align="center">77.54–86.17</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">79.05</td>
+<td align="char" char=".">2.05</td>
+<td align="center">75.00–83.11</td>
+<td align="char" char=".">76.22</td>
+<td align="char" char=".">1.96</td>
+<td align="center">72.34–79.88</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">80.00</td>
+<td align="char" char=".">1.85</td>
+<td align="center">76.33–83.66</td>
+<td align="char" char=".">77.23</td>
+<td align="char" char=".">1.77</td>
+<td align="center">73.72–80.11</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0306251.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t002</object-id>
+<label>Table 2</label> <caption><title>Two-way mixed ANOVA results for comprehension and recall.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">df <sub>sound</sub></th>
+<th align="center">df <sub>Group</sub></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic></th>
+<th align="center"><inline-formula id="pone.0306251.e002"><alternatives><mml:math display="inline" id="M2"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Comprehension</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">1.856</td>
+<td align="char" char=".">.160</td>
+<td align="char" char=".">.023</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">7.050</td>
+<td align="char" char=".">.009</td>
+<td align="char" char=".">.043</td>
+</tr>
+<tr>
+<td align="left">Recall</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">2.884</td>
+<td align="char" char=".">.059</td>
+<td align="char" char=".">.035</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">3.858</td>
+<td align="char" char=".">.051</td>
+<td align="char" char=".">.024</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>There was no main effect of Group on either comprehension, F(2,158) = 1.856, p = .160, or on recall, F(2,158) = 2.884, p = .059. There were no interactions.</p>
+<p>As shown in <xref ref-type="fig" rid="pone.0306251.g001">Fig 1</xref>, the highest comprehension overall was achieved by British participants (M<sub>UK</sub> = 82.32), followed by Polish (M<sub>PL</sub> = 78.76) and Australian participants (M<sub>AUS</sub> = 78.11). Comprehension was higher with than without sound for Polish and Australian participants, but slightly lower for British participants (see <xref ref-type="table" rid="pone.0306251.t001">Table 1</xref>). However, the differences in comprehension between the participants were small and did not reach statistical significance (see <xref ref-type="table" rid="pone.0306251.t002">Table 2</xref>).</p>
+<fig id="pone.0306251.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Comprehension and recall by Sound and Group.</title>
+</caption>
+<p>[Figure image omitted; author caption retained.]</p></fig>
+<p>The group with the highest overall recall scores was the British (M<sub>UK</sub> = 83.14), followed by Polish (M<sub>PL</sub> = 78.61) and Australian participants (M<sub>AUS</sub> = 77.64). When sound was taken away, recall scores dropped for all participant groups (see <xref ref-type="fig" rid="pone.0306251.g001">Fig 1</xref>). Similarly to comprehension, the differences between participants from different language varieties did not reach statistical significance.</p>
+<p>We were also interested in whether Polish participants’ recall and comprehension scores were related to their English proficiency. Indeed, both Cambridge proficiency and LexTALE scores correlated positively with recall and comprehension (see <xref ref-type="table" rid="pone.0306251.t003">Table 3</xref>). This means that participants whose English proficiency was higher had higher comprehension and better recall. English proficiency did not correlate with any other dependent variable we measured, such as cognitive load, immersion, or enjoyment.</p>
+<table-wrap id="pone.0306251.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t003</object-id>
+<label>Table 3</label> <caption><title>Correlations between English proficiency, comprehension and recall.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="justify"/>
+<th align="center" colspan="5">Pearson Correlation</th>
+</tr>
+<tr>
+<th align="justify"/>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1. Cambridge test</td>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">2. LexTALE</td>
+<td align="center">.549<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">3. Comprehension Sound ON</td>
+<td align="center">.457<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.268<xref ref-type="table-fn" rid="t003fn003">*</xref></td>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center">.031</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">4. Comprehension Sound OFF</td>
+<td align="center">.339<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.321<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.373<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">-</td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">.006</td>
+<td align="center">.009</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">5. Recall Sound ON</td>
+<td align="center">.433<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.392<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.378<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.359<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center">.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">6. Recall Sound OFF</td>
+<td align="center">.274<xref ref-type="table-fn" rid="t003fn003">*</xref></td>
+<td align="center">.349<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.250<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.338<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+<td align="center">.317<xref ref-type="table-fn" rid="t003fn002">**</xref></td>
+</tr>
+<tr>
+<td align="center">.027</td>
+<td align="center">.004</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t003fn001"><p>Note:</p></fn>
+<fn id="t003fn002"><p>**Correlation is significant at the 0.01 level (2-tailed),</p></fn>
+<fn id="t003fn003"><p>*Correlation is significant at the 0.05 level (2-tailed)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec018">
+<title>Cognitive load</title>
+<p>A 2 x 3 mixed ANOVA revealed statistically significant main effects of sound on all three indicators of cognitive load: difficulty (F(1,158) = 95.533, p &lt; .001), effort (F(1,158) = 146.707, p &lt; .001), and frustration (F(1,158) = 120.442, p &lt; .001), see Tables <xref ref-type="table" rid="pone.0306251.t004">4</xref> and <xref ref-type="table" rid="pone.0306251.t005">5</xref>. The effect sizes <inline-formula id="pone.0306251.e003"><alternatives><mml:math display="inline" id="M3"><mml:mo>(</mml:mo><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>)</mml:mo></mml:math></alternatives></inline-formula> for these effects were large, as shown in <xref ref-type="table" rid="pone.0306251.t005">Table 5</xref>. In general, participants reported experiencing higher cognitive load in the absence of sound, as evidenced by higher mean scores for difficulty (M<sub>ON</sub> = 2.34 vs. M<sub>OFF</sub> = 3.70), effort (M<sub>ON</sub> = 3.07 vs. M<sub>OFF</sub> = 4.84), and frustration (M<sub>ON</sub> = 2.01 vs. M<sub>OFF</sub> = 3.63). These findings indicate that participants did not find watching the videos particularly difficult or frustrating, as indicated by mean scores below 4 on a 1–7 scale. However, they did perceive watching the video without sound as notably more effortful, with the mean score approaching 5 on a 1–7 scale.</p>
+<table-wrap id="pone.0306251.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t004</object-id>
+<label>Table 4</label> <caption><title>Estimated marginal means for cognitive load indicators.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="6">Sound</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">ON</th>
+<th align="center" colspan="3">OFF</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M</italic></th>
+<th align="center"><italic>SE</italic></th>
+<th align="center"><italic>95% CI</italic></th>
+<th align="center"><italic>M</italic></th>
+<th align="center"><italic>SE</italic></th>
+<th align="center"><italic>95% CI</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="6"><italic>Difficulty</italic><xref ref-type="table-fn" rid="t004fn002">**</xref></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">2.07</td>
+<td align="char" char=".">.19</td>
+<td align="center">1.68–2.45</td>
+<td align="char" char=".">3.41</td>
+<td align="char" char=".">.23</td>
+<td align="center">2.94–3.88</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">2.49</td>
+<td align="char" char=".">.17</td>
+<td align="center">2.14–2.84</td>
+<td align="char" char=".">3.81</td>
+<td align="char" char=".">.21</td>
+<td align="center">3.38–4.23</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">2.40</td>
+<td align="char" char=".">.16</td>
+<td align="center">2.08–2.71</td>
+<td align="char" char=".">3.78</td>
+<td align="char" char=".">.19</td>
+<td align="center">3.40–4.16</td>
+</tr>
+<tr>
+<td align="left" colspan="6"><italic>Effort</italic><xref ref-type="table-fn" rid="t004fn002">**</xref></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">2.65</td>
+<td align="char" char=".">.21</td>
+<td align="center">2.23–3.06</td>
+<td align="char" char=".">4.39</td>
+<td align="char" char=".">.24</td>
+<td align="center">3.91–4.87</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">3.24</td>
+<td align="char" char=".">.19</td>
+<td align="center">2.87–3.62</td>
+<td align="char" char=".">5.05</td>
+<td align="char" char=".">.22</td>
+<td align="center">4.62–5.49</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">3.20</td>
+<td align="char" char=".">.17</td>
+<td align="center">2.86–3.53</td>
+<td align="char" char=".">4.93</td>
+<td align="char" char=".">.19</td>
+<td align="center">4.54–5.33</td>
+</tr>
+<tr>
+<td align="left" colspan="6"><italic>Frustration</italic><xref ref-type="table-fn" rid="t004fn002">**</xref></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">2.09</td>
+<td align="char" char=".">.18</td>
+<td align="center">1.73–2.45</td>
+<td align="char" char=".">3.23</td>
+<td align="char" char=".">.25</td>
+<td align="center">2.72–3.74</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">2.01</td>
+<td align="char" char=".">.16</td>
+<td align="center">1.60–2.34</td>
+<td align="char" char=".">3.88</td>
+<td align="char" char=".">.23</td>
+<td align="center">3.42–4.34</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">1.93</td>
+<td align="char" char=".">.14</td>
+<td align="center">1.64–2.22</td>
+<td align="char" char=".">3.67</td>
+<td align="char" char=".">.20</td>
+<td align="center">3.26–4.09</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t004fn001"><p>Note:</p></fn>
+<fn id="t004fn002"><p>** measured on 1–7 scale where 1 was lowest and 7 was highest</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0306251.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t005</object-id>
+<label>Table 5</label> <caption><title>Two-way mixed ANOVA results for cognitive load indicators.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">df <sub>sound</sub></th>
+<th align="center">df <sub>Group</sub></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic></th>
+<th align="center"><inline-formula id="pone.0306251.e004"><alternatives><mml:math display="inline" id="M4"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Difficulty</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">1.721</td>
+<td align="char" char=".">.182</td>
+<td align="char" char=".">.021</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">95.533</td>
+<td align="char" char=".">&lt;.001</td>
+<td align="char" char=".">.377<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">Effort</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">3.856</td>
+<td align="char" char=".">.023</td>
+<td align="char" char=".">.047</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">146.707</td>
+<td align="char" char=".">&lt;.001</td>
+<td align="char" char=".">.481<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">Frustration</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">.753</td>
+<td align="char" char=".">.472</td>
+<td align="char" char=".">.009</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">120.442</td>
+<td align="char" char=".">&lt;.001</td>
+<td align="char" char=".">.433<xref ref-type="table-fn" rid="t005fn002">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p>Note:</p></fn>
+<fn id="t005fn002"><p>*Large effect size</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>In terms of between-group differences, we found a main effect of Group only in effort, (F(2,158) = 3.856, p = .023). As shown in <xref ref-type="fig" rid="pone.0306251.g002">Fig 2</xref>, the highest effort was reported by Australian participants (M<sub>AUS</sub> = 4.15) and the lowest by British participants (M<sub>UK</sub> = 3.52). Post-hoc Bonferroni tests showed that there was a statistically significant difference in effort between British and Australian participants, p = 0.023. Polish participants (M<sub>PL</sub> = 4.06) did not significantly differ from British or from Australian participants. There were no main effects of Group on neither difficulty nor frustration.</p>
+<fig id="pone.0306251.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Cognitive load results by Sound and Group.</title>
+</caption>
+<p>[Figure image omitted; author caption retained.]</p></fig>
+<p>To check the internal validity of the three indicators of cognitive load (Difficulty, Effort, Frustration), we conducted the Cronbach’s Alpha test. Cronbach Alpha for the sound-on condition was α = .73, whereas for the sound-off condition α = .81. Overall, the internal validity of our cognitive load measurement instrument was good.</p>
+</sec>
+<sec id="sec019">
+<title>Immersion and enjoyment</title>
+<p>A 2 x 3 mixed ANOVA showed a statistically significant main effect of Sound on immersion, (F(1,158) = 36.854, p &lt; .001), with a large effect size (see Tables <xref ref-type="table" rid="pone.0306251.t006">6</xref> and <xref ref-type="table" rid="pone.0306251.t007">7</xref>). Overall, participants reported higher immersion when the sound was on (M<sub>ON</sub> = 5.43) compared to when it was off (M<sub>OFF</sub> = 4.73).</p>
+<table-wrap id="pone.0306251.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t006</object-id>
+<label>Table 6</label> <caption><title>Estimated marginal means for immersion by Sound and Group.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="6">Sound</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">ON</th>
+<th align="center" colspan="3">OFF</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M</italic></th>
+<th align="center"><italic>SE</italic></th>
+<th align="center"><italic>95% CI</italic></th>
+<th align="center"><italic>M</italic></th>
+<th align="center"><italic>SE</italic></th>
+<th align="center"><italic>95% CI</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="6"><italic>Immersion</italic><xref ref-type="table-fn" rid="t006fn002">**</xref></td>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">5.27</td>
+<td align="char" char=".">.18</td>
+<td align="center">4.92–5.63</td>
+<td align="char" char=".">4.88</td>
+<td align="char" char=".">.22</td>
+<td align="center">4.43–5.33</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">5.22</td>
+<td align="char" char=".">.16</td>
+<td align="center">4.90–5.50</td>
+<td align="char" char=".">4.28</td>
+<td align="char" char=".">.20</td>
+<td align="center">3.87–4.69</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">5.78</td>
+<td align="char" char=".">.14</td>
+<td align="center">5.49–6.07</td>
+<td align="char" char=".">5.04</td>
+<td align="char" char=".">.18</td>
+<td align="center">4.67–5.41</td>
+</tr>
+<tr>
+<td align="left"><italic>Enjoyment</italic><xref ref-type="table-fn" rid="t006fn002">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> UK</td>
+<td align="char" char=".">5.41</td>
+<td align="char" char=".">.18</td>
+<td align="center">5.06–5.77</td>
+<td align="char" char=".">4.81</td>
+<td align="char" char=".">.24</td>
+<td align="center">4.33–5.29</td>
+</tr>
+<tr>
+<td align="left"> AUS</td>
+<td align="char" char=".">5.22</td>
+<td align="char" char=".">.16</td>
+<td align="center">4.90–5.55</td>
+<td align="char" char=".">4.22</td>
+<td align="char" char=".">.21</td>
+<td align="center">3.79–4.65</td>
+</tr>
+<tr>
+<td align="left"> PL</td>
+<td align="char" char=".">5.83</td>
+<td align="char" char=".">.14</td>
+<td align="center">5.54–6.12</td>
+<td align="char" char=".">4.44</td>
+<td align="char" char=".">.19</td>
+<td align="center">4.05–4.83</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t006fn001"><p>Note:</p></fn>
+<fn id="t006fn002"><p>** measured on 1–7 scale where 1 was lowest and 7 was highest</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="pone.0306251.t007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t007</object-id>
+<label>Table 7</label> <caption><title>Two-way mixed ANOVA results for immersion and enjoyment.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">df <sub>sound</sub></th>
+<th align="center">df <sub>Group</sub></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic></th>
+<th align="center"><inline-formula id="pone.0306251.e005"><alternatives><mml:math display="inline" id="M5"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Immersion</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">4.809</td>
+<td align="char" char=".">.009</td>
+<td align="char" char=".">.057</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">36.854</td>
+<td align="char" char=".">&lt;.001</td>
+<td align="char" char=".">.189<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left">Enjoyment</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"> Between-subjects</td>
+<td align="center"/>
+<td align="center">2,158</td>
+<td align="char" char=".">2.095</td>
+<td align="char" char=".">.126</td>
+<td align="char" char=".">.026</td>
+</tr>
+<tr>
+<td align="left"> Within-subjects</td>
+<td align="center">1,158</td>
+<td align="center"/>
+<td align="char" char=".">68.259</td>
+<td align="char" char=".">&lt;.001</td>
+<td align="char" char=".">.302<xref ref-type="table-fn" rid="t007fn002">*</xref></td>
+</tr>
+<tr>
+<td align="left"> Interaction sound <xref ref-type="table-fn" rid="t007fn002">*</xref> Group</td>
+<td align="center">2,158</td>
+<td align="center"/>
+<td align="char" char=".">3.501</td>
+<td align="char" char=".">.033</td>
+<td align="char" char=".">.042</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t007fn001"><p>Note:</p></fn>
+<fn id="t007fn002"><p>*Large effect size</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>We also found a main effect of Group on immersion (F(2,158) = 4.809, p = .009). Overall, Australian participants experienced the lowest immersion (M<sub>AUS</sub> = 4.75) compared to British (M<sub>UK</sub> = 5.08) and Polish (M<sub>PL</sub> = 5.41) participants. Post-hoc Games-Howell tests showed that the difference was significant only between Polish participants and Australian participants, p = .005. There were no interactions.</p>
+<p>Similarly to immersion, there was also a statistically significant main effect of Sound on enjoyment, (F(1,158) = 77.259, p &lt; .001, see Tables <xref ref-type="table" rid="pone.0306251.t006">6</xref> and <xref ref-type="table" rid="pone.0306251.t007">7</xref>). Overall, participants reported enjoying the videos more with sound (M<sub>ON</sub> = 5.52) than without sound (M<sub>OFF</sub> = 4.47).</p>
+<p>There was no significant main effect of Group for enjoyment (F(2,158) = 2.095, p = .126). The lowest enjoyment was reported by Australian participants (M<sub>AUS</sub> = 4.72) compared to British (M<sub>UK</sub> = 5.11) and Polish (M<sub>PL</sub> = 5.13), but the difference was not statistically significant. Descriptive statistics showed that the sharpest drop in enjoyment when the sound was taken away was experienced by Polish participants and the smallest by British participants (see <xref ref-type="fig" rid="pone.0306251.g003">Fig 3</xref>).</p>
+<fig id="pone.0306251.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Immersion and enjoyment results by Sound and Group.</title>
+</caption>
+<p>[Figure image omitted; author caption retained.]</p></fig>
+<p>We found a statistically significant interaction between Sound and Group (F(2,158) = 3.501, p = .033, eta = .042). We followed this up by conducting two one-way ANOVAs, one per each within-subject condition: one for Sound-on and one for Sound-off. We found a statistically significant difference in enjoyment between the participants when the sound was on, p = .021, but not when the sound was off, p = .192. When the sound was on, post-hoc Games-Howell tests showed that Polish participants experienced the highest enjoyment and differed from Australian participants, who experienced the lowest enjoyment, p = .013. When the sound was off, there were no significant differences between participants.</p>
+<p>We also explored whether viewers’ immersion and enjoyment were related to cognitive load (see <xref ref-type="table" rid="pone.0306251.t008">Table 8</xref>). Firstly, we found that enjoyment was highly positively correlated with immersion: the higher the immersion, the higher the enjoyment reported by participants. Secondly, cognitive load indicators were correlated with one another; for example, the higher the difficulty reported by participants, the higher their frustration. Thirdly, immersion and enjoyment were negatively correlated with cognitive load: the higher the difficulty, effort, and frustration experienced by the participants, the lower their immersion and enjoyment.</p>
+<table-wrap id="pone.0306251.t008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t008</object-id>
+<label>Table 8</label> <caption><title>Correlations between enjoyment, immersion and cognitive load indicators.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="justify"/>
+<th align="center" colspan="10">Pearson Correlation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify"/>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">5</td>
+<td align="center">6</td>
+<td align="center">7</td>
+<td align="center">8</td>
+<td align="center">9</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="left">1. Enjoyment Sound ON</td>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">2. Enjoyment Sound OFF</td>
+<td align="center">.428<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">3. Immersion Sound ON</td>
+<td align="center">.858<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.384<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">4. Immersion Sound OFF</td>
+<td align="center">.507<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.740<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.487<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">5. Difficulty Sound ON</td>
+<td align="center">-.323<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.075</td>
+<td align="center">-.347<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.177<xref ref-type="table-fn" rid="t008fn003">*</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center">.344</td>
+<td align="center">&lt;.001</td>
+<td align="center">.025</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">6. Difficulty Sound OFF</td>
+<td align="center">-.216<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.429<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.195<xref ref-type="table-fn" rid="t008fn003">*</xref></td>
+<td align="center">-.415<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.302<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">.006</td>
+<td align="center">&lt;.001</td>
+<td align="center">.013</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">7. Effort Sound ON</td>
+<td align="center">-.256<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.066</td>
+<td align="center">-.264<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.145</td>
+<td align="center">.494<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.310<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">.001</td>
+<td align="center">.407</td>
+<td align="center">&lt;.001</td>
+<td align="center">.068</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left" rowspan="2">8. Effort Sound OFF</td>
+<td align="center">-.135</td>
+<td align="center">-.372<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.205<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.334<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.290<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.607<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.301<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">.088</td>
+<td align="center">&lt;.001</td>
+<td align="center">.009</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="justify" rowspan="2">9. Frustration Sound ON</td>
+<td align="center">-.395<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.087</td>
+<td align="center">-.417<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.166<xref ref-type="table-fn" rid="t008fn003">*</xref></td>
+<td align="center">.495<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.053</td>
+<td align="center">.497<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.103</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">&lt;.001</td>
+<td align="center">.273</td>
+<td align="center">&lt;.001</td>
+<td align="center">.036</td>
+<td align="center">&lt;.001</td>
+<td align="center">.503</td>
+<td align="center">&lt;.001</td>
+<td align="center">.193</td>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="justify" rowspan="2">10. Frustration Sound OFF</td>
+<td align="center">-.171<xref ref-type="table-fn" rid="t008fn003">*</xref></td>
+<td align="center">-.514<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.222<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">-.441<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.314<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.515<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.252<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.633<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center">.264<xref ref-type="table-fn" rid="t008fn002">**</xref></td>
+<td align="center"/>
+</tr>
+<tr>
+<td align="center">.031</td>
+<td align="center">&lt;.001</td>
+<td align="center">.005</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">.001</td>
+<td align="center">&lt;.001</td>
+<td align="center">&lt;.001</td>
+<td align="center"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t008fn001"><p>Note:</p></fn>
+<fn id="t008fn002"><p>**Correlation is significant at the 0.01 level (2-tailed),</p></fn>
+<fn id="t008fn003"><p>*Correlation is significant at the 0.05 level (2-tailed)</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec020">
+<title>Eye tracking measurements</title>
+<p>On average across all groups, in line with our hypotheses, mean fixation durations and total subtitle reading times were shorter with sound (MFD M<sub>ON</sub> = 202 ms; TRT M<sub>ON</sub> = 996 ms) than without (MFD M<sub>OFF</sub> = 209 ms; TRT M<sub>OFF</sub> = 1253 ms). Subtitle skipping occurred more frequently with sound (M<sub>ON</sub> = 0.055) than without (M<sub>OFF</sub> = 0.023), and a higher number of crossovers between the images and the subtitles were made with sound (M<sub>ON</sub> = 2.03) than without (M<sub>OFF</sub> = 1.96). <xref ref-type="table" rid="pone.0306251.t009">Table 9</xref> below reports descriptive statistics by Sound and Group, which are also presented graphically in <xref ref-type="fig" rid="pone.0306251.g004">Fig 4</xref>, showing that overall, the L2-English (PL) cohort appears to display different viewing patters from both L1-English cohorts. The gaze behaviour of the L1 cohorts looks roughly comparable in both sound conditions for TRT, skipping and crossover counts, as the values are generally close to each other, and the lines have similar slopes. However, for MFD, contrary to our predictions, it is not the PL cohort that displays the longest average fixation durations overall, but rather the AUS cohort. <xref ref-type="table" rid="pone.0306251.t010">Table 10</xref> presents model summaries for the four eye-tracking analyses, which are addressed in the next sections.</p>
+<fig id="pone.0306251.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Eye-tracking results by Sound and Group.</title>
+</caption>
+<p>[Figure image omitted; author caption retained.]</p></fig>
+<table-wrap id="pone.0306251.t009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t009</object-id>
+<label>Table 9</label> <caption><title>Means and standard deviations of eye-tracking measures on the subtitle area by Sound and Group.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Mean<break/>Fixation<break/>Durations<break/>(ms)</th>
+<th align="center" colspan="3">Total<break/>Reading<break/>Times<break/>(ms)</th>
+<th align="center" colspan="3">Skipping<break/>Rates</th>
+<th align="center" colspan="3">Crossover<break/>Counts</th>
+</tr>
+<tr>
+<th align="center">Sound</th>
+<th align="center">UK<break/>(SD)</th>
+<th align="center">AUS<break/>(SD)</th>
+<th align="center">PL<break/>(SD)</th>
+<th align="center">UK<break/>(SD)</th>
+<th align="center">AUS<break/>(SD)</th>
+<th align="center">PL<break/>(SD)</th>
+<th align="center">UK<break/>(SD)</th>
+<th align="center">AUS<break/>(SD)</th>
+<th align="center">PL<break/>(SD)</th>
+<th align="center">UK<break/>(SD)</th>
+<th align="center">AUS<break/>(SD)</th>
+<th align="center">PL<break/>(SD)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><bold>ON</bold></td>
+<td align="center">197<break/>(60)</td>
+<td align="center">207<break/>(65)</td>
+<td align="center">201<break/>(55)</td>
+<td align="center">922<break/>(633)</td>
+<td align="center">888<break/>(623)</td>
+<td align="center">1132<break/>(724)</td>
+<td align="center">0.074<break/>(0.261)</td>
+<td align="center">0.063<break/>(0.243)</td>
+<td align="center">0.036<break/>(0.187)</td>
+<td align="center">2.018<break/>(0.830)</td>
+<td align="center">2.122<break/>(0.919)</td>
+<td align="center">1.960<break/>(0.875)</td>
+</tr>
+<tr>
+<td align="center"><bold>OFF</bold></td>
+<td align="center">205<break/>(62)</td>
+<td align="center">216<break/>(70)</td>
+<td align="center">207<break/>(53)</td>
+<td align="center">1165<break/>(731)</td>
+<td align="center">1167<break/>(777)</td>
+<td align="center">1379<break/>(796)</td>
+<td align="center">0.028<break/>(0.165)</td>
+<td align="center">0.029<break/>(0.167)</td>
+<td align="center">0.016<break/>(0.124)</td>
+<td align="center">1.976<break/>(0.934)</td>
+<td align="center">2.088<break/>(1.032)</td>
+<td align="center">1.840<break/>(0.913)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<table-wrap id="pone.0306251.t010" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0306251.t010</object-id>
+<label>Table 10</label> <caption><title>(G)LMMs results for the eye-tracking analyses on the subtitle region.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Measures</th>
+<th align="left">Contrasts</th>
+<th align="left">β</th>
+<th align="left">SE</th>
+<th align="left">t</th>
+<th align="left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="6">Total<break/>Reading<break/>Time</td>
+<td align="left">(Intercept)</td>
+<td align="char" char=".">883.20</td>
+<td align="char" char=".">43.31</td>
+<td align="char" char=".">20.390</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Sound (OFF)</td>
+<td align="char" char=".">277.48</td>
+<td align="char" char=".">29.48</td>
+<td align="char" char=".">9.413</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Group (AUS)</td>
+<td align="char" char=".">-22.80</td>
+<td align="char" char=".">44.70</td>
+<td align="char" char=".">-0.510</td>
+<td align="char" char=".">0.611</td>
+</tr>
+<tr>
+<td align="left">Group (PL)</td>
+<td align="char" char=".">233.68</td>
+<td align="char" char=".">42.73</td>
+<td align="char" char=".">5.468</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (AUS)</td>
+<td align="char" char=".">18.02</td>
+<td align="char" char=".">38.38</td>
+<td align="char" char=".">0.469</td>
+<td align="char" char=".">0.639</td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (PL)</td>
+<td align="char" char=".">-30.29</td>
+<td align="char" char=".">36.68</td>
+<td align="char" char=".">-0.826</td>
+<td align="char" char=".">0.410</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Mean<break/>Fixation<break/>Duration</td>
+<td align="left">(Intercept)</td>
+<td align="char" char=".">5.242710</td>
+<td align="char" char=".">0.020119</td>
+<td align="char" char=".">260.591</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Sound (OFF)</td>
+<td align="char" char=".">0.044884</td>
+<td align="char" char=".">0.010697</td>
+<td align="char" char=".">4.196</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Group (AUS)</td>
+<td align="char" char=".">0.042455</td>
+<td align="char" char=".">0.026614</td>
+<td align="char" char=".">1.595</td>
+<td align="char" char=".">0.113</td>
+</tr>
+<tr>
+<td align="left">Group (PL)</td>
+<td align="char" char=".">0.025916</td>
+<td align="char" char=".">0.025442</td>
+<td align="char" char=".">1.019</td>
+<td align="char" char=".">0.310</td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (AUS)</td>
+<td align="char" char=".">-0.003036</td>
+<td align="char" char=".">0.014198</td>
+<td align="char" char=".">-0.214</td>
+<td align="char" char=".">0.831</td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (PL)</td>
+<td align="char" char=".">-0.012810</td>
+<td align="char" char=".">0.013570</td>
+<td align="char" char=".">-0.944</td>
+<td align="char" char=".">0.347</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Skipping<break/>Rates</td>
+<td align="left">(Intercept)</td>
+<td align="char" char=".">-3.54914</td>
+<td align="char" char=".">0.19925</td>
+<td align="char" char=".">-17.813</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Sound (OFF)</td>
+<td align="char" char=".">-1.19266</td>
+<td align="char" char=".">0.10774</td>
+<td align="char" char=".">-11.070</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Group (AUS)</td>
+<td align="char" char=".">-0.08445</td>
+<td align="char" char=".">0.25217</td>
+<td align="char" char=".">-0.335</td>
+<td align="char" char=".">0.73771</td>
+</tr>
+<tr>
+<td align="left">Group (PL)</td>
+<td align="char" char=".">-0.90793</td>
+<td align="char" char=".">0.24724</td>
+<td align="char" char=".">-3.672</td>
+<td align="char" char="."><bold>0.00024***</bold></td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (AUS)</td>
+<td align="char" char=".">0.19778</td>
+<td align="char" char=".">0.14396</td>
+<td align="char" char=".">1.374</td>
+<td align="char" char=".">0.16948</td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (PL)</td>
+<td align="char" char=".">0.19995</td>
+<td align="char" char=".">0.15647</td>
+<td align="char" char=".">1.278</td>
+<td align="char" char=".">0.20129</td>
+</tr>
+<tr>
+<td align="left" rowspan="6">Crossover Counts</td>
+<td align="left">(Intercept)</td>
+<td align="char" char=".">1.993605</td>
+<td align="char" char=".">0.035201</td>
+<td align="char" char=".">56.635</td>
+<td align="char" char="."><bold>&lt;.0001***</bold></td>
+</tr>
+<tr>
+<td align="left">Sound (OFF)</td>
+<td align="char" char=".">-0.055121</td>
+<td align="char" char=".">0.033129</td>
+<td align="char" char=".">-1.664</td>
+<td align="char" char=".">0.09822</td>
+</tr>
+<tr>
+<td align="left">Group (AUS)</td>
+<td align="char" char=".">0.102937</td>
+<td align="char" char=".">0.038603</td>
+<td align="char" char=".">2.667</td>
+<td align="char" char="."><bold>0.00854**</bold></td>
+</tr>
+<tr>
+<td align="left">Group (PL)</td>
+<td align="char" char=".">-0.055338</td>
+<td align="char" char=".">0.036899</td>
+<td align="char" char=".">-1.500</td>
+<td align="char" char=".">0.13587</td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (AUS)</td>
+<td align="char" char=".">0.008851</td>
+<td align="char" char=".">0.044669</td>
+<td align="char" char=".">0.198</td>
+<td align="char" char=".">0.84321</td>
+</tr>
+<tr>
+<td align="left">Sound (OFF) × Group (PL)</td>
+<td align="char" char=".">-0.081598</td>
+<td align="char" char=".">0.042733</td>
+<td align="char" char=".">-1.910</td>
+<td align="char" char=".">0.05810</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<sec id="sec021">
+<title>Mean fixation duration</title>
+<p>The MFD analysis revealed a main effect of Sound (<italic>b</italic> = 0.044, <italic>SE</italic> = 0.010, <italic>t</italic> = 4.196, <italic>p</italic> &lt; 0.0001), whereby watching without sound resulted in significantly higher MFD on the subtitles, thus mirroring the TRT results. However, unlike for TRT, there was no main effect of Group, indicating that MFDs on the subtitles were comparable across cohorts. No significant interactions between Sound and Group were found (see <xref ref-type="table" rid="pone.0306251.t001">Table 1</xref>).</p>
+</sec>
+<sec id="sec022">
+<title>Total reading time</title>
+<p>A positive main effect of Sound was found (<italic>b</italic> = 277.48, <italic>SE</italic> = 29.48, <italic>t</italic> = 9.413, <italic>p</italic> &lt; 0.0001), whereby watching without sound resulted in significantly longer reading times on the subtitle area. As expected, compared to the UK baseline, Group had a positive main effect for PL (<italic>b</italic> = 233.68, <italic>SE</italic> = 42.73, <italic>t</italic> = 5.468, <italic>p</italic> &lt; 0.0001) but not for AUS (<italic>b</italic> = -22.80, <italic>SE</italic> = 44.70, <italic>t</italic> = -0.510, <italic>p</italic> = 0.611). These results indicate that L2 viewers spend significantly longer in the subtitle area compared to both L1 cohorts. No significant interaction between Sound and Group was found.</p>
+</sec>
+<sec id="sec023">
+<title>Skipping</title>
+<p>The skipping analysis also revealed a main effect of Sound (<italic>b</italic> = -1.192, <italic>SE</italic> = 0.107, <italic>z</italic> = -11.070, <italic>p</italic> &lt; 0.0001), with the negative sign of the coefficient indicating that viewers are significantly less likely to skip entire subtitles than without sound. A statistically significant effect of Group also emerged, whereby skipping rates for the PL cohort (<italic>b</italic> = -0.907, <italic>SE</italic> = 0.247, <italic>z</italic> = -3.672, <italic>p</italic> = 0.0002) are significantly lower than both native cohorts. Again, no significant interactions emerged.</p>
+</sec>
+<sec id="sec024">
+<title>Crossover counts</title>
+<p>In the crossover analysis, unlike in all other analyses, no main effect of Sound was found. Regarding the number of crossovers by Group, the AUS cohort made significantly more visits to the images than the UK cohort (<italic>b</italic> = 0.102, <italic>SE</italic> = 0.038, <italic>t</italic> = 2.667, <italic>p</italic> = 0.008). The PL cohort, on the other hand, did not differ significantly from the UK cohort (<italic>b</italic> = -0.055, <italic>SE</italic> = 0.036, <italic>t</italic> = -1.500, <italic>p</italic> = 0.135), although the negative sign of the coefficient confirms that L2 viewers make fewer crossovers than both L1 cohorts. No significant interaction emerged.</p>
+</sec>
+</sec>
+<sec id="sec025">
+<title>Semi-structured interviews</title>
+<p>[Section omitted: includes direct participant quotations.]</p></sec>
+</sec>
+<sec id="sec028" sec-type="conclusions">
+<title>Discussion</title>
+<p>The aim of this study was to investigate how the presence or absence of sound influences viewers’ comprehension, recall, cognitive load, immersion, enjoyment, and eye movements. Furthermore, we explored how the impact of sound affects viewers of different language varieties by considering three participant groups: L1-Polish speakers with high L2-English proficiency, along with L1-English speakers of British English and Australian English. Using a convergent mixed methods approach [<xref ref-type="bibr" rid="pone.0306251.ref015">15</xref>], we triangulated the quantitative data with the qualitative assessment of people’s reasons for watching audiovisual content without sound collected via in-depth interviews. The qualitative findings also provided a more comprehensive account of participant perceptions.</p>
+<sec id="sec029">
+<title>The impact of sound</title>
+<p>A consistent pattern of results emerged overall, indicating that the absence of sound had a negative effect on all aspects of the viewing experience as assessed in the questionnaires: comprehension, recall, cognitive load, enjoyment, and immersion. Across all measures, when the sound was turned off, participants’ level of comprehension, recall, enjoyment and immersion significantly diminished in comparison to when the sound was on. Furthermore, participants reported experiencing higher cognitive load, particularly in terms of the effort required to watch, when the sound was absent.</p>
+<p>It is important to acknowledge that while the removal of sound did indeed have an adverse effect on comprehension, the magnitude of these findings was relatively modest, as indicated by the small effect size reported in the tests. For example, when sound was present, comprehension was slightly higher overall at 81%, but the condition without sound yielded 78% accuracy, so participants’ understanding was still relatively high. In a broader perspective, this difference does not appear particularly substantial. Therefore, although the overall viewing experience is more complete, immersive and enjoyable with sound, the absence of sound does not reach a level of detriment that would generally dissuade viewers from engaging in this type of experience. Moreover, recall was not significantly affected by Sound, which shows that participants were able to recall exact words and expressions equally well with and without sound.</p>
+<p>Unlike in the case of comprehension and recall, where the mean differences between watching videos with and without sound were relatively minor and their effect sizes were small, the differences in cognitive load, immersion and enjoyment were more substantial, with large effect sizes. In general, participants experienced lower immersion and enjoyment as well as higher cognitive load without sound. We also found that these effects correlate: the higher the cognitive load reported by participants, the lower their immersion and enjoyment, which is in line with our expectations.</p>
+<p>The removal of sound led to an increased cognitive load, although not all cognitive load indicators were affected equally. Notably, the one most significantly affected was effort, which was highest in the condition without sound across all participant groups. Interestingly, when we take into account the comprehension and recall findings, although participants exerted greater effort, they were able to attain similar levels of comprehension and recall. It appears, therefore, that participants were able to effectively handle the task demands created by taking away the sound when watching the videos used in this study. It remains possible, however, that the cognitive effort required to follow longer videos over an extended period may potentially lead to fatigue–an effect we could not assess in the current design, which used relatively short video clips.</p>
+<p>In terms of the cognitive load theory [<xref ref-type="bibr" rid="pone.0306251.ref020">20</xref>], the findings of this study confirm the hypothesis proposed by Sweller and colleagues [<xref ref-type="bibr" rid="pone.0306251.ref075">75</xref>]. Our results support the multimodal and modality effects as well as the split attention postulated in the integrated model of text and picture comprehension [<xref ref-type="bibr" rid="pone.0306251.ref016">16</xref>]. The removal of the auditory channel resulted in increased cognitive load as all processing had to be performed within the visual channel. Additionally, our comprehension results also demonstrate a significant decrease in comprehension (albeit with small effect sizes, indicating that comprehension loss without sound is not that substantial, but it nevertheless occurs).</p>
+<p>The absence of sound also had an adverse effect on viewers’ immersion in the story world and their suspension of disbelief. In other words, the viewers’ capacity to [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref024">24</xref>] was compromised when sound was removed. A factor that is known to positively influence immersion is perceived realism [<xref ref-type="bibr" rid="pone.0306251.ref076">76</xref>]–the more realistic the viewing experience, the greater the potential for immersion. As succinctly expressed by participant PL44, [quoted wording omitted] so it is logical to conclude that the presence of sound leads to higher realism and viewing without sound therefore results in lower immersion. We note that our study focused on fictional narratives, which, on the one hand, typically induce higher levels of immersion than non-fictional genres, but, on the other hand, are commonly viewed with sound, unlike short-form social media videos. Furthermore, existing literature suggests a link between immersion and enjoyment: when viewers seek to maximise enjoyment, they [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref024">24</xref>]. Our study provides quantitative evidence for this relationship, where immersion showed a positive correlation with enjoyment.</p>
+<p>The results also showed that viewers derived significantly less enjoyment from the videos without sound. Prior research has shown that viewers’ sentiments towards film characters and their overall enjoyment hinge on [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0306251.ref077">77</xref>]. The ability to hear film characters speak enables viewers to connect with the characters’ emotions, fostering an affective disposition towards them. This was confirmed by several participants, including AUS33, who said: [quoted wording omitted], and participant UK25, who similarly observed, [quoted wording omitted].</p>
+<p>The role of sound in film extends to the accompanying mood music, influencing the emotions elicited during film viewing. Without sound, self-identification with characters and the formation of an emotional bond with them becomes more challenging for viewers, resulting in diminished enjoyment. Indeed, the interviews echoed the findings from the questionnaires, as participants described the videos without sound as [quoted wording omitted] and [quoted wording omitted] thus confirming that the absence of sound contributes to a less engaging and emotionally resonant viewing experience. We additionally note that the types of audiovisual content participants typically watch without sound are short-form videos on social media, where there is less chance to form an emotional bond than in TV shows with a more complex narrative and story world. To sum up, the results consistently showed that the absence of sound had a negative impact on various aspects of the viewing experience, as perceived by the participants.</p>
+<p>In line with our expectations, in terms of the eye-tracking analyses the absence of sound also had a measurable effect across nearly all eye movements examined. Taking away the sound resulted in significantly longer mean fixation durations and total reading times, as well as lower skipping rates on the subtitles, indicating that all participants focused their visual attention on this area when watching without sound. This is relatively understandable if we consider that, without sound, the subtitles are the only source of verbal information enabling viewers to follow the storyline–resulting in more thorough text reading in this condition. The quantitative eye-tracking results with respect to sound thus confirm the questionnaire analyses and the qualitative data emerging from the interviews. They are also aligned with other studies where the presence of sound was shown to affect subtitle reading by decreasing total reading time [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref038">38</xref>] and resulted in more subtitle skipping [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref041">41</xref>].</p>
+<p>Interestingly, however, and contrary to our expectations, the crossover analysis did not reveal a statistically significant effect of sound: participants shifted attention between the subtitles and the images in comparable amounts in both sound conditions. The reasons for this finding could be manifold. First, some participants found speaker identification challenging without sound. This could have triggered compensatory crossovers to the images and back to the text to try and identify which characters the subtitle words were being uttered by, especially in a dialogue-heavy TV scenes featuring several participants conversing on screen. Interviews revealed that participants felt they were not processing facial expressions and other details in the images without sound, reinforcing the need for attention shifts. Moreover, participants also mentioned the shorter distance that the eyes must travel between the subtitles and the images on mobile devices (which is where they usually watch audiovisual content without sound) compared to the much larger monitor screen used in the experiment. Participants feeling that watching without sound became easier as the clip progressed may suggest a flexible application of compensation strategies, particularly in cases of unclear speaker identification from written verbal input alone. This adaptability could have contributed to masking the overall trend that is nevertheless visible in the data, i.e., that fewer crossovers are made without sound, reflecting an increased reliance on the subtitles.</p>
+<p>Overall, removing the soundtrack affected the viewing experience in significant ways, increasing the reliance on subtitles. This was evidenced through increased inclination to read them (as indicated by less skipping) and a more thorough processing evidenced by longer fixation durations, both in total and on average. In consequence, the images were visited less often (as evidenced by lower crossover counts), but not significantly so, as viewers could and did redirect attention to the images if they felt that they needed to. By triangulating eye movements, comprehension, and interview data it is possible to conclude that, in the absence of sound, viewers adapt their gaze using metacognitive strategies to maintain comprehension. This involves not only reading the subtitles more thoroughly, but also referring to the images when character identification is challenging or when looking at character faces aids in deducing emotions, intentions, or the interactional dynamics crucial for understanding the unfolding action.</p>
+</sec>
+<sec id="sec030">
+<title>Watching with and without sound in L1 and L2 contexts</title>
+<p>When it comes to differences between the three groups, we expected that Polish participants, as L2-English speakers, would face greater challenges with the task, leading to higher cognitive load and reduced levels of comprehension, recall, enjoyment, and immersion in self-reported measures. However, contrary to our hypothesis, there were no statistically significant differences between language groups in terms of comprehension, recall, or enjoyment. While British participants did indeed report the lowest level of effort, it was the Australian participants, rather than Polish, whose self-reported effort was the highest. Regarding immersion, a significant difference emerged between L1 and L2 cohorts but only insofar as Australian viewers experienced significantly lower immersion than Polish viewers. The fact that Polish viewers did not report the highest effort or lowest immersion could be attributed to the fact that they were highly proficient in English and familiar with the nature of the task of watching L2-English-language content with L2-English subtitles. Indeed, previous research has indicated that being accustomed to subtitling could influence viewers’ perception and experience of the task; for instance, in a study by Jensema [<xref ref-type="bibr" rid="pone.0306251.ref078">78</xref>], those less familiar with subtitling tended to feel less at ease with faster subtitle speeds. Moreover, although Australian participants were younger than both British and Polish participants, and younger generations are generally more used to watching subtitled videos without sound [<xref ref-type="bibr" rid="pone.0306251.ref008">8</xref>], this was not the case in the young Australian cohort examined in the present study, whose ratings regarding familiarity with watching without sound were the lowest (see ‘Participants’ section).</p>
+<p>When it comes to the eye-tracking analyses, our hypotheses were largely confirmed. A main effect of language emerged in the total reading time and skipping analyses, as the Polish cohort spent considerably longer reading subtitles and tended to skip them less compared to the L1-English cohorts both with and without sound. This aligns with the findings presented by Liao et al. [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>], who also investigated viewing behaviour in L1 and L2 both with and without sound. Our findings overall confirm their results and show that reading in a second language, despite proficiency in that language, remains slower than reading in one’s native language. They also suggest that having the soundtrack available in one’s native language (as was the case for British and Australian viewers) makes processing more effective compared to when it is available in a second language (Polish viewers).</p>
+<p>In terms of mean fixation duration, which is an indicator of cognitive load and depth of processing [<xref ref-type="bibr" rid="pone.0306251.ref042">42</xref>], Australian participants had the highest MFD among all groups, although this difference did not reach statistical significance. The highest cognitive effort registered via eye movements therefore corresponds to the highest cognitive effort as self-reported by the Australian participants. The lack of statistical significance in this difference is not unexpected, given the highly idiosyncratic individual differences in MFD scores among people [<xref ref-type="bibr" rid="pone.0306251.ref042">42</xref>]. It is also consistent with prior research findings, which did not find statistical differences in MFD [<xref ref-type="bibr" rid="pone.0306251.ref017">17</xref>, <xref ref-type="bibr" rid="pone.0306251.ref022">22</xref>].</p>
+<p>In the crossover analysis, we found an unexpected effect of language variety, as it was the Australian–and not Polish–participants who differed significantly from British participants, in that they made more visits to the images regardless of whether sound was present or absent. The only significant differences found between the two L1 cohorts are therefore in terms of crossovers and self-reported effort. One explanation for these differences between Australian and British participants could be familiarity effects with the American accent of the video, as research has shown perceivable differences between English varieties. For example, cross-entropy–a measure of the differences across language varieties–between American and Australian English is 25.8, between American and British English is 36.8, and between British and Australian 2.9 [<xref ref-type="bibr" rid="pone.0306251.ref068">68</xref>]. These values not only highlight the distinctive nature of these varieties, but also emphasise that both British and Australian varieties are relatively distant from the American one. In principle, therefore, if a viewer is unfamiliar with this relatively distant L1 language variety, they might process information more slowly or scrutinise images to confirm details, such as faces and lips. Given that different pronunciation and intonation patterns can affect speech perception even in L1 speakers [<xref ref-type="bibr" rid="pone.0306251.ref058">58</xref>, <xref ref-type="bibr" rid="pone.0306251.ref059">59</xref>], it is possible that the L1-Australian cohort’s potential unfamiliarity with the language variety in the dialogues could have increased the effort required to follow the dialogues. This, in turn, may have contributed to a higher frequency of shifts towards the images and a greater self-reported effort compared to L1-British participants. Finally, the idiosyncratic reading behaviour of the Australian cohort could also be partially due to individual differences in how they approached and how much they appreciated the whole viewing experience. The self-reports analysed above clearly show that they reported not only the highest effort, but also the lowest immersion and enjoyment, as well as the lowest comprehension and recall scores. Therefore, as reiterated in the interviews, Australian participants found the experience–especially without sound–more difficult than British participants overall. This could have affected how often they went back to the images and be reflected in the highest self-reported effort scores.</p>
+</sec>
+</sec>
+<sec id="sec031">
+<title>Conclusion, limitations and future research</title>
+<p>This mixed methods study investigated how sound influences viewers’ comprehension, recall, cognitive load, immersion, enjoyment, and eye movements. Additionally, we examined how the presence or absence of sound impacts viewers from different language varieties in three participant groups: Polish speakers with high L2-English proficiency and L1-English speakers of British English and Australian English. Both quantitative and qualitative strands of the study revealed that when watching subtitled videos without sound, viewers experienced higher cognitive load, lower immersion and enjoyment, and somewhat reduced comprehension and recall. The absence of sound significantly affected the viewing experience by increasing the viewers’ inclination to read and process subtitles more thoroughly. In terms of reading behaviour, L2 participants spent more time reading the subtitles and skipped fewer subtitles than the L1 groups.</p>
+<p>We also need to acknowledge some limitations of the study. The three participant cohorts involved differed in terms of age as well as familiarity with subtitling: Australian participants tended to be younger and less experienced with subtitling compared to participants from the UK and Poland. This demographic disparity could potentially introduce a confounding factor. Factors like participants’ multilingualism and reading skills were not systematically controlled for, which is another limitation that needs to be acknowledged and limits the generalisability of the findings.</p>
+<p>Despite these limitations, however, the present study shows that removing sound has the potential to exert top-down influences across all participants regardless of language variety, altering both subtitle reading behaviour and the overall film viewing experience. The addition of sound leads to a significant decrease in the time spent on subtitles and an increase in skipping, suggesting active engagement with the soundtrack. The results show that sound modulates the need for subtitles, which become less essential when sound is present.</p>
+<p>This study focussed on reading English-language subtitles in an English-language TV show. More research is needed with other language combinations, and particularly looking at subtitle <italic>translations</italic>–i.e., cases when the written input is not a near word-by-word <italic>transcription</italic> of the audio input but involves content transfer from another language–as this may also affect reading patterns. Studies investigating the influence of accents on subtitle reading could also provide more information on whether familiarity with a given spoken language variety would impact eye movements when reading subtitles.</p>
+<p>On a related note, we also acknowledge that in this study reading behaviour was only examined at the subtitle level. In the future, including more nuanced, word-level measures will be useful in examining reading strategies with and without sound, and assessing whether different classes of words are affected differently. Another fruitful avenue for research is investigating how the absence of sounds affects processing of the moving <italic>images</italic>, which constitute a key yet relatively understudied component of watching subtitled films. Finally, in future research, it would also be valuable to investigate the effects of the absence of sound on the viewing experience with clips of different lengths and genres. On the one hand, short-form video content on social media platforms deserves more attention, as this appears to be the context in which watching without sound most often occurs. On the other hand, examining longer video materials such as complete episodes would be useful to assess whether other effects such as fatigue come into play, as this might have more pronounced effects on comprehension, cognitive load, immersion, and enjoyment, whilst eye movement patterns could also reflect different or additional viewing strategies.</p>
+</sec>
+<sec id="sec032" sec-type="supplementary-material">
+<title>Supporting information</title>
+<p>[Supplement omitted.]</p></sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0306251.ref001"><label>1</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Díaz-Cintas</surname> <given-names>J.</given-names></name> and <name name-style="western"><surname>Remael</surname> <given-names>A.</given-names></name>, <chapter-title>Subtitling</chapter-title>. <source><italic>Concepts and Practices</italic></source>. <year>2021</year>, <publisher-loc>London and New York</publisher-loc>: <publisher-name>Routledge</publisher-name>.</mixed-citation></ref>
+<ref id="pone.0306251.ref002"><label>2</label><mixed-citation publication-type="other" xlink:type="simple">Vega, E., <italic>Why we all need subtitles now</italic>. <italic>It’s not you—TV dialogue has gotten harder to hear</italic>. 2023, Vox.com.</mixed-citation></ref>
+<ref id="pone.0306251.ref003"><label>3</label><mixed-citation publication-type="other" xlink:type="simple">Zajechowski, M. <italic>Why America is (still) obsessed with subtitles</italic>. Preply, 2023.</mixed-citation></ref>
+<ref id="pone.0306251.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Flis</surname> <given-names>G.</given-names></name> and <name name-style="western"><surname>Szarkowska</surname> <given-names>A.</given-names></name>, <article-title>Voice-over country? Okay, Boomer. How young viewers are disrupting the AVT landscape in Poland</article-title>. <source>Journal of Specialised Translation</source>, <year>2024</year>. <volume>42</volume>: p. <fpage>193</fpage>–<lpage>216</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref005"><label>5</label><mixed-citation publication-type="other" xlink:type="simple">Greenwood, G., <italic>Younger TV viewers prefer to watch with subtitles on</italic>, in <italic>The Times</italic>. 2023: London. p. 18.</mixed-citation></ref>
+<ref id="pone.0306251.ref006"><label>6</label><mixed-citation publication-type="other" xlink:type="simple">Kanter, J., <italic>Young people use subtitles to get the plot</italic>, in <italic>The Times</italic>. 2021. p. 20.</mixed-citation></ref>
+<ref id="pone.0306251.ref007"><label>7</label><mixed-citation publication-type="other" xlink:type="simple">YPulse <italic>The Majority of Young People Are Using Subtitles When They Watch TV</italic>. YPulse, 2022.</mixed-citation></ref>
+<ref id="pone.0306251.ref008"><label>8</label><mixed-citation publication-type="other" xlink:type="simple">Zajechowski, M., <italic>Survey</italic>: <italic>Why America is obsessed with subtitles</italic>. 2022, Preply.</mixed-citation></ref>
+<ref id="pone.0306251.ref009"><label>9</label><mixed-citation publication-type="other" xlink:type="simple">Forsberg, C. <italic>Subtitles become popular among general population due to changes in TV</italic>, <italic>film consumption</italic>. ABC News: Australian Broadcasting Corporation., 2023.</mixed-citation></ref>
+<ref id="pone.0306251.ref010"><label>10</label><mixed-citation publication-type="other" xlink:type="simple">Cunningham, K., <italic>Mumbling actors</italic>, <italic>bad speakers or lazy listeners</italic>? <italic>Why everyone is watching TV with subtitles on</italic>, in <italic>The Guardian</italic>. 2023.</mixed-citation></ref>
+<ref id="pone.0306251.ref011"><label>11</label><mixed-citation publication-type="other" xlink:type="simple">McCue, T., <italic>Verizon Media Says 69 Percent Of Consumers Watching Video With Sound Off</italic>, in <italic>Forbes</italic>. 2019.</mixed-citation></ref>
+<ref id="pone.0306251.ref012"><label>12</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Bordwell</surname> <given-names>D.</given-names></name> and <name name-style="western"><surname>Thompson</surname> <given-names>K.</given-names></name>, <source>Film art: an introduction</source>. <edition designator="9">9th ed</edition>. <year>2010</year>, <publisher-loc>New York</publisher-loc>: <publisher-name>McGraw-Hill Higher Education</publisher-name>.</mixed-citation></ref>
+<ref id="pone.0306251.ref013"><label>13</label><mixed-citation publication-type="other" xlink:type="simple">Neumeyer, D., <italic>The Oxford Handbook of Film Music Studies</italic>. 2013.</mixed-citation></ref>
+<ref id="pone.0306251.ref014"><label>14</label><mixed-citation publication-type="other" xlink:type="simple">Cohen, A.J., <italic>Film Music from the Perspective of Cognitive Science</italic>, in <italic>The Oxford Handbook of Film Music Studies</italic>. 2013, Oxford University Press. p. 0.</mixed-citation></ref>
+<ref id="pone.0306251.ref015"><label>15</label><mixed-citation publication-type="other" xlink:type="simple">Creswell, J.W. and J.D. Cresswell, <italic>Research Design</italic>. <italic>Qualitative</italic>, <italic>Quantitative</italic>, <italic>and Mixed Methods Approaches</italic>. 2018: Sage.</mixed-citation></ref>
+<ref id="pone.0306251.ref016"><label>16</label><mixed-citation publication-type="other" xlink:type="simple">Schnotz, W., <italic>An Integrated Model of Text and Picture Comprehension</italic>, in <italic>The Cambridge Handbook of Multimedia Learning</italic>. 2005. p. 49–70.</mixed-citation></ref>
+<ref id="pone.0306251.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liao</surname> <given-names>S.</given-names></name>, <etal>et al</etal>., <article-title>The impact of audio on the reading of intralingual versus interlingual subtitles: Evidence from eye movements</article-title>. <source>Applied Psycholinguistics</source>, <year>2022</year>. <volume>41</volume>(<issue>1</issue>): p. <fpage>237</fpage>–<lpage>269</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liao</surname> <given-names>S.</given-names></name>, <etal>et al</etal>., <article-title>Using Eye Movements to Study the Reading of Subtitles in Video</article-title>. <source>Scientific Studies of Reading</source>, <year>2021</year>. <volume>25</volume>(<issue>5</issue>): p. <fpage>417</fpage>–<lpage>435</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref019"><label>19</label><mixed-citation publication-type="other" xlink:type="simple">Mayer, R.E., <italic>Cognitive Theory of Multimedia Learning</italic>, in <italic>The Cambridge Handbook of Multimedia Learning</italic>. 2005. p. 31–48.</mixed-citation></ref>
+<ref id="pone.0306251.ref020"><label>20</label><mixed-citation publication-type="other" xlink:type="simple">Mayer, R.E., <italic>The Cambridge Handbook of Multimedia Learning</italic>. 2nd edition ed. Cambridge Handbooks in Psychology. 2014, West Nyack: Cambridge University Press.</mixed-citation></ref>
+<ref id="pone.0306251.ref021"><label>21</label><mixed-citation publication-type="other" xlink:type="simple">Sweller, J., <italic>Implications of Cognitive Load Theory for Multimedia Learning</italic>. 2005, Cambridge University Press. p. 19–30.</mixed-citation></ref>
+<ref id="pone.0306251.ref022"><label>22</label><mixed-citation publication-type="other" xlink:type="simple">Łuczak, K., <italic>The effects of the language of the soundtrack on film comprehension</italic>, <italic>cognitive load and subtitle reading patterns</italic>. <italic>An eye-tracking study</italic>., in <italic>Institite of Applied Linguistics</italic>. 2017, University of Warsaw: Warsaw.</mixed-citation></ref>
+<ref id="pone.0306251.ref023"><label>23</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Chandler</surname> <given-names>D.</given-names></name> and <name name-style="western"><surname>Munday</surname> <given-names>R.</given-names></name>, <chapter-title>Suspension of disbelief</chapter-title>, in <source><italic>A Dictionary of Media and Communication</italic></source>. <year>2016</year>, <publisher-name>Oxford University Press</publisher-name>: <publisher-loc>Oxford</publisher-loc>.</mixed-citation></ref>
+<ref id="pone.0306251.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ji</surname> <given-names>Q.</given-names></name> and <name name-style="western"><surname>Raney</surname> <given-names>A.A.</given-names></name>, <article-title>Examining suspension of disbelief, perceived realism, and involvement in the enjoyment of documentary-style fictional films</article-title>. <source>Projections (New York, N.Y.)</source>, <year>2016</year>. <volume>10</volume>(<issue>2</issue>): p. <fpage>125</fpage>–<lpage>142</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>T.</given-names></name> and <name name-style="western"><surname>Biocca</surname> <given-names>F.</given-names></name>, <article-title>Telepresence via Television: Two Dimensions of Telepresence May Have Different Connections to Memory and Persuasion</article-title>. <source>Journal of Computer-Mediated Communication</source>, <year>1997</year>. <volume>3</volume>(<issue>2</issue>): p. <fpage>0</fpage>–<lpage>0</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref026"><label>26</label><mixed-citation publication-type="other" xlink:type="simple">Kruger, J.-L. and S. Doherty, <italic>Triangulation of online and offline measures of processing and reception in AVT</italic>, in <italic>Reception Studies and Audiovisual Translation</italic>, E. Di Giovanni and Y. Gambier, Editors. 2018, John Benjamins: Amsterdam/New York. p. 91–109.</mixed-citation></ref>
+<ref id="pone.0306251.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nilsson</surname> <given-names>N.C.</given-names></name>, <name name-style="western"><surname>Nordahl</surname> <given-names>R.</given-names></name>, and <name name-style="western"><surname>Serafin</surname> <given-names>S.</given-names></name>, <article-title>Immersion Revisited: A Review of Existing Definitions of Immersion and Their Relation to Different Theories of Presence</article-title>. <source>Human Technology</source>, <year>2016</year>. <volume>12</volume>(<issue>2</issue>): p. <fpage>108</fpage>–<lpage>134</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cohen</surname> <given-names>A.</given-names></name>, <name name-style="western"><surname>MacMillan</surname> <given-names>K.</given-names></name>, and <name name-style="western"><surname>Drew</surname> <given-names>R.</given-names></name>, <article-title>The Role of Music, Sound Effects &amp; Speech on Absorption in a Film: The Congruence-Associationist Model of Media Cognition</article-title>. <source>Canadian Acoustics/Acoustique canadienne</source>, <year>2006</year>. <volume>34</volume>(<issue>3</issue>): p. <fpage>40</fpage>–<lpage>41</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref029"><label>29</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kock</surname> <given-names>M.</given-names></name> and <name name-style="western"><surname>Louven</surname> <given-names>C.</given-names></name>, <article-title>The Power of Sound Design in a Moving Picture: an Empirical Study with emoTouch for iPad</article-title>. <source>Empirical musicology review</source>, <year>2018</year>. <volume>13</volume>(<issue>3/4</issue>): p. <fpage>132</fpage>–<lpage>148</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weibel</surname> <given-names>D.</given-names></name>, <name name-style="western"><surname>Wissmath</surname> <given-names>B.</given-names></name>, and <name name-style="western"><surname>Mast</surname> <given-names>F.W.</given-names></name>, <article-title>Immersion in Mediated Environments: The Role of Personality Traits</article-title>. <source>CyberPsychology, Behavior &amp; Social Networking</source>, <year>2010</year>. <volume>13</volume>(<issue>3</issue>): p. <fpage>251</fpage>–<lpage>256</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/cyber.2009.0171" xlink:type="simple">10.1089/cyber.2009.0171</ext-link></comment> <object-id pub-id-type="pmid">20557243</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref031"><label>31</label><mixed-citation publication-type="other" xlink:type="simple">Rigby, J.M., et al., <italic>Development of a Questionnaire to Measure Immersion in Video Media</italic>, in <italic>Proceedings of the 2019 ACM International Conference on Interactive Experiences for TV and Online Video</italic>. 2019. p. 35–46.</mixed-citation></ref>
+<ref id="pone.0306251.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lombard</surname> <given-names>M.</given-names></name> and <name name-style="western"><surname>Ditton</surname> <given-names>T.</given-names></name>, <article-title>At the Heart of It All: The Concept of Presence</article-title>. <source>Journal of Computer-Mediated Communication</source>, <year>1997</year>. <volume>3</volume>(<issue>2</issue>).</mixed-citation></ref>
+<ref id="pone.0306251.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tamborini</surname> <given-names>R.</given-names></name>, <etal>et al</etal>., <article-title>Defining media enjoyment as the satisfaction of intrinsic needs</article-title>. <source>Journal of Communication</source>, <year>2010</year>. <volume>60</volume>(<issue>4</issue>): p. <fpage>758</fpage>–<lpage>777</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref034"><label>34</label><mixed-citation publication-type="other" xlink:type="simple">Raney, A.A., <italic>Media enjoyment as a function of affective dispositions toward and moral judgment of characters</italic>, in <italic>The Routledge Handbook of Emotions and Mass Media</italic>, K. Döveling, C. von Scheve, and E.A. Konijn, Editors. 2010.</mixed-citation></ref>
+<ref id="pone.0306251.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kruger</surname> <given-names>J.-L.</given-names></name>, <name name-style="western"><surname>Szarkowska</surname> <given-names>A.</given-names></name>, and <name name-style="western"><surname>Krejtz</surname> <given-names>I.</given-names></name>, <article-title>Subtitles on the moving image: an overview of eye tracking studies</article-title>. <source>Refractory</source>, <year>2015</year>. <volume>25</volume>.</mixed-citation></ref>
+<ref id="pone.0306251.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>d’Ydewalle</surname> <given-names>G.</given-names></name>, <etal>et al</etal>., <article-title>Watching subtitled television: automatic reading behavior</article-title>. <source>Communication Research</source>, <year>1991</year>. <volume>18</volume>(<issue>5</issue>): p. <fpage>650</fpage>–<lpage>666</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bisson</surname> <given-names>M.-J.</given-names></name>, <etal>et al</etal>., <article-title>Processing of native and foreign language subtitles in films: An eye tracking study</article-title>. <source>Applied Psycholinguistics</source>, <year>2014</year>. <volume>35</volume>(<issue>02</issue>): p. <fpage>399</fpage>–<lpage>418</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref038"><label>38</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>d’Ydewalle</surname> <given-names>G.</given-names></name>, <name name-style="western"><surname>Van Rensbergen</surname> <given-names>J.</given-names></name>, and <name name-style="western"><surname>Pollet</surname> <given-names>J.</given-names></name>, <chapter-title>Reading a message when the same message is available auditorily in another language: the case of subtitling</chapter-title>, in <source><italic>Eye movements</italic>: <italic>from physiology to cognition</italic></source>, <name name-style="western"><surname>O’Regan</surname> <given-names>J.K.</given-names></name> and <name name-style="western"><surname>Levy-Schoen</surname> <given-names>A.</given-names></name>, Editors. <year>1987</year>, <publisher-loc>Elsevier</publisher-loc>: <publisher-name>Amsterdam/New York</publisher-name>. p. <fpage>313</fpage>–<lpage>321</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Szarkowska</surname> <given-names>A.</given-names></name> and <name name-style="western"><surname>Gerber-Morón</surname> <given-names>O.</given-names></name>, <article-title>Viewers can keep up with fast subtitles: Evidence from eye movements</article-title>. <source>Plos One</source>, <year>2018</year>. <volume>13</volume>(<issue>6</issue>). <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0199331" xlink:type="simple">10.1371/journal.pone.0199331</ext-link></comment> <object-id pub-id-type="pmid">29920538</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Szarkowska</surname> <given-names>A.</given-names></name> and <name name-style="western"><surname>Bogucka</surname> <given-names>L.</given-names></name>, <article-title>Six-second rule revisited: An eye-tracking study on the impact of speech rate and language proficiency on subtitle reading</article-title>. <source>Translation, Cognition &amp; Behavior</source>, <year>2019</year>. <volume>2</volume>(<issue>1</issue>): p. <fpage>101</fpage>–<lpage>124</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ross</surname> <given-names>N.M.</given-names></name> and <name name-style="western"><surname>Kowler</surname> <given-names>E.</given-names></name>, <article-title>Eye movements while viewing narrated, captioned, and silent videos</article-title>. <source>Journal of Vision</source>, <year>2013</year>. <volume>13</volume>(<issue>4</issue>): p. <fpage>1</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1167/13.4.1" xlink:type="simple">10.1167/13.4.1</ext-link></comment> <object-id pub-id-type="pmid">23457357</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref042"><label>42</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Holmqvist</surname> <given-names>K.</given-names></name>, <etal>et al</etal>., <source><italic>Eye tracking</italic>: <italic>a comprehensive guide to methods and measures</italic></source>. <year>2011</year>, <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref>
+<ref id="pone.0306251.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Montero Perez</surname> <given-names>M.</given-names></name>, <name name-style="western"><surname>Peters</surname> <given-names>E.</given-names></name>, and <name name-style="western"><surname>Desmet</surname> <given-names>P.</given-names></name>, <article-title>Is less more? Effectiveness and perceived usefulness of keyword and full captioned video for L2 listening comprehension</article-title>. <source>ReCALL</source>, <year>2013</year>. <volume>26</volume>(<issue>01</issue>): p. <fpage>21</fpage>–<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Montero Perez</surname> <given-names>M.</given-names></name>, <article-title>Second or foreign language learning through watching audio-visual input and the role of on-screen text</article-title>. <source>Language Teaching</source>, <year>2022</year>. <volume>55</volume>(<issue>2</issue>): p. <fpage>163</fpage>–<lpage>192</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gass</surname> <given-names>S.</given-names></name>, <etal>et al</etal>., <article-title>How captions help people learn languages: A working-memory, eye-tracking study</article-title>. <source>Language Learning &amp; Technology</source>, <year>2019</year>. <volume>23</volume>(<issue>2</issue>): p. <fpage>84</fpage>–<lpage>104</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Neuman</surname> <given-names>S.B.</given-names></name> and <name name-style="western"><surname>Koskinen</surname> <given-names>P.</given-names></name>, <article-title>Captioned Television as Comprehensible Input: Effects of Incidental Word Learning from Context for Language Minority Students</article-title>. <source>Reading Research Quarterly</source>, <year>1992</year>. <volume>27</volume>(<issue>1</issue>): p. <fpage>95</fpage>–<lpage>106</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Winke</surname> <given-names>P.</given-names></name>, <name name-style="western"><surname>Gass</surname> <given-names>S.</given-names></name>, and <name name-style="western"><surname>Sydorenko</surname> <given-names>T.</given-names></name>, <article-title>The Effects of Captioning Videos Used for Foreign Language Listening Activities</article-title>. <source>Language learning &amp; technology</source>, <year>2010</year>. <volume>14</volume>(<issue>1</issue>): p. <fpage>65</fpage>–<lpage>86</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref048"><label>48</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname> <given-names>M.</given-names></name> and <name name-style="western"><surname>Révész</surname> <given-names>A.</given-names></name>, <article-title>Promoting grammatical development through captions and textual enhancement in multimodal input-based tasks</article-title>. <source>Studies in Second Language Acquisition</source>, <year>2020</year>. <volume>42</volume>(<issue>3</issue>): p. <fpage>625</fpage>–<lpage>651</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref049"><label>49</label><mixed-citation publication-type="other" xlink:type="simple">Segalowitz, N., <italic>Cognitive bases of second language fluency</italic>. Cognitive science and second language acquisition series. 2010, New York: Routledge.</mixed-citation></ref>
+<ref id="pone.0306251.ref050"><label>50</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Winke</surname> <given-names>P.</given-names></name>, <name name-style="western"><surname>Gass</surname> <given-names>S.</given-names></name>, and <name name-style="western"><surname>Sydorenko</surname> <given-names>T.</given-names></name>, <article-title>Factors Influencing the Use of Captions by Foreign Language Learners: An Eye-Tracking Study</article-title>. <source>The Modern Language Journal</source>, <year>2013</year>. <volume>97</volume>(<issue>1</issue>): p. <fpage>254</fpage>–<lpage>275</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref051"><label>51</label><mixed-citation publication-type="other" xlink:type="simple">Wisniewska, N. and J.C. Mora, <italic>Pronunciation learning through captioned videos</italic>, in <italic>Proceedings of the 9th Pronunciation in Second Language Learning and Teaching conference</italic>, J. Levis, Editor. 2018, Iowa State University. p. 204–215.</mixed-citation></ref>
+<ref id="pone.0306251.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Danan</surname> <given-names>M.</given-names></name>, <article-title>Captioning and Subtitling: Undervalued Language Learning Strategies</article-title>. <source>Meta: Journal des traducteurs</source>, <year>2004</year>. <volume>49</volume>(<issue>1</issue>).</mixed-citation></ref>
+<ref id="pone.0306251.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bird</surname> <given-names>S.A.</given-names></name> and <name name-style="western"><surname>Williams</surname> <given-names>J.N.</given-names></name>, <article-title>The effect of bimodal input on implicit and explicit memory: An investigation into the benefits of within-language subtitling</article-title>. <source>Applied Psycholinguistics</source>, <year>2002</year>. <volume>23</volume>(<issue>04</issue>).</mixed-citation></ref>
+<ref id="pone.0306251.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mitterer</surname> <given-names>H.</given-names></name> and <name name-style="western"><surname>McQueen</surname> <given-names>J.M.</given-names></name>, <article-title>Foreign subtitles help but native-language subtitles harm foreign speech perception</article-title>. <source>PLoS One</source>, <year>2009</year>. <volume>4</volume>(<issue>11</issue>): p. <fpage>e7785</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0007785" xlink:type="simple">10.1371/journal.pone.0007785</ext-link></comment> <object-id pub-id-type="pmid">19918371</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Markham</surname> <given-names>P.L.</given-names></name>, <name name-style="western"><surname>Peter</surname> <given-names>L.A.</given-names></name>, and <name name-style="western"><surname>McCarthy</surname> <given-names>T.J.</given-names></name>, <article-title>The Effects of Native Language vs. Target Language Captions on Foreign Language Students’ DVD Video Comprehension</article-title>. <source>Foreign Language Annals</source>, <year>2001</year>. <volume>34</volume>(<issue>5</issue>): p. <fpage>439</fpage>–<lpage>45</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Danan</surname> <given-names>M.</given-names></name>, <article-title>Enhancing listening with captions and transcripts: Exploring learner differences</article-title>. <source>Applied Language Learning</source>, <year>2016</year>. <volume>26</volume>(<issue>2</issue>): p. <fpage>1</fpage>–<lpage>24</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Conklin</surname> <given-names>K.</given-names></name>, <etal>et al</etal>., <article-title>What eye-tracking tells us about reading-only and reading-while-listening in a first and second language</article-title>. <source>Second Language Research</source>, <year>2020</year>. <volume>36</volume>(<issue>3</issue>): p. <fpage>257</fpage>–<lpage>276</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Floccia</surname> <given-names>C.</given-names></name>, <etal>et al</etal>., <article-title>Regional and foreign accent processing in English: can listeners adapt?</article-title> <source>Journal of Psycholinguistic Research</source>, <year>2009</year>. <volume>38</volume>(<issue>4</issue>): p. <fpage>379</fpage>–<lpage>412</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10936-008-9097-8" xlink:type="simple">10.1007/s10936-008-9097-8</ext-link></comment> <object-id pub-id-type="pmid">19117134</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref059"><label>59</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnhold</surname> <given-names>A.</given-names></name>, <etal>et al</etal>., <article-title>(Mis) understanding your native language: Regional accent impedes processing of information status</article-title>. <source>Psychonomic Bulletin &amp; Review</source>, <year>2020</year>. <volume>27</volume>(<issue>4</issue>): p. <fpage>801</fpage>–<lpage>808</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3758/s13423-020-01731-w" xlink:type="simple">10.3758/s13423-020-01731-w</ext-link></comment> <object-id pub-id-type="pmid">32378120</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref060"><label>60</label><mixed-citation publication-type="other" xlink:type="simple">Forristal, L. <italic>Streaming viewership surpassed cable TV for the first time</italic>, <italic>says Nielsen</italic>. TechCrunch, 2022.</mixed-citation></ref>
+<ref id="pone.0306251.ref061"><label>61</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bryman</surname> <given-names>A.</given-names></name>, <article-title>Integrating quantitative and qualitative research: how is it done?</article-title> <source>Qualitative Research</source>, <year>2016</year>. <volume>6</volume>(<issue>1</issue>): p. <fpage>97</fpage>–<lpage>113</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref062"><label>62</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lemhöfer</surname> <given-names>K.</given-names></name> and <name name-style="western"><surname>Broersma</surname> <given-names>M.</given-names></name>, <article-title>Introducing LexTALE: A quick and valid Lexical Test for Advanced Learners of English</article-title>. <source>Behavior Research Methods</source>, <year>2012</year>. <volume>44</volume>(<issue>2</issue>): p. <fpage>325</fpage>–<lpage>343</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3758/s13428-011-0146-0" xlink:type="simple">10.3758/s13428-011-0146-0</ext-link></comment> <object-id pub-id-type="pmid">21898159</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref063"><label>63</label><mixed-citation publication-type="other" xlink:type="simple">Peet, A. and A.J. Wyman. <italic>The Chair</italic>. 1–2. 2021.</mixed-citation></ref>
+<ref id="pone.0306251.ref064"><label>64</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Hart</surname> <given-names>S.G.</given-names></name> and <name name-style="western"><surname>Staveland</surname> <given-names>L.E.</given-names></name>, <chapter-title>Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research</chapter-title>., in <source><italic>Human mental workload</italic></source>, <name name-style="western"><surname>Hancock</surname> <given-names>P.A.</given-names></name> and <name name-style="western"><surname>Meshkati</surname> <given-names>N.</given-names></name>, Editors. <year>1988</year>, <publisher-loc>North-Holland</publisher-loc>: <publisher-name>Amsterdam</publisher-name>. p. <fpage>139</fpage>–<lpage>183</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref065"><label>65</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rayner</surname> <given-names>K.</given-names></name>, <article-title>Eye movements and attention in reading, scene perception, and visual search</article-title>. <source>The Quarterly Journal of Experimental Psychology</source>, <year>2009</year>. <volume>62</volume>(<issue>8</issue>): p. <fpage>1457</fpage>–<lpage>1506</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/17470210902816461" xlink:type="simple">10.1080/17470210902816461</ext-link></comment> <object-id pub-id-type="pmid">19449261</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref066"><label>66</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rayner</surname> <given-names>K.</given-names></name>, <article-title>Eye Movements in Reading and Information Processing: 20 Years of Research</article-title>. <source>Psychological Bulletin</source>, <year>1998</year>. <volume>124</volume>(<issue>3</issue>): p. <fpage>372</fpage>–<lpage>422</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/0033-2909.124.3.372" xlink:type="simple">10.1037/0033-2909.124.3.372</ext-link></comment> <object-id pub-id-type="pmid">9849112</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref067"><label>67</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reichle</surname> <given-names>E.D.</given-names></name>, <etal>et al</etal>., <article-title>Toward a Model of Eye Movement Control in Reading</article-title>. <source>Psychological review</source>, <year>1998</year>. <volume>105</volume>(<issue>1</issue>): p. <fpage>125</fpage>–<lpage>157</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/0033-295x.105.1.125" xlink:type="simple">10.1037/0033-295x.105.1.125</ext-link></comment> <object-id pub-id-type="pmid">9450374</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref068"><label>68</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ghorshi</surname> <given-names>S.</given-names></name>, <name name-style="western"><surname>Vaseghi</surname> <given-names>S.</given-names></name>, and <name name-style="western"><surname>Yan</surname> <given-names>Q.</given-names></name>, <article-title>Cross-entropic comparison of formants of British, Australian and American English accents</article-title>. <source>Speech Communication</source>, <year>2008</year>. <volume>50</volume>(<issue>7</issue>): p. <fpage>564</fpage>–<lpage>579</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref069"><label>69</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Meteyard</surname> <given-names>L.</given-names></name> and <name name-style="western"><surname>Davies</surname> <given-names>R.A.I.</given-names></name>, <article-title>Best practice guidance for linear mixed-effects models in psychological science</article-title>. <source>Journal of Memory and Language</source>, <year>2020</year>. <volume>112</volume>.</mixed-citation></ref>
+<ref id="pone.0306251.ref070"><label>70</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Silva</surname> <given-names>B.</given-names></name>, <name name-style="western"><surname>Orrego-Carmona</surname> <given-names>D.</given-names></name>, and <name name-style="western"><surname>Szarkowska</surname> <given-names>A.</given-names></name>, <article-title>Using linear mixed models to analyze data from eye-tracking research on subtitling</article-title>. <source>Translation Spaces</source>, <year>2022</year>. <volume>11</volume>(<issue>1</issue>): p. <fpage>60</fpage>–<lpage>88</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref071"><label>71</label><mixed-citation publication-type="other" xlink:type="simple">Bates, D., et al., <italic>Parsimonius Mixed Models</italic>. 2018.</mixed-citation></ref>
+<ref id="pone.0306251.ref072"><label>72</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eskenazi</surname> <given-names>M.A.</given-names></name>, <article-title>Best practices for cleaning eye movement data in reading research</article-title>. <source>Behavior Research Methods</source>, <year>2024</year>. <volume>56</volume>: p. <fpage>2083</fpage>–<lpage>2093</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3758/s13428-023-02137-x" xlink:type="simple">10.3758/s13428-023-02137-x</ext-link></comment> <object-id pub-id-type="pmid">37222925</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref073"><label>73</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brehm</surname> <given-names>L.</given-names></name> and <name name-style="western"><surname>Alday</surname> <given-names>P.M.</given-names></name>, <article-title>Contrast coding choices in a decade of mixed models</article-title>. <source>Journal of Memory and Language</source>, <year>2022</year>. <volume>125</volume>.</mixed-citation></ref>
+<ref id="pone.0306251.ref074"><label>74</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>von der Malsburg</surname> <given-names>T.</given-names></name> and <name name-style="western"><surname>Angele</surname> <given-names>B.</given-names></name>, <article-title>False Positives and Other Statistical Errors in Standard Analyses of Eye Movements in Reading</article-title>. <source>Journal of Memory and Language</source>, <year>2017</year>. <volume>94</volume>: p. <fpage>119</fpage>–<lpage>133</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jml.2016.10.003" xlink:type="simple">10.1016/j.jml.2016.10.003</ext-link></comment> <object-id pub-id-type="pmid">28603341</object-id></mixed-citation></ref>
+<ref id="pone.0306251.ref075"><label>75</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Sweller</surname> <given-names>J.</given-names></name>, <name name-style="western"><surname>Ayres</surname> <given-names>P.</given-names></name>, and <name name-style="western"><surname>Kalyuga</surname> <given-names>S.</given-names></name>, <source><italic>Cognitive Load Theory</italic></source>. <year>2011</year>, <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref>
+<ref id="pone.0306251.ref076"><label>76</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cho</surname> <given-names>H.</given-names></name>, <name name-style="western"><surname>Shen</surname> <given-names>L.</given-names></name>, and <name name-style="western"><surname>Wilson</surname> <given-names>K.</given-names></name>, <article-title>Perceived Realism</article-title>. <source>Communication Research</source>, <year>2014</year>. <volume>41</volume>(<issue>6</issue>): p. <fpage>828</fpage>–<lpage>851</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref077"><label>77</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Raney</surname> <given-names>A.A.</given-names></name>, <article-title>Expanding disposition theory: Reconsidering Character Liking, Moral Evaluations, and Enjoyment</article-title>. <source>Communication Theory</source>, <year>2004</year>. <volume>14</volume>(<issue>4</issue>): p. <fpage>348</fpage>–<lpage>369</lpage>.</mixed-citation></ref>
+<ref id="pone.0306251.ref078"><label>78</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jensema</surname> <given-names>C.</given-names></name>, <article-title>Viewer reaction to different television captioning speeds</article-title>. <source>American Annals of the Deaf</source>, <year>1998</year>. <volume>143</volume>(<issue>4</issue>): p. <fpage>318</fpage>–<lpage>324</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1353/aad.2012.0073" xlink:type="simple">10.1353/aad.2012.0073</ext-link></comment> <object-id pub-id-type="pmid">9842059</object-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

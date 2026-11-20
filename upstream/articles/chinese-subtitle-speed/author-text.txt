@@ -1,0 +1,899 @@
+The impact of subtitle speed on viewers: a mixed-methods eye-tracking study on Chinese interlingual subtitling
+Huihuang Jia, Agnieszka Szarkowska, Jorge Díaz-Cintas
+Perspectives (2026), DOI 10.1080/0907676X.2026.2686722
+Copyright © 2026 The Author(s). CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+[Adapted text extraction from the published version deposited at UCL. Not the original PDF. Illustrations, personal contact details, selected third-party or participant quotations, questionnaire examples and supplements excluded. Aggregate results and references retained.]
+
+ABSTRACT
+Subtitled audiovisual content is being consumed more than ever,
+and the increase in subtitle speeds has generated debates about
+what counts as a comfortable speed for viewers. In China,
+subtitling has a long tradition with a standard speed of about 5
+characters per second (cps), whereas international platforms such
+as Netflix adopt a faster rate of 9 cps. Yet, little is known about
+how such rapid speeds affect the viewing experience. This study
+examines the impact of subtitle speed on Chinese viewers by
+testing 31 participants who watched English-language videos
+subtitled into Chinese at both 5 and 9 cps. Using a mixed-
+methods design, we assessed comprehension, recall, cognitive
+load, enjoyment, satisfaction, reading behaviour, perceptions and
+preferences. Results show that whereas faster subtitles did not
+negatively affect comprehension, they resulted in impaired recall,
+higher cognitive load, lower enjoyment and worse satisfaction.
+Eye-tracking further revealed shorter dwell time and fewer revisits
+at 9 cps, limiting viewers’ ability to finish reading or re-reading
+subtitles and possibly reducing processing depth. These findings
+highlight that Chinese viewers benefited from the slower display
+time of 5 cps subtitles and provide empirical evidence to inform
+future subtitling standards and practices, with implications for
+enhancing the viewing experience.
+
+1. Introduction
+Subtitled video content is consumed worldwide, a trend fuelled by the rise of streaming
+platforms such as Amazon Prime Video, Disney+ and Netflix. As demand for subtitles in
+digital media grows, the industry has shifted toward higher subtitle speeds (Díaz-Cintas
+& Remael, 2021). The pervasiveness of subtitling, combined with the transition from
+standard to increasingly faster subtitle speeds, presents a timely opportunity to investi­
+gate how speed affects viewers’ processing of subtitled videos.
+    To date, most studies on the impact of subtitle speed on viewers’ processing of sub­
+titled videos have been conducted in Western language contexts, such as English,
+
+
+Polish, Dutch, and Spanish, with research dating back to the 1980s and continuing to the
+present (d’Ydewalle et al., 1985, 1987; Jensema, 1998; Koolstra et al., 1999; Kruger et al.,
+2022; Liao et al., 2021; Muylaert et al., 1983; Szarkowska et al., 2016, 2024, 2025; Szar­
+kowska & Bogucka, 2019; Szarkowska & Gerber-Morón, 2018). Although China has a
+long and rich history of subtitling practices (Jia & Díaz-Cintas, 2026; Jin & Jia, 2025),
+experimental and cognitive approaches to subtitling processing research remain rela­
+tively underrepresented (Díaz-Cintas & Szarkowska, 2020; Jia, 2023), even if they have
+begun to expand in recent years (Cui et al., 2023; Cui & Liu, 2024; Jiang & Doherty,
+2024; Liao et al., 2020; Wang & Pellicer-Sánchez, 2023). The increasing focus on recep­
+tion studies centred on viewers’ perceptions, preferences and experiences has contributed
+to the growing maturity of audiovisual translation (AVT) research (Chaume, 2018; Di
+Giovanni & Gambier, 2018; Valdeón, 2022). However, to the best of our knowledge,
+the topic of subtitle speed has not yet been systematically examined in the Chinese
+context. Given China’s population of over 1.4 billion people (National Bureau of Stat­
+istics, 2026) and its vast audience for audiovisual media, there is a clear need to
+extend reception-oriented subtitle speed research to non-Western contexts and non-
+alphabetic script languages, such as Chinese. Broadening this scope would not only
+improve the viewing experience for Chinese audiences but also enrich the global research
+landscape and help validate and generalise existing scientific findings in subtitling
+research.
+    The present study addresses this gap by adopting a mixed-methods eye-tracking
+approach to examine the processing and reception of video with interlingual Chinese1
+subtitles in terms of viewers’ comprehension, recall, cognitive load, enjoyment, satisfac­
+tion and reading behaviour under two subtitle speed conditions: a speed considered stan­
+dard in China (5 characters per second, cps) and a faster speed commonly used by Netflix
+(9 cps).
+
+
+2. Subtitle speed
+Interlingual subtitling goes beyond translating original dialogue exchanges as it requires
+linguistic condensation and reformulation, which is largely governed by the speed at
+which subtitles appear on screen, commonly referred to as ‘subtitle speed’, but also
+known as ‘subtitle display rate’, ‘presentation rate’ or ‘reading speed’ (Díaz-Cintas &
+Remael, 2021; Kruger et al., 2022). More specifically, this concept refers to the time
+viewers need to read and assimilate the information contained in a subtitle while simul­
+taneously following the onscreen action and listening to the dialogue. Its calculation is
+based on the duration the subtitle remains on screen and the number of characters,
+including blank spaces and punctuation, that make up a given subtitle. This speed can
+be measured in words per minute (wpm) or, increasingly in the AVT industry, in char­
+acters per second (cps) (Szarkowska & Bogucka, 2019).
+   Subtitle speeds vary not only across countries, but also among broadcasters, pro­
+duction companies and language service providers. Many countries, such as Denmark
+(FBO, 2019), the Netherlands (Auteursbond, 2022) and the UK (Ofcom, 2017), have
+official technical subtitling guidelines for their respective languages. These typically
+specify maximum subtitle speeds ranging from 10 to 20 cps, depending on the target
+audience, such as hearing viewers, d/Deaf or hard-of-hearing viewers, and different
+
+
+age groups. In practice, however, subtitle speed is not fixed, but varies with content pace,
+speech rates and the need to follow specific editing conventions (Fresno & Sepielak,
+2022).
+    Subtitle speed cannot be considered in isolation from the linguistic properties of the
+target language and the cognitive processes involved in viewers’ perception. As a logo­
+graphic writing system (Ma et al., 2020), Chinese poses unique cognitive demands that
+differ from those associated with alphabetic languages, making its characters not directly
+comparable to those used in alphabetic languages such as English. Unlike a single English
+letter, each Chinese character carries dense semantic and visual information (Kao et al.,
+2002). The complexity of reading in Chinese is compounded by the lack of spaces
+between characters, which requires active segmentation and compels viewers to rely
+heavily on linguistic and contextual cues to extract meaning (Cui & Liu, 2024; Zhu
+et al., 2019). This, in turn, may increase cognitive load and result in slower reading
+speeds compared to alphabetic systems (Bai et al., 2008).
+    With respect to reading behaviour, the visual and structural complexity of Chinese
+characters has been argued to influence eye-movement patterns, potentially leading to
+longer fixations, shorter saccades and smaller perceptual spans (Liversedge et al., 2016;
+Sun et al., 1985). However, evidence from eye-tracking studies comparing Chinese and
+alphabetic scripts remains limited and does not permit strong generalisations (Feng,
+2009; Liversedge et al., 2016; Sun et al., 1985). While these studies suggest that
+Chinese readers may process fewer characters per fixation than readers of alphabetic
+scripts, Liversedge et al. (2016) emphasise the small number of available studies and
+their methodological constraints, and note that reliable cross-language differences
+were not consistently observed in earlier work (Feng, 2009; Sun et al., 1985).
+    The aforementioned language-specific constraints directly affect subtitle speed and its
+regulation in subtitling guidelines. While the standards for alphabetic languages, such as
+English as the lingua franca, commonly allow up to 20 cps (Netflix, n.d.), such thresholds
+cannot be directly applied to non-alphabetic languages such as Chinese. In academic dis­
+course, 5 cps has traditionally been considered standard in Chinese subtitling (Kuo,
+2017), and some institutions, such as the China International Communication Centre
+(2025, personal communication), still prescribe this limit officially. However, inter­
+national streaming platforms have begun adopting faster rates in response to changing
+viewing habits and growing audiovisual output. Netflix, for example, now permits up
+to 9 cps for Chinese subtitles (Netflix, 2022), reflecting a shift towards faster display
+rates that mirror those seen in alphabetic-language subtitling.
+    In the context of Chinese streaming platforms, subtitle speed is rarely specified expli­
+citly in characters per second. Instead, major platforms such as iQIYI, Tencent Video and
+Youku typically regulate subtitles indirectly, most often by limiting the maximum
+number of characters per line (usually 14–16 Chinese characters), without clarifying
+whether blank spaces used instead of punctuation count toward that character limit (per­
+sonal communication with industry professionals, 2025).2 This lack of explicit speed-
+related parameters is mirrored in academic research, where subtitle speed in Chinese
+contexts remains underexplored and insufficiently supported by evidence (Ma & Xie,
+2019; Qian, 2004; Wang, 2015), unlike in Western settings, where it has been widely
+studied using experimental and cognitive approaches, as discussed in the next section.
+
+
+3. Previous experimental eye-tracking research on subtitle speed
+Research into subtitle speed began in Belgium in the 1980s with foundational studies by
+Muylaert et al. (1983) and d’Ydewalle et al. (1985, 1987), involving Dutch-speaking par­
+ticipants. Although early experiments used imprecise descriptors such as ‘normal speed’
+or ‘longer/shorter than usual’, d’Ydewalle et al. (1987) tested subtitles displayed with or
+without sound at three different speeds and found the optimum to be the so-called six-
+second rule (equivalent of 10.5 cps, with max. 32 characters per line). Their study is con­
+sidered to have provided evidence supporting this rule, which was prevalent in the sub­
+titling industry at that time.
+    More recent work has used eye tracking to explore subtitle speed and text editing, as
+less condensation results in higher speeds. Szarkowska et al. (2016) examined how
+editing (edited vs. near-verbatim) and speed (12 vs. 15 cps) affected comprehension
+and reading behaviour in Polish viewers watching interlingual and intralingual Polish
+subtitles. Reducing speed to 12 cps through editing did not improve comprehension, par­
+ticularly for intralingual subtitles. Eye-movements data supported this pattern: the
+slower, edited subtitles prompted more gaze shifts between image and text and propor­
+tionally less time spent reading the subtitle area, suggesting that higher subtitle speeds
+paired with unedited text may facilitate smoother processing.
+    Szarkowska and Bogucka (2019) re-evaluated the six-second rule with slow- and fast-
+speech rate English-language videos with Polish interlingual subtitles, requiring a low
+and high degree of text condensation respectively. They found that maintaining the
+slow speed (12 cps) during fast-paced dialogue necessitated heavy condensation and sig­
+nificantly lowered comprehension. They concluded that young contemporary audiences
+with higher English proficiency might benefit from subtitle speeds faster than 12 cps,
+because they allow for more complete, less condensed text.
+    Szarkowska and Gerber-Morón (2018) tested the effects of subtitle speed on compre­
+hension, cognitive load, enjoyment and eye movements of English, Polish and Spanish
+speakers, watching inter- and intralingual subtitles with English and Hungarian audio
+at speeds ranging from 12 to 20 cps. Slow subtitles resulted in more re-reading,
+causing more frustration and less enjoyment. Participants preferred faster subtitles
+with unreduced text for English-language videos, but slower subtitles with condensed
+text for Hungarian videos, a language unfamiliar to them.
+    A limitation of the above studies is that they conflated speed with text condensation
+and editing, introducing confounds, as shortening subtitles to reduce speed may
+influence processing independently of speed. To avoid this, the current study, like Liao
+et al. (2021) and its replication by Szarkowska et al. (2024), varied subtitle speed
+without condensing the text. Liao et al. (2021) manipulated subtitle speed in English sub­
+titles (12, 20 and 28 cps), but, to avoid subtitles becoming unsynchronised with the
+English narration, they removed the audio track (including dialogue, music and sound
+effects). Their experiment, conducted with English-speaking students from Macquarie
+University in Australia, showed that very fast subtitles (28 cps) impaired comprehension
+and led to fewer and shorter fixations, as well as fewer gaze shifts between subtitles and
+video. Word-level analyses showed that established effects from reading research, such as
+word frequency and word length, whereby longer, less frequent words received more
+visual attention at slower speeds, were attenuated at higher speeds.
+
+
+   Analysing the same dataset, Kruger et al. (2022) examined word skipping and reread­
+ing as indicators of processing depth. They found that faster speeds increased word skip­
+ping and decreased rereading, suggesting a negative impact on both lexical access and
+higher-level comprehension.
+   Szarkowska et al. (2024) replicated the study by Liao et al. (2021) with British and
+Polish participants in the UK and Poland. The results confirmed that subtitle speed sig­
+nificantly influenced reading behaviour in both groups. As in the original study, 28-cps
+subtitles were often too fast, causing participants to miss final words. These findings
+support the robustness of subtitle speed effects and extend them to both native and
+non-native English speakers.
+   More recently, Szarkowska et al. (2025) have investigated the effects of subtitle speed
+and individual differences on subtitle processing in both native and non-native viewers
+using intralingual English subtitles. The study demonstrates that non-native viewers were
+more strongly affected by faster subtitle speeds than native viewers, and that individual
+differences such as language proficiency and working memory capacity significantly
+modulated processing behaviour.
+   While the studies discussed above offer valuable insights into subtitle processing, they
+focus on Western contexts and alphabetic languages. Research on non-alphabetic writing
+systems such as Chinese remains limited. Given the linguistic and cognitive differences in
+reading logographic scripts, further investigation is needed to determine whether
+findings from alphabetic-language contexts generalise to Chinese audiences.
+
+
+4. Current study
+This study aims to investigate how Chinese viewers perceive and process English-
+language videos subtitled in Chinese at different subtitle speeds.
+   We addressed two research questions:
+  RQ1: How does subtitle speed affect viewers’ comprehension, recall, cognitive load, enjoy­
+  ment and satisfaction?
+
+  RQ2: How does subtitle speed affect viewers’ reading behaviour?
+
+Regarding RQ1, we hypothesised that faster subtitle speeds may negatively impact com­
+prehension, recall, enjoyment and satisfaction, while increasing cognitive load. These
+heightened demands may manifest as greater perceived difficulty, increased effort and
+higher frustration.
+   As for RQ2, we predicted that fast subtitle speeds would lead to reduced time spent in
+the subtitle area, as evidenced by dwell time and fewer revisits, and to more shallow pro­
+cessing, as evidenced by shorter mean fixation duration. This is likely due to the shorter
+display time of fast subtitles, which may force viewers to read the subtitles quickly while
+simultaneously trying to follow the visual content on screen.
+
+
+5. Method
+Using a mixed-methods approach (Creswell & Creswell, 2018), we collected quantitative
+data through self-reported questionnaires on cognitive load, enjoyment and satisfaction,
+
+
+as well as comprehension and recall post-tests and eye-tracking measures. Qualitative
+insights came from semi-structured interviews. Following Creswell and Creswell’s
+(2018) convergent mixed-methods design, we integrated both strands to examine
+whether the findings converged or diverged. [Direct quotation from another publication omitted.]
+   To the best of our knowledge, this is the first experimental study in the Chinese
+context to investigate comprehensively how different subtitle speeds affect viewers’
+viewing experience, using a mixed-methods design combining eye tracking, self-reported
+questionnaires and semi-structured interviews. This approach offers insights into how
+viewers simultaneously process subtitles, visuals and audio in a dynamic, multimodal
+context.
+
+
+5.1. Participants
+The study involved 31 native Chinese-speaking participants (Female = 16, Male = 15;
+Mage = 23.48, SD = 3.58, range = 20–34). Their education levels included 12 (39%) with
+undergraduate degrees, 17 (55%) with postgraduate degrees, and two (6%) with doctoral
+degrees. All had normal or corrected-to-normal vision and no dyslexia. Before viewing
+English-language clips with subtitles in Chinese, their English proficiency was assessed
+using the Cambridge General English Proficiency Test,3 with scores ranging from 16
+to 24 out of 25 (M = 18.55, SD = 1.95), corresponding to the Common European Frame­
+work of Reference for Languages (CEFR) levels B2 to C2. To gauge familiarity with the
+task of reading subtitles, participants rated how often they watched English programmes
+with Chinese subtitles on a scale from 1 (never) to 5 (always). The mean was 3.35 (SD =
+1.05, range = 2–5), suggesting the activity was familiar. Regarding AVT preference, 29
+(94%) participants chose subtitling, one (3%) participant preferred dubbing, and one
+(3%) participant chose the original version. None selected ‘I never watch foreign audio­
+visual productions’. Additionally, 30 (97%) subjects had no prior exposure to the stimuli
+(Section 5.2), minimising the influence of familiarity. The study was approved by the
+Research Ethics Committee of the lead author’s institution, and all participants provided
+informed consent.
+
+
+5.2. Stimuli
+Participants viewed two clips from the Netflix series The Chair (Amanda Peet and Annie
+Julia Wyman, 2021), a comedy-drama about a newly appointed head of an English
+department at a struggling American university who tries to save her department
+while navigating institutional bureaucracy, generational clashes and fallout from a col­
+league’s scandal. The selected material consisted of several short excerpts from a single
+narrative thread, as the series interweaves multiple storylines. Clip 1 was taken from
+Season 1, Episode 1, lasted 4 min and 33 s, and contained 70 subtitles. Clip 2 was
+taken from Season 1, Episode 2, lasted 4 min and 27 s, and contained 72 subtitles. The
+clips were self-contained, required no prior plot knowledge, and featured fast-paced, dia­
+logue-rich scenes with two to four characters. Using clips from the same series helped
+reduce variability in audiovisual style and production features.
+
+
+   Two Chinese subtitle sets were created for each clip, representing different subtitle
+speeds: 5 and 9 cps. The two versions differed only in the timing of subtitles, whereas
+the text was the same in the two conditions. The minimum subtitle duration was set
+to 1 s to avoid ‘ghost titles’ (Kruger & Liao, 2025), and the maximum duration was
+limited to 6 s. The clips were presented with the original English audio to maintain eco­
+logical validity (Mellinger & Hanson, 2022).
+   Participants watched both clips: one with the standard speed (5 cps) and the other the
+faster speed (9 cps). Speed conditions were counterbalanced, and clip presentation was
+randomised to control for order and clip effects.
+
+
+5.3. Apparatus
+An SMI RED eye tracker with a 250-Hz sampling rate was used to record participants’ eye
+movements. SMI software package Experiment Centre was utilised to create and conduct
+the experiment. BeGaze 3.7.40 was employed to draw individual areas of interest (AOI)
+around each subtitle and pre-process the results. Eye-tracking data quality was assessed
+using tracking ratio. All participants demonstrated a tracking ratio above 80%, and no
+participants were excluded from further analysis (Holmqvist et al., 2011).
+
+
+5.4. Procedure
+Participants were tested individually in a research laboratory. Before the experiment, they
+were informed that they would take part in a study on the quality of subtitles. On arrival,
+participants signed informed consent forms and took the Cambridge English Proficiency
+Test. They were then seated in a stable chair 60 cm from a 22-inch LCD monitor (1920 ×
+1200 resolution) and engaged in an experiment that lasted approximately one hour. The
+procedure began with participants filling out a demographic questionnaire displayed on a
+screen, recording details such as age, gender, English proficiency, educational back­
+ground and previous experiences and preferences related to subtitling. Before the
+main viewing task, a 5-point calibration procedure was performed. Calibration accuracy
+was accepted only if the average deviation did not exceed 1 degree of visual angle
+(Holmqvist et al., 2011). Following calibration, eye movements were tracked as partici­
+pants viewed an English-spoken video subtitled in Chinese. After viewing each clip,
+they responded to an onscreen questionnaire about the video content and their
+viewing experience. Following the viewings and completion of the questionnaires, par­
+ticipants were interviewed in Chinese, where they expressed their perceptions and pre­
+ferences regarding subtitle speeds, the influence of subtitle speeds on the viewing
+experience and their general views on the quality of subtitling. The session concluded
+with a debriefing.
+
+
+5.5. Design
+The experiment employed a within-subjects design, with subtitle speed as the indepen­
+dent variable, set at two levels: 5 and 9 cps. The dependent variables included compre­
+hension, recall, cognitive load, enjoyment, satisfaction and eye-tracking measures.
+
+
+5.5.1. Comprehension
+Comprehension was assessed through ten true/false questions about the clip’s general
+content, calculated as a percentage of correct responses. [Stimulus-derived example omitted.]
+
+
+5.5.2. Recall
+Recall was measured as the percentage of correct responses to ten multiple-choice ques­
+tions following the viewing of each clip. Participants were asked to recognise the exact
+phrasing from the subtitles in multiple-choice questions with three options: one
+correct answer, two distractors, and ‘I don’t know’. The phrasing generally differed at
+the end of the subtitle, based on the assumption that if a subtitle is too fast, the viewer
+may not have time to read it to the end. [Stimulus-derived example and answer choices omitted.]
+
+
+5.5.3. Cognitive load
+Cognitive load (Sweller et al., 2011) was assessed using three dimensions adapted from
+the NASA-TLX instrument: difficulty, effort and frustration (Hart & Staveland, 1988;
+Szarkowska & Gerber-Morón, 2018).  [Questionnaire wording omitted.] Measurement was on a 7-point scale (1 = very low, 7 = very high).
+
+
+5.5.4. Enjoyment
+Enjoyment was measured with the first item from the Intrinsic Motivation Inventory
+(Ryan, 1982). [Questionnaire item wording omitted.] Measured on a 7-point scale (1 = not at all, 7 = very much).
+
+
+5.5.5. Satisfaction
+Participants were invited to evaluate their satisfaction with different subtitle speeds using
+a 7-point scale (1 = very dissatisfied, 7 = very satisfied) [Questionnaire item wording omitted].
+
+
+5.5.6. Eye movements
+Table 1 presents the description of eye-tracking measures used in the study (Holmqvist
+et al., 2011). The data comes from AOIs drawn on each subtitle for the time they were
+displayed on screen:
+
+
+Table 1. Eye-tracking measures used in the experiment.
+Eye-tracking measures                                                 Description
+Dwell time (DT)                The sum of the durations, in milliseconds (ms), of all fixations and saccades within the
+                                 subtitle AOI, beginning with the first fixation in that AOI. Longer DT may be related to
+                                 processing difficulties or higher interest.
+Mean fixation duration (MFD)   The average duration of a fixation in a subtitle AOI. Longer MFD may indicate higher
+                                 processing effort, while shorter MFD may result from more shallow processing.
+Revisits                       The number of times a participant looked into the subtitle AOI after visiting the subtitle
+                                 for the first time. More revisits may indicate re-reading. If subtitles are slow, viewers
+                                 can go back with their gaze to re-read them before they disappear.
+
+
+6. Analyses
+We analysed the data as follows. To answer RQ1 (‘How does subtitle speed affect viewers’
+comprehension, recall, cognitive load, enjoyment and satisfaction?’), we conducted
+paired-samples t tests comparing the standard speed (5 cps) to the fast speed (9 cps).
+Seven t tests were run in total. Four t tests were conducted for comprehension, recall,
+enjoyment and satisfaction (one for each); three tests were run to assess cognitive load
+(difficulty, effort, frustration). Normality was assessed using z scores for skewness and
+kurtosis (Field, 2024; Silva et al., 2022) and confirmed via histograms and boxplots.
+All data met the assumption (z scores < 1.96), except for recall (z scores = 2.75 and
+4.03). Instead of using the non-parametric Wilcoxon signed-rank test, which could
+reduce the power of the analysis, we validated our results using a 95% bias-corrected
+and accelerated (BCa) bootstrap with 5,000 re-samples. Bootstrapping does not make
+assumptions about the shape of the data, and therefore does not rely on normality
+(Fox & Weisberg, 2018). The technique creates a pre-determined number of data
+samples (here, 5,000 samples) by resampling the original data (with replacement). The
+analysis is then run on the 5,000 samples, and the average result of these samples is com­
+pared against the original sample. In bootstrapping, particularly in BCa bootstrapping, a
+correction is applied to control for skewness or other bias in the data. BCa is particularly
+useful for small sample sizes (Deng et al., 2013; Farag et al., 2025), as is the case in this
+paper. The bootstrapped results confirmed the validity of our results.
+    To answer RQ2 (‘How does subtitle speed affect viewers’ reading behaviour?’), we con­
+ducted three generalised linear mixed models (GLMMs), one per dependent variable:
+dwell time (DT), mean fixation duration (MFD) and number of revisits. In line with
+the temporal cut-off method, data points in DT and MFD below 60 ms as well as
+MFD above 800 ms were excluded from the analysis (Eskenazi, 2024). DT was mildly
+skewed and was square-root transformed; MFD was severely skewed, so it was log trans­
+formed. Revisits, a count variable, was analysed using a Poisson distribution with a log
+link function (Heck et al., 2012). All data met the assumptions of normality, homogeneity
+of variance, and linearity of residuals, and there were no signs of collinearity or outliers.
+    All quantitative analyses were conducted using IBM SPSS version 30. The alpha level
+was set at 0.05. For the analyses involving the three eye-tracking measures, a Bonferroni
+correction was applied to control for multiple comparisons, resulting in an adjusted
+alpha level of 0.016 (Von Der Malsburg & Angele, 2017). See Appendix 1 for details
+on how the mixed models were built, for all fixed and random effects used during mod­
+elling, and for the final models.
+
+
+  In addition, a qualitative analysis of data from semi-structured interviews was con­
+ducted to gain deeper insight into their viewing perceptions, preferences and experiences,
+and to complement the interpretation of the quantitative findings.
+
+
+7. Results
+7.1. Comprehension
+As shown in Table 2, subtitle speed had no statistically significant effect on comprehen­
+sion. Although comprehension scores were slightly higher at the slower speed than at the
+faster speed, the difference was not statistically significant. The effect size, as measured by
+Cohen’s d, was weak.
+
+Table 2. Comprehension.
+                              5 cps                9 cps
+                              M (SD)               M (SD)           df          t           95% CI             P    Cohen’s d
+Comprehension            84.52 (15.02)         80.97 (12.74)        30        1.07      [−3.25, 10.35]     0.300      0.19
+
+
+7.2. Recall
+As shown in Table 3, subtitle speed had a statistically significant effect on recall, with a
+moderate effect size. Participants could recall more information at the slower speed than
+at the faster speed.
+
+
+Table 3. Recall.
+                   5 cps                  9 cps
+                   M (SD)                 M (SD)               df         t             95% CI             P        Cohen’s d
+Recall          80.56 (18.38)          67.22 (12.24)           29        3.30         [5.06, 21.61]      0.003*       0.60
+
+
+7.3. Cognitive load
+As shown in Table 4, subtitle speed had a statistically significant effect on all three cog­
+nitive load indicators: difficulty, effort and frustration, with moderate effect size. Viewers
+reported higher cognitive effort on all three indicators at the higher subtitle speed com­
+pared to the slow speed.
+
+
+Table 4. Cognitive load.
+                                   5 cps             9 cps
+Cognitive load indicator           M (SD)            M (SD)         df          t           95% CI             p    Cohen’s d
+Difficulty                       2.35 (1.43)       3.39 (1.56)      30        −3.23     [−1.69, −0.38]     0.003*    −0.58
+Effort                           2.45 (1.29)       3.42 (1.63)      30        −2.78     [−1.68, −0.26]     0.009*    −0.50
+Frustration                      1.90 (1.14)       2.97 (1.64)      30        −3.55     [−1.68, −0.45]     0.001*    −0.64
+
+
+7.4. Enjoyment
+As shown in Table 5, subtitle speed had a statistically significant effect on enjoyment,
+with a moderate effect size. Enjoyment was higher at the slower speed than at the
+faster speed.
+
+
+Table 5. Enjoyment.
+                 5 cps            9 cps
+                 M (SD)           M (SD)          df         t             95% CI              p             Cohen’s d
+Enjoyment      5.60 (1.19)      4.47 (1.57)       29        3.23        [0.42, 1.85]        0.003*             0.59
+
+
+7.5. Satisfaction
+As shown in Table 6, subtitle speed had a statistically significant effect on viewers’ satis­
+faction, and the effect size was strong. Participants reported higher satisfaction at the
+slower speed than at the faster speed.
+
+Table 6. Satisfaction.
+                  5 cps            9 cps
+                  M (SD)           M (SD)         df         t            95% CI              p              Cohen’s d
+Satisfaction    5.74 (1.06)      4.23 (1.69)      30       4.54         [0.83, 2.20]       <0.001*             0.82
+
+
+7.6. Eye-tracking measures
+RQ2 investigated the impact of subtitle speed on reading behaviour. As can be seen from
+descriptive statistics in Table 7 and Figure 1 below, slower subtitles had higher DT and
+higher number of revisits, but similar MFD to faster subtitles. The GLMMs confirmed
+these results (see Appendix 1 for the full models).
+   Because slow subtitles remained on screen for longer, viewers took advantage of the
+additional display time and spent significantly more time in the subtitle area when watch­
+ing subtitles presented at 5 cps than at the faster speed of 9 cps (p < 0.001), as reflected in
+DT. As shown in Appendix 1, proficiency in English had no significant impact on the
+time spent in the subtitles (p = 0.269); there was also no interaction between proficiency
+and speed (p = 0.711). Similarly, familiarity with subtitling did not significantly impact
+the time spent by viewers in the subtitle area (p = 0.316), irrespective of subtitle speed.
+   Subtitle speed did not affect the depth of processing, as measured by MFD (p = 0.698).
+English proficiency likewise had no impact on MFD (p = 0.427), and there was no inter­
+action between speed and proficiency (p = 0.692), irrespective of subtitle speed.
+
+Table 7. Descriptive statistics for eye-tracking measures.
+               Mean dwell time (ms) per        Mean fixation duration (ms) per         Mean number of revisits per
+                      subtitle                             subtitle                            subtitle
+                      M (SD)                               M (SD)                              M (SD)
+Speed 5 cps         1344.70 (905.06)                   184.38 (78.16)                          0.56 (0.74)
+Speed 9 cps         1001.36 (595.45)                   186.79 (79.41)                          0.15 (0.39)
+
+
+[Figure image omitted; author caption follows.]
+Figure 1. Descriptive statistics for eye-tracking measures. (A) Dwell time. (B) Mean fixation duration. (C) Revisits.
+
+
+   Finally, we found a significant effect of speed on revisits (p < 0.001): slower subtitles
+induced more revisits than faster subtitles. Previous familiarity with subtitling also sig­
+nificantly affected revisits (p = 0.008), but English proficiency did not (p = 0.800). After
+partialling out the effect of proficiency, the GLMMs found that participants watching
+videos with faster subtitles revisited the subtitles roughly 73.5% less often than partici­
+pants watching with slower subtitles. The statistical model also showed that a one-
+point increase on the familiarity-with-subtitles scale (e.g. going from 1 to 2, or 3 to 4)
+is associated with approximately a 32% increase in expected revisits, after controlling
+for English proficiency. Thus, viewers who are more experienced with subtitled videos
+(increase in frequency) tended to revisit subtitles more often.
+
+
+7.7. Semi-structured interviews
+[Section omitted: includes direct participant quotations.]
+
+8. Discussion
+This study aimed to explore how subtitle speeds affect Chinese viewers’ experience when
+watching English videos with Chinese subtitles. We posed two research questions, which
+are addressed below.
+
+
+8.1. RQ1: how does subtitle speed affect viewers’ comprehension, recall,
+cognitive load, enjoyment and satisfaction?
+The faster subtitle speed did not negatively affect viewers’ comprehension. This finding
+aligns with earlier studies by Szarkowska et al. (2016) and Szarkowska and Gerber-Morón
+(2018), which also reported that increased subtitle speed did not impair comprehension.
+Similarly, Liao et al. (2021) and its replication by Szarkowska et al. (2024), found no sig­
+nificant difference in comprehension between 12 and 20 cps. In Liao et al. (2021), and
+Kruger et al. (2022), reporting on the same experiment as Liao et al. (2021), a difference
+emerged only when 12 and 28 cps were compared, but this was not replicated by Szar­
+kowska et al. (2024), who found no differences in comprehension across any of the
+tested speeds. Taken together, these findings suggest that faster subtitle speeds do not
+necessarily compromise comprehension, at least up to 20 cps.
+   One possible explanation for why the faster subtitle speed did not negatively affect
+comprehension is that the questionnaire items in Liao et al. (2021) combined compre­
+hension and mnemonic elements, corresponding to what Szarkowska et al. (2025)
+termed ‘Recall’, and often required participants to remember specific details, numbers
+or exact wording from subtitles. This conflation may have introduced confounds,
+making it more difficult to isolate the effect of subtitle speed on comprehension rather
+than recall. Another possible explanation is participants’ familiarity with subtitled
+media. In the present study, as in Szarkowska et al. (2024, 2025), participants generally
+reported being familiar with watching English-language programmes with Chinese
+
+
+subtitles. By contrast, in Liao et al. (2021), as reported in Kruger et al. (2022), familiarity
+with subtitling was relatively low (2.78 on a 1–7 scale, where 1 indicated low and 7 high
+familiarity). Greater familiarity with subtitling may therefore help viewers cope better
+with higher subtitle speeds. This interpretation is consistent with evidence that subtitling
+remains a dominant and preferred mode of audiovisual translation among Chinese
+viewers (Li, 2024).
+    Unlike general comprehension, which was unaffected by speed, recall declined signifi­
+cantly at the higher speed – a result also found for English native speakers by Szarkowska
+et al. (2025). This suggests that faster subtitles may hinder viewers’ ability to fully read,
+process and remember the content, particularly specific textual details appearing towards
+the end of the subtitle. One possible explanation is that limited time does not allow
+viewers to finish reading or engage in deep cognitive processing. This contrasts with Szar­
+kowska and Gerber-Morón (2018), who found that slower subtitles (12 cps) did not
+improve recall accuracy (which they called ‘subtitle recognition’) compared to faster sub­
+titles (20 cps). A likely reason for this difference is that, as discussed in Section 2, Chinese
+subtitles may be processed more slowly than subtitles in alphabetic languages, due to the
+visual complexity of Chinese characters and the absence of inter-word spacing (Bai et al.,
+2008; Zhu et al., 2019), although this explanation still requires further empirical evidence.
+Functionally, 9 cps in Chinese may therefore be more comparable to 28 cps in Liao et al.
+(2021) and Kruger et al. (2022).
+    Regarding cognitive load, the faster subtitles were perceived as significantly more
+demanding, that is, more difficult, effortful and frustrating. As many interviewees
+explained, fast subtitles often disappeared before they could be fully read, forcing
+viewers to rely more on the English audio. However, this added to their cognitive
+burden, as English was not their native language. While Szarkowska and Gerber-
+Morón (2018) found no significant effect of subtitle speed on perceived difficulty or
+effort, and even reported greater frustration with slower subtitles (12 cps), our findings
+suggest this pattern may not apply to Chinese viewers. A likely explanation is the ortho­
+graphic complexity of Chinese characters, which may require longer processing time
+than alphabetic scripts (Bai et al., 2008; Zhu et al., 2019). In contrast, the standard
+slower subtitles used in this study (5 cps) were not perceived as staying on screen too
+long. Instead, many participants appreciated them for allowing enough time to read or
+reread the content, contributing to a more comfortable viewing experience.
+    Viewers reported significantly greater enjoyment when watching videos with stan­
+dard, slower subtitles. This contrasts with findings by Szarkowska and Gerber-Morón
+(2018), who observed higher enjoyment levels with faster subtitles. As already discussed,
+one possible explanation lies in the visual complexity of Chinese characters, which far
+exceeds that of Latin alphabets. As a result, Chinese viewers may require more time
+and cognitive effort to process the subtitles (Liversedge et al., 2016; Sun et al., 1985).
+Faster subtitle speeds in Chinese can, therefore, lead to difficulties in reading and proces­
+sing, causing frustration and reducing enjoyment. As many participants noted in inter­
+views, faster subtitles led to more skipping, making viewers miss some text and indicating
+that they struggled to keep up. This increased sense of effort detracted from their viewing
+experience.
+    Subtitle speed significantly influenced satisfaction, with slower, standard subtitles con­
+tributing to a more satisfying viewing experience. This aligns with the opinions expressed
+
+
+by participants during the interviews. [Direct participant quotations omitted.]
+
+
+8.2. RQ2: how does subtitle speed affect viewers’ reading behaviour?
+Subtitle speed significantly affected time spent in the subtitle area, with slow subtitles
+triggering more reading time in absolute terms than fast subtitles. Because slow subtitles
+contained the same text but remained on screen for longer, they gave viewers more time
+to read and encouraged more thorough processing, rather than indicating greater proces­
+sing difficulty. The dwell time results suggest that participants may have been better able
+to integrate information from the subtitles, spoken dialogue and visuals (Kruger et al.,
+2022). This finding is consistent with prior research reporting statistically significant
+differences in dwell time, referred to as ‘absolute reading time’ in Koolstra et al. (1999)
+and in Szarkowska and Gerber-Morón (2018), and as ‘total time’ in Szarkowska et al.
+(2025). It also aligns with participants’ reports that slower subtitles were easier to cope
+with, as the lack of time pressure made reading feel more relaxed. This pattern is also
+plausible from the perspective of Chinese reading research. Chinese reading appears to
+involve a relatively narrow perceptual span, estimated at around one character to the
+left and three to four characters to the right of fixation, while readers must also
+segment a continuous, unspaced string of characters into words online (Inhoff & Liu,
+1998; Li & Pollatsek, 2020). In a subtitled multimodal environment, these constraints
+make display time particularly important.
+    Mean fixation duration, a potential indicator of cognitive load and processing depth
+(Holmqvist et al., 2011), was not affected by subtitle speed in the present study. This con­
+trasts with some earlier subtitling research showing shorter MFD for faster subtitles,
+interpreted as evidence of more superficial processing (Liao et al., 2021). This null
+effect should nevertheless be interpreted cautiously. Fixation durations in subtitle
+reading should not be expected to mirror those in printed-text reading. In silent
+English reading of printed text, mean fixation durations are typically around 200–
+250 ms (Rayner, 1998), yet eye-tracking research has shown that subtitle reading may
+yield shorter fixation durations (Liao et al., 2021; Szarkowska & Bogucka, 2019; Wang
+& Pellicer-Sánchez, 2023). Against this background, the relatively short MFD observed
+here (approximately 184–187 ms) is consistent with subtitle reading as a compressed,
+externally paced mode of processing and lower than the fixation durations typically
+reported for printed Chinese (245 ms in Liversedge et al., 2016). Under such conditions,
+increases in subtitle speed may be more likely to affect broader temporal measures, such
+as dwell time and revisits, than per-fixation duration. Similarly, and in line with Szar­
+kowska and Bogucka (2019), MFD was not affected by English proficiency. This lack
+of significance may partly reflect substantial interindividual variability in MFD (Holmq­
+vist et al., 2011), but may also indicate that, in the present Chinese subtitling context,
+MFD was less sensitive to processing difficulty than dwell time and revisits.
+    Revisits may reflect viewers’ engagement with linguistic processing, i.e. making sense
+of the text (Kruger et al., 2022). The significant difference in the number of revisits
+
+
+between slow and fast subtitle speeds indicates that viewers re-read subtitles more often
+at the slower speed. This likely resulted from the longer display time, which may have
+allowed more thorough processing and the resolution of linguistic ambiguities. In con­
+trast, faster subtitles may not have left enough time for viewers to return to and reprocess
+the text, limiting opportunities for clarification and reinforcement of understanding.
+    This pattern matches Kruger et al. (2022), who highlight the importance of re-reading
+in multimodal viewing contexts. In such settings, re-reading allows viewers to correct
+oculomotor errors or comprehension lapses during linguistic processing and to integrate
+verbal information with visual elements to construct a coherent situation model of the
+video. When subtitles disappear too quickly, these strategies may be constrained,
+leading to fewer revisits or more skipping (Kruger et al., 2022). Szarkowska and
+Gerber-Morón (2018) also reported more revisits with slower subtitles, but cautioned
+that leaving subtitles on screen too long may disrupt reading flow, as viewers might
+return to already processed text.
+    The revisit effect may be especially meaningful in Chinese, where written text does not
+normally mark word boundaries with spaces. Readers must therefore segment continu­
+ous character strings into words, and eye-movement studies show that segmentation
+ambiguity increases processing cost and relies on contextual information for resolution
+(Bai et al., 2008; Li & Pollatsek, 2020; Zang et al., 2013). Revisits may thus support not
+only monitoring and rereading but also re-segmentation, clarification and integration
+when initial processing is incomplete (Huang & Li, 2020). Supporting evidence comes
+from Cui and Liu’s (2024) eye-tracking study on Chinese subtitles, where inserting
+spaces between semantically coherent subtitle segments reduced processing effort and
+significantly decreased regressive saccades. This suggests that rereading in Chinese sub­
+titling may be partly linked to the effort required to segment and disambiguate unspaced
+character strings. The sharp reduction in revisits at 9 cps may therefore indicate not only
+less time to look back, but also a constraint on a useful repair-and-integration
+mechanism.
+    Like many experimental studies, this research inevitably has certain limitations. The
+sample comprised young, educated Chinese viewers with relatively high English profi­
+ciency and normal hearing, excluding groups such as children, older adults, individuals
+with lower education levels or limited English proficiency, or d/Deaf and hard-of-hearing
+viewers, who may face greater challenges with faster subtitles. While the sample rep­
+resents an important consumer segment of streaming platforms and is therefore appro­
+priate for this study, it cannot fully capture the diversity of Chinese audiences. The study
+was also limited to fiction; future research could examine whether other genres produce
+different effects. In addition, the relatively short clips limit insights into longer-term
+effects such as fatigue. These limitations point to the need for more nuanced investi­
+gations of subtitling reception in the Chinese context and beyond.
+
+
+9. Conclusion
+This study has investigated subtitle speed, a topic that remains under-researched in
+China, and, through a mixed-methods approach, examined how different subtitle
+speeds affect the viewing experience of Chinese audiences with interlingual Chinese sub­
+titles. Our results suggest that, although the faster speed of 9 cps did not impact
+
+
+comprehension, it negatively affected all other measures: recall, cognitive load, enjoy­
+ment and satisfaction. It also reduced reading time, limiting viewers’ ability to finish
+reading or to re-read subtitles, and thereby possibly reducing the depth of processing.
+Overall, participants appear to benefit from the slower display time of subtitles of 5
+cps. These findings may help improve subtitling standards and practices, enhance
+viewers’ experience, and inform the training of future subtitlers.
+
+
+Notes
+     1. Unless otherwise stated, all references to the Chinese language refer to Simplified Chinese.
+     2. Academic literature on Chinese subtitling standards remains scarce and often outdated,
+        especially given the rapid growth of the audiovisual media landscape. To gain a clearer
+        picture of current standards and practices, the lead author conducted fieldwork in China,
+        combining on-site observation with semi-structured interviews with government officials,
+        professionals, language service providers and academics. The fieldwork was conducted in
+        China from June to September 2023, and the lead author has since maintained contact
+        with the interviewees to keep up with the latest developments. Only selected findings rel­
+        evant to the present study are mentioned here. On this basis, it was found that, in the
+        absence of national standards, organisations tend to formulate their own internal guidelines,
+        which vary widely and are typically not made public. This applies to institutions such as the
+        China Film Group Corporation, China Central Television and major streaming platforms
+        like iQIYI, Youku and Tencent Video.
+     3. www.cambridgeenglish.org/test-your-english/general-english
+
+
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+
+
+[Contributor biographies omitted.]
+
+ORCID
+Huihuang Jia http://orcid.org/0000-0001-7353-2524
+Agnieszka Szarkowska http://orcid.org/0000-0002-0048-993X
+Jorge Díaz-Cintas http://orcid.org/0000-0002-1058-5757
+
+
+References
+Auteursbond. (2022). Model guidelines for subtitlers for the Dutch-speaking market. https://
+  auteursbond.nl/kennisbank/ondertitelaars-stellen-modelrichtlijn-op-voor-nederlandstalige-
+  markt
+Bai, X., Yan, G., Liversedge, S. P., Zang, C., & Rayner, K. (2008). Reading spaced and unspaced
+  Chinese text: Evidence from eye movements. Journal of Experimental Psychology: Human
+  Perception and Performance, 34(5), 1277–1287. https://doi.org/10.1037/0096-1523.34.5.1277
+Bryman, A. (2006). Integrating quantitative and qualitative research: How is it done? Qualitative
+  Research, 6(1), 97–113. https://doi.org/10.1177/1468794106058877
+Chaume, F. (2018). An overview of audiovisual translation: Four methodological turns in a mature
+  discipline. Journal of Audiovisual Translation, 1(1), 40–63. https://doi.org/10.47476/jat.v1i1.43
+Creswell, J. W., & Creswell, J. D. (2018). Research design: Qualitative, quantitative, and mixed
+  methods approaches. Sage.
+Cui, Y., & Liu, X. (2024). How condensation and non-condensation impact viewers’ processing
+  effort and comprehension – an eye-tracking study on Chinese subtitling of English documen­
+  taries. Perspectives, 1–19. https://doi.org/10.1080/0907676X.2024.2433059
+Cui, Y., Liu, X., & Cheng, Y. (2023). Attention-consuming or attention-saving: An eye tracking
+  study on punctuation in Chinese subtitling of English trailers. Multilingua, 42(5), 739–763.
+  https://doi.org/10.1515/multi-2022-0138
+Deng, N., Allison, J. J., Fang, H. J., Ash, A. S., & Ware, J. E. (2013). Using the bootstrap to establish
+  statistical significance for relative validity comparisons among patient-reported outcome
+  measures. Health and Quality of Life Outcomes, 11(1), 89. https://doi.org/10.1186/1477-7525-
+  11-89
+Díaz-Cintas, J., & Remael, A. (2021). Subtitling: Concepts and practices. Routledge.
+Díaz-Cintas, J., & Szarkowska, A. (2020). Experimental research in audiovisual translation - cog­
+  nition, reception, production. The Journal of Specialised Translation, 33(33), 3–16. https://doi.
+  org/10.26034/cm.jostrans.2020.542
+Di Giovanni, E., & Gambier, Y. (2018). Reception studies and audiovisual translation. John
+  Benjamins.
+d’Ydewalle, G., Muylle, P., & van Rensbergen, J. (1985). Attention shifts in partially redundant
+  information situations. In R. Groner, G. W. McConkie, & C. Menz (Eds.), Eye movements
+  and human information processing (pp. 375–384). Elsevier.
+d’Ydewalle, G., van Rensbergen, J., & Pollet, J. (1987). Reading a message when the same message
+  is available auditorily in another language: The case of subtitling. In J. K. O’Regan, & A. Levy-
+  Schoen (Eds.), Eye movements: From physiology to cognition (pp. 313–321). Elsevier.
+Eskenazi, M. A. (2024). Best practices for cleaning eye movement data in reading research.
+  Behavior Research Methods, 56(3), 2083–2093. https://doi.org/10.3758/s13428-023-02137-x
+Farag, K. A., Asselhab, M. A., Binsoud, B. M., & Abobaker, Z. M. (2025). Performance comparison
+  of traditional bootstrap and bias-corrected and accelerated methods in constructing confidence
+  intervals for non-normal data: A simulation study. Libyan Journal of Medical and Applied
+  Sciences, 3(3), 115–120. https://doi.org/10.64943/ljmas.v3i3.156
+
+
+FBO. (2019). Guidelines for subtitling in Denmark. Forum for Billedmedieoversættere. https://
+   undertekstning.dk/english
+Feng, G. (2009). Orthography and eye movements: The paraorthographic linkage hypothesis. In K.
+   Rayner, D. Shen, X. Bai, & G. Yan (Eds.), Cognitive and cultural influences on eye movements
+   (pp. 395–420). Routledge.
+Field, A. (2024). Discovering statistics using IBM SPSS statistics (6th ed.). Sage.
+Fox, J., & Weisberg, S. (2018). Bootstrapping regression models in R. Sage.
+Fresno, N., & Sepielak, K. (2022). Subtitling speed in media accessibility research: Some methodo­
+   logical considerations. Perspectives, 30(3), 415–431. https://doi.org/10.1080/0907676X.2020.
+
+Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (task load index): Results of
+   empirical and theoretical research. In P. A. Hancock, & N. Meshkati (Eds.), Human mental
+   workload (pp. 139–183). North-Holland.
+Heck, R. H., Thomas, S. L., & Tabata, L. N. (2012). Multilevel modelling of categorical outcomes
+   using IBM SPSS. Routledge.
+Holmqvist, K., Nyström, M., Andersson, R., Dewhurst, R., Jarodzka, H., & van de Weijer, J. (2011).
+   Eye tracking: A comprehensive guide to methods and measures. Oxford University Press.
+Huang, L., & Li, X. (2020). Early, but not overwhelming: The effect of prior context on segmenting
+   overlapping ambiguous strings when reading Chinese. Quarterly Journal of Experimental
+   Psychology, 73(9), 1382–1395. https://doi.org/10.1177/1747021820926012
+Inhoff, A. W., & Liu, W. (1998). The perceptual span and oculomotor activity during the reading of
+   Chinese sentences. Journal of Experimental Psychology: Human Perception and Performance,
+   24(1), 20–34. https://doi.org/10.1037//0096-1523.24.1.20
+Jensema, C. (1998). Viewer reaction to different television captioning speeds. American Annals of
+   the Deaf, 143(4), 318–324. https://doi.org/10.1353/aad.2012.0073
+Jia, H. (2023). Audiovisual translation studies. Translation and Interpreting Studies, 18(1), 159–
+   166. https://doi.org/10.1075/tis.21072.jia
+Jia, H., & Díaz-Cintas, J. (2026). Audiovisual translation: Subtitling practices in the contemporary
+   media landscape. Translation Review. https://doi.org/10.1080/07374836.2026.2686070
+Jiang, Q., & Doherty, S. (2024). An eye-tracking study on the cognitive processing, reception, and
+   perception of swearword translation in films. Translation Spaces, 13(2), 293–329. https://doi.
+   org/10.1075/ts.23049.jia
+Jin, H., & Jia, H. (2025). Film translation for international audiences: In conversation with
+   Professor Haina Jin. Translation Review, 123(1), 45–50. https://doi.org/10.1080/07374836.
+   2025.2551302
+Kao, H. S. R., Leong, C.-K., & Gao, D.-G. (2002). Cognitive neuroscience studies of the Chinese
+   language. Hong Kong University Press.
+Koolstra, C. M., Van der Voort, T. H. A., & d’Ydewalle, G. (1999). Lengthening the presentation
+   time of subtitles on television: Effects on children’s reading time and recognition.
+   Communications, 24(4), 407–422. https://doi.org/10.1515/comm.1999.24.4.407
+Kruger, J.-L., & Liao, S. (2025). Busting “ghost subtitles” on streaming services. The International
+   Journal of Translation and Interpreting Research, 17(2), 38–54. https://doi.org/10.12807/ti.
+   117202.2025.a03
+Kruger, J.-L., Wisniewska, N., & Liao, S. (2022). Why subtitle speed matters: Evidence from word
+   skipping and rereading. Applied Psycholinguistics, 43(1), 211–236. https://doi.org/10.1017/
+   S0142716421000503
+Kuo, A. S.-Y. (2017). Subtitling quality beyond the linguistic dimension. In C. Shei, & Z.-M. Gao
+   (Eds.), The Routledge handbook of Chinese translation (pp. 415–431). Routledge.
+Li, J. (2024). Reception of audiovisual translation in China: A survey study. Perspectives, 1033–
+   1053. https://doi.org/10.1080/0907676X.2024.2361269
+Li, X., & Pollatsek, A. (2020). An integrated model of word processing and eye-movement control
+   during Chinese reading. Psychological Review, 127(6), 1139–1162. https://doi.org/10.1037/
+   rev0000248
+
+
+Liao, S., Kruger, J.-L., & Doherty, S. (2020). The impact of monolingual and bilingual subtitles on
+   visual attention, cognitive load, and comprehension. The Journal of Specialised Translation,
+   33(33), 70–98. https://doi.org/10.26034/cm.jostrans.2020.549
+Liao, S., Yu, L., Reichle, E. D., & Kruger, J.-L. (2021). Using eye movements to study the reading of
+   subtitles in video. Scientific Studies of Reading, 25(5), 417–435. https://doi.org/10.1080/
+   10888438.2020.1823986
+Liversedge, S. P., Drieghe, D., Li, X., Yan, G., Bai, X., & Hyönä, J. (2016). Universality in eye move­
+   ments and reading: A trilingual investigation. Cognition, 147, 1–20. https://doi.org/10.1016/j.
+   cognition.2015.10.013
+Ma, J., Wu, Y., Sun, T., Cai, L., Fan, X., & Li, X. (2020). Neural substrates of bilingual processing in
+   a logographic writing system: An fMRI study in Chinese Cantonese-Mandarin bilinguals. Brain
+   Research, 1738, 146794. https://doi.org/10.1016/j.brainres.2020.146794
+Ma, Z., & Xie, Z. (2019). Dubbing and subtitling: The China experience. Peter Lang.
+Mellinger, C. D., & Hanson, T. A. (2022). Considerations of ecological validity in cognitive trans­
+   lation and interpreting studies. Translation, Cognition & Behavior, 5(1), 1–26. https://doi.org/
+   10.1075/tcb.00061.mel
+Muylaert, W., Nootens, J., Poesmans, D., & Pugh, A. K. (1983). Design and utilisation of subtitles
+   on foreign language television programmes. In P. H. Nelde (Ed.), Theorie, Methoden und
+   Modelle der Kontaktlinguistik (pp. 201–214). Dummler.
+National Bureau of Statistics. (2026). In 2025, China’s total population was 1,404.89 million. High
+   quality population development continues to advance. www.stats.gov.cn/sj/sjjd/202601/
+   t20260119_1962338.html
+Netflix. (n.d.). English (UK) Timed Text Style Guide. https://partnerhelp.netflixstudios.com/hc/
+   en-us/articles/30806198616339-English-UK-Timed-Text-Style-Guide
+Netflix. (2022). Simplified Chinese (PRC) Timed Text Style Guide. https://partnerhelp.
+   netflixstudios.com/hc/en-us/articles/215986007-Chinese-Simplified-Timed-Text-Style-Guide
+Ofcom. (2017). Ofcom’s guidelines on providing television and on demand access services. www.
+   ofcom.org.uk/siteassets/resources/documents/tv-radio-and-on-demand/broadcast-codes/
+   other-codes/ofcoms-guidelines-on-providing-tv-and-on-demand-access-services.pdf
+Qian, S. (2004). The present status of screen translation in China. Meta, 49(1), 52–58. https://doi.
+   org/10.7202/009019ar
+Rayner, K. (1998). Eye movements in reading and information processing: 20 years of research.
+   Psychological Bulletin, 124(3), 372–422. https://doi.org/10.1037/0033-2909.124.3.372
+Ryan, R. M. (1982). Control and information in the intrapersonal sphere: An extension of cogni­
+   tive evaluation theory. Journal of Personality and Social Psychology, 43(3), 450–461. https://doi.
+   org/10.1037/0022-3514.43.3.450
+Silva, B. B., Orrego-Carmona, D., & Szarkowska, A. (2022). Methodological issues in experimental
+   research in audiovisual translation and media accessibility. Translation Spaces, 11(1), 60–88.
+   https://doi.org/10.1075/ts.21013.sil
+Sun, F., Morita, M., & Stark, L. (1985). Comparative patterns of reading eye movement in Chinese
+   and English. Perception & Psychophysics, 37(6), 502–506. https://doi.org/10.3758/BF03204913
+Sweller, J., Ayres, P., & Kalyuga, S. (2011). Cognitive load theory. Springer.
+Szarkowska, A., & Bogucka, L. (2019). Six-second rule revisited. Translation, Cognition &
+   Behavior, 2(1), 101–124. https://doi.org/10.1075/tcb.00022.sza
+Szarkowska, A., & Gerber-Morón, O. (2018). Viewers can keep up with fast subtitles: Evidence
+   from eye movements. PLoS One, 13(6), e0199331. https://doi.org/10.1371/journal.pone.0199331
+Szarkowska, A., Krejtz, I., Pilipczuk, O., Dutka, Ł, & Kruger, J.-L. (2016). The effects of text editing
+   and subtitle presentation rate on the comprehension and reading patterns of interlingual and
+   intralingual subtitles among deaf, hard of hearing, and hearing viewers. Across Languages
+   and Cultures, 17(2), 183–204. https://doi.org/10.1556/084.2016.17.2.3
+Szarkowska, A., Ragni, V., Orrego-Carmona, D., Black, S., Szkriba, S., Kruger, J.-L., Krejtz, K., &
+   Silva, B. (2024). Impact of video and subtitle speed on subtitle reading. Journal of Audiovisual
+   Translation, 7(1), 1–23. https://doi.org/10.47476/jat.v7i1.2024.283
+
+
+Szarkowska, A., Ragni, V., Szkriba, S., Orrego-Carmona, D., & Black, S. (2025). The effect of sub­
+  title speed and individual differences on subtitle processing in L1 and L2: An eye-tracking study
+  on intralingual English subtitles. The Journal of Specialised Translation, 44(44), 105–125.
+  https://doi.org/10.26034/cm.jostrans.2025.8471
+Valdeón, R. A. (2022). Latest trends in audiovisual translation. Perspectives, 30(3), 369–381.
+  https://doi.org/10.1080/0907676X.2022.2069226
+Von Der Malsburg, T., & Angele, B. (2017). False positives and other statistical errors in standard
+  analyses of eye movements in reading. Journal of Memory and Language, 94, 119–133. https://
+  doi.org/10.1016/j.jml.2016.10.003
+Wang, A., & Pellicer-Sánchez, A. (2023). Examining the effectiveness of bilingual subtitles for
+  comprehension: An eye-tracking study. Studies in Second Language Acquisition, 45(4), 882–
+  905. https://doi.org/10.1017/S0272263122000493
+Wang, D. (2015). Subtitling—from a Chinese perspective. In E. Perego, & S. Bruti (Eds.), Subtitling
+  today: Shapes and their meanings (pp. 203–220). Cambridge Scholars Publishing.
+Zang, C., Liang, F., Bai, X., Yan, G., & Liversedge, S. P. (2013). Interword spacing and landing pos­
+  ition effects during Chinese reading in children and adults. Journal of Experimental Psychology:
+  Human Perception and Performance, 39(3), 720–734. https://doi.org/10.1037/a0030097
+Zhu, Z., Zhang, M., & Wang, S. (2019). Visual span and cognitive factors affect Chinese reading
+  speed. Journal of Vision, 19(14), 17. https://doi.org/10.1167/19.14.17
