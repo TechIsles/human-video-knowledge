@@ -1,0 +1,55 @@
+{
+  "batch": "0160",
+  "scope": "One additional research article author-text extraction from all17 pages, with one marked third-party quote omission; not an intact original or complete visual package. Images, film frames and external datasets excluded.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "title": "Edit Blindness: The relationship between attention and global change blindness in dynamic scenes.",
+      "authors": [
+        "Tim J. Smith",
+        "John M. Henderson"
+      ],
+      "doi": "10.16910/jemr.2.2.6",
+      "source_url": "https://bop.unibe.ch/JEMR/article/view/2264/3460",
+      "canonical_url": "https://bop.unibe.ch/JEMR/article/view/2264",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Article-specific publisher page Copyright (c) 2008 Tim J. Smith, John M. Henderson, explicitly CC BY 4.0; PDF carries same license on every page.",
+      "original_bytes_unchanged": false,
+      "inventory_status": "additional research source, not original directory completion",
+      "repository": "web/bop.unibe.ch",
+      "source_pdf_sha256": "c499b58c856ef56095e0f253ea151f1c7a3f0f8e199a46100009168a4fc6b312",
+      "file": "upstream/articles/edit-blindness/edit-blindness.author-text.txt",
+      "role": "canonical_document",
+      "coverage_kind": "author_text_with_marked_omission",
+      "conditions": "Text from all17 pages, except one marked third-party quoted passage. Raster images/screenshots/media excluded. Tables in extracted text may lose alignment; no full visual package.",
+      "size_bytes": 70157,
+      "sha256": "7c2c569ff5f530de6ef981d16d319e4c61bc7a3c4beb6c2d3ffe1cf86e33780e",
+      "git_blob_sha1": "785f58ed4de01fdf6823bd6c0625b7293000ac35"
+    },
+    {
+      "title": "Edit Blindness: The relationship between attention and global change blindness in dynamic scenes.",
+      "authors": [
+        "Tim J. Smith",
+        "John M. Henderson"
+      ],
+      "doi": "10.16910/jemr.2.2.6",
+      "source_url": "https://bop.unibe.ch/JEMR/article/view/2264/3460",
+      "canonical_url": "https://bop.unibe.ch/JEMR/article/view/2264",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Article-specific publisher page Copyright (c) 2008 Tim J. Smith, John M. Henderson, explicitly CC BY 4.0; PDF carries same license on every page.",
+      "original_bytes_unchanged": false,
+      "inventory_status": "additional research source, not original directory completion",
+      "repository": "web/bop.unibe.ch",
+      "source_pdf_sha256": "c499b58c856ef56095e0f253ea151f1c7a3f0f8e199a46100009168a4fc6b312",
+      "file": "upstream/articles/edit-blindness/LICENSE.txt",
+      "role": "license_notice",
+      "coverage_kind": "archive_added_rights_notice",
+      "size_bytes": 1359,
+      "sha256": "b37467cb204a85ddac9149868c1304f7da0ccfded936b3ad5418510dd3e70c0d",
+      "git_blob_sha1": "9a0e2523ab3658b63c1b44ce6ec9b0457f43df1f"
+    }
+  ]
+}

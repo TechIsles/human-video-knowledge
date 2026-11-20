@@ -1,0 +1,2284 @@
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Edit Blindness:
+The relationship between attention and
+global change blindness in dynamic scenes.
+Tim J. Smith
+University of Edinburgh
+
+John M. Henderson
+University of Edinburgh
+Although we experience the visual world as a continuous, richly detailed space we often fail
+to notice large and significant changes. Such change blindness has been demonstrated for
+local object changes and changes to the visual form of whole images, however it is assumed
+that total changes from one image to another would be easily detected. Film editing presents
+such total changes several times a minute yet we rarely seem to be aware of them, a
+phenomenon we refer to here as edit blindness. This phenomenon has never been
+empirically demonstrated even though film editors believe they have at their disposal
+techniques that induce edit blindness, the Continuity Editing Rules. In the present study we
+tested the relationship between Continuity Editing Rules and edit blindness by instructing
+participants to detect edits while watching excerpts from feature films. Eye movements were
+recorded during the task. The results indicate that edits constructed according to the
+Continuity Editing Rules result in greater edit blindness than edits not adhering to the rules.
+A quarter of edits joining two viewpoints of the same scene were undetected and this
+increased to a third when the edit coincided with a sudden onset of motion. Some cuts may
+be missed due to suppression of the cut transients by coinciding with eyeblinks or saccadic
+eye movements but the majority seem to be due to inattentional blindness as viewers attend
+to the depicted narrative. In conclusion, this study presents the first empirical evidence of
+edit blindness and its relationship to natural attentional behaviour during dynamic scene
+viewing.
+Keywords: film editing, eye movement; real-world scene, naturalistic
+scene; oculomotor capture; gaze cue; continuity
+
+unattended features to go unnoticed (Inattentional
+Blindness, see Simons, 2000).
+
+INTRODUCTION
+Our experience of the visual world as a rich, highly
+detailed and continuous space is an illusion constructed
+from a series of momentary snapshots encoded while the
+eyes are still (fixations) and stitched together across
+periods of blindness as the eyes move (saccadic eye
+movements) (see Henderson, 2003, for summary). In
+order for us to maintain a representation of the scene
+across eye movements we must make predictions about
+the existence, location, and visual properties of objects
+not currently at the centre of our attention. The assumed
+continuity of these features make it possible for large and
+dramatic changes to go undetected (Change Blindness,
+see Simons and Levin, 1997) and unexpected and
+
+Change Blindness occurs when a visual change
+is masked by an artificial occlusion (Simons, 1996; Levin
+& Simons, 1997; Rensink et al., 1997; Simons & Levin,
+1998; O’Regan et al., 1999; Rensink et al., 2000) or
+natural period of perceptual insensitivity, such as a
+saccadic eye movement or eye blink (Carlson-Radvansky
+& Irwin, 1995; Grimes, 1996; Henderson &
+Hollingworth, 1999; O’Regan et al., 2000), and
+participants fail to compare the changed scene to their
+memory of the scene (Brockmole & Henderson, 2005;
+Hollingworth & Henderson, 2002; Mitroff, Simons, &
+Levin, 2004). Transsaccadic and long term memory
+studies have shown that relatively detailed information is
+
+1
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+retained across saccades and over time (Henderson &
+Hollingworth, 1999; Hollingworth et al., 2001; Melcher,
+2001; Hollingworth & Henderson, 2002; Tatler, Gilchrist,
+& Land, 2005; Hollingworth, 2006; also see Võ,
+Schneider, & Matthias, and Humphrey & Underwood in
+this volume) but changes to this information do not reach
+the level of awareness unless the change violates critical
+expectations about the continuity of the scene and objects
+within it (Levin & Simons, 2000). The likelihood of
+violating these expectations and as a result detecting the
+change increases as the significance and size of a change
+within a scene increases (Rensink et al., 1997;
+Hollingworth & Henderson, 2004; Levin & Varakin,
+2004; Henderson, Brockmole, & Gajewski, 2008). Small
+local changes to object features (Henderson &
+Hollingworth, 1999; Hollingworth et al., 2001;
+Hollingworth & Henderson, 2002) and even slight global
+changes to the visual form of an entire scene (Henderson
+& Hollingworth, 2003a; Hollingworth & Henderson,
+2004; Henderson, Brockmole, & Gajewski, 2008) have
+been shown to sometimes go undetected, but it is
+assumed that a total change from one visual scene to a
+completely different visual scene that is not obscured in
+any way, e.g. by a mask, would be guaranteed to be
+detected.
+
+Although film has existed for over a century it has
+received very little psychological investigation. What
+little empirical research has been performed has typically
+investigated the relationship between the main structural
+conventions of Hollywood filmmaking, known as the
+Continuity Editing Rules, and our ability to comprehend
+narrative and spatial relationships (Frith & Robson, 1975;
+Carroll & Bever, 1976; Hochberg & Brooks, 1978; Kraft,
+1987; d’Ydewalle & Vanderbeeken, 1990; Geiger &
+Reeves, 1993; d’Ydewalle, Desmet, & Van Rensbergen,
+1998; Germeys & d’Ydewalle, 2007). The Continuity
+Editing Rules are a suite of staging, filming, and editing
+conventions that a film maker can follow to ensure that
+the resulting film is not confusing, disorienting, or
+uncomfortable to watch (Reisz & Millar, 1953; Bordwell
+& Thompson, 2001; see Smith, 2006 for discussion). For
+example, one of the most prominent Continuity Editing
+Rules is the 180° Rule (Bordwell & Thompson, 2001,
+pages 263-265). This rule states that when filming a
+scene a main axis of action, down which most action
+occurs should be identified e.g. the line joining two
+characters engaged in a conversation. All static cameras
+used to film this scene should be positioned on the same
+side of this line. Keeping all cameras within the same
+180° arc ensures that when shots from these cameras are
+edited together the relative position of objects on the
+screen and direction of any action is consistent. It also
+ensures that the eyelines of multiple characters match
+even when the characters do not appear on screen at the
+same time. Cutting to a camera located on the opposite
+side of the axis of action (known as Crossing the Line) is
+believed to lead to confusion and disorientation1.
+
+Most of us experience total scene changes thousands
+of times every day in film and television edits, yet we
+seem to be unaware of most of them (Messaris, 1994). A
+typical ninety minute Hollywood film contains between
+one thousand and two thousand edits, a change in
+viewpoint (‘shot’) every 2.7 to 5.4 seconds (Bordwell &
+Thompson, 2001), yet film editors assume that the
+majority of these edits are [Archive omission: quoted wording from Reisz & Millar removed] (Reisz & Millar, 1953; pg 216). This
+assumption is prevalent throughout the filmmaking
+community but has never been empirically tested. If film
+viewers are unaware of some film edits - a phenomenon
+we call edit blindness - this would be evidence of extreme
+global change blindness. The main goal of this study was
+to see if there is any evidence that edit blindness occurs
+during the viewing of authentic feature films. If evidence
+of edit blindness can be found, the next step would then
+be to identify the conditions under which it occurs, how
+these relate to conventional editing practices, and what
+impact edit blindness has on our understanding of how
+we perceive a continuous visual world.
+
+Film editors assume that one of the main benefits of
+adhering to the Continuity Editing Rules is edit blindness.
+This hypothesis has only been tested in two indirect
+empirical studies. Both studies asked participants to
+detect transitions from one viewpoint to another while
+watching films that either adhered to or violated the
+Continuity Editing Rules (d'Ydewalle & Vanderbeeken,
+1990; Schröder, 1990). Both studies found that cuts that
+violated the Continuity Editing Rules were detected faster
+than those that adhered to the rules, indicating more
+awareness of the discontinuity cuts (d'Ydewalle &
+1
+
+For empirical investigations of the impact of crossing
+the line see Frith & Robson (1975), Kraft (1987), d'Ydewalle, Desmet, & Van Rensbergen (1998), and Germeys
+& d’Ydewalle (2007).
+
+2
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Vanderbeeken, 1990; Schröder, 1990). However, these
+studies do no speak to the question of whether
+participants were aware of continuity cuts. In order to
+investigate this issue we first need to understand the
+conditions under which film editors believe edit blindness
+may occur.
+
+(Reisz & Millar, 1953; Bordwell & Thompson, 2001).
+Presenting a scene as a series of shots, beginning with the
+camera further away from the action (Long Shots) and
+gradually moving closer (Medium Shots and Close-Ups;
+see Figure 1, Within Scenes) adds interest to the
+presentation of the scene and provides the viewer with
+the optimum viewpoint on the action (Hochberg &
+Brooks, 1978). Given that a film viewer’s primary
+interest is following the film’s narrative, engaging them
+in this task by constantly changing viewpoint within a
+scene is believed to occupy attention and limit awareness
+of the editing (Reisz & Millar, 1953; Bordwell &
+Thompson, 2001). The technique of focusing attention on
+one task, e.g. instructing viewers to count the number of
+passes during a basketball game, in order to limit
+awareness of unrelated visual features, e.g. a man in a
+Gorilla suit, is commonly referred to as Inattentional
+Blindness (Mack & Rock, 1998; Simons & Chabris,
+1999; Simons, 2000). Within Scene editing may utilise
+the Inattentional Blindness created by focussing attention
+on the narratively significant action in order to limit the
+resources available for noticing the editing. However,
+Inattentional Blindess is typically only reported for local
+features within a scene (Mack & Rock, 1998; Simons &
+Chabris, 1999). Edit Blindness following Within Scene
+edits would be the first example of Inattentional
+Blindness for total global scene changes.
+
+Only a few film theorists have questioned how the
+Continuity Editing Rules create edit blindness. These
+theorists have provided a range of intriguing hypotheses
+that, on examination, may relate Continuity Editing
+directly to Inattentional Blindness and Change Blindness.
+Editors believe awareness of film editing can be
+minimised by coinciding cuts with moments when
+attention is occupied by another task such as
+comprehending the narrative (Reisz & Millar, 1953;
+Bordwell & Thompson, 2001), or hiding the cut
+transients during sudden onsets of motion (Reisz &
+Millar, 1953; Dmytryk, 1986; Katz, 1991; Anderson,
+1996; Bordwell & Thompson, 2001; Pepperman, 2004),
+saccadic eye movements (Dmytryk, 1986), or eye blinks
+(Dmytryk, 1986; Murch, 2001). These techniques parallel
+the methods used in Change Blindness studies to obscure
+the visual transients associated with a change (CarlsonRadvansky & Irwin, 1995; Grimes, 1996; Henderson &
+Hollingworth, 1999; O’Regan et al., 1999; Rensink et al.,
+2000; O’Regan et al., 2000).
+Both eye blinks and saccadic eye movements provide
+a period of perceptual insensitivity due to neural
+suppression (Bristow et al., 2005; Diamond, Ross, &
+Morrone, 2000). Eye blinks occur 10-15 times a minute
+(once every 4-6 seconds) and last 100-150ms with the
+period of perceptual insensitivity extending for a few
+extra milliseconds before and after the blink itself (Burr,
+2005). Saccadic eye movements occur more frequently,
+2-5 times per second (once every 200-500ms; Yarbus,
+1967), last less time (20-50ms), but have a period of
+perceptual insensitivity similar in duration to blinks,
+around 75ms before and 50ms after the eye movement
+(Diamond, Ross, & Morrone, 2000). The relative
+infrequency of blinks and the short duration of saccadic
+eye movements would mean that deliberately using these
+periods of perceptual insensitivity to hide cuts would
+require very precise timing. Such timing may be provided
+by the Continuity Editing Rules.
+
+Inducing inattentional blindness via Within Scene
+editing may not be sufficient to minimize awareness of
+the visual transients associated with the cut. As in Change
+Blindness, the transients may need to be obscured,
+occluded, or suppressed. According to film editors, two
+sub-types of Within Scene edits may provide such
+periods of insensitivity: Match Action and Gaze Match
+edits. The Match Action editing rule (see Figure 1, third
+row) states that a smooth cut between two viewpoints of
+the same action will be achieved by coinciding the cut
+with a sudden onset of motion (Reisz & Millar, 1953;
+Dmytryk, 1986; Katz, 1991; Anderson, 1996; Bordwell &
+Thompson, 2001; Pepperman, 2004). This technique may
+function by either obscuring the cut with motion blur
+(Pepperman, 2001), creating a saccadic eye movement
+towards the motion (Dmytryk, 1986) or, with extreme
+changes in action, causing an eye blink (Dmytryk, 1986;
+Murch, 2001).
+
+The most important Continuity Editing technique, to
+which most other rules are applied, is known as the
+analytical breakdown of scenes or Within Scene editing
+
+Saccadic suppression of the cut transients is also
+thought to be used by Gaze Match editing to limit
+
+3
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+awareness of cuts. The Gaze Match editing rule (see
+Figure 1, fourth row) suggests that cutting from a shot of
+an actor looking off-screen to a shot of the target of the
+actor’s gaze will result in a seamless transition between
+the shots (Reisz & Millar, 1953). This technique is
+believed to result in a saccadic eye movement along the
+line of the actor’s gaze in anticipation of the cut
+(Dmytryk, 1986). Such attentional cuing by gaze shifts
+has been demonstrated using abstract and isolated human
+faces (Friesen & Kingstone, 1998; Langton, Watt &
+Bruce, 2000), realistic faces in static photographs
+(Castelhano, Wieth, & Henderson, 2007; Birmingham,
+Biscof, & Kingstone, 2007) and has also been observed
+in dynamic scenes (Kuhn & Tatler, 2005; Tatler & Kuhn,
+2007). However, in order for gaze cues to be used
+reliably by editors to create edit blindness the majority of
+viewers would have to respond to the cue at the same
+time and the Continuity Editing rules would have to
+identify the precise timing of this response. Whether both
+of these requirements exist will be investigated in this
+study.
+
+Figure 1: Examples of the four categories of cuts compared in
+this study: Between Scenes (no continuity; top row), Within
+Scenes (scene continuity; second row), Match Action (scene and
+action continuity; third row), and Gaze Match (scene and gaze
+continuity; bottom row). All images are taken from Blade
+Runner (Ridley Scott, 1982) and depict the two frames prior to
+the cut and the frame immediately after the cut.
+
+The present study investigated the existence of edit
+blindness by instructing participants to detect edits while
+watching excerpts from seven feature films. Eye
+movements were recorded during the task in order to
+identify whether undetected cuts coincided with periods
+of perceptual insensitivity such as saccades or blinks as
+hypothesized by film editors. All edits were categorised
+according to their adherence to the Continuity Editing
+Rules: Between Scenes (no continuity), Within Scenes
+(scene continuity), Match Action (scene and action
+continuity), and Gaze Match (scene and gaze continuity).
+The four edit types are illustrated in Figure 1. If the
+application of the Continuity Editing techniques results in
+edit blindness, A) participants should be less likely to
+detect cuts that utilise these techniques compared with
+cuts that do not, i.e. Between Scene, B) detection of these
+cuts should be slower, and C) there should be evidence
+that the cuts that are not detected utilise one or more of
+the techniques for obscuring the transients of the cut
+outlined above: coincidence with motion blur, saccadic
+eye movement, or eye blink. Support for these hypotheses
+would provide the first empirical evidence of edit
+blindness during film viewing.
+
+METHOD
+Participants.
+Seven members of the Edinburgh University
+community (3 female; mean age = 28.7 years)
+participated for payment (£5). All participants had normal
+or corrected to normal vision. Participation was
+voluntary. The experiment was conducted according to
+the British Psychological Society’s ethics guidelines.
+
+Apparatus.
+Eye movements were monitored by an SR Research
+Eyelink II eyetracker sampling eye position at 500Hz.
+Viewing was binocular, but only the right eye was
+tracked. The images were presented on a 21 inch cathode
+ray tube (CRT) monitor at a viewing distance of around
+60 cm (participants were free to move their head2) with a
+refresh rate of 100 Hz, resolution of 800 x 600 pixels x
+32 bit. The experiment was controlled with SR Research
+Experiment Builder software. Responses were made via a
+
+2
+
+Participants mostly kept their heads stationary during
+each trial and any minor head movements were automatically compensated for by the eye tracker without impairing tracker accuracy.
+
+4
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Microsoft Sidewinder joypad. Raw gaze data and
+responses were time-locked to the video frames and
+recorded to the hard disk after the experiment. The
+analysis utilised both the raw and filtered data using SR
+Research Data Viewer to identify saccades, fixations and
+eye blinks. Saccades were detected using a 9-sample
+saccade detection model with a velocity threshold of
+30°/sec, an acceleration threshold of 8000°/sec2, and a
+minimum amplitude of 0.5°. Eye blinks were identified
+whenever the pupil was occluded, e.g. by the eyelid, lost
+or severely distorted. Analysis of the eye movement data
+was performed via Matlab and SPSS.
+
+Procedure.
+Participants were told that they would be shown seven
+clips from feature films. Each clip would last for five
+minutes. Their task was to watch the videos and press a
+button every time they saw an edit. An edit was defined
+as “Any transition from one viewpoint to another that
+could not have been produced by a single continuously
+filming camera.” A broad definition of ‘edit’ was used to
+ensure that participants would also identify optical
+transitions such as fades and wipes and digital effects
+such as the transformation of one image into another as
+edits. Participants were instructed that their responses
+would be timed so they should respond as quickly as
+possible. Participant understanding of the edit detection
+task was tested using a 2 minute practice film.
+
+Stimuli.
+Participants were presented seven five-minute
+continuous excerpts extracted from feature films: Blade
+Runner (Ridley Scott, 1982), Citizen Kane (Orson
+Welles, 1941), Dogville (Lars Von Trier, 2003), October
+(Sergei Eisenstein, 1928), Requiem for a Dream (Darren
+Aronofsky, 2000), Dancer in the Dark (Lars Von Trier,
+2000), and Koyaanisqatsi (Godfrey Reggio, 1982). These
+films were chosen as they covered a cross-section of film
+making styles and practices and vary in the degree to
+which they adhere to the continuity editing rules. For
+example, Blade Runner (Ridley Scott, 1982) utilises very
+strict and classic continuity while Dancer in the Dark
+(Lars Von Trier, 2000) consciously violates the
+continuity editing rules.
+
+The Eyelink II head-mounted eye tracker was
+securely but comfortably fastened on the participants
+head. A latex swimming cap was worn over their hair to
+minimise slippage. The head position and distance
+relative to the monitor was checked and the right
+eyetracker camera was positioned. The main experiment
+began with a nine-point calibration of the eyetracker.
+Calibration was deemed acceptable if the gaze position
+was within 0.5° of a visual angle of the target. Each video
+was presented without interruption while the participant
+detected edits by pressing a button on the joypad. After
+each video a further drift correction was performed to
+compensate for drift and slippage.
+
+Excerpts from these films were chosen according to
+the following constraints. Each excerpt must begin at the
+start of a scene, not contain titles or subtitles3, last for
+exactly five minutes, and not contain offensive or violent
+imagery. Excerpts were extracted from digital versions of
+each film and rendered in the XviD MPEG-4 digital
+video format at a resolution of 720x576 and 25fps (DVD
+quality). Stereo audio was also extracted and
+synchronised to the video as a Wave file. These formats
+were chosen as they ensure synchronisation of the gaze
+recording and the video playback through Experiment
+Builder. The order in which the videos were presented
+was randomised across participants.
+
+After all seven videos had been presented participants
+completed a short questionnaire about the films. The
+questionnaire checked whether they had previously seen
+the films and how familiar the films were. All
+participants stated that they had either never seen the
+films before or could not recall them in detail. The whole
+experiment lasted less than 45 minutes.
+
+Coding and Analysis.
+In order to identify the impact of the continuity
+editing rules on participant awareness of film edits, all
+edits in the sample films were hand coded for their
+adherence to the rules. The films were coded according to
+five categories:
+
+3
+
+An exception was made for October (Sergei Eisenstein,
+1928) a silent film using textual descriptions (intertitles)
+inserted between shots to communicate the narrative. All
+cuts to and from intertitles were excluded in the subsequent analysis.
+
+1) Edit Type = Cut, Other. Was the transition
+between the two shots a straight cut?
+
+5
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Num.
+Edits
+
+ASL
+(sec)
+
+Cut
+(%)
+
+Size
+(%)
+
+Between
+Scene
+(%)
+
+Within
+Scene
+(%)
+
+Match
+Action
+(%)
+
+Gaze
+Match
+(%)
+
+Blade Runner
+
+74
+
+4.1
+
+100
+
+74
+
+6
+
+16
+
+0
+
+49
+
+Citizen Kane
+
+47
+
+6.4
+
+96
+
+53
+
+13
+
+4
+
+4
+
+17
+
+Dogville
+
+47
+
+6.4
+
+100
+
+55
+
+0
+
+15
+
+15
+
+15
+
+October
+
+111
+
+2.7
+
+55
+
+34
+
+25
+
+3
+
+8
+
+3
+
+Requiem for a Dream
+
+108
+
+2.8
+
+100
+
+59
+
+9
+
+20
+
+13
+
+3
+
+Dancer in the Dark
+
+49
+
+6.1
+
+100
+
+82
+
+18
+
+13
+
+0
+
+10
+
+Koyaanisqatsi
+
+20
+
+15
+
+95
+
+26
+
+40
+
+20
+
+0
+
+0
+
+All
+
+65.1
+
+4.6
+
+92
+
+59.7
+
+12.2
+
+13.4
+
+6.3
+
+16.5
+
+Film
+
+Table 1: General edit statistics for the seven feature film excerpts used in this study: Number of edits in the 5 minute excerpt (Num.
+Edits), Average Shot Length (ASL; seconds), Percentage of edits that are cuts (Cut; %), Percentage of cuts that were of shot size
+(Size; %) Close-Up (CU), Close Medium Shot ( CMS), orMedium Shot ( MS), Percentage of cuts of size CU, CMS, or MS that were
+classified as Between Scene, Within Scene, Match Action, or Gaze Match (%). Averages across all seven films are displayed in the
+bottom row.
+
+2) Shot Size = eXtreme Close-Up (XCU), CloseUp (CU), Close Medium Shot (CMS), Medium
+Shot (MS), Medium Long Shot (MLS), Long
+Shot (LS), eXtreme Long Shot (XLS). All shot
+sizes are specified relative to how much of a human
+figure would be visible in the frame if the top of the
+head was touching the top of the screen (Katz,
+2001). A CU shows an entire head, MS shows the
+upper torso and LS a full body. The shot size
+following the cut is coded.
+3) Scene Continuity = Within Scene
+(Continuity), Between Scene (Discontinuity).
+Two shots are coded as belonging to the same scene
+if a focal object e.g. a person, belonging to the
+current scene is immediately present in the new
+shot.
+4) Match on Action = Yes, No. Two shots are
+coded as being joined by a Match Action edit if the
+subject of both shots is the same e.g. a person or
+object, and the subject begins an action in the first
+shot and continues it in the second shot.
+
+5) Gaze Match = Yes, No. Two shots are coded as
+being joined by a Gaze Match edit if the shots
+depict different subjects and both are looking offscreen in the direction of the other person, i.e. if the
+two images were overlaid their eyelines would
+meet. Cuts involving eyelines that do not meet or in
+which the screen location of the two people are
+identical across the cut were excluded.
+Coding was performed by two independent coders both
+following the same guidelines. At the beginning of
+every shot the coder identified the size of the shot
+(Shot Size), whether the edit preceding the shot was a
+cut (Edit Type), and whether the two shots either side
+of the edit had continuity of scene (Within Scene),
+action (Match Action), or gaze (Gaze Match). Intercoder reliability across the five categories was on
+average 85%.
+
+6
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Edits Missed (%)
+Film
+Blade Runner
+Citizen Kane
+Dogville
+October
+Requiem for a Dream
+Dancer in the Dark
+Koyaanisqatsi
+All
+
+All
+
+BS
+
+WS
+
+8.6
+(8.4)
+9.2
+(10)
+15.0
+(13)
+7.7
+(4.2)
+30.0
+(32)
+14.3
+(9.1)
+7.1
+(5.4)
+15.8
+(10)
+
+19.1
+(18)
+4.8
+(13)
+
+4.8
+(8.7)
+14.3
+(38)
+39.3
+(34)
+0
+(0)
+37.5
+(31)
+20.0
+(16)
+57
+(53)
+25.1
+(11)
+
+0
+(0)
+20.5
+(38)
+14.3
+(12)
+0
+(0)
+9.4
+(8.4)
+
+Reaction Time (ms)
+
+MA
+14.3
+(38)
+10.7
+(20)
+29.6
+(38)
+47.3
+(31)
+-
+
+GM
+
+All
+
+BS
+
+WS
+
+9.0
+(9.5)
+3.7
+(9.4)
+21.4
+(22)
+0
+(0)
+28.6
+(53)
+14.3
+(20)
+
+353
+(67)
+569
+(62)
+603
+(86)
+466
+(46)
+452
+(74)
+578
+(73)
+643
+(319)
+489
+(53)
+
+420
+(159)
+623
+(125)
+
+289
+(176)
+550
+(103)
+680
+(114)
+434
+(104)
+437
+(89)
+608
+(108)
+635
+(124)
+451
+(116)
+
+-
+
+-
+
+32.4
+(14)
+
+10.9
+(8.4)
+
+430
+(60)
+490
+(145)
+578
+(50)
+618
+(274)
+507
+(59)
+
+MA
+526
+(177)
+605
+(121)
+659
+(480)
+486
+(83)
+-
+
+GM
+351
+(66)
+508
+(140)
+577
+(129)
+428
+(74)
+507
+(134)
+560
+(94)
+
+-
+
+-
+
+564
+(79)
+
+410
+(55)
+
+Table 2: Percentage of edits missed (%) and reaction times (ms) for detected edits. Results are split by film (rows), presented for all
+edits (vertical light grey, ‘All’ columns) and a subset of edits that are cuts with shot size CU, CMS, or MS and type Between Scene
+(BS), Within Scene (WS), Match Action (MA), and Gaze Match (GM). Means across all films are presented on the bottom row.
+Standard Deviations are presented in parantheses
+.
+
+similarly composed visual scenes with similar contents
+e.g. at least one person. From the cuts meeting these
+requirements four sub-classes were identified
+according to the cuts adherence to the Continuity
+Editing Rules: Between Scene (no continuity), Within
+Scene (scene continuity), Match Action (scene and
+action continuity), and Gaze Match (scene and gaze
+continuity). The edits that satisfied all these
+requirements are referred to as valid cuts. All other
+types of edits were excluded from the analysis. 117
+cuts remained after all exclusions: Between Scene =
+26, Within Scene = 34, Match Action = 15, and Gaze
+match = 42.
+
+RESULTS
+Percentage of Edits Missed
+The first and most important measurement for
+identifying whether edit blindness occurred was the
+percentage of edits that were not detected. Overall
+15.8% of all edits were missed (see Table 2, 1st block).
+As can be seen from Table 2, the Percentage of Edits
+missed varied considerably across the seven films.
+These differences could be driven by a number of
+factors such as shot content, edit type, shot length, etc.
+To test the specific hypotheses about the Continuity
+Edits such potential confounding factors need to be
+excluded. Only edits involving straight cuts, i.e.
+instantaneous transitions between shots, not gradual
+effects such as dissolves or fades, were used. In order
+to minimise confounds of shot content the cuts used in
+the analysis had to be cuts to shots of size Close-Up
+(CU), Close Medium Shot (CMS), or Medium Shot
+(MS). This ensured that all cuts were followed by
+
+Repeated-measures ANOVA for the percentage of
+cuts missed across the four cut types (Table 2, bottom
+row, 1st block) indicates a main effect of Cut Type
+(F(3,18)=29.970, p<.001)4. This can be attributed to
+Within Scene and Match Action cuts which both had
+4
+
+Film could not be included as a factor as the four cut
+types were not represented across all films.
+
+7
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+significantly greater number of cuts missed (25.1% and
+32.4%, respectively) compared with Between Scene
+(9.4%; both p<.01)5 and Gaze Match (10.9%; both
+p<.05). There were no significant differences between
+the percentage of cuts missed for Gaze Match and
+Between Scene cuts or Within Scene and Match Action
+cuts. This supports our hypothesis that scene (Within
+Scene) and action continuity (Match Action) increase
+edit blindness relative to no continuity (Between
+Scene).. However, there is no indication that gaze
+continuity (Gaze Match) increased edit blindness.
+
+cuts produce more edit blindness than Between Scene
+and Gaze Match cuts. This establishes that edit
+blindness does exist and seems to be related to the
+application of certain Continuity Editing rules. The
+next stage in this analysis is to test whether there is a
+higher incidence of saccadic eye movements or eye
+blinks during these missed cuts. A significantly higher
+probability of saccades or blinks during missed cuts
+compared with detected cuts may suggest a mechanism
+by which the transients associated with some cuts were
+suppressed, limiting viewer awareness of the editing.
+
+Time taken to detect cuts.
+
+Coincidence of blinks and cuts.
+
+Across all films and cut types the average cut
+detection time was 489ms (see Table 2, 2nd block).
+This varied considerably across films with Blade
+Runner, one of the films expected to exhibit a high
+degree of continuity, demonstrating the quickest cut
+detection time (353ms) where as Koyaanisqatsi, the
+film with the lowest percentage of missed cuts having
+the slowest detection time (643ms).
+
+Across all edits the probability that a blink occurred
+at the exact moment of an edit was very low (1.2%.)
+The percentage of detected valid cuts that coincided
+with an eye blink was 1.09% and for missed cuts,
+1.06%. Across the seven films the percentage of
+missed cuts that coincided with eye blinks was
+negligible: Blade Runner = 2.3%, Citizen Kane =
+4.8%, Dogville = 0%, October = 0%, Requiem for a
+Dream = 0.93%, Dancer in the Dark = 0%, and
+Koyaanisqatsi = 0%. When the data were collapsed
+across all films and split by the four cut types none of
+the cut types had any missed cuts coinciding with
+blinks.
+
+A repeated-measures ANOVA for cut detection
+times across the four cut types (Table 2, bottom row,
+2nd block) indicated a main effect for Cut Type
+(F(3,18)=6.320, p<.01). This difference can be
+attributed to Gaze Match cuts being detected
+significantly faster (410ms) than Between Scene
+(507ms; p<.054) and Match Action cuts (564ms;
+p<.01). There were no other significant differences.
+These results do not support our hypotheses that
+Within Scene, Match Action, or Gaze Match cuts delay
+detection compared with Between Scene cuts but there
+is a non significant trend in this direction for Match
+Action cuts (p=.127, n.s.). A positive correlation
+between reaction time and percentage of cuts missed
+was also predicted by our hypotheses but no significant
+correlation is found: Between Scene (2=0.281, N=7,
+p=.54, n.s.), Within Scene (2=-0.327, N=7, p=.47,
+n.s.), Match Action (2=-0.435, N=7, p=.33, n.s.), and
+Gaze Match (2=0.185, N=7, p=.69, n.s.). There is also
+no significant correlation across all types of cuts
+(2=0.097, N=147, p=.24, n.s.).
+
+In order to account for the period of perceptual
+insensitivity beginning a few milliseconds before and
+extending a few milliseconds after the period of the
+blink itself (Burr, 2005) the probability of a blink
+occurring 100ms before and after the cut was
+calculated. This extended time window still revealed
+no blinks for missed cuts across most edit types.
+However, 11.6% of missed Within Scene cuts
+exhibited a blink in this time window compared with
+only 3.3% of detected cuts. A paired-samples t-test
+between the blink probability for detected and
+undetected Within Scene cuts revealed a marginally
+significant difference, t(6)=-2.426, p=.051. This
+indicates that a small proportion (11.6%) of the Within
+Scene cuts that failed to be detected coincided with a
+period of perceptual sensitivity that may have limited
+awareness of the visual transients associated with the
+cut. For these cuts, a participant would have had to
+perform overt comparison of the new shot to their
+memory of the old shot in order to detect the cut. No
+such coincidence with blinks was observed for
+Between Scene, Match Action, or Gaze Match cuts.
+
+The results from the cut detection task presented
+above indicate that Match Action and Within Scene
+5
+
+All post-hoc comparisons are performed with Bonferroni correction for multiple comparisons.
+
+8
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Probability of Saccade during edit (%)
+Edits Detected
+Film
+Blade Runner
+Citizen Kane
+Dogville
+October
+Requiem for a Dream
+Dancer in the Dark
+Koyaanisqatsi
+All
+
+All
+
+BS
+
+WS
+
+13.1
+(4.3)
+7.3
+(4.7)
+10.7
+(8.5)
+5.1
+(3.3)
+7.2
+(3.5)
+9.3
+(5.7)
+7.0
+(9.8)
+8.7
+(3.4)
+
+17.7
+(24)
+0
+(0)
+
+18.3
+(16)
+0
+(0)
+4.6
+(14)
+0
+(0)
+8.6
+(4.0)
+7.1
+(11)
+0
+(0)
+10.4
+(5.5)
+
+4.3
+(5.4)
+0
+(0)
+4.8
+(8.1)
+7.1
+(19)
+4.8
+(3.6)
+
+Edits Missed
+
+MA
+0
+(0)
+12.0
+(20)
+0
+(0)
+23.3
+(21)
+-
+
+GM
+
+All
+
+BS
+
+WS
+
+15.7
+(7.5)
+0
+(0)
+13.6
+(28)
+14.3
+(38)
+0
+(0)
+8.3
+(14)
+
+30.0
+(24)
+3.5
+(4.5)
+0
+(0)
+3.1
+(5.8)
+7.3
+(6.7)
+17.4
+(10)
+16.7
+(24)
+9.5
+(4.7)
+
+0
+(0)
+0
+(0)
+
+33.3
+(35)
+0
+(0)
+0
+(0)
+0
+(0)
+18.2
+(19)
+0
+(0)
+25.0
+(50)
+12.4
+(9.7)
+
+-
+
+-
+
+13.4
+(13)
+
+12.9
+(8.8)
+
+0
+(0)
+25.0
+(46)
+14.3
+(22)
+0
+(0)
+10.7
+(20)
+
+MA
+0
+(0)
+0
+(0)
+16.7
+(24)
+0
+(0)
+-
+
+GM
+47.1
+(40)
+0
+(0)
+0
+(0)
+0
+(0)
+0
+(0)
+25.0
+(29)
+
+-
+
+-
+
+3.6
+(9.4)
+
+17.7
+(23)
+
+Table 3: Probability (%) of there being a saccade during an edit which was detected or missed. Results are split by film (rows),
+presented for all edits (vertical light grey, ‘All’ columns), for valid cuts with shot size CU, CMS, or MS and type Between Scene (BS),
+Within Scene (WS), Match Action (MA), and Gaze Match (GM). Means across all films are presented on the bottom row. Standard
+Deviations are presented in parantheses.
+
+p=.449, n.s.) or interaction (F(3,18)=1.033, p=.401,
+n.s.). The overall trend for more missed cuts to
+coincide with saccades may be evidence of a
+mechanism whereby awareness of some cuts is limited
+by saccadic suppression. However, the low number of
+missed cuts introduced too much variance to verify this
+effect. In conflict with this trend, Match Action cuts
+exhibited a significant effect in the other direction:
+missed cuts were significantly less likely to coincide
+with a saccade (t(6)=2.649, p<.05). This indicates that
+during the majority of missed Match Action cuts the
+viewers’ eyes were open and fixating, providing no
+period of perceptual insensitivity.
+
+Coincidence of Saccadic Eye Movements and
+Cuts.
+8.8% of all edits coincided with a saccade. Of the
+edits that were detected, 8.7% coincided with a
+saccade. 9.5% of the missed edits coincided with a
+saccade. This probability varied considerably across
+films with some films exhibiting higher probabilities
+for missed than detected edits while the rest showed
+similarly low or lower saccade probabilities for missed
+compared to detected edits (see Table 3). Film editors
+have not predicted that all edits would coincide with
+saccades rather that some cuts created according to the
+Continuity Editing rules, namely Match Action and
+Gaze Match may create edit blindness by coinciding
+with saccades. The saccade probability for the four
+sub-categories of cuts (Table 3, bottom row) tended to
+be slightly greater for the missed cuts (11.1%) than
+detected cuts (10.4%) but a repeated-measures
+ANOVA revealed no main effect of cut detection
+(F(1,6)=.082, p=.784, n.s.) or cut type (F(3,18)=.924,
+
+The saccade probability presented above represents
+the probability that the eyes were moving at the precise
+moment a cut occurred. As with eye blinks, the
+suppression of perceptual sensitivity during a saccade
+(20-50ms) actually begins about 75ms before the eye
+movement and last around 50ms after the eyes have
+landed (Diamond, Ross, & Morrone, 2000). A
+
+9
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+repeated-measures ANOVA of Saccade Probability
+with the factors Time (100ms time bins beginning 300ms before the cut and extending 700ms after the
+cut) and Cut Type (see Figure 2) revealed a main
+effect of Cut Type (F(3,18)=6.875, p<.01), Time
+(F(9,54)=2.268, p<.05), and a significant interaction
+(F(27,162)=1.849, p<.05). The main effect of Cut Type
+can be attributed to Within Scenes and Gaze Match
+having a greater overall average Saccade Probability
+compared to Between Scenes (both p<.05). The main
+effect of Time was due to a peak in Saccade
+Probability 200-300ms after the cut across all Cut
+Types (p<.05). The only Cut Types that varied from
+this pattern were Within Scene and Gaze Match.
+Within Scene cuts exhibited an earlier (beginning
+100ms post-cut) and more pronounced peak in Saccade
+Probability (200-300ms) compared to Between scenes
+(100ms and 200ms, p<.05) and Match Action (200ms,
+p<.05). Gaze Match cuts exhibited a significantly
+earlier peak in Saccade Probability 100ms before the
+cut (p<.05 compared with all other Cut Types) and
+lasting to 300ms post-cut. This early peak indicates
+that significantly more saccades were occurring in
+anticipation of Gaze Match cuts (13.6%) than in any
+other cut type (~8%). This difference in saccade
+probabilities may indicate that, as predicted by film
+editors (e.g. Dmytryk, 1986) a proportion of Gaze
+Match cuts may fail to be detected due to their
+suppression during a saccadic eye movement.
+
+DISCUSSION
+The main hypothesis tested in this investigation was
+that the application of the Continuity Editing Rules
+would result in greater edit blindness than edits not
+composed according to the rules. Overall, the results
+support this hypothesis. Edits without any continuity of
+scene, action, or gaze (Between scene) were missed
+significantly less often (9.4%) than edits with
+continuity of scene (Within Scene=25.1%) or scene
+and action (Match Action=32.4%). The only continuity
+edits that did not exhibit significantly greater edit
+blindness were Gaze Match cuts (10.9%). The
+percentage of missed Within Scene and Match Action
+cuts may not seem remarkably high considering that
+other change blindness experiments report higher rates
+of change blindness, e.g. 66% failure to detect change
+to a centrally attended actor across a cut (Levin &
+Simons, 1997). However, participants in these
+experiments are not aware of the change detection task
+until after the stimulus has been presented and when
+they are told to look for the change, a task comparable
+to our “detect the edit” task, their failure rate drops to
+<5% (Levin & Simons, 1997). In static scenes, even
+slight changes to the global luminance or contrast of a
+scene occurring without any occlusion (e.g. saccade) or
+distraction (e.g. flicker) are missed 0% of the time
+(Henderson, Brockmole, & Gajewski, 2008).
+Therefore, compared to existing studies, the 9-32%
+failure to detect total, global scene changes (i.e. edits)
+in this study is remarkable considering that the
+participants only task was cut detection. This indicates
+that edit blindness occurs to some degree across all edit
+types and can be increased by adhering to the
+continuity editing rules.
+In terms of the other measure of edit blindness cut detection times - these were longest for Match
+Action cuts and shortest for Gaze Match cuts. The cut
+detection times for all continuity edits were expected to
+be longer than the no continuity condition (Between
+Scene) but this is clearly not the case (except a trend in
+the right direction for Match Action cuts). These quick
+detection times seem to suggest that for Within Scene
+and Gaze Match cuts participants either detect or miss
+a cut, there is never any ambiguity that might lead to
+longer detection times. By comparison, Match Action
+cuts may exhibit longer detection times due to the
+ambiguous timing of the cut: the motion blur caused by
+
+Figure 2: Saccade probability in 100ms bins before and
+after the cut across the four cut types.
+
+10
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+the sudden onset of motion prior to the cut may
+obscure the cut itself, increasing the probability of edit
+blindness and delaying recognition that a cut has
+occurred until the image has stabilised.
+
+activities into perceptual units (Newtson, 1973; Zacks
+et al., 2001). During the boundaries between these
+units, cognitive resources may be occupied with
+encoding the perceptual unit in memory, leaving
+insufficient resources to detect disruptions to the image
+(Levin & Varakin, 2004). Within Scene cuts typically
+coincide with shifts in action that may be perceived as
+perceptual boundaries (Schwan, Garsoffky, & Hesse,
+2000). Evidence for the modulation of viewer attention
+during the perception of human events is still
+speculative (see Smith, 2006, chapter 3 for further
+discussion) but if it were to be corroborated it may
+explain why editors choose to cut during changes in
+action. By choosing to cut during a perceptual
+boundary, a film editor may be limiting the attentional
+resources available for detecting a cut while ensuring
+that the cut itself is not processed as an artificial
+perceptual boundary. By comparison, a Between Scene
+cut typically occurs at the end of a scene when all
+action has ended and the viewer has no expectation of
+what will happen next. This lack of expectation and the
+disorientation caused by a Between Scene cut can be
+seen in the time taken to orient to the new shot. Within
+Scene cuts exhibit an early peak in saccadic activity
+beginning 0-100ms following a cut (Figure 2). By
+comparison, participants took longer to orient to breaks
+in scene continuity: the peak in saccadic activity for
+Between Scene cuts begins 100ms after Within Scene
+cuts6. The break in attention experienced after Between
+Scene cuts may be responsible for the lower incidence
+of missed cuts: viewers were unable to immediately
+orient to the new shot allowing them instead to allocate
+attention to the cut detection task.
+
+For those cuts that were missed, only Within Scene
+cuts showed any signs that the visual transients
+associated with the cuts may have been masked by eye
+blinks. Most cut types (except Match Action) showed a
+greater probability of saccadic eye movements during
+missed compared with detected cuts but these
+differences were not significant. Only Gaze Match cuts
+showed any sign of anticipatory saccadic eye
+movements that may have masked cuts. However,
+given the low percentage of missed Gaze Match cuts it
+is unclear whether these anticipatory eye movements
+resulted in edit blindness. In general, the most reliable
+method for creating edit blindness appears to be
+maintaining scene continuity across a cut and
+coinciding the cut with a sudden onset of visual
+motion, i.e. creating a Match Action cut.
+
+Why did maintaining scene continuity (Within
+Scene cuts) result in a significantly greater
+degree of edit blindness compared with cuts with
+no continuity (Between Scene cuts)? All cuts used
+in the main analysis of this study were visually very
+similar: the shot following the cut had to contain at
+least one human-like figure framed by the shot from
+the waist up or closer (CU, CMS, or MS). The only
+difference between Within Scene and Between Scene
+cuts was whether the new shot was immediately
+recognisable as belonging to the same scene as the
+previous shot. This slight difference appears to have
+had a significant impact on how participants attended
+to the new shot and the degree to which they were
+aware of the cut.
+
+Alternatively, Between Scene cuts may actually
+increase expectation of a cut due to the termination of
+all predictable action7. This would enable viewers to
+quickly and reliably detect the cut when it occurs but
+slow their orienting to the new shot due to its
+
+Although the only task in the present study was cut
+detection, it appears that participants divided their
+attention between this task and following the film
+narrative. Allocating attention to this secondary task
+may have resulted in insufficient attention being made
+available to the cut detection task. Such an absence of
+awareness due to failure to attend to a visual feature of
+a scene is referred to as inattentional blindness (Mack
+& Rock, 1998). Studies investigating how we perceive
+realistic human activities, such as washing the dishes
+or ironing a shirt, have revealed that we parse observed
+
+6
+
+A similar peak in saccadic activity 200-400ms following film cuts has been reported in previous studies
+and is thought to indicate saccades initiated in response
+to the new shot (Hochberg & Brooks, 1978;
+d’Ydewalle and Venderbeeken, 1990; d’Ydewalle,
+Desmet, & Van Rensbergen, 1998; May, Dean, &
+Barnard, 2003; Carmi & Itti, 2006).
+7
+This interpretation was suggested by an anonymous
+reviewer.
+
+11
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+unexpected content and lack of relationship to the
+previous shot. In this situation viewers may initially
+orient to visually salient features of the new shot rather
+than semantically or narratively significant objects
+(Carmi & Itti, 2007; also see Nyström & Holmqvist in
+this volume for discussion of saliency vs. semantics).
+Such fresh appraisal of the scene may take longer than
+orienting to expected features and therefore account for
+the delayed rise in saccade frequency observed after
+Between Scene compared with Within Scene cuts.
+However, a direct comparison of the influence of
+semantic relatedness and visual saliency on overt
+attention following cuts would be required to further
+understand the differences in edit blindness and
+saccadic activity between Between Scene and Within
+Scene cuts.
+
+This motion blur seems to function in a similar way to
+the ‘mudsplats’ used in change blindness studies
+(O’Regan et al., 1999): filling the scene with motion
+transients so that the transients associated with the cut
+do not capture attention (a similar effect has been
+reported in attention capture paradigms: Pinto, Olivers,
+& Theeuwes, 2008). By comparison, Gaze Match cuts
+direct viewer attention across the cut using a gaze cue.
+The higher incidence in saccadic activity before and
+after Gaze Match cuts indicates that the gaze cue is
+effective in directing attention (see Figure 2) but this
+does not result in an increase in edit blindness. Instead
+what appears to happen is that some of these
+attentional shifts may coincide with the cut,
+suppressing sensitivity to the cut transients, but the
+majority of shifts will probably terminate before or
+begin after the cut allowing the viewer to perceive the
+cut transients. The majority of Within Scene cuts seem
+to overcome the problem of visible cut transients by
+occupying the viewer with the task of orienting to the
+new shot. For Gaze Match cuts, no such orienting is
+required as the gaze cue prior to the cut has already
+indicated where the centre of interest will be in the new
+shot. This may mean that greater attentional resources
+are available for the cut to be processed to the level of
+awareness if the viewing task requires it. However,
+under normal viewing conditions the viewer’s primary
+interest should be on following the depicted action, not
+detecting edits. This may mean that Gaze Match cuts
+result in quick and direct orienting of attention across
+the cuts without the cut itself reaching the level of
+conscious awareness. More subtle methods for gauging
+viewer awareness of cuts, such as testing implicit
+memory for the cut (similar to implicit change
+detection: Levin, Simons, Angelone, & Chabris, 2002;
+Hollingworth & Henderson, 2002; Henderson &
+Hollingworth, 2003b; Angelone, Levin, & Simons,
+2003) may be required to examine edit blindness
+during normal film viewing. The precise timecourse of
+gaze cuing in dynamic scenes, the reliability of such
+cues, and detailed analysis of where the viewers eyes
+go in response to the cue will be investigated in
+subsequent studies.
+
+The relationship between the timing of Within
+Scene cuts and cognitive event boundaries may also
+explain the higher coincidence of blinks with missed
+Within Scene cuts. The film editor Walter Murch
+(2001) hypothesised that blinks function as punctuation
+to cognitive events, and by identifying these cognitive
+event boundaries, blinks could be used to hide cuts.
+Some evidence of a relationship between blink
+frequency and cognitive processing does exist (Fogarty
+& Stern, 1989; Ichikawa & Ohira, 2004; Fukuda et al.,
+2005) although attempts to find a direct relationship
+between blinks and event boundaries have failed
+(Smith, Whitwell, and Lee, 2006). Further examination
+of the relationship between blinks and Within Scene
+cuts is required to establish if the relationship found in
+the present study is replicable.
+
+Why did the addition of gaze continuity to
+scene continuity (Gaze Match cuts) result in less
+edit blindness? Match Action and Gaze Match cuts
+are visually and conceptually very similar to Within
+Scene cuts. They all depict on-going scenes containing
+recognisable human-like figures framed in a similar
+way. The only difference is that Match Action cuts are
+preceded by a sudden onset of motion and Gaze Match
+cuts by a look off-screen. How can these slight
+differences result in such varying degrees of edit
+blindness?
+
+What is the implication of edit blindness on
+our understanding of how we represent dynamic
+visual scenes? One interpretation of edit blindness
+
+Match Action cuts appear to improve upon Within
+Scene cuts by adding motion blur to scene continuity.
+
+12
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+could be that we retain little or no information about
+scene content during film viewing and are, therefore
+unable to detect changes to this information. The
+results presented here clearly do not support this view.
+The majority of cuts are detected (70-90%; the inverse
+of Table 2, bottom row, 1st block) even when the
+transients associated with some of those cuts are
+suppressed
+during
+saccadic
+eye
+movements
+(~10%,Table 3, bottom row, 2nd block). Viewers must
+be retaining some form of visual representation in
+order for them to compare the new shot to the old and
+detect the change. However, when edit blindness
+occurs either A) this comparison is not performed, or
+B) the representation is too sparse for the comparison
+to reveal the difference. Studies investigating the
+representations constructed during static scene viewing
+have revealed that these representations are richly
+detailed both at the object and scene level (Henderson
+& Hollingworth, 1999; Hollingworth et al., 2001;
+Melcher, 2001; Hollingworth & Henderson, 2002;
+Tatler, Gilchrist, & Land, 2005; Hollingworth, 2006).
+However, it is currently unknown if similarly rich
+representations are retained during dynamic scene
+viewing. Recognition memory for dynamic scenes has
+been shown to be better than static scenes (Matthews,
+Benjamin, & Osborne, 2007) but the content of this
+memory does not seem to be used to detect changes
+(Levin & Simons, 1997; 2000; Angelone, Levin, &
+Simons, 2003). Evidence from developmental studies
+(Xu & Carey, 1996), multiple object tracking
+(Kahneman, Treisman, & Gibbs, 1992; Scholl, 2001;
+Mitroff & Alvarez, 2007), and change blindness (Levin
+& Simons, 1997) suggest that changes to dynamic
+scenes will only be detected if they violate the
+spatiotemporal continuity of focal objects within the
+scene. Our results support this view by indicating that
+edit blindness is more prevalent for cuts that present a
+continuing action (Within Scene and Match Action).
+However, assumptions about the spatiotemporal
+continuity of objects presented in film cannot be the
+same as the spatiotemporal continuity of objects in the
+real-world as 3D space is transformed and contorted to
+accommodate the constraints of the 2D screen. What
+form do these spatiotemporal expectations take during
+film viewing? How detailed are our representations of
+object and scene details? How are these representations
+updated across edits in the absence of explicit
+awareness of the editing? How do the representations
+
+and expectations of continuity during film viewing
+differ from those constructed during real-world
+dynamic scene viewing?
+All of these questions are currently unanswered and
+require dedicated empirical investigation if we are to
+know whether our current theories about how static
+visual scenes are perceived and represented in memory
+scale up to film and real-world dynamic scene viewing.
+For instance, it is hard to believe that we would fail to
+notice the equivalent of an edit occurring during
+natural viewing of a real-world scene. If we were
+instantaneously transported to a different location in
+the real-world we would expect to notice even if we
+were attending to the same object before and after the
+change (equivalent to a Match Action cut) and the
+change coincided with a saccade or a sudden onset of
+motion. It could be argued that Edit Blindness is
+unique to film viewing due to the artificial nature of
+film and the specialised viewing behaviour we have
+developed to accommodate the differences between
+film and reality. However, other change blindness
+phenomenon initially reported in film (Levin &
+Simons, 1997) have been shown to replicate in the realworld (Simons & Levin, 1998). If the same real-world
+replication could be demonstrated for edit blindness it
+would have serious implications for theories about how
+we represent peripheral information, maintain object
+representations during dynamic scenes, orient our
+viewpoint within space, and distribute attention during
+dynamic scenes.
+
+CONCLUSION
+The study reported here presents the first empirical
+evidence of edit blindness. Film editors’ intuitions
+about the techniques that minimize viewer awareness
+of editing are validated in a cut detection task. During
+the perception of human activity, attention appears to
+fluctuate, providing moments when visual attention is
+absent or suppressed during eye blinks and saccadic
+eye movements. The Continuity Editing rules allow
+film editors to identify these moments in order to
+minimise viewer awareness of edits. Understanding
+precisely how the Continuity Editing rules function and
+what information is represented and monitored during
+film viewing will further our understanding of how we
+experience film and real-world dynamic scenes.
+
+13
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Carroll, J. M., & Bever, T. G. (1976) Segmentation in
+Cinema Perception. Science, 191, 1053-1055.
+
+ACKNOWLEDGEMENTS
+Thanks to Gustav Kuhn for help acquiring data,
+Julia Schmidt for hand coding the edits, Andrea Greve
+and Melissa Vo for detailed comments on drafts of this
+paper and the members of the Edinburgh University
+Visual Cognition Lab and Eye Movement User group
+for their feedback during early presentations of this
+data. Ths research was funded by ESRC grant RES062-23-1092.
+
+Castelhano, M. S., Wieth, M. S., & Henderson, J. M.
+(2007). I see what you see: Eye movements in realworld scenes are affected by perceived direction of
+gaze. In L. Paletta and E. Rome (Eds.), Attention in
+Cognitive Systems (pp 252-262). Berlin: Springer.
+d'Ydewalle, G., Desmet, G., & Van Rensbergen, J.
+(1998) Film Perception: The processing of film
+cuts. G. Underwood (Ed.), Eye guidance in
+reading and scene perception (pp. 357-367).
+Oxford: Elsevier.
+
+REFERENCES
+
+d'Ydewalle, G., & Vanderbeeken, M. (1990).
+Perceptual and cognitive processing of editing rules
+in film. R. Groner, G. d'Ydewalle, & R. Parnham
+(Eds.), From eye to mind: Information acquisition
+in perception, search, and reading. (pp. 129-139).
+Amsterdam: Elsevier (North Holland).
+
+Anderson, J. (1996). The Reality of Illusion: An
+Ecological Approach to Cognitive Film Theory.
+Carbondale, USA: Southern Illinois University
+Press.
+Angelone, B. L., Levin, D. T., & Simons, D. J. (2003)
+The relationship between change detection and
+recognition of centrally attended objects in motion
+pictures. Perception, 32, 947-962.
+
+Diamond, M. R., Ross, J., & Morrone, M. C. (2000)
+Extraretinal Control of Saccadic Suppression. The
+Journal of Neuroscience, 20, 3449-3455.
+
+Birmingham, E., Bischof, W.F., & Kingstone, A.
+(2007). Why do we look at eyes? Journal of Eye
+Movement Research, 1(1):1, 1-6,
+
+Dmytryk, E. (1986). On Filmmaking. London, UK:
+Focal Press.
+
+Bordwell, D., & Thompson, K. (2001) Film Art: An
+introduction (6th ed.,). New York, USA: Mc Graw
+Hill.
+
+Fogarty, C., & Stern, J. A. (1989). Eye movements and
+blinks: their relationship to higher cognitive
+processes. International Journal of
+Psychophysiology, 8, 35-42.
+
+Bristow, D., Haynes, J.-D., Sylvester, R., Frith, C. D.,
+& Rees, G. (2005) Blinking Suppresses the Neural
+Response to Unchanging Retinal Stimulation.
+Current Biology, 15, 1296-1300.
+
+Friesen, C. K., & Kingstone, A. (1998). The eyes have
+it!: reflexive orienting is triggered by nonpredictive gaze. Psychonomic Bulletin and Review,
+5, 490-495.
+
+Brockmole, J. R., & Henderson, J.M. (2005).
+Prioritization of new objects in real-world scenes:
+Evidence from eye movements. Journal of
+Experimental Psychology: Human Perception and
+Performance, 31, 857-868.
+
+Frith, U., & Robson, J. E. (1975). Perceiving the
+language of films. Perception, 4, 97-103.
+Fukuda, K., Stern, J. A., Brown, T. B., & Russon, M.
+B. (2005). Cognition, blinks, eye-movements, and
+pupillary movements during performance of a
+running memory task. Aviation, Space and
+Environmental Medical, 76(7 Suppl.), C75-85.
+
+Burr, D. (2005) Vision: in the Blink of an Eye. Current
+Biology, 15, R554-R556.
+Carlson-Radvansky, L. A., & Irwin, D. E. (1995)
+Memory for structural information across eye
+movements. Journal of Experimental Psychology:
+Learning, Memory and Cognition. 21, 1441–58.
+
+Germeys, F. & d’Ydewalle, G. (2007) The psychology
+of film: perceiving beyond the cut. Psychological
+Research, 71, 458-466.
+
+Carmi, R., & Itti, L. (2006). The role of memory in
+guiding attention during natural vision. Journal of
+Vision, 6(9):4, 898-914
+
+Grimes, J. (1996). On the failure to detect changes in
+scenes across saccades. In Perception.Vancouver
+Studies in Cognitive Science, (Ed. K Akins) 5, 89–
+109. New York: Oxford Univ.Press
+
+14
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Ichikawa, N., & Ohira, H. (2004). Eyeblink activity as
+an index of cognitive processing: temporal
+distribution of eyeblinks as an indicator of
+expectancy in semantic priming. Percept Mot
+Skills, 98(1), 131-40.
+
+Henderson, J. M. (2003). Human gaze control in realworld scene perception. Trends in Cognitive
+Sciences, 7, 498-504.
+Henderson, J. M., Brockmole, J. R., & Gajewski, D. A.
+(2008). Differential detection of global luminance
+and contrast changes across saccades and flickers
+during active scene perception. Vision Research,
+48, 16-29.
+
+Kahneman, D., Treisman, A., & Gibbs, B. J. (1992).
+The reviewing of object files: Object-specific
+integration of information. Cognitive Psychology,
+24, 175-219.
+
+Henderson, J. M., & Hollingworth, A. (1999). The role
+of fixation position in detecting scene changes
+across saccades. Psychoogical. Science. 10, 438–
+43.
+
+Katz, S. D. (1991). Film Directing Shot by Shot:
+visualizing from concept to screen. CA, US:
+Michael Wiese Productions.
+Kraft, R. N. (1987). Rules and strategies of visual
+narratives. Perceptual and Motor Skills, 64, 3-14.
+
+Henderson, J. M., & Hollingworth, A. (2003a). Global
+transsaccadic change blindness during scene
+perception. Psychological Science, 14, 493-497.
+
+Kuhn, G. & Tatler, B. W. (2005). Magic and fixation:
+Now you don't see it, now you do. Perception, 34,
+1153-1161
+
+Henderson, J. M., & Hollingworth, A. (2003b). Eye
+movements and visual memory: Detecting changes
+to saccade targets in scenes. Perception &
+Psychophysics, 65, 58-71.
+
+Langton, S. R. H., Watt, R. J., & Bruce, V. (2000). Do
+the eyes have it? Cues to the direction of social
+attention. Trends in Cognitive Sciences, 4, 50-59.
+
+Hochberg, J., & Brooks, V. (1978). Film Cutting and
+Visual Momentum. J. W. Senders, D. F. Fisher, &
+R. A. Monty (Eds.), Eye Movements and the Higher
+Psychological Functions (pp. 293-317). Hillsdale,
+NJ: Lawrence Erlbaum.
+
+Levin, D. T., & Simons, D. J. (1997). Failure to detect
+changes to attended objects in motion pictures.
+Psychonomic Bulletin and Review, 4, 501-506.
+Levin, D. T., & Simons, D. J. (2000). Perceiving
+stability in a changing world: Combining shots and
+integrating views in motion pictures and the real
+world, Media Psychology, 2, 357-380.
+
+Hollingworth, A. (2006). Visual memory for natural
+scenes: Evidence from change detection and visual
+search. Visual Cognition, 14, 781-807.
+Hollingworth, A., & Henderson, J. M. (2002). Accurate
+visual memory for previously attended objects in
+natural scenes. Journal of Experimental
+Psychology: Human Perception and Performance,
+28, 113-136.
+
+Levin, D. T., Simons, D. J., Angelone, B., & Chabris,
+C. F. (2002). Memory for centrally attended
+changing objects in an incidental real-world change
+detection paradigm. British Journal of Psychology,
+93, 289-302.
+
+Hollingworth, A., & Henderson, J. M. (2004).
+Sustained change blindness to incremental scene
+rotation: A dissociation between explicit change
+detection and visual memory. Perception &
+Psychophysics, 66, 800-807.
+
+Levin, D. T., & Varakin, D. A. (2004). No pause for a
+brief disruption: Failures of visual awareness
+during ongoing events. Consciousness and
+Cognition, 13, 363-372.
+
+Hollingworth, A., Williams, C. C., & Henderson, J. M.
+(2001). To see and remember: Visually specific
+information is retained in memory from previously
+attended objects in natural scenes. Psychonomic
+Bulletin & Review, 8, 761-768.
+
+Mack, A., & Rock, I. (1998). Inattentional Blindness.
+Cambridge, USA: MIT Press.
+
+Humphrey, K., & Underwood, G. (2008) Fixation
+sequences in imagery and in recognition during the
+processing of pictures in real-world scenes. Journal
+of Eye Movement Research, 2(2): 3, 1-15.
+
+May, J., Dean, M. P., & Barnard, P. J. (2003). Using
+Film Cutting Techniques in Interface Design.
+Human-Computer Interactions, 18, 325-372.
+
+Matthews, W. J., Benjamin, C., & Osborne, C. (2007)
+Memory for moving and static images.
+Psychonomic Bulletin & Review, 14, 989-993.
+
+15
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Rensink, R. A., O’Regan, J. K., Clark, J. J. (2000) On
+the failure to detect changes in scenes across brief
+interruptions. Visual Cognition, 7, 127–45.
+
+Melcher, D. (2001). Persistence of visual memory for
+scenes - A medium-term memory may help us to
+keep track of objects during visual tasks. Nature,
+412(6845), 401-401.
+
+Scholl, B. J. (2001). Objects and attention: The state of
+the art. Cognition, 80, 1 - 46.
+
+Messaris, P. (1994). Visual Literacy: Image, Mind, and
+Reality. Boulder, USA: Westview Press.
+
+Schröder, J. (1990). Die psychologische Realität von
+Prinzipien des Continuity Cinema. G. Schumm, &
+H. G. Wulff (Eds.), Film und Psychologie I.
+Kognition-Rezeption-Perzeption (pp. 109-142).
+Münster, Germany: Maks Publikationen.
+
+Mitroff, S. R., & Alvarez, G. A. (2007) Space and
+time, not surface features, guide object persistence.
+Psychonomic Bulletin & Review, 14, 1199-1204.
+Mitroff, S. R., Simons, D. J., & Levin, D. T. (2004).
+Nothing compares two views: Change blindness
+can occur despite preserved access to the changed
+information. Perception & Psychophysics, 66,
+1268-1281.
+
+Schwan, S., Garsoffky, B., & Hesse, F. W. (2000). Do
+film cuts facilitate the perceptual and cognitive
+organization of activity sequences? Memory &
+Cognition, 28, 214-223.
+
+Murch, W. (2001). In The Blink Of An Eye: a
+perspective on film editing. Los Angeles, USA:
+Silman-James Press.
+
+Simons, D. J. (1996) In sight, out of mind: when object
+representations fail. Psychological Science, 7, 301–
+5.
+
+Newtson, D. (1973). Attribution and the unit of
+perception of ongoing behavior. Journal of
+Personality and Social Psychology, 28, 28-38.
+
+Simons, D. J. (2000). Attentional capture and
+inattentional blindness. Trends in Cognitive
+Sciences, 4, 147-155.
+
+Nyström, M. & Homlqvist, K. (2008) Measuring
+Causal Effects in Fixation Selection Using Contrast
+Manipulated Images. Journal of Eye Movement
+Research, 2(2): 2, 1-11.
+
+Simons, D. J., & Chabris, C. F. (1999). Gorillas in our
+midst: sustained inattentional blindness for dynamic
+events. Perception, 2, 1059–1074.
+Simons, D. J., & Levin, D. T. (1997). Change
+Blindness. Trends in Cognitive Science, 1, 261-267.
+
+O’Regan, J. K., Deubel, H., Clark, J. J., & Rensink, R.
+A. (2000). Picture changes during blinks: looking
+without seeing and seeing without looking. Visual
+Cognition, 7, 191–211.
+
+Simons, D. J., & Levin, D. T. (1998). Failure to detect
+changes to people during a real-world interaction.
+Psychonomic Bulletin and Review, 5, 644–49.
+
+O’Regan, J. K., Rensink, R. A., & Clark, J. J. (1999).
+Change blindness as a result of ‘mudsplashes.’
+Nature, 398, 34.
+
+Smith, T. J. (2006) An Attentional Theory of Continuity
+Editing. Doctoral Thesis. University of Edinburgh.
+
+Pepperman, R. D. (2004). The Eye is Quicker: film
+editing; making a good film better. Los Angeles,
+USA: Michael Wiese Productions.
+
+Smith, T. J., Whitwell, M., & Lee, J. (2006). Eye
+Movements and Pupil Dilation During Event
+Perception. Proceedings of the Eye Tracking
+Research and Applications conference 2006.
+
+Pinto, Y., Olivers, C. L., & Theeuwes, J. (2008)
+Selecting from dynamic environments: Attention
+distinguishes between blinking and moving.
+Perception & Psychophysics, 70, 166-178.
+
+Tatler, B. W., Gilchrist, I. D., & Land, M. F. (2005).
+Visual memory for objects in natural scenes: From
+fixations to object files. Quarterly Journal of
+Experimental Psychology Section A-Human
+Experimental Psychology, 58(5), 931-960.
+
+Reisz, K., & Millar, G. (1953). Technique of Film
+Editing. London, UK: Focal Press.
+
+Tatler, B. W. & Kuhn, G. (2007). Don't look now: The
+magic of misdirection. In R. van Gompel, M.
+Fischer, W. Murray & R. Hill (Eds.) Eye Movement
+Research: Insights into mind and brain. Elsevier,
+697-714
+
+Rensink, R. A., O’Regan, J. K., Clark, J. J. (1997) To
+see or not to see: the need for attention to perceive
+changes in scenes. Psychological Science, 8, 368–
+73.
+
+16
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
+Journal of Eye Movement Research
+2(2):6, 1-17
+
+Smith, T. J., & Henderson, J. M. (2008)
+Edit Blindness
+
+Võ, M. L-H., Schneider, W. X., & Matthias, E. (2008)
+Transsaccadic Scene Memory Revisited: A ‚Theory
+of Visual Attention (TVA)’ Based Approach to
+Recognition memory and Confidence for Objects in
+Naturalistic Scenes. Journal of Eye Movement
+Research, 2(2): 7, 1-13.
+Xu, F., & Carey, S. (1996). Infants' metaphysics: the
+case of numerical identity. Cognitive Psychology,
+30, 111-153.
+
+Yarbus, A. (1967). Eye Movements and Vision.
+New York: Plenum Press.
+Zacks, J., Braver, T. S., Sheridan, M. A., Donaldson,
+D. I., Snyder, A. Z., Ollinger, J. M., Buckner, R. L.,
+& Raichle, M. E. (2001). Human brain activity
+time-locked to perceptual event boundaries. Nature
+Neuroscience, 4, 651-655.
+
+17
+
+DOI 10.16910/jemr.2.2.6
+
+This article is licensed under a
+Creative Commons Attribution 4.0 International license.
+
+ISSN 1995-8692
+
+
+
+[PAGE BREAK]
+
