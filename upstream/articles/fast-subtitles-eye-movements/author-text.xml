@@ -1,0 +1,2299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Adapted text-only article extraction from the official PLOS publisher XML. Retains the abstract, selected author narrative, aggregate result tables and references. Removes figures, examples or quotes as marked, contacts, graphics, linked data/supplements and all stimulus assets. Does not archive the original XML or illustrated article. --><front><article-meta><article-id pub-id-type="doi">10.1371/journal.pone.0199331</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-18-02928</article-id>
+<title-group>
+<article-title>Viewers can keep up with fast subtitles: Evidence from eye movements</article-title>
+<alt-title alt-title-type="running-head">Viewers can keep up with fast subtitles</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0048-993X</contrib-id>
+<name name-style="western">
+<surname>Szarkowska</surname>
+<given-names>Agnieszka</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0001-6513-3662</contrib-id>
+<name name-style="western">
+<surname>Gerber-Morón</surname>
+<given-names>Olivia</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+</contrib-group>
+<contrib-group>
+</contrib-group>
+<pub-date pub-type="epub">
+<day>19</day>
+<month>6</month>
+<year>2018</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2018</year>
+</pub-date>
+<volume>13</volume>
+<issue>6</issue>
+<elocation-id>e0199331</elocation-id>
+<permissions>
+<copyright-year>2018</copyright-year>
+<copyright-holder>Szarkowska, Gerber-Morón</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<abstract>
+<p>People watch subtitled audiovisual materials more than ever before. With the proliferation of subtitled content, we are also witnessing an increase in subtitle speeds. However, there is an ongoing controversy about what optimum subtitle speeds should be. This study looks into whether viewers can keep up with increasingly fast subtitles and whether the way people cope with subtitled content depends on their familiarity with subtitling and on their knowledge of the language of the film soundtrack. We tested 74 English, Polish and Spanish viewers watching films subtitled at different speeds (12, 16 and 20 characters per second). The films were either in Hungarian, a language unknown to the participants (Experiment 1), or in English (Experiment 2). We measured viewers’ comprehension, self-reported cognitive load, scene and subtitle recognition, preferences and enjoyment. By analyzing people’s eye gaze, we were able to discover that most viewers could read the subtitles as well as follow the images, coping well even with fast subtitle speeds. Slow subtitles triggered more re-reading, particularly in English clips, causing more frustration and less enjoyment. Faster subtitles with unreduced text were preferred in the case of English videos, and slower subtitles with text edited down in Hungarian videos. The results provide empirical grounds for revisiting current subtitling practices to enable more efficient processing of subtitled videos for viewers.</p>
+</abstract>
+</article-meta></front><body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Together with an ever-growing demand for subtitles in digital media, we are witnessing an increase in subtitle speeds. Yet, despite the ubiquity of subtitling, little is known about optimum subtitle speeds and their impact on cognitive processing. The pervasiveness of subtitling, coupled with a significant shift from slow to increasingly high subtitle speeds [<xref ref-type="bibr" rid="pone.0199331.ref001">1</xref>, <xref ref-type="bibr" rid="pone.0199331.ref002">2</xref>], offer a timely opportunity to examine the effects of speed on viewers’ processing of subtitled videos.</p>
+<p>Two main types of subtitling can be distinguished: intra- and interlingual [<xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>]. Intralingual subtitling (also known as captioning) contains a written version of dialogues in the same language (e.g., English to English), whereas interlingual subtitling is a translation of a foreign dialogue (e.g., English to Dutch). Upon careful review of the subtitling literature, it becomes apparent that in interlingual subtitling, it is part and parcel of the process to condense and reduce the text–the underlying assumption is that because viewers can integrate information from subtitles with that coming from images and soundtrack, verbatim translation is not necessary [<xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>]. Another reason for text reduction stems from reading speed requirements, which are meant to allow viewers to comfortably follow both the subtitles and on-screen action [<xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0199331.ref004">4</xref>]. In contrast, text reduction is not welcome in intralingual subtitling, mainly produced for the deaf and hard of hearing (SDH), who demand to have a verbatim and [quoted wording omitted] version of the dialogue to be on a par with hearing people, as well as to avoid mismatches between subtitles and speakers’ lip movements [<xref ref-type="bibr" rid="pone.0199331.ref005">5</xref>–<xref ref-type="bibr" rid="pone.0199331.ref008">8</xref>].</p>
+<sec id="sec002">
+<title>Subtitle speed</title>
+<p>Subtitle speed, also referred to as [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref002">2</xref>] or [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref009">9</xref>], is usually measured in either characters per second (cps) or words per minute (wpm). Given the differences in the length of words in different languages, in the audiovisual translation industry the cps measure is used more often, as it is considered more accurate across languages [<xref ref-type="bibr" rid="pone.0199331.ref010">10</xref>, <xref ref-type="bibr" rid="pone.0199331.ref011">11</xref>]. Studies on English-to-English SDH, however, have traditionally used the wpm measure [<xref ref-type="bibr" rid="pone.0199331.ref012">12</xref>].</p>
+<p>The most widely known rule on the speed of interlingual subtitles–[quoted wording omitted]–stipulates that a full two-line subtitle should be displayed for six seconds in order for an average viewer to be able to read it [<xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0199331.ref013">13</xref>]. The six-seconds rule is equivalent to approximately 140–150 wpm or 12 cps [<xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>, <xref ref-type="bibr" rid="pone.0199331.ref010">10</xref>]. While the origins of the rule are difficult to trace–d'Ydewalle, Muylle [<xref ref-type="bibr" rid="pone.0199331.ref014">14</xref>] even state that [quoted wording omitted]–it is the golden standard recommended in subtitling textbooks [<xref ref-type="bibr" rid="pone.0199331.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>].</p>
+<p>The prevalence of the six-seconds rule may be rooted in the belief that fast subtitle speeds will not allow viewers to follow both the subtitles and the on-screen action [<xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>]. However, how much time do viewers actually spend reading subtitles and watching the images? This can be assessed using the concepts of absolute reading time and proportional reading time [<xref ref-type="bibr" rid="pone.0199331.ref015">15</xref>]. <italic>Absolute reading time</italic> is measured in seconds and it is the actual time spent on reading the subtitle. For instance, a viewer can spend 4 seconds reading a subtitle displayed for 6 seconds, which leaves them 2 seconds to follow the on-screen action in the film. <italic>Proportional reading time</italic> is measured in percentages and is the proportion of the total subtitle display time during which the viewer is actually gazing at the subtitle. Thus, if a reader looks at the 6-second-subtitle for 4 seconds, their proportional reading time is 66%. Longer subtitle display times have been found to increase the absolute reading time but decrease the proportional reading time [<xref ref-type="bibr" rid="pone.0199331.ref015">15</xref>, <xref ref-type="bibr" rid="pone.0199331.ref016">16</xref>]. On the one hand, this finding may suggest that longer subtitle display times can benefit viewers by giving them more time to follow the on-screen action. On the other hand, however, it is plausible that when faced with fast subtitles, viewers simply read them more efficiently and, ultimately, do not need longer display times.</p>
+<p>Subtitle speeds are not set in stone; they differ from country to country and even from company to company [<xref ref-type="bibr" rid="pone.0199331.ref002">2</xref>]. In interlingual subtitling, various countries have followed different traditions on subtitle speeds, ranging from 12 cps on television in Scandinavian countries [<xref ref-type="bibr" rid="pone.0199331.ref004">4</xref>], 15–16 cps in Central Europe [<xref ref-type="bibr" rid="pone.0199331.ref001">1</xref>], to 17–20 cps in global online streaming services [<xref ref-type="bibr" rid="pone.0199331.ref017">17</xref>]. In English intralingual SDH, the typical recommended speed is up to 180 wpm [<xref ref-type="bibr" rid="pone.0199331.ref018">18</xref>, <xref ref-type="bibr" rid="pone.0199331.ref019">19</xref>], which for the English language is equivalent to 15 cps (assuming that an average word has 5 characters).</p>
+<p>From a historical perspective, subtitle speeds have been on the rise in both intra- and interlingual subtitling [<xref ref-type="bibr" rid="pone.0199331.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0199331.ref003">3</xref>]. In English SDH, subtitles evolved from being a highly reduced and simplified version of the dialogue in the 1970s and 1980s, aimed primarily at prelingual deaf viewers [<xref ref-type="bibr" rid="pone.0199331.ref020">20</xref>], to the current forms of verbatim uncondensed text–a direct result of viewer demands, technological developments and subtitle production costs [<xref ref-type="bibr" rid="pone.0199331.ref021">21</xref>]. In interlingual subtitling, modern viewers are presented with subtitles that are longer than before (a rise from 32 to 42 characters per line) and faster (from 12 to 17–20 cps). In spite of these dramatic changes in subtitle speeds, relatively little attention has been given to their impact on viewers.</p>
+<p>Subtitle speeds have been studied extensively in the context of English-to-English SDH [<xref ref-type="bibr" rid="pone.0199331.ref007">7</xref>, <xref ref-type="bibr" rid="pone.0199331.ref012">12</xref>, <xref ref-type="bibr" rid="pone.0199331.ref022">22</xref>–<xref ref-type="bibr" rid="pone.0199331.ref031">31</xref>]. As early deafness can be a predictor of poor reading [<xref ref-type="bibr" rid="pone.0199331.ref032">32</xref>, <xref ref-type="bibr" rid="pone.0199331.ref033">33</xref>], it has been advocated that speed in SDH be slow and that text be edited down [<xref ref-type="bibr" rid="pone.0199331.ref005">5</xref>, <xref ref-type="bibr" rid="pone.0199331.ref034">34</xref>, <xref ref-type="bibr" rid="pone.0199331.ref035">35</xref>]. Yet, other studies demonstrated no benefit of slowing down subtitles [<xref ref-type="bibr" rid="pone.0199331.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0199331.ref009">9</xref>, <xref ref-type="bibr" rid="pone.0199331.ref027">27</xref>, <xref ref-type="bibr" rid="pone.0199331.ref036">36</xref>, <xref ref-type="bibr" rid="pone.0199331.ref037">37</xref>], showing that edited subtitles contain reduced text and fewer cohesive links and, as such, may be difficult to process [<xref ref-type="bibr" rid="pone.0199331.ref038">38</xref>].</p>
+<p>In contrast to the vast body of research on subtitle speed in SDH, research on speed in interlingual subtitling has been limited [<xref ref-type="bibr" rid="pone.0199331.ref004">4</xref>] and has possibly become obsolete now. The earliest studies on speed in subtitling with hearing viewers go back to the early 1980s in Belgium. To the best of our knowledge, the first study was undertaken by Muylaert and colleagues [<xref ref-type="bibr" rid="pone.0199331.ref039">39</xref>], using a quite imprecise measurement of subtitle speed: [quoted wording omitted], [quoted wording omitted] and [quoted wording omitted]. In addition to speed, the authors tested other parameters, including unusual line breaks and difficult vocabulary, conflating the parameters and thus rendering the results problematic. They found that the proportional reading time of [quoted wording omitted] subtitles was 55%, slower subtitles 57% and faster subtitles 68%. Furthermore, another study [<xref ref-type="bibr" rid="pone.0199331.ref014">14</xref>] tested the four-, six- and eight-seconds rules among Dutch viewers and found that the proportional reading time decreased linearly with longer display times: fast, four-second subtitles were looked at for 28% of subtitle display time, six-second subtitles for 23% and slow, eight second subtitles for 21%. Two years later, in what is probably the most often cited study in support of the six-seconds rule, d'Ydewalle and colleagues [<xref ref-type="bibr" rid="pone.0199331.ref016">16</xref>], using the same materials as [<xref ref-type="bibr" rid="pone.0199331.ref014">14</xref>], reported that the shorter the display time of subtitles, the more complaints subjects had about the speed. The subjects also experienced one-line subtitles as faster than two-line subtitles. The authors then tested the correlation between the number of lines (1 vs. 2) and the three speeds (4-, 6-, and 8-seconds) and found that [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref014">14</xref>]. This statement has often been taken as the empirical validation to support the six-seconds rule that pervades the subtitling industry until now.</p>
+</sec>
+<sec id="sec003">
+<title>The role of film soundtrack</title>
+<p>The reading process of subtitles is dependent on whether viewers can understand the language of the film soundtrack. If they do, it is plausible to assume they would spend less time reading the subtitles, as they would largely draw on the auditory information in their processing of the film dialogue. However, should viewers be unfamiliar with the language of the film soundtrack, we may expect that they would rely more on the subtitles and their subtitle reading time would be longer.</p>
+<p>Investigations into the role of the language of the film soundtrack and the language of the subtitles on the processing of subtitled videos and viewers’ visual attention have produced conflicting results [<xref ref-type="bibr" rid="pone.0199331.ref040">40</xref>–<xref ref-type="bibr" rid="pone.0199331.ref046">46</xref>]. On the one hand, some studies [<xref ref-type="bibr" rid="pone.0199331.ref016">16</xref>] found that time spent gazing at subtitles does not change when the soundtrack is muted or when viewers know the language of the soundtrack. Others, on the other hand, reported that less time was spent in the subtitles when the audio was present compared to the no audio condition [<xref ref-type="bibr" rid="pone.0199331.ref043">43</xref>], and found a more regular subtitle reading pattern in videos with interlingual native language subtitles where the soundtrack was in a foreign language unknown to the viewers than in the case of foreign subtitles with the soundtrack in viewers’ native language [<xref ref-type="bibr" rid="pone.0199331.ref047">47</xref>]. Viewers watching intralingual subtitles in their mother tongue skipped them more often than interlingual subtitles with the soundtrack in a foreign language [<xref ref-type="bibr" rid="pone.0199331.ref009">9</xref>]. Finally, watching a film in an unknown language was reported to involve more cognitive effort than watching a film in a familiar language but found no differences in the time spent in the subtitle area as a function of the presence of the soundtrack or the proficiency in the language of the soundtrack [<xref ref-type="bibr" rid="pone.0199331.ref048">48</xref>].</p>
+<p>Given that European TV channels and cinemas are largely dominated by English-language productions [<xref ref-type="bibr" rid="pone.0199331.ref049">49</xref>], a large volume of subtitles on the audiovisual translation market are translations from the English language [<xref ref-type="bibr" rid="pone.0199331.ref050">50</xref>]. English is also the best known and the most studied foreign language in the EU [<xref ref-type="bibr" rid="pone.0199331.ref051">51</xref>]. Taken together, this means that many viewers are not only able to understand what is being said in the film without any translation but can also compare the original English dialogue with subtitles. Yet, although in theory such viewers do not need subtitles to follow the dialogue, it has been found that they read subtitles anyway [<xref ref-type="bibr" rid="pone.0199331.ref047">47</xref>, <xref ref-type="bibr" rid="pone.0199331.ref052">52</xref>]. This phenomenon has been attributed to the dominance of the visual modality [<xref ref-type="bibr" rid="pone.0199331.ref052">52</xref>], the dynamic nature of moving subtitles as they quickly appear and disappear on screen [<xref ref-type="bibr" rid="pone.0199331.ref047">47</xref>, <xref ref-type="bibr" rid="pone.0199331.ref053">53</xref>] and to the attractiveness and saliency of text even if it is presented in an unfamiliar language [<xref ref-type="bibr" rid="pone.0199331.ref054">54</xref>]. Considering the ubiquity of subtitled content in the world today, it is important to determine the exact role of the language of the film soundtrack on the processing of subtitled videos.</p>
+</sec>
+<sec id="sec004">
+<title>Experience with subtitling</title>
+<p>Previous experience with subtitling–as opposed to other types of audiovisual translation such as dubbing or voice-over–may also affect the way people process subtitled videos. Traditionally, some countries such as Spain, Germany or France have used dubbing to translate foreign films, whereas in others, such as Belgium or Sweden, the preferred mode has been subtitling [<xref ref-type="bibr" rid="pone.0199331.ref055">55</xref>]. However, even in traditionally dubbing countries like Spain, the preference for subtitling against dubbing is now increasing, together with proficiency in foreign languages [<xref ref-type="bibr" rid="pone.0199331.ref056">56</xref>].</p>
+<p>Given that, unlike dubbing, subtitling involves dividing viewers’ attention between following the action in the center of the screen and reading the subtitles at the bottom, it may seem that subtitling would be more cognitively taxing for viewers, especially those who are not accustomed to it. However, research has demonstrated that dubbing and subtitling are both effective and enjoyable [<xref ref-type="bibr" rid="pone.0199331.ref055">55</xref>, <xref ref-type="bibr" rid="pone.0199331.ref056">56</xref>], that there is no trade-off between processing images and subtitles [<xref ref-type="bibr" rid="pone.0199331.ref057">57</xref>] and that the reading of subtitles is automatic [<xref ref-type="bibr" rid="pone.0199331.ref052">52</xref>]. The question remains, however, whether people from what are traditionally considered to be dubbing countries have different strategies to cope with subtitles compared to people more accustomed to subtitling.</p>
+</sec>
+<sec id="sec005">
+<title>Overview of the current study</title>
+<p>The primary goal of the current study is to investigate whether people can keep up with fast subtitles. Therefore, we presented participants with videos subtitled at different speeds and assessed the effects of speed on comprehension, cognitive load, enjoyment, scene and subtitle recognition, reading patterns, preferences as well as reading experience. We were also interested in whether the processing of videos is related to viewers’ knowledge of the language of the film soundtrack as well as their previous experience with subtitling. With these goals in mind, we conducted two experiments with three groups of subjects from different linguistic backgrounds: Spanish, who come from what is traditionally considered a dubbing country; Polish, who are familiar with subtitling; and English, with not much experience in interlingual subtitling. In Experiment 1 we showed people films with the soundtrack in Hungarian to encourage them to read the subtitles. We chose Hungarian as a language dissimilar to any of the native languages of the study participants, who were pre-screened not to know any Hungarian. We used videos dubbed into Hungarian, but originally made in English in order to be able to control the content of subtitle translation into Polish, Spanish and English. Experiment 2 compares the same dependent variables and participants but uses films in English, a language that participants could understand.</p>
+<p>We hypothesized that with higher subtitle speeds (20 cps), people may experience increased cognitive load, resulting in more effortful viewing experience, lower comprehension, higher frustration and less enjoyment. To measure cognitive load, we used two types of data: self-reports and eye tracking. Self-reported cognitive load was dissected into three indicators: difficulty, effort and frustration [<xref ref-type="bibr" rid="pone.0199331.ref042">42</xref>]. We expected that fast subtitles would be deemed more cognitively demanding, i.e. more difficult, effortful and frustrating, than slow and medium-paced subtitles. In terms of eye tracking, if subtitles are (too) fast, viewers may spend an excessive amount of time in the subtitle area at the cost of on-screen action, which should be evidenced by longer mean fixation duration, more fixations and longer time spent in the subtitle. On the other hand, extensive text editing, which is inextricably linked with the process of creating slow subtitles, may lead to missing cohesive links and high text condensation, and in consequence may result in additional cognitive effort [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref038">38</xref>]. This could, paradoxically, contribute to higher cognitive effort necessary to process slow subtitles.</p>
+<p>If–as suggested by literature [<xref ref-type="bibr" rid="pone.0199331.ref002">2</xref>]–fast subtitles do not leave viewers sufficient time to watch the images, we might expect them to achieve low scores in the scene recognition test. It is also possible that with fast subtitles, viewers will not be able to read all the words in the subtitle and therefore miss some information from the dialogue, which will be evidenced by their being unable to recognize subtitles in the post-test questionnaire. If subtitles are too slow, however, viewers may end up re-reading them, possibly resulting in confusion, frustration and less enjoyment. In our study, following [<xref ref-type="bibr" rid="pone.0199331.ref058">58</xref>], we conceptualized enjoyment not only as [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref059">59</xref>], which relies mainly on the satisfaction of hedonic needs, but also on other, nonhedonic needs [<xref ref-type="bibr" rid="pone.0199331.ref060">60</xref>], including the satisfaction with basic subtitle parameters such as the optimum subtitle speed. We assumed that if viewers cannot keep up with fast subtitles, their enjoyment of the clip will be adversely affected.</p>
+<p>When it comes to the differences between the videos in a language that is familiar (English in Exp. 2) and unfamiliar (Hungarian in Exp. 1) to viewers, we hypothesized that because people support their viewing with auditory information from the soundtrack, the preference for faster speeds and unreduced text may be more discernible when they understand the language of the film dialogue, whereas it may be less pronounced in the case of a language that viewers have no knowledge of. Furthermore, the analysis between different groups of subjects (Spanish, Polish and English) enabled us to consider the impact of experience with subtitling on the processing of subtitled videos. We expected that people who are familiar with subtitling may have developed certain strategies allowing them to process subtitles more efficiently, possibly evidenced by higher comprehension and lower cognitive load.</p>
+<p>A powerful combination of different research methods: eye tracking, questionnaires and semi-structured interviews, has enabled us to isolate the impact of speeds on the processing of subtitled videos modulated by different linguistic backgrounds of viewers. To the best of our knowledge, no work to date has investigated subtitle speeds using such mixed methods approach. Our approach provides a unique research opportunity to determine whether modern viewers are able to keep up with fast subtitles and to measure their viewing experience in relation to different speeds, the language of the soundtrack and their familiarity with subtitling. Investigating these issues is particularly useful in the context of the multiplicity of subtitled content and current subtitling practices.</p>
+</sec>
+</sec>
+<sec id="sec006">
+<title>Experiment 1</title>
+<sec id="sec007" sec-type="materials|methods">
+<title>Method</title>
+<sec id="sec008">
+<title>Participants</title>
+<p>A total of 74 participants (aged 19–42, <italic>M</italic> = 26.55, <italic>SD</italic> = 5.86) took part in the study, of whom 27 were native speakers of English, 26 Spanish and 21 Polish (see <xref ref-type="table" rid="pone.0199331.t001">Table 1</xref>). Participants were recruited from the UCL Psychology pool of volunteers, social media (Facebook page of the project, Twitter), and personal networking. They were pre-screened to be native speakers of English, Polish or Spanish, aged above 18 and to have no knowledge of Hungarian.</p>
+<table-wrap id="pone.0199331.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t001</object-id>
+<label>Table 1</label> <caption><title>Demographic information about participants.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center" colspan="5">Language</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="left"/>
+<th align="center">English</th>
+<th align="center">Polish</th>
+<th align="center">Spanish</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Gender</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Male</td>
+<td align="center">13</td>
+<td align="center">5</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Female</td>
+<td align="center">14</td>
+<td align="center">16</td>
+<td align="center">16</td>
+</tr>
+<tr>
+<td align="left">Age</td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Mean (SD)</td>
+<td align="center">27.59 (7.79)</td>
+<td align="center">24.71 (5.68)</td>
+<td align="center">28.12 (5.88)</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Range</td>
+<td align="center">20–54</td>
+<td align="center">19–38</td>
+<td align="center">19–42</td>
+</tr>
+<tr>
+<td align="left">AVT Preference</td>
+<td align="left"/>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Subtitling</td>
+<td align="center">24</td>
+<td align="center">11</td>
+<td align="center">22</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Dubbing</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Voice-over</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Original version</td>
+<td align="center">1</td>
+<td align="center">10</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Doesn’t watch foreign films</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Despite our expectations prior to the study and the linguistic background of the participants, when asked about the preferred type of audiovisual translation, the vast majority stated they prefer subtitling. This, on the one hand, may reflect changes in audiovisual translation landscape, and on the other may be attributed to the fact that the participants were living in the UK at the time the study was carried out. Finally, the preference for a given type of translation is not synonymous with its prevalence in a country; this is to say that although some participants may prefer subtitles now, they still grew up in a non-subtitling country.</p>
+<p>The experiment was approved by the UCL Research Ethics Committee. Prior to testing, all participants received information sheets and provided written informed consent. In accordance with UCL hourly rates, each participant received £10 for taking part in the experiment.</p>
+</sec>
+<sec id="sec009">
+<title>Stimuli</title>
+<p>Three self-contained dialogue-based clips, each lasting 4–6 minutes, from two films and one television series were used in the study: <italic>Blue Jasmine</italic> (2013, dir. Woody Allen), <italic>Inside Out</italic> (2015, dir. Pete Docter, Ronnie Del Carmen), and <italic>Mad Men</italic> (2007, creator: Matthew Weiner). All the three clips were fast-paced and dialogue-heavy, mostly featuring two to four characters engaged in a conversation. Each clip was subtitled at three different speeds: 12, 16 and 20 cps. Each participant watched three clips, one from each film. The order of presentation was counterbalanced following a Latin square design. Participants were allocated to one of the three groups: Group 1 saw <italic>Blue Jasmine</italic> subtitled at 20 cps, <italic>Inside Out</italic> at 16 cps and <italic>Mad Men</italic> at 12 cps; Group 2 saw <italic>Blue Jasmine</italic> subtitled at 16 cps, <italic>Inside Out</italic> at 12 cps and <italic>Mad Men</italic> at 20 cps; and Group 3 saw <italic>Blue Jasmine</italic> subtitled at 12 cps, <italic>Inside Out</italic> at 20 cps and <italic>Mad Men</italic> at 16 cps. The order of presentation of the clips in each group was randomized.</p>
+<p>Subtitles were prepared in three language versions: English, Polish and Spanish, separately for each group of participants. The time codes (i.e., the subtitle display times) were identical for all the three languages–the translation was prepared in such a way that the number of characters in each version was carefully matched to the reading speed requirements, with 2-frames tolerance. Participants watched the clips with Hungarian audio and with subtitles in their mother tongue. All subtitle files are available in [<xref ref-type="bibr" rid="pone.0199331.ref061">61</xref>].</p>
+<p>Below we present an English-version sample from <italic>Blue Jasmine</italic> (<xref ref-type="table" rid="pone.0199331.t002">Table 2</xref>), showing the differences between the three conditions in terms of subtitle duration (to match exactly the reading speed requirements) and text condensation (if necessary).</p>
+<p>[Table 2 omitted because it includes stimulus or test examples.]</p>
+</sec>
+<sec id="sec010">
+<title>Procedure</title>
+<p>Participants were tested individually in a lab. They were informed they would take part in a study about the quality of subtitles. The details related to the subtitle speed were only revealed during the post-test interview. Each experiment started with a training session, the results of which were not recorded, to familiarize the participants with the experimental procedure. The experiment, including all the instructions, subtitles and questions, was presented in English for English participants, in Polish for Polish participants and in Spanish for Spanish participants. Each experiment ended with a semi-structured interview to elicit viewers’ opinions and preferences on subtitle speeds.</p>
+</sec>
+<sec id="sec011">
+<title>Apparatus</title>
+<p>An SMI RED 250 mobile eye tracker was used in the experiment. Participants’ eye movements were recorded with a sampling rate of 250Hz. The velocity-based saccade detection algorithm was used with the minimum duration of a fixation set to 80 ms. Participants with tracking ratio below 80% were excluded from the eye tracking analyses (but not from comprehension or self-reported cognitive load assessments). We used SMI software package Experiment Suite to create and conduct the experiment, and SPSS v. 24 to analyze the data.</p>
+</sec>
+<sec id="sec012">
+<title>Design</title>
+<p>A 3x3 mixed ANOVA was used with subtitle speed (with three levels: 12, 16, 20 cps) as a within subject factor and native language (English, Spanish, Polish) as a between-subject factor.</p>
+</sec>
+<sec id="sec013">
+<title>Dependent variables</title>
+<p>The dependent variables were: comprehension score, three indicators of self-reported cognitive load (difficulty, effort, frustration), enjoyment, scene recognition, subtitle recognition, and five eye tracking measures. We also collected categorical data on reading experience. Similarly to subtitles, all the questions were presented to the participants in their native languages.</p>
+</sec>
+<sec id="sec014">
+<title>Comprehension</title>
+<p>Comprehension was measured after each clip as the percentage of correct answers to a set of multiple-choice and true/false questions related to the clip content. [Samples omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<list list-type="simple">
+<list-item><label>■</label><p>He does furniture moving and repairs</p></list-item>
+<list-item><label>■</label><p>He is a musician and has his own band</p></list-item>
+<list-item><label>■</label><p>He has his own company</p></list-item>
+<list-item><label>■</label><p>I don’t know</p></list-item>
+</list>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<list list-type="simple">
+<list-item><label>■</label><p>Not to let her go play hockey</p></list-item>
+<list-item><label>■</label><p>Not to give her any dessert</p></list-item>
+<list-item><label>■</label><p>Not to let her play with her best friend</p></list-item>
+<list-item><label>■</label><p>I don’t know</p></list-item>
+</list>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<list list-type="simple">
+<list-item><label>■</label><p>True</p></list-item>
+<list-item><label>■</label><p>False</p></list-item>
+</list>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<list list-type="simple">
+<list-item><label>■</label><p>True</p></list-item>
+<list-item><label>■</label><p>False</p></list-item>
+</list>
+</sec>
+<sec id="sec015">
+<title>Self-reported cognitive load</title>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+</sec>
+<sec id="sec016">
+<title>Enjoyment</title>
+<p>Enjoyment was measured using the first item from Intrinsic Motivation Inventory [<xref ref-type="bibr" rid="pone.0199331.ref062">62</xref>]. The item was modified to reflect the nature of the task, focussing specifically on subtitles. Participants were asked to relate to the following statement: <italic>I enjoyed watching the film with these subtitles</italic>, using 1–7 scale, where 1 meant [quoted wording omitted] and 7 means [quoted wording omitted].</p>
+</sec>
+<sec id="sec017">
+<title>Scene recognition</title>
+<p>After watching each clip, participants were presented with pairs of screenshots and asked to click on the one they had watched [<xref ref-type="bibr" rid="pone.0199331.ref061">61</xref>]. In each pair, both screenshots came from the film, but only one was taken from the scene presented to the participants (the left/right presentation order of screenshots was counterbalanced). The scene recognition variable was calculated as a percentage of correctly recognized scenes.</p>
+</sec>
+<sec id="sec018">
+<title>Subtitle recognition</title>
+<p>Viewers were asked to recognize the phrasing from the subtitles in multiple choice questions in English, Polish and Spanish respectively (with three options: one correct answer, one distractor and <italic>I don’t know</italic>). The phrasing mostly differed at the end of the subtitle, the assumption being that if a subtitle is too fast, the viewer would not have time to read it until the end. Here is an English-language sample subtitle recognition question from <italic>Mad Men</italic>:</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<list list-type="simple">
+<list-item><label>■</label><p>I don’t see that in a TV commercial.</p></list-item>
+<list-item><label>■</label><p>I don’t see that on a billboard.</p></list-item>
+<list-item><label>■</label><p>I don’t know.</p></list-item>
+</list>
+<p>Subtitle recognition score was calculated as a percentage of correct answers.</p>
+</sec>
+<sec id="sec019">
+<title>Eye tracking</title>
+<p><xref ref-type="table" rid="pone.0199331.t003">Table 3</xref> presents the description of the eye tracking measures. We drew individual areas of interest (AOIs) on each subtitle in each clip (see .xml files with AOIs available in [<xref ref-type="bibr" rid="pone.0199331.ref061">61</xref>]). The results reported here are averaged per clip and per participant.</p>
+<table-wrap id="pone.0199331.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t003</object-id>
+<label>Table 3</label> <caption><title>Definitions of the eye tracking measures.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Eye tracking measure</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Fixation count</td>
+<td align="justify">The number of fixations in the AOI, averaged per participant per clip. High fixation count can be indicative of higher cognitive effort and/or poorer reading skills.</td>
+</tr>
+<tr>
+<td align="left">Mean fixation duration</td>
+<td align="justify">The duration of a fixation in a subtitle AOI, averaged per clip and per participant. Longer mean fixation duration may be an indication of higher cognitive load.</td>
+</tr>
+<tr>
+<td align="left">Absolute reading time</td>
+<td align="justify">Dwell time, i.e., the sum of durations of all fixations and saccades in an AOI starting with the first fixation. Longer reading time may be related to processing difficulties.</td>
+</tr>
+<tr>
+<td align="left">Proportional reading time</td>
+<td align="justify">The percentage of dwell time a participant spent in the AOI as a function of subtitle display time. For example, if a subtitle lasted for 3 seconds and the participant spent 2.5 seconds in that subtitle, the percentage dwell time was 2500/3000 ms = 83%, i.e. while the subtitle was displayed for 3 seconds, the participant was looking at that subtitle for 83% of the time. This measure allowed us to compare the proportion of time spent in the subtitles between different conditions. If proportional reading time approaches 100%, it means that participants spent most of their time reading subtitles and did not have time to look at on-screen action.</td>
+</tr>
+<tr>
+<td align="left">Revisits</td>
+<td align="justify">The number of glances a participant made to the subtitle AOI after visiting the subtitle for the first time. Revisits may indicate a more disruptive reading process, as the participant goes back to read the AOI they had already read, for instance because of text difficulty or because the subtitle is displayed for too long.</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec020">
+<title>Reading experience</title>
+<p>To assess how participants coped with different subtitle speeds, we asked them if they had enough time to read the subtitles, if they re-read subtitles, if they missed words from the subtitles, if they had enough time to read the subtitles and follow the on-screen action and, finally, what subtitles they prefer: verbatim or condensed.</p>
+<p>[Link or text pointing to stimulus or data packages omitted.]</p>
+</sec>
+</sec>
+<sec id="sec021" sec-type="results">
+<title>Results</title>
+<sec id="sec022">
+<title>Comprehension</title>
+<p>Subtitle speed did not have an effect on comprehension, <italic>F</italic>(2,140) = 0.114, <italic>p =</italic> .892, <inline-formula id="pone.0199331.e001"><alternatives><mml:math display="inline" id="M1"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .002 (see <xref ref-type="table" rid="pone.0199331.t004">Table 4</xref> for descriptive statistics). There were no interactions.</p>
+<table-wrap id="pone.0199331.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t004</object-id>
+<label>Table 4</label> <caption><title>Percentage of correct comprehension answers in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Subtitle speed</th>
+</tr>
+<tr>
+<th align="left">Language</th>
+<th align="center">12 cps</th>
+<th align="center">16 cps</th>
+<th align="center">20 cps</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">English</td>
+<td align="center">78.40 (17.75)</td>
+<td align="center">79.48 (18.17)</td>
+<td align="center">79.85 (15.97)</td>
+</tr>
+<tr>
+<td align="left">Polish</td>
+<td align="center">88.13 (10.55)</td>
+<td align="center">85.09 (13.08)</td>
+<td align="center">85.77 (11.75)</td>
+</tr>
+<tr>
+<td align="left">Spanish</td>
+<td align="center">73.00 (14.95)</td>
+<td align="center">77.53 (17.71)</td>
+<td align="center">76.93 (12.38)</td>
+</tr>
+<tr>
+<td align="left">Total</td>
+<td align="center">79.35 (16.00)</td>
+<td align="center">80.42 (16.76)</td>
+<td align="center">80.55 (13.94)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>We found a main effect of language on comprehension, <italic>F</italic>(2,70) = 6.07, <italic>p</italic> = .004, <inline-formula id="pone.0199331.e002"><alternatives><mml:math display="inline" id="M2"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .148. Post-hoc comparisons with Bonferroni correction showed that Polish participants achieved a higher comprehension score compared to the Spanish (<italic>p</italic> = .003, 95% CI [3.01, 18.01]); they also had a tendency to have higher comprehension than the English (<italic>p</italic> = .063, 95% CI [-0.28, 14.45]). English and Spanish participants did not differ from each other, <italic>p</italic> = .707, 95% CI [-3.6, 10.45].</p>
+</sec>
+<sec id="sec023">
+<title>Self-reported cognitive load</title>
+<p>Expecting that fast subtitles would be more difficult, effortful and frustrating for viewers to process, we asked the participants to assess the difficulty of the subtitles in the clips as well as the effort they had to expend in watching them, and the level of frustration they experienced. We found the main effect of speed on difficulty and effort but not on frustration (see <xref ref-type="table" rid="pone.0199331.t005">Table 5</xref>). Participants generally declared the lowest cognitive load in the case of slow subtitles (12 cps). There were no interactions.</p>
+<table-wrap id="pone.0199331.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t005</object-id>
+<label>Table 5</label> <caption><title>Mean cognitive load indicators in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">16</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic></th>
+<th align="center"><inline-formula id="pone.0199331.e003"><alternatives><mml:math display="inline" id="M3"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Difficulty</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,140</td>
+<td align="right">4.329</td>
+<td align="right">.015*</td>
+<td align="right">.058</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">2.41 (1.44)</td>
+<td align="center">2.85 (1.43)</td>
+<td align="center">2.81 (1.77)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1.52 (1.16)</td>
+<td align="center">2.24 (1.60)</td>
+<td align="center">2.14 (1.42)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1.64 (1.25)</td>
+<td align="center">2.20 (1.55)</td>
+<td align="center">2.12 (1.42)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Effort</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">2,140</td>
+<td align="right">3.484</td>
+<td align="right">.033*</td>
+<td align="right">.047</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">3.33 (1.68)</td>
+<td align="center">3.63 (1.73)</td>
+<td align="center">3.56 (2.15)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1.90 (1.22)</td>
+<td align="center">2.10 (1.30)</td>
+<td align="center">2.33 (1.31)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1.56 (.71)</td>
+<td align="center">2.28 (1.64)</td>
+<td align="center">2.44 (1.38)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Frustration</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left">2,140</td>
+<td align="right">1.811</td>
+<td align="right">.167</td>
+<td align="right">.025</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">2.59 (1.52)</td>
+<td align="center">2.59 (1.44)</td>
+<td align="center">2.70 (1.61)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1.57 (1.20)</td>
+<td align="center">1.48 (.92)</td>
+<td align="center">2.00 (1.34)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1.52 (1.26)</td>
+<td align="center">2.24 (1.71)</td>
+<td align="center">2.08 (1.22)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t005fn001"><p><italic>Note</italic>. Effort is reported with Greenhouse-Geisser correction as sphericity assumption was violated (Maunchly’s Test of Sphericity, <italic>p</italic> = .003).</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>There was a main effect of language on all the three indicators of cognitive load (see <xref ref-type="table" rid="pone.0199331.t006">Table 6</xref>). Post-hoc Bonferroni tests showed that in difficulty, English participants declared highest cognitive load, which differed from that declared by the Polish participants (<italic>p</italic> = .058, 95% CI [-0.2, 1.46]) and by the Spanish (<italic>p =</italic> .051, 95% CI [.00, 1.41]). In effort, English participants also had higher load compared to Polish (<italic>p</italic> &lt; .000, 95% CI [0.56, 2.23]) and to Spanish (<italic>p</italic> &lt; .000, 95% CI [0.62, 2.21]). Similarly, English participants reported higher frustration compared to Polish (<italic>p =</italic> .007, 95% CI [0.21, 1.68]) and to Spanish (<italic>p =</italic> .057, 95% CI [-0.2, 1.38]). Polish and Spanish participants did not differ from each other in any of the indicators.</p>
+<table-wrap id="pone.0199331.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t006</object-id>
+<label>Table 6</label> <caption><title>Between-subjects effects in cognitive load in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Cognitive load indicator</th>
+<th align="center">df</th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e004"><alternatives><mml:math display="inline" id="M4"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Difficulty</td>
+<td align="center">2,70</td>
+<td align="center">4.018</td>
+<td align="center">.022*</td>
+<td align="center">.103</td>
+</tr>
+<tr>
+<td align="left">Effort</td>
+<td align="center">2,70</td>
+<td align="center">12.378</td>
+<td align="center">.000*</td>
+<td align="center">.261</td>
+</tr>
+<tr>
+<td align="left">Frustration</td>
+<td align="center">2,70</td>
+<td align="center">5.598</td>
+<td align="center">.006*</td>
+<td align="center">.138</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec024">
+<title>Enjoyment</title>
+<p>Predicting that subtitles that are too slow or too fast may negatively affect viewers’ enjoyment, we asked the participants to assess their enjoyment of the clips. Despite our predictions, however, subtitle speed did not affect enjoyment (see <xref ref-type="table" rid="pone.0199331.t007">Table 7</xref>), nor did the language, <italic>F</italic>(2,70) = 1.108, <italic>p =</italic> .336, <inline-formula id="pone.0199331.e005"><alternatives><mml:math display="inline" id="M5"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .031, which shows that participants enjoyed the clips equally, regardless of their native language and subtitle speed.</p>
+<table-wrap id="pone.0199331.t007" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t007</object-id>
+<label>Table 7</label> <caption><title>Mean enjoyment in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">16</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e006"><alternatives><mml:math display="inline" id="M6"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Enjoyment</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,140</td>
+<td align="right">.391</td>
+<td align="right">.677</td>
+<td align="right">.006</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">5.15 (1.35)</td>
+<td align="center">4.96 (1.55)</td>
+<td align="center">4.93 (1.73)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">5.24 (1.44)</td>
+<td align="center">5.33 (1.39)</td>
+<td align="center">4.90 (1.33)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">5.36 (1.57)</td>
+<td align="center">5.52 (1.58)</td>
+<td align="center">5.48 (1.22)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>However, following the reviewers’ suggestions, we also examined potential differences in enjoyment depending on the films genres, predicting that viewers may simply have enjoyed certain films more than others independently of the subtitle speed. Indeed, we found a main effect of film on enjoyment, <italic>F</italic>(2, 140) = 25.196, <italic>p</italic> &lt; .000, <inline-formula id="pone.0199331.e007"><alternatives><mml:math display="inline" id="M7"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .265. The highest enjoyment was declared by participants in the case of the cartoon <italic>Inside Out</italic> (<italic>M</italic> = 5.89, <italic>SD</italic> = 1.23), followed by <italic>Blue Jasmine</italic> (<italic>M</italic> = 5.07, <italic>SD</italic> = 1.35) and the lowest enjoyment level was found in <italic>Mad Men</italic> (<italic>M</italic> = 4.66, <italic>SD</italic> = 1.54). There was no effect of language, <italic>F</italic>(2, 70) = 1.108, p = .336, <inline-formula id="pone.0199331.e008"><alternatives><mml:math display="inline" id="M8"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .031, which means that all participants enjoyed the films similarly regardless of their mother tongue.</p>
+</sec>
+<sec id="sec025">
+<title>Scene recognition</title>
+<p>To verify whether fast subtitles hinder viewers’ ability to follow on-screen action, we administered a scene recognition test. Contrary to expectations, scene recognition was not affected by speed, <italic>F</italic>(2,140) = .038, <italic>p</italic> = .963, <inline-formula id="pone.0199331.e009"><alternatives><mml:math display="inline" id="M9"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .001 (see <xref ref-type="table" rid="pone.0199331.t008">Table 8</xref> for descriptive statistics), or by language, <italic>F</italic>(2,70) = 1.707, <italic>p</italic> = .189, <inline-formula id="pone.0199331.e010"><alternatives><mml:math display="inline" id="M10"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .046. This means that all groups of participants could recognize the scenes equally well in all speed conditions.</p>
+<table-wrap id="pone.0199331.t008" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t008</object-id>
+<label>Table 8</label> <caption><title>Percentage of correct scene recognition questions in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Subtitle speed</th>
+</tr>
+<tr>
+<th align="left">Language</th>
+<th align="center">12 cps</th>
+<th align="center">16 cps</th>
+<th align="center">20 cps</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">English</td>
+<td align="center">97.40 (7.12)</td>
+<td align="center">98.88 (4.23)</td>
+<td align="center">97.77 (8.47)</td>
+</tr>
+<tr>
+<td align="left">Polish</td>
+<td align="center">99.04 (4.36)</td>
+<td align="center">100.00 (.00)</td>
+<td align="center">99.52 (2.18)</td>
+</tr>
+<tr>
+<td align="left">Spanish</td>
+<td align="center">99.60 (2.00)</td>
+<td align="center">96.40 (8.48)</td>
+<td align="center">98.20 (5.56)</td>
+</tr>
+<tr>
+<td align="left">Total</td>
+<td align="center">98.63 (5.08)</td>
+<td align="center">98.35 (5.71)</td>
+<td align="center">98.42 (6.17)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec026">
+<title>Subtitle recognition</title>
+<p>Based on the assumption that if subtitles are too fast, viewers may not be able to read them, we asked the participants to recognize phrases from subtitles. We predicted that if people did not manage to read a subtitle in its entirety, their ability to recognize the subtitle wording would be hampered. However, the impact of speed on subtitle recognition did not reach statistical significance, <italic>F</italic>(2,140) = 2.529, <italic>p</italic> = .083, <inline-formula id="pone.0199331.e011"><alternatives><mml:math display="inline" id="M11"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .035 (see <xref ref-type="table" rid="pone.0199331.t009">Table 9</xref>). There were no interactions.</p>
+<table-wrap id="pone.0199331.t009" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t009</object-id>
+<label>Table 9</label> <caption><title>Percentage of correct subtitle recognition in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Subtitle speed</th>
+</tr>
+<tr>
+<th align="left">Language</th>
+<th align="center">12 cps</th>
+<th align="center">16 cps</th>
+<th align="center">20 cps</th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">English</td>
+<td align="center">84.44 (15.30)</td>
+<td align="center">73.08 (22.32)</td>
+<td align="center">77.40 (24.77)</td>
+</tr>
+<tr>
+<td align="left">Polish</td>
+<td align="center">72.38 (22.58)</td>
+<td align="center">70.63 (22.59)</td>
+<td align="center">80.15 (22.24)</td>
+</tr>
+<tr>
+<td align="left">Spanish</td>
+<td align="center">69.20 (25.04)</td>
+<td align="center">63.33 (24.28)</td>
+<td align="center">65.46 (23.48)</td>
+</tr>
+<tr>
+<td align="left">Total</td>
+<td align="center">75.75 (21.95)</td>
+<td align="center">69.04 (23.16)</td>
+<td align="center">74.10 (24.16)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>We found a main effect of language on subtitle recognition, <italic>F</italic>(2,70) = 3.458, <italic>p</italic> = .037, <inline-formula id="pone.0199331.e012"><alternatives><mml:math display="inline" id="M12"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .090. Post-hoc Bonferroni tests showed that English participants had a significantly higher subtitle recognition compared to Spanish, <italic>p</italic> = .035, 95% CI [0.65, 23.97], who in general had the lowest scores. Polish and English participants did not differ significantly.</p>
+</sec>
+<sec id="sec027">
+<title>Eye tracking measures</title>
+<p>Owing to poor quality, some data had to be removed, leaving 22 English, 16 Polish, and 22 Spanish participants included in the eye tracking analyses.</p>
+<p>Subtitle speed had an effect on all eye tracking measures (<xref ref-type="table" rid="pone.0199331.t010">Table 10</xref>). There were no interactions. Slower subtitles induced more fixations and higher mean fixation duration than faster subtitles. The absolute reading time was longest in the 12 cps condition, whereas the proportional reading time was highest in the 20 cps condition. <xref ref-type="fig" rid="pone.0199331.g001">Fig 1A</xref> shows that an increase in subtitle speeds resulted in an increase in the percentage of time spent in the subtitle area, relative to subtitle duration. Subtitles in the slowest condition (12 cps) triggered the largest number of revisits, which may mean that participants read the subtitle, looked at the scene and gazed back at the subtitle area, only to find the same subtitle there. We discovered a trend, depicted in <xref ref-type="fig" rid="pone.0199331.g001">Fig 1B</xref>, that the longer the subtitle duration, the more revisits to the subtitle area. When watching slow subtitles, viewers re-read two out of three subtitles, but when watching fast subtitles, they re-read about one in five.</p>
+<p>[Fig 1 omitted. See the original article.]</p>
+<table-wrap id="pone.0199331.t010" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t010</object-id>
+<label>Table 10</label> <caption><title>Eye tracking measures in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="3">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">16</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>P</italic></th>
+<th align="center"><inline-formula id="pone.0199331.e013"><alternatives><mml:math display="inline" id="M13"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Fixation count</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,114</td>
+<td align="right">10.752</td>
+<td align="right">.000*</td>
+<td align="right">.159</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">6.60</td>
+<td align="center">5.64</td>
+<td align="center">5.32</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">5.97</td>
+<td align="center">5.62</td>
+<td align="center">5.08</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">6.67</td>
+<td align="center">6.06</td>
+<td align="center">5.91</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Mean fixation duration</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,114</td>
+<td align="right">9.098</td>
+<td align="right">.000*</td>
+<td align="right">.138</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">206</td>
+<td align="center">196</td>
+<td align="center">191</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">180</td>
+<td align="center">175</td>
+<td align="center">176</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">217</td>
+<td align="center">210</td>
+<td align="center">204</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Absolute reading time</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,114</td>
+<td align="right">11.719</td>
+<td align="right">.000*</td>
+<td align="right">.171</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">1554</td>
+<td align="center">1265</td>
+<td align="center">1191</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1243</td>
+<td align="center">1146</td>
+<td align="center">1070</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1625</td>
+<td align="center">1443</td>
+<td align="center">1364</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Proportional reading time</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,114</td>
+<td align="right">65.356</td>
+<td align="right">.000*</td>
+<td align="right">.534</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">.49</td>
+<td align="center">.54</td>
+<td align="center">.58</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">.40</td>
+<td align="center">.47</td>
+<td align="center">.54</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">.53</td>
+<td align="center">.62</td>
+<td align="center">.67</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Revisits</td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+<td align="left">2,114</td>
+<td align="right">89.533</td>
+<td align="right">.000*</td>
+<td align="right">.611</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">.67</td>
+<td align="center">.25</td>
+<td align="center">.20</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">.63</td>
+<td align="center">.43</td>
+<td align="center">.27</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">.62</td>
+<td align="center">.25</td>
+<td align="center">.13</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t010fn001"><p><italic>Note</italic>. Mean fixation duration and absolute reading time measures are given in milliseconds.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>There was a main effect of language on all dependent variables apart from revisits (<xref ref-type="table" rid="pone.0199331.t011">Table 11</xref>). Post-hoc Bonferroni tests showed that Polish participants spent the least amount of time in the subtitles and differed significantly from Spanish participants in all eye tracking measures (fixation count, <italic>p =</italic> .029, 95% CI [-1.26, -.05]; mean fixation duration, <italic>p =</italic> .001, 95% CI [-56.23, -11.34]; absolute reading time, <italic>p</italic> &lt; .000, 95% CI [-491.85, -156.68] and proportional reading time, <italic>p</italic> &lt; .000, 95% CI [-.20, -.06]) and from English participants in the case of absolute reading time (<italic>p =</italic> .027, 95% CI [-351.12, -15.96]). Overall, Spanish participants dwelled longest in the subtitle area and their fixation duration was the longest, indicating highest effort among all the groups.</p>
+<table-wrap id="pone.0199331.t011" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t011</object-id>
+<label>Table 11</label> <caption><title>Eye tracking results for between-subjects effects in Experiment 1.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Eye tracking measure</th>
+<th align="center">df</th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e014"><alternatives><mml:math display="inline" id="M14"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Absolute reading time</td>
+<td align="center">2,57</td>
+<td align="center">11.393</td>
+<td align="center">.000*</td>
+<td align="center">.286</td>
+</tr>
+<tr>
+<td align="left">Fixation count</td>
+<td align="center">2,57</td>
+<td align="center">3.675</td>
+<td align="center">.032*</td>
+<td align="center">.114</td>
+</tr>
+<tr>
+<td align="left">Revisits</td>
+<td align="center">2,57</td>
+<td align="center">1.740</td>
+<td align="center">.185</td>
+<td align="center">.058</td>
+</tr>
+<tr>
+<td align="left">Mean fixation duration</td>
+<td align="center">2,57</td>
+<td align="center">6.909</td>
+<td align="center">.002*</td>
+<td align="center">.195</td>
+</tr>
+<tr>
+<td align="left">Proportional reading time</td>
+<td align="center">2,57</td>
+<td align="center">10.266</td>
+<td align="center">.000*</td>
+<td align="center">.265</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec028">
+<title>Reading experience</title>
+<p>Reading experience questions showed that participants in general could cope well with all the three speeds. Most participants declared that subtitles were displayed for the right amount of time (<xref ref-type="fig" rid="pone.0199331.g002">Fig 2</xref>) and that they had sufficient time to read them as well as to follow the on-screen action (<xref ref-type="fig" rid="pone.0199331.g003">Fig 3</xref>).</p>
+<p>[Fig 2 omitted. See the original article.]</p>
+<p>[Fig 3 omitted. See the original article.]</p>
+<p>Most people also declared that when reading the subtitles, they did not miss words (<xref ref-type="table" rid="pone.0199331.t012">Table 12</xref>). They also stated that they re-read subtitles more often in the slow subtitles condition (12 cps) compared to the fast subtitles. When asked about text condensation in subtitles, most people–regardless of subtitle speed–declared they would prefer subtitles to contain less text so that they have more time to read them.</p>
+<table-wrap id="pone.0199331.t012" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t012</object-id>
+<label>Table 12</label> <caption><title>Self-reported reading experience in clips in Hungarian.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center"/>
+<th align="center">12 cps</th>
+<th align="center">16 cps</th>
+<th align="center">20 cps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="4">When watching this clip…</td>
+</tr>
+<tr>
+<td align="left">    I missed many words</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">1.4</td>
+</tr>
+<tr>
+<td align="left">    I missed some of the words</td>
+<td align="center">12.2</td>
+<td align="center">13.5</td>
+<td align="center">10.8</td>
+</tr>
+<tr>
+<td align="left">    I didn’t miss many words</td>
+<td align="center">21.6</td>
+<td align="center">28.4</td>
+<td align="center">31.1</td>
+</tr>
+<tr>
+<td align="left">    I didn’t miss any words</td>
+<td align="center">66.2</td>
+<td align="center">56.8</td>
+<td align="center">56.8</td>
+</tr>
+<tr>
+<td align="left" colspan="4">Re-reading</td>
+</tr>
+<tr>
+<td align="left">    I re-read many subtitles</td>
+<td align="center">2.7</td>
+<td align="center">5.4</td>
+<td align="center">1.4</td>
+</tr>
+<tr>
+<td align="left">    I re-read some of the subtitles</td>
+<td align="center">31.1</td>
+<td align="center">21.6</td>
+<td align="center">16.2</td>
+</tr>
+<tr>
+<td align="left">    I generally didn’t re-read the subtitles</td>
+<td align="center">40.5</td>
+<td align="center">45.9</td>
+<td align="center">44.6</td>
+</tr>
+<tr>
+<td align="left">    I didn’t re-read any of the subtitles</td>
+<td align="center">25.7</td>
+<td align="center">25.7</td>
+<td align="center">37.8</td>
+</tr>
+<tr>
+<td align="left" colspan="4">Preferences</td>
+</tr>
+<tr>
+<td align="left">    I prefer subtitles to contain less text so that I have <break/>more time to read them</td>
+<td align="center">58.1</td>
+<td align="center">62.2</td>
+<td align="center">63.5</td>
+</tr>
+<tr>
+<td align="left">    I prefer subtitles to contain as much dialogue as possible, <break/>even if it means they appear and disappear very fast</td>
+<td align="center">41.9</td>
+<td align="center">36.5</td>
+<td align="center">36.5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t012fn001"><p><italic>Note</italic>. The data are given as a percentage of the people who selected a given answer</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec029">
+<title>Correlations</title>
+<p>In order to gain insights into participants’ cognitive load experienced when watching clips subtitled at different speeds, we correlated the results of self-reports with eye tracking data. Using Spearman’s rank correlation, we found that in the 12 cps condition, there was a significant correlation between the self-reported difficulty and revisits to the subtitle: <italic>r</italic><sub><italic>s</italic></sub>(64) = .352, <italic>p</italic> = .004, and between the self-reported effort and absolute reading time, <italic>r</italic><sub><italic>s</italic></sub>(64) = .253, <italic>p</italic> = .043. This means that the more revisits participants made to the slow subtitles and the longer they read them, the more cognitive effort they reported. Self-reported difficulty was also negatively related to comprehension, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.331, <italic>p</italic> = .004, and to enjoyment, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.441, <italic>p</italic> &lt; .000, indicating that the more difficult the participants found the clip, the lower their comprehension score and enjoyment. In the 16 cps condition, the self-reported difficulty was significantly related to the absolute reading time, <italic>r</italic><sub><italic>s</italic></sub>(63) = .300, <italic>p</italic> = .017, and to fixation count, <italic>r</italic><sub><italic>s</italic></sub>(63) = .282, <italic>p</italic> = .025. Self-reported effort was also related to absolute reading time, <italic>r</italic><sub><italic>s</italic></sub>(63) = .343, <italic>p</italic> = .006, and to fixation count, <italic>r</italic><sub><italic>s</italic></sub>(63) = .317, <italic>p</italic> = .011. The more difficult the participants found the clip, the more time they spent reading the subtitles. At the same time, the more time they spent reading the subtitles, as shown by their absolute reading time, the less enjoyment they reported, <italic>r</italic><sub><italic>s</italic></sub>(63) = -.403, <italic>p</italic> = .001, and the lower their comprehension score, <italic>r</italic><sub><italic>s</italic></sub>(63) = -.709. Enjoyment was also negatively correlated with revisits: the more revisits the participants made, the lower enjoyment they reported, <italic>r</italic><sub><italic>s</italic></sub>(63) = -.327, p = .009. There was also a significant relationship between self-reported frustration and mean fixation duration, <italic>r</italic><sub><italic>s</italic></sub>(63) = .297, <italic>p</italic> = .018. Finally, in the 20 cps condition, enjoyment was negatively correlated with all indicators of self-reported cognitive load: difficulty, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.457, <italic>p</italic> &lt; .000; effort, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.412, <italic>p</italic> &lt; .000; and frustration, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.508, <italic>p</italic> &lt; .000, showing that the more cognitive effort the participants expended, the less enjoyment they reported.</p>
+</sec>
+<sec id="sec030" sec-type="conclusions">
+<title>Discussion</title>
+<p>Contrary to our expectations, subtitle speed did not affect comprehension, scene recognition, or enjoyment. As demonstrated by reading experience questions, participants were equally satisfied with the speed of subtitles in the slow, medium and fast conditions. In all speeds, participants declared to have had sufficient time to read the subtitles and to follow the on-screen action.</p>
+<p>The slowest subtitles displayed at 12 cps induced most re-reading, as shown by the highest number of revisits to the subtitle area in eye tracking data as well as by participants’ own declarations on re-reading. At the same time, however, the slowest subtitles were deemed the least difficult and effortful to read.</p>
+<p>Overall, the highest cognitive load was reported by English participants, who are generally not accustomed to subtitling. In contrast, Polish participants declared lowest frustration among all the three groups. The self-report results were confirmed by eye tracking as they also spent the least amount of time in the subtitles and had lowest mean fixation duration, indicating lowest cognitive load. Despite the results from the self-reported cognitive load and enjoyment, eye tracking data showed that Spanish participants may have experienced higher cognitive load as they had highest mean fixation duration and spent the highest time reading the subtitles, as shown by both the absolute and proportional reading time. Their comprehension results were also the lowest.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec031">
+<title>Experiment 2</title>
+<sec id="sec032" sec-type="materials|methods">
+<title>Method</title>
+<sec id="sec033">
+<title>Participants</title>
+<p>For Experiment 2, Polish and Spanish speakers self-reported their proficiency in listening to English using the Common European Framework of Reference for Languages (from A1 to C2). Among Polish participants, 4 declared to be at the C1 and 17 at C2 level, whereas for Spanish, 1 person said to be A2, 2 people at B1, 3 people at B2, 7 people at C1 and 13 people at C2 level. We need to note that the English proficiency of our sample was high as at the time the study was taking place, participants were living in the UK. Given their high proficiency, with most participants at the C1 and C2 levels, we could not analyze the data using English proficiency as a factor, as we simply did not have enough participants with limited knowledge of English. We acknowledge this as a limitation of the study.</p>
+</sec>
+<sec id="sec034">
+<title>Stimuli</title>
+<p>In this experiment, for clarity reasons, only two subtitle speeds were tested: slow (12 cps) and fast (20 cps). A set of two clips in English, lasting approximately 5 minutes each, from two TV series was used, one from <italic>Gilmore Girls</italic> (2000, created by Amy Sherman-Palladino), the other from <italic>Grace and Frankie</italic> (2015, created by Marta Kauffman and Howard J. Morris). As in Exp. 1, the stimuli were fast-paced, dialogue-heavy scenes featuring two to four characters engaged in a conversation.</p>
+<p>Similarly to Experiment 1, subtitles were prepared in three language versions: English, Polish and Spanish, separately for each group of participants. The time codes were identical for all the languages. We used Latin square design and divided participants into two groups: Group 1 saw <italic>Gilmore Girls</italic> subtitled at 20 cps and <italic>Grace and Frankie</italic> at 12 cps, whereas Group 2 saw <italic>Gilmore Girls</italic> subtitles at 12 cps and <italic>Grace and Frankie</italic> at 20 cps. Unlike in Experiment 1, this time the clips were shown with their original English soundtrack.</p>
+</sec>
+<sec id="sec035">
+<title>Design</title>
+<p>A 2x3 mixed ANOVA was used with subtitle speed (with 2 levels: 12, 20 cps) as a within subject factor, and first language (English, Spanish, Polish) as a between-subject factor.</p>
+<p>The dependent variables were the same as in Exp. 1. Because in this experiment the participants were familiar with the language of the soundtrack, we wanted to see if they noticed the edits made to subtitle text in slower subtitles. For this reason, we added the measure of <italic>Perceived Mismatch</italic> between the dialogue and the subtitles (<italic>Did you notice any mismatch between the spoken dialogue and the subtitles</italic>?), reported on 1–7 scale, where 1 meant [quoted wording omitted] and 7 [quoted wording omitted].</p>
+</sec>
+</sec>
+<sec id="sec036" sec-type="results">
+<title>Results</title>
+<sec id="sec037">
+<title>Comprehension</title>
+<p>Similarly to Experiment 1, we found no main effect of subtitle speed on comprehension, <italic>F</italic>(1,66) = .012, <italic>p =</italic> .913, <inline-formula id="pone.0199331.e015"><alternatives><mml:math display="inline" id="M15"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .000. There was no main effect of language on comprehension, <italic>F</italic>(2,66) = .080, <italic>p =</italic> .923, <inline-formula id="pone.0199331.e016"><alternatives><mml:math display="inline" id="M16"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .002. There were no interactions. Descriptive results are depicted in <xref ref-type="table" rid="pone.0199331.t013">Table 13</xref>.</p>
+<table-wrap id="pone.0199331.t013" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t013</object-id>
+<label>Table 13</label> <caption><title>Percentage of correct comprehension answers in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Subtitle speed</th>
+</tr>
+<tr>
+<th align="left">Language</th>
+<th align="center">12 cps<break/><italic>M (SD)</italic></th>
+<th align="center">20 cps<break/><italic>M (SD)</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">English</td>
+<td align="center">85.57 (15.22)</td>
+<td align="center">89.87 (11.97)</td>
+</tr>
+<tr>
+<td align="left">Polish</td>
+<td align="center">89.86 (12.12)</td>
+<td align="center">87.40 (12.32)</td>
+</tr>
+<tr>
+<td align="left">Spanish</td>
+<td align="center">89.59 (9.62)</td>
+<td align="center">88.22 (11.54)</td>
+</tr>
+<tr>
+<td align="left">Total</td>
+<td align="center">88.39 (12.35)</td>
+<td align="center">88.50 (1178)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec038">
+<title>Self-reported cognitive load</title>
+<p>There was no main effect of subtitle speed on difficulty or effort, but we found a significant effect of speed on frustration (see <xref ref-type="table" rid="pone.0199331.t014">Table 14</xref>). Frustration was lower in the 20 cps condition for all groups of participants.</p>
+<table-wrap id="pone.0199331.t014" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t014</object-id>
+<label>Table 14</label> <caption><title>Mean cognitive load indicators in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e017"><alternatives><mml:math display="inline" id="M17"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Difficulty</td>
+<td align="center"/>
+<td align="center"/>
+<td align="left">1,71</td>
+<td align="right">.164</td>
+<td align="right">.687</td>
+<td align="right">.002</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">2.30 (1.89)</td>
+<td align="center">1.89 (1.28)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1.33 (.48)</td>
+<td align="center">1.95 (1.32)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1.62 (1.13)</td>
+<td align="center">1.62 (1.09)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Effort</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,71</td>
+<td align="right">.306</td>
+<td align="right">.582</td>
+<td align="right">.004</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">2.85 (1.91)</td>
+<td align="left">2.22 (1.57)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1.38 (.74)</td>
+<td align="left">2.33 (1.49)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1.62 (.75)</td>
+<td align="left">1.58 (.70)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Frustration</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,71</td>
+<td align="right">14.559</td>
+<td align="right">.000*</td>
+<td align="right">.170</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">3.63 (1.90)</td>
+<td align="left">2.15 (1.13)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1.86 (1.65)</td>
+<td align="left">1.57 (.87)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="left">2.00 (1.64)</td>
+<td align="left">1.65 (1.23)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>We also found an interaction between speed and language in effort, <italic>F</italic>(2,71) = 6.935, <italic>p =</italic> .002, <inline-formula id="pone.0199331.e018"><alternatives><mml:math display="inline" id="M18"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = 163) and in frustration, <italic>F</italic>(2,71) = 4.658, <italic>p =</italic> .013, <inline-formula id="pone.0199331.e019"><alternatives><mml:math display="inline" id="M19"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .116). We decomposed these interactions with simple effects with Bonferroni correction and found a main effect of subtitle speed on frustration in the English, <italic>F</italic>(1,26) = 16.980, <italic>p =</italic> .000, <inline-formula id="pone.0199331.e020"><alternatives><mml:math display="inline" id="M20"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .395, and Spanish group, <italic>F</italic>(1,25) = 4.355, <italic>p =</italic> .047, <inline-formula id="pone.0199331.e021"><alternatives><mml:math display="inline" id="M21"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .148. Frustration was lower in the 20 cps condition compared to 12 cps. For Polish speakers, there was a main effect of subtitle speed on effort, <italic>F</italic>(1,20) = 14.134, <italic>p =</italic> .001, <inline-formula id="pone.0199331.e022"><alternatives><mml:math display="inline" id="M22"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .414 but not for frustration. Polish participants declared to expend more effort when reading faster subtitles displayed at 20 cps compared to the slow subtitles.</p>
+<p>We also found a main effect of language on effort, <italic>F</italic>(2,71) = 12.442, <italic>p =</italic> .007, <inline-formula id="pone.0199331.e023"><alternatives><mml:math display="inline" id="M23"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .130, and on frustration, <italic>F</italic>(2,71) = 7.060, <italic>p =</italic> .002, <inline-formula id="pone.0199331.e024"><alternatives><mml:math display="inline" id="M24"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .166. English participants experienced highest frustration than other groups. Post-hoc tests (Bonferroni) showed that in the case of effort, English participants differed from Spanish (<italic>p</italic> = .007, 95% CI [0.21, 1.67]) and in the case of frustration, they differed from both Spanish (<italic>p =</italic> .007, 95% CI [0.23, 1.89]) and from Polish participants (<italic>p =</italic> .005, 95% CI [0.3, 2.05]). Spanish and Polish participants did not differ from each other.</p>
+</sec>
+<sec id="sec039">
+<title>Enjoyment</title>
+<p>Unlike in Experiment 1, we found a main effect of speed on enjoyment and no main effect of language on enjoyment, <italic>F</italic>(2,71) = .857, <italic>p</italic> = .429, <inline-formula id="pone.0199331.e025"><alternatives><mml:math display="inline" id="M25"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .024. There was an interaction between speed and language approaching significance, <italic>F</italic>(2,71) = 2.809, <italic>p</italic> = .067, <inline-formula id="pone.0199331.e026"><alternatives><mml:math display="inline" id="M26"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .073. For English and Spanish participants, enjoyment was higher for the faster subtitle speed, while for the Polish participants enjoyment was the same for both speeds (see <xref ref-type="table" rid="pone.0199331.t015">Table 15</xref>).</p>
+<table-wrap id="pone.0199331.t015" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t015</object-id>
+<label>Table 15</label> <caption><title>Enjoyment in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e027"><alternatives><mml:math display="inline" id="M27"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Enjoyment</td>
+<td align="center"/>
+<td align="center"/>
+<td align="left">1,71</td>
+<td align="right">8.893</td>
+<td align="right">.004*</td>
+<td align="right">.111</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">4.26 (1.73)</td>
+<td align="center">5.44 (1.36)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">5.10 (1.84)</td>
+<td align="center">5.10 (1.37)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">5.00 (1.6)</td>
+<td align="center">5.62 (1.23)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Similarly to Exp. 1, we wanted to see whether enjoyment declared by participants depended on the film itself. In contrast to Exp. 1, we did not find a main effect of film on enjoyment, <italic>F</italic>(1,71) = 2.784, <italic>p</italic> = .100, <inline-formula id="pone.0199331.e028"><alternatives><mml:math display="inline" id="M28"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .038. Polish and English participants enjoyed <italic>Grace and Frankie</italic> (<italic>M</italic><sub><italic>Pol</italic></sub> = 5.52, <italic>SD</italic> = 1.24; <italic>M</italic><sub><italic>Eng</italic></sub> = 5.00, <italic>SD</italic> = 1.68) slightly more than <italic>Gilmore Girls</italic> (<italic>M</italic><sub><italic>Pol</italic></sub> = 4.66, <italic>SD</italic> = 1.82; <italic>M</italic><sub><italic>Eng</italic></sub> = 4.70, <italic>SD</italic> = 1.63), whereas Spanish participants enjoyed both clips nearly equally (<italic>M</italic><sub><italic>GG</italic></sub> = 5.34, SD = 1.32; <italic>M</italic><sub><italic>GF</italic></sub> = 5.26, <italic>SD</italic> = 1.58), but the differences did not reach significance.</p>
+</sec>
+<sec id="sec040">
+<title>Perceived mismatch</title>
+<p>Given that the participants could understand the language of the soundtrack and given the differences in subtitled content resulting from text editing in the two speed conditions, we expected participants to notice discrepancies between the spoken dialogues and the text in the slow subtitles. Indeed, we found a strong main effect of the speed on the degree of perceived mismatch between the dialogue and the text in the subtitles, <italic>F</italic>(1,71) = 84.115, <italic>p &lt;</italic> .000, <inline-formula id="pone.0199331.e029"><alternatives><mml:math display="inline" id="M29"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .542. Slow subtitles were declared to have a considerably higher degree of mismatch (<italic>M</italic><sub><italic>12</italic></sub> = 4.22, <italic>SD</italic> = 1.95) than fast subtitles (<italic>M</italic><sub><italic>20</italic></sub> = 2.28, <italic>SD</italic> = 1.31) by all groups of participants (see <xref ref-type="fig" rid="pone.0199331.g004">Fig 4</xref>). The median values were 4.50 for the 12 cps condition and 2.00 for the 20 cps condition.</p>
+<p>[Fig 4 omitted. See the original article.]</p>
+<p>We found a significant effect of language on perceived mismatch, <italic>F</italic>(2,71) = 5.269, <italic>p =</italic> .007, <inline-formula id="pone.0199331.e030"><alternatives><mml:math display="inline" id="M30"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .129. English participants noticed more mismatches than Polish and Spanish people, but only with the Spanish was the difference significant, <italic>p =</italic> .006, 95% CI [0.26, 1.98]. This result is not surprising given that English participants were watching clips in their mother tongue.</p>
+</sec>
+<sec id="sec041">
+<title>Scene recognition</title>
+<p>There was no main effect of speed on scene recognition (see <xref ref-type="table" rid="pone.0199331.t016">Table 16</xref>), but we found a main effect of language, <italic>F</italic>(2,71) = 26.742, <italic>p</italic> &lt; .000, <inline-formula id="pone.0199331.e031"><alternatives><mml:math display="inline" id="M31"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .430. Post-hoc tests with Bonferroni correction showed a significant difference between English participants on the one hand and Polish and Spanish on the other hand, <italic>ps</italic> &lt; .000. English participants had a significantly lower scene recognition score than Polish participants, 95% CI [-24.25, -10.71], and Spanish, 95% CI [-22.51, -9.72], suggesting they focused more on comparing the subtitles with the dialogues rather than on the visuals.</p>
+<table-wrap id="pone.0199331.t016" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t016</object-id>
+<label>Table 16</label> <caption><title>Percentage of scenes recognized correctly in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic></th>
+<th align="center"><inline-formula id="pone.0199331.e032"><alternatives><mml:math display="inline" id="M32"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Scene recognition</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,71</td>
+<td align="left">.142</td>
+<td align="left">.707</td>
+<td align="left">.002</td>
+</tr>
+<tr>
+<td align="left">English</td>
+<td align="center">82.53 (24.49)</td>
+<td align="center">78.41 (24.06)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Polish</td>
+<td align="center">97.95 (5.12)</td>
+<td align="center">97.95 (5.12)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Spanish</td>
+<td align="center">96.15 (7.62)</td>
+<td align="center">97.03 (6.28)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec042">
+<title>Subtitle recognition</title>
+<p>While speed did not affect subtitle recognition (see <xref ref-type="table" rid="pone.0199331.t017">Table 17</xref>), a significant interaction was found between speed and language, <italic>F</italic>(2,71) = 4.096, <italic>p =</italic> .021, <inline-formula id="pone.0199331.e033"><alternatives><mml:math display="inline" id="M33"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .103. There was a main effect of speed in the case of English participants <italic>F</italic>(1,26) = 5.603, <italic>p =</italic> .026, <inline-formula id="pone.0199331.e034"><alternatives><mml:math display="inline" id="M34"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .177 but not in the case of Polish, <italic>F</italic>(1,20) = .604, <italic>p =</italic> .446, <inline-formula id="pone.0199331.e035"><alternatives><mml:math display="inline" id="M35"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .029, or Spanish participants, <italic>F</italic>(1,25) = 1.997, <italic>p =</italic> .170, <inline-formula id="pone.0199331.e036"><alternatives><mml:math display="inline" id="M36"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .074. For English participants, subtitle recognition was higher in the 20 cps condition compared to 12 cps, whereas for Polish and Spanish people it was slightly lower for the 20 cps subtitles.</p>
+<table-wrap id="pone.0199331.t017" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t017</object-id>
+<label>Table 17</label> <caption><title>Percentage of subtitles recognized correctly in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic></th>
+<th align="center"><inline-formula id="pone.0199331.e037"><alternatives><mml:math display="inline" id="M37"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"><italic>M (SD)</italic></th>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+<th align="center"/>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Subtitle recognition</td>
+<td align="center"/>
+<td align="center"/>
+<td align="left">1,71</td>
+<td align="right">.002</td>
+<td align="right">.965</td>
+<td align="right">.000</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">85.8 (21.03)</td>
+<td align="center">95.06 (7.75)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">86.5 (15.47)</td>
+<td align="center">83.33 (13.94)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">80.12 (18.26)</td>
+<td align="center">73.71 (22.19)</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>There was a significant main effect of language on subtitle recognition, <italic>F</italic>(2,71) = 6.443, <italic>p =</italic> .003, <inline-formula id="pone.0199331.e038"><alternatives><mml:math display="inline" id="M38"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .154. English participants recognized a significantly higher number of scenes than Spanish participants, <italic>p =</italic> .002, 95% CI [4.24, 22.77].</p>
+</sec>
+<sec id="sec043">
+<title>Eye tracking measures</title>
+<p>Due to data quality issues, several participants had to be excluded from eye tracking analyses, leaving a total of 23 English, 19 Polish, and 22 Spanish participants.</p>
+<p>Similarly to Experiment 1, we found the main effect of subtitle speed on all eye tracking measures (see <xref ref-type="table" rid="pone.0199331.t018">Table 18</xref>). The slow subtitles induced more fixations than the fast ones. In all groups of participants, the mean fixation duration was lower in the 20 cps condition. Absolute reading time for the 20 cps condition was lower than the 12 cps condition. Proportional reading time, however, was higher for faster subtitles.</p>
+<table-wrap id="pone.0199331.t018" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t018</object-id>
+<label>Table 18</label> <caption><title>Mean eye tracking measures in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center" colspan="2">Subtitle speed</th>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+<th align="left"/>
+</tr>
+<tr>
+<th align="left"/>
+<th align="center">12</th>
+<th align="center">20</th>
+<th align="center"><italic>df</italic></th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e039"><alternatives><mml:math display="inline" id="M39"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Fixation count</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,61</td>
+<td align="right">56,105</td>
+<td align="right">,000*</td>
+<td align="right">,479</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">5.04</td>
+<td align="center">3.84</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">5.40</td>
+<td align="center">4.24</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">6.01</td>
+<td align="center">4.63</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Mean fixation duration</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,61</td>
+<td align="right">9,252</td>
+<td align="right">,003*</td>
+<td align="right">,132</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">218</td>
+<td align="center">199</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">188</td>
+<td align="center">180</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">213</td>
+<td align="center">210</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Absolute reading time</td>
+<td align="center"/>
+<td align="center"/>
+<td align="left">1,61</td>
+<td align="right">46,458</td>
+<td align="right">,000*</td>
+<td align="right">,432</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">1212</td>
+<td align="center">848</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">1151</td>
+<td align="center">877</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">1416</td>
+<td align="center">1084</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Proportional reading time</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,61</td>
+<td align="right">26,378</td>
+<td align="right">,000*</td>
+<td align="right">,302</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">.40</td>
+<td align="center">.44</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">.39</td>
+<td align="center">.46</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">.48</td>
+<td align="center">.58</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Revisits</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left">1,61</td>
+<td align="right">224,926</td>
+<td align="right">,000*</td>
+<td align="right">,787</td>
+</tr>
+<tr>
+<td align="left">    English</td>
+<td align="center">.50</td>
+<td align="center">.19</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Polish</td>
+<td align="center">.60</td>
+<td align="center">.18</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">    Spanish</td>
+<td align="center">.61</td>
+<td align="center">.16</td>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+<td align="left"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t018fn001"><p><italic>Note</italic>. Mean fixation duration and absolute reading time measures are given in milliseconds.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+<p>There was an interaction between speed and language in the case of revisits, <italic>F</italic>(2,61) = 3.172, <italic>p</italic> = .049, <inline-formula id="pone.0199331.e040"><alternatives><mml:math display="inline" id="M40"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .094, which we decomposed with simple effects using Bonferroni correction. There was a main effect of speed on revisits in the English group, <italic>F</italic>(1,22) = 47,039, <italic>p</italic> &lt; .000, <inline-formula id="pone.0199331.e041"><alternatives><mml:math display="inline" id="M41"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .681, Polish group, <italic>F</italic>(1,18) = 102.364, <italic>p</italic> &lt; .000, <inline-formula id="pone.0199331.e042"><alternatives><mml:math display="inline" id="M42"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .850, and Spanish group, <italic>F</italic>(1,21) = 89.796, <italic>p</italic> &lt; .000, <inline-formula id="pone.0199331.e043"><alternatives><mml:math display="inline" id="M43"><mml:msubsup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> = .810. English people had the lowest number of revisits in the 12 cps condition and the higher number of revisits in the 20 cps condition compared to Polish and Spanish people (see. <xref ref-type="fig" rid="pone.0199331.g005">Fig 5</xref>).</p>
+<p>[Fig 5 omitted. See the original article.]</p>
+<p>The implication of the number of revisits to the subtitle area for the subtitle reading process is that when watching slow subtitles, viewers re-read every second subtitle, whereas in the case of the fast subtitles, only one in five or one in six was re-read. This may be taken to mean that slow subtitles resulted in a more disrupted reading process.</p>
+<p>We also found a main effect of language in all eye tracking measures except for revisits (see <xref ref-type="table" rid="pone.0199331.t019">Table 19</xref>). Spanish people made significantly more fixations on subtitles than English people, <italic>p =</italic> .001, 95% CI [.31, 1.46], and had a significantly longer mean fixation duration than Polish people, <italic>p</italic> = .025, 95% CI [2.73, 52.20]. They also dwelled the longest in the subtitle, as shown by their longest absolute reading time compared to the English, <italic>p</italic> = .007, 95% CI [49.88, 389.01] and to the Polish, <italic>p</italic> = .006, 95% CI [57.46, 413.62]. Their proportional reading time was longer than analogous time spent by English, <italic>p</italic> = .002, 95% CI [.03, .17] and Polish participants, <italic>p</italic> = .005, 95% CI [.02, .17], see <xref ref-type="fig" rid="pone.0199331.g006">Fig 6</xref>.</p>
+<p>[Fig 6 omitted. See the original article.]</p>
+<table-wrap id="pone.0199331.t019" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t019</object-id>
+<label>Table 19</label> <caption><title>Eye tracking results for between-subjects effects in Experiment 2.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">Eye tracking measure</th>
+<th align="center">df</th>
+<th align="center"><italic>F</italic></th>
+<th align="center"><italic>p</italic><break/></th>
+<th align="center"><inline-formula id="pone.0199331.e044"><alternatives><mml:math display="inline" id="M44"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">η</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">p</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="bold">2</mml:mn></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Fixation count</td>
+<td align="center">2,61</td>
+<td align="center">7.209</td>
+<td align="center">.002*</td>
+<td align="center">.191</td>
+</tr>
+<tr>
+<td align="left">Mean fixation duration</td>
+<td align="center">2,61</td>
+<td align="center">4.474</td>
+<td align="center">.015*</td>
+<td align="center">.128</td>
+</tr>
+<tr>
+<td align="left">Absolute reading time</td>
+<td align="center">2,61</td>
+<td align="center">6.981</td>
+<td align="center">.002*</td>
+<td align="center">.186</td>
+</tr>
+<tr>
+<td align="left">Revisits</td>
+<td align="center">2,61</td>
+<td align="center">.405</td>
+<td align="center">.669</td>
+<td align="center">.013</td>
+</tr>
+<tr>
+<td align="left">Proportional reading time</td>
+<td align="center">2,61</td>
+<td align="center">7.808</td>
+<td align="center">.001*</td>
+<td align="center">.204</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>Polish participants had a shorter mean fixation duration than English, <italic>p</italic> = .045, 95% CI [-49.37, -.4], and Spanish participants, <italic>p</italic> = .025, 95% CI [-52.20, -2.73]. They also spent less time with the subtitles than Spanish, as shown by their absolute reading time, <italic>p</italic> = .006, 95% CI [-413.62, -57.46], and proportional reading time, <italic>p</italic> = .005, 95% CI [-.17, -.02].</p>
+</sec>
+<sec id="sec044">
+<title>Reading experience</title>
+<p>Most participants declared that in both conditions the subtitles were on the screen for ample time to be read (<xref ref-type="fig" rid="pone.0199331.g006">Fig 6</xref>), allowing people to read them and to follow on-screen action (<xref ref-type="fig" rid="pone.0199331.g007">Fig 7</xref>).</p>
+<p>[Fig 7 omitted. See the original article.]</p>
+<p>Interestingly, in contrast to Experiment 1, more people declared to prefer subtitles containing as much dialogue as possible rather than condensed subtitles (see <xref ref-type="table" rid="pone.0199331.t020">Table 20</xref>), although the difference in preference was only about 10%.</p>
+<table-wrap id="pone.0199331.t020" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0199331.t020</object-id>
+<label>Table 20</label> <caption><title>Self-reported reading experience in clips in English.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center"/>
+<th align="center">12 cps</th>
+<th align="center">20 cps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="3">When watching this clip…</td>
+</tr>
+<tr>
+<td align="left">    I missed many words</td>
+<td align="center">26.6</td>
+<td align="center">25.5</td>
+</tr>
+<tr>
+<td align="left">    I missed some of the words</td>
+<td align="center">11.7</td>
+<td align="center">16.0</td>
+</tr>
+<tr>
+<td align="left">    I didn’t miss many words</td>
+<td align="center">23.4</td>
+<td align="center">24.5</td>
+</tr>
+<tr>
+<td align="left">    I didn’t miss any words</td>
+<td align="center">38.3</td>
+<td align="center">34.0</td>
+</tr>
+<tr>
+<td align="left" colspan="3">Re-reading</td>
+</tr>
+<tr>
+<td align="left">    I re-read many subtitles</td>
+<td align="center">1.1</td>
+<td align="center">1.1</td>
+</tr>
+<tr>
+<td align="left">    I re-read some of the subtitles</td>
+<td align="center">18.1</td>
+<td align="center">7.4</td>
+</tr>
+<tr>
+<td align="left">    I generally didn’t re-read the subtitles</td>
+<td align="center">31.9</td>
+<td align="center">40.4</td>
+</tr>
+<tr>
+<td align="left">    I didn’t re-read any of the subtitles</td>
+<td align="center">48.9</td>
+<td align="center">51.1</td>
+</tr>
+<tr>
+<td align="left" colspan="3">Preferences</td>
+</tr>
+<tr>
+<td align="left">    I prefer subtitles to contain less text so that I have <break/>more time to read them</td>
+<td align="center">44.7</td>
+<td align="center">46.8</td>
+</tr>
+<tr>
+<td align="left">    I prefer subtitles to contain as much dialogue as possible. <break/>even if it means they appear and disappear very fast</td>
+<td align="center">55.3</td>
+<td align="center">53.2</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t020fn001"><p><italic>Note</italic>. The data are given as a percentage of the people who selected a given answer</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec045">
+<title>Correlations</title>
+<p>Triangulating the self-reports with eye tracking data, we found that in the 12 cps condition, there was a significant relationship between self-reported effort and mean fixation duration, <italic>r</italic><sub><italic>s</italic></sub>(64) = .296, <italic>p</italic> = .002. The effort reported by participants correlated with mismatches they noticed, <italic>r</italic><sub><italic>s</italic></sub>(74) = .296, <italic>p</italic> = .010. There was also a strong correlation between frustration and mismatches, <italic>r</italic><sub><italic>s</italic></sub>(74) = .579, <italic>p</italic> &lt; .000, indicating that the more mismatches noticed, the higher the frustration. We also found a negative relationship between the declared enjoyment and mismatches, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.396, <italic>p</italic> &lt; .000, and with frustration, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.344, <italic>p =</italic> .003. In the 20 cps condition, mismatches were correlated with self-reported difficulty, <italic>r</italic><sub><italic>s</italic></sub>(74) = .352, p = .002, effort, <italic>r</italic><sub><italic>s</italic></sub>(74) = .231, p = .047, and frustration, <italic>r</italic><sub><italic>s</italic></sub>(74) = .422, p &lt; .000. Mismatches were also negatively correlated with enjoyment, <italic>r</italic><sub><italic>s</italic></sub>(74) = -.307, <italic>p</italic> = .008. Overall, this means that the higher the number of mismatches noticed, the lower the enjoyment and the higher the cognitive load reported by the participants.</p>
+</sec>
+<sec id="sec046" sec-type="conclusions">
+<title>Discussion</title>
+<p>Similarly to Experiment 1 and contrary to our predictions, speed had no effect on comprehension. It also did not affect effort, difficulty, or scene recognition. Participants declared to have had enough time to read the subtitles and to follow the on-screen action in both conditions. In contrast to Experiment 1, however, more people wanted to have a full version of the dialogue in the subtitles rather than reduced one.</p>
+<p>Slower subtitles displayed at 12 cps were found to be more frustrating and less enjoyable. Participants noticed more mismatches between the dialogue and the subtitle text in the 12 cps condition. Slow subtitles also induced more fixations and higher mean fixation duration, implying more processing effort than faster subtitles.</p>
+</sec>
+<sec id="sec047">
+<title>Interviews</title>
+<p>[Direct interview material or linked supplementary files omitted.]</p></sec>
+</sec>
+</sec>
+<sec id="sec048">
+<title>General discussion</title>
+<p>By conducting the two experiments reported in this paper, we examined the following questions: (1) Can viewers keep up with fast subtitle speeds, (2) What is the impact of the language of the soundtrack on subtitle processing, and (3) How does experience with subtitling affect the way viewers from different countries watch subtitled videos? Several novel effects were observed.</p>
+<sec id="sec049">
+<title>Impact of subtitle speeds</title>
+<p>One of the most important findings of this study is that viewers were able to cope even with very fast subtitle speeds: they had sufficient time to read the subtitles and to watch the on-screen action, as evidenced by their comprehension scores, scene recognition results and self-reports on reading experience. As these results were found in all groups of participants in the current study regardless of their native language, we believe that this may be taken to confirm the subtitle effectiveness hypothesis [<xref ref-type="bibr" rid="pone.0199331.ref063">63</xref>–<xref ref-type="bibr" rid="pone.0199331.ref065">65</xref>], according to which subtitle viewing is cognitively effective and there is no [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref064">64</xref>].</p>
+<p>The fact that slower subtitles did not result in higher comprehension may be somewhat surprising but possibly suggests that viewers can cope well with reading subtitles irrespective of their speed. Our results are consistent with the prior work on SDH, which showed that slow edited subtitles did not result in higher comprehension than fast unreduced subtitles [<xref ref-type="bibr" rid="pone.0199331.ref006">6</xref>, <xref ref-type="bibr" rid="pone.0199331.ref036">36</xref>].</p>
+<p>Tracing people’s eye movements allowed us to discover that slow subtitles induced higher mean fixation duration, which is an indication of higher cognitive load [<xref ref-type="bibr" rid="pone.0199331.ref066">66</xref>]. This result may stem from at least two factors. Firstly, it is plausible that slow subtitles–owing to the higher extent of text reduction–were less internally cohesive than fast subtitles and, as such, more difficult to process. This finding is supported by [<xref ref-type="bibr" rid="pone.0199331.ref038">38</xref>], reporting that [quoted wording omitted], as well as by a study on SDH, which found that text editing was associated with less explicit coherence relations and changes in implied meaning [<xref ref-type="bibr" rid="pone.0199331.ref037">37</xref>]. Secondly, longer mean fixation duration in slow subtitles may also be attributed to the discrepancies between the text in the spoken dialogues and the text in the subtitles, particularly in Experiment 2 with English clips. This is because the participants were comparing the subtitles with the dialogues, trying to map the sounds onto the words and to integrate the auditory information with the written text. Upon encountering a mismatch between the two, their cognitive effort increased. As there were more mismatches in slow subtitles compared to fast ones, this negatively affected the mean fixation duration in the 12-cps condition. Mismatches also negatively affected enjoyment and increased frustration levels reported by participants.</p>
+<p>The analysis of subtitle reading times with eye tracking has revealed that faster subtitles were read more efficiently than slow subtitles. The reason for this is that even though slow subtitles were displayed on the screen for a longer time than fast subtitles, people did not seem to benefit from the extended display times. For instance, slow subtitles (12 cps) from <italic>Mad Men</italic> were displayed on screen for the total time of 270,520 ms, whereas the medium-paced 16 cps subtitles for 252,800 ms and the fastest 20 cps subtitles for 216,480 ms (when we add up the durations of all the subtitles in the clip). Taking the total clip duration (308,000 ms) as 100%, 12 cps subtitles were on the screen for 88% of clip duration whereas 16 cps subtitles for 82% and 20 cps for 70% of the clip. In other words, slow subtitles stayed on the screen for a longer time than fast subtitles even though they contained less text. At the same time, proportional reading time, i.e. the percentage of time people spent on reading the subtitles as a function of the subtitle display time (taking as 100% the total duration of the subtitles, not the clip), has shown that people spent about 50% of the subtitle display time reading slow subtitles, about 55% reading medium-paced subtitles and about 60% on reading fast subtitles in Experiment 1, and about 40% reading slow subtitles and about 45% reading fast subtitles in Experiment 2. This means that as slow subtitles were displayed longer, people did spent more time reading them in absolute terms, but they still did not look at the subtitles for about 50% of the time the subtitles were on screen. We think the reason why people did not look at the subtitles for about half of the time is that they did not need them to be displayed for that long, as they managed to read them faster. Previous research has shown that subtitles are great gaze attractors [<xref ref-type="bibr" rid="pone.0199331.ref006">6</xref>] and that reading subtitles is automatic [<xref ref-type="bibr" rid="pone.0199331.ref052">52</xref>], so when subtitles are displayed on screen, people automatically look at them (and slow subtitles were there for a long time, attracting people’s gaze for longer). The fact that when watching clips with fast subtitles, people generally spent about half of their time on the subtitles means that they could use the remaining half to follow on-screen action. This seemed to be sufficient for them, as declared in the reading experience questions as well as shown in the subtitle and screen recognition questions. Finally, eye movement analyses also enabled us to discover that slow subtitles triggered more revisits to the subtitle area, which we believe can be attributed to the fact that many slow subtitles were [quoted wording omitted] on the screen for too long. Viewers re-read slow subtitles much more often than the fast ones–a result also reported by a study on SDH [<xref ref-type="bibr" rid="pone.0199331.ref036">36</xref>]. The number of revisits observed in the slow subtitles was also negatively correlated with lower enjoyment and higher difficulty declared by the participants. Our interpretation of this findings is that when viewers make more revisits, i.e. when they keep moving their eyes down to the subtitle area only to find the same subtitle there, the subtitle reading process may be disrupted and viewers’ suspension of disbelief may be negatively affected.</p>
+<p>The results of the current study did not confirm the predictions that fast subtitles would make people spend too much time reading the subtitles to the detriment of the images. This issue ties up with the concept of viewing speed [<xref ref-type="bibr" rid="pone.0199331.ref067">67</xref>] with regard to SDH. Viewing speed is directly determined by the subtitle speed: the faster the speed of subtitles, the more time is spent on reading them. According to Romero-Fresco [<xref ref-type="bibr" rid="pone.0199331.ref067">67</xref>], a subtitle speed of 120 wpm (10–11 cps) will result in approximately 40% spent on subtitles and 60% on images, whereas with fast speeds like 200 wpm (17–18 cps) viewers will spend approximately 80% time on subtitles and only 20% time on images. These predictions were not confirmed in the current study. In Experiment 1, people spent about half of their time reading subtitles and the other half following the filmic image in the 12-cps condition, and about two-thirds of the subtitle display time reading the subtitles in the 20-cps condition. In Experiment 2, possibly because they could understand the language of the soundtrack, viewers spent less than half of their time reading the slow subtitles, and about half of the time reading the fast subtitles. Our results converge with those reported in [<xref ref-type="bibr" rid="pone.0199331.ref043">43</xref>], where the proportion of time spent in the subtitle area during the subtitle display time varied between 32%-66% (<italic>M</italic> = 44%). All in all, these findings suggest that fast subtitle speeds do not necessarily hold viewers back from watching the filmic image.</p>
+<p>Similarly to Koolstra et al. [<xref ref-type="bibr" rid="pone.0199331.ref015">15</xref>] and d'Ydewalle et al. [<xref ref-type="bibr" rid="pone.0199331.ref016">16</xref>], we found that absolute reading time was longer in the case of slow subtitles and that proportional reading time increased together with a rise in subtitle speed. One possible interpretation of this is that viewers adjust their reading to the speed of the subtitles: the slower the subtitles, the slower the reading, and vice versa: the faster the subtitles are displayed, the faster the viewers will read them, provided that the speed remains constant throughout the clip: [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref068">68</xref>].</p>
+<p>Subtitle speed did not have any effect on enjoyment in clips in a language unknown to participants. However, when watching English clips, participants’ enjoyment was generally higher in clips with faster unreduced subtitles. Although we asked the participants specifically to focus on the subtitles, it is possible that their enjoyment was influenced by [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref069">69</xref>], i.e. the way they felt about the characters and the plot as a whole. Given that the notion of enjoyment is very subjective, the differences we observed may be attributed to film genre rather than speed, which was indeed the case in Exp. 1. We acknowledge that it may be difficult to disentangle the effects of enjoying particular films from enjoying clips with a particular subtitle speed.</p>
+<p>Post-test interviews with participants allowed us to discover people’s opinions and attitudes towards subtitle speed. Contrary to our expectations, most people were not bothered by the speed of subtitles but instead cared more about subtitle synchronization and subtitle content reflecting the dialogue.</p>
+<p>Taken together, our findings on subtitle speeds suggest that the long display time of slow subtitles in this study, equivalent to the six-seconds rule, is unnecessarily long for modern viewers. This carries direct implications on current subtitle practices and subtitle training in the future.</p>
+</sec>
+<sec id="sec050">
+<title>Impact of the soundtrack</title>
+<p>To explore the differences in subtitle processing depending on the film soundtrack, we showed people clips in a language they did not know (Exp. 1), and in a language they were proficient in (Exp. 2). Admittedly, subtitles are traditionally geared towards people who do not understand the language of the soundtrack, but the reality of the audiovisual translation market is that a vast majority of theatrical productions are released in English [<xref ref-type="bibr" rid="pone.0199331.ref050">50</xref>], which makes Exp. 2 particularly relevant and ecologically valid. Important differences that we observed between the two experiments bring us closer to detangling the relationship between film soundtrack and subtitle reading. First, after watching clips in an unknown language, our participants achieved lower results in the comprehension test (on average 80%) compared to clips with the soundtrack in a language they could understand (88%). This shows that viewers integrate information from multiple sources to make sense of subtitled videos and points to the importance of sound in processing. Second, when watching videos in Hungarian, participants declared a slightly higher cognitive load (difficulty and effort) than in the case of videos in English, which means their cognitive processing was more effortful, as they were trying to make sense of the film without the support from the soundtrack. Finally, the fact that people spent more time reading subtitles in the case of clips in Hungarian than in English indicates that viewers support their viewing by making sense of the comprehensible auditory information from the dialogue. On the one hand, given an increasingly high proficiency in English among audiences around the globe, one may argue that [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref050">50</xref>]. On the other hand, as viewers are mapping the sounds from the dialogues onto the words in subtitles when they know the language of the soundtrack, any discrepancies between the two may disturb their viewing process. This was also demonstrated in a study where viewers made more revisits to the subtitle in the clip using non-literal translation of the dialogue [<xref ref-type="bibr" rid="pone.0199331.ref070">70</xref>].</p>
+<p>The implication our findings may have on current subtitling practices is that with films whose language is well understood in the target country, subtitles could contain more text and be displayed at faster speeds, whereas in the case of films with lesser known languages, more text reduction and slower speeds may be necessary.</p>
+</sec>
+<sec id="sec051">
+<title>Impact of experience with subtitling</title>
+<p>Our findings demonstrate the previous experience with subtitling may affect the way people process subtitled videos. For example, Spanish participants, who had been most exposed to dubbing, dwelled longest in the subtitle area in both experiments and had longest mean fixation duration–a measure usually attributed to [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref066">66</xref>]. Together with longer absolute reading time and higher fixation count, it is plausible that Spanish people had to expend more effort into reading subtitles than the two other groups. On the other hand, Polish people spent the least amount of time reading the subtitles, indicating they read them faster. English participants declared to experience a much higher cognitive load compared to Polish and Spanish people, which we believe can be attributed to their smallest previous exposure to subtitling. Yet, despite the above differences, all groups seem to have processed subtitles fairly efficiently, showing that subtitles can be used [quoted wording omitted] [<xref ref-type="bibr" rid="pone.0199331.ref063">63</xref>].</p>
+</sec>
+</sec>
+<sec id="sec052" sec-type="conclusions">
+<title>Conclusion</title>
+<p>The current article examined the effects of subtitle speed on viewers’ processing of subtitled videos. The most important result was that people could cope well with fast subtitle speeds and that they preferred them to slow ones in English clips. These results provide empirical grounds for revisiting current subtitling guidelines and audiovisual translation industry practices.</p>
+<p>Further research is required to fully understand the nature of the impact of the soundtrack and of previous experience with subtitling on subtitle processing observed in the current study. Other issues that need to be addressed include disentangling the impact of subtitle speed from that of text editing, investigating the role of language proficiency [<xref ref-type="bibr" rid="pone.0199331.ref071">71</xref>], film genre and film complexity [<xref ref-type="bibr" rid="pone.0199331.ref072">72</xref>] in subtitle processing, examining audience preferences on the faithfulness of subtitle translation [<xref ref-type="bibr" rid="pone.0199331.ref070">70</xref>] as well as replicating our results on speakers of other languages and age groups. Examination of these issues will allow a greater understanding of the subtitle processing and the development of empirically grounded subtitling rules, meeting the needs of a dynamically growing number of subtitle end users.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0199331.ref001"><label>1</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Szarkowska</surname> <given-names>A</given-names></name>. <chapter-title>Report on the results of an online survey on subtitle presentation times and line breaks in interlingual subtitling</chapter-title>. <source>Part 1: Subtitlers</source>. <publisher-loc>London</publisher-loc>: <publisher-name>University College London</publisher-name>, <year>2016</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref002"><label>2</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Ivarsson</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Carroll</surname> <given-names>M</given-names></name>. <source>Subtitling</source>. <publisher-loc>Simrishamn</publisher-loc>: <publisher-name>TransEdit HB</publisher-name>; <year>1998</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref003"><label>3</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Díaz Cintas</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Remael</surname> <given-names>A</given-names></name>. <source>Audiovisual translation: subtitling</source>. <name name-style="western"><surname>Remael</surname> <given-names>A</given-names></name>, editor. <publisher-loc>Manchester</publisher-loc>: <publisher-name>Manchester: St. Jerome</publisher-name>; <year>2007</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref004"><label>4</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Tveit</surname> <given-names>JE</given-names></name>. <chapter-title>Translating for Television</chapter-title>. <source>A Handbook in Screen Translation</source>. <publisher-loc>Bergen</publisher-loc>: <publisher-name>JK Publishing</publisher-name>; <year>2004</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Neves</surname> <given-names>J</given-names></name>. <article-title>Ten fallacies about subtitling for the d/Deaf and the hard of hearing</article-title>. <source>J Spec Transl</source>. <year>2008</year>;<volume>10</volume>:<fpage>128</fpage>–<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Szarkowska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Krejtz</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Klyszejko</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wieczorek</surname> <given-names>A</given-names></name>. <article-title>Verbatim, Standard, or Edited? Reading Patterns of Different Captioning Styles among Deaf, Hard of Hearing, and Hearing Viewers</article-title>. <source>Am Ann Deaf</source>. <year>2011</year>;<volume>156</volume>(<issue>4</issue>):<fpage>363</fpage>–<lpage>78</lpage>. <object-id pub-id-type="pmid">22256538</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref007"><label>7</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Romero-Fresco</surname> <given-names>P</given-names></name>. <source>The reception of subtitles for the deaf and hard of hearing in Europe</source>: <publisher-loc>Bern: Peter Lang AG</publisher-loc>, <publisher-name>Internationaler Verlag der Wissenschaften</publisher-name>; <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref008"><label>8</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Robson</surname> <given-names>GD</given-names></name>. <source>The Closed Captioning Handbook</source>. <publisher-loc>Burlington</publisher-loc>: <publisher-name>Focal Press</publisher-name>; <year>2004</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Szarkowska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Krejtz</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Pilipczuk</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Dutka</surname> <given-names>Ł</given-names></name>, <name name-style="western"><surname>Kruger</surname> <given-names>J-L</given-names></name>. <article-title>The effects of text editing and subtitle presentation rate on the comprehension and reading patterns of interlingual and intralingual subtitles among deaf, hard of hearing and hearing viewers</article-title>. <source>Across Lang Cult</source>. <year>2016</year>;<volume>17</volume>(<issue>2</issue>):<fpage>183</fpage>–<lpage>204</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1556/084.2016.17.2.3" xlink:type="simple">10.1556/084.2016.17.2.3</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref010"><label>10</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Martí Ferriol</surname> <given-names>JL</given-names></name>. <source>Subtitle reading speeds in different languages: the case of Lethal Weapon</source>. <publisher-loc>Quaderns</publisher-loc>: <publisher-name>Revista de traducció</publisher-name>. <year>2013</year>;(20):201–10.</mixed-citation></ref>
+<ref id="pone.0199331.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Martí Ferriol</surname> <given-names>JL</given-names></name>. <article-title>Velocidades de lectura de subtítulos en alemán y español de películas norteamericanas</article-title>. <source>Estudios de Traducción</source>. <year>2012</year>;<volume>2</volume>(<issue>0</issue>). <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5209/rev_ESTR.2012.v2.38977" xlink:type="simple">10.5209/rev_ESTR.2012.v2.38977</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Romero-Fresco</surname> <given-names>P</given-names></name>. <article-title>More haste less speed: Edited versus verbatim respoken subtitles</article-title>. <source>Vigo International Journal of Applied Linguistics</source>. <year>2009</year>;<volume>6</volume>:<fpage>109</fpage>–<lpage>33</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Karamitroglou</surname> <given-names>F</given-names></name>. <article-title>A Proposed Set of Subtitling Standards in Europe</article-title>. <source>Translation Journal</source>. <year>1998</year>;<volume>2</volume>(<issue>2</issue>).</mixed-citation></ref>
+<ref id="pone.0199331.ref014"><label>14</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>d'Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Muylle</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Rensbergen</surname> <given-names>Jv</given-names></name>. <chapter-title>Attention shifts in partially redundant information situations</chapter-title>. In: <name name-style="western"><surname>Groner</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>McConkie</surname> <given-names>GW</given-names></name>, <name name-style="western"><surname>Menz</surname> <given-names>C</given-names></name>, editors. <source>Eye Movements and Human Information Processing</source>. <publisher-loc>Amsterdam</publisher-loc>: <publisher-name>Elsevier</publisher-name>; <year>1985</year>. p. <fpage>375</fpage>–<lpage>84</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koolstra</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Van Der Voort</surname> <given-names>THA</given-names></name>, <name name-style="western"><surname>d'Ydewalle</surname> <given-names>G</given-names></name>. <article-title>Lengthening the Presentation Time of Subtitles on Television: Effects on Children’s Reading Time and Recognition</article-title>. <source>comm</source>. <year>1999</year>;<volume>24</volume>(<issue>4</issue>):<fpage>407</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1515/comm.1999.24.4.407" xlink:type="simple">10.1515/comm.1999.24.4.407</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref016"><label>16</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>d'Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Rensbergen</surname> <given-names>Jv</given-names></name>, <name name-style="western"><surname>Pollet</surname> <given-names>J</given-names></name>. <chapter-title>Reading a message when the same message is available auditorily in another language: the case of subtitling</chapter-title>. In: <name name-style="western"><surname>O'Regan</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Levy-Schoen</surname> <given-names>A</given-names></name>, editors. <source>Eye movements: from physiology to cognition</source>. <publisher-loc>Amsterdam/New York</publisher-loc>: <publisher-name>Elsevier</publisher-name>; <year>1987</year>. p. <fpage>313</fpage>–<lpage>21</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref017"><label>17</label><mixed-citation publication-type="other" xlink:type="simple">Netflix. Timed Text Style Guide: General Requirements. 2016.</mixed-citation></ref>
+<ref id="pone.0199331.ref018"><label>18</label><mixed-citation publication-type="other" xlink:type="simple">Ofcom. Ofcom’s Code on Television Access Services. 2017:1–25.</mixed-citation></ref>
+<ref id="pone.0199331.ref019"><label>19</label><mixed-citation publication-type="other" xlink:type="simple">BBC. BBC subtitle guidelines. 2017.</mixed-citation></ref>
+<ref id="pone.0199331.ref020"><label>20</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Jensema</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Burch</surname> <given-names>R</given-names></name>. <chapter-title>Caption Speed and Viewer Comprehension of Television Programs</chapter-title>. <publisher-loc>Washington, DC</publisher-loc>: <publisher-name>Training IfDRa</publisher-name>; <year>1999</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref021"><label>21</label><mixed-citation publication-type="book" xlink:type="simple"><collab>Ofcom</collab>. <chapter-title>Subtitling–an Issue of Speed?</chapter-title> <publisher-loc>London</publisher-loc>: <publisher-name>Ofcom</publisher-name>, <year>2005</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burnham</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Leigh</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Noble</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Tyler</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Grebennikov</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Parameters in television captioning for deaf and hard-of-hearing adults: effects of caption rate versus text reduction on comprehension</article-title>. <source>J Deaf Stud Deaf Educ</source>. <year>2008</year>;<volume>13</volume>(<issue>3</issue>):<fpage>391</fpage>–<lpage>404</lpage>. Epub 2008/03/29. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/deafed/enn003" xlink:type="simple">10.1093/deafed/enn003</ext-link></comment> <object-id pub-id-type="pmid">18372297</object-id>.</mixed-citation></ref>
+<ref id="pone.0199331.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jensema</surname> <given-names>C</given-names></name>. <article-title>Viewer Reaction to Different Television Captioning Speeds</article-title>. <source>Am Ann Deaf</source>. <year>1998</year>;<volume>143</volume>(<issue>4</issue>):<fpage>318</fpage>–<lpage>24</lpage>. <object-id pub-id-type="pmid">9842059</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jensema</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Sharkawy</surname> <given-names>SE</given-names></name>, <name name-style="western"><surname>Danturthi</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Burch</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Hsu</surname> <given-names>D</given-names></name>. <article-title>Eye Movement Patterns of Captioned Television Viewers</article-title>. <source>Am Ann Deaf</source>. <year>2000</year>;<volume>145</volume>(<issue>3</issue>):<fpage>275</fpage>–<lpage>85</lpage>. <object-id pub-id-type="pmid">10965591</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jensema</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Danturthi</surname> <given-names>RS</given-names></name>, <name name-style="western"><surname>Burch</surname> <given-names>R</given-names></name>. <article-title>Time Spent Viewing Captions on Television Programs</article-title>. <source>Am Ann Deaf</source>. <year>2000</year>;<volume>145</volume>(<issue>5</issue>):<fpage>464</fpage>–<lpage>8</lpage>. <object-id pub-id-type="pmid">11191825</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref026"><label>26</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Baker</surname> <given-names>RG</given-names></name>. <chapter-title>Subtitling Television for Deaf Children</chapter-title>. <publisher-loc>Southampton</publisher-loc>: <collab>University of Southampton</collab>, <year>1985</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tyler</surname> <given-names>MD</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Grebennikov</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Leigh</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Noble</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Burnham</surname> <given-names>D</given-names></name>. <article-title>Effect of Caption Rate on the Comprehension of Educational Television Programmes by Deaf School Students</article-title>. <source>Deafness &amp; Education International</source>. <year>2013</year>;<volume>11</volume>(<issue>3</issue>):<fpage>152</fpage>–<lpage>62</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1179/146431509790559606" xlink:type="simple">10.1179/146431509790559606</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jensema</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>McCann</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ramsey</surname> <given-names>S</given-names></name>. <article-title>Closed-Captioned Television Presentation Speed and Vocabulary</article-title>. <source>Am Ann Deaf</source>. <year>1996</year>;<volume>141</volume>(<issue>4</issue>):<fpage>284</fpage>–<lpage>92</lpage>. <object-id pub-id-type="pmid">8936703</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref029"><label>29</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Sandford</surname> <given-names>J</given-names></name>. <chapter-title>The Impact of Subtitle Display Rate on Enjoyment under Normal Television Viewing Conditions</chapter-title>. <source>Research White Paper 306</source>. <publisher-loc>London</publisher-loc>: <publisher-name>British Broadcasting Corporation</publisher-name>, <year>2015</year> Contract No.: WHP 306.</mixed-citation></ref>
+<ref id="pone.0199331.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Braverman</surname> <given-names>BB</given-names></name>, <name name-style="western"><surname>Hertzog</surname> <given-names>M</given-names></name>. <article-title>The Effects of Caption Rate and Language Level on Comprehension of a Captioned Video Presentation</article-title>. <source>Am Ann Deaf</source>. <year>1980</year>;<volume>125</volume>(<issue>7</issue>):<fpage>943</fpage>–<lpage>8</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1353/aad.2012.1118" xlink:type="simple">10.1353/aad.2012.1118</ext-link></comment> <object-id pub-id-type="pmid">7446349</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref031"><label>31</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shroyer</surname> <given-names>EH</given-names></name>, <name name-style="western"><surname>Birch</surname> <given-names>J</given-names></name>. <article-title>Captions and Reading Rates of Hearing-Impaired Students</article-title>. <source>Am Ann Deaf</source>. <year>1980</year>;<volume>125</volume>(<issue>7</issue>):<fpage>916</fpage>–<lpage>22</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1353/aad.2012.1240" xlink:type="simple">10.1353/aad.2012.1240</ext-link></comment> <object-id pub-id-type="pmid">7446345</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mayberry</surname> <given-names>RI</given-names></name>, <name name-style="western"><surname>del Giudice</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Lieberman</surname> <given-names>AM</given-names></name>. <article-title>Reading achievement in relation to phonological coding and awareness in deaf readers: a meta-analysis</article-title>. <source>J Deaf Stud Deaf Educ</source>. <year>2011</year>;<volume>16</volume>(<issue>2</issue>):<fpage>164</fpage>–<lpage>88</lpage>. Epub 2010/11/13. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/deafed/enq049" xlink:type="simple">10.1093/deafed/enq049</ext-link></comment> <object-id pub-id-type="pmid">21071623</object-id>; PubMed Central PMCID: PMCPMC3739043.</mixed-citation></ref>
+<ref id="pone.0199331.ref033"><label>33</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Musselman</surname> <given-names>C</given-names></name>. <article-title>How Do Children Who Can't Hear Learn to Read an Alphabetic Script? A Review of the Literature on Reading and Deafness</article-title>. <source>J Deaf Stud Deaf Educ</source>. <year>2000</year>;<volume>5</volume>(<issue>1</issue>):<fpage>9</fpage>–<lpage>31</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/deafed/5.1.9" xlink:type="simple">10.1093/deafed/5.1.9</ext-link></comment> <object-id pub-id-type="pmid">15454515</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref034"><label>34</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cambra</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Silvestre</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Leal</surname> <given-names>A</given-names></name>. <article-title>Comprehension of Television Messages by Deaf Students at Various Stages of Education</article-title>. <source>Am Ann Deaf</source>. <year>2009</year>;<volume>153</volume>(<issue>5</issue>):<fpage>425</fpage>–<lpage>34</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1353/aad.0.0065" xlink:type="simple">10.1353/aad.0.0065</ext-link></comment> <object-id pub-id-type="pmid">19350951</object-id></mixed-citation></ref>
+<ref id="pone.0199331.ref035"><label>35</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Baker</surname> <given-names>RG</given-names></name>, <name name-style="western"><surname>Lambourne</surname> <given-names>A</given-names></name>. <chapter-title>Handbook for Television Subtitlers</chapter-title>. <publisher-loc>Winchester</publisher-loc>: <publisher-name>Independent Broadcasting Authority</publisher-name>; <year>1984</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref036"><label>36</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>De Linde</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Kay</surname> <given-names>N</given-names></name>. <chapter-title>The semiotics of subtitling</chapter-title>. <publisher-loc>Manchester</publisher-loc>: <publisher-name>St. Jerome</publisher-name>; <year>1999</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schilperoord</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>de Groot</surname> <given-names>V</given-names></name>, <name name-style="western"><surname>van Son</surname> <given-names>N</given-names></name>. <article-title>Nonverbatim captioning in Dutch television programs: a text linguistic approach</article-title>. <source>J Deaf Stud Deaf Educ</source>. <year>2005</year>;<volume>10</volume>(<issue>4</issue>):<fpage>402</fpage>–<lpage>16</lpage>. Epub 2005/07/23. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/deafed/eni038" xlink:type="simple">10.1093/deafed/eni038</ext-link></comment> <object-id pub-id-type="pmid">16037483</object-id>.</mixed-citation></ref>
+<ref id="pone.0199331.ref038"><label>38</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Moran</surname> <given-names>S</given-names></name>. <source>The effect of linguistic variation on subtitle reception</source>. <publisher-name>ProQuest Dissertations Publishing</publisher-name>; <year>2009</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref039"><label>39</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Muylaert</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Nootens</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Poesmans</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Pugh</surname> <given-names>AK</given-names></name>. <chapter-title>Design and utilisation of subtitles on foreign language television programmes</chapter-title>. In: <name name-style="western"><surname>Nelde</surname> <given-names>PH</given-names></name>, editor. <source>Theorie, Methoden and Modelle der Kontaktlinguistik</source>. <publisher-loc>Bonn</publisher-loc>: <publisher-name>Dummler</publisher-name>; <year>1983</year>. p. <fpage>201</fpage>–<lpage>14</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref040"><label>40</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>d'Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Van de Poel</surname> <given-names>M</given-names></name>. <article-title>Incidental Foreign-Language Acquisition by Children Watching Subtitled Television Programs</article-title>. <source>Journal of Psycholinguistic Research</source>. <year>1999</year>;<volume>28</volume>(<issue>3</issue>):<fpage>227</fpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref041"><label>41</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>De Bruycker</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>d'Ydewalle</surname> <given-names>G</given-names></name>. <chapter-title>Reading Native and Foreign Language Television Subtitles in Children and Adults</chapter-title>. <publisher-name>Elsevier B.V.</publisher-name>; <year>2003</year>. p. <fpage>671</fpage>–<lpage>84</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kruger</surname> <given-names>J-L</given-names></name>, <name name-style="western"><surname>Hefer</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Matthew</surname> <given-names>G</given-names></name>. <article-title>Attention distribution and cognitive load in a subtitled academic lecture: L1 vs. L2</article-title>. <source>Journal of Eye Movement Research</source>; Vol <volume>7</volume>, No <issue>5</issue> (2014). <year>2014</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ross</surname> <given-names>NM</given-names></name>, <name name-style="western"><surname>Kowler</surname> <given-names>E</given-names></name>. <article-title>Eye movements while viewing narrated, captioned, and silent videos</article-title>. <source>Journal of vision</source>. <year>2013</year>;<volume>13</volume>(<issue>4</issue>):<fpage>1</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1167/13.4.1" xlink:type="simple">10.1167/13.4.1</ext-link></comment> <object-id pub-id-type="pmid">23457357</object-id>; PubMed Central PMCID: PMC4521331.</mixed-citation></ref>
+<ref id="pone.0199331.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mitterer</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>McQueen</surname> <given-names>JM</given-names></name>. <article-title>Foreign subtitles help but native-language subtitles harm foreign speech perception</article-title>. <source>Plos One</source>. <year>2009</year>;<volume>4</volume>(<issue>11</issue>):<fpage>e7785</fpage>. Epub 2009/11/18. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0007785" xlink:type="simple">10.1371/journal.pone.0007785</ext-link></comment> <object-id pub-id-type="pmid">19918371</object-id>; PubMed Central PMCID: PMCPMC2775720.</mixed-citation></ref>
+<ref id="pone.0199331.ref045"><label>45</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Muñoz</surname> <given-names>C</given-names></name>. <article-title>The role of age and proficiency in subtitle reading. An eye-tracking study</article-title>. <source>System</source>. <year>2017</year>;<volume>67</volume>:<fpage>77</fpage>–<lpage>86</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.system.2017.04.015" xlink:type="simple">10.1016/j.system.2017.04.015</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref046"><label>46</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Winke</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gass</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sydorenko</surname> <given-names>T</given-names></name>. <article-title>Factors Influencing the Use of Captions by Foreign Language Learners: An Eye-Tracking Study</article-title>. <source>The Modern language journal</source>. <year>2013</year>;<volume>97</volume>(<issue>1</issue>):<fpage>254</fpage>–<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref047"><label>47</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bisson</surname> <given-names>M-J</given-names></name>, <name name-style="western"><surname>Van Heuven</surname> <given-names>WJB</given-names></name>, <name name-style="western"><surname>Conklin</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Tunney</surname> <given-names>RJ</given-names></name>. <article-title>Processing of native and foreign language subtitles in films: An eye tracking study</article-title>. <source>Applied Psycholinguistics</source>. <year>2012</year>;<volume>35</volume>(<issue>02</issue>):<fpage>399</fpage>–<lpage>418</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s0142716412000434" xlink:type="simple">10.1017/s0142716412000434</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref048"><label>48</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Łuczak</surname> <given-names>K</given-names></name>. <chapter-title>The effects of the language of the soundtrack on film comprehension, cognitive load and subtitle reading patterns</chapter-title>. <source>An eye-tracking study</source>. <publisher-loc>Warsaw</publisher-loc>: <publisher-name>University of Warsaw</publisher-name>; <year>2017</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref049"><label>49</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Crystal</surname> <given-names>D</given-names></name>. <chapter-title>English as a Global Language</chapter-title>. <edition>2nd ed</edition>. ed. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>; <year>2012</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref050"><label>50</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Dwyer</surname> <given-names>T</given-names></name>. <chapter-title>Speaking in subtitles: revaluing screen translation</chapter-title>: <publisher-loc>Edinburgh</publisher-loc>: <publisher-name>Edinburgh University Press</publisher-name>; <year>2017</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref051"><label>51</label><mixed-citation publication-type="book" xlink:type="simple"><collab>Eurostat</collab>. <source>Foreign language learning statistics</source>. <publisher-name>Eurostat</publisher-name>, <year>2017</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref052"><label>52</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>d'Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Praet</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Verfaillie</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Van Rensbergen</surname> <given-names>J</given-names></name>. <article-title>Watching Subtitled Television: Automatic Reading Behavior</article-title>. <source>Communication Research</source>. <year>1991</year>;<volume>18</volume>(<issue>5</issue>):<fpage>650</fpage>–<lpage>66</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref053"><label>53</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kruger</surname> <given-names>J-L</given-names></name>, <name name-style="western"><surname>Szarkowska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Krejtz</surname> <given-names>I</given-names></name>. <article-title>Subtitles on the moving image: an overview of eye tracking studies</article-title>. <source>Refractory</source>. <year>2015</year>;<volume>25</volume>.</mixed-citation></ref>
+<ref id="pone.0199331.ref054"><label>54</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname> <given-names>HC</given-names></name>, <name name-style="western"><surname>Pomplun</surname> <given-names>M</given-names></name>. <article-title>The attraction of visual attention to texts in real-world scenes</article-title>. <source>Journal of vision</source>. <year>2012</year>;<volume>12</volume>(<issue>6</issue>). Epub 2012/06/21. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1167/12.6.26" xlink:type="simple">10.1167/12.6.26</ext-link></comment> <object-id pub-id-type="pmid">22715197</object-id>; PubMed Central PMCID: PMCPMC3845417.</mixed-citation></ref>
+<ref id="pone.0199331.ref055"><label>55</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koolstra</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Peeters</surname> <given-names>AL</given-names></name>, <name name-style="western"><surname>Spinhof</surname> <given-names>H</given-names></name>. <article-title>The Pros and Cons of Dubbing and Subtitling</article-title>. <source>European Journal of Communication</source>. <year>2002</year>;<volume>17</volume>(<issue>3</issue>):<fpage>325</fpage>–<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0267323102017003694" xlink:type="simple">10.1177/0267323102017003694</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref056"><label>56</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matamala</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Bottiroli</surname> <given-names>S</given-names></name>. <article-title>Dubbing versus subtitling yet again?</article-title> <source>Babel</source>. <year>2017</year>;<volume>63</volume>(<issue>3</issue>):<fpage>423</fpage>–<lpage>41</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1075/babel.63.3.07mat" xlink:type="simple">10.1075/babel.63.3.07mat</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref057"><label>57</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Del Missier</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Bottiroli</surname> <given-names>S</given-names></name>. <article-title>Dubbing versus subtitling in young and older adults: cognitive and evaluative aspects</article-title>. <source>Perspectives</source>. <year>2015</year>;<volume>23</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>21</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/0907676x.2014.912343" xlink:type="simple">10.1080/0907676x.2014.912343</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref058"><label>58</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tamborini</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Bowman</surname> <given-names>ND</given-names></name>, <name name-style="western"><surname>Eden</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Grizzard</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Organ</surname> <given-names>A</given-names></name>. <article-title>Defining Media Enjoyment as the Satisfaction of Intrinsic Needs</article-title>. <source>Journal of Communication</source>. <year>2010</year>;<volume>60</volume>(<issue>4</issue>):<fpage>758</fpage>–<lpage>77</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1460-2466.2010.01513.x" xlink:type="simple">10.1111/j.1460-2466.2010.01513.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref059"><label>59</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Raney</surname> <given-names>AA</given-names></name>. <chapter-title>Disposition-based theories of enjoyment</chapter-title>. In: <name name-style="western"><surname>Bryant</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Roskos-Ewoldsen</surname> <given-names>DR</given-names></name>, <name name-style="western"><surname>Cantor</surname> <given-names>J</given-names></name>, editors. <source>Communication and emotion: Essays in honor of Dolf Zillmann New York</source>: <publisher-name>Routledge</publisher-name>; <year>2003</year>. p. <fpage>61</fpage>–<lpage>84</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref060"><label>60</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ryan</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Rigby</surname> <given-names>CS</given-names></name>, <name name-style="western"><surname>Przybylski</surname> <given-names>A</given-names></name>. <article-title>The Motivational Pull of Video Games: A Self-Determination Theory Approach</article-title>. <source>Motivation and Emotion</source>. <year>2006</year>;<volume>30</volume>(<issue>4</issue>):<fpage>344</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11031-006-9051-8" xlink:type="simple">10.1007/s11031-006-9051-8</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref061"><label>61</label><mixed-citation publication-type="other" xlink:type="simple">Szarkowska A. SURE Project Dataset. RepOD; 2018. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.18150/repod.4469278" xlink:type="simple">http://dx.doi.org/10.18150/repod.4469278</ext-link></mixed-citation></ref>
+<ref id="pone.0199331.ref062"><label>62</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ryan</surname> <given-names>R</given-names></name>. <article-title>Control and information in the intrapersonal sphere: An extension of cognitive evaluation theory</article-title>. <source>Journal of Personality &amp; Social Psychology</source>. <year>1982</year>;<volume>43</volume>(<issue>3</issue>):<fpage>450</fpage>–<lpage>61</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref063"><label>63</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Laskowska</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Matamala</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Remael</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Robert</surname> <given-names>IS</given-names></name>, <name name-style="western"><surname>Szarkowska</surname> <given-names>A</given-names></name>, <etal>et al</etal>. <article-title>Is subtitling equally effective everywhere? A first cross-national study on the reception of interlingually subtitled messages</article-title>. <source>Across Lang Cult</source>. <year>2016</year>;<volume>17</volume>(<issue>2</issue>):<fpage>205</fpage>–<lpage>29</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1556/084.2016.17.2.4" xlink:type="simple">10.1556/084.2016.17.2.4</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref064"><label>64</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Del Missier</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Porta</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mosconi</surname> <given-names>M</given-names></name>. <article-title>The Cognitive Effectiveness of Subtitle Processing</article-title>. <source>Media Psychology</source>. <year>2010</year>;<volume>13</volume>(<issue>3</issue>):<fpage>243</fpage>–<lpage>72</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/15213269.2010.502873" xlink:type="simple">10.1080/15213269.2010.502873</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0199331.ref065"><label>65</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>d’Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Gielen</surname> <given-names>I</given-names></name>. <chapter-title>Attention Allocation with Overlapping Sound, Image, and Text</chapter-title>. In: <name name-style="western"><surname>Rayner</surname> <given-names>K</given-names></name>, editor. <source>Eye Movements and Visual Cognition: Scene Perception and Reading</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer New York</publisher-name>; <year>1992</year>. p. <fpage>415</fpage>–<lpage>27</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref066"><label>66</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Holmqvist</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Nyström</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Andersson</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Dewhurst</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Jarodzka</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Weijer</surname> <given-names>Jvd</given-names></name>. <chapter-title>Eye tracking: a comprehensive guide to methods and measures</chapter-title>. <name name-style="western"><surname>Nyström</surname> <given-names>Ma</given-names></name>, <name name-style="western"><surname>Andersson</surname> <given-names>Ra</given-names></name>, <name name-style="western"><surname>Dewhurst</surname> <given-names>Ra</given-names></name>, <name name-style="western"><surname>Jarodzka</surname> <given-names>Ha</given-names></name>, <name name-style="western"><surname>Weijer</surname> <given-names>Jvda</given-names></name>, editors: <publisher-loc>Oxford, United Kingdom</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>; <year>2011</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref067"><label>67</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Romero-Fresco</surname> <given-names>P</given-names></name>. <chapter-title>Final thoughts: Viewing speed in subtitling</chapter-title>. In: <name name-style="western"><surname>Romero-Fresco</surname> <given-names>P</given-names></name>, editor. <source>The Reception of Subtitles for the Deaf and Hard of Hearing in Europe</source>. <publisher-loc>Bern</publisher-loc>: <publisher-name>Peter Lang</publisher-name>; <year>2015</year>. p. <fpage>335</fpage>–<lpage>41</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref068"><label>68</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Luyken</surname> <given-names>G-M</given-names></name>, <name name-style="western"><surname>Herbst</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Langham-Brown</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Reid</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Spinhof</surname> <given-names>H</given-names></name>. <article-title>Overcoming language barriers in television: dubbing and subtitling for the European audience Manchester</article-title>: <source>The European Institute for the Media</source>; <year>1991</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref069"><label>69</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Raney</surname> <given-names>AA</given-names></name>. <chapter-title>Media enjoyment as a function of affective dispositions toward and moral judgment of characters</chapter-title>. In: <name name-style="western"><surname>Döveling</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>von Scheve</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Konijn</surname> <given-names>EA</given-names></name>, editors. <source>The Routledge Handbook of Emotions and Mass Media</source>: <publisher-name>Routledge</publisher-name>; <year>2010</year>. p. <fpage>166</fpage>–<lpage>78</lpage>.</mixed-citation></ref>
+<ref id="pone.0199331.ref070"><label>70</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Ghia</surname> <given-names>E</given-names></name>. <source>Subtitling matters: new perspectives on subtitling and foreign language learning</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Peter Lang</publisher-name>; <year>2012</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref071"><label>71</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Orrego-Carmona</surname> <given-names>D</given-names></name>. <source>The reception of (non)professional subtitling</source>. <publisher-loc>Tarragona</publisher-loc>: <publisher-name>Universitat Rovira i Virgili</publisher-name>; <year>2015</year>.</mixed-citation></ref>
+<ref id="pone.0199331.ref072"><label>72</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Del Missier</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Stragà</surname> <given-names>M</given-names></name>. <article-title>Dubbing vs. subtitling</article-title>. <source>Target</source>. <year>2018</year>;<volume>30</volume>(<issue>1</issue>):<fpage>137</fpage>–<lpage>57</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1075/target.16083.per" xlink:type="simple">10.1075/target.16083.per</ext-link></comment></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

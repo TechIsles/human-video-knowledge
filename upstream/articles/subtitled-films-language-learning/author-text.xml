@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Adapted text-only article extraction from the official PLOS publisher XML. Retains the abstract, selected author narrative, aggregate result tables and references. Removes figures, examples or quotes as marked, contacts, graphics, linked data/supplements and all stimulus assets. Does not archive the original XML or illustrated article. --><front><article-meta><article-id pub-id-type="doi">10.1371/journal.pone.0158409</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-15-43137</article-id>
+<title-group>
+<article-title>Watching Subtitled Films Can Help Learning Foreign Languages</article-title>
+<alt-title alt-title-type="running-head">Watching Subtitled Films Can Help Learning Foreign Languages</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Birulés-Muntané</surname>
+<given-names>J.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Soto-Faraco</surname>
+<given-names>S.</given-names>
+</name>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<contrib-group>
+</contrib-group>
+<pub-date pub-type="epub">
+<day>29</day>
+<month>6</month>
+<year>2016</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2016</year>
+</pub-date>
+<volume>11</volume>
+<issue>6</issue>
+<elocation-id>e0158409</elocation-id>
+<permissions>
+<copyright-year>2016</copyright-year>
+<copyright-holder>Birulés-Muntané, Soto-Faraco</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<abstract>
+<p>Watching English-spoken films with subtitles is becoming increasingly popular throughout the world. One reason for this trend is the assumption that perceptual learning of the sounds of a foreign language, English, will improve perception skills in non-English speakers. Yet, solid proof for this is scarce. In order to test the potential learning effects derived from watching subtitled media, a group of intermediate Spanish students of English as a foreign language watched a 1h-long episode of a TV drama in its original English version, with English, Spanish or no subtitles overlaid. Before and after the viewing, participants took a listening and vocabulary test to evaluate their speech perception and vocabulary acquisition in English, plus a final plot comprehension test. The results of the listening skills tests revealed that after watching the English subtitled version, participants improved these skills significantly more than after watching the Spanish subtitled or no-subtitles versions. The vocabulary test showed no reliable differences between subtitled conditions. Finally, as one could expect, plot comprehension was best under native, Spanish subtitles. These learning effects with just 1 hour exposure might have major implications with longer exposure times.</p>
+</abstract>
+</article-meta></front><body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>It is often claimed that watching subtitled films and series implicitly helps learning a second language. English is the world’s most widely learnt foreign language [<xref ref-type="bibr" rid="pone.0158409.ref001">1</xref>]; hence the potential of learning through watching subtitled media can have a great economic and social impact (see [<xref ref-type="bibr" rid="pone.0158409.ref002">2</xref>,<xref ref-type="bibr" rid="pone.0158409.ref003">3</xref>] for commercial applications of this principle). Nevertheless, this widespread claim in society lacks conclusive scientific evidence. In fact, the education experts and the public media have mixed opinions about the feasibility of learning languages through watching films with subtitles [<xref ref-type="bibr" rid="pone.0158409.ref004">4</xref>,<xref ref-type="bibr" rid="pone.0158409.ref005">5</xref>]. In many European countries TV shows and other media content are broadcasted in their original version with subtitles (Sweden, Belgium, Denmark or the Netherlands), and even in countries such as Germany, France or Spain where films and foreign media content are regularly dubbed, subtitled audiovisuals in English are becoming increasingly popular because access to audiovisual media in its original language with subtitles is easy. This study aims to investigate the potential benefits of watching subtitled media in major aspects of second language learning such as phonology and vocabulary.</p>
+<p>Regarding phonology, the process of learning the sound categories of a second language (L2) as an adult can be a rather challenging task. Often learners have more success learning foreign vocabulary, orthography and syntax than phonology, both in terms of production and understanding [<xref ref-type="bibr" rid="pone.0158409.ref006">6</xref>,<xref ref-type="bibr" rid="pone.0158409.ref007">7</xref>]. This is attributed to the fact that native language perceptual categories are established early in life and are difficult to retune afterwards. One of the problems with acquiring L2 phonology is phonetic variability. The same way people can recognise a familiar face from different angles and lighting conditions, a listener must be able to extract and understand lexical items despite great variability in word form, depending on the acoustic conditions or the speaker’s voice and accent [<xref ref-type="bibr" rid="pone.0158409.ref008">8</xref>]. Indeed, it has been proposed that listeners can shift their native phonetic category boundaries in a flexible way in order to adapt to phonemic variations based on context [<xref ref-type="bibr" rid="pone.0158409.ref008">8</xref>–<xref ref-type="bibr" rid="pone.0158409.ref010">10</xref>]. This re-tuning is especially important to understanding how we learn to distinguish phonemes in foreign languages and adapt to their allophonic variations. Subtitles provide just-in-time written lexical information that can help disambiguate and parse phonemic information [<xref ref-type="bibr" rid="pone.0158409.ref009">9</xref>,<xref ref-type="bibr" rid="pone.0158409.ref011">11</xref>], eventually facilitating the acquisition and/or fine tuning of difficult foreign phonemic categories. Can viewers learn by linking phonological to lexical information while watching subtitled media in a second language? And, if so, what are the most favourable subtitling conditions? Surprisingly, the effects of subtitles in improving perception of second language phonology have received little attention.</p>
+<p>Several previous studies have argued that subtitles in audiovisuals can facilitate other aspects of second language learning such as vocabulary acquisition, or overall plot comprehension. Even in these studies, there is controversy regarding the consequences of the different subtitling conditions and the relation to the listener’s proficiency. For instance, Vulchanova et al (2015) claim that both intra and interlingual subtitles (in the language of the soundtrack, or the listener’s native language, respectively) result in improved plot comprehension and vocabulary learning [<xref ref-type="bibr" rid="pone.0158409.ref012">12</xref>]. Some other studies, however, argue that intralingual subtitles are superior than interlingual ones in facilitating content comprehension, vocabulary acquisition [<xref ref-type="bibr" rid="pone.0158409.ref013">13</xref>,<xref ref-type="bibr" rid="pone.0158409.ref014">14</xref>], and second language production [<xref ref-type="bibr" rid="pone.0158409.ref015">15</xref>]. In intralingual subtitles lexical information would allow the listener to link sounds with known word spellings, thus promoting the formation and/or retuning of perceptual categories for a better decoding of speech input. Furthermore, intralingual subtitles help reveal word boundaries (segmentation) and unify accent variations [<xref ref-type="bibr" rid="pone.0158409.ref013">13</xref>]. However, most of the studies mentioned above measure vocabulary (either recall or recognition), general plot comprehension and/or spoken word recognition, but neglect actual speech perception (as in spoken word recognition during natural running speech), where perceptual learning of phonology might be best reflected. Pertinently, a study by Mitterer and McQueen (2009) [<xref ref-type="bibr" rid="pone.0158409.ref016">16</xref>] reported an experiment with Dutch participants proficient in (British) English who listened to audiovisuals in unfamiliar (Scottish or Australian) English accents and afterwards had to repeat back fragments from the dialogue[<xref ref-type="bibr" rid="pone.0158409.ref016">16</xref>]. In their study, intralingual subtitles improved participant’s performance whilst native language (Dutch) subtitles (interlingual) harmed it, compared to a no-subtitle baseline. Based on this finding, Mitterer and McQueen concluded that lexically-guided perceptual learning occurred only when reading original language (English) subtitles.</p>
+<p>Complementary to Mitterer and McQueen, who measured whether subtitles helped in accented speech perception with advanced learners, in the present study we address whether watching subtitled English-language films improves English speech perception in intermediate ESL learners. In order to eventually extrapolate these findings to practical applications for language teaching in non-proficient students, we selected an actual TV show where the more conventional (British) English accent is used, and targeted a population of non-proficient second language learners (intermediate to advanced ESL speakers) who find it challenging to understand the target language. This study capitalises on previous findings that subtitles support the disambiguation of perceptual input, found in studies using accented English [<xref ref-type="bibr" rid="pone.0158409.ref016">16</xref>,<xref ref-type="bibr" rid="pone.0158409.ref017">17</xref>], noise vocoded speech [<xref ref-type="bibr" rid="pone.0158409.ref018">18</xref>], ambiguous sounds in a native language [<xref ref-type="bibr" rid="pone.0158409.ref009">9</xref>], or for L2 beginners [<xref ref-type="bibr" rid="pone.0158409.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0158409.ref020">20</xref>]. We address whether this same process might have a further impact on an L2 learning episode, resulting in longer lasting acquisition of phonological knowledge. Also, we hypothesize that intralingual subtitles should enhance top-down, lexically-driven formation of both the speech-sound categories and their adaptation to phonological variations. We will use a listening test to reflect this potential effect.</p>
+<p>Above and beyond phonological re-tuning, another important aspect of L2 learning is vocabulary. Some previous studies have found that audiovisuals with subtitles can help acquire new vocabulary [<xref ref-type="bibr" rid="pone.0158409.ref019">19</xref>,<xref ref-type="bibr" rid="pone.0158409.ref021">21</xref>,<xref ref-type="bibr" rid="pone.0158409.ref022">22</xref>]. Written presentation seems to help single out unknown words from the spoken stream [<xref ref-type="bibr" rid="pone.0158409.ref023">23</xref>] and, according to some studies, the integration of sound, video and spelling leads stronger memory trace than visual and audio stimuli alone [<xref ref-type="bibr" rid="pone.0158409.ref024">24</xref>]. Yet, this has not been unequivocally established [<xref ref-type="bibr" rid="pone.0158409.ref025">25</xref>]. We therefore decided to test vocabulary acquisition of the written words in the subtitles.</p>
+<p>Finally, an important and practical aspect of subtitles is to facilitate the viewer’s comprehension of the film’s plot. This is in fact, the main purpose of subtitles. Therefore, we addressed overall plot comprehension. The effects of subtitles on overall plot comprehension are not trivial. From the attention literature regarding dual task, one would expect attention competition between reading the subtitles and following the film’s action to be costly in any subtitling condition [<xref ref-type="bibr" rid="pone.0158409.ref026">26</xref>,<xref ref-type="bibr" rid="pone.0158409.ref027">27</xref>]. Focusing attention on quickly presented written text whilst processing the audio and visual content of the scene could compete with the integration of meaning and hence interfere in the overall comprehension of the plot [<xref ref-type="bibr" rid="pone.0158409.ref027">27</xref>] (though see [<xref ref-type="bibr" rid="pone.0158409.ref028">28</xref>]). It is conceivable that this effect could vary between intralingual and interlingual conditions, as reading native vs. foreign languages may lead to different levels of cognitive load, albeit a recent study shows that the fixation time spent in the subtitle area of each condition did not differ” [<xref ref-type="bibr" rid="pone.0158409.ref025">25</xref>]). The plot comprehension test was also used as a way to induce an attentive state and to measure understanding of the participants.</p>
+<p>This study was organized in three phases: pre-test, exposure (film watching) and post-test. Participants engaged in all three phases sequentially, within the same session. In both pre- and post-tests, participants were evaluated on their English listening skills and on a vocabulary test. The post-test also included a plot comprehension questionnaire, in addition to the mentioned listening and vocabulary tests.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>This project is embedded in the "Lab2Life (From Lab to Life: The impact of multisensory integration phenomena in everyday life)”, which received ethical consent by the ethical committee of the Universitat Pompeu Fabra (CEIC, Parc de Salut Mar, Barcelona, Spain), abiding to the ethical standards of the Declaration of Helsinki.</p>
+<p>Sixty university students volunteered for the study. Participants gave written, informed consent after reading about the nature of the study and the future use of the data. They were Romance language speakers (Catalan, Spanish, or Italian) most of them Spanish-Catalan bilingual, between 21–28 years of age, who had studied English through the Catalan school system (thus, after high school, their level is equivalent to B2, following the Common European Framework of Reference for Languages, from the Council of Europe).</p>
+<p>Prior to the experimental session, participants took the [quoted wording omitted] from Cambridge University [<xref ref-type="bibr" rid="pone.0158409.ref029">29</xref>] (20m duration) in order to assess their English level objectively. Then they were assigned to each condition of the experiment pseudo-randomly, balancing average proficiency of English across groups. During the experimental session, all participants watched the first episode of the 2010 British series [quoted wording omitted] (1:08h long) with English subtitles (N = 20), Spanish subtitles (N = 20) or no subtitles (N = 20), depending on the assigned group condition. For the English subtitles, we decided to use non-verbatim subtitles due to the conclusion of the A. Zarei and Rashvand (2011) study [<xref ref-type="bibr" rid="pone.0158409.ref030">30</xref>], which proved that they result in better comprehension. All participants took a listening and vocabulary test before and after watching the episode, and a plot comprehension test only after the episode. The test items in the listening and vocabulary tasks were counterbalanced, so that the particular items of the pre- and post-test were different for a given participant, but on average each item appeared equally across conditions and across pre- and post-test phases. Each test is described in detail, below.</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>Finally, in the post-test phase, in addition to the listening and the vocabulary tests, participants responded to 8 comprehension questions about the story they had just watched in order to evaluate their level of attention and comprehension of the episode.</p>
+<p>The particular purpose of the study was not revealed to the participants; they were only informed that the study investigated second language acquisition. The counterbalanced design of the tests worked as a control for possible differences between test materials and groups. Half of the subjects were tested with one half of the materials as pre and the other half of the materials as post-test, whilst the rest of participants had the pre- post-test materials reversed. Pilot tests (results not included here) were performed before running the actual experiment (one on a native English speaker and two to Spanish students) in order to adjust parameters and overall duration, and also assess the reliability and sensitivity of the tasks.</p>
+<p>The British TV series <italic>Downton Abbey</italic> was first aired in 2010 and the events of the series are set in 1912. The plot focuses primarily on the inheritance of the Estate of Downton, belonging to the aristocratic Grantham family. This series was chosen because of its linguistic characteristics: Standard British (aristocratic twentieth century English), lack of slang and relatively high use of low frequency words. Participants were only included if they declared not having watched the TV series <italic>Downton Abbey</italic> before.</p>
+</sec>
+<sec id="sec003" sec-type="results">
+<title>Results</title>
+<p>ListeningVocabComprehListeningVocabCompreh<xref ref-type="table" rid="pone.0158409.t001">Table 1</xref> presents a summary of the results of the study; average scores for pre- and post-tests are shown, with their standard deviation (SD) and their respective percentage (%) over the maximum possible score in the test.</p>
+<table-wrap id="pone.0158409.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0158409.t001</object-id>
+<label>Table 1</label> <caption><title>Descriptive statistics.</title></caption>
+<alternatives>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="left"/>
+<th align="left" colspan="3">Pre-test</th>
+<th align="left" colspan="3">Post-test</th>
+<th align="left" colspan="3">Difference</th>
+</tr>
+<tr>
+<th align="left">Test</th>
+<th align="left">Group</th>
+<th align="left">Average</th>
+<th align="left">SD</th>
+<th align="left">%</th>
+<th align="left">Average</th>
+<th align="left">SD</th>
+<th align="left">%</th>
+<th align="left">Average</th>
+<th align="left">SD</th>
+<th align="left">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><bold>Listening</bold></td>
+<td align="left"><bold>None</bold></td>
+<td align="left">9.95</td>
+<td align="left">(3.65)</td>
+<td align="left">41.46</td>
+<td align="left">11.65</td>
+<td align="left">(3.50)</td>
+<td align="left">48.54</td>
+<td align="left">1.70</td>
+<td align="left">(1.87)</td>
+<td align="left">7.08</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><bold>Eng.</bold></td>
+<td align="left">10.40</td>
+<td align="left">(4.33)</td>
+<td align="left">43.33</td>
+<td align="left">14.45</td>
+<td align="left">(4.29)</td>
+<td align="left">60.21</td>
+<td align="left">4.05</td>
+<td align="left">(3.30)</td>
+<td align="left">16.88</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><bold>Spa.</bold></td>
+<td align="left">12.20</td>
+<td align="left">(4.80)</td>
+<td align="left">50.83</td>
+<td align="left">12.20</td>
+<td align="left">(5.35)</td>
+<td align="left">50.83</td>
+<td align="left">0.00</td>
+<td align="left">(1.69)</td>
+<td align="left">0.00</td>
+</tr>
+<tr>
+<td align="left"><bold>Vocabulary</bold></td>
+<td align="left"><bold>None</bold></td>
+<td align="left">9.95</td>
+<td align="left">(1.99)</td>
+<td align="left">66.33</td>
+<td align="left">11.25</td>
+<td align="left">(1.25)</td>
+<td align="left">75.00</td>
+<td align="left">1.30</td>
+<td align="left">(2.25)</td>
+<td align="left">8.67</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><bold>Eng.</bold></td>
+<td align="left">9.30</td>
+<td align="left">(2.45)</td>
+<td align="left">62.00</td>
+<td align="left">10.20</td>
+<td align="left">(2.98)</td>
+<td align="left">68.00</td>
+<td align="left">0.90</td>
+<td align="left">(2.83)</td>
+<td align="left">6.00</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><bold>Spa.</bold></td>
+<td align="left">10.30</td>
+<td align="left">(2.58)</td>
+<td align="left">68.67</td>
+<td align="left">9.55</td>
+<td align="left">(2.72)</td>
+<td align="left">63.67</td>
+<td align="left">-0.75</td>
+<td align="left">(2.17)</td>
+<td align="left">-5.00</td>
+</tr>
+<tr>
+<td align="left"><bold>Comprehension</bold></td>
+<td align="left"><bold>None</bold></td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4.75</td>
+<td align="left">(1.55)</td>
+<td align="left">59.38</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><bold>Eng.</bold></td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">6.35</td>
+<td align="left">(1.14)</td>
+<td align="left">79.38</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left"><bold>Spa.</bold></td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">7.45</td>
+<td align="left">(0.76)</td>
+<td align="left">93.13</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>We ran two separate mixed-design ANOVAs using subjects as the random factor (reported as F1), one for the listening test and one for the vocabulary test, with subtitle settings as a between-participant factor (Spanish, English or No subtitles); and pre- and post-test scores as a within-participant repeated measures variable. Additional ANOVAS using items as the random factor were also run (reported as F2). Listening improved significantly from pre- to post-test, that is, after watching the episode (F1<sub>(1.57)</sub> = 38.786, <italic>p</italic>&lt;0.01, ηp<sup>2</sup> = 0.405; F2<sub>(1.47)</sub> = 10.882, <italic>p</italic> = 0.02, ηp<sup>2</sup> = 0.188). Interestingly, there was an interaction between this exposure effect (difference between pre- and post-test) and the subtitling (F1<sub>(2,57)</sub> = 14.385, <italic>p</italic>&lt;0.01, ηp<sup>2</sup> = 0.335; F2<sub>(1.47)</sub> = 3.710, <italic>p</italic> = 0.06, ηp<sup>2</sup> = 0.073). Further paired t-tests were then run to evaluate the pre-post differences within each subtitle setting. We found that listening performance improved significantly after watching the film with English subtitles (t1<sub>(19)</sub> = 5.488, <italic>p</italic>&lt;0.01, <italic>d</italic> = 1.21; t2<sub>(47)</sub> = 5.555, <italic>p</italic>&lt;0.01, <italic>d =</italic> 0.80) and with No-subtitles condition (t1<sub>(19)</sub> = 4.073, <italic>p</italic>&lt;0.01, <italic>d</italic> = 0.91; t2<sub>(47)</sub> = 2.453, <italic>p</italic> = 0.018, <italic>d =</italic> 0.35), but not with Spanish subs (t1<sub>(19)</sub> = 0.032, <italic>p</italic> = 0.975; <italic>d</italic> = 0.00 t2<sub>(47)</sub> = 0.513, <italic>p</italic> = 0.610, <italic>d</italic> = 0.07). In order to differentiate between the resultant improvements with English and no-subtitles settings, and to subtract any possible baseline effects arising from group differences, we ran a comparison for the net effect of exposure (pre-post subtraction) between subtitling conditions (<xref ref-type="fig" rid="pone.0158409.g001">Fig 1</xref>). Post-hoc (Bonferroni-corrected student t-tests, α = 0.017) revealed that the exposure effect in the English subtitles condition was significantly higher than in the Spanish (t1<sub>(38)</sub> = 5.345, <italic>p</italic>&lt;0.01, <italic>d</italic> = 1.73; t2<sub>(47)</sub> = 5.258, <italic>p</italic>&lt;0.01, <italic>d</italic> = 0.69) and the no-subtitles conditions (t1<sub>(38)</sub> = 3.101, <italic>p</italic>&lt;0.01, <italic>d</italic> = 1.01; t2<sub>(47)</sub> = 3.484, <italic>p</italic>&lt;0.01, <italic>d</italic> = 0.48). The difference was not significant between Spanish subtitles and no subtitles, though with a marginal trend in favour of the no-subtitles condition (t1<sub>(38)</sub> = 2.244, <italic>p</italic> = 0.086, <italic>d</italic> = 0.73; t2<sub>(47)</sub> = 1.926, <italic>p</italic> = 0.06, <italic>d</italic> = 0.24). Thus, importantly, the English (intralingual) subtitles led to a clear improvement in the listening test, which was not seen with Spanish subtitles. Interestingly, a weaker but significant improvement was also seen without subtitles.</p>
+<p>[Fig 1 omitted. See the original article.]</p>
+<p>Regarding the vocabulary task, the mixed-ANOVA showed no overall pre-post improvement (F1<sub>(1,57)</sub> = 2.344, <italic>p</italic> = 0.131, <italic>ηp</italic><sup><italic>2</italic></sup> = 0.039; F2<sub>(1,29)</sub> = 1.375, <italic>p</italic> = 0.251 <italic>ηp</italic><sup><italic>2</italic></sup> = 0.045), but the interaction was significant (F1<sub>(2,57)</sub> = 4.011, <italic>p = 0</italic>.023, <italic>ηp</italic><sup><italic>2</italic></sup> <italic>= 0</italic>.123; F2<sub>(1,29)</sub> = 6.313, <italic>p =</italic> 0.018, <italic>ηp</italic><sup><italic>2</italic></sup> <italic>=</italic> 0.179). In the follow-up t-tests on the net pre-post difference scores, we found that both the English subtitles and no-subtitles condition revealed a modest pre-post improvement (6% and 8.7% respectively), though only significant in the no-subtitles condition (English: t1<sub>(19)</sub> = 1.407, <italic>p</italic> = 0.175; <italic>d</italic> = 0.32; t2<sub>(19)</sub> = 1.373, <italic>p</italic> = 0.18; <italic>d</italic> = 0.25; no subtitles t1<sub>(19)</sub> = 2.584, <italic>p</italic> = 0.018; <italic>d</italic> = 0.59; t2<sub>(29)</sub> = 2.300, <italic>p</italic> = 0.029; <italic>d</italic> = 0.44). The Spanish subtitles condition showed no pre-post difference (t1<sub>(19)</sub> = -1.564, <italic>p</italic> = 0.134; <italic>d</italic> = 0.35; t2<sub>(29)</sub> = -1.286, <italic>p</italic> = 0.205; <italic>d</italic> = 0.24). The interaction was then likely a result of weak effects in opposed directions (8.6% and 6% improvements in the no-subtitle and English subtitle condition, combined with a non-significant 5% pre-post decrement in the Spanish subtitle condition). In fact, when relative pre-post differences were compared using paired t-tests between conditions, none of the paired comparisons survived the significance criterion (Bonferroni corrected α = 0.017).</p>
+<p>Finally, a one-way ANOVA was run on the data from the plot comprehension test, showing significant differences between subtitle conditions (F1<sub>(2.57)</sub> = 25.863, <italic>p</italic>&lt;0.01, ηp<sup>2</sup> = 0.476; F2<sub>(2,23)</sub> = 6.824, <italic>p</italic>&lt;0.01, ηp<sup>2</sup> = 0.544). Bonferroni post-hoc test (α = 0.017) showed this effect displayed a graded pattern where Spanish (interlingual) subtitles led to better comprehension scores than the English subtitles condition (t<sub>(38)</sub> = 2.913, <italic>p</italic> = 0.015, <italic>d</italic> = 0.94), and the English (intralingual) subtitles led to better comprehension than the no-subtitles condition (t<sub>(38)</sub> = 4.237, <italic>p&lt;</italic>0.01, <italic>d</italic> = 1.37). Trivially, Spanish subtitles where superior to no subtitles (t<sub>(38)</sub> = 7.151, <italic>p&lt;</italic>0.01, <italic>d</italic> = 2.32). Please note that the item analysis is unreliable here, since there were only 8 items in the test and therefore, it will not be reported.</p>
+<p>Please note percentage scores might be subject to distortion in parametric tests due to low variability in the extremes of the distributions. Despite our data being generally far from these extremes, we repeated all of the above analyses using a log odds transformation of the proportion scores and confirmed the main pattern of results, described above (see <xref ref-type="supplementary-material" rid="pone.0158409.s001">S1 File</xref>).</p>
+</sec>
+<sec id="sec004" sec-type="conclusions">
+<title>Discussion</title>
+<p>The most relevant finding to emerge from this study was a significant improvement in listening scores of ESL speakers, after watching a TV episode in English, with English subtitles (17% increase vs. 7% for no-subtitles and 0% for Spanish subtitles condition). This finding supports the hypothesis that subtitles in the original language can be used to retune the link of speech-sounds with perceptive categories, so that intermediate to advanced English learners can adapt to English sounds in a more efficient fashion.</p>
+<p>In addition, we observed that simply watching the episode with the original English soundtrack without any subtitles already produced a modest, but statistically significant improvement in the listening test. This more subtle effect may have been a consequence of the ability of our intermediate ESL participants to capitalise on sufficient information in the no-subtitle condition, together with the fact that the listening task was relatively challenging, leaving good room for improvement (results for the listening task varied from 30% to 50%). Ultimately, the Spanish subtitles resulted in the lowest post-test listening scores, and no pre-post differences. This pattern of results is in partial agreement with the results reported by Mitterer and McQueen’s (2009), because we replicated the advantage conferred by intralingual subtitles, yet instead of a performance detriment in the interlingual subtitles condition we found that Spanish subtitles simply blocked improvement (i.e., the potential learning undergoing by simply watching the show without subtitles disappeared). Possibly, the difference in language proficiency of the participants (more proficient in Mitterer and McQueen’s) could explain the different results. However, Mitterer and McQueen’s effect was small (N = 40, <italic>p</italic> = 0.05, <italic>d</italic> = 0.35), hence it is possible that it would show under the present conditions if we had a higher number of participants per group.</p>
+<p>Regarding vocabulary acquisition, our results showed modest pre-post improvements following the English (6%) and no subtitle viewing conditions (8.7%), though only significant in the no-subtitles condition. Yet, none of these pre-post differences were different from each other in the paired comparison post-hoc test. Altogether, these results do not show conclusive evidence for a clear acquisition of new vocabulary after watching the episode, and no modulation due to the subtitles’ condition. This goes against our initial hypothesis and some previous findings showing vocabulary acquisition with intralingual subtitles ([<xref ref-type="bibr" rid="pone.0158409.ref021">21</xref>,<xref ref-type="bibr" rid="pone.0158409.ref022">22</xref>], although see [<xref ref-type="bibr" rid="pone.0158409.ref025">25</xref>] for a similar failure to acquire new vocabulary watching foreign language films). Perhaps this lack of effect was due to the difficulty of the material, mainly composed of low frequency words, many from the twentieth century aristocracy, with a mean of 5 repetitions in the episode. We will treat this particular result carefully in our final conclusions.</p>
+<p>On the subject of plot comprehension, viewers of the Spanish subtitles condition performed significantly higher than those in the English condition who, in turn, outperformed participants who watched the TV show without subtitles, as expected. It is clear that the opportunity to read Spanish subtitles obviously benefited overall comprehension due to the language proficiency advantage. Furthermore, in accordance with previous literature [<xref ref-type="bibr" rid="pone.0158409.ref024">24</xref>,<xref ref-type="bibr" rid="pone.0158409.ref031">31</xref>] our results show that reading subtitles whilst processing visual and auditory input does not seem to compete with the actual integration of meaning, hence it did not affect plot comprehension.</p>
+<p>Nowadays, we often have the chance to watch audiovisual media in the original language, with the option of overlaying subtitles. The current study confirms that lexically-driven perceptual learning occurs while viewing subtitled English audiovisuals, in a naturalistic setting of subtitled TV series. Hence, under these conditions, quick adaptation to a second language (here, Standard British English) is possible for intermediate to advanced English students with English subtitles, leading to an improvement in their listening skills. A practical implication to real life can be tentatively extrapolated from these findings: Once a learner has reached the intermediate to advanced level of a language, the best condition for improving speech perception whilst watching series or films, is listening to the original soundtrack with subtitles in the original language. Despite this is a rather popularised claim, empirical evidence was lacking. Unlike with listening skills, the present data did not conclude that there was beneficial acquisition of new vocabulary in any of the conditions. If anything, there were weak trends toward vocabulary improvement after watching the TV series without subtitles or English subtitles, but not with Spanish subtitles.</p>
+<p>Another important conclusion of our study for practical applications is that the putatively beneficial effects of intralingual subtitles come at a cost in plot comprehension, compared to subtitles in the viewer’s own language (interlingual). However, it is remarkably positive that English subtitles did not add sufficient cognitive load as to disrupt overall plot comprehension due to dual task costs, as plot comprehension with English subtitles still outperformed plot comprehension without subtitles. Although this is a small effect that will need further investigation, please note that it was obtained in naturalistic film watching conditions, equivalent to how one would watch a TV show at home. From these results, viewers need to evaluate the trade-off between the level of plot understanding and the beneficial effects for their L2 learning, as our results show comprehension costs for the no subtitles and English subtitled conditions in comparison with Spanish subtitled or, as an extension, dubbed material.</p>
+</sec>
+<sec id="sec005">
+<title>Supporting Information</title>
+<p>[Direct interview material or linked supplementary files omitted.]</p></sec>
+</body>
+<back>
+<ack>
+<p>We thank Begoña Díaz for discussion of a previous version of this manuscript, Daria Kvasova for assistance with running the experiments and Folarin Akinyemi for improving the use of English in the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0158409.ref001"><label>1</label><mixed-citation publication-type="other" xlink:type="simple">Graddol D. English Next [Internet]. 2006 [cited 15 May 2015]. Available: <ext-link ext-link-type="uri" xlink:href="http://vigdis.hi.is/sites/vigdis.hi.is/files/images/einangrun_enskumaelandi_folks.pdf" xlink:type="simple">http://vigdis.hi.is/sites/vigdis.hi.is/files/images/einangrun_enskumaelandi_folks.pdf</ext-link>. Accessed 15 May 2015.</mixed-citation></ref>
+<ref id="pone.0158409.ref002"><label>2</label><mixed-citation publication-type="other" xlink:type="simple">Smart subs [Internet]. [cited 18 Feb 2016]. Available: <ext-link ext-link-type="uri" xlink:href="http://www.smartsubs.fr/" xlink:type="simple">http://www.smartsubs.fr/</ext-link>. Accessed 18 February 2016.</mixed-citation></ref>
+<ref id="pone.0158409.ref003"><label>3</label><mixed-citation publication-type="other" xlink:type="simple">Speech yard [Internet]. [cited 20 May 2016]. Available: <ext-link ext-link-type="uri" xlink:href="http://speechyard.com/us/" xlink:type="simple">http://speechyard.com/us/</ext-link>. Accessed 20 May 2016.</mixed-citation></ref>
+<ref id="pone.0158409.ref004"><label>4</label><mixed-citation publication-type="other" xlink:type="simple">Can you learn a language from watching foreign films? [Internet]. [cited 13 May 2015]. Available: <ext-link ext-link-type="uri" xlink:href="http://www.telegraph.co.uk/films/2016/04/19/can-you-learn-a-language-from-watching-foreign-films/" xlink:type="simple">http://www.telegraph.co.uk/films/2016/04/19/can-you-learn-a-language-from-watching-foreign-films/</ext-link>. Accessed 13 May 2015.</mixed-citation></ref>
+<ref id="pone.0158409.ref005"><label>5</label><mixed-citation publication-type="other" xlink:type="simple">Subtitles vs. Dubbing | LearnEnglishTeens [Internet]. [cited 13 May 2015]. Available: <ext-link ext-link-type="uri" xlink:href="https://learnenglishteens.britishcouncil.org/magazine/entertainment/subtitles-vs-dubbing" xlink:type="simple">https://learnenglishteens.britishcouncil.org/magazine/entertainment/subtitles-vs-dubbing</ext-link>. Accessed 13 May 2015.</mixed-citation></ref>
+<ref id="pone.0158409.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sebastián-Gallés</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Díaz</surname> <given-names>B</given-names></name>. <article-title>First and Second Language Speech Perception: Graded Learning</article-title>. <source>Lang Learn</source>. <year>2012</year>;<volume>62</volume>: <fpage>131</fpage>–<lpage>147</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1467-9922.2012.00709.x" xlink:type="simple">10.1111/j.1467-9922.2012.00709.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pallier</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Bosch</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Sebastián-Gallés</surname> <given-names>N</given-names></name>. <article-title>A limit on behavioral plasticity in speech perception</article-title>. <source>Cognition</source>. <year>1997</year>;<volume>64</volume>: <fpage>B9</fpage>–<lpage>B17</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0010-0277(97)00030-9" xlink:type="simple">10.1016/S0010-0277(97)00030-9</ext-link></comment> <object-id pub-id-type="pmid">9426508</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kraljic</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Samuel</surname> <given-names>AG</given-names></name>, <name name-style="western"><surname>Brennan</surname> <given-names>SE</given-names></name>. <article-title>First impressions and last resorts: how listeners adjust to speaker variability</article-title>. <source>Psychol Sci a J Am Psychol Soc / APS</source>. <year>2008</year>;<volume>19</volume>: <fpage>332</fpage>–<lpage>338</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1467-9280.2008.02090.x" xlink:type="simple">10.1111/j.1467-9280.2008.02090.x</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Norris</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>McQueen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Cutler</surname> <given-names>A</given-names></name>. <article-title>Perceptual learning in speech</article-title>. <source>Cogn Psychol</source>. <year>2003</year>;<volume>47</volume>: <fpage>204</fpage>–<lpage>238</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0010-0285(03)00006-9" xlink:type="simple">10.1016/S0010-0285(03)00006-9</ext-link></comment> <object-id pub-id-type="pmid">12948518</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brunellière</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Soto-Faraco</surname> <given-names>S</given-names></name>. <article-title>The speakers’ accent shapes the listeners' phonological predictions during speech perception</article-title>. <source>Brain Lang</source>. <year>2013</year>;<volume>125</volume>: <fpage>82</fpage>–<lpage>93</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.bandl.2013.01.007" xlink:type="simple">10.1016/j.bandl.2013.01.007</ext-link></comment> <object-id pub-id-type="pmid">23454076</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Keetels</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Schakel</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Bonte</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Vroomen</surname> <given-names>J</given-names></name>. <article-title>Phonetic recalibration of speech by text</article-title>. <source>Attention, Perception, Psychophys</source>. <year>2015</year>; <fpage>938</fpage>–<lpage>945</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3758/s13414-015-1034-y" xlink:type="simple">10.3758/s13414-015-1034-y</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vulchanova</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Aurstad</surname> <given-names>LMG</given-names></name>, <name name-style="western"><surname>Kvitnes</surname> <given-names>IEN</given-names></name>, <name name-style="western"><surname>Eshuis</surname> <given-names>H</given-names></name>. <article-title>As naturalistic as it gets: subtitles in the English classroom in Norway</article-title>. <source>Front Psychol</source>. <year>2015</year>;<volume>5</volume>: <fpage>1</fpage>–<lpage>10</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3389/fpsyg.2014.01510" xlink:type="simple">10.3389/fpsyg.2014.01510</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bird</surname> <given-names>S a.</given-names></name>, <name name-style="western"><surname>Williams</surname> <given-names>JN</given-names></name>. <article-title>The effect of bimodal input on implicit and explicit memory: An investigation into the benefits of within-language subtitling</article-title>. <source>Appl Psycholinguist</source>. <year>2002</year>;<volume>23</volume>: <fpage>509</fpage>–<lpage>533</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1017/S0142716402004022" xlink:type="simple">10.1017/S0142716402004022</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bianchi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Ciabattoni</surname> <given-names>T</given-names></name>. <article-title>Captions and Subtitles in EFL Learning: an investigative study in a comprehensive computer environment</article-title>. <source>From didactas to ecolingua</source>. <year>2008</year>; <fpage>69</fpage>–<lpage>90</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Borras</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Lafayette</surname> <given-names>RC</given-names></name>. <article-title>Effects of Multimedia Courseware Subtitling on the Speaking Performance of College Students of French</article-title>. <source>Mod Lang J</source>. <year>1994</year>;<volume>78</volume>: <fpage>61</fpage>–<lpage>75</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mitterer</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>McQueen</surname> <given-names>J</given-names></name>. <article-title>Foreign subtitles help but native-language subtitles harm foreign speech perception</article-title>. <source>PLoS One</source>. <year>2009</year>;<volume>4</volume>: <fpage>e7785</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0007785" xlink:type="simple">10.1371/journal.pone.0007785</ext-link></comment> <object-id pub-id-type="pmid">19918371</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clarke</surname> <given-names>CM</given-names></name>, <name name-style="western"><surname>Garrett</surname> <given-names>MF</given-names></name>. <article-title>Rapid adaptation to foreign-accented English</article-title>. <source>J Acoust Soc Am</source>. <year>2004</year>;<volume>116</volume>: <fpage>3647</fpage>–<lpage>3658</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1121/1.1815131" xlink:type="simple">10.1121/1.1815131</ext-link></comment> <object-id pub-id-type="pmid">15658715</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davis</surname> <given-names>MH</given-names></name>, <name name-style="western"><surname>Johnsrude</surname> <given-names>IS</given-names></name>, <name name-style="western"><surname>Hervais-Adelman</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Taylor</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>McGettigan</surname> <given-names>C</given-names></name>. <article-title>Lexical information drives perceptual learning of distorted speech: evidence from the comprehension of noise-vocoded sentences</article-title>. <source>J Exp Psychol Gen</source>. <year>2005</year>;<volume>134</volume>: <fpage>222</fpage>–<lpage>241</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1037/0096-3445.134.2.222" xlink:type="simple">10.1037/0096-3445.134.2.222</ext-link></comment> <object-id pub-id-type="pmid">15869347</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref019"><label>19</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Winke</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Gass</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Sydorenko</surname> <given-names>T</given-names></name>. <article-title>The effects of captioning videos used for foreign language listening activities</article-title>. <source>Lang Learn Technol</source>. <year>2010</year>;<volume>14</volume>: <fpage>65</fpage>–<lpage>86</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Paulesu</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>McCrory</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Fazio</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Menoncello</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Brunswick</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Cappa</surname> <given-names>SF</given-names></name>, <etal>et al</etal>. <article-title>A cultural effect on brain function</article-title>. <source>Nat Neurosci</source>. <year>2000</year>;<volume>3</volume>: <fpage>91</fpage>–<lpage>6</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/71163" xlink:type="simple">10.1038/71163</ext-link></comment> <object-id pub-id-type="pmid">10607401</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sydorenko</surname> <given-names>T</given-names></name>. <article-title>Modality of input and vocabulary acquisition</article-title>. <source>Lang Learn Technol</source>. <year>2010</year>;<volume>14</volume>: <fpage>50</fpage>–<lpage>73</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zarei</surname> <given-names>A</given-names></name>. <article-title>The effect of bimodal, standard, and reversed subtitling on L2 vocabulary recognition and recall</article-title>. <source>Pazhuhesh-e Zabanha-ye Khareji</source>. <year>2009</year>; <fpage>65</fpage>–<lpage>84</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davis</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Johnsrude</surname> <given-names>I</given-names></name>. <article-title>Hearing speech sounds: top-down influences on the interface between audition and speech perception</article-title>. <source>Hear Res</source>. <year>2007</year>;<volume>229</volume>: <fpage>132</fpage>–<lpage>147</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.heares.2007.01.014" xlink:type="simple">10.1016/j.heares.2007.01.014</ext-link></comment> <object-id pub-id-type="pmid">17317056</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Missier</surname> <given-names>F Del</given-names></name>, <name name-style="western"><surname>Porta</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mosconi</surname> <given-names>M</given-names></name>. <article-title>The cognitive effectiveness of subtitle processing</article-title>. <source>Media Psychol</source>. <year>2010</year>;<volume>13</volume>: <fpage>243</fpage>–<lpage>272</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/15213269.2010.502873" xlink:type="simple">10.1080/15213269.2010.502873</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bisson</surname> <given-names>M-J</given-names></name>, <name name-style="western"><surname>Van Heuven</surname> <given-names>WJB</given-names></name>, <name name-style="western"><surname>Conklin</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Tunney</surname> <given-names>RJ</given-names></name>. <article-title>Processing of native and foreign language subtitles in films: An eye tracking study</article-title>. <source>Appl Psycholinguist</source>. <year>2012</year>; <fpage>1</fpage>–<lpage>20</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alsius</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Navarra</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Campbell</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Soto-Faraco</surname> <given-names>S</given-names></name>. <article-title>Audiovisual integration of speech falters under high attention demands</article-title>. <source>Curr Biol</source>. <year>2005</year>;<volume>15</volume>: <fpage>839</fpage>–<lpage>843</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cub.2005.03.046" xlink:type="simple">10.1016/j.cub.2005.03.046</ext-link></comment> <object-id pub-id-type="pmid">15886102</object-id></mixed-citation></ref>
+<ref id="pone.0158409.ref027"><label>27</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brünken</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Plass</surname> <given-names>JL</given-names></name>, <name name-style="western"><surname>Leutner</surname> <given-names>D</given-names></name>. <article-title>Assessment of Cognitive Load in Multimedia Learning with Dual-Task Methodology: Auditory Load and Modality Effects</article-title>. <source>Instr Sci</source>. <year>2004</year>;<volume>32</volume>: <fpage>115</fpage>–<lpage>132</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1023/B:TRUC.0000021812.96911.c5" xlink:type="simple">10.1023/B:TRUC.0000021812.96911.c5</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kruger</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Matthew</surname> <given-names>G</given-names></name>. <article-title>Attention distribution and cognitive load in a subtitled academic lecture: L1 vs. L2</article-title>. <year>2014</year>;<volume>7</volume>: <fpage>1</fpage>–<lpage>15</lpage>.</mixed-citation></ref>
+<ref id="pone.0158409.ref029"><label>29</label><mixed-citation publication-type="other" xlink:type="simple">Cambridge. face2face Placement Test. 2008; 1–6. Available: <ext-link ext-link-type="uri" xlink:href="http://upbo.com/elt/face2face/resources/placement.asp" xlink:type="simple">http://upbo.com/elt/face2face/resources/placement.asp</ext-link>.</mixed-citation></ref>
+<ref id="pone.0158409.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zarei</surname> <given-names>AA</given-names></name>, <name name-style="western"><surname>Rashvand</surname> <given-names>Z</given-names></name>. <article-title>The Effect of Interlingual and Intralingual, Verbatim and Nonverbatim Subtitles on L2 Vocabulary Comprehension and Production</article-title>. <source>J Lang Teach Res</source>. <year>2011</year>;<volume>2</volume>: <fpage>618</fpage>–<lpage>625</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.4304/jltr.2.3.618–625" xlink:type="simple">10.4304/jltr.2.3.618–625</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0158409.ref031"><label>31</label><mixed-citation publication-type="other" xlink:type="simple">Kruger J-L, Hefer E, Matthew G. Measuring the impact of subtitles on cognitive load. Proceedings of the 2013 Conference on Eye Tracking South Africa—ETSA ‘13. New York, New York, USA: ACM Press; 2013. pp. 62–66. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1145/2509315.2509331" xlink:type="simple">10.1145/2509315.2509331</ext-link></comment></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Adapted text-only article extraction from the official PLOS publisher XML. Retains the abstract, selected author narrative, aggregate result tables and references. Removes figures, examples or quotes as marked, contacts, graphics, linked data/supplements and all stimulus assets. Does not archive the original XML or illustrated article. --><front><article-meta><article-id pub-id-type="doi">10.1371/journal.pone.0127577</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-14-36835</article-id>
+<title-group>
+<article-title>A Comparison of Comprehension Processes in Sign Language Interpreter Videos with or without Captions</article-title>
+<alt-title alt-title-type="running-head">Comprehension with Captions</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Debevc</surname>
+<given-names>Matjaž</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+<xref rid="cor001" ref-type="corresp">*</xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Milošević</surname>
+<given-names>Danijela</given-names>
+</name>
+<xref rid="aff002" ref-type="aff"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Kožuh</surname>
+<given-names>Ines</given-names>
+</name>
+<xref rid="aff001" ref-type="aff"><sup>1</sup></xref>
+</contrib>
+</contrib-group>
+<contrib-group>
+</contrib-group>
+<pub-date pub-type="epub">
+<day>26</day>
+<month>5</month>
+<year>2015</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2015</year>
+</pub-date>
+<volume>10</volume>
+<issue>5</issue>
+<elocation-id>e0127577</elocation-id>
+<permissions>
+<copyright-year>2015</copyright-year>
+<copyright-holder>Debevc et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited</license-p>
+</license>
+</permissions>
+<abstract>
+<p>One important theme in captioning is whether the implementation of captions in individual sign language interpreter videos can positively affect viewers’ comprehension when compared with sign language interpreter videos without captions. In our study, an experiment was conducted using four video clips with information about everyday events. Fifty-one deaf and hard of hearing sign language users alternately watched the sign language interpreter videos with, and without, captions. Afterwards, they answered ten questions. The results showed that the presence of captions positively affected their rates of comprehension, which increased by 24% among deaf viewers and 42% among hard of hearing viewers. The most obvious differences in comprehension between watching sign language interpreter videos with and without captions were found for the subjects of hiking and culture, where comprehension was higher when captions were used. The results led to suggestions for the consistent use of captions in sign language interpreter videos in various media.</p>
+</abstract>
+</article-meta></front><body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>With the rapid development of high-speed data transmission and video compression techniques the use of sign language interpreter videos has evolved. The deaf and hard of hearing have started using it to a greater extent when obtaining information from television programmes, films and web sites. Thus, sign language interpreter videos are for the deaf and hard-of-hearing who use sign language an important tool for interpreting spoken and/or written words [<xref rid="pone.0127577.ref001" ref-type="bibr">1</xref>–<xref rid="pone.0127577.ref004" ref-type="bibr">4</xref>].</p>
+<p>Sign language refers to a visual–gestural language that differs from spoken/written language. It has its own morphological, syntactic, and grammatical rules and is considered to be less strict in word order than some spoken/written languages [<xref rid="pone.0127577.ref005" ref-type="bibr">5</xref>–<xref rid="pone.0127577.ref006" ref-type="bibr">6</xref>]. The ability to use sign language extensively depends on the users’ experiences and their exposure to sign language [<xref rid="pone.0127577.ref001" ref-type="bibr">1</xref>,<xref rid="pone.0127577.ref007" ref-type="bibr">7</xref>]. It is usually considered to be the primary language of many deaf people and those who lost their hearing before developing spoken language consider written/spoken language to be a second language. What is more, increased sign language ability also supports written sentence comprehension at the levels of individual words and syntax [<xref rid="pone.0127577.ref008" ref-type="bibr">8</xref>].</p>
+<p>Subsequently, when these persons are exposed to written words, they often experience a degree of frustration as they encounter difficulties with the comprehension of more advanced texts. Therefore, the inclusion of captions into a sign language interpreter video could be a solution. <xref rid="pone.0127577.g001" ref-type="fig">Fig 1</xref> shows examples of two different types of sign language interpreter videos that are commonly used worldwide. The video on the left provides information in sign language only, whereas the video on the right provides information both in sign language and captions. The most obvious difference between the videos is that when viewing the video on the left, viewers obtain information in sign language only, whereas when viewing the video on the right they can concurrently obtain information from two sources: signing and captions. The individual mentioned in this manuscript has given written informed consent (as outlined in PLOS consent form) to publish.</p>
+<p>[Fig 1 omitted. See the original article.]</p>
+<p>In existing research, there have been many attempts to address the benefits of captioning for deaf and hard of hearing sign language users. First of all, several studies have examined the effects of using captions in non-signing content on deaf and hard of hearing viewers’ comprehension. In particular, it was substantiated that accessing information in television programmes and films without captions is difficult for deaf and/or hard of hearing viewers [<xref rid="pone.0127577.ref009" ref-type="bibr">9</xref>–<xref rid="pone.0127577.ref014" ref-type="bibr">14</xref>], whereas the inclusion of captions either improves deaf and/or hard of hearing viewers’ comprehension [<xref rid="pone.0127577.ref011" ref-type="bibr">11</xref>, <xref rid="pone.0127577.ref015" ref-type="bibr">15</xref>] or not [<xref rid="pone.0127577.ref012" ref-type="bibr">12</xref>, <xref rid="pone.0127577.ref016" ref-type="bibr">16</xref>]. Additionally, previous studies also examined the use of different styles of captions [<xref rid="pone.0127577.ref017" ref-type="bibr">17</xref>] and caption speed [<xref rid="pone.0127577.ref018" ref-type="bibr">18</xref>, <xref rid="pone.0127577.ref019" ref-type="bibr">19</xref>] in television programmes. They found no significant differences in deaf and hard of hearing viewers’ comprehension scores when using verbatim, standard, and edited captions [<xref rid="pone.0127577.ref017" ref-type="bibr">17</xref>]. However, it was found that more proficient deaf and hard of hearing readers comprehend captions better than less proficient readers, whereas the speed of captions also influences viewers’ comprehension [<xref rid="pone.0127577.ref017" ref-type="bibr">17</xref>, <xref rid="pone.0127577.ref018" ref-type="bibr">18</xref>]. For instance, De Linde &amp; Kay [<xref rid="pone.0127577.ref019" ref-type="bibr">19</xref>] confirmed that as many as 84% of deaf school children were not able to read at the rate of speech on television. A few studies have even gone one step further and recorded the eye movements of viewers watching captioned videos, as well as analysed the reading process for captions [<xref rid="pone.0127577.ref020" ref-type="bibr">20</xref>–<xref rid="pone.0127577.ref022" ref-type="bibr">22</xref>].</p>
+<p>Secondly, only a few studies have investigated the effect of using captions in signing content. It was found that the presence of captions in video clips together with a sign language interpreter has a positive effect on deaf learners’ understanding of the content of educational material [<xref rid="pone.0127577.ref023" ref-type="bibr">23</xref>,<xref rid="pone.0127577.ref024" ref-type="bibr">24</xref>]. In line with that, the Federal Communications Commission (FCC) will require captioning on video clips from TV starting in 2016, and that is reported as the great progress of National Association for the Deaf [<xref rid="pone.0127577.ref025" ref-type="bibr">25</xref>]. The European Federation of Hard of Hearing People (EFHOH) has a vision of full inclusion for people with hearing loss with regard to access to media. Their report, entitled [quoted wording omitted] calls on EU Member States to respect the rights of deaf and hard of hearing citizens to have full access to media via subtitling by 2020 [<xref rid="pone.0127577.ref026" ref-type="bibr">26</xref>]. It derives from the EU Disability Strategy [<xref rid="pone.0127577.ref027" ref-type="bibr">27</xref>,<xref rid="pone.0127577.ref028" ref-type="bibr">28</xref>] and the UN Convention on the Rights of Persons with Disabilities [<xref rid="pone.0127577.ref029" ref-type="bibr">29</xref>]. Accordingly, it is advantageous that previous studies have extensively examined the effect of using captions on deaf and hard of hearing viewers’ comprehension in television programmes and films from different perspectives. However, there is a lack of research on the effects of using captions in sign language interpreter videos, where the themes of content displayed in these videos are also considered.</p>
+<p>In this regard, the main aim of the current study was to find out what the increment in comprehension of the content of sign language interpreter videos was, when captions were included. To be more specific, we compared the comprehension scores of sign language interpreter videos with or without captions. Additionally, we aimed to investigate the differences in comprehension scores between different topics (sport, hiking, shopping, and culture) presented in sign language interpreter videos with, or without, captions. While the study did not determine the accuracy of the sign language interpreters, it has been approved by the Ethics Commission at ETH Zürich, Switzerland. Abovementioned aims of the study were achieved, since the paper presents positive effects of captions on deaf and hard of hearing viewers’ comprehension of sign language interpreter videos.</p>
+<p>The paper is organized as follows. We start by providing background for the paper, where the need for a sign language interpretation video and captioning are presented. Then we describe the experiment, where experimental design, the pre-experiment, and main experiment are presented. A discussion and conclusion follow, where the findings are described and recommendations for future work are outlined.</p>
+</sec>
+<sec id="sec002">
+<title>Background and Literature Review</title>
+<sec id="sec003">
+<title>The need for sign language video interpretation</title>
+<p>Deaf persons who were born deaf and have never heard a sound may have great difficulties in learning to speak or read auditory–vocal languages. The fact that the average deaf high school graduate is only able to read at a lower level [<xref rid="pone.0127577.ref030" ref-type="bibr">30</xref>] demonstrates the difficulty a deaf person can experience in this area.</p>
+<p>Difficulties with reading are also evident in website usage. Websites mainly provide content in written form, which is almost illegible for deaf users. A study conducted by Fajardo, Cañas, Salmerón, and Abascal [<xref rid="pone.0127577.ref031" ref-type="bibr">31</xref>] discussed some of the problems regarding web accessibility for deaf persons. Only a few websites provide information in sign language, mostly through embedded video files showing sign language speakers translating a written text into sign language. From these studies we can conclude that for deaf and hard of hearing people, it is necessary to use sign language interpretation both for communication between them and hearing people, as well as to capture written text from different media, including websites.</p>
+</sec>
+<sec id="sec004">
+<title>Captions for deaf and hard of hearing individuals</title>
+<p>In existing research, there have been several attempts to find the positive implications of caption use. A wide range of research studies reported positive usage of captions supporting deaf persons in the learning of scientific literature and enhancing their reading vocabulary and comprehension skills [<xref rid="pone.0127577.ref032" ref-type="bibr">32</xref>–<xref rid="pone.0127577.ref033" ref-type="bibr">33</xref>]. In addition, Jelinek Lewis and Jackson [<xref rid="pone.0127577.ref011" ref-type="bibr">11</xref>] found in their study an improvement in the perception of information for deaf persons, especially for deaf students with a higher level of reading ability, who achieved better results by perceiving captions. It has also been shown that deaf students learn more when they have learning materials presented in more than one modality [<xref rid="pone.0127577.ref034" ref-type="bibr">34</xref>], such as using graphics or video with closed captioning [<xref rid="pone.0127577.ref035" ref-type="bibr">35</xref>–<xref rid="pone.0127577.ref037" ref-type="bibr">37</xref>]. Accordingly, these studies revealed that simultaneous processing (audio, video, and captions) enhances learning.</p>
+<p>Moreover, Yoon and Kim [<xref rid="pone.0127577.ref023" ref-type="bibr">23</xref>] examined the positive effects of caption usage on deaf students’ content comprehension, cognitive load, and motivation in online learning. It was found that deaf students experienced a significant advantage in comprehension when they simultaneously used sign language video and captions. They propose that captions should be provided along with sign language video clips and the quality of captions should be taken into consideration in terms of the literacy levels of the learners. If the text is too difficult to understand, students’ motivation will fall. The main difference between our study and their study is that they developed a system where captions are displayed separately from the sign language interpreter video, while we study the use of captions inside the sign language interpreter video.</p>
+<p>Furthermore, Szarkowska et al. [<xref rid="pone.0127577.ref017" ref-type="bibr">17</xref>] found in their eye tracking study that viewer comprehension of a video clip with the standard vs. edited simplified captions was high, at approximately 70%. They found that standard captions do not cause cognitive dissonance both for the deaf (who often use lip reading) as well as for the hard of hearing, who often compare audio based dialogue and captions. On the contrary, when using edited slower captions, participants achieve lower comprehension, as their processing may be hampered by discrepancies between the dialogue and the caption text.</p>
+<p>However, Gulliver and Ghinea [<xref rid="pone.0127577.ref009" ref-type="bibr">9</xref>] similarly investigated the impact of captions on deaf and hearing people’s ability to assimilate information when watching multimedia video clips, but found no significant effect. Thus, they concluded, [quoted wording omitted] (p. 384).</p>
+<p>Margaret and Dorothy [<xref rid="pone.0127577.ref038" ref-type="bibr">38</xref>] additionally found that the success of caption usage strongly correlates with the level of reading knowledge and that the ability to read is the most important prerequisite for using captions in learning. Students who are better at reading written material can also read captions more easily.</p>
+<p>In addition to the aforementioned research studies, accessibility standards and guidelines have addressed the implications of caption use. For instance, the Web Content Accessibility Guidelines (WCAG) [<xref rid="pone.0127577.ref039" ref-type="bibr">39</xref>,<xref rid="pone.0127577.ref007" ref-type="bibr">7</xref>] published by the Web Accessibility Initiative (WAI) provide advice on accessibility for multimedia material, such as animation and video, which is very general and does not define whether captions should be included in a sign language interpreter video or not. The WCAG states that when it comes to the visual components of multimedia, deaf or hard of hearing persons need captions or sign language interpretation, but it does not mention where and how.</p>
+<p>Similarly, more detailed requirements for signing and captioning are provided by the European Broadcasting Union (EBU) [<xref rid="pone.0127577.ref040" ref-type="bibr">40</xref>] on Access Services, which precisely defines recommendations for people with disabilities in the broadcasting industry. The report includes a thorough list of recommendations for improving the readability of captioning, and two possible approaches for deaf signing: the use of signed videos and synthetic virtual signing.</p>
+<p>Therefore, it is still not clear in any guidelines or in any research study whether or how captions have to be included in the sign language interpreter video, which is the main aim of our study, as presented in the current paper. In light of the above-mentioned problems, we conducted an experiment aimed at substantiating the use of captions in sign language interpreter videos.</p>
+</sec>
+<sec id="sec005">
+<title>Importance of Using Captions for Sign Language Users—the Experiment</title>
+<p>To outline the benefit of using captions in sign language interpreter videos, we evaluated sign language users’ comprehension of the content presented in these videos. The main objective was to examine how using captions in a sign language interpreter video affected the viewers’ comprehension of the content.</p>
+<p>Methodology for this evaluation scenario was to perform the following three steps evaluation: (1) experimental design, (2) pre-experiment, and (3) main experiment. Before the study began, the experiment was approved by the Ethics Commission at ETH Zürich, Switzerland, and all participants were asked to sign a written consent form to participate in the study. At the Ljubljana School for the Deaf, Ljubljana, Slovenia, we received written confirmation from the head of the school and, in the case of minors at the same school, written consent from their guardians and/or teachers. In Slovenia, the written consent of the director is considered valid for the entire institution. The following presents each evaluation step in turn.</p>
+</sec>
+<sec id="sec006">
+<title>Experimental design: conceptualization of the pre-experiment and main experiment</title>
+<p>Within this step, research questions, the design of the task, participants, and procedure of the main experiment were conceptualized.</p>
+<sec id="sec007">
+<title>Research questions and raised hypothesis</title>
+<p>We identified the following research questions to be examined:</p>
+<p><bold>RQ1:</bold> What is the effect of using captions in a sign language interpreter video in terms of the level of comprehension of deaf and hard of hearing persons?</p>
+<p>It was anticipated that the use of captions would significantly increase the level of comprehension of persons with both types of hearing loss compared to the non-use of captions.</p>
+<p><bold>RQ2:</bold> Are there statistically significant differences in the comprehension scores in all four themes (hiking, sports, culture, and shopping) between the group who was watching a sign language interpreter video with captions and the group who was watching sign language interpreter videos without captions?</p>
+<p>The group who watched sign language interpreter videos with captions was expected to report higher comprehension scores than the group who watched the videos without captions in all four themes.</p>
+</sec>
+<sec id="sec008">
+<title>The task design</title>
+<p>The task was designed in a way that participants watched four sign language interpreter videos, once with captions and the second time without captions. Each video contained 10 chunks of inter-independent information within 3–7 sentences and 40–58 words. The information was summarized in indicative sentences and content related to everyday life. Based on the chunks of information, a 10-item open-ended questionnaire was developed.</p>
+<p>The person who interpreted in sign language was officially certified on a national level and was actively involved in the activities of the Slovenian Institute for the association of interpreters for sign language. This person also actively participated in the selection of topics for sign language interpreter videos, content preparation and questionnaires for the experiment.</p>
+<p>In order to provide quality videos, we recorded a sign language interpreter in the studio with [quoted wording omitted]. The interpreter was captured using a chroma key background from the waist up and lit by using three separate positions, so that the cameraman was able to illuminate the interpreter in any way, while also controlling (or eliminating entirely) the shading and shadows produced by direct lighting. The video was captured in high definition resolution of 1280x720 at 50 fps. In this way, a more detailed capture of finger movements was possible, which is crucial for deaf people when watching a sign language interpreter [<xref rid="pone.0127577.ref041" ref-type="bibr">41</xref>]. In post-production, a white background was selected. Accordingly, the caption font was white but outlined in black.</p>
+<p>For the purposes of including captions in a sign language interpreter video, we used the Sign Language Interpreter Module (SLI Module), a web-based solution for representing accessible information for deaf and hard of hearing persons (<xref rid="pone.0127577.g002" ref-type="fig">Fig 2</xref>) [<xref rid="pone.0127577.ref042" ref-type="bibr">42</xref>–<xref rid="pone.0127577.ref043" ref-type="bibr">43</xref>]. In this way, we followed the concept of including several multimedia elements, such as the video of the sign language interpreter, audio, and captions, which was substantiated in order to contribute to an increase in the users’ interest in the content of the materials while facilitating better understanding [<xref rid="pone.0127577.ref042" ref-type="bibr">42</xref>].</p>
+<p>[Fig 2 omitted. See the original article.]</p>
+</sec>
+<sec id="sec009">
+<title>Participants</title>
+<p>It was defined that a sample of Slovenian sign language users would be recruited for the main experiment. The recruitment would be randomly performed in deaf clubs across Slovenia, however, some restrictions would have to be considered. The selection of participants was proposed to be random in order to limit any possible impact on the reliability of the results. Participants were, however, required to have the ability to read and actively understand basic written text and to have basic experience in using information and communication technology. The level of written language skills was thus recognized as an issue when using captions and was considered by the authors during the selection of the sample, as performed in the study by Gulliver and Ghinea [<xref rid="pone.0127577.ref009" ref-type="bibr">9</xref>]. Accordingly, the addition of written language skills and experiences in using information and communication technology was considered as outside the scope of the performed experiment. However, participants’ literacy levels were roughly pre-tested by asking them to read the consent form and agree to it. Their comprehension of written text was then ascertained in a signed dialogue with a sign language interpreter, similar to the study presented by Wehrmeyer [<xref rid="pone.0127577.ref044" ref-type="bibr">44</xref>]. Concurrently, participants’ knowledge of sign language skills was ascertained by the sign language interpreter. Normal or corrected-to-normal vision was also a requirement. However, no restriction was made on the degree of hearing loss, age, or gender of the participants.</p>
+</sec>
+<sec id="sec010">
+<title>Procedure</title>
+<p>The procedure was set to be divided into four parts (<xref rid="pone.0127577.g003" ref-type="fig">Fig 3</xref>). At first, the introduction to the test and a training session were set. The actual main experimental session and, finally, an evaluation session were proposed to follow.</p>
+<p>[Fig 3 omitted. See the original article.]</p>
+<p><italic>Introduction to the test</italic>. Before starting the training session, sign language users were informed about the experiment by means of a sign language interpreter. Next, participants were provided with an information sheet and were asked to sign a written consent form. After filling out the questionnaire, where participants provided information about their age, gender, and type of hearing loss, visual tests were conducted. Participants’ binocular acuity was recorded for far (5m) and intermediate (70 cm) distances using a Landolt ring chart. Participants ran all tests with their habitual glasses in place.</p>
+<p><italic>Training Session</italic>. Two video sequences served for the training session. After the video had been displayed, participants answered questions about the information presented. The first video was short, including one statement, and participants were given just three questions. The second video was similar to the actual experimental video sequences and ten questions were provided.</p>
+<p><italic>Experimental Session</italic>. Participants watched four video sequences in total with information from everyday life, with or without captions. After the presentation of each video sequence, participants answered ten questions about the content presented.</p>
+<p><italic>Evaluation Session</italic>. After the experimental session, participants were asked to report on the subjective degree of difficulty for gathering information in sign language with or without captions. A visual analogue scale was used in order to record participants’ estimates of difficulty. It was measured with a 10-point scale with response categories ranging from 1 (very easy) to 10 (very difficult). The visual scale was plotted on a sheet of paper and participants indicated their responses by crossing the corresponding position on the scale.</p>
+<p>After conducting these four sessions, the investigators’ assessment of the answers from the experimental session followed. Before the assessment, investigators developed and agreed upon a set of correct answers defined for each block of information, i.e. synonyms, where answers were formed in statements and individual words, or a combination thereof. Thereafter, one Slovenian investigator assessed the answers. Each correct answer in each block of information counted for one point. Finally, the points were summed up, so that the maximum possible number of points per block of information was 10.</p>
+</sec>
+</sec>
+<sec id="sec011">
+<title>Pre-experiment: design of information blocks to be used in the main experiment</title>
+<p>Within this step, our aim was to develop and identify four blocks of information to be used in the main experiment. In addition, content topics for the main experiment were defined. Initially, six blocks of information were designed for the following selected topics: weather forecast, economy, hiking, shopping, culture, sports. The topics were selected based on a sign language interpreter’s experiences and a general impression of the most frequently represented topics in the everyday life of people with hearing loss. Each block of information was comprised of 3–7 sentences with 40–58 words and 10 chunks of information. The written content was presented individually and a questionnaire was passed out in relation to the 10 chunks of information that were shown in the block. An example of a chunk of information is presented in <xref rid="pone.0127577.t001" ref-type="table">Table 1</xref>. In particular, on the left, there are sentences for the theme hiking, and on the right there are questions for that chunk of information. Participants were required to find answers to all the questions within the 10 chunks of information.</p>
+<p>[Table 1 omitted because it includes stimulus or test examples.]</p>
+<p>The pre-experiment was performed with six Slovenian as well as with six German hearing people. This was done in order to gain relevant high quality results which could constitute the basis for future research and repetition of the main experiment in German-speaking countries.</p>
+<p>During the pre-experiment, participants were asked to read six blocks of information in written language only and to fill out the open-ended questionnaires. The answers were assessed according to the assessment process described in the previous section. The average number of correct responses (scores) for each block, for the Slovenian version, ranged from 6 to 9. For the German version it ranged from 8 to 10. Exceptionally, in the Slovenian version, for the topic ‘sports’, and in the German version, for the topic ‘shopping’ the scores ranged from 9 to 10. Those scores were distributed normally. The averages, as well as the standard deviations of the scores, are shown in <xref rid="pone.0127577.t002" ref-type="table">Table 2</xref>. Based on the results, the number of blocks of information was reduced from six to four for the main experiment. Accordingly, four video clips were created on the themes of hiking, shopping, culture, and sports. Two additional video clips for the themes ‘weather’ and ‘economy’, which were excluded from the main experiment, were only used as training videos before conducting the main experiment. This procedure allowed us to evaluate more effectively whether the test participants met the minimum testing requirements or not (knowledge of sign language, quality of vision and reading skills for the written word).</p>
+<table-wrap id="pone.0127577.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0127577.t002</object-id>
+<label>Table 2</label> <caption><title>Mean ± 1 standard score deviations (number of correctly retrieved chunks of information) for six topics presented in German and in Slovenian.</title></caption>
+<alternatives>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1">Version</th>
+<th align="left" rowspan="1" colspan="1">Weather</th>
+<th align="left" rowspan="1" colspan="1">Economy</th>
+<th align="left" rowspan="1" colspan="1">Hiking</th>
+<th align="left" rowspan="1" colspan="1">Shopping</th>
+<th align="left" rowspan="1" colspan="1">Culture</th>
+<th align="left" rowspan="1" colspan="1">Sports</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Slovenian</td>
+<td align="left" rowspan="1" colspan="1">5.7±3.0</td>
+<td align="left" rowspan="1" colspan="1">7.2±2.7</td>
+<td align="left" rowspan="1" colspan="1">7.5±1.5</td>
+<td align="left" rowspan="1" colspan="1">7.7±1.5</td>
+<td align="left" rowspan="1" colspan="1">7.8±2.2</td>
+<td align="left" rowspan="1" colspan="1">8.5±2.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">German</td>
+<td align="left" rowspan="1" colspan="1">7.8±1.2</td>
+<td align="left" rowspan="1" colspan="1">8.0±0.9</td>
+<td align="left" rowspan="1" colspan="1">8.7±1.0</td>
+<td align="left" rowspan="1" colspan="1">9.7±0.5</td>
+<td align="left" rowspan="1" colspan="1">9.2±0.4</td>
+<td align="left" rowspan="1" colspan="1">9.3±0.5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<table-wrap-foot>
+<fn id="t002fn001"><p><italic>Notes</italic>. Six German and six Slovenian hearing people were used for both the German and Slovenian versions, respectively. No participant had hearing loss.</p></fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="sec012">
+<title>Main experiment: comprehension in sign language videos with and without captioning</title>
+<sec id="sec013">
+<title>Procedure</title>
+<p>Within this step, we performed the main experiment, developed on the basis of experimental design and the results of the pre-experiment. In the main experiment, all four sessions were conducted: an introduction to the test, training, experimental, and evaluation session. The procedure for all sessions was described in the task design section. In what follows, we describe the experimental session procedure in more detail.</p>
+<p>In the experimental session, each participant watched four video sequences, where one video sequence covered one topic selected in the pre-experiment. Of these, two videos contained captions and two videos did not. Accordingly, participants were divided into two groups: group A and group B. Group A watched the first video sequence containing sign language interpreting and captions, whereas group B watched the first video sequence without captions. Accordingly, the use of captions was alternated in the subsequent video sequences. The content remained in the same order at all times for all participants. After watching each video, participants were asked to answer the questionnaire.</p>
+</sec>
+<sec id="sec014">
+<title>Participants</title>
+<p>Fifty-one Slovenian sign language users were included in the experiment. <xref rid="pone.0127577.t003" ref-type="table">Table 3</xref> shows the basic demographic characteristics. Slightly more men (58.8%) than women (41.2%) participated. On average, they were 30 years old (age range: 15–73, <italic>SD</italic> = 17.85) and all of them had knowledge of Slovenian sign language and Slovenian written language. Among all the participants, the largest groups were the under-20 group (32.20%) and the 21 to 40 group (37.29%). When asked to provide a self-report about their type of hearing loss, the majority of participants reported that they were deaf. For the purposes of this study, we classified participants into subgroups twice. First, they were classified into two hearing loss groups (a) deaf (<italic>n</italic> = 37), and (b) hard of hearing (<italic>n</italic> = 14). Second, they were classified into two groups regarding the sequence of playing a sign language interpreter video with or without captions: (a) group A (<italic>n</italic> = 25), and (b) group B (<italic>n</italic> = 26).</p>
+<table-wrap id="pone.0127577.t003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0127577.t003</object-id>
+<label>Table 3</label> <caption><title>Demographic data about the sample (N = 51).</title></caption>
+<alternatives>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2" align="center" rowspan="1">Demographic data</th>
+<th align="left" rowspan="1" colspan="1">N</th>
+<th align="left" rowspan="1" colspan="1">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" align="left" colspan="1"><bold>Participants</bold></td>
+<td align="left" rowspan="1" colspan="1">Total number</td>
+<td align="left" rowspan="1" colspan="1">51</td>
+<td align="left" rowspan="1" colspan="1">100</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">30</td>
+<td align="left" rowspan="1" colspan="1">58.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Female</td>
+<td align="left" rowspan="1" colspan="1">21</td>
+<td align="left" rowspan="1" colspan="1">41.2</td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Types of hearing loss</bold></td>
+<td align="left" rowspan="1" colspan="1">Deaf</td>
+<td align="left" rowspan="1" colspan="1">37</td>
+<td align="left" rowspan="1" colspan="1">72.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hard of hearing</td>
+<td align="left" rowspan="1" colspan="1">14</td>
+<td align="left" rowspan="1" colspan="1">27.5</td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Group</bold></td>
+<td align="left" rowspan="1" colspan="1">Group A (captions in the first test video)</td>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">49.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Group B (captions in the second test video)</td>
+<td align="left" rowspan="1" colspan="1">26</td>
+<td align="left" rowspan="1" colspan="1">51.0</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec015">
+<title>Statistical analyses</title>
+<p>A two-way mixed-design between-within subjects analysis of variance (ANOVA) was conducted in order to assess the effect of caption conditions on the participants’ level of comprehension across groups with different types of hearing loss. Statistically significant differences between two independent samples were checked with a t-test [<xref rid="pone.0127577.ref045" ref-type="bibr">45</xref>]. All analyses were performed with SPSS version 21.0. The resulting database will be made publicly available within the Data Archiving and Networked Services (DANS).</p>
+</sec>
+<sec id="sec016" sec-type="results">
+<title>Results</title>
+<p>The first research question asked whether the use and non-use of captions in a sign language interpreter video have an impact on the level of comprehension for deaf and hard of hearing persons. In both groups, A and B, corresponding results recorded without captions were summed and named ‘Mode 1’. The results with captions were also summed and named ‘Mode 2. <xref rid="pone.0127577.t004" ref-type="table">Table 4</xref> shows the rounded values for the mean and standard deviation values. A two-way mixed-design ANOVA was performed to compare comprehension scores between deaf and hard of hearing users when using captions or not.</p>
+<table-wrap id="pone.0127577.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0127577.t004</object-id>
+<label>Table 4</label> <caption><title>Level of comprehension when using captions and with types of hearing loss.</title></caption>
+<alternatives>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1"/>
+<th align="left" rowspan="1" colspan="1">Deaf</th>
+<th align="left" rowspan="1" colspan="1">Hard of hearing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>No use of captions (Mode 1)</bold></td>
+<td align="left" rowspan="1" colspan="1"><italic>Mean</italic> <inline-formula id="pone.0127577.e001"><alternatives><mml:math display="inline" id="M1" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></inline-formula></td>
+<td align="char" char="." rowspan="1" colspan="1">3.38</td>
+<td align="char" char="." rowspan="1" colspan="1">4.21</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Std Dev</italic> (<italic>σ</italic><sub>1</sub>)</td>
+<td align="char" char="." rowspan="1" colspan="1"><italic>2</italic>.<italic>00</italic></td>
+<td align="char" char="." rowspan="1" colspan="1"><italic>2</italic>.<italic>16</italic></td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Use of captions (Mode 2)</bold></td>
+<td align="left" rowspan="1" colspan="1"><italic>Mean</italic> <inline-formula id="pone.0127577.e002"><alternatives><mml:math display="inline" id="M2" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></alternatives></inline-formula></td>
+<td align="char" char="." rowspan="1" colspan="1">4.19</td>
+<td align="char" char="." rowspan="1" colspan="1">6.04</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Std Dev</italic> (<italic>σ</italic><sub>2</sub>)</td>
+<td align="char" char="." rowspan="1" colspan="1"><italic>2</italic>.<italic>19</italic></td>
+<td align="char" char="." rowspan="1" colspan="1"><italic>1</italic>.<italic>78</italic></td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>A statistically significant interaction was found when using captions and comprehension: Wilks’ Lambda =. 89, <italic>F</italic>(1, 49) = 5.98, <italic>p</italic> &lt;. 05, ηp<sup>2</sup> =. 11. There was a significant effect for using captions: Wilks’ Lambda =. 89, <italic>F</italic>(1, 49) = 40.58, <italic>p</italic> &lt;. 001, ηp<sup>2</sup> =. 45, with both hearing loss groups showing an increase in the level of comprehension by including captions in the sign language interpreter video. It indicates that, when the captions were included in videos, comprehension scores in both groups increased. In addition, the main effect comparing the two hearing loss groups was also statistically significant, <italic>F</italic>(1, 49) = 4.76, <italic>p</italic> &lt;. 05, ηp<sup>2</sup> =. 09. It indicates that hard of hearing users, on average, reported higher comprehension scores than deaf users.</p>
+<p>As <xref rid="pone.0127577.t004" ref-type="table">Table 4</xref> shows, among the deaf and hard of hearing participants, those who watched sign language interpreter videos with captions reported higher levels of comprehension than those who watched videos without captions. The increase in the level of comprehension was higher among the hard of hearing than the deaf when the sign language interpreter video contained captions. In this regard, we calculated the percentage increase in comprehension when captions were included in a sign language interpreter video compared to when they were not. The calculation was performed in accordance with the following equation:</p>
+<disp-formula id="pone.0127577.e003">
+<alternatives>
+<mml:math display="block" id="M3" overflow="scroll">
+<mml:mrow><mml:mtext>increment</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mo stretchy="true">¯</mml:mo></mml:mover></mml:mrow></mml:mfrac><mml:mo>*</mml:mo><mml:mn>100</mml:mn><mml:mo>−</mml:mo><mml:mn>100</mml:mn></mml:mrow>
+</mml:math>
+</alternatives>
+<label>EQ.1</label>
+</disp-formula>
+<p>The results showed that the comprehension of a sign language interpreter video with captions was 24% better among the deaf and 42% better among the hard of hearing (<xref rid="pone.0127577.g004" ref-type="fig">Fig 4</xref>).</p>
+<p>[Fig 4 omitted. See the original article.]</p>
+<p>The second research question sought to identify the differences between the group that watched a sign language interpreter video with captions and the group that watched the videos without captions in the comprehension scores of topics: hiking, culture, shopping, and sports. To compare the scores, a t-test was performed. <xref rid="pone.0127577.t005" ref-type="table">Table 5</xref> lists the numbers of correct answers (scores) for the topics. For each topic, two groups watched the same video: one group with captions and the second group without captions. Thus, the maximum score for each theme for comprehension with captions is 10, which is also the case for comprehension without captions.</p>
+<table-wrap id="pone.0127577.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0127577.t005</object-id>
+<label>Table 5</label> <caption><title>Comprehension scores with and without captions in the sign language interpreter video regarding the themes.</title></caption>
+<alternatives>
+<table>
+<colgroup span="1">
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+<col align="left" valign="middle" span="1"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left" rowspan="1" colspan="1">Theme</th>
+<th align="left" rowspan="1" colspan="1">Captions</th>
+<th align="left" rowspan="1" colspan="1">Mean</th>
+<th align="left" rowspan="1" colspan="1">Std. Deviation</th>
+<th align="left" rowspan="1" colspan="1">Std. Error Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Hiking</bold></td>
+<td align="left" rowspan="1" colspan="1">yes</td>
+<td align="char" char="." rowspan="1" colspan="1">5.28</td>
+<td align="char" char="." rowspan="1" colspan="1">2.07</td>
+<td align="char" char="." rowspan="1" colspan="1">.41</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">no</td>
+<td align="char" char="." rowspan="1" colspan="1">3.69</td>
+<td align="char" char="." rowspan="1" colspan="1">1.85</td>
+<td align="char" char="." rowspan="1" colspan="1">.36</td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Culture</bold></td>
+<td align="left" rowspan="1" colspan="1">yes</td>
+<td align="char" char="." rowspan="1" colspan="1">4.60</td>
+<td align="char" char="." rowspan="1" colspan="1">2.90</td>
+<td align="char" char="." rowspan="1" colspan="1">.58</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">no</td>
+<td align="char" char="." rowspan="1" colspan="1">3.04</td>
+<td align="char" char="." rowspan="1" colspan="1">2.49</td>
+<td align="char" char="." rowspan="1" colspan="1">.49</td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Shopping</bold></td>
+<td align="left" rowspan="1" colspan="1">yes</td>
+<td align="char" char="." rowspan="1" colspan="1">4.15</td>
+<td align="char" char="." rowspan="1" colspan="1">2.62</td>
+<td align="char" char="." rowspan="1" colspan="1">.51</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">no</td>
+<td align="char" char="." rowspan="1" colspan="1">3.16</td>
+<td align="char" char="." rowspan="1" colspan="1">2.32</td>
+<td align="char" char="." rowspan="1" colspan="1">.46</td>
+</tr>
+<tr>
+<td rowspan="2" align="left" colspan="1"><bold>Sports</bold></td>
+<td align="left" rowspan="1" colspan="1">yes</td>
+<td align="char" char="." rowspan="1" colspan="1">4.77</td>
+<td align="char" char="." rowspan="1" colspan="1">2.42</td>
+<td align="char" char="." rowspan="1" colspan="1">.48</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">no</td>
+<td align="char" char="." rowspan="1" colspan="1">4.56</td>
+<td align="char" char="." rowspan="1" colspan="1">2.53</td>
+<td align="char" char="." rowspan="1" colspan="1">.51</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The differences between the group that watched the sign language interpreter videos with captions and the group that watched them without captions were statistically significant for the hiking and culture topics, but not for shopping and sports. On average, for the hiking theme, users achieved better scores for the comprehension of sign language interpreter videos with captions, <italic>M</italic> = 5.28, <italic>SD</italic> = 2.07, <italic>SE</italic> =. 41, than in the comprehension of videos without captions, <italic>M</italic> = 3.69, <italic>SD</italic> = 1.85, <italic>SE</italic> =. 36. The difference was statistically significant, <italic>t</italic>(49) = 2.89, <italic>p</italic> &lt;. 05. Furthermore, Cohen’s effect size (<italic>d</italic> =. 81) suggested a high practical significance [<xref rid="pone.0127577.ref046" ref-type="bibr">46</xref>].</p>
+<p>Likewise, users reported higher comprehension scores when watching the video about culture with captions, <italic>M</italic> = 4.60, <italic>SD</italic> = 2.90, <italic>SE</italic> =. 58, than when captions were not included, <italic>M</italic> = 3.04, <italic>SD</italic> = 2.49, <italic>SE</italic> =. 49. The difference was statistically significant, <italic>t</italic>(49) = 2.07, <italic>p</italic> &lt;. 05, and Cohen’s effect size (<italic>d</italic> =. 58) suggested a moderate to high practical significance [<xref rid="pone.0127577.ref046" ref-type="bibr">46</xref>].</p>
+<p>The results revealed no statistically significant differences in comprehension scores when watching sign language interpreter videos with or without captions for the themes of shopping, <italic>t</italic>(49) = - 1.43, <italic>p</italic> &gt;. 05, and sports, <italic>t</italic>(49) = —.30, <italic>p</italic> &gt;. 05. Concerning the comparison of comprehension scores across themes, the highest score was achieved for the hiking theme and the lowest score was achieved for the shopping theme, both when captions were included and not.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec017" sec-type="conclusions">
+<title>Discussion</title>
+<p>In the present study, we aimed to compare comprehension scores for content presented in a sign language interpreter video in a combination that was with captions and without captions. The results showed that the inclusion of captions in a sign language interpreter video significantly increased the level of comprehension in both deaf and hard of hearing people. Particularly, comprehension scores improved by 24% among deaf and by 42% among hard of hearing people. In addition, hard of hearing people reported a higher level of comprehension than deaf people, in both situations, i.e. when captions were or were not included in the sign language interpreter video.</p>
+<p>As far as the themes of videos used in the experiment were concerned, the highest differences in comprehension, when using captions or not, was evident in the sign language interpreter video for the hiking theme. The comprehension scores were significantly higher when using captions than when captions were not included. In addition, the effect of using captions was slightly lower in the sign language interpreter video for the culture theme, where comprehension scores were significantly higher when captions were included. On average, for the hiking theme, the comprehension score was the highest among all themes with the inclusion of captions. The culture theme followed. The objectivity of providing information for each video was assured by proposing the same number of pieces of information, with a similar number of sentences and words. Although all themes were from everyday life, the subjective factor could not be excluded. Thus, the differences in comprehension scores could be attributed to participants’ subjective factors. One of the reasons might be that participants have a larger set of vocabulary for the theme of hiking in Slovenian sign and/or written language.</p>
+<p>The described findings are important as they show that the presence of captions contributes to a better comprehension of sign language interpreter videos. In addition, they can indicate that deaf and hard of hearing sign language users perceive captioning as support for signing. The findings are in line with the expected answers for both research questions, whereas the differences in comprehension scores between the use and non-use of captions in the sign language interpreter video for the shopping and sports themes were not significant.</p>
+<p>Our findings compliment the findings of Yoon and Kim [<xref rid="pone.0127577.ref023" ref-type="bibr">23</xref>] and Kim and Yeong [<xref rid="pone.0127577.ref024" ref-type="bibr">24</xref>] who showed that captions in sign language interpreter videos positively affect deaf learners’ understanding of the content of educational material. Likewise, we substantiated a positive effect for captions with regard to the comprehension levels of deaf and hard of hearing viewers. In addition, our findings can complement the findings of Szarkowska et al. [<xref rid="pone.0127577.ref017" ref-type="bibr">17</xref>] who examined what type of captions in television programmes should be used for better comprehension among the deaf and hard of hearing and hearing viewers, but found no significant differences. Complementing their results, we substantiated the effects of using captions on the comprehension scores of viewers with hearing loss.</p>
+</sec>
+<sec id="sec018">
+<title>Conclusions and Recommendations</title>
+<p>With the present study in mind, we aimed to make a scientific contribution to the ongoing debate of whether to use captions or not in sign language interpreter videos. These findings show that the presence of captions in sign language interpreter videos improved the comprehension of deaf viewers by 24% and hard of hearing viewers by 42%. In the experiment, we used four videos, with and without captions, which briefly presented four different themes from everyday life, such as hiking, culture, shopping and sports. The first two topics showed significant differences when using or not using captions, while for the shopping and sports themes we could not confirm a significant difference, since the deviation was too high.</p>
+<p>The present study has two main limitations. First, there are a relatively small number of deaf and hard of hearing people available in Slovenia who could be included in the sample of our study, which was also found in a study by Kožuh, Hintermair, Holzinger, Volčič, and Debevc [<xref rid="pone.0127577.ref047" ref-type="bibr">47</xref>]. In addition, our sample was randomly recruited from the Slovenian deaf and hard of hearing population, where 1,850 deaf and 50,000 hard of hearing people are registered [<xref rid="pone.0127577.ref048" ref-type="bibr">48</xref>]. In order to address the limitations related to the sample, it would be necessary to increase the sample by inviting deaf and hard of hearing people from Slovenia and other European countries to participate in the study.</p>
+<p>The second limitation is that participants’ backgrounds were not entirely examined. In particular, we did not objectively measure written and sign language skills and we did not comprehensively address participants’ language preferences and characteristics, such as using sign language as a mother tongue or not. To address these limitations in future research, a comprehensive examination of participants’ language and education background is needed.</p>
+<p>In addition, some issues have not been addressed yet, such as whether complexity and the difficulty of information vary across blocks of text. Important research questions that require further work are, for example, how much information is obtained from an image and how much from captions, and what the actual reading pattern is when captioned material is being viewed. Based on our results and on the results of previous studies, e.g. [<xref rid="pone.0127577.ref012" ref-type="bibr">12</xref>–<xref rid="pone.0127577.ref024" ref-type="bibr">24</xref>], we recommend establishing an international standard for using captions in sign language interpreter videos in traditional and new media. In this way we could expect even higher improvements in the comprehension rates of deaf and hard of hearing viewers.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank Dr. Marino Menozzi from ETH, Zürich, Switzerland for his help and support. Thanks to the Ljubljana School of the Deaf in Slovenia and the Slovenian Deaf and Hard of Hearing Societies, sign language interpreter Marija Koser and all participants who took part in the study.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0127577.ref001"><label>1</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Hanson</surname> <given-names>VL</given-names></name>. <chapter-title>Computing technologies for deaf and hard of hearing</chapter-title>. In: <name name-style="western"><surname>Sears</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Jacko</surname> <given-names>JA</given-names></name>, editors. <source>Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies and Emerging Applications</source>. <edition>2nd ed.</edition> <publisher-loc>Hillsdale, NJ</publisher-loc>: <publisher-name>Lawrence Erlbaum Associates</publisher-name>; <year>2008</year>; p. <fpage>885</fpage>–<lpage>893</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref002"><label>2</label><mixed-citation publication-type="other" xlink:type="simple">Allen C, Haualand H. Deaf People and Human Rights. World Federation of the Deaf and Swedish National Association of the Deaf (Research Report) World Federation of the Deaf website. [Internet]. 2009 [cited 2014 Jul 1]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.hrc.co.nz/hrc_new/hrc/cms/files/documents/06-May-2009_15-14-55_DeafPeople_HumanRightsReport.pdf" xlink:type="simple">http://www.hrc.co.nz/hrc_new/hrc/cms/files/documents/06-May-2009_15-14-55_DeafPeople_HumanRightsReport.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref003"><label>3</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Cavender</surname> <given-names>AC</given-names></name>, <name name-style="western"><surname>Ladner</surname> <given-names>RE</given-names></name>. <chapter-title>Hearing Impairments</chapter-title>. In: <name name-style="western"><surname>Harper</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Yesilada</surname> <given-names>Y</given-names></name>, editors. <source>Web Accessibility: A Foundation for Research</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2008</year>; p. <fpage>26</fpage>–<lpage>36</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref004"><label>4</label><mixed-citation publication-type="other" xlink:type="simple">World Federation of the Deaf (WFD) Sign Language [Internet]. 2013 [cited 2014 Jul 1]. Available from: <ext-link ext-link-type="uri" xlink:href="http://wfdeaf.org/human-rights/crpd/sign-language" xlink:type="simple">http://wfdeaf.org/human-rights/crpd/sign-language</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref005"><label>5</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Marschark</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Harris</surname> <given-names>M</given-names></name>. <chapter-title>Success and failure in learning to read: The special case of deaf children</chapter-title>. In: <name name-style="western"><surname>Cornoldi</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Oakhill</surname> <given-names>J</given-names></name>, editors. <source>Reading comprehension difficulties: Processes and intervention</source>. <publisher-loc>Mahwah, NJ</publisher-loc>: <publisher-name>Lawrence Erlbaum Associates</publisher-name>; <year>1996</year>; p. <fpage>279</fpage>–<lpage>300</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marschark</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Sapere</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Convertino</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Seewagen</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Maltzen</surname> <given-names>H</given-names></name>. <article-title>Comprehension of Sign Language Interpreting: Deciphering a Complex Task Situation</article-title>. <source>Sign Language Studies</source>. <year>2004</year>; <volume>4</volume>(<issue>4</issue>): <fpage>345</fpage>–<lpage>368</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hanson</surname> <given-names>VL</given-names></name>. <article-title>Progress on Website Accessibility?</article-title> <source>ACM Transactions on the Web</source>. <year>2013</year>; <volume>7</volume>(<issue>1</issue>): Article 2.</mixed-citation></ref>
+<ref id="pone.0127577.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Andrew</surname> <given-names>KN</given-names></name>, <name name-style="western"><surname>Hoshooley</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Joanisse</surname> <given-names>MF</given-names></name>. <article-title>Sign Language Ability in Young Deaf Signers Predicts Comprehension of Written Sentences in English</article-title>. <source>PLoS One</source>. <year>2014</year>; <volume>9</volume>(<issue>2</issue>):<fpage>e89994</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0089994" xlink:type="simple">10.1371/journal.pone.0089994</ext-link></comment> <object-id pub-id-type="pmid">24587174</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gulliver</surname> <given-names>SR</given-names></name>, <name name-style="western"><surname>Ghinea</surname> <given-names>G</given-names></name>. <article-title>How Level and Type of Deafness Affects User Perception of Multimedia Video Clips</article-title>. <source>Universal Access in the Information Society</source>. <year>2003a</year>; <volume>2</volume>(<issue>4</issue>):<fpage>374</fpage>–<lpage>386</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref010"><label>10</label><mixed-citation publication-type="other" xlink:type="simple">Gulliver SR, Ghinea G. Impact of captions on hearing impaired and hearing perception of multimedia video clips. In: Proceedings of the IEEE International Conference on Multimedia and Expo, ICME ‘02: Vol. 1. Lausanne, Switzerland: IEEE. 2003b; p. 753–756.</mixed-citation></ref>
+<ref id="pone.0127577.ref011"><label>11</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jelinek Lewis</surname> <given-names>MS</given-names></name>, <name name-style="western"><surname>Jackson</surname> <given-names>DW</given-names></name>. <article-title>Television literacy: Comprehension of program content using closed captions for the deaf</article-title>. <source>J Deaf Stud Deaf Educ</source>. <year>2001</year>; <volume>6</volume>(<issue>1</issue>):<fpage>43</fpage>–<lpage>53</lpage>. <object-id pub-id-type="pmid">15451862</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cambra</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Leal</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Silvestre</surname> <given-names>A</given-names></name>. <article-title>How deaf and hearing adolescents comprehend a televised story</article-title>. <source>Deafness Educ Int</source>. <year>2010</year>; <volume>12</volume>(<issue>1</issue>):<fpage>34</fpage>–<lpage>51</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Strassman</surname> <given-names>BK</given-names></name>, <name name-style="western"><surname>O’Dell</surname> <given-names>K</given-names></name>. <article-title>Using open captions to revise writing in digital stories composed by d/Deaf and hard of hearing students</article-title>. <source>Am Ann Deaf</source>. <year>2012</year>; <volume>157</volume>(<issue>4</issue>):<fpage>340</fpage>–<lpage>357</lpage>. <object-id pub-id-type="pmid">23259353</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref014"><label>14</label><mixed-citation publication-type="other" xlink:type="simple">Kirkland CE, Byrom E, MacDougall M, Corcoran M. The Effectiveness of Television Captioning on Comprehension and Preference. Annual Meeting of the American Educational Research Association [Internet]. 1995 [cited 2014 Jul 26]. Available from: <ext-link ext-link-type="uri" xlink:href="http://files.eric.ed.gov/fulltext/ED389286.pdf" xlink:type="simple">http://files.eric.ed.gov/fulltext/ED389286.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hong</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Wang</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Yuan</surname> <given-names>X-T</given-names></name>. <article-title>Video Accessibility Enhancement for Hearing-Impaired Users</article-title>. <source>ACM Transactions on Multimedia Computing Communications and Applications</source>. <year>2011</year>; <volume>7S</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>19</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cambra</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Silvestre</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Leal</surname> <given-names>A</given-names></name>. <article-title>Comprehension of television messages by deaf students at various stages of education</article-title>. <source>Am Ann Deaf</source>. <year>2009</year>; <volume>153</volume>(<issue>5</issue>):<fpage>425</fpage>–<lpage>434</lpage>. <object-id pub-id-type="pmid">19350951</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref017"><label>17</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Szarkowska</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Krejtz</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Kłyszejko</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Wieczorek</surname> <given-names>A</given-names></name>. <article-title>Verbatim, standard, or edited? Reading patterns of different captioning styles among deaf, hard of hearing, and hearing viewers</article-title>. <source>Am Ann Deaf</source>. <year>2011</year>; <volume>156</volume>(<issue>4</issue>):<fpage>363</fpage>–<lpage>78</lpage>. <object-id pub-id-type="pmid">22256538</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref018"><label>18</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Burnham</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Leigh</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Noble</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Jones</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Tyler</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Grebennikov</surname> <given-names>L</given-names></name>, <etal>et al</etal>. <article-title>Parameters in television captioning for deaf and hard-of-hearing adults: Effects of caption rate versus text reduction on comprehension</article-title>. <source>J Deaf Stud Deaf Educ</source> <year>2008</year>; <volume>13</volume>(<issue>3</issue>):<fpage>391</fpage>–<lpage>404</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/deafed/enn003" xlink:type="simple">10.1093/deafed/enn003</ext-link></comment> <object-id pub-id-type="pmid">18372297</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref019"><label>19</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>De Linde</surname> <given-names>Z</given-names></name>, <name name-style="western"><surname>Kay</surname> <given-names>N</given-names></name>. <chapter-title>The semiotics of subtitling</chapter-title>. <publisher-loc>Manchester, England</publisher-loc>: <publisher-name>St. Jerome Publishing</publisher-name>; <year>1999</year>.</mixed-citation></ref>
+<ref id="pone.0127577.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perego</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>de Missier</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Porta</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Mosconi</surname> <given-names>M</given-names></name>. <article-title>The cognitive effectiveness of subtitle processing</article-title>. <source>Media Psychology</source>. <year>2010</year>; <volume>13</volume>:<fpage>243</fpage>–<lpage>272</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref021"><label>21</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>D’Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>De Bruycker</surname> <given-names>W</given-names></name>. <article-title>Eye movements of children and adults while reading television subtitles</article-title>. <source>European Psychologist</source>. <year>2007</year>; <volume>12</volume>(<issue>3</issue>):<fpage>196</fpage>–<lpage>205</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref022"><label>22</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>D’Ydewalle</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Rensbergen</surname> <given-names>JV</given-names></name>, <name name-style="western"><surname>Pollet</surname> <given-names>J</given-names></name>. <chapter-title>Reading a message when the same message is available auditorily in another language: The case of subtitling</chapter-title>. In: JK <name name-style="western"><surname>O’Reagan</surname> <given-names>JK</given-names></name>, <name name-style="western"><surname>Lévy-Schoen</surname> <given-names>A</given-names></name>, editors. <source>Eye movements: From physiology to cognition</source>. <publisher-loc>Amsterdam, Netherlands</publisher-loc>: <publisher-name>Elsevier</publisher-name>; <year>1987</year>, p. <fpage>313</fpage>–<lpage>321</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yoon</surname> <given-names>JO</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>M</given-names></name>. <article-title>The effects of captions on deaf students’ content comprehension, cognitive load, and motivation in online learning</article-title>. <source>Am Ann Deaf</source>. <year>2011</year>; <volume>156</volume>(<issue>3</issue>):<fpage>283</fpage>–<lpage>289</lpage>. <object-id pub-id-type="pmid">21941878</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Yeong</surname> <given-names>E</given-names></name>. <article-title>The effect of a caption video program on the written skills of students with hearing impairment</article-title>. <source>The Journal of Special Education: Theory and Practice</source>. <year>2006</year>; <volume>7</volume>(<issue>1</issue>):<fpage>489</fpage>–<lpage>506</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref025"><label>25</label><mixed-citation publication-type="other" xlink:type="simple">Deaf News Network (DNN). FCC Requires Captioning on Video Clips from TV Starting in 2016 [Internet]. 2014 [cited 2014 Jul 26]. Available from: <ext-link ext-link-type="uri" xlink:href="http://deafnews.net/index.php/politics/nad/item/304-fcc-requires-captioning-on-video-clips-from-tv-starting-in-2016" xlink:type="simple">http://deafnews.net/index.php/politics/nad/item/304-fcc-requires-captioning-on-video-clips-from-tv-starting-in-2016</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref026"><label>26</label><mixed-citation publication-type="other" xlink:type="simple">European Federation of Hard of Hearing People. State of subtitling access in EU 2011 [Internet] 2011 [cited 2015 Feb 27]. Available from: <ext-link ext-link-type="uri" xlink:href="http://ec.europa.eu/internal_market/consultations/2011/audiovisual/non-registered-organisations/european-federation-of-hard-of-hearing-people-efhoh-_en.pdf" xlink:type="simple">http://ec.europa.eu/internal_market/consultations/2011/audiovisual/non-registered-organisations/european-federation-of-hard-of-hearing-people-efhoh-_en.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref027"><label>27</label><mixed-citation publication-type="other" xlink:type="simple">European Commission. European disability strategy 2010–2020—Initial plan to implement the European disability strategy 2010–2020—list of actions 2010–2015 [Internet]. 2010 [cited 2015 Feb 27]. Available from: <ext-link ext-link-type="uri" xlink:href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=SEC:2010:1324:FIN:EN:PDF" xlink:type="simple">http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=SEC:2010:1324:FIN:EN:PDF</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref028"><label>28</label><mixed-citation publication-type="other" xlink:type="simple">European Commission. European disability strategy 2010–2020—a renewed commitment to a barrier-free Europe [Internet]. 2010 [cited 2015 Feb 27]. Available from: <ext-link ext-link-type="uri" xlink:href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:0636:FIN:EN:PDF" xlink:type="simple">http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:0636:FIN:EN:PDF</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref029"><label>29</label><mixed-citation publication-type="other" xlink:type="simple">UN General Assembly. Convention on the Rights of Persons with Disabilities: Resolution / adopted by the General Assembly, A/RES/61/106 [Internet]. 2007 [cited 2015 Feb 27]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.refworld.org/docid/45f973632.html" xlink:type="simple">http://www.refworld.org/docid/45f973632.html</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref030"><label>30</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Schirmer</surname> <given-names>BR</given-names></name>. <chapter-title>Dimensions of deafness: Psychological, social and educational</chapter-title>. <publisher-loc>Boston</publisher-loc>: <publisher-name>Allyn &amp; Bacon</publisher-name>; <year>2001</year>.</mixed-citation></ref>
+<ref id="pone.0127577.ref031"><label>31</label><mixed-citation publication-type="other" xlink:type="simple">Fajardo I, Cañas J, Salmerón L, Abascal J. Towards a cognitive accessibility guideline based on empirical evidences of deaf users web interaction. In: HCI International. London, UK: Lawrence Erlbaum Associates. 2003; p. 950–954.</mixed-citation></ref>
+<ref id="pone.0127577.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koskinen</surname> <given-names>PS</given-names></name>, <name name-style="western"><surname>Wilson</surname> <given-names>RM</given-names></name>, <name name-style="western"><surname>Gambrell</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Neuman</surname> <given-names>SB</given-names></name>. <article-title>Captioned video and vocabulary learning: Innovative practices in literacy instruction</article-title>. <source>Read Teach</source>. <year>1993</year>; <volume>47</volume>:<fpage>36</fpage>–<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref033"><label>33</label><mixed-citation publication-type="other" xlink:type="simple">Sadler KL. Accuracy of Sign Interpreting and Real-Time Captioning of Science Videos for the Delivery of Instruction to Deaf Students [Internet]. Doctoral dissertation, University of Pittsburgh, USA. 2009. Available from: <ext-link ext-link-type="uri" xlink:href="http://d-scholarship.pitt.edu/8488/1/SadlerKarenL20509.pdf" xlink:type="simple">http://d-scholarship.pitt.edu/8488/1/SadlerKarenL20509.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref034"><label>34</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Paivio</surname> <given-names>A</given-names></name>. <chapter-title>Mental representations: a dual coding approach</chapter-title>. <publisher-loc>Oxford. England</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>; <year>1986</year>.</mixed-citation></ref>
+<ref id="pone.0127577.ref035"><label>35</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brickman</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>Workman</surname> <given-names>S</given-names></name>. <article-title>Enhancing the learning environment for deaf students in the Science Classroom</article-title>. <source>Journal of Science for Persons with Disabilities</source>. <year>1995</year>; <volume>3</volume>:<fpage>40</fpage>–<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref036"><label>36</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nugent</surname> <given-names>G</given-names></name>. <article-title>Deaf students’ learning from captioned instruction: The relationship between the visual and caption display</article-title>. <source>The Journal of Special Education</source>. <year>1983</year>; <volume>17</volume>:<fpage>227</fpage>–<lpage>234</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref037"><label>37</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steinfield</surname> <given-names>A</given-names></name>. <article-title>The benefit of real-time captioning in a mainstream classroom as measured by working memory</article-title>. <source>Volta Review</source>. <year>1998</year>; <volume>100</volume>:<fpage>29</fpage>–<lpage>44</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref038"><label>38</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Margaret</surname> <given-names>SJ</given-names></name>, <name name-style="western"><surname>Dorothy</surname> <given-names>WJ</given-names></name>. <article-title>Television literacy: Comprehension of program content using closed caption for the deaf</article-title>. <source>J Deaf Stud Deaf Educ</source>. <year>2001</year>; <volume>6</volume>(<issue>1</issue>):<fpage>43</fpage>–<lpage>53</lpage>. <object-id pub-id-type="pmid">15451862</object-id></mixed-citation></ref>
+<ref id="pone.0127577.ref039"><label>39</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chisholm</surname> <given-names>W</given-names></name>, <name name-style="western"><surname>Vanderheiden</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Jacobs</surname> <given-names>I</given-names></name>. <article-title>Web content accessibility guidelines 1.0</article-title>. <source>Interactions</source>. <year>2001</year>; <volume>8</volume>(<issue>4</issue>):<fpage>35</fpage>–<lpage>54</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref040"><label>40</label><mixed-citation publication-type="other" xlink:type="simple">European Broadcasting Union (EBU). Access Services includes recommendations (Research Report). European Broadcasting Union website [Internet]. 2004 [cited 2014 Jun 20]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.ebu.ch/CMSimages/fr/tec_text_i44-2004_tcm7-14894.pdf" xlink:type="simple">http://www.ebu.ch/CMSimages/fr/tec_text_i44-2004_tcm7-14894.pdf</ext-link></mixed-citation></ref>
+<ref id="pone.0127577.ref041"><label>41</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Debevc</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kosec</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Holzinger</surname> <given-names>A</given-names></name>. <article-title>E-learning accessibility for the deaf and hard of hearing—practical examples and experiences</article-title>. <source>Lecture Notes in Computer Science</source>. <year>2010</year>; <volume>6389</volume>:<fpage>203</fpage>–<lpage>213</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref042"><label>42</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Debevc</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Kosec</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Holzinger</surname> <given-names>A</given-names></name>. <article-title>Improving multimodal web accessibility for deaf people: sign language interpreter module</article-title>. <source>Multimed Tools Appl</source>. <year>2011</year>; <volume>54</volume>(<issue>1</issue>):<fpage>181</fpage>–<lpage>199</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref043"><label>43</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Holzinger</surname> <given-names>A</given-names></name>. <article-title>Usability Engineering for Software Developers</article-title>. <source>Commun ACM</source>. <year>2005</year>; <volume>48</volume>:<fpage>71</fpage>–<lpage>74</lpage>.</mixed-citation></ref>
+<ref id="pone.0127577.ref044"><label>44</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wehrmeyer</surname> <given-names>J</given-names></name>. <article-title>Eye-tracking Deaf and hearing viewing of sign language interpreted news broadcasts</article-title> <source>Journal of Eye Movement Research</source>. <year>2014</year>; <volume>7</volume>(<issue>1</issue>):<fpage>3</fpage>:1–16.</mixed-citation></ref>
+<ref id="pone.0127577.ref045"><label>45</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Howell</surname> <given-names>D</given-names></name>. <source>Statistical Methods for Psychology</source>. <publisher-loc>Pacific Grove, CA</publisher-loc>: <publisher-name>Duxbury</publisher-name>; <year>2002</year>.</mixed-citation></ref>
+<ref id="pone.0127577.ref046"><label>46</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Cohen</surname> <given-names>J</given-names></name>. <source>Statistical Power Analysis for the Behavioral Sciences</source>, <edition>2nd Ed.</edition> <publisher-loc>Hillsdale, NJ</publisher-loc>: <publisher-name>Lawrence Earlbaum Associates</publisher-name>; <year>1988</year>.</mixed-citation></ref>
+<ref id="pone.0127577.ref047"><label>47</label><mixed-citation publication-type="other" xlink:type="simple">Kožuh I, Hintermair M, Holzinger A, Volčič Z, Debevc M. Enhancing Universal Access: Deaf and Hard of Hearing People on Social Networking Sites. Universal Access in the Information Society. 2014; 1–9.</mixed-citation></ref>
+<ref id="pone.0127577.ref048"><label>48</label><mixed-citation publication-type="other" xlink:type="simple">European Union of the Deaf. Slovenia [Internet]. 2012 [cited 2014 Jun 23]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.eud.eu/Slovenia-i-200.html" xlink:type="simple">http://www.eud.eu/Slovenia-i-200.html</ext-link></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

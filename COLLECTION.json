@@ -1,11 +1,11 @@
 {
   "status": "partial_acquisition_in_progress",
   "source_inventory_total": 3567,
-  "original_payload_files": 1754,
-  "learning_or_source_body_files": 1199,
-  "license_or_notice_files": 555,
-  "original_payload_bytes": 253507831,
-  "unique_original_sha256": 1750,
+  "original_payload_files": 1766,
+  "learning_or_source_body_files": 1205,
+  "license_or_notice_files": 561,
+  "original_payload_bytes": 254149598,
+  "unique_original_sha256": 1762,
   "new_full_canonical_source_objects_in_expansion": 740,
   "manifests": [
     "SOURCES.json",
@@ -169,13 +169,14 @@
     "batches/0159/SOURCES.json",
     "batches/0160/SOURCES.json",
     "batches/0161/SOURCES.json",
-    "batches/0162/SOURCES.json"
+    "batches/0162/SOURCES.json",
+    "batches/0163/SOURCES.json"
   ],
   "important_boundary": "File counts are not independent source counts. License-only documents do not establish possession of their project body. Repository READMEs and selected implementation files do not represent complete repositories. Unknown permissions and inaccessible originals remain pending, not silently treated as licensed. Normalized article text extractions are explicitly marked, not byte-identical original pages; embedded and third-party media are excluded. Snow Fall additionally omits an uncleared third-party quoted passage and is counted as one partial source, excluded from complete source totals. CineCraft is one complete original PDF held as eight ordered lossless binary parts, not a directly openable single PDF; see batches/0136/RECONSTRUCTION.md.",
   "unique_complete_canonical_source_objects": 740,
   "normalized_full_article_text_files": 65,
-  "additional_partial_canonical_source_objects": 3,
-  "normalized_partial_article_text_files": 3,
+  "additional_partial_canonical_source_objects": 9,
+  "normalized_partial_article_text_files": 9,
   "additional_candidate_source_urls": [
     "https://github.com/LottieFiles/motion-design-skill"
   ],

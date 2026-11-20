@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Adapted text-only article extraction from the official PLOS publisher XML. Retains the abstract, selected author narrative, aggregate result tables and references. Removes figures, examples or quotes as marked, contacts, graphics, linked data/supplements and all stimulus assets. Does not archive the original XML or illustrated article. --><front><article-meta><article-id pub-id-type="publisher-id">PONE-D-17-30823</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0202789</article-id>
+<title-group>
+<article-title>Evaluation of automatic video captioning using direct assessment</article-title>
+<alt-title alt-title-type="running-head">Evaluation of automatic video captioning using direct assessment</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Graham</surname> <given-names>Yvette</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Awad</surname> <given-names>George</given-names></name>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Resources</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" corresp="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-1028-8389</contrib-id>
+<name name-style="western">
+<surname>Smeaton</surname> <given-names>Alan</given-names></name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff004"><sup>4</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+</contrib-group>
+<contrib-group>
+</contrib-group>
+<pub-date pub-type="collection">
+<year>2018</year>
+</pub-date>
+<pub-date pub-type="epub">
+<day>4</day>
+<month>9</month>
+<year>2018</year>
+</pub-date>
+<volume>13</volume>
+<issue>9</issue>
+<elocation-id>e0202789</elocation-id>
+<permissions>
+<copyright-year>2018</copyright-year>
+<copyright-holder>Graham et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<abstract>
+<p>We present Direct Assessment, a method for manually assessing the quality of automatically-generated captions for video. Evaluating the accuracy of video captions is particularly difficult because for any given video clip there is no definitive ground truth or correct answer against which to measure. Metrics for comparing automatic video captions against a manual caption such as BLEU and METEOR, drawn from techniques used in evaluating machine translation, were used in the TRECVid video captioning task in 2016 but these are shown to have weaknesses. The work presented here brings human assessment into the evaluation by crowd sourcing how well a caption describes a video. We automatically degrade the quality of some sample captions which are assessed manually and from this we are able to rate the quality of the human assessors, a factor we take into account in the evaluation. Using data from the TRECVid video-to-text task in 2016, we show how our direct assessment method is replicable and robust and scales to where there are many caption-generation techniques to be evaluated including the TRECVid video-to-text task in 2017.</p>
+</abstract>
+</article-meta></front><body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Describing image content precisely, either still images or video, is difficult because images are visually rich and because their content can be interpreted in so many ways. Recent years have seen huge growth in the ways in which we can access images and video online. Services like Netflix and Amazon Prime now bring moving images into our homes and onto our devices and social media services like Facebook and Twitter have created new ways in which we find this content.</p>
+<p>Current approaches to describing images and video on the internet is by <italic>tagging</italic>, which involves identifying a set of objects or activities present in an image or video. Tagging is not an exhaustive process in that it does not provide complete description of content. While images and videos can be tagged manually, as a result of developments in machine learning and in particular deep learning, we can now do this automatically with good accuracy, with a wide spread of objects and activities, and with reasonable computational overhead [<xref ref-type="bibr" rid="pone.0202789.ref001">1</xref>].</p>
+<p>There is a large volume of scientific activity in the multimedia community to evaluate the effectiveness of automatically generated image and video descriptions with a variety of benchmarking activities and data challenges. These include the semantic indexing task for video in TRECVid [<xref ref-type="bibr" rid="pone.0202789.ref002">2</xref>, <xref ref-type="bibr" rid="pone.0202789.ref003">3</xref>], the detection and classification of hundreds of object categories on millions of images in ImageNet [<xref ref-type="bibr" rid="pone.0202789.ref004">4</xref>] and in ImageCLEF addressing the evaluation of image retrieval [<xref ref-type="bibr" rid="pone.0202789.ref005">5</xref>]. Benchmarking activities like these are now mainstream within the multimedia and multimedia retrieval research communities.</p>
+<p>When it comes to describing video content, tagging becomes less attractive for video than it is for images. This is because objects in a video can appear and disappear or be occluded during the playback of a video. Thus tagging, if it was to be used, would need to be temporal and perhaps localised within video frames to show the objects that are being tagged. Tracking of tagged objects throughout a video shot might then be done based on bags of tags, one bag for each frame or object appearance. More problematic is detecting and then describing the <italic>activities</italic> that happen in a video, the actions and movements of objects, where simple tags are not rich or powerful enough to capture those activities or the movements. For example, temporal relationships can occur like somebody did something <italic>and then</italic> something else happened, or spatial relationships can be important like somebody did something while <italic>behind them</italic> something else happened. Such relationships are just not suited to being described by simple tags.</p>
+<p>The alternative representation for videos is captions, descriptive narrative text which explains or describes what is happening in a video. The problem with using captions is that by its nature, videos can be so rich in terms of their content and there can be so much happening in a short video clip, that unlike image tagging where there can be a ground truth against which to measure, there is no single correct caption for a video.</p>
+<p>In this paper we present a way to evaluate the accuracy and effectiveness of automatically-generated captions for short video clips. Our approach uses human assessments as part of the evaluation process and our work was carried out in the context of the 2016 and 2017 TRECVid Video-To-Text (VTT) pilot and full tracks respectively. The paper is organised as follows. In the next section we motivate the work by showing the need for having a human-in-the-loop for evaluations where there is no gold standard or ground truth against which to measure automatically. We then describe how in previous work we have involved human assessment in evaluations of the accuracy of machine translation. Following that, we give an overview of the TRECVid VTT task, the data used, runs submitted by participants in 2016 and metrics used while after that we describe our contribution, a method to incorporate human assessments into video captioning. Finally, in the last section we describe how we have used this human-in-the-loop for a subsequent evaluation.</p>
+</sec>
+<sec id="sec002">
+<title>Evaluations using humans-in-the-loop</title>
+<p>We know it is difficult to evaluate generating video captions, either manually or automatically generated, because there is no absolutely correct answer, and thus nothing to measure new systems against. This creates challenges in terms of scientific validation and replication. Scientific research demands evaluations which are reliable and reproducible and thus independently verifiable and we want to achieve this with automatic captioning so we can see which techniques and approaches work best. While this may appear to be an intractable situation, there are other areas of research where even without ground truth, evaluations can be carried out. One of those is in social media research where there is a huge surge of interest because of the importance of social media in our lives and because social media data is now easily available.</p>
+<p>Research into social media can often have the aim of identifying some forms of behavioral patterns, such as sentiment towards issues or products, or the distribution of demographics interested in some topic, or tracking the spread, or the truthfulness, associated with news. Validating such patterns can involve tracking individual users and surveying or interacting with them. Yet social media users are scattered and generally unavailable for one-on-one interaction or for providing feedback to researchers to validate the patterns they are trying to identify or to prove.</p>
+<p>This evaluation dilemma—how to prove research findings in a credible and reproducible way when there is no ground truth—is addressed in [<xref ref-type="bibr" rid="pone.0202789.ref006">6</xref>] which describes a number of techniques used in social media research. These include A/B testing such as the 2014 A/B test that Facebook carried out on almost 700,000 of its users investigating emotional contagion and the transference of emotional state [<xref ref-type="bibr" rid="pone.0202789.ref007">7</xref>]. It also includes spatio-temporal evaluations where predictions of future events or postings made using machine learning can be assessed by partitioning data into training and testing data. Tracking down the trigger for some event or phenomenon like a news activity or increased network traffic in some area by examining and exploring the counterfactual, namely what would have happened if the trigger event had not happened, is yet another example of a research technique that can be used when there is no ground truth.</p>
+<p>In the case of work reported in this paper there is not a single ground truth caption for a video but instead there are many ground truths as a single video clip can have very many truthful descriptions of the video content depending on perspective, recent history, domain familiarity, even emotional state. In such an environment, asking a user to caption a video, even asking several users to caption the same video, and then measuring automatically-generated captions against these, is not robust or reliable science. What we are trying to do here is to measure the accuracy of automatically-generated video captions, some of which may be fully accurate and correct while some others will be inaccurate because the caption generation techniques are not perfect. So instead of measuring the generated captions against some pre-defined ground truth, we bring human assessment into the process and we build on parallels with human evaluations in machine translation, which we describe in the next section.</p>
+</sec>
+<sec id="sec003">
+<title>Human evaluators in machine translation</title>
+<p>Evaluation in many areas of natural language processing (NLP) takes inspiration from Machine Translation evaluation, including the tasks of automatic summarization [<xref ref-type="bibr" rid="pone.0202789.ref008">8</xref>] and grammatical error correction [<xref ref-type="bibr" rid="pone.0202789.ref009">9</xref>]. Evaluation in Machine Translation (MT) commonly takes the form of automatic computation of metric scores such as BLEU [<xref ref-type="bibr" rid="pone.0202789.ref010">10</xref>]. Here, system performance is measured as the geometric mean of matching proportions of n-gram counts between the MT output with a human produced reference translation, in addition to a penalty applied when the target translation is overly short. However, automatic MT evaluation metrics are known to provide a less than perfect substitute for human assessment, as under some circumstances, it has been shown that an improvement in BLEU is not sufficient to reflect a genuine improvement in translation quality, and in other circumstances that it is not necessary to improve BLEU in order to achieve a noticeable improvement [<xref ref-type="bibr" rid="pone.0202789.ref011">11</xref>]. Given the vast number of possible ways of comparing an MT output translation with a human-produced reference translation, meta-evaluation of metrics is required to determine which metrics provide the most valid substitute for human assessment. Such meta-evaluation commonly takes the form of the degree to which metrics scores correlate with human assessment. In MT, the stronger the correlation of a metric with human assessment, the better the metric is considered to be [<xref ref-type="bibr" rid="pone.0202789.ref012">12</xref>].</p>
+<p>To this end, the main benchmark in MT is the Workshop on Statistical Machine Translation (WMT), which has recently changed status to a conference but retains the original acronym. At this workshop, upwards of 150 world-leading MT systems annually participate in an evaluation campaign, and where the official results comprise human evaluation of systems [<xref ref-type="bibr" rid="pone.0202789.ref013">13</xref>]. In WMT, a large-scale effort involving volunteer human assessors and crowd-sourced workers is carried out across several language pairs. This human evaluation not only produces official results of the translation shared task but also provides a gold standard for comparison against newly proposed automatic evaluation metrics.</p>
+<p>Recent developments in MT have seen the development of new human assessment methodologies, one of which has been adopted as the official method of evaluation at WMT, called Direct Assessment (DA) [<xref ref-type="bibr" rid="pone.0202789.ref014">14</xref>]. DA involves direct estimation of the absolute quality of a given translation, in isolation from other outputs, to avoid bias introduced when translations produced by differently performing systems are compared more often to very high or to very low quality output. This would include the positive bias known to be introduced when translations belonging to a system are compared more often to low quality output [<xref ref-type="bibr" rid="pone.0202789.ref015">15</xref>].</p>
+<p>In the case of MT, since genuinely bilingual human assessors are difficult and expensive to source, evaluation using DA is structured as a monolingual task, where the human evaluator is required to compare the meaning of the MT output with a human-produced reference translation, working within the same language. Assessment scores are collected on a 0–100 rating scale, which facilitates comparison of system performances based on human assessment score distributions. In addition this also allows high-quality crowd-sourcing via quality control mechanisms based on significance testing of the score distributions provided by workers. The latter is highly important for carrying out assessment via the crowd, as due to the anonymous nature of crowd-sourcing services, interference from workers attempting to game the system and to maximize their profits is unfortunately unavoidable. Even when actively rejecting assessment tasks submitted by dubious crowd-sourced workers, low quality task submission rates have been reported to be as high as between 38% and 57% [<xref ref-type="bibr" rid="pone.0202789.ref013">13</xref>].</p>
+<p>The advantages of DA over previous methods of human evaluation are:</p>
+<list list-type="bullet">
+<list-item>
+<p>Accurate quality control of crowd-sourcing [<xref ref-type="bibr" rid="pone.0202789.ref016">16</xref>];</p>
+</list-item>
+<list-item>
+<p>Absolute assessment of system performances which allows measurement of longitudinal improvements in system performance [<xref ref-type="bibr" rid="pone.0202789.ref016">16</xref>];</p>
+</list-item>
+<list-item>
+<p>Results for both individual translations and for systems have been shown to be almost perfectly repeatable in self-replication experiments [<xref ref-type="bibr" rid="pone.0202789.ref013">13</xref>, <xref ref-type="bibr" rid="pone.0202789.ref014">14</xref>, <xref ref-type="bibr" rid="pone.0202789.ref017">17</xref>];</p>
+</list-item>
+<list-item>
+<p>DA has been shown to be up to 10 times more effective at finding significant differences between competing systems compared to previous methodologies [<xref ref-type="bibr" rid="pone.0202789.ref018">18</xref>];</p>
+</list-item>
+<list-item>
+<p>DA has been shown to be efficient and cost effective for tuning automatic evaluation metrics [<xref ref-type="bibr" rid="pone.0202789.ref019">19</xref>].</p>
+</list-item>
+</list>
+<p>In this paper we follow the Direct Assessment methodology used in evaluation of MT, and apply it to the monolingual task of comparing the quality of automatically generated video captions. In the next section we describe the video-to-text track in TRECVid, the data collection we used, the videos and the sets of descriptive captions generated for each, as well as the various evaluation metrics used in TRECVid.</p>
+</sec>
+<sec id="sec004">
+<title>Video-to-text track (VTT) in TRECVid</title>
+<p>The TREC Video Evaluation (TRECVid) benchmark has been active since 2003 in evaluating the effectiveness of content-based video retrieval systems working on problems including, but not limited to, semantic indexing, video summarization, video copy detection, multimedia event detection, and ad-hoc video search. TRECVid is organised and run each year by the National Institute of Standards and Technology (NIST) in the US. In 2016 a new showcase/pilot [quoted wording omitted] (VTT) task [<xref ref-type="bibr" rid="pone.0202789.ref020">20</xref>] was proposed and launched within TRECVid motivated by many use case application scenarios which can greatly benefit from such technology such as video summarization in the form of natural language, facilitating the search and browsing of video archives using such descriptions, and describing videos to the blind, etc. In addition, learning video interpretation and temporal relations among events in a video will likely contribute to other computer vision tasks, such as prediction of future events from the video. The pilot VTT task from 2016 was repeated as a full task in TRECVid in 2017 [<xref ref-type="bibr" rid="pone.0202789.ref021">21</xref>]. In the following subsections we will review the data, task, evaluation and existing metrics used as well as the system results from participating groups.</p>
+<sec id="sec005">
+<title>Data and system task</title>
+<p>For TRECVid VTT in 2016 a dataset of more than 30 000 Twitter Vine videos had been collected automatically. Each video has a total duration of about 6s. A subset of 2 000 of these videos was randomly selected and annotated manually, twice, by two different annotators. In total, 4 non-overlapping sets of 500 videos were given to 8 annotators to generate a total of 4 000 text descriptions. Those 4 000 text descriptions were split into 2 sets corresponding to the original 2 000 videos. Annotators were asked to include and combine into 1 sentence, if appropriate and available, four facets of the video they are describing:</p>
+<list list-type="bullet">
+<list-item>
+<p>Who is the video describing (e.g. concrete objects and beings, kinds of persons, animals, or things);</p>
+</list-item>
+<list-item>
+<p>What are the objects and beings doing? (generic actions, conditions/state or events);</p>
+</list-item>
+<list-item>
+<p>Where is the video taken (e.g. locale, site, place, geographic location, architectural)</p>
+</list-item>
+<list-item>
+<p>When is the video taken (e.g. time of day, season)</p>
+</list-item>
+</list>
+<p>After annotations were completed, an automatic filtering was applied to remove very short generic descriptions which resulted in only 1 915 videos as the testing dataset.</p>
+<p>The VTT task for participating groups was as follows: given a set of 1 915 URLs of Vine videos and two sets (A and B) of text descriptions (each composed of 1 915 descriptor sentences), participants were asked to develop systems and submit results for automatically generating for each video URL, a 1-sentence text description independently and without taking into consideration the existence of sets A and B. For distributing the video data we used the Twitter public streaming API to collect the URLs of the vine videos and we distributed the URLs. Each team downloaded their own copies of the videos and this complies with the terms and conditions for use of vine videos. The data used in the experiments in this paper is available without restriction, including a readme file to explain data format, at <named-content>[external link omitted]</named-content>.</p>
+</sec>
+<sec id="sec006">
+<title>Evaluation</title>
+<p>In total, 16 individual complete [quoted wording omitted] were submitted to the description generation subtask. Evaluation of these was done automatically using standard metrics from machine translation (MT) including METEOR* [<xref ref-type="bibr" rid="pone.0202789.ref022">22</xref>] and BLEU* [<xref ref-type="bibr" rid="pone.0202789.ref010">10</xref>]. We add * to metric names as the way in which they were applied to captions differs in some way to how scores are produced in a standard MT evaluation. In VTT, scores were computed on the segment-level for example. BLEU (bilingual evaluation understudy) is a metric used in MT and was one of the first metrics to achieve a high correlation with human judgments of quality. It is known to perform poorly if it is used to evaluate the quality of short segments of text, like single sentences for example rather than to evaluate variants of text at a corpus level. In the VTT task in TRECVid 2016, the videos are independent thus there is no corpus to work from, so our expectations are lowered when it comes to evaluation by BLEU. METEOR (Metric for Evaluation of Translation with explicit ORdering) is based on the harmonic mean of uni-gram or n-gram precision and recall, in terms of overlap between two input sentences. It redresses some of the shortfalls of BLEU such as better matching of synonyms and stemming, though the two measures are often used together in evaluating MT.</p>
+<p>Systems taking part in the VTT task were encouraged to take into consideration and to use the four facets that annotators used as a guideline to generate their automated descriptions.</p>
+<p>In addition to using standard MT metrics, an experimental semantic similarity metric (STS) [<xref ref-type="bibr" rid="pone.0202789.ref023">23</xref>] was also applied. This automatic metric measures how semantically similar a submitted description is to the ground truth descriptions, either A or B.</p>
+</sec>
+<sec id="sec007">
+<title>Evaluation results</title>
+<p>Figs <xref ref-type="fig" rid="pone.0202789.g001">1</xref> and <xref ref-type="fig" rid="pone.0202789.g002">2</xref> show the performance of the 16 runs submitted by the 5 participating groups using the BLEU* and METEOR* metrics respectively.</p>
+<p>[Fig 1 omitted. See the original article.]</p>
+<p>[Fig 2 omitted. See the original article.]</p>
+<p>The BLEU* results in <xref ref-type="fig" rid="pone.0202789.g001">Fig 1</xref> are difficult to interpret because, for example, multiple results from single groups are scattered throughout the results list whereas one would expect results from a single site to cluster as each group usually submits only minor variations of its own system for generating captions. This may be due to the issues associated with using BLEU* for this task, as mentioned earlier. The METEOR* results in <xref ref-type="fig" rid="pone.0202789.g002">Fig 2</xref> show results for each group are indeed clustered by group and thus may be more reliable. However, for both BLEU* and METEOR*, trying to interpret the absolute values of the system scores is impossible so their real use is as a comparison only.</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Fig 3 omitted. See the original article.]</p>
+<p>[Stimulus-derived sample, quote, or questionnaire details omitted.]</p>
+<p>[Submitted example captions omitted.]</p>
+<p>What this shows is that there are good systems that do well in assigning captions, and others that do not do well in terms of the captions that they generate. Similarly there are videos which are easier to caption than others, and each approach does well on some videos and badly on others, but not consistently so. For detailed information about the approaches and results, the reader should see the various group workshop reports from the participating groups and these are MediaMill from the University of Amsterdam [<xref ref-type="bibr" rid="pone.0202789.ref024">24</xref>], the Informedia team from Carnegie Mellon University (INF) [<xref ref-type="bibr" rid="pone.0202789.ref025">25</xref>], Dublin City University (DCU) [<xref ref-type="bibr" rid="pone.0202789.ref026">26</xref>], the National Institute for Informatics, Japan (NII) [<xref ref-type="bibr" rid="pone.0202789.ref027">27</xref>], and the University of Sheffield [<xref ref-type="bibr" rid="pone.0202789.ref028">28</xref>].</p>
+</sec>
+<sec id="sec008">
+<title>Semantic similarity among captions</title>
+<p>In addition to the BLEU* and METEOR* metrics, a semantics-based metric was also used in the VTT evaluation. This was the UMBC EBIQUITY-CORE metric [<xref ref-type="bibr" rid="pone.0202789.ref023">23</xref>] developed for the 2013 Semantic Textual Similarity (STS) task which uses word similarity boosted by the use of WordNet which captures word relationships. <xref ref-type="fig" rid="pone.0202789.g004">Fig 4</xref> shows the values of the STS metric where captions A and B for each of the 1 915 videos in the evaluation are measured against each other. One would expect that the A and B captions would be semantically similar, perhaps even identical and so we would hope for a large number of the 1 915 similarity measures to be at, or close to, a value of 1.0.</p>
+<p>[Fig 4 omitted. See the original article.]</p>
+<p>Instead, as <xref ref-type="fig" rid="pone.0202789.g004">Fig 4</xref> illustrates, the median similarity between pairs of captions (A and B) for each of the videos is only 0.545 with a disappointing tail-off of similarities close to a value of 0. That tells us that either the A and B annotators got things terribly wrong, or the STS measure has difficulty measuring similarity across just a short video caption, or the vocabulary used in the captioning creates difficulties for the STS computation. Whatever the reason, STS similarities would not add much value to interpreting the absolute performance of submitted runs though there might be some interesting insights gained from comparing relative performances.</p>
+<p>We used an API to the UMBC STS semantic similarity score available at <named-content>[external link omitted]</named-content>, to calculate semantic similarities among submitted captions. For the best-performing submitted run from each of the 5 groups (according to the other measures), for each video plus one of the sets of human annotations, we calculated the 6 × 6 STS similarities allowing us to see how semantically [quoted wording omitted] or how [quoted wording omitted] each of the submitted runs and the human annotation is to the others. Averaged over the 1 915 videos, this is shown in <xref ref-type="fig" rid="pone.0202789.g005">Fig 5</xref>.</p>
+<p>[Fig 5 omitted. See the original article.]</p>
+<p>What we observe from this analysis is that the INF group from Carnegie Mellon generates captions which are closer to the captions generated by the others including the humans than do the groups from NII, MediaMill, DCU, Sheffield, or even the human annotation, in that order. This is visible from the graph in <xref ref-type="fig" rid="pone.0202789.g005">Fig 5</xref> where the [quoted wording omitted] for each of the systems is higher and closer to a similarity score of 1.0. The line of the group from Sheffield shows an interesting kink at the very low end of the similarity scores and we interpret this as Sheffield generating some captions for some videos which are very inaccurate and thus quite dissimilar to any of the captions generated by any of the other systems or by the human annotator. From <xref ref-type="table" rid="pone.0202789.t001">Table 1</xref> we see that the human annotations are more dissimilar to the others than any of the automatic captions. We believe this is due to the way human captions were generated where the annotators were asked to include coverage of different facets of videos—who (is present), where (did the video take place), when (was the video taken), etc. This resulted in very structured annotations, almost formulaic in nature compared to the those generated by the automatic systems.</p>
+<table-wrap id="pone.0202789.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0202789.t001</object-id>
+<label>Table 1</label>
+<caption>
+<title>Average STS Similarities from each system to all others.</title>
+</caption>
+<alternatives>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Group</th>
+<th align="center">Average STS to other Groups</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">INF</td>
+<td align="char" char=".">0.446</td>
+</tr>
+<tr>
+<td align="center">NII</td>
+<td align="char" char=".">0.405</td>
+</tr>
+<tr>
+<td align="center">MediaMill</td>
+<td align="char" char=".">0.384</td>
+</tr>
+<tr>
+<td align="center">DCU</td>
+<td align="char" char=".">0.338</td>
+</tr>
+<tr>
+<td align="center">Sheffield</td>
+<td align="char" char=".">0.308</td>
+</tr>
+<tr>
+<td align="center">Human-b</td>
+<td align="char" char=".">0.279</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>What this analysis means that if there was a <italic>wisdom of the crowds</italic> type of evaluation, where the [quoted wording omitted] performing system was the one that was close to all the others, and had fewest outliers, then the INF submission would be best. However this is evaluating caption performance from within the set of submitted runs rather than externalising the evaluation process, and this says nothing about absolute, only comparative performance.</p>
+</sec>
+<sec id="sec009">
+<title>Summary and observations</title>
+<p>The first observation to make about the VTT task is that there was good participation from among TRECVid groups and that there are submitted captions with impressive results. Not all generated captions are correct or impressive, but there are enough good ones to be encouraged, meaning that proper evaluation for this is really now needed.</p>
+<p>In terms of metrics used, METEOR* scores are higher than BLEU*, and in retrospect the CIDEr metric (Consensus-based Image Description Evaluation) [<xref ref-type="bibr" rid="pone.0202789.ref029">29</xref>] should also have been used. As can be seen in their TRECVid workshop papers, some participating groups did include this metric in their write-ups. The STS semantic similarity metric is also useful but only insofar as it allows <italic>comparative</italic> performance across participating groups but such analysis does not offer any possibility for longitudinally tracking any progress over multiple iterations of the VTT task.</p>
+<p>One aspect that became apparent as we looked at the approaches taken by different participants [<xref ref-type="bibr" rid="pone.0202789.ref026">26</xref>] is that there are lots of available training sets for this task, including MSR-VTT, MS-COCO, Place2, ImageNet, YouTube2Text, and MS-VD. Some of these even have manual ground truth captions generated with Mechanical Turk such as the MSR-VTT-10k dataset [<xref ref-type="bibr" rid="pone.0202789.ref030">30</xref>] which has 10 000 videos, is 41.2 h in duration and has 20 annotations for each video. This provides a rich landscape for those wishing to use machine learning in all its various forms within the VTT task and participants in VTT have used all of these at some point.</p>
+</sec>
+</sec>
+<sec id="sec010">
+<title>Evaluating video captions</title>
+<p>Inspired by the many advantages of Direct Assessment for evaluation of MT systems outlined earlier, we investigate the possibility of adapting DA human assessment to evaluation of video captioning. In DA, the standard set-up for MT is to present human assessors with a human-produced reference translation and an MT output in the same language and ask them to rate how well the latter expresses the meaning of the former. In DA for MT, it is necessary to create a human-produced high quality reference translation as a target of gold standard instead of the original source language input, to avoid requiring bilingual human assessors. In the case of video captioning, substitution of the video with a human-produced caption would be risky, due to the ambiguity involved in a human coming up with a caption for a video, as there are many correct but distinct captions for a single video, the meaning of which may not directly correspond to one another, unlike reference translations in MT. This risk is clearly illustrated in <xref ref-type="fig" rid="pone.0202789.g004">Fig 4</xref> shown earlier where we see that even two manually created captions will not agree with each other when using the STS measure to assess.</p>
+<p>Fortunately, however, substitution of the video with a human-produced caption is not only risky, it is also unnecessary, as the video can itself be included in the evaluation and viewed by the human assessors before they rate an automatically generated caption. Subsequently, we ask human assessors to firstly watch the video before reading the caption, and then assess how adequately the caption (to be evaluated) describes what took place in the video. Assessors are asked to rate the caption quality on a scale of 0 to 100.</p>
+<p><xref ref-type="fig" rid="pone.0202789.g006">Fig 6</xref> shows a screen shot of our DA human assessment set-up for video captioning as shown to workers on the crowd-sourcing service Amazon’s Mechanical Turk using the same video re-enactment as shown in <xref ref-type="fig" rid="pone.0202789.g003">Fig 3</xref>. Crowd sourced workers log into their Mechanical Turk account, select a work task (a HIT) to complete and begin by viewing videos and rating the caption which has been selected for them, for evaluation. Once that is completed, they then move on to the next, and the next, until they complete the task at which point they can choose a second or third or any number of assessments to complete.</p>
+<p>[Fig 6 omitted. See the original article.]</p>
+<sec id="sec011">
+<title>Quality controlling the crowd</title>
+<p>As in DA for MT, we devise a mechanism for distinguishing genuine and diligent human assessors of video captions from those attempting to game the service or those who are simply not applying sufficient human intelligence to the task, by establishing the consistency of individual workers at scoring high and low quality captions for videos in the test set.</p>
+<p>We therefore include in the evaluation of systems, an additional system comprising a set of human annotations for the video captioning test set, (A), that will act as a set of captions for which we expect to receive high scores from workers. We then create a corresponding set of low quality captions for those videos by automatically degrading each the human caption in (A). Captions are automatically degraded by randomly selecting a non-initial/non-final sequence of words within the original human caption and replacing it with a sequence of words randomly selected from the human caption of a different video. In this way, the sequence of words being substituted is a fluent sequence of words, making it difficult to spot without reading the entire caption, to help avoid further gaming approaches. The length of the phrase to be replaced is determined by the number of words in the caption to be degraded, as shown in <xref ref-type="table" rid="pone.0202789.t002">Table 2</xref>.</p>
+<table-wrap id="pone.0202789.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0202789.t002</object-id>
+<label>Table 2</label>
+<caption>
+<title>Substitution rules when degrading captions.</title>
+</caption>
+<alternatives>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center">Caption<break/>Length (N)</th>
+<th align="center"># Words Replaced in Caption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">2–5</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">6–8</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">9–15</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">16–20</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">&gt;20</td>
+<td align="center">⌊ N/4 ⌋</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>To illustrate these substitutions, <xref ref-type="table" rid="pone.0202789.t003">Table 3</xref> shows some captions in their original and in their degraded forms.</p>
+<p>[Table 3 omitted because it includes stimulus or test examples.]</p>
+<p>As in MT evaluation using DA, Human Intelligence Tasks (HITs) are structured as 100-captions per HIT (or 100-translation HITs for MT) as this allows a sufficient number of pairs of high quality and low quality captions to be hidden within HITs and collected from each worker who participates. A minimum of 10 such pairs of high and low quality captions are collected from each worker and a paired significance test is then applied to the score distributions of high and low quality captions for each individual worker. The p-value produced in the test is employed as an estimate of worker reliability to score low quality captions lower than the corresponding high quality captions, with a lower p-value indicating a more consistent human assessor.</p>
+</sec>
+<sec id="sec012">
+<title>Evaluation</title>
+<p>In order to investigate the viability of our new video captioning human evaluation methodology, we carried out an evaluation of systems participating in TRECVid in 2016, described earlier in this paper. We include in the evaluation a single submission for each team that participated in the competition, nominated by the team from the runs they originally submitted.</p>
+<p>All data was collected anonymously, and the study conformed to the guidelines and principles of the Declaration of Helsinki. The protocol was approved by the Dublin City University School of Computing Research Ethics Committee as it falls under the University’s category of [quoted wording omitted] and was given a waiver of the requirement for signed consent because it is an anonymous online survey.</p>
+<p>Crowd-sourced workers were paid at the same rate as in our MT experiments, at 0.99 USD per 100-caption HIT, and including the 20% Mechanical Turk fee this resulted in a total cost of 110 USD for the evaluation of five systems, or 22 USD on average per system. The cost when adding additional systems increases at a linear rate. A total of 90 workers completed at least a single 100-video caption HIT on Mechanical Turk with a relatively high proportion of those, 72 (80%), meeting our quality control requirement of a p-value less than 0.05 for significance of differences in scores they assigned to high quality and low quality captions. In addition to including high and low quality captions within HITs, we also include exact repeats of the same video and caption sampled across all systems included in the evaluation, in order to check that workers who can distinguish between the quality of high and low quality captions, also consistently score repeats of the same captions. 100% of workers who passed quality control also showed no significant difference in score distributions for repeat assessment of the same caption.</p>
+<p>Final scores for systems are computed by firstly standardizing the raw scores provided by each worker to <italic>z</italic> scores which are the number of standard deviations from the mean a data point is according to that individual’s mean and standard deviation score overall. This allows any possible bias introduced by, for example, an overly harsh worker evaluating a higher number of captions from any system. Scores provided are then averaged for each caption in the test set, as some captions will have been assessed once and others multiple times, and this avoids final scores inadvertently being weighted by the number of times a given caption was assessed. The final score for a given system is then simply the average of the scores attributed to its captions.</p>
+<p><xref ref-type="table" rid="pone.0202789.t004">Table 4</xref> shows the raw average DA scores for each system included in the evaluation, shown as a %, as well as the set of human captions, one of the sets of ground truths provided by NIST, the organisers of TRECVid, included as a hidden system, while <xref ref-type="fig" rid="pone.0202789.g007">Fig 7</xref> shows significance test results for differences in (the more fair) <italic>z</italic> score distributions for systems according to Wilcoxon rank-sum test. As expected, the human captions, Human-b, achieve the highest score overall, at 88.2%, and including such a <italic>human</italic> system allows an estimation of the score that could be expected from a system that has effectively solved the video captioning problem. Scores for the automatic systems range from 37.7% to 66.2%, showing the best automatic system to be still some distance from human annotation quality. In terms of statistical significance, we see an almost absolute ranking of systems, with only a single pair of systems (INF &amp; DCU) tied with no significant difference in their scores.</p>
+<table-wrap id="pone.0202789.t004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0202789.t004</object-id>
+<label>Table 4</label>
+<caption>
+<title>Direct Assessment human evaluation results of nominated systems originally participating in the TRECVid 2016 VTT task; raw scores are average scores for systems; <italic>z</italic> scores are average standardized scores for systems; Human-b comprises one of the set of video captions produced by human annotators.</title>
+</caption>
+<alternatives>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left">System</th>
+<th align="center">raw (%)</th>
+<th align="center"><italic>z</italic></th>
+<th align="center"><italic>n</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Human-b</td>
+<td align="char" char=".">88.2</td>
+<td align="char" char=".">0.895</td>
+<td align="center">0940</td>
+</tr>
+<tr>
+<td align="left">Sheffield</td>
+<td align="char" char=".">66.2</td>
+<td align="char" char=".">0.303</td>
+<td align="center">1,301</td>
+</tr>
+<tr>
+<td align="left">MediaMill</td>
+<td align="char" char=".">49.0</td>
+<td align="char" char=".">−0.129</td>
+<td align="center">1,292</td>
+</tr>
+<tr>
+<td align="left">INF</td>
+<td align="char" char=".">42.9</td>
+<td align="char" char=".">−0.278</td>
+<td align="center">1,338</td>
+</tr>
+<tr>
+<td align="left">DCU</td>
+<td align="char" char=".">41.3</td>
+<td align="char" char=".">−0.314</td>
+<td align="center">1,302</td>
+</tr>
+<tr>
+<td align="left">NII</td>
+<td align="char" char=".">37.7</td>
+<td align="char" char=".">−0.423</td>
+<td align="center">1,347</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>[Fig 7 omitted. See the original article.]</p>
+<p>In order to investigate the reliability of the results produced by the new DA video captioning evaluation, we re-ran the evaluation in an entirely separate and repeated data collection/assessment on Mechanical Turk and compared results. <xref ref-type="table" rid="pone.0202789.t005">Table 5</xref> shows the correlation between raw average scores for systems in both the original and the repeated runs, as well as the correlation between average <italic>z</italic> scores for systems, the official method of system ranking we recommend. The very high correlation between scores for systems confirms that the method of evaluation is reliable, producing system rankings that are almost perfectly reproducible for evaluation of video captioning.</p>
+<table-wrap id="pone.0202789.t005" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0202789.t005</object-id>
+<label>Table 5</label>
+<caption>
+<title>Pearson correlation (<italic>r</italic>) of scores for systems produced in two separate data collection runs on Mechanical Turk.</title>
+</caption>
+<alternatives>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center"/>
+<th align="center">raw</th>
+<th align="center"><italic>z</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><italic>r</italic></td>
+<td align="center">0.995</td>
+<td align="center">0.997</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+</sec>
+<sec id="sec013">
+<title>Metric correlation with human assessment</title>
+<p>As mentioned previously, in MT the use of automatic metrics is validated by how well a given metric correlates with human assessment. Since we now have human assessment of captions for systems participating in TRECVid 2016 VTT, we can therefore examine how well metric scores used to produce the official results in that year’s benchmark correlate with human assessment. <xref ref-type="table" rid="pone.0202789.t006">Table 6</xref> shows the degree to which BLEU*, METEOR* and STS, as applied to captions in the 2016 VTT task, correlate with human assessment. To provide more detail of how metric and human scores correspond to one another, we now present respective scatter-plots of BLEU*, METEOR and STS scores and human assessment of systems.</p>
+<table-wrap id="pone.0202789.t006" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0202789.t006</object-id>
+<label>Table 6</label>
+<caption>
+<title>Correlation of BLEU*, METEOR* and STS scores for submissions participating in TRECVid 2016 VTT task with human assessment.</title>
+</caption>
+<alternatives>
+<table border="0" frame="box" rules="all">
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="center"/>
+<th align="center">BLEU*</th>
+<th align="center">METEOR*</th>
+<th align="center">STS</th>
+<th align="center"><italic>n</italic></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><italic>r</italic></td>
+<td align="center">0.800</td>
+<td align="center">−0.602</td>
+<td align="center">−0.444</td>
+<td align="center">5</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>As can be seen in <xref ref-type="fig" rid="pone.0202789.g008">Fig 8</xref>, BLEU* scores correspond reasonably well to human evaluation, with the main disagreement taking place for the top two systems, Sheffield and MediaMill, the former outperforming the latter according to human evaluation. In contrast BLEU* scores incorrectly report a higher score for MediaMill, although only marginally so.</p>
+<p>[Fig 8 omitted. See the original article.]</p>
+<p><xref ref-type="fig" rid="pone.0202789.g009">Fig 9</xref>, on the other hand, shows substantially lower agreement between METEOR* scores and human assessment compared to BLEU*, where the system scored highest according to human judges and significantly outperforming all other systems, Sheffield, is ranked worst according to this metric. This disagreement in fact results in a somewhat disconcerting <italic>negative</italic> correlation of METEOR* scores with human assessment of −0.602 for video captioning, as shown in <xref ref-type="table" rid="pone.0202789.t006">Table 6</xref>, highlighting the potential danger in blindly trusting automatic metric scores and the importance of meta-evaluation by correlation with human assessment.</p>
+<p>[Fig 9 omitted. See the original article.]</p>
+<p>Finally, STS scores also show low agreement with human assessment, as the scatter plot in <xref ref-type="fig" rid="pone.0202789.g010">Fig 10</xref> shows, where, again, the best system according to human judges receives the lowest of the five STS scores.</p>
+<p>[Fig 10 omitted. See the original article.]</p>
+<p>It should be noted, however, that the correlations we report here may not provide an entirely reliable evaluation of metrics for VTT. Both the human and metric-based evaluations reported are only based on a small sample of five VTT systems, and therefore correlation point estimates are not highly reliable. Significance tests, recommended for evaluation of MT metrics and also suitable for VTT metric evaluation, such as Williams test [<xref ref-type="bibr" rid="pone.0202789.ref031">31</xref>, <xref ref-type="bibr" rid="pone.0202789.ref032">32</xref>], do however indicate that even at this low sample size BLEU*’s correlation with human assessment is significantly higher than that of both METEOR* (at <italic>p</italic> &lt; 0.01) and STS (at <italic>p</italic> &lt; 0.05).</p>
+</sec>
+</sec>
+<sec id="sec014">
+<title>Conclusions and future plans</title>
+<p>In this paper we have introduced direct assessment, a method for incorporating human judgments into an evaluation of automatic video captioning. Using data from the 2016 VTT track in TRECVid we have shown how this method is robust. Even though direct assessment requires human judgments and ratings of how well a caption describes a video, this can be outsourced to a service like Mechanical Turk meaning it can be carried out in a relatively cost-effective manner.</p>
+<p>One of the known problems with crowdsourced judgments as we use in direct assessment, is achieving consistency and quality across human judges. We address this by automatically modifying candidate captions and degrading their quality and examining how the degraded captions are rated by the human judges. This allows us to apply quality control to the assessors meaning that direct assessment can be replicated consistently, something we demonstrated in the paper.</p>
+<p>As part of the evaluation of performance in the VTT track in TRECVid 2017, we used the DA method in addition to BLEU, METEOR and the other standard metrics with an increased number of groups participating as described in [<xref ref-type="bibr" rid="pone.0202789.ref021">21</xref>]. We used the nominated runs submitted by each team in the DA assessment and the turnaround time between participants submitting runs and the DA-based assessment results being available, was about 8 days in total, which include data preparation and cleaning, submission to Mechanical Turk, crowd sourced assessment, results gathering and results computation.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank the organisers of the NIST TRECVid workshop (trecvid.nist.gov) which runs the VTT task and supports the evaluation of systems. We also thank Bronwyn Conroy for work done in generating STS evaluation graphs and Marc Ritter and his team for generating the manual video annotations.</p>
+<p><italic>Disclaimer: Certain commercial entities, equipment, or materials may be identified in this document in order to describe an experimental procedure or concept adequately. Such identification is not intended to imply recommendation or endorsement by the National Institute of Standards, nor is it intended to imply that the entities, materials, or equipment are necessarily the best available for the purpose</italic>.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0202789.ref001">
+<label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Guo</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Oerlemans</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Lao</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Wu</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Lew</surname> <given-names>MS</given-names></name>. <article-title>Deep learning for visual understanding: A review</article-title>. <source>Neurocomputing</source>. <year>2016</year>;<volume>187</volume>:<fpage>27</fpage>–<lpage>48</lpage>. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.neucom.2015.09.116" xlink:type="simple">http://dx.doi.org/10.1016/j.neucom.2015.09.116</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref002">
+<label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Awad</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Snoek</surname> <given-names>CG</given-names></name>, <name name-style="western"><surname>Smeaton</surname> <given-names>AF</given-names></name>, <name name-style="western"><surname>Quénot</surname> <given-names>G</given-names></name>. <article-title>TRECVid Semantic Indexing of Video: A 6-Year Retrospective</article-title>. <source>ITE Transactions on Media Technology and Applications</source>. <year>2016</year>;<volume>4</volume>(<issue>3</issue>):<fpage>187</fpage>–<lpage>208</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3169/mta.4.187" xlink:type="simple">10.3169/mta.4.187</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0202789.ref003">
+<label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">Smeaton AF, Over P, Kraaij W. Evaluation campaigns and TRECVid. In: Proceedings of the 8th ACM international workshop on Multimedia information retrieval. ACM; 2006. p. 321–330.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref004">
+<label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Russakovsky</surname> <given-names>O</given-names></name>, <name name-style="western"><surname>Deng</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Su</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Krause</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Satheesh</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Ma</surname> <given-names>S</given-names></name>, <etal>et al</etal>. <article-title>Imagenet large scale visual recognition challenge</article-title>. <source>International Journal of Computer Vision</source>. <year>2015</year>;<volume>115</volume>(<issue>3</issue>):<fpage>211</fpage>–<lpage>252</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11263-015-0816-y" xlink:type="simple">10.1007/s11263-015-0816-y</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0202789.ref005">
+<label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Müller</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Clough</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Deselaers</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Caputo</surname> <given-names>B</given-names></name>, <name name-style="western"><surname>CLEF</surname> <given-names>I</given-names></name>. <article-title>Experimental evaluation in visual information retrieval</article-title>. <source>The Information Retrieval Series</source>. <year>2010</year>;<volume>32</volume>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref006">
+<label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Zafarani</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Liu</surname> <given-names>H</given-names></name>. <article-title>Evaluation Without Ground Truth in Social Media Research</article-title>. <source>Commun ACM</source>. <year>2015</year>;<volume>58</volume>(<issue>6</issue>):<fpage>54</fpage>–<lpage>60</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/2666680" xlink:type="simple">10.1145/2666680</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0202789.ref007">
+<label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Kramer</surname> <given-names>AD</given-names></name>, <name name-style="western"><surname>Guillory</surname> <given-names>JE</given-names></name>, <name name-style="western"><surname>Hancock</surname> <given-names>JT</given-names></name>. <article-title>Experimental evidence of massive-scale emotional contagion through social networks</article-title>. <source>Proceedings of the National Academy of Sciences</source>. <year>2014</year>;<volume>111</volume>(<issue>24</issue>):<fpage>8788</fpage>–<lpage>8790</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1073/pnas.1320040111" xlink:type="simple">10.1073/pnas.1320040111</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0202789.ref008">
+<label>8</label>
+<mixed-citation publication-type="other" xlink:type="simple">Graham Y. Re-evaluating Automatic Summarization with BLEU and 192 Shades of ROUGE. In: Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing. Lisbon, Portugal: Association for Computational Linguistics; 2015. p. 128–137. Available from: <ext-link ext-link-type="uri" xlink:href="http://aclweb.org/anthology/D15-1013" xlink:type="simple">http://aclweb.org/anthology/D15-1013</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref009">
+<label>9</label>
+<mixed-citation publication-type="other" xlink:type="simple">Mutton A, Dras M, Wan S, Dale R. GLEU: Automatic evaluation of sentence-level fluency. In: Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics. vol. 7. Association for Computational Linguistics; 2007. p. 344–351.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref010">
+<label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">Papineni K, Roukos S, Ward T, Zhu WJ. BLEU: A Method for Automatic Evaluation of Machine Translation. In: Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics; 2002. p. 311–318.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref011">
+<label>11</label>
+<mixed-citation publication-type="other" xlink:type="simple">Callison-Burch C, Osborne M, Koehn P. Re-evaluating the Role of BLEU in Machine Translation Research. In: 11th Conference of the European Chapter of the Association for Computational Linguistics. Trento, Italy: Association for Computational Linguistics; 2006. p. 249–256. Available from: <ext-link ext-link-type="uri" xlink:href="http://aclweb.org/anthology-new/E/E06/E06-1032" xlink:type="simple">http://aclweb.org/anthology-new/E/E06/E06-1032</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref012">
+<label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bojar O, Graham Y, Kamran A, Stanojević M. Results of the WMT16 Metrics Shared Task. In: Proceedings of the First Conference on Machine Translation. Berlin, Germany: Association for Computational Linguistics; 2016. p. 199–231. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aclweb.org/anthology/W/W16/W16-2302" xlink:type="simple">http://www.aclweb.org/anthology/W/W16/W16-2302</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref013">
+<label>13</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bojar O, Chatterjee R, Federmann C, Graham Y, Haddow B, Huck M, et al. Findings of the 2016 Conference on Machine Translation. In: Proceedings of the First Conference on Machine Translation. Berlin, Germany: Association for Computational Linguistics; 2016. p. 131–198. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aclweb.org/anthology/W/W16/W16-2301" xlink:type="simple">http://www.aclweb.org/anthology/W/W16/W16-2301</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref014">
+<label>14</label>
+<mixed-citation publication-type="other" xlink:type="simple">Graham Y, Ma Q, Baldwin T, Liu Q, Parra C, Scarton C. Improving Evaluation of Document-level MT Quality Estimation. In: Proceedings of the 15th European Chapter of the Association for Computational Linguistics. Valencia, Spain: Association for Computational Linguistics; 2017.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref015">
+<label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bojar O, Ercegovčevic M, Popel M, Zaidan O. A Grain of Salt for the WMT Manual Evaluation. In: Proc. 6th Wkshp. Statistical Machine Translation. Edinburgh, Scotland: Association for Computational Linguistics; 2011. p. 1–11.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref016">
+<label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Graham Y, Baldwin T, Moffat A, Zobel J. Is Machine Translation Getting Better over Time? In: Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics. Gothenburg, Sweden: Association for Computational Linguistics; 2014. p. 443–451. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aclweb.org/anthology/E14-1047" xlink:type="simple">http://www.aclweb.org/anthology/E14-1047</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref017">
+<label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">Graham Y, Mathur N, Baldwin T. Accurate Evaluation of Segment-level Machine Translation Metrics. In: Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics Human Language Technologies. Denver, Colorado: Association for Computational Linguistics; 2015.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref018">
+<label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple">
+<name name-style="western"><surname>Graham</surname> <given-names>Y</given-names></name>, <name name-style="western"><surname>Baldwin</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Moffat</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Zobel</surname> <given-names>J</given-names></name>. <article-title>Can Machine Translation Systems be Evaluated by the Crowd Alone</article-title>. <source>Natural Language Engineering</source>. <year>2017</year>;<volume>23</volume>:<fpage>3</fpage>–<lpage>30</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1351324915000339" xlink:type="simple">10.1017/S1351324915000339</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0202789.ref019">
+<label>19</label>
+<mixed-citation publication-type="other" xlink:type="simple">Ma Q, Graham Y, Wang S, Liu Q. Blend: a Novel Combined MT Metric Based on Direct Assessment. In: Proceedings of the Second Conference on Machine Translation. Copenhagen, Denmark: Association for Computational Linguistics; <year>2017</year>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref020">
+<label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">Awad G, Fiscus J, Michel M, Joy D, Kraaij W, Smeaton AF, et al. TRECVid 2016: Evaluating video search, video event detection, localization, and hyperlinking. In: Proceedings of TRECVID. vol. 2016; <year>2016</year>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref021">
+<label>21</label>
+<mixed-citation publication-type="other" xlink:type="simple">Awad G, Butt A, Fiscus J, Joy D, Delgado A, Michel M, et al. TRECVid 2017: Evaluating ad-hoc and instance video search, events detection, video captioning and hyperlinking. In: Proceedings of TRECVID, NIST, Gaithersburg, Md.; <year>2017</year>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref022">
+<label>22</label>
+<mixed-citation publication-type="other" xlink:type="simple">Banerjee S, Lavie A. METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments. In: Proceedings of the ACL workshop on intrinsic and extrinsic evaluation measures for machine translation and/or summarization. vol. 29; 2005. p. 65–72.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref023">
+<label>23</label>
+<mixed-citation publication-type="other" xlink:type="simple">Han L, Kashyap A, Finin T, Mayfield J, Weese J. UMBC EBIQUITY-CORE: Semantic Textual Similarity Systems. In: Proceedings of the Second Joint Conference on Lexical and Computational Semantics. vol. 1. Association for Computational Linguistics; 2013. p. 44–52.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref024">
+<label>24</label>
+<mixed-citation publication-type="other" xlink:type="simple">Snoek CGM, Gavves E, Hussein N, Koelma DC, Smeulders AWM, Dong J, et al. University of Amsterdam and Renmin University at TRECVID 2016: Searching Video, Detecting Events and Describing Video. In: TRECVID 2016 Workshop. Gaithersburg, MD, USA; <year>2016</year>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref025">
+<label>25</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chen J, Pan P, Huang P, Fan H, Sun J, Yang Y, et al. INF@TRECVID 2016: Video Caption Pilot Task. In: TRECVID 2016 Workshop. Gaithersburg, MD, USA; 2016.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref026">
+<label>26</label>
+<mixed-citation publication-type="other" xlink:type="simple">Marsden M, Mohedano E, McGuinness K, Calafell A, Giro-i Nieto X, O’Connor NE, et al. Dublin City University and Partners’ Participation in the INS and VTT Tracks at TRECVid 2016. In: Proceedings of TREVid, NIST, Gaithersburg, Md., USA; 2016.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref027">
+<label>27</label>
+<mixed-citation publication-type="other" xlink:type="simple">Le DD, Phan S, Nguyen VT, Renoust B, Nguyen TA, Hoang VN, et al. NII-HITACHI-UIT at TRECVID 2016. In: TRECVID 2016 Workshop. Gaithersburg, MD, USA; 2016.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref028">
+<label>28</label>
+<mixed-citation publication-type="other" xlink:type="simple">Wahla SQ, Waqar S, Khan MUG, Gotoh Y. The University of Sheffield and University of Engineering and Technology, Lahore at TRECVid 2016: Video to Text Description Task. In: TRECVID 2016 Workshop. Gaithersburg, MD, USA; <year>2016</year>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref029">
+<label>29</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vedantam R, Lawrence Zitnick C, Parikh D. CIDEr: Consensus-based Image Description Evaluation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition; 2015. p. 4566–4575.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref030">
+<label>30</label>
+<mixed-citation publication-type="other" xlink:type="simple">Xu J, Mei T, Yao T, Rui Y. MSR-VTT: A Large Video Description Dataset for Bridging Video and Language. In: Conference on Computer Vision and Pattern Recognition (CVPR); 2016.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref031">
+<label>31</label>
+<mixed-citation publication-type="book" xlink:type="simple">
+<name name-style="western"><surname>Williams</surname> <given-names>EJ</given-names></name>. <source>Regression analysis</source>. <volume>vol. 14</volume>. <publisher-name>Wiley</publisher-name> <publisher-loc>New York</publisher-loc>; <year>1959</year>.</mixed-citation>
+</ref>
+<ref id="pone.0202789.ref032">
+<label>32</label>
+<mixed-citation publication-type="other" xlink:type="simple">Graham Y, Baldwin T. Testing for Significance of Increased Correlation with Human Judgment. In: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). Doha, Qatar: Association for Computational Linguistics; 2014. p. 172–176. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aclweb.org/anthology/D14-1020" xlink:type="simple">http://www.aclweb.org/anthology/D14-1020</ext-link>.</mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>
