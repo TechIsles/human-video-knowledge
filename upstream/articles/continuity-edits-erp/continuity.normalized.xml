@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="2.3" xml:lang="EN">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Neurosci.</journal-id>
+<journal-title>Frontiers in Neuroscience</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Neurosci.</abbrev-journal-title>
+<issn pub-type="epub">1662-453X</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3389/fnins.2023.1173704</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Neuroscience</subject>
+<subj-group>
+<subject>Original Research</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Cinematographic continuity edits across shot scales and camera angles: an ERP analysis</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name><surname>Sanz-Aznar</surname> <given-names>Javier</given-names></name><xref rid="aff1" ref-type="aff"><sup>1</sup></xref><xref rid="c001" ref-type="corresp"><sup>*</sup></xref><uri ns0:href="https://loop.frontiersin.org/people/1529761/overview" />
+</contrib>
+<contrib contrib-type="author"><name><surname>Bruni</surname> <given-names>Luis Emilio</given-names></name><xref rid="aff2" ref-type="aff"><sup>2</sup></xref><uri ns0:href="https://loop.frontiersin.org/people/2203070/overview" />
+</contrib>
+<contrib contrib-type="author"><name><surname>Soto-Faraco</surname> <given-names>Salvador</given-names></name><xref rid="aff3" ref-type="aff"><sup>3</sup></xref><xref rid="aff4" ref-type="aff"><sup>4</sup></xref><uri ns0:href="https://loop.frontiersin.org/people/7693/overview" />
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>1</sup><institution>Section of Communication, Department of Hispanic Studies, Literary Theory and Communication, University of Barcelona</institution>, <addr-line>Barcelona</addr-line>, <country>Spain</country></aff>
+<aff id="aff2"><sup>2</sup><institution>Augmented Cognition Lab, Section for Media Technology, Department of Architecture, Design and Media Technology, The Technical Faculty of IT and Design, Aalborg University</institution>, <addr-line>Copenhagen</addr-line>, <country>Denmark</country></aff>
+<aff id="aff3"><sup>3</sup><institution>Multisensory Research Group, The Center for Brain and Cognition, Pompeu Fabra University</institution>, <addr-line>Barcelona</addr-line>, <country>Spain</country></aff>
+<aff id="aff4"><sup>4</sup><institution>Institució Catalana de Recerca i Estudis Avançats (ICREA)</institution>, <addr-line>Barcelona</addr-line>, <country>Spain</country></aff>
+<author-notes>
+<fn fn-type="edited-by" id="fn0002">
+<p>Edited by: Celia Andreu-Sánchez, Autonomous University of Barcelona, Spain</p>
+</fn>
+<fn fn-type="edited-by" id="fn0003">
+<p>Reviewed by: Emilia Zabielska-Mendyk, The John Paul II Catholic University of Lublin, Poland; Vladimir Kosonogov, HSE University, Russia</p>
+</fn>
+<corresp id="c001">*Correspondence: Javier Sanz-Aznar, <email>javier.sanz@ub.edu</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>14</day>
+<month>07</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2023</year>
+</pub-date>
+<volume>17</volume>
+<elocation-id>1173704</elocation-id>
+<history>
+<date date-type="received">
+<day>25</day>
+<month>02</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>27</day>
+<month>06</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright © 2023 Sanz-Aznar, Bruni and Soto-Faraco.</copyright-statement>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Sanz-Aznar, Bruni and Soto-Faraco</copyright-holder>
+<license ns0:href="http://creativecommons.org/licenses/by/4.0/">
+<p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+</license>
+</permissions>
+<abstract>
+<p>Film editing has attracted great theoretical and practical interest since the beginnings of cinematography. In recent times, the neural correlates of visual transitions at edit cuts have been at the focus of attention in neurocinematics. Many Event Related Potential (ERP) studies studies have reported the consequences of cuts involving narrative discontinuities, and violations of standard montage rules. However, less is known about edits that are meant to induce continuity. Here, we addressed the neural correlates of continuity editing involving scale, and angle variations across the cut within the same scene, two of the most popular devices used for continuity editing. We recorded the electroencephalographic signal obtained from 20 viewers as they watched four different cinematographic excerpts to extract ERPs at edit points. First, we were able to reproduce the general time and scalp distribution of the typical ERPs to filmic cuts in prior studies. Second, we found significant ERP modulations triggered by scale changes (scale out, scale in, or maintaining the same scale). Edits involving an increase in scale (scale out) led to amplification of the ERP deflection, and scale reduction (scale in) led to decreases, compared to edits that kept scale across the cut. These modulations coincide with the time window of the N300 and N400 components and, according to previous findings, their amplitude has been associated with the likelihood of consciously detecting the edit. Third, we did not detect similar modulations as a function of angle variations across the cut. Based on these findings, we suggest that cuts involving reduction of scale are more likely to go unnoticed, than ones that scale out. This relationship between scale in/out and visibility is documented in film edition manuals. Specifically, in order to achieve fluidity in a scene, the edition is designed from the most opened shots to the most closed ones.</p>
+</abstract>
+<kwd-group>
+<kwd>EEG</kwd>
+<kwd>ERP</kwd>
+<kwd>editing</kwd>
+<kwd>cinema</kwd>
+<kwd>neurocinematics</kwd>
+<kwd>perception</kwd>
+<kwd>film</kwd>
+<kwd>continuity</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6" />
+<table-count count="4" />
+<equation-count count="0" />
+<ref-count count="54" />
+<page-count count="14" />
+<word-count count="9866" />
+</counts>
+<custom-meta-wrap>
+<custom-meta>
+<meta-name>section-at-acceptance</meta-name>
+<meta-value>Perception Science</meta-value>
+</custom-meta>
+</custom-meta-wrap>
+</article-meta>
+</front>
+<body>
+<sec sec-type="intro" id="sec1">
+<label>1.</label>
+<title>Introduction</title>
+<p>In his 1900 film <italic>As Seen Through a Telescope</italic>, G. A. Smith cut from a medium-wide shot (the standard at the time) of a man looking through a telescope, to a close-up of a woman’s ankle. This had the effect of aligning the viewer’s experience with that of the character in a seamless, continuous flow; a powerful narrative device was developed. Cinematography involves the creation of a sense of flow and continuity from a succession of shots with different viewing angles, times, spatial locations and characters. This sense of flow is created in the brain of the viewer, but it is strongly influenced by editing. It is not surprising that throughout the history of cinema, film editing has been extensively studied and remains one of the most essential technical aspects of the medium (<xref ref-type="bibr" rid="ref41">Shklovsky, 1928/1971</xref>; <xref ref-type="bibr" rid="ref29">Mitry, 1963/2002</xref>; <xref ref-type="bibr" rid="ref13">Deleuze, 1984</xref>; <xref ref-type="bibr" rid="ref12">Cutting et al., 2011</xref>).</p>
+<p>In recent decades, with the interest of cognitive neuroscience in the study of different artistic disciplines (e.g., <xref ref-type="bibr" rid="ref32">Ramachandran and Hirstein, 1999</xref>; <xref ref-type="bibr" rid="ref17">Hasson et al., 2008</xref>; <xref ref-type="bibr" rid="ref50">Van de Cruys and Wagemans, 2011</xref>), film editing has once again been at the forefront regarding cinematographic research. Addressing film editing is relevant for the advance of film studies as well as for understanding cognitive processes and their neural underpinnings (<xref ref-type="bibr" rid="ref27">Matusz et al., 2019</xref>; <xref ref-type="bibr" rid="ref47">Soto-Faraco et al., 2019</xref>). For example, the study carried out by Silva and her research team analyzed shot changes across editing cuts to expand neuroscientific knowledge about the memorization and mental organization of episodic events (<xref ref-type="bibr" rid="ref5">Baldassano et al., 2018</xref>; <xref ref-type="bibr" rid="ref42">Silva et al., 2019</xref>), while from a different perspective, Smith developed a theory applicable to continuity in film editing grounded on current knowledge about cognitive processes (<xref ref-type="bibr" rid="ref44">Smith, 2012</xref>).</p>
+<p>Edit cuts may serve a wide variety of purposes as narrative, aesthetic and emotional devices in the context of cinematography. These techniques may pursue the creation of smooth visual continuity flow (continuity edits) or else breaks that flag important narrative boundaries (such as those spanning different scenes). Here, we are especially interested in how different types of shots are combined in continuity editing. This is an essential aspect in cinematographic construction and typically represents one of the most relevant subjects of cinematography handbooks (<xref ref-type="bibr" rid="ref35">Reisz and Millar, 1971</xref>; <xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>), as continuity editing is designed to help direct the viewer’s attention toward the narrative of the film and away from the cinematographic technical artifact (<xref ref-type="bibr" rid="ref8">Burch, 1969</xref>). Subverting these rules breaks continuity, and is sometimes used to expressively highlight shot changes, seeking to have an impact on the audience (<xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>). However, excessive use of forbidden editing [as it was called by <xref ref-type="bibr" rid="ref6">Bazin, 1958/2004</xref>] can break the narrative virtuality of the film, diverting the viewer’s attention from the narrative content.</p>
+<p>Specifically, we are interested in how different types of cuts for continuity affect the viewer depending on changes in shot scale and the filming angle. Cuts involving scale changes (scale-out: from a close to an open shot, or scale-in: from an open to a close shot) are typically used in cinematic language for managing the emotional tension of the scene. A typical filmic structure would start with a wide shot showing the context of the staging, and make the scene unfold dramatically by scaling-in to a closer shot focusing on the main character(s) and their emotional expressions (<xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>). Cuts involving angle variation (the point of view of the camera moves with respect to the object being filmed) are another typical device used in cinematic language, for example when filming a conversation, alternating specific shot angles for each character. In film theory, the angle variation is bounded by the 30-degree rule, whereby 30-degree changes are considered to be the minimal variation needed to maintain a sense of continuity in the viewer (<xref ref-type="bibr" rid="ref40">Shimamura, 2013</xref>; <xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>).</p>
+<p>The study of cinematographic editing in cognitive neuroscience has employed different methods including measurement of response speed and accuracy, eye gaze, and neurophysiological measures with functional magnetic resonance imaging (fMRI) and electroencephalography (EEG). For example, with regard to fMRI, <xref ref-type="bibr" rid="ref24">Magliano and Zacks (2011)</xref> analyzed cuts depending on their continuity or discontinuity in space, time, and action, and discovered that spatial–temporal changes and action changes produced different neural patterns, compared to purely continuity edits. Based on eye-tracking studies, amongst other analytical approaches, <xref ref-type="bibr" rid="ref45">Smith and Henderson (2008)</xref> and <xref ref-type="bibr" rid="ref44">Smith (2012)</xref> proposed the <italic>Attentional Theory of Cinematic Continuity</italic> (AToCC). The AToCC is based on the viewer’s processing of the visual image in relation to gaze shifts and fixations, proposing how a sense of continuity is achieved across the shot change, and the editing techniques that favor it. For example, Smith proposes that attentional cues at the end of one shot may be used to produce a gaze shift in the viewer in order to make the cut to the next shot less noticeable. Regarding EEG approaches, the main lines of analysis cover the temporal and the frequency domains of neural responses. Heimann and her team (2017) combined both to investigate how the shot change affects neural activity when the 180-degree rule is broken. Their results showed that cuts, in general, elicit early event related potentials (ERPs) similar to those produced by syntactic violations in language and action sequences, and also suggested that the left–right reversal resulting when the 180-degree rule is broken caused an orienting deficit, reflected it in the event-related desynchronization/synchronization (ERD/ERS) pattern. We have recently reported a shot change study addressing ERD/ERS analysis, focusing on common patterns triggered by different types of continuity cuts (<xref ref-type="bibr" rid="ref39">Sanz-Aznar et al., 2021</xref>). Our results showed a common pattern of ERD/ERS for continuity cuts related to theta and delta frequency bands, mainly in parietal electrodes. During the first 188 ms following an edit cut there is synchronization in theta rhythms and, between 250 and 750 ms after, a desynchronization in the delta frequency band.</p>
+<p>In the present study we concentrate on the consequences of different types of continuity edit cuts on ERPs extracted from the EEG. ERP analysis provides a continuous measure of processing between a stimulus and a response with better temporal resolution than other physiological measures, making it possible to determine with precision the stage or stages of processing that are affected by a specific experimental manipulation (<xref ref-type="bibr" rid="ref23">Luck, 2014</xref>). This possibility is important in the analysis of film cuts, given their fine temporal pattern within the timeline of the film. With ERPs, differences between cuts can be detected in a time resolved manner and potentially linked to specific stages of information processing (e.g., <xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>; <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli, 2015</xref>).</p>
+<sec id="sec2">
+<label>1.1.</label>
+<title>ERPs to shot change by cut: a brief review of findings</title>
+<p>One of the first studies using ERPs to address edit cuts was conducted by Sitnikova and her research team (2008). In their study, ERPs following the moment of the cut were compared across three types of shot change: cuts in continuity with narrative coherence (take the bread loaf + cut a slice of bread), cuts that violated goal-related action requirements (take the bread loaf + place an iron on the loaf), and cuts that were unexpected but did not violate the goal-related requirements of the action (take the bread loaf + ironing a pair of the pants on an ironing board). Sitnikova et al. found significant differences in an anterior negativity N300/N400 component, which appeared in all three cases but was largest for unexpected cuts, and smallest for continuity cuts. In another study <xref ref-type="bibr" rid="ref34">Reid and Striano (2008)</xref> focused on shot changes related to the completion of a previous activity in the scene. In their study, the shot after the cut could be the predictable completion of the previous action, or an unexpected ending. The ERPs after the unanticipated action endings showed a greater amplitude of the N400 component over frontal, central and parietal regions, with respect to anticipated cuts.</p>
+<p>In a subsequent study, <xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk (2013)</xref> addressed the differences between related and unrelated cuts through ERP analysis. Unrelated cuts refer to those that involve a scene change (<xref ref-type="bibr" rid="ref28">McKee, 1997</xref>), while related cuts refer to shot changes within the same scene. Related cuts maintain the visual unity of the filmic virtuality, at least within the immediate previous narrative context, whilst the unrelated cuts involve discontinuity (the concept of related and unrelated cuts was originally proposed in <xref ref-type="bibr" rid="ref11">Carroll and Bever, 1976</xref>). Francuz and Zabielska-Mendyk found ERP differences in frontal electrode responses between 300 and 648 ms, unrelated cuts displaying more negative ERP compared to related cuts. This result is in line with the findings of <xref ref-type="bibr" rid="ref43">Sitnikova et al. (2008)</xref> and <xref ref-type="bibr" rid="ref34">Reid and Striano (2008)</xref>. In addition, Francuz and Zabielska-Mendyk observed that the same difference extended over central electrodes (from 448 to 648 ms), and similar but opposed polarity differences in parietal electrodes, again with larger amplitude for unrelated cuts.</p>
+<p>Heimann and her research team (2017) addressed the well-known 180-degree rule in film editing, typically used in dialogues between two characters. This is a conventional editing rule whereby all camera shots in the scene must be taken from one side of the virtual axis defined by an imaginary line linking the positions of the two interacting characters, and it is used to prevent confusion in the viewer (<xref ref-type="bibr" rid="ref30">Murch, 1995/2001</xref>; <xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>). Heimann et al. found that cuts that violate the 180-degree rule triggered neuronal responses comparable to those that occur due to syntactic violations in language, such as an early left anterior negativity followed by a late positivity in the same area, and semantic violations such as a negative deflection around 400 ms in frontal scalp electrodes. This is in line with the studies discussed above addressing other breaches in filmic continuity.</p>
+<p>In a different study, <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref> compared ERPs elicited by shot changes (all consisting of related cuts) against a baseline condition without any cut. Compared to a no-cut baseline, shot changes produced a negative potential in the frontal electrodes, from around 100 ms up to 700 ms. Matran-Fernandez and Poli proposed to name the negative potential peaking between 380 and 420 ms, Post-Cut Negativity (PCN). This pattern, coherent with other studies (e.g., <xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>), defines the negative potential in frontal electrodes that is usually related with unexpected information, as is a typical neural reaction triggered by a cut. Analyzing the PCN they found a positive correlation with the duration of the shot preceding the cut, after controlling for luminance variations across cuts.</p>
+<p>More recently, Andreu-Sánchez and her research team (2018) addressed the rhythmic aspect of editing techniques. To do this, they created two audio-visual clips with identical narrative content but different average shot length (ASL), a slow editing rhythm of 5.9 s and a faster one with an ASL of 2.4 s. The results showed that a faster edition triggered higher amplitude ERPs in occipital electrodes compared to slower editing, whilst slower editing triggered higher amplitude responses in the frontal and central scalp regions, compared to faster editing. Based on the results analyzed by ERP, frequency domain analysis and dipole estimation, they concluded that a faster editing rhythm increases attention, but at the same time decreases conscious processing.</p>
+<p>Finally, <xref ref-type="bibr" rid="ref42">Silva et al. (2019)</xref> analyzed editing cuts to study episodic memory encoding. They did not differentiate between types of cuts, but instead, they focused on differentiating those scenes that were remembered from those that had been forgotten, after viewing the film. They found significant differences in the ERPs of remembers vs. forgotten scenes between 600 and 1400 ms. Specifically, cuts that were recalled had elicited a more negative polarity in frontal, parietal and mid-temporal electrodes.</p>
+</sec>
+<sec id="sec3">
+<label>1.2.</label>
+<title>Inferences from the ERP findings so far</title>
+<p>Based on the literature briefly reviewed above, the most characteristic response in the ERP signal triggered by shot changes is a large negative deflection in frontal electrodes between 300 and 700 ms, and a large positive deflection in the parietal scalp (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>). The negative deflection in frontal scalp electrodes could happen due to the overlap of evoked potentials with negative amplitudes, such as N300, N400 (<xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>) and SNW1 (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>), which can be associated to the neural processes triggered by unexpected events. This interpretation is supported by the fact that the amplitude of this frontal negativity is consistently larger when post-cut shots are least expected, such as for unrelated cuts (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>) and for violations of goal-related action expectations (<xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>). <xref ref-type="bibr" rid="ref43">Sitnikova et al. (2008)</xref> noted that the latency of the N400 component for cuts is longer than in N400 arising from semantic inconsistencies when reading, due to the visual permanence of the incongruous information. Based on their investigations, they suggest that spatio-temporal information processing is reflected both in the N400 and in the late positivity.</p>
+<p>In addition, the amplitude of the N400 could be related to the memory formation of the just-encoded event episode (<xref ref-type="bibr" rid="ref42">Silva et al., 2019</xref>). The greater amplitude of N400 observed in the different comparisons between cuts reviewed above may reflect the mapping of visual input for semantic memory in a similar way that happens with language (<xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>). In particular, <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref> suggest that this negative difference potential, located in the frontal and central scalp areas (which could be interpreted as N400 or more broadly as slow cortical potentials – SCP) may reflect the integration of new semantic information acquired after the shot change, built over the context of the previous shot.</p>
+<p>On the other hand, the slow negative wave (SNW1) and slow positive wave (SPW) components, also present in some cases (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>) have been related to an orienting response (OR) or orienting reflex, reflecting an immediate response to a change in the environment (<xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>). The OR is a physiological and behavioral reaction that happens in response to new or unexpected stimuli (<xref ref-type="bibr" rid="ref31">Öhman, 2021</xref>), preceding the orienting of sensory receptors toward salient events in the environment. Thus, the OR causes a non-conscious management of cognitive and attentional resources in order to process certain sensory information, called prominence or saliency (<xref ref-type="bibr" rid="ref14">Evangelopoulos et al., 2013</xref>). <xref ref-type="bibr" rid="ref43">Sitnikova et al. (2008)</xref> related the parietal positive deflection with the analysis of the observer content, even without the need for spatio-temporal inconsistencies to appear in the observed action. Regarding the positive deflection in parietal electrodes, <xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk (2013)</xref> ruled out the possibility that it reflects a P3 component, since the negative responses that co-occur in the frontal area make it incompatible with the P3a responses. Heimann and her research team (<xref ref-type="bibr" rid="ref18">Heimann et al., 2017</xref>) detected a greater amplitude in the ERP between 400 and 600 ms after the cut (P4-6) in central right regions for shot changes that break the 180-degree rule, and lower in anterior left. This response, the authors interpreted, is associated with the adjustments of a detected violation without it reaching a level of visual awareness.</p>
+<p>In summary, the consistent and large anterior negative and posterior positive deflections triggered in the ERPs have been generally related to the detection of incongruences due to the cut, and the ensuing adaptive responses in the brain. Here, the specifics vary from study to study, in part because of the differences in the concrete type of cut used, and the methodological and analytical approaches. For instance, one study showed that related cuts show late positive amplitudes in the central electrodes between 648 and 1800 ms, while unrelated cuts triggered negative amplitudes (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>), regardless of containing violations in goal-related action requirements (<xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>). In this sense, the responses triggered by unrelated cuts match with SNW2 (slow negative wave) responses, which usually appear after SNW1 responses (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>).</p>
+<p>Despite most cut-related differences are seen in late components such as the ones discussed above, some studies have also reported earlier differences, though less consistently. Sitnikova and her research team (2008) reported the presence of components P1 (80 ms), N1 (180 ms) and P2 (220 ms), that reflect some variations due to the different types of shot changes, but not in all cases. They reported a greater negativity in the frontal and central areas, especially in the right hemisphere, between unrelated and related cuts as early as 150 to 250 ms. However, no differences were seen with expectation violations of goal-related action sequences. Heimann and her research team (2017) reported an early posterior negativity between 140 and 220 ms (N2), probably reflecting the recognition of a mismatch that implies bottom-up processes, followed by an early anterior positivity (P2). They interpret these early processes as the reflection that a reanalysis of the stimulus after a breach of expectation.</p>
+<p>The differentiation between types of shot changes that has been studied with ERP (and other methods) has mainly focused on the coherence or incoherence of the narrative and visual content. Fewer studies, however, address variations between types of cuts used to create perceptual and narrative continuity, such as the present study, regarding continuity edits across shot scale and filming angle. The results of <xref ref-type="bibr" rid="ref3">Andreu-Sánchez et al. (2018)</xref>, larger frontal amplitude ERPs for cuts in slower compared to faster editing, and those by <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref>, who found larger Post-Cut Negativity after longer shots, fit well with this more fine-grained approach. Globally, these results would suggest that longer shots accumulate richer, more constraining pre-cut contexts, and therefore a more complex updating process would be required after the edit point (<xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli, 2015</xref>).</p>
+</sec>
+<sec id="sec4">
+<label>1.3.</label>
+<title>Scope of the present research</title>
+<p>Continuity editing is the basis for the construction of the narrative through the fragmentation of the staging, maintaining a sense of continuity in the viewer. Continuity is achieved via a set of editing techniques essential in film construction, conditioning how the spectator perceives the narrative (<xref ref-type="bibr" rid="ref35">Reisz and Millar, 1971</xref>; <xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>), but their brain correlates have not been addressed before in detail. Instead, most studies have addressed the contrast between cut transitions preserving filmic (and narrative) continuity with cut transitions that break this continuity in different ways (scene transitions, semantic violations or breaches in the conventional rules). In the present study we address a comparison between different types of cut transitions meant to preserve continuity [that is, that they are related, in terms of time and space coherence, as described by <xref ref-type="bibr" rid="ref1">Amiel, 2001/2005</xref> and <xref ref-type="bibr" rid="ref8">Burch, 1969</xref>], but change the scale or the filming angle across the cut. The possibility of locating differences in neural responses as a function of the shot scale and filming angle variations between the shots around the cut is consistent with the film theory developed in film editing. According to the scale law and the <italic>30-</italic>degree rule, the shot scale and angle variations larger than 30-degrees (45-degrees in North American film theory, e.g., <xref ref-type="bibr" rid="ref49">Thompson, 1993</xref>) are relevant factors to produce a sense of continuity in the viewer, that is they are thought to go unnoticed (<xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>). One could therefore question whether variations of these, more subtle, types of edits will trigger differences in the typical neural responses to cuts, or any effects at all, in terms of ERPs, similar to the ones seen with more salient (and noticeable) cuts in the research reviewed above.</p>
+<p>According to these past studies, the neuronal correlates registered from frontal and posterior electrodes are sensitive to different types of cuts between 300 and 700 ms (e.g., <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>; <xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>). Therefore, if present, one would expect differences to be located mainly in the amplitudes of the signals between 300 and 700 ms, being negative in frontal electrodes and positive in posterior electrodes (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>). Specifically, according to previous research (<xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>), we expected to find differences in two time windows: from 250 to 350 ms, and from 350 to 600 ms.</p>
+</sec>
+</sec>
+<sec sec-type="methods" id="sec5">
+<label>2.</label>
+<title>Methods</title>
+<p>These analyses have been performed on a dataset used in a previous research study (<xref ref-type="bibr" rid="ref37">Sanz-Aznar et al., 2020</xref>, <xref ref-type="bibr" rid="ref39">2021</xref>), which addressed ERD/ERS but not ERPs. Below, we provide a brief description of the methods and design. The EEG recording was carried out on the participants while they passively viewed four film excerpts without any particular task. The analysis focused on the shot change (outgoing shot replaced by incoming shot) instant and subsequent time window. The specific pre-processing and data analyses are presented in full detail. <xref rid="fig1" ref-type="fig">Figure 1</xref> visually represents the scheme of the experimental design.</p>
+<fig position="float" id="fig1">
+<label>Figure 1</label>
+<caption>
+<p>Visual representation of the study design.</p>
+</caption>
+<graphic ns0:href="fnins-17-1173704-g001.tif" />
+</fig>
+<sec id="sec6">
+<label>2.1.</label>
+<title>Participants</title>
+<p>Twenty subjects from the University of Aalborg, Denmark, chosen amongst undergraduate, master and, PhD students. The participants had an average age of 26 years (range 22–38 years old; 11 male and 9 female). Participants received 100 Danish Krone (approximately 13.42 Euro at the time of testing) worth of vouchers as compensation for their time, which they could redeem at a Danish cinema chain for tickets, popcorn and soft drinks. The experiment had the Aalborg University ethical approval signed letter with ID 2020-020-00504.</p>
+</sec>
+<sec id="sec7">
+<label>2.2.</label>
+<title>Materials and procedure</title>
+<p>To carry out the experiment, we extracted four fragments from four feature films: <italic>Bonnie &amp; Clyde</italic> (3′05″, <xref ref-type="bibr" rid="ref9003">Penn, 1967</xref>), <italic>The Searchers</italic> (3′08″, <xref ref-type="bibr" rid="ref9004">Ford, 1956</xref>), <italic>Whiplash</italic> (5′07″, <xref ref-type="bibr" rid="ref9002">Chazelle, 2014</xref>) and <italic>On the Waterfront</italic> (3′11″, <xref ref-type="bibr" rid="ref9001">Kazan, 1954</xref>). The indicated films can be classified within the institutional mode of representation (IMR) defined by <xref ref-type="bibr" rid="ref9">Burch (1987/2006)</xref>. This mode of representation encompasses the usual style of cinema consumed by the typical film spectator in western countries. The selected excerpts contained shot changes edited in continuity without temporal or spatial breaks, that conform to the definitions of absolute connection or articulated montage (<xref ref-type="bibr" rid="ref1">Amiel, 2001/2005</xref>), as well as the categories of continuity or proximity in terms of spatiality and rigorously continuous or hiatus in terms of temporality (<xref ref-type="bibr" rid="ref8">Burch, 1969</xref>). These categories defined by Amiel and Burch are the ones that allow the spectator to keep the virtual sensation of a continuous space–time, allowing the possibility of a continuity cut.</p>
+<p>We chose 4 films with clear differences in terms of rhythm, esthetics and cinematographic technique, trying to compensate as much as possible the influence of spurious aspects of one specific film in the results (<xref rid="tab1" ref-type="table">Table 1</xref>)<xref rid="fn0001" ref-type="fn"><sup>1</sup></xref>. For each film excerpt, we selected the cuts that fitted the continuity criteria mentioned above and, in addition, had incoming shots longer than 1000 ms (to ensure sufficiently long analysis epoch): 72 usable cuts in <italic>Bonnie &amp; Clyde</italic> (14 not usable), 13 in <italic>The Searchers</italic> (1 not usable), 106 in <italic>Whiplash</italic> (6 not usable) and 42 in <italic>On the Waterfront</italic> (4 not usable). Usable cuts refer those continuity cuts in which the incoming shot is longer than 1000 ms, that suppose the analysis epochs. The average length of the shots for <italic>Bonnie &amp; Clyde</italic> is 2.3 s (<italic>SD</italic> = 3.56, <italic>Min</italic> = 1.04, <italic>Max</italic> = 25.7), for <italic>The Searchers</italic> is 11.83 s (<italic>SD</italic> = 10.57, <italic>Min</italic> = 4.08, <italic>Max</italic> = 41.25), for <italic>Whiplash</italic> is 2.95 s (<italic>SD</italic> = 3.04, <italic>Min</italic> = 1.04, <italic>Max</italic> = 21.96) and for <italic>On the Waterfront</italic> is 4.26 s (<italic>SD</italic> = 2.37, <italic>Min</italic> = 1.33, <italic>Max</italic> = 13). To control for sequential effects, the order of the 4 excerpts was randomized for each subject. Before the viewing begins a white image with a central fixation cross was shown for 1′30″, and for 15″ between excerpts.</p>
+<table-wrap position="float" id="tab1">
+<label>Table 1</label>
+<caption>
+<p>Film excerpts characteristics.</p>
+</caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th align="left" valign="top" char="×">Film</th>
+<th align="char" valign="top" char="×">Excerpt timecode<sup>a</sup></th>
+<th align="char" valign="top" char="×">Color or B&amp;W</th>
+<th align="char" valign="top" char="×">Rhythmic ratio<sup>b</sup></th>
+<th align="char" valign="top" char="×">Narrative value<sup>c</sup></th>
+<th align="char" valign="top" char="×">Aesthetics<sup>d</sup></th>
+<th align="char" valign="top" char="×">Filmic style<sup>e</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<italic>Bonnie &amp; Clyde</italic>
+</td>
+<td align="center" valign="middle">01:46:48:01 to 01:49:53:02</td>
+<td align="left" valign="middle">Color</td>
+<td align="center" valign="top">27.24</td>
+<td align="left" valign="middle">Inflection point. Strong conflict.</td>
+<td align="left" valign="middle">Modern</td>
+<td align="left" valign="middle">Transition</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<italic>The Searchers</italic>
+</td>
+<td align="center" valign="middle">00:01:35:00 to 00:04:42:20</td>
+<td align="left" valign="middle">Color</td>
+<td align="center" valign="top">4.79</td>
+<td align="left" valign="middle">Character presentation. No conflict.</td>
+<td align="left" valign="middle">Classical</td>
+<td align="left" valign="middle">Classical</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<italic>Whiplash</italic>
+</td>
+<td align="center" valign="middle">00:23:33:13 to 00:28:40:13</td>
+<td align="left" valign="middle">Color</td>
+<td align="center" valign="top">21.89</td>
+<td align="left" valign="middle">Inflection point. Strong conflict.</td>
+<td align="left" valign="middle">Modern</td>
+<td align="left" valign="middle">Post-classical</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<italic>On the Waterfront</italic>
+</td>
+<td align="center" valign="middle">00:21:24:08 to 00:24:35:16</td>
+<td align="left" valign="middle">Black and White</td>
+<td align="center" valign="top">14.45</td>
+<td align="left" valign="middle">Scene before an inflection point. Low conflict.</td>
+<td align="left" valign="middle">Classical</td>
+<td align="left" valign="middle">Classical</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<p><sup>a</sup>Timecode format: Hour:Minute:Second:Frame. <sup>b</sup>Average cuts per minute in the film excerpt. <sup>c</sup>Narrative value in relation to the cinematographic narration and the conflict shown in the excerpt (<xref ref-type="bibr" rid="ref28">McKee, 1997</xref>). <sup>d</sup>Lighting style (<xref ref-type="bibr" rid="ref36">Revault D’Allonnes, 1991</xref>). <sup>e</sup>Cinematographic style (<xref ref-type="bibr" rid="ref7">Bordwell, 1985</xref>; <xref ref-type="bibr" rid="ref22">Langford, 2009</xref>; <xref ref-type="bibr" rid="ref48">Thanouli, 2009</xref>).</p>
+</table-wrap-foot>
+</table-wrap>
+<p>The EEG recordings were carried out from 31 electrodes distributed according to the American Electroencephalographic Society 10–20 system, as the participants watched the movie excerpts without any particular task required (as movies are normally watched). The sampling frequency was 256 Hz. The devices used to amplify the EEG signal were two channel box g.Tec g.Gammabox connected to two biological amplifier g.Tec g.USB Amp. Both types of dispositive have 16 channels each, so connecting one device as a master and another as a slave allows 32 channels. The EEG signal was referenced to the right earlobe (online) and to the Fp1 electrode (offline). The recorded signal was analyzed using EEGLab (v2021.1) in MatLab (R2017a) environment, as well as the statistics. The recorded signal was re-referenced to the average of all scalp channels, Common Average Reference (<xref ref-type="bibr" rid="ref23">Luck, 2014</xref>; <xref ref-type="bibr" rid="ref51">Yao et al., 2019</xref>). The specific distribution of the electrodes on the scalp is represented in <xref rid="fig2" ref-type="fig">Figure 2A</xref>.</p>
+<fig position="float" id="fig2">
+<label>Figure 2</label>
+<caption>
+<p><bold>(A)</bold> Distribution of the electrodes used in the experiment (highlighted in yellow). <bold>(B)</bold> Examples for each type of cut used in the study. <bold>(C)</bold>. Example of type of cut segmentation for <italic>The Searchers</italic>.</p>
+</caption>
+<graphic ns0:href="fnins-17-1173704-g002.tif" />
+</fig>
+<p>After recording the signal, a manual artifact rejection procedure was performed, and ICA was applied to separate the components caused by blinks and other muscle movements with a range of flagging from 90 to 100%. We applied a bandpass filter to the raw signal from 0.2 to 40 Hz. The average number of rejected epochs per subject was 18.22% (Min: 4.29%, Max: 42.06%). To carry out the ERP analysis, the signal was segmented in 1200 ms epochs, from −200 before to 1000 ms after the cut, with the 200 ms before to the cut used as baseline (following <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli, 2015</xref>).</p>
+</sec>
+<sec id="sec8">
+<label>2.3.</label>
+<title>Analyses</title>
+<p>We selected two broad electrodes clusters of interest. The frontal cluster included Fp1, Fp2, Afz, F7, F3, Fz, F4, F8, Fc1 and Fc2, and the posterior cluster (parieto-occipital) included P7, P5, P3, Pz, P4, P6, P8, PO3, PO4, O1, Oz, O2, PO7 and PO8.</p>
+<p>We first performed an analysis pooling all of the cuts together, simply comparing ERPs to cuts (stimulus) vs. no cut (absence of stimulus) segments (see below, for more details). The ERP for cut and no-cut condition are referenced to the same baseline, 200 ms before the cut [−200 ms, 0 ms], where 0 ms is the moment of the cut. Cut condition epochs included the first 1000 ms after the cut [0 ms, 1000 ms] and no-cut condition epoch included to the 1000 ms right before the reference [−1200 ms, −200 ms]. The analysis was run for comparison to the study by <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref> comparing cuts vs. no-cuts between 380 and 420 ms using the Mann–Whitney test. As we re-referenced the electrodes to the average of all the scalp channels, we applied the analysis only to the frontal area and the posterior area independently, instead of grouping all the electrodes as done originally in Matran-Fernández and Poli.</p>
+<p>Then we performed two comparative analyses contrasting the conditions (types of cuts) of interest (<xref rid="fig2" ref-type="fig">Figures 2B,C</xref> and <xref rid="tab2" ref-type="table">Table 2</xref>). The first addressed scale variations, comparing the cuts as they scale in, scale out, or keep the same scale. To address cuts with scale variations we used a cluster-based permutation test, with the three conditions (keep, scale in, scale out) as independent variables. The second analysis focused on variations in filming angle, comparing cuts that keep the same filming axis (below 30°) with those that vary it (larger than 30°) using cluster-based permutation test. The statistical analysis Monte Carlo method, based on 500 randomizations (<xref ref-type="bibr" rid="ref18">Heimann et al., 2017</xref>), with cluster correction, was applied in the two electrode clusters established (frontal and posterior) in both cases. We carried out time resolved point-by-point contrast across the first 0–1000 ms window after the cut.</p>
+<table-wrap position="float" id="tab2">
+<label>Table 2</label>
+<caption>
+<p>Number of usable cuts (epochs) per each condition.</p>
+</caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th align="left" valign="top">Film excerpt</th>
+<th align="center" valign="top">Cut</th>
+<th align="center" valign="top">No-cut (before cut)</th>
+<th align="center" valign="top">Keep scale</th>
+<th align="center" valign="top">Scale in</th>
+<th align="center" valign="top">Scale out</th>
+<th align="center" valign="top">Same axis</th>
+<th align="center" valign="top">Angle variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<italic>Bonnie &amp; Clyde</italic>
+</td>
+<td align="center" valign="middle">72</td>
+<td align="center" valign="middle">72</td>
+<td align="center" valign="middle">25</td>
+<td align="center" valign="middle">24</td>
+<td align="center" valign="middle">23</td>
+<td align="center" valign="middle">30</td>
+<td align="center" valign="middle">42</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<italic>The Searchers</italic>
+</td>
+<td align="center" valign="middle">13</td>
+<td align="center" valign="middle">13</td>
+<td align="center" valign="middle">3</td>
+<td align="center" valign="middle">5</td>
+<td align="center" valign="middle">5</td>
+<td align="center" valign="middle">3</td>
+<td align="center" valign="middle">10</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<italic>Whiplash</italic>
+</td>
+<td align="center" valign="middle">106</td>
+<td align="center" valign="middle">106</td>
+<td align="center" valign="middle">78</td>
+<td align="center" valign="middle">14</td>
+<td align="center" valign="middle">14</td>
+<td align="center" valign="middle">12</td>
+<td align="center" valign="middle">94</td>
+</tr>
+<tr>
+<td align="left" valign="middle">
+<italic>On the Waterfront</italic>
+</td>
+<td align="center" valign="middle">42</td>
+<td align="center" valign="middle">42</td>
+<td align="center" valign="middle">13</td>
+<td align="center" valign="middle">14</td>
+<td align="center" valign="middle">15</td>
+<td align="center" valign="middle">9</td>
+<td align="center" valign="middle">33</td>
+</tr>
+<tr>
+<td align="left" valign="middle">Total</td>
+<td align="center" valign="middle">233</td>
+<td align="center" valign="middle">233</td>
+<td align="center" valign="top">119</td>
+<td align="center" valign="top">57</td>
+<td align="center" valign="top">57</td>
+<td align="center" valign="middle">54</td>
+<td align="center" valign="middle">179</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>Then, following <xref ref-type="bibr" rid="ref43">Sitnikova et al. (2008)</xref>, we focused on the average voltage amplitude in two time windows of interest; 250 to 350 ms, and 350 to 600 ms. These two time windows cover the typical times for the N300 and N400 epochs. Like Sitnikova, we used ANOVA to compare the different conditions (keep, scale in, scale out) as independent variables. We also applied <italic>t</italic>-tests for follow-up pairwise comparations. To reduce Type I error consequence of multiple comparison test <italic>p</italic>-values were adjusted for multiple comparison using Bonferroni correction and the accepted significance value for both cases was <italic>p</italic>-value ≤ 0.01. To estimate the effect size, we applied partial eta squared for ANOVAs and Cohen’s <italic>d</italic> for pairwise comparations.</p>
+</sec>
+</sec>
+<sec sec-type="results" id="sec9">
+<label>3.</label>
+<title>Results</title>
+<sec id="sec10">
+<label>3.1.</label>
+<title>ERPs to cuts compared to no-cut periods</title>
+<p>We first compared ERPs to cuts vs. a no cut baseline period of equal duration, as a reality check with respect to previous results using a similar method (e.g., <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli, 2015</xref>). We compared the average ERP in the interval [0–1000 ms] pooled over all the cuts (<xref rid="fig3" ref-type="fig">Figure 3</xref>, red line) with the average ERP of the interval [−1200 ms, −200 ms] prior to each cut (<xref rid="fig3" ref-type="fig">Figure 3</xref>, black line), which did not contain any cut. The ERPs were baseline corrected to the 200 ms interval before the cut [−200 ms, 0 ms]. As in previous experiments (e.g., <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli, 2015</xref>), the cut event triggered an ERP clearly differentiated from the signal where there is no shot change, as shown in <xref rid="fig3" ref-type="fig">Figure 3</xref>.</p>
+<fig position="float" id="fig3">
+<label>Figure 3</label>
+<caption>
+<p>ERP for cut events (all cuts pooled, in black) and no-cut baseline (in red) for each electrode.</p>
+</caption>
+<graphic ns0:href="fnins-17-1173704-g003.tif" />
+</fig>
+<p>Cut-evoked ERPs display a negative potential from 200 ms onwards in frontal electrodes, and a positive potential in the posterior areas, compared to no cut events. <xref rid="fig4" ref-type="fig">Figure 4A</xref> shows the cut condition for frontal and posterior electrodes.</p>
+<fig position="float" id="fig4">
+<label>Figure 4</label>
+<caption>
+<p><bold>(A)</bold> Grand-average ERP for all cuts pooled for the frontal (left), and posterior (right) electrode clusters. Shaded areas represent the standard error of measurement (SEM) of ERP. <bold>(B)</bold> Scalp distribution of the voltage variation for all the cuts pooled together, compared to no cut, in 100 ms time steps.</p>
+</caption>
+<graphic ns0:href="fnins-17-1173704-g004.tif" />
+</fig>
+<p>The frontal cluster showed a clear negative potential peaking between 300 and 400 ms, followed by a progressive return to baseline until the end of the epoch. This posterior positive deflection peaks between 300 and 400 ms, followed by return to baseline until the end of the epoch. The scalp distributions (<xref rid="fig4" ref-type="fig">Figure 4B</xref>) of the average of the signal recorded following the cuts confirm the positive deflection in the posterior scalp, and a negative one in the frontal scalp, between 200 and 800 ms.</p>
+<p>To further characterize this pattern, we applied a statistical approach similar to <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref>, comparing cut vs. no-cut between 380 and 420 ms using a Mann–Whitney test. We applied this comparison to the frontal and posterior electrode clusters separately, because unlike Matran-Fernandez and Poli, who used a whole scalp ERP (Global Field Power), our ERPs were already re-referenced the whole scalp.</p>
+<p>We obtained a significant difference in both clusters, frontal (cut = −0.9261 μV vs. no cut = −0.043 μV <italic>W</italic> = 66, <italic>p</italic> &lt; 0.01) as well as in posterior clusters (0.9229 μV vs. 0.0549 μV; <italic>W</italic> = 187, <italic>p</italic> &lt; 0.01). Based on the results obtained in this across-the-board ERP analysis, we can differentiate cut condition from no-cut condition with our set of materials. We then concentrate on specific cut types separately for the frontal and the posterior clusters.</p>
+</sec>
+<sec id="sec11">
+<label>3.2.</label>
+<title>ERPs following scales changes across the cut</title>
+<p>To address scale variations between the shots across the cut, we carried out a point-by-point cluster-based permutation test (with one within-subject factor, scale change: scale in, scale out, or keep), separately for each electrode cluster (frontal, posterior), and established the significance level at <italic>p</italic>-value≤0.01. In frontal (<xref rid="fig5" ref-type="fig">Figure 5A</xref>) and posterior (<xref rid="fig5" ref-type="fig">Figure 5B</xref>) cluster analyses, the point-by-point cluster-based permutation test returned significant effects between 300 and 800 ms, according with the proposed hypothesis.</p>
+<fig position="float" id="fig5">
+<label>Figure 5</label>
+<caption>
+<p><bold>(A,B)</bold> Grand-average ERPs for each type of scale variation cuts (see legend) in the frontal <bold>(A)</bold> and posterior <bold>(B)</bold> electrode clusters. Shaded areas represent the SEM of ERP. In the timeline, black segments indicate significant effects in the cluster-based permutation test, <italic>p</italic>-value ≤ 0.01. <bold>(C)</bold> Scalp distribution of the negative and positive deflections, as a function of scale change across the cut, presented in windows of 100 ms after the cut.</p>
+</caption>
+<graphic ns0:href="fnins-17-1173704-g005.tif" />
+</fig>
+<p>The magnitude of the negative frontal deflection (observed for all cuts pooled, in the previous analysis) varied as a function of the scale change across the edit (see <xref rid="fig5" ref-type="fig">Figures 5A,C</xref>). In particular, scale out produced a larger negative shift compared to those that keep the scale, whereas cuts with scale in produced a smaller negative shift, compared to keep-scale cuts. This was confirmed statistically, using the same time windows as in Sitnikova et al. The ANOVAs in the frontal cluster resulted significant in the 250–350 ms window [<italic>F</italic>(2,75) = 50.37, <italic>p</italic> &lt; 0.01, <italic>η<sup>2</sup></italic> = 0.573 (large effect)], and in the 350–600 ms window [<italic>F</italic>(2,189) = 171.59, <italic>p</italic> &lt; 0.01, <italic>η<sup>2</sup></italic> = 0.645 (large effect)]. The follow-up pair-wise <italic>t</italic>-tests confirmed the pattern described above in both time windows (ERP amplitude, scale out &gt; maintain &gt; scale in; see <xref rid="tab3" ref-type="table">Table 3</xref>, for statistical values).</p>
+<table-wrap position="float" id="tab3">
+<label>Table 3</label>
+<caption>
+<p><italic>t</italic>-test results for the two time windows (250–350 ms; 350–600 ms) and clusters (frontal and posterior) for paired comparations between scale in, scale out and maintain scale.</p>
+</caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th />
+<th align="center" valign="top">Time window</th>
+<th align="left" valign="top">Comparation</th>
+<th align="center" valign="top">
+<italic>df</italic>
+</th>
+<th align="center" valign="top">
+<italic>t</italic>
+</th>
+<th align="center" valign="top">
+<italic>P</italic>
+</th>
+<th align="char" valign="top" char="×">
+<italic>d</italic>
+</th>
+<th align="char" valign="top" char="×">Effect size interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="middle" rowspan="6">Frontal</td>
+<td align="center" valign="middle" rowspan="3">250–350 ms</td>
+<td align="left" valign="middle">Out vs. keep</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−2.11</td>
+<td align="center" valign="middle">0.05</td>
+<td align="center" valign="top">−0.473</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+<tr>
+<td align="left" valign="middle">Out vs. In</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−3.54</td>
+<td align="center" valign="middle">&lt;0.01</td>
+<td align="center" valign="top">−0.794</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+<tr>
+<td align="left" valign="middle">In vs. Keep</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−2.10</td>
+<td align="center" valign="middle">0.05</td>
+<td align="center" valign="top">−0.469</td>
+<td align="left" valign="top">Small</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="3">350–600 ms</td>
+<td align="left" valign="middle">Out vs. keep</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−1.60</td>
+<td align="center" valign="middle">0.125</td>
+<td align="center" valign="top">0.359</td>
+<td align="left" valign="top">Small</td>
+</tr>
+<tr>
+<td align="left" valign="middle">Out vs. In</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−4.06</td>
+<td align="center" valign="middle">&lt;0.01</td>
+<td align="center" valign="top">0.909</td>
+<td align="left" valign="top">Large</td>
+</tr>
+<tr>
+<td align="left" valign="middle">In vs. Keep</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−7.33</td>
+<td align="center" valign="middle">&lt;0.01</td>
+<td align="center" valign="top">1.64</td>
+<td align="left" valign="top">Trivial</td>
+</tr>
+<tr>
+<td align="left" valign="middle" rowspan="6">Posterior</td>
+<td align="center" valign="middle" rowspan="3">250–350 ms</td>
+<td align="left" valign="top">Out vs. keep</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">2.85</td>
+<td align="center" valign="middle">0.01</td>
+<td align="center" valign="top">0.638</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+<tr>
+<td align="left" valign="top">Out vs. In</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">3.85</td>
+<td align="center" valign="middle">&lt;0.01</td>
+<td align="center" valign="top">0.337</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+<tr>
+<td align="left" valign="top">In vs. Keep</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">2.05</td>
+<td align="center" valign="middle">0.05</td>
+<td align="center" valign="top">−0.008</td>
+<td align="left" valign="top">Trivial</td>
+</tr>
+<tr>
+<td align="center" valign="middle" rowspan="3">350–600 ms</td>
+<td align="left" valign="top">Out vs. keep</td>
+<td align="center" valign="top">19</td>
+<td align="center" valign="top">3.35</td>
+<td align="center" valign="top">&lt;0.01</td>
+<td align="center" valign="top">0.750</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+<tr>
+<td align="left" valign="top">Out vs. In</td>
+<td align="center" valign="top">19</td>
+<td align="center" valign="top">6.61</td>
+<td align="center" valign="top">&lt;0.01</td>
+<td align="center" valign="top">1.479</td>
+<td align="left" valign="top">Large</td>
+</tr>
+<tr>
+<td align="left" valign="top">In vs. Keep</td>
+<td align="center" valign="top">19</td>
+<td align="center" valign="top">6.91</td>
+<td align="center" valign="top">&lt;0.01</td>
+<td align="center" valign="top">1.545</td>
+<td align="left" valign="top">Large</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>In the posterior cluster (<xref rid="fig5" ref-type="fig">Figure 5B</xref>) the ANOVA returned significant effects around the window 300–800 ms. The posterior electrode cluster displayed a positive shift between 300 and 800 ms, consistent with what had been observed in the overall analyses (all cuts pooled). Like for the negative shift in frontal electrodes, the amplitude of the posterior positive shift depended on the type of scale change across the cut, following a similar pattern: with respect to keeping scale, scale out produced stronger shift, and scale in produced a decrease in the positive shift. For consistency, we used the same time windows as before for the statistical confirmation of this pattern. The ANOVAs for the window 250–350 ms and the 350–600 ms window in the posterior were both significant {respectively, [<italic>F</italic>(2,75) = 55.95, <italic>p</italic> &lt; 0.01, <italic>η<sup>2</sup></italic> = 0.599 (large effect)], [<italic>F</italic>(2,189) = 45.03, <italic>p</italic> &lt; 0.01, <italic>η<sup>2</sup></italic> = 0.605 (large effect)]}. The follow up paired <italic>t</italic>-tests confirmed the pattern with the significance levels (see <xref rid="tab3" ref-type="table">Table 3</xref>).</p>
+</sec>
+<sec id="sec12">
+<label>3.3.</label>
+<title>ERPs following angle variations across the cut</title>
+<p>To address shot changes that vary the filming axis we started with a point-by-point approach as before, using cluster-based permutation test. The outcome is not as conclusive as for scale variations (see, <xref rid="fig6" ref-type="fig">Figure 6A</xref>).</p>
+<fig position="float" id="fig6">
+<label>Figure 6</label>
+<caption>
+<p><bold>(A)</bold> ERPs for edits with and without angle variation across the cut for the frontal (left) and the posterior (right) electrode clusters. Shaded areas represent the SEM of ERP. In the timeline, significant effects in the cluster-based permutation test, <italic>p</italic>-value ≤ 0.01 are indicated in black (no significant effects were found). <bold>(B)</bold> Scalp distribution of the voltage variations as a function of the angle variation (same or different axis) across the cut, presented in windows of 100 ms after the cut.</p>
+</caption>
+<graphic ns0:href="fnins-17-1173704-g006.tif" />
+</fig>
+<p>As can be seen in <xref rid="fig6" ref-type="fig">Figure 6A</xref>, there were no significant differences in the ERP between 200 and 800 ms, the approximate segment of interest. For completeness, the scalp distributions are shown in <xref rid="fig6" ref-type="fig">Figure 6B</xref>. Therefore, the ERPs to this type of cut followed the general profile that was expected from previous research, as well as our own analysis of the pooled dataset, and the scale variation cuts: frontal negative deflection and posterior positive deflection, over the 200–800 ms window, with peaks happening 300–400 ms. Yet, there were no detectable ERP changes as a function of filming angle variation across the cut. The <italic>t</italic>-test for the window 250–350 ms and the 350–600 ms window in the frontal and posterior cluster were no significant. Results can be consulted in <xref rid="tab4" ref-type="table">Table 4</xref>.</p>
+<table-wrap position="float" id="tab4">
+<label>Table 4</label>
+<caption>
+<p><italic>t</italic>-test results for the two time windows (250–350 ms; 350–600 ms) and clusters (frontal and posterior) for paired comparations between same or different axis.</p>
+</caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th />
+<th align="char" valign="top" char="×">Time window</th>
+<th align="char" valign="top" char="×">
+<italic>df</italic>
+</th>
+<th align="char" valign="top" char="×">
+<italic>t</italic>
+</th>
+<th align="char" valign="top" char="×">
+<italic>P</italic>
+</th>
+<th align="char" valign="top" char="×">
+<italic>d</italic>
+</th>
+<th align="char" valign="top" char="×">Effect size interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="middle" rowspan="2">Frontal</td>
+<td align="left" valign="middle">250–350 ms</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−0.62</td>
+<td align="center" valign="middle">0.54</td>
+<td align="center" valign="top">−0.139</td>
+<td align="left" valign="top">Trivial</td>
+</tr>
+<tr>
+<td align="left" valign="middle">350–600 ms</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−2.40</td>
+<td align="center" valign="middle">0.03</td>
+<td align="center" valign="top">−0.536</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+<tr>
+<td align="left" valign="middle" rowspan="2">Posterior</td>
+<td align="left" valign="top">250–350 ms</td>
+<td align="center" valign="middle">19</td>
+<td align="center" valign="middle">−1.08</td>
+<td align="center" valign="middle">0.29</td>
+<td align="center" valign="top">0.241</td>
+<td align="left" valign="top">Small</td>
+</tr>
+<tr>
+<td align="left" valign="top">350–600 ms</td>
+<td align="center" valign="top">19</td>
+<td align="center" valign="top">2.78</td>
+<td align="center" valign="top">0.01</td>
+<td align="center" valign="top">0.622</td>
+<td align="left" valign="top">Medium</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+</sec>
+<sec sec-type="discussions" id="sec13">
+<label>4.</label>
+<title>Discussion</title>
+<p>At variance from most ERP studies addressing continuity violations or unrelated filmic cuts, we addressed potential differences between different types of continuity edits. Understanding how the human brain captures shot changes across cuts is important because they are amongst the most widely used devices for film composition in cinematography. In particular, we set out to analyze the ERPs following related film edits which involved differences in shot scale (scale in, scale out, or keep scale) and in shot angle (angle variation, vs. same axis). For example, scale and angle variation across shots help articulate different space and unity pieces and adding a hierarchical value of different shots within the scene whilst maintaining a feel of continuity in the viewer (<xref ref-type="bibr" rid="ref35">Reisz and Millar, 1971</xref>; <xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>).</p>
+<p>In order to align our results with those of previous studies we first analyzed the ERPs to all cuts pooled together, with respect to a no-cut baseline. Please note that such reality check does not only seek confirmation of previous findings, but also helps bring some coherence across the very different filmic materials and potential viewing conditions across different studies. Our results were overall consistent with the previous literature that analyzed the ERP triggered by shot changes, with very clear ERPs evoked by editing cuts (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>; <xref ref-type="bibr" rid="ref3">Andreu-Sánchez et al., 2018</xref>; <xref ref-type="bibr" rid="ref2">Andreu-Sánchez and Martín-Pascual, 2021</xref>). However, because of methodological difference we can only confirm the existence of the PCN (380–420 ms), described by <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref> for all the electrodes, in frontal electrodes. Based on our across-the-board ERP analysis, we saw a negative potential appearing at a frontal cluster and a positive posterior deflection, peaking between 300 and 400 ms, both followed by return to baseline until the end of the epoch. This result coincides in frontal electrodes with that obtained by Matran-Fernandez and Poli, whose working hypothesis was that the cut would trigger an N400, due to abrupt change of visual information. However, our results differ in the posterior cluster, which in our case shows a clear positive deflection.</p>
+<p>This divergence between results could be related to the different references used to calculate the ERPs across the two studies (averaged earlobes in <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli, 2015</xref>; whole scalp average in ours), making the direction and distribution of electrical fields not direcly comparable between studies. However, the temporal profile of the frontal negativity seen in our results fits well with the timing in Matran-Fernandez &amp; Poli, as well as with that of several other ERP studies to filmic cuts (<xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>). About the positive deflection detected in posterior cluster, our results are generally coincident with most previous research (e.g., <xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>; <xref ref-type="bibr" rid="ref3">Andreu-Sánchez et al., 2018</xref>; <xref ref-type="bibr" rid="ref2">Andreu-Sánchez and Martín-Pascual, 2021</xref>).</p>
+<p>In general, the ERP pattern can be described as a negative component in frontal electrodes and positive deflection in posterior electrodes, extending roughly from 200 to 800 ms, with peaks between 200 and 400 ms. These results, coincide with abundant previous literature (<xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>; <xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>), and provide grounds for the investigation of variations as a function of cut type in the time windows of interest in the present study. These neuronal correlates have been related to the processing of cognitive inconsistencies triggered by the sudden change of visual input produced across the editing cut (<xref ref-type="bibr" rid="ref42">Silva et al., 2019</xref>). This interpretation is coherent with our own results, but also with other studies addressing other ERP components, such as the study by <xref ref-type="bibr" rid="ref10">Calbi et al. (2017)</xref>. Calbi et al. analyzed the Kuleshov effect (<xref ref-type="bibr" rid="ref20">Kuleshov, 1934/1994</xref>) by focusing on the ERP N170, which is characteristically elicited by faces. They concluded that the Kuleshov effect is the consequence of an attribution of expectations set by the shot preceding the cut as a function of the emotional coherence, or incoherence, across the edit.</p>
+<p>As the main focus of our research, we registered effects in this frontal-negative and posterior-positive deflections related to different types of cuts depending on the scale variation. The negative-going deflection in the frontal cluster had a graded amplitude depending on the type of scale change across the cut, with similar scalp distributions in all cases: The largest shift corresponded to scale out, whilst scale in cuts led to the smallest (yet still significant) deflection, with ERPs to cuts keeping the scale falling in-between. Given the timing and scalp distribution of these negative shifts, one could relate them to the N300 and N400 components, following the interpretation of earlier ERP studies addressing film cuts (<xref ref-type="bibr" rid="ref16">Hamm et al., 2002</xref>; <xref ref-type="bibr" rid="ref21">Kumar et al., 2021</xref>). In particular, amplitude differences in the N300 and N400 are common in research that compares different types of cuts (<xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>), although they have so far been studied for edit transitions involving some degree of narrative or filmic continuity breach such as related vs. unrelated, predictable vs. unpredicted action continuations, or semantic and compositional incongruences. For instance, larger N400s are usually seen in cuts with action incoherence (<xref ref-type="bibr" rid="ref34">Reid and Striano, 2008</xref>; <xref ref-type="bibr" rid="ref43">Sitnikova et al., 2008</xref>). Based on these interpretations and the effects observed here, we might suggest the hypothesis that scale reductions from one shot to the next (scale in) may reduce the perception of incoherence, compared to keeping scale, and to a larger extent, scaling out. According to <xref ref-type="bibr" rid="ref26">Matran-Fernandez and Poli (2015)</xref>, the amplitude variation in N400 may reflect the integration of new semantic information built on the context of the previous shot. Interpreting our results under this light, a reduction in shot scale may imply a smaller amount of new information to integrate than scaling out.</p>
+<p>On the other hand, the positive shift in the posterior cluster between 300 and 800 ms also varied in amplitude as a function of cut type in our results. Again, and in parallel to the anterior cluster, scaling out produced the largest amplitude in this component, followed by keep and then by scaling in. According to prior ERP studies on film editing, amplitude variations in the posterior responses between 350 and 450 ms have been related to a greater inconsistency between shots across an edit (<xref ref-type="bibr" rid="ref15">Francuz and Zabielska-Mendyk, 2013</xref>). Based on these previous investigations, scale out would enhance neural responses related to visual incongruity, with these effects being smoother in the case of scale in.</p>
+<p>Overall, the results from the frontal and parieto-occipital clusters are coherent, allowing us to propose the interpretation that scale out produce greater incoherence (at least, in terms of neural correlates) than scale in, with cuts that keep the scale constant being an intermediate case. According to this interpretation, one would therefore expect that scale out would be more noticeable on average to the viewers than scale in across shots in a related cut. This relationship between scale in/out and visibility is known in professional film editing and well documented in film editing handbooks. Specifically, to achieve smooth flow in a scene, the editing should be designed from the most open shots to closed ones (<xref ref-type="bibr" rid="ref35">Reisz and Millar, 1971</xref>). Since it is not possible to sustain an incremental reduction of scale throughout each cut along a scene, the correspondence law (<xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>) is often applied. The correspondence law consists of keeping the same scale (among other aspects) to keep editing flow. The ERP results thus coincide with the praxis in cinema montage. However, it would be interesting to test these predictions in a behavioral experiment, using perhaps a similar approach as that of <xref ref-type="bibr" rid="ref45">Smith and Henderson (2008)</xref> or <xref ref-type="bibr" rid="ref24">Magliano and Zacks (2011)</xref>, where they asked participants to explicitly detect edit points whilst watching a film.</p>
+<p>Regarding the other main focus of our study, cuts based on the angle variation, the results did not show significant differences in the ERPs. In this case we cannot confirm the expectation, according to the film theory. According to the <italic>30-</italic>degree rule (<xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>) the cuts that imply less than 30<sup>0</sup> of variation (including those with no angle variation) should produce less continuity feeling in the viewer than the cuts that change the camera angle by more than 30<sup>0</sup>. Cuts that break the <italic>30-</italic>degree rule are thought to be more ‘aggressive’ from a cognitive point of view and perceived by the viewer as a jump in the continuity flow (<xref ref-type="bibr" rid="ref19">Königsberg, 1987</xref>; <xref ref-type="bibr" rid="ref25">Marimón, 2015</xref>). Please note that although we have not found significant results in this case, there could be an actual difference, but the effect size might be small and our measurement not sensitive enough. Perhaps related to this, <xref ref-type="bibr" rid="ref46">Smith et al. (2012)</xref> proposed that spatial memory is worse than identification memory, and therefore the spectator does not retain an allocentric representation of scenes. Maybe this poorer spatial reference explains the absence of significant results in N300 and N400 for angle variations. If this speculation where true, and in the light of our results, one would expect that, overall, angle variations should be less noticeable consciously than variations in scale.</p>
+<p>In another investigation using the same dataset used here some of us have addressed (<xref ref-type="bibr" rid="ref38">Sanz-Aznar et al., 2023</xref>) similar comparisons between cuts through ERD/ERS analysis, instead of ERPs. This analyses found differences between related cuts that vary shot angle vs. those that keep the same axis, as well as cuts that vary the scale of the shot vs. those that keep it. These differences were found in the first 125 ms after the cut, in central and posterior electrodes and between 300 and 1000 ms in frontal and parietal electrodes, in the frequency range Theta (3–7 Hz) and Delta (0.5–3 Hz). Theta frequency results relevant in the first 400 ms and delta from 500 ms.</p>
+</sec>
+<sec sec-type="conclusions" id="sec14">
+<label>5.</label>
+<title>Conclusion</title>
+<p>We have investigated ERPs to film cuts using widely accepted editing techniques employed to confer a sense of continuity in the viewer, such as scale in/out, and angle variation. In all cases, these techniques have been developed with intuition and practice by filmmakers and montage professionals, to maintain a sense of continuity and flow across cuts. Our results seem to provide grounds for validation of this common editing practice from a neuroscience perspective and, importantly, may lay the basis for addressing other common editing techniques or even test new editing variations in a principled way. As one potential limitation of the current experimental approach, it should be noted that the subject’s perceptive evaluation of the cut events are not taken into account. This decision was made consciously, because we sought to reproduce the cinematographic viewing experience as much as possible, hence favoring a passive viewing without specific task. Finally, the present results also raise some expectations regarding the viewer’s awareness of visual edits in films. The results obtained allow us to hypothesize that the spectator could have a greater awareness of the visual transitions involving scaling out than when scaling in, with shot changes that keep constant scale as an intermediate typology. This means that in film editing, when a cut scales in, it should be more invisible for the spectator than a cut that scales out. No significant differences have been detected when comparing cuts with different camera angles between shots, and so this case remains less conclusive.</p>
+</sec>
+<sec sec-type="data-availability" id="sec15">
+<title>Data availability statement</title>
+<p>The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found at: <ext-link ns0:href="https://osf.io/m97xf/" ext-link-type="uri">https://osf.io/m97xf/</ext-link>.</p>
+</sec>
+<sec id="sec16">
+<title>Ethics statement</title>
+<p>The studies involving human participants were reviewed and approved by the experiment had the Aalborg University ethical approval signed letter with ID 2020-020-00504. The patients/participants provided their written informed consent to participate in this study.</p>
+</sec>
+<sec id="sec17">
+<title>Author contributions</title>
+<p>JS-A and LB experimental design and carried out experiments. SS-F and JS-A performed data analysis and wrote the article. All authors contributed to the article and approved the submitted version.</p>
+</sec>
+<sec sec-type="funding-information" id="sec18">
+<title>Funding</title>
+<p>This research was supported by the Ministerio de Ciencia e Innovación (PID2019-108531GB-I00 AEI/FEDER), AGAUR Generalitat de Catalunya (2021 SGR 00911) grants to SS-F and NextGenerationEU (Margarita Salas) grant to JS-A.</p>
+</sec>
+<sec sec-type="COI-statement" id="sec19">
+<title>Conflict of interest</title>
+<p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+<sec id="sec100" sec-type="disclaimer">
+<title>Publisher’s note</title>
+<p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>We thank Mireia Torralba for her valuable help about Matlab coding and Cristina Baus for her advice about ERP analysis pipeline.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="ref1"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Amiel</surname> <given-names>V.</given-names></name></person-group> (<year>2001/2005</year>). <source>Estética del montaje</source>. <publisher-loc>Madrid</publisher-loc>: <publisher-name>Alba Editores</publisher-name>.</citation></ref>
+<ref id="ref2"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Andreu-Sánchez</surname> <given-names>C.</given-names></name> <name><surname>Martín-Pascual</surname> <given-names>M. Á.</given-names></name></person-group> (<year>2021</year>). <article-title>Perception of cuts in different editing styles</article-title>. <source>Profesional de la Información</source> <volume>30</volume>:<fpage>e300206</fpage>. doi: <pub-id pub-id-type="doi">10.3145/epi.2021.mar.06</pub-id></citation></ref>
+<ref id="ref3"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Andreu-Sánchez</surname> <given-names>C.</given-names></name> <name><surname>Martín-Pascual</surname> <given-names>M.</given-names></name> <name><surname>Gruart</surname> <given-names>A.</given-names></name> <name><surname>Delgado-García</surname> <given-names>J.</given-names></name></person-group> (<year>2018</year>). <article-title>Chaotic and fast audiovisuals increase attentional scope but decrease conscious processing</article-title>. <source>Neuroscience</source> <volume>394</volume>, <fpage>83</fpage>–<lpage>97</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.neuroscience.2018.10.025</pub-id>, PMID: <pub-id pub-id-type="pmid">30367947</pub-id></citation></ref>
+<ref id="ref5"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Baldassano</surname> <given-names>C.</given-names></name> <name><surname>Hasson</surname> <given-names>U.</given-names></name> <name><surname>Norman</surname> <given-names>K. A.</given-names></name></person-group> (<year>2018</year>). <article-title>Representation of real-world event schemas during narrative perception</article-title>. <source>J. Neurosci.</source> <volume>38</volume>, <fpage>9689</fpage>–<lpage>9699</lpage>. doi: <pub-id pub-id-type="doi">10.1523/JNEUROSCI.0251-18.2018</pub-id>, PMID: <pub-id pub-id-type="pmid">30249790</pub-id></citation></ref>
+<ref id="ref6"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Bazin</surname> <given-names>A.</given-names></name></person-group> (<year>1958/2004</year>). <source>¿Qué es el cine?</source> <publisher-loc>Madrid</publisher-loc>: <publisher-name>Ediciones Rialp</publisher-name>.</citation></ref>
+<ref id="ref7"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Bordwell</surname> <given-names>D.</given-names></name></person-group> (<year>1985</year>). <source>Narration in the fiction film</source>. <publisher-loc>Madison</publisher-loc>: <publisher-name>University of Wisconsin Press</publisher-name>.</citation></ref>
+<ref id="ref8"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Burch</surname> <given-names>N.</given-names></name></person-group> (<year>1969</year>). <source>Praxis du cinéma</source>. <publisher-loc>Paris</publisher-loc>: <publisher-name>Gallimard</publisher-name>.</citation></ref>
+<ref id="ref9"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Burch</surname> <given-names>N.</given-names></name></person-group> (<year>1987/2006</year>). <source>El tragaluz del infinito</source>. <publisher-loc>Madrid</publisher-loc>: <publisher-name>Ediciones Cátedra</publisher-name>.</citation></ref>
+<ref id="ref10"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Calbi</surname> <given-names>M.</given-names></name> <name><surname>Heimann</surname> <given-names>K.</given-names></name> <name><surname>Barratt</surname> <given-names>D.</given-names></name> <name><surname>Siri</surname> <given-names>F.</given-names></name> <name><surname>Umilta</surname> <given-names>M.</given-names></name> <name><surname>Gallese</surname> <given-names>V.</given-names></name></person-group> (<year>2017</year>). <article-title>How context influences our perception of emotional faces: a behavioral study on the Kuleshov effect</article-title>. <source>Front. Psychol.</source> <volume>8</volume>:<fpage>1684</fpage>. doi: <pub-id pub-id-type="doi">10.3389/fpsyg.2017.01684</pub-id>, PMID: <pub-id pub-id-type="pmid">29046652</pub-id></citation></ref>
+<ref id="ref11"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Carroll</surname> <given-names>J.</given-names></name> <name><surname>Bever</surname> <given-names>T.</given-names></name></person-group> (<year>1976</year>). <article-title>Segmentation in cinema perception</article-title>. <source>Science</source> <volume>191</volume>, <fpage>1053</fpage>–<lpage>1055</lpage>. doi: <pub-id pub-id-type="doi">10.1126/science.1251216</pub-id></citation></ref>
+<ref id="ref9002"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Chazelle</surname> <given-names>D.</given-names></name></person-group> (Director). (<year>2014</year>). <source>Whiplash</source> [Film]. Blumhouse Productions.</citation></ref>
+<ref id="ref12"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Cutting</surname> <given-names>J.</given-names></name> <name><surname>Brunick</surname> <given-names>K.</given-names></name> <name><surname>DeLong</surname> <given-names>J.</given-names></name> <name><surname>Iricinschi</surname> <given-names>C.</given-names></name> <name><surname>Candan</surname> <given-names>A.</given-names></name></person-group> (<year>2011</year>). <article-title>Quicker, faster, darker: changes in Hollywood film over 75 years</article-title>. <source>Iperception</source> <volume>2</volume>, <fpage>569</fpage>–<lpage>576</lpage>. doi: <pub-id pub-id-type="doi">10.1068/i0441aap</pub-id></citation></ref>
+<ref id="ref13"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Deleuze</surname> <given-names>G.</given-names></name></person-group> (<year>1984</year>). <source>La imagen-movimiento. Estudios sobre cine 1</source>. <publisher-loc>Barcelona</publisher-loc>: <publisher-name>Ediciones Paidós</publisher-name>.</citation></ref>
+<ref id="ref14"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Evangelopoulos</surname> <given-names>G.</given-names></name> <name><surname>Zlatintsi</surname> <given-names>A.</given-names></name> <name><surname>Potamianos</surname> <given-names>A.</given-names></name> <name><surname>Maragos</surname> <given-names>P.</given-names></name> <name><surname>Rapantzikos</surname> <given-names>K.</given-names></name> <name><surname>Skoumas</surname> <given-names>G.</given-names></name> <etal /></person-group>. (<year>2013</year>). <article-title>Multimodal saliency and fusion for movie summarization based on aural, visual, and textual attention</article-title>. <source>IEEE Trans Multimedia</source> <volume>15</volume>, <fpage>1553</fpage>–<lpage>1568</lpage>. doi: <pub-id pub-id-type="doi">10.1109/TMM.2013.2267205</pub-id></citation></ref>
+<ref id="ref9004"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Ford</surname> <given-names>J.</given-names></name></person-group> (Director). (<year>1956</year>). <source>The searchers</source> [Film]. Warner Bros.</citation></ref>
+<ref id="ref15"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Francuz</surname> <given-names>P.</given-names></name> <name><surname>Zabielska-Mendyk</surname> <given-names>E.</given-names></name></person-group> (<year>2013</year>). <article-title>Does the brain differentiate between related and unrelated cuts when processing audiovisual messages? An ERP study</article-title>. <source>Media Psychol.</source> <volume>16</volume>, <fpage>461</fpage>–<lpage>475</lpage>. doi: <pub-id pub-id-type="doi">10.1080/15213269.2013.831394</pub-id></citation></ref>
+<ref id="ref16"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hamm</surname> <given-names>J. P.</given-names></name> <name><surname>Johnson</surname> <given-names>B. W.</given-names></name> <name><surname>Kirk</surname> <given-names>I. J.</given-names></name></person-group> (<year>2002</year>). <article-title>Comparison of the N300 and N400 ERPs to picture stimuli in congruent and incongruent contexts</article-title>. <source>Clin. Neurophysiol.</source> <volume>113</volume>, <fpage>1339</fpage>–<lpage>1350</lpage>. doi: <pub-id pub-id-type="doi">10.1016/S1388-2457(02)00161-X</pub-id></citation></ref>
+<ref id="ref17"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hasson</surname> <given-names>U.</given-names></name> <name><surname>Landesman</surname> <given-names>O.</given-names></name> <name><surname>Knappmeyer</surname> <given-names>B.</given-names></name> <name><surname>Vallines</surname> <given-names>I.</given-names></name> <name><surname>Rubin</surname> <given-names>N.</given-names></name> <name><surname>Heeger</surname> <given-names>D.</given-names></name></person-group> (<year>2008</year>). <article-title>Neurocinematics: the neuroscience of film</article-title>. <source>Projections</source> <volume>2</volume>, <fpage>1</fpage>–<lpage>26</lpage>. doi: <pub-id pub-id-type="doi">10.3167/proj.2008.020102</pub-id></citation></ref>
+<ref id="ref18"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Heimann</surname> <given-names>K.</given-names></name> <name><surname>Uithol</surname> <given-names>S.</given-names></name> <name><surname>Calbi</surname> <given-names>M.</given-names></name> <name><surname>Umiltà</surname> <given-names>M.</given-names></name> <name><surname>Guerra</surname> <given-names>M.</given-names></name> <name><surname>Gallese</surname> <given-names>V.</given-names></name></person-group> (<year>2017</year>). <article-title>“Cuts in action”: a high-density EEG study investigating the neural correlates of different editing techniques in film</article-title>. <source>Cogn. Sci.</source> <volume>41</volume>, <fpage>1555</fpage>–<lpage>1588</lpage>. doi: <pub-id pub-id-type="doi">10.1111/cogs.12439</pub-id>, PMID: <pub-id pub-id-type="pmid">27882594</pub-id></citation></ref>
+<ref id="ref9001"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Kazan</surname> <given-names>E.</given-names></name></person-group> (Director). (<year>1954</year>). <source>On the waterfront</source> [Film]. Columbia Pictures.</citation></ref>
+<ref id="ref19"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Königsberg</surname> <given-names>I.</given-names></name></person-group> (<year>1987</year>). <source>The complete film dictionary</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Bloomsbury</publisher-name>.</citation></ref>
+<ref id="ref20"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Kuleshov</surname> <given-names>L.</given-names></name></person-group> (<year>1934/1994</year>). <source>L'art du cinéma et autres écrits</source>. <publisher-loc>Levier</publisher-loc>: <publisher-name>L'Age d'Homme</publisher-name>.</citation></ref>
+<ref id="ref21"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Kumar</surname> <given-names>M.</given-names></name> <name><surname>Federmeier</surname> <given-names>K. D.</given-names></name> <name><surname>Beck</surname> <given-names>D. M.</given-names></name></person-group> (<year>2021</year>). <article-title>The N300: an index for predictive coding of complex visual objects and scenes</article-title>. <source>Cerebral Cortex Commun.</source> <volume>2</volume>:<fpage>tgab030</fpage>. doi: <pub-id pub-id-type="doi">10.1093/texcom/tgab030</pub-id>, PMID: <pub-id pub-id-type="pmid">34296175</pub-id></citation></ref>
+<ref id="ref22"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Langford</surname> <given-names>B.</given-names></name></person-group> (<year>2009</year>). <source>Post-classical hollywood: film industry, style and ideology since 1945: film industry, style and ideology since 1945</source>. <publisher-loc>Edinburgh</publisher-loc>: <publisher-name>Edinburgh University Press</publisher-name>.</citation></ref>
+<ref id="ref23"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Luck</surname> <given-names>S. J.</given-names></name></person-group> (<year>2014</year>). <source>An introduction to the event-related potential technique</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>MIT press</publisher-name>.</citation></ref>
+<ref id="ref24"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Magliano</surname> <given-names>J. P.</given-names></name> <name><surname>Zacks</surname> <given-names>J. M.</given-names></name></person-group> (<year>2011</year>). <article-title>The impact of continuity editing in narrative film on event segmentation</article-title>. <source>Cogn. Sci.</source> <volume>35</volume>, <fpage>1489</fpage>–<lpage>1517</lpage>. doi: <pub-id pub-id-type="doi">10.1111/j.1551-6709.2011.01202.x</pub-id>, PMID: <pub-id pub-id-type="pmid">21972849</pub-id></citation></ref>
+<ref id="ref25"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Marimón</surname> <given-names>J.</given-names></name></person-group> (<year>2015</year>). <source>El muntatge cinematogràfic. Del guió a la pantalla</source>. <publisher-loc>Barcelona</publisher-loc>: <publisher-name>Edicions Universitat Barcelona</publisher-name>.</citation></ref>
+<ref id="ref26"><citation citation-type="confproc"><person-group person-group-type="author"><name><surname>Matran-Fernandez</surname> <given-names>A.</given-names></name> <name><surname>Poli</surname> <given-names>R.</given-names></name></person-group> (<year>2015</year>). <article-title>Event-related potentials induced by cuts in feature movies and their exploitation for understanding cut efficacy</article-title>. <conf-name>Proceedings of the 2015 7th International IEEE/EMBS conference on neural engineering (NER)</conf-name> (pp. <fpage>74</fpage>–<lpage>77</lpage>). <publisher-loc>Montpellier</publisher-loc>: <publisher-name>IEEE</publisher-name>.</citation></ref>
+<ref id="ref27"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Matusz</surname> <given-names>P. J.</given-names></name> <name><surname>Dikker</surname> <given-names>S.</given-names></name> <name><surname>Huth</surname> <given-names>A. G.</given-names></name> <name><surname>Perrodin</surname> <given-names>C.</given-names></name></person-group> (<year>2019</year>). <article-title>Are we ready for real-world neuroscience?</article-title> <source>J. Cogn. Neurosci.</source> <volume>31</volume>, <fpage>327</fpage>–<lpage>338</lpage>. doi: <pub-id pub-id-type="doi">10.1162/jocn_e_01276</pub-id></citation></ref>
+<ref id="ref28"><citation citation-type="book"><person-group person-group-type="author"><name><surname>McKee</surname> <given-names>R.</given-names></name></person-group> (<year>1997</year>). <source>Story: substance, structure, style and the principles of screenwriting</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>ReganBooks</publisher-name>.</citation></ref>
+<ref id="ref29"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Mitry</surname> <given-names>J.</given-names></name></person-group> (<year>1963/2002</year>). <source>Estética y psicología del cine</source>. <publisher-loc>Madrid</publisher-loc>: <publisher-name>Siglo Veintiuno</publisher-name>.</citation></ref>
+<ref id="ref30"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Murch</surname> <given-names>W.</given-names></name></person-group> (<year>1995/2001</year>). <source>In the blink of an eye: A perspective on film editing</source>. <publisher-loc>Los Angeles</publisher-loc>: <publisher-name>Silman-James Press</publisher-name>.</citation></ref>
+<ref id="ref31"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Öhman</surname> <given-names>A.</given-names></name></person-group> (<year>2021</year>). <article-title>The orienting response, attention, and learning: an information-processing perspective</article-title>. In <person-group person-group-type="editor"><name><surname>Kimmel</surname> <given-names>H. D.</given-names></name> <name><surname>Olst</surname> <given-names>E. H.</given-names><prefix>van</prefix></name> <name><surname>Orlebeke</surname> <given-names>J. F.</given-names></name></person-group> (Eds.) <source>The orienting reflex in humans</source> (pp. <fpage>443</fpage>–<lpage>471</lpage>). <publisher-loc>London</publisher-loc>: <publisher-name>Routledge</publisher-name>.</citation></ref>
+<ref id="ref9003"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Penn</surname> <given-names>A.</given-names></name></person-group> (Director). (<year>1967</year>). <source>Bonnie &amp; Clyde</source> [Film]. Warner Bros. Pictures.</citation></ref>
+<ref id="ref32"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Ramachandran</surname> <given-names>V.</given-names></name> <name><surname>Hirstein</surname> <given-names>W.</given-names></name></person-group> (<year>1999</year>). <article-title>The science of art: a neurological theory of aesthetic experience</article-title>. <source>J. Conscious. Stud.</source> <volume>6</volume>, <fpage>15</fpage>–<lpage>41</lpage>.</citation></ref>
+<ref id="ref33"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Redfern</surname> <given-names>N.</given-names></name></person-group> (<year>2022</year>). <article-title>Analysing motion picture cutting rates</article-title>. <source>Wide Screen</source> <volume>9</volume>, <fpage>1</fpage>–<lpage>29</lpage>.</citation></ref>
+<ref id="ref34"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Reid</surname> <given-names>V.</given-names></name> <name><surname>Striano</surname> <given-names>T.</given-names></name></person-group> (<year>2008</year>). <article-title>N400 involvement in the processing of action sequences</article-title>. <source>Neurosci. Lett.</source> <volume>433</volume>, <fpage>93</fpage>–<lpage>97</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.neulet.2007.12.066</pub-id>, PMID: <pub-id pub-id-type="pmid">18255228</pub-id></citation></ref>
+<ref id="ref35"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Reisz</surname> <given-names>K.</given-names></name> <name><surname>Millar</surname> <given-names>G.</given-names></name></person-group> (<year>1971</year>). <source>The technique of film editing</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Elsevier</publisher-name>.</citation></ref>
+<ref id="ref36"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Revault D’Allonnes</surname> <given-names>F.</given-names></name></person-group> (<year>1991</year>). <source>La Lumière au cinéma</source>. <publisher-loc>Paris</publisher-loc>: <publisher-name>Seuil</publisher-name>.</citation></ref>
+<ref id="ref37"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Sanz-Aznar</surname> <given-names>J.</given-names></name> <name><surname>Aguilar-Paredes</surname> <given-names>C.</given-names></name> <name><surname>Sánchez-Gómez</surname> <given-names>L.</given-names></name> <name><surname>Bruni</surname> <given-names>L. Y.</given-names></name> <name><surname>Wulff-Abramsson</surname> <given-names>A.</given-names></name></person-group> (<year>2020</year>). <article-title>Methodology for detection of ERD/ERS EEG patterns produced by cut events in film fragments</article-title>. <source>Lect. Notes Comput. Sci</source> <volume>12196</volume>, <fpage>157</fpage>–<lpage>175</lpage>. doi: <pub-id pub-id-type="doi">10.1007/978-3-030-50353-6_12</pub-id></citation></ref>
+<ref id="ref38"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Sanz-Aznar</surname> <given-names>J.</given-names></name> <name><surname>Sánchez-Gómez</surname> <given-names>L.</given-names></name> <name><surname>Aguilar-Paredes</surname> <given-names>C.</given-names></name> <name><surname>Wulff-Abramsson</surname> <given-names>A.</given-names></name> <name><surname>Luis Emilio Bruni</surname> <given-names>L. E.</given-names></name></person-group> (<year>2023</year>). <article-title>Differentiating types of cinematographic shot changes by cut through an EEG power spectral analysis</article-title>. <source>Psychol. Aesthet. Creat. Arts</source> <volume>17</volume>. doi: <pub-id pub-id-type="doi">10.1037/aca0000609</pub-id></citation></ref>
+<ref id="ref39"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Sanz-Aznar</surname> <given-names>J.</given-names></name> <name><surname>Sánchez-Gómez</surname> <given-names>L.</given-names></name> <name><surname>Bruni</surname> <given-names>L. E.</given-names></name> <name><surname>Aguilar-Paredes</surname> <given-names>C. Y.</given-names></name> <name><surname>Wulff-Abramsson</surname> <given-names>A.</given-names></name></person-group> (<year>2021</year>). <article-title>Neural responses to shot changes by cut in cinematographic editing: an EEG (ERD/ERS) study</article-title>. <source>PLoS One</source> <volume>16</volume>:<fpage>e0258485</fpage>. doi: <pub-id pub-id-type="doi">10.1371/journal.pone.0258485</pub-id>, PMID: <pub-id pub-id-type="pmid">34648560</pub-id></citation></ref>
+<ref id="ref40"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Shimamura</surname> <given-names>A.</given-names></name></person-group> (<year>2013</year>). “<article-title>Psychocinematics: issues and directions</article-title>” in <source>Psychocinematics: Exploring cognition at the movies</source>. ed. <person-group person-group-type="editor"><name><surname>Shimamura</surname> <given-names>A.</given-names></name></person-group> (<publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>), <fpage>1</fpage>–<lpage>26</lpage>.</citation></ref>
+<ref id="ref41"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Shklovsky</surname> <given-names>V.</given-names></name></person-group> (<year>1928/1971</year>). <source>Cine y lenguaje</source>. <publisher-loc>Barcelona</publisher-loc>: <publisher-name>Anagrama</publisher-name>.</citation></ref>
+<ref id="ref42"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Silva</surname> <given-names>M.</given-names></name> <name><surname>Baldassano</surname> <given-names>C.</given-names></name> <name><surname>Fuentemilla</surname> <given-names>L.</given-names></name></person-group> (<year>2019</year>). <article-title>Rapid memory reactivation at movie event boundaries promotes episodic encoding</article-title>. <source>J. Neurosci.</source> <volume>39</volume>, <fpage>8538</fpage>–<lpage>8548</lpage>. doi: <pub-id pub-id-type="doi">10.1523/JNEUROSCI.0360-19.2019</pub-id>, PMID: <pub-id pub-id-type="pmid">31519818</pub-id></citation></ref>
+<ref id="ref43"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Sitnikova</surname> <given-names>T.</given-names></name> <name><surname>Holcomb</surname> <given-names>P.</given-names></name> <name><surname>Kiyonaga</surname> <given-names>K.</given-names></name> <name><surname>Kuperberg</surname> <given-names>G.</given-names></name></person-group> (<year>2008</year>). <article-title>Two neurocognitive mechanisms of semantic integration during the comprehension of visual real-world events</article-title>. <source>J. Cogn. Neurosci.</source> <volume>20</volume>, <fpage>2037</fpage>–<lpage>2057</lpage>. doi: <pub-id pub-id-type="doi">10.1162/jocn.2008.20143</pub-id>, PMID: <pub-id pub-id-type="pmid">18416681</pub-id></citation></ref>
+<ref id="ref44"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname> <given-names>T.</given-names></name></person-group> (<year>2012</year>). <article-title>An attentional theory of cinematic continuity</article-title>. <source>PRO</source> <volume>6</volume>, <fpage>1</fpage>–<lpage>27</lpage>. doi: <pub-id pub-id-type="doi">10.3167/proj.2012.060102</pub-id></citation></ref>
+<ref id="ref45"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname> <given-names>T.</given-names></name> <name><surname>Henderson</surname> <given-names>J.</given-names></name></person-group> (<year>2008</year>). <article-title>Edit blindness: the relationship between attention and global change blindness in dynamic scenes</article-title>. <source>J. Eye Mov. Res.</source> <volume>2</volume>, <fpage>1</fpage>–<lpage>17</lpage>. doi: <pub-id pub-id-type="doi">10.16910/jemr.2.2.6</pub-id></citation></ref>
+<ref id="ref46"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname> <given-names>T.</given-names></name> <name><surname>Levin</surname> <given-names>D.</given-names></name> <name><surname>Cutting</surname> <given-names>J.</given-names></name></person-group> (<year>2012</year>). <article-title>A window on reality: perceiving edited moving images</article-title>. <source>Curr. Dir. Psychol. Sci.</source> <volume>21</volume>, <fpage>107</fpage>–<lpage>113</lpage>. doi: <pub-id pub-id-type="doi">10.1177/0963721412436809</pub-id></citation></ref>
+<ref id="ref47"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Soto-Faraco</surname> <given-names>S.</given-names></name> <name><surname>Kvasova</surname> <given-names>D.</given-names></name> <name><surname>Biau</surname> <given-names>E.</given-names></name> <name><surname>Ikumi</surname> <given-names>N.</given-names></name> <name><surname>Ruzzoli</surname> <given-names>M.</given-names></name> <name><surname>Morís-Fernández</surname> <given-names>L.</given-names></name> <etal /></person-group>. (<year>2019</year>). <source>Multisensory interactions in the real world (elements in perception)</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</citation></ref>
+<ref id="ref48"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Thanouli</surname> <given-names>E.</given-names></name></person-group> (<year>2009</year>). <source>Post-classical cinema: an international poetics of film narration</source>. <publisher-loc>London</publisher-loc>: <publisher-name>Wallflower Press</publisher-name>.</citation></ref>
+<ref id="ref49"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Thompson</surname> <given-names>R.</given-names></name></person-group> (<year>1993</year>). <source>Grammar of the edit</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Butterworth–Heinemann</publisher-name>.</citation></ref>
+<ref id="ref50"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Van de Cruys</surname> <given-names>S.</given-names></name> <name><surname>Wagemans</surname> <given-names>J.</given-names></name></person-group> (<year>2011</year>). <article-title>Putting reward in art: a tentative prediction error account of visual art</article-title>. <source>Iperception</source> <volume>2</volume>, <fpage>1035</fpage>–<lpage>1062</lpage>. doi: <pub-id pub-id-type="doi">10.1068/i0466aap</pub-id>, PMID: <pub-id pub-id-type="pmid">23145260</pub-id></citation></ref>
+<ref id="ref51"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yao</surname> <given-names>D.</given-names></name> <name><surname>Qin</surname> <given-names>Y.</given-names></name> <name><surname>Hu</surname> <given-names>S.</given-names></name> <name><surname>Dong</surname> <given-names>L.</given-names></name> <name><surname>Bringas Vega</surname> <given-names>M. L.</given-names></name> <name><surname>Valdés Sosa</surname> <given-names>P. A.</given-names></name></person-group> (<year>2019</year>). <article-title>Which reference should we use for EEG and ERP practice?</article-title> <source>Brain Topogr.</source> <volume>32</volume>, <fpage>530</fpage>–<lpage>549</lpage>. doi: <pub-id pub-id-type="doi">10.1007/s10548-019-00707-x</pub-id>, PMID: <pub-id pub-id-type="pmid">31037477</pub-id></citation></ref>
+</ref-list>
+<fn-group>
+<fn id="fn0001">
+<p><sup>1</sup>To define the technical and esthetic differences between the film excerpts, we resorted to analysis references that provide general classifications regarding lighting esthetics (<xref ref-type="bibr" rid="ref36">Revault D’Allonnes, 1991</xref>), film style (<xref ref-type="bibr" rid="ref7">Bordwell, 1985</xref>; <xref ref-type="bibr" rid="ref22">Langford, 2009</xref>; <xref ref-type="bibr" rid="ref48">Thanouli, 2009</xref>), narrative-structural description (<xref ref-type="bibr" rid="ref28">McKee, 1997</xref>), rhythmic ratio or cutting rates (<xref ref-type="bibr" rid="ref33">Redfern, 2022</xref>) and the technical characteristic of whether the excerpt is black and white or color. Taking these characteristics as a reference, a first list of different fragments extracted from 20 films was elaborated. This first selection was reviewed by two experts in film analysis (Juan José Caballero Molina y Daniel Jariod Dato). Based on the report prepared by the experts, the list was definitely reduced to the four selected fragments.</p>
+</fn>
+</fn-group>
+</back>
+</article>

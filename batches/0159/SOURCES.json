@@ -1,0 +1,55 @@
+{
+  "batch": "0159",
+  "scope": "Additional open research article XML with attribution; not original directory completion. External images and datasets excluded; normalized serialization and removal of access-bearing URL parameters explicitly documented.",
+  "new_canonical_source_objects": 1,
+  "new_original_payload_paths": 2,
+  "files": [
+    {
+      "title": "Cinematographic continuity edits across shot scales and camera angles: an ERP analysis",
+      "authors": [
+        "Javier Sanz-Aznar",
+        "Luis Emilio Bruni",
+        "Salvador Soto-Faraco"
+      ],
+      "doi": "10.3389/fnins.2023.1173704",
+      "source_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1173704/xml/nlm",
+      "canonical_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1173704/full",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Article-specific XML permissions includes CC BY 4.0 URL and redistribution grant.",
+      "original_bytes_unchanged": false,
+      "inventory_status": "additional research source, not original directory completion",
+      "repository": "web/frontiersin.org",
+      "file": "upstream/articles/continuity-edits-erp/continuity.normalized.xml",
+      "role": "canonical_document",
+      "coverage_kind": "normalized_article_xml",
+      "conditions": "Full article XML text, tables, captions and references. View-only URL parameters removed; no external images, film frames, videos, datasets or supplements. Not a complete visual package.",
+      "size_bytes": 109620,
+      "sha256": "5954f25be751e23bf185023dc6dbe942572b5f6ae7db95e268dc2fec2e209613",
+      "git_blob_sha1": "63b6456ab02bad9b9c9183cc823cda8a8af4cd3b"
+    },
+    {
+      "title": "Cinematographic continuity edits across shot scales and camera angles: an ERP analysis",
+      "authors": [
+        "Javier Sanz-Aznar",
+        "Luis Emilio Bruni",
+        "Salvador Soto-Faraco"
+      ],
+      "doi": "10.3389/fnins.2023.1173704",
+      "source_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1173704/xml/nlm",
+      "canonical_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1173704/full",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Article-specific XML permissions includes CC BY 4.0 URL and redistribution grant.",
+      "original_bytes_unchanged": false,
+      "inventory_status": "additional research source, not original directory completion",
+      "repository": "web/frontiersin.org",
+      "file": "upstream/articles/continuity-edits-erp/LICENSE.txt",
+      "role": "license_notice",
+      "coverage_kind": "archive_added_rights_notice",
+      "size_bytes": 1197,
+      "sha256": "5a6d388674e620ba4c982f0098f5b064eb9de72d4f5bcec2fb532cd36c6a2eba",
+      "git_blob_sha1": "600eb049064878a729f66f281f18ad8d9402dedb"
+    }
+  ]
+}
